@@ -1,0 +1,291 @@
+{
+  "@@locale": "en",
+  "appTitle": "Luotopia",
+  "navHome": "Home",
+  "navList": "Schedule",
+  "navForum": "Forum",
+  "navAi": "AI",
+  "navCampus": "Campus",
+  "navSettings": "Settings",
+  "homeTitle": "Schedule Overview",
+  "homeDescription": "The table page will show week and month planning grids here.",
+  "listTitle": "Items List",
+  "listDescription": "Task, schedule, memo and tag-based lists will be organized here.",
+  "forumTitle": "Luojia Shelter",
+  "campusTitle": "Campus",
+  "editorTitle": "Create Item",
+  "editorDescription": "The unified editor for schedule, task and memo will live here.",
+  "settingsTitle": "Settings",
+  "settingsDescription": "Global, schedule, and home settings will be grouped here.",
+  "settingsSearchTooltip": "Search settings",
+  "settingsSearchHint": "Search settings",
+  "settingsSearchEmpty": "No matching settings found",
+  "settingsGeneralEntryTitle": "General",
+  "settingsGeneralEntrySubtitle": "Theme, language, widgets and navigation",
+  "settingsHomeEntrySubtitle": "Home time blocks, grid mode and wide-screen range",
+  "settingsListEntryTitle": "List settings",
+  "settingsListEntrySubtitle": "Sort, reorder and list display preferences",
+  "settingsAboutEntryTitle": "About",
+  "settingsAboutEntrySubtitle": "App info, version and license",
+  "settingsGeneralWidgetsTitle": "Home-screen widgets",
+  "settingsAboutProductSubtitle": "Grid-based campus planning at a glance",
+  "settingsAboutVersionTitle": "Version",
+  "settingsQuickActionsTitle": "Quick access",
+  "settingsHomeSectionTitle": "Home settings",
+  "settingsHomeSectionDescription": "Configure the home grid time blocks and the default range on ultra-wide screens.",
+  "settingsHomeDayStart": "Day start time",
+  "settingsHomeBlockDuration": "Block duration",
+  "settingsHomeBlockGap": "Gap between blocks",
+  "settingsHomeBlockCount": "Block count",
+  "settingsHomeItemOpacity": "Home item block opacity",
+  "settingsHomeGridMode": "Grid mode",
+  "homeGridModeTime": "Time grid",
+  "homeGridModeCourse": "Course grid",
+  "settingsHomeWideLayout": "Ultra-wide default range",
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsMinutesValue": "{value} min",
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsPercentValue": "{value}%",
+  "detailTitle": "Item Detail",
+  "detailDescription": "Shows a full item profile with quick actions.",
+  "detailMissing": "This item could not be found. It may have been deleted.",
+  "detailTimeLabel": "Time",
+  "detailDeadlineLabel": "Deadline",
+  "detailLocationLabel": "Location",
+  "detailNotesLabel": "Notes",
+  "detailReminderLabel": "Reminder",
+  "detailRepeatLabel": "Repeat",
+  "detailMarkComplete": "Mark complete",
+  "detailMarkIncomplete": "Mark incomplete",
+  "detailDelete": "Delete item",
+  "timePickerTitle": "Time Picker",
+  "timePickerDescription": "This route is reserved for the shared day, week and month picker.",
+  "developmentTag": "Foundation UI",
+  "themeSectionTitle": "Display",
+  "themeModeLabel": "Theme mode",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+  "languageSectionTitle": "Language",
+  "languageLabel": "App language",
+  "languageChinese": "Chinese",
+  "languageEnglish": "English",
+  "commonBack": "Back",
+  "headerPreviousPeriod": "Previous period",
+  "headerNextPeriod": "Next period",
+  "headerOpenTimePicker": "Open time picker",
+  "headerOpenListTabs": "Open list tabs",
+  "headerOpenListSettings": "Open list settings",
+  "headerOpenItemTypePicker": "Open item type picker",
+  "homeScopePickerTitle": "Display range",
+  "homeScopeWeek": "Week",
+  "homeScopeMonth": "Month",
+  "listTabMyDay": "My Day",
+  "listTabAllItems": "All Items",
+  "listTabTasks": "Tasks",
+  "listTabSchedules": "Schedules",
+  "listTabMemos": "Memos",
+  "listMenuTitle": "Switch list tab",
+  "listSettingsMenuTitle": "List settings",
+  "listSettingsSort": "Sort by",
+  "listSettingsReorder": "Reorder tasks",
+  "listSettingsMore": "More settings",
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "listSummary": "{pending} pending, {completed} completed",
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listPendingSection": "Pending {count}",
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listCompletedSection": "Completed {count}",
+  "listCompletedExpand": "Expand completed items",
+  "listCompletedCollapse": "Collapse completed items",
+  "listEmptyTitle": "No items yet",
+  "listEmptyDescription": "Use the add button to create your first task, schedule, or memo.",
+  "listReorderHint": "Manual order is enabled. Drag the handle on each task to rearrange it.",
+  "listStaticItemsLabel": "Other items",
+  "listActionEdit": "Edit",
+  "listActionDelete": "Delete",
+  "listSortDueDate": "Due date",
+  "listSortTodayFocus": "Today focus",
+  "listSortAlphabetical": "Alphabetical",
+  "listSortCreatedDate": "Created date",
+  "listSortManual": "Manual order",
+  "listStatusPending": "Pending",
+  "listStatusCompleted": "Completed",
+  "editorTypePickerTitle": "Switch item type",
+  "editorTypeTask": "Task",
+  "editorTypeSchedule": "Schedule",
+  "editorTypeMemo": "Memo",
+  "editorCreateTask": "Create task",
+  "editorCreateSchedule": "Create schedule",
+  "editorCreateMemo": "Create memo",
+  "editorEditTask": "Edit task",
+  "editorEditSchedule": "Edit schedule",
+  "editorEditMemo": "Edit memo",
+  "editorSectionBasic": "Basic info",
+  "editorSectionColor": "Color",
+  "editorSectionTime": "Date & time",
+  "editorSectionReminder": "Reminder",
+  "editorSectionRepeat": "Repeat",
+  "editorSectionLocationNotes": "Location & notes",
+  "editorFieldTitle": "Title",
+  "editorFieldTitleName": "Task name",
+  "editorFieldDetails": "Details",
+  "editorFieldLocation": "Location",
+  "editorFieldStart": "Start",
+  "editorFieldEnd": "End",
+  "editorFieldDate": "Date",
+  "editorFieldStartDate": "Start date",
+  "editorFieldStartTime": "Start time",
+  "editorFieldEndDate": "End date",
+  "editorFieldEndTime": "End time",
+  "editorFieldDeadline": "Deadline",
+  "editorFieldDeadlineDate": "Deadline date",
+  "editorFieldDeadlineTime": "Deadline time",
+  "editorFieldTargetDate": "Target date",
+  "editorFieldEstimatedDuration": "Estimated duration",
+  "editorHintTitle": "What needs to be done?",
+  "editorHintTaskTitle": "Task name",
+  "editorHintScheduleTitle": "Schedule name",
+  "editorHintMemoTitle": "Memo name",
+  "editorHintCourseTitle": "Course name",
+  "editorHintDetails": "Add more context",
+  "editorHintLocation": "Where does it happen?",
+  "editorColorSky": "Sky",
+  "editorColorJade": "Jade",
+  "editorColorAmber": "Amber",
+  "editorColorCoral": "Coral",
+  "editorColorOrchid": "Orchid",
+  "editorColorSlate": "Slate",
+  "editorColorRose": "Rose",
+  "editorColorLime": "Lime",
+  "editorColorIndigo": "Indigo",
+  "editorColorTeal": "Teal",
+  "editorColorCrimson": "Crimson",
+  "editorColorViolet": "Violet",
+  "editorColorPickerTitle": "Choose color",
+  "editorAllDayTitle": "All-day item",
+  "editorAllDayDescription": "When enabled, only dates are shown and specific times are hidden.",
+  "editorReminderNone": "No reminder",
+  "editorReminderAtTime": "At time",
+  "editorReminderFiveMinutes": "5 minutes before",
+  "editorReminderFifteenMinutes": "15 minutes before",
+  "editorReminderOneHour": "1 hour before",
+  "editorReminderOneDay": "1 day before",
+  "editorReminderPageTitle": "Reminder settings",
+  "editorRepeatNone": "Does not repeat",
+  "editorRepeatDaily": "Every day",
+  "editorRepeatWeekdays": "Weekdays",
+  "editorRepeatWeekly": "Every week",
+  "editorRepeatMonthly": "Every month",
+  "editorRepeatYearly": "Every year",
+  "editorRepeatPageTitle": "Repeat settings",
+  "editorRepeatPagePlaceholder": "Advanced repeat rules will be expanded later.",
+  "editorDurationPickerTitle": "Choose duration",
+  "editorDeadlineClear": "Clear",
+  "editorDeadlineUnset": "Not set",
+  "editorPickerCancel": "Cancel",
+  "editorPickerConfirm": "Confirm",
+  "editorSubmitButton": "Create item",
+  "editorSubmitInvalid": "Please fix the highlighted fields first.",
+  "editorSubmitSuccess": "Item saved.",
+  "editorErrorTitleRequired": "Please enter a title.",
+  "editorErrorEndBeforeStart": "End time cannot be earlier than start time.",
+  "editorErrorDeadlineBeforeStart": "Deadline cannot be earlier than the start time.",
+  "editorErrorDurationPositive": "Duration must be greater than 0.",
+  "@editorDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHours": "{hours} h",
+  "@editorDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationMinutes": "{minutes} min",
+  "@editorDurationHourMinute": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHourMinute": "{hours} h {minutes} min",
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "detailRangeDate": "{start} to {end}",
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "detailMemoDate": "{date} · est. {duration}",
+  "aiTitle": "AI Assistant",
+  "aiInputHint": "Ask me anything about your schedule...",
+  "settingsAiSectionTitle": "AI settings",
+  "settingsAiBaseUrlLabel": "API URL",
+  "settingsAiApiKeyLabel": "API key",
+  "settingsAiModelLabel": "Model",
+  "settingsAiSystemPromptLabel": "System prompt",
+  "settingsAiTestButton": "Test connection",
+  "settingsAiTestingButton": "Testing...",
+  "settingsAiSaveButton": "Save AI settings",
+  "settingsAccountLocalTitle": "Local Account",
+  "settingsAccountWhuTitle": "WHU Account",
+  "settingsAccountWhuLoggedIn": "Authenticated",
+  "settingsAccountWhuNotLoggedIn": "Not logged in",
+  "settingsNavigationEntryTitle": "Navigation settings",
+  "settingsNavigationEntrySubtitle": "Labels and middle tab",
+  "settingsHomeCourseImport": "Course import",
+  "settingsHomeCourseManagement": "Timetable management",
+  "settingsHomeTimeGridSettings": "Time Grid Settings",
+  "settingsHomeCourseGridSettings": "Course Grid Settings",
+  "placeholderOpenPicker": "Open picker",
+  "placeholderOpenMenu": "Open menu"
+}
