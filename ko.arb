@@ -1,0 +1,291 @@
+{
+  "@@locale": "ko",
+  "appTitle": "루오토피아",
+  "navHome": "홈페이지",
+  "navList": "일정",
+  "navForum": "포럼",
+  "navAi": "AI",
+  "navCampus": "캠퍼스",
+  "navSettings": "설정",
+  "homeTitle": "일정 개요",
+  "homeDescription": "주간 보기와 월간 보기의 표 형식 계획 홈페이지를 호스팅합니다.",
+  "listTitle": "해야 할 일 목록",
+  "listDescription": "이는 작업, 일정, 메모 및 탭 기반 목록 환경을 호스팅합니다.",
+  "forumTitle": "뤄자 공습 대피소",
+  "campusTitle": "캠퍼스",
+  "editorTitle": "새 항목",
+  "editorDescription": "일정, 작업, 메모에 대한 통합 편집 페이지가 호스팅됩니다.",
+  "settingsTitle": "설정",
+  "settingsDescription": "이는 글로벌, 홈페이지 및 목록 페이지에 대한 설정 입구를 호스팅합니다.",
+  "settingsSearchTooltip": "검색 설정",
+  "settingsSearchHint": "검색 설정",
+  "settingsSearchEmpty": "일치하는 설정이 없습니다.",
+  "settingsGeneralEntryTitle": "일반 설정",
+  "settingsGeneralEntrySubtitle": "테마, 언어, 위젯 및 탐색 모음",
+  "settingsHomeEntrySubtitle": "홈 페이지 시간 블록, 그리드 모드 및 와이드스크린 디스플레이 범위",
+  "settingsListEntryTitle": "목록 페이지 설정",
+  "settingsListEntrySubtitle": "목록 정렬, 재정렬 및 표시 기본 설정",
+  "settingsAboutEntryTitle": "소개",
+  "settingsAboutEntrySubtitle": "애플리케이션 정보, 버전 및 라이센스",
+  "settingsGeneralWidgetsTitle": "데스크탑 위젯",
+  "settingsAboutProductSubtitle": "표로 작성된 캠퍼스 계획의 전체 화면 개요",
+  "settingsAboutVersionTitle": "버전",
+  "settingsQuickActionsTitle": "빠른 포지셔닝",
+  "settingsHomeSectionTitle": "홈페이지 설정",
+  "settingsHomeSectionDescription": "홈페이지의 시간 블록 분할 규칙과 울트라와이드 화면에 표시되는 기본 시간 범위를 구성합니다.",
+  "settingsHomeDayStart": "매일 시간 계획을 세우세요",
+  "settingsHomeBlockDuration": "단일 계획 블록 기간",
+  "settingsHomeBlockGap": "계획 블록 간격",
+  "settingsHomeBlockCount": "계획 블록 수",
+  "settingsHomeItemOpacity": "홈페이지 문제 상자 불투명도",
+  "settingsHomeGridMode": "그리드 패턴",
+  "homeGridModeTime": "시간 그리드",
+  "homeGridModeCourse": "커리큘럼 그리드",
+  "settingsHomeWideLayout": "울트라와이드 기본 범위",
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsMinutesValue": "{value}분",
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsPercentValue": "{value}%",
+  "detailTitle": "사항 내용",
+  "detailDescription": "단일 항목에 대한 완전한 정보와 빠른 작업을 표시합니다.",
+  "detailMissing": "이 항목을 찾을 수 없습니다. 삭제되었을 수도 있습니다.",
+  "detailTimeLabel": "시간",
+  "detailDeadlineLabel": "마감일",
+  "detailLocationLabel": "위치",
+  "detailNotesLabel": "비고",
+  "detailReminderLabel": "알림",
+  "detailRepeatLabel": "반복",
+  "detailMarkComplete": "완료로 표시",
+  "detailMarkIncomplete": "복원이 완료되지 않았습니다.",
+  "detailDelete": "항목 삭제",
+  "timePickerTitle": "시간 선택",
+  "timePickerDescription": "이 경로는 공유된 일, 주, 월 시간 선택기에 예약되어 있습니다.",
+  "developmentTag": "기본 UI",
+  "themeSectionTitle": "쇼",
+  "themeModeLabel": "테마 모드",
+  "themeLight": "연한 색",
+  "themeDark": "어둠",
+  "themeSystem": "시스템을 따르세요",
+  "languageSectionTitle": "언어",
+  "languageLabel": "응용 언어",
+  "languageChinese": "중국어",
+  "languageEnglish": "영어",
+  "commonBack": "반환",
+  "headerPreviousPeriod": "이전 기간",
+  "headerNextPeriod": "다음 기간",
+  "headerOpenTimePicker": "오픈 시간 선택",
+  "headerOpenListTabs": "탭 선택 열기",
+  "headerOpenListSettings": "목록 페이지 설정 열기",
+  "headerOpenItemTypePicker": "법적 사안 유형 전환 켜기",
+  "homeScopePickerTitle": "표시 범위",
+  "homeScopeWeek": "주",
+  "homeScopeMonth": "달",
+  "listTabMyDay": "나의 하루",
+  "listTabAllItems": "모든 문제",
+  "listTabTasks": "작업 목록",
+  "listTabSchedules": "일정 목록",
+  "listTabMemos": "치트 목록",
+  "listMenuTitle": "탭 전환",
+  "listSettingsMenuTitle": "목록 페이지 설정",
+  "listSettingsSort": "정렬 기준",
+  "listSettingsReorder": "작업 재정렬",
+  "listSettingsMore": "추가 설정",
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "listSummary": "미완성 {pending} 항목, 완료된 {completed} 항목",
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listPendingSection": "보류 중 {count}",
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listCompletedSection": "{count} 완료됨",
+  "listCompletedExpand": "완료된 항목 펼치기",
+  "listCompletedCollapse": "완료된 항목 닫기",
+  "listEmptyTitle": "아직 아무것도 없습니다",
+  "listEmptyDescription": "첫 번째 작업, 일정, 메모를 생성하려면 오른쪽 하단에 있는 더하기 기호를 클릭하세요.",
+  "listReorderHint": "현재 수동 정렬 중인 작업 오른쪽에 있는 핸들을 드래그하여 재정렬할 수 있습니다.",
+  "listStaticItemsLabel": "기타사항",
+  "listActionEdit": "편집",
+  "listActionDelete": "삭제",
+  "listSortDueDate": "만료 날짜",
+  "listSortTodayFocus": "오늘의 집행자",
+  "listSortAlphabetical": "알파벳순",
+  "listSortCreatedDate": "생성일",
+  "listSortManual": "수동 정렬",
+  "listStatusPending": "완료되지 않음",
+  "listStatusCompleted": "완료됨",
+  "editorTypePickerTitle": "문제 유형 전환",
+  "editorTypeTask": "작업",
+  "editorTypeSchedule": "일정",
+  "editorTypeMemo": "메모",
+  "editorCreateTask": "작업 만들기",
+  "editorCreateSchedule": "일정 만들기",
+  "editorCreateMemo": "메모 만들기",
+  "editorEditTask": "작업 수정",
+  "editorEditSchedule": "일정 수정",
+  "editorEditMemo": "편집자 주",
+  "editorSectionBasic": "기본정보",
+  "editorSectionColor": "색상",
+  "editorSectionTime": "날짜와 시간",
+  "editorSectionReminder": "알림",
+  "editorSectionRepeat": "반복",
+  "editorSectionLocationNotes": "위치 및 메모",
+  "editorFieldTitle": "이름",
+  "editorFieldTitleName": "작업 이름",
+  "editorFieldDetails": "세부정보",
+  "editorFieldLocation": "위치",
+  "editorFieldStart": "시작 시간",
+  "editorFieldEnd": "종료 시간",
+  "editorFieldDate": "날짜",
+  "editorFieldStartDate": "시작일",
+  "editorFieldStartTime": "시작 시간",
+  "editorFieldEndDate": "종료일",
+  "editorFieldEndTime": "종료 시간",
+  "editorFieldDeadline": "마감일",
+  "editorFieldDeadlineDate": "마감일",
+  "editorFieldDeadlineTime": "마감일",
+  "editorFieldTargetDate": "목표 날짜",
+  "editorFieldEstimatedDuration": "예상 기간",
+  "editorHintTitle": "이건 뭐라고 부르나요?",
+  "editorHintTaskTitle": "작업 이름",
+  "editorHintScheduleTitle": "일정 이름",
+  "editorHintMemoTitle": "메모 이름",
+  "editorHintCourseTitle": "코스명",
+  "editorHintDetails": "비고",
+  "editorHintLocation": "위치",
+  "editorColorSky": "하늘색",
+  "editorColorJade": "에메랄드 그린",
+  "editorColorAmber": "호박색",
+  "editorColorCoral": "산호 레드",
+  "editorColorOrchid": "파란색 보라색",
+  "editorColorSlate": "슬레이트 그레이",
+  "editorColorRose": "로즈 핑크",
+  "editorColorLime": "라임 그린",
+  "editorColorIndigo": "남색",
+  "editorColorTeal": "오리 그린",
+  "editorColorCrimson": "진홍색",
+  "editorColorViolet": "제비꽃",
+  "editorColorPickerTitle": "아이템 색상 선택",
+  "editorAllDayTitle": "하루 종일 할 일",
+  "editorAllDayDescription": "ON 후에는 날짜만 표시되며, 더 이상 특정 시간과 분을 별도로 설정하지 않습니다.",
+  "editorReminderNone": "상기시키지 않음",
+  "editorReminderAtTime": "정시에 알림",
+  "editorReminderFiveMinutes": "5분전",
+  "editorReminderFifteenMinutes": "15분 전",
+  "editorReminderOneHour": "1시간 전",
+  "editorReminderOneDay": "1일 전",
+  "editorReminderPageTitle": "알림 설정",
+  "editorRepeatNone": "반복되지 않음",
+  "editorRepeatDaily": "매일",
+  "editorRepeatWeekdays": "근무일",
+  "editorRepeatWeekly": "매주",
+  "editorRepeatMonthly": "매달",
+  "editorRepeatYearly": "매년",
+  "editorRepeatPageTitle": "반복 설정",
+  "editorRepeatPagePlaceholder": "복잡한 반복 규칙은 나중에 계속 확장될 예정입니다.",
+  "editorDurationPickerTitle": "기간 선택",
+  "editorDeadlineClear": "지우기",
+  "editorDeadlineUnset": "설정되지 않음",
+  "editorPickerCancel": "취소",
+  "editorPickerConfirm": "알았어",
+  "editorSubmitButton": "법적 사안 만들기",
+  "editorSubmitInvalid": "먼저 강조표시된 필드를 수정하세요.",
+  "editorSubmitSuccess": "항목이 저장되었습니다.",
+  "editorErrorTitleRequired": "이름을 입력하세요.",
+  "editorErrorEndBeforeStart": "종료 시간은 시작 시간보다 이전일 수 없습니다.",
+  "editorErrorDeadlineBeforeStart": "마감일은 시작 시간보다 이전일 수 없습니다.",
+  "editorErrorDurationPositive": "기간은 0보다 커야 합니다.",
+  "@editorDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHours": "{hours}시간",
+  "@editorDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationMinutes": "{minutes}분",
+  "@editorDurationHourMinute": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHourMinute": "{hours}시간 {minutes}분",
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "detailRangeDate": "{start} ~ {end}",
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "detailMemoDate": "{date} · 예상 {duration}",
+  "aiTitle": "AI 비서",
+  "aiInputHint": "일정에 관한 질문은..",
+  "settingsAiSectionTitle": "AI 설정",
+  "settingsAiBaseUrlLabel": "API 주소",
+  "settingsAiApiKeyLabel": "API 키",
+  "settingsAiModelLabel": "모델",
+  "settingsAiSystemPromptLabel": "시스템 프롬프트 단어",
+  "settingsAiTestButton": "연결 테스트",
+  "settingsAiTestingButton": "테스트 중...",
+  "settingsAiSaveButton": "AI 설정 저장",
+  "settingsAccountLocalTitle": "로컬 계정",
+  "settingsAccountWhuTitle": "우한대학교 계정",
+  "settingsAccountWhuLoggedIn": "인증됨",
+  "settingsAccountWhuNotLoggedIn": "로그인되지 않음",
+  "settingsNavigationEntryTitle": "탐색 표시줄 설정",
+  "settingsNavigationEntrySubtitle": "텍스트 표시, 중간 탭 페이지",
+  "settingsHomeCourseImport": "강좌일정 가져오기",
+  "settingsHomeCourseManagement": "강좌일정 관리",
+  "settingsHomeTimeGridSettings": "타임 그리드 모드 설정",
+  "settingsHomeCourseGridSettings": "코스 그리드 모드 설정",
+  "placeholderOpenPicker": "선택기 열기",
+  "placeholderOpenMenu": "메뉴 열기"
+}

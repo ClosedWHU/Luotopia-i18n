@@ -1,0 +1,291 @@
+{
+  "@@locale": "es",
+  "appTitle": "luotopia",
+  "navHome": "pagina de inicio",
+  "navList": "horario",
+  "navForum": "Foro",
+  "navAi": "IA",
+  "navCampus": "campus",
+  "navSettings": "ajustes",
+  "homeTitle": "Resumen de programación",
+  "homeDescription": "Esto albergará la página de inicio de planificación tabular de la vista semanal y la vista mensual.",
+  "listTitle": "Lista de cosas que hacer",
+  "listDescription": "Esto albergará tareas, horarios, notas y una experiencia de lista basada en pestañas.",
+  "forumTitle": "Refugio antiaéreo de Luojia",
+  "campusTitle": "campus",
+  "editorTitle": "Nuevo artículo",
+  "editorDescription": "Esto albergará una página de edición unificada para horarios, tareas y notas.",
+  "settingsTitle": "ajustes",
+  "settingsDescription": "Esto albergará las entradas de configuración para las páginas global, de inicio y de lista.",
+  "settingsSearchTooltip": "Configuración de búsqueda",
+  "settingsSearchHint": "Configuración de búsqueda",
+  "settingsSearchEmpty": "No se encontraron configuraciones coincidentes",
+  "settingsGeneralEntryTitle": "Configuraciones generales",
+  "settingsGeneralEntrySubtitle": "Temas, idiomas, widgets y barras de navegación",
+  "settingsHomeEntrySubtitle": "Bloques de tiempo de la página de inicio, modo de cuadrícula y rango de visualización en pantalla panorámica",
+  "settingsListEntryTitle": "Configuración de la página de lista",
+  "settingsListEntrySubtitle": "Lista de preferencias de clasificación, reordenación y visualización",
+  "settingsAboutEntryTitle": "Acerca de",
+  "settingsAboutEntrySubtitle": "Información de la aplicación, versión y licencia.",
+  "settingsGeneralWidgetsTitle": "widget de escritorio",
+  "settingsAboutProductSubtitle": "Descripción general en pantalla completa de la planificación tabulada del campus",
+  "settingsAboutVersionTitle": "versión",
+  "settingsQuickActionsTitle": "Posicionamiento rápido",
+  "settingsHomeSectionTitle": "Configuración de la página de inicio",
+  "settingsHomeSectionDescription": "Configure las reglas de segmentación de bloques de tiempo para la página de inicio y el rango de tiempo predeterminado que se muestra en la pantalla ultraancha.",
+  "settingsHomeDayStart": "Comienza a planificar tu tiempo todos los días",
+  "settingsHomeBlockDuration": "Duración del bloque de planificación único",
+  "settingsHomeBlockGap": "Intervalo de bloque de planificación",
+  "settingsHomeBlockCount": "Número de bloques de planificación",
+  "settingsHomeItemOpacity": "Opacidad del cuadro de materia de la página de inicio",
+  "settingsHomeGridMode": "patrón de cuadrícula",
+  "homeGridModeTime": "cuadrícula de tiempo",
+  "homeGridModeCourse": "Cuadrícula del plan de estudios",
+  "settingsHomeWideLayout": "Rango predeterminado ultra amplio",
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsMinutesValue": "{value} minutos",
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsPercentValue": "{value}%",
+  "detailTitle": "Detalles de la materia",
+  "detailDescription": "Muestra información completa y operaciones rápidas para un solo artículo.",
+  "detailMissing": "Este artículo no fue encontrado. Es posible que haya sido eliminado.",
+  "detailTimeLabel": "tiempo",
+  "detailDeadlineLabel": "Fecha límite",
+  "detailLocationLabel": "ubicación",
+  "detailNotesLabel": "Observaciones",
+  "detailReminderLabel": "recordatorio",
+  "detailRepeatLabel": "repetir",
+  "detailMarkComplete": "Marcar completo",
+  "detailMarkIncomplete": "Restauración no completada",
+  "detailDelete": "Eliminar elementos",
+  "timePickerTitle": "Selección de tiempo",
+  "timePickerDescription": "Esta ruta está reservada para selectores de tiempo compartidos de día, semana y mes.",
+  "developmentTag": "IU básica",
+  "themeSectionTitle": "mostrar",
+  "themeModeLabel": "modo tema",
+  "themeLight": "color claro",
+  "themeDark": "oscuro",
+  "themeSystem": "Sigue el sistema",
+  "languageSectionTitle": "Idioma",
+  "languageLabel": "idioma de aplicación",
+  "languageChinese": "chino",
+  "languageEnglish": "ingles",
+  "commonBack": "Regresar",
+  "headerPreviousPeriod": "período de tiempo anterior",
+  "headerNextPeriod": "próximo período de tiempo",
+  "headerOpenTimePicker": "Selección de horario abierto",
+  "headerOpenListTabs": "Selección de pestaña abierta",
+  "headerOpenListSettings": "Abrir configuración de página de lista",
+  "headerOpenItemTypePicker": "Activar el cambio de tipo de materia",
+  "homeScopePickerTitle": "Rango de visualización",
+  "homeScopeWeek": "semana",
+  "homeScopeMonth": "mes",
+  "listTabMyDay": "mi dia",
+  "listTabAllItems": "todos los asuntos",
+  "listTabTasks": "lista de tareas",
+  "listTabSchedules": "lista de horarios",
+  "listTabMemos": "lista de trucos",
+  "listMenuTitle": "Cambiar pestañas",
+  "listSettingsMenuTitle": "Configuración de la página de lista",
+  "listSettingsSort": "Ordenar por",
+  "listSettingsReorder": "Reordenar tareas",
+  "listSettingsMore": "Más configuraciones",
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "listSummary": "Artículos {pending} sin terminar, {completed} artículos completados",
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listPendingSection": "Pendiente {count}",
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listCompletedSection": "Completado {count}",
+  "listCompletedExpand": "Ampliar elementos completados",
+  "listCompletedCollapse": "Cerrar elementos completados",
+  "listEmptyTitle": "Nada aquí todavía",
+  "listEmptyDescription": "Haga clic en el signo más en la esquina inferior derecha para crear la primera tarea, programación o nota.",
+  "listReorderHint": "Actualmente en clasificación manual, arrastre el controlador en el lado derecho de la tarea para reorganizarla.",
+  "listStaticItemsLabel": "Otros asuntos",
+  "listActionEdit": "Editar",
+  "listActionDelete": "Eliminar",
+  "listSortDueDate": "fecha de vencimiento",
+  "listSortTodayFocus": "El ejecutor de hoy",
+  "listSortAlphabetical": "orden alfabético",
+  "listSortCreatedDate": "Fecha de creación",
+  "listSortManual": "clasificación manual",
+  "listStatusPending": "No completado",
+  "listStatusCompleted": "Completado",
+  "editorTypePickerTitle": "Cambiar tipo de asunto",
+  "editorTypeTask": "Tarea",
+  "editorTypeSchedule": "horario",
+  "editorTypeMemo": "nota",
+  "editorCreateTask": "Crear tareas",
+  "editorCreateSchedule": "Crear horario",
+  "editorCreateMemo": "crear una nota",
+  "editorEditTask": "Editar tarea",
+  "editorEditSchedule": "Editar horario",
+  "editorEditMemo": "Nota del editor",
+  "editorSectionBasic": "Información básica",
+  "editorSectionColor": "Color",
+  "editorSectionTime": "fecha y hora",
+  "editorSectionReminder": "recordatorio",
+  "editorSectionRepeat": "repetir",
+  "editorSectionLocationNotes": "Ubicación y notas",
+  "editorFieldTitle": "Nombre",
+  "editorFieldTitleName": "Nombre de la tarea",
+  "editorFieldDetails": "Detalles",
+  "editorFieldLocation": "ubicación",
+  "editorFieldStart": "hora de inicio",
+  "editorFieldEnd": "tiempo final",
+  "editorFieldDate": "Fecha",
+  "editorFieldStartDate": "fecha de inicio",
+  "editorFieldStartTime": "hora de inicio",
+  "editorFieldEndDate": "fecha de finalización",
+  "editorFieldEndTime": "tiempo final",
+  "editorFieldDeadline": "Fecha límite",
+  "editorFieldDeadlineDate": "Fecha límite",
+  "editorFieldDeadlineTime": "Fecha límite",
+  "editorFieldTargetDate": "fecha objetivo",
+  "editorFieldEstimatedDuration": "Duración estimada",
+  "editorHintTitle": "¿Cómo se llama esta cosa?",
+  "editorHintTaskTitle": "Nombre de la tarea",
+  "editorHintScheduleTitle": "Nombre del horario",
+  "editorHintMemoTitle": "Nombre de la nota",
+  "editorHintCourseTitle": "Nombre del curso",
+  "editorHintDetails": "Observaciones",
+  "editorHintLocation": "ubicación",
+  "editorColorSky": "azul cielo",
+  "editorColorJade": "verde esmeralda",
+  "editorColorAmber": "ámbar",
+  "editorColorCoral": "rojo coral",
+  "editorColorOrchid": "azul morado",
+  "editorColorSlate": "gris pizarra",
+  "editorColorRose": "rosa rosa",
+  "editorColorLime": "verde lima",
+  "editorColorIndigo": "índigo",
+  "editorColorTeal": "pato verde",
+  "editorColorCrimson": "carmesí",
+  "editorColorViolet": "violeta",
+  "editorColorPickerTitle": "Seleccionar color del artículo",
+  "editorAllDayTitle": "tareas de todo el día",
+  "editorAllDayDescription": "Después de encenderlo, solo se mostrará la fecha y la hora y los minutos específicos ya no se configurarán por separado.",
+  "editorReminderNone": "no recordar",
+  "editorReminderAtTime": "Recordatorio a tiempo",
+  "editorReminderFiveMinutes": "5 minutos antes de tiempo",
+  "editorReminderFifteenMinutes": "15 minutos antes de tiempo",
+  "editorReminderOneHour": "1 hora de antelación",
+  "editorReminderOneDay": "1 dia de anticipacion",
+  "editorReminderPageTitle": "Configuración de recordatorio",
+  "editorRepeatNone": "No repetido",
+  "editorRepeatDaily": "todos los dias",
+  "editorRepeatWeekdays": "dias laborables",
+  "editorRepeatWeekly": "semanal",
+  "editorRepeatMonthly": "mensual",
+  "editorRepeatYearly": "cada año",
+  "editorRepeatPageTitle": "Repetir configuración",
+  "editorRepeatPagePlaceholder": "Las complejas reglas de repetición se seguirán ampliando más adelante.",
+  "editorDurationPickerTitle": "Seleccionar duración",
+  "editorDeadlineClear": "Borrar",
+  "editorDeadlineUnset": "no establecido",
+  "editorPickerCancel": "Cancelar",
+  "editorPickerConfirm": "bien",
+  "editorSubmitButton": "crear un asunto",
+  "editorSubmitInvalid": "Corrija primero los campos resaltados.",
+  "editorSubmitSuccess": "El artículo ha sido guardado.",
+  "editorErrorTitleRequired": "Por favor ingrese un nombre.",
+  "editorErrorEndBeforeStart": "La hora de finalización no puede ser anterior a la hora de inicio.",
+  "editorErrorDeadlineBeforeStart": "La fecha límite no puede ser anterior a la hora de inicio.",
+  "editorErrorDurationPositive": "La duración debe ser mayor que 0.",
+  "@editorDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHours": "{hours} horas",
+  "@editorDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationMinutes": "{minutes} minutos",
+  "@editorDurationHourMinute": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHourMinute": "{hours} horas {minutes} minutos",
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "detailRangeDate": "{start} a {end}",
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "detailMemoDate": "{date} · Esperado {duration}",
+  "aiTitle": "asistente de IA",
+  "aiInputHint": "Cualquier duda sobre el horario...",
+  "settingsAiSectionTitle": "Configuración de IA",
+  "settingsAiBaseUrlLabel": "dirección API",
+  "settingsAiApiKeyLabel": "clave API",
+  "settingsAiModelLabel": "modelo",
+  "settingsAiSystemPromptLabel": "Palabra de aviso del sistema",
+  "settingsAiTestButton": "conexión de prueba",
+  "settingsAiTestingButton": "Probando...",
+  "settingsAiSaveButton": "Guardar configuración de IA",
+  "settingsAccountLocalTitle": "cuenta local",
+  "settingsAccountWhuTitle": "Cuenta de la Universidad de Wuhan",
+  "settingsAccountWhuLoggedIn": "Certificado",
+  "settingsAccountWhuNotLoggedIn": "No iniciado sesión",
+  "settingsNavigationEntryTitle": "Configuración de la barra de navegación",
+  "settingsNavigationEntrySubtitle": "Mostrar texto, página de pestaña central",
+  "settingsHomeCourseImport": "Importación del horario del curso",
+  "settingsHomeCourseManagement": "Gestión de horarios de cursos",
+  "settingsHomeTimeGridSettings": "Configuración del modo de cuadrícula de tiempo",
+  "settingsHomeCourseGridSettings": "Configuración del modo de cuadrícula del curso",
+  "placeholderOpenPicker": "Abrir selector",
+  "placeholderOpenMenu": "abrir menú"
+}

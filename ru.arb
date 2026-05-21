@@ -1,0 +1,291 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Луотопия",
+  "navHome": "Домашняя страница",
+  "navList": "расписание",
+  "navForum": "Форум",
+  "navAi": "ИИ",
+  "navCampus": "кампус",
+  "navSettings": "настройки",
+  "homeTitle": "Обзор расписания",
+  "homeDescription": "Здесь будет размещена домашняя страница табличного планирования с еженедельным и ежемесячным просмотром.",
+  "listTitle": "Список дел, которые нужно сделать",
+  "listDescription": "Здесь будут размещаться задачи, расписания, заметки и список на основе вкладок.",
+  "forumTitle": "Луоцзяское бомбоубежище",
+  "campusTitle": "кампус",
+  "editorTitle": "Новый товар",
+  "editorDescription": "Здесь будет размещена единая страница редактирования расписаний, задач и заметок.",
+  "settingsTitle": "настройки",
+  "settingsDescription": "Здесь будут размещены входы настроек для глобальной страницы, домашней страницы и страниц списка.",
+  "settingsSearchTooltip": "Настройки поиска",
+  "settingsSearchHint": "Настройки поиска",
+  "settingsSearchEmpty": "Соответствующие настройки не найдены",
+  "settingsGeneralEntryTitle": "Общие настройки",
+  "settingsGeneralEntrySubtitle": "Темы, языки, виджеты и панели навигации",
+  "settingsHomeEntrySubtitle": "Временные блоки на главной странице, режим сетки и широкоэкранный диапазон отображения",
+  "settingsListEntryTitle": "Настройки страницы списка",
+  "settingsListEntrySubtitle": "Сортировка списка, изменение порядка и параметры отображения",
+  "settingsAboutEntryTitle": "О",
+  "settingsAboutEntrySubtitle": "Информация о приложении, версия и лицензия",
+  "settingsGeneralWidgetsTitle": "виджет рабочего стола",
+  "settingsAboutProductSubtitle": "Полноэкранный обзор табличного планирования кампуса",
+  "settingsAboutVersionTitle": "версия",
+  "settingsQuickActionsTitle": "Быстрое позиционирование",
+  "settingsHomeSectionTitle": "Настройки главной страницы",
+  "settingsHomeSectionDescription": "Настройте правила сегментации временных блоков для домашней страницы и диапазон времени по умолчанию, отображаемый на сверхшироком экране.",
+  "settingsHomeDayStart": "Начните планировать свое время каждый день",
+  "settingsHomeBlockDuration": "Продолжительность одного блока планирования",
+  "settingsHomeBlockGap": "Интервал планирования блока",
+  "settingsHomeBlockCount": "Количество блоков планирования",
+  "settingsHomeItemOpacity": "Непрозрачность поля главной страницы",
+  "settingsHomeGridMode": "сетка",
+  "homeGridModeTime": "временная сетка",
+  "homeGridModeCourse": "Сетка учебной программы",
+  "settingsHomeWideLayout": "Сверхширокий диапазон по умолчанию",
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsMinutesValue": "{value} минут",
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsPercentValue": "{value}%",
+  "detailTitle": "Подробности дела",
+  "detailDescription": "Отображение полной информации и быстрых операций для одного элемента.",
+  "detailMissing": "Этот элемент не найден. Возможно, оно было удалено.",
+  "detailTimeLabel": "время",
+  "detailDeadlineLabel": "Крайний срок",
+  "detailLocationLabel": "местоположение",
+  "detailNotesLabel": "Примечания",
+  "detailReminderLabel": "напоминание",
+  "detailRepeatLabel": "Повторить",
+  "detailMarkComplete": "Отметить как завершенное",
+  "detailMarkIncomplete": "Восстановление не завершено",
+  "detailDelete": "Удалить элементы",
+  "timePickerTitle": "Выбор времени",
+  "timePickerDescription": "Этот маршрут зарезервирован для общих селекторов времени дня, недели и месяца.",
+  "developmentTag": "Базовый пользовательский интерфейс",
+  "themeSectionTitle": "показать",
+  "themeModeLabel": "режим темы",
+  "themeLight": "светлый цвет",
+  "themeDark": "Темный",
+  "themeSystem": "Следуйте системе",
+  "languageSectionTitle": "Язык",
+  "languageLabel": "язык приложения",
+  "languageChinese": "китайский",
+  "languageEnglish": "английский",
+  "commonBack": "Возврат",
+  "headerPreviousPeriod": "предыдущий период времени",
+  "headerNextPeriod": "следующий период времени",
+  "headerOpenTimePicker": "Выбор времени открытия",
+  "headerOpenListTabs": "Открыть выбор вкладки",
+  "headerOpenListSettings": "Открыть настройки страницы списка",
+  "headerOpenItemTypePicker": "Включить переключение типа материи",
+  "homeScopePickerTitle": "Диапазон отображения",
+  "homeScopeWeek": "неделя",
+  "homeScopeMonth": "месяц",
+  "listTabMyDay": "мой день",
+  "listTabAllItems": "Все имеет значение",
+  "listTabTasks": "список задач",
+  "listTabSchedules": "список расписаний",
+  "listTabMemos": "Чит-лист",
+  "listMenuTitle": "Переключение вкладок",
+  "listSettingsMenuTitle": "Настройки страницы списка",
+  "listSettingsSort": "Сортировать по",
+  "listSettingsReorder": "Изменение порядка задач",
+  "listSettingsMore": "Дополнительные настройки",
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "listSummary": "Незавершенные элементы {pending}, завершенные элементы {completed}",
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listPendingSection": "Ожидается {count}",
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listCompletedSection": "Завершено {count}",
+  "listCompletedExpand": "Развернуть завершенные элементы",
+  "listCompletedCollapse": "Закрыть завершенные элементы",
+  "listEmptyTitle": "Здесь пока ничего",
+  "listEmptyDescription": "Нажмите знак «плюс» в правом нижнем углу, чтобы создать первую задачу, расписание или заметку.",
+  "listReorderHint": "В настоящее время выполняется сортировка вручную, перетащите маркер с правой стороны задачи, чтобы изменить ее порядок.",
+  "listStaticItemsLabel": "Прочие вопросы",
+  "listActionEdit": "Редактировать",
+  "listActionDelete": "Удалить",
+  "listSortDueDate": "срок годности",
+  "listSortTodayFocus": "Сегодняшний исполнитель",
+  "listSortAlphabetical": "алфавитный порядок",
+  "listSortCreatedDate": "Дата создания",
+  "listSortManual": "Ручная сортировка",
+  "listStatusPending": "Не завершено",
+  "listStatusCompleted": "Завершено",
+  "editorTypePickerTitle": "Переключить тип дела",
+  "editorTypeTask": "Задача",
+  "editorTypeSchedule": "расписание",
+  "editorTypeMemo": "памятка",
+  "editorCreateTask": "Создать задачу",
+  "editorCreateSchedule": "Создать расписание",
+  "editorCreateMemo": "Создать заметку",
+  "editorEditTask": "Изменить задачу",
+  "editorEditSchedule": "Изменить расписание",
+  "editorEditMemo": "Примечание редактора",
+  "editorSectionBasic": "Основная информация",
+  "editorSectionColor": "Цвет",
+  "editorSectionTime": "дата и время",
+  "editorSectionReminder": "напоминание",
+  "editorSectionRepeat": "Повторить",
+  "editorSectionLocationNotes": "Местоположение и примечания",
+  "editorFieldTitle": "Имя",
+  "editorFieldTitleName": "Название задачи",
+  "editorFieldDetails": "Подробности",
+  "editorFieldLocation": "местоположение",
+  "editorFieldStart": "время начала",
+  "editorFieldEnd": "время окончания",
+  "editorFieldDate": "Дата",
+  "editorFieldStartDate": "дата начала",
+  "editorFieldStartTime": "время начала",
+  "editorFieldEndDate": "дата окончания",
+  "editorFieldEndTime": "время окончания",
+  "editorFieldDeadline": "Крайний срок",
+  "editorFieldDeadlineDate": "Крайний срок",
+  "editorFieldDeadlineTime": "Крайний срок",
+  "editorFieldTargetDate": "расчетная дата",
+  "editorFieldEstimatedDuration": "Предполагаемая продолжительность",
+  "editorHintTitle": "Как называется эта вещь?",
+  "editorHintTaskTitle": "Название задачи",
+  "editorHintScheduleTitle": "Название расписания",
+  "editorHintMemoTitle": "Название заметки",
+  "editorHintCourseTitle": "Название курса",
+  "editorHintDetails": "Примечания",
+  "editorHintLocation": "местоположение",
+  "editorColorSky": "небесно-голубой",
+  "editorColorJade": "изумрудно-зеленый",
+  "editorColorAmber": "янтарь",
+  "editorColorCoral": "кораллово-красный",
+  "editorColorOrchid": "синий фиолетовый",
+  "editorColorSlate": "шиферно-серый",
+  "editorColorRose": "розово-розовый",
+  "editorColorLime": "зеленый лайм",
+  "editorColorIndigo": "индиго",
+  "editorColorTeal": "утиный зеленый",
+  "editorColorCrimson": "малиновый",
+  "editorColorViolet": "фиолетовый",
+  "editorColorPickerTitle": "Выберите цвет элемента",
+  "editorAllDayTitle": "задачи на весь день",
+  "editorAllDayDescription": "После его включения будет отображаться только дата, а конкретное время и минуты уже не будут устанавливаться отдельно.",
+  "editorReminderNone": "Не напоминать",
+  "editorReminderAtTime": "Напоминание вовремя",
+  "editorReminderFiveMinutes": "на 5 минут раньше времени",
+  "editorReminderFifteenMinutes": "на 15 минут раньше времени",
+  "editorReminderOneHour": "за 1 час заранее",
+  "editorReminderOneDay": "за 1 день вперед",
+  "editorReminderPageTitle": "Настройки напоминаний",
+  "editorRepeatNone": "Не повторяется",
+  "editorRepeatDaily": "каждый день",
+  "editorRepeatWeekdays": "рабочие дни",
+  "editorRepeatWeekly": "еженедельно",
+  "editorRepeatMonthly": "ежемесячно",
+  "editorRepeatYearly": "каждый год",
+  "editorRepeatPageTitle": "Повторить настройки",
+  "editorRepeatPagePlaceholder": "Правила сложного повторения будут расширяться позже.",
+  "editorDurationPickerTitle": "Выберите продолжительность",
+  "editorDeadlineClear": "Очистить",
+  "editorDeadlineUnset": "не установлено",
+  "editorPickerCancel": "Отмена",
+  "editorPickerConfirm": "ОК",
+  "editorSubmitButton": "Создать дело",
+  "editorSubmitInvalid": "Сначала исправьте выделенные поля.",
+  "editorSubmitSuccess": "Товар сохранен.",
+  "editorErrorTitleRequired": "Пожалуйста, введите имя.",
+  "editorErrorEndBeforeStart": "Время окончания не может быть раньше времени начала.",
+  "editorErrorDeadlineBeforeStart": "Крайний срок не может быть раньше времени начала.",
+  "editorErrorDurationPositive": "Длительность должна быть больше 0.",
+  "@editorDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHours": "{hours} часов",
+  "@editorDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationMinutes": "{minutes} минут",
+  "@editorDurationHourMinute": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHourMinute": "{hours} часов {minutes} минут",
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "detailRangeDate": "от {start} до {end}",
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "detailMemoDate": "{date} · Ожидается {duration}",
+  "aiTitle": "ИИ-помощник",
+  "aiInputHint": "Есть вопросы по расписанию...",
+  "settingsAiSectionTitle": "Настройки ИИ",
+  "settingsAiBaseUrlLabel": "API-адрес",
+  "settingsAiApiKeyLabel": "API-ключ",
+  "settingsAiModelLabel": "модель",
+  "settingsAiSystemPromptLabel": "Слово системной подсказки",
+  "settingsAiTestButton": "тестовое соединение",
+  "settingsAiTestingButton": "Тестирование...",
+  "settingsAiSaveButton": "Сохранение настроек ИИ",
+  "settingsAccountLocalTitle": "локальная учетная запись",
+  "settingsAccountWhuTitle": "Счет Уханьского университета",
+  "settingsAccountWhuLoggedIn": "Сертифицированный",
+  "settingsAccountWhuNotLoggedIn": "Не авторизован",
+  "settingsNavigationEntryTitle": "Настройки панели навигации",
+  "settingsNavigationEntrySubtitle": "Показать текст, средняя вкладка",
+  "settingsHomeCourseImport": "Импорт расписания курсов",
+  "settingsHomeCourseManagement": "Управление расписанием курсов",
+  "settingsHomeTimeGridSettings": "Настройки режима временной сетки",
+  "settingsHomeCourseGridSettings": "Настройки режима сетки курса",
+  "placeholderOpenPicker": "Открыть селектор",
+  "placeholderOpenMenu": "Открыть меню"
+}

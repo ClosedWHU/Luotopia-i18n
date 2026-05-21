@@ -1,0 +1,291 @@
+{
+  "@@locale": "ja",
+  "appTitle": "ルオトピア",
+  "navHome": "ホームページ",
+  "navList": "スケジュール",
+  "navForum": "フォーラム",
+  "navAi": "AI",
+  "navCampus": "キャンパス",
+  "navSettings": "設定",
+  "homeTitle": "スケジュール概要",
+  "homeDescription": "これは、週次ビューと月次ビューの表形式の計画ホームページをホストします。",
+  "listTitle": "やるべきことのリスト",
+  "listDescription": "これにより、タスク、スケジュール、メモ、タブ駆動のリスト エクスペリエンスがホストされます。",
+  "forumTitle": "羅家防空壕",
+  "campusTitle": "キャンパス",
+  "editorTitle": "新しいアイテム",
+  "editorDescription": "これにより、スケジュール、タスク、メモの統合編集ページがホストされます。",
+  "settingsTitle": "設定",
+  "settingsDescription": "これは、グローバル、ホームページ、およびリスト ページの設定入り口をホストします。",
+  "settingsSearchTooltip": "検索設定",
+  "settingsSearchHint": "検索設定",
+  "settingsSearchEmpty": "一致する設定が見つかりません",
+  "settingsGeneralEntryTitle": "一般設定",
+  "settingsGeneralEntrySubtitle": "テーマ、言語、ウィジェット、ナビゲーション バー",
+  "settingsHomeEntrySubtitle": "ホームページのタイムブロック、グリッドモード、ワイドスクリーンの表示範囲",
+  "settingsListEntryTitle": "リストページの設定",
+  "settingsListEntrySubtitle": "リストの並べ替え、並べ替え、表示設定",
+  "settingsAboutEntryTitle": "について",
+  "settingsAboutEntrySubtitle": "アプリケーション情報、バージョン、ライセンス",
+  "settingsGeneralWidgetsTitle": "デスクトップウィジェット",
+  "settingsAboutProductSubtitle": "表形式のキャンパス計画の全画面概要",
+  "settingsAboutVersionTitle": "バージョン",
+  "settingsQuickActionsTitle": "素早い位置決め",
+  "settingsHomeSectionTitle": "ホームページの設定",
+  "settingsHomeSectionDescription": "ホームページの時間ブロック分割ルールと、ウルトラワイド画面に表示されるデフォルトの時間範囲を設定します。",
+  "settingsHomeDayStart": "毎日の時間を計画し始めましょう",
+  "settingsHomeBlockDuration": "Single planning block duration",
+  "settingsHomeBlockGap": "計画ブロック間隔",
+  "settingsHomeBlockCount": "計画ブロックの数",
+  "settingsHomeItemOpacity": "ホームページの事項ボックスの不透明度",
+  "settingsHomeGridMode": "グリッドパターン",
+  "homeGridModeTime": "タイムグリッド",
+  "homeGridModeCourse": "カリキュラムグリッド",
+  "settingsHomeWideLayout": "超広範なデフォルト範囲",
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsMinutesValue": "{value}分",
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsPercentValue": "{value}%",
+  "detailTitle": "事項詳細",
+  "detailDescription": "単一アイテムの完全な情報とクイック操作を表示します。",
+  "detailMissing": "この項目は見つかりませんでした。削除された可能性があります。",
+  "detailTimeLabel": "時間",
+  "detailDeadlineLabel": "締め切り",
+  "detailLocationLabel": "場所",
+  "detailNotesLabel": "備考",
+  "detailReminderLabel": "リマインダー",
+  "detailRepeatLabel": "リピート",
+  "detailMarkComplete": "完了としてマークを付ける",
+  "detailMarkIncomplete": "復元が完了していません",
+  "detailDelete": "項目を削除する",
+  "timePickerTitle": "時間の選択",
+  "timePickerDescription": "このルートは、共有の日、週、月の時間セレクター用に予約されています。",
+  "developmentTag": "基本的なUI",
+  "themeSectionTitle": "ショー",
+  "themeModeLabel": "テーマモード",
+  "themeLight": "明るい色",
+  "themeDark": "暗い",
+  "themeSystem": "システムに従ってください",
+  "languageSectionTitle": "言語",
+  "languageLabel": "アプリケーション言語",
+  "languageChinese": "中国語",
+  "languageEnglish": "英語",
+  "commonBack": "戻る",
+  "headerPreviousPeriod": "以前の期間",
+  "headerNextPeriod": "次の期間",
+  "headerOpenTimePicker": "オープン時間の選択",
+  "headerOpenListTabs": "タブの選択を開く",
+  "headerOpenListSettings": "リストページの設定を開く",
+  "headerOpenItemTypePicker": "物質タイプの切り替えをオンにする",
+  "homeScopePickerTitle": "表示範囲",
+  "homeScopeWeek": "週",
+  "homeScopeMonth": "月",
+  "listTabMyDay": "私の一日",
+  "listTabAllItems": "すべての問題",
+  "listTabTasks": "タスクリスト",
+  "listTabSchedules": "スケジュールリスト",
+  "listTabMemos": "チートリスト",
+  "listMenuTitle": "タブを切り替える",
+  "listSettingsMenuTitle": "リストページの設定",
+  "listSettingsSort": "並べ替え順",
+  "listSettingsReorder": "タスクを並べ替える",
+  "listSettingsMore": "その他の設定",
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "listSummary": "未完了の {pending} アイテム、完了した {completed} アイテム",
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listPendingSection": "保留中 {count}",
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listCompletedSection": "{count} を完了しました",
+  "listCompletedExpand": "完了したアイテムを展開する",
+  "listCompletedCollapse": "完了したアイテムを閉じる",
+  "listEmptyTitle": "ここにはまだ何もありません",
+  "listEmptyDescription": "右下隅のプラス記号をクリックして、最初のタスク、スケジュール、またはメモを作成します。",
+  "listReorderHint": "現在手動で並べ替えている場合、タスクの右側にあるハンドルをドラッグして並べ替えます。",
+  "listStaticItemsLabel": "その他の事項",
+  "listActionEdit": "編集",
+  "listActionDelete": "削除",
+  "listSortDueDate": "有効期限",
+  "listSortTodayFocus": "今日の執行者",
+  "listSortAlphabetical": "アルファベット順",
+  "listSortCreatedDate": "作成日",
+  "listSortManual": "手動ソート",
+  "listStatusPending": "未完了",
+  "listStatusCompleted": "完了しました",
+  "editorTypePickerTitle": "スイッチマタータイプ",
+  "editorTypeTask": "タスク",
+  "editorTypeSchedule": "スケジュール",
+  "editorTypeMemo": "メモ",
+  "editorCreateTask": "タスクの作成",
+  "editorCreateSchedule": "スケジュールの作成",
+  "editorCreateMemo": "メモを作成する",
+  "editorEditTask": "タスクの編集",
+  "editorEditSchedule": "スケジュールを編集する",
+  "editorEditMemo": "編集者注記",
+  "editorSectionBasic": "基本情報",
+  "editorSectionColor": "色",
+  "editorSectionTime": "日付と時刻",
+  "editorSectionReminder": "リマインダー",
+  "editorSectionRepeat": "リピート",
+  "editorSectionLocationNotes": "場所と注意事項",
+  "editorFieldTitle": "名前",
+  "editorFieldTitleName": "タスク名",
+  "editorFieldDetails": "詳細",
+  "editorFieldLocation": "場所",
+  "editorFieldStart": "開始時間",
+  "editorFieldEnd": "終了時間",
+  "editorFieldDate": "日付",
+  "editorFieldStartDate": "開始日",
+  "editorFieldStartTime": "開始時間",
+  "editorFieldEndDate": "終了日",
+  "editorFieldEndTime": "終了時間",
+  "editorFieldDeadline": "締め切り",
+  "editorFieldDeadlineDate": "締め切り",
+  "editorFieldDeadlineTime": "締め切り",
+  "editorFieldTargetDate": "目標日",
+  "editorFieldEstimatedDuration": "推定所要時間",
+  "editorHintTitle": "これは何と呼ばれるものですか?",
+  "editorHintTaskTitle": "タスク名",
+  "editorHintScheduleTitle": "スケジュール名",
+  "editorHintMemoTitle": "メモ名",
+  "editorHintCourseTitle": "コース名",
+  "editorHintDetails": "備考",
+  "editorHintLocation": "場所",
+  "editorColorSky": "スカイブルー",
+  "editorColorJade": "エメラルドグリーン",
+  "editorColorAmber": "琥珀",
+  "editorColorCoral": "コーラルレッド",
+  "editorColorOrchid": "青紫",
+  "editorColorSlate": "スレートグレー",
+  "editorColorRose": "ローズピンク",
+  "editorColorLime": "ライムグリーン",
+  "editorColorIndigo": "インディゴ",
+  "editorColorTeal": "アヒルグリーン",
+  "editorColorCrimson": "深紅の",
+  "editorColorViolet": "バイオレット",
+  "editorColorPickerTitle": "アイテムカラーを選択してください",
+  "editorAllDayTitle": "終日のタスク",
+  "editorAllDayDescription": "オンにすると日付のみが表示され、特定の時間と分を個別に設定することはなくなります。",
+  "editorReminderNone": "思い出さないでください",
+  "editorReminderAtTime": "時間通りにリマインダー",
+  "editorReminderFiveMinutes": "5分前に",
+  "editorReminderFifteenMinutes": "15分前",
+  "editorReminderOneHour": "1時間前",
+  "editorReminderOneDay": "1日前まで",
+  "editorReminderPageTitle": "リマインダー設定",
+  "editorRepeatNone": "繰り返されない",
+  "editorRepeatDaily": "毎日",
+  "editorRepeatWeekdays": "営業日",
+  "editorRepeatWeekly": "毎週",
+  "editorRepeatMonthly": "毎月",
+  "editorRepeatYearly": "毎年",
+  "editorRepeatPageTitle": "リピート設定",
+  "editorRepeatPagePlaceholder": "複雑な繰り返しルールは今後も拡張されていく予定です。",
+  "editorDurationPickerTitle": "期間を選択してください",
+  "editorDeadlineClear": "クリア",
+  "editorDeadlineUnset": "設定されていません",
+  "editorPickerCancel": "キャンセル",
+  "editorPickerConfirm": "OK",
+  "editorSubmitButton": "案件を作成する",
+  "editorSubmitInvalid": "まず強調表示されたフィールドを修正してください。",
+  "editorSubmitSuccess": "アイテムは保存されました。",
+  "editorErrorTitleRequired": "名前を入力してください。",
+  "editorErrorEndBeforeStart": "終了時刻を開始時刻より早くすることはできません。",
+  "editorErrorDeadlineBeforeStart": "締め切りを開始時刻より早くすることはできません。",
+  "editorErrorDurationPositive": "期間は 0 より大きくなければなりません。",
+  "@editorDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHours": "{hours}時間",
+  "@editorDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationMinutes": "{minutes}分",
+  "@editorDurationHourMinute": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHourMinute": "{hours}時間 {minutes}分",
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "detailRangeDate": "{start} から {end}",
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "detailMemoDate": "{date} · {duration} が予想されます",
+  "aiTitle": "AIアシスタント",
+  "aiInputHint": "スケジュールに関するご質問は...",
+  "settingsAiSectionTitle": "AI設定",
+  "settingsAiBaseUrlLabel": "APIアドレス",
+  "settingsAiApiKeyLabel": "APIキー",
+  "settingsAiModelLabel": "モデル",
+  "settingsAiSystemPromptLabel": "システムプロンプトの単語",
+  "settingsAiTestButton": "テスト接続",
+  "settingsAiTestingButton": "テスト中...",
+  "settingsAiSaveButton": "AI設定を保存する",
+  "settingsAccountLocalTitle": "ローカルアカウント",
+  "settingsAccountWhuTitle": "武漢大学アカウント",
+  "settingsAccountWhuLoggedIn": "認定済み",
+  "settingsAccountWhuNotLoggedIn": "ログインしていません",
+  "settingsNavigationEntryTitle": "ナビゲーションバーの設定",
+  "settingsNavigationEntrySubtitle": "Show text, middle tab page",
+  "settingsHomeCourseImport": "コーススケジュールのインポート",
+  "settingsHomeCourseManagement": "コーススケジュール管理",
+  "settingsHomeTimeGridSettings": "タイムグリッドモードの設定",
+  "settingsHomeCourseGridSettings": "コースグリッドモードの設定",
+  "placeholderOpenPicker": "セレクターを開く",
+  "placeholderOpenMenu": "メニューを開く"
+}

@@ -1,0 +1,291 @@
+{
+  "@@locale": "yue",
+  "appTitle": "羅托邦",
+  "navHome": "主頁",
+  "navList": "日程",
+  "navForum": "論壇",
+  "navAi": "人工智能",
+  "navCampus": "校園",
+  "navSettings": "設定",
+  "homeTitle": "日程總覽",
+  "homeDescription": "呢度會承載周視圖同月視圖嘅表格化規劃主頁。",
+  "listTitle": "事項列表",
+  "listDescription": "呢度會承載任務、日程、備忘同標籤頁驅動嘅列表體驗。",
+  "forumTitle": "珞珈防空洞",
+  "campusTitle": "校園",
+  "editorTitle": "新建事項",
+  "editorDescription": "呢度將承載日程、任務、備忘嘅統一編輯頁面。",
+  "settingsTitle": "設定",
+  "settingsDescription": "呢度會承載全局、主頁同列表頁嘅設定入口。",
+  "settingsSearchTooltip": "搜尋設定",
+  "settingsSearchHint": "搜尋設定項",
+  "settingsSearchEmpty": "冇搵到匹配嘅設定項",
+  "settingsGeneralEntryTitle": "通用設定",
+  "settingsGeneralEntrySubtitle": "主題、語言、小組件同導航欄",
+  "settingsHomeEntrySubtitle": "主頁時間塊、網格模式同寬屏顯示範圍",
+  "settingsListEntryTitle": "列表頁設定",
+  "settingsListEntrySubtitle": "列表排序、重排同展示偏好",
+  "settingsAboutEntryTitle": "關於",
+  "settingsAboutEntrySubtitle": "應用資訊、版本同許可",
+  "settingsGeneralWidgetsTitle": "桌面小組件",
+  "settingsAboutProductSubtitle": "全屏縱覽表格化校園規劃",
+  "settingsAboutVersionTitle": "版本",
+  "settingsQuickActionsTitle": "快速定位",
+  "settingsHomeSectionTitle": "主頁設定",
+  "settingsHomeSectionDescription": "配置主頁嘅時間塊切分規則，以及超寬屏默認顯示嘅時間範圍。",
+  "settingsHomeDayStart": "每日開始規劃時間",
+  "settingsHomeBlockDuration": "單個規劃塊時長",
+  "settingsHomeBlockGap": "規劃塊間隔",
+  "settingsHomeBlockCount": "規劃塊數量",
+  "settingsHomeItemOpacity": "主頁事項方塊不透明度",
+  "settingsHomeGridMode": "網格模式",
+  "homeGridModeTime": "時間方格",
+  "homeGridModeCourse": "課程方格",
+  "settingsHomeWideLayout": "超寬屏默認範圍",
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsMinutesValue": "{value} 分鐘",
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsPercentValue": "{value} %",
+  "detailTitle": "事項詳情",
+  "detailDescription": "展示單個事項嘅完整資訊同快捷操作。",
+  "detailMissing": "冇搵到呢件事，可能已經被刪除。",
+  "detailTimeLabel": "時間",
+  "detailDeadlineLabel": "截止時間",
+  "detailLocationLabel": "地點",
+  "detailNotesLabel": "備註",
+  "detailReminderLabel": "提醒",
+  "detailRepeatLabel": "重複",
+  "detailMarkComplete": "標記完成",
+  "detailMarkIncomplete": "恢復未完成",
+  "detailDelete": "刪除事項",
+  "timePickerTitle": "時間選擇",
+  "timePickerDescription": "呢個路由預留畀共享嘅日周月時間選擇器。",
+  "developmentTag": "基礎 UI",
+  "themeSectionTitle": "顯示",
+  "themeModeLabel": "主題模式",
+  "themeLight": "淺色",
+  "themeDark": "深色",
+  "themeSystem": "跟隨系統",
+  "languageSectionTitle": "語言",
+  "languageLabel": "應用語言",
+  "languageChinese": "中文",
+  "languageEnglish": "英文",
+  "commonBack": "返回",
+  "headerPreviousPeriod": "上一時段",
+  "headerNextPeriod": "下一個時間段",
+  "headerOpenTimePicker": "打開時間選擇",
+  "headerOpenListTabs": "打開標籤頁選擇",
+  "headerOpenListSettings": "打開列表頁面設定",
+  "headerOpenItemTypePicker": "打開事項類型切換",
+  "homeScopePickerTitle": "顯示範圍",
+  "homeScopeWeek": "周",
+  "homeScopeMonth": "月",
+  "listTabMyDay": "我嘅一日",
+  "listTabAllItems": "全部事項",
+  "listTabTasks": "任務列表",
+  "listTabSchedules": "日程列表",
+  "listTabMemos": "備忘清單",
+  "listMenuTitle": "切換標籤頁",
+  "listSettingsMenuTitle": "列表頁設定",
+  "listSettingsSort": "排序依據",
+  "listSettingsReorder": "對任務重新排序",
+  "listSettingsMore": "更多設定",
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "listSummary": "未完成 {pending} 項，已完成 {completed} 項",
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listPendingSection": "待處理 {count}",
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "listCompletedSection": "已經完成 {count}",
+  "listCompletedExpand": "展開已完成事項",
+  "listCompletedCollapse": "收起已完成嘅事項",
+  "listEmptyTitle": "呢度仲未有事",
+  "listEmptyDescription": "撳右下角加號，先創建第一條任務、日程或者備忘。",
+  "listReorderHint": "當前已經進入手動排序，拖動任務右側嘅手柄即可重新排列。",
+  "listStaticItemsLabel": "其他事項",
+  "listActionEdit": "編輯",
+  "listActionDelete": "刪除",
+  "listSortDueDate": "到期日",
+  "listSortTodayFocus": "今日執行者",
+  "listSortAlphabetical": "字母順序",
+  "listSortCreatedDate": "創建日期",
+  "listSortManual": "手動排序",
+  "listStatusPending": "未完成",
+  "listStatusCompleted": "已經完成",
+  "editorTypePickerTitle": "切換事項類型",
+  "editorTypeTask": "任務",
+  "editorTypeSchedule": "日程",
+  "editorTypeMemo": "備忘錄",
+  "editorCreateTask": "創建任務",
+  "editorCreateSchedule": "建立日程",
+  "editorCreateMemo": "建立備忘錄",
+  "editorEditTask": "編輯任務",
+  "editorEditSchedule": "編輯日程",
+  "editorEditMemo": "編輯備忘錄",
+  "editorSectionBasic": "基本資訊",
+  "editorSectionColor": "顏色",
+  "editorSectionTime": "日期同時間",
+  "editorSectionReminder": "提醒",
+  "editorSectionRepeat": "重複",
+  "editorSectionLocationNotes": "地點同備註",
+  "editorFieldTitle": "名稱",
+  "editorFieldTitleName": "任務名稱",
+  "editorFieldDetails": "詳情",
+  "editorFieldLocation": "地點",
+  "editorFieldStart": "開始時間",
+  "editorFieldEnd": "結束時間",
+  "editorFieldDate": "日期",
+  "editorFieldStartDate": "開始日期",
+  "editorFieldStartTime": "開始時間",
+  "editorFieldEndDate": "結束日期",
+  "editorFieldEndTime": "結束時間",
+  "editorFieldDeadline": "截止時間",
+  "editorFieldDeadlineDate": "截止日期",
+  "editorFieldDeadlineTime": "截止時刻",
+  "editorFieldTargetDate": "目標日期",
+  "editorFieldEstimatedDuration": "預計時長",
+  "editorHintTitle": "呢件事叫咩名？",
+  "editorHintTaskTitle": "任務名稱",
+  "editorHintScheduleTitle": "日程名稱",
+  "editorHintMemoTitle": "備忘名稱",
+  "editorHintCourseTitle": "課程名稱",
+  "editorHintDetails": "備註",
+  "editorHintLocation": "地點",
+  "editorColorSky": "天藍",
+  "editorColorJade": "翡翠綠",
+  "editorColorAmber": "琥珀",
+  "editorColorCoral": "珊瑚紅",
+  "editorColorOrchid": "蘭紫",
+  "editorColorSlate": "石板灰",
+  "editorColorRose": "玫瑰粉",
+  "editorColorLime": "酸橙綠",
+  "editorColorIndigo": "靛藍",
+  "editorColorTeal": "鴨綠",
+  "editorColorCrimson": "緋紅",
+  "editorColorViolet": "紫羅蘭",
+  "editorColorPickerTitle": "選擇事項顏色",
+  "editorAllDayTitle": "全天任務",
+  "editorAllDayDescription": "開啟後只顯示日期，唔再單獨設定具體時分。",
+  "editorReminderNone": "唔提醒",
+  "editorReminderAtTime": "準時提醒",
+  "editorReminderFiveMinutes": "提前5分鐘",
+  "editorReminderFifteenMinutes": "提前15分鐘",
+  "editorReminderOneHour": "提前1個鐘",
+  "editorReminderOneDay": "提前1日",
+  "editorReminderPageTitle": "提醒設定",
+  "editorRepeatNone": "唔重複",
+  "editorRepeatDaily": "每日",
+  "editorRepeatWeekdays": "工作日",
+  "editorRepeatWeekly": "每週",
+  "editorRepeatMonthly": "每月",
+  "editorRepeatYearly": "每年",
+  "editorRepeatPageTitle": "重複設定",
+  "editorRepeatPagePlaceholder": "複雜重複規則後續繼續擴展。",
+  "editorDurationPickerTitle": "選擇時長",
+  "editorDeadlineClear": "清除",
+  "editorDeadlineUnset": "未設定",
+  "editorPickerCancel": "取消",
+  "editorPickerConfirm": "確定",
+  "editorSubmitButton": "創建事項",
+  "editorSubmitInvalid": "請先修正高亮字段。",
+  "editorSubmitSuccess": "事項已經保存。",
+  "editorErrorTitleRequired": "請輸入名稱。",
+  "editorErrorEndBeforeStart": "結束時間唔可以早過開始時間。",
+  "editorErrorDeadlineBeforeStart": "截止時間唔可以早過開始時間。",
+  "editorErrorDurationPositive": "時長一定要大於0。",
+  "@editorDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHours": "{hours} 小時",
+  "@editorDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationMinutes": "{minutes} 分鐘",
+  "@editorDurationHourMinute": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "editorDurationHourMinute": "{hours} 小時 {minutes} 分鐘",
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "detailRangeDate": "{start} 至 {end}",
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "detailMemoDate": "{date} · 預計 {duration}",
+  "aiTitle": "人工智能助手",
+  "aiInputHint": "關於日程嘅任何問題⋯",
+  "settingsAiSectionTitle": "AI 設定",
+  "settingsAiBaseUrlLabel": "API 地址",
+  "settingsAiApiKeyLabel": "API 密鑰",
+  "settingsAiModelLabel": "模型",
+  "settingsAiSystemPromptLabel": "系統提示詞",
+  "settingsAiTestButton": "測試連接",
+  "settingsAiTestingButton": "測試中⋯",
+  "settingsAiSaveButton": "保存 AI 設定",
+  "settingsAccountLocalTitle": "本地帳戶",
+  "settingsAccountWhuTitle": "武大賬戶",
+  "settingsAccountWhuLoggedIn": "已認證",
+  "settingsAccountWhuNotLoggedIn": "未登入",
+  "settingsNavigationEntryTitle": "導航欄設定",
+  "settingsNavigationEntrySubtitle": "顯示文字、中間標籤頁",
+  "settingsHomeCourseImport": "課程表導入",
+  "settingsHomeCourseManagement": "課程表管理",
+  "settingsHomeTimeGridSettings": "時間方格模式設定",
+  "settingsHomeCourseGridSettings": "課程方格模式設置",
+  "placeholderOpenPicker": "打開選擇器",
+  "placeholderOpenMenu": "打開菜單"
+}
