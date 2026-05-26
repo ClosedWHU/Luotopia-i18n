@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "Time Grid Settings",
   "settingsHomeCourseGridSettings": "Course Grid Settings",
   "placeholderOpenPicker": "Open picker",
-  "placeholderOpenMenu": "Open menu"
+  "placeholderOpenMenu": "Open menu",
+  "scorePageStatsDialogTitle": "{courseName} Grade Statistics",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageInstructorUnknown": "Unknown",
+  "scorePageRetry": "Retry",
+  "scorePageStatsEmpty": "No grade statistics available for this course.",
+  "scorePageSampleCount": "Samples",
+  "scorePageAvgTotal": "Avg Total",
+  "scorePageAvgUsual": "Avg Usual",
+  "scorePageAvgExam": "Avg Exam",
+  "scorePageGradeDistribution": "Grade Distribution",
+  "scorePageGradeRange90": "90-100",
+  "scorePageGradeRange80": "80-89",
+  "scorePageGradeRange70": "70-79",
+  "scorePageGradeRange60": "60-69",
+  "scorePageGradeRangeFail": "<60",
+  "scorePageLoginToShare": "Log in with your Luotopia account to share your grade distribution.",
+  "scorePageSubmitSuccess": "Submitted successfully! Thank you for your anonymous contribution!",
+  "scorePageAnonymousContribution": "Contribute Anonymously",
+  "scorePageTotalScore": "Total Score: {score}",
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageUsualScoreLabel": "Usual Score (Optional)",
+  "scorePageExamScoreLabel": "Exam Score (Optional)",
+  "scorePageSubmitAnonymous": "Submit Anonymously",
+  "scorePageCourseTeacherNotMatched": "No matching course and teacher found on server.",
+  "scorePageFetchStatsFailed": "Failed to fetch statistics: {error}",
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageSubmitFailed": "Submission failed, please try again.",
+  "scorePageSubmitError": "Submission failed: {error}",
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageInstructorLabel": "Instructor: {instructor}",
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }

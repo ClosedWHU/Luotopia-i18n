@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "时间方格模式设置",
   "settingsHomeCourseGridSettings": "课程方格模式设置",
   "placeholderOpenPicker": "打开选择器",
-  "placeholderOpenMenu": "打开菜单"
+  "placeholderOpenMenu": "打开菜单",
+  "scorePageStatsDialogTitle": "{courseName} 给分统计",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageInstructorUnknown": "未知",
+  "scorePageRetry": "重试",
+  "scorePageStatsEmpty": "该课程暂无给分统计样本",
+  "scorePageSampleCount": "样本量",
+  "scorePageAvgTotal": "总评均分",
+  "scorePageAvgUsual": "平时均分",
+  "scorePageAvgExam": "期末均分",
+  "scorePageGradeDistribution": "成绩分布",
+  "scorePageGradeRange90": "90-100分",
+  "scorePageGradeRange80": "80-89分",
+  "scorePageGradeRange70": "70-79分",
+  "scorePageGradeRange60": "60-69分",
+  "scorePageGradeRangeFail": "不及格",
+  "scorePageLoginToShare": "登录 Luotopia 账号以共享您的课程成绩分布。",
+  "scorePageSubmitSuccess": "提交成功！感谢您的匿名贡献！",
+  "scorePageAnonymousContribution": "匿名贡献给分",
+  "scorePageTotalScore": "总评成绩: {score}",
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageUsualScoreLabel": "平时成绩 (选填)",
+  "scorePageExamScoreLabel": "期末成绩 (选填)",
+  "scorePageSubmitAnonymous": "匿名提交",
+  "scorePageCourseTeacherNotMatched": "未在服务端中匹配到此课程及教师",
+  "scorePageFetchStatsFailed": "获取统计数据失败：{error}",
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageSubmitFailed": "提交失败，请重试",
+  "scorePageSubmitError": "提交失败：{error}",
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageInstructorLabel": "教师: {instructor}",
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }
