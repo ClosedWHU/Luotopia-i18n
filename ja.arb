@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "天気を更新中...",
+  "weatherNoClassReminder": "今日の午後は授業がありません。 「古代中国語」を監査してみてはいかがでしょうか？",
+  "weatherSnackAuditingClass": "監査の推奨事項",
+  "weatherNewsReminder": "キャンパスニュース: メーデー休暇調整のお知らせが発表されました",
+  "weatherNews": "キャンパスニュース",
+  "weatherLibraryReminder": "図書館：「罪と罰」あと３日で貸出期限切れ",
+  "weatherLibraryBorrowingDetail": "借入詳細",
+  "weatherFeelsLike": "{temp}みたいな感じ",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "{time}を更新しました",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherShowCache": "最近のキャッシュを表示しています",
+  "weatherNoHourlyForecast": "時間ごとの予報はありません",
+  "weatherLoadingLocation": "{locationName}の天気を取得中...",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherTryAgainLater": "後でもう一度試してください",
+  "weatherCacheTimeUnknown": "キャッシュ時間不明",
+  "weatherCachedAt": "{time}にキャッシュされています",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherServiceUnavailable": "気象サービスは一時的に利用できなくなります。最近のキャッシュを表示しています。",
+  "weatherLoadFailedWithError": "天気の読み込みに失敗しました:{error}",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRetry": "リトライ",
+  "weatherLoadFailed": "天気の読み込みに失敗しました"
 }

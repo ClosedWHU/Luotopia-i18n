@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "Actualizando el tiempo...",
+  "weatherNoClassReminder": "No hay clases esta tarde. ¿Qué tal auditar a los 'chinos antiguos'?",
+  "weatherSnackAuditingClass": "Recomendación de auditoría",
+  "weatherNewsReminder": "Noticias del campus: Se publica el anuncio de ajuste de las vacaciones del Primero de Mayo",
+  "weatherNews": "Noticias del campus",
+  "weatherLibraryReminder": "Biblioteca: El préstamo de 'Crimen y castigo' vence en tres días",
+  "weatherLibraryBorrowingDetail": "Detalles del préstamo",
+  "weatherFeelsLike": "Se siente como{temp}",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "Actualizado{time}",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherShowCache": "Mostrando caché reciente",
+  "weatherNoHourlyForecast": "No hay pronóstico horario disponible",
+  "weatherLoadingLocation": "Obteniendo el tiempo para{locationName}...",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadFailed": "No se pudo cargar el clima",
+  "weatherTryAgainLater": "Por favor inténtalo de nuevo más tarde.",
+  "weatherCacheTimeUnknown": "Tiempo de caché desconocido",
+  "weatherCachedAt": "Almacenado en caché en{time}",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherServiceUnavailable": "El servicio meteorológico no está disponible temporalmente. Mostrando caché reciente.",
+  "weatherLoadFailedWithError": "No se pudo cargar el clima:{error}",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRetry": "Rever"
 }

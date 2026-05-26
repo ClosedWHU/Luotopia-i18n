@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "Đang cập nhật thời tiết...",
+  "weatherNoClassReminder": "Chiều nay không có lớp học. Còn kiểm toán 'Trung Quốc cổ đại' thì sao?",
+  "weatherSnackAuditingClass": "Khuyến nghị kiểm toán",
+  "weatherNewsReminder": "Tin tức tại trường: Thông báo điều chỉnh kỳ nghỉ Ngày tháng Năm được công bố",
+  "weatherNews": "Tin tức trường",
+  "weatherLibraryReminder": "Thư viện: Việc mượn 'Tội ác và trừng phạt' sẽ hết hạn sau ba ngày",
+  "weatherLibraryBorrowingDetail": "Chi tiết vay",
+  "weatherFeelsLike": "Cảm giác như{temp}",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "Đã cập nhật{time}",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherShowCache": "Hiển thị bộ đệm gần đây",
+  "weatherNoHourlyForecast": "Không có dự báo hàng giờ",
+  "weatherLoadingLocation": "Đang xem thời tiết cho{locationName}...",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadFailed": "Không tải được thời tiết",
+  "weatherTryAgainLater": "Vui lòng thử lại sau",
+  "weatherCacheTimeUnknown": "Thời gian lưu trữ không xác định",
+  "weatherCachedAt": "Được lưu trữ tại{time}",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherServiceUnavailable": "Dịch vụ thời tiết tạm thời không khả dụng. Hiển thị bộ đệm gần đây.",
+  "weatherLoadFailedWithError": "Không tải được thời tiết:{error}",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRetry": "Thử lại"
 }

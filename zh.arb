@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "正在更新天气",
+  "weatherNoClassReminder": "下午没课，试试一节「古代汉语」？",
+  "weatherSnackAuditingClass": "蹭课推荐",
+  "weatherNewsReminder": "校园新闻：五一调休通知新鲜出炉",
+  "weatherNews": "校园新闻",
+  "weatherLibraryReminder": "图书馆：《罪与罚》借阅将在三天后到期",
+  "weatherLibraryBorrowingDetail": "借阅详情",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherFeelsLike": "体感 {temp}",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "更新 {time}",
+  "weatherShowCache": "显示最近缓存",
+  "weatherNoHourlyForecast": "暂无逐小时预报",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadingLocation": "正在获取{locationName}天气",
+  "weatherLoadFailed": "天气加载失败",
+  "weatherTryAgainLater": "请稍后重试",
+  "weatherCacheTimeUnknown": "缓存时间未知",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherCachedAt": "缓存于 {time}",
+  "weatherServiceUnavailable": "天气服务暂时不可用，显示最近缓存。",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadFailedWithError": "天气加载失败：{error}",
+  "weatherRetry": "重试"
 }

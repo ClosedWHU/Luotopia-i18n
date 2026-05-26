@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "天氣更新中...",
+  "weatherNoClassReminder": "今天下午沒有課。審核《古漢語》怎麼樣？",
+  "weatherSnackAuditingClass": "審核建議",
+  "weatherNewsReminder": "校園新聞：五一放假調整公告發布",
+  "weatherNews": "校園新聞",
+  "weatherLibraryReminder": "圖書館：借閱《罪與罰》三天後到期",
+  "weatherLibraryBorrowingDetail": "借款詳情",
+  "weatherFeelsLike": "感覺就像{temp}",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "更新了{time}",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherShowCache": "顯示最近的快取",
+  "weatherNoHourlyForecast": "沒有可用的每小時預報",
+  "weatherLoadingLocation": "正在取得{locationName}的天氣...",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadFailed": "加載天氣失敗",
+  "weatherTryAgainLater": "請稍後重試",
+  "weatherCacheTimeUnknown": "緩存時間未知",
+  "weatherCachedAt": "快取在{time}",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherServiceUnavailable": "天氣服務暫時無法使用。顯示最近的快取。",
+  "weatherLoadFailedWithError": "無法載入天氣：{error}",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRetry": "重試"
 }

@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "Atualizando o clima...",
+  "weatherNoClassReminder": "Não há aulas esta tarde. Que tal auditar 'Chineses Antigos'?",
+  "weatherSnackAuditingClass": "Recomendação de Auditoria",
+  "weatherNewsReminder": "Campus News: Divulgado anúncio de ajuste do feriado do Primeiro de Maio",
+  "weatherNews": "Notícias do campus",
+  "weatherLibraryReminder": "Biblioteca: Empréstimo de ‘Crime e Castigo’ expira em três dias",
+  "weatherLibraryBorrowingDetail": "Detalhes do empréstimo",
+  "weatherFeelsLike": "Parece{temp}",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "{time}atualizado",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherShowCache": "Mostrando cache recente",
+  "weatherNoHourlyForecast": "Nenhuma previsão horária disponível",
+  "weatherLoadingLocation": "Obtendo previsão do tempo para{locationName}...",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadFailed": "Falha ao carregar o clima",
+  "weatherTryAgainLater": "Por favor, tente novamente mais tarde",
+  "weatherCacheTimeUnknown": "Tempo de cache desconhecido",
+  "weatherCachedAt": "Armazenado em cache em{time}",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherServiceUnavailable": "O serviço meteorológico está temporariamente indisponível. Mostrando cache recente.",
+  "weatherLoadFailedWithError": "Falha ao carregar o clima:{error}",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRetry": "Tentar novamente"
 }

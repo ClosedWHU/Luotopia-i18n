@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "Updating weather...",
+  "weatherNoClassReminder": "No classes this afternoon. How about auditing 'Ancient Chinese'?",
+  "weatherSnackAuditingClass": "Auditing Recommendation",
+  "weatherNewsReminder": "Campus News: May Day holiday adjustment announcement released",
+  "weatherNews": "Campus News",
+  "weatherLibraryReminder": "Library: Borrowing of 'Crime and Punishment' expires in three days",
+  "weatherLibraryBorrowingDetail": "Borrowing Details",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherFeelsLike": "Feels like {temp}",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "Updated {time}",
+  "weatherShowCache": "Showing recent cache",
+  "weatherNoHourlyForecast": "No hourly forecast available",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadingLocation": "Getting weather for {locationName}...",
+  "weatherLoadFailed": "Failed to load weather",
+  "weatherTryAgainLater": "Please try again later",
+  "weatherCacheTimeUnknown": "Cache time unknown",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherCachedAt": "Cached at {time}",
+  "weatherServiceUnavailable": "Weather service is temporarily unavailable. Showing recent cache.",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadFailedWithError": "Failed to load weather: {error}",
+  "weatherRetry": "Retry"
 }

@@ -348,5 +348,59 @@
         "type": "String"
       }
     }
-  }
+  },
+  "weatherUpdating": "Обновление погоды...",
+  "weatherNoClassReminder": "Никаких занятий сегодня днем. Как насчет одитинга «Древнего китайца»?",
+  "weatherSnackAuditingClass": "Рекомендации по аудиту",
+  "weatherNewsReminder": "Новости кампуса: опубликовано объявление о корректировке первомайских праздников",
+  "weatherNews": "Новости кампуса",
+  "weatherLibraryReminder": "Библиотека: срок проката «Преступления и наказания» истекает через три дня",
+  "weatherLibraryBorrowingDetail": "Детали заимствования",
+  "weatherFeelsLike": "Похоже на{temp}",
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherUpdated": "Обновлен{time}",
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherShowCache": "Показ недавнего кеша",
+  "weatherNoHourlyForecast": "Нет почасового прогноза",
+  "weatherLoadingLocation": "Получение погоды для{locationName}...",
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLoadFailed": "Не удалось загрузить погоду",
+  "weatherTryAgainLater": "Пожалуйста, повторите попытку позже",
+  "weatherCacheTimeUnknown": "Время кэша неизвестно",
+  "weatherCachedAt": "Кэшировано по адресу{time}.",
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherServiceUnavailable": "Метеослужба временно недоступна. Показываю недавний кэш.",
+  "weatherLoadFailedWithError": "Не удалось загрузить погоду:{error}.",
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRetry": "Повторить попытку"
 }
