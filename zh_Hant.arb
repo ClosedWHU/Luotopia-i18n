@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "時間方格模式設定",
   "settingsHomeCourseGridSettings": "課程方格模式設定",
   "placeholderOpenPicker": "打開選擇器",
-  "placeholderOpenMenu": "開啟選單"
+  "placeholderOpenMenu": "開啟選單",
+  "scorePageStatsDialogTitle": "{courseName}給分統計",
+  "scorePageInstructorUnknown": "未知",
+  "scorePageRetry": "重試",
+  "scorePageStatsEmpty": "該課程暫無給分統計樣本",
+  "scorePageSampleCount": "樣本量",
+  "scorePageAvgTotal": "總評均分",
+  "scorePageAvgUsual": "平時均分",
+  "scorePageAvgExam": "期末均分",
+  "scorePageGradeDistribution": "成績分佈",
+  "scorePageGradeRange90": "90-100分",
+  "scorePageGradeRange80": "80-89分",
+  "scorePageGradeRange70": "70-79分",
+  "scorePageGradeRange60": "60-69分",
+  "scorePageGradeRangeFail": "不及格",
+  "scorePageLoginToShare": "登入 Luotopia 帳號以分享您的課程成績分佈。",
+  "scorePageSubmitSuccess": "提交成功！感謝您的匿名貢獻！",
+  "scorePageAnonymousContribution": "匿名貢獻給分",
+  "scorePageTotalScore": "總評成績:{score}",
+  "scorePageUsualScoreLabel": "平時成績 (選填)",
+  "scorePageExamScoreLabel": "期末成績 (選填)",
+  "scorePageSubmitAnonymous": "匿名提交",
+  "scorePageCourseTeacherNotMatched": "未在服務端中配對到此課程及教師",
+  "scorePageFetchStatsFailed": "取得統計資料失敗：{error}",
+  "scorePageSubmitFailed": "提交失敗，請重試",
+  "scorePageSubmitError": "提交失敗：{error}",
+  "scorePageInstructorLabel": "教師:{instructor}",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }

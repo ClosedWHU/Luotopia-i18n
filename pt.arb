@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "Configurações do modo de grade de tempo",
   "settingsHomeCourseGridSettings": "Configurações do modo de grade do curso",
   "placeholderOpenPicker": "Abrir seletor",
-  "placeholderOpenMenu": "Abrir menu"
+  "placeholderOpenMenu": "Abrir menu",
+  "scorePageStatsDialogTitle": "{courseName}estatísticas de pontos",
+  "scorePageInstructorUnknown": "desconhecido",
+  "scorePageRetry": "Tente novamente",
+  "scorePageStatsEmpty": "Atualmente não há amostras estatísticas para pontuação neste curso",
+  "scorePageSampleCount": "tamanho da amostra",
+  "scorePageAvgTotal": "Avaliação geral média",
+  "scorePageAvgUsual": "Geralmente dividido igualmente",
+  "scorePageAvgExam": "Dividido igualmente no final do período",
+  "scorePageGradeDistribution": "Distribuição de notas",
+  "scorePageGradeRange90": "90-100 pontos",
+  "scorePageGradeRange80": "80-89 pontos",
+  "scorePageGradeRange70": "70-79 pontos",
+  "scorePageGradeRange60": "60-69 pontos",
+  "scorePageGradeRangeFail": "falhou",
+  "scorePageLoginToShare": "Faça login em sua conta Luotopia para compartilhar a distribuição de notas do seu curso.",
+  "scorePageSubmitSuccess": "Envio bem-sucedido! Obrigado pela sua contribuição anônima!",
+  "scorePageAnonymousContribution": "Pontos por contribuições anônimas",
+  "scorePageTotalScore": "Pontuação geral:{score}",
+  "scorePageUsualScoreLabel": "Resultados diários (opcional)",
+  "scorePageExamScoreLabel": "Notas finais (opcional)",
+  "scorePageSubmitAnonymous": "Enviar anonimamente",
+  "scorePageCourseTeacherNotMatched": "Este curso e professor não foram correspondidos no servidor",
+  "scorePageFetchStatsFailed": "Falha ao obter estatísticas:{error}",
+  "scorePageSubmitFailed": "Falha no envio, tente novamente",
+  "scorePageSubmitError": "Falha no envio:{error}",
+  "scorePageInstructorLabel": "Professor:{instructor}",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "Настройки режима временной сетки",
   "settingsHomeCourseGridSettings": "Настройки режима сетки курса",
   "placeholderOpenPicker": "Открыть селектор",
-  "placeholderOpenMenu": "Открыть меню"
+  "placeholderOpenMenu": "Открыть меню",
+  "scorePageStatsDialogTitle": "{courseName}баллов статистика",
+  "scorePageInstructorUnknown": "неизвестно",
+  "scorePageRetry": "Попробуйте еще раз",
+  "scorePageStatsEmpty": "В настоящее время в этом курсе нет статистических выборок для оценки.",
+  "scorePageSampleCount": "размер выборки",
+  "scorePageAvgTotal": "Средний общий рейтинг",
+  "scorePageAvgUsual": "Обычно делится поровну",
+  "scorePageAvgExam": "Равномерно разделены в конце периода",
+  "scorePageGradeDistribution": "Распределение оценок",
+  "scorePageGradeRange90": "90-100 баллов",
+  "scorePageGradeRange80": "80-89 баллов",
+  "scorePageGradeRange70": "70-79 баллов",
+  "scorePageGradeRange60": "60-69 баллов",
+  "scorePageGradeRangeFail": "не удалось",
+  "scorePageLoginToShare": "Войдите в свою учетную запись Luotopia, чтобы поделиться распределением оценок за курс.",
+  "scorePageSubmitSuccess": "Отправка успешна! Спасибо за ваш анонимный вклад!",
+  "scorePageAnonymousContribution": "Баллы за анонимные вклады",
+  "scorePageTotalScore": "Общий балл:{score}",
+  "scorePageUsualScoreLabel": "Ежедневные результаты (необязательно)",
+  "scorePageExamScoreLabel": "Итоговые оценки (необязательно)",
+  "scorePageSubmitAnonymous": "Отправить анонимно",
+  "scorePageCourseTeacherNotMatched": "Этот курс и преподаватель не были сопоставлены на сервере.",
+  "scorePageFetchStatsFailed": "Не удалось получить статистику:{error}.",
+  "scorePageSubmitFailed": "Отправка не удалась, попробуйте еще раз",
+  "scorePageSubmitError": "Не удалось отправить:{error}.",
+  "scorePageInstructorLabel": "Учитель:{instructor}",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }

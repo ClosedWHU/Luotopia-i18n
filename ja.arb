@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "タイムグリッドモードの設定",
   "settingsHomeCourseGridSettings": "コースグリッドモードの設定",
   "placeholderOpenPicker": "セレクターを開く",
-  "placeholderOpenMenu": "メニューを開く"
+  "placeholderOpenMenu": "メニューを開く",
+  "scorePageStatsDialogTitle": "{courseName}ポイントの統計",
+  "scorePageInstructorUnknown": "不明",
+  "scorePageRetry": "もう一度試してください",
+  "scorePageStatsEmpty": "現在、このコースにはスコアリング用の統計サンプルがありません",
+  "scorePageSampleCount": "サンプルサイズ",
+  "scorePageAvgTotal": "平均的な総合評価",
+  "scorePageAvgUsual": "通常は均等に分けます",
+  "scorePageAvgExam": "期間終了時に均等に分割",
+  "scorePageGradeDistribution": "グレード分布",
+  "scorePageGradeRange90": "90～100点",
+  "scorePageGradeRange80": "80～89点",
+  "scorePageGradeRange70": "70～79点",
+  "scorePageGradeRange60": "60～69点",
+  "scorePageGradeRangeFail": "失敗しました",
+  "scorePageLoginToShare": "Luotopia アカウントにサインインして、コースの成績分布を共有します。",
+  "scorePageSubmitSuccess": "提出が成功しました！匿名でのご投稿ありがとうございます！",
+  "scorePageAnonymousContribution": "匿名投稿によるポイント",
+  "scorePageTotalScore": "総合スコア:{score}",
+  "scorePageUsualScoreLabel": "毎日の結果 (オプション)",
+  "scorePageExamScoreLabel": "最終成績（オプション）",
+  "scorePageSubmitAnonymous": "匿名で送信",
+  "scorePageCourseTeacherNotMatched": "このコースと教師はサーバー内で一致しませんでした",
+  "scorePageFetchStatsFailed": "統計の取得に失敗しました:{error}",
+  "scorePageSubmitFailed": "送信に失敗しました。もう一度お試しください",
+  "scorePageSubmitError": "送信に失敗しました:{error}",
+  "scorePageInstructorLabel": "教師:{instructor}",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }

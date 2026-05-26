@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "Paramètres du mode grille horaire",
   "settingsHomeCourseGridSettings": "Paramètres du mode grille de cours",
   "placeholderOpenPicker": "Ouvrir le sélecteur",
-  "placeholderOpenMenu": "Ouvrir le menu"
+  "placeholderOpenMenu": "Ouvrir le menu",
+  "scorePageStatsDialogTitle": "{courseName}points statistiques",
+  "scorePageInstructorUnknown": "inconnu",
+  "scorePageRetry": "Réessayez",
+  "scorePageStatsEmpty": "Il n'y a actuellement aucun échantillon statistique pour la notation dans ce cours",
+  "scorePageSampleCount": "taille de l'échantillon",
+  "scorePageAvgTotal": "Note globale moyenne",
+  "scorePageAvgUsual": "Généralement divisé également",
+  "scorePageAvgExam": "Réparti à parts égales à la fin de la période",
+  "scorePageGradeDistribution": "Répartition des notes",
+  "scorePageGradeRange90": "90-100 points",
+  "scorePageGradeRange80": "80-89 points",
+  "scorePageGradeRange70": "70-79 points",
+  "scorePageGradeRange60": "60-69 points",
+  "scorePageGradeRangeFail": "échoué",
+  "scorePageLoginToShare": "Connectez-vous à votre compte Luotopia pour partager la répartition des notes de vos cours.",
+  "scorePageSubmitSuccess": "Soumission réussie ! Merci pour votre contribution anonyme !",
+  "scorePageAnonymousContribution": "Points pour les contributions anonymes",
+  "scorePageTotalScore": "Note globale :{score}",
+  "scorePageUsualScoreLabel": "Résultats quotidiens (facultatif)",
+  "scorePageExamScoreLabel": "Notes finales (facultatif)",
+  "scorePageSubmitAnonymous": "Soumettre anonymement",
+  "scorePageCourseTeacherNotMatched": "Ce cours et ce professeur ne correspondent pas sur le serveur",
+  "scorePageFetchStatsFailed": "Échec de l'obtention des statistiques :{error}",
+  "scorePageSubmitFailed": "Échec de la soumission, veuillez réessayer",
+  "scorePageSubmitError": "Échec de la soumission :{error}",
+  "scorePageInstructorLabel": "Enseignant :{instructor}",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -287,5 +287,66 @@
   "settingsHomeTimeGridSettings": "Cài đặt chế độ lưới thời gian",
   "settingsHomeCourseGridSettings": "Cài đặt chế độ lưới khóa học",
   "placeholderOpenPicker": "Mở bộ chọn",
-  "placeholderOpenMenu": "Mở trình đơn"
+  "placeholderOpenMenu": "Mở trình đơn",
+  "scorePageStatsDialogTitle": "Thống kê{courseName}điểm",
+  "scorePageInstructorUnknown": "không rõ",
+  "scorePageRetry": "Thử lại",
+  "scorePageStatsEmpty": "Hiện tại không có mẫu thống kê nào để chấm điểm trong khóa học này",
+  "scorePageSampleCount": "cỡ mẫu",
+  "scorePageAvgTotal": "Đánh giá tổng thể trung bình",
+  "scorePageAvgUsual": "Thường chia đều",
+  "scorePageAvgExam": "Chia đều vào cuối kỳ",
+  "scorePageGradeDistribution": "Phân bổ lớp",
+  "scorePageGradeRange90": "90-100 điểm",
+  "scorePageGradeRange80": "80-89 điểm",
+  "scorePageGradeRange70": "70-79 điểm",
+  "scorePageGradeRange60": "60-69 điểm",
+  "scorePageGradeRangeFail": "thất bại",
+  "scorePageLoginToShare": "Đăng nhập vào tài khoản Luotopia của bạn để chia sẻ phân bổ điểm khóa học của bạn.",
+  "scorePageSubmitSuccess": "Gửi thành công! Cảm ơn sự đóng góp ẩn danh của bạn!",
+  "scorePageAnonymousContribution": "Điểm cho đóng góp ẩn danh",
+  "scorePageTotalScore": "Điểm tổng thể:{score}",
+  "scorePageUsualScoreLabel": "Kết quả hàng ngày (tùy chọn)",
+  "scorePageExamScoreLabel": "Điểm cuối cùng (tùy chọn)",
+  "scorePageSubmitAnonymous": "Gửi ẩn danh",
+  "scorePageCourseTeacherNotMatched": "Khóa học này và giáo viên không khớp trong máy chủ",
+  "scorePageFetchStatsFailed": "Không lấy được số liệu thống kê:{error}",
+  "scorePageSubmitFailed": "Gửi không thành công, vui lòng thử lại",
+  "scorePageSubmitError": "Gửi không thành công:{error}",
+  "scorePageInstructorLabel": "Giáo viên:{instructor}",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  }
 }
