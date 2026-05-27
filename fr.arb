@@ -402,5 +402,87 @@
       }
     }
   },
-  "weatherRetry": "Réessayer"
+  "weatherRetry": "Réessayer",
+  "emptyClassroomTitle": "Salles Libres",
+  "emptyClassroomFilterTitle": "Filtres",
+  "emptyClassroomFilterCampus": "Campus",
+  "emptyClassroomFilterBuilding": "Bâtiment",
+  "emptyClassroomFilterWeek": "Semaine",
+  "emptyClassroomFilterWeekDay": "Jour",
+  "emptyClassroomQueryButton": "Rechercher",
+  "emptyClassroomLoginPrompt": "Veuillez vous connecter à WHU d'abord",
+  "emptyClassroomGoLogin": "Connexion",
+  "emptyClassroomRetry": "Réessayer",
+  "emptyClassroomNoResults": "Aucune salle libre dans ce bâtiment",
+  "emptyClassroomQueryHint": "Filtres définis. Appuyez sur le bouton pour rechercher",
+  "@emptyClassroomFloorSeats": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      },
+      "available": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomFloorSeats": "Étage {floor} · {available}/{total} places",
+  "emptyClassroomSectionHint": "Appuyez sur un créneau pour l'ajouter",
+  "emptyClassroomFABTitle": "Créneaux",
+  "@emptyClassroomFABExpanded": {
+    "placeholders": {
+      "expanded": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomFABExpanded": "{expanded} / {total} dépliés",
+  "emptyClassroomFABHint": "Appuyez sur la flèche pour déplier les créneaux, puis sur un bloc pour l'ajouter",
+  "emptyClassroomExpandAll": "Tout Déplier",
+  "emptyClassroomCollapseAll": "Tout Replier",
+  "emptyClassroomConflictTitle": "Conflit Horaire",
+  "emptyClassroomConflictSingle": "Vous avez déjà un cours à cette heure. Confirmer ?",
+  "@emptyClassroomConflictMulti": {
+    "placeholders": {
+      "sections": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomConflictMulti": "Vous avez déjà des cours à {sections}. Confirmer ?",
+  "emptyClassroomConflictCancel": "Annuler",
+  "emptyClassroomConflictConfirm": "Confirmer",
+  "emptyClassroomUndo": "Annuler",
+  "@emptyClassroomAddedSingle": {
+    "placeholders": {
+      "classroom": {
+        "type": "String"
+      },
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomAddedSingle": "Ajouté créneau {section} à {classroom}",
+  "@emptyClassroomSectionLabel": {
+    "placeholders": {
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomSectionLabel": "Créneau {section}",
+  "@emptyClassroomWeekLabel": {
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomWeekLabel": "Semaine {week}"
 }
