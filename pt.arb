@@ -402,5 +402,87 @@
       }
     }
   },
-  "weatherRetry": "Tentar novamente"
+  "weatherRetry": "Tentar novamente",
+  "emptyClassroomTitle": "Salas Vazias",
+  "emptyClassroomFilterTitle": "Filtros",
+  "emptyClassroomFilterCampus": "Campus",
+  "emptyClassroomFilterBuilding": "Prédio",
+  "emptyClassroomFilterWeek": "Semana",
+  "emptyClassroomFilterWeekDay": "Dia",
+  "emptyClassroomQueryButton": "Buscar Salas",
+  "emptyClassroomLoginPrompt": "Faça login no WHU primeiro",
+  "emptyClassroomGoLogin": "Entrar",
+  "emptyClassroomRetry": "Tentar novamente",
+  "emptyClassroomNoResults": "Nenhuma sala vazia neste prédio",
+  "emptyClassroomQueryHint": "Filtros definidos. Toque no botão acima para buscar",
+  "@emptyClassroomFloorSeats": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      },
+      "available": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomFloorSeats": "Andar {floor} · {available}/{total} lugares",
+  "emptyClassroomSectionHint": "Toque em um período para adicionar",
+  "emptyClassroomFABTitle": "Períodos da Sala",
+  "@emptyClassroomFABExpanded": {
+    "placeholders": {
+      "expanded": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomFABExpanded": "{expanded} / {total} expandidos",
+  "emptyClassroomFABHint": "Toque na seta para expandir os períodos e em um bloco para adicionar",
+  "emptyClassroomExpandAll": "Expandir Tudo",
+  "emptyClassroomCollapseAll": "Recolher Tudo",
+  "emptyClassroomConflictTitle": "Conflito de Horário",
+  "emptyClassroomConflictSingle": "Você já tem uma aula neste horário. Confirmar?",
+  "@emptyClassroomConflictMulti": {
+    "placeholders": {
+      "sections": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomConflictMulti": "Você já tem aulas em {sections}. Confirmar?",
+  "emptyClassroomConflictCancel": "Cancelar",
+  "emptyClassroomConflictConfirm": "Confirmar",
+  "emptyClassroomUndo": "Desfazer",
+  "@emptyClassroomAddedSingle": {
+    "placeholders": {
+      "classroom": {
+        "type": "String"
+      },
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomAddedSingle": "Adicionado período {section} em {classroom}",
+  "@emptyClassroomSectionLabel": {
+    "placeholders": {
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomSectionLabel": "Período {section}",
+  "@emptyClassroomWeekLabel": {
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomWeekLabel": "Semana {week}"
 }
