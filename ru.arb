@@ -484,5 +484,254 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "Неделя {week}"
+  "emptyClassroomWeekLabel": "Неделя {week}",
+  "homeCurrentWeekRange": "Эта неделя ({start} - {end})",
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homePeriodRange": "{start} - {end}",
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabel": "Учебный год {year} {term}",
+  "@homeCalendarTopLabel": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabelYearOnly": "Учебный год {year}",
+  "@homeCalendarTopLabelYearOnly": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMainLabelWeek": "Неделя {week}",
+  "@homeCalendarMainLabelWeek": {
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarSummerBreak": "Летние каникулы",
+  "homeCalendarWinterBreak": "Зимние каникулы",
+  "homeGoToCurrentWeek": "К текущей неделе",
+  "homeGoToNextSemesterFirstWeek": "К первой неделе семестра",
+  "homeCoursePeriod": "Урок {courseNumber}",
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCourseLunch": "Обед",
+  "homeWeekdayLabel": "{weekday}",
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsHomeHideLunchBreak": "Скрыть обеденный перерыв",
+  "settingsHomeFitGridToScreen": "Подогнать сетку под экран",
+  "settingsHomeGridCellHeight": "Фиксированная высота ячейки",
+  "homeCalendarYearMonth": "{month} {year}",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthWeek": "Неделя {week} ({month})",
+  "@homeCalendarMonthWeek": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarYearWeek": "Неделя {week} ({year})",
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "@homeCalendarMonthDayRange": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "endDay": {
+        "type": "String"
+      }
+    }
+  },
+  "homeBackToCurrentPeriod": "Вернуться к этой неделе",
+  "startImport": "Начать импорт",
+  "pasteSharedContent": "Вставьте общий контент",
+  "shareCodeLink": "Код/Ссылка для общего доступа",
+  "eGWakeupImport1": "Напр. Импорт Wakeup 1",
+  "timetableName": "Название расписания",
+  "pasteWakeupShareCodeLinkParser": "Вставьте код/ссылку Wakeup. Парсер не подключен.",
+  "wakeupImport": "Импорт Wakeup",
+  "semS": "Сем {s}",
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "yY1": "{y}-{yPlus1}",
+  "@yY1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "done": "Готово",
+  "selectSemester": "Выберите семестр",
+  "semester": "Семестр",
+  "importFailedError": "Ошибка импорта: {error}",
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importedPayloadItemsLengthItem": "Импортировано {itemsLength} элементов в \"{tableName}\".",
+  "@importedPayloadItemsLengthItem": {
+    "placeholders": {
+      "tableName": {},
+      "itemsLength": {}
+    }
+  },
+  "importFinishedPayloadItemsLeng": "Импорт завершен: {itemsLength} элементов.",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "fetchingTimetable": "Получение расписания...",
+  "verifyingAndEstablishingEducat": "Проверка учебной сессии...",
+  "pleaseSelectWeek1Monday": "Пожалуйста, выберите понедельник 1-й недели.",
+  "tipSelectedDateIsNotAMonday": "💡 Совет: Выбранная дата не является понедельником",
+  "tapToSelect": "Нажмите для выбора",
+  "week1Monday": "Понедельник 1-й недели",
+  "timetableName1": "Название расписания",
+  "importSchedule": "Импорт расписания",
+  "delete": "Удалить",
+  "cancel": "Отмена",
+  "allCourseItemsInThisTimetableW": "Все курсы в этом расписании будут удалены.",
+  "deleteTimetable": "Удалить расписание",
+  "create": "Создать",
+  "enterTimetableName": "Введите название расписания",
+  "createTimetable": "Создать расписание",
+  "sourceManual": "Источник: Вручную",
+  "sourceMerged": "Источник: Объединено",
+  "sourceWakeup": "Источник: Wakeup",
+  "sourceWhu": "Источник: WHU",
+  "noTimetableYetImportOrCreateOn": "Расписаний пока нет. Создайте или импортируйте.",
+  "timetables": "Расписания",
+  "importTimetableFromSharedText": "Импорт из общего текста",
+  "wakeupShareLinkCode": "Код/Ссылка Wakeup",
+  "importCoursesViaEmbeddedWebLog": "Импорт курсов через веб-вход",
+  "whuAcademicSystem": "Учебная система WHU",
+  "importSources": "Источники импорта",
+  "courseTablesImport": "Расписания и Импорт",
+  "importedTimestr": "Импортировано {timeStr}",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "noTimetableYetTapToImportFromW": "Расписаний пока нет. Нажмите + для импорта из WHU.",
+  "login": "Войти",
+  "pleaseLoginToWhuAcademicSystem": "Пожалуйста, войдите в систему WHU",
+  "timetable": "Расписание",
+  "allSameNameCourses": "Все курсы с таким же названием",
+  "thisItem": "Этот элемент",
+  "changeOnlyThisItemOrEveryCours": "Изменить только этот элемент или все курсы \"{title}\"?",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "applyColorTo": "Применить цвет к",
+  "timetableManagement": "Управление расписанием",
+  "importFromSharedText": "Импорт из текста",
+  "importViaEmbeddedWebLogin": "Импорт через веб-вход",
+  "courseImport": "Импорт курсов",
+  "courseGridSettings": "Настройки сетки курсов",
+  "colorSpec": "Цветовая спецификация",
+  "paletteStyle": "Стиль палитры",
+  "ok": "ОК",
+  "selectSeedColor": "Выбрать базовый цвет",
+  "customSeedColor": "Пользовательский цвет",
+  "extractColorsFromWallpaperAuto": "Автоматически извлекать цвета из обоев",
+  "useDynamicColor": "Использовать динамический цвет",
+  "themeColors": "Цвета темы",
+  "followAppTheme": "Следовать теме приложения",
+  "followAppLanguage": "Следовать языку приложения",
+  "updateOnDataChangesWithPeriodi": "Обновление при изменении данных с периодическим резервным обновлением.",
+  "fallbackRefreshInterval": "Интервал резервного обновления",
+  "enableWidgetSync": "Включить синхронизацию виджета",
+  "alwaysHide": "Всегда скрывать",
+  "alwaysShow": "Всегда показывать",
+  "selectedOnlyDefault": "Только выбранные (По умолчанию)",
+  "aiAssistant": "AI Ассистент",
+  "forum": "Форум",
+  "chooseBetweenForumOrAiForTheMi": "Выберите Форум или ИИ для средней вкладки.",
+  "middleTab": "Средняя вкладка",
+  "showNavigationLabels": "Показывать метки навигации",
+  "minuteMin": "{minute} мин",
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "hourH": "{hour} ч",
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
+  "chooseDuration": "Выберите продолжительность",
+  "k3Hours": "3 часа",
+  "k1Hour": "1 час",
+  "k30Minutes": "30 минут"
 }

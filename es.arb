@@ -484,5 +484,254 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "Semana {week}"
+  "emptyClassroomWeekLabel": "Semana {week}",
+  "homeCurrentWeekRange": "Esta semana ({start} - {end})",
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homePeriodRange": "{start} - {end}",
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabel": "Año Académico {year} {term}",
+  "@homeCalendarTopLabel": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabelYearOnly": "Año Académico {year}",
+  "@homeCalendarTopLabelYearOnly": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMainLabelWeek": "Semana {week}",
+  "@homeCalendarMainLabelWeek": {
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarSummerBreak": "Vacaciones de Verano",
+  "homeCalendarWinterBreak": "Vacaciones de Invierno",
+  "homeGoToCurrentWeek": "Ir a esta semana",
+  "homeGoToNextSemesterFirstWeek": "Ir a la primera semana",
+  "homeCoursePeriod": "Clase {courseNumber}",
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCourseLunch": "Almuerzo",
+  "homeWeekdayLabel": "{weekday}",
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsHomeHideLunchBreak": "Ocultar Almuerzo",
+  "settingsHomeFitGridToScreen": "Ajustar cuadrícula",
+  "settingsHomeGridCellHeight": "Altura fija de celda",
+  "homeCalendarYearMonth": "{month} de {year}",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthWeek": "Semana {week} de {month}",
+  "@homeCalendarMonthWeek": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarYearWeek": "Semana {week} de {year}",
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "@homeCalendarMonthDayRange": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "endDay": {
+        "type": "String"
+      }
+    }
+  },
+  "homeBackToCurrentPeriod": "Volver a esta semana",
+  "startImport": "Iniciar Importación",
+  "pasteSharedContent": "Pegar contenido",
+  "shareCodeLink": "Código/Enlace",
+  "eGWakeupImport1": "Ej. Wakeup Import 1",
+  "timetableName": "Nombre del Horario",
+  "pasteWakeupShareCodeLinkParser": "Pegue el enlace/código de Wakeup. El analizador no está conectado.",
+  "wakeupImport": "Importar desde Wakeup",
+  "semS": "Sem {s}",
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "yY1": "{y}-{yPlus1}",
+  "@yY1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "done": "Hecho",
+  "selectSemester": "Seleccionar Semestre",
+  "semester": "Semestre",
+  "importFailedError": "Error de importación: {error}",
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importedPayloadItemsLengthItem": "Importados {itemsLength} a \"{tableName}\".",
+  "@importedPayloadItemsLengthItem": {
+    "placeholders": {
+      "tableName": {},
+      "itemsLength": {}
+    }
+  },
+  "importFinishedPayloadItemsLeng": "Importación finalizada: {itemsLength} items, {currentWeekCount} esta semana.",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "fetchingTimetable": "Obteniendo horario...",
+  "verifyingAndEstablishingEducat": "Verificando sesión educativa...",
+  "pleaseSelectWeek1Monday": "Seleccione el lunes de la Semana 1.",
+  "tipSelectedDateIsNotAMonday": "💡 Consejo: La fecha no es un lunes",
+  "tapToSelect": "Toque para seleccionar",
+  "week1Monday": "Lunes de Semana 1",
+  "timetableName1": "Nombre del horario",
+  "importSchedule": "Importar Horario",
+  "delete": "Eliminar",
+  "cancel": "Cancelar",
+  "allCourseItemsInThisTimetableW": "Se eliminarán todos los cursos.",
+  "deleteTimetable": "Eliminar horario",
+  "create": "Crear",
+  "enterTimetableName": "Ingrese el nombre",
+  "createTimetable": "Crear horario",
+  "sourceManual": "Origen: Manual",
+  "sourceMerged": "Origen: Fusionado",
+  "sourceWakeup": "Origen: Wakeup",
+  "sourceWhu": "Origen: WHU",
+  "noTimetableYetImportOrCreateOn": "Aún no hay horarios.",
+  "timetables": "Horarios",
+  "importTimetableFromSharedText": "Importar desde texto",
+  "wakeupShareLinkCode": "Código Wakeup",
+  "importCoursesViaEmbeddedWebLog": "Importar vía inicio de sesión web",
+  "whuAcademicSystem": "Sistema Académico WHU",
+  "importSources": "Fuentes de Importación",
+  "courseTablesImport": "Horarios e Importación",
+  "importedTimestr": "Importado {timeStr}",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "noTimetableYetTapToImportFromW": "No hay horario. Toque + para importar de WHU.",
+  "login": "Iniciar sesión",
+  "pleaseLoginToWhuAcademicSystem": "Por favor, inicie sesión en WHU",
+  "timetable": "Horario",
+  "allSameNameCourses": "Todos los cursos del mismo nombre",
+  "thisItem": "Este elemento",
+  "changeOnlyThisItemOrEveryCours": "¿Cambiar solo este, o todos con nombre \"{title}\"?",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "applyColorTo": "Aplicar color a",
+  "timetableManagement": "Gestión de Horarios",
+  "importFromSharedText": "Importar desde texto",
+  "importViaEmbeddedWebLogin": "Importar vía web",
+  "courseImport": "Importar Cursos",
+  "courseGridSettings": "Ajustes de Cuadrícula",
+  "colorSpec": "Especificación de Color",
+  "paletteStyle": "Estilo de Paleta",
+  "ok": "OK",
+  "selectSeedColor": "Seleccionar Color Base",
+  "customSeedColor": "Color Base Personalizado",
+  "extractColorsFromWallpaperAuto": "Extraer del fondo de pantalla",
+  "useDynamicColor": "Usar Color Dinámico",
+  "themeColors": "Colores del Tema",
+  "followAppTheme": "Seguir tema de app",
+  "followAppLanguage": "Seguir idioma de app",
+  "updateOnDataChangesWithPeriodi": "Actualizar al haber cambios de datos.",
+  "fallbackRefreshInterval": "Intervalo de actualización",
+  "enableWidgetSync": "Habilitar sincronización de widget",
+  "alwaysHide": "Siempre ocultar",
+  "alwaysShow": "Siempre mostrar",
+  "selectedOnlyDefault": "Solo seleccionados (Por defecto)",
+  "aiAssistant": "Asistente AI",
+  "forum": "Foro",
+  "chooseBetweenForumOrAiForTheMi": "Elegir entre Foro o AI para la pestaña central.",
+  "middleTab": "Pestaña central",
+  "showNavigationLabels": "Mostrar etiquetas de navegación",
+  "minuteMin": "{minute} min",
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "hourH": "{hour} h",
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
+  "chooseDuration": "Elegir duración",
+  "k3Hours": "3 horas",
+  "k1Hour": "1 hora",
+  "k30Minutes": "30 minutos"
 }

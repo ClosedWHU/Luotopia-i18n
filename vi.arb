@@ -484,5 +484,254 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "Tuần {week}"
+  "emptyClassroomWeekLabel": "Tuần {week}",
+  "homeCurrentWeekRange": "Tuần này ({start} - {end})",
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homePeriodRange": "{start} - {end}",
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabel": "Năm học {year} {term}",
+  "@homeCalendarTopLabel": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabelYearOnly": "Năm học {year}",
+  "@homeCalendarTopLabelYearOnly": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMainLabelWeek": "Tuần {week}",
+  "@homeCalendarMainLabelWeek": {
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarSummerBreak": "Nghỉ hè",
+  "homeCalendarWinterBreak": "Nghỉ đông",
+  "homeGoToCurrentWeek": "Đến tuần này",
+  "homeGoToNextSemesterFirstWeek": "Đến tuần đầu tiên của học kỳ",
+  "homeCoursePeriod": "Tiết {courseNumber}",
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCourseLunch": "Nghỉ trưa",
+  "homeWeekdayLabel": "{weekday}",
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsHomeHideLunchBreak": "Ẩn giờ nghỉ trưa",
+  "settingsHomeFitGridToScreen": "Vừa lưới với màn hình",
+  "settingsHomeGridCellHeight": "Chiều cao ô lưới cố định",
+  "homeCalendarYearMonth": "{month} {year}",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthWeek": "Tuần {week} của {month}",
+  "@homeCalendarMonthWeek": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarYearWeek": "Tuần {week} của {year}",
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "@homeCalendarMonthDayRange": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "endDay": {
+        "type": "String"
+      }
+    }
+  },
+  "homeBackToCurrentPeriod": "Trở lại tuần này",
+  "startImport": "Bắt đầu nhập",
+  "pasteSharedContent": "Dán nội dung được chia sẻ",
+  "shareCodeLink": "Mã / Liên kết chia sẻ",
+  "eGWakeupImport1": "VD: Wakeup Import 1",
+  "timetableName": "Tên thời khóa biểu",
+  "pasteWakeupShareCodeLinkParser": "Dán mã/liên kết Wakeup. Bộ phân tích cú pháp chưa được kết nối.",
+  "wakeupImport": "Nhập từ Wakeup",
+  "semS": "Học kỳ {s}",
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "yY1": "{y}-{yPlus1}",
+  "@yY1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "done": "Xong",
+  "selectSemester": "Chọn học kỳ",
+  "semester": "Học kỳ",
+  "importFailedError": "Lỗi nhập: {error}",
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importedPayloadItemsLengthItem": "Đã nhập {itemsLength} mục vào \"{tableName}\".",
+  "@importedPayloadItemsLengthItem": {
+    "placeholders": {
+      "tableName": {},
+      "itemsLength": {}
+    }
+  },
+  "importFinishedPayloadItemsLeng": "Hoàn tất nhập: {itemsLength} mục, {currentWeekCount} trong tuần này.",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "fetchingTimetable": "Đang lấy thời khóa biểu...",
+  "verifyingAndEstablishingEducat": "Đang xác minh và thiết lập phiên...",
+  "pleaseSelectWeek1Monday": "Vui lòng chọn Thứ Hai của Tuần 1.",
+  "tipSelectedDateIsNotAMonday": "💡 Mẹo: Ngày đã chọn không phải Thứ Hai",
+  "tapToSelect": "Chạm để chọn",
+  "week1Monday": "Thứ Hai Tuần 1",
+  "timetableName1": "Tên thời khóa biểu",
+  "importSchedule": "Nhập lịch",
+  "delete": "Xóa",
+  "cancel": "Hủy",
+  "allCourseItemsInThisTimetableW": "Tất cả các khóa học trong thời khóa biểu này sẽ bị xóa.",
+  "deleteTimetable": "Xóa thời khóa biểu",
+  "create": "Tạo",
+  "enterTimetableName": "Nhập tên",
+  "createTimetable": "Tạo thời khóa biểu",
+  "sourceManual": "Nguồn: Thủ công",
+  "sourceMerged": "Nguồn: Đã hợp nhất",
+  "sourceWakeup": "Nguồn: Wakeup",
+  "sourceWhu": "Nguồn: WHU",
+  "noTimetableYetImportOrCreateOn": "Chưa có thời khóa biểu. Hãy tạo hoặc nhập.",
+  "timetables": "Thời khóa biểu",
+  "importTimetableFromSharedText": "Nhập từ văn bản chia sẻ",
+  "wakeupShareLinkCode": "Mã / Liên kết Wakeup",
+  "importCoursesViaEmbeddedWebLog": "Nhập qua đăng nhập web tích hợp",
+  "whuAcademicSystem": "Hệ thống học vụ WHU",
+  "importSources": "Nguồn nhập",
+  "courseTablesImport": "Thời khóa biểu và Nhập",
+  "importedTimestr": "Đã nhập {timeStr}",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "noTimetableYetTapToImportFromW": "Chưa có thời khóa biểu. Nhấn + để nhập từ WHU.",
+  "login": "Đăng nhập",
+  "pleaseLoginToWhuAcademicSystem": "Vui lòng đăng nhập vào Hệ thống WHU",
+  "timetable": "Thời khóa biểu",
+  "allSameNameCourses": "Tất cả các khóa học cùng tên",
+  "thisItem": "Mục này",
+  "changeOnlyThisItemOrEveryCours": "Chỉ đổi mục này, hay mọi khóa học tên \"{title}\"?",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "applyColorTo": "Áp dụng màu cho",
+  "timetableManagement": "Quản lý thời khóa biểu",
+  "importFromSharedText": "Nhập từ văn bản",
+  "importViaEmbeddedWebLogin": "Nhập qua web login",
+  "courseImport": "Nhập khóa học",
+  "courseGridSettings": "Cài đặt lưới",
+  "colorSpec": "Chỉ định màu",
+  "paletteStyle": "Phong cách bảng màu",
+  "ok": "OK",
+  "selectSeedColor": "Chọn màu cơ bản",
+  "customSeedColor": "Màu cơ bản tùy chỉnh",
+  "extractColorsFromWallpaperAuto": "Tự động trích xuất màu từ hình nền",
+  "useDynamicColor": "Sử dụng màu động",
+  "themeColors": "Màu chủ đề",
+  "followAppTheme": "Theo chủ đề ứng dụng",
+  "followAppLanguage": "Theo ngôn ngữ ứng dụng",
+  "updateOnDataChangesWithPeriodi": "Cập nhật khi có thay đổi dữ liệu.",
+  "fallbackRefreshInterval": "Khoảng thời gian làm mới dự phòng",
+  "enableWidgetSync": "Bật đồng bộ tiện ích",
+  "alwaysHide": "Luôn ẩn",
+  "alwaysShow": "Luôn hiện",
+  "selectedOnlyDefault": "Chỉ các mục đã chọn",
+  "aiAssistant": "Trợ lý AI",
+  "forum": "Diễn đàn",
+  "chooseBetweenForumOrAiForTheMi": "Chọn Diễn đàn hoặc AI cho tab giữa.",
+  "middleTab": "Tab giữa",
+  "showNavigationLabels": "Hiển thị nhãn điều hướng",
+  "minuteMin": "{minute} phút",
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "hourH": "{hour} giờ",
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
+  "chooseDuration": "Chọn khoảng thời gian",
+  "k3Hours": "3 giờ",
+  "k1Hour": "1 giờ",
+  "k30Minutes": "30 phút"
 }

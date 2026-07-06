@@ -484,5 +484,254 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "第{week}週"
+  "emptyClassroomWeekLabel": "第{week}週",
+  "homeCurrentWeekRange": "今週 ({start} - {end})",
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homePeriodRange": "{start} - {end}",
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabel": "{year}年度 {term}",
+  "@homeCalendarTopLabel": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabelYearOnly": "{year}年度",
+  "@homeCalendarTopLabelYearOnly": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMainLabelWeek": "第{week}週",
+  "@homeCalendarMainLabelWeek": {
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarSummerBreak": "夏休み",
+  "homeCalendarWinterBreak": "冬休み",
+  "homeGoToCurrentWeek": "今週へ移動",
+  "homeGoToNextSemesterFirstWeek": "新学期の最初の週へ移動",
+  "homeCoursePeriod": "{courseNumber}限",
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCourseLunch": "昼休み",
+  "homeWeekdayLabel": "{weekday}",
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsHomeHideLunchBreak": "昼休みを非表示",
+  "settingsHomeFitGridToScreen": "画面に合わせる",
+  "settingsHomeGridCellHeight": "グリッドのセルの高さを固定",
+  "homeCalendarYearMonth": "{year}年 {month}",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthWeek": "{month} 第{week}週",
+  "@homeCalendarMonthWeek": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarYearWeek": "{year}年 第{week}週",
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "@homeCalendarMonthDayRange": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "endDay": {
+        "type": "String"
+      }
+    }
+  },
+  "homeBackToCurrentPeriod": "今週に戻る",
+  "startImport": "インポート開始",
+  "pasteSharedContent": "共有コンテンツを貼り付け",
+  "shareCodeLink": "共有コード/リンク",
+  "eGWakeupImport1": "例：Wakeupインポート1",
+  "timetableName": "時間割名",
+  "pasteWakeupShareCodeLinkParser": "Wakeupの共有コード/リンクを貼り付けてください。パーサーは未接続です。",
+  "wakeupImport": "Wakeupインポート",
+  "semS": "{s}学期",
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "yY1": "{y}-{yPlus1}",
+  "@yY1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "done": "完了",
+  "selectSemester": "学期を選択",
+  "semester": "学期",
+  "importFailedError": "インポート失敗: {error}",
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importedPayloadItemsLengthItem": "\"{tableName}\" に {itemsLength} 件のアイテムをインポートしました。",
+  "@importedPayloadItemsLengthItem": {
+    "placeholders": {
+      "tableName": {},
+      "itemsLength": {}
+    }
+  },
+  "importFinishedPayloadItemsLeng": "インポート完了: {itemsLength} 件、今週は {currentWeekCount} 件。",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "fetchingTimetable": "時間割を取得中...",
+  "verifyingAndEstablishingEducat": "教務セッションを検証および確立中...",
+  "pleaseSelectWeek1Monday": "第1週目の月曜日を選択してください。",
+  "tipSelectedDateIsNotAMonday": "💡 ヒント: 選択した日付は月曜日ではありません",
+  "tapToSelect": "タップして選択",
+  "week1Monday": "第1週の月曜日",
+  "timetableName1": "時間割名",
+  "importSchedule": "スケジュールをインポート",
+  "delete": "削除",
+  "cancel": "キャンセル",
+  "allCourseItemsInThisTimetableW": "この時間割のすべてのコースが削除されます。",
+  "deleteTimetable": "時間割を削除",
+  "create": "作成",
+  "enterTimetableName": "時間割名を入力",
+  "createTimetable": "時間割を作成",
+  "sourceManual": "ソース: 手動",
+  "sourceMerged": "ソース: 結合済み",
+  "sourceWakeup": "ソース: Wakeup",
+  "sourceWhu": "ソース: 武漢大学",
+  "noTimetableYetImportOrCreateOn": "時間割がありません。先にインポートまたは作成してください。",
+  "timetables": "時間割",
+  "importTimetableFromSharedText": "共有テキストから時間割をインポート",
+  "wakeupShareLinkCode": "Wakeup共有リンク/コード",
+  "importCoursesViaEmbeddedWebLog": "埋め込みWebログインからコースをインポート",
+  "whuAcademicSystem": "武漢大学教務システム",
+  "importSources": "インポート元",
+  "courseTablesImport": "時間割とインポート",
+  "importedTimestr": "インポート済み {timeStr}",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "noTimetableYetTapToImportFromW": "時間割がありません。+ をタップして武漢大学からインポートしてください。",
+  "login": "ログイン",
+  "pleaseLoginToWhuAcademicSystem": "武漢大学教務システムにログインしてください",
+  "timetable": "時間割",
+  "allSameNameCourses": "同名のすべてのコース",
+  "thisItem": "このアイテム",
+  "changeOnlyThisItemOrEveryCours": "このアイテムのみを変更しますか、それとも \"{title}\" という名前のすべてのコースを変更しますか？",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "applyColorTo": "色を適用",
+  "timetableManagement": "時間割の管理",
+  "importFromSharedText": "共有テキストからインポート",
+  "importViaEmbeddedWebLogin": "埋め込みWebログイン経由でインポート",
+  "courseImport": "コースインポート",
+  "courseGridSettings": "コースグリッド設定",
+  "colorSpec": "色指定",
+  "paletteStyle": "パレットスタイル",
+  "ok": "OK",
+  "selectSeedColor": "シードカラーを選択",
+  "customSeedColor": "カスタムシードカラー",
+  "extractColorsFromWallpaperAuto": "壁紙から色を自動抽出",
+  "useDynamicColor": "ダイナミックカラーを使用",
+  "themeColors": "テーマカラー",
+  "followAppTheme": "アプリのテーマに従う",
+  "followAppLanguage": "アプリの言語に従う",
+  "updateOnDataChangesWithPeriodi": "データ変更時に更新し、定期的なフォールバック更新を行います。",
+  "fallbackRefreshInterval": "フォールバック更新間隔",
+  "enableWidgetSync": "ウィジェット同期を有効にする",
+  "alwaysHide": "常に非表示",
+  "alwaysShow": "常に表示",
+  "selectedOnlyDefault": "選択中のみ (デフォルト)",
+  "aiAssistant": "AI アシスタント",
+  "forum": "フォーラム",
+  "chooseBetweenForumOrAiForTheMi": "中央のタブでフォーラムまたはAIを選択します（デフォルトはフォーラム）。",
+  "middleTab": "中央のタブ",
+  "showNavigationLabels": "ナビゲーションラベルを表示",
+  "minuteMin": "{minute} 分",
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "hourH": "{hour} 時間",
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
+  "chooseDuration": "期間を選択",
+  "k3Hours": "3時間",
+  "k1Hour": "1時間",
+  "k30Minutes": "30分"
 }

@@ -484,5 +484,254 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "第{week}周"
+  "emptyClassroomWeekLabel": "第{week}周",
+  "homeCurrentWeekRange": "本周 ({start} - {end})",
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homePeriodRange": "{start} - {end}",
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabel": "{year}学年 {term}",
+  "@homeCalendarTopLabel": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarTopLabelYearOnly": "{year}学年",
+  "@homeCalendarTopLabelYearOnly": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMainLabelWeek": "第{week}周",
+  "@homeCalendarMainLabelWeek": {
+    "placeholders": {
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarSummerBreak": "暑假",
+  "homeCalendarWinterBreak": "寒假",
+  "homeGoToCurrentWeek": "转到本周",
+  "homeGoToNextSemesterFirstWeek": "转到开学第一周",
+  "homeCoursePeriod": "第{courseNumber}节",
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCourseLunch": "午休",
+  "homeWeekdayLabel": "{weekday}",
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsHomeHideLunchBreak": "隐藏午休",
+  "settingsHomeFitGridToScreen": "自适应屏幕大小",
+  "settingsHomeGridCellHeight": "固定格子高度",
+  "homeCalendarYearMonth": "{year}年{month}月",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthWeek": "{month}月第{week}周",
+  "@homeCalendarMonthWeek": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarYearWeek": "{year}年第{week}周",
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCalendarMonthDayRange": "{day} - {endDay}日",
+  "@homeCalendarMonthDayRange": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "endDay": {
+        "type": "String"
+      }
+    }
+  },
+  "homeBackToCurrentPeriod": "返回本周",
+  "startImport": "开始导入",
+  "pasteSharedContent": "粘贴 Wakeup 分享内容",
+  "shareCodeLink": "分享口令或链接",
+  "eGWakeupImport1": "例如：Wakeup 导入 1",
+  "timetableName": "课程表名称",
+  "pasteWakeupShareCodeLinkParser": "支持粘贴 Wakeup 分享口令或链接。当前版本先提供占位流程。",
+  "wakeupImport": "Wakeup 导入",
+  "semS": "第{s}学期",
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "yY1": "{y}-{yPlus1} 学年",
+  "@yY1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "done": "确定",
+  "selectSemester": "选择学期",
+  "semester": "导入学期",
+  "importFailedError": "导入失败：{error}",
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importedPayloadItemsLengthItem": "导入完成：新增 {itemsLength} 条课程事项，课程表「{tableName}」。",
+  "@importedPayloadItemsLengthItem": {
+    "placeholders": {
+      "tableName": {},
+      "itemsLength": {}
+    }
+  },
+  "importFinishedPayloadItemsLeng": "导入完成：新增 {itemsLength} 条，当前周 {currentWeekCount} 条。",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "fetchingTimetable": "正在请求教务课表...",
+  "verifyingAndEstablishingEducat": "正在校验并建立教务会话...",
+  "pleaseSelectWeek1Monday": "请选择第1周周一日期。",
+  "tipSelectedDateIsNotAMonday": "💡 提示：所选日期并非星期一",
+  "tapToSelect": "点击选择",
+  "week1Monday": "第一周周一",
+  "timetableName1": "课程表名称",
+  "importSchedule": "导入课程表",
+  "delete": "删除",
+  "cancel": "取消",
+  "allCourseItemsInThisTimetableW": "会同时删除该课程表下的所有课程事项。",
+  "deleteTimetable": "删除课程表",
+  "create": "创建",
+  "enterTimetableName": "输入课程表名称",
+  "createTimetable": "新建课程表",
+  "sourceManual": "来源：手动",
+  "sourceMerged": "来源：合并",
+  "sourceWakeup": "来源：Wakeup",
+  "sourceWhu": "来源：武大教务",
+  "noTimetableYetImportOrCreateOn": "还没有课程表，先从上方导入或手动创建。",
+  "timetables": "课程表列表",
+  "importTimetableFromSharedText": "从分享文本导入课程表",
+  "wakeupShareLinkCode": "Wakeup 分享口令/链接",
+  "importCoursesViaEmbeddedWebLog": "通过内嵌网页登录并导入课程",
+  "whuAcademicSystem": "武汉大学教务系统",
+  "importSources": "导入来源",
+  "courseTablesImport": "课程表与导入",
+  "importedTimestr": "导入于 {timeStr}",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "noTimetableYetTapToImportFromW": "还没有课程表，点右上角 + 从武大教务系统导入。",
+  "login": "去登录",
+  "pleaseLoginToWhuAcademicSystem": "请先登录武大教务账户",
+  "timetable": "课程表",
+  "allSameNameCourses": "改这门课程",
+  "thisItem": "只改这一项",
+  "changeOnlyThisItemOrEveryCours": "要只修改当前这一项，还是修改所有名称为「{title}」的课程？",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "applyColorTo": "应用颜色到哪里？",
+  "timetableManagement": "课程表管理",
+  "importFromSharedText": "从分享文本导入课程表",
+  "importViaEmbeddedWebLogin": "通过内嵌网页登录并导入课程",
+  "courseImport": "课程表导入",
+  "courseGridSettings": "课程方格模式设置",
+  "colorSpec": "色彩规范",
+  "paletteStyle": "调色盘算法",
+  "ok": "确定",
+  "selectSeedColor": "选择主色",
+  "customSeedColor": "自定义主色",
+  "extractColorsFromWallpaperAuto": "自动从壁纸提取主色",
+  "useDynamicColor": "莫奈取色 (Dynamic Color)",
+  "themeColors": "主题配色",
+  "followAppTheme": "跟随应用主题",
+  "followAppLanguage": "跟随应用语言",
+  "updateOnDataChangesWithPeriodi": "数据变更即时推送，同时按频率兜底刷新。",
+  "fallbackRefreshInterval": "兜底刷新频率",
+  "enableWidgetSync": "启用桌面小组件同步",
+  "alwaysHide": "始终隐藏",
+  "alwaysShow": "始终显示",
+  "selectedOnlyDefault": "仅选中项显示 (默认)",
+  "aiAssistant": "AI 助手",
+  "forum": "论坛 (珞珈防空洞)",
+  "chooseBetweenForumOrAiForTheMi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
+  "middleTab": "中间标签页",
+  "showNavigationLabels": "导航栏显示文字",
+  "minuteMin": "{minute} 分钟",
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "hourH": "{hour} 小时",
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
+  "chooseDuration": "选择时长",
+  "k3Hours": "3 小时",
+  "k1Hour": "1 小时",
+  "k30Minutes": "30 分钟"
 }
