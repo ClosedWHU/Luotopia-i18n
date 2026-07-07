@@ -733,5 +733,63 @@
   "chooseDuration": "选择时长",
   "k3Hours": "3 小时",
   "k1Hour": "1 小时",
-  "k30Minutes": "30 分钟"
+  "k30Minutes": "30 分钟",
+  "pasteWakeupShareCodelinkParser": "支持粘贴 Wakeup 分享口令或链接。当前版本先提供占位流程。",
+  "egWakeupImport1": "例如：Wakeup 导入 1",
+  "tipSelectedDateIsNot": "💡 提示：所选日期并非星期一",
+  "verifyingAndEstablishingEducationSession": "正在校验并建立教务会话...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "导入完成：新增 {itemsLength} 条，当前周 {currentWeekCount} 条。",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "导入完成：新增 {itemsLength} 条课程事项，课程表「{tableName}」。",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "导入失败：{error}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "{y}-{yPlus1} 学年",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "第{s}学期",
+  "importCoursesViaEmbeddedWeb": "通过内嵌网页登录并导入课程",
+  "wakeupShareLinkcode": "Wakeup 分享口令/链接",
+  "noTimetableYetImportOr": "还没有课程表，先从上方导入或手动创建。",
+  "allCourseItemsInThis": "会同时删除该课程表下的所有课程事项。",
+  "pleaseLoginToWhuAcademic": "请先登录武大教务账户",
+  "noTimetableYetTapTo": "还没有课程表，点右上角 + 从武大教务系统导入。",
+  "allSamenameCourses": "改这门课程",
+  "updateOnDataChangesWith": "数据变更即时推送，同时按频率兜底刷新。",
+  "chooseBetweenForumOrAi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
+  "themeSettings": "主题设置",
+  "colorsAppearance": "色彩与外观",
+  "colorSpec1": "Color Spec",
+  "affectsMaterialColorGenerationSpecs": "影响 Material 主题颜色的生成规范",
+  "dynamicColorMonet": "动态取色 (Monet)",
+  "extractPrimaryColorFromSystem": "根据系统壁纸动态提取主色调",
+  "appDpiScaling": "应用 DPI (缩放)",
+  "adjustGlobalUiElementScaling": "调整全局界面元素的缩放比例",
+  "seedColor": "种子色 (Seed Color)",
+  "baseColorForStaticTheme": "静态主题的基础色",
+  "paletteAlgorithm": "调色盘算法",
+  "changeColorVariantGenerationAlgorithm": "改变颜色变体生成算法"
 }

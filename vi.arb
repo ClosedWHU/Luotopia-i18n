@@ -289,6 +289,13 @@
   "placeholderOpenPicker": "Mở bộ chọn",
   "placeholderOpenMenu": "Mở trình đơn",
   "scorePageStatsDialogTitle": "Thống kê{courseName}điểm",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
   "scorePageInstructorUnknown": "không rõ",
   "scorePageRetry": "Thử lại",
   "scorePageStatsEmpty": "Hiện tại không có mẫu thống kê nào để chấm điểm trong khóa học này",
@@ -306,21 +313,6 @@
   "scorePageSubmitSuccess": "Gửi thành công! Cảm ơn sự đóng góp ẩn danh của bạn!",
   "scorePageAnonymousContribution": "Điểm cho đóng góp ẩn danh",
   "scorePageTotalScore": "Điểm tổng thể:{score}",
-  "scorePageUsualScoreLabel": "Kết quả hàng ngày (tùy chọn)",
-  "scorePageExamScoreLabel": "Điểm cuối cùng (tùy chọn)",
-  "scorePageSubmitAnonymous": "Gửi ẩn danh",
-  "scorePageCourseTeacherNotMatched": "Khóa học này và giáo viên không khớp trong máy chủ",
-  "scorePageFetchStatsFailed": "Không lấy được số liệu thống kê:{error}",
-  "scorePageSubmitFailed": "Gửi không thành công, vui lòng thử lại",
-  "scorePageSubmitError": "Gửi không thành công:{error}",
-  "scorePageInstructorLabel": "Giáo viên:{instructor}",
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
   "@scorePageTotalScore": {
     "placeholders": {
       "score": {
@@ -328,6 +320,11 @@
       }
     }
   },
+  "scorePageUsualScoreLabel": "Kết quả hàng ngày (tùy chọn)",
+  "scorePageExamScoreLabel": "Điểm cuối cùng (tùy chọn)",
+  "scorePageSubmitAnonymous": "Gửi ẩn danh",
+  "scorePageCourseTeacherNotMatched": "Khóa học này và giáo viên không khớp trong máy chủ",
+  "scorePageFetchStatsFailed": "Không lấy được số liệu thống kê:{error}",
   "@scorePageFetchStatsFailed": {
     "placeholders": {
       "error": {
@@ -335,6 +332,8 @@
       }
     }
   },
+  "scorePageSubmitFailed": "Gửi không thành công, vui lòng thử lại",
+  "scorePageSubmitError": "Gửi không thành công:{error}",
   "@scorePageSubmitError": {
     "placeholders": {
       "error": {
@@ -342,6 +341,7 @@
       }
     }
   },
+  "scorePageInstructorLabel": "Giáo viên:{instructor}",
   "@scorePageInstructorLabel": {
     "placeholders": {
       "instructor": {
@@ -356,7 +356,6 @@
   "weatherNews": "Tin tức trường",
   "weatherLibraryReminder": "Thư viện: Việc mượn 'Tội ác và trừng phạt' sẽ hết hạn sau ba ngày",
   "weatherLibraryBorrowingDetail": "Chi tiết vay",
-  "weatherFeelsLike": "Cảm giác như{temp}",
   "@weatherFeelsLike": {
     "placeholders": {
       "temp": {
@@ -364,7 +363,7 @@
       }
     }
   },
-  "weatherUpdated": "Đã cập nhật{time}",
+  "weatherFeelsLike": "Cảm giác như{temp}",
   "@weatherUpdated": {
     "placeholders": {
       "time": {
@@ -372,9 +371,9 @@
       }
     }
   },
+  "weatherUpdated": "Đã cập nhật{time}",
   "weatherShowCache": "Hiển thị bộ đệm gần đây",
   "weatherNoHourlyForecast": "Không có dự báo hàng giờ",
-  "weatherLoadingLocation": "Đang xem thời tiết cho{locationName}...",
   "@weatherLoadingLocation": {
     "placeholders": {
       "locationName": {
@@ -382,10 +381,10 @@
       }
     }
   },
+  "weatherLoadingLocation": "Đang xem thời tiết cho{locationName}...",
   "weatherLoadFailed": "Không tải được thời tiết",
   "weatherTryAgainLater": "Vui lòng thử lại sau",
   "weatherCacheTimeUnknown": "Thời gian lưu trữ không xác định",
-  "weatherCachedAt": "Được lưu trữ tại{time}",
   "@weatherCachedAt": {
     "placeholders": {
       "time": {
@@ -393,8 +392,8 @@
       }
     }
   },
+  "weatherCachedAt": "Được lưu trữ tại{time}",
   "weatherServiceUnavailable": "Dịch vụ thời tiết tạm thời không khả dụng. Hiển thị bộ đệm gần đây.",
-  "weatherLoadFailedWithError": "Không tải được thời tiết:{error}",
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
@@ -402,6 +401,7 @@
       }
     }
   },
+  "weatherLoadFailedWithError": "Không tải được thời tiết:{error}",
   "weatherRetry": "Thử lại",
   "emptyClassroomTitle": "Phòng Trống",
   "emptyClassroomFilterTitle": "Bộ lọc",
@@ -555,9 +555,6 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "Ẩn giờ nghỉ trưa",
-  "settingsHomeFitGridToScreen": "Vừa lưới với màn hình",
-  "settingsHomeGridCellHeight": "Chiều cao ô lưới cố định",
   "homeCalendarYearMonth": "{month} {year}",
   "@homeCalendarYearMonth": {
     "placeholders": {
@@ -602,6 +599,9 @@
       }
     }
   },
+  "settingsHomeHideLunchBreak": "Ẩn giờ nghỉ trưa",
+  "settingsHomeFitGridToScreen": "Vừa lưới với màn hình",
+  "settingsHomeGridCellHeight": "Chiều cao ô lưới cố định",
   "homeBackToCurrentPeriod": "Trở lại tuần này",
   "startImport": "Bắt đầu nhập",
   "pasteSharedContent": "Dán nội dung được chia sẻ",
@@ -733,5 +733,63 @@
   "chooseDuration": "Chọn khoảng thời gian",
   "k3Hours": "3 giờ",
   "k1Hour": "1 giờ",
-  "k30Minutes": "30 phút"
+  "k30Minutes": "30 phút",
+  "pasteWakeupShareCodelinkParser": "Hỗ trợ dán mật khẩu hoặc liên kết chia sẻ Wakeup. Phiên bản hiện tại trước tiên cung cấp quy trình giữ chỗ.",
+  "egWakeupImport1": "Ví dụ: Wakeup nhập 1",
+  "tipSelectedDateIsNot": "💡 Mẹo: Ngày đã chọn không phải là Thứ Hai",
+  "verifyingAndEstablishingEducationSession": "Xác minh và thiết lập phiên học...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Quá trình nhập đã hoàn tất: đã thêm {itemsLength} mục, {currentWeekCount} mục trong tuần hiện tại.",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "Đã nhập xong: Đã thêm mục khóa học {itemsLength}, lịch trình khóa học \"{tableName}\".",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "Nhập không thành công: {error}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "năm học {y}-{yPlus1}",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "Học kỳ {s}",
+  "importCoursesViaEmbeddedWeb": "Đăng nhập và nhập các khóa học qua trang web nhúng",
+  "wakeupShareLinkcode": "Wakeup chia sẻ mật khẩu/liên kết",
+  "noTimetableYetImportOr": "Chưa có lịch trình khóa học, vui lòng nhập lịch trình từ bên trên hoặc tạo thủ công.",
+  "allCourseItemsInThis": "Tất cả các vấn đề về khóa học theo lịch trình khóa học này sẽ bị xóa cùng một lúc.",
+  "pleaseLoginToWhuAcademic": "Vui lòng đăng nhập vào tài khoản công tác học thuật của Đại học Vũ Hán trước",
+  "noTimetableYetTapTo": "Chưa có lịch trình khóa học nào, hãy nhấp vào + ở góc trên bên phải để nhập lịch học từ Hệ thống Giáo vụ Đại học Vũ Hán.",
+  "allSamenameCourses": "Thay đổi khóa học này",
+  "updateOnDataChangesWith": "Các thay đổi dữ liệu được đẩy ngay lập tức và được làm mới theo tần suất.",
+  "chooseBetweenForumOrAi": "Diễn đàn hoặc trợ lý AI hiển thị ở giữa thanh điều hướng (diễn đàn mặc định)",
+  "themeSettings": "Cài đặt chủ đề",
+  "colorsAppearance": "Màu sắc và sự xuất hiện",
+  "colorSpec1": "Thông số màu",
+  "affectsMaterialColorGenerationSpecs": "Xây dựng các thông số kỹ thuật ảnh hưởng đến màu sắc của chủ đề Material",
+  "dynamicColorMonet": "Chọn màu động (Monet)",
+  "extractPrimaryColorFromSystem": "Trích xuất động các màu chính dựa trên hình nền hệ thống",
+  "appDpiScaling": "Áp dụng dpi (chia tỷ lệ)",
+  "adjustGlobalUiElementScaling": "Điều chỉnh tỷ lệ của các thành phần giao diện toàn cầu",
+  "seedColor": "Màu hạt",
+  "baseColorForStaticTheme": "Màu cơ bản cho chủ đề tĩnh",
+  "paletteAlgorithm": "Thuật toán bảng màu",
+  "changeColorVariantGenerationAlgorithm": "Thay đổi thuật toán tạo biến thể màu"
 }

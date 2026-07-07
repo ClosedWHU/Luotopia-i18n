@@ -289,6 +289,13 @@
   "placeholderOpenPicker": "セレクターを開く",
   "placeholderOpenMenu": "メニューを開く",
   "scorePageStatsDialogTitle": "{courseName}ポイントの統計",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
   "scorePageInstructorUnknown": "不明",
   "scorePageRetry": "もう一度試してください",
   "scorePageStatsEmpty": "現在、このコースにはスコアリング用の統計サンプルがありません",
@@ -306,21 +313,6 @@
   "scorePageSubmitSuccess": "提出が成功しました！匿名でのご投稿ありがとうございます！",
   "scorePageAnonymousContribution": "匿名投稿によるポイント",
   "scorePageTotalScore": "総合スコア:{score}",
-  "scorePageUsualScoreLabel": "毎日の結果 (オプション)",
-  "scorePageExamScoreLabel": "最終成績（オプション）",
-  "scorePageSubmitAnonymous": "匿名で送信",
-  "scorePageCourseTeacherNotMatched": "このコースと教師はサーバー内で一致しませんでした",
-  "scorePageFetchStatsFailed": "統計の取得に失敗しました:{error}",
-  "scorePageSubmitFailed": "送信に失敗しました。もう一度お試しください",
-  "scorePageSubmitError": "送信に失敗しました:{error}",
-  "scorePageInstructorLabel": "教師:{instructor}",
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
   "@scorePageTotalScore": {
     "placeholders": {
       "score": {
@@ -328,6 +320,11 @@
       }
     }
   },
+  "scorePageUsualScoreLabel": "毎日の結果 (オプション)",
+  "scorePageExamScoreLabel": "最終成績（オプション）",
+  "scorePageSubmitAnonymous": "匿名で送信",
+  "scorePageCourseTeacherNotMatched": "このコースと教師はサーバー内で一致しませんでした",
+  "scorePageFetchStatsFailed": "統計の取得に失敗しました:{error}",
   "@scorePageFetchStatsFailed": {
     "placeholders": {
       "error": {
@@ -335,6 +332,8 @@
       }
     }
   },
+  "scorePageSubmitFailed": "送信に失敗しました。もう一度お試しください",
+  "scorePageSubmitError": "送信に失敗しました:{error}",
   "@scorePageSubmitError": {
     "placeholders": {
       "error": {
@@ -342,6 +341,7 @@
       }
     }
   },
+  "scorePageInstructorLabel": "教師:{instructor}",
   "@scorePageInstructorLabel": {
     "placeholders": {
       "instructor": {
@@ -356,7 +356,6 @@
   "weatherNews": "キャンパスニュース",
   "weatherLibraryReminder": "図書館：「罪と罰」あと３日で貸出期限切れ",
   "weatherLibraryBorrowingDetail": "借入詳細",
-  "weatherFeelsLike": "{temp}みたいな感じ",
   "@weatherFeelsLike": {
     "placeholders": {
       "temp": {
@@ -364,7 +363,7 @@
       }
     }
   },
-  "weatherUpdated": "{time}を更新しました",
+  "weatherFeelsLike": "{temp}みたいな感じ",
   "@weatherUpdated": {
     "placeholders": {
       "time": {
@@ -372,9 +371,9 @@
       }
     }
   },
+  "weatherUpdated": "{time}を更新しました",
   "weatherShowCache": "最近のキャッシュを表示しています",
   "weatherNoHourlyForecast": "時間ごとの予報はありません",
-  "weatherLoadingLocation": "{locationName}の天気を取得中...",
   "@weatherLoadingLocation": {
     "placeholders": {
       "locationName": {
@@ -382,9 +381,10 @@
       }
     }
   },
+  "weatherLoadingLocation": "{locationName}の天気を取得中...",
+  "weatherLoadFailed": "天気の読み込みに失敗しました",
   "weatherTryAgainLater": "後でもう一度試してください",
   "weatherCacheTimeUnknown": "キャッシュ時間不明",
-  "weatherCachedAt": "{time}にキャッシュされています",
   "@weatherCachedAt": {
     "placeholders": {
       "time": {
@@ -392,8 +392,8 @@
       }
     }
   },
+  "weatherCachedAt": "{time}にキャッシュされています",
   "weatherServiceUnavailable": "気象サービスは一時的に利用できなくなります。最近のキャッシュを表示しています。",
-  "weatherLoadFailedWithError": "天気の読み込みに失敗しました:{error}",
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
@@ -401,8 +401,8 @@
       }
     }
   },
+  "weatherLoadFailedWithError": "天気の読み込みに失敗しました:{error}",
   "weatherRetry": "リトライ",
-  "weatherLoadFailed": "天気の読み込みに失敗しました",
   "emptyClassroomTitle": "空き教室",
   "emptyClassroomFilterTitle": "フィルター",
   "emptyClassroomFilterCampus": "キャンパス",
@@ -555,9 +555,6 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "昼休みを非表示",
-  "settingsHomeFitGridToScreen": "画面に合わせる",
-  "settingsHomeGridCellHeight": "グリッドのセルの高さを固定",
   "homeCalendarYearMonth": "{year}年 {month}",
   "@homeCalendarYearMonth": {
     "placeholders": {
@@ -602,6 +599,9 @@
       }
     }
   },
+  "settingsHomeHideLunchBreak": "昼休みを非表示",
+  "settingsHomeFitGridToScreen": "画面に合わせる",
+  "settingsHomeGridCellHeight": "グリッドのセルの高さを固定",
   "homeBackToCurrentPeriod": "今週に戻る",
   "startImport": "インポート開始",
   "pasteSharedContent": "共有コンテンツを貼り付け",
@@ -733,5 +733,63 @@
   "chooseDuration": "期間を選択",
   "k3Hours": "3時間",
   "k1Hour": "1時間",
-  "k30Minutes": "30分"
+  "k30Minutes": "30分",
+  "pasteWakeupShareCodelinkParser": "ウェイクアップ共有パスワードまたはリンクの貼り付けをサポートします。現在のバージョンでは、まずプレースホルダー プロセスが提供されます。",
+  "egWakeupImport1": "例: ウェイクアップインポート 1",
+  "tipSelectedDateIsNot": "💡 ヒント: 選択した日付は月曜日ではありません",
+  "verifyingAndEstablishingEducationSession": "学術セッションを確認および確立しています...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "インポートが完了しました: 今週の {itemsLength} 個のアイテムが追加され、{currentWeekCount} 個のアイテムが追加されました。",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "インポートが完了しました: {itemsLength} コース項目、コース スケジュール「{tableName}」を追加しました。",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "インポートに失敗しました: {エラー}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "{y}-{yPlus1} 学年",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "学期 {s}",
+  "importCoursesViaEmbeddedWeb": "埋め込み Web ページからログインしてコースをインポートします",
+  "wakeupShareLinkcode": "ウェイクアップ共有パスワード/リンク",
+  "noTimetableYetImportOr": "コーススケジュールはまだありません。上からインポートするか、手動で作成してください。",
+  "allCourseItemsInThis": "このコーススケジュールに基づくすべてのコース事項は同時に削除されます。",
+  "pleaseLoginToWhuAcademic": "まずは武漢大学教務アカウントにログインしてください",
+  "noTimetableYetTapTo": "コーススケジュールはまだありません。右上隅の + をクリックして、武漢大学学事システムからインポートします。",
+  "allSamenameCourses": "このコースを変更する",
+  "updateOnDataChangesWith": "データの変更はすぐにプッシュされ、頻度に応じて更新されます。",
+  "chooseBetweenForumOrAi": "フォーラムまたは AI アシスタントはナビゲーション バーの中央に表示されます (デフォルトのフォーラム)",
+  "themeSettings": "テーマの設定",
+  "colorsAppearance": "色と外観",
+  "colorSpec1": "カラースペック",
+  "affectsMaterialColorGenerationSpecs": "マテリアル テーマの色に影響を与えるビルド仕様",
+  "dynamicColorMonet": "動的カラーピッキング (モネ)",
+  "extractPrimaryColorFromSystem": "システムの壁紙に基づいてメインカラーを動的に抽出します",
+  "appDpiScaling": "DPI (スケーリング) を適用する",
+  "adjustGlobalUiElementScaling": "グローバルインターフェイス要素のスケーリングを調整する",
+  "seedColor": "シードカラー",
+  "baseColorForStaticTheme": "静的テーマの基本色",
+  "paletteAlgorithm": "パレットアルゴリズム",
+  "changeColorVariantGenerationAlgorithm": "カラーバリエーション生成アルゴリズムの変更"
 }

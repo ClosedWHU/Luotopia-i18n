@@ -289,6 +289,13 @@
   "placeholderOpenPicker": "Abrir selector",
   "placeholderOpenMenu": "abrir menú",
   "scorePageStatsDialogTitle": "{courseName}puntos estadísticas",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
   "scorePageInstructorUnknown": "desconocido",
   "scorePageRetry": "Inténtalo de nuevo",
   "scorePageStatsEmpty": "Actualmente no existen muestras estadísticas para calificar en este curso.",
@@ -306,21 +313,6 @@
   "scorePageSubmitSuccess": "Envío exitoso! ¡Gracias por tu contribución anónima!",
   "scorePageAnonymousContribution": "Puntos por contribuciones anónimas",
   "scorePageTotalScore": "Puntuación general:{score}",
-  "scorePageUsualScoreLabel": "Resultados diarios (opcional)",
-  "scorePageExamScoreLabel": "Calificaciones finales (opcional)",
-  "scorePageSubmitAnonymous": "Enviar de forma anónima",
-  "scorePageCourseTeacherNotMatched": "Este curso y el profesor no coincidieron en el servidor.",
-  "scorePageFetchStatsFailed": "No se pudieron obtener estadísticas:{error}",
-  "scorePageSubmitFailed": "El envío falló, por favor inténtalo de nuevo.",
-  "scorePageSubmitError": "Envío fallido:{error}",
-  "scorePageInstructorLabel": "Profesor:{instructor}",
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
   "@scorePageTotalScore": {
     "placeholders": {
       "score": {
@@ -328,6 +320,11 @@
       }
     }
   },
+  "scorePageUsualScoreLabel": "Resultados diarios (opcional)",
+  "scorePageExamScoreLabel": "Calificaciones finales (opcional)",
+  "scorePageSubmitAnonymous": "Enviar de forma anónima",
+  "scorePageCourseTeacherNotMatched": "Este curso y el profesor no coincidieron en el servidor.",
+  "scorePageFetchStatsFailed": "No se pudieron obtener estadísticas:{error}",
   "@scorePageFetchStatsFailed": {
     "placeholders": {
       "error": {
@@ -335,6 +332,8 @@
       }
     }
   },
+  "scorePageSubmitFailed": "El envío falló, por favor inténtalo de nuevo.",
+  "scorePageSubmitError": "Envío fallido:{error}",
   "@scorePageSubmitError": {
     "placeholders": {
       "error": {
@@ -342,6 +341,7 @@
       }
     }
   },
+  "scorePageInstructorLabel": "Profesor:{instructor}",
   "@scorePageInstructorLabel": {
     "placeholders": {
       "instructor": {
@@ -356,7 +356,6 @@
   "weatherNews": "Noticias del campus",
   "weatherLibraryReminder": "Biblioteca: El préstamo de 'Crimen y castigo' vence en tres días",
   "weatherLibraryBorrowingDetail": "Detalles del préstamo",
-  "weatherFeelsLike": "Se siente como{temp}",
   "@weatherFeelsLike": {
     "placeholders": {
       "temp": {
@@ -364,7 +363,7 @@
       }
     }
   },
-  "weatherUpdated": "Actualizado{time}",
+  "weatherFeelsLike": "Se siente como{temp}",
   "@weatherUpdated": {
     "placeholders": {
       "time": {
@@ -372,9 +371,9 @@
       }
     }
   },
+  "weatherUpdated": "Actualizado{time}",
   "weatherShowCache": "Mostrando caché reciente",
   "weatherNoHourlyForecast": "No hay pronóstico horario disponible",
-  "weatherLoadingLocation": "Obteniendo el tiempo para{locationName}...",
   "@weatherLoadingLocation": {
     "placeholders": {
       "locationName": {
@@ -382,10 +381,10 @@
       }
     }
   },
+  "weatherLoadingLocation": "Obteniendo el tiempo para{locationName}...",
   "weatherLoadFailed": "No se pudo cargar el clima",
   "weatherTryAgainLater": "Por favor inténtalo de nuevo más tarde.",
   "weatherCacheTimeUnknown": "Tiempo de caché desconocido",
-  "weatherCachedAt": "Almacenado en caché en{time}",
   "@weatherCachedAt": {
     "placeholders": {
       "time": {
@@ -393,8 +392,8 @@
       }
     }
   },
+  "weatherCachedAt": "Almacenado en caché en{time}",
   "weatherServiceUnavailable": "El servicio meteorológico no está disponible temporalmente. Mostrando caché reciente.",
-  "weatherLoadFailedWithError": "No se pudo cargar el clima:{error}",
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
@@ -402,6 +401,7 @@
       }
     }
   },
+  "weatherLoadFailedWithError": "No se pudo cargar el clima:{error}",
   "weatherRetry": "Rever",
   "emptyClassroomTitle": "Aulas Vacías",
   "emptyClassroomFilterTitle": "Filtros",
@@ -555,9 +555,6 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "Ocultar Almuerzo",
-  "settingsHomeFitGridToScreen": "Ajustar cuadrícula",
-  "settingsHomeGridCellHeight": "Altura fija de celda",
   "homeCalendarYearMonth": "{month} de {year}",
   "@homeCalendarYearMonth": {
     "placeholders": {
@@ -602,6 +599,9 @@
       }
     }
   },
+  "settingsHomeHideLunchBreak": "Ocultar Almuerzo",
+  "settingsHomeFitGridToScreen": "Ajustar cuadrícula",
+  "settingsHomeGridCellHeight": "Altura fija de celda",
   "homeBackToCurrentPeriod": "Volver a esta semana",
   "startImport": "Iniciar Importación",
   "pasteSharedContent": "Pegar contenido",
@@ -733,5 +733,63 @@
   "chooseDuration": "Elegir duración",
   "k3Hours": "3 horas",
   "k1Hour": "1 hora",
-  "k30Minutes": "30 minutos"
+  "k30Minutes": "30 minutos",
+  "pasteWakeupShareCodelinkParser": "Admite pegar la contraseña o el enlace para compartir Wakeup. La versión actual proporciona primero un proceso de marcador de posición.",
+  "egWakeupImport1": "Por ejemplo: importación de despertador 1",
+  "tipSelectedDateIsNot": "💡 Consejo: La fecha seleccionada no es lunes",
+  "verifyingAndEstablishingEducationSession": "Verificar y establecer sesión académica...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Importación completada: {itemsLength} elementos agregados, {currentWeekCount} elementos en la semana actual.",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "Importación completada: se agregaron {itemsLength} elementos del curso, cronograma del curso \"{tableName}\".",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "Error de importación: {error}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "{y}-{yPlus1} año académico",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "Semestre {s}",
+  "importCoursesViaEmbeddedWeb": "Inicie sesión e importe cursos a través de la página web integrada",
+  "wakeupShareLinkcode": "Contraseña/enlace compartido de activación",
+  "noTimetableYetImportOr": "Aún no hay un cronograma del curso, impórtelo desde arriba o créelo manualmente.",
+  "allCourseItemsInThis": "Todos los temas del curso bajo este cronograma del curso se eliminarán al mismo tiempo.",
+  "pleaseLoginToWhuAcademic": "Primero inicie sesión en la cuenta de asuntos académicos de la Universidad de Wuhan.",
+  "noTimetableYetTapTo": "Aún no hay un calendario de cursos, haga clic en + en la esquina superior derecha para importarlo desde el Sistema de Asuntos Académicos de la Universidad de Wuhan.",
+  "allSamenameCourses": "Cambiar este curso",
+  "updateOnDataChangesWith": "Los cambios de datos se envían inmediatamente y se actualizan según la frecuencia.",
+  "chooseBetweenForumOrAi": "El foro o asistente de IA se muestra en el medio de la barra de navegación (foro predeterminado)",
+  "themeSettings": "Configuración del tema",
+  "colorsAppearance": "Color y apariencia",
+  "colorSpec1": "Especificaciones de color",
+  "affectsMaterialColorGenerationSpecs": "Especificaciones de compilación que afectan los colores del tema Material",
+  "dynamicColorMonet": "Selección dinámica de colores (Monet)",
+  "extractPrimaryColorFromSystem": "Extraiga dinámicamente los colores principales según el fondo de pantalla del sistema",
+  "appDpiScaling": "Aplicar DPI (escala)",
+  "adjustGlobalUiElementScaling": "Ajustar la escala de los elementos de la interfaz global.",
+  "seedColor": "Color de semilla",
+  "baseColorForStaticTheme": "Color base para temas estáticos",
+  "paletteAlgorithm": "Algoritmo de paleta",
+  "changeColorVariantGenerationAlgorithm": "Cambiar algoritmo de generación de variantes de color"
 }

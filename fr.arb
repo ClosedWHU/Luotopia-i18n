@@ -289,6 +289,13 @@
   "placeholderOpenPicker": "Ouvrir le sélecteur",
   "placeholderOpenMenu": "Ouvrir le menu",
   "scorePageStatsDialogTitle": "{courseName}points statistiques",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
   "scorePageInstructorUnknown": "inconnu",
   "scorePageRetry": "Réessayez",
   "scorePageStatsEmpty": "Il n'y a actuellement aucun échantillon statistique pour la notation dans ce cours",
@@ -306,21 +313,6 @@
   "scorePageSubmitSuccess": "Soumission réussie ! Merci pour votre contribution anonyme !",
   "scorePageAnonymousContribution": "Points pour les contributions anonymes",
   "scorePageTotalScore": "Note globale :{score}",
-  "scorePageUsualScoreLabel": "Résultats quotidiens (facultatif)",
-  "scorePageExamScoreLabel": "Notes finales (facultatif)",
-  "scorePageSubmitAnonymous": "Soumettre anonymement",
-  "scorePageCourseTeacherNotMatched": "Ce cours et ce professeur ne correspondent pas sur le serveur",
-  "scorePageFetchStatsFailed": "Échec de l'obtention des statistiques :{error}",
-  "scorePageSubmitFailed": "Échec de la soumission, veuillez réessayer",
-  "scorePageSubmitError": "Échec de la soumission :{error}",
-  "scorePageInstructorLabel": "Enseignant :{instructor}",
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
   "@scorePageTotalScore": {
     "placeholders": {
       "score": {
@@ -328,6 +320,11 @@
       }
     }
   },
+  "scorePageUsualScoreLabel": "Résultats quotidiens (facultatif)",
+  "scorePageExamScoreLabel": "Notes finales (facultatif)",
+  "scorePageSubmitAnonymous": "Soumettre anonymement",
+  "scorePageCourseTeacherNotMatched": "Ce cours et ce professeur ne correspondent pas sur le serveur",
+  "scorePageFetchStatsFailed": "Échec de l'obtention des statistiques :{error}",
   "@scorePageFetchStatsFailed": {
     "placeholders": {
       "error": {
@@ -335,6 +332,8 @@
       }
     }
   },
+  "scorePageSubmitFailed": "Échec de la soumission, veuillez réessayer",
+  "scorePageSubmitError": "Échec de la soumission :{error}",
   "@scorePageSubmitError": {
     "placeholders": {
       "error": {
@@ -342,6 +341,7 @@
       }
     }
   },
+  "scorePageInstructorLabel": "Enseignant :{instructor}",
   "@scorePageInstructorLabel": {
     "placeholders": {
       "instructor": {
@@ -356,7 +356,6 @@
   "weatherNews": "Actualités du campus",
   "weatherLibraryReminder": "Bibliothèque : l'emprunt de \"Crime et Châtiment\" expire dans trois jours",
   "weatherLibraryBorrowingDetail": "Détails de l'emprunt",
-  "weatherFeelsLike": "On dirait{temp}",
   "@weatherFeelsLike": {
     "placeholders": {
       "temp": {
@@ -364,7 +363,7 @@
       }
     }
   },
-  "weatherUpdated": "{time}mis à jour",
+  "weatherFeelsLike": "On dirait{temp}",
   "@weatherUpdated": {
     "placeholders": {
       "time": {
@@ -372,9 +371,9 @@
       }
     }
   },
+  "weatherUpdated": "{time}mis à jour",
   "weatherShowCache": "Affichage du cache récent",
   "weatherNoHourlyForecast": "Aucune prévision horaire disponible",
-  "weatherLoadingLocation": "Obtenir la météo pour{locationName}...",
   "@weatherLoadingLocation": {
     "placeholders": {
       "locationName": {
@@ -382,10 +381,10 @@
       }
     }
   },
+  "weatherLoadingLocation": "Obtenir la météo pour{locationName}...",
   "weatherLoadFailed": "Échec du chargement de la météo",
   "weatherTryAgainLater": "Veuillez réessayer plus tard",
   "weatherCacheTimeUnknown": "Temps de cache inconnu",
-  "weatherCachedAt": "Mis en cache à{time}",
   "@weatherCachedAt": {
     "placeholders": {
       "time": {
@@ -393,8 +392,8 @@
       }
     }
   },
+  "weatherCachedAt": "Mis en cache à{time}",
   "weatherServiceUnavailable": "Le service météo est temporairement indisponible. Affichage du cache récent.",
-  "weatherLoadFailedWithError": "Échec du chargement de la météo :{error}",
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
@@ -402,6 +401,7 @@
       }
     }
   },
+  "weatherLoadFailedWithError": "Échec du chargement de la météo :{error}",
   "weatherRetry": "Réessayer",
   "emptyClassroomTitle": "Salles Libres",
   "emptyClassroomFilterTitle": "Filtres",
@@ -555,9 +555,6 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "Masquer le déjeuner",
-  "settingsHomeFitGridToScreen": "Ajuster la grille",
-  "settingsHomeGridCellHeight": "Hauteur de cellule fixe",
   "homeCalendarYearMonth": "{month} {year}",
   "@homeCalendarYearMonth": {
     "placeholders": {
@@ -602,6 +599,9 @@
       }
     }
   },
+  "settingsHomeHideLunchBreak": "Masquer le déjeuner",
+  "settingsHomeFitGridToScreen": "Ajuster la grille",
+  "settingsHomeGridCellHeight": "Hauteur de cellule fixe",
   "homeBackToCurrentPeriod": "Retour à cette semaine",
   "startImport": "Démarrer l'importation",
   "pasteSharedContent": "Coller le contenu",
@@ -733,5 +733,63 @@
   "chooseDuration": "Choisir la durée",
   "k3Hours": "3 heures",
   "k1Hour": "1 heure",
-  "k30Minutes": "30 minutes"
+  "k30Minutes": "30 minutes",
+  "pasteWakeupShareCodelinkParser": "Prend en charge le collage du mot de passe ou du lien de partage de Wakeup. La version actuelle fournit d'abord un processus d'espace réservé.",
+  "egWakeupImport1": "Par exemple : Importation de réveil 1",
+  "tipSelectedDateIsNot": "💡 Astuce : La date sélectionnée n'est pas un lundi",
+  "verifyingAndEstablishingEducationSession": "Vérifier et établir une session académique...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Importation terminée : {itemsLength} éléments ajoutés, {currentWeekCount} éléments dans la semaine en cours.",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "Importation terminée : ajout de {itemsLength} éléments de cours, programme de cours \"{tableName}\".",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "Échec de l'importation : {erreur}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "{y}-{yPlus1} année universitaire",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "Semestre {s}",
+  "importCoursesViaEmbeddedWeb": "Connectez-vous et importez des cours via la page Web intégrée",
+  "wakeupShareLinkcode": "Mot de passe/lien de partage de réveil",
+  "noTimetableYetImportOr": "Il n'y a pas encore de planning de cours, veuillez l'importer ci-dessus ou le créer manuellement.",
+  "allCourseItemsInThis": "Tous les sujets de cours relevant de ce programme de cours seront supprimés en même temps.",
+  "pleaseLoginToWhuAcademic": "Veuillez d'abord vous connecter au compte des affaires académiques de l'Université de Wuhan.",
+  "noTimetableYetTapTo": "Il n'y a pas encore de programme de cours, cliquez sur + dans le coin supérieur droit pour l'importer depuis le système des affaires académiques de l'Université de Wuhan.",
+  "allSamenameCourses": "Changer ce cours",
+  "updateOnDataChangesWith": "Les modifications des données sont immédiatement repoussées et actualisées en fonction de la fréquence.",
+  "chooseBetweenForumOrAi": "Le forum ou l'assistant IA s'affiche au milieu de la barre de navigation (forum par défaut)",
+  "themeSettings": "Paramètres du thème",
+  "colorsAppearance": "Couleur et apparence",
+  "colorSpec1": "Spécification de couleur",
+  "affectsMaterialColorGenerationSpecs": "Créer des spécifications qui affectent les couleurs du thème Material",
+  "dynamicColorMonet": "Sélection dynamique des couleurs (Monet)",
+  "extractPrimaryColorFromSystem": "Extraire dynamiquement les couleurs principales en fonction du fond d'écran du système",
+  "appDpiScaling": "Appliquer le DPI (mise à l'échelle)",
+  "adjustGlobalUiElementScaling": "Ajuster la mise à l'échelle des éléments de l'interface globale",
+  "seedColor": "Couleur des graines",
+  "baseColorForStaticTheme": "Couleur de base pour les thèmes statiques",
+  "paletteAlgorithm": "Algorithme de palette",
+  "changeColorVariantGenerationAlgorithm": "Modifier l'algorithme de génération de variantes de couleur"
 }

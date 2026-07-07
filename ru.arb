@@ -289,6 +289,13 @@
   "placeholderOpenPicker": "Открыть селектор",
   "placeholderOpenMenu": "Открыть меню",
   "scorePageStatsDialogTitle": "{courseName}баллов статистика",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
   "scorePageInstructorUnknown": "неизвестно",
   "scorePageRetry": "Попробуйте еще раз",
   "scorePageStatsEmpty": "В настоящее время в этом курсе нет статистических выборок для оценки.",
@@ -306,21 +313,6 @@
   "scorePageSubmitSuccess": "Отправка успешна! Спасибо за ваш анонимный вклад!",
   "scorePageAnonymousContribution": "Баллы за анонимные вклады",
   "scorePageTotalScore": "Общий балл:{score}",
-  "scorePageUsualScoreLabel": "Ежедневные результаты (необязательно)",
-  "scorePageExamScoreLabel": "Итоговые оценки (необязательно)",
-  "scorePageSubmitAnonymous": "Отправить анонимно",
-  "scorePageCourseTeacherNotMatched": "Этот курс и преподаватель не были сопоставлены на сервере.",
-  "scorePageFetchStatsFailed": "Не удалось получить статистику:{error}.",
-  "scorePageSubmitFailed": "Отправка не удалась, попробуйте еще раз",
-  "scorePageSubmitError": "Не удалось отправить:{error}.",
-  "scorePageInstructorLabel": "Учитель:{instructor}",
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
   "@scorePageTotalScore": {
     "placeholders": {
       "score": {
@@ -328,6 +320,11 @@
       }
     }
   },
+  "scorePageUsualScoreLabel": "Ежедневные результаты (необязательно)",
+  "scorePageExamScoreLabel": "Итоговые оценки (необязательно)",
+  "scorePageSubmitAnonymous": "Отправить анонимно",
+  "scorePageCourseTeacherNotMatched": "Этот курс и преподаватель не были сопоставлены на сервере.",
+  "scorePageFetchStatsFailed": "Не удалось получить статистику:{error}.",
   "@scorePageFetchStatsFailed": {
     "placeholders": {
       "error": {
@@ -335,6 +332,8 @@
       }
     }
   },
+  "scorePageSubmitFailed": "Отправка не удалась, попробуйте еще раз",
+  "scorePageSubmitError": "Не удалось отправить:{error}.",
   "@scorePageSubmitError": {
     "placeholders": {
       "error": {
@@ -342,6 +341,7 @@
       }
     }
   },
+  "scorePageInstructorLabel": "Учитель:{instructor}",
   "@scorePageInstructorLabel": {
     "placeholders": {
       "instructor": {
@@ -356,7 +356,6 @@
   "weatherNews": "Новости кампуса",
   "weatherLibraryReminder": "Библиотека: срок проката «Преступления и наказания» истекает через три дня",
   "weatherLibraryBorrowingDetail": "Детали заимствования",
-  "weatherFeelsLike": "Похоже на{temp}",
   "@weatherFeelsLike": {
     "placeholders": {
       "temp": {
@@ -364,7 +363,7 @@
       }
     }
   },
-  "weatherUpdated": "Обновлен{time}",
+  "weatherFeelsLike": "Похоже на{temp}",
   "@weatherUpdated": {
     "placeholders": {
       "time": {
@@ -372,9 +371,9 @@
       }
     }
   },
+  "weatherUpdated": "Обновлен{time}",
   "weatherShowCache": "Показ недавнего кеша",
   "weatherNoHourlyForecast": "Нет почасового прогноза",
-  "weatherLoadingLocation": "Получение погоды для{locationName}...",
   "@weatherLoadingLocation": {
     "placeholders": {
       "locationName": {
@@ -382,10 +381,10 @@
       }
     }
   },
+  "weatherLoadingLocation": "Получение погоды для{locationName}...",
   "weatherLoadFailed": "Не удалось загрузить погоду",
   "weatherTryAgainLater": "Пожалуйста, повторите попытку позже",
   "weatherCacheTimeUnknown": "Время кэша неизвестно",
-  "weatherCachedAt": "Кэшировано по адресу{time}.",
   "@weatherCachedAt": {
     "placeholders": {
       "time": {
@@ -393,8 +392,8 @@
       }
     }
   },
+  "weatherCachedAt": "Кэшировано по адресу{time}.",
   "weatherServiceUnavailable": "Метеослужба временно недоступна. Показываю недавний кэш.",
-  "weatherLoadFailedWithError": "Не удалось загрузить погоду:{error}.",
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
@@ -402,6 +401,7 @@
       }
     }
   },
+  "weatherLoadFailedWithError": "Не удалось загрузить погоду:{error}.",
   "weatherRetry": "Повторить попытку",
   "emptyClassroomTitle": "Свободные аудитории",
   "emptyClassroomFilterTitle": "Фильтры",
@@ -555,9 +555,6 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "Скрыть обеденный перерыв",
-  "settingsHomeFitGridToScreen": "Подогнать сетку под экран",
-  "settingsHomeGridCellHeight": "Фиксированная высота ячейки",
   "homeCalendarYearMonth": "{month} {year}",
   "@homeCalendarYearMonth": {
     "placeholders": {
@@ -602,6 +599,9 @@
       }
     }
   },
+  "settingsHomeHideLunchBreak": "Скрыть обеденный перерыв",
+  "settingsHomeFitGridToScreen": "Подогнать сетку под экран",
+  "settingsHomeGridCellHeight": "Фиксированная высота ячейки",
   "homeBackToCurrentPeriod": "Вернуться к этой неделе",
   "startImport": "Начать импорт",
   "pasteSharedContent": "Вставьте общий контент",
@@ -733,5 +733,63 @@
   "chooseDuration": "Выберите продолжительность",
   "k3Hours": "3 часа",
   "k1Hour": "1 час",
-  "k30Minutes": "30 минут"
+  "k30Minutes": "30 минут",
+  "pasteWakeupShareCodelinkParser": "Поддерживает вставку пароля или ссылки для общего доступа к Wakeup. Текущая версия сначала предоставляет процесс-заполнитель.",
+  "egWakeupImport1": "Например: импорт пробуждения 1.",
+  "tipSelectedDateIsNot": "💡 Совет: выбранная дата не понедельник.",
+  "verifyingAndEstablishingEducationSession": "Проверка и учреждение академической сессии...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Импорт завершен: добавлено элементов: {itemsLength}, элементов на текущей неделе: {currentWeekCount}.",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "Импорт завершен: добавлены элементы курса {itemsLength}, расписание курса \"{tableName}\".",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "Не удалось импортировать: {ошибка}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "{y}-{yPlus1} учебный год",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "Семестр {s}",
+  "importCoursesViaEmbeddedWeb": "Войдите в систему и импортируйте курсы через встроенную веб-страницу.",
+  "wakeupShareLinkcode": "Поделиться паролем/ссылкой для пробуждения",
+  "noTimetableYetImportOr": "Расписания курсов пока нет, пожалуйста, импортируйте его сверху или создайте вручную.",
+  "allCourseItemsInThis": "Все вопросы курса, указанные в этом расписании курса, будут удалены одновременно.",
+  "pleaseLoginToWhuAcademic": "Пожалуйста, сначала войдите в учетную запись по академическим вопросам Уханьского университета.",
+  "noTimetableYetTapTo": "Расписания курсов пока нет. Нажмите + в правом верхнем углу, чтобы импортировать его из системы академических дел Уханьского университета.",
+  "allSamenameCourses": "Изменить этот курс",
+  "updateOnDataChangesWith": "Изменения данных передаются немедленно и обновляются в зависимости от частоты.",
+  "chooseBetweenForumOrAi": "Форум или AI-помощник отображаются в центре панели навигации (форум по умолчанию).",
+  "themeSettings": "Настройки темы",
+  "colorsAppearance": "Цвет и внешний вид",
+  "colorSpec1": "Цветовая характеристика",
+  "affectsMaterialColorGenerationSpecs": "Спецификации сборки, влияющие на цвета темы Material.",
+  "dynamicColorMonet": "Динамический подбор цвета (Моне)",
+  "extractPrimaryColorFromSystem": "Динамически извлекать основные цвета на основе системных обоев.",
+  "appDpiScaling": "Применить DPI (масштабирование)",
+  "adjustGlobalUiElementScaling": "Настройте масштабирование элементов глобального интерфейса.",
+  "seedColor": "Цвет семян",
+  "baseColorForStaticTheme": "Базовый цвет для статических тем",
+  "paletteAlgorithm": "Алгоритм палитры",
+  "changeColorVariantGenerationAlgorithm": "Изменить алгоритм генерации цветовых вариантов"
 }

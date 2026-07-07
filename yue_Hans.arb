@@ -289,6 +289,13 @@
   "placeholderOpenPicker": "打开选择器",
   "placeholderOpenMenu": "打开菜单",
   "scorePageStatsDialogTitle": "{courseName} 给分统计",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
   "scorePageInstructorUnknown": "未知",
   "scorePageRetry": "重试",
   "scorePageStatsEmpty": "该课程暂无给分统计样本",
@@ -306,21 +313,6 @@
   "scorePageSubmitSuccess": "提交成功！感谢您的匿名贡献！",
   "scorePageAnonymousContribution": "匿名贡献给分",
   "scorePageTotalScore": "总评成绩: {score}",
-  "scorePageUsualScoreLabel": "平时成绩 (选填)",
-  "scorePageExamScoreLabel": "期末成绩 (选填)",
-  "scorePageSubmitAnonymous": "匿名提交",
-  "scorePageCourseTeacherNotMatched": "未在服务端中匹配到此课程及教师",
-  "scorePageFetchStatsFailed": "获取统计数据失败：{error}",
-  "scorePageSubmitFailed": "提交失败，请重试",
-  "scorePageSubmitError": "提交失败：{error}",
-  "scorePageInstructorLabel": "教师: {instructor}",
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
   "@scorePageTotalScore": {
     "placeholders": {
       "score": {
@@ -328,6 +320,11 @@
       }
     }
   },
+  "scorePageUsualScoreLabel": "平时成绩 (选填)",
+  "scorePageExamScoreLabel": "期末成绩 (选填)",
+  "scorePageSubmitAnonymous": "匿名提交",
+  "scorePageCourseTeacherNotMatched": "未在服务端中匹配到此课程及教师",
+  "scorePageFetchStatsFailed": "获取统计数据失败：{error}",
   "@scorePageFetchStatsFailed": {
     "placeholders": {
       "error": {
@@ -335,6 +332,8 @@
       }
     }
   },
+  "scorePageSubmitFailed": "提交失败，请重试",
+  "scorePageSubmitError": "提交失败：{error}",
   "@scorePageSubmitError": {
     "placeholders": {
       "error": {
@@ -342,6 +341,7 @@
       }
     }
   },
+  "scorePageInstructorLabel": "教师: {instructor}",
   "@scorePageInstructorLabel": {
     "placeholders": {
       "instructor": {
@@ -356,7 +356,6 @@
   "weatherNews": "校园新闻",
   "weatherLibraryReminder": "图书馆：借阅《罪与罚》三天后到期",
   "weatherLibraryBorrowingDetail": "借款详情",
-  "weatherFeelsLike": "感觉就像{temp}",
   "@weatherFeelsLike": {
     "placeholders": {
       "temp": {
@@ -364,7 +363,7 @@
       }
     }
   },
-  "weatherUpdated": "更新了{time}",
+  "weatherFeelsLike": "感觉就像{temp}",
   "@weatherUpdated": {
     "placeholders": {
       "time": {
@@ -372,9 +371,9 @@
       }
     }
   },
+  "weatherUpdated": "更新了{time}",
   "weatherShowCache": "显示最近的缓存",
   "weatherNoHourlyForecast": "没有可用的每小时预报",
-  "weatherLoadingLocation": "正在获取{locationName}的天气...",
   "@weatherLoadingLocation": {
     "placeholders": {
       "locationName": {
@@ -382,10 +381,10 @@
       }
     }
   },
+  "weatherLoadingLocation": "正在获取{locationName}的天气...",
   "weatherLoadFailed": "加载天气失败",
   "weatherTryAgainLater": "请稍后重试",
   "weatherCacheTimeUnknown": "缓存时间未知",
-  "weatherCachedAt": "缓存在{time}",
   "@weatherCachedAt": {
     "placeholders": {
       "time": {
@@ -393,8 +392,8 @@
       }
     }
   },
+  "weatherCachedAt": "缓存在{time}",
   "weatherServiceUnavailable": "天气服务暂时不可用。显示最近的缓存。",
-  "weatherLoadFailedWithError": "无法加载天气：{error}",
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
@@ -402,6 +401,7 @@
       }
     }
   },
+  "weatherLoadFailedWithError": "无法加载天气：{error}",
   "weatherRetry": "重试",
   "emptyClassroomTitle": "空闲教室",
   "emptyClassroomFilterTitle": "筛选条件",
@@ -555,9 +555,6 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "隐藏午休",
-  "settingsHomeFitGridToScreen": "自适应屏幕大小",
-  "settingsHomeGridCellHeight": "固定格子高度",
   "homeCalendarYearMonth": "{year}年{month}月",
   "@homeCalendarYearMonth": {
     "placeholders": {
@@ -602,6 +599,9 @@
       }
     }
   },
+  "settingsHomeHideLunchBreak": "隐藏午休",
+  "settingsHomeFitGridToScreen": "自适应屏幕大小",
+  "settingsHomeGridCellHeight": "固定格子高度",
   "homeBackToCurrentPeriod": "返回本周",
   "startImport": "开始导入",
   "pasteSharedContent": "粘贴 Wakeup 分享内容",
@@ -733,5 +733,63 @@
   "chooseDuration": "选择时长",
   "k3Hours": "3 小时",
   "k1Hour": "1 小时",
-  "k30Minutes": "30 分钟"
+  "k30Minutes": "30 分钟",
+  "pasteWakeupShareCodelinkParser": "支持粘贴 Wakeup 分享口令或链接。当前版本先提供占位流程。",
+  "egWakeupImport1": "例如：Wakeup 导入 1",
+  "tipSelectedDateIsNot": "💡 提示：所选日期并非星期一",
+  "verifyingAndEstablishingEducationSession": "正在校验并建立教务会话...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "导入完成：新增 {itemsLength} 条，当前周 {currentWeekCount} 条。",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "导入完成：新增 {itemsLength} 条课程事项，课程表「{tableName}」。",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "导入失败：{error}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "{y}-{yPlus1} 学年",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "第{s}学期",
+  "importCoursesViaEmbeddedWeb": "通过内嵌网页登录并导入课程",
+  "wakeupShareLinkcode": "Wakeup 分享口令/链接",
+  "noTimetableYetImportOr": "还没有课程表，先从上方导入或手动创建。",
+  "allCourseItemsInThis": "会同时删除该课程表下的所有课程事项。",
+  "pleaseLoginToWhuAcademic": "请先登录武大教务账户",
+  "noTimetableYetTapTo": "还没有课程表，点右上角 + 从武大教务系统导入。",
+  "allSamenameCourses": "改这门课程",
+  "updateOnDataChangesWith": "数据变更即时推送，同时按频率兜底刷新。",
+  "chooseBetweenForumOrAi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
+  "themeSettings": "主题设置",
+  "colorsAppearance": "色彩与外观",
+  "colorSpec1": "Color Spec",
+  "affectsMaterialColorGenerationSpecs": "影响 Material 主题颜色的生成规范",
+  "dynamicColorMonet": "动态取色 (Monet)",
+  "extractPrimaryColorFromSystem": "根据系统壁纸动态提取主色调",
+  "appDpiScaling": "应用 DPI (缩放)",
+  "adjustGlobalUiElementScaling": "调整全局界面元素的缩放比例",
+  "seedColor": "种子色 (Seed Color)",
+  "baseColorForStaticTheme": "静态主题的基础色",
+  "paletteAlgorithm": "调色盘算法",
+  "changeColorVariantGenerationAlgorithm": "改变颜色变体生成算法"
 }

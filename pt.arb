@@ -289,6 +289,13 @@
   "placeholderOpenPicker": "Abrir seletor",
   "placeholderOpenMenu": "Abrir menu",
   "scorePageStatsDialogTitle": "{courseName}estatísticas de pontos",
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
   "scorePageInstructorUnknown": "desconhecido",
   "scorePageRetry": "Tente novamente",
   "scorePageStatsEmpty": "Atualmente não há amostras estatísticas para pontuação neste curso",
@@ -306,21 +313,6 @@
   "scorePageSubmitSuccess": "Envio bem-sucedido! Obrigado pela sua contribuição anônima!",
   "scorePageAnonymousContribution": "Pontos por contribuições anônimas",
   "scorePageTotalScore": "Pontuação geral:{score}",
-  "scorePageUsualScoreLabel": "Resultados diários (opcional)",
-  "scorePageExamScoreLabel": "Notas finais (opcional)",
-  "scorePageSubmitAnonymous": "Enviar anonimamente",
-  "scorePageCourseTeacherNotMatched": "Este curso e professor não foram correspondidos no servidor",
-  "scorePageFetchStatsFailed": "Falha ao obter estatísticas:{error}",
-  "scorePageSubmitFailed": "Falha no envio, tente novamente",
-  "scorePageSubmitError": "Falha no envio:{error}",
-  "scorePageInstructorLabel": "Professor:{instructor}",
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
   "@scorePageTotalScore": {
     "placeholders": {
       "score": {
@@ -328,6 +320,11 @@
       }
     }
   },
+  "scorePageUsualScoreLabel": "Resultados diários (opcional)",
+  "scorePageExamScoreLabel": "Notas finais (opcional)",
+  "scorePageSubmitAnonymous": "Enviar anonimamente",
+  "scorePageCourseTeacherNotMatched": "Este curso e professor não foram correspondidos no servidor",
+  "scorePageFetchStatsFailed": "Falha ao obter estatísticas:{error}",
   "@scorePageFetchStatsFailed": {
     "placeholders": {
       "error": {
@@ -335,6 +332,8 @@
       }
     }
   },
+  "scorePageSubmitFailed": "Falha no envio, tente novamente",
+  "scorePageSubmitError": "Falha no envio:{error}",
   "@scorePageSubmitError": {
     "placeholders": {
       "error": {
@@ -342,6 +341,7 @@
       }
     }
   },
+  "scorePageInstructorLabel": "Professor:{instructor}",
   "@scorePageInstructorLabel": {
     "placeholders": {
       "instructor": {
@@ -356,7 +356,6 @@
   "weatherNews": "Notícias do campus",
   "weatherLibraryReminder": "Biblioteca: Empréstimo de ‘Crime e Castigo’ expira em três dias",
   "weatherLibraryBorrowingDetail": "Detalhes do empréstimo",
-  "weatherFeelsLike": "Parece{temp}",
   "@weatherFeelsLike": {
     "placeholders": {
       "temp": {
@@ -364,7 +363,7 @@
       }
     }
   },
-  "weatherUpdated": "{time}atualizado",
+  "weatherFeelsLike": "Parece{temp}",
   "@weatherUpdated": {
     "placeholders": {
       "time": {
@@ -372,9 +371,9 @@
       }
     }
   },
+  "weatherUpdated": "{time}atualizado",
   "weatherShowCache": "Mostrando cache recente",
   "weatherNoHourlyForecast": "Nenhuma previsão horária disponível",
-  "weatherLoadingLocation": "Obtendo previsão do tempo para{locationName}...",
   "@weatherLoadingLocation": {
     "placeholders": {
       "locationName": {
@@ -382,10 +381,10 @@
       }
     }
   },
+  "weatherLoadingLocation": "Obtendo previsão do tempo para{locationName}...",
   "weatherLoadFailed": "Falha ao carregar o clima",
   "weatherTryAgainLater": "Por favor, tente novamente mais tarde",
   "weatherCacheTimeUnknown": "Tempo de cache desconhecido",
-  "weatherCachedAt": "Armazenado em cache em{time}",
   "@weatherCachedAt": {
     "placeholders": {
       "time": {
@@ -393,8 +392,8 @@
       }
     }
   },
+  "weatherCachedAt": "Armazenado em cache em{time}",
   "weatherServiceUnavailable": "O serviço meteorológico está temporariamente indisponível. Mostrando cache recente.",
-  "weatherLoadFailedWithError": "Falha ao carregar o clima:{error}",
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
@@ -402,6 +401,7 @@
       }
     }
   },
+  "weatherLoadFailedWithError": "Falha ao carregar o clima:{error}",
   "weatherRetry": "Tentar novamente",
   "emptyClassroomTitle": "Salas Vazias",
   "emptyClassroomFilterTitle": "Filtros",
@@ -555,9 +555,6 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "Ocultar Almoço",
-  "settingsHomeFitGridToScreen": "Ajustar grade à tela",
-  "settingsHomeGridCellHeight": "Altura fixa da célula",
   "homeCalendarYearMonth": "{month} de {year}",
   "@homeCalendarYearMonth": {
     "placeholders": {
@@ -602,6 +599,9 @@
       }
     }
   },
+  "settingsHomeHideLunchBreak": "Ocultar Almoço",
+  "settingsHomeFitGridToScreen": "Ajustar grade à tela",
+  "settingsHomeGridCellHeight": "Altura fixa da célula",
   "homeBackToCurrentPeriod": "Voltar para esta semana",
   "startImport": "Iniciar Importação",
   "pasteSharedContent": "Colar conteúdo compartilhado",
@@ -733,5 +733,63 @@
   "chooseDuration": "Escolher duração",
   "k3Hours": "3 horas",
   "k1Hour": "1 hora",
-  "k30Minutes": "30 minutos"
+  "k30Minutes": "30 minutos",
+  "pasteWakeupShareCodelinkParser": "Suporta colar senha ou link de compartilhamento de Wakeup. A versão atual fornece primeiro um processo de espaço reservado.",
+  "egWakeupImport1": "Por exemplo: Importação de ativação 1",
+  "tipSelectedDateIsNot": "💡 Dica: A data selecionada não é segunda-feira",
+  "verifyingAndEstablishingEducationSession": "Verificando e estabelecendo sessão acadêmica...",
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Importação concluída: {itemsLength} itens adicionados, {currentWeekCount} itens na semana atual.",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {},
+      "tableName": {}
+    }
+  },
+  "importedPayloaditemslengthItemsTo": "Importação concluída: itens do curso {itemsLength} adicionados, programação do curso \"{tableName}\".",
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "importFailedError1": "Falha na importação: {error}",
+  "@yy1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "yy1": "{y}-{yPlus1} ano letivo",
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "semS1": "Semestre {s}",
+  "importCoursesViaEmbeddedWeb": "Faça login e importe cursos por meio da página da web incorporada",
+  "wakeupShareLinkcode": "Senha/link de compartilhamento de ativação",
+  "noTimetableYetImportOr": "Ainda não há programação de cursos, importe-a acima ou crie-a manualmente.",
+  "allCourseItemsInThis": "Todos os assuntos do curso nesta programação serão excluídos ao mesmo tempo.",
+  "pleaseLoginToWhuAcademic": "Faça login primeiro na conta de assuntos acadêmicos da Universidade de Wuhan",
+  "noTimetableYetTapTo": "Ainda não há programação de cursos, clique em + no canto superior direito para importá-la do Sistema de Assuntos Acadêmicos da Universidade de Wuhan.",
+  "allSamenameCourses": "Alterar este curso",
+  "updateOnDataChangesWith": "As alterações de dados são enviadas imediatamente e atualizadas de acordo com a frequência.",
+  "chooseBetweenForumOrAi": "O fórum ou assistente de IA é exibido no meio da barra de navegação (fórum padrão)",
+  "themeSettings": "Configurações de tema",
+  "colorsAppearance": "Cor e aparência",
+  "colorSpec1": "Especificação de cores",
+  "affectsMaterialColorGenerationSpecs": "Especificações de compilação que afetam as cores do tema Material",
+  "dynamicColorMonet": "Seleção dinâmica de cores (Monet)",
+  "extractPrimaryColorFromSystem": "Extraia dinamicamente as cores principais com base no papel de parede do sistema",
+  "appDpiScaling": "Aplicar DPI (escala)",
+  "adjustGlobalUiElementScaling": "Ajuste o dimensionamento dos elementos da interface global",
+  "seedColor": "Cor da Semente",
+  "baseColorForStaticTheme": "Cor base para temas estáticos",
+  "paletteAlgorithm": "Algoritmo de Paleta",
+  "changeColorVariantGenerationAlgorithm": "Alterar algoritmo de geração de variante de cor"
 }
