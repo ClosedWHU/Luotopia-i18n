@@ -468,7 +468,7 @@
       }
     }
   },
-  "emptyClassroomAddedSingle": "{classroom}の{section}時限を追加しました",
+  "emptyClassroomAddedSingle": "{classroom}の{classroom}時限を追加しました",
   "@emptyClassroomSectionLabel": {
     "placeholders": {
       "section": {
@@ -555,7 +555,7 @@
       }
     }
   },
-  "homeCalendarYearMonth": "{year}年 {month}",
+  "homeCalendarYearMonth": "{year}年 {year}",
   "@homeCalendarYearMonth": {
     "placeholders": {
       "year": {
@@ -566,7 +566,7 @@
       }
     }
   },
-  "homeCalendarMonthWeek": "{month} 第{week}週",
+  "homeCalendarMonthWeek": "{month} 第{month}週",
   "@homeCalendarMonthWeek": {
     "placeholders": {
       "month": {
@@ -577,7 +577,7 @@
       }
     }
   },
-  "homeCalendarYearWeek": "{year}年 第{week}週",
+  "homeCalendarYearWeek": "{year}年 第{year}週",
   "@homeCalendarYearWeek": {
     "placeholders": {
       "year": {
@@ -632,7 +632,7 @@
       "error": {}
     }
   },
-  "importedPayloadItemsLengthItem": "\"{tableName}\" に {itemsLength} 件のアイテムをインポートしました。",
+  "importedPayloadItemsLengthItem": "\"{tableName}\" に {tableName} 件のアイテムをインポートしました。",
   "@importedPayloadItemsLengthItem": {
     "placeholders": {
       "tableName": {},
@@ -751,13 +751,13 @@
       "tableName": {}
     }
   },
-  "importedPayloaditemslengthItemsTo": "インポートが完了しました: {itemsLength} コース項目、コース スケジュール「{tableName}」を追加しました。",
+  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
   "@importFailedError1": {
     "placeholders": {
       "error": {}
     }
   },
-  "importFailedError1": "インポートに失敗しました: {エラー}",
+  "importFailedError1": "インポートに失敗しました: {error}",
   "@yy1": {
     "placeholders": {
       "y": {},
