@@ -1,7 +1,5 @@
 {
   "@@locale": "en",
-  "adjustGlobalUiElementScaling": "Adjust global UI element scaling",
-  "affectsMaterialColorGenerationSpecs": "Affects Material color generation specs",
   "aiAssistant": "AI Assistant",
   "aiDataSourceErrorMessage": "An error occurred in AI service",
   "aiDataSourceNetworkError": "AI service network error",
@@ -13,7 +11,6 @@
   "allSameNameCourses": "All same-name courses",
   "alwaysHide": "Always hide",
   "alwaysShow": "Always show",
-  "appDpiScaling": "App DPI (Scaling)",
   "applyColorTo": "Apply color to",
   "appRouterError": "An unexpected routing error occurred",
   "appRouterNotFound": "Page not found",
@@ -42,8 +39,6 @@
   "chooseBetweenForumOrAiForTheMi": "Choose between Forum or AI for the middle tab (default Forum).",
   "chooseDuration": "Choose duration",
   "colorsAppearance": "Colors & Appearance",
-  "colorSpec": "Color Spec",
-  "colorSpec1": "Color Spec",
   "commonBack": "Back",
   "commonCancel": "Cancel",
   "commonEmail": "Email",
@@ -702,8 +697,8 @@
   "timetableName": "Timetable name",
   "timetableName1": "Timetable name",
   "timetables": "Timetables",
-  "tipSelectedDateIsNot": "💡 Tip: Selected date is not a Monday",
-  "tipSelectedDateIsNotAMonday": "💡 Tip: Selected date is not a Monday",
+  "tipSelectedDateIsNot": "Tip: Selected date is not a Monday",
+  "tipSelectedDateIsNotAMonday": "Tip: Selected date is not a Monday",
   "updateOnDataChangesWith": "Update on data changes, with periodic fallback refresh.",
   "updateOnDataChangesWithPeriodi": "Update on data changes, with periodic fallback refresh.",
   "useDynamicColor": "Use Dynamic Color",
@@ -1980,5 +1975,94 @@
   "scoreClearCacheTitle": "Clear cached scores",
   "scoreClearCacheWarning": "All locally cached score data will be cleared. Continue?",
   "scoreClearCacheSuccess": "Score cache cleared",
-  "scoreClearCacheHint": "Clear all locally cached score data"
+  "scoreClearCacheHint": "Clear all locally cached score data",
+  "settingsBuildTypeDebug": "Debug Build",
+  "settingsBuildTypeProfile": "Profile Build",
+  "settingsBuildTypeRelease": "Release Build",
+  "settingsBuildChannelAlpha": "Alpha",
+  "settingsBuildChannelBeta": "Beta",
+  "settingsBuildChannelStable": "Stable",
+  "settingsBuildInfoVersion": "Version",
+  "settingsBuildInfoBuildNumber": "Build",
+  "settingsBuildInfoChannel": "Channel",
+  "settingsBuildInfoType": "Type",
+  "weatherAqiStandardUs": "US Standard",
+  "weatherAqiStandardCn": "China Standard",
+  "weatherAqiStandardEu": "EU Standard",
+  "settingsWeatherAqiStandard": "AQI Standard",
+  "settingsWeatherAqiStandardSubtitle": "All AQI values are converted to this standard for consistent display",
+  "libraryAuthFailed": "Authorization failed: {error}",
+  "@libraryAuthFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryCurrentReservation": "Current Reservation",
+  "libraryCancelTitle": "Cancel Reservation",
+  "libraryCancelConfirm": "Are you sure you want to cancel the current reservation?",
+  "libraryConfirmCancel": "Confirm Cancel",
+  "libraryCancelSuccess": "Reservation cancelled",
+  "libraryCancelFailed": "Cancel failed: {error}",
+  "@libraryCancelFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryCheckoutSuccess": "Checked out",
+  "libraryCheckoutFailed": "Checkout failed: {error}",
+  "@libraryCheckoutFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryMenuCancel": "Cancel Reservation",
+  "libraryMenuCheckout": "Check Out",
+  "libraryNoRoomData": "No room data",
+  "libraryFloor": "Floor {floor}",
+  "@libraryFloor": {
+    "placeholders": {
+      "floor": { "type": "int" }
+    }
+  },
+  "libraryAvailable": "Available {free}/{total}",
+  "@libraryAvailable": {
+    "placeholders": {
+      "free": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "libraryBookTitle": "{building} - {room}",
+  "@libraryBookTitle": {
+    "placeholders": {
+      "building": { "type": "String" },
+      "room": { "type": "String" }
+    }
+  },
+  "libraryNoSeatData": "No seat data",
+  "librarySeatLayoutFailed": "Failed to load seat layout: {error}",
+  "@librarySeatLayoutFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryBookThisSeat": "Book This Seat",
+  "libraryDate": "Date",
+  "libraryStartTime": "Start",
+  "libraryEndTime": "End",
+  "libraryBookSuccess": "Reservation successful!",
+  "libraryBookFailed": "Reservation failed: {error}",
+  "@libraryBookFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryNoHistory": "No reservation history",
+  "libraryStatusReserved": "Reserved",
+  "libraryStatusCheckIn": "Checked In",
+  "libraryStatusAway": "Away",
+  "libraryStatusCompleted": "Completed",
+  "libraryStatusCancelled": "Cancelled",
+  "libraryStatusMissed": "Missed",
+  "libraryStatusLeftEarly": "Left Early",
+  "libraryStatusNoCheckout": "Not Checked Out"
 }

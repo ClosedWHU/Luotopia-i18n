@@ -1,7 +1,5 @@
 {
   "@@locale": "zh",
-  "adjustGlobalUiElementScaling": "调整全局界面元素的缩放比例",
-  "affectsMaterialColorGenerationSpecs": "影响 Material 主题颜色的生成规范",
   "aiAssistant": "AI 助手",
   "aiDataSourceErrorMessage": "AI 服务发生错误",
   "aiDataSourceNetworkError": "AI 服务网络错误",
@@ -13,7 +11,6 @@
   "allSameNameCourses": "改这门课程",
   "alwaysHide": "始终隐藏",
   "alwaysShow": "始终显示",
-  "appDpiScaling": "应用 DPI",
   "applyColorTo": "应用颜色到哪里？",
   "appRouterError": "发生意外的路由错误",
   "appRouterNotFound": "页面未找到",
@@ -42,8 +39,6 @@
   "chooseBetweenForumOrAiForTheMi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
   "chooseDuration": "选择时长",
   "colorsAppearance": "色彩与外观",
-  "colorSpec": "色彩规范",
-  "colorSpec1": "颜色规格",
   "commonBack": "返回",
   "commonCancel": "取消",
   "commonEmail": "邮箱",
@@ -704,8 +699,8 @@
   "timetableName": "课程表名称",
   "timetableName1": "课程表名称",
   "timetables": "课程表列表",
-  "tipSelectedDateIsNot": "💡 提示：所选日期并非星期一",
-  "tipSelectedDateIsNotAMonday": "💡 提示：所选日期并非星期一",
+  "tipSelectedDateIsNot": "提示：所选日期并非星期一",
+  "tipSelectedDateIsNotAMonday": "提示：所选日期并非星期一",
   "updateOnDataChangesWith": "数据变更即时推送，同时按频率兜底刷新。",
   "updateOnDataChangesWithPeriodi": "数据变更即时推送，同时按频率兜底刷新。",
   "useDynamicColor": "莫奈取色 (Dynamic Color)",
@@ -1983,5 +1978,94 @@
   "scoreClearCacheTitle": "清空成绩缓存",
   "scoreClearCacheWarning": "所有本地缓存的成绩数据将被清除，确定继续吗？",
   "scoreClearCacheSuccess": "成绩缓存已清空",
-  "scoreClearCacheHint": "清除本地缓存的成绩数据"
+  "scoreClearCacheHint": "清除本地缓存的成绩数据",
+  "settingsBuildTypeDebug": "调试版",
+  "settingsBuildTypeProfile": "性能分析版",
+  "settingsBuildTypeRelease": "发布版",
+  "settingsBuildChannelAlpha": "内测版",
+  "settingsBuildChannelBeta": "公测版",
+  "settingsBuildChannelStable": "正式版",
+  "settingsBuildInfoVersion": "版本号",
+  "settingsBuildInfoBuildNumber": "构建号",
+  "settingsBuildInfoChannel": "发布渠道",
+  "settingsBuildInfoType": "构建类型",
+  "weatherAqiStandardUs": "美国标准",
+  "weatherAqiStandardCn": "中国标准",
+  "weatherAqiStandardEu": "欧盟标准",
+  "settingsWeatherAqiStandard": "AQI 标准",
+  "settingsWeatherAqiStandardSubtitle": "所有 AQI 值都会统一换算为此标准显示",
+  "libraryAuthFailed": "授权失败：{error}",
+  "@libraryAuthFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryCurrentReservation": "当前预约",
+  "libraryCancelTitle": "取消预约",
+  "libraryCancelConfirm": "确定要取消当前预约吗？",
+  "libraryConfirmCancel": "确定取消",
+  "libraryCancelSuccess": "已取消预约",
+  "libraryCancelFailed": "取消失败：{error}",
+  "@libraryCancelFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryCheckoutSuccess": "已签退",
+  "libraryCheckoutFailed": "签退失败：{error}",
+  "@libraryCheckoutFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryMenuCancel": "取消预约",
+  "libraryMenuCheckout": "签退",
+  "libraryNoRoomData": "暂无阅览室数据",
+  "libraryFloor": "{floor}楼",
+  "@libraryFloor": {
+    "placeholders": {
+      "floor": { "type": "int" }
+    }
+  },
+  "libraryAvailable": "可用 {free}/{total}",
+  "@libraryAvailable": {
+    "placeholders": {
+      "free": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "libraryBookTitle": "{building} - {room}",
+  "@libraryBookTitle": {
+    "placeholders": {
+      "building": { "type": "String" },
+      "room": { "type": "String" }
+    }
+  },
+  "libraryNoSeatData": "暂无座位数据",
+  "librarySeatLayoutFailed": "加载座位图失败：{error}",
+  "@librarySeatLayoutFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryBookThisSeat": "预约此座位",
+  "libraryDate": "日期",
+  "libraryStartTime": "开始",
+  "libraryEndTime": "结束",
+  "libraryBookSuccess": "预约成功！",
+  "libraryBookFailed": "预约失败：{error}",
+  "@libraryBookFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "libraryNoHistory": "暂无预约记录",
+  "libraryStatusReserved": "已预约",
+  "libraryStatusCheckIn": "履约中",
+  "libraryStatusAway": "暂离",
+  "libraryStatusCompleted": "已结束",
+  "libraryStatusCancelled": "已取消",
+  "libraryStatusMissed": "失约",
+  "libraryStatusLeftEarly": "早退",
+  "libraryStatusNoCheckout": "未签退"
 }
