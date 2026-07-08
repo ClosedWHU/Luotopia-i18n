@@ -791,5 +791,36 @@
   "seedColor": "种子色 (Seed Color)",
   "baseColorForStaticTheme": "静态主题的基础色",
   "paletteAlgorithm": "调色盘算法",
-  "changeColorVariantGenerationAlgorithm": "改变颜色变体生成算法"
+  "changeColorVariantGenerationAlgorithm": "改变颜色变体生成算法",
+  "scoreCaptchaAutoVerifying": "Auto-verifying...",
+  "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
+  "@scoreCaptchaRetrying": {
+    "placeholders": {
+      "attempt": { "type": "int" }
+    }
+  },
+  "weatherAirQualityTitle": "\u7A7A\u6C14\u8D28\u91CF",
+  "weatherAirQualityPm25": "PM2.5",
+  "weatherAirQualityPm10": "PM10",
+  "weatherAirQualityO3": "O\u2083",
+  "weatherAirQualityNo2": "NO\u2082",
+  "weatherAirQualitySo2": "SO\u2082",
+  "weatherAirQualityCo": "CO",
+  "weatherAirQualityUnit": "\u00B5g/m\u00B3",
+  "weatherAirQualityClose": "\u5173\u95ED",
+  "weatherAirQualitySubtitle": "\u5B9E\u65F6\u6C61\u67D3\u7269\u6D53\u5EA6",
+  "campusBusTitle": "Campus Bus",
+  "campusBusNearestStop": "Nearest: {stopName}",
+  "campusBusDistance": "~{meters}m",
+  "campusBusLineOne": "Line 1",
+  "campusBusLineTwo": "Line 2",
+  "campusBusLineMedical": "Medical Campus",
+  "campusBusPlateNumber": "No. {plate}",
+  "campusBusArrived": "Arrived",
+  "campusBusStopsAway": "{stops} stop(s) away",
+  "campusBusNoInfo": "No bus information available",
+  "campusBusNoNearby": "No nearby bus stops found",
+  "campusBusLoadFailed": "Failed to load bus info",
+  "campusBusNotLoggedIn": "Not logged in or out of service hours",
+  "campusBusRefresh": "Refresh"
 }
