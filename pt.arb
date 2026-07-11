@@ -1,246 +1,817 @@
 {
   "@@locale": "pt",
+  "aiAssistant": "Assistente de IA",
+  "aiDataSourceErrorMessage": "An error occurred in AI service",
+  "aiDataSourceNetworkError": "AI service network error",
+  "aiDataSourceTimeout": "AI service request timed out",
+  "aiInputHint": "Qualquer dúvida sobre o cronograma...",
+  "aiTitle": "Assistente de IA",
+  "allCourseItemsInThis": "Todos os assuntos do curso nesta programação serão excluídos ao mesmo tempo.",
+  "allCourseItemsInThisTimetableW": "Todos os itens deste horário serão excluídos.",
+  "allSameNameCourses": "Todos os cursos com o mesmo nome",
+  "alwaysHide": "Sempre ocultar",
+  "alwaysShow": "Sempre mostrar",
+  "applyColorTo": "Aplicar cor a",
+  "appRouterError": "Ocorreu um erro de roteamento inesperado",
+  "appRouterNotFound": "Página não encontrada",
   "appTitle": "Luotopia",
-  "navHome": "Página inicial",
-  "navList": "agendar",
-  "navForum": "Fórum",
-  "navAi": "IA",
-  "navCampus": "campus",
-  "navSettings": "configurações",
-  "homeTitle": "Visão geral da programação",
-  "homeDescription": "Isso hospedará a página inicial de planejamento tabular de visualização semanal e mensal.",
-  "listTitle": "Lista de coisas para fazer",
-  "listDescription": "Isso hospedará tarefas, agendas, notas e uma experiência de lista baseada em guias.",
-  "forumTitle": "Abrigo antiaéreo de Luojia",
+  "baseColorForStaticTheme": "Cor base para temas estáticos",
+  "biometricLockAuthenticating": "Authenticating...",
+  "biometricLockFailed": "Falha na autenticação",
+  "biometricLockReason": "Desbloqueie para usar o Luotopia",
+  "campusAppCourseHub": "Acadêmico",
+  "campusAppEcard": "Cartão E",
+  "campusAppEcardPayment": "Cód. pagamento",
+  "campusAppEmptyClassroom": "Salas livres",
+  "campusAppFileSharing": "Arquivos",
+  "campusAppLibrary": "Biblioteca",
+  "campusAppScores": "Notas",
+  "campusAppStudyStatus": "Study Status",
+  "campusAppSeatReservation": "Assentos",
+  "campusAppSports": "Esporte",
+  "campusAppTimetable": "Grade",
+  "campusPageTitle": "Campus Services",
   "campusTitle": "campus",
-  "editorTitle": "Novo item",
-  "editorDescription": "Isso hospedará uma página de edição unificada para agendas, tarefas e memorandos.",
-  "settingsTitle": "configurações",
-  "settingsDescription": "Isso hospedará as entradas de configuração para as páginas global, página inicial e lista.",
-  "settingsSearchTooltip": "Configurações de pesquisa",
-  "settingsSearchHint": "Configurações de pesquisa",
-  "settingsSearchEmpty": "Nenhuma configuração correspondente encontrada",
-  "settingsGeneralEntryTitle": "Configurações gerais",
-  "settingsGeneralEntrySubtitle": "Temas, idiomas, widgets e barras de navegação",
-  "settingsHomeEntrySubtitle": "Blocos de tempo da página inicial, modo de grade e faixa de exibição widescreen",
-  "settingsListEntryTitle": "Listar configurações da página",
-  "settingsListEntrySubtitle": "Classificação de lista, reordenação e preferências de exibição",
-  "settingsAboutEntryTitle": "Sobre",
-  "settingsAboutEntrySubtitle": "Informações do aplicativo, versão e licença",
-  "settingsGeneralWidgetsTitle": "Widget da área de trabalho",
-  "settingsAboutProductSubtitle": "Visão geral em tela cheia do planejamento tabulado do campus",
-  "settingsAboutVersionTitle": "versão",
-  "settingsQuickActionsTitle": "Posicionamento rápido",
-  "settingsHomeSectionTitle": "Configurações da página inicial",
-  "settingsHomeSectionDescription": "Configure as regras de segmentação de bloco de tempo para a página inicial e o intervalo de tempo padrão exibido na tela ultralarga.",
-  "settingsHomeDayStart": "Comece a planejar seu tempo todos os dias",
-  "settingsHomeBlockDuration": "Duração do bloco de planejamento único",
-  "settingsHomeBlockGap": "Intervalo de bloco de planejamento",
-  "settingsHomeBlockCount": "Número de blocos de planejamento",
-  "settingsHomeItemOpacity": "Opacidade da caixa de assunto da página inicial",
-  "settingsHomeGridMode": "padrão de grade",
-  "homeGridModeTime": "grade de tempo",
-  "homeGridModeCourse": "Grade Curricular",
-  "settingsHomeWideLayout": "Faixa padrão ultralarga",
-  "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsMinutesValue": "{value} minutos",
-  "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsPercentValue": "{value}%",
-  "detailTitle": "Detalhes do assunto",
-  "detailDescription": "Exiba informações completas e operações rápidas para um único item.",
-  "detailMissing": "Este item não foi encontrado. Pode ter sido excluído.",
-  "detailTimeLabel": "hora",
+  "cancel": "Cancelar",
+  "changeColorVariantGenerationAlgorithm": "Alterar algoritmo de geração de variante de cor",
+  "changeOnlyThisItemOr": "Change only this item, or every course named ",
+  "changeOnlyThisItemOrEveryCours": "Alterar apenas este item, ou todos os cursos \"{title}\"?",
+  "chooseBetweenForumOrAi": "O fórum ou assistente de IA é exibido no meio da barra de navegação (fórum padrão)",
+  "chooseBetweenForumOrAiForTheMi": "Escolha entre Fórum ou IA para a aba do meio.",
+  "chooseDuration": "Escolher duração",
+  "colorsAppearance": "Cor e aparência",
+  "commonBack": "Retorno",
+  "commonCancel": "Cancelar",
+  "commonEmail": "E-mail",
+  "commonId": "ID",
+  "commonLogin": "Entrar",
+  "whuAuthReLogin": "Re-login",
+  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "commonLogout": "Sair",
+  "commonNotSet": "Não definido",
+  "commonPassword": "Senha",
+  "commonRegister": "Registrar",
+  "commonRegistrationTime": "Data de registro",
+  "commonUsername": "Nome de usuário",
+  "courseGridSettings": "Configurações da Grade",
+  "courseHubCourses": "Courses",
+  "courseHubExams": "Exams",
+  "courseHubLoginButton": "Log in",
+  "courseHubLoginFailed": "Login failed",
+  "courseHubLoginHint": "Please log in with your WHU academic account",
+  "courseHubLoginSuccess": "Login successful",
+  "courseHubLoginTitle": "WHU Academic Login",
+  "courseHubNoCourseToday": "No classes today",
+  "courseHubScorePageTitle": "Academic Scores",
+  "courseHubScores": "Notas",
+  "courseHubTimetable": "Grade horária",
+  "courseHubTimetablePageTitle": "Course Timetable",
+  "courseHubTimetableWeek": "Week ",
+  "courseHubTitle": "Centro acadêmico",
+  "courseImport": "Importação de Cursos",
+  "courseImportAllCourses": "All Courses",
+  "courseImportAppend": "Append",
+  "courseImportCourseName": "Course Name",
+  "courseImportCurrentSemester": "Current Semester",
+  "courseImportCustomWeeks": "Custom",
+  "courseImportEvenWeek": "Even Week",
+  "courseImportEveryWeek": "Every Week",
+  "courseImportExportFileName": "luotopia_timetable_{name}",
+  "courseImportExportImport": "Import / Export",
+  "courseImportExportSuccess": "Export successful",
+  "courseImportExportToLocal": "Export Local Timetable",
+  "courseImportFromEdu": "Import from Academic System",
+  "courseImportFromFile": "Import from File",
+  "courseImportImporting": "Importing...",
+  "courseImportImportSuccess": "Import successful, added {count} courses",
+  "courseImportImportSuccessDesc": "Successfully imported {count} courses to local timetable",
+  "courseImportLocation": "Location",
+  "courseImportLoginRequired": "Faça login no sistema acadêmico WHU primeiro",
+  "courseImportNetworkError": "Network error, please check your connection",
+  "courseImportNoData": "No course data",
+  "courseImportNoSemesterData": "No course data for this semester",
+  "courseImportOddWeek": "Odd Week",
+  "courseImportOverwrite": "Overwrite",
+  "courseImportParseFailed": "Failed to parse course data",
+  "courseImportParseSuccess": "Parsed {count} courses",
+  "courseImportParsing": "Parsing course data...",
+  "courseImportSelectFile": "Select file",
+  "courseImportSemester": "Semestre",
+  "courseImportSemesterRequired": "Please select a semester",
+  "courseImportTeacher": "Teacher",
+  "courseImportTime": "Time",
+  "courseImportTitle": "Importar grade",
+  "courseImportToLocal": "Import as Local Timetable",
+  "courseImportWarnOverwrite": "This will overwrite your existing local courses. Continue?",
+  "courseImportWeek": "Week",
+  "courseImportWeeks": "Weeks",
+  "courseTablesImport": "Horários e Importação",
+  "courseTimetablesAdd": "Add Timetable",
+  "courseTimetablesCreateFirst": "Create your first timetable",
+  "courseTimetablesCurrent": "Current",
+  "courseTimetablesDelete": "Delete",
+  "courseTimetablesEdit": "Edit",
+  "courseTimetablesImported": "Imported",
+  "courseTimetablesLocal": "Local",
+  "courseTimetablesNoTimetables": "No timetables yet",
+  "courseTimetablesShare": "Share",
+  "courseTimetablesTitle": "Timetables",
+  "courseTimetablesWeekCount": "{count} weeks",
+  "create": "Criar",
+  "createTimetable": "Criar horário",
+  "customSeedColor": "Cor Base Personalizada",
+  "delete": "Excluir",
+  "deleteTimetable": "Excluir horário",
   "detailDeadlineLabel": "Prazo",
+  "detailDelete": "Excluir itens",
+  "detailDescription": "Exiba informações completas e operações rápidas para um único item.",
   "detailLocationLabel": "localização",
+  "detailMarkComplete": "Marcar concluído",
+  "detailMarkIncomplete": "Restauração não concluída",
+  "detailMemoDate": "{date} · {duration} esperado",
+  "detailMissing": "Este item não foi encontrado. Pode ter sido excluído.",
   "detailNotesLabel": "Observações",
+  "detailRangeDate": "{start} a {end}",
   "detailReminderLabel": "lembrete",
   "detailRepeatLabel": "Repetir",
-  "detailMarkComplete": "Marcar como concluído",
-  "detailMarkIncomplete": "Restauração não concluída",
-  "detailDelete": "Excluir itens",
-  "timePickerTitle": "Seleção de tempo",
-  "timePickerDescription": "Esta rota é reservada para seletores de horário compartilhados de dia, semana e mês.",
+  "detailTimeLabel": "hora",
+  "detailTitle": "Detalhes do assunto",
   "developmentTag": "IU básica",
-  "themeSectionTitle": "mostrar",
-  "themeModeLabel": "modo tema",
-  "themeLight": "cor clara",
-  "themeDark": "Escuro",
-  "themeSystem": "Siga o sistema",
-  "languageSectionTitle": "Idioma",
-  "languageLabel": "idioma do aplicativo",
-  "languageChinese": "Chinês",
-  "languageEnglish": "Inglês",
-  "commonBack": "Retorno",
-  "headerPreviousPeriod": "período de tempo anterior",
-  "headerNextPeriod": "próximo período",
-  "headerOpenTimePicker": "Seleção de horário aberto",
-  "headerOpenListTabs": "Seleção de guia aberta",
-  "headerOpenListSettings": "Abrir configurações da página da lista",
-  "headerOpenItemTypePicker": "Ative a troca de tipo de assunto",
-  "homeScopePickerTitle": "Faixa de exibição",
-  "homeScopeWeek": "semana",
-  "homeScopeMonth": "mês",
-  "listTabMyDay": "meu dia",
-  "listTabAllItems": "Todos os assuntos",
-  "listTabTasks": "lista de tarefas",
-  "listTabSchedules": "lista de agendamento",
-  "listTabMemos": "Lista de truques",
-  "listMenuTitle": "Alternar guias",
-  "listSettingsMenuTitle": "Listar configurações da página",
-  "listSettingsSort": "Classificar por",
-  "listSettingsReorder": "Reordenar tarefas",
-  "listSettingsMore": "Mais configurações",
-  "@listSummary": {
-    "placeholders": {
-      "pending": {
-        "type": "int"
-      },
-      "completed": {
-        "type": "int"
-      }
-    }
-  },
-  "listSummary": "Itens {pending} inacabados, itens {completed} concluídos",
-  "@listPendingSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listPendingSection": "Pendente {count}",
-  "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listCompletedSection": "Concluído {count}",
-  "listCompletedExpand": "Expandir itens concluídos",
-  "listCompletedCollapse": "Fechar itens concluídos",
-  "listEmptyTitle": "Nada aqui ainda",
-  "listEmptyDescription": "Clique no sinal de mais no canto inferior direito para criar a primeira tarefa, agendamento ou memorando.",
-  "listReorderHint": "Atualmente na classificação manual, arraste a alça no lado direito da tarefa para reorganizá-la.",
-  "listStaticItemsLabel": "Outros assuntos",
-  "listActionEdit": "Editar",
-  "listActionDelete": "Excluir",
-  "listSortDueDate": "data de validade",
-  "listSortTodayFocus": "O executor de hoje",
-  "listSortAlphabetical": "ordem alfabética",
-  "listSortCreatedDate": "Data de criação",
-  "listSortManual": "Classificação manual",
-  "listStatusPending": "Não concluído",
-  "listStatusCompleted": "Concluído",
-  "editorTypePickerTitle": "Mudar tipo de assunto",
-  "editorTypeTask": "Tarefa",
-  "editorTypeSchedule": "agendar",
-  "editorTypeMemo": "memorando",
-  "editorCreateTask": "Criar tarefa",
-  "editorCreateSchedule": "Criar cronograma",
+  "done": "Concluído",
+  "dynamicColorMonet": "Cor dinâmica",
+  "dynamicColorSourceAccent": "Usar a cor de destaque do sistema",
+  "dynamicColorSourceGtk": "Usar a cor do tema GTK",
+  "dynamicColorSourceWallpaper": "Extrair do papel de parede do sistema",
+  "ecardPaymentCodeExpired": "Code expired",
+  "ecardPaymentLoading": "Loading payment code...",
+  "ecardPaymentRefresh": "Refresh",
+  "ecardPaymentTitle": "E-Card Payment Code",
+  "editorAddFromAlbum": "Add from album",
+  "editorAddItem": "Add item",
+  "editorAddPhoto": "Add Photo",
+  "editorAllDayDescription": "Após ligá-lo, apenas a data será exibida, e a hora e os minutos específicos não serão mais definidos separadamente.",
+  "editorAllDayTitle": "tarefas do dia inteiro",
+  "editorCancel": "Cancel",
+  "editorColorAmber": "âmbar",
+  "editorColorCoral": "coral vermelho",
+  "editorColorCrimson": "carmesim",
+  "editorColorIndigo": "índigo",
+  "editorColorJade": "verde esmeralda",
+  "editorColorLime": "verde limão",
+  "editorColorOrchid": "azul roxo",
+  "editorColorPickerTitle": "Escolher cor",
+  "editorColorRose": "rosa rosa",
+  "editorColorSky": "céu azul",
+  "editorColorSlate": "cinza ardósia",
+  "editorColorTeal": "pato verde",
+  "editorColorViolet": "violeta",
+  "editorColumnMode": "Single Column",
+  "editorConfirmDelete": "Confirm delete",
   "editorCreateMemo": "Crie uma nota",
-  "editorEditTask": "Editar tarefa",
-  "editorEditSchedule": "Editar programação",
+  "editorCreateSchedule": "Criar cronograma",
+  "editorCreateTask": "Criar tarefa",
+  "editorDayOfWeek": "Day of week",
+  "editorDeadlineClear": "Limpar",
+  "editorDeadlineUnset": "não definido",
+  "editorDeleteItem": "Delete",
+  "editorDeleteWarning": "Are you sure you want to delete this item?",
+  "editorDescription": "Isso hospedará uma página de edição unificada para agendas, tarefas e memorandos.",
+  "editorDetailLayout": "Detail Layout",
+  "editorDurationHourMinute": "{hours} horas {minutes} minutos",
+  "editorDurationHours": "{hours} horas",
+  "editorDurationMinutes": "{minutes} minutos",
+  "editorDurationPickerTitle": "Selecione a duração",
   "editorEditMemo": "Nota do Editor",
-  "editorSectionBasic": "Informações básicas",
-  "editorSectionColor": "Cor",
-  "editorSectionTime": "data e hora",
-  "editorSectionReminder": "lembrete",
-  "editorSectionRepeat": "Repetir",
-  "editorSectionLocationNotes": "Localização e notas",
-  "editorFieldTitle": "Nome",
-  "editorFieldTitleName": "Nome da tarefa",
-  "editorFieldDetails": "Detalhes",
-  "editorFieldLocation": "localização",
-  "editorFieldStart": "hora de início",
-  "editorFieldEnd": "hora de término",
+  "editorEditSchedule": "Editar programação",
+  "editorEditTask": "Editar tarefa",
+  "editorEndTime": "End time",
+  "editorEnterDescription": "Enter description",
+  "editorEnterText": "Enter text",
+  "editorEnterTitle": "Enter title",
+  "editorErrorDeadlineBeforeStart": "O prazo não pode ser anterior ao horário de início.",
+  "editorErrorDurationPositive": "A duração deve ser maior que 0.",
+  "editorErrorEndBeforeStart": "A hora de término não pode ser anterior à hora de início.",
+  "editorErrorTitleRequired": "Por favor insira um nome.",
   "editorFieldDate": "Data",
-  "editorFieldStartDate": "data de início",
-  "editorFieldStartTime": "hora de início",
-  "editorFieldEndDate": "data de término",
-  "editorFieldEndTime": "hora de término",
   "editorFieldDeadline": "Prazo",
   "editorFieldDeadlineDate": "Prazo",
   "editorFieldDeadlineTime": "Prazo",
-  "editorFieldTargetDate": "data prevista",
+  "editorFieldDetails": "Detalhes",
+  "editorFieldEnd": "hora de término",
+  "editorFieldEndDate": "data de término",
+  "editorFieldEndTime": "hora de término",
   "editorFieldEstimatedDuration": "Duração estimada",
-  "editorHintTitle": "Como é chamada essa coisa?",
-  "editorHintTaskTitle": "Nome da tarefa",
-  "editorHintScheduleTitle": "Nome do agendamento",
-  "editorHintMemoTitle": "Nome do memorando",
+  "editorFieldLocation": "localização",
+  "editorFieldStart": "hora de início",
+  "editorFieldStartDate": "data de início",
+  "editorFieldStartTime": "hora de início",
+  "editorFieldTargetDate": "data prevista",
+  "editorFieldTitle": "Nome",
+  "editorFieldTitleName": "Nome da tarefa",
   "editorHintCourseTitle": "Nome do curso",
   "editorHintDetails": "Observações",
   "editorHintLocation": "localização",
-  "editorColorSky": "céu azul",
-  "editorColorJade": "verde esmeralda",
-  "editorColorAmber": "âmbar",
-  "editorColorCoral": "coral vermelho",
-  "editorColorOrchid": "azul roxo",
-  "editorColorSlate": "cinza ardósia",
-  "editorColorRose": "rosa rosa",
-  "editorColorLime": "verde limão",
-  "editorColorIndigo": "índigo",
-  "editorColorTeal": "pato verde",
-  "editorColorCrimson": "carmesim",
-  "editorColorViolet": "violeta",
-  "editorColorPickerTitle": "Selecione a cor do item",
-  "editorAllDayTitle": "tarefas do dia inteiro",
-  "editorAllDayDescription": "Após ligá-lo, apenas a data será exibida, e a hora e os minutos específicos não serão mais definidos separadamente.",
-  "editorReminderNone": "Não lembre",
-  "editorReminderAtTime": "Lembrete na hora certa",
-  "editorReminderFiveMinutes": "5 minutos antes do horário",
-  "editorReminderFifteenMinutes": "15 minutos antes do horário",
-  "editorReminderOneHour": "1 hora de antecedência",
-  "editorReminderOneDay": "1 dia de antecedência",
-  "editorReminderPageTitle": "Configurações de lembrete",
-  "editorRepeatNone": "Não repetido",
-  "editorRepeatDaily": "todos os dias",
-  "editorRepeatWeekdays": "dias úteis",
-  "editorRepeatWeekly": "semanalmente",
-  "editorRepeatMonthly": "mensalmente",
-  "editorRepeatYearly": "todos os anos",
-  "editorRepeatPageTitle": "Repetir configurações",
-  "editorRepeatPagePlaceholder": "Regras de repetição complexas continuarão a ser expandidas posteriormente.",
-  "editorDurationPickerTitle": "Selecione a duração",
-  "editorDeadlineClear": "Limpar",
-  "editorDeadlineUnset": "não definido",
+  "editorHintMemoTitle": "Nome do memorando",
+  "editorHintScheduleTitle": "Nome do agendamento",
+  "editorHintTaskTitle": "Nome da tarefa",
+  "editorHintTitle": "Como é chamada essa coisa?",
+  "editorLocation": "Local",
   "editorPickerCancel": "Cancelar",
   "editorPickerConfirm": "OK",
+  "editorReminderAtTime": "Lembrete na hora certa",
+  "editorReminderFifteenMinutes": "15 minutos antes do horário",
+  "editorReminderFiveMinutes": "5 minutos antes do horário",
+  "editorReminderNone": "Sem lembrete",
+  "editorReminderOneDay": "1 dia de antecedência",
+  "editorReminderOneHour": "1 hora de antecedência",
+  "editorReminderPageTitle": "Configurações de lembrete",
+  "editorRepeatDaily": "todos os dias",
+  "editorRepeatMonthly": "mensalmente",
+  "editorRepeatNone": "Não repetido",
+  "editorRepeatPagePlaceholder": "Regras de repetição complexas continuarão a ser expandidas posteriormente.",
+  "editorRepeatPageTitle": "Repetir configurações",
+  "editorRepeatWeekdays": "dias úteis",
+  "editorRepeatWeekly": "semanalmente",
+  "editorRepeatYearly": "todos os anos",
+  "editorRowMode": "Sort by Row",
+  "editorSave": "Save",
+  "editorSectionBasic": "Informações básicas",
+  "editorSectionColor": "Cor",
+  "editorSectionLocationNotes": "Localização e notas",
+  "editorSectionReminder": "lembrete",
+  "editorSectionRepeat": "Repetir",
+  "editorSectionTime": "data e hora",
+  "editorSimpleLayout": "Simple Layout",
+  "editorStartTime": "Start time",
   "editorSubmitButton": "Crie um caso",
   "editorSubmitInvalid": "Corrija primeiro os campos destacados.",
   "editorSubmitSuccess": "O item foi salvo.",
-  "editorErrorTitleRequired": "Por favor insira um nome.",
-  "editorErrorEndBeforeStart": "A hora de término não pode ser anterior à hora de início.",
-  "editorErrorDeadlineBeforeStart": "O prazo não pode ser anterior ao horário de início.",
-  "editorErrorDurationPositive": "A duração deve ser maior que 0.",
-  "@editorDurationHours": {
+  "editorTakePhoto": "Take photo",
+  "editorTeacher": "Professor",
+  "editorTitle": "Novo item",
+  "editorToggleMode": "Edit Mode",
+  "editorTypeMemo": "memorando",
+  "editorTypePickerTitle": "Mudar tipo de assunto",
+  "editorTypeSchedule": "agendar",
+  "editorTypeTask": "Tarefa",
+  "editorUnsavedChanges": "Unsaved changes",
+  "editorUnsavedWarning": "You have unsaved changes. Discard them?",
+  "editorWeek": "Week ",
+  "eGWakeupImport1": "Ex. Wakeup Import 1",
+  "emptyClassroomAddedSingle": "Adicionado período {section} em {classroom}",
+  "emptyClassroomBuilding": "Building",
+  "emptyClassroomCollapseAll": "Recolher Tudo",
+  "emptyClassroomConflictCancel": "Cancelar",
+  "emptyClassroomConflictConfirm": "Confirmar",
+  "emptyClassroomConflictMulti": "Você já tem aulas em {sections}. Confirmar?",
+  "emptyClassroomConflictSingle": "Você já tem uma aula neste horário. Confirmar?",
+  "emptyClassroomConflictTitle": "Conflito de Horário",
+  "emptyClassroomDate": "Date",
+  "emptyClassroomExpandAll": "Expandir Tudo",
+  "emptyClassroomFABExpanded": "{expanded} / {total} expandidos",
+  "emptyClassroomFABHint": "Toque na seta para expandir os períodos e em um bloco para adicionar",
+  "emptyClassroomFABTitle": "Períodos da Sala",
+  "emptyClassroomFilterBuilding": "Prédio",
+  "emptyClassroomFilterCampus": "Campus",
+  "emptyClassroomFilterTitle": "Filtros",
+  "emptyClassroomFilterWeek": "Semana",
+  "emptyClassroomFilterWeekDay": "Dia",
+  "emptyClassroomFloorSeats": "Andar {floor} · {available}/{total} lugares",
+  "emptyClassroomGoLogin": "Entrar",
+  "emptyClassroomLoading": "Searching...",
+  "emptyClassroomLoginPrompt": "Faça login no WHU primeiro",
+  "emptyClassroomNoResults": "Nenhuma sala vazia neste prédio",
+  "emptyClassroomQueryButton": "Buscar Salas",
+  "emptyClassroomQueryHint": "Filtros definidos. Toque no botão acima para buscar",
+  "emptyClassroomRetry": "Tentar novamente",
+  "emptyClassroomSectionHint": "Toque em um período para adicionar",
+  "emptyClassroomSectionLabel": "Período {section}",
+  "emptyClassroomTime": "Time",
+  "emptyClassroomTitle": "Salas Vazias",
+  "emptyClassroomUndo": "Desfazer",
+  "emptyClassroomWeekLabel": "Semana {week}",
+  "emptyTimetableImportCourse": "2. Import courses",
+  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
+  "emptyTimetableLoginWhu": "1. Log in to WHU account",
+  "emptyTimetableSubtitle": "Please log in to WHU account first, then import your timetable.",
+  "emptyTimetableTitle": "No courses added yet",
+  "enableWidgetSync": "Sincronizar widgets",
+  "enterTimetableName": "Digite o nome",
+  "extractColorsFromWallpaperAuto": "Extrair do papel de parede",
+  "extractPrimaryColorFromSystem": "Extraia dinamicamente as cores principais com base no papel de parede do sistema",
+  "fallbackRefreshInterval": "Intervalo de atualização de fallback",
+  "fetchingTimetable": "Buscando horário...",
+  "fileSharingDelete": "Delete",
+  "fileSharingDownload": "Download",
+  "fileSharingLoading": "Loading files...",
+  "fileSharingNoFiles": "No files yet",
+  "fileSharingShare": "Share",
+  "fileSharingTitle": "File Sharing",
+  "fileSharingUpload": "Upload",
+  "followAppLanguage": "Seguir idioma do app",
+  "followAppTheme": "Seguir tema do app",
+  "forum": "Fórum",
+  "forumTitle": "Abrigo antiaéreo de Luojia",
+  "headerNextPeriod": "próximo período",
+  "headerOpenItemTypePicker": "Ative a troca de tipo de assunto",
+  "headerOpenListSettings": "Abrir configurações da página da lista",
+  "headerOpenListTabs": "Seleção de guia aberta",
+  "headerOpenTimePicker": "Seleção de horário aberto",
+  "headerPreviousPeriod": "período de tempo anterior",
+  "homeBackToCurrentPeriod": "Voltar para esta semana",
+  "homeCalendarMainLabelWeek": "Semana {week}",
+  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "homeCalendarMonthWeek": "Semana {week} de {month}",
+  "homeCalendarSummerBreak": "Verão",
+  "homeCalendarTopLabel": "{year} {term}",
+  "homeCalendarTopLabelYearOnly": "{year}",
+  "homeCalendarWinterBreak": "Inverno",
+  "homeCalendarYearMonth": "{month} de {year}",
+  "homeCalendarYearWeek": "Semana {week} de {year}",
+  "homeCourseLunch": "Almoço",
+  "homeCoursePeriod": "Aula {courseNumber}",
+  "homeCurrentWeekRange": "Esta semana ({start} - {end})",
+  "homeDescription": "Isso hospedará a página inicial de planejamento tabular de visualização semanal e mensal.",
+  "homeGoToCurrentWeek": "Esta sem.",
+  "homeGoToNextSemesterFirstWeek": "Início",
+  "homeGridModeCourse": "Grade Curricular",
+  "homeGridModeTime": "grade de tempo",
+  "homePeriodRange": "{start} - {end}",
+  "homeScopeMonth": "mês",
+  "homeScopePickerTitle": "Faixa de exibição",
+  "homeScopeWeek": "semana",
+  "homeTitle": "Visão geral da programação",
+  "homeWeekdayLabel": "{weekday}",
+  "hourH": "{hour} h",
+  "importCoursesViaEmbeddedWeb": "Faça login e importe cursos por meio da página da web incorporada",
+  "importCoursesViaEmbeddedWebLog": "Importar via login web incorporado",
+  "importedPayloadItemsLengthItem": "Importados {itemsLength} para \"{tableName}\".",
+  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
+  "importedTimestr": "Importado {timeStr}",
+  "importFailedError": "Falha na importação: {error}",
+  "importFailedError1": "Falha na importação: {error}",
+  "importFinishedPayloadItemsLeng": "Import finished: {itemsLength} items, {currentWeekCount} in current week.",
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Importação concluída: {itemsLength} itens adicionados, {currentWeekCount} itens na semana atual.",
+  "importFromSharedText": "Importar de texto",
+  "importSchedule": "Importar Horário",
+  "importSources": "Fontes de Importação",
+  "importTimetableFromSharedText": "Importar de texto compartilhado",
+  "importViaEmbeddedWebLogin": "Importar via web login",
+  "k1Hour": "1 hora",
+  "k30Minutes": "30 minutos",
+  "k3Hours": "3 horas",
+  "languageChinese": "Chinês",
+  "languageEnglish": "Inglês",
+  "languageLabel": "idioma do aplicativo",
+  "languageSectionTitle": "Idioma",
+  "libraryBorrowingHistory": "Borrowing History",
+  "libraryCurrentBorrowing": "Currently Borrowed",
+  "libraryLoading": "Loading...",
+  "libraryQrCodeHint": "Scan QR code on self-service machine",
+  "libraryRenew": "Renew",
+  "libraryReturnDate": "Return Date",
+  "librarySearch": "Search",
+  "libraryTitle": "Seat Reservation",
+  "listActionDelete": "Excluir",
+  "listActionEdit": "Editar",
+  "listCompletedCollapse": "Fechar itens concluídos",
+  "listCompletedExpand": "Expandir itens concluídos",
+  "listCompletedSection": "Concluído {count}",
+  "listDescription": "Isso hospedará tarefas, agendas, notas e uma experiência de lista baseada em guias.",
+  "listEmptyDescription": "Clique no sinal de mais no canto inferior direito para criar a primeira tarefa, agendamento ou memorando.",
+  "listEmptyTitle": "Nada aqui ainda",
+  "listMenuTitle": "Alternar guias",
+  "listPendingSection": "Pendente {count}",
+  "listReorderHint": "Atualmente na classificação manual, arraste a alça no lado direito da tarefa para reorganizá-la.",
+  "listSettingsMenuTitle": "Listar configurações da página",
+  "listSettingsMore": "Mais configurações",
+  "listSettingsReorder": "Reordenar tarefas",
+  "listSettingsSort": "Classificar por",
+  "listSortAlphabetical": "ordem alfabética",
+  "listSortCreatedDate": "Data de criação",
+  "listSortDueDate": "data de validade",
+  "listSortManual": "Classificação manual",
+  "listSortTodayFocus": "O executor de hoje",
+  "listStaticItemsLabel": "Outros assuntos",
+  "listStatusCompleted": "Concluído",
+  "listStatusPending": "Não concluído",
+  "listSummary": "Itens {pending} inacabados, itens {completed} concluídos",
+  "listTabAllItems": "Todos os assuntos",
+  "listTabMemos": "Lista de truques",
+  "listTabMyDay": "meu dia",
+  "listTabSchedules": "lista de agendamento",
+  "listTabTasks": "lista de tarefas",
+  "listTitle": "Lista de coisas para fazer",
+  "login": "Entrar",
+  "luotopiaAccountDetails": "Detalhes da conta",
+  "luotopiaAccountTitle": "Conta Luotopia",
+  "luotopiaAlreadyHaveAccount": "Já tem conta?",
+  "luotopiaConfirmLogout": "Confirmar saída",
+  "luotopiaConfirmPassword": "Confirmar senha",
+  "luotopiaCreateAccount": "Criar conta Luotopia",
+  "luotopiaEmailHint": "Para recuperação de senha",
+  "luotopiaEmailOptional": "E-mail (opcional)",
+  "luotopiaLoggingIn": "Entrando…",
+  "luotopiaLoginTitle": "Entrar no Luotopia",
+  "luotopiaLogoutWarning": "Após sair, entre de novo para o fórum e outros recursos.",
+  "luotopiaNoAccountYet": "Sem conta?",
+  "luotopiaNotLoggedIn": "Não conectado",
+  "luotopiaPasswordHint": "Pelo menos 6 caracteres",
+  "luotopiaPasswordsDoNotMatch": "As senhas não coincidem",
+  "luotopiaPasswordTooShort": "A senha deve ter pelo menos 6 caracteres",
+  "luotopiaPleaseFillFields": "Informe usuário e senha",
+  "luotopiaRegistering": "Registrando…",
+  "luotopiaRegisterTitle": "Cadastro Luotopia",
+  "luotopiaUsername": "Nome de usuário",
+  "luotopiaUsernameMinHint": "Pelo menos 3 caracteres",
+  "luotopiaUsernameOrEmail": "Usuário / e-mail",
+  "luotopiaUsernameTooShort": "O nome de usuário deve ter pelo menos 3 caracteres",
+  "luotopiaWelcomeBack": "Bem-vindo de volta",
+  "middleTab": "Aba do meio",
+  "minuteMin": "{minute} min",
+  "navAi": "IA",
+  "navCampus": "Campus",
+  "navForum": "Fórum",
+  "navHome": "Início",
+  "navList": "Agenda",
+  "navSettings": "Ajustes",
+  "noTimetableYetImportOr": "Ainda não há programação de cursos, importe-a acima ou crie-a manualmente.",
+  "noTimetableYetImportOrCreateOn": "Sem horário ainda. Importe ou crie um primeiro.",
+  "noTimetableYetTapTo": "Ainda não há programação de cursos, clique em + no canto superior direito para importá-la do Sistema de Assuntos Acadêmicos da Universidade de Wuhan.",
+  "noTimetableYetTapToImportFromW": "Sem horário. Toque em + para importar do WHU.",
+  "ok": "OK",
+  "paletteAlgorithm": "Algoritmo de Paleta",
+  "paletteStyle": "Estilo da Paleta",
+  "pasteSharedContent": "Colar conteúdo compartilhado",
+  "pasteWakeupShareCodeLinkParser": "Cole o link/código Wakeup. Analisador não conectado.",
+  "placeholderOpenMenu": "Abrir menu",
+  "placeholderOpenPicker": "Abrir seletor",
+  "pleaseLoginToWhuAcademic": "Faça login primeiro na conta de assuntos acadêmicos da Universidade de Wuhan",
+  "pleaseLoginToWhuAcademicSystem": "Entre no WHU primeiro",
+  "pleaseSelectWeek1Monday": "Selecione a segunda-feira da Semana 1.",
+  "scoreImportFailed": "Falha na importação",
+  "scoreImportUndergraduateTitle": "Importar do sistema de graduação",
+  "scoreImportUndergraduateSubtitle": "Notas exatas, mas a atualização pode ser lenta",
+  "scoreImportSpoilerTitle": "Importar do sistema de desenvolvimento profissional",
+  "scoreImportSpoilerSubtitle": "Só GPA, muitas vezes antes do sistema de graduação",
+  "scoreImportFromWHU": "Import from WHU Academic",
+  "scoreImportImporting": "Importing...",
+  "scoreImportLastUpdate": "Last updated: ",
+  "scoreImportNever": "Never",
+  "scoreImportNoNewData": "No new grade data found",
+  "scoreImportSuccess": "Importação concluída",
+  "scoreImportTitle": "Importar notas",
+  "scorePageAcademicYear": "Academic Year",
+  "scorePageAnonymousContribution": "Pontos por contribuições anônimas",
+  "scorePageAvgExam": "Dividido igualmente no final do período",
+  "scorePageAvgTotal": "Avaliação geral média",
+  "scorePageAvgUsual": "Geralmente dividido igualmente",
+  "scorePageCourse": "Course",
+  "scorePageCourseTeacherNotMatched": "Este curso e professor não foram correspondidos no servidor",
+  "scorePageCredit": "Créditos",
+  "scorePageCredits": "Credits",
+  "scorePageExamScoreLabel": "Notas finais (opcional)",
+  "scorePageFetchStatsFailed": "Falha ao obter estatísticas:{error}",
+  "scorePageGpa": "GPA",
+  "scorePageGradeDistribution": "Distribuição de notas",
+  "scorePageGradePoint": "Grade Point",
+  "scorePageGradeRange60": "60-69 pontos",
+  "scorePageGradeRange70": "70-79 pontos",
+  "scorePageGradeRange80": "80-89 pontos",
+  "scorePageGradeRange90": "90-100 pontos",
+  "scorePageGradeRangeFail": "falhou",
+  "scorePageImport": "Import",
+  "scorePageInstructorLabel": "Professor:{instructor}",
+  "scorePageInstructorUnknown": "desconhecido",
+  "scorePageLoading": "Loading grades...",
+  "scorePageLoginToShare": "Faça login em sua conta Luotopia para compartilhar a distribuição de notas do seu curso.",
+  "scorePageNoData": "No grade data available",
+  "scorePageRefresh": "Refresh",
+  "scorePageRetry": "Tentar de novo",
+  "scorePageSampleCount": "tamanho da amostra",
+  "scorePageScore": "Score",
+  "scorePageSemester": "Semester",
+  "scorePageStatsDialogTitle": "{courseName}estatísticas de pontos",
+  "scorePageStatsEmpty": "Atualmente não há amostras estatísticas para pontuação neste curso",
+  "scorePageSubmitAnonymous": "Enviar anonimamente",
+  "scorePageSubmitError": "Falha no envio:{error}",
+  "scorePageSubmitFailed": "Falha no envio, tente novamente",
+  "scorePageSubmitSuccess": "Envio bem-sucedido! Obrigado pela sua contribuição anônima!",
+  "scorePageTitle": "Notas",
+  "scorePageTotalScore": "Pontuação geral:{score}",
+  "scorePageUsualScoreLabel": "Resultados diários (opcional)",
+  "seatReservationBook": "Book",
+  "seatReservationCancel": "Cancel Reservation",
+  "seatReservationDuration": "Duration",
+  "seatReservationHours": "hours",
+  "seatReservationLoading": "Loading...",
+  "seatReservationMinutes": "min",
+  "seatReservationNoSeats": "No available seats",
+  "seatReservationRefresh": "Refresh",
+  "seatReservationSelectArea": "Select Area",
+  "seatReservationSelectFloor": "Select Floor",
+  "seatReservationSelectLibrary": "Select Library",
+  "seatReservationTime": "Time",
+  "seatReservationTitle": "Assentos",
+  "seedColor": "Cor da Semente",
+  "selectedOnlyDefault": "Apenas selecionados (Padrão)",
+  "selectSeedColor": "Selecionar Cor Base",
+  "selectSemester": "Selecionar Semestre",
+  "semester": "Semestre",
+  "semS": "Sem {s}",
+  "semS1": "Sem {s}",
+  "settingsAbout": "Sobre",
+  "settingsAboutApp": "About Luotopia",
+  "settingsAboutEntrySubtitle": "Informações do aplicativo, versão e licença",
+  "settingsAboutEntryTitle": "Sobre",
+  "settingsAboutDevTeam": "Equipe",
+  "settingsAppIcon": "Ícone do app",
+  "settingsAppIconDefault": "Padrão",
+  "settingsAppIconAlt": "Alternativo",
+  "settingsAboutTranslation": "Tradução",
+  "settingsLicensesTitle": "Licenças de código aberto",
+  "licenseAuthor": "Autor: {author}",
+  "@licenseAuthor": {
     "placeholders": {
-      "hours": {
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseVersion": "Versão: {version}",
+  "@licenseVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseLicense": "License",
+  "licenseProjectHomepage": "Site do projeto",
+  "settingsAboutProductSubtitle": "Visão geral em tela cheia do planejamento tabulado do campus",
+  "settingsAboutTitle": "About Luotopia",
+  "settingsAboutVersionTitle": "versão",
+  "settingsAccountLocalTitle": "conta local",
+  "settingsAccountWhuLoggedIn": "Certificado",
+  "settingsAccountWhuNotLoggedIn": "Não logado",
+  "settingsAccountWhuTitle": "Conta da Universidade de Wuhan",
+  "settingsAiApiKeyLabel": "Chave de API",
+  "settingsAiBaseUrlLabel": "Endereço da API",
+  "settingsAiModelLabel": "modelo",
+  "settingsAiSaveButton": "Salvar configurações de IA",
+  "settingsAiSectionTitle": "Configurações de IA",
+  "settingsAiSystemPromptLabel": "Palavra de prompt do sistema",
+  "settingsAiTestButton": "conexão de teste",
+  "settingsAiTestingButton": "Testando...",
+  "settingsAppearance": "Aparência",
+  "settingsAppearanceColor": "Color",
+  "settingsAppearanceThemeMode": "Theme Mode",
+  "settingsAppearanceTitle": "Configurações de aparência",
+  "settingsBiometricLock": "Biometric Lock",
+  "settingsBiometricUnlock": "Unlock with biometrics",
+  "settingsDark": "Dark",
+  "settingsDescription": "Isso hospedará as entradas de configuração para as páginas global, página inicial e lista.",
+  "settingsFollowSystem": "Follow System",
+  "settingsGeneral": "Geral",
+  "settingsGeneralEntrySubtitle": "Temas, idiomas, widgets e barras de navegação",
+  "settingsGeneralEntryTitle": "Geral",
+  "settingsGeneralTitle": "General Settings",
+  "settingsGeneralWidgetsTitle": "Widgets",
+  "settingsHomeBlockCount": "Número de blocos de planejamento",
+  "settingsHomeBlockDuration": "Duração do bloco",
+  "settingsHomeBlockGap": "Intervalo de bloco de planejamento",
+  "settingsHomeCourseGridSettings": "Configurações do modo de grade do curso",
+  "settingsHomeCourseImport": "Importação de cronograma de curso",
+  "settingsHomeCourseManagement": "Gerenciamento de cronograma de cursos",
+  "settingsHomeDayStart": "Início do dia",
+  "settingsHomeEntrySubtitle": "Blocos de tempo da página inicial, modo de grade e faixa de exibição widescreen",
+  "settingsHomeFitGridToScreen": "Ajustar grade à tela",
+  "settingsHomeGridCellHeight": "Altura fixa da célula",
+  "settingsHomeGridMode": "padrão de grade",
+  "settingsHomeHideLunchBreak": "Ocultar Almoço",
+  "settingsHomeItemOpacity": "Opacidade dos blocos",
+  "settingsHomeSectionDescription": "Configure as regras de segmentação de bloco de tempo para a página inicial e o intervalo de tempo padrão exibido na tela ultralarga.",
+  "settingsHomeSectionTitle": "Configurações da página inicial",
+  "settingsHomeTimeGridSettings": "Configurações do modo de grade de tempo",
+  "settingsHomeWideLayout": "Faixa padrão ultralarga",
+  "settingsLanguage": "Language",
+  "settingsLicenses": "Licenças de código aberto",
+  "settingsLight": "Light",
+  "settingsListEntrySubtitle": "Classificação de lista, reordenação e preferências de exibição",
+  "settingsListEntryTitle": "Listar configurações da página",
+  "settingsMinutesValue": "{value} minutos",
+  "settingsNavigationEntrySubtitle": "Rótulos e aba central",
+  "settingsNavigationEntryTitle": "Configurações da barra de navegação",
+  "settingsPercentValue": "{value}%",
+  "settingsPrivacy": "Privacy & Security",
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsPrivacyTitle": "Privacy & Security",
+  "settingsQuickActionsTitle": "Posicionamento rápido",
+  "settingsSearchEmpty": "Nenhuma configuração correspondente encontrada",
+  "settingsSearchHint": "Configurações de pesquisa",
+  "settingsSearchTooltip": "Configurações de pesquisa",
+  "settingsTermsOfService": "Terms of Service",
+  "settingsTheme": "Tema",
+  "settingsTitle": "configurações",
+  "settingsVersion": "Versão",
+  "settingsFriendLinksTitle": "Links amigos",
+  "settingsFriendLinksSubtitle": "Parceiros, comunidade e projetos relacionados",
+  "settingsFriendLinksEmpty": "Ainda não há links amigos",
+  "friendLinkDialogClose": "Fechar",
+  "friendLinkOpenFailed": "Não foi possível abrir o link",
+    "friendLinkCategoryFeedback": "Feedback de uso",
+  "friendLinkCategoryClubOrg": "Clubes e organizacoes",
+  "friendLinkCategoryPartnerApp": "Parceiros e agradecimentos",
+  "friendLinkCategoryOther": "Outros",
+  "settingsWeatherSectionTitle": "Configurações do clima",
+  "settingsWeatherSectionSubtitle": "Provedor, chaves API e localização",
+  "settingsWeatherProvider": "Weather provider",
+  "settingsWeatherUseCustomApiKey": "Use custom API key",
+  "settingsWeatherCustomApiKeyHint": "Enter your API key",
+  "settingsWeatherLocationMode": "Modo de localização",
+  "settingsWeatherLocationFixed": "Local fixo",
+  "settingsWeatherLocationDynamic": "Relocalizar a cada solicitação",
+  "shareCodeLink": "Código/Link",
+  "showNavigationLabels": "Mostrar rótulos",
+  "sourceManual": "Fonte: Manual",
+  "sourceMerged": "Fonte: Mesclado",
+  "sourceWakeup": "Fonte: Wakeup",
+  "sourceWhu": "Fonte: WHU",
+  "sportsAllDay": "All Day",
+  "sportsAllVenues": "Todos os locais",
+  "sportsBook": "Book",
+  "sportsBooking": "Reservando…",
+  "sportsBookingFailed": "Falha na reserva. Tente novamente.",
+  "sportsBookingRules": "Booking Rules",
+  "sportsBookingSuccess": "Reserva concluída!",
+  "sportsBookingUnavailable": "Indisponível no momento. Tente novamente mais tarde.",
+  "sportsBookNow": "Book Now",
+  "sportsBusinessHours": "Business Hours: ",
+  "sportsCheckoutArgsMissing": "Faltam argumentos de confirmação. Volte e selecione de novo.",
+  "sportsCheckoutTitle": "Checkout",
+  "sportsChooseCourt": "Escolher quadra",
+  "sportsChooseTimeSlot": "Choose Time Slot",
+  "sportsConfirmBooking": "Confirmar reserva",
+  "sportsConfirmPayment": "Confirm Payment",
+  "sportsDaytime": "Daytime",
+  "sportsEvening": "Evening",
+  "sportsFriday": "Friday",
+  "sportsGoBack": "Voltar",
+  "sportsGoToMyOrders": "Ver minhas reservas",
+  "sportsLoading": "Carregando…",
+  "sportsLoadingFailed": "Falha ao carregar",
+  "sportsLoadingVenues": "Carregando locais…",
+  "sportsMinutes": "min",
+  "sportsMonday": "Monday",
+  "sportsMultiDayNotSupported": "Multi-day booking not supported yet",
+  "sportsNoCourtsAvailable": "Sem quadras",
+  "sportsOrderArgsMissing": "Faltam argumentos do pedido. Volte e selecione de novo.",
+  "sportsOrderCancelled": "Cancelado",
+  "sportsOrderExpired": "Order has expired",
+  "sportsOrderNotFound": "Pedido não encontrado",
+  "sportsOrderPaid": "Pago",
+  "sportsOrderPending": "Pagamento pendente",
+  "sportsOrderStatus": "Status",
+  "sportsOrderTitle": "Detalhe da reserva",
+  "sportsPay": "Pagar",
+  "sportsPayFailed": "Payment failed. Please try again.",
+  "sportsPaying": "Paying...",
+  "sportsPaySuccess": "Payment successful!",
+  "sportsPhone": "Phone: ",
+  "sportsPrice": "Price",
+  "sportsRetry": "Tentar de novo",
+  "sportsSaturday": "Saturday",
+  "sportsSelectDate": "Select Date",
+  "sportsSelectDateFirst": "Escolha a data primeiro",
+  "sportsSelectDateHint": "Please select a date",
+  "sportsSelectedCourt": "Selected",
+  "sportsSelectTimeSlot": "Escolher horário",
+  "sportsSelectTimeSlotHint": "Please select a time",
+  "sportsSelectVenue": "Escolher local",
+  "sportsSelectVenueHint": "Selecione uma instalação esportiva",
+  "sportsSunday": "Sunday",
+  "sportsThursday": "Thursday",
+  "sportsTuesday": "Tuesday",
+  "sportsVenueAddress": "Venue Address",
+  "sportsVenueDetail": "Venue Detail",
+  "sportsVenueType": "Venue Type",
+  "sportsWednesday": "Wednesday",
+  "startImport": "Iniciar Importação",
+  "tapToSelect": "Toque para selecionar",
+  "themeColors": "Cores do Tema",
+  "themeDark": "Escuro",
+  "themeLight": "Claro",
+  "themeModeLabel": "modo tema",
+  "themeSectionTitle": "mostrar",
+  "themeSettings": "Tema",
+  "themeSystem": "Sistema",
+  "thisItem": "Este item",
+  "timePickerDescription": "Esta rota é reservada para seletores de horário compartilhados de dia, semana e mês.",
+  "timePickerTitle": "Seleção de tempo",
+  "timetable": "Horário",
+  "timetableManagement": "Gestão de Horários",
+  "timetableName": "Nome do Horário",
+  "timetableName1": "Nome do horário",
+  "timetables": "Horários",
+  "tipSelectedDateIsNot": "Dica: A data selecionada não é segunda-feira",
+  "tipSelectedDateIsNotAMonday": "Dica: A data selecionada não é segunda-feira",
+  "updateOnDataChangesWith": "As alterações de dados são enviadas imediatamente e atualizadas de acordo com a frequência.",
+  "updateOnDataChangesWithPeriodi": "Atualizar com alterações de dados.",
+  "useDynamicColor": "Usar Cor Dinâmica",
+  "verifyingAndEstablishingEducat": "Verificando sessão educacional...",
+  "verifyingAndEstablishingEducationSession": "Verificando e estabelecendo sessão acadêmica...",
+  "wakeupImport": "Importação Wakeup",
+  "wakeupShareLinkCode": "Código/Link Wakeup",
+  "weatherCachedAt": "Armazenado em cache em{time}",
+  "weatherCacheTimeUnknown": "Tempo de cache desconhecido",
+  "weatherFeelsLike": "Feels {temp}",
+  "weatherLibraryBorrowingDetail": "Detalhes do empréstimo",
+  "weatherLibraryReminder": "Biblioteca: Empréstimo de ‘Crime e Castigo’ expira em três dias",
+  "weatherLoadFailed": "Falha ao carregar o clima",
+  "weatherLoadFailedWithError": "Falha ao carregar o clima:{error}",
+  "weatherLoadingLocation": "Obtendo previsão do tempo para{locationName}...",
+  "weatherNews": "Notícias do campus",
+  "weatherNewsReminder": "Campus News: Divulgado anúncio de ajuste do feriado do Primeiro de Maio",
+  "weatherNoClassReminder": "Não há aulas esta tarde. Que tal auditar 'Chineses Antigos'?",
+  "weatherNoHourlyForecast": "Nenhuma previsão horária disponível",
+  "weatherRetry": "Tentar novamente",
+  "weatherServiceUnavailable": "O serviço meteorológico está temporariamente indisponível. Mostrando cache recente.",
+  "weatherShowCache": "Mostrando cache recente",
+  "weatherSnackAuditingClass": "Recomendação de Auditoria",
+  "weatherTryAgainLater": "Por favor, tente novamente mais tarde",
+  "weatherUpdated": "{time}atualizado",
+  "weatherUpdating": "Atualizando o clima...",
+  "week1Monday": "Segunda-feira Semana 1",
+  "whuAcademicSystem": "Sistema Acadêmico WHU",
+  "whuAccountBind": "Vincular conta WHU",
+  "whuAccountCancelBinding": "Cancel Binding",
+  "whuAccountCollege": "Unidade acadêmica",
+  "whuAccountRecentLogin": "Login recente",
+  "whuAccountRecentVerification": "Verificação recente",
+  "whuAccountDetail": "Detalhe da conta WHU",
+  "whuAccountLoggedInAs": "Logged in as ",
+  "whuAccountTitle": "Conta WHU",
+  "whuAccountUnbind": "Unbind",
+  "whuAccountUnbindConfirm": "Are you sure to unbind this account?",
+  "whuAccountUnbindSuccess": "Unbind successful",
+  "whuCalendarListView": "Lista",
+  "whuCalendarMonthView": "Mês",
+  "whuCalendarNoEvents": "Sem eventos",
+  "whuCalendarTitle": "Calendário acadêmico",
+  "whuCalendarWeekView": "Semana",
+  "whuCourseImportAdapterFailed": "Failed to import courses",
+  "whuCourseImportAdapterImporting": "Importing courses from WHU Academic...",
+  "whuCourseImportAdapterLoginRequired": "WHU Academic login required",
+  "whuCourseImportAdapterParsing": "Parsing WHU course page...",
+  "whuCourseImportAdapterSuccess": "Successfully imported {count} courses",
+  "whuLoginWebViewLoading": "Carregando…",
+  "whuLoginWebViewTitle": "Login WHU",
+  "yY1": "{y}-{yPlus1}",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "@courseImportImportSuccess": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationHours": "{hours} horas",
-  "@editorDurationMinutes": {
+  "@courseImportImportSuccessDesc": {
     "placeholders": {
-      "minutes": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationMinutes": "{minutes} minutos",
+  "@courseImportParseSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@courseTimetablesWeekCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
   "@editorDurationHourMinute": {
     "placeholders": {
       "hours": {
@@ -251,170 +822,47 @@
       }
     }
   },
-  "editorDurationHourMinute": "{hours} horas {minutes} minutos",
-  "@detailRangeDate": {
+  "@editorDurationHours": {
     "placeholders": {
-      "start": {},
-      "end": {}
+      "hours": {
+        "type": "int"
+      }
     }
   },
-  "detailRangeDate": "{start} a {end}",
-  "@detailMemoDate": {
+  "@editorDurationMinutes": {
     "placeholders": {
-      "date": {},
-      "duration": {}
+      "minutes": {
+        "type": "int"
+      }
     }
   },
-  "detailMemoDate": "{date} · {duration} esperado",
-  "aiTitle": "Assistente de IA",
-  "aiInputHint": "Qualquer dúvida sobre o cronograma...",
-  "settingsAiSectionTitle": "Configurações de IA",
-  "settingsAiBaseUrlLabel": "Endereço da API",
-  "settingsAiApiKeyLabel": "Chave de API",
-  "settingsAiModelLabel": "modelo",
-  "settingsAiSystemPromptLabel": "Palavra de prompt do sistema",
-  "settingsAiTestButton": "conexão de teste",
-  "settingsAiTestingButton": "Testando...",
-  "settingsAiSaveButton": "Salvar configurações de IA",
-  "settingsAccountLocalTitle": "conta local",
-  "settingsAccountWhuTitle": "Conta da Universidade de Wuhan",
-  "settingsAccountWhuLoggedIn": "Certificado",
-  "settingsAccountWhuNotLoggedIn": "Não logado",
-  "settingsNavigationEntryTitle": "Configurações da barra de navegação",
-  "settingsNavigationEntrySubtitle": "Mostrar texto, página da guia do meio",
-  "settingsHomeCourseImport": "Importação de cronograma de curso",
-  "settingsHomeCourseManagement": "Gerenciamento de cronograma de cursos",
-  "settingsHomeTimeGridSettings": "Configurações do modo de grade de tempo",
-  "settingsHomeCourseGridSettings": "Configurações do modo de grade do curso",
-  "placeholderOpenPicker": "Abrir seletor",
-  "placeholderOpenMenu": "Abrir menu",
-  "scorePageStatsDialogTitle": "{courseName}estatísticas de pontos",
-  "@scorePageStatsDialogTitle": {
+  "@emptyClassroomAddedSingle": {
     "placeholders": {
-      "courseName": {
+      "classroom": {
+        "type": "String"
+      },
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "@emptyClassroomConflictMulti": {
+    "placeholders": {
+      "sections": {
         "type": "String"
       }
     }
   },
-  "scorePageInstructorUnknown": "desconhecido",
-  "scorePageRetry": "Tente novamente",
-  "scorePageStatsEmpty": "Atualmente não há amostras estatísticas para pontuação neste curso",
-  "scorePageSampleCount": "tamanho da amostra",
-  "scorePageAvgTotal": "Avaliação geral média",
-  "scorePageAvgUsual": "Geralmente dividido igualmente",
-  "scorePageAvgExam": "Dividido igualmente no final do período",
-  "scorePageGradeDistribution": "Distribuição de notas",
-  "scorePageGradeRange90": "90-100 pontos",
-  "scorePageGradeRange80": "80-89 pontos",
-  "scorePageGradeRange70": "70-79 pontos",
-  "scorePageGradeRange60": "60-69 pontos",
-  "scorePageGradeRangeFail": "falhou",
-  "scorePageLoginToShare": "Faça login em sua conta Luotopia para compartilhar a distribuição de notas do seu curso.",
-  "scorePageSubmitSuccess": "Envio bem-sucedido! Obrigado pela sua contribuição anônima!",
-  "scorePageAnonymousContribution": "Pontos por contribuições anônimas",
-  "scorePageTotalScore": "Pontuação geral:{score}",
-  "@scorePageTotalScore": {
+  "@emptyClassroomFABExpanded": {
     "placeholders": {
-      "score": {
-        "type": "Object"
+      "expanded": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
       }
     }
   },
-  "scorePageUsualScoreLabel": "Resultados diários (opcional)",
-  "scorePageExamScoreLabel": "Notas finais (opcional)",
-  "scorePageSubmitAnonymous": "Enviar anonimamente",
-  "scorePageCourseTeacherNotMatched": "Este curso e professor não foram correspondidos no servidor",
-  "scorePageFetchStatsFailed": "Falha ao obter estatísticas:{error}",
-  "@scorePageFetchStatsFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageSubmitFailed": "Falha no envio, tente novamente",
-  "scorePageSubmitError": "Falha no envio:{error}",
-  "@scorePageSubmitError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageInstructorLabel": "Professor:{instructor}",
-  "@scorePageInstructorLabel": {
-    "placeholders": {
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdating": "Atualizando o clima...",
-  "weatherNoClassReminder": "Não há aulas esta tarde. Que tal auditar 'Chineses Antigos'?",
-  "weatherSnackAuditingClass": "Recomendação de Auditoria",
-  "weatherNewsReminder": "Campus News: Divulgado anúncio de ajuste do feriado do Primeiro de Maio",
-  "weatherNews": "Notícias do campus",
-  "weatherLibraryReminder": "Biblioteca: Empréstimo de ‘Crime e Castigo’ expira em três dias",
-  "weatherLibraryBorrowingDetail": "Detalhes do empréstimo",
-  "@weatherFeelsLike": {
-    "placeholders": {
-      "temp": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherFeelsLike": "Parece{temp}",
-  "@weatherUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdated": "{time}atualizado",
-  "weatherShowCache": "Mostrando cache recente",
-  "weatherNoHourlyForecast": "Nenhuma previsão horária disponível",
-  "@weatherLoadingLocation": {
-    "placeholders": {
-      "locationName": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadingLocation": "Obtendo previsão do tempo para{locationName}...",
-  "weatherLoadFailed": "Falha ao carregar o clima",
-  "weatherTryAgainLater": "Por favor, tente novamente mais tarde",
-  "weatherCacheTimeUnknown": "Tempo de cache desconhecido",
-  "@weatherCachedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherCachedAt": "Armazenado em cache em{time}",
-  "weatherServiceUnavailable": "O serviço meteorológico está temporariamente indisponível. Mostrando cache recente.",
-  "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadFailedWithError": "Falha ao carregar o clima:{error}",
-  "weatherRetry": "Tentar novamente",
-  "emptyClassroomTitle": "Salas Vazias",
-  "emptyClassroomFilterTitle": "Filtros",
-  "emptyClassroomFilterCampus": "Campus",
-  "emptyClassroomFilterBuilding": "Prédio",
-  "emptyClassroomFilterWeek": "Semana",
-  "emptyClassroomFilterWeekDay": "Dia",
-  "emptyClassroomQueryButton": "Buscar Salas",
-  "emptyClassroomLoginPrompt": "Faça login no WHU primeiro",
-  "emptyClassroomGoLogin": "Entrar",
-  "emptyClassroomRetry": "Tentar novamente",
-  "emptyClassroomNoResults": "Nenhuma sala vazia neste prédio",
-  "emptyClassroomQueryHint": "Filtros definidos. Toque no botão acima para buscar",
   "@emptyClassroomFloorSeats": {
     "placeholders": {
       "floor": {
@@ -428,47 +876,6 @@
       }
     }
   },
-  "emptyClassroomFloorSeats": "Andar {floor} · {available}/{total} lugares",
-  "emptyClassroomSectionHint": "Toque em um período para adicionar",
-  "emptyClassroomFABTitle": "Períodos da Sala",
-  "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomFABExpanded": "{expanded} / {total} expandidos",
-  "emptyClassroomFABHint": "Toque na seta para expandir os períodos e em um bloco para adicionar",
-  "emptyClassroomExpandAll": "Expandir Tudo",
-  "emptyClassroomCollapseAll": "Recolher Tudo",
-  "emptyClassroomConflictTitle": "Conflito de Horário",
-  "emptyClassroomConflictSingle": "Você já tem uma aula neste horário. Confirmar?",
-  "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
-      }
-    }
-  },
-  "emptyClassroomConflictMulti": "Você já tem aulas em {sections}. Confirmar?",
-  "emptyClassroomConflictCancel": "Cancelar",
-  "emptyClassroomConflictConfirm": "Confirmar",
-  "emptyClassroomUndo": "Desfazer",
-  "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
-      },
-      "section": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomAddedSingle": "Adicionado período {section} em {classroom}",
   "@emptyClassroomSectionLabel": {
     "placeholders": {
       "section": {
@@ -476,7 +883,6 @@
       }
     }
   },
-  "emptyClassroomSectionLabel": "Período {section}",
   "@emptyClassroomWeekLabel": {
     "placeholders": {
       "week": {
@@ -484,49 +890,6 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "Semana {week}",
-  "homeCurrentWeekRange": "Esta semana ({start} - {end})",
-  "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homePeriodRange": "{start} - {end}",
-  "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabel": "Ano Acadêmico {year} {term}",
-  "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "term": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabelYearOnly": "Ano Acadêmico {year}",
-  "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMainLabelWeek": "Semana {week}",
   "@homeCalendarMainLabelWeek": {
     "placeholders": {
       "week": {
@@ -534,61 +897,6 @@
       }
     }
   },
-  "homeCalendarSummerBreak": "Férias de Verão",
-  "homeCalendarWinterBreak": "Férias de Inverno",
-  "homeGoToCurrentWeek": "Ir para esta semana",
-  "homeGoToNextSemesterFirstWeek": "Ir para a primeira semana",
-  "homeCoursePeriod": "Aula {courseNumber}",
-  "@homeCoursePeriod": {
-    "placeholders": {
-      "courseNumber": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCourseLunch": "Almoço",
-  "homeWeekdayLabel": "{weekday}",
-  "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearMonth": "{month} de {year}",
-  "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "month": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthWeek": "Semana {week} de {month}",
-  "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearWeek": "Semana {week} de {year}",
-  "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthDayRange": "{day} - {endDay}",
   "@homeCalendarMonthDayRange": {
     "placeholders": {
       "day": {
@@ -599,241 +907,1545 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "Ocultar Almoço",
-  "settingsHomeFitGridToScreen": "Ajustar grade à tela",
-  "settingsHomeGridCellHeight": "Altura fixa da célula",
-  "homeBackToCurrentPeriod": "Voltar para esta semana",
-  "startImport": "Iniciar Importação",
-  "pasteSharedContent": "Colar conteúdo compartilhado",
-  "shareCodeLink": "Código/Link",
-  "eGWakeupImport1": "Ex. Wakeup Import 1",
-  "timetableName": "Nome do Horário",
-  "pasteWakeupShareCodeLinkParser": "Cole o link/código Wakeup. Analisador não conectado.",
-  "wakeupImport": "Importação Wakeup",
-  "semS": "Sem {s}",
-  "@semS": {
+  "@homeCalendarMonthWeek": {
     "placeholders": {
-      "s": {}
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
     }
   },
-  "yY1": "{y}-{yPlus1}",
-  "@yY1": {
+  "@homeCalendarTopLabel": {
     "placeholders": {
-      "y": {},
-      "yPlus1": {}
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
     }
   },
-  "done": "Concluído",
-  "selectSemester": "Selecionar Semestre",
-  "semester": "Semestre",
-  "importFailedError": "Falha na importação: {error}",
-  "@importFailedError": {
+  "@homeCalendarTopLabelYearOnly": {
     "placeholders": {
-      "error": {}
+      "year": {
+        "type": "String"
+      }
     }
   },
-  "importedPayloadItemsLengthItem": "Importados {itemsLength} para \"{tableName}\".",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
   "@importedPayloadItemsLengthItem": {
     "placeholders": {
       "tableName": {},
       "itemsLength": {}
     }
   },
-  "importFinishedPayloadItemsLeng": "Import finished: {itemsLength} items, {currentWeekCount} in current week.",
-  "@importFinishedPayloadItemsLeng": {
-    "placeholders": {
-      "currentWeekCount": {},
-      "itemsLength": {}
-    }
-  },
-  "fetchingTimetable": "Buscando horário...",
-  "verifyingAndEstablishingEducat": "Verificando sessão educacional...",
-  "pleaseSelectWeek1Monday": "Selecione a segunda-feira da Semana 1.",
-  "tipSelectedDateIsNotAMonday": "Dica: A data selecionada não é segunda-feira",
-  "tapToSelect": "Toque para selecionar",
-  "week1Monday": "Segunda-feira Semana 1",
-  "timetableName1": "Nome do horário",
-  "importSchedule": "Importar Horário",
-  "delete": "Excluir",
-  "cancel": "Cancelar",
-  "allCourseItemsInThisTimetableW": "Todos os itens deste horário serão excluídos.",
-  "deleteTimetable": "Excluir horário",
-  "create": "Criar",
-  "enterTimetableName": "Digite o nome",
-  "createTimetable": "Criar horário",
-  "sourceManual": "Fonte: Manual",
-  "sourceMerged": "Fonte: Mesclado",
-  "sourceWakeup": "Fonte: Wakeup",
-  "sourceWhu": "Fonte: WHU",
-  "noTimetableYetImportOrCreateOn": "Sem horário ainda. Importe ou crie um primeiro.",
-  "timetables": "Horários",
-  "importTimetableFromSharedText": "Importar de texto compartilhado",
-  "wakeupShareLinkCode": "Código/Link Wakeup",
-  "importCoursesViaEmbeddedWebLog": "Importar via login web incorporado",
-  "whuAcademicSystem": "Sistema Acadêmico WHU",
-  "importSources": "Fontes de Importação",
-  "courseTablesImport": "Horários e Importação",
-  "importedTimestr": "Importado {timeStr}",
-  "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
-    }
-  },
-  "noTimetableYetTapToImportFromW": "Sem horário. Toque em + para importar do WHU.",
-  "login": "Entrar",
-  "pleaseLoginToWhuAcademicSystem": "Faça login na WHU",
-  "timetable": "Horário",
-  "allSameNameCourses": "Todos os cursos com o mesmo nome",
-  "thisItem": "Este item",
-  "changeOnlyThisItemOrEveryCours": "Alterar apenas este item, ou todos os cursos \"{title}\"?",
-  "@changeOnlyThisItemOrEveryCours": {
-    "placeholders": {
-      "title": {}
-    }
-  },
-  "applyColorTo": "Aplicar cor a",
-  "timetableManagement": "Gestão de Horários",
-  "importFromSharedText": "Importar de texto",
-  "importViaEmbeddedWebLogin": "Importar via web login",
-  "courseImport": "Importação de Cursos",
-  "courseGridSettings": "Configurações da Grade",
-  "paletteStyle": "Estilo da Paleta",
-  "ok": "OK",
-  "selectSeedColor": "Selecionar Cor Base",
-  "customSeedColor": "Cor Base Personalizada",
-  "extractColorsFromWallpaperAuto": "Extrair do papel de parede",
-  "useDynamicColor": "Usar Cor Dinâmica",
-  "themeColors": "Cores do Tema",
-  "followAppTheme": "Seguir tema do app",
-  "followAppLanguage": "Seguir idioma do app",
-  "updateOnDataChangesWithPeriodi": "Atualizar com alterações de dados.",
-  "fallbackRefreshInterval": "Intervalo de atualização de fallback",
-  "enableWidgetSync": "Habilitar sincronização de widget",
-  "alwaysHide": "Sempre ocultar",
-  "alwaysShow": "Sempre mostrar",
-  "selectedOnlyDefault": "Apenas selecionados (Padrão)",
-  "aiAssistant": "Assistente de IA",
-  "forum": "Fórum",
-  "chooseBetweenForumOrAiForTheMi": "Escolha entre Fórum ou IA para a aba do meio.",
-  "middleTab": "Aba do meio",
-  "showNavigationLabels": "Mostrar rótulos de navegação",
-  "minuteMin": "{minute} min",
-  "@minuteMin": {
-    "placeholders": {
-      "minute": {}
-    }
-  },
-  "hourH": "{hour} h",
-  "@hourH": {
-    "placeholders": {
-      "hour": {}
-    }
-  },
-  "chooseDuration": "Escolher duração",
-  "k3Hours": "3 horas",
-  "k1Hour": "1 hora",
-  "k30Minutes": "30 minutos",
-  "pasteWakeupShareCodelinkParser": "Suporta colar senha ou link de compartilhamento de Wakeup. A versão atual fornece primeiro um processo de espaço reservado.",
-  "egWakeupImport1": "Por exemplo: Importação de ativação 1",
-  "tipSelectedDateIsNot": "Dica: A data selecionada não é segunda-feira",
-  "verifyingAndEstablishingEducationSession": "Verificando e estabelecendo sessão acadêmica...",
-  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
-    "placeholders": {
-      "itemsLength": {},
-      "currentWeekCount": {}
-    }
-  },
-  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Importação concluída: {itemsLength} itens adicionados, {currentWeekCount} itens na semana atual.",
   "@importedPayloaditemslengthItemsTo": {
     "placeholders": {
       "itemsLength": {},
       "tableName": {}
     }
   },
-  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
   "@importFailedError1": {
     "placeholders": {
       "error": {}
     }
   },
-  "importFailedError1": "Falha na importação: {error}",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@whuCourseImportAdapterSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "@yy1": {
     "placeholders": {
       "y": {},
       "yPlus1": {}
     }
   },
-  "yy1": "{y}-{yPlus1} ano letivo",
-  "@semS1": {
+  "@yY1": {
     "placeholders": {
-      "s": {}
+      "y": {},
+      "yPlus1": {}
     }
   },
-  "semS1": "Semestre {s}",
-  "importCoursesViaEmbeddedWeb": "Faça login e importe cursos por meio da página da web incorporada",
-  "wakeupShareLinkcode": "Senha/link de compartilhamento de ativação",
-  "noTimetableYetImportOr": "Ainda não há programação de cursos, importe-a acima ou crie-a manualmente.",
-  "allCourseItemsInThis": "Todos os assuntos do curso nesta programação serão excluídos ao mesmo tempo.",
-  "pleaseLoginToWhuAcademic": "Faça login primeiro na conta de assuntos acadêmicos da Universidade de Wuhan",
-  "noTimetableYetTapTo": "Ainda não há programação de cursos, clique em + no canto superior direito para importá-la do Sistema de Assuntos Acadêmicos da Universidade de Wuhan.",
-  "allSamenameCourses": "Alterar este curso",
-  "updateOnDataChangesWith": "As alterações de dados são enviadas imediatamente e atualizadas de acordo com a frequência.",
-  "chooseBetweenForumOrAi": "O fórum ou assistente de IA é exibido no meio da barra de navegação (fórum padrão)",
-  "themeSettings": "Configurações de tema",
-  "colorsAppearance": "Cor e aparência",
-  "dynamicColorMonet": "Seleção dinâmica de cores (Monet)",
-  "dynamicColorSourceAccent": "Use system accent color",
-  "dynamicColorSourceGtk": "Use GTK theme color",
-  "dynamicColorSourceWallpaper": "Extract from system wallpaper",
-  "extractPrimaryColorFromSystem": "Extraia dinamicamente as cores principais com base no papel de parede do sistema",
-  "seedColor": "Cor da Semente",
-  "baseColorForStaticTheme": "Cor base para temas estáticos",
-  "paletteAlgorithm": "Algoritmo de Paleta",
-  "changeColorVariantGenerationAlgorithm": "Alterar algoritmo de geração de variante de cor",
-  "scoreCaptchaAutoVerifying": "Auto-verifying...",
-  "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
+  "courseImportFailed": "Import failed",
+  "courseImportStatusImported": "Concluído: {count} itens, {currentWeek} nesta semana.",
+  "@courseImportStatusImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "currentWeek": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSnackSuccess": "Importados {count} itens para “{tableName}”.",
+  "@courseImportSnackSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "tableName": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportStatusFailed": "Falha na importação: {error}",
+  "@courseImportStatusFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportAcademicYearLabel": "Ano letivo {year}-{next}",
+  "@courseImportAcademicYearLabel": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSemesterLabel": "Sem. {semester}",
+  "@courseImportSemesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportImportFailedStatus": "Import failed: {error}",
+  "@courseImportImportFailedStatus": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editorEditCourse": "Editar disciplina",
+  "editorCreateCourse": "Criar disciplina",
+  "editorAllDaySchedule": "Agenda o dia todo",
+  "editorApplyColorTo": "Aplicar cor a",
+  "editorCourseNatureHint": "Natureza da disciplina (ex.: obrig./opt.)",
+  "editorChangeScopeTitle": "Só este item ou todas as disciplinas “{title}”?",
+  "@editorChangeScopeTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "editorChangeOnlyThisItem": "Somente este item",
+  "editorChangeAllSameName": "Todas as disciplinas com o mesmo nome",
+  "aiConversations": "Conversas",
+  "aiNewChat": "Novo",
+  "aiServiceError": "Erro do serviço de IA",
+  "aiUntitledItem": "Item sem título",
+  "aiMemo": "Nota",
+  "aiDraftReady": "Rascunho pronto: {title}",
+  "@aiDraftReady": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "aiOpenDraftPage": "Abrir rascunho",
+  "aiSending": "Enviando…",
+  "aiSend": "Enviar",
+  "aiClearHistory": "Limpar histórico",
+  "aiRename": "Renomear",
+  "aiDelete": "Excluir",
+  "aiNoMessages": "Sem mensagens",
+  "aiClearConversations": "Limpar chats",
+  "aiClearConversationsConfirm": "Are you sure you want to clear all conversation history?",
+  "aiCancel": "Cancelar",
+  "aiClear": "Limpar",
+  "aiRenameConversation": "Renomear conversa",
+  "aiSave": "Salvar",
+  "aiSettings": "Configurações de IA",
+  "aiRetry": "Tentar de novo",
+  "aiClearConversationsWarning": "Todas as conversas de IA locais serão apagadas.",
+  "scorePagePrivacyLocked": "O histórico está protegido por bloqueio de privacidade",
+  "scorePageClickToUnlock": "Toque para desbloquear",
+  "scorePageNoLocalScore": "Sem notas locais",
+  "scorePageLoginHint": "Se não estiver logado, entre nas configurações.\nDepois toque no botão abaixo para buscar e sincronizar notas.",
+  "scorePageSync": "Sincronizar",
+  "scorePageTotalGpa": "GPA total",
+  "scorePageTotalCredits": "Créditos totais",
+  "scorePageGetFailed": "Falha ao obter notas",
+  "scorePageSettings": "Configurações de notas",
+  "scorePageEnableBiometric": "Ativar bloqueio biométrico",
+  "scorePageBiometricHint": "Proteja suas notas com Face ID ou impressão digital",
+  "scorePageGpaStandard": "Padrão de cálculo do GPA",
+  "scorePageGpaStandardHint": "Ao trocar, o GPA total e por grupo é recalculado",
+  "scorePageStandardWhu": "Padrão WHU 2021+",
+  "scorePageStandardWes": "Padrão WES",
+  "scorePageStandard40": "Algoritmo padrão 4.0",
+  "scorePageStandard100": "Média percentual",
+  "scorePageSpoiler": "Score Spoiler",
+  "scorePageSpoilerHint": "Fetch uploaded scores not yet synced to the educational administration system",
+  "scorePageEnableSpoiler": "Enable Score Spoiler",
+  "scorePageStudentId": "Student ID",
+  "scorePageStudentIdHint": "Used for spoiler API; can also extract stuId from Cookie",
+  "scorePageCookie": "Cookie (Optional)",
+  "scorePageCookieHint": "If API needs auth, paste Cookie like JSESSIONID / route / stuId",
+  "scorePageBiometricAuthFailed": "Falha na autenticação biométrica",
+  "scorePageGoToSettings": "Go to Settings",
+  "scorePageSpoilerFailed": "Failed to fetch score spoiler",
+  "scorePageSpoilerHintText": "By enabling Score Spoiler, you can view early scores.",
+  "scorePageSpoilerFetched": "Fetched {count} records · {credits} credits",
+  "@scorePageSpoilerFetched": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageSpoilerUpdated": "Updated: {time}",
+  "@scorePageSpoilerUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfo": "{type} · {credit} créditos · {instructor}",
+  "@scorePageCourseInfo": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfoWithExam": "{type} · {credit} credits · {exam}\n{instructor}",
+  "@scorePageCourseInfoWithExam": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "exam": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageGpaDisplay": "GPA: {gpa}",
+  "@scorePageGpaDisplay": {
+    "placeholders": {
+      "gpa": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAboutDescription": "O Luotopia busca um hub acadêmico e de campus moderno, bonito e poderoso. Obrigado pelo apoio!",
+  "settingsDevModeAlreadyOn": "O modo desenvolvedor já está ativado.",
+  "settingsDevModeActivated": "Modo desenvolvedor ativado! Você já pode usar as configurações de desenvolvedor.",
+  "settingsDevModeTapCount": "Mais {count} toques para ativar o modo desenvolvedor",
+  "@settingsDevModeTapCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsNotificationsTitle": "Notificações",
+  "settingsPushNotifications": "Notificações push",
+  "settingsPushNotificationsSubtitle": "Avisos de agenda, avaliações e sistema",
+  "settingsMarketingNotifications": "Marketing e eventos",
+  "settingsMarketingNotificationsSubtitle": "Receber avisos de eventos e promoções do campus",
+  "settingsStorageTitle": "Gerenciamento de armazenamento",
+  "settingsClearCache": "Limpar cache",
+  "settingsClearCacheSubtitle": "Liberar arquivos temporários e cache (cerca de {size})",
+  "settingsCacheCleared": "Cache limpo: {size} liberados",
+  "@settingsClearCacheSubtitle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsCacheCleared": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAiEntrySubtitle": "Modelo, chaves API e prompt do sistema",
+  "settingsDeveloperTitle": "Configurações de desenvolvedor",
+  "settingsDeveloperSubtitle": "Endereço do servidor e opções de teste",
+  "settingsDevSaveSuccess": "Salvo: URL do servidor atualizada",
+  "settingsDevScanSuccess": "Servidor encontrado: {ip}:6262",
+  "@settingsDevScanSuccess": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevScanFailed": "Nenhum servidor API na porta 6262 na rede local",
+  "settingsDevScanError": "Falha na varredura: {error}",
+  "@settingsDevScanError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevServerUrl": "URL de servidor personalizada",
+  "settingsDevServerUrlSubtitle": "Substitui a URL base da API, ex.: http://192.168.1.100:6262",
+  "settingsDevUrlLabel": "URL do servidor",
+  "settingsDevUrlHint": "Deixe vazio para usar o padrão",
+  "settingsDevDisableTitle": "Desativar modo desenvolvedor",
+  "settingsDevDisableSubtitle": "Após desativar, toque o número da versão várias vezes para reativar",
+  "settingsHomeBackgroundImage": "Custom Background Image",
+  "settingsHomeBackgroundSet": "Set",
+  "settingsHomeGridAlpha": "Opacidade do fundo da grade",
+  "settingsHomeGridBorderAlpha": "Opacidade da borda da grade",
+  "settingsHomeCropImage": "Cortar imagem",
+  "settingsAiFormat": "Formato de API",
+  "settingsAiFormatSubtitle": "Escolha o formato de API de IA conforme o provedor",
+  "biometricLockContentLocked": "Bloqueado",
+  "biometricLockDescription": "Esta página é protegida e exige autenticação",
+  "biometricLockUnlock": "Desbloquear",
+  "whuLoginCannotComplete": "Não é possível concluir o login",
+  "whuLoginVerifying": "Verificando o login…",
+  "whuLoginVerificationFailed": "Falha ao verificar o login: {error}",
+  "@whuLoginVerificationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "Tentar de novo",
+  "campusFeatureInDevelopment": "Recurso em desenvolvimento",
+  "libraryVenueList": "Locais",
+  "libraryMyReservations": "Minhas reservas",
+  "libraryNoVenues": "Nenhum local disponível",
+  "libraryLoadFailed": "Falha ao carregar: {error}",
+  "@libraryLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryScanCheckIn": "Scan to Check In / Temporarily Leave",
+  "libraryNoActiveReservation": "No active reservation",
+  "libraryClickForDetails": "Toque para ver andares e assentos",
+  "globalTimetableTitle": "Grade global",
+  "globalTimetablePlaceholder": "A grade global está em desenvolvimento…",
+  "settingsAiConnectionSuccess": "Teste de conexão da IA bem-sucedido.",
+  "settingsAiConnectionFailed": "Falha de conexão: {error}",
+  "@settingsAiConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardLoading": "Carregando {name}…",
+  "@luojiaEcardLoading": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardPreparing": "Preparando {name}…",
+  "@luojiaEcardPreparing": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pagePreparationFailed": "Falha ao preparar a página: {error}",
+  "@pagePreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "linkNotSupported": "Este link deve ser aberto no navegador ou no app da escola.",
+  "pageLoginRequired": "Entre para abrir {name}",
+  "@pageLoginRequired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pageTemporarilyUnavailable": "Página temporariamente indisponível",
+  "pageRefresh": "Atualizar",
+  "accountStatus": "Status da conta",
+  "whuCasLoginRequired": "Faça login no CAS WHU primeiro.",
+  "whuCasServiceAuthFailed": "Falha na autorização do serviço. Entre de novo no CAS WHU.",
+  "whuCasServiceRequestFailed": "Falha na solicitação de autorização do serviço: {error}",
+  "@whuCasServiceRequestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasNoCookie": "Nenhum cookie acadêmico válido detectado.",
+  "whuCasSessionExpired": "A sessão acadêmica expirou. Entre de novo.",
+  "whuCasSessionVerifyFailed": "Falha ao verificar a sessão acadêmica: {error}",
+  "@whuCasSessionVerifyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasFetchFailed": "Falha ao obter a conta acadêmica (HTTP {code}).",
+  "@whuCasFetchFailed": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "whuCasLoginFailedReason": "Falha no login acadêmico: {reason}",
+  "@whuCasLoginFailedReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasLoginFailedGeneric": "Falha no login acadêmico. Entre de novo no CAS WHU.",
+  "courseHubToolsTitle": "Ferramentas e info de disciplinas",
+  "courseHubToolsDescription": "Calendário, assistir, grade global, notas e avaliações.",
+  "courseHubSearchCourse": "Buscar disciplinas",
+  "courseHubCalendar": "Calendário",
+  "courseHubCalendarSubtitle": "Semestres, feriados e semanas de prova",
+  "courseHubAuditCourse": "Assistir",
+  "courseHubAuditCourseSubtitle": "Descobrir aulas para assistir · em construção",
+  "courseHubTimetableSubtitle": "Explorar todas as disciplinas · em construção",
+  "courseHubScoresSubtitle": "Busque uma disciplina para ver a distribuição",
+  "courseHubReviews": "Avaliações da disciplina",
+  "courseHubReviewsSubtitle": "Busque uma disciplina para ver avaliações",
+  "courseHubToolsSection": "Ferramentas acadêmicas",
+  "courseHubSearchHintGrades": "Busque uma disciplina para a distribuição histórica",
+  "courseHubSearchHintReviews": "Busque uma disciplina para avaliações dos alunos",
+  "courseHubSearchHintNormal": "Buscar por nome, professor ou código",
+  "courseHubSearchTitle": "Busca de disciplinas",
+  "courseHubEmptyTitle": "Buscar uma disciplina",
+  "courseHubEmptyDescription": "Abra o detalhe da disciplina para ver notas e avaliações.",
+  "courseHubNoResults": "Nenhuma disciplina encontrada",
+  "courseHubSearchError": "Falha na busca: {error}",
+  "@courseHubSearchError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubResultSubtitle": "{uid} · {department}",
+  "@courseHubResultSubtitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      },
+      "department": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailTitle": "Detalhe da disciplina: {uid}",
+  "@courseDetailTitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailGradesTab": "Notas",
+  "courseDetailReviewsTab": "Avaliações",
+  "courseDetailGradesPlaceholder": "Gráfico de distribuição de notas — em breve",
+  "courseDetailReviewsPlaceholder": "Lista de avaliações — em breve",
+  "courseAuditTitle": "Assistir aulas",
+  "courseAuditPlaceholder": "O recurso de assistir aulas está em desenvolvimento…",
+  "courseHubSearchFailMessage": "Falha na busca: {message}",
+  "@courseHubSearchFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubGradeStatsFailMessage": "Falha ao carregar a distribuição: {message}",
+  "@courseHubGradeStatsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubReviewsFailMessage": "Falha ao carregar avaliações: {message}",
+  "@courseHubReviewsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseTimetableDefaultName": "Grade {index}",
+  "@courseTimetableDefaultName": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomSectionFormat": "Period {groups}",
+  "@emptyClassroomSectionFormat": {
+    "placeholders": {
+      "groups": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupImportPlaceholder": "O parser de link/código Wakeup ainda não está ligado — só um placeholder de importação.",
+  "sportsReservationToday": "Hoje",
+  "sportsReservationTomorrow": "Amanhã",
+  "sportsReservationDayAfterTomorrow": "Depois de amanhã",
+  "sportsVenueCourtFormat": "Quadra {areaNo}",
+  "@sportsVenueCourtFormat": {
+    "placeholders": {
+      "areaNo": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderNo": "N.º do pedido",
+  "sportsOrderCreatedAt": "Criado em",
+  "sportsOrderPaidAmount": "Valor pago",
+  "sportsOrderTotalAmount": "Valor total",
+  "sportsOrderDiscountAmount": "Valor do desconto",
+  "sportsOrderPaymentStartTime": "Início do pagamento",
+  "sportsOrderPaymentDeadline": "Prazo de pagamento",
+  "sportsOrderPaymentTime": "Hora do pagamento",
+  "sportsOrderRefundDeadline": "Prazo de reembolso",
+  "sportsOrderRefundAmount": "Valor do reembolso",
+  "sportsOrderCancelReason": "Motivo do cancelamento",
+  "sportsOrderCancelTime": "Hora do cancelamento",
+  "sportsOrderRefundTime": "Hora do reembolso",
+  "sportsOrderRealName": "Nome",
+  "sportsOrderStudentWorkNo": "N.º estudante/funcionário",
+  "sportsVenueFree": "Grátis",
+  "sportsVenuePriceFormat": "{price} CNY",
+  "@sportsVenuePriceFormat": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
+  "@sportsVenuePriceRangeFormat": {
+    "placeholders": {
+      "lowPrice": {
+        "type": "String"
+      },
+      "highPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderPriceWithUnitFormat": "{value} CNY",
+  "@sportsOrderPriceWithUnitFormat": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsReservationSelectVenueTimeHint": "Selecione primeiro um local e horário disponíveis.",
+  "sportsReservationVenueTimeUnavailable": "O local ou horário selecionados não estão disponíveis. Selecione de novo.",
+  "sportsReservationSessionExpired": "A sessão do sistema esportivo expirou.",
+  "sportsReservationAuthRequired": "Autorize o sistema esportivo primeiro.",
+  "sportsReservationWhuLoginRequired": "Faça login primeiro na autenticação unificada WHU.",
+  "sportsFetchSportsTypes": "Obter tipos de esporte",
+  "sportsFetchOftenVenues": "Obter locais frequentes",
+  "sportsFetchVenues": "Obter lista de locais",
+  "sportsFetchVenueDetail": "Obter detalhe do local",
+  "sportsFetchVenueDetailEmpty": "Falha ao obter o detalhe: resposta vazia.",
+  "sportsFetchVenueSportsTypes": "Obter esportes do local",
+  "sportsFetchAppointmentList": "Obter locais reserváveis",
+  "sportsFetchAppointmentAreaList": "Obter áreas reserváveis",
+  "sportsFetchAppointmentRules": "Obter regras de reserva",
+  "sportsFetchRecentlyStartReservations": "Obter reservas iniciadas recentemente",
+  "sportsFetchOrderList": "Obter lista de pedidos",
+  "sportsFetchOrderDetail": "Obter detalhe do pedido",
+  "sportsFetchOrderDetailEmpty": "Falha ao obter o detalhe: resposta vazia.",
+  "sportsOrderCancelDefaultRemark": "Cancelado pelo usuário",
+  "sportsCancelOrder": "Cancelar pedido",
+  "sportsApplyRefund": "Solicitar reembolso",
+  "sportsDeleteOrder": "Excluir registro do pedido",
+  "sportsCheckBlacklist": "Verificar restrições de reserva",
+  "sportsFetchBulletins": "Obter avisos dos locais",
+  "sportsNetworkError": "Falha em {action}: erro de rede.",
+  "@sportsNetworkError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiHttpError": "Falha em {action} (HTTP {statusCode}).",
+  "@sportsApiHttpError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsApiFormatError": "Falha em {action}: formato de resposta inválido.",
+  "@sportsApiFormatError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiError": "Falha em {action}.",
+  "@sportsApiError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiErrorWithMessage": "Falha em {action}: {message}",
+  "@sportsApiErrorWithMessage": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiJsonError": "Falha em {action}: JSON inválido. {diagnostic}",
+  "@sportsApiJsonError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "diagnostic": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiResponseEmpty": "A resposta está vazia.",
+  "sportsApiDiagnosticSafeLine": "Página WAF SafeLine",
+  "sportsApiDiagnosticAuthPage": "Página de login de autenticação unificada",
+  "sportsApiDiagnosticHtmlPage": "Página HTML",
+  "sportsApiDiagnosticNonJson": "Texto não JSON",
+  "sportsApiDiagnosticResponseType": "Tipo de resposta: {kind}.",
+  "@sportsApiDiagnosticResponseType": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAuthNoCasTicket": "Falha de autorização: ticket CAS não obtido.",
+  "sportsAuthNoToken": "Falha de autorização: credenciais não obtidas.",
+  "sportsAuthFetchToken": "Obter credenciais de login esportivo",
+  "sportsAuthNoJwt": "Falha de autorização: JWT ausente na resposta.",
+  "sportsAuthFailed": "Falha na autorização do sistema esportivo.",
+  "sportsAuthHttpError": "Sports venue system authorization failed (HTTP {statusCode}).",
+  "@sportsAuthHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsAuthRetryLogin": "Sports venue system authorization failed. Please re-login to WHU Unified Authentication.",
+  "scoreImportDescription": "Após importar, as notas ficam em cache local para consulta e GPA.",
+  "scoreImportCaptchaFailed": "Falha ao interpretar o código",
+  "scoreImportCancelled": "Verificação cancelada",
+  "scoreImportImportingUndergraduate": "Entrando no sistema de graduação e importando…",
+  "scoreImportSuccessWithCount": "{success}: {count} notas em cache local.",
+  "@scoreImportSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportFailedWithError": "{failed}: {error}",
+  "@scoreImportFailedWithError": {
+    "placeholders": {
+      "failed": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportSpoilerImporting": "Importando notas do sistema de desenvolvimento profissional…",
+  "scoreImportNoStudentId": "ID de estudante da sessão global não encontrado",
+  "scoreImportNoSession": "No academic system session found. Please re-login your WHU account.",
+  "scoreImportSpoilerSuccessWithCount": "{success}: obtidos {count} registros spoiler.",
+  "@scoreImportSpoilerSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportLastImport": "Last Import",
+  "scoreImportTime": "Time: {time}",
+  "@scoreImportTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportCount": "Score count: {count}",
+  "@scoreImportCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "@scoreImportExample": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaAutoVerifying": "Verificação automática…",
+  "seatReservationAlreadySynced": "Esta reserva já está na agenda.",
+  "seatReservationAddedToAgenda": "Reserva de assento adicionada à agenda.",
+  "seatReservationAddToAgendaTitle": "Add to agenda?",
+  "seatReservationAddButton": "Add",
+  "seatReservationPreparing": "Authorizing the seat reservation system...",
+  "seatReservationErrorTitle": "Seat reservation temporarily unavailable",
+  "seatReservationRetry": "Retry",
+  "seatReservationDefaultLocation": "Wuhan University Library",
+  "seatReservationDraftTitle": "Reserva de assento (biblioteca)",
+  "seatReservationDraftDetails": "Fonte: reserva de assentos biblioteca WHU\nID assento: {seatId}\n{marker}",
+  "@seatReservationDraftDetails": {
+    "placeholders": {
+      "seatId": {
+        "type": "String"
+      },
+      "marker": {
+        "type": "String"
+      }
+    }
+  },
+  "seatReservationSourceMarker": "ID de sync da reserva: {sourceId}",
+  "@seatReservationSourceMarker": {
+    "placeholders": {
+      "sourceId": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCalendarDateFormat": "{year}/{month}/{day}",
+  "@whuCalendarDateFormat": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeDefaultBlockLabel": "Block {number}",
+  "@homeDefaultBlockLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "itemDetailDateRangeTo": " a ",
+  "itemDetailSectionGrading": "Avaliação",
+  "itemDetailScoreOverall": "Geral",
+  "itemDetailScoreContinuous": "Contínua",
+  "itemDetailScoreFinal": "Final",
+  "itemDetailSectionDistribution": "Distribuição de notas",
+  "itemDetailDistRange90to100": "90-100",
+  "itemDetailDistRange80to89": "80-89",
+  "itemDetailDistRange70to79": "70-79",
+  "itemDetailDistRange60to69": "60-69",
+  "itemDetailDistRangeBelow60": "<60",
+  "itemDetailSectionReviews": "Avaliações",
+  "itemDetailMockReview1": "O professor explica com clareza, o material é bom e a nota é justa. Os exercícios em aula ajudam muito.",
+  "itemDetailMockReview2": "Conteúdo denso e prova final exigente. Carga moderada; revise cedo.",
+  "itemDetailMockReview3": "Muito recomendado! Clareia a área e os labs são bem feitos.",
+  "itemDetailMockReviewer": "Aluno anônimo",
+  "itemDetailTimeRangeSeparator": "~",
+  "aiMessageCount": "{count} mensagens",
+  "@aiMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "citationCardTypeSchedule": "Agenda",
+  "citationCardTypeTask": "Tarefa",
+  "citationCardTypeMemo": "Nota",
+  "citationCardTypeCourse": "Disciplina",
+  "citationCardTimeSeparator": "–",
+  "aiHeaderConfigRequired": "Configure a IA nas configurações primeiro.",
+  "aiHeaderServiceUnavailable": "Serviço de IA indisponível. Verifique a configuração ou a rede.",
+  "aiHeaderRetryLater": "Serviço de IA temporariamente indisponível. Tente novamente mais tarde.",
+  "aiHeaderDraftCreated": "Criado pela página de rascunho: {title}",
+  "@aiHeaderDraftCreated": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "themeColorSpec2021": "2021",
+  "themeColorSpec2025": "2025",
+  "themeColorLuotopiaBlue": "Luotopia Blue",
+  "themeColorMaterialRed": "Material Red",
+  "themeColorMaterialPink": "Material Pink",
+  "themeColorMaterialPurple": "Material Purple",
+  "themeColorMaterialDeepPurple": "Material Deep Purple",
+  "themeColorMaterialIndigo": "Material Indigo",
+  "themeColorMaterialBlue": "Material Blue",
+  "themeColorMaterialCyan": "Material Cyan",
+  "themeColorMaterialTeal": "Material Teal",
+  "themeColorMaterialGreen": "Material Green",
+  "themeColorMaterialOrange": "Material Orange",
+  "themeColorMaterialBrown": "Material Brown",
+  "themeDpiSmall": "Small",
+  "themeDpiStandard": "Standard",
+  "themeDpiLarge": "Large",
+  "themeDpiExtraLarge": "Extra Large",
+  "aiFormatOpenaiCompletion": "OpenAI Completion",
+  "aiFormatOpenaiResponse": "OpenAI Response",
+  "aiFormatGemini": "Gemini",
+  "aiFormatAnthropic": "Anthropic",
+  "aiSystemPromptDefault": "Você é o assistente de IA do Luotopia. Responda só com a mensagem atual e o resumo de itens, sem conversas anteriores. Priorize criar itens, organizar a agenda e perguntas de horário.",
+  "whuAccountFallbackName": "Conta WHU",
+  "homeWidgetDateLabel": "{month}/{day}",
+  "@homeWidgetDateLabel": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeWidgetNoScheduleToday": "Nada hoje",
+  "homeWidgetAgendaListTitle": "Lista de agenda",
+  "homeWidgetAgendaListSubtitle": "Agenda à esquerda; tarefas e notas à direita",
+  "homeWidgetRightColumnTitle": "Tarefas e notas",
+  "homeWidgetTypeCourse": "Disciplina",
+  "homeWidgetUntitledItem": "Sem título",
+  "homeWidgetAllDay": "Dia inteiro",
+  "homeWidgetUpdatedAt": "Atualizado {time}",
+  "@homeWidgetUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWidgetWeekLabel": "Semana {week}",
+  "@homeWidgetWeekLabel": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherConditionSunny": "Sunny",
+  "weatherConditionCloudy": "Cloudy",
+  "weatherConditionRainy": "Rainy",
+  "weatherConditionSnowy": "Snowy",
+  "weatherConditionFoggy": "Foggy",
+  "weatherAqiExcellent": "Excelente",
+  "weatherAqiGood": "Bom",
+  "weatherAqiModerate": "Moderado",
+  "weatherAqiPoor": "Ruim",
+  "weatherBannerRainSoon": "Chuva em breve — não esqueça o guarda-chuva!",
+  "weatherBannerAlert": "Alerta meteorológico: {alert}",
+  "@weatherBannerAlert": {
+    "placeholders": {
+      "alert": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherAQIValue": "AQI {value}",
+  "@weatherAQIValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
+  "@weatherConditionFormat": {
+    "placeholders": {
+      "condition": {
+        "type": "String"
+      },
+      "minTemp": {
+        "type": "String"
+      },
+      "maxTemp": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaRetrying": "Verificação auto (tentativa {attempt})…",
   "@scoreCaptchaRetrying": {
     "placeholders": {
-      "attempt": { "type": "int" }
+      "attempt": {
+        "type": "int"
+      }
     }
   },
+  "settingsWeatherProviders": "Provedores de clima",
+  "weatherProviderForecast": "Previsão",
+  "weatherProviderCurrent": "Clima atual",
+  "weatherProviderAirQuality": "Qualidade do ar",
+  "weatherProviderPrecipitation": "Previsão de precipitação",
+  "weatherProviderAlerts": "Alertas",
+  "weatherProviderNormalTemp": "Faixa de temperatura normal",
+  "weatherProviderLocationLookup": "Busca de local",
+  "weatherProviderChina": "Clima Xiaomi",
+  "weatherProviderOpenMeteo": "Open-Meteo",
+  "weatherProviderQWeather": "QWeather",
+  "weatherProviderAccuWeather": "AccuWeather",
+  "weatherProviderOpenWeatherMap": "OpenWeatherMap",
+  "weatherProviderNominatim": "Nominatim",
+  "weatherAqiHazardous": "Perigoso",
+  "weatherRainExpected": "Chuva iminente",
+  "weatherClear": "Ensolarado",
+  "weatherCloudy": "Nublado",
+  "weatherFog": "Neblina",
+  "weatherRain": "Chuva",
+  "weatherSnow": "Neve",
+  "weatherThunderstorm": "Tempestade",
+  "weatherUnknown": "Desconhecido",
+  "settingsWeatherLocationService": "Serviço de localização",
+  "settingsWeatherLocationSystem": "Localização do sistema",
+  "settingsWeatherLocationIpSb": "IP.SB",
+  "settingsWeatherLocationBaiduIp": "Localização IP Baidu",
+  "settingsWeatherBaiduApiKey": "Baidu API Key",
+  "locationSearchTitle": "Buscar local",
+  "locationSearchHint": "Buscar uma cidade…",
+  "locationSearchNoResults": "Sem resultados",
+  "settingsWeatherUpdateInterval": "Intervalo de atualização",
+  "settingsWeatherUpdate15m": "15 min",
+  "settingsWeatherUpdate30m": "30 min",
+  "settingsWeatherUpdate1h": "1 h",
+  "settingsWeatherUpdate2h": "2 h",
+  "settingsWeatherUpdateAlways": "Sempre atualizado",
   "weatherAirQualityTitle": "Qualidade do Ar",
   "weatherAirQualityPm25": "PM2.5",
   "weatherAirQualityPm10": "PM10",
-  "weatherAirQualityO3": "O\u2083",
-  "weatherAirQualityNo2": "NO\u2082",
-  "weatherAirQualitySo2": "SO\u2082",
+  "weatherAirQualityO3": "O₃",
+  "weatherAirQualityNo2": "NO₂",
+  "weatherAirQualitySo2": "SO₂",
   "weatherAirQualityCo": "CO",
-  "weatherAirQualityUnit": "\u00B5g/m\u00B3",
+  "weatherAirQualityUnit": "µg/m³",
   "weatherAirQualityClose": "Fechar",
-  "weatherAirQualitySubtitle": "Concentra\u00E7\u00F5es de poluentes em tempo real",
-  "campusBusTitle": "Campus Bus",
-  "campusBusNearestStop": "Nearest: {stopName}",
-  "campusBusDistance": "~{meters}m",
-  "campusBusLineOne": "Line 1",
-  "campusBusLineTwo": "Line 2",
-  "campusBusLineMedical": "Medical Campus",
-  "campusBusPlateNumber": "No. {plate}",
-  "campusBusArrived": "Arrived",
-  "campusBusStopsAway": "{stops} stop(s) away",
-  "campusBusNoInfo": "No bus information available",
-  "campusBusNoNearby": "No nearby bus stops found",
-  "campusBusLoadFailed": "Failed to load bus info",
-  "campusBusNotLoggedIn": "Not logged in or out of service hours",
-  "campusBusRefresh": "Refresh",
-  "settingsBuildTypeDebug": "Debug Build",
-  "settingsBuildTypeProfile": "Profile Build",
-  "settingsBuildTypeRelease": "Release Build",
+  "weatherAirQualitySubtitle": "Concentrações de poluentes em tempo real",
+  "campusBusTitle": "Ônibus do campus",
+  "campusBusNearestStop": "Mais próxima: {stopName}",
+  "campusBusDistance": "~{meters} m",
+  "campusBusLineOne": "Linha 1",
+  "campusBusLineTwo": "Linha 2",
+  "campusBusLineMedical": "Campus médico",
+  "campusBusPlateNumber": "N.º {plate}",
+  "campusBusArrived": "Chegou",
+  "campusBusStopsAway": "A {stops} parada(s)",
+  "campusBusNoInfo": "Sem informação de ônibus",
+  "campusBusNoNearby": "Nenhuma parada próxima",
+  "campusBusLoadFailed": "Falha ao carregar info do ônibus",
+  "campusBusNotLoggedIn": "Sem login ou fora do horário",
+  "campusBusRefresh": "Atualizar",
+  "campusBusServiceHours": "Horário: {hours}",
+  "whuConfirmLogout": "Confirmar saída",
+  "whuLogoutWarning": "Após sair, entre de novo para os serviços WHU.",
+  "settingsDevConfirmDisable": "Desativar o modo desenvolvedor?",
+  "settingsDevDisableWarning": "Após desativar, será preciso tocar o número da versão várias vezes para reativar.",
+  "scoreClearCacheTitle": "Limpar cache de notas",
+  "scoreClearCacheWarning": "Todas as notas em cache local serão apagadas. Continuar?",
+  "scoreClearCacheSuccess": "Cache de notas limpo",
+  "scoreClearCacheHint": "Limpar todas as notas em cache local",
+  "settingsBuildTypeDebug": "Build de debug",
+  "settingsBuildTypeProfile": "Build de profile",
+  "settingsBuildTypeRelease": "Build de release",
   "settingsBuildChannelAlpha": "Alpha",
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
-  "settingsBuildInfoVersion": "Version",
+  "settingsBuildInfoVersion": "Versão",
   "settingsBuildInfoBuildNumber": "Build",
-  "settingsBuildInfoChannel": "Channel",
-  "settingsBuildInfoType": "Type",
-  "weatherAqiStandardUs": "US Standard",
-  "weatherAqiStandardCn": "China Standard",
-  "weatherAqiStandardEu": "EU Standard",
-  "settingsWeatherAqiStandard": "AQI Standard",
-  "settingsWeatherAqiStandardSubtitle": "All AQI values are converted to this standard for consistent display"
+  "settingsBuildInfoChannel": "Canal",
+  "settingsBuildInfoType": "Tipo",
+  "weatherAqiStandardUs": "Padrão EUA",
+  "weatherAqiStandardCn": "Padrão China",
+  "weatherAqiStandardEu": "Padrão UE",
+  "settingsWeatherAqiStandard": "Padrão AQI",
+  "settingsWeatherAqiStandardSubtitle": "Todos os valores de AQI são convertidos para este padrão para exibição consistente",
+  "libraryAuthFailed": "Falha de autorização: {error}",
+  "@libraryAuthFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCurrentReservation": "Reserva atual",
+  "libraryCancelTitle": "Cancelar reserva",
+  "libraryCancelConfirm": "Cancelar a reserva atual?",
+  "libraryConfirmCancel": "Confirmar cancelamento",
+  "libraryCancelSuccess": "Reserva cancelada",
+  "libraryCancelFailed": "Falha ao cancelar: {error}",
+  "@libraryCancelFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCheckoutSuccess": "Check-out feito",
+  "libraryCheckoutFailed": "Falha no check-out: {error}",
+  "@libraryCheckoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryMenuCancel": "Cancelar",
+  "libraryMenuCheckout": "Check-out",
+  "libraryNoRoomData": "Sem dados de salas",
+  "libraryFloor": "Andar {floor}",
+  "@libraryFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryAvailable": "Disponível {free}/{total}",
+  "@libraryAvailable": {
+    "placeholders": {
+      "free": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryBookTitle": "{building} - {room}",
+  "@libraryBookTitle": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoSeatData": "Sem dados de assentos",
+  "librarySeatLayoutFailed": "Falha ao carregar o mapa: {error}",
+  "@librarySeatLayoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryBookThisSeat": "Reservar este assento",
+  "libraryDate": "Date",
+  "libraryStartTime": "Início",
+  "libraryEndTime": "Fim",
+  "libraryBookSuccess": "Reserva concluída!",
+  "libraryBookFailed": "Falha na reserva: {error}",
+  "@libraryBookFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoHistory": "Sem histórico de reservas",
+  "libraryStatusReserved": "Reservado",
+  "libraryStatusCheckIn": "Em uso",
+  "libraryStatusAway": "Ausente",
+  "libraryStatusCompleted": "Concluída",
+  "libraryStatusCancelled": "Cancelada",
+  "libraryStatusMissed": "Falta",
+  "libraryStatusLeftEarly": "Saída antecipada",
+  "libraryStatusNoCheckout": "Sem check-out",
+  "libraryToday": "Hoje",
+  "libraryTomorrow": "Amanhã",
+  "emptyClassroomSelfStudyTitle": "Estudo · {location}",
+  "@emptyClassroomSelfStudyTitle": {
+    "placeholders": {
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomFilterSection": "Períodos",
+  "emptyClassroomSectionClear": "Limpar",
+  "addToAgendaTitle": "Adicionar à agenda?",
+  "addToAgendaConfirm": "Adicionar",
+  "sportsAgendaItemTitle": "{type} · {venue}",
+  "@sportsAgendaItemTitle": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "venue": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAgendaItemDetails": "Reserva de instalação esportiva",
+  "sportsAddedToAgenda": "Adicionado à agenda",
+  "wallpaperCenterTitle": "Papel de parede",
+  "wallpaperCenterSubtitle": "Papel de parede por página",
+  "wallpaperSourceNone": "Nenhum",
+  "wallpaperSourceLocal": "Imagem local",
+  "wallpaperSourceBing": "Bing diário",
+  "wallpaperPickImage": "Escolher imagem",
+  "wallpaperNoImage": "Nenhuma imagem selecionada",
+  "wallpaperTargetHome": "Grade",
+  "wallpaperTargetCampus": "Campus",
+  "wallpaperTargetSettings": "Configurações",
+  "wallpaperTargetTaskList": "Lista de tarefas",
+  "wallpaperTargetForum": "Fórum",
+  "wallpaperTargetAi": "AI",
+  "libraryBorrowingPlaceholder": "O empréstimo de livros está em desenvolvimento…",
+  "settingsAiProvider": "Provedor de IA",
+  "settingsAiModels": "Lista de modelos",
+  "settingsAiFetchModels": "Buscar modelos",
+  "settingsAiFetchedCount": "{count} modelos obtidos",
+  "@settingsAiFetchedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelHint": "Digite o nome do modelo ou escolha na lista",
+  "pasteWakeupShareCodelinkParser": "Suporta colar senha ou link de compartilhamento de Wakeup. A versão atual fornece primeiro um processo de espaço reservado.",
+  "egWakeupImport1": "Por exemplo: Importação de ativação 1",
+  "yy1": "{y}-{yPlus1} ano letivo",
+  "wakeupShareLinkcode": "Senha/link de compartilhamento de ativação",
+  "allSamenameCourses": "Alterar este curso",
+  "homeJumpCurrentWeek": "Esta sem.",
+  "homeJumpSemesterStartWeek": "Início",
+  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "languageFollowSystem": "Seguir sistema",
+  "languageFollowApp": "Seguir o app",
+  "ecardPaycodeTitle": "E-Card Payment Code",
+  "ecardPaycodeUseWeb": "Use web version",
+  "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
+  "ecardPaycodeLoginRequiredTitle": "Please log in to your WHU account",
+  "ecardPaycodeLoginRequiredMessage": "After logging in you can get the E-card payment code.",
+  "ecardPaycodeRefreshing": "Refreshing payment code…",
+  "ecardPaycodeLoading": "Getting payment code…",
+  "ecardPaycodeAccountFallback": "WHU account",
+  "ecardPaycodeSessionExpired": "Session expired. Please re-login to WHU under Account.",
+  "ecardPaycodeFetchFailed": "Failed to get payment code. Retry or use the web version.",
+  "ecardPaycodeShowToMerchant": "Show this code to the merchant to pay",
+  "ecardPaycodeAutoRefreshHint": "Auto-refreshes every minute. Do not use screenshots.",
+  "ecardPaycodeRefreshNow": "Atualizar",
+  "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
+  "@ecardPaycodeRefreshInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "ecardPaycodeUnavailable": "Unable to get payment code for now",
+  "studyStatusTitle": "Academic status",
+  "studyStatusEmptyTitle": "No academic data yet",
+  "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",
+  "studyStatusFetchData": "Fetch data",
+  "studyStatusFetchFailed": "Failed to fetch data",
+  "studyStatusStatsTime": "Stats as of {time}",
+  "@studyStatusStatsTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusTrainingPlan": "Training plan",
+  "studyStatusCourseOverview": "Course overview",
+  "studyStatusFilterAll": "Todos",
+  "studyStatusFilterPassed": "Aprovado",
+  "studyStatusFilterFailed": "Reprovado",
+  "studyStatusFilterStudying": "Cursando",
+  "studyStatusFilterNotTaken": "Não cursado",
+  "studyStatusOutOfPlan": "Out of plan",
+  "studyStatusTotalCourses": "{count} courses",
+  "@studyStatusTotalCourses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusPassedCount": "Passed {count}",
+  "@studyStatusPassedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusFailedCount": "Failed {count}",
+  "@studyStatusFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusStudyingCount": "In progress {count}",
+  "@studyStatusStudyingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusRequiredCredits": "Required {credits} credits",
+  "@studyStatusRequiredCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusEarnedCredits": "Earned {credits} credits",
+  "@studyStatusEarnedCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusNoCourses": "No course data",
+  "studyStatusCredits": "{credit} credits",
+  "@studyStatusCredits": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusRetake": "Retake",
+  "studyStatusScorePoints": "{score} pts",
+  "@studyStatusScorePoints": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusOriginalScore": "Orig. {score} pts",
+  "@studyStatusOriginalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusGradePoint": "GPA {point}",
+  "@studyStatusGradePoint": {
+    "placeholders": {
+      "point": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageStudyStatus": "Academic status",
+  "scorePageFetchStudyStatus": "Fetch academic status",
+  "aiTimeline": "Linha do tempo",
+  "weatherDetailTitle": "Weather details",
+  "weatherDetailTemperature": "Temperature",
+  "weatherDetailFeelsLike": "Feels like",
+  "weatherDetailHighLow": "High / Low",
+  "weatherDetailHumidity": "Humidity",
+  "weatherDetailUv": "UV index",
+  "weatherDetailWind": "Wind",
+  "weatherDetailPressure": "Pressure",
+  "weatherDetailVisibility": "Visibility",
+  "weatherDetailSunrise": "Sunrise",
+  "weatherDetailSunset": "Sunset"
 }

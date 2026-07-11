@@ -30,7 +30,6 @@
   "campusAppSeatReservation": "Seat Reservation",
   "campusAppSports": "Sports Venues",
   "campusAppTimetable": "Timetable",
-  "campusAppStudyStatus": "Study Status",
   "campusPageTitle": "Campus Services",
   "campusTitle": "Campus",
   "cancel": "Cancel",
@@ -323,18 +322,18 @@
   "homeCalendarMainLabelWeek": "Week {week}",
   "homeCalendarMonthDayRange": "{day} - {endDay}",
   "homeCalendarMonthWeek": "Week {week} of {month}",
-  "homeCalendarSummerBreak": "Summer Break",
-  "homeCalendarTopLabel": "Academic Year {year} {term}",
-  "homeCalendarTopLabelYearOnly": "Academic Year {year}",
-  "homeCalendarWinterBreak": "Winter Break",
+  "homeCalendarSummerBreak": "Summer",
+  "homeCalendarTopLabel": "{year} {term}",
+  "homeCalendarTopLabelYearOnly": "{year}",
+  "homeCalendarWinterBreak": "Winter",
   "homeCalendarYearMonth": "{month} {year}",
   "homeCalendarYearWeek": "Week {week} of {year}",
   "homeCourseLunch": "Lunch",
   "homeCoursePeriod": "Period {courseNumber}",
   "homeCurrentWeekRange": "This week ({start} - {end})",
   "homeDescription": "The table page will show week and month planning grids here.",
-  "homeGoToCurrentWeek": "Go to this week",
-  "homeGoToNextSemesterFirstWeek": "Go to first week of school",
+  "homeGoToCurrentWeek": "This week",
+  "homeGoToNextSemesterFirstWeek": "Term start",
   "homeGridModeCourse": "Course grid",
   "homeGridModeTime": "Time grid",
   "homePeriodRange": "{start} - {end}",
@@ -526,9 +525,9 @@
   "settingsAboutEntrySubtitle": "App info, version and license",
   "settingsAboutEntryTitle": "About",
   "settingsAboutDevTeam": "Development Team",
-"settingsAppIcon": "App Icon",
-"settingsAppIconDefault": "Default",
-"settingsAppIconAlt": "Alternate",
+  "settingsAppIcon": "App Icon",
+  "settingsAppIconDefault": "Default",
+  "settingsAppIconAlt": "Alternate",
   "settingsAboutTranslation": "Translation Platform",
   "settingsLicensesTitle": "Open Source Licenses",
   "licenseAuthor": "Author: {author}",
@@ -597,7 +596,6 @@
   "settingsHomeWideLayout": "Ultra-wide default range",
   "settingsLanguage": "Language",
   "settingsLicenses": "Open Source Licenses",
-  "settingsLicensesTitle": "Open Source Licenses",
   "settingsLight": "Light",
   "settingsListEntrySubtitle": "Sort, reorder and list display preferences",
   "settingsListEntryTitle": "List settings",
@@ -616,6 +614,15 @@
   "settingsTheme": "Theme",
   "settingsTitle": "Settings",
   "settingsVersion": "Version",
+  "settingsFriendLinksTitle": "Friend links",
+  "settingsFriendLinksSubtitle": "Partners, community and related projects",
+  "settingsFriendLinksEmpty": "No friend links yet",
+  "friendLinkDialogClose": "Close",
+  "friendLinkOpenFailed": "Could not open link",
+    "friendLinkCategoryFeedback": "Usage feedback",
+  "friendLinkCategoryClubOrg": "Clubs & organizations",
+  "friendLinkCategoryPartnerApp": "Partners & acknowledgements",
+  "friendLinkCategoryOther": "Other",
   "settingsWeatherSectionTitle": "Weather settings",
   "settingsWeatherSectionSubtitle": "Weather provider, API keys, and location",
   "settingsWeatherProvider": "Weather provider",
@@ -717,7 +724,7 @@
   "wakeupShareLinkCode": "Wakeup Share Link/Code",
   "weatherCachedAt": "Cached at {time}",
   "weatherCacheTimeUnknown": "Cache time unknown",
-  "weatherFeelsLike": "Feels like {temp}",
+  "weatherFeelsLike": "Feels {temp}",
   "weatherLibraryBorrowingDetail": "Borrowing Details",
   "weatherLibraryReminder": "Library: Borrowing of 'Crime and Punishment' expires in three days",
   "weatherLoadFailed": "Failed to load weather",
@@ -1353,15 +1360,16 @@
         "type": "String"
       }
     }
-  }
-,
+  },
   "settingsAboutDescription": "Luotopia is dedicated to building a modern, beautiful, and powerful campus life hub platform. Thank you for your support!",
   "settingsDevModeAlreadyOn": "Developer mode is already enabled.",
   "settingsDevModeActivated": "Developer mode activated! You can now use developer settings.",
   "settingsDevModeTapCount": "Tap {count} more times to enable developer mode",
   "@settingsDevModeTapCount": {
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "settingsNotificationsTitle": "Notifications",
@@ -1371,8 +1379,22 @@
   "settingsMarketingNotificationsSubtitle": "Receive campus event and promotion notifications",
   "settingsStorageTitle": "Storage Management",
   "settingsClearCache": "Clear Cache",
-  "settingsClearCacheSubtitle": "Free up local storage space (approximately 128 MB)",
-  "settingsCacheCleared": "Cache cleared: freed 128 MB of space",
+  "settingsClearCacheSubtitle": "Free temporary files and cached data (about {size})",
+  "settingsCacheCleared": "Cache cleared: freed {size}",
+  "@settingsClearCacheSubtitle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsCacheCleared": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiEntrySubtitle": "Model, API keys and system prompts",
   "settingsDeveloperTitle": "Developer Settings",
   "settingsDeveloperSubtitle": "Server address and testing options",
@@ -1380,14 +1402,18 @@
   "settingsDevScanSuccess": "Server found: {ip}:6262",
   "@settingsDevScanSuccess": {
     "placeholders": {
-      "ip": { "type": "String" }
+      "ip": {
+        "type": "String"
+      }
     }
   },
   "settingsDevScanFailed": "No API server found on port 6262 on the local network",
   "settingsDevScanError": "Scan failed: {error}",
   "@settingsDevScanError": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "settingsDevServerUrl": "Custom Server URL",
@@ -1411,7 +1437,9 @@
   "whuLoginVerificationFailed": "Login status verification failed: {error}",
   "@whuLoginVerificationFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "retry": "Retry",
@@ -1422,7 +1450,9 @@
   "libraryLoadFailed": "Failed to load: {error}",
   "@libraryLoadFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryScanCheckIn": "Scan to Check In / Temporarily Leave",
@@ -1430,39 +1460,46 @@
   "libraryClickForDetails": "Tap to view floor and seat details",
   "globalTimetableTitle": "Global Timetable",
   "globalTimetablePlaceholder": "Global timetable feature is under development...",
-  "whuAccountCollege": "College",
-  "whuAccountRecentLogin": "Recent Login",
-  "whuAccountRecentVerification": "Recent Verification",
   "settingsAiConnectionSuccess": "AI connection test successful.",
   "settingsAiConnectionFailed": "Connection failed: {error}",
   "@settingsAiConnectionFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "luojiaEcardLoading": "Loading {name}...",
   "@luojiaEcardLoading": {
     "placeholders": {
-      "name": { "type": "String" }
+      "name": {
+        "type": "String"
+      }
     }
   },
   "luojiaEcardPreparing": "Preparing {name}...",
   "@luojiaEcardPreparing": {
     "placeholders": {
-      "name": { "type": "String" }
+      "name": {
+        "type": "String"
+      }
     }
   },
   "pagePreparationFailed": "Page preparation failed: {error}",
   "@pagePreparationFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "linkNotSupported": "This link needs to be opened in a browser or school app.",
   "pageLoginRequired": "Log in to access {name}.",
   "@pageLoginRequired": {
     "placeholders": {
-      "name": { "type": "String" }
+      "name": {
+        "type": "String"
+      }
     }
   },
   "pageTemporarilyUnavailable": "Page temporarily unavailable",
@@ -1473,7 +1510,9 @@
   "whuCasServiceRequestFailed": "Service authorization request failed: {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "whuCasNoCookie": "No valid academic system cookie detected.",
@@ -1481,19 +1520,25 @@
   "whuCasSessionVerifyFailed": "Academic session verification failed: {error}",
   "@whuCasSessionVerifyFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "whuCasFetchFailed": "Failed to fetch academic account info (HTTP {code}).",
   "@whuCasFetchFailed": {
     "placeholders": {
-      "code": { "type": "int" }
+      "code": {
+        "type": "int"
+      }
     }
   },
   "whuCasLoginFailedReason": "Academic login failed: {reason}",
   "@whuCasLoginFailedReason": {
     "placeholders": {
-      "reason": { "type": "String" }
+      "reason": {
+        "type": "String"
+      }
     }
   },
   "whuCasLoginFailedGeneric": "Academic login failed, please re-login to WHU CAS.",
@@ -1519,20 +1564,28 @@
   "courseHubSearchError": "Search failed: {error}",
   "@courseHubSearchError": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "courseHubResultSubtitle": "{uid} · {department}",
   "@courseHubResultSubtitle": {
     "placeholders": {
-      "uid": { "type": "String" },
-      "department": { "type": "String" }
+      "uid": {
+        "type": "String"
+      },
+      "department": {
+        "type": "String"
+      }
     }
   },
   "courseDetailTitle": "Course Detail: {uid}",
   "@courseDetailTitle": {
     "placeholders": {
-      "uid": { "type": "String" }
+      "uid": {
+        "type": "String"
+      }
     }
   },
   "courseDetailGradesTab": "Grades",
@@ -1544,31 +1597,41 @@
   "courseHubSearchFailMessage": "Search failed: {message}",
   "@courseHubSearchFailMessage": {
     "placeholders": {
-      "message": { "type": "String" }
+      "message": {
+        "type": "String"
+      }
     }
   },
   "courseHubGradeStatsFailMessage": "Failed to load grade distribution: {message}",
   "@courseHubGradeStatsFailMessage": {
     "placeholders": {
-      "message": { "type": "String" }
+      "message": {
+        "type": "String"
+      }
     }
   },
   "courseHubReviewsFailMessage": "Failed to load reviews: {message}",
   "@courseHubReviewsFailMessage": {
     "placeholders": {
-      "message": { "type": "String" }
+      "message": {
+        "type": "String"
+      }
     }
   },
   "courseTimetableDefaultName": "Timetable {index}",
   "@courseTimetableDefaultName": {
     "placeholders": {
-      "index": { "type": "int" }
+      "index": {
+        "type": "int"
+      }
     }
   },
   "emptyClassroomSectionFormat": "Period {groups}",
   "@emptyClassroomSectionFormat": {
     "placeholders": {
-      "groups": { "type": "String" }
+      "groups": {
+        "type": "String"
+      }
     }
   },
   "wakeupImportPlaceholder": "Wakeup share link/code parser pending — current version provides an import flow placeholder only.",
@@ -1578,7 +1641,9 @@
   "sportsVenueCourtFormat": "Court {areaNo}",
   "@sportsVenueCourtFormat": {
     "placeholders": {
-      "areaNo": { "type": "String" }
+      "areaNo": {
+        "type": "String"
+      }
     }
   },
   "sportsOrderNo": "Order No.",
@@ -1600,20 +1665,28 @@
   "sportsVenuePriceFormat": "{price} CNY",
   "@sportsVenuePriceFormat": {
     "placeholders": {
-      "price": { "type": "String" }
+      "price": {
+        "type": "String"
+      }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
   "@sportsVenuePriceRangeFormat": {
     "placeholders": {
-      "lowPrice": { "type": "String" },
-      "highPrice": { "type": "String" }
+      "lowPrice": {
+        "type": "String"
+      },
+      "highPrice": {
+        "type": "String"
+      }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value} CNY",
   "@sportsOrderPriceWithUnitFormat": {
     "placeholders": {
-      "value": { "type": "String" }
+      "value": {
+        "type": "String"
+      }
     }
   },
   "sportsReservationSelectVenueTimeHint": "Please select an available venue and time slot first.",
@@ -1643,40 +1716,58 @@
   "sportsNetworkError": "{action} failed: network error.",
   "@sportsNetworkError": {
     "placeholders": {
-      "action": { "type": "String" }
+      "action": {
+        "type": "String"
+      }
     }
   },
   "sportsApiHttpError": "{action} failed (HTTP {statusCode}).",
   "@sportsApiHttpError": {
     "placeholders": {
-      "action": { "type": "String" },
-      "statusCode": { "type": "int" }
+      "action": {
+        "type": "String"
+      },
+      "statusCode": {
+        "type": "int"
+      }
     }
   },
   "sportsApiFormatError": "{action} failed: response format error.",
   "@sportsApiFormatError": {
     "placeholders": {
-      "action": { "type": "String" }
+      "action": {
+        "type": "String"
+      }
     }
   },
   "sportsApiError": "{action} failed.",
   "@sportsApiError": {
     "placeholders": {
-      "action": { "type": "String" }
+      "action": {
+        "type": "String"
+      }
     }
   },
   "sportsApiErrorWithMessage": "{action} failed: {message}",
   "@sportsApiErrorWithMessage": {
     "placeholders": {
-      "action": { "type": "String" },
-      "message": { "type": "String" }
+      "action": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
     }
   },
   "sportsApiJsonError": "{action} failed: response is not valid JSON. {diagnostic}",
   "@sportsApiJsonError": {
     "placeholders": {
-      "action": { "type": "String" },
-      "diagnostic": { "type": "String" }
+      "action": {
+        "type": "String"
+      },
+      "diagnostic": {
+        "type": "String"
+      }
     }
   },
   "sportsApiResponseEmpty": "Response is empty.",
@@ -1687,7 +1778,9 @@
   "sportsApiDiagnosticResponseType": "Response type: {kind}.",
   "@sportsApiDiagnosticResponseType": {
     "placeholders": {
-      "kind": { "type": "String" }
+      "kind": {
+        "type": "String"
+      }
     }
   },
   "sportsAuthNoCasTicket": "Sports venue system authorization failed: CAS ticket not obtained.",
@@ -1698,7 +1791,9 @@
   "sportsAuthHttpError": "Sports venue system authorization failed (HTTP {statusCode}).",
   "@sportsAuthHttpError": {
     "placeholders": {
-      "statusCode": { "type": "int" }
+      "statusCode": {
+        "type": "int"
+      }
     }
   },
   "sportsAuthRetryLogin": "Sports venue system authorization failed. Please re-login to WHU Unified Authentication.",
@@ -1709,15 +1804,23 @@
   "scoreImportSuccessWithCount": "{success}: {count} scores cached locally.",
   "@scoreImportSuccessWithCount": {
     "placeholders": {
-      "success": { "type": "String" },
-      "count": { "type": "int" }
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
     }
   },
   "scoreImportFailedWithError": "{failed}: {error}",
   "@scoreImportFailedWithError": {
     "placeholders": {
-      "failed": { "type": "String" },
-      "error": { "type": "String" }
+      "failed": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
     }
   },
   "scoreImportSpoilerImporting": "Importing scores from the Professional Development System...",
@@ -1726,29 +1829,43 @@
   "scoreImportSpoilerSuccessWithCount": "{success}: Fetched {count} spoiler score records.",
   "@scoreImportSpoilerSuccessWithCount": {
     "placeholders": {
-      "success": { "type": "String" },
-      "count": { "type": "int" }
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
     }
   },
   "scoreImportLastImport": "Last Import",
   "scoreImportTime": "Time: {time}",
   "@scoreImportTime": {
     "placeholders": {
-      "time": { "type": "String" }
+      "time": {
+        "type": "String"
+      }
     }
   },
   "scoreImportCount": "Score count: {count}",
   "@scoreImportCount": {
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "scoreImportExample": "Example: {name} · {score} · {credit}",
   "@scoreImportExample": {
     "placeholders": {
-      "name": { "type": "String" },
-      "score": { "type": "String" },
-      "credit": { "type": "String" }
+      "name": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      }
     }
   },
   "scoreCaptchaAutoVerifying": "Auto-verifying...",
@@ -1764,28 +1881,42 @@
   "seatReservationDraftDetails": "Source: WHU Library Seat Reservation System\nSeat ID: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
     "placeholders": {
-      "seatId": { "type": "String" },
-      "marker": { "type": "String" }
+      "seatId": {
+        "type": "String"
+      },
+      "marker": {
+        "type": "String"
+      }
     }
   },
   "seatReservationSourceMarker": "Seat reservation sync ID: {sourceId}",
   "@seatReservationSourceMarker": {
     "placeholders": {
-      "sourceId": { "type": "String" }
+      "sourceId": {
+        "type": "String"
+      }
     }
   },
   "whuCalendarDateFormat": "{year}/{month}/{day}",
   "@whuCalendarDateFormat": {
     "placeholders": {
-      "year": { "type": "int" },
-      "month": { "type": "int" },
-      "day": { "type": "int" }
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
     }
   },
   "homeDefaultBlockLabel": "Block {number}",
   "@homeDefaultBlockLabel": {
     "placeholders": {
-      "number": { "type": "int" }
+      "number": {
+        "type": "int"
+      }
     }
   },
   "itemDetailDateRangeTo": " to ",
@@ -1808,7 +1939,9 @@
   "aiMessageCount": "{count} messages",
   "@aiMessageCount": {
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "citationCardTypeSchedule": "Schedule",
@@ -1822,7 +1955,9 @@
   "aiHeaderDraftCreated": "Item created via draft page: {title}",
   "@aiHeaderDraftCreated": {
     "placeholders": {
-      "title": { "type": "String" }
+      "title": {
+        "type": "String"
+      }
     }
   },
   "themeColorSpec2021": "2021",
@@ -1852,8 +1987,12 @@
   "homeWidgetDateLabel": "{month}/{day}",
   "@homeWidgetDateLabel": {
     "placeholders": {
-      "month": { "type": "int" },
-      "day": { "type": "int" }
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
     }
   },
   "homeWidgetNoScheduleToday": "No schedule today",
@@ -1866,13 +2005,17 @@
   "homeWidgetUpdatedAt": "Updated {time}",
   "@homeWidgetUpdatedAt": {
     "placeholders": {
-      "time": { "type": "String" }
+      "time": {
+        "type": "String"
+      }
     }
   },
   "homeWidgetWeekLabel": "Week {week}",
   "@homeWidgetWeekLabel": {
     "placeholders": {
-      "week": { "type": "int" }
+      "week": {
+        "type": "int"
+      }
     }
   },
   "weatherConditionSunny": "Sunny",
@@ -1888,27 +2031,39 @@
   "weatherBannerAlert": "Weather Alert: {alert}",
   "@weatherBannerAlert": {
     "placeholders": {
-      "alert": { "type": "String" }
+      "alert": {
+        "type": "String"
+      }
     }
   },
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
-      "value": { "type": "String" }
+      "value": {
+        "type": "String"
+      }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
     "placeholders": {
-      "condition": { "type": "String" },
-      "minTemp": { "type": "String" },
-      "maxTemp": { "type": "String" }
+      "condition": {
+        "type": "String"
+      },
+      "minTemp": {
+        "type": "String"
+      },
+      "maxTemp": {
+        "type": "String"
+      }
     }
   },
   "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
   "@scoreCaptchaRetrying": {
     "placeholders": {
-      "attempt": { "type": "int" }
+      "attempt": {
+        "type": "int"
+      }
     }
   },
   "settingsWeatherProviders": "Providers",
@@ -1925,10 +2080,6 @@
   "weatherProviderAccuWeather": "AccuWeather",
   "weatherProviderOpenWeatherMap": "OpenWeatherMap",
   "weatherProviderNominatim": "Nominatim",
-  "weatherAqiExcellent": "Excellent",
-  "weatherAqiGood": "Good",
-  "weatherAqiModerate": "Moderate",
-  "weatherAqiPoor": "Poor",
   "weatherAqiHazardous": "Hazardous",
   "weatherRainExpected": "Rain Expected Soon",
   "weatherClear": "Clear",
@@ -1955,11 +2106,11 @@
   "weatherAirQualityTitle": "Air Quality",
   "weatherAirQualityPm25": "PM2.5",
   "weatherAirQualityPm10": "PM10",
-  "weatherAirQualityO3": "O\u2083",
-  "weatherAirQualityNo2": "NO\u2082",
-  "weatherAirQualitySo2": "SO\u2082",
+  "weatherAirQualityO3": "O₃",
+  "weatherAirQualityNo2": "NO₂",
+  "weatherAirQualitySo2": "SO₂",
   "weatherAirQualityCo": "CO",
-  "weatherAirQualityUnit": "\u00B5g/m\u00B3",
+  "weatherAirQualityUnit": "µg/m³",
   "weatherAirQualityClose": "Close",
   "weatherAirQualitySubtitle": "Real-time pollutant concentrations",
   "campusBusTitle": "Campus Bus",
@@ -2003,7 +2154,9 @@
   "libraryAuthFailed": "Authorization failed: {error}",
   "@libraryAuthFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryCurrentReservation": "Current Reservation",
@@ -2014,14 +2167,18 @@
   "libraryCancelFailed": "Cancel failed: {error}",
   "@libraryCancelFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryCheckoutSuccess": "Checked out",
   "libraryCheckoutFailed": "Checkout failed: {error}",
   "@libraryCheckoutFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryMenuCancel": "Cancel Reservation",
@@ -2030,28 +2187,40 @@
   "libraryFloor": "Floor {floor}",
   "@libraryFloor": {
     "placeholders": {
-      "floor": { "type": "int" }
+      "floor": {
+        "type": "int"
+      }
     }
   },
   "libraryAvailable": "Available {free}/{total}",
   "@libraryAvailable": {
     "placeholders": {
-      "free": { "type": "int" },
-      "total": { "type": "int" }
+      "free": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
     "placeholders": {
-      "building": { "type": "String" },
-      "room": { "type": "String" }
+      "building": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
     }
   },
   "libraryNoSeatData": "No seat data",
   "librarySeatLayoutFailed": "Failed to load seat layout: {error}",
   "@librarySeatLayoutFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryBookThisSeat": "Book This Seat",
@@ -2062,7 +2231,9 @@
   "libraryBookFailed": "Reservation failed: {error}",
   "@libraryBookFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryNoHistory": "No reservation history",
@@ -2114,5 +2285,161 @@
   "wallpaperTargetTaskList": "Task list",
   "wallpaperTargetForum": "Forum",
   "wallpaperTargetAi": "AI",
-  "libraryBorrowingPlaceholder": "Library borrowing is under development…"
+  "libraryBorrowingPlaceholder": "Library borrowing is under development…",
+  "settingsAiProvider": "AI Provider",
+  "settingsAiModels": "Model list",
+  "settingsAiFetchModels": "Fetch models",
+  "settingsAiFetchedCount": "Fetched {count} models",
+  "@settingsAiFetchedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelHint": "Enter model name or select from list",
+  "homeJumpCurrentWeek": "This week",
+  "homeJumpSemesterStartWeek": "Term start",
+  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "languageFollowSystem": "Follow system",
+  "languageFollowApp": "Follow app",
+  "ecardPaycodeTitle": "E-Card Payment Code",
+  "ecardPaycodeUseWeb": "Use web version",
+  "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
+  "ecardPaycodeLoginRequiredTitle": "Please log in to your WHU account",
+  "ecardPaycodeLoginRequiredMessage": "After logging in you can get the E-card payment code.",
+  "ecardPaycodeRefreshing": "Refreshing payment code…",
+  "ecardPaycodeLoading": "Getting payment code…",
+  "ecardPaycodeAccountFallback": "WHU account",
+  "ecardPaycodeSessionExpired": "Session expired. Please re-login to WHU under Account.",
+  "ecardPaycodeFetchFailed": "Failed to get payment code. Retry or use the web version.",
+  "ecardPaycodeShowToMerchant": "Show this code to the merchant to pay",
+  "ecardPaycodeAutoRefreshHint": "Auto-refreshes every minute. Do not use screenshots.",
+  "ecardPaycodeRefreshNow": "Refresh now",
+  "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
+  "@ecardPaycodeRefreshInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "ecardPaycodeUnavailable": "Unable to get payment code for now",
+  "studyStatusTitle": "Academic status",
+  "studyStatusEmptyTitle": "No academic data yet",
+  "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",
+  "studyStatusFetchData": "Fetch data",
+  "studyStatusFetchFailed": "Failed to fetch data",
+  "studyStatusStatsTime": "Stats as of {time}",
+  "@studyStatusStatsTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusTrainingPlan": "Training plan",
+  "studyStatusCourseOverview": "Course overview",
+  "studyStatusFilterAll": "All",
+  "studyStatusFilterPassed": "Passed",
+  "studyStatusFilterFailed": "Failed",
+  "studyStatusFilterStudying": "In progress",
+  "studyStatusFilterNotTaken": "Not taken",
+  "studyStatusOutOfPlan": "Out of plan",
+  "studyStatusTotalCourses": "{count} courses",
+  "@studyStatusTotalCourses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusPassedCount": "Passed {count}",
+  "@studyStatusPassedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusFailedCount": "Failed {count}",
+  "@studyStatusFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusStudyingCount": "In progress {count}",
+  "@studyStatusStudyingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusRequiredCredits": "Required {credits} credits",
+  "@studyStatusRequiredCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusEarnedCredits": "Earned {credits} credits",
+  "@studyStatusEarnedCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusNoCourses": "No course data",
+  "studyStatusCredits": "{credit} credits",
+  "@studyStatusCredits": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusRetake": "Retake",
+  "studyStatusScorePoints": "{score} pts",
+  "@studyStatusScorePoints": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusOriginalScore": "Orig. {score} pts",
+  "@studyStatusOriginalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusGradePoint": "GPA {point}",
+  "@studyStatusGradePoint": {
+    "placeholders": {
+      "point": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageStudyStatus": "Academic status",
+  "scorePageFetchStudyStatus": "Fetch academic status",
+  "aiTimeline": "Timeline",
+  "weatherDetailTitle": "Weather details",
+  "weatherDetailTemperature": "Temperature",
+  "weatherDetailFeelsLike": "Feels like",
+  "weatherDetailHighLow": "High / Low",
+  "weatherDetailHumidity": "Humidity",
+  "weatherDetailUv": "UV index",
+  "weatherDetailWind": "Wind",
+  "weatherDetailPressure": "Pressure",
+  "weatherDetailVisibility": "Visibility",
+  "weatherDetailSunrise": "Sunrise",
+  "weatherDetailSunset": "Sunset"
 }

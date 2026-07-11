@@ -1,246 +1,817 @@
 {
   "@@locale": "ko",
+  "aiAssistant": "AI 비서",
+  "aiDataSourceErrorMessage": "An error occurred in AI service",
+  "aiDataSourceNetworkError": "AI service network error",
+  "aiDataSourceTimeout": "AI service request timed out",
+  "aiInputHint": "일정에 관한 질문은..",
+  "aiTitle": "AI 비서",
+  "allCourseItemsInThis": "본 강좌 일정에 따른 모든 강좌 내용은 동시에 삭제됩니다.",
+  "allCourseItemsInThisTimetableW": "이 시간표의 모든 과목 항목이 삭제됩니다.",
+  "allSameNameCourses": "동일한 이름의 모든 과목",
+  "alwaysHide": "항상 숨기기",
+  "alwaysShow": "항상 표시",
+  "applyColorTo": "색상 적용",
+  "appRouterError": "예기치 않은 라우팅 오류가 발생했습니다",
+  "appRouterNotFound": "페이지를 찾을 수 없음",
   "appTitle": "Luotopia",
-  "navHome": "홈페이지",
-  "navList": "일정",
-  "navForum": "포럼",
-  "navAi": "AI",
-  "navCampus": "캠퍼스",
-  "navSettings": "설정",
-  "homeTitle": "일정 개요",
-  "homeDescription": "주간 보기와 월간 보기의 표 형식 계획 홈페이지를 호스팅합니다.",
-  "listTitle": "해야 할 일 목록",
-  "listDescription": "이는 작업, 일정, 메모 및 탭 기반 목록 환경을 호스팅합니다.",
-  "forumTitle": "뤄자 공습 대피소",
+  "baseColorForStaticTheme": "정적 테마의 기본 색상",
+  "biometricLockAuthenticating": "Authenticating...",
+  "biometricLockFailed": "인증 실패",
+  "biometricLockReason": "잠금 해제 후 Luotopia 사용",
+  "campusAppCourseHub": "교무",
+  "campusAppEcard": "뤄자 E카드",
+  "campusAppEcardPayment": "결제코드",
+  "campusAppEmptyClassroom": "빈 강의실",
+  "campusAppFileSharing": "자료 공유",
+  "campusAppLibrary": "도서관",
+  "campusAppScores": "성적",
+  "campusAppStudyStatus": "Study Status",
+  "campusAppSeatReservation": "좌석 예약",
+  "campusAppSports": "체육시설",
+  "campusAppTimetable": "시간표",
+  "campusPageTitle": "Campus Services",
   "campusTitle": "캠퍼스",
-  "editorTitle": "새 항목",
-  "editorDescription": "일정, 작업, 메모에 대한 통합 편집 페이지가 호스팅됩니다.",
-  "settingsTitle": "설정",
-  "settingsDescription": "이는 글로벌, 홈페이지 및 목록 페이지에 대한 설정 입구를 호스팅합니다.",
-  "settingsSearchTooltip": "검색 설정",
-  "settingsSearchHint": "검색 설정",
-  "settingsSearchEmpty": "일치하는 설정이 없습니다.",
-  "settingsGeneralEntryTitle": "일반 설정",
-  "settingsGeneralEntrySubtitle": "테마, 언어, 위젯 및 탐색 모음",
-  "settingsHomeEntrySubtitle": "홈 페이지 시간 블록, 그리드 모드 및 와이드스크린 디스플레이 범위",
-  "settingsListEntryTitle": "목록 페이지 설정",
-  "settingsListEntrySubtitle": "목록 정렬, 재정렬 및 표시 기본 설정",
-  "settingsAboutEntryTitle": "소개",
-  "settingsAboutEntrySubtitle": "애플리케이션 정보, 버전 및 라이센스",
-  "settingsGeneralWidgetsTitle": "데스크탑 위젯",
-  "settingsAboutProductSubtitle": "표로 작성된 캠퍼스 계획의 전체 화면 개요",
-  "settingsAboutVersionTitle": "버전",
-  "settingsQuickActionsTitle": "빠른 포지셔닝",
-  "settingsHomeSectionTitle": "홈페이지 설정",
-  "settingsHomeSectionDescription": "홈페이지의 시간 블록 분할 규칙과 울트라와이드 화면에 표시되는 기본 시간 범위를 구성합니다.",
-  "settingsHomeDayStart": "매일 시간 계획을 세우세요",
-  "settingsHomeBlockDuration": "단일 계획 블록 기간",
-  "settingsHomeBlockGap": "계획 블록 간격",
-  "settingsHomeBlockCount": "계획 블록 수",
-  "settingsHomeItemOpacity": "홈페이지 문제 상자 불투명도",
-  "settingsHomeGridMode": "그리드 패턴",
-  "homeGridModeTime": "시간 그리드",
-  "homeGridModeCourse": "커리큘럼 그리드",
-  "settingsHomeWideLayout": "울트라와이드 기본 범위",
-  "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsMinutesValue": "{value}분",
-  "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsPercentValue": "{value}%",
-  "detailTitle": "사항 내용",
-  "detailDescription": "단일 항목에 대한 완전한 정보와 빠른 작업을 표시합니다.",
-  "detailMissing": "이 항목을 찾을 수 없습니다. 삭제되었을 수도 있습니다.",
-  "detailTimeLabel": "시간",
+  "cancel": "취소",
+  "changeColorVariantGenerationAlgorithm": "색상 변형 생성 알고리즘 변경",
+  "changeOnlyThisItemOr": "Change only this item, or every course named ",
+  "changeOnlyThisItemOrEveryCours": "이 항목만 변경할까요, 아니면 \"{title}\"이라는 모든 과목을 변경할까요?",
+  "chooseBetweenForumOrAi": "포럼 또는 AI 도우미는 탐색 표시줄 중앙에 표시됩니다(기본 포럼).",
+  "chooseBetweenForumOrAiForTheMi": "중간 탭에 포럼 또는 AI를 선택하세요 (기본값 포럼).",
+  "chooseDuration": "기간 선택",
+  "colorsAppearance": "색상 및 외관",
+  "commonBack": "반환",
+  "commonCancel": "취소",
+  "commonEmail": "이메일",
+  "commonId": "ID",
+  "commonLogin": "로그인",
+  "whuAuthReLogin": "Re-login",
+  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "commonLogout": "로그아웃",
+  "commonNotSet": "설정 안 됨",
+  "commonPassword": "비밀번호",
+  "commonRegister": "가입",
+  "commonRegistrationTime": "가입 시각",
+  "commonUsername": "사용자 이름",
+  "courseGridSettings": "과목 그리드 설정",
+  "courseHubCourses": "Courses",
+  "courseHubExams": "Exams",
+  "courseHubLoginButton": "Log in",
+  "courseHubLoginFailed": "Login failed",
+  "courseHubLoginHint": "Please log in with your WHU academic account",
+  "courseHubLoginSuccess": "Login successful",
+  "courseHubLoginTitle": "WHU Academic Login",
+  "courseHubNoCourseToday": "No classes today",
+  "courseHubScorePageTitle": "Academic Scores",
+  "courseHubScores": "성적",
+  "courseHubTimetable": "시간표",
+  "courseHubTimetablePageTitle": "Course Timetable",
+  "courseHubTimetableWeek": "Week ",
+  "courseHubTitle": "교무 허브",
+  "courseImport": "과목 가져오기",
+  "courseImportAllCourses": "All Courses",
+  "courseImportAppend": "Append",
+  "courseImportCourseName": "Course Name",
+  "courseImportCurrentSemester": "Current Semester",
+  "courseImportCustomWeeks": "Custom",
+  "courseImportEvenWeek": "Even Week",
+  "courseImportEveryWeek": "Every Week",
+  "courseImportExportFileName": "luotopia_timetable_{name}",
+  "courseImportExportImport": "Import / Export",
+  "courseImportExportSuccess": "Export successful",
+  "courseImportExportToLocal": "Export Local Timetable",
+  "courseImportFromEdu": "Import from Academic System",
+  "courseImportFromFile": "Import from File",
+  "courseImportImporting": "Importing...",
+  "courseImportImportSuccess": "Import successful, added {count} courses",
+  "courseImportImportSuccessDesc": "Successfully imported {count} courses to local timetable",
+  "courseImportLocation": "Location",
+  "courseImportLoginRequired": "먼저 우한대 교무에 로그인하세요",
+  "courseImportNetworkError": "Network error, please check your connection",
+  "courseImportNoData": "No course data",
+  "courseImportNoSemesterData": "No course data for this semester",
+  "courseImportOddWeek": "Odd Week",
+  "courseImportOverwrite": "Overwrite",
+  "courseImportParseFailed": "Failed to parse course data",
+  "courseImportParseSuccess": "Parsed {count} courses",
+  "courseImportParsing": "Parsing course data...",
+  "courseImportSelectFile": "Select file",
+  "courseImportSemester": "학기",
+  "courseImportSemesterRequired": "Please select a semester",
+  "courseImportTeacher": "Teacher",
+  "courseImportTime": "Time",
+  "courseImportTitle": "시간표 가져오기",
+  "courseImportToLocal": "Import as Local Timetable",
+  "courseImportWarnOverwrite": "This will overwrite your existing local courses. Continue?",
+  "courseImportWeek": "Week",
+  "courseImportWeeks": "Weeks",
+  "courseTablesImport": "시간표 및 가져오기",
+  "courseTimetablesAdd": "Add Timetable",
+  "courseTimetablesCreateFirst": "Create your first timetable",
+  "courseTimetablesCurrent": "Current",
+  "courseTimetablesDelete": "Delete",
+  "courseTimetablesEdit": "Edit",
+  "courseTimetablesImported": "Imported",
+  "courseTimetablesLocal": "Local",
+  "courseTimetablesNoTimetables": "No timetables yet",
+  "courseTimetablesShare": "Share",
+  "courseTimetablesTitle": "Timetables",
+  "courseTimetablesWeekCount": "{count} weeks",
+  "create": "만들기",
+  "createTimetable": "시간표 만들기",
+  "customSeedColor": "사용자 지정 시드 색상",
+  "delete": "삭제",
+  "deleteTimetable": "시간표 삭제",
   "detailDeadlineLabel": "마감일",
+  "detailDelete": "항목 삭제",
+  "detailDescription": "단일 항목에 대한 완전한 정보와 빠른 작업을 표시합니다.",
   "detailLocationLabel": "위치",
+  "detailMarkComplete": "완료 표시",
+  "detailMarkIncomplete": "복원이 완료되지 않았습니다.",
+  "detailMemoDate": "{date} · 예상 {duration}",
+  "detailMissing": "이 항목을 찾을 수 없습니다. 삭제되었을 수도 있습니다.",
   "detailNotesLabel": "비고",
+  "detailRangeDate": "{start} ~ {end}",
   "detailReminderLabel": "알림",
   "detailRepeatLabel": "반복",
-  "detailMarkComplete": "완료로 표시",
-  "detailMarkIncomplete": "복원이 완료되지 않았습니다.",
-  "detailDelete": "항목 삭제",
-  "timePickerTitle": "시간 선택",
-  "timePickerDescription": "이 경로는 공유된 일, 주, 월 시간 선택기에 예약되어 있습니다.",
+  "detailTimeLabel": "시간",
+  "detailTitle": "사항 내용",
   "developmentTag": "기본 UI",
-  "themeSectionTitle": "쇼",
-  "themeModeLabel": "테마 모드",
-  "themeLight": "연한 색",
-  "themeDark": "어둠",
-  "themeSystem": "시스템을 따르세요",
-  "languageSectionTitle": "언어",
-  "languageLabel": "응용 언어",
-  "languageChinese": "중국어",
-  "languageEnglish": "영어",
-  "commonBack": "반환",
-  "headerPreviousPeriod": "이전 기간",
-  "headerNextPeriod": "다음 기간",
-  "headerOpenTimePicker": "오픈 시간 선택",
-  "headerOpenListTabs": "탭 선택 열기",
-  "headerOpenListSettings": "목록 페이지 설정 열기",
-  "headerOpenItemTypePicker": "법적 사안 유형 전환 켜기",
-  "homeScopePickerTitle": "표시 범위",
-  "homeScopeWeek": "주",
-  "homeScopeMonth": "달",
-  "listTabMyDay": "나의 하루",
-  "listTabAllItems": "모든 문제",
-  "listTabTasks": "작업 목록",
-  "listTabSchedules": "일정 목록",
-  "listTabMemos": "치트 목록",
-  "listMenuTitle": "탭 전환",
-  "listSettingsMenuTitle": "목록 페이지 설정",
-  "listSettingsSort": "정렬 기준",
-  "listSettingsReorder": "작업 재정렬",
-  "listSettingsMore": "추가 설정",
-  "@listSummary": {
-    "placeholders": {
-      "pending": {
-        "type": "int"
-      },
-      "completed": {
-        "type": "int"
-      }
-    }
-  },
-  "listSummary": "미완성 {pending} 항목, 완료된 {completed} 항목",
-  "@listPendingSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listPendingSection": "보류 중 {count}",
-  "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listCompletedSection": "{count} 완료됨",
-  "listCompletedExpand": "완료된 항목 펼치기",
-  "listCompletedCollapse": "완료된 항목 닫기",
-  "listEmptyTitle": "아직 아무것도 없습니다",
-  "listEmptyDescription": "첫 번째 작업, 일정, 메모를 생성하려면 오른쪽 하단에 있는 더하기 기호를 클릭하세요.",
-  "listReorderHint": "현재 수동 정렬 중인 작업 오른쪽에 있는 핸들을 드래그하여 재정렬할 수 있습니다.",
-  "listStaticItemsLabel": "기타사항",
-  "listActionEdit": "편집",
-  "listActionDelete": "삭제",
-  "listSortDueDate": "만료 날짜",
-  "listSortTodayFocus": "오늘의 집행자",
-  "listSortAlphabetical": "알파벳순",
-  "listSortCreatedDate": "생성일",
-  "listSortManual": "수동 정렬",
-  "listStatusPending": "완료되지 않음",
-  "listStatusCompleted": "완료됨",
-  "editorTypePickerTitle": "문제 유형 전환",
-  "editorTypeTask": "작업",
-  "editorTypeSchedule": "일정",
-  "editorTypeMemo": "메모",
-  "editorCreateTask": "작업 만들기",
-  "editorCreateSchedule": "일정 만들기",
+  "done": "완료",
+  "dynamicColorMonet": "다이내믹 컬러",
+  "dynamicColorSourceAccent": "시스템 강조 색 사용",
+  "dynamicColorSourceGtk": "GTK 테마 색 사용",
+  "dynamicColorSourceWallpaper": "시스템 배경화면에서 추출",
+  "ecardPaymentCodeExpired": "Code expired",
+  "ecardPaymentLoading": "Loading payment code...",
+  "ecardPaymentRefresh": "Refresh",
+  "ecardPaymentTitle": "E-Card Payment Code",
+  "editorAddFromAlbum": "Add from album",
+  "editorAddItem": "Add item",
+  "editorAddPhoto": "Add Photo",
+  "editorAllDayDescription": "ON 후에는 날짜만 표시되며, 더 이상 특정 시간과 분을 별도로 설정하지 않습니다.",
+  "editorAllDayTitle": "하루 종일 할 일",
+  "editorCancel": "Cancel",
+  "editorColorAmber": "호박색",
+  "editorColorCoral": "산호 레드",
+  "editorColorCrimson": "진홍색",
+  "editorColorIndigo": "남색",
+  "editorColorJade": "에메랄드 그린",
+  "editorColorLime": "라임 그린",
+  "editorColorOrchid": "파란색 보라색",
+  "editorColorPickerTitle": "색 선택",
+  "editorColorRose": "로즈 핑크",
+  "editorColorSky": "하늘색",
+  "editorColorSlate": "슬레이트 그레이",
+  "editorColorTeal": "오리 그린",
+  "editorColorViolet": "제비꽃",
+  "editorColumnMode": "Single Column",
+  "editorConfirmDelete": "Confirm delete",
   "editorCreateMemo": "메모 만들기",
-  "editorEditTask": "작업 수정",
-  "editorEditSchedule": "일정 수정",
+  "editorCreateSchedule": "일정 만들기",
+  "editorCreateTask": "작업 만들기",
+  "editorDayOfWeek": "Day of week",
+  "editorDeadlineClear": "지우기",
+  "editorDeadlineUnset": "설정되지 않음",
+  "editorDeleteItem": "Delete",
+  "editorDeleteWarning": "Are you sure you want to delete this item?",
+  "editorDescription": "일정, 작업, 메모에 대한 통합 편집 페이지가 호스팅됩니다.",
+  "editorDetailLayout": "Detail Layout",
+  "editorDurationHourMinute": "{hours}시간 {minutes}분",
+  "editorDurationHours": "{hours}시간",
+  "editorDurationMinutes": "{minutes}분",
+  "editorDurationPickerTitle": "기간 선택",
   "editorEditMemo": "편집자 주",
-  "editorSectionBasic": "기본정보",
-  "editorSectionColor": "색상",
-  "editorSectionTime": "날짜와 시간",
-  "editorSectionReminder": "알림",
-  "editorSectionRepeat": "반복",
-  "editorSectionLocationNotes": "위치 및 메모",
-  "editorFieldTitle": "이름",
-  "editorFieldTitleName": "작업 이름",
-  "editorFieldDetails": "세부정보",
-  "editorFieldLocation": "위치",
-  "editorFieldStart": "시작 시간",
-  "editorFieldEnd": "종료 시간",
+  "editorEditSchedule": "일정 수정",
+  "editorEditTask": "작업 수정",
+  "editorEndTime": "End time",
+  "editorEnterDescription": "Enter description",
+  "editorEnterText": "Enter text",
+  "editorEnterTitle": "Enter title",
+  "editorErrorDeadlineBeforeStart": "마감일은 시작 시간보다 이전일 수 없습니다.",
+  "editorErrorDurationPositive": "기간은 0보다 커야 합니다.",
+  "editorErrorEndBeforeStart": "종료 시간은 시작 시간보다 이전일 수 없습니다.",
+  "editorErrorTitleRequired": "이름을 입력하세요.",
   "editorFieldDate": "날짜",
-  "editorFieldStartDate": "시작일",
-  "editorFieldStartTime": "시작 시간",
-  "editorFieldEndDate": "종료일",
-  "editorFieldEndTime": "종료 시간",
   "editorFieldDeadline": "마감일",
   "editorFieldDeadlineDate": "마감일",
   "editorFieldDeadlineTime": "마감일",
-  "editorFieldTargetDate": "목표 날짜",
+  "editorFieldDetails": "세부정보",
+  "editorFieldEnd": "종료 시간",
+  "editorFieldEndDate": "종료일",
+  "editorFieldEndTime": "종료 시간",
   "editorFieldEstimatedDuration": "예상 기간",
-  "editorHintTitle": "이건 뭐라고 부르나요?",
-  "editorHintTaskTitle": "작업 이름",
-  "editorHintScheduleTitle": "일정 이름",
-  "editorHintMemoTitle": "메모 이름",
+  "editorFieldLocation": "위치",
+  "editorFieldStart": "시작 시간",
+  "editorFieldStartDate": "시작일",
+  "editorFieldStartTime": "시작 시간",
+  "editorFieldTargetDate": "목표 날짜",
+  "editorFieldTitle": "이름",
+  "editorFieldTitleName": "작업 이름",
   "editorHintCourseTitle": "코스명",
   "editorHintDetails": "비고",
   "editorHintLocation": "위치",
-  "editorColorSky": "하늘색",
-  "editorColorJade": "에메랄드 그린",
-  "editorColorAmber": "호박색",
-  "editorColorCoral": "산호 레드",
-  "editorColorOrchid": "파란색 보라색",
-  "editorColorSlate": "슬레이트 그레이",
-  "editorColorRose": "로즈 핑크",
-  "editorColorLime": "라임 그린",
-  "editorColorIndigo": "남색",
-  "editorColorTeal": "오리 그린",
-  "editorColorCrimson": "진홍색",
-  "editorColorViolet": "제비꽃",
-  "editorColorPickerTitle": "아이템 색상 선택",
-  "editorAllDayTitle": "하루 종일 할 일",
-  "editorAllDayDescription": "ON 후에는 날짜만 표시되며, 더 이상 특정 시간과 분을 별도로 설정하지 않습니다.",
-  "editorReminderNone": "상기시키지 않음",
-  "editorReminderAtTime": "정시에 알림",
-  "editorReminderFiveMinutes": "5분전",
-  "editorReminderFifteenMinutes": "15분 전",
-  "editorReminderOneHour": "1시간 전",
-  "editorReminderOneDay": "1일 전",
-  "editorReminderPageTitle": "알림 설정",
-  "editorRepeatNone": "반복되지 않음",
-  "editorRepeatDaily": "매일",
-  "editorRepeatWeekdays": "근무일",
-  "editorRepeatWeekly": "매주",
-  "editorRepeatMonthly": "매달",
-  "editorRepeatYearly": "매년",
-  "editorRepeatPageTitle": "반복 설정",
-  "editorRepeatPagePlaceholder": "복잡한 반복 규칙은 나중에 계속 확장될 예정입니다.",
-  "editorDurationPickerTitle": "기간 선택",
-  "editorDeadlineClear": "지우기",
-  "editorDeadlineUnset": "설정되지 않음",
+  "editorHintMemoTitle": "메모 이름",
+  "editorHintScheduleTitle": "일정 이름",
+  "editorHintTaskTitle": "작업 이름",
+  "editorHintTitle": "이건 뭐라고 부르나요?",
+  "editorLocation": "장소",
   "editorPickerCancel": "취소",
   "editorPickerConfirm": "알았어",
+  "editorReminderAtTime": "정시에 알림",
+  "editorReminderFifteenMinutes": "15분 전",
+  "editorReminderFiveMinutes": "5분전",
+  "editorReminderNone": "알림 없음",
+  "editorReminderOneDay": "1일 전",
+  "editorReminderOneHour": "1시간 전",
+  "editorReminderPageTitle": "알림 설정",
+  "editorRepeatDaily": "매일",
+  "editorRepeatMonthly": "매달",
+  "editorRepeatNone": "반복되지 않음",
+  "editorRepeatPagePlaceholder": "복잡한 반복 규칙은 나중에 계속 확장될 예정입니다.",
+  "editorRepeatPageTitle": "반복 설정",
+  "editorRepeatWeekdays": "근무일",
+  "editorRepeatWeekly": "매주",
+  "editorRepeatYearly": "매년",
+  "editorRowMode": "Sort by Row",
+  "editorSave": "Save",
+  "editorSectionBasic": "기본정보",
+  "editorSectionColor": "색상",
+  "editorSectionLocationNotes": "위치 및 메모",
+  "editorSectionReminder": "알림",
+  "editorSectionRepeat": "반복",
+  "editorSectionTime": "날짜와 시간",
+  "editorSimpleLayout": "Simple Layout",
+  "editorStartTime": "Start time",
   "editorSubmitButton": "법적 사안 만들기",
   "editorSubmitInvalid": "먼저 강조표시된 필드를 수정하세요.",
   "editorSubmitSuccess": "항목이 저장되었습니다.",
-  "editorErrorTitleRequired": "이름을 입력하세요.",
-  "editorErrorEndBeforeStart": "종료 시간은 시작 시간보다 이전일 수 없습니다.",
-  "editorErrorDeadlineBeforeStart": "마감일은 시작 시간보다 이전일 수 없습니다.",
-  "editorErrorDurationPositive": "기간은 0보다 커야 합니다.",
-  "@editorDurationHours": {
+  "editorTakePhoto": "Take photo",
+  "editorTeacher": "교수",
+  "editorTitle": "새 항목",
+  "editorToggleMode": "Edit Mode",
+  "editorTypeMemo": "메모",
+  "editorTypePickerTitle": "문제 유형 전환",
+  "editorTypeSchedule": "일정",
+  "editorTypeTask": "작업",
+  "editorUnsavedChanges": "Unsaved changes",
+  "editorUnsavedWarning": "You have unsaved changes. Discard them?",
+  "editorWeek": "Week ",
+  "eGWakeupImport1": "예: Wakeup 가져오기 1",
+  "emptyClassroomAddedSingle": "{classroom} {classroom}교시 추가됨",
+  "emptyClassroomBuilding": "Building",
+  "emptyClassroomCollapseAll": "모두 접기",
+  "emptyClassroomConflictCancel": "취소",
+  "emptyClassroomConflictConfirm": "확인",
+  "emptyClassroomConflictMulti": "{sections}에 이미 일정이 있습니다. 확인하시겠습니까?",
+  "emptyClassroomConflictSingle": "이 시간에 이미 일정이 있습니다. 확인하시겠습니까?",
+  "emptyClassroomConflictTitle": "시간 충돌",
+  "emptyClassroomDate": "Date",
+  "emptyClassroomExpandAll": "모두 펼치기",
+  "emptyClassroomFABExpanded": "{expanded} / {total} 펼쳐짐",
+  "emptyClassroomFABHint": "화살표를 눌러 교시를 펼치고 블록을 눌러 추가하세요",
+  "emptyClassroomFABTitle": "강의실 교시",
+  "emptyClassroomFilterBuilding": "건물",
+  "emptyClassroomFilterCampus": "캠퍼스",
+  "emptyClassroomFilterTitle": "필터",
+  "emptyClassroomFilterWeek": "주차",
+  "emptyClassroomFilterWeekDay": "요일",
+  "emptyClassroomFloorSeats": "{floor}층 · {available}/{total}석",
+  "emptyClassroomGoLogin": "로그인",
+  "emptyClassroomLoading": "Searching...",
+  "emptyClassroomLoginPrompt": "먼저 WHU에 로그인하세요",
+  "emptyClassroomNoResults": "이 건물에 빈 강의실이 없습니다",
+  "emptyClassroomQueryButton": "검색",
+  "emptyClassroomQueryHint": "필터 설정 완료. 위 버튼을 눌러 검색하세요",
+  "emptyClassroomRetry": "재시도",
+  "emptyClassroomSectionHint": "교시를 눌러 추가",
+  "emptyClassroomSectionLabel": "제{section}교시",
+  "emptyClassroomTime": "Time",
+  "emptyClassroomTitle": "빈 강의실",
+  "emptyClassroomUndo": "실행 취소",
+  "emptyClassroomWeekLabel": "{week}주차",
+  "emptyTimetableImportCourse": "2. Import courses",
+  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
+  "emptyTimetableLoginWhu": "1. Log in to WHU account",
+  "emptyTimetableSubtitle": "Please log in to WHU account first, then import your timetable.",
+  "emptyTimetableTitle": "No courses added yet",
+  "enableWidgetSync": "위젯 동기화",
+  "enterTimetableName": "시간표 이름 입력",
+  "extractColorsFromWallpaperAuto": "배경화면에서 색상 자동 추출",
+  "extractPrimaryColorFromSystem": "시스템 배경화면을 기반으로 기본 색상을 동적으로 추출합니다.",
+  "fallbackRefreshInterval": "폴백 새로 고침 간격",
+  "fetchingTimetable": "시간표 가져오는 중...",
+  "fileSharingDelete": "Delete",
+  "fileSharingDownload": "Download",
+  "fileSharingLoading": "Loading files...",
+  "fileSharingNoFiles": "No files yet",
+  "fileSharingShare": "Share",
+  "fileSharingTitle": "File Sharing",
+  "fileSharingUpload": "Upload",
+  "followAppLanguage": "앱 언어 따르기",
+  "followAppTheme": "앱 테마 따르기",
+  "forum": "포럼",
+  "forumTitle": "뤄자 공습 대피소",
+  "headerNextPeriod": "다음 기간",
+  "headerOpenItemTypePicker": "법적 사안 유형 전환 켜기",
+  "headerOpenListSettings": "목록 페이지 설정 열기",
+  "headerOpenListTabs": "탭 선택 열기",
+  "headerOpenTimePicker": "오픈 시간 선택",
+  "headerPreviousPeriod": "이전 기간",
+  "homeBackToCurrentPeriod": "이번 주로 돌아가기",
+  "homeCalendarMainLabelWeek": "제{week}주",
+  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "homeCalendarMonthWeek": "{month} 제{month}주",
+  "homeCalendarSummerBreak": "여름방학",
+  "homeCalendarTopLabel": "{year} {term}",
+  "homeCalendarTopLabelYearOnly": "{year}",
+  "homeCalendarWinterBreak": "겨울방학",
+  "homeCalendarYearMonth": "{year}년 {year}",
+  "homeCalendarYearWeek": "{year}년 제{year}주",
+  "homeCourseLunch": "점심 시간",
+  "homeCoursePeriod": "{courseNumber}교시",
+  "homeCurrentWeekRange": "이번 주 ({start} - {end})",
+  "homeDescription": "주간 보기와 월간 보기의 표 형식 계획 홈페이지를 호스팅합니다.",
+  "homeGoToCurrentWeek": "이번 주",
+  "homeGoToNextSemesterFirstWeek": "개강 주",
+  "homeGridModeCourse": "커리큘럼 그리드",
+  "homeGridModeTime": "시간 그리드",
+  "homePeriodRange": "{start} - {end}",
+  "homeScopeMonth": "달",
+  "homeScopePickerTitle": "표시 범위",
+  "homeScopeWeek": "주",
+  "homeTitle": "일정 개요",
+  "homeWeekdayLabel": "{weekday}",
+  "hourH": "{hour} 시간",
+  "importCoursesViaEmbeddedWeb": "내장된 웹 페이지를 통해 로그인하고 강좌를 가져옵니다.",
+  "importCoursesViaEmbeddedWebLog": "내장 웹 로그인을 통해 과목 가져오기",
+  "importedPayloadItemsLengthItem": "\"{tableName}\"에 {tableName}개 항목을 가져왔습니다.",
+  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
+  "importedTimestr": "가져옴 {timeStr}",
+  "importFailedError": "가져오기 실패: {error}",
+  "importFailedError1": "가져오기 실패: {error}",
+  "importFinishedPayloadItemsLeng": "가져오기 완료: {itemsLength}개 항목, 이번 주 {currentWeekCount}개.",
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "가져오기 완료: 이번 주에는 {itemsLength}개 항목이 추가되었으며, {currentWeekCount}개 항목이 추가되었습니다.",
+  "importFromSharedText": "공유 텍스트에서 가져오기",
+  "importSchedule": "일정 가져오기",
+  "importSources": "가져오기 출처",
+  "importTimetableFromSharedText": "공유 텍스트에서 시간표 가져오기",
+  "importViaEmbeddedWebLogin": "내장 웹 로그인을 통해 가져오기",
+  "k1Hour": "1시간",
+  "k30Minutes": "30분",
+  "k3Hours": "3시간",
+  "languageChinese": "중국어",
+  "languageEnglish": "영어",
+  "languageLabel": "응용 언어",
+  "languageSectionTitle": "언어",
+  "libraryBorrowingHistory": "Borrowing History",
+  "libraryCurrentBorrowing": "Currently Borrowed",
+  "libraryLoading": "Loading...",
+  "libraryQrCodeHint": "Scan QR code on self-service machine",
+  "libraryRenew": "Renew",
+  "libraryReturnDate": "Return Date",
+  "librarySearch": "Search",
+  "libraryTitle": "Seat Reservation",
+  "listActionDelete": "삭제",
+  "listActionEdit": "편집",
+  "listCompletedCollapse": "완료된 항목 닫기",
+  "listCompletedExpand": "완료된 항목 펼치기",
+  "listCompletedSection": "{count} 완료됨",
+  "listDescription": "이는 작업, 일정, 메모 및 탭 기반 목록 환경을 호스팅합니다.",
+  "listEmptyDescription": "첫 번째 작업, 일정, 메모를 생성하려면 오른쪽 하단에 있는 더하기 기호를 클릭하세요.",
+  "listEmptyTitle": "아직 아무것도 없습니다",
+  "listMenuTitle": "탭 전환",
+  "listPendingSection": "보류 중 {count}",
+  "listReorderHint": "현재 수동 정렬 중인 작업 오른쪽에 있는 핸들을 드래그하여 재정렬할 수 있습니다.",
+  "listSettingsMenuTitle": "목록 페이지 설정",
+  "listSettingsMore": "추가 설정",
+  "listSettingsReorder": "작업 재정렬",
+  "listSettingsSort": "정렬 기준",
+  "listSortAlphabetical": "알파벳순",
+  "listSortCreatedDate": "생성일",
+  "listSortDueDate": "만료 날짜",
+  "listSortManual": "수동 정렬",
+  "listSortTodayFocus": "오늘의 집행자",
+  "listStaticItemsLabel": "기타사항",
+  "listStatusCompleted": "완료됨",
+  "listStatusPending": "완료되지 않음",
+  "listSummary": "미완성 {pending} 항목, 완료된 {completed} 항목",
+  "listTabAllItems": "모든 문제",
+  "listTabMemos": "치트 목록",
+  "listTabMyDay": "나의 하루",
+  "listTabSchedules": "일정 목록",
+  "listTabTasks": "작업 목록",
+  "listTitle": "해야 할 일 목록",
+  "login": "로그인",
+  "luotopiaAccountDetails": "계정 상세",
+  "luotopiaAccountTitle": "Luotopia 계정",
+  "luotopiaAlreadyHaveAccount": "계정 있음?",
+  "luotopiaConfirmLogout": "로그아웃 확인",
+  "luotopiaConfirmPassword": "비밀번호 확인",
+  "luotopiaCreateAccount": "Luotopia 계정 만들기",
+  "luotopiaEmailHint": "비밀번호 복구용",
+  "luotopiaEmailOptional": "이메일(선택)",
+  "luotopiaLoggingIn": "로그인 중…",
+  "luotopiaLoginTitle": "Luotopia 로그인",
+  "luotopiaLogoutWarning": "로그아웃 후 포럼 등을 쓰려면 다시 로그인해야 합니다.",
+  "luotopiaNoAccountYet": "계정 없음?",
+  "luotopiaNotLoggedIn": "로그인 안 됨",
+  "luotopiaPasswordHint": "6자 이상",
+  "luotopiaPasswordsDoNotMatch": "비밀번호가 일치하지 않습니다",
+  "luotopiaPasswordTooShort": "비밀번호는 6자 이상이어야 합니다",
+  "luotopiaPleaseFillFields": "사용자 이름과 비밀번호를 입력하세요",
+  "luotopiaRegistering": "가입 중…",
+  "luotopiaRegisterTitle": "Luotopia 가입",
+  "luotopiaUsername": "사용자 이름",
+  "luotopiaUsernameMinHint": "3자 이상",
+  "luotopiaUsernameOrEmail": "사용자 이름 / 이메일",
+  "luotopiaUsernameTooShort": "사용자 이름은 3자 이상이어야 합니다",
+  "luotopiaWelcomeBack": "다시 오신 것을 환영합니다",
+  "middleTab": "중간 탭",
+  "minuteMin": "{minute} 분",
+  "navAi": "AI",
+  "navCampus": "캠퍼스",
+  "navForum": "포럼",
+  "navHome": "홈",
+  "navList": "일정",
+  "navSettings": "설정",
+  "noTimetableYetImportOr": "아직 강좌 일정이 없습니다. 위에서 가져오거나 수동으로 생성하세요.",
+  "noTimetableYetImportOrCreateOn": "시간표가 없습니다. 먼저 가져오거나 만드세요.",
+  "noTimetableYetTapTo": "아직 강좌일정이 없습니다. 오른쪽 상단의 +를 클릭하시면 우한대학교 학사시스템에서 가져오실 수 있습니다.",
+  "noTimetableYetTapToImportFromW": "시간표가 없습니다. +를 눌러 우한대에서 가져오세요.",
+  "ok": "확인",
+  "paletteAlgorithm": "팔레트 알고리즘",
+  "paletteStyle": "팔레트 스타일",
+  "pasteSharedContent": "공유 콘텐츠 붙여넣기",
+  "pasteWakeupShareCodeLinkParser": "Wakeup 공유 코드/링크를 붙여넣으세요. 구문 분석기가 연결되지 않았습니다.",
+  "placeholderOpenMenu": "메뉴 열기",
+  "placeholderOpenPicker": "선택기 열기",
+  "pleaseLoginToWhuAcademic": "먼저 우한대학교 학술업무 계정에 로그인하세요.",
+  "pleaseLoginToWhuAcademicSystem": "먼저 우한대에 로그인하세요",
+  "pleaseSelectWeek1Monday": "1주차 월요일을 선택하세요.",
+  "scoreImportFailed": "가져오기 실패",
+  "scoreImportUndergraduateTitle": "학부 교무에서 가져오기",
+  "scoreImportUndergraduateSubtitle": "정확한 성적이지만 업데이트가 느릴 수 있음",
+  "scoreImportSpoilerTitle": "전문발전 지도 시스템에서 가져오기",
+  "scoreImportSpoilerSubtitle": "평점만 받지만 학부 교무보다 빠를 수 있음",
+  "scoreImportFromWHU": "Import from WHU Academic",
+  "scoreImportImporting": "Importing...",
+  "scoreImportLastUpdate": "Last updated: ",
+  "scoreImportNever": "Never",
+  "scoreImportNoNewData": "No new grade data found",
+  "scoreImportSuccess": "가져오기 성공",
+  "scoreImportTitle": "성적 가져오기",
+  "scorePageAcademicYear": "Academic Year",
+  "scorePageAnonymousContribution": "익명 기여에 대한 포인트",
+  "scorePageAvgExam": "기간이 끝나면 균등하게 나누어",
+  "scorePageAvgTotal": "평균 전체 평점",
+  "scorePageAvgUsual": "보통 균등하게 나누어서",
+  "scorePageCourse": "Course",
+  "scorePageCourseTeacherNotMatched": "이 강좌와 교사가 서버에서 일치하지 않았습니다.",
+  "scorePageCredit": "학점",
+  "scorePageCredits": "Credits",
+  "scorePageExamScoreLabel": "최종 성적(선택)",
+  "scorePageFetchStatsFailed": "통계를 가져오지 못했습니다:{error}",
+  "scorePageGpa": "GPA",
+  "scorePageGradeDistribution": "성적 분포",
+  "scorePageGradePoint": "Grade Point",
+  "scorePageGradeRange60": "60~69점",
+  "scorePageGradeRange70": "70~79점",
+  "scorePageGradeRange80": "80-89점",
+  "scorePageGradeRange90": "90~100점",
+  "scorePageGradeRangeFail": "실패했다",
+  "scorePageImport": "Import",
+  "scorePageInstructorLabel": "교사:{instructor}",
+  "scorePageInstructorUnknown": "알 수 없음",
+  "scorePageLoading": "Loading grades...",
+  "scorePageLoginToShare": "Luotopia 계정에 로그인하여 강좌 성적 분포를 공유하세요.",
+  "scorePageNoData": "No grade data available",
+  "scorePageRefresh": "Refresh",
+  "scorePageRetry": "재시도",
+  "scorePageSampleCount": "표본 크기",
+  "scorePageScore": "Score",
+  "scorePageSemester": "Semester",
+  "scorePageStatsDialogTitle": "{courseName}점 통계",
+  "scorePageStatsEmpty": "현재 이 과정에는 채점을 위한 통계 샘플이 없습니다.",
+  "scorePageSubmitAnonymous": "익명으로 제출",
+  "scorePageSubmitError": "제출 실패:{error}",
+  "scorePageSubmitFailed": "제출에 실패했습니다. 다시 시도해 주세요.",
+  "scorePageSubmitSuccess": "제출이 완료되었습니다. 익명으로 참여해 주셔서 감사합니다!",
+  "scorePageTitle": "성적",
+  "scorePageTotalScore": "총점:{score}",
+  "scorePageUsualScoreLabel": "일일 결과(선택사항)",
+  "seatReservationBook": "Book",
+  "seatReservationCancel": "Cancel Reservation",
+  "seatReservationDuration": "Duration",
+  "seatReservationHours": "hours",
+  "seatReservationLoading": "Loading...",
+  "seatReservationMinutes": "min",
+  "seatReservationNoSeats": "No available seats",
+  "seatReservationRefresh": "Refresh",
+  "seatReservationSelectArea": "Select Area",
+  "seatReservationSelectFloor": "Select Floor",
+  "seatReservationSelectLibrary": "Select Library",
+  "seatReservationTime": "Time",
+  "seatReservationTitle": "좌석 예약",
+  "seedColor": "종자색",
+  "selectedOnlyDefault": "선택한 항목만 (기본값)",
+  "selectSeedColor": "시드 색상 선택",
+  "selectSemester": "학기 선택",
+  "semester": "학기",
+  "semS": "{s}학기",
+  "semS1": "{s}학기",
+  "settingsAbout": "정보",
+  "settingsAboutApp": "About Luotopia",
+  "settingsAboutEntrySubtitle": "애플리케이션 정보, 버전 및 라이센스",
+  "settingsAboutEntryTitle": "소개",
+  "settingsAboutDevTeam": "개발팀",
+  "settingsAppIcon": "앱 아이콘",
+  "settingsAppIconDefault": "기본",
+  "settingsAppIconAlt": "대체",
+  "settingsAboutTranslation": "번역",
+  "settingsLicensesTitle": "오픈소스 라이선스",
+  "licenseAuthor": "저자: {author}",
+  "@licenseAuthor": {
     "placeholders": {
-      "hours": {
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseVersion": "버전: {version}",
+  "@licenseVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseLicense": "License",
+  "licenseProjectHomepage": "프로젝트 사이트",
+  "settingsAboutProductSubtitle": "표로 작성된 캠퍼스 계획의 전체 화면 개요",
+  "settingsAboutTitle": "About Luotopia",
+  "settingsAboutVersionTitle": "버전",
+  "settingsAccountLocalTitle": "로컬 계정",
+  "settingsAccountWhuLoggedIn": "인증됨",
+  "settingsAccountWhuNotLoggedIn": "로그인되지 않음",
+  "settingsAccountWhuTitle": "우한대학교 계정",
+  "settingsAiApiKeyLabel": "API 키",
+  "settingsAiBaseUrlLabel": "API 주소",
+  "settingsAiModelLabel": "모델",
+  "settingsAiSaveButton": "AI 설정 저장",
+  "settingsAiSectionTitle": "AI 설정",
+  "settingsAiSystemPromptLabel": "시스템 프롬프트 단어",
+  "settingsAiTestButton": "연결 테스트",
+  "settingsAiTestingButton": "테스트 중...",
+  "settingsAppearance": "모양",
+  "settingsAppearanceColor": "Color",
+  "settingsAppearanceThemeMode": "Theme Mode",
+  "settingsAppearanceTitle": "모양 설정",
+  "settingsBiometricLock": "Biometric Lock",
+  "settingsBiometricUnlock": "Unlock with biometrics",
+  "settingsDark": "Dark",
+  "settingsDescription": "이는 글로벌, 홈페이지 및 목록 페이지에 대한 설정 입구를 호스팅합니다.",
+  "settingsFollowSystem": "Follow System",
+  "settingsGeneral": "일반",
+  "settingsGeneralEntrySubtitle": "테마, 언어, 위젯 및 탐색 모음",
+  "settingsGeneralEntryTitle": "일반",
+  "settingsGeneralTitle": "General Settings",
+  "settingsGeneralWidgetsTitle": "위젯",
+  "settingsHomeBlockCount": "계획 블록 수",
+  "settingsHomeBlockDuration": "블록 길이",
+  "settingsHomeBlockGap": "계획 블록 간격",
+  "settingsHomeCourseGridSettings": "코스 그리드 모드 설정",
+  "settingsHomeCourseImport": "강좌일정 가져오기",
+  "settingsHomeCourseManagement": "강좌일정 관리",
+  "settingsHomeDayStart": "시작 시각",
+  "settingsHomeEntrySubtitle": "홈 페이지 시간 블록, 그리드 모드 및 와이드스크린 디스플레이 범위",
+  "settingsHomeFitGridToScreen": "화면에 그리드 맞추기",
+  "settingsHomeGridCellHeight": "그리드 셀 높이 고정",
+  "settingsHomeGridMode": "그리드 패턴",
+  "settingsHomeHideLunchBreak": "점심 시간 숨기기",
+  "settingsHomeItemOpacity": "일정 블록 불투명도",
+  "settingsHomeSectionDescription": "홈페이지의 시간 블록 분할 규칙과 울트라와이드 화면에 표시되는 기본 시간 범위를 구성합니다.",
+  "settingsHomeSectionTitle": "홈페이지 설정",
+  "settingsHomeTimeGridSettings": "타임 그리드 모드 설정",
+  "settingsHomeWideLayout": "울트라와이드 기본 범위",
+  "settingsLanguage": "Language",
+  "settingsLicenses": "오픈소스 라이선스",
+  "settingsLight": "Light",
+  "settingsListEntrySubtitle": "목록 정렬, 재정렬 및 표시 기본 설정",
+  "settingsListEntryTitle": "목록 페이지 설정",
+  "settingsMinutesValue": "{value}분",
+  "settingsNavigationEntrySubtitle": "라벨·가운데 탭",
+  "settingsNavigationEntryTitle": "탐색 표시줄 설정",
+  "settingsPercentValue": "{value}%",
+  "settingsPrivacy": "Privacy & Security",
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsPrivacyTitle": "Privacy & Security",
+  "settingsQuickActionsTitle": "빠른 포지셔닝",
+  "settingsSearchEmpty": "일치하는 설정이 없습니다.",
+  "settingsSearchHint": "검색 설정",
+  "settingsSearchTooltip": "검색 설정",
+  "settingsTermsOfService": "Terms of Service",
+  "settingsTheme": "테마",
+  "settingsTitle": "설정",
+  "settingsVersion": "버전",
+  "settingsFriendLinksTitle": "친구 링크",
+  "settingsFriendLinksSubtitle": "파트너, 커뮤니티 및 관련 프로젝트",
+  "settingsFriendLinksEmpty": "친구 링크가 없습니다",
+  "friendLinkDialogClose": "닫기",
+  "friendLinkOpenFailed": "링크를 열 수 없습니다",
+    "friendLinkCategoryFeedback": "사용 피드백",
+  "friendLinkCategoryClubOrg": "동아리·조직",
+  "friendLinkCategoryPartnerApp": "후원 및 감사",
+  "friendLinkCategoryOther": "기타",
+  "settingsWeatherSectionTitle": "날씨 설정",
+  "settingsWeatherSectionSubtitle": "날씨 제공자·API 키·위치",
+  "settingsWeatherProvider": "Weather provider",
+  "settingsWeatherUseCustomApiKey": "Use custom API key",
+  "settingsWeatherCustomApiKeyHint": "Enter your API key",
+  "settingsWeatherLocationMode": "위치 모드",
+  "settingsWeatherLocationFixed": "고정 위치",
+  "settingsWeatherLocationDynamic": "요청마다 다시 위치 확인",
+  "shareCodeLink": "공유 코드/링크",
+  "showNavigationLabels": "탐색 라벨 표시",
+  "sourceManual": "출처: 수동",
+  "sourceMerged": "출처: 병합됨",
+  "sourceWakeup": "출처: Wakeup",
+  "sourceWhu": "출처: 우한대",
+  "sportsAllDay": "All Day",
+  "sportsAllVenues": "전체 시설",
+  "sportsBook": "Book",
+  "sportsBooking": "예약 중…",
+  "sportsBookingFailed": "예약에 실패했습니다. 다시 시도하세요.",
+  "sportsBookingRules": "Booking Rules",
+  "sportsBookingSuccess": "예약 성공!",
+  "sportsBookingUnavailable": "현재 예약할 수 없습니다. 잠시 후 다시 시도하세요.",
+  "sportsBookNow": "Book Now",
+  "sportsBusinessHours": "Business Hours: ",
+  "sportsCheckoutArgsMissing": "확인 인자가 없습니다. 돌아가 다시 선택하세요.",
+  "sportsCheckoutTitle": "Checkout",
+  "sportsChooseCourt": "코트 선택",
+  "sportsChooseTimeSlot": "Choose Time Slot",
+  "sportsConfirmBooking": "예약 확인",
+  "sportsConfirmPayment": "Confirm Payment",
+  "sportsDaytime": "Daytime",
+  "sportsEvening": "Evening",
+  "sportsFriday": "Friday",
+  "sportsGoBack": "뒤로",
+  "sportsGoToMyOrders": "내 예약 보기",
+  "sportsLoading": "불러오는 중…",
+  "sportsLoadingFailed": "불러오기 실패",
+  "sportsLoadingVenues": "시설 불러오는 중…",
+  "sportsMinutes": "min",
+  "sportsMonday": "Monday",
+  "sportsMultiDayNotSupported": "Multi-day booking not supported yet",
+  "sportsNoCourtsAvailable": "빈 코트 없음",
+  "sportsOrderArgsMissing": "주문 인자가 없습니다. 돌아가 다시 선택하세요.",
+  "sportsOrderCancelled": "취소됨",
+  "sportsOrderExpired": "Order has expired",
+  "sportsOrderNotFound": "주문을 찾을 수 없음",
+  "sportsOrderPaid": "결제됨",
+  "sportsOrderPending": "결제 대기",
+  "sportsOrderStatus": "Status",
+  "sportsOrderTitle": "예약 상세",
+  "sportsPay": "결제",
+  "sportsPayFailed": "Payment failed. Please try again.",
+  "sportsPaying": "Paying...",
+  "sportsPaySuccess": "Payment successful!",
+  "sportsPhone": "Phone: ",
+  "sportsPrice": "Price",
+  "sportsRetry": "다시 시도",
+  "sportsSaturday": "Saturday",
+  "sportsSelectDate": "Select Date",
+  "sportsSelectDateFirst": "날짜를 먼저 선택",
+  "sportsSelectDateHint": "Please select a date",
+  "sportsSelectedCourt": "Selected",
+  "sportsSelectTimeSlot": "시간대 선택",
+  "sportsSelectTimeSlotHint": "Please select a time",
+  "sportsSelectVenue": "시설 선택",
+  "sportsSelectVenueHint": "운동 시설을 선택하세요",
+  "sportsSunday": "Sunday",
+  "sportsThursday": "Thursday",
+  "sportsTuesday": "Tuesday",
+  "sportsVenueAddress": "Venue Address",
+  "sportsVenueDetail": "Venue Detail",
+  "sportsVenueType": "Venue Type",
+  "sportsWednesday": "Wednesday",
+  "startImport": "가져오기 시작",
+  "tapToSelect": "눌러서 선택",
+  "themeColors": "테마 색상",
+  "themeDark": "다크",
+  "themeLight": "라이트",
+  "themeModeLabel": "테마 모드",
+  "themeSectionTitle": "쇼",
+  "themeSettings": "테마",
+  "themeSystem": "시스템",
+  "thisItem": "이 항목",
+  "timePickerDescription": "이 경로는 공유된 일, 주, 월 시간 선택기에 예약되어 있습니다.",
+  "timePickerTitle": "시간 선택",
+  "timetable": "시간표",
+  "timetableManagement": "시간표 관리",
+  "timetableName": "시간표 이름",
+  "timetableName1": "시간표 이름",
+  "timetables": "시간표",
+  "tipSelectedDateIsNot": "팁: 선택한 날짜가 월요일이 아닙니다.",
+  "tipSelectedDateIsNotAMonday": "팁: 선택한 날짜가 월요일이 아닙니다.",
+  "updateOnDataChangesWith": "데이터 변경 사항은 즉시 푸시되고 빈도에 따라 새로 고쳐집니다.",
+  "updateOnDataChangesWithPeriodi": "데이터 변경 시 업데이트하고 정기적인 폴백 새로 고침을 수행합니다.",
+  "useDynamicColor": "동적 색상 사용",
+  "verifyingAndEstablishingEducat": "교육 세션 확인 및 설정 중...",
+  "verifyingAndEstablishingEducationSession": "학술세션 확인 및 설정 중...",
+  "wakeupImport": "Wakeup 가져오기",
+  "wakeupShareLinkCode": "Wakeup 공유 링크/코드",
+  "weatherCachedAt": "{time}에 캐시됨",
+  "weatherCacheTimeUnknown": "캐시 시간을 알 수 없음",
+  "weatherFeelsLike": "Feels {temp}",
+  "weatherLibraryBorrowingDetail": "대출내역",
+  "weatherLibraryReminder": "도서관 : '죄와 벌' 대출이 3일 뒤에 만료됩니다",
+  "weatherLoadFailed": "날씨를 로드하지 못했습니다.",
+  "weatherLoadFailedWithError": "날씨를 로드하지 못했습니다:{error}",
+  "weatherLoadingLocation": "{locationName}날씨를 가져오는 중...",
+  "weatherNews": "캠퍼스 뉴스",
+  "weatherNewsReminder": "캠퍼스소식: 메이데이 휴무일 조정 안내 발표",
+  "weatherNoClassReminder": "오늘 오후에는 수업이 없습니다. '고대중국어'를 감상해 보는 것은 어떨까요?",
+  "weatherNoHourlyForecast": "시간별 예측이 없습니다.",
+  "weatherRetry": "다시 해 보다",
+  "weatherServiceUnavailable": "날씨 서비스를 일시적으로 이용할 수 없습니다. 최근 캐시를 표시합니다.",
+  "weatherShowCache": "최근 캐시 표시 중",
+  "weatherSnackAuditingClass": "감사 권장 사항",
+  "weatherTryAgainLater": "나중에 다시 시도해 주세요.",
+  "weatherUpdated": "{time}업데이트됨",
+  "weatherUpdating": "날씨 업데이트 중...",
+  "week1Monday": "1주차 월요일",
+  "whuAcademicSystem": "우한대 교무 시스템",
+  "whuAccountBind": "WHU 계정 연동",
+  "whuAccountCancelBinding": "Cancel Binding",
+  "whuAccountCollege": "단과대학",
+  "whuAccountRecentLogin": "최근 로그인",
+  "whuAccountRecentVerification": "최근 검증",
+  "whuAccountDetail": "WHU 계정 상세",
+  "whuAccountLoggedInAs": "Logged in as ",
+  "whuAccountTitle": "WHU 계정",
+  "whuAccountUnbind": "Unbind",
+  "whuAccountUnbindConfirm": "Are you sure to unbind this account?",
+  "whuAccountUnbindSuccess": "Unbind successful",
+  "whuCalendarListView": "목록",
+  "whuCalendarMonthView": "월",
+  "whuCalendarNoEvents": "일정 없음",
+  "whuCalendarTitle": "학사 일정",
+  "whuCalendarWeekView": "주",
+  "whuCourseImportAdapterFailed": "Failed to import courses",
+  "whuCourseImportAdapterImporting": "Importing courses from WHU Academic...",
+  "whuCourseImportAdapterLoginRequired": "WHU Academic login required",
+  "whuCourseImportAdapterParsing": "Parsing WHU course page...",
+  "whuCourseImportAdapterSuccess": "Successfully imported {count} courses",
+  "whuLoginWebViewLoading": "불러오는 중…",
+  "whuLoginWebViewTitle": "WHU 로그인",
+  "yY1": "{y}-{yPlus1}",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "@courseImportImportSuccess": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationHours": "{hours}시간",
-  "@editorDurationMinutes": {
+  "@courseImportImportSuccessDesc": {
     "placeholders": {
-      "minutes": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationMinutes": "{minutes}분",
+  "@courseImportParseSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@courseTimetablesWeekCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
   "@editorDurationHourMinute": {
     "placeholders": {
       "hours": {
@@ -251,170 +822,47 @@
       }
     }
   },
-  "editorDurationHourMinute": "{hours}시간 {minutes}분",
-  "@detailRangeDate": {
+  "@editorDurationHours": {
     "placeholders": {
-      "start": {},
-      "end": {}
+      "hours": {
+        "type": "int"
+      }
     }
   },
-  "detailRangeDate": "{start} ~ {end}",
-  "@detailMemoDate": {
+  "@editorDurationMinutes": {
     "placeholders": {
-      "date": {},
-      "duration": {}
+      "minutes": {
+        "type": "int"
+      }
     }
   },
-  "detailMemoDate": "{date} · 예상 {duration}",
-  "aiTitle": "AI 비서",
-  "aiInputHint": "일정에 관한 질문은..",
-  "settingsAiSectionTitle": "AI 설정",
-  "settingsAiBaseUrlLabel": "API 주소",
-  "settingsAiApiKeyLabel": "API 키",
-  "settingsAiModelLabel": "모델",
-  "settingsAiSystemPromptLabel": "시스템 프롬프트 단어",
-  "settingsAiTestButton": "연결 테스트",
-  "settingsAiTestingButton": "테스트 중...",
-  "settingsAiSaveButton": "AI 설정 저장",
-  "settingsAccountLocalTitle": "로컬 계정",
-  "settingsAccountWhuTitle": "우한대학교 계정",
-  "settingsAccountWhuLoggedIn": "인증됨",
-  "settingsAccountWhuNotLoggedIn": "로그인되지 않음",
-  "settingsNavigationEntryTitle": "탐색 표시줄 설정",
-  "settingsNavigationEntrySubtitle": "텍스트 표시, 중간 탭 페이지",
-  "settingsHomeCourseImport": "강좌일정 가져오기",
-  "settingsHomeCourseManagement": "강좌일정 관리",
-  "settingsHomeTimeGridSettings": "타임 그리드 모드 설정",
-  "settingsHomeCourseGridSettings": "코스 그리드 모드 설정",
-  "placeholderOpenPicker": "선택기 열기",
-  "placeholderOpenMenu": "메뉴 열기",
-  "scorePageStatsDialogTitle": "{courseName}점 통계",
-  "@scorePageStatsDialogTitle": {
+  "@emptyClassroomAddedSingle": {
     "placeholders": {
-      "courseName": {
+      "classroom": {
+        "type": "String"
+      },
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "@emptyClassroomConflictMulti": {
+    "placeholders": {
+      "sections": {
         "type": "String"
       }
     }
   },
-  "scorePageInstructorUnknown": "알 수 없음",
-  "scorePageRetry": "다시 시도하세요",
-  "scorePageStatsEmpty": "현재 이 과정에는 채점을 위한 통계 샘플이 없습니다.",
-  "scorePageSampleCount": "표본 크기",
-  "scorePageAvgTotal": "평균 전체 평점",
-  "scorePageAvgUsual": "보통 균등하게 나누어서",
-  "scorePageAvgExam": "기간이 끝나면 균등하게 나누어",
-  "scorePageGradeDistribution": "성적 분포",
-  "scorePageGradeRange90": "90~100점",
-  "scorePageGradeRange80": "80-89점",
-  "scorePageGradeRange70": "70~79점",
-  "scorePageGradeRange60": "60~69점",
-  "scorePageGradeRangeFail": "실패했다",
-  "scorePageLoginToShare": "Luotopia 계정에 로그인하여 강좌 성적 분포를 공유하세요.",
-  "scorePageSubmitSuccess": "제출이 완료되었습니다. 익명으로 참여해 주셔서 감사합니다!",
-  "scorePageAnonymousContribution": "익명 기여에 대한 포인트",
-  "scorePageTotalScore": "총점:{score}",
-  "@scorePageTotalScore": {
+  "@emptyClassroomFABExpanded": {
     "placeholders": {
-      "score": {
-        "type": "Object"
+      "expanded": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
       }
     }
   },
-  "scorePageUsualScoreLabel": "일일 결과(선택사항)",
-  "scorePageExamScoreLabel": "최종 성적(선택)",
-  "scorePageSubmitAnonymous": "익명으로 제출",
-  "scorePageCourseTeacherNotMatched": "이 강좌와 교사가 서버에서 일치하지 않았습니다.",
-  "scorePageFetchStatsFailed": "통계를 가져오지 못했습니다:{error}",
-  "@scorePageFetchStatsFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageSubmitFailed": "제출에 실패했습니다. 다시 시도해 주세요.",
-  "scorePageSubmitError": "제출 실패:{error}",
-  "@scorePageSubmitError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageInstructorLabel": "교사:{instructor}",
-  "@scorePageInstructorLabel": {
-    "placeholders": {
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdating": "날씨 업데이트 중...",
-  "weatherNoClassReminder": "오늘 오후에는 수업이 없습니다. '고대중국어'를 감상해 보는 것은 어떨까요?",
-  "weatherSnackAuditingClass": "감사 권장 사항",
-  "weatherNewsReminder": "캠퍼스소식: 메이데이 휴무일 조정 안내 발표",
-  "weatherNews": "캠퍼스 뉴스",
-  "weatherLibraryReminder": "도서관 : '죄와 벌' 대출이 3일 뒤에 만료됩니다",
-  "weatherLibraryBorrowingDetail": "대출내역",
-  "@weatherFeelsLike": {
-    "placeholders": {
-      "temp": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherFeelsLike": "{temp}같은 느낌",
-  "@weatherUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdated": "{time}업데이트됨",
-  "weatherShowCache": "최근 캐시 표시 중",
-  "weatherNoHourlyForecast": "시간별 예측이 없습니다.",
-  "@weatherLoadingLocation": {
-    "placeholders": {
-      "locationName": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadingLocation": "{locationName}날씨를 가져오는 중...",
-  "weatherLoadFailed": "날씨를 로드하지 못했습니다.",
-  "weatherTryAgainLater": "나중에 다시 시도해 주세요.",
-  "weatherCacheTimeUnknown": "캐시 시간을 알 수 없음",
-  "@weatherCachedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherCachedAt": "{time}에 캐시됨",
-  "weatherServiceUnavailable": "날씨 서비스를 일시적으로 이용할 수 없습니다. 최근 캐시를 표시합니다.",
-  "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadFailedWithError": "날씨를 로드하지 못했습니다:{error}",
-  "weatherRetry": "다시 해 보다",
-  "emptyClassroomTitle": "빈 강의실",
-  "emptyClassroomFilterTitle": "필터",
-  "emptyClassroomFilterCampus": "캠퍼스",
-  "emptyClassroomFilterBuilding": "건물",
-  "emptyClassroomFilterWeek": "주차",
-  "emptyClassroomFilterWeekDay": "요일",
-  "emptyClassroomQueryButton": "검색",
-  "emptyClassroomLoginPrompt": "먼저 WHU에 로그인하세요",
-  "emptyClassroomGoLogin": "로그인",
-  "emptyClassroomRetry": "재시도",
-  "emptyClassroomNoResults": "이 건물에 빈 강의실이 없습니다",
-  "emptyClassroomQueryHint": "필터 설정 완료. 위 버튼을 눌러 검색하세요",
   "@emptyClassroomFloorSeats": {
     "placeholders": {
       "floor": {
@@ -428,47 +876,6 @@
       }
     }
   },
-  "emptyClassroomFloorSeats": "{floor}층 · {available}/{total}석",
-  "emptyClassroomSectionHint": "교시를 눌러 추가",
-  "emptyClassroomFABTitle": "강의실 교시",
-  "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomFABExpanded": "{expanded} / {total} 펼쳐짐",
-  "emptyClassroomFABHint": "화살표를 눌러 교시를 펼치고 블록을 눌러 추가하세요",
-  "emptyClassroomExpandAll": "모두 펼치기",
-  "emptyClassroomCollapseAll": "모두 접기",
-  "emptyClassroomConflictTitle": "시간 충돌",
-  "emptyClassroomConflictSingle": "이 시간에 이미 일정이 있습니다. 확인하시겠습니까?",
-  "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
-      }
-    }
-  },
-  "emptyClassroomConflictMulti": "{sections}에 이미 일정이 있습니다. 확인하시겠습니까?",
-  "emptyClassroomConflictCancel": "취소",
-  "emptyClassroomConflictConfirm": "확인",
-  "emptyClassroomUndo": "실행 취소",
-  "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
-      },
-      "section": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomAddedSingle": "{classroom} {classroom}교시 추가됨",
   "@emptyClassroomSectionLabel": {
     "placeholders": {
       "section": {
@@ -476,7 +883,6 @@
       }
     }
   },
-  "emptyClassroomSectionLabel": "제{section}교시",
   "@emptyClassroomWeekLabel": {
     "placeholders": {
       "week": {
@@ -484,49 +890,6 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "{week}주차",
-  "homeCurrentWeekRange": "이번 주 ({start} - {end})",
-  "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homePeriodRange": "{start} - {end}",
-  "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabel": "{year}학년도 {term}",
-  "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "term": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabelYearOnly": "{year}학년도",
-  "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMainLabelWeek": "제{week}주",
   "@homeCalendarMainLabelWeek": {
     "placeholders": {
       "week": {
@@ -534,61 +897,6 @@
       }
     }
   },
-  "homeCalendarSummerBreak": "여름방학",
-  "homeCalendarWinterBreak": "겨울방학",
-  "homeGoToCurrentWeek": "이번 주로 이동",
-  "homeGoToNextSemesterFirstWeek": "개학 첫 주 단위로 이동",
-  "homeCoursePeriod": "{courseNumber}교시",
-  "@homeCoursePeriod": {
-    "placeholders": {
-      "courseNumber": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCourseLunch": "점심 시간",
-  "homeWeekdayLabel": "{weekday}",
-  "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearMonth": "{year}년 {year}",
-  "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "month": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthWeek": "{month} 제{month}주",
-  "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearWeek": "{year}년 제{year}주",
-  "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthDayRange": "{day} - {endDay}",
   "@homeCalendarMonthDayRange": {
     "placeholders": {
       "day": {
@@ -599,241 +907,1545 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "점심 시간 숨기기",
-  "settingsHomeFitGridToScreen": "화면에 그리드 맞추기",
-  "settingsHomeGridCellHeight": "그리드 셀 높이 고정",
-  "homeBackToCurrentPeriod": "이번 주로 돌아가기",
-  "startImport": "가져오기 시작",
-  "pasteSharedContent": "공유 콘텐츠 붙여넣기",
-  "shareCodeLink": "공유 코드/링크",
-  "eGWakeupImport1": "예: Wakeup 가져오기 1",
-  "timetableName": "시간표 이름",
-  "pasteWakeupShareCodeLinkParser": "Wakeup 공유 코드/링크를 붙여넣으세요. 구문 분석기가 연결되지 않았습니다.",
-  "wakeupImport": "Wakeup 가져오기",
-  "semS": "{s}학기",
-  "@semS": {
+  "@homeCalendarMonthWeek": {
     "placeholders": {
-      "s": {}
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
     }
   },
-  "yY1": "{y}-{yPlus1}",
-  "@yY1": {
+  "@homeCalendarTopLabel": {
     "placeholders": {
-      "y": {},
-      "yPlus1": {}
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
     }
   },
-  "done": "완료",
-  "selectSemester": "학기 선택",
-  "semester": "학기",
-  "importFailedError": "가져오기 실패: {error}",
-  "@importFailedError": {
+  "@homeCalendarTopLabelYearOnly": {
     "placeholders": {
-      "error": {}
+      "year": {
+        "type": "String"
+      }
     }
   },
-  "importedPayloadItemsLengthItem": "\"{tableName}\"에 {tableName}개 항목을 가져왔습니다.",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
   "@importedPayloadItemsLengthItem": {
     "placeholders": {
       "tableName": {},
       "itemsLength": {}
     }
   },
-  "importFinishedPayloadItemsLeng": "가져오기 완료: {itemsLength}개 항목, 이번 주 {currentWeekCount}개.",
-  "@importFinishedPayloadItemsLeng": {
-    "placeholders": {
-      "currentWeekCount": {},
-      "itemsLength": {}
-    }
-  },
-  "fetchingTimetable": "시간표 가져오는 중...",
-  "verifyingAndEstablishingEducat": "교육 세션 확인 및 설정 중...",
-  "pleaseSelectWeek1Monday": "1주차 월요일을 선택하세요.",
-  "tipSelectedDateIsNotAMonday": "팁: 선택한 날짜가 월요일이 아닙니다.",
-  "tapToSelect": "눌러서 선택",
-  "week1Monday": "1주차 월요일",
-  "timetableName1": "시간표 이름",
-  "importSchedule": "일정 가져오기",
-  "delete": "삭제",
-  "cancel": "취소",
-  "allCourseItemsInThisTimetableW": "이 시간표의 모든 과목 항목이 삭제됩니다.",
-  "deleteTimetable": "시간표 삭제",
-  "create": "만들기",
-  "enterTimetableName": "시간표 이름 입력",
-  "createTimetable": "시간표 만들기",
-  "sourceManual": "출처: 수동",
-  "sourceMerged": "출처: 병합됨",
-  "sourceWakeup": "출처: Wakeup",
-  "sourceWhu": "출처: 우한대",
-  "noTimetableYetImportOrCreateOn": "시간표가 없습니다. 먼저 가져오거나 만드세요.",
-  "timetables": "시간표",
-  "importTimetableFromSharedText": "공유 텍스트에서 시간표 가져오기",
-  "wakeupShareLinkCode": "Wakeup 공유 링크/코드",
-  "importCoursesViaEmbeddedWebLog": "내장 웹 로그인을 통해 과목 가져오기",
-  "whuAcademicSystem": "우한대 교무 시스템",
-  "importSources": "가져오기 출처",
-  "courseTablesImport": "시간표 및 가져오기",
-  "importedTimestr": "가져옴 {timeStr}",
-  "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
-    }
-  },
-  "noTimetableYetTapToImportFromW": "시간표가 없습니다. +를 눌러 우한대에서 가져오세요.",
-  "login": "로그인",
-  "pleaseLoginToWhuAcademicSystem": "우한대 계정에 로그인하세요",
-  "timetable": "시간표",
-  "allSameNameCourses": "동일한 이름의 모든 과목",
-  "thisItem": "이 항목",
-  "changeOnlyThisItemOrEveryCours": "이 항목만 변경할까요, 아니면 \"{title}\"이라는 모든 과목을 변경할까요?",
-  "@changeOnlyThisItemOrEveryCours": {
-    "placeholders": {
-      "title": {}
-    }
-  },
-  "applyColorTo": "색상 적용",
-  "timetableManagement": "시간표 관리",
-  "importFromSharedText": "공유 텍스트에서 가져오기",
-  "importViaEmbeddedWebLogin": "내장 웹 로그인을 통해 가져오기",
-  "courseImport": "과목 가져오기",
-  "courseGridSettings": "과목 그리드 설정",
-  "paletteStyle": "팔레트 스타일",
-  "ok": "확인",
-  "selectSeedColor": "시드 색상 선택",
-  "customSeedColor": "사용자 지정 시드 색상",
-  "extractColorsFromWallpaperAuto": "배경화면에서 색상 자동 추출",
-  "useDynamicColor": "동적 색상 사용",
-  "themeColors": "테마 색상",
-  "followAppTheme": "앱 테마 따르기",
-  "followAppLanguage": "앱 언어 따르기",
-  "updateOnDataChangesWithPeriodi": "데이터 변경 시 업데이트하고 정기적인 폴백 새로 고침을 수행합니다.",
-  "fallbackRefreshInterval": "폴백 새로 고침 간격",
-  "enableWidgetSync": "위젯 동기화 사용",
-  "alwaysHide": "항상 숨기기",
-  "alwaysShow": "항상 표시",
-  "selectedOnlyDefault": "선택한 항목만 (기본값)",
-  "aiAssistant": "AI 비서",
-  "forum": "포럼",
-  "chooseBetweenForumOrAiForTheMi": "중간 탭에 포럼 또는 AI를 선택하세요 (기본값 포럼).",
-  "middleTab": "중간 탭",
-  "showNavigationLabels": "탐색 레이블 표시",
-  "minuteMin": "{minute} 분",
-  "@minuteMin": {
-    "placeholders": {
-      "minute": {}
-    }
-  },
-  "hourH": "{hour} 시간",
-  "@hourH": {
-    "placeholders": {
-      "hour": {}
-    }
-  },
-  "chooseDuration": "기간 선택",
-  "k3Hours": "3시간",
-  "k1Hour": "1시간",
-  "k30Minutes": "30분",
-  "pasteWakeupShareCodelinkParser": "Wakeup 공유 비밀번호 또는 링크 붙여넣기를 지원합니다. 현재 버전은 먼저 자리 표시자 프로세스를 제공합니다.",
-  "egWakeupImport1": "예: Wakeup 가져오기 1",
-  "tipSelectedDateIsNot": "팁: 선택한 날짜가 월요일이 아닙니다.",
-  "verifyingAndEstablishingEducationSession": "학술세션 확인 및 설정 중...",
-  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
-    "placeholders": {
-      "itemsLength": {},
-      "currentWeekCount": {}
-    }
-  },
-  "importFinishedPayloaditemslengthItemsCurrentweekcount": "가져오기 완료: 이번 주에는 {itemsLength}개 항목이 추가되었으며, {currentWeekCount}개 항목이 추가되었습니다.",
   "@importedPayloaditemslengthItemsTo": {
     "placeholders": {
       "itemsLength": {},
       "tableName": {}
     }
   },
-  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
   "@importFailedError1": {
     "placeholders": {
       "error": {}
     }
   },
-  "importFailedError1": "가져오기 실패: {error}",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@whuCourseImportAdapterSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "@yy1": {
     "placeholders": {
       "y": {},
       "yPlus1": {}
     }
   },
-  "yy1": "{y}-{yPlus1} 학년도",
-  "@semS1": {
+  "@yY1": {
     "placeholders": {
-      "s": {}
+      "y": {},
+      "yPlus1": {}
     }
   },
-  "semS1": "학기 {s}",
-  "importCoursesViaEmbeddedWeb": "내장된 웹 페이지를 통해 로그인하고 강좌를 가져옵니다.",
-  "wakeupShareLinkcode": "Wakeup 공유 비밀번호/링크",
-  "noTimetableYetImportOr": "아직 강좌 일정이 없습니다. 위에서 가져오거나 수동으로 생성하세요.",
-  "allCourseItemsInThis": "본 강좌 일정에 따른 모든 강좌 내용은 동시에 삭제됩니다.",
-  "pleaseLoginToWhuAcademic": "먼저 우한대학교 학술업무 계정에 로그인하세요.",
-  "noTimetableYetTapTo": "아직 강좌일정이 없습니다. 오른쪽 상단의 +를 클릭하시면 우한대학교 학사시스템에서 가져오실 수 있습니다.",
-  "allSamenameCourses": "이 강좌를 변경하세요",
-  "updateOnDataChangesWith": "데이터 변경 사항은 즉시 푸시되고 빈도에 따라 새로 고쳐집니다.",
-  "chooseBetweenForumOrAi": "포럼 또는 AI 도우미는 탐색 표시줄 중앙에 표시됩니다(기본 포럼).",
-  "themeSettings": "테마 설정",
-  "colorsAppearance": "색상 및 외관",
-  "dynamicColorMonet": "동적 색상 선택(모네)",
-  "dynamicColorSourceAccent": "Use system accent color",
-  "dynamicColorSourceGtk": "Use GTK theme color",
-  "dynamicColorSourceWallpaper": "Extract from system wallpaper",
-  "extractPrimaryColorFromSystem": "시스템 배경화면을 기반으로 기본 색상을 동적으로 추출합니다.",
-  "seedColor": "종자색",
-  "baseColorForStaticTheme": "정적 테마의 기본 색상",
-  "paletteAlgorithm": "팔레트 알고리즘",
-  "changeColorVariantGenerationAlgorithm": "색상 변형 생성 알고리즘 변경",
-  "scoreCaptchaAutoVerifying": "Auto-verifying...",
-  "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
+  "courseImportFailed": "Import failed",
+  "courseImportStatusImported": "완료: {count}개(이번 주 {currentWeek}개)",
+  "@courseImportStatusImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "currentWeek": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSnackSuccess": "{count}개를 「{tableName}」에 가져왔습니다.",
+  "@courseImportSnackSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "tableName": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportStatusFailed": "가져오기 실패: {error}",
+  "@courseImportStatusFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportAcademicYearLabel": "{year}-{next} 학년도",
+  "@courseImportAcademicYearLabel": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSemesterLabel": "제{semester}학기",
+  "@courseImportSemesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportImportFailedStatus": "Import failed: {error}",
+  "@courseImportImportFailedStatus": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editorEditCourse": "강의 편집",
+  "editorCreateCourse": "강의 만들기",
+  "editorAllDaySchedule": "종일 일정",
+  "editorApplyColorTo": "색 적용 대상",
+  "editorCourseNatureHint": "강의 성격(예: 필수/선택)",
+  "editorChangeScopeTitle": "이 항목만 바꿀까요, 아니면 「{title}」 강의 전부까요?",
+  "@editorChangeScopeTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "editorChangeOnlyThisItem": "이 항목만",
+  "editorChangeAllSameName": "같은 이름 강의 전부",
+  "aiConversations": "대화 목록",
+  "aiNewChat": "새 채팅",
+  "aiServiceError": "AI 서비스 오류",
+  "aiUntitledItem": "제목 없는 항목",
+  "aiMemo": "메모",
+  "aiDraftReady": "초안 준비됨: {title}",
+  "@aiDraftReady": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "aiOpenDraftPage": "초안 페이지 열기",
+  "aiSending": "보내는 중",
+  "aiSend": "보내기",
+  "aiClearHistory": "기록 삭제",
+  "aiRename": "이름 바꾸기",
+  "aiDelete": "삭제",
+  "aiNoMessages": "메시지 없음",
+  "aiClearConversations": "대화 삭제",
+  "aiClearConversationsConfirm": "Are you sure you want to clear all conversation history?",
+  "aiCancel": "취소",
+  "aiClear": "지우기",
+  "aiRenameConversation": "대화 이름 바꾸기",
+  "aiSave": "저장",
+  "aiSettings": "AI 설정",
+  "aiRetry": "다시 시도",
+  "aiClearConversationsWarning": "기기에 저장된 모든 AI 대화가 삭제됩니다.",
+  "scorePagePrivacyLocked": "성적표가 프라이버시 잠금으로 보호됨",
+  "scorePageClickToUnlock": "탭하여 잠금 해제",
+  "scorePageNoLocalScore": "로컬 성적 없음",
+  "scorePageLoginHint": "로그인하지 않았다면 설정에서 로그인하세요.\n아래 버튼으로 성적을 가져와 동기화할 수 있습니다.",
+  "scorePageSync": "성적 동기화",
+  "scorePageTotalGpa": "총 평균 GPA",
+  "scorePageTotalCredits": "총 학점",
+  "scorePageGetFailed": "성적 가져오기 실패",
+  "scorePageSettings": "성적 설정",
+  "scorePageEnableBiometric": "생체 인식 잠금 켜기",
+  "scorePageBiometricHint": "Face ID 또는 지문으로 성적 프라이버시 보호",
+  "scorePageGpaStandard": "GPA 계산 기준",
+  "scorePageGpaStandardHint": "전환 시 총·그룹 GPA를 다시 계산합니다",
+  "scorePageStandardWhu": "우한대 2021+ 기준",
+  "scorePageStandardWes": "WES 기준",
+  "scorePageStandard40": "표준 4.0 알고리즘",
+  "scorePageStandard100": "백분율 평균",
+  "scorePageSpoiler": "Score Spoiler",
+  "scorePageSpoilerHint": "Fetch uploaded scores not yet synced to the educational administration system",
+  "scorePageEnableSpoiler": "Enable Score Spoiler",
+  "scorePageStudentId": "Student ID",
+  "scorePageStudentIdHint": "Used for spoiler API; can also extract stuId from Cookie",
+  "scorePageCookie": "Cookie (Optional)",
+  "scorePageCookieHint": "If API needs auth, paste Cookie like JSESSIONID / route / stuId",
+  "scorePageBiometricAuthFailed": "생체 인증 실패",
+  "scorePageGoToSettings": "Go to Settings",
+  "scorePageSpoilerFailed": "Failed to fetch score spoiler",
+  "scorePageSpoilerHintText": "By enabling Score Spoiler, you can view early scores.",
+  "scorePageSpoilerFetched": "Fetched {count} records · {credits} credits",
+  "@scorePageSpoilerFetched": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageSpoilerUpdated": "Updated: {time}",
+  "@scorePageSpoilerUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfo": "{type} · {credit}학점 · {instructor}",
+  "@scorePageCourseInfo": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfoWithExam": "{type} · {credit} credits · {exam}\n{instructor}",
+  "@scorePageCourseInfoWithExam": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "exam": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageGpaDisplay": "GPA: {gpa}",
+  "@scorePageGpaDisplay": {
+    "placeholders": {
+      "gpa": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAboutDescription": "Luotopia는 현대적이고 아름답고 강력한 교무·캠퍼스 생활 허브를 지향합니다. 이용해 주셔서 감사합니다!",
+  "settingsDevModeAlreadyOn": "개발자 모드가 이미 켜져 있습니다.",
+  "settingsDevModeActivated": "개발자 모드가 켜졌습니다. 이제 개발자 설정을 사용할 수 있습니다.",
+  "settingsDevModeTapCount": "개발자 모드까지 {count}번 더 탭",
+  "@settingsDevModeTapCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsNotificationsTitle": "알림",
+  "settingsPushNotifications": "푸시 알림",
+  "settingsPushNotificationsSubtitle": "일정·후기·시스템 메시지 알림",
+  "settingsMarketingNotifications": "마케팅·이벤트",
+  "settingsMarketingNotificationsSubtitle": "캠퍼스 행사·프로모션 알림 수신",
+  "settingsStorageTitle": "저장 공간 관리",
+  "settingsClearCache": "캐시 삭제",
+  "settingsClearCacheSubtitle": "임시 파일과 캐시를 정리합니다(약 {size})",
+  "settingsCacheCleared": "캐시를 지웠습니다: {size} 확보",
+  "@settingsClearCacheSubtitle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsCacheCleared": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAiEntrySubtitle": "모델·API 키·시스템 프롬프트",
+  "settingsDeveloperTitle": "개발자 설정",
+  "settingsDeveloperSubtitle": "서버 주소 및 테스트 옵션",
+  "settingsDevSaveSuccess": "저장됨: 서버 URL 업데이트",
+  "settingsDevScanSuccess": "서버 발견: {ip}:6262",
+  "@settingsDevScanSuccess": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevScanFailed": "LAN에서 포트 6262 API 서버를 찾지 못함",
+  "settingsDevScanError": "스캔 실패: {error}",
+  "@settingsDevScanError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevServerUrl": "사용자 지정 서버 URL",
+  "settingsDevServerUrlSubtitle": "기본 API Base URL을 덮어씀(예: http://192.168.1.100:6262)",
+  "settingsDevUrlLabel": "서버 URL",
+  "settingsDevUrlHint": "비우면 기본값 사용",
+  "settingsDevDisableTitle": "개발자 모드 끄기",
+  "settingsDevDisableSubtitle": "끈 뒤에는 버전 번호를 연속 탭해 다시 켜세요",
+  "settingsHomeBackgroundImage": "Custom Background Image",
+  "settingsHomeBackgroundSet": "Set",
+  "settingsHomeGridAlpha": "그리드 배경 불투명도",
+  "settingsHomeGridBorderAlpha": "그리드 테두리 불투명도",
+  "settingsHomeCropImage": "이미지 자르기",
+  "settingsAiFormat": "API 형식",
+  "settingsAiFormatSubtitle": "제공자에 맞는 AI API 형식을 선택",
+  "biometricLockContentLocked": "잠김",
+  "biometricLockDescription": "이 페이지는 개인정보 보호를 위해 인증이 필요합니다",
+  "biometricLockUnlock": "잠금 해제",
+  "whuLoginCannotComplete": "로그인을 완료할 수 없음",
+  "whuLoginVerifying": "로그인 상태 확인 중…",
+  "whuLoginVerificationFailed": "로그인 상태 검증 실패: {error}",
+  "@whuLoginVerificationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "재시도",
+  "campusFeatureInDevelopment": "개발 중인 기능입니다",
+  "libraryVenueList": "시설 목록",
+  "libraryMyReservations": "내 예약",
+  "libraryNoVenues": "이용 가능한 관 없음",
+  "libraryLoadFailed": "불러오기 실패: {error}",
+  "@libraryLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryScanCheckIn": "Scan to Check In / Temporarily Leave",
+  "libraryNoActiveReservation": "No active reservation",
+  "libraryClickForDetails": "탭하여 층·좌석 상세 보기",
+  "globalTimetableTitle": "전체 시간표",
+  "globalTimetablePlaceholder": "전체 시간표는 개발 중입니다…",
+  "settingsAiConnectionSuccess": "AI 연결 테스트에 성공했습니다.",
+  "settingsAiConnectionFailed": "연결 실패: {error}",
+  "@settingsAiConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardLoading": "{name} 불러오는 중…",
+  "@luojiaEcardLoading": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardPreparing": "{name} 준비 중…",
+  "@luojiaEcardPreparing": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pagePreparationFailed": "페이지 준비 실패: {error}",
+  "@pagePreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "linkNotSupported": "이 링크는 브라우저 또는 학교 앱에서 열어야 합니다.",
+  "pageLoginRequired": "로그인 후 {name} 이용",
+  "@pageLoginRequired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pageTemporarilyUnavailable": "페이지를 일시적으로 열 수 없음",
+  "pageRefresh": "새로고침",
+  "accountStatus": "계정 상태",
+  "whuCasLoginRequired": "먼저 우한대 통합 인증에 로그인하세요.",
+  "whuCasServiceAuthFailed": "서비스 권한 부여 실패. 우한대 통합 인증에 다시 로그인하세요.",
+  "whuCasServiceRequestFailed": "서비스 권한 부여 요청 실패: {error}",
+  "@whuCasServiceRequestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasNoCookie": "유효한 교무 쿠키가 없습니다.",
+  "whuCasSessionExpired": "교무 세션이 만료되었습니다. 다시 로그인하세요.",
+  "whuCasSessionVerifyFailed": "교무 세션 검증 실패: {error}",
+  "@whuCasSessionVerifyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasFetchFailed": "교무 계정 정보 가져오기 실패(HTTP {code}).",
+  "@whuCasFetchFailed": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "whuCasLoginFailedReason": "교무 로그인 실패: {reason}",
+  "@whuCasLoginFailedReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasLoginFailedGeneric": "교무 로그인 실패. 우한대 통합 인증에 다시 로그인하세요.",
+  "courseHubToolsTitle": "교무 도구 및 강의 정보",
+  "courseHubToolsDescription": "학사 일정·청강·전체 시간표·성적·후기를 통합.",
+  "courseHubSearchCourse": "강의 검색",
+  "courseHubCalendar": "학사일정",
+  "courseHubCalendarSubtitle": "학기·휴일·시험주",
+  "courseHubAuditCourse": "청강",
+  "courseHubAuditCourseSubtitle": "청강 가능한 강의 찾기 · 개발 중",
+  "courseHubTimetableSubtitle": "전체 개설 강의 보기 · 개발 중",
+  "courseHubScoresSubtitle": "강의를 검색해 분포 보기",
+  "courseHubReviews": "수강 후기",
+  "courseHubReviewsSubtitle": "강의를 검색해 후기 보기",
+  "courseHubToolsSection": "교무 도구",
+  "courseHubSearchHintGrades": "강의를 검색해 과거 성적 분포 보기",
+  "courseHubSearchHintReviews": "강의를 검색해 학생 후기 보기",
+  "courseHubSearchHintNormal": "강의명·교수명·코드로 검색",
+  "courseHubSearchTitle": "강의 검색",
+  "courseHubEmptyTitle": "강의 검색",
+  "courseHubEmptyDescription": "강의 상세에서 성적 분포와 후기를 볼 수 있습니다.",
+  "courseHubNoResults": "관련 강의 없음",
+  "courseHubSearchError": "검색 실패: {error}",
+  "@courseHubSearchError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubResultSubtitle": "{uid} · {department}",
+  "@courseHubResultSubtitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      },
+      "department": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailTitle": "강의 상세: {uid}",
+  "@courseDetailTitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailGradesTab": "성적 분포",
+  "courseDetailReviewsTab": "수강 후기",
+  "courseDetailGradesPlaceholder": "성적 분포 차트는 곧 제공",
+  "courseDetailReviewsPlaceholder": "수강 후기 목록은 곧 제공",
+  "courseAuditTitle": "청강",
+  "courseAuditPlaceholder": "청강 기능은 개발 중입니다…",
+  "courseHubSearchFailMessage": "검색 실패: {message}",
+  "@courseHubSearchFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubGradeStatsFailMessage": "성적 분포 불러오기 실패: {message}",
+  "@courseHubGradeStatsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubReviewsFailMessage": "후기 불러오기 실패: {message}",
+  "@courseHubReviewsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseTimetableDefaultName": "시간표{index}",
+  "@courseTimetableDefaultName": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomSectionFormat": "Period {groups}",
+  "@emptyClassroomSectionFormat": {
+    "placeholders": {
+      "groups": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupImportPlaceholder": "Wakeup 공유 링크/코드 파서는 아직 없습니다. 현재는 가져오기 흐름 자리표시자만 제공합니다.",
+  "sportsReservationToday": "오늘",
+  "sportsReservationTomorrow": "내일",
+  "sportsReservationDayAfterTomorrow": "모레",
+  "sportsVenueCourtFormat": "{areaNo}번 코트",
+  "@sportsVenueCourtFormat": {
+    "placeholders": {
+      "areaNo": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderNo": "주문 번호",
+  "sportsOrderCreatedAt": "생성 시각",
+  "sportsOrderPaidAmount": "실결제액",
+  "sportsOrderTotalAmount": "주문 총액",
+  "sportsOrderDiscountAmount": "할인 금액",
+  "sportsOrderPaymentStartTime": "결제 가능 시각",
+  "sportsOrderPaymentDeadline": "결제 마감",
+  "sportsOrderPaymentTime": "결제 시각",
+  "sportsOrderRefundDeadline": "환불 마감",
+  "sportsOrderRefundAmount": "환불 금액",
+  "sportsOrderCancelReason": "취소 사유",
+  "sportsOrderCancelTime": "취소 시각",
+  "sportsOrderRefundTime": "환불 시각",
+  "sportsOrderRealName": "이름",
+  "sportsOrderStudentWorkNo": "학번/사번",
+  "sportsVenueFree": "무료",
+  "sportsVenuePriceFormat": "{price}원",
+  "@sportsVenuePriceFormat": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice}원",
+  "@sportsVenuePriceRangeFormat": {
+    "placeholders": {
+      "lowPrice": {
+        "type": "String"
+      },
+      "highPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderPriceWithUnitFormat": "{value}원",
+  "@sportsOrderPriceWithUnitFormat": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsReservationSelectVenueTimeHint": "먼저 예약 가능한 시설과 시간대를 선택하세요.",
+  "sportsReservationVenueTimeUnavailable": "선택한 시설 또는 시간대는 예약할 수 없습니다. 다시 선택하세요.",
+  "sportsReservationSessionExpired": "운동 시설 시스템 로그인이 만료됨.",
+  "sportsReservationAuthRequired": "먼저 운동 시설 시스템을 승인하세요.",
+  "sportsReservationWhuLoginRequired": "먼저 우한대 통합 인증에 로그인하세요.",
+  "sportsFetchSportsTypes": "종목 목록 가져오기",
+  "sportsFetchOftenVenues": "자주 쓰는 시설 가져오기",
+  "sportsFetchVenues": "시설 목록 가져오기",
+  "sportsFetchVenueDetail": "시설 상세 가져오기",
+  "sportsFetchVenueDetailEmpty": "시설 상세 가져오기 실패: 응답이 비어 있음.",
+  "sportsFetchVenueSportsTypes": "시설 지원 종목 가져오기",
+  "sportsFetchAppointmentList": "예약 가능 시설 가져오기",
+  "sportsFetchAppointmentAreaList": "예약 가능 구역 가져오기",
+  "sportsFetchAppointmentRules": "예약 규칙 가져오기",
+  "sportsFetchRecentlyStartReservations": "최근 시작한 예약 가져오기",
+  "sportsFetchOrderList": "주문 목록 가져오기",
+  "sportsFetchOrderDetail": "주문 상세 가져오기",
+  "sportsFetchOrderDetailEmpty": "주문 상세 가져오기 실패: 응답이 비어 있음.",
+  "sportsOrderCancelDefaultRemark": "사용자가 취소",
+  "sportsCancelOrder": "주문 취소",
+  "sportsApplyRefund": "환불 신청",
+  "sportsDeleteOrder": "주문 기록 삭제",
+  "sportsCheckBlacklist": "예약 제한 상태 확인",
+  "sportsFetchBulletins": "시설 공지 가져오기",
+  "sportsNetworkError": "{action} 실패: 네트워크 오류.",
+  "@sportsNetworkError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiHttpError": "{action} 실패(HTTP {statusCode}).",
+  "@sportsApiHttpError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsApiFormatError": "{action} 실패: 응답 형식 오류.",
+  "@sportsApiFormatError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiError": "{action} 실패.",
+  "@sportsApiError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiErrorWithMessage": "{action} 실패: {message}",
+  "@sportsApiErrorWithMessage": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiJsonError": "{action} 실패: 유효한 JSON이 아님. {diagnostic}",
+  "@sportsApiJsonError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "diagnostic": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiResponseEmpty": "응답이 비어 있습니다.",
+  "sportsApiDiagnosticSafeLine": "SafeLine 보호 페이지",
+  "sportsApiDiagnosticAuthPage": "통합 인증 로그인 페이지",
+  "sportsApiDiagnosticHtmlPage": "HTML 페이지",
+  "sportsApiDiagnosticNonJson": "JSON이 아닌 텍스트",
+  "sportsApiDiagnosticResponseType": "응답 유형: {kind}.",
+  "@sportsApiDiagnosticResponseType": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAuthNoCasTicket": "권한 부여 실패: CAS ticket을 받지 못함.",
+  "sportsAuthNoToken": "권한 부여 실패: 로그인 자격 증명을 받지 못함.",
+  "sportsAuthFetchToken": "운동 시설 로그인 자격 증명 가져오기",
+  "sportsAuthNoJwt": "권한 부여 실패: 응답에 JWT 없음.",
+  "sportsAuthFailed": "운동 시설 시스템 권한 부여 실패.",
+  "sportsAuthHttpError": "Sports venue system authorization failed (HTTP {statusCode}).",
+  "@sportsAuthHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsAuthRetryLogin": "Sports venue system authorization failed. Please re-login to WHU Unified Authentication.",
+  "scoreImportDescription": "가져오면 기기에 캐시되어 바로 조회·GPA 계산에 쓸 수 있습니다.",
+  "scoreImportCaptchaFailed": "인증코드 해석 실패",
+  "scoreImportCancelled": "인증을 취소했습니다",
+  "scoreImportImportingUndergraduate": "학부 교무에 로그인해 성적을 가져오는 중…",
+  "scoreImportSuccessWithCount": "{success}: {count}건을 기기에 캐시했습니다.",
+  "@scoreImportSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportFailedWithError": "{failed}: {error}",
+  "@scoreImportFailedWithError": {
+    "placeholders": {
+      "failed": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportSpoilerImporting": "전문발전 시스템에서 성적을 가져오는 중…",
+  "scoreImportNoStudentId": "전역 로그인 학번을 찾을 수 없음",
+  "scoreImportNoSession": "No academic system session found. Please re-login your WHU account.",
+  "scoreImportSpoilerSuccessWithCount": "{success}: 스포일러 성적 {count}건을 가져왔습니다.",
+  "@scoreImportSpoilerSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportLastImport": "Last Import",
+  "scoreImportTime": "Time: {time}",
+  "@scoreImportTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportCount": "Score count: {count}",
+  "@scoreImportCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "@scoreImportExample": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaAutoVerifying": "자동 검증 중…",
+  "seatReservationAlreadySynced": "이 예약은 이미 일정에 있습니다.",
+  "seatReservationAddedToAgenda": "좌석 예약을 일정에 추가했습니다.",
+  "seatReservationAddToAgendaTitle": "Add to agenda?",
+  "seatReservationAddButton": "Add",
+  "seatReservationPreparing": "Authorizing the seat reservation system...",
+  "seatReservationErrorTitle": "Seat reservation temporarily unavailable",
+  "seatReservationRetry": "Retry",
+  "seatReservationDefaultLocation": "Wuhan University Library",
+  "seatReservationDraftTitle": "도서관 좌석 예약",
+  "seatReservationDraftDetails": "출처: 우한대 도서관 좌석 예약 시스템\n좌석 ID: {seatId}\n{marker}",
+  "@seatReservationDraftDetails": {
+    "placeholders": {
+      "seatId": {
+        "type": "String"
+      },
+      "marker": {
+        "type": "String"
+      }
+    }
+  },
+  "seatReservationSourceMarker": "좌석 예약 동기화 ID: {sourceId}",
+  "@seatReservationSourceMarker": {
+    "placeholders": {
+      "sourceId": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCalendarDateFormat": "{year}/{month}/{day}",
+  "@whuCalendarDateFormat": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeDefaultBlockLabel": "Block {number}",
+  "@homeDefaultBlockLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "itemDetailDateRangeTo": " ~ ",
+  "itemDetailSectionGrading": "채점",
+  "itemDetailScoreOverall": "총평",
+  "itemDetailScoreContinuous": "평소",
+  "itemDetailScoreFinal": "기말",
+  "itemDetailSectionDistribution": "성적 분포",
+  "itemDetailDistRange90to100": "90-100",
+  "itemDetailDistRange80to89": "80-89",
+  "itemDetailDistRange70to79": "70-79",
+  "itemDetailDistRange60to69": "60-69",
+  "itemDetailDistRangeBelow60": "<60",
+  "itemDetailSectionReviews": "수강 후기",
+  "itemDetailMockReview1": "교수님 설명이 명확하고 교안이 좋으며 채점도 합리적입니다. 매 수업 연습이 개념 이해에 큰 도움이 됩니다.",
+  "itemDetailMockReview2": "내용이 알차지만 기말이 어렵습니다. 과제는 보통. 미리 복습을 권장합니다.",
+  "itemDetailMockReview3": "강력 추천. 전공 방향이 분명해졌고 실험도 잘 설계되어 있습니다.",
+  "itemDetailMockReviewer": "익명 학생",
+  "itemDetailTimeRangeSeparator": "~",
+  "aiMessageCount": "메시지 {count}개",
+  "@aiMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "citationCardTypeSchedule": "일정",
+  "citationCardTypeTask": "할 일",
+  "citationCardTypeMemo": "메모",
+  "citationCardTypeCourse": "수업",
+  "citationCardTimeSeparator": "–",
+  "aiHeaderConfigRequired": "먼저 설정에서 AI를 구성하세요.",
+  "aiHeaderServiceUnavailable": "AI 서비스를 사용할 수 없습니다. 설정 또는 네트워크를 확인하세요.",
+  "aiHeaderRetryLater": "AI 서비스를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도하세요.",
+  "aiHeaderDraftCreated": "초안 페이지에서 생성됨: {title}",
+  "@aiHeaderDraftCreated": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "themeColorSpec2021": "2021",
+  "themeColorSpec2025": "2025",
+  "themeColorLuotopiaBlue": "Luotopia Blue",
+  "themeColorMaterialRed": "Material Red",
+  "themeColorMaterialPink": "Material Pink",
+  "themeColorMaterialPurple": "Material Purple",
+  "themeColorMaterialDeepPurple": "Material Deep Purple",
+  "themeColorMaterialIndigo": "Material Indigo",
+  "themeColorMaterialBlue": "Material Blue",
+  "themeColorMaterialCyan": "Material Cyan",
+  "themeColorMaterialTeal": "Material Teal",
+  "themeColorMaterialGreen": "Material Green",
+  "themeColorMaterialOrange": "Material Orange",
+  "themeColorMaterialBrown": "Material Brown",
+  "themeDpiSmall": "Small",
+  "themeDpiStandard": "Standard",
+  "themeDpiLarge": "Large",
+  "themeDpiExtraLarge": "Extra Large",
+  "aiFormatOpenaiCompletion": "OpenAI Completion",
+  "aiFormatOpenaiResponse": "OpenAI Response",
+  "aiFormatGemini": "Gemini",
+  "aiFormatAnthropic": "Anthropic",
+  "aiSystemPromptDefault": "당신은 Luotopia의 AI 어시스턴트입니다. 현재 사용자 메시지와 제공된 일정 요약만 바탕으로 답하고 이전 대화는 참조하지 마세요. 일정 생성·정리와 스케줄 질문에 우선 도움을 주세요.",
+  "whuAccountFallbackName": "우한대 계정",
+  "homeWidgetDateLabel": "{month}/{day}",
+  "@homeWidgetDateLabel": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeWidgetNoScheduleToday": "오늘 일정 없음",
+  "homeWidgetAgendaListTitle": "일정 목록",
+  "homeWidgetAgendaListSubtitle": "왼쪽: 일정 / 오른쪽: 할 일·메모",
+  "homeWidgetRightColumnTitle": "할 일·메모",
+  "homeWidgetTypeCourse": "수업",
+  "homeWidgetUntitledItem": "제목 없음",
+  "homeWidgetAllDay": "종일",
+  "homeWidgetUpdatedAt": "업데이트: {time}",
+  "@homeWidgetUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWidgetWeekLabel": "제{week}주",
+  "@homeWidgetWeekLabel": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherConditionSunny": "Sunny",
+  "weatherConditionCloudy": "Cloudy",
+  "weatherConditionRainy": "Rainy",
+  "weatherConditionSnowy": "Snowy",
+  "weatherConditionFoggy": "Foggy",
+  "weatherAqiExcellent": "좋음",
+  "weatherAqiGood": "보통",
+  "weatherAqiModerate": "나쁨",
+  "weatherAqiPoor": "나쁨+",
+  "weatherBannerRainSoon": "곧 비가 옵니다. 우산을 챙기세요!",
+  "weatherBannerAlert": "기상 경보: {alert}",
+  "@weatherBannerAlert": {
+    "placeholders": {
+      "alert": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherAQIValue": "AQI {value}",
+  "@weatherAQIValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
+  "@weatherConditionFormat": {
+    "placeholders": {
+      "condition": {
+        "type": "String"
+      },
+      "minTemp": {
+        "type": "String"
+      },
+      "maxTemp": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaRetrying": "자동 검증 중(시도 {attempt})…",
   "@scoreCaptchaRetrying": {
     "placeholders": {
-      "attempt": { "type": "int" }
+      "attempt": {
+        "type": "int"
+      }
     }
   },
-  "weatherAirQualityTitle": "\uB300\uAE30\uC9C8",
+  "settingsWeatherProviders": "날씨 데이터 제공자",
+  "weatherProviderForecast": "예보",
+  "weatherProviderCurrent": "현재 날씨",
+  "weatherProviderAirQuality": "대기질",
+  "weatherProviderPrecipitation": "강수 예보",
+  "weatherProviderAlerts": "경보",
+  "weatherProviderNormalTemp": "평년 기온 범위",
+  "weatherProviderLocationLookup": "위치 조회",
+  "weatherProviderChina": "샤오미 날씨",
+  "weatherProviderOpenMeteo": "Open-Meteo",
+  "weatherProviderQWeather": "허풍 날씨",
+  "weatherProviderAccuWeather": "AccuWeather",
+  "weatherProviderOpenWeatherMap": "OpenWeatherMap",
+  "weatherProviderNominatim": "Nominatim",
+  "weatherAqiHazardous": "매우 나쁨",
+  "weatherRainExpected": "곧 비",
+  "weatherClear": "맑음",
+  "weatherCloudy": "흐림",
+  "weatherFog": "안개",
+  "weatherRain": "비",
+  "weatherSnow": "눈",
+  "weatherThunderstorm": "뇌우",
+  "weatherUnknown": "알 수 없음",
+  "settingsWeatherLocationService": "위치 서비스",
+  "settingsWeatherLocationSystem": "시스템 위치",
+  "settingsWeatherLocationIpSb": "IP.SB",
+  "settingsWeatherLocationBaiduIp": "바이두 IP 위치",
+  "settingsWeatherBaiduApiKey": "Baidu API Key",
+  "locationSearchTitle": "위치 검색",
+  "locationSearchHint": "도시 검색…",
+  "locationSearchNoResults": "결과 없음",
+  "settingsWeatherUpdateInterval": "업데이트 간격",
+  "settingsWeatherUpdate15m": "15분",
+  "settingsWeatherUpdate30m": "30분",
+  "settingsWeatherUpdate1h": "1시간",
+  "settingsWeatherUpdate2h": "2시간",
+  "settingsWeatherUpdateAlways": "항상 최신",
+  "weatherAirQualityTitle": "대기질",
   "weatherAirQualityPm25": "PM2.5",
   "weatherAirQualityPm10": "PM10",
-  "weatherAirQualityO3": "O\u2083",
-  "weatherAirQualityNo2": "NO\u2082",
-  "weatherAirQualitySo2": "SO\u2082",
+  "weatherAirQualityO3": "O₃",
+  "weatherAirQualityNo2": "NO₂",
+  "weatherAirQualitySo2": "SO₂",
   "weatherAirQualityCo": "CO",
-  "weatherAirQualityUnit": "\u00B5g/m\u00B3",
-  "weatherAirQualityClose": "\uB2EB\uAE30",
-  "weatherAirQualitySubtitle": "\uC2E4\uC2DC\uAC04 \uC624\uC5FC\uBB3C\uC9C8 \uB18D\uB3C4",
-  "campusBusTitle": "Campus Bus",
-  "campusBusNearestStop": "Nearest: {stopName}",
-  "campusBusDistance": "~{meters}m",
-  "campusBusLineOne": "Line 1",
-  "campusBusLineTwo": "Line 2",
-  "campusBusLineMedical": "Medical Campus",
-  "campusBusPlateNumber": "No. {plate}",
-  "campusBusArrived": "Arrived",
-  "campusBusStopsAway": "{stops} stop(s) away",
-  "campusBusNoInfo": "No bus information available",
-  "campusBusNoNearby": "No nearby bus stops found",
-  "campusBusLoadFailed": "Failed to load bus info",
-  "campusBusNotLoggedIn": "Not logged in or out of service hours",
-  "campusBusRefresh": "Refresh",
-  "settingsBuildTypeDebug": "Debug Build",
-  "settingsBuildTypeProfile": "Profile Build",
-  "settingsBuildTypeRelease": "Release Build",
+  "weatherAirQualityUnit": "µg/m³",
+  "weatherAirQualityClose": "닫기",
+  "weatherAirQualitySubtitle": "실시간 오염물질 농도",
+  "campusBusTitle": "캠퍼스 버스",
+  "campusBusNearestStop": "가장 가까운 정류장: {stopName}",
+  "campusBusDistance": "약 {meters}m",
+  "campusBusLineOne": "1호선",
+  "campusBusLineTwo": "2호선",
+  "campusBusLineMedical": "의과대학 캠퍼스",
+  "campusBusPlateNumber": "번호 {plate}",
+  "campusBusArrived": "도착",
+  "campusBusStopsAway": "{stops}개 정류장 전",
+  "campusBusNoInfo": "버스 정보 없음",
+  "campusBusNoNearby": "근처 정류장을 찾을 수 없음",
+  "campusBusLoadFailed": "버스 정보 불러오기 실패",
+  "campusBusNotLoggedIn": "로그인 안 됨 또는 운행 시간 외",
+  "campusBusRefresh": "새로고침",
+  "campusBusServiceHours": "운행 시간: {hours}",
+  "whuConfirmLogout": "로그아웃 확인",
+  "whuLogoutWarning": "로그아웃 후 우한대 관련 서비스를 쓰려면 다시 로그인해야 합니다.",
+  "settingsDevConfirmDisable": "개발자 모드를 끌까요?",
+  "settingsDevDisableWarning": "끈 뒤에는 버전 번호를 연속 탭해야 다시 켤 수 있습니다.",
+  "scoreClearCacheTitle": "성적 캐시 비우기",
+  "scoreClearCacheWarning": "기기에 캐시된 성적이 모두 삭제됩니다. 계속할까요?",
+  "scoreClearCacheSuccess": "성적 캐시를 비웠습니다",
+  "scoreClearCacheHint": "기기에 캐시된 성적 데이터를 모두 지움",
+  "settingsBuildTypeDebug": "디버그 빌드",
+  "settingsBuildTypeProfile": "프로파일 빌드",
+  "settingsBuildTypeRelease": "릴리스 빌드",
   "settingsBuildChannelAlpha": "Alpha",
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
-  "settingsBuildInfoVersion": "Version",
-  "settingsBuildInfoBuildNumber": "Build",
-  "settingsBuildInfoChannel": "Channel",
-  "settingsBuildInfoType": "Type",
-  "weatherAqiStandardUs": "US Standard",
-  "weatherAqiStandardCn": "China Standard",
-  "weatherAqiStandardEu": "EU Standard",
-  "settingsWeatherAqiStandard": "AQI Standard",
-  "settingsWeatherAqiStandardSubtitle": "All AQI values are converted to this standard for consistent display"
+  "settingsBuildInfoVersion": "버전",
+  "settingsBuildInfoBuildNumber": "빌드",
+  "settingsBuildInfoChannel": "채널",
+  "settingsBuildInfoType": "유형",
+  "weatherAqiStandardUs": "미국 기준",
+  "weatherAqiStandardCn": "중국 기준",
+  "weatherAqiStandardEu": "EU 기준",
+  "settingsWeatherAqiStandard": "AQI 기준",
+  "settingsWeatherAqiStandardSubtitle": "일관된 표시를 위해 모든 AQI를 이 기준으로 환산합니다",
+  "libraryAuthFailed": "인증 실패: {error}",
+  "@libraryAuthFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCurrentReservation": "현재 예약",
+  "libraryCancelTitle": "예약 취소",
+  "libraryCancelConfirm": "현재 예약을 취소할까요?",
+  "libraryConfirmCancel": "취소 확인",
+  "libraryCancelSuccess": "예약을 취소했습니다",
+  "libraryCancelFailed": "취소 실패: {error}",
+  "@libraryCancelFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCheckoutSuccess": "퇴실했습니다",
+  "libraryCheckoutFailed": "퇴실 실패: {error}",
+  "@libraryCheckoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryMenuCancel": "예약 취소",
+  "libraryMenuCheckout": "퇴실",
+  "libraryNoRoomData": "열람실 데이터 없음",
+  "libraryFloor": "{floor}층",
+  "@libraryFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryAvailable": "가용 {free}/{total}",
+  "@libraryAvailable": {
+    "placeholders": {
+      "free": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryBookTitle": "{building} - {room}",
+  "@libraryBookTitle": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoSeatData": "좌석 데이터 없음",
+  "librarySeatLayoutFailed": "좌석도 불러오기 실패: {error}",
+  "@librarySeatLayoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryBookThisSeat": "이 좌석 예약",
+  "libraryDate": "Date",
+  "libraryStartTime": "시작",
+  "libraryEndTime": "종료",
+  "libraryBookSuccess": "예약 성공!",
+  "libraryBookFailed": "예약 실패: {error}",
+  "@libraryBookFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoHistory": "예약 기록 없음",
+  "libraryStatusReserved": "예약됨",
+  "libraryStatusCheckIn": "이용 중",
+  "libraryStatusAway": "자리비움",
+  "libraryStatusCompleted": "종료됨",
+  "libraryStatusCancelled": "취소됨",
+  "libraryStatusMissed": "미출석",
+  "libraryStatusLeftEarly": "조퇴",
+  "libraryStatusNoCheckout": "미퇴실",
+  "libraryToday": "오늘",
+  "libraryTomorrow": "내일",
+  "emptyClassroomSelfStudyTitle": "{location} 자습",
+  "@emptyClassroomSelfStudyTitle": {
+    "placeholders": {
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomFilterSection": "교시",
+  "emptyClassroomSectionClear": "지우기",
+  "addToAgendaTitle": "일정에 추가할까요?",
+  "addToAgendaConfirm": "추가",
+  "sportsAgendaItemTitle": "{type} · {venue}",
+  "@sportsAgendaItemTitle": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "venue": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAgendaItemDetails": "운동 시설 예약",
+  "sportsAddedToAgenda": "일정에 추가됨",
+  "wallpaperCenterTitle": "배경화면",
+  "wallpaperCenterSubtitle": "페이지별 배경화면 설정",
+  "wallpaperSourceNone": "없음",
+  "wallpaperSourceLocal": "로컬 이미지",
+  "wallpaperSourceBing": "Bing 일일",
+  "wallpaperPickImage": "이미지 선택",
+  "wallpaperNoImage": "이미지 없음",
+  "wallpaperTargetHome": "시간표",
+  "wallpaperTargetCampus": "캠퍼스",
+  "wallpaperTargetSettings": "설정",
+  "wallpaperTargetTaskList": "할 일 목록",
+  "wallpaperTargetForum": "포럼",
+  "wallpaperTargetAi": "AI",
+  "libraryBorrowingPlaceholder": "도서 대출 기능은 개발 중입니다…",
+  "settingsAiProvider": "AI 제공자",
+  "settingsAiModels": "모델 목록",
+  "settingsAiFetchModels": "모델 가져오기",
+  "settingsAiFetchedCount": "모델 {count}개 가져옴",
+  "@settingsAiFetchedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelHint": "모델 이름을 입력하거나 목록에서 선택",
+  "pasteWakeupShareCodelinkParser": "Wakeup 공유 비밀번호 또는 링크 붙여넣기를 지원합니다. 현재 버전은 먼저 자리 표시자 프로세스를 제공합니다.",
+  "egWakeupImport1": "예: Wakeup 가져오기 1",
+  "yy1": "{y}-{yPlus1} 학년도",
+  "wakeupShareLinkcode": "Wakeup 공유 비밀번호/링크",
+  "allSamenameCourses": "이 강좌를 변경하세요",
+  "homeJumpCurrentWeek": "이번 주",
+  "homeJumpSemesterStartWeek": "개강 주",
+  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "languageFollowSystem": "시스템 따르기",
+  "languageFollowApp": "앱 따름",
+  "ecardPaycodeTitle": "E카드 결제코드",
+  "ecardPaycodeUseWeb": "웹 버전 사용",
+  "ecardPaycodeUseWebSubtitle": "네이티브 오류 시 웹으로 전환",
+  "ecardPaycodeLoginRequiredTitle": "WHU 계정에 로그인하세요",
+  "ecardPaycodeLoginRequiredMessage": "로그인 후 E카드 결제코드를 받을 수 있습니다.",
+  "ecardPaycodeRefreshing": "결제코드 새로고침 중…",
+  "ecardPaycodeLoading": "결제코드 가져오는 중…",
+  "ecardPaycodeAccountFallback": "WHU 계정",
+  "ecardPaycodeSessionExpired": "세션 만료. 계정에서 WHU에 다시 로그인하세요.",
+  "ecardPaycodeFetchFailed": "결제코드 실패. 재시도 또는 웹 버전 사용.",
+  "ecardPaycodeShowToMerchant": "가맹점에 코드를 제시하세요",
+  "ecardPaycodeAutoRefreshHint": "1분마다 자동 새로고침. 캡처 사용 금지.",
+  "ecardPaycodeRefreshNow": "지금 새로고침",
+  "ecardPaycodeRefreshInSeconds": "{seconds}초 후 새로고침",
+  "@ecardPaycodeRefreshInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "ecardPaycodeUnavailable": "결제코드를 받을 수 없음",
+  "studyStatusTitle": "학업 현황",
+  "studyStatusEmptyTitle": "학업 데이터 없음",
+  "studyStatusEmptyHint": "새로고침으로 교무에서 가져오기",
+  "studyStatusFetchData": "데이터 가져오기",
+  "studyStatusFetchFailed": "가져오기 실패",
+  "studyStatusStatsTime": "통계 {time}",
+  "@studyStatusStatsTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusTrainingPlan": "교육과정",
+  "studyStatusCourseOverview": "수강 개요",
+  "studyStatusFilterAll": "전체",
+  "studyStatusFilterPassed": "통과",
+  "studyStatusFilterFailed": "미통과",
+  "studyStatusFilterStudying": "수강중",
+  "studyStatusFilterNotTaken": "미수강",
+  "studyStatusOutOfPlan": "계획 외",
+  "studyStatusTotalCourses": "{count}과목",
+  "@studyStatusTotalCourses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusPassedCount": "통과{count}",
+  "@studyStatusPassedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusFailedCount": "미통과{count}",
+  "@studyStatusFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusStudyingCount": "수강중{count}",
+  "@studyStatusStudyingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusRequiredCredits": "요구 {credits}학점",
+  "@studyStatusRequiredCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusEarnedCredits": "취득 {credits}학점",
+  "@studyStatusEarnedCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusNoCourses": "과목 데이터 없음",
+  "studyStatusCredits": "{credit}학점",
+  "@studyStatusCredits": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusRetake": "재수강",
+  "studyStatusScorePoints": "{score}점",
+  "@studyStatusScorePoints": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusOriginalScore": "원{score}점",
+  "@studyStatusOriginalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusGradePoint": "평점 {point}",
+  "@studyStatusGradePoint": {
+    "placeholders": {
+      "point": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageStudyStatus": "학업 현황",
+  "scorePageFetchStudyStatus": "학업 현황 가져오기",
+  "aiTimeline": "타임라인",
+  "weatherDetailTitle": "Weather details",
+  "weatherDetailTemperature": "Temperature",
+  "weatherDetailFeelsLike": "Feels like",
+  "weatherDetailHighLow": "High / Low",
+  "weatherDetailHumidity": "Humidity",
+  "weatherDetailUv": "UV index",
+  "weatherDetailWind": "Wind",
+  "weatherDetailPressure": "Pressure",
+  "weatherDetailVisibility": "Visibility",
+  "weatherDetailSunrise": "Sunrise",
+  "weatherDetailSunset": "Sunset"
 }

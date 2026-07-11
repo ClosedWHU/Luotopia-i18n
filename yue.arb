@@ -1,246 +1,817 @@
 {
   "@@locale": "yue",
-  "appTitle": "Luotopia",
-  "navHome": "主頁",
-  "navList": "日程",
-  "navForum": "論壇",
-  "navAi": "人工智能",
-  "navCampus": "校園",
-  "navSettings": "設定",
-  "homeTitle": "日程總覽",
-  "homeDescription": "呢度會承載周視圖同月視圖嘅表格化規劃主頁。",
-  "listTitle": "事項列表",
-  "listDescription": "呢度會承載任務、日程、備忘同標籤頁驅動嘅列表體驗。",
-  "forumTitle": "珞珈防空洞",
+  "aiAssistant": "AI 助手",
+  "aiDataSourceErrorMessage": "AI 服務發生錯誤",
+  "aiDataSourceNetworkError": "AI 服務網絡錯誤",
+  "aiDataSourceTimeout": "AI 服務請求超時",
+  "aiInputHint": "關於日程的任何問題...",
+  "aiTitle": "標題",
+  "allCourseItemsInThis": "會同時刪除該科目表下的所有科目事項。",
+  "allCourseItemsInThisTimetableW": "會同時刪除該科目表下的所有科目事項。",
+  "allSameNameCourses": "改呢科",
+  "alwaysHide": "始終隱藏",
+  "alwaysShow": "始終顯示",
+  "applyColorTo": "顏色套去邊？",
+  "appRouterError": "發生咗意料之外嘅路由錯誤",
+  "appRouterNotFound": "揾唔到頁面",
+  "appTitle": "珞家",
+  "baseColorForStaticTheme": "靜態主題的基礎色",
+  "biometricLockAuthenticating": "驗證...",
+  "biometricLockFailed": "驗證失敗",
+  "biometricLockReason": "解鎖先至用到 Luotopia",
+  "campusAppCourseHub": "教務中心",
+  "campusAppEcard": "珞珈E卡",
+  "campusAppEcardPayment": "E卡付款碼",
+  "campusAppEmptyClassroom": "空置課室",
+  "campusAppFileSharing": "學習資料分享",
+  "campusAppLibrary": "圖書借閲",
+  "campusAppScores": "成績",
+  "campusAppStudyStatus": "學業情況",
+  "campusAppSeatReservation": "温習預約",
+  "campusAppSports": "運動場館",
+  "campusAppTimetable": "時間表",
+  "campusPageTitle": "校園服務",
   "campusTitle": "校園",
-  "editorTitle": "新建事項",
-  "editorDescription": "呢度將承載日程、任務、備忘嘅統一編輯頁面。",
-  "settingsTitle": "設定",
-  "settingsDescription": "呢度會承載全局、主頁同列表頁嘅設定入口。",
-  "settingsSearchTooltip": "搜尋設定",
-  "settingsSearchHint": "搜尋設定項",
-  "settingsSearchEmpty": "冇搵到匹配嘅設定項",
-  "settingsGeneralEntryTitle": "通用設定",
-  "settingsGeneralEntrySubtitle": "主題、語言、小組件同導航欄",
-  "settingsHomeEntrySubtitle": "主頁時間塊、網格模式同寬屏顯示範圍",
-  "settingsListEntryTitle": "列表頁設定",
-  "settingsListEntrySubtitle": "列表排序、重排同展示偏好",
-  "settingsAboutEntryTitle": "關於",
-  "settingsAboutEntrySubtitle": "應用資訊、版本同許可",
-  "settingsGeneralWidgetsTitle": "桌面小組件",
-  "settingsAboutProductSubtitle": "全屏縱覽表格化校園規劃",
-  "settingsAboutVersionTitle": "版本",
-  "settingsQuickActionsTitle": "快速定位",
-  "settingsHomeSectionTitle": "主頁設定",
-  "settingsHomeSectionDescription": "配置主頁嘅時間塊切分規則，以及超寬屏默認顯示嘅時間範圍。",
-  "settingsHomeDayStart": "每日開始規劃時間",
-  "settingsHomeBlockDuration": "單個規劃塊時長",
-  "settingsHomeBlockGap": "規劃塊間隔",
-  "settingsHomeBlockCount": "規劃塊數量",
-  "settingsHomeItemOpacity": "主頁事項方塊不透明度",
-  "settingsHomeGridMode": "網格模式",
-  "homeGridModeTime": "時間方格",
-  "homeGridModeCourse": "課程方格",
-  "settingsHomeWideLayout": "超寬屏默認範圍",
-  "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsMinutesValue": "{value} 分鐘",
-  "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsPercentValue": "{value} %",
-  "detailTitle": "事項詳情",
-  "detailDescription": "展示單個事項嘅完整資訊同快捷操作。",
-  "detailMissing": "冇搵到呢件事，可能已經被刪除。",
-  "detailTimeLabel": "時間",
+  "cancel": "取消",
+  "changeColorVariantGenerationAlgorithm": "改變顏色變體生成演算法",
+  "changeOnlyThisItemOr": "僅修改這一項，定係所有名為 ",
+  "changeOnlyThisItemOrEveryCours": "僅修改這一項，定係所有名為 “{title}” 的科目？",
+  "chooseBetweenForumOrAi": "導航欄中間位置顯示論壇或 AI 助手（預設論壇）",
+  "chooseBetweenForumOrAiForTheMi": "導航欄中間位置顯示論壇或 AI 助手（預設論壇）",
+  "chooseDuration": "揀時長",
+  "colorsAppearance": "色彩同外觀",
+  "commonBack": "返去",
+  "commonCancel": "取消",
+  "commonEmail": "電郵",
+  "commonId": "ID",
+  "commonLogin": "登入",
+  "whuAuthReLogin": "重新登入",
+  "whuSessionExpiredPrompt": "登入狀態已失效且自動重新整理失敗，請重新登入。",
+  "commonLogout": "登出",
+  "commonNotSet": "未設定",
+  "commonPassword": "密碼",
+  "commonRegister": "註冊",
+  "commonRegistrationTime": "註冊時間",
+  "commonUsername": "用户名",
+  "courseGridSettings": "科目方格模式設定",
+  "courseHubCourses": "科目",
+  "courseHubExams": "考試",
+  "courseHubLoginButton": "登入",
+  "courseHubLoginFailed": "登入失敗",
+  "courseHubLoginHint": "請使用武大教務賬户登入",
+  "courseHubLoginSuccess": "登入成功",
+  "courseHubLoginTitle": "武大教務登入",
+  "courseHubNoCourseToday": "今日冇課",
+  "courseHubScorePageTitle": "學業成績",
+  "courseHubScores": "成績",
+  "courseHubTimetable": "時間表",
+  "courseHubTimetablePageTitle": "時間表",
+  "courseHubTimetableWeek": "第 ",
+  "courseHubTitle": "教務中心",
+  "courseImport": "科目表匯入",
+  "courseImportAllCourses": "全部科目",
+  "courseImportAppend": "追加",
+  "courseImportCourseName": "科目名稱",
+  "courseImportCurrentSemester": "當前學期",
+  "courseImportCustomWeeks": "自定義",
+  "courseImportEvenWeek": "雙週",
+  "courseImportEveryWeek": "每週",
+  "courseImportExportFileName": "luotopia_時間表_{name}",
+  "courseImportExportImport": "匯入 / 匯出",
+  "courseImportExportSuccess": "匯出成功",
+  "courseImportExportToLocal": "匯出本機時間表",
+  "courseImportFromEdu": "從教務系統匯入",
+  "courseImportFromFile": "從檔案匯入",
+  "courseImportImporting": "匯入...",
+  "courseImportImportSuccess": "匯入完成：新增 {count} 條",
+  "courseImportImportSuccessDesc": "成功匯入 {count} 門科目到本機時間表",
+  "courseImportLocation": "地點",
+  "courseImportLoginRequired": "請先登入武大教務",
+  "courseImportNetworkError": "網絡錯誤，請檢查網絡連接",
+  "courseImportNoData": "暫時冇科目資料",
+  "courseImportNoSemesterData": "該學期暫時冇科目資料",
+  "courseImportOddWeek": "單週",
+  "courseImportOverwrite": "覆蓋",
+  "courseImportParseFailed": "解析科目資料失敗",
+  "courseImportParseSuccess": "已解析 {count} 門科目",
+  "courseImportParsing": "解析科目資料...",
+  "courseImportSelectFile": "揀檔案",
+  "courseImportSemester": "學期",
+  "courseImportSemesterRequired": "請揀學期",
+  "courseImportTeacher": "講師",
+  "courseImportTime": "時間",
+  "courseImportTitle": "匯入時間表",
+  "courseImportToLocal": "匯入為本機時間表",
+  "courseImportWarnOverwrite": "這將覆蓋你現有的本機科目，是否繼續？",
+  "courseImportWeek": "周",
+  "courseImportWeeks": "周",
+  "courseTablesImport": "科目表同匯入",
+  "courseTimetablesAdd": "添加時間表",
+  "courseTimetablesCreateFirst": "創建你的第一個科目表",
+  "courseTimetablesCurrent": "當前",
+  "courseTimetablesDelete": "刪除",
+  "courseTimetablesEdit": "編輯",
+  "courseTimetablesImported": "已匯入",
+  "courseTimetablesLocal": "本機",
+  "courseTimetablesNoTimetables": "暫時冇科目表",
+  "courseTimetablesShare": "分享",
+  "courseTimetablesTitle": "時間表",
+  "courseTimetablesWeekCount": "{count} 周",
+  "create": "創建",
+  "createTimetable": "新建科目表",
+  "customSeedColor": "自定義主色",
+  "delete": "刪除",
+  "deleteTimetable": "刪除科目表",
   "detailDeadlineLabel": "截止時間",
+  "detailDelete": "刪除事項",
+  "detailDescription": "展示單個事項的完整資訊同快捷操作。",
   "detailLocationLabel": "地點",
+  "detailMarkComplete": "標記完成",
+  "detailMarkIncomplete": "還原未完成",
+  "detailMemoDate": "{date} · 預計 {duration}",
+  "detailMissing": "冇揾到呢個事項，可能已經被刪除。",
   "detailNotesLabel": "備註",
+  "detailRangeDate": "{start} 至 {end}",
   "detailReminderLabel": "提醒",
   "detailRepeatLabel": "重複",
-  "detailMarkComplete": "標記完成",
-  "detailMarkIncomplete": "恢復未完成",
-  "detailDelete": "刪除事項",
-  "timePickerTitle": "時間選擇",
-  "timePickerDescription": "呢個路由預留畀共享嘅日周月時間選擇器。",
+  "detailTimeLabel": "時間",
+  "detailTitle": "事項詳情",
   "developmentTag": "基礎 UI",
-  "themeSectionTitle": "顯示",
-  "themeModeLabel": "主題模式",
-  "themeLight": "淺色",
-  "themeDark": "深色",
-  "themeSystem": "跟隨系統",
-  "languageSectionTitle": "語言",
-  "languageLabel": "應用語言",
-  "languageChinese": "中文",
-  "languageEnglish": "英文",
-  "commonBack": "返回",
-  "headerPreviousPeriod": "上一時段",
-  "headerNextPeriod": "下一個時間段",
-  "headerOpenTimePicker": "打開時間選擇",
-  "headerOpenListTabs": "打開標籤頁選擇",
-  "headerOpenListSettings": "打開列表頁面設定",
-  "headerOpenItemTypePicker": "打開事項類型切換",
-  "homeScopePickerTitle": "顯示範圍",
-  "homeScopeWeek": "周",
-  "homeScopeMonth": "月",
-  "listTabMyDay": "我嘅一日",
-  "listTabAllItems": "全部事項",
-  "listTabTasks": "任務列表",
-  "listTabSchedules": "日程列表",
-  "listTabMemos": "備忘清單",
-  "listMenuTitle": "切換標籤頁",
-  "listSettingsMenuTitle": "列表頁設定",
-  "listSettingsSort": "排序依據",
-  "listSettingsReorder": "對任務重新排序",
-  "listSettingsMore": "更多設定",
-  "@listSummary": {
-    "placeholders": {
-      "pending": {
-        "type": "int"
-      },
-      "completed": {
-        "type": "int"
-      }
-    }
-  },
-  "listSummary": "未完成 {pending} 項，已完成 {completed} 項",
-  "@listPendingSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listPendingSection": "待處理 {count}",
-  "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listCompletedSection": "已經完成 {count}",
-  "listCompletedExpand": "展開已完成事項",
-  "listCompletedCollapse": "收起已完成嘅事項",
-  "listEmptyTitle": "呢度仲未有事",
-  "listEmptyDescription": "撳右下角加號，先創建第一條任務、日程或者備忘。",
-  "listReorderHint": "當前已經進入手動排序，拖動任務右側嘅手柄即可重新排列。",
-  "listStaticItemsLabel": "其他事項",
-  "listActionEdit": "編輯",
-  "listActionDelete": "刪除",
-  "listSortDueDate": "到期日",
-  "listSortTodayFocus": "今日執行者",
-  "listSortAlphabetical": "字母順序",
-  "listSortCreatedDate": "創建日期",
-  "listSortManual": "手動排序",
-  "listStatusPending": "未完成",
-  "listStatusCompleted": "已經完成",
-  "editorTypePickerTitle": "切換事項類型",
-  "editorTypeTask": "任務",
-  "editorTypeSchedule": "日程",
-  "editorTypeMemo": "備忘錄",
+  "done": "確定",
+  "dynamicColorMonet": "動態取色",
+  "dynamicColorSourceAccent": "使用系統強調色",
+  "dynamicColorSourceGtk": "使用 GTK 主題色",
+  "dynamicColorSourceWallpaper": "根據系統桌布提取主色調",
+  "ecardPaymentCodeExpired": "付款碼已過期",
+  "ecardPaymentLoading": "加載付款碼...",
+  "ecardPaymentRefresh": "重新整理",
+  "ecardPaymentTitle": "E卡付款碼",
+  "editorAddFromAlbum": "從相冊揀",
+  "editorAddItem": "添加項目",
+  "editorAddPhoto": "添加圖片",
+  "editorAllDayDescription": "開啓後只顯示日期，不再單獨設定具體時分。",
+  "editorAllDayTitle": "全天任務",
+  "editorCancel": "取消",
+  "editorColorAmber": "琥珀",
+  "editorColorCoral": "珊瑚紅",
+  "editorColorCrimson": "緋紅",
+  "editorColorIndigo": "靛藍",
+  "editorColorJade": "翡翠綠",
+  "editorColorLime": "酸橙綠",
+  "editorColorOrchid": "蘭紫",
+  "editorColorPickerTitle": "揀事項顏色",
+  "editorColorRose": "玫瑰粉",
+  "editorColorSky": "天藍",
+  "editorColorSlate": "石板灰",
+  "editorColorTeal": "鴨綠",
+  "editorColorViolet": "紫羅蘭",
+  "editorColumnMode": "單列",
+  "editorConfirmDelete": "確認刪除",
+  "editorCreateMemo": "創建備忘",
+  "editorCreateSchedule": "創建日程",
   "editorCreateTask": "創建任務",
-  "editorCreateSchedule": "建立日程",
-  "editorCreateMemo": "建立備忘錄",
-  "editorEditTask": "編輯任務",
+  "editorDayOfWeek": "星期",
+  "editorDeadlineClear": "清走",
+  "editorDeadlineUnset": "未設定",
+  "editorDeleteItem": "刪除",
+  "editorDeleteWarning": "確定要刪除此項目嗎？",
+  "editorDescription": "呢度將承載日程、任務、備忘的統一編輯頁面。",
+  "editorDetailLayout": "詳細佈局",
+  "editorDurationHourMinute": "{hours} 小時 {minutes} 分鐘",
+  "editorDurationHours": "{hours} 小時",
+  "editorDurationMinutes": "{minutes} 分鐘",
+  "editorDurationPickerTitle": "揀時長",
+  "editorEditMemo": "編輯備忘",
   "editorEditSchedule": "編輯日程",
-  "editorEditMemo": "編輯備忘錄",
-  "editorSectionBasic": "基本資訊",
-  "editorSectionColor": "顏色",
-  "editorSectionTime": "日期同時間",
-  "editorSectionReminder": "提醒",
-  "editorSectionRepeat": "重複",
-  "editorSectionLocationNotes": "地點同備註",
-  "editorFieldTitle": "名稱",
-  "editorFieldTitleName": "任務名稱",
-  "editorFieldDetails": "詳情",
-  "editorFieldLocation": "地點",
-  "editorFieldStart": "開始時間",
-  "editorFieldEnd": "結束時間",
+  "editorEditTask": "編輯任務",
+  "editorEndTime": "結束時間",
+  "editorEnterDescription": "輸入描述",
+  "editorEnterText": "輸入文字",
+  "editorEnterTitle": "輸入標題",
+  "editorErrorDeadlineBeforeStart": "截止時間唔能夠早於開始時間。",
+  "editorErrorDurationPositive": "時長必須大於 0。",
+  "editorErrorEndBeforeStart": "結束時間唔能夠早於開始時間。",
+  "editorErrorTitleRequired": "請輸入名稱。",
   "editorFieldDate": "日期",
-  "editorFieldStartDate": "開始日期",
-  "editorFieldStartTime": "開始時間",
-  "editorFieldEndDate": "結束日期",
-  "editorFieldEndTime": "結束時間",
   "editorFieldDeadline": "截止時間",
   "editorFieldDeadlineDate": "截止日期",
   "editorFieldDeadlineTime": "截止時刻",
-  "editorFieldTargetDate": "目標日期",
+  "editorFieldDetails": "詳情",
+  "editorFieldEnd": "結束時間",
+  "editorFieldEndDate": "結束日期",
+  "editorFieldEndTime": "結束時間",
   "editorFieldEstimatedDuration": "預計時長",
-  "editorHintTitle": "呢件事叫咩名？",
-  "editorHintTaskTitle": "任務名稱",
-  "editorHintScheduleTitle": "日程名稱",
-  "editorHintMemoTitle": "備忘名稱",
-  "editorHintCourseTitle": "課程名稱",
+  "editorFieldLocation": "地點",
+  "editorFieldStart": "開始時間",
+  "editorFieldStartDate": "開始日期",
+  "editorFieldStartTime": "開始時間",
+  "editorFieldTargetDate": "目標日期",
+  "editorFieldTitle": "名稱",
+  "editorFieldTitleName": "任務名稱",
+  "editorHintCourseTitle": "科目名稱",
   "editorHintDetails": "備註",
   "editorHintLocation": "地點",
-  "editorColorSky": "天藍",
-  "editorColorJade": "翡翠綠",
-  "editorColorAmber": "琥珀",
-  "editorColorCoral": "珊瑚紅",
-  "editorColorOrchid": "蘭紫",
-  "editorColorSlate": "石板灰",
-  "editorColorRose": "玫瑰粉",
-  "editorColorLime": "酸橙綠",
-  "editorColorIndigo": "靛藍",
-  "editorColorTeal": "鴨綠",
-  "editorColorCrimson": "緋紅",
-  "editorColorViolet": "紫羅蘭",
-  "editorColorPickerTitle": "選擇事項顏色",
-  "editorAllDayTitle": "全天任務",
-  "editorAllDayDescription": "開啟後只顯示日期，唔再單獨設定具體時分。",
-  "editorReminderNone": "唔提醒",
-  "editorReminderAtTime": "準時提醒",
-  "editorReminderFiveMinutes": "提前5分鐘",
-  "editorReminderFifteenMinutes": "提前15分鐘",
-  "editorReminderOneHour": "提前1個鐘",
-  "editorReminderOneDay": "提前1日",
-  "editorReminderPageTitle": "提醒設定",
-  "editorRepeatNone": "唔重複",
-  "editorRepeatDaily": "每日",
-  "editorRepeatWeekdays": "工作日",
-  "editorRepeatWeekly": "每週",
-  "editorRepeatMonthly": "每月",
-  "editorRepeatYearly": "每年",
-  "editorRepeatPageTitle": "重複設定",
-  "editorRepeatPagePlaceholder": "複雜重複規則後續繼續擴展。",
-  "editorDurationPickerTitle": "選擇時長",
-  "editorDeadlineClear": "清除",
-  "editorDeadlineUnset": "未設定",
+  "editorHintMemoTitle": "備忘名稱",
+  "editorHintScheduleTitle": "日程名稱",
+  "editorHintTaskTitle": "任務名稱",
+  "editorHintTitle": "這件事叫什麼？",
+  "editorLocation": "地點",
   "editorPickerCancel": "取消",
   "editorPickerConfirm": "確定",
+  "editorReminderAtTime": "準時提醒",
+  "editorReminderFifteenMinutes": "提前 15 分鐘",
+  "editorReminderFiveMinutes": "提前 5 分鐘",
+  "editorReminderNone": "不提醒",
+  "editorReminderOneDay": "提前 1 天",
+  "editorReminderOneHour": "提前 1 小時",
+  "editorReminderPageTitle": "提醒設定",
+  "editorRepeatDaily": "每天",
+  "editorRepeatMonthly": "每月",
+  "editorRepeatNone": "不重複",
+  "editorRepeatPagePlaceholder": "複雜重複規則後續繼續擴展。",
+  "editorRepeatPageTitle": "重複設定",
+  "editorRepeatWeekdays": "工作日",
+  "editorRepeatWeekly": "每週",
+  "editorRepeatYearly": "每年",
+  "editorRowMode": "按行排序",
+  "editorSave": "儲存",
+  "editorSectionBasic": "基本資訊",
+  "editorSectionColor": "顏色",
+  "editorSectionLocationNotes": "地點同備註",
+  "editorSectionReminder": "提醒",
+  "editorSectionRepeat": "重複",
+  "editorSectionTime": "日期同時間",
+  "editorSimpleLayout": "簡潔佈局",
+  "editorStartTime": "開始時間",
   "editorSubmitButton": "創建事項",
   "editorSubmitInvalid": "請先修正高亮字段。",
-  "editorSubmitSuccess": "事項已經保存。",
-  "editorErrorTitleRequired": "請輸入名稱。",
-  "editorErrorEndBeforeStart": "結束時間唔可以早過開始時間。",
-  "editorErrorDeadlineBeforeStart": "截止時間唔可以早過開始時間。",
-  "editorErrorDurationPositive": "時長一定要大於0。",
-  "@editorDurationHours": {
+  "editorSubmitSuccess": "事項已儲存。",
+  "editorTakePhoto": "拍照",
+  "editorTeacher": "講師",
+  "editorTitle": "新建事項",
+  "editorToggleMode": "編輯模式",
+  "editorTypeMemo": "備忘",
+  "editorTypePickerTitle": "切換事項類型",
+  "editorTypeSchedule": "日程",
+  "editorTypeTask": "工作",
+  "editorUnsavedChanges": "未儲存的更改",
+  "editorUnsavedWarning": "你有未儲存的更改，要放棄嗎？",
+  "editorWeek": "第 ",
+  "eGWakeupImport1": "例如：Wakeup 匯入 1",
+  "emptyClassroomAddedSingle": "已添加{classroom}第{classroom}節課",
+  "emptyClassroomBuilding": "教學樓",
+  "emptyClassroomCollapseAll": "收起全部",
+  "emptyClassroomConflictCancel": "取消",
+  "emptyClassroomConflictConfirm": "確認加課",
+  "emptyClassroomConflictMulti": "{sections} 已有安排，是否確認加課？",
+  "emptyClassroomConflictSingle": "該時段已有安排，是否確認加課？",
+  "emptyClassroomConflictTitle": "時間衝突",
+  "emptyClassroomDate": "日期",
+  "emptyClassroomExpandAll": "展開全部",
+  "emptyClassroomFABExpanded": "已展開 {expanded} / {total} 個課室",
+  "emptyClassroomFABHint": "撳課室右側箭頭展開節次，撳節次方塊即可添加到日程",
+  "emptyClassroomFABTitle": "課室節次管理",
+  "emptyClassroomFilterBuilding": "教學樓",
+  "emptyClassroomFilterCampus": "校區",
+  "emptyClassroomFilterTitle": "篩選條件",
+  "emptyClassroomFilterWeek": "周次",
+  "emptyClassroomFilterWeekDay": "星期",
+  "emptyClassroomFloorSeats": "{floor}樓 · {available}/{total} 座",
+  "emptyClassroomGoLogin": "去登入",
+  "emptyClassroomLoading": "查詢...",
+  "emptyClassroomLoginPrompt": "請先登入武大統一認證",
+  "emptyClassroomNoResults": "該教學樓當前冇空閒課室",
+  "emptyClassroomQueryButton": "查詢空閒課室",
+  "emptyClassroomQueryHint": "已揀篩選條件，撳上方掣查詢空閒課室",
+  "emptyClassroomRetry": "再試",
+  "emptyClassroomSectionHint": "撳節次添加温習",
+  "emptyClassroomSectionLabel": "第{section}節",
+  "emptyClassroomTime": "時間",
+  "emptyClassroomTitle": "空置課室",
+  "emptyClassroomUndo": "復原",
+  "emptyClassroomWeekLabel": "第{week}周",
+  "emptyTimetableImportCourse": "2. 匯入教務科目",
+  "emptyTimetableLoggedInWhu": "已登入武大帳户",
+  "emptyTimetableLoginWhu": "1. 登入武大帳户",
+  "emptyTimetableSubtitle": "請先登入武大帳户，然後匯入科目表。",
+  "emptyTimetableTitle": "還冇添加科目",
+  "enableWidgetSync": "啓用桌面小元件同步",
+  "enterTimetableName": "輸入科目表名稱",
+  "extractColorsFromWallpaperAuto": "自動從桌布提取主色",
+  "extractPrimaryColorFromSystem": "根據系統桌布動態提取主色調",
+  "fallbackRefreshInterval": "兜底重新整理頻率",
+  "fetchingTimetable": "請求教務時間表...",
+  "fileSharingDelete": "刪除",
+  "fileSharingDownload": "下載",
+  "fileSharingLoading": "加載檔案...",
+  "fileSharingNoFiles": "暫時冇檔案",
+  "fileSharingShare": "分享",
+  "fileSharingTitle": "學習資料分享",
+  "fileSharingUpload": "上載",
+  "followAppLanguage": "跟隨應用語言",
+  "followAppTheme": "跟隨應用主題",
+  "forum": "論壇 (珞珈防空洞)",
+  "forumTitle": "珞珈防空洞",
+  "headerNextPeriod": "下一時間段",
+  "headerOpenItemTypePicker": "打開事項類型切換",
+  "headerOpenListSettings": "打開清單頁設定",
+  "headerOpenListTabs": "打開分頁揀",
+  "headerOpenTimePicker": "打開時間揀",
+  "headerPreviousPeriod": "上一時間段",
+  "homeBackToCurrentPeriod": "返去本週",
+  "homeCalendarMainLabelWeek": "第{week}周",
+  "homeCalendarMonthDayRange": "{day} - {endDay}日",
+  "homeCalendarMonthWeek": "{month}月第{month}周",
+  "homeCalendarSummerBreak": "暑假",
+  "homeCalendarTopLabel": "{year}學年 {term}",
+  "homeCalendarTopLabelYearOnly": "{year}學年",
+  "homeCalendarWinterBreak": "寒假",
+  "homeCalendarYearMonth": "{year}年{year}月",
+  "homeCalendarYearWeek": "{year}年第{year}周",
+  "homeCourseLunch": "午休",
+  "homeCoursePeriod": "第{courseNumber}節",
+  "homeCurrentWeekRange": "本週 ({start} - {end})",
+  "homeDescription": "呢度將承載周檢視同月檢視的表格化規劃主頁。",
+  "homeGoToCurrentWeek": "轉到本週",
+  "homeGoToNextSemesterFirstWeek": "轉到開學週",
+  "homeGridModeCourse": "科目方格",
+  "homeGridModeTime": "時間方格",
+  "homePeriodRange": "{start} - {end}",
+  "homeScopeMonth": "月",
+  "homeScopePickerTitle": "顯示範圍",
+  "homeScopeWeek": "周",
+  "homeTitle": "日程總覽",
+  "homeWeekdayLabel": "{weekday}",
+  "hourH": "{hour} 小時",
+  "importCoursesViaEmbeddedWeb": "通過內嵌網頁登入並匯入科目",
+  "importCoursesViaEmbeddedWebLog": "通過內嵌網頁登入並匯入科目",
+  "importedPayloadItemsLengthItem": "匯入完成：新增 {itemsLength} 條科目事項，科目表「{tableName}」。",
+  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
+  "importedTimestr": "匯入於 {timeStr}",
+  "importFailedError": "匯入失敗：{error}",
+  "importFailedError1": "匯入失敗：{error}",
+  "importFinishedPayloadItemsLeng": "匯入完成：新增 {itemsLength} 條，當前周 {currentWeekCount} 條。",
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "匯入完成：新增 {itemsLength} 條，當前周 {currentWeekCount} 條。",
+  "importFromSharedText": "從分享文本匯入科目表",
+  "importSchedule": "匯入科目表",
+  "importSources": "匯入嚟源",
+  "importTimetableFromSharedText": "從分享文本匯入科目表",
+  "importViaEmbeddedWebLogin": "通過內嵌網頁登入並匯入科目",
+  "k1Hour": "1 小時",
+  "k30Minutes": "30 分鐘",
+  "k3Hours": "3 小時",
+  "languageChinese": "中文",
+  "languageEnglish": "英文",
+  "languageLabel": "應用語言",
+  "languageSectionTitle": "語言",
+  "libraryBorrowingHistory": "借閲紀錄",
+  "libraryCurrentBorrowing": "當前借閲",
+  "libraryLoading": "加載緊…",
+  "libraryQrCodeHint": "請在自助借還機掃描二維碼",
+  "libraryRenew": "續借",
+  "libraryReturnDate": "歸還日期",
+  "librarySearch": "搜尋",
+  "libraryTitle": "温習預約",
+  "listActionDelete": "刪除",
+  "listActionEdit": "編輯",
+  "listCompletedCollapse": "收起已完成事項",
+  "listCompletedExpand": "展開已完成事項",
+  "listCompletedSection": "已完成 {count}",
+  "listDescription": "呢度將承載任務、日程、備忘同分頁驅動的清單體驗。",
+  "listEmptyDescription": "撳右下角加號，先創建第一條任務、日程或備忘。",
+  "listEmptyTitle": "呢度還冇事項",
+  "listMenuTitle": "切換分頁",
+  "listPendingSection": "待處理 {count}",
+  "listReorderHint": "當前已進入手動排序，拖動任務右側的手柄即可重新排列。",
+  "listSettingsMenuTitle": "清單頁設定",
+  "listSettingsMore": "更多設定",
+  "listSettingsReorder": "對任務重新排序",
+  "listSettingsSort": "排序依據",
+  "listSortAlphabetical": "字母順序",
+  "listSortCreatedDate": "創建日期",
+  "listSortDueDate": "到期日期",
+  "listSortManual": "手動排序",
+  "listSortTodayFocus": "今日執行者",
+  "listStaticItemsLabel": "其他事項",
+  "listStatusCompleted": "已完成",
+  "listStatusPending": "未完成",
+  "listSummary": "未完成 {pending} 項，已完成 {completed} 項",
+  "listTabAllItems": "全部事項",
+  "listTabMemos": "備忘清單",
+  "listTabMyDay": "我的一天",
+  "listTabSchedules": "日程清單",
+  "listTabTasks": "工作清單",
+  "listTitle": "事項清單",
+  "login": "去登入",
+  "luotopiaAccountDetails": "賬户詳情",
+  "luotopiaAccountTitle": "Luotopia 賬户",
+  "luotopiaAlreadyHaveAccount": "已經有賬户？",
+  "luotopiaConfirmLogout": "確認登出",
+  "luotopiaConfirmPassword": "確認密碼",
+  "luotopiaCreateAccount": "開 Luotopia 賬户",
+  "luotopiaEmailHint": "用嚟揾返密碼",
+  "luotopiaEmailOptional": "電郵（可選）",
+  "luotopiaLoggingIn": "登入緊…",
+  "luotopiaLoginTitle": "登入 Luotopia",
+  "luotopiaLogoutWarning": "登出之後要重新登入先用到論壇等功能。",
+  "luotopiaNoAccountYet": "仲未有賬户？",
+  "luotopiaNotLoggedIn": "未登入",
+  "luotopiaPasswordHint": "起碼 6 個字元",
+  "luotopiaPasswordsDoNotMatch": "兩次入嘅密碼唔一致",
+  "luotopiaPasswordTooShort": "密碼起碼要 6 個字元",
+  "luotopiaPleaseFillFields": "請填用户名同密碼",
+  "luotopiaRegistering": "註冊緊…",
+  "luotopiaRegisterTitle": "註冊 Luotopia",
+  "luotopiaUsername": "用户名",
+  "luotopiaUsernameMinHint": "起碼 3 個字元",
+  "luotopiaUsernameOrEmail": "用户名 / 電郵",
+  "luotopiaUsernameTooShort": "用户名起碼要 3 個字元",
+  "luotopiaWelcomeBack": "歡迎返嚟",
+  "middleTab": "中間分頁",
+  "minuteMin": "{minute} 分鐘",
+  "navAi": "AI",
+  "navCampus": "校園",
+  "navForum": "論壇",
+  "navHome": "主頁",
+  "navList": "日程",
+  "navSettings": "設定",
+  "noTimetableYetImportOr": "還冇科目表，先從上方匯入或手動創建。",
+  "noTimetableYetImportOrCreateOn": "還冇科目表，先從上方匯入或手動創建。",
+  "noTimetableYetTapTo": "還冇科目表，點右上角 + 從武大教務系統匯入。",
+  "noTimetableYetTapToImportFromW": "還冇科目表，點右上角 + 從武大教務系統匯入。",
+  "ok": "確定",
+  "paletteAlgorithm": "調色盤演算法",
+  "paletteStyle": "調色盤演算法",
+  "pasteSharedContent": "貼上 Wakeup 分享內容",
+  "pasteWakeupShareCodeLinkParser": "支持貼上 Wakeup 分享口令或連結。當前版本先提供佔位流程。",
+  "placeholderOpenMenu": "打開選單",
+  "placeholderOpenPicker": "打開揀器",
+  "pleaseLoginToWhuAcademic": "請先登入武大教務賬户",
+  "pleaseLoginToWhuAcademicSystem": "請先登入武大統一認證",
+  "pleaseSelectWeek1Monday": "請揀第1週週一日期。",
+  "scoreImportFailed": "匯入失敗",
+  "scoreImportUndergraduateTitle": "由本科教務匯入",
+  "scoreImportUndergraduateSubtitle": "匯入精確成績但可能更新慢啲",
+  "scoreImportSpoilerTitle": "由主修發展指導系統匯入",
+  "scoreImportSpoilerSubtitle": "淨係攞到積點，但系通常快過本科教務",
+  "scoreImportFromWHU": "從武大教務匯入",
+  "scoreImportImporting": "匯入...",
+  "scoreImportLastUpdate": "最後更新：",
+  "scoreImportNever": "從未",
+  "scoreImportNoNewData": "冇新的成績資料",
+  "scoreImportSuccess": "匯入成功",
+  "scoreImportTitle": "成績匯入",
+  "scorePageAcademicYear": "學年",
+  "scorePageAnonymousContribution": "匿名貢獻畀分",
+  "scorePageAvgExam": "期末均分",
+  "scorePageAvgTotal": "總評均分",
+  "scorePageAvgUsual": "平時均分",
+  "scorePageCourse": "科目",
+  "scorePageCourseTeacherNotMatched": "未在服務端中匹配到此科目及講師",
+  "scorePageCredit": "學分",
+  "scorePageCredits": "學分",
+  "scorePageExamScoreLabel": "期末成績 (選填)",
+  "scorePageFetchStatsFailed": "攞統計資料失敗：{error}",
+  "scorePageGpa": "積點",
+  "scorePageGradeDistribution": "成績分佈",
+  "scorePageGradePoint": "積點",
+  "scorePageGradeRange60": "60-69分",
+  "scorePageGradeRange70": "70-79分",
+  "scorePageGradeRange80": "80-89分",
+  "scorePageGradeRange90": "90-100分",
+  "scorePageGradeRangeFail": "不及格",
+  "scorePageImport": "匯入",
+  "scorePageInstructorLabel": "講師: {instructor}",
+  "scorePageInstructorUnknown": "未知",
+  "scorePageLoading": "加載成績...",
+  "scorePageLoginToShare": "登入 Luotopia 帳户以分享你嘅科目成績分佈。",
+  "scorePageNoData": "暫時冇成績資料",
+  "scorePageRefresh": "重新整理",
+  "scorePageRetry": "再試",
+  "scorePageSampleCount": "樣本量",
+  "scorePageScore": "成績",
+  "scorePageSemester": "學期",
+  "scorePageStatsDialogTitle": "{courseName} 畀分統計",
+  "scorePageStatsEmpty": "該科目暫時冇畀分統計樣本",
+  "scorePageSubmitAnonymous": "匿名提交",
+  "scorePageSubmitError": "提交失敗：{error}",
+  "scorePageSubmitFailed": "提交失敗，請重試",
+  "scorePageSubmitSuccess": "提交成功！感謝你嘅匿名貢獻！",
+  "scorePageTitle": "成績查詢",
+  "scorePageTotalScore": "總評成績: {score}",
+  "scorePageUsualScoreLabel": "平時成績 (選填)",
+  "seatReservationBook": "預約",
+  "seatReservationCancel": "取消預約",
+  "seatReservationDuration": "時長",
+  "seatReservationHours": "小時",
+  "seatReservationLoading": "加載緊…",
+  "seatReservationMinutes": "分鐘",
+  "seatReservationNoSeats": "暫時冇可用座位",
+  "seatReservationRefresh": "重新整理",
+  "seatReservationSelectArea": "揀區域",
+  "seatReservationSelectFloor": "揀樓層",
+  "seatReservationSelectLibrary": "揀圖書館",
+  "seatReservationTime": "時間",
+  "seatReservationTitle": "温習預約",
+  "seedColor": "種子顏色",
+  "selectedOnlyDefault": "僅選中項顯示 (預設)",
+  "selectSeedColor": "揀主色",
+  "selectSemester": "揀學期",
+  "semester": "匯入學期",
+  "semS": "第{s}學期",
+  "semS1": "第{s}學期",
+  "settingsAbout": "關於",
+  "settingsAboutApp": "關於 Luotopia",
+  "settingsAboutEntrySubtitle": "應用資訊、版本同許可",
+  "settingsAboutEntryTitle": "關於",
+  "settingsAboutDevTeam": "開發團隊",
+  "settingsAppIcon": "應用圖示",
+  "settingsAppIconDefault": "預設",
+  "settingsAppIconAlt": "備用",
+  "settingsAboutTranslation": "翻譯平台",
+  "settingsLicensesTitle": "開源許可證",
+  "licenseAuthor": "作者: {author}",
+  "@licenseAuthor": {
     "placeholders": {
-      "hours": {
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseVersion": "版本: {version}",
+  "@licenseVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseLicense": "開源協議",
+  "licenseProjectHomepage": "項目主頁",
+  "settingsAboutProductSubtitle": "全屏縱覽表格化校園規劃",
+  "settingsAboutTitle": "關於 Luotopia",
+  "settingsAboutVersionTitle": "版本",
+  "settingsAccountLocalTitle": "本機賬户",
+  "settingsAccountWhuLoggedIn": "已認證",
+  "settingsAccountWhuNotLoggedIn": "未登入",
+  "settingsAccountWhuTitle": "武大賬户",
+  "settingsAiApiKeyLabel": "API 密鑰",
+  "settingsAiBaseUrlLabel": "API 地址",
+  "settingsAiModelLabel": "模型",
+  "settingsAiSaveButton": "儲存 AI 設定",
+  "settingsAiSectionTitle": "AI 設定",
+  "settingsAiSystemPromptLabel": "系統提示詞",
+  "settingsAiTestButton": "測試連接",
+  "settingsAiTestingButton": "測試中...",
+  "settingsAppearance": "外觀",
+  "settingsAppearanceColor": "顏色",
+  "settingsAppearanceThemeMode": "主題模式",
+  "settingsAppearanceTitle": "外觀設定",
+  "settingsBiometricLock": "生物識別鎖",
+  "settingsBiometricUnlock": "使用生物識別解鎖",
+  "settingsDark": "深色",
+  "settingsDescription": "呢度將承載全局、主頁同清單頁的設定入口。",
+  "settingsFollowSystem": "跟隨系統",
+  "settingsGeneral": "一般",
+  "settingsGeneralEntrySubtitle": "主題、語言、小元件同導航欄",
+  "settingsGeneralEntryTitle": "通用設定",
+  "settingsGeneralTitle": "通用設定",
+  "settingsGeneralWidgetsTitle": "桌面小元件",
+  "settingsHomeBlockCount": "規劃塊數量",
+  "settingsHomeBlockDuration": "單個規劃塊時長",
+  "settingsHomeBlockGap": "規劃塊間隔",
+  "settingsHomeCourseGridSettings": "科目方格模式設定",
+  "settingsHomeCourseImport": "科目表匯入",
+  "settingsHomeCourseManagement": "科目表管理",
+  "settingsHomeDayStart": "每天開始規劃時間",
+  "settingsHomeEntrySubtitle": "主頁時間塊、網格模式同寬屏顯示範圍",
+  "settingsHomeFitGridToScreen": "自適應螢幕大小",
+  "settingsHomeGridCellHeight": "固定格子高度",
+  "settingsHomeGridMode": "網格模式",
+  "settingsHomeHideLunchBreak": "隱藏午休",
+  "settingsHomeItemOpacity": "主頁事項方塊不透明度",
+  "settingsHomeSectionDescription": "配置主頁的時間塊切分規則，以及超寬屏預設顯示的時間範圍。",
+  "settingsHomeSectionTitle": "主頁設定",
+  "settingsHomeTimeGridSettings": "時間方格模式設定",
+  "settingsHomeWideLayout": "超寬屏預設範圍",
+  "settingsLanguage": "語言",
+  "settingsLicenses": "開源許可證",
+  "settingsLight": "淺色",
+  "settingsListEntrySubtitle": "清單排序、重排同展示偏好",
+  "settingsListEntryTitle": "清單頁設定",
+  "settingsMinutesValue": "{value} 分鐘",
+  "settingsNavigationEntrySubtitle": "顯示文字、中間分頁",
+  "settingsNavigationEntryTitle": "導航欄設定",
+  "settingsPercentValue": "{value}%",
+  "settingsPrivacy": "私隱同安全",
+  "settingsPrivacyPolicy": "私隱政策",
+  "settingsPrivacyTitle": "私隱同安全",
+  "settingsQuickActionsTitle": "快捷定位",
+  "settingsSearchEmpty": "冇揾到匹配的設定項",
+  "settingsSearchHint": "搜尋設定項",
+  "settingsSearchTooltip": "搜尋設定",
+  "settingsTermsOfService": "服務條款",
+  "settingsTheme": "主題",
+  "settingsTitle": "設定",
+  "settingsVersion": "版本",
+  "settingsFriendLinksTitle": "友情連結",
+  "settingsFriendLinksSubtitle": "合作夥伴、社群同相關項目",
+  "settingsFriendLinksEmpty": "暫時冇友情連結",
+  "friendLinkDialogClose": "關閉",
+  "friendLinkOpenFailed": "打唔開連結",
+    "friendLinkCategoryFeedback": "使用反饋",
+  "friendLinkCategoryClubOrg": "社團組織",
+  "friendLinkCategoryPartnerApp": "合作與致謝",
+  "friendLinkCategoryOther": "其他",
+  "settingsWeatherSectionTitle": "天氣設定",
+  "settingsWeatherSectionSubtitle": "天氣服務商、API 密鑰同定位",
+  "settingsWeatherProvider": "天氣服務商",
+  "settingsWeatherUseCustomApiKey": "使用自定義 API 密鑰",
+  "settingsWeatherCustomApiKeyHint": "請輸入 API 密鑰",
+  "settingsWeatherLocationMode": "定位模式",
+  "settingsWeatherLocationFixed": "固定位置",
+  "settingsWeatherLocationDynamic": "每次請求重新定位",
+  "shareCodeLink": "分享口令或連結",
+  "showNavigationLabels": "導航欄顯示文字",
+  "sourceManual": "嚟源：手動",
+  "sourceMerged": "嚟源：合併",
+  "sourceWakeup": "嚟源：Wakeup",
+  "sourceWhu": "嚟源：武大教務",
+  "sportsAllDay": "全日",
+  "sportsAllVenues": "全部場館",
+  "sportsBook": "預約",
+  "sportsBooking": "預約緊…",
+  "sportsBookingFailed": "預約失敗，請再試。",
+  "sportsBookingRules": "預約須知",
+  "sportsBookingSuccess": "預約成功！",
+  "sportsBookingUnavailable": "而家暫時預約唔到，請遲啲再試。",
+  "sportsBookNow": "立即預約",
+  "sportsBusinessHours": "營業時間：",
+  "sportsCheckoutArgsMissing": "預約確認參數唔齊，請返去重新揀。",
+  "sportsCheckoutTitle": "確認預約",
+  "sportsChooseCourt": "揀場地",
+  "sportsChooseTimeSlot": "揀時段",
+  "sportsConfirmBooking": "確認預約",
+  "sportsConfirmPayment": "確認支付",
+  "sportsDaytime": "白天",
+  "sportsEvening": "晚上",
+  "sportsFriday": "週五",
+  "sportsGoBack": "返去",
+  "sportsGoToMyOrders": "睇我嘅預約",
+  "sportsLoading": "加載緊…",
+  "sportsLoadingFailed": "加載失敗",
+  "sportsLoadingVenues": "加載緊場館…",
+  "sportsMinutes": "分鐘",
+  "sportsMonday": "週一",
+  "sportsMultiDayNotSupported": "暫不支持多天預約",
+  "sportsNoCourtsAvailable": "暫時冇可用場地",
+  "sportsOrderArgsMissing": "訂單參數唔齊，請返去重新揀。",
+  "sportsOrderCancelled": "已取消",
+  "sportsOrderExpired": "訂單已過期",
+  "sportsOrderNotFound": "未揾到訂單",
+  "sportsOrderPaid": "已付款",
+  "sportsOrderPending": "等付款",
+  "sportsOrderStatus": "狀態",
+  "sportsOrderTitle": "預約詳情",
+  "sportsPay": "付款",
+  "sportsPayFailed": "支付失敗，請重試。",
+  "sportsPaying": "支付中...",
+  "sportsPaySuccess": "支付成功！",
+  "sportsPhone": "電話：",
+  "sportsPrice": "價格",
+  "sportsRetry": "再試",
+  "sportsSaturday": "週六",
+  "sportsSelectDate": "揀日期",
+  "sportsSelectDateFirst": "請先揀日期",
+  "sportsSelectDateHint": "請揀日期",
+  "sportsSelectedCourt": "已選場地",
+  "sportsSelectTimeSlot": "揀時段",
+  "sportsSelectTimeSlotHint": "請揀時間段",
+  "sportsSelectVenue": "揀場館",
+  "sportsSelectVenueHint": "請揀運動場館",
+  "sportsSunday": "週日",
+  "sportsThursday": "週四",
+  "sportsTuesday": "週二",
+  "sportsVenueAddress": "場館地址",
+  "sportsVenueDetail": "場館詳情",
+  "sportsVenueType": "場館類型",
+  "sportsWednesday": "週三",
+  "startImport": "開始匯入",
+  "tapToSelect": "撳揀",
+  "themeColors": "主題配色",
+  "themeDark": "深色",
+  "themeLight": "淺色",
+  "themeModeLabel": "主題模式",
+  "themeSectionTitle": "顯示",
+  "themeSettings": "主題設定",
+  "themeSystem": "跟隨系統",
+  "thisItem": "淨係改呢一項",
+  "timePickerDescription": "呢個路由預留畀分享的日周月時間揀器。",
+  "timePickerTitle": "時間揀",
+  "timetable": "時間表",
+  "timetableManagement": "科目表管理",
+  "timetableName": "科目表名稱",
+  "timetableName1": "科目表名稱",
+  "timetables": "科目表清單",
+  "tipSelectedDateIsNot": "提示：所選日期並非星期一",
+  "tipSelectedDateIsNotAMonday": "提示：所選日期並非星期一",
+  "updateOnDataChangesWith": "資料變更即時推送，同時按頻率兜底重新整理。",
+  "updateOnDataChangesWithPeriodi": "資料變更即時推送，同時按頻率兜底重新整理。",
+  "useDynamicColor": "莫奈取色 (Dynamic Color)",
+  "verifyingAndEstablishingEducat": "校驗並建立教務會話...",
+  "verifyingAndEstablishingEducationSession": "校驗並建立教務會話...",
+  "wakeupImport": "Wakeup 匯入",
+  "wakeupShareLinkCode": "Wakeup 分享口令/連結",
+  "weatherCachedAt": "快取於 {time}",
+  "weatherCacheTimeUnknown": "快取時間未知",
+  "weatherFeelsLike": "體感{temp}",
+  "weatherLibraryBorrowingDetail": "借閲詳情",
+  "weatherLibraryReminder": "圖書館：《罪同罰》借閲將在三天後到期",
+  "weatherLoadFailed": "天氣加載失敗",
+  "weatherLoadFailedWithError": "天氣加載失敗：{error}",
+  "weatherLoadingLocation": "攞{locationName}天氣",
+  "weatherNews": "校園新聞",
+  "weatherNewsReminder": "校園新聞：五一調休通知新鮮出爐",
+  "weatherNoClassReminder": "下午沒課，試試一節「古代漢語」？",
+  "weatherNoHourlyForecast": "暫時冇逐小時預報",
+  "weatherRetry": "再試",
+  "weatherServiceUnavailable": "天氣服務暫時不可用，顯示最近快取。",
+  "weatherShowCache": "顯示最近快取",
+  "weatherSnackAuditingClass": "旁聽推薦",
+  "weatherTryAgainLater": "請遲啲重試",
+  "weatherUpdated": "更新 {time}",
+  "weatherUpdating": "更新天氣",
+  "week1Monday": "第一週週一",
+  "whuAcademicSystem": "武漢大學教務系統",
+  "whuAccountBind": "綁定 WHU 賬户",
+  "whuAccountCancelBinding": "取消綁定",
+  "whuAccountCollege": "學院",
+  "whuAccountRecentLogin": "最近登入",
+  "whuAccountRecentVerification": "最近驗證",
+  "whuAccountDetail": "WHU 賬户詳情",
+  "whuAccountLoggedInAs": "已登入：",
+  "whuAccountTitle": "WHU 賬户",
+  "whuAccountUnbind": "解綁",
+  "whuAccountUnbindConfirm": "確定要解綁此賬户嗎？",
+  "whuAccountUnbindSuccess": "解綁成功",
+  "whuCalendarListView": "清單",
+  "whuCalendarMonthView": "月檢視",
+  "whuCalendarNoEvents": "冇事件",
+  "whuCalendarTitle": "校歷",
+  "whuCalendarWeekView": "周檢視",
+  "whuCourseImportAdapterFailed": "匯入科目失敗",
+  "whuCourseImportAdapterImporting": "從武大教務匯入科目...",
+  "whuCourseImportAdapterLoginRequired": "需要登入武大教務",
+  "whuCourseImportAdapterParsing": "解析武大教務頁面...",
+  "whuCourseImportAdapterSuccess": "成功匯入 {count} 門科目",
+  "whuLoginWebViewLoading": "加載緊…",
+  "whuLoginWebViewTitle": "WHU 登入",
+  "yY1": "{y}-{yPlus1} 學年",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "@courseImportImportSuccess": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationHours": "{hours} 小時",
-  "@editorDurationMinutes": {
+  "@courseImportImportSuccessDesc": {
     "placeholders": {
-      "minutes": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationMinutes": "{minutes} 分鐘",
+  "@courseImportParseSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@courseTimetablesWeekCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
   "@editorDurationHourMinute": {
     "placeholders": {
       "hours": {
@@ -251,170 +822,47 @@
       }
     }
   },
-  "editorDurationHourMinute": "{hours} 小時 {minutes} 分鐘",
-  "@detailRangeDate": {
+  "@editorDurationHours": {
     "placeholders": {
-      "start": {},
-      "end": {}
+      "hours": {
+        "type": "int"
+      }
     }
   },
-  "detailRangeDate": "{start} 至 {end}",
-  "@detailMemoDate": {
+  "@editorDurationMinutes": {
     "placeholders": {
-      "date": {},
-      "duration": {}
+      "minutes": {
+        "type": "int"
+      }
     }
   },
-  "detailMemoDate": "{date} · 預計 {duration}",
-  "aiTitle": "人工智能助手",
-  "aiInputHint": "關於日程嘅任何問題⋯",
-  "settingsAiSectionTitle": "AI 設定",
-  "settingsAiBaseUrlLabel": "API 地址",
-  "settingsAiApiKeyLabel": "API 密鑰",
-  "settingsAiModelLabel": "模型",
-  "settingsAiSystemPromptLabel": "系統提示詞",
-  "settingsAiTestButton": "測試連接",
-  "settingsAiTestingButton": "測試中⋯",
-  "settingsAiSaveButton": "保存 AI 設定",
-  "settingsAccountLocalTitle": "本地帳戶",
-  "settingsAccountWhuTitle": "武大賬戶",
-  "settingsAccountWhuLoggedIn": "已認證",
-  "settingsAccountWhuNotLoggedIn": "未登入",
-  "settingsNavigationEntryTitle": "導航欄設定",
-  "settingsNavigationEntrySubtitle": "顯示文字、中間標籤頁",
-  "settingsHomeCourseImport": "課程表導入",
-  "settingsHomeCourseManagement": "課程表管理",
-  "settingsHomeTimeGridSettings": "時間方格模式設定",
-  "settingsHomeCourseGridSettings": "課程方格模式設置",
-  "placeholderOpenPicker": "打開選擇器",
-  "placeholderOpenMenu": "打開菜單",
-  "scorePageStatsDialogTitle": "{courseName}給分統計",
-  "@scorePageStatsDialogTitle": {
+  "@emptyClassroomAddedSingle": {
     "placeholders": {
-      "courseName": {
+      "classroom": {
+        "type": "String"
+      },
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "@emptyClassroomConflictMulti": {
+    "placeholders": {
+      "sections": {
         "type": "String"
       }
     }
   },
-  "scorePageInstructorUnknown": "未知",
-  "scorePageRetry": "重試",
-  "scorePageStatsEmpty": "該課程暫無給分統計樣本",
-  "scorePageSampleCount": "樣本量",
-  "scorePageAvgTotal": "總評均分",
-  "scorePageAvgUsual": "平時均分",
-  "scorePageAvgExam": "期末均分",
-  "scorePageGradeDistribution": "成績分佈",
-  "scorePageGradeRange90": "90-100分",
-  "scorePageGradeRange80": "80-89分",
-  "scorePageGradeRange70": "70-79分",
-  "scorePageGradeRange60": "60-69分",
-  "scorePageGradeRangeFail": "不及格",
-  "scorePageLoginToShare": "登入 Luotopia 帳號以分享您的課程成績分佈。",
-  "scorePageSubmitSuccess": "提交成功！感謝您的匿名貢獻！",
-  "scorePageAnonymousContribution": "匿名貢獻給分",
-  "scorePageTotalScore": "總評成績:{score}",
-  "@scorePageTotalScore": {
+  "@emptyClassroomFABExpanded": {
     "placeholders": {
-      "score": {
-        "type": "Object"
+      "expanded": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
       }
     }
   },
-  "scorePageUsualScoreLabel": "平時成績 (選填)",
-  "scorePageExamScoreLabel": "期末成績 (選填)",
-  "scorePageSubmitAnonymous": "匿名提交",
-  "scorePageCourseTeacherNotMatched": "未在服務端中配對到此課程及教師",
-  "scorePageFetchStatsFailed": "取得統計資料失敗：{error}",
-  "@scorePageFetchStatsFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageSubmitFailed": "提交失敗，請重試",
-  "scorePageSubmitError": "提交失敗：{error}",
-  "@scorePageSubmitError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageInstructorLabel": "教師:{instructor}",
-  "@scorePageInstructorLabel": {
-    "placeholders": {
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdating": "天氣更新中...",
-  "weatherNoClassReminder": "今天下午沒有課。審核《古漢語》怎麼樣？",
-  "weatherSnackAuditingClass": "審核建議",
-  "weatherNewsReminder": "校園新聞：五一放假調整公告發布",
-  "weatherNews": "校園新聞",
-  "weatherLibraryReminder": "圖書館：借閱《罪與罰》三天後到期",
-  "weatherLibraryBorrowingDetail": "借款詳情",
-  "@weatherFeelsLike": {
-    "placeholders": {
-      "temp": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherFeelsLike": "感覺就像{temp}",
-  "@weatherUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdated": "更新了{time}",
-  "weatherShowCache": "顯示最近的快取",
-  "weatherNoHourlyForecast": "沒有可用的每小時預報",
-  "@weatherLoadingLocation": {
-    "placeholders": {
-      "locationName": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadingLocation": "正在取得{locationName}的天氣...",
-  "weatherLoadFailed": "加載天氣失敗",
-  "weatherTryAgainLater": "請稍後重試",
-  "weatherCacheTimeUnknown": "緩存時間未知",
-  "@weatherCachedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherCachedAt": "快取在{time}",
-  "weatherServiceUnavailable": "天氣服務暫時無法使用。顯示最近的快取。",
-  "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadFailedWithError": "無法載入天氣：{error}",
-  "weatherRetry": "重試",
-  "emptyClassroomTitle": "空閒教室",
-  "emptyClassroomFilterTitle": "篩選條件",
-  "emptyClassroomFilterCampus": "校區",
-  "emptyClassroomFilterBuilding": "教學樓",
-  "emptyClassroomFilterWeek": "週次",
-  "emptyClassroomFilterWeekDay": "星期",
-  "emptyClassroomQueryButton": "查詢空閒教室",
-  "emptyClassroomLoginPrompt": "請先登入武大統一認證",
-  "emptyClassroomGoLogin": "去登入",
-  "emptyClassroomRetry": "重試",
-  "emptyClassroomNoResults": "呢棟教學樓暫時冇空閒教室",
-  "emptyClassroomQueryHint": "已選擇篩選條件，㩒上方按鈕查詢空閒教室",
   "@emptyClassroomFloorSeats": {
     "placeholders": {
       "floor": {
@@ -428,47 +876,6 @@
       }
     }
   },
-  "emptyClassroomFloorSeats": "{floor}樓 · {available}/{total} 座",
-  "emptyClassroomSectionHint": "㩒節次新增自習",
-  "emptyClassroomFABTitle": "教室節次管理",
-  "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomFABExpanded": "已展開 {expanded} / {total} 個教室",
-  "emptyClassroomFABHint": "㩒教室右側箭頭展開節次，㩒節次方塊即可新增到日程",
-  "emptyClassroomExpandAll": "展開全部",
-  "emptyClassroomCollapseAll": "收起全部",
-  "emptyClassroomConflictTitle": "時間衝突",
-  "emptyClassroomConflictSingle": "呢個時段已經有安排，係咪確認加課？",
-  "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
-      }
-    }
-  },
-  "emptyClassroomConflictMulti": "{sections} 已經有安排，係咪確認加課？",
-  "emptyClassroomConflictCancel": "取消",
-  "emptyClassroomConflictConfirm": "確認加課",
-  "emptyClassroomUndo": "撤銷",
-  "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
-      },
-      "section": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomAddedSingle": "已新增{classroom}第{classroom}節課",
   "@emptyClassroomSectionLabel": {
     "placeholders": {
       "section": {
@@ -476,7 +883,6 @@
       }
     }
   },
-  "emptyClassroomSectionLabel": "第{section}節",
   "@emptyClassroomWeekLabel": {
     "placeholders": {
       "week": {
@@ -484,49 +890,6 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "第{week}週",
-  "homeCurrentWeekRange": "本周 ({start} - {end})",
-  "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homePeriodRange": "{start} - {end}",
-  "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabel": "{year}学年 {term}",
-  "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "term": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabelYearOnly": "{year}学年",
-  "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMainLabelWeek": "第{week}周",
   "@homeCalendarMainLabelWeek": {
     "placeholders": {
       "week": {
@@ -534,61 +897,6 @@
       }
     }
   },
-  "homeCalendarSummerBreak": "暑假",
-  "homeCalendarWinterBreak": "寒假",
-  "homeGoToCurrentWeek": "转到本周",
-  "homeGoToNextSemesterFirstWeek": "转到开学第一周",
-  "homeCoursePeriod": "第{courseNumber}节",
-  "@homeCoursePeriod": {
-    "placeholders": {
-      "courseNumber": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCourseLunch": "午休",
-  "homeWeekdayLabel": "{weekday}",
-  "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearMonth": "{year}年{year}月",
-  "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "month": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthWeek": "{month}月第{month}周",
-  "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearWeek": "{year}年第{year}周",
-  "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthDayRange": "{day} - {endDay}日",
   "@homeCalendarMonthDayRange": {
     "placeholders": {
       "day": {
@@ -599,241 +907,1533 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "隐藏午休",
-  "settingsHomeFitGridToScreen": "自适应屏幕大小",
-  "settingsHomeGridCellHeight": "固定格子高度",
-  "homeBackToCurrentPeriod": "返回本周",
-  "startImport": "开始导入",
-  "pasteSharedContent": "粘贴 Wakeup 分享内容",
-  "shareCodeLink": "分享口令或链接",
-  "eGWakeupImport1": "例如：Wakeup 导入 1",
-  "timetableName": "课程表名称",
-  "pasteWakeupShareCodeLinkParser": "支持粘贴 Wakeup 分享口令或链接。当前版本先提供占位流程。",
-  "wakeupImport": "Wakeup 导入",
-  "semS": "第{s}学期",
-  "@semS": {
+  "@homeCalendarMonthWeek": {
     "placeholders": {
-      "s": {}
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
     }
   },
-  "yY1": "{y}-{yPlus1} 学年",
-  "@yY1": {
+  "@homeCalendarTopLabel": {
     "placeholders": {
-      "y": {},
-      "yPlus1": {}
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
     }
   },
-  "done": "确定",
-  "selectSemester": "选择学期",
-  "semester": "导入学期",
-  "importFailedError": "导入失败：{error}",
-  "@importFailedError": {
+  "@homeCalendarTopLabelYearOnly": {
     "placeholders": {
-      "error": {}
+      "year": {
+        "type": "String"
+      }
     }
   },
-  "importedPayloadItemsLengthItem": "导入完成：新增 {itemsLength} 条课程事项，课程表「{tableName}」。",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
   "@importedPayloadItemsLengthItem": {
     "placeholders": {
       "tableName": {},
       "itemsLength": {}
     }
   },
-  "importFinishedPayloadItemsLeng": "导入完成：新增 {itemsLength} 条，当前周 {currentWeekCount} 条。",
+  "@importedPayloaditemslengthItemsTo": {
+    "placeholders": {
+      "itemsLength": {}
+    }
+  },
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@importFailedError1": {
+    "placeholders": {
+      "error": {}
+    }
+  },
   "@importFinishedPayloadItemsLeng": {
     "placeholders": {
       "currentWeekCount": {},
       "itemsLength": {}
     }
   },
-  "fetchingTimetable": "正在请求教务课表...",
-  "verifyingAndEstablishingEducat": "正在校验并建立教务会话...",
-  "pleaseSelectWeek1Monday": "请选择第1周周一日期。",
-  "tipSelectedDateIsNotAMonday": "提示：所选日期并非星期一",
-  "tapToSelect": "点击选择",
-  "week1Monday": "第一周周一",
-  "timetableName1": "课程表名称",
-  "importSchedule": "导入课程表",
-  "delete": "删除",
-  "cancel": "取消",
-  "allCourseItemsInThisTimetableW": "会同时删除该课程表下的所有课程事项。",
-  "deleteTimetable": "删除课程表",
-  "create": "创建",
-  "enterTimetableName": "输入课程表名称",
-  "createTimetable": "新建课程表",
-  "sourceManual": "来源：手动",
-  "sourceMerged": "来源：合并",
-  "sourceWakeup": "来源：Wakeup",
-  "sourceWhu": "来源：武大教务",
-  "noTimetableYetImportOrCreateOn": "还没有课程表，先从上方导入或手动创建。",
-  "timetables": "课程表列表",
-  "importTimetableFromSharedText": "从分享文本导入课程表",
-  "wakeupShareLinkCode": "Wakeup 分享口令/链接",
-  "importCoursesViaEmbeddedWebLog": "通过内嵌网页登录并导入课程",
-  "whuAcademicSystem": "武汉大学教务系统",
-  "importSources": "导入来源",
-  "courseTablesImport": "课程表与导入",
-  "importedTimestr": "导入于 {timeStr}",
-  "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
-    }
-  },
-  "noTimetableYetTapToImportFromW": "还没有课程表，点右上角 + 从武大教务系统导入。",
-  "login": "去登录",
-  "pleaseLoginToWhuAcademicSystem": "請先登入武大統一認證",
-  "timetable": "课程表",
-  "allSameNameCourses": "改这门课程",
-  "thisItem": "只改这一项",
-  "changeOnlyThisItemOrEveryCours": "要只修改当前这一项，还是修改所有名称为「{title}」的课程？",
-  "@changeOnlyThisItemOrEveryCours": {
-    "placeholders": {
-      "title": {}
-    }
-  },
-  "applyColorTo": "应用颜色到哪里？",
-  "timetableManagement": "课程表管理",
-  "importFromSharedText": "从分享文本导入课程表",
-  "importViaEmbeddedWebLogin": "通过内嵌网页登录并导入课程",
-  "courseImport": "课程表导入",
-  "courseGridSettings": "课程方格模式设置",
-  "paletteStyle": "调色盘算法",
-  "ok": "确定",
-  "selectSeedColor": "选择主色",
-  "customSeedColor": "自定义主色",
-  "extractColorsFromWallpaperAuto": "自动从壁纸提取主色",
-  "useDynamicColor": "莫奈取色 (Dynamic Color)",
-  "themeColors": "主题配色",
-  "followAppTheme": "跟随应用主题",
-  "followAppLanguage": "跟随应用语言",
-  "updateOnDataChangesWithPeriodi": "数据变更即时推送，同时按频率兜底刷新。",
-  "fallbackRefreshInterval": "兜底刷新频率",
-  "enableWidgetSync": "启用桌面小组件同步",
-  "alwaysHide": "始终隐藏",
-  "alwaysShow": "始终显示",
-  "selectedOnlyDefault": "仅选中项显示 (默认)",
-  "aiAssistant": "AI 助手",
-  "forum": "论坛 (珞珈防空洞)",
-  "chooseBetweenForumOrAiForTheMi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
-  "middleTab": "中间标签页",
-  "showNavigationLabels": "导航栏显示文字",
-  "minuteMin": "{minute} 分钟",
-  "@minuteMin": {
-    "placeholders": {
-      "minute": {}
-    }
-  },
-  "hourH": "{hour} 小时",
-  "@hourH": {
-    "placeholders": {
-      "hour": {}
-    }
-  },
-  "chooseDuration": "选择时长",
-  "k3Hours": "3 小时",
-  "k1Hour": "1 小时",
-  "k30Minutes": "30 分钟",
-  "pasteWakeupShareCodelinkParser": "支援貼上 Wakeup 分享口令或連結。目前版本先提供佔位流程。",
-  "egWakeupImport1": "例如：Wakeup 導入 1",
-  "tipSelectedDateIsNot": "提示：所選日期並非星期一",
-  "verifyingAndEstablishingEducationSession": "正在校驗並建立教務會話...",
   "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
     "placeholders": {
       "itemsLength": {},
       "currentWeekCount": {}
     }
   },
-  "importFinishedPayloaditemslengthItemsCurrentweekcount": "匯入完成：新增 {itemsLength} 條，目前週 {currentWeekCount} 條。",
-  "@importedPayloaditemslengthItemsTo": {
+  "@listCompletedSection": {
     "placeholders": {
-      "itemsLength": {},
-      "tableName": {}
+      "count": {
+        "type": "int"
+      }
     }
   },
-  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
-  "@importFailedError1": {
+  "@listPendingSection": {
     "placeholders": {
-      "error": {}
+      "count": {
+        "type": "int"
+      }
     }
   },
-  "importFailedError1": "導入失敗：{error}",
-  "@yy1": {
+  "@listSummary": {
     "placeholders": {
-      "y": {},
-      "yPlus1": {}
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
     }
   },
-  "yy1": "{y}-{yPlus1} 學年",
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
   "@semS1": {
     "placeholders": {
       "s": {}
     }
   },
-  "semS1": "第{s}學期",
-  "importCoursesViaEmbeddedWeb": "透過內嵌網頁登入並匯入課程",
-  "wakeupShareLinkcode": "Wakeup 分享口令/鏈接",
-  "noTimetableYetImportOr": "還沒有課程表，先從上方匯入或手動建立。",
-  "allCourseItemsInThis": "會同時刪除該課程表下的所有課程事項。",
-  "pleaseLoginToWhuAcademic": "請先登入武大教務帳戶",
-  "noTimetableYetTapTo": "還沒有課程表，點右上角 + 從武大教務系統匯入。",
-  "allSamenameCourses": "改這門課程",
-  "updateOnDataChangesWith": "資料變更即時推送，同時按頻率兜底刷新。",
-  "chooseBetweenForumOrAi": "導覽列中間位置顯示論壇或 AI 助理（預設論壇）",
-  "themeSettings": "主題設定",
-  "colorsAppearance": "色彩與外觀",
-  "dynamicColorMonet": "動態取色 (Monet)",
-  "dynamicColorSourceAccent": "使用系统强调色",
-  "dynamicColorSourceGtk": "使用 GTK 主题色",
-  "dynamicColorSourceWallpaper": "根据系统壁纸提取主色调",
-  "extractPrimaryColorFromSystem": "根據系統桌布動態提取主色調",
-  "seedColor": "種子色 (Seed Color)",
-  "baseColorForStaticTheme": "靜態主題的基礎色",
-  "paletteAlgorithm": "調色盤演算法",
-  "changeColorVariantGenerationAlgorithm": "改變顏色變體生成演算法",
-  "scoreCaptchaAutoVerifying": "Auto-verifying...",
-  "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
-  "@scoreCaptchaRetrying": {
+  "@settingsMinutesValue": {
     "placeholders": {
-      "attempt": { "type": "int" }
+      "value": {
+        "type": "int"
+      }
     }
   },
-  "weatherAirQualityTitle": "\u7A7A\u6C23\u8CEA\u7D20",
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@whuCourseImportAdapterSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@yY1": {
+    "placeholders": {
+      "y": {},
+      "yPlus1": {}
+    }
+  },
+  "courseImportFailed": "匯入失敗",
+  "courseImportStatusImported": "匯入完成：新增 {count} 條，當前周 {currentWeek} 條。",
+  "@courseImportStatusImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "currentWeek": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSnackSuccess": "匯入完成：新增 {count} 條科目事項，科目表「{tableName}」。",
+  "@courseImportSnackSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "tableName": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportStatusFailed": "匯入失敗：{error}",
+  "@courseImportStatusFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportAcademicYearLabel": "{year}-{next} 學年",
+  "@courseImportAcademicYearLabel": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSemesterLabel": "第{semester}學期",
+  "@courseImportSemesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportImportFailedStatus": "匯入失敗：{error}",
+  "@courseImportImportFailedStatus": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editorEditCourse": "改科目",
+  "editorCreateCourse": "開科目",
+  "editorAllDaySchedule": "全日日程",
+  "editorApplyColorTo": "顏色套去邊？",
+  "editorCourseNatureHint": "科目性質（如：必修/選修）",
+  "editorChangeScopeTitle": "要只修改當前這一項，定係修改所有名稱為「{title}」的科目？",
+  "@editorChangeScopeTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "editorChangeOnlyThisItem": "淨係改呢一項",
+  "editorChangeAllSameName": "改呢科",
+  "aiConversations": "傾偈清單",
+  "aiNewChat": "新傾偈",
+  "aiServiceError": "AI 服務異常",
+  "aiUntitledItem": "未命名事項",
+  "aiMemo": "備忘",
+  "aiDraftReady": "草稿已生成：{title}",
+  "@aiDraftReady": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "aiOpenDraftPage": "打開草稿頁面",
+  "aiSending": "傳送緊",
+  "aiSend": "傳送",
+  "aiClearHistory": "清走紀錄",
+  "aiRename": "改名",
+  "aiDelete": "刪除",
+  "aiNoMessages": "冇訊息",
+  "aiClearConversations": "清走傾偈紀錄",
+  "aiClearConversationsConfirm": "確定要清走當前所有傾偈紀錄嗎？",
+  "aiCancel": "取消",
+  "aiClear": "清走",
+  "aiRenameConversation": "改傾偈名",
+  "aiSave": "儲存",
+  "aiSettings": "AI 設定",
+  "aiRetry": "再試",
+  "aiClearConversationsWarning": "所有本機 AI 傾偈紀錄都會被清走。",
+  "scorePagePrivacyLocked": "成績表已經俾私隱鎖保護",
+  "scorePageClickToUnlock": "撳解鎖",
+  "scorePageNoLocalScore": "本機冇成績",
+  "scorePageLoginHint": "如果未登入教務系統，請先喺設定度登入。\n然後撳下面個掣攞成績同同步去本機。",
+  "scorePageSync": "同步成績紀錄",
+  "scorePageTotalGpa": "總平均學分積點",
+  "scorePageTotalCredits": "總學分",
+  "scorePageGetFailed": "攞成績失敗",
+  "scorePageSettings": "成績設定",
+  "scorePageEnableBiometric": "開生物識別鎖",
+  "scorePageBiometricHint": "用 Face ID 或者指紋保護你嘅成績私隱",
+  "scorePageGpaStandard": "GPA 計算標準",
+  "scorePageGpaStandardHint": "切換時會重新計算總積點同分組積點",
+  "scorePageStandardWhu": "武大 2021+ 標準",
+  "scorePageStandardWes": "WES 標準",
+  "scorePageStandard40": "標準 4.0 演算法",
+  "scorePageStandard100": "百分制均分",
+  "scorePageSpoiler": "成績劇透",
+  "scorePageSpoilerHint": "拉取平台已上載但教務未同步的成績，並本機快取",
+  "scorePageEnableSpoiler": "開啓成績劇透",
+  "scorePageStudentId": "學號",
+  "scorePageStudentIdHint": "用於請求劇透介面；也可從 Cookie 中自動提取 stuId",
+  "scorePageCookie": "Cookie（可選）",
+  "scorePageCookieHint": "若介面需要登入態，請貼上 JSESSIONID / route / stuId 等 Cookie",
+  "scorePageBiometricAuthFailed": "生物認證失敗",
+  "scorePageGoToSettings": "去設定",
+  "scorePageSpoilerFailed": "成績劇透拉取失敗",
+  "scorePageSpoilerHintText": "開啓成績劇透後，可提前睇平台已發佈但未同步到教務系統的成績。",
+  "scorePageSpoilerFetched": "已拉取 {count} 條紀錄 · {credits} 學分",
+  "@scorePageSpoilerFetched": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageSpoilerUpdated": "更新時間：{time}",
+  "@scorePageSpoilerUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfo": "{type} · {credit}學分 · {instructor}",
+  "@scorePageCourseInfo": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfoWithExam": "{type} · {credit} 學分 · {exam}\n{instructor}",
+  "@scorePageCourseInfoWithExam": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "exam": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageGpaDisplay": "積點: {gpa}",
+  "@scorePageGpaDisplay": {
+    "placeholders": {
+      "gpa": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAboutDescription": "Luotopia 致力打造一個現代化、美觀、功能夠勁嘅教務同校園生活中心平台。多謝你用同支持！",
+  "settingsDevModeAlreadyOn": "開發者模式已經開咗：你已經係開發者。",
+  "settingsDevModeActivated": "開發者模式已經開咗：而家可以用開發者設定喇！",
+  "settingsDevModeTapCount": "即將開啓開發者模式：再撳 {count} 次開啓開發者模式",
+  "@settingsDevModeTapCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsNotificationsTitle": "通知管理",
+  "settingsPushNotifications": "推送通知",
+  "settingsPushNotificationsSubtitle": "接收關於日程、評價同系統訊息嘅通知",
+  "settingsMarketingNotifications": "營銷同活動",
+  "settingsMarketingNotificationsSubtitle": "接收校園活動同推廣資訊推送",
+  "settingsStorageTitle": "儲存管理",
+  "settingsClearCache": "清走快取",
+  "settingsClearCacheSubtitle": "釋放可清理的臨時文件與緩存資料（約 {size}）",
+  "settingsCacheCleared": "緩存已清除：釋放了 {size}",
+  "@settingsClearCacheSubtitle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsCacheCleared": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAiEntrySubtitle": "模型、密鑰同系統提示詞",
+  "settingsDeveloperTitle": "開發者設定",
+  "settingsDeveloperSubtitle": "伺服器地址同測試選項",
+  "settingsDevSaveSuccess": "儲存成功：伺服器地址已經更新",
+  "settingsDevScanSuccess": "成功發現伺服器: {ip}:6262",
+  "@settingsDevScanSuccess": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevScanFailed": "喺局域網絡絡揾唔到開 6262 埠嘅 API 伺服器",
+  "settingsDevScanError": "掃描失敗: {error}",
+  "@settingsDevScanError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevServerUrl": "自定義伺服器地址",
+  "settingsDevServerUrlSubtitle": "設定之後會蓋過預設 API Base URL。例如用內網地址測試：http://192.168.1.100:6262",
+  "settingsDevUrlLabel": "伺服器 URL",
+  "settingsDevUrlHint": "留空就用預設地址",
+  "settingsDevDisableTitle": "關掉開發者模式",
+  "settingsDevDisableSubtitle": "關咗之後要再連續撳版本號先開到",
+  "settingsHomeBackgroundImage": "自定義背景圖片",
+  "settingsHomeBackgroundSet": "已設定",
+  "settingsHomeGridAlpha": "網格背景透明度",
+  "settingsHomeGridBorderAlpha": "網格邊框透明度",
+  "settingsHomeCropImage": "裁剪圖片",
+  "settingsAiFormat": "API 格式（Format）",
+  "settingsAiFormatSubtitle": "揀對應的 AI 介面格式以適配不同的提供商",
+  "biometricLockContentLocked": "內容已經鎖咗",
+  "biometricLockDescription": "呢個頁面有私隱保護，要驗證先睇到",
+  "biometricLockUnlock": "解鎖",
+  "whuLoginCannotComplete": "完成唔到登入",
+  "whuLoginVerifying": "驗證緊登入狀態…",
+  "whuLoginVerificationFailed": "登入狀態驗證失敗：{error}",
+  "@whuLoginVerificationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "再試",
+  "campusFeatureInDevelopment": "功能仲開發緊",
+  "libraryVenueList": "場館清單",
+  "libraryMyReservations": "我嘅預約",
+  "libraryNoVenues": "暫時冇開放場館",
+  "libraryLoadFailed": "加載失敗：{error}",
+  "@libraryLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryScanCheckIn": "掃碼簽到/暫離",
+  "libraryNoActiveReservation": "當前無進行中的預約",
+  "libraryClickForDetails": "撳睇各樓層同座位詳情",
+  "globalTimetableTitle": "全校時間表",
+  "globalTimetablePlaceholder": "全校時間表功能仲開發緊…",
+  "settingsAiConnectionSuccess": "AI 連線測試成功。",
+  "settingsAiConnectionFailed": "連接失敗：{error}",
+  "@settingsAiConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardLoading": "加載{name}...",
+  "@luojiaEcardLoading": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardPreparing": "準備{name}...",
+  "@luojiaEcardPreparing": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pagePreparationFailed": "頁面準備失敗：{error}",
+  "@pagePreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "linkNotSupported": "呢個連結要喺瀏覽器或者學校應用打開。",
+  "pageLoginRequired": "登入後可繼續訪問{name}。",
+  "@pageLoginRequired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pageTemporarilyUnavailable": "頁面暫時開唔到",
+  "pageRefresh": "重新整理",
+  "accountStatus": "賬户狀態",
+  "whuCasLoginRequired": "請先登入武大統一認證。",
+  "whuCasServiceAuthFailed": "服務授權失敗，請重新登入武大統一認證。",
+  "whuCasServiceRequestFailed": "服務授權請求失敗：{error}",
+  "@whuCasServiceRequestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasNoCookie": "偵測唔到有效嘅教務系統 Cookie。",
+  "whuCasSessionExpired": "教務系統會話已經失效，請重新登入。",
+  "whuCasSessionVerifyFailed": "教務會話驗證失敗：{error}",
+  "@whuCasSessionVerifyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasFetchFailed": "攞教務賬户資訊失敗（HTTP {code}）。",
+  "@whuCasFetchFailed": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "whuCasLoginFailedReason": "教務系統登入失敗：{reason}",
+  "@whuCasLoginFailedReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasLoginFailedGeneric": "教務系統登入失敗，請重新登入武大統一認證。",
+  "courseHubToolsTitle": "教務工具同科目資訊",
+  "courseHubToolsDescription": "整合校歷、旁聽、全校時間表、科目畀分同評價。",
+  "courseHubSearchCourse": "搜尋科目",
+  "courseHubCalendar": "校歷",
+  "courseHubCalendarSubtitle": "學期、假期同考試周",
+  "courseHubAuditCourse": "旁聽",
+  "courseHubAuditCourseSubtitle": "揾可以旁聽嘅科目 · 建設中",
+  "courseHubTimetableSubtitle": "睇全校開課 · 建設中",
+  "courseHubScoresSubtitle": "搜尋科目之後睇分佈",
+  "courseHubReviews": "科目評價",
+  "courseHubReviewsSubtitle": "搜尋科目之後睇評價",
+  "courseHubToolsSection": "教務工具",
+  "courseHubSearchHintGrades": "搜尋科目之後睇紀錄畀分分佈",
+  "courseHubSearchHintReviews": "搜尋科目之後睇同學評價",
+  "courseHubSearchHintNormal": "搜尋科目名稱、講師姓名或者科目代碼",
+  "courseHubSearchTitle": "科目搜尋",
+  "courseHubEmptyTitle": "搜尋任何科目",
+  "courseHubEmptyDescription": "入到科目詳情就可以睇畀分分佈同科目評價。",
+  "courseHubNoResults": "揾唔到相關科目",
+  "courseHubSearchError": "搜尋失敗：{error}",
+  "@courseHubSearchError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubResultSubtitle": "{uid} · {department}",
+  "@courseHubResultSubtitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      },
+      "department": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailTitle": "科目詳情：{uid}",
+  "@courseDetailTitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailGradesTab": "科目給分",
+  "courseDetailReviewsTab": "科目評價",
+  "courseDetailGradesPlaceholder": "畀分分佈圖表待實現",
+  "courseDetailReviewsPlaceholder": "科目評價清單待實現",
+  "courseAuditTitle": "旁聽",
+  "courseAuditPlaceholder": "旁聽功能仲開發緊…",
+  "courseHubSearchFailMessage": "搜尋失敗：{message}",
+  "@courseHubSearchFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubGradeStatsFailMessage": "攞畀分分佈失敗：{message}",
+  "@courseHubGradeStatsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubReviewsFailMessage": "攞評價失敗：{message}",
+  "@courseHubReviewsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseTimetableDefaultName": "科目表{index}",
+  "@courseTimetableDefaultName": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomSectionFormat": "第{groups}節",
+  "@emptyClassroomSectionFormat": {
+    "placeholders": {
+      "groups": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupImportPlaceholder": "Wakeup 分享口令/連結解析器待接入，當前版本先提供匯入流程佔位。",
+  "sportsReservationToday": "今日",
+  "sportsReservationTomorrow": "聽日",
+  "sportsReservationDayAfterTomorrow": "後日",
+  "sportsVenueCourtFormat": "{areaNo}號場",
+  "@sportsVenueCourtFormat": {
+    "placeholders": {
+      "areaNo": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderNo": "訂單編號",
+  "sportsOrderCreatedAt": "創建時間",
+  "sportsOrderPaidAmount": "實付金額",
+  "sportsOrderTotalAmount": "訂單總額",
+  "sportsOrderDiscountAmount": "優惠金額",
+  "sportsOrderPaymentStartTime": "可支付時間",
+  "sportsOrderPaymentDeadline": "支付截止",
+  "sportsOrderPaymentTime": "支付時間",
+  "sportsOrderRefundDeadline": "退款截止",
+  "sportsOrderRefundAmount": "退款金額",
+  "sportsOrderCancelReason": "取消原因",
+  "sportsOrderCancelTime": "取消時間",
+  "sportsOrderRefundTime": "退款時間",
+  "sportsOrderRealName": "姓名",
+  "sportsOrderStudentWorkNo": "學號/工號",
+  "sportsVenueFree": "免費",
+  "sportsVenuePriceFormat": "{price}元",
+  "@sportsVenuePriceFormat": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice}元",
+  "@sportsVenuePriceRangeFormat": {
+    "placeholders": {
+      "lowPrice": {
+        "type": "String"
+      },
+      "highPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderPriceWithUnitFormat": "{value}元",
+  "@sportsOrderPriceWithUnitFormat": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsReservationSelectVenueTimeHint": "請先揀可以預約嘅場館同時段。",
+  "sportsReservationVenueTimeUnavailable": "而家個場地或者時段預約唔到，請重新揀。",
+  "sportsReservationSessionExpired": "運動場館系統登入已經失效。",
+  "sportsReservationAuthRequired": "請先授權運動場館系統。",
+  "sportsReservationWhuLoginRequired": "請先登入武大統一認證。",
+  "sportsFetchSportsTypes": "攞運動項目清單",
+  "sportsFetchOftenVenues": "攞常用場館",
+  "sportsFetchVenues": "攞場館清單",
+  "sportsFetchVenueDetail": "攞場館詳情",
+  "sportsFetchVenueDetailEmpty": "攞場館詳情失敗：響應為空。",
+  "sportsFetchVenueSportsTypes": "攞場館支持項目",
+  "sportsFetchAppointmentList": "攞可預約場館",
+  "sportsFetchAppointmentAreaList": "攞可預約具體場地",
+  "sportsFetchAppointmentRules": "攞預約規則",
+  "sportsFetchRecentlyStartReservations": "攞最近開始預約",
+  "sportsFetchOrderList": "攞運動場館訂單清單",
+  "sportsFetchOrderDetail": "攞運動場館訂單詳情",
+  "sportsFetchOrderDetailEmpty": "攞運動場館訂單詳情失敗：響應為空。",
+  "sportsOrderCancelDefaultRemark": "操作取消",
+  "sportsCancelOrder": "取消運動場館訂單",
+  "sportsApplyRefund": "申請運動場館訂單退款",
+  "sportsDeleteOrder": "刪除運動場館訂單紀錄",
+  "sportsCheckBlacklist": "檢查預約限制狀態",
+  "sportsFetchBulletins": "攞場館公告",
+  "sportsNetworkError": "{action}失敗：網絡請求異常。",
+  "@sportsNetworkError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiHttpError": "{action}失敗（HTTP {statusCode}）。",
+  "@sportsApiHttpError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsApiFormatError": "{action}失敗：響應格式異常。",
+  "@sportsApiFormatError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiError": "{action}失敗。",
+  "@sportsApiError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiErrorWithMessage": "{action}失敗：{message}",
+  "@sportsApiErrorWithMessage": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiJsonError": "{action}失敗：響應唔係有效 JSON。{diagnostic}",
+  "@sportsApiJsonError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "diagnostic": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiResponseEmpty": "響應為空。",
+  "sportsApiDiagnosticSafeLine": "SafeLine 防護頁",
+  "sportsApiDiagnosticAuthPage": "統一認證登入頁",
+  "sportsApiDiagnosticHtmlPage": "HTML 頁面",
+  "sportsApiDiagnosticNonJson": "非 JSON 文本",
+  "sportsApiDiagnosticResponseType": "響應類型：{kind}。",
+  "@sportsApiDiagnosticResponseType": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAuthNoCasTicket": "運動場館系統授權失敗：未攞到 CAS ticket。",
+  "sportsAuthNoToken": "運動場館系統授權失敗：未攞到登入憑證。",
+  "sportsAuthFetchToken": "攞運動場館登入憑證",
+  "sportsAuthNoJwt": "運動場館系統授權失敗：響應中缺少 JWT。",
+  "sportsAuthFailed": "運動場館系統授權失敗。",
+  "sportsAuthHttpError": "運動場館系統授權失敗（HTTP {statusCode}）。",
+  "@sportsAuthHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsAuthRetryLogin": "運動場館系統授權失敗，請重新登入武大統一認證。",
+  "scoreImportDescription": "匯入之後會寫入本機快取，之後可以直接睇同用嚟計成績。",
+  "scoreImportCaptchaFailed": "驗證碼解析失敗",
+  "scoreImportCancelled": "已經取消驗證",
+  "scoreImportImportingUndergraduate": "登入緊本科生教務系統同匯入成績…",
+  "scoreImportSuccessWithCount": "{success}：{count}條成績已快取到本機。",
+  "@scoreImportSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportFailedWithError": "{failed}：{error}",
+  "@scoreImportFailedWithError": {
+    "placeholders": {
+      "failed": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportSpoilerImporting": "正透過主修發展系統匯入成績…",
+  "scoreImportNoStudentId": "揾唔到全域登入嘅學號資料",
+  "scoreImportNoSession": "未揾到教務系統會話，請重新登入武大帳户",
+  "scoreImportSpoilerSuccessWithCount": "{success}：攞到{count}條劇透成績紀錄。",
+  "@scoreImportSpoilerSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportLastImport": "最近一次匯入",
+  "scoreImportTime": "時間：{time}",
+  "@scoreImportTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportCount": "成績條數：{count}",
+  "@scoreImportCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportExample": "示例：{name} · {score}分 · {credit}",
+  "@scoreImportExample": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaAutoVerifying": "自動驗證緊...",
+  "seatReservationAlreadySynced": "呢條預約已經喺日程度。",
+  "seatReservationAddedToAgenda": "座位預約已經加咗入日程。",
+  "seatReservationAddToAgendaTitle": "添加到日程？",
+  "seatReservationAddButton": "添加",
+  "seatReservationPreparing": "授權座位預約系統...",
+  "seatReservationErrorTitle": "座位預約暫時無法打開",
+  "seatReservationRetry": "再試",
+  "seatReservationDefaultLocation": "武漢大學圖書館",
+  "seatReservationDraftTitle": "圖書館座位預約",
+  "seatReservationDraftDetails": "嚟源：武漢大學圖書館座位預約系統\n座位ID：{seatId}\n{marker}",
+  "@seatReservationDraftDetails": {
+    "placeholders": {
+      "seatId": {
+        "type": "String"
+      },
+      "marker": {
+        "type": "String"
+      }
+    }
+  },
+  "seatReservationSourceMarker": "座位預約同步ID：{sourceId}",
+  "@seatReservationSourceMarker": {
+    "placeholders": {
+      "sourceId": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCalendarDateFormat": "{year}年{month}月{day}日",
+  "@whuCalendarDateFormat": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeDefaultBlockLabel": "第{number}塊",
+  "@homeDefaultBlockLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "itemDetailDateRangeTo": "至",
+  "itemDetailSectionGrading": "科目給分",
+  "itemDetailScoreOverall": "總評",
+  "itemDetailScoreContinuous": "平時",
+  "itemDetailScoreFinal": "期末",
+  "itemDetailSectionDistribution": "成績分佈",
+  "itemDetailDistRange90to100": "90-100",
+  "itemDetailDistRange80to89": "80-89",
+  "itemDetailDistRange70to79": "70-79",
+  "itemDetailDistRange60to69": "60-69",
+  "itemDetailDistRangeBelow60": "<60",
+  "itemDetailSectionReviews": "科目評價",
+  "itemDetailMockReview1": "老師講得好清楚，課件做得好，畀分都唔錯。每堂都有堂上練習，對明概念好有幫助。",
+  "itemDetailMockReview2": "科目內容比較充實，但期末試有啲難度。平時功課量適中，建議早啲温書。",
+  "itemDetailMockReview3": "好推薦！呢科令我對主修方向清晰咗，實驗環節設計得好。",
+  "itemDetailMockReviewer": "匿名同學",
+  "itemDetailTimeRangeSeparator": "~",
+  "aiMessageCount": "{count}條訊息",
+  "@aiMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "citationCardTypeSchedule": "日程",
+  "citationCardTypeTask": "工作",
+  "citationCardTypeMemo": "備忘",
+  "citationCardTypeCourse": "科目",
+  "citationCardTimeSeparator": "–",
+  "aiHeaderConfigRequired": "請先喺設定度完成 AI 配置。",
+  "aiHeaderServiceUnavailable": "AI 服務暫時唔得，請先搞掂配置或者網絡。",
+  "aiHeaderRetryLater": "AI 服務暫時唔得，請遲啲再試。",
+  "aiHeaderDraftCreated": "已通過草稿頁創建事項：{title}",
+  "@aiHeaderDraftCreated": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "themeColorSpec2021": "2021",
+  "themeColorSpec2025": "2025",
+  "themeColorLuotopiaBlue": "Luotopia Blue",
+  "themeColorMaterialRed": "Material Red",
+  "themeColorMaterialPink": "Material Pink",
+  "themeColorMaterialPurple": "Material Purple",
+  "themeColorMaterialDeepPurple": "Material Deep Purple",
+  "themeColorMaterialIndigo": "Material Indigo",
+  "themeColorMaterialBlue": "Material Blue",
+  "themeColorMaterialCyan": "Material Cyan",
+  "themeColorMaterialTeal": "Material Teal",
+  "themeColorMaterialGreen": "Material Green",
+  "themeColorMaterialOrange": "Material Orange",
+  "themeColorMaterialBrown": "Material Brown",
+  "themeDpiSmall": "小",
+  "themeDpiStandard": "標準",
+  "themeDpiLarge": "大",
+  "themeDpiExtraLarge": "超大",
+  "aiFormatOpenaiCompletion": "OpenAI Completion",
+  "aiFormatOpenaiResponse": "OpenAI Response",
+  "aiFormatGemini": "Gemini",
+  "aiFormatAnthropic": "Anthropic",
+  "aiSystemPromptDefault": "你係 Luotopia 嘅 AI 助手。你只會根據而家用户訊息同提供嘅事項摘要回答，唔引用舊傾偈。優先幫手開事項、整理安排、答日程問題。",
+  "whuAccountFallbackName": "武大賬户",
+  "homeWidgetDateLabel": "{month}月{day}日",
+  "@homeWidgetDateLabel": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeWidgetNoScheduleToday": "今日冇日程",
+  "homeWidgetAgendaListTitle": "事項清單",
+  "homeWidgetAgendaListSubtitle": "左邊日程，右邊工作同備忘",
+  "homeWidgetRightColumnTitle": "任務同備忘",
+  "homeWidgetTypeCourse": "科目",
+  "homeWidgetUntitledItem": "未命名事項",
+  "homeWidgetAllDay": "全日",
+  "homeWidgetUpdatedAt": "更新於{time}",
+  "@homeWidgetUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWidgetWeekLabel": "第{week}周",
+  "@homeWidgetWeekLabel": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherConditionSunny": "晴",
+  "weatherConditionCloudy": "多雲",
+  "weatherConditionRainy": "雨",
+  "weatherConditionSnowy": "雪",
+  "weatherConditionFoggy": "霧",
+  "weatherAqiExcellent": "優",
+  "weatherAqiGood": "良",
+  "weatherAqiModerate": "輕度污染",
+  "weatherAqiPoor": "中度污染",
+  "weatherBannerRainSoon": "就嚟落雨喇，出門記得帶遮！",
+  "weatherBannerAlert": "天氣警報：{alert}",
+  "@weatherBannerAlert": {
+    "placeholders": {
+      "alert": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherAQIValue": "AQI {value}",
+  "@weatherAQIValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
+  "@weatherConditionFormat": {
+    "placeholders": {
+      "condition": {
+        "type": "String"
+      },
+      "minTemp": {
+        "type": "String"
+      },
+      "maxTemp": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaRetrying": "自動驗證緊（第{attempt}次嘗試）...",
+  "@scoreCaptchaRetrying": {
+    "placeholders": {
+      "attempt": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsWeatherProviders": "天氣資料提供商",
+  "weatherProviderForecast": "預報",
+  "weatherProviderCurrent": "目前天氣",
+  "weatherProviderAirQuality": "空氣質素",
+  "weatherProviderPrecipitation": "降水預報",
+  "weatherProviderAlerts": "警報",
+  "weatherProviderNormalTemp": "正常温度範圍",
+  "weatherProviderLocationLookup": "位置查詢",
+  "weatherProviderChina": "小米天氣",
+  "weatherProviderOpenMeteo": "Open-Meteo",
+  "weatherProviderQWeather": "同風天氣",
+  "weatherProviderAccuWeather": "AccuWeather",
+  "weatherProviderOpenWeatherMap": "OpenWeatherMap",
+  "weatherProviderNominatim": "Nominatim",
+  "weatherAqiHazardous": "重度污染",
+  "weatherRainExpected": "就嚟落雨",
+  "weatherClear": "晴",
+  "weatherCloudy": "多雲",
+  "weatherFog": "霧",
+  "weatherRain": "雨",
+  "weatherSnow": "雪",
+  "weatherThunderstorm": "雷暴雨",
+  "weatherUnknown": "未知",
+  "settingsWeatherLocationService": "定位服務",
+  "settingsWeatherLocationSystem": "系統定位",
+  "settingsWeatherLocationIpSb": "IP.SB",
+  "settingsWeatherLocationBaiduIp": "百度IP定位",
+  "settingsWeatherBaiduApiKey": "Baidu API Key",
+  "locationSearchTitle": "搜尋位置",
+  "locationSearchHint": "搜尋城市…",
+  "locationSearchNoResults": "揾唔到結果",
+  "settingsWeatherUpdateInterval": "更新頻率",
+  "settingsWeatherUpdate15m": "15分鐘",
+  "settingsWeatherUpdate30m": "30分鐘",
+  "settingsWeatherUpdate1h": "1小時",
+  "settingsWeatherUpdate2h": "2小時",
+  "settingsWeatherUpdateAlways": "總是最新",
+  "weatherAirQualityTitle": "空氣質素",
   "weatherAirQualityPm25": "PM2.5",
   "weatherAirQualityPm10": "PM10",
-  "weatherAirQualityO3": "O\u2083",
-  "weatherAirQualityNo2": "NO\u2082",
-  "weatherAirQualitySo2": "SO\u2082",
+  "weatherAirQualityO3": "O₃",
+  "weatherAirQualityNo2": "NO₂",
+  "weatherAirQualitySo2": "SO₂",
   "weatherAirQualityCo": "CO",
-  "weatherAirQualityUnit": "\u00B5g/m\u00B3",
-  "weatherAirQualityClose": "\u95DC\u9589",
-  "weatherAirQualitySubtitle": "\u5BE6\u6642\u6C61\u67D3\u7269\u6FC3\u5EA6",
-  "campusBusTitle": "Campus Bus",
-  "campusBusNearestStop": "Nearest: {stopName}",
-  "campusBusDistance": "~{meters}m",
-  "campusBusLineOne": "Line 1",
-  "campusBusLineTwo": "Line 2",
-  "campusBusLineMedical": "Medical Campus",
-  "campusBusPlateNumber": "No. {plate}",
-  "campusBusArrived": "Arrived",
-  "campusBusStopsAway": "{stops} stop(s) away",
-  "campusBusNoInfo": "No bus information available",
-  "campusBusNoNearby": "No nearby bus stops found",
-  "campusBusLoadFailed": "Failed to load bus info",
-  "campusBusNotLoggedIn": "Not logged in or out of service hours",
-  "campusBusRefresh": "Refresh",
-  "settingsBuildTypeDebug": "Debug Build",
-  "settingsBuildTypeProfile": "Profile Build",
-  "settingsBuildTypeRelease": "Release Build",
-  "settingsBuildChannelAlpha": "Alpha",
-  "settingsBuildChannelBeta": "Beta",
-  "settingsBuildChannelStable": "Stable",
-  "settingsBuildInfoVersion": "Version",
-  "settingsBuildInfoBuildNumber": "Build",
-  "settingsBuildInfoChannel": "Channel",
-  "settingsBuildInfoType": "Type",
-  "weatherAqiStandardUs": "US Standard",
-  "weatherAqiStandardCn": "China Standard",
-  "weatherAqiStandardEu": "EU Standard",
-  "settingsWeatherAqiStandard": "AQI Standard",
-  "settingsWeatherAqiStandardSubtitle": "All AQI values are converted to this standard for consistent display"
+  "weatherAirQualityUnit": "µg/m³",
+  "weatherAirQualityClose": "關閉",
+  "weatherAirQualitySubtitle": "實時污染物濃度",
+  "campusBusTitle": "校巴",
+  "campusBusNearestStop": "最近: {stopName}",
+  "campusBusDistance": "約{meters}米",
+  "campusBusLineOne": "1號線",
+  "campusBusLineTwo": "2號線",
+  "campusBusLineMedical": "醫學部",
+  "campusBusPlateNumber": "車牌號: {plate}",
+  "campusBusArrived": "已到站",
+  "campusBusStopsAway": "仲有 {stops} 站",
+  "campusBusNoInfo": "暫時冇校巴運行資訊",
+  "campusBusNoNearby": "冇攞到附近的校巴資訊",
+  "campusBusLoadFailed": "加載校巴失敗",
+  "campusBusNotLoggedIn": "未登入或不在服務時間",
+  "campusBusRefresh": "重新整理",
+  "campusBusServiceHours": "運營時間: {hours}",
+  "whuConfirmLogout": "確認登出",
+  "whuLogoutWarning": "登出之後要重新登入先用到武大相關服務。",
+  "settingsDevConfirmDisable": "關掉開發者模式？",
+  "settingsDevDisableWarning": "關咗之後要再連續撳版本號先開得返。",
+  "scoreClearCacheTitle": "清走成績快取",
+  "scoreClearCacheWarning": "所有本機快取嘅成績資料都會清走，確定繼續？",
+  "scoreClearCacheSuccess": "成績快取已經清走",
+  "scoreClearCacheHint": "清走本機快取嘅成績資料",
+  "settingsBuildTypeDebug": "調試版",
+  "settingsBuildTypeProfile": "性能分析版",
+  "settingsBuildTypeRelease": "發佈版",
+  "settingsBuildChannelAlpha": "內測版",
+  "settingsBuildChannelBeta": "公測版",
+  "settingsBuildChannelStable": "正式版",
+  "settingsBuildInfoVersion": "版本號",
+  "settingsBuildInfoBuildNumber": "構建號",
+  "settingsBuildInfoChannel": "發佈渠道",
+  "settingsBuildInfoType": "構建類型",
+  "weatherAqiStandardUs": "美國標準",
+  "weatherAqiStandardCn": "中國標準",
+  "weatherAqiStandardEu": "歐盟標準",
+  "settingsWeatherAqiStandard": "AQI 標準",
+  "settingsWeatherAqiStandardSubtitle": "所有 AQI 值都會統一換算為此標準顯示",
+  "libraryAuthFailed": "授權失敗：{error}",
+  "@libraryAuthFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCurrentReservation": "而家嘅預約",
+  "libraryCancelTitle": "取消預約",
+  "libraryCancelConfirm": "確定要取消而家呢個預約？",
+  "libraryConfirmCancel": "確定取消",
+  "libraryCancelSuccess": "已經取消預約",
+  "libraryCancelFailed": "取消失敗：{error}",
+  "@libraryCancelFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCheckoutSuccess": "已經簽退",
+  "libraryCheckoutFailed": "簽退失敗：{error}",
+  "@libraryCheckoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryMenuCancel": "取消預約",
+  "libraryMenuCheckout": "簽退",
+  "libraryNoRoomData": "暫時冇閲覽室資料",
+  "libraryFloor": "{floor}樓",
+  "@libraryFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryAvailable": "可用 {free}/{total}",
+  "@libraryAvailable": {
+    "placeholders": {
+      "free": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryBookTitle": "{building} - {room}",
+  "@libraryBookTitle": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoSeatData": "暫時冇座位資料",
+  "librarySeatLayoutFailed": "加載座位圖失敗：{error}",
+  "@librarySeatLayoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryBookThisSeat": "預約呢個座位",
+  "libraryDate": "日期",
+  "libraryStartTime": "開始",
+  "libraryEndTime": "完",
+  "libraryBookSuccess": "預約成功！",
+  "libraryBookFailed": "預約失敗：{error}",
+  "@libraryBookFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoHistory": "暫時冇預約紀錄",
+  "libraryStatusReserved": "已預約",
+  "libraryStatusCheckIn": "履約中",
+  "libraryStatusAway": "暫離",
+  "libraryStatusCompleted": "已經完",
+  "libraryStatusCancelled": "已取消",
+  "libraryStatusMissed": "失約",
+  "libraryStatusLeftEarly": "早退",
+  "libraryStatusNoCheckout": "未簽退",
+  "libraryToday": "今日",
+  "libraryTomorrow": "聽日",
+  "emptyClassroomSelfStudyTitle": "{location} 温習",
+  "@emptyClassroomSelfStudyTitle": {
+    "placeholders": {
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomFilterSection": "節次",
+  "emptyClassroomSectionClear": "清走",
+  "addToAgendaTitle": "添加到日程？",
+  "addToAgendaConfirm": "添加",
+  "sportsAgendaItemTitle": "{type} · {venue}",
+  "@sportsAgendaItemTitle": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "venue": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAgendaItemDetails": "運動場館預約",
+  "sportsAddedToAgenda": "已經加咗入日程",
+  "wallpaperCenterTitle": "桌布",
+  "wallpaperCenterSubtitle": "為各頁面單獨設定桌布",
+  "wallpaperSourceNone": "無",
+  "wallpaperSourceLocal": "本機圖片",
+  "wallpaperSourceBing": "Bing 每日",
+  "wallpaperPickImage": "揀圖片",
+  "wallpaperNoImage": "未揀圖片",
+  "wallpaperTargetHome": "時間表",
+  "wallpaperTargetCampus": "校園",
+  "wallpaperTargetSettings": "設定",
+  "wallpaperTargetTaskList": "工作清單",
+  "wallpaperTargetForum": "論壇",
+  "wallpaperTargetAi": "AI",
+  "libraryBorrowingPlaceholder": "圖書借閲功能仲開發緊…",
+  "settingsAiProvider": "AI 提供商",
+  "settingsAiModels": "模型清單",
+  "settingsAiFetchModels": "攞模型",
+  "settingsAiFetchedCount": "已攞 {count} 個模型",
+  "@settingsAiFetchedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelHint": "輸入模型名稱或從清單揀",
+  "homeJumpCurrentWeek": "本週",
+  "homeJumpSemesterStartWeek": "開學週",
+  "weatherAirQualityAccuHint": "将空气质量数据源切换为 AccuWeather 可查看详细污染物",
+  "languageFollowSystem": "跟系統",
+  "languageFollowApp": "跟隨應用",
+  "ecardPaycodeTitle": "E卡付款碼",
+  "ecardPaycodeUseWeb": "用網頁版",
+  "ecardPaycodeUseWebSubtitle": "如果原生付款碼有問題，可以切換備用",
+  "ecardPaycodeLoginRequiredTitle": "請先登入 WHU 帳戶",
+  "ecardPaycodeLoginRequiredMessage": "登入之後就可以攞 E卡付款碼。",
+  "ecardPaycodeRefreshing": "重新整理緊付款碼…",
+  "ecardPaycodeLoading": "攞緊付款碼…",
+  "ecardPaycodeAccountFallback": "WHU 帳號",
+  "ecardPaycodeSessionExpired": "登入狀態已經過期，請喺「帳戶」重新登入 WHU。",
+  "ecardPaycodeFetchFailed": "付款碼攞唔到，請再試或者切換網頁版。",
+  "ecardPaycodeShowToMerchant": "向商戶出示完成支付",
+  "ecardPaycodeAutoRefreshHint": "每分鐘自動重新整理，唔好截圖用",
+  "ecardPaycodeRefreshNow": "即刻重新整理",
+  "ecardPaycodeRefreshInSeconds": "{seconds} 秒後再重新整理",
+  "@ecardPaycodeRefreshInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "ecardPaycodeUnavailable": "暫時攞唔到付款碼",
+  "studyStatusTitle": "學業情況",
+  "studyStatusEmptyTitle": "暫無學業資料",
+  "studyStatusEmptyHint": "撳重新整理由教務系統攞",
+  "studyStatusFetchData": "攞資料",
+  "studyStatusFetchFailed": "攞資料失敗",
+  "studyStatusStatsTime": "統計時間 {time}",
+  "@studyStatusStatsTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusTrainingPlan": "培養計畫",
+  "studyStatusCourseOverview": "課程修讀概況",
+  "studyStatusFilterAll": "全部",
+  "studyStatusFilterPassed": "通過",
+  "studyStatusFilterFailed": "未通過",
+  "studyStatusFilterStudying": "在讀",
+  "studyStatusFilterNotTaken": "未修",
+  "studyStatusOutOfPlan": "計畫外",
+  "studyStatusTotalCourses": "共{count}門",
+  "@studyStatusTotalCourses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusPassedCount": "通過{count}",
+  "@studyStatusPassedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusFailedCount": "未通過{count}",
+  "@studyStatusFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusStudyingCount": "在讀{count}",
+  "@studyStatusStudyingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusRequiredCredits": "要求{credits}學分",
+  "@studyStatusRequiredCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusEarnedCredits": "已獲{credits}學分",
+  "@studyStatusEarnedCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusNoCourses": "暫無課程資料",
+  "studyStatusCredits": "{credit}學分",
+  "@studyStatusCredits": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusRetake": "重修",
+  "studyStatusScorePoints": "{score}分",
+  "@studyStatusScorePoints": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusOriginalScore": "原{score}分",
+  "@studyStatusOriginalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusGradePoint": "績點{point}",
+  "@studyStatusGradePoint": {
+    "placeholders": {
+      "point": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageStudyStatus": "學業情況",
+  "scorePageFetchStudyStatus": "取得學業情況",
+  "aiTimeline": "時間線",
+  "weatherDetailTitle": "天氣詳情",
+  "weatherDetailTemperature": "溫度",
+  "weatherDetailFeelsLike": "體感",
+  "weatherDetailHighLow": "最高/最低",
+  "weatherDetailHumidity": "濕度",
+  "weatherDetailUv": "紫外線",
+  "weatherDetailWind": "風向風速",
+  "weatherDetailPressure": "氣壓",
+  "weatherDetailVisibility": "能見度",
+  "weatherDetailSunrise": "日出",
+  "weatherDetailSunset": "日落"
 }

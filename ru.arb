@@ -1,246 +1,817 @@
 {
   "@@locale": "ru",
+  "aiAssistant": "AI Ассистент",
+  "aiDataSourceErrorMessage": "An error occurred in AI service",
+  "aiDataSourceNetworkError": "AI service network error",
+  "aiDataSourceTimeout": "AI service request timed out",
+  "aiInputHint": "Есть вопросы по расписанию...",
+  "aiTitle": "ИИ-помощник",
+  "allCourseItemsInThis": "Все вопросы курса, указанные в этом расписании курса, будут удалены одновременно.",
+  "allCourseItemsInThisTimetableW": "Все курсы в этом расписании будут удалены.",
+  "allSameNameCourses": "Все курсы с таким же названием",
+  "alwaysHide": "Всегда скрывать",
+  "alwaysShow": "Всегда показывать",
+  "applyColorTo": "Применить цвет к",
+  "appRouterError": "Непредвиденная ошибка маршрутизации",
+  "appRouterNotFound": "Страница не найдена",
   "appTitle": "Luotopia",
-  "navHome": "Домашняя страница",
-  "navList": "расписание",
-  "navForum": "Форум",
-  "navAi": "ИИ",
-  "navCampus": "кампус",
-  "navSettings": "настройки",
-  "homeTitle": "Обзор расписания",
-  "homeDescription": "Здесь будет размещена домашняя страница табличного планирования с еженедельным и ежемесячным просмотром.",
-  "listTitle": "Список дел, которые нужно сделать",
-  "listDescription": "Здесь будут размещаться задачи, расписания, заметки и список на основе вкладок.",
-  "forumTitle": "Луоцзяское бомбоубежище",
+  "baseColorForStaticTheme": "Базовый цвет для статических тем",
+  "biometricLockAuthenticating": "Authenticating...",
+  "biometricLockFailed": "Ошибка аутентификации",
+  "biometricLockReason": "Разблокируйте для доступа к Luotopia",
+  "campusAppCourseHub": "Учёба",
+  "campusAppEcard": "Карта E",
+  "campusAppEcardPayment": "Код оплаты",
+  "campusAppEmptyClassroom": "Своб. аудитории",
+  "campusAppFileSharing": "Файлы",
+  "campusAppLibrary": "Библиотека",
+  "campusAppScores": "Оценки",
+  "campusAppStudyStatus": "Study Status",
+  "campusAppSeatReservation": "Места",
+  "campusAppSports": "Спорт",
+  "campusAppTimetable": "Расписание",
+  "campusPageTitle": "Campus Services",
   "campusTitle": "кампус",
-  "editorTitle": "Новый товар",
-  "editorDescription": "Здесь будет размещена единая страница редактирования расписаний, задач и заметок.",
-  "settingsTitle": "настройки",
-  "settingsDescription": "Здесь будут размещены входы настроек для глобальной страницы, домашней страницы и страниц списка.",
-  "settingsSearchTooltip": "Настройки поиска",
-  "settingsSearchHint": "Настройки поиска",
-  "settingsSearchEmpty": "Соответствующие настройки не найдены",
-  "settingsGeneralEntryTitle": "Общие настройки",
-  "settingsGeneralEntrySubtitle": "Темы, языки, виджеты и панели навигации",
-  "settingsHomeEntrySubtitle": "Временные блоки на главной странице, режим сетки и широкоэкранный диапазон отображения",
-  "settingsListEntryTitle": "Настройки страницы списка",
-  "settingsListEntrySubtitle": "Сортировка списка, изменение порядка и параметры отображения",
-  "settingsAboutEntryTitle": "О",
-  "settingsAboutEntrySubtitle": "Информация о приложении, версия и лицензия",
-  "settingsGeneralWidgetsTitle": "виджет рабочего стола",
-  "settingsAboutProductSubtitle": "Полноэкранный обзор табличного планирования кампуса",
-  "settingsAboutVersionTitle": "версия",
-  "settingsQuickActionsTitle": "Быстрое позиционирование",
-  "settingsHomeSectionTitle": "Настройки главной страницы",
-  "settingsHomeSectionDescription": "Настройте правила сегментации временных блоков для домашней страницы и диапазон времени по умолчанию, отображаемый на сверхшироком экране.",
-  "settingsHomeDayStart": "Начните планировать свое время каждый день",
-  "settingsHomeBlockDuration": "Продолжительность одного блока планирования",
-  "settingsHomeBlockGap": "Интервал планирования блока",
-  "settingsHomeBlockCount": "Количество блоков планирования",
-  "settingsHomeItemOpacity": "Непрозрачность поля главной страницы",
-  "settingsHomeGridMode": "сетка",
-  "homeGridModeTime": "временная сетка",
-  "homeGridModeCourse": "Сетка учебной программы",
-  "settingsHomeWideLayout": "Сверхширокий диапазон по умолчанию",
-  "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsMinutesValue": "{value} минут",
-  "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsPercentValue": "{value}%",
-  "detailTitle": "Подробности дела",
-  "detailDescription": "Отображение полной информации и быстрых операций для одного элемента.",
-  "detailMissing": "Этот элемент не найден. Возможно, оно было удалено.",
-  "detailTimeLabel": "время",
+  "cancel": "Отмена",
+  "changeColorVariantGenerationAlgorithm": "Изменить алгоритм генерации цветовых вариантов",
+  "changeOnlyThisItemOr": "Change only this item, or every course named ",
+  "changeOnlyThisItemOrEveryCours": "Изменить только этот элемент или все курсы \"{title}\"?",
+  "chooseBetweenForumOrAi": "Форум или AI-помощник отображаются в центре панели навигации (форум по умолчанию).",
+  "chooseBetweenForumOrAiForTheMi": "Выберите Форум или ИИ для средней вкладки.",
+  "chooseDuration": "Выберите продолжительность",
+  "colorsAppearance": "Цвет и внешний вид",
+  "commonBack": "Возврат",
+  "commonCancel": "Отмена",
+  "commonEmail": "Эл. почта",
+  "commonId": "ID",
+  "commonLogin": "Войти",
+  "whuAuthReLogin": "Re-login",
+  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "commonLogout": "Выйти",
+  "commonNotSet": "Не задано",
+  "commonPassword": "Пароль",
+  "commonRegister": "Регистрация",
+  "commonRegistrationTime": "Время регистрации",
+  "commonUsername": "Имя пользователя",
+  "courseGridSettings": "Настройки сетки курсов",
+  "courseHubCourses": "Courses",
+  "courseHubExams": "Exams",
+  "courseHubLoginButton": "Log in",
+  "courseHubLoginFailed": "Login failed",
+  "courseHubLoginHint": "Please log in with your WHU academic account",
+  "courseHubLoginSuccess": "Login successful",
+  "courseHubLoginTitle": "WHU Academic Login",
+  "courseHubNoCourseToday": "No classes today",
+  "courseHubScorePageTitle": "Academic Scores",
+  "courseHubScores": "Оценки",
+  "courseHubTimetable": "Расписание",
+  "courseHubTimetablePageTitle": "Course Timetable",
+  "courseHubTimetableWeek": "Week ",
+  "courseHubTitle": "Учебный центр",
+  "courseImport": "Импорт курсов",
+  "courseImportAllCourses": "All Courses",
+  "courseImportAppend": "Append",
+  "courseImportCourseName": "Course Name",
+  "courseImportCurrentSemester": "Current Semester",
+  "courseImportCustomWeeks": "Custom",
+  "courseImportEvenWeek": "Even Week",
+  "courseImportEveryWeek": "Every Week",
+  "courseImportExportFileName": "luotopia_timetable_{name}",
+  "courseImportExportImport": "Import / Export",
+  "courseImportExportSuccess": "Export successful",
+  "courseImportExportToLocal": "Export Local Timetable",
+  "courseImportFromEdu": "Import from Academic System",
+  "courseImportFromFile": "Import from File",
+  "courseImportImporting": "Importing...",
+  "courseImportImportSuccess": "Import successful, added {count} courses",
+  "courseImportImportSuccessDesc": "Successfully imported {count} courses to local timetable",
+  "courseImportLocation": "Location",
+  "courseImportLoginRequired": "Сначала войдите в учебную систему WHU",
+  "courseImportNetworkError": "Network error, please check your connection",
+  "courseImportNoData": "No course data",
+  "courseImportNoSemesterData": "No course data for this semester",
+  "courseImportOddWeek": "Odd Week",
+  "courseImportOverwrite": "Overwrite",
+  "courseImportParseFailed": "Failed to parse course data",
+  "courseImportParseSuccess": "Parsed {count} courses",
+  "courseImportParsing": "Parsing course data...",
+  "courseImportSelectFile": "Select file",
+  "courseImportSemester": "Семестр",
+  "courseImportSemesterRequired": "Please select a semester",
+  "courseImportTeacher": "Teacher",
+  "courseImportTime": "Time",
+  "courseImportTitle": "Импорт расписания",
+  "courseImportToLocal": "Import as Local Timetable",
+  "courseImportWarnOverwrite": "This will overwrite your existing local courses. Continue?",
+  "courseImportWeek": "Week",
+  "courseImportWeeks": "Weeks",
+  "courseTablesImport": "Расписания и Импорт",
+  "courseTimetablesAdd": "Add Timetable",
+  "courseTimetablesCreateFirst": "Create your first timetable",
+  "courseTimetablesCurrent": "Current",
+  "courseTimetablesDelete": "Delete",
+  "courseTimetablesEdit": "Edit",
+  "courseTimetablesImported": "Imported",
+  "courseTimetablesLocal": "Local",
+  "courseTimetablesNoTimetables": "No timetables yet",
+  "courseTimetablesShare": "Share",
+  "courseTimetablesTitle": "Timetables",
+  "courseTimetablesWeekCount": "{count} weeks",
+  "create": "Создать",
+  "createTimetable": "Создать расписание",
+  "customSeedColor": "Пользовательский цвет",
+  "delete": "Удалить",
+  "deleteTimetable": "Удалить расписание",
   "detailDeadlineLabel": "Крайний срок",
+  "detailDelete": "Удалить элементы",
+  "detailDescription": "Отображение полной информации и быстрых операций для одного элемента.",
   "detailLocationLabel": "местоположение",
+  "detailMarkComplete": "Отметить выполненным",
+  "detailMarkIncomplete": "Восстановление не завершено",
+  "detailMemoDate": "{date} · Ожидается {duration}",
+  "detailMissing": "Этот элемент не найден. Возможно, оно было удалено.",
   "detailNotesLabel": "Примечания",
+  "detailRangeDate": "от {start} до {end}",
   "detailReminderLabel": "напоминание",
   "detailRepeatLabel": "Повторить",
-  "detailMarkComplete": "Отметить как завершенное",
-  "detailMarkIncomplete": "Восстановление не завершено",
-  "detailDelete": "Удалить элементы",
-  "timePickerTitle": "Выбор времени",
-  "timePickerDescription": "Этот маршрут зарезервирован для общих селекторов времени дня, недели и месяца.",
+  "detailTimeLabel": "время",
+  "detailTitle": "Подробности дела",
   "developmentTag": "Базовый пользовательский интерфейс",
-  "themeSectionTitle": "показать",
-  "themeModeLabel": "режим темы",
-  "themeLight": "светлый цвет",
-  "themeDark": "Темный",
-  "themeSystem": "Следуйте системе",
-  "languageSectionTitle": "Язык",
-  "languageLabel": "язык приложения",
-  "languageChinese": "китайский",
-  "languageEnglish": "английский",
-  "commonBack": "Возврат",
-  "headerPreviousPeriod": "предыдущий период времени",
-  "headerNextPeriod": "следующий период времени",
-  "headerOpenTimePicker": "Выбор времени открытия",
-  "headerOpenListTabs": "Открыть выбор вкладки",
-  "headerOpenListSettings": "Открыть настройки страницы списка",
-  "headerOpenItemTypePicker": "Включить переключение типа материи",
-  "homeScopePickerTitle": "Диапазон отображения",
-  "homeScopeWeek": "неделя",
-  "homeScopeMonth": "месяц",
-  "listTabMyDay": "мой день",
-  "listTabAllItems": "Все имеет значение",
-  "listTabTasks": "список задач",
-  "listTabSchedules": "список расписаний",
-  "listTabMemos": "Чит-лист",
-  "listMenuTitle": "Переключение вкладок",
-  "listSettingsMenuTitle": "Настройки страницы списка",
-  "listSettingsSort": "Сортировать по",
-  "listSettingsReorder": "Изменение порядка задач",
-  "listSettingsMore": "Дополнительные настройки",
-  "@listSummary": {
-    "placeholders": {
-      "pending": {
-        "type": "int"
-      },
-      "completed": {
-        "type": "int"
-      }
-    }
-  },
-  "listSummary": "Незавершенные элементы {pending}, завершенные элементы {completed}",
-  "@listPendingSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listPendingSection": "Ожидается {count}",
-  "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "listCompletedSection": "Завершено {count}",
-  "listCompletedExpand": "Развернуть завершенные элементы",
-  "listCompletedCollapse": "Закрыть завершенные элементы",
-  "listEmptyTitle": "Здесь пока ничего",
-  "listEmptyDescription": "Нажмите знак «плюс» в правом нижнем углу, чтобы создать первую задачу, расписание или заметку.",
-  "listReorderHint": "В настоящее время выполняется сортировка вручную, перетащите маркер с правой стороны задачи, чтобы изменить ее порядок.",
-  "listStaticItemsLabel": "Прочие вопросы",
-  "listActionEdit": "Редактировать",
-  "listActionDelete": "Удалить",
-  "listSortDueDate": "срок годности",
-  "listSortTodayFocus": "Сегодняшний исполнитель",
-  "listSortAlphabetical": "алфавитный порядок",
-  "listSortCreatedDate": "Дата создания",
-  "listSortManual": "Ручная сортировка",
-  "listStatusPending": "Не завершено",
-  "listStatusCompleted": "Завершено",
-  "editorTypePickerTitle": "Переключить тип дела",
-  "editorTypeTask": "Задача",
-  "editorTypeSchedule": "расписание",
-  "editorTypeMemo": "памятка",
-  "editorCreateTask": "Создать задачу",
-  "editorCreateSchedule": "Создать расписание",
+  "done": "Готово",
+  "dynamicColorMonet": "Динамический цвет",
+  "dynamicColorSourceAccent": "Использовать системный акцентный цвет",
+  "dynamicColorSourceGtk": "Использовать цвет темы GTK",
+  "dynamicColorSourceWallpaper": "Извлекать из системных обоев",
+  "ecardPaymentCodeExpired": "Code expired",
+  "ecardPaymentLoading": "Loading payment code...",
+  "ecardPaymentRefresh": "Refresh",
+  "ecardPaymentTitle": "E-Card Payment Code",
+  "editorAddFromAlbum": "Add from album",
+  "editorAddItem": "Add item",
+  "editorAddPhoto": "Add Photo",
+  "editorAllDayDescription": "После его включения будет отображаться только дата, а конкретное время и минуты уже не будут устанавливаться отдельно.",
+  "editorAllDayTitle": "задачи на весь день",
+  "editorCancel": "Cancel",
+  "editorColorAmber": "янтарь",
+  "editorColorCoral": "кораллово-красный",
+  "editorColorCrimson": "малиновый",
+  "editorColorIndigo": "индиго",
+  "editorColorJade": "изумрудно-зеленый",
+  "editorColorLime": "зеленый лайм",
+  "editorColorOrchid": "синий фиолетовый",
+  "editorColorPickerTitle": "Выбор цвета",
+  "editorColorRose": "розово-розовый",
+  "editorColorSky": "небесно-голубой",
+  "editorColorSlate": "шиферно-серый",
+  "editorColorTeal": "утиный зеленый",
+  "editorColorViolet": "фиолетовый",
+  "editorColumnMode": "Single Column",
+  "editorConfirmDelete": "Confirm delete",
   "editorCreateMemo": "Создать заметку",
-  "editorEditTask": "Изменить задачу",
-  "editorEditSchedule": "Изменить расписание",
+  "editorCreateSchedule": "Создать расписание",
+  "editorCreateTask": "Создать задачу",
+  "editorDayOfWeek": "Day of week",
+  "editorDeadlineClear": "Очистить",
+  "editorDeadlineUnset": "не установлено",
+  "editorDeleteItem": "Delete",
+  "editorDeleteWarning": "Are you sure you want to delete this item?",
+  "editorDescription": "Здесь будет размещена единая страница редактирования расписаний, задач и заметок.",
+  "editorDetailLayout": "Detail Layout",
+  "editorDurationHourMinute": "{hours} часов {minutes} минут",
+  "editorDurationHours": "{hours} часов",
+  "editorDurationMinutes": "{minutes} минут",
+  "editorDurationPickerTitle": "Выберите продолжительность",
   "editorEditMemo": "Примечание редактора",
-  "editorSectionBasic": "Основная информация",
-  "editorSectionColor": "Цвет",
-  "editorSectionTime": "дата и время",
-  "editorSectionReminder": "напоминание",
-  "editorSectionRepeat": "Повторить",
-  "editorSectionLocationNotes": "Местоположение и примечания",
-  "editorFieldTitle": "Имя",
-  "editorFieldTitleName": "Название задачи",
-  "editorFieldDetails": "Подробности",
-  "editorFieldLocation": "местоположение",
-  "editorFieldStart": "время начала",
-  "editorFieldEnd": "время окончания",
+  "editorEditSchedule": "Изменить расписание",
+  "editorEditTask": "Изменить задачу",
+  "editorEndTime": "End time",
+  "editorEnterDescription": "Enter description",
+  "editorEnterText": "Enter text",
+  "editorEnterTitle": "Enter title",
+  "editorErrorDeadlineBeforeStart": "Крайний срок не может быть раньше времени начала.",
+  "editorErrorDurationPositive": "Длительность должна быть больше 0.",
+  "editorErrorEndBeforeStart": "Время окончания не может быть раньше времени начала.",
+  "editorErrorTitleRequired": "Пожалуйста, введите имя.",
   "editorFieldDate": "Дата",
-  "editorFieldStartDate": "дата начала",
-  "editorFieldStartTime": "время начала",
-  "editorFieldEndDate": "дата окончания",
-  "editorFieldEndTime": "время окончания",
   "editorFieldDeadline": "Крайний срок",
   "editorFieldDeadlineDate": "Крайний срок",
   "editorFieldDeadlineTime": "Крайний срок",
-  "editorFieldTargetDate": "расчетная дата",
+  "editorFieldDetails": "Подробности",
+  "editorFieldEnd": "время окончания",
+  "editorFieldEndDate": "дата окончания",
+  "editorFieldEndTime": "время окончания",
   "editorFieldEstimatedDuration": "Предполагаемая продолжительность",
-  "editorHintTitle": "Как называется эта вещь?",
-  "editorHintTaskTitle": "Название задачи",
-  "editorHintScheduleTitle": "Название расписания",
-  "editorHintMemoTitle": "Название заметки",
+  "editorFieldLocation": "местоположение",
+  "editorFieldStart": "время начала",
+  "editorFieldStartDate": "дата начала",
+  "editorFieldStartTime": "время начала",
+  "editorFieldTargetDate": "расчетная дата",
+  "editorFieldTitle": "Имя",
+  "editorFieldTitleName": "Название задачи",
   "editorHintCourseTitle": "Название курса",
   "editorHintDetails": "Примечания",
   "editorHintLocation": "местоположение",
-  "editorColorSky": "небесно-голубой",
-  "editorColorJade": "изумрудно-зеленый",
-  "editorColorAmber": "янтарь",
-  "editorColorCoral": "кораллово-красный",
-  "editorColorOrchid": "синий фиолетовый",
-  "editorColorSlate": "шиферно-серый",
-  "editorColorRose": "розово-розовый",
-  "editorColorLime": "зеленый лайм",
-  "editorColorIndigo": "индиго",
-  "editorColorTeal": "утиный зеленый",
-  "editorColorCrimson": "малиновый",
-  "editorColorViolet": "фиолетовый",
-  "editorColorPickerTitle": "Выберите цвет элемента",
-  "editorAllDayTitle": "задачи на весь день",
-  "editorAllDayDescription": "После его включения будет отображаться только дата, а конкретное время и минуты уже не будут устанавливаться отдельно.",
-  "editorReminderNone": "Не напоминать",
-  "editorReminderAtTime": "Напоминание вовремя",
-  "editorReminderFiveMinutes": "на 5 минут раньше времени",
-  "editorReminderFifteenMinutes": "на 15 минут раньше времени",
-  "editorReminderOneHour": "за 1 час заранее",
-  "editorReminderOneDay": "за 1 день вперед",
-  "editorReminderPageTitle": "Настройки напоминаний",
-  "editorRepeatNone": "Не повторяется",
-  "editorRepeatDaily": "каждый день",
-  "editorRepeatWeekdays": "рабочие дни",
-  "editorRepeatWeekly": "еженедельно",
-  "editorRepeatMonthly": "ежемесячно",
-  "editorRepeatYearly": "каждый год",
-  "editorRepeatPageTitle": "Повторить настройки",
-  "editorRepeatPagePlaceholder": "Правила сложного повторения будут расширяться позже.",
-  "editorDurationPickerTitle": "Выберите продолжительность",
-  "editorDeadlineClear": "Очистить",
-  "editorDeadlineUnset": "не установлено",
+  "editorHintMemoTitle": "Название заметки",
+  "editorHintScheduleTitle": "Название расписания",
+  "editorHintTaskTitle": "Название задачи",
+  "editorHintTitle": "Как называется эта вещь?",
+  "editorLocation": "Место",
   "editorPickerCancel": "Отмена",
   "editorPickerConfirm": "ОК",
+  "editorReminderAtTime": "Напоминание вовремя",
+  "editorReminderFifteenMinutes": "на 15 минут раньше времени",
+  "editorReminderFiveMinutes": "на 5 минут раньше времени",
+  "editorReminderNone": "Без напоминания",
+  "editorReminderOneDay": "за 1 день вперед",
+  "editorReminderOneHour": "за 1 час заранее",
+  "editorReminderPageTitle": "Настройки напоминаний",
+  "editorRepeatDaily": "каждый день",
+  "editorRepeatMonthly": "ежемесячно",
+  "editorRepeatNone": "Не повторяется",
+  "editorRepeatPagePlaceholder": "Правила сложного повторения будут расширяться позже.",
+  "editorRepeatPageTitle": "Повторить настройки",
+  "editorRepeatWeekdays": "рабочие дни",
+  "editorRepeatWeekly": "еженедельно",
+  "editorRepeatYearly": "каждый год",
+  "editorRowMode": "Sort by Row",
+  "editorSave": "Save",
+  "editorSectionBasic": "Основная информация",
+  "editorSectionColor": "Цвет",
+  "editorSectionLocationNotes": "Местоположение и примечания",
+  "editorSectionReminder": "напоминание",
+  "editorSectionRepeat": "Повторить",
+  "editorSectionTime": "дата и время",
+  "editorSimpleLayout": "Simple Layout",
+  "editorStartTime": "Start time",
   "editorSubmitButton": "Создать дело",
   "editorSubmitInvalid": "Сначала исправьте выделенные поля.",
   "editorSubmitSuccess": "Товар сохранен.",
-  "editorErrorTitleRequired": "Пожалуйста, введите имя.",
-  "editorErrorEndBeforeStart": "Время окончания не может быть раньше времени начала.",
-  "editorErrorDeadlineBeforeStart": "Крайний срок не может быть раньше времени начала.",
-  "editorErrorDurationPositive": "Длительность должна быть больше 0.",
-  "@editorDurationHours": {
+  "editorTakePhoto": "Take photo",
+  "editorTeacher": "Преподаватель",
+  "editorTitle": "Новый товар",
+  "editorToggleMode": "Edit Mode",
+  "editorTypeMemo": "памятка",
+  "editorTypePickerTitle": "Переключить тип дела",
+  "editorTypeSchedule": "расписание",
+  "editorTypeTask": "Задача",
+  "editorUnsavedChanges": "Unsaved changes",
+  "editorUnsavedWarning": "You have unsaved changes. Discard them?",
+  "editorWeek": "Week ",
+  "eGWakeupImport1": "Напр. Импорт Wakeup 1",
+  "emptyClassroomAddedSingle": "Добавлена пара {section} в {classroom}",
+  "emptyClassroomBuilding": "Building",
+  "emptyClassroomCollapseAll": "Свернуть всё",
+  "emptyClassroomConflictCancel": "Отмена",
+  "emptyClassroomConflictConfirm": "Подтвердить",
+  "emptyClassroomConflictMulti": "У вас уже есть занятия на {sections}. Подтвердить?",
+  "emptyClassroomConflictSingle": "У вас уже есть занятие в это время. Подтвердить?",
+  "emptyClassroomConflictTitle": "Конфликт расписания",
+  "emptyClassroomDate": "Date",
+  "emptyClassroomExpandAll": "Развернуть всё",
+  "emptyClassroomFABExpanded": "{expanded} / {total} развёрнуто",
+  "emptyClassroomFABHint": "Нажмите на стрелку, чтобы развернуть пары, затем на блок для добавления",
+  "emptyClassroomFABTitle": "Пары аудитории",
+  "emptyClassroomFilterBuilding": "Здание",
+  "emptyClassroomFilterCampus": "Кампус",
+  "emptyClassroomFilterTitle": "Фильтры",
+  "emptyClassroomFilterWeek": "Неделя",
+  "emptyClassroomFilterWeekDay": "День",
+  "emptyClassroomFloorSeats": "Этаж {floor} · {available}/{total} мест",
+  "emptyClassroomGoLogin": "Войти",
+  "emptyClassroomLoading": "Searching...",
+  "emptyClassroomLoginPrompt": "Сначала войдите в WHU",
+  "emptyClassroomNoResults": "В этом здании нет свободных аудиторий",
+  "emptyClassroomQueryButton": "Поиск",
+  "emptyClassroomQueryHint": "Фильтры заданы. Нажмите кнопку выше для поиска",
+  "emptyClassroomRetry": "Повторить",
+  "emptyClassroomSectionHint": "Нажмите на пару, чтобы добавить",
+  "emptyClassroomSectionLabel": "Пара {section}",
+  "emptyClassroomTime": "Time",
+  "emptyClassroomTitle": "Свободные аудитории",
+  "emptyClassroomUndo": "Отменить",
+  "emptyClassroomWeekLabel": "Неделя {week}",
+  "emptyTimetableImportCourse": "2. Import courses",
+  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
+  "emptyTimetableLoginWhu": "1. Log in to WHU account",
+  "emptyTimetableSubtitle": "Please log in to WHU account first, then import your timetable.",
+  "emptyTimetableTitle": "No courses added yet",
+  "enableWidgetSync": "Синхр. виджетов",
+  "enterTimetableName": "Введите название расписания",
+  "extractColorsFromWallpaperAuto": "Автоматически извлекать цвета из обоев",
+  "extractPrimaryColorFromSystem": "Динамически извлекать основные цвета на основе системных обоев.",
+  "fallbackRefreshInterval": "Интервал резервного обновления",
+  "fetchingTimetable": "Получение расписания...",
+  "fileSharingDelete": "Delete",
+  "fileSharingDownload": "Download",
+  "fileSharingLoading": "Loading files...",
+  "fileSharingNoFiles": "No files yet",
+  "fileSharingShare": "Share",
+  "fileSharingTitle": "File Sharing",
+  "fileSharingUpload": "Upload",
+  "followAppLanguage": "Следовать языку приложения",
+  "followAppTheme": "Следовать теме приложения",
+  "forum": "Форум",
+  "forumTitle": "Луоцзяское бомбоубежище",
+  "headerNextPeriod": "следующий период времени",
+  "headerOpenItemTypePicker": "Включить переключение типа материи",
+  "headerOpenListSettings": "Открыть настройки страницы списка",
+  "headerOpenListTabs": "Открыть выбор вкладки",
+  "headerOpenTimePicker": "Выбор времени открытия",
+  "headerPreviousPeriod": "предыдущий период времени",
+  "homeBackToCurrentPeriod": "Вернуться к этой неделе",
+  "homeCalendarMainLabelWeek": "Неделя {week}",
+  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "homeCalendarMonthWeek": "Неделя {week} ({month})",
+  "homeCalendarSummerBreak": "Лето",
+  "homeCalendarTopLabel": "{year} {term}",
+  "homeCalendarTopLabelYearOnly": "{year}",
+  "homeCalendarWinterBreak": "Зима",
+  "homeCalendarYearMonth": "{month} {year}",
+  "homeCalendarYearWeek": "Неделя {week} ({year})",
+  "homeCourseLunch": "Обед",
+  "homeCoursePeriod": "Урок {courseNumber}",
+  "homeCurrentWeekRange": "Эта неделя ({start} - {end})",
+  "homeDescription": "Здесь будет размещена домашняя страница табличного планирования с еженедельным и ежемесячным просмотром.",
+  "homeGoToCurrentWeek": "Эта неделя",
+  "homeGoToNextSemesterFirstWeek": "К началу",
+  "homeGridModeCourse": "Сетка учебной программы",
+  "homeGridModeTime": "временная сетка",
+  "homePeriodRange": "{start} - {end}",
+  "homeScopeMonth": "месяц",
+  "homeScopePickerTitle": "Диапазон отображения",
+  "homeScopeWeek": "неделя",
+  "homeTitle": "Обзор расписания",
+  "homeWeekdayLabel": "{weekday}",
+  "hourH": "{hour} ч",
+  "importCoursesViaEmbeddedWeb": "Войдите в систему и импортируйте курсы через встроенную веб-страницу.",
+  "importCoursesViaEmbeddedWebLog": "Импорт курсов через веб-вход",
+  "importedPayloadItemsLengthItem": "Импортировано {itemsLength} элементов в \"{tableName}\".",
+  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
+  "importedTimestr": "Импортировано {timeStr}",
+  "importFailedError": "Ошибка импорта: {error}",
+  "importFailedError1": "Не удалось импортировать: {error}",
+  "importFinishedPayloadItemsLeng": "Import finished: {itemsLength} items, {currentWeekCount} in current week.",
+  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Импорт завершен: добавлено элементов: {itemsLength}, элементов на текущей неделе: {currentWeekCount}.",
+  "importFromSharedText": "Импорт из текста",
+  "importSchedule": "Импорт расписания",
+  "importSources": "Источники импорта",
+  "importTimetableFromSharedText": "Импорт из общего текста",
+  "importViaEmbeddedWebLogin": "Импорт через веб-вход",
+  "k1Hour": "1 час",
+  "k30Minutes": "30 минут",
+  "k3Hours": "3 часа",
+  "languageChinese": "китайский",
+  "languageEnglish": "английский",
+  "languageLabel": "язык приложения",
+  "languageSectionTitle": "Язык",
+  "libraryBorrowingHistory": "Borrowing History",
+  "libraryCurrentBorrowing": "Currently Borrowed",
+  "libraryLoading": "Loading...",
+  "libraryQrCodeHint": "Scan QR code on self-service machine",
+  "libraryRenew": "Renew",
+  "libraryReturnDate": "Return Date",
+  "librarySearch": "Search",
+  "libraryTitle": "Seat Reservation",
+  "listActionDelete": "Удалить",
+  "listActionEdit": "Редактировать",
+  "listCompletedCollapse": "Закрыть завершенные элементы",
+  "listCompletedExpand": "Развернуть завершенные элементы",
+  "listCompletedSection": "Завершено {count}",
+  "listDescription": "Здесь будут размещаться задачи, расписания, заметки и список на основе вкладок.",
+  "listEmptyDescription": "Нажмите знак «плюс» в правом нижнем углу, чтобы создать первую задачу, расписание или заметку.",
+  "listEmptyTitle": "Здесь пока ничего",
+  "listMenuTitle": "Переключение вкладок",
+  "listPendingSection": "Ожидается {count}",
+  "listReorderHint": "В настоящее время выполняется сортировка вручную, перетащите маркер с правой стороны задачи, чтобы изменить ее порядок.",
+  "listSettingsMenuTitle": "Настройки страницы списка",
+  "listSettingsMore": "Дополнительные настройки",
+  "listSettingsReorder": "Изменение порядка задач",
+  "listSettingsSort": "Сортировать по",
+  "listSortAlphabetical": "алфавитный порядок",
+  "listSortCreatedDate": "Дата создания",
+  "listSortDueDate": "срок годности",
+  "listSortManual": "Ручная сортировка",
+  "listSortTodayFocus": "Сегодняшний исполнитель",
+  "listStaticItemsLabel": "Прочие вопросы",
+  "listStatusCompleted": "Завершено",
+  "listStatusPending": "Не завершено",
+  "listSummary": "Незавершенные элементы {pending}, завершенные элементы {completed}",
+  "listTabAllItems": "Все имеет значение",
+  "listTabMemos": "Чит-лист",
+  "listTabMyDay": "мой день",
+  "listTabSchedules": "список расписаний",
+  "listTabTasks": "список задач",
+  "listTitle": "Список дел, которые нужно сделать",
+  "login": "Войти",
+  "luotopiaAccountDetails": "Данные аккаунта",
+  "luotopiaAccountTitle": "Аккаунт Luotopia",
+  "luotopiaAlreadyHaveAccount": "Уже есть аккаунт?",
+  "luotopiaConfirmLogout": "Подтвердить выход",
+  "luotopiaConfirmPassword": "Подтвердите пароль",
+  "luotopiaCreateAccount": "Создать аккаунт Luotopia",
+  "luotopiaEmailHint": "Для восстановления пароля",
+  "luotopiaEmailOptional": "Эл. почта (необяз.)",
+  "luotopiaLoggingIn": "Вход…",
+  "luotopiaLoginTitle": "Вход в Luotopia",
+  "luotopiaLogoutWarning": "После выхода потребуется снова войти для форума и других функций.",
+  "luotopiaNoAccountYet": "Нет аккаунта?",
+  "luotopiaNotLoggedIn": "Не выполнен вход",
+  "luotopiaPasswordHint": "Не менее 6 символов",
+  "luotopiaPasswordsDoNotMatch": "Пароли не совпадают",
+  "luotopiaPasswordTooShort": "Пароль должен быть не короче 6 символов",
+  "luotopiaPleaseFillFields": "Введите имя пользователя и пароль",
+  "luotopiaRegistering": "Регистрация…",
+  "luotopiaRegisterTitle": "Регистрация Luotopia",
+  "luotopiaUsername": "Имя пользователя",
+  "luotopiaUsernameMinHint": "Не менее 3 символов",
+  "luotopiaUsernameOrEmail": "Имя / эл. почта",
+  "luotopiaUsernameTooShort": "Имя должно быть не короче 3 символов",
+  "luotopiaWelcomeBack": "С возвращением",
+  "middleTab": "Средняя вкладка",
+  "minuteMin": "{minute} мин",
+  "navAi": "ИИ",
+  "navCampus": "Кампус",
+  "navForum": "Форум",
+  "navHome": "Главная",
+  "navList": "Расписание",
+  "navSettings": "Настройки",
+  "noTimetableYetImportOr": "Расписания курсов пока нет, пожалуйста, импортируйте его сверху или создайте вручную.",
+  "noTimetableYetImportOrCreateOn": "Расписаний пока нет. Создайте или импортируйте.",
+  "noTimetableYetTapTo": "Расписания курсов пока нет. Нажмите + в правом верхнем углу, чтобы импортировать его из системы академических дел Уханьского университета.",
+  "noTimetableYetTapToImportFromW": "Расписаний пока нет. Нажмите + для импорта из WHU.",
+  "ok": "ОК",
+  "paletteAlgorithm": "Алгоритм палитры",
+  "paletteStyle": "Стиль палитры",
+  "pasteSharedContent": "Вставьте общий контент",
+  "pasteWakeupShareCodeLinkParser": "Вставьте код/ссылку Wakeup. Парсер не подключен.",
+  "placeholderOpenMenu": "Открыть меню",
+  "placeholderOpenPicker": "Открыть селектор",
+  "pleaseLoginToWhuAcademic": "Пожалуйста, сначала войдите в учетную запись по академическим вопросам Уханьского университета.",
+  "pleaseLoginToWhuAcademicSystem": "Сначала войдите в WHU",
+  "pleaseSelectWeek1Monday": "Пожалуйста, выберите понедельник 1-й недели.",
+  "scoreImportFailed": "Ошибка импорта",
+  "scoreImportUndergraduateTitle": "Импорт из бакалавриата",
+  "scoreImportUndergraduateSubtitle": "Точные оценки, но обновление может быть медленным",
+  "scoreImportSpoilerTitle": "Импорт из системы проф. развития",
+  "scoreImportSpoilerSubtitle": "Только баллы GPA, но часто раньше бакалавриата",
+  "scoreImportFromWHU": "Import from WHU Academic",
+  "scoreImportImporting": "Importing...",
+  "scoreImportLastUpdate": "Last updated: ",
+  "scoreImportNever": "Never",
+  "scoreImportNoNewData": "No new grade data found",
+  "scoreImportSuccess": "Импорт выполнен",
+  "scoreImportTitle": "Импорт оценок",
+  "scorePageAcademicYear": "Academic Year",
+  "scorePageAnonymousContribution": "Баллы за анонимные вклады",
+  "scorePageAvgExam": "Равномерно разделены в конце периода",
+  "scorePageAvgTotal": "Средний общий рейтинг",
+  "scorePageAvgUsual": "Обычно делится поровну",
+  "scorePageCourse": "Course",
+  "scorePageCourseTeacherNotMatched": "Этот курс и преподаватель не были сопоставлены на сервере.",
+  "scorePageCredit": "Кредиты",
+  "scorePageCredits": "Credits",
+  "scorePageExamScoreLabel": "Итоговые оценки (необязательно)",
+  "scorePageFetchStatsFailed": "Не удалось получить статистику:{error}.",
+  "scorePageGpa": "GPA",
+  "scorePageGradeDistribution": "Распределение оценок",
+  "scorePageGradePoint": "Grade Point",
+  "scorePageGradeRange60": "60-69 баллов",
+  "scorePageGradeRange70": "70-79 баллов",
+  "scorePageGradeRange80": "80-89 баллов",
+  "scorePageGradeRange90": "90-100 баллов",
+  "scorePageGradeRangeFail": "не удалось",
+  "scorePageImport": "Import",
+  "scorePageInstructorLabel": "Учитель:{instructor}",
+  "scorePageInstructorUnknown": "неизвестно",
+  "scorePageLoading": "Loading grades...",
+  "scorePageLoginToShare": "Войдите в свою учетную запись Luotopia, чтобы поделиться распределением оценок за курс.",
+  "scorePageNoData": "No grade data available",
+  "scorePageRefresh": "Refresh",
+  "scorePageRetry": "Повтор",
+  "scorePageSampleCount": "размер выборки",
+  "scorePageScore": "Score",
+  "scorePageSemester": "Semester",
+  "scorePageStatsDialogTitle": "{courseName}баллов статистика",
+  "scorePageStatsEmpty": "В настоящее время в этом курсе нет статистических выборок для оценки.",
+  "scorePageSubmitAnonymous": "Отправить анонимно",
+  "scorePageSubmitError": "Не удалось отправить:{error}.",
+  "scorePageSubmitFailed": "Отправка не удалась, попробуйте еще раз",
+  "scorePageSubmitSuccess": "Отправка успешна! Спасибо за ваш анонимный вклад!",
+  "scorePageTitle": "Оценки",
+  "scorePageTotalScore": "Общий балл:{score}",
+  "scorePageUsualScoreLabel": "Ежедневные результаты (необязательно)",
+  "seatReservationBook": "Book",
+  "seatReservationCancel": "Cancel Reservation",
+  "seatReservationDuration": "Duration",
+  "seatReservationHours": "hours",
+  "seatReservationLoading": "Loading...",
+  "seatReservationMinutes": "min",
+  "seatReservationNoSeats": "No available seats",
+  "seatReservationRefresh": "Refresh",
+  "seatReservationSelectArea": "Select Area",
+  "seatReservationSelectFloor": "Select Floor",
+  "seatReservationSelectLibrary": "Select Library",
+  "seatReservationTime": "Time",
+  "seatReservationTitle": "Места",
+  "seedColor": "Цвет семян",
+  "selectedOnlyDefault": "Только выбранные (По умолчанию)",
+  "selectSeedColor": "Выбрать базовый цвет",
+  "selectSemester": "Выберите семестр",
+  "semester": "Семестр",
+  "semS": "Сем {s}",
+  "semS1": "Сем {s}",
+  "settingsAbout": "О приложении",
+  "settingsAboutApp": "About Luotopia",
+  "settingsAboutEntrySubtitle": "Информация о приложении, версия и лицензия",
+  "settingsAboutEntryTitle": "О",
+  "settingsAboutDevTeam": "Команда",
+  "settingsAppIcon": "Значок приложения",
+  "settingsAppIconDefault": "По умолчанию",
+  "settingsAppIconAlt": "Альтернативный",
+  "settingsAboutTranslation": "Перевод",
+  "settingsLicensesTitle": "Лицензии open source",
+  "licenseAuthor": "Автор: {author}",
+  "@licenseAuthor": {
     "placeholders": {
-      "hours": {
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseVersion": "Версия: {version}",
+  "@licenseVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "licenseLicense": "License",
+  "licenseProjectHomepage": "Сайт проекта",
+  "settingsAboutProductSubtitle": "Полноэкранный обзор табличного планирования кампуса",
+  "settingsAboutTitle": "About Luotopia",
+  "settingsAboutVersionTitle": "версия",
+  "settingsAccountLocalTitle": "локальная учетная запись",
+  "settingsAccountWhuLoggedIn": "Сертифицированный",
+  "settingsAccountWhuNotLoggedIn": "Не авторизован",
+  "settingsAccountWhuTitle": "Счет Уханьского университета",
+  "settingsAiApiKeyLabel": "API-ключ",
+  "settingsAiBaseUrlLabel": "API-адрес",
+  "settingsAiModelLabel": "модель",
+  "settingsAiSaveButton": "Сохранение настроек ИИ",
+  "settingsAiSectionTitle": "Настройки ИИ",
+  "settingsAiSystemPromptLabel": "Слово системной подсказки",
+  "settingsAiTestButton": "тестовое соединение",
+  "settingsAiTestingButton": "Тестирование...",
+  "settingsAppearance": "Оформление",
+  "settingsAppearanceColor": "Color",
+  "settingsAppearanceThemeMode": "Theme Mode",
+  "settingsAppearanceTitle": "Настройки оформления",
+  "settingsBiometricLock": "Biometric Lock",
+  "settingsBiometricUnlock": "Unlock with biometrics",
+  "settingsDark": "Dark",
+  "settingsDescription": "Здесь будут размещены входы настроек для глобальной страницы, домашней страницы и страниц списка.",
+  "settingsFollowSystem": "Follow System",
+  "settingsGeneral": "Основные",
+  "settingsGeneralEntrySubtitle": "Темы, языки, виджеты и панели навигации",
+  "settingsGeneralEntryTitle": "Основное",
+  "settingsGeneralTitle": "General Settings",
+  "settingsGeneralWidgetsTitle": "Виджеты",
+  "settingsHomeBlockCount": "Количество блоков планирования",
+  "settingsHomeBlockDuration": "Длительность блока",
+  "settingsHomeBlockGap": "Интервал планирования блока",
+  "settingsHomeCourseGridSettings": "Настройки режима сетки курса",
+  "settingsHomeCourseImport": "Импорт расписания курсов",
+  "settingsHomeCourseManagement": "Управление расписанием курсов",
+  "settingsHomeDayStart": "Начало дня",
+  "settingsHomeEntrySubtitle": "Временные блоки на главной странице, режим сетки и широкоэкранный диапазон отображения",
+  "settingsHomeFitGridToScreen": "Подогнать сетку под экран",
+  "settingsHomeGridCellHeight": "Фиксированная высота ячейки",
+  "settingsHomeGridMode": "сетка",
+  "settingsHomeHideLunchBreak": "Скрыть обеденный перерыв",
+  "settingsHomeItemOpacity": "Непрозрачность блоков",
+  "settingsHomeSectionDescription": "Настройте правила сегментации временных блоков для домашней страницы и диапазон времени по умолчанию, отображаемый на сверхшироком экране.",
+  "settingsHomeSectionTitle": "Настройки главной страницы",
+  "settingsHomeTimeGridSettings": "Настройки режима временной сетки",
+  "settingsHomeWideLayout": "Сверхширокий диапазон по умолчанию",
+  "settingsLanguage": "Language",
+  "settingsLicenses": "Лицензии open source",
+  "settingsLight": "Light",
+  "settingsListEntrySubtitle": "Сортировка списка, изменение порядка и параметры отображения",
+  "settingsListEntryTitle": "Настройки страницы списка",
+  "settingsMinutesValue": "{value} минут",
+  "settingsNavigationEntrySubtitle": "Подписи и центр. вкладка",
+  "settingsNavigationEntryTitle": "Настройки панели навигации",
+  "settingsPercentValue": "{value}%",
+  "settingsPrivacy": "Privacy & Security",
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsPrivacyTitle": "Privacy & Security",
+  "settingsQuickActionsTitle": "Быстрое позиционирование",
+  "settingsSearchEmpty": "Соответствующие настройки не найдены",
+  "settingsSearchHint": "Настройки поиска",
+  "settingsSearchTooltip": "Настройки поиска",
+  "settingsTermsOfService": "Terms of Service",
+  "settingsTheme": "Тема",
+  "settingsTitle": "настройки",
+  "settingsVersion": "Версия",
+  "settingsFriendLinksTitle": "Дружественные ссылки",
+  "settingsFriendLinksSubtitle": "Партнёры, сообщество и связанные проекты",
+  "settingsFriendLinksEmpty": "Пока нет дружественных ссылок",
+  "friendLinkDialogClose": "Закрыть",
+  "friendLinkOpenFailed": "Не удалось открыть ссылку",
+    "friendLinkCategoryFeedback": "Обратная связь",
+  "friendLinkCategoryClubOrg": "Клубы и организации",
+  "friendLinkCategoryPartnerApp": "Партнёры и благодарности",
+  "friendLinkCategoryOther": "Прочее",
+  "settingsWeatherSectionTitle": "Настройки погоды",
+  "settingsWeatherSectionSubtitle": "Провайдер погоды, ключи API и геолокация",
+  "settingsWeatherProvider": "Weather provider",
+  "settingsWeatherUseCustomApiKey": "Use custom API key",
+  "settingsWeatherCustomApiKeyHint": "Enter your API key",
+  "settingsWeatherLocationMode": "Режим геолокации",
+  "settingsWeatherLocationFixed": "Фиксированное место",
+  "settingsWeatherLocationDynamic": "Определять место при каждом запросе",
+  "shareCodeLink": "Код/Ссылка для общего доступа",
+  "showNavigationLabels": "Показывать подписи",
+  "sourceManual": "Источник: Вручную",
+  "sourceMerged": "Источник: Объединено",
+  "sourceWakeup": "Источник: Wakeup",
+  "sourceWhu": "Источник: WHU",
+  "sportsAllDay": "All Day",
+  "sportsAllVenues": "Все площадки",
+  "sportsBook": "Book",
+  "sportsBooking": "Бронирование…",
+  "sportsBookingFailed": "Бронь не удалась. Повторите попытку.",
+  "sportsBookingRules": "Booking Rules",
+  "sportsBookingSuccess": "Бронь успешна!",
+  "sportsBookingUnavailable": "Сейчас недоступно. Повторите позже.",
+  "sportsBookNow": "Book Now",
+  "sportsBusinessHours": "Business Hours: ",
+  "sportsCheckoutArgsMissing": "Не хватает аргументов подтверждения. Вернитесь и выберите снова.",
+  "sportsCheckoutTitle": "Checkout",
+  "sportsChooseCourt": "Выбрать корт",
+  "sportsChooseTimeSlot": "Choose Time Slot",
+  "sportsConfirmBooking": "Подтвердить бронь",
+  "sportsConfirmPayment": "Confirm Payment",
+  "sportsDaytime": "Daytime",
+  "sportsEvening": "Evening",
+  "sportsFriday": "Friday",
+  "sportsGoBack": "Назад",
+  "sportsGoToMyOrders": "Мои заказы",
+  "sportsLoading": "Загрузка…",
+  "sportsLoadingFailed": "Ошибка загрузки",
+  "sportsLoadingVenues": "Загрузка площадок…",
+  "sportsMinutes": "min",
+  "sportsMonday": "Monday",
+  "sportsMultiDayNotSupported": "Multi-day booking not supported yet",
+  "sportsNoCourtsAvailable": "Нет свободных кортов",
+  "sportsOrderArgsMissing": "Не хватает аргументов заказа. Вернитесь и выберите снова.",
+  "sportsOrderCancelled": "Отменён",
+  "sportsOrderExpired": "Order has expired",
+  "sportsOrderNotFound": "Заказ не найден",
+  "sportsOrderPaid": "Оплачен",
+  "sportsOrderPending": "Ожидает оплаты",
+  "sportsOrderStatus": "Status",
+  "sportsOrderTitle": "Детали брони",
+  "sportsPay": "Оплатить",
+  "sportsPayFailed": "Payment failed. Please try again.",
+  "sportsPaying": "Paying...",
+  "sportsPaySuccess": "Payment successful!",
+  "sportsPhone": "Phone: ",
+  "sportsPrice": "Price",
+  "sportsRetry": "Повторить",
+  "sportsSaturday": "Saturday",
+  "sportsSelectDate": "Select Date",
+  "sportsSelectDateFirst": "Сначала выберите дату",
+  "sportsSelectDateHint": "Please select a date",
+  "sportsSelectedCourt": "Selected",
+  "sportsSelectTimeSlot": "Выбрать слот",
+  "sportsSelectTimeSlotHint": "Please select a time",
+  "sportsSelectVenue": "Выбрать площадку",
+  "sportsSelectVenueHint": "Выберите спортплощадку",
+  "sportsSunday": "Sunday",
+  "sportsThursday": "Thursday",
+  "sportsTuesday": "Tuesday",
+  "sportsVenueAddress": "Venue Address",
+  "sportsVenueDetail": "Venue Detail",
+  "sportsVenueType": "Venue Type",
+  "sportsWednesday": "Wednesday",
+  "startImport": "Начать импорт",
+  "tapToSelect": "Нажмите для выбора",
+  "themeColors": "Цвета темы",
+  "themeDark": "Тёмная",
+  "themeLight": "Светлая",
+  "themeModeLabel": "режим темы",
+  "themeSectionTitle": "показать",
+  "themeSettings": "Тема",
+  "themeSystem": "Система",
+  "thisItem": "Этот элемент",
+  "timePickerDescription": "Этот маршрут зарезервирован для общих селекторов времени дня, недели и месяца.",
+  "timePickerTitle": "Выбор времени",
+  "timetable": "Расписание",
+  "timetableManagement": "Управление расписанием",
+  "timetableName": "Название расписания",
+  "timetableName1": "Название расписания",
+  "timetables": "Расписания",
+  "tipSelectedDateIsNot": "Совет: выбранная дата не понедельник.",
+  "tipSelectedDateIsNotAMonday": "Совет: Выбранная дата не является понедельником",
+  "updateOnDataChangesWith": "Изменения данных передаются немедленно и обновляются в зависимости от частоты.",
+  "updateOnDataChangesWithPeriodi": "Обновление при изменении данных с периодическим резервным обновлением.",
+  "useDynamicColor": "Использовать динамический цвет",
+  "verifyingAndEstablishingEducat": "Проверка учебной сессии...",
+  "verifyingAndEstablishingEducationSession": "Проверка и учреждение академической сессии...",
+  "wakeupImport": "Импорт Wakeup",
+  "wakeupShareLinkCode": "Код/Ссылка Wakeup",
+  "weatherCachedAt": "Кэшировано по адресу{time}.",
+  "weatherCacheTimeUnknown": "Время кэша неизвестно",
+  "weatherFeelsLike": "Feels {temp}",
+  "weatherLibraryBorrowingDetail": "Детали заимствования",
+  "weatherLibraryReminder": "Библиотека: срок проката «Преступления и наказания» истекает через три дня",
+  "weatherLoadFailed": "Не удалось загрузить погоду",
+  "weatherLoadFailedWithError": "Не удалось загрузить погоду:{error}.",
+  "weatherLoadingLocation": "Получение погоды для{locationName}...",
+  "weatherNews": "Новости кампуса",
+  "weatherNewsReminder": "Новости кампуса: опубликовано объявление о корректировке первомайских праздников",
+  "weatherNoClassReminder": "Никаких занятий сегодня днем. Как насчет одитинга «Древнего китайца»?",
+  "weatherNoHourlyForecast": "Нет почасового прогноза",
+  "weatherRetry": "Повторить попытку",
+  "weatherServiceUnavailable": "Метеослужба временно недоступна. Показываю недавний кэш.",
+  "weatherShowCache": "Показ недавнего кеша",
+  "weatherSnackAuditingClass": "Рекомендации по аудиту",
+  "weatherTryAgainLater": "Пожалуйста, повторите попытку позже",
+  "weatherUpdated": "Обновлен{time}",
+  "weatherUpdating": "Обновление погоды...",
+  "week1Monday": "Понедельник 1-й недели",
+  "whuAcademicSystem": "Учебная система WHU",
+  "whuAccountBind": "Привязать аккаунт WHU",
+  "whuAccountCancelBinding": "Cancel Binding",
+  "whuAccountCollege": "Факультет",
+  "whuAccountRecentLogin": "Недавний вход",
+  "whuAccountRecentVerification": "Недавняя проверка",
+  "whuAccountDetail": "Данные аккаунта WHU",
+  "whuAccountLoggedInAs": "Logged in as ",
+  "whuAccountTitle": "Аккаунт WHU",
+  "whuAccountUnbind": "Unbind",
+  "whuAccountUnbindConfirm": "Are you sure to unbind this account?",
+  "whuAccountUnbindSuccess": "Unbind successful",
+  "whuCalendarListView": "Список",
+  "whuCalendarMonthView": "Месяц",
+  "whuCalendarNoEvents": "Нет событий",
+  "whuCalendarTitle": "Академ. календарь",
+  "whuCalendarWeekView": "Неделя",
+  "whuCourseImportAdapterFailed": "Failed to import courses",
+  "whuCourseImportAdapterImporting": "Importing courses from WHU Academic...",
+  "whuCourseImportAdapterLoginRequired": "WHU Academic login required",
+  "whuCourseImportAdapterParsing": "Parsing WHU course page...",
+  "whuCourseImportAdapterSuccess": "Successfully imported {count} courses",
+  "whuLoginWebViewLoading": "Загрузка…",
+  "whuLoginWebViewTitle": "Вход WHU",
+  "yY1": "{y}-{yPlus1}",
+  "@changeOnlyThisItemOrEveryCours": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "@courseImportImportSuccess": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationHours": "{hours} часов",
-  "@editorDurationMinutes": {
+  "@courseImportImportSuccessDesc": {
     "placeholders": {
-      "minutes": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "editorDurationMinutes": "{minutes} минут",
+  "@courseImportParseSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@courseTimetablesWeekCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@detailMemoDate": {
+    "placeholders": {
+      "date": {},
+      "duration": {}
+    }
+  },
+  "@detailRangeDate": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
   "@editorDurationHourMinute": {
     "placeholders": {
       "hours": {
@@ -251,170 +822,47 @@
       }
     }
   },
-  "editorDurationHourMinute": "{hours} часов {minutes} минут",
-  "@detailRangeDate": {
+  "@editorDurationHours": {
     "placeholders": {
-      "start": {},
-      "end": {}
+      "hours": {
+        "type": "int"
+      }
     }
   },
-  "detailRangeDate": "от {start} до {end}",
-  "@detailMemoDate": {
+  "@editorDurationMinutes": {
     "placeholders": {
-      "date": {},
-      "duration": {}
+      "minutes": {
+        "type": "int"
+      }
     }
   },
-  "detailMemoDate": "{date} · Ожидается {duration}",
-  "aiTitle": "ИИ-помощник",
-  "aiInputHint": "Есть вопросы по расписанию...",
-  "settingsAiSectionTitle": "Настройки ИИ",
-  "settingsAiBaseUrlLabel": "API-адрес",
-  "settingsAiApiKeyLabel": "API-ключ",
-  "settingsAiModelLabel": "модель",
-  "settingsAiSystemPromptLabel": "Слово системной подсказки",
-  "settingsAiTestButton": "тестовое соединение",
-  "settingsAiTestingButton": "Тестирование...",
-  "settingsAiSaveButton": "Сохранение настроек ИИ",
-  "settingsAccountLocalTitle": "локальная учетная запись",
-  "settingsAccountWhuTitle": "Счет Уханьского университета",
-  "settingsAccountWhuLoggedIn": "Сертифицированный",
-  "settingsAccountWhuNotLoggedIn": "Не авторизован",
-  "settingsNavigationEntryTitle": "Настройки панели навигации",
-  "settingsNavigationEntrySubtitle": "Показать текст, средняя вкладка",
-  "settingsHomeCourseImport": "Импорт расписания курсов",
-  "settingsHomeCourseManagement": "Управление расписанием курсов",
-  "settingsHomeTimeGridSettings": "Настройки режима временной сетки",
-  "settingsHomeCourseGridSettings": "Настройки режима сетки курса",
-  "placeholderOpenPicker": "Открыть селектор",
-  "placeholderOpenMenu": "Открыть меню",
-  "scorePageStatsDialogTitle": "{courseName}баллов статистика",
-  "@scorePageStatsDialogTitle": {
+  "@emptyClassroomAddedSingle": {
     "placeholders": {
-      "courseName": {
+      "classroom": {
+        "type": "String"
+      },
+      "section": {
+        "type": "int"
+      }
+    }
+  },
+  "@emptyClassroomConflictMulti": {
+    "placeholders": {
+      "sections": {
         "type": "String"
       }
     }
   },
-  "scorePageInstructorUnknown": "неизвестно",
-  "scorePageRetry": "Попробуйте еще раз",
-  "scorePageStatsEmpty": "В настоящее время в этом курсе нет статистических выборок для оценки.",
-  "scorePageSampleCount": "размер выборки",
-  "scorePageAvgTotal": "Средний общий рейтинг",
-  "scorePageAvgUsual": "Обычно делится поровну",
-  "scorePageAvgExam": "Равномерно разделены в конце периода",
-  "scorePageGradeDistribution": "Распределение оценок",
-  "scorePageGradeRange90": "90-100 баллов",
-  "scorePageGradeRange80": "80-89 баллов",
-  "scorePageGradeRange70": "70-79 баллов",
-  "scorePageGradeRange60": "60-69 баллов",
-  "scorePageGradeRangeFail": "не удалось",
-  "scorePageLoginToShare": "Войдите в свою учетную запись Luotopia, чтобы поделиться распределением оценок за курс.",
-  "scorePageSubmitSuccess": "Отправка успешна! Спасибо за ваш анонимный вклад!",
-  "scorePageAnonymousContribution": "Баллы за анонимные вклады",
-  "scorePageTotalScore": "Общий балл:{score}",
-  "@scorePageTotalScore": {
+  "@emptyClassroomFABExpanded": {
     "placeholders": {
-      "score": {
-        "type": "Object"
+      "expanded": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
       }
     }
   },
-  "scorePageUsualScoreLabel": "Ежедневные результаты (необязательно)",
-  "scorePageExamScoreLabel": "Итоговые оценки (необязательно)",
-  "scorePageSubmitAnonymous": "Отправить анонимно",
-  "scorePageCourseTeacherNotMatched": "Этот курс и преподаватель не были сопоставлены на сервере.",
-  "scorePageFetchStatsFailed": "Не удалось получить статистику:{error}.",
-  "@scorePageFetchStatsFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageSubmitFailed": "Отправка не удалась, попробуйте еще раз",
-  "scorePageSubmitError": "Не удалось отправить:{error}.",
-  "@scorePageSubmitError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageInstructorLabel": "Учитель:{instructor}",
-  "@scorePageInstructorLabel": {
-    "placeholders": {
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdating": "Обновление погоды...",
-  "weatherNoClassReminder": "Никаких занятий сегодня днем. Как насчет одитинга «Древнего китайца»?",
-  "weatherSnackAuditingClass": "Рекомендации по аудиту",
-  "weatherNewsReminder": "Новости кампуса: опубликовано объявление о корректировке первомайских праздников",
-  "weatherNews": "Новости кампуса",
-  "weatherLibraryReminder": "Библиотека: срок проката «Преступления и наказания» истекает через три дня",
-  "weatherLibraryBorrowingDetail": "Детали заимствования",
-  "@weatherFeelsLike": {
-    "placeholders": {
-      "temp": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherFeelsLike": "Похоже на{temp}",
-  "@weatherUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherUpdated": "Обновлен{time}",
-  "weatherShowCache": "Показ недавнего кеша",
-  "weatherNoHourlyForecast": "Нет почасового прогноза",
-  "@weatherLoadingLocation": {
-    "placeholders": {
-      "locationName": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadingLocation": "Получение погоды для{locationName}...",
-  "weatherLoadFailed": "Не удалось загрузить погоду",
-  "weatherTryAgainLater": "Пожалуйста, повторите попытку позже",
-  "weatherCacheTimeUnknown": "Время кэша неизвестно",
-  "@weatherCachedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherCachedAt": "Кэшировано по адресу{time}.",
-  "weatherServiceUnavailable": "Метеослужба временно недоступна. Показываю недавний кэш.",
-  "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "weatherLoadFailedWithError": "Не удалось загрузить погоду:{error}.",
-  "weatherRetry": "Повторить попытку",
-  "emptyClassroomTitle": "Свободные аудитории",
-  "emptyClassroomFilterTitle": "Фильтры",
-  "emptyClassroomFilterCampus": "Кампус",
-  "emptyClassroomFilterBuilding": "Здание",
-  "emptyClassroomFilterWeek": "Неделя",
-  "emptyClassroomFilterWeekDay": "День",
-  "emptyClassroomQueryButton": "Поиск",
-  "emptyClassroomLoginPrompt": "Сначала войдите в WHU",
-  "emptyClassroomGoLogin": "Войти",
-  "emptyClassroomRetry": "Повторить",
-  "emptyClassroomNoResults": "В этом здании нет свободных аудиторий",
-  "emptyClassroomQueryHint": "Фильтры заданы. Нажмите кнопку выше для поиска",
   "@emptyClassroomFloorSeats": {
     "placeholders": {
       "floor": {
@@ -428,47 +876,6 @@
       }
     }
   },
-  "emptyClassroomFloorSeats": "Этаж {floor} · {available}/{total} мест",
-  "emptyClassroomSectionHint": "Нажмите на пару, чтобы добавить",
-  "emptyClassroomFABTitle": "Пары аудитории",
-  "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomFABExpanded": "{expanded} / {total} развёрнуто",
-  "emptyClassroomFABHint": "Нажмите на стрелку, чтобы развернуть пары, затем на блок для добавления",
-  "emptyClassroomExpandAll": "Развернуть всё",
-  "emptyClassroomCollapseAll": "Свернуть всё",
-  "emptyClassroomConflictTitle": "Конфликт расписания",
-  "emptyClassroomConflictSingle": "У вас уже есть занятие в это время. Подтвердить?",
-  "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
-      }
-    }
-  },
-  "emptyClassroomConflictMulti": "У вас уже есть занятия на {sections}. Подтвердить?",
-  "emptyClassroomConflictCancel": "Отмена",
-  "emptyClassroomConflictConfirm": "Подтвердить",
-  "emptyClassroomUndo": "Отменить",
-  "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
-      },
-      "section": {
-        "type": "int"
-      }
-    }
-  },
-  "emptyClassroomAddedSingle": "Добавлена пара {section} в {classroom}",
   "@emptyClassroomSectionLabel": {
     "placeholders": {
       "section": {
@@ -476,7 +883,6 @@
       }
     }
   },
-  "emptyClassroomSectionLabel": "Пара {section}",
   "@emptyClassroomWeekLabel": {
     "placeholders": {
       "week": {
@@ -484,49 +890,6 @@
       }
     }
   },
-  "emptyClassroomWeekLabel": "Неделя {week}",
-  "homeCurrentWeekRange": "Эта неделя ({start} - {end})",
-  "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homePeriodRange": "{start} - {end}",
-  "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
-      },
-      "end": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabel": "Учебный год {year} {term}",
-  "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "term": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarTopLabelYearOnly": "Учебный год {year}",
-  "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMainLabelWeek": "Неделя {week}",
   "@homeCalendarMainLabelWeek": {
     "placeholders": {
       "week": {
@@ -534,61 +897,6 @@
       }
     }
   },
-  "homeCalendarSummerBreak": "Летние каникулы",
-  "homeCalendarWinterBreak": "Зимние каникулы",
-  "homeGoToCurrentWeek": "К текущей неделе",
-  "homeGoToNextSemesterFirstWeek": "К первой неделе семестра",
-  "homeCoursePeriod": "Урок {courseNumber}",
-  "@homeCoursePeriod": {
-    "placeholders": {
-      "courseNumber": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCourseLunch": "Обед",
-  "homeWeekdayLabel": "{weekday}",
-  "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearMonth": "{month} {year}",
-  "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "month": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthWeek": "Неделя {week} ({month})",
-  "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarYearWeek": "Неделя {week} ({year})",
-  "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
-      },
-      "week": {
-        "type": "String"
-      }
-    }
-  },
-  "homeCalendarMonthDayRange": "{day} - {endDay}",
   "@homeCalendarMonthDayRange": {
     "placeholders": {
       "day": {
@@ -599,241 +907,1545 @@
       }
     }
   },
-  "settingsHomeHideLunchBreak": "Скрыть обеденный перерыв",
-  "settingsHomeFitGridToScreen": "Подогнать сетку под экран",
-  "settingsHomeGridCellHeight": "Фиксированная высота ячейки",
-  "homeBackToCurrentPeriod": "Вернуться к этой неделе",
-  "startImport": "Начать импорт",
-  "pasteSharedContent": "Вставьте общий контент",
-  "shareCodeLink": "Код/Ссылка для общего доступа",
-  "eGWakeupImport1": "Напр. Импорт Wakeup 1",
-  "timetableName": "Название расписания",
-  "pasteWakeupShareCodeLinkParser": "Вставьте код/ссылку Wakeup. Парсер не подключен.",
-  "wakeupImport": "Импорт Wakeup",
-  "semS": "Сем {s}",
-  "@semS": {
+  "@homeCalendarMonthWeek": {
     "placeholders": {
-      "s": {}
+      "month": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
     }
   },
-  "yY1": "{y}-{yPlus1}",
-  "@yY1": {
+  "@homeCalendarTopLabel": {
     "placeholders": {
-      "y": {},
-      "yPlus1": {}
+      "year": {
+        "type": "String"
+      },
+      "term": {
+        "type": "String"
+      }
     }
   },
-  "done": "Готово",
-  "selectSemester": "Выберите семестр",
-  "semester": "Семестр",
-  "importFailedError": "Ошибка импорта: {error}",
-  "@importFailedError": {
+  "@homeCalendarTopLabelYearOnly": {
     "placeholders": {
-      "error": {}
+      "year": {
+        "type": "String"
+      }
     }
   },
-  "importedPayloadItemsLengthItem": "Импортировано {itemsLength} элементов в \"{tableName}\".",
+  "@homeCalendarYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCalendarYearWeek": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCoursePeriod": {
+    "placeholders": {
+      "courseNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeCurrentWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homePeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeWeekdayLabel": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "@hourH": {
+    "placeholders": {
+      "hour": {}
+    }
+  },
   "@importedPayloadItemsLengthItem": {
     "placeholders": {
       "tableName": {},
       "itemsLength": {}
     }
   },
-  "importFinishedPayloadItemsLeng": "Import finished: {itemsLength} items, {currentWeekCount} in current week.",
-  "@importFinishedPayloadItemsLeng": {
-    "placeholders": {
-      "currentWeekCount": {},
-      "itemsLength": {}
-    }
-  },
-  "fetchingTimetable": "Получение расписания...",
-  "verifyingAndEstablishingEducat": "Проверка учебной сессии...",
-  "pleaseSelectWeek1Monday": "Пожалуйста, выберите понедельник 1-й недели.",
-  "tipSelectedDateIsNotAMonday": "Совет: Выбранная дата не является понедельником",
-  "tapToSelect": "Нажмите для выбора",
-  "week1Monday": "Понедельник 1-й недели",
-  "timetableName1": "Название расписания",
-  "importSchedule": "Импорт расписания",
-  "delete": "Удалить",
-  "cancel": "Отмена",
-  "allCourseItemsInThisTimetableW": "Все курсы в этом расписании будут удалены.",
-  "deleteTimetable": "Удалить расписание",
-  "create": "Создать",
-  "enterTimetableName": "Введите название расписания",
-  "createTimetable": "Создать расписание",
-  "sourceManual": "Источник: Вручную",
-  "sourceMerged": "Источник: Объединено",
-  "sourceWakeup": "Источник: Wakeup",
-  "sourceWhu": "Источник: WHU",
-  "noTimetableYetImportOrCreateOn": "Расписаний пока нет. Создайте или импортируйте.",
-  "timetables": "Расписания",
-  "importTimetableFromSharedText": "Импорт из общего текста",
-  "wakeupShareLinkCode": "Код/Ссылка Wakeup",
-  "importCoursesViaEmbeddedWebLog": "Импорт курсов через веб-вход",
-  "whuAcademicSystem": "Учебная система WHU",
-  "importSources": "Источники импорта",
-  "courseTablesImport": "Расписания и Импорт",
-  "importedTimestr": "Импортировано {timeStr}",
-  "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
-    }
-  },
-  "noTimetableYetTapToImportFromW": "Расписаний пока нет. Нажмите + для импорта из WHU.",
-  "login": "Войти",
-  "pleaseLoginToWhuAcademicSystem": "Пожалуйста, войдите в WHU",
-  "timetable": "Расписание",
-  "allSameNameCourses": "Все курсы с таким же названием",
-  "thisItem": "Этот элемент",
-  "changeOnlyThisItemOrEveryCours": "Изменить только этот элемент или все курсы \"{title}\"?",
-  "@changeOnlyThisItemOrEveryCours": {
-    "placeholders": {
-      "title": {}
-    }
-  },
-  "applyColorTo": "Применить цвет к",
-  "timetableManagement": "Управление расписанием",
-  "importFromSharedText": "Импорт из текста",
-  "importViaEmbeddedWebLogin": "Импорт через веб-вход",
-  "courseImport": "Импорт курсов",
-  "courseGridSettings": "Настройки сетки курсов",
-  "paletteStyle": "Стиль палитры",
-  "ok": "ОК",
-  "selectSeedColor": "Выбрать базовый цвет",
-  "customSeedColor": "Пользовательский цвет",
-  "extractColorsFromWallpaperAuto": "Автоматически извлекать цвета из обоев",
-  "useDynamicColor": "Использовать динамический цвет",
-  "themeColors": "Цвета темы",
-  "followAppTheme": "Следовать теме приложения",
-  "followAppLanguage": "Следовать языку приложения",
-  "updateOnDataChangesWithPeriodi": "Обновление при изменении данных с периодическим резервным обновлением.",
-  "fallbackRefreshInterval": "Интервал резервного обновления",
-  "enableWidgetSync": "Включить синхронизацию виджета",
-  "alwaysHide": "Всегда скрывать",
-  "alwaysShow": "Всегда показывать",
-  "selectedOnlyDefault": "Только выбранные (По умолчанию)",
-  "aiAssistant": "AI Ассистент",
-  "forum": "Форум",
-  "chooseBetweenForumOrAiForTheMi": "Выберите Форум или ИИ для средней вкладки.",
-  "middleTab": "Средняя вкладка",
-  "showNavigationLabels": "Показывать метки навигации",
-  "minuteMin": "{minute} мин",
-  "@minuteMin": {
-    "placeholders": {
-      "minute": {}
-    }
-  },
-  "hourH": "{hour} ч",
-  "@hourH": {
-    "placeholders": {
-      "hour": {}
-    }
-  },
-  "chooseDuration": "Выберите продолжительность",
-  "k3Hours": "3 часа",
-  "k1Hour": "1 час",
-  "k30Minutes": "30 минут",
-  "pasteWakeupShareCodelinkParser": "Поддерживает вставку пароля или ссылки для общего доступа к Wakeup. Текущая версия сначала предоставляет процесс-заполнитель.",
-  "egWakeupImport1": "Например: импорт пробуждения 1.",
-  "tipSelectedDateIsNot": "Совет: выбранная дата не понедельник.",
-  "verifyingAndEstablishingEducationSession": "Проверка и учреждение академической сессии...",
-  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
-    "placeholders": {
-      "itemsLength": {},
-      "currentWeekCount": {}
-    }
-  },
-  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Импорт завершен: добавлено элементов: {itemsLength}, элементов на текущей неделе: {currentWeekCount}.",
   "@importedPayloaditemslengthItemsTo": {
     "placeholders": {
       "itemsLength": {},
       "tableName": {}
     }
   },
-  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
+  "@importedTimestr": {
+    "placeholders": {
+      "timeStr": {}
+    }
+  },
+  "@importFailedError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
   "@importFailedError1": {
     "placeholders": {
       "error": {}
     }
   },
-  "importFailedError1": "Не удалось импортировать: {error}",
+  "@importFinishedPayloadItemsLeng": {
+    "placeholders": {
+      "currentWeekCount": {},
+      "itemsLength": {}
+    }
+  },
+  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
+    "placeholders": {
+      "itemsLength": {},
+      "currentWeekCount": {}
+    }
+  },
+  "@listCompletedSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@listPendingSection": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@listSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "@minuteMin": {
+    "placeholders": {
+      "minute": {}
+    }
+  },
+  "@scorePageFetchStatsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageInstructorLabel": {
+    "placeholders": {
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageStatsDialogTitle": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageSubmitError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@scorePageTotalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "@semS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "@semS1": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "@settingsMinutesValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsPercentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@weatherCachedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherFeelsLike": {
+    "placeholders": {
+      "temp": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherLoadingLocation": {
+    "placeholders": {
+      "locationName": {
+        "type": "String"
+      }
+    }
+  },
+  "@weatherUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@whuCourseImportAdapterSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "@yy1": {
     "placeholders": {
       "y": {},
       "yPlus1": {}
     }
   },
-  "yy1": "{y}-{yPlus1} учебный год",
-  "@semS1": {
+  "@yY1": {
     "placeholders": {
-      "s": {}
+      "y": {},
+      "yPlus1": {}
     }
   },
-  "semS1": "Семестр {s}",
-  "importCoursesViaEmbeddedWeb": "Войдите в систему и импортируйте курсы через встроенную веб-страницу.",
-  "wakeupShareLinkcode": "Поделиться паролем/ссылкой для пробуждения",
-  "noTimetableYetImportOr": "Расписания курсов пока нет, пожалуйста, импортируйте его сверху или создайте вручную.",
-  "allCourseItemsInThis": "Все вопросы курса, указанные в этом расписании курса, будут удалены одновременно.",
-  "pleaseLoginToWhuAcademic": "Пожалуйста, сначала войдите в учетную запись по академическим вопросам Уханьского университета.",
-  "noTimetableYetTapTo": "Расписания курсов пока нет. Нажмите + в правом верхнем углу, чтобы импортировать его из системы академических дел Уханьского университета.",
-  "allSamenameCourses": "Изменить этот курс",
-  "updateOnDataChangesWith": "Изменения данных передаются немедленно и обновляются в зависимости от частоты.",
-  "chooseBetweenForumOrAi": "Форум или AI-помощник отображаются в центре панели навигации (форум по умолчанию).",
-  "themeSettings": "Настройки темы",
-  "colorsAppearance": "Цвет и внешний вид",
-  "dynamicColorMonet": "Динамический подбор цвета (Моне)",
-  "dynamicColorSourceAccent": "Use system accent color",
-  "dynamicColorSourceGtk": "Use GTK theme color",
-  "dynamicColorSourceWallpaper": "Extract from system wallpaper",
-  "extractPrimaryColorFromSystem": "Динамически извлекать основные цвета на основе системных обоев.",
-  "seedColor": "Цвет семян",
-  "baseColorForStaticTheme": "Базовый цвет для статических тем",
-  "paletteAlgorithm": "Алгоритм палитры",
-  "changeColorVariantGenerationAlgorithm": "Изменить алгоритм генерации цветовых вариантов",
-  "scoreCaptchaAutoVerifying": "Auto-verifying...",
-  "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
+  "courseImportFailed": "Import failed",
+  "courseImportStatusImported": "Готово: {count}, на этой неделе {currentWeek}.",
+  "@courseImportStatusImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "currentWeek": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSnackSuccess": "Импортировано {count} в «{tableName}».",
+  "@courseImportSnackSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "tableName": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportStatusFailed": "Ошибка импорта: {error}",
+  "@courseImportStatusFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportAcademicYearLabel": "{year}-{next} уч. год",
+  "@courseImportAcademicYearLabel": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportSemesterLabel": "Семестр {semester}",
+  "@courseImportSemesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportImportFailedStatus": "Import failed: {error}",
+  "@courseImportImportFailedStatus": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editorEditCourse": "Изменить курс",
+  "editorCreateCourse": "Создать курс",
+  "editorAllDaySchedule": "Событие на весь день",
+  "editorApplyColorTo": "Применить цвет к",
+  "editorCourseNatureHint": "Тип курса (напр. обязательный/выборный)",
+  "editorChangeScopeTitle": "Изменить только этот элемент или все курсы «{title}»?",
+  "@editorChangeScopeTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "editorChangeOnlyThisItem": "Только этот элемент",
+  "editorChangeAllSameName": "Все курсы с тем же именем",
+  "aiConversations": "Список бесед",
+  "aiNewChat": "Новый",
+  "aiServiceError": "Ошибка сервиса ИИ",
+  "aiUntitledItem": "Без названия",
+  "aiMemo": "Заметка",
+  "aiDraftReady": "Черновик готов: {title}",
+  "@aiDraftReady": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "aiOpenDraftPage": "Открыть черновик",
+  "aiSending": "Отправка…",
+  "aiSend": "Отправить",
+  "aiClearHistory": "Очистить историю",
+  "aiRename": "Переименовать",
+  "aiDelete": "Удалить",
+  "aiNoMessages": "Нет сообщений",
+  "aiClearConversations": "Очистить чаты",
+  "aiClearConversationsConfirm": "Are you sure you want to clear all conversation history?",
+  "aiCancel": "Отмена",
+  "aiClear": "Очистить",
+  "aiRenameConversation": "Переименовать беседу",
+  "aiSave": "Сохранить",
+  "aiSettings": "Настройки ИИ",
+  "aiRetry": "Повторить",
+  "aiClearConversationsWarning": "Все локальные диалоги с ИИ будут удалены.",
+  "scorePagePrivacyLocked": "Ведомость защищена замком конфиденциальности",
+  "scorePageClickToUnlock": "Нажмите, чтобы разблокировать",
+  "scorePageNoLocalScore": "Нет локальных оценок",
+  "scorePageLoginHint": "Если не вошли — войдите в настройках.\nЗатем нажмите кнопку ниже, чтобы загрузить и синхронизировать оценки.",
+  "scorePageSync": "Синхр. оценок",
+  "scorePageTotalGpa": "Общий GPA",
+  "scorePageTotalCredits": "Всего кредитов",
+  "scorePageGetFailed": "Не удалось получить оценки",
+  "scorePageSettings": "Настройки оценок",
+  "scorePageEnableBiometric": "Включить биометрический замок",
+  "scorePageBiometricHint": "Защитите оценки Face ID или отпечатком",
+  "scorePageGpaStandard": "Стандарт расчёта GPA",
+  "scorePageGpaStandardHint": "При смене пересчитываются общий и групповой GPA",
+  "scorePageStandardWhu": "Стандарт WHU 2021+",
+  "scorePageStandardWes": "Стандарт WES",
+  "scorePageStandard40": "Стандартный алгоритм 4.0",
+  "scorePageStandard100": "Средний процент",
+  "scorePageSpoiler": "Score Spoiler",
+  "scorePageSpoilerHint": "Fetch uploaded scores not yet synced to the educational administration system",
+  "scorePageEnableSpoiler": "Enable Score Spoiler",
+  "scorePageStudentId": "Student ID",
+  "scorePageStudentIdHint": "Used for spoiler API; can also extract stuId from Cookie",
+  "scorePageCookie": "Cookie (Optional)",
+  "scorePageCookieHint": "If API needs auth, paste Cookie like JSESSIONID / route / stuId",
+  "scorePageBiometricAuthFailed": "Ошибка биометрии",
+  "scorePageGoToSettings": "Go to Settings",
+  "scorePageSpoilerFailed": "Failed to fetch score spoiler",
+  "scorePageSpoilerHintText": "By enabling Score Spoiler, you can view early scores.",
+  "scorePageSpoilerFetched": "Fetched {count} records · {credits} credits",
+  "@scorePageSpoilerFetched": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageSpoilerUpdated": "Updated: {time}",
+  "@scorePageSpoilerUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfo": "{type} · {credit} кр. · {instructor}",
+  "@scorePageCourseInfo": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageCourseInfoWithExam": "{type} · {credit} credits · {exam}\n{instructor}",
+  "@scorePageCourseInfoWithExam": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      },
+      "exam": {
+        "type": "String"
+      },
+      "instructor": {
+        "type": "String"
+      }
+    }
+  },
+  "scorePageGpaDisplay": "GPA: {gpa}",
+  "@scorePageGpaDisplay": {
+    "placeholders": {
+      "gpa": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAboutDescription": "Luotopia — современный, красивый и мощный хаб учёбы и кампусной жизни. Спасибо за поддержку!",
+  "settingsDevModeAlreadyOn": "Режим разработчика уже включён.",
+  "settingsDevModeActivated": "Режим разработчика включён. Доступны настройки разработчика.",
+  "settingsDevModeTapCount": "Ещё {count} нажатий до режима разработчика",
+  "@settingsDevModeTapCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsNotificationsTitle": "Уведомления",
+  "settingsPushNotifications": "Push-уведомления",
+  "settingsPushNotificationsSubtitle": "Уведомления о расписании, отзывах и системе",
+  "settingsMarketingNotifications": "Маркетинг и события",
+  "settingsMarketingNotificationsSubtitle": "Уведомления о событиях и акциях кампуса",
+  "settingsStorageTitle": "Управление хранилищем",
+  "settingsClearCache": "Очистить кэш",
+  "settingsClearCacheSubtitle": "Очистить временные файлы и кэш (около {size})",
+  "settingsCacheCleared": "Кэш очищен: освобождено {size}",
+  "@settingsClearCacheSubtitle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsCacheCleared": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAiEntrySubtitle": "Модель, ключи API и системный промпт",
+  "settingsDeveloperTitle": "Настройки разработчика",
+  "settingsDeveloperSubtitle": "Адрес сервера и тестовые опции",
+  "settingsDevSaveSuccess": "Сохранено: URL сервера обновлён",
+  "settingsDevScanSuccess": "Сервер найден: {ip}:6262",
+  "@settingsDevScanSuccess": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevScanFailed": "На LAN не найден API-сервер на порту 6262",
+  "settingsDevScanError": "Ошибка сканирования: {error}",
+  "@settingsDevScanError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevServerUrl": "Свой URL сервера",
+  "settingsDevServerUrlSubtitle": "Переопределяет базовый URL API, напр. http://192.168.1.100:6262",
+  "settingsDevUrlLabel": "URL сервера",
+  "settingsDevUrlHint": "Оставьте пустым для значения по умолчанию",
+  "settingsDevDisableTitle": "Отключить режим разработчика",
+  "settingsDevDisableSubtitle": "После отключения снова включите, многократно нажимая номер версии",
+  "settingsHomeBackgroundImage": "Custom Background Image",
+  "settingsHomeBackgroundSet": "Set",
+  "settingsHomeGridAlpha": "Непрозрачность фона сетки",
+  "settingsHomeGridBorderAlpha": "Непрозрачность границ сетки",
+  "settingsHomeCropImage": "Обрезать изображение",
+  "settingsAiFormat": "Формат API",
+  "settingsAiFormatSubtitle": "Выберите формат API ИИ под провайдера",
+  "biometricLockContentLocked": "Заблокировано",
+  "biometricLockDescription": "Страница защищена: требуется аутентификация",
+  "biometricLockUnlock": "Разблокировать",
+  "whuLoginCannotComplete": "Не удалось завершить вход",
+  "whuLoginVerifying": "Проверка входа…",
+  "whuLoginVerificationFailed": "Проверка входа не удалась: {error}",
+  "@whuLoginVerificationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "Повтор",
+  "campusFeatureInDevelopment": "Функция в разработке",
+  "libraryVenueList": "Список площадок",
+  "libraryMyReservations": "Мои брони",
+  "libraryNoVenues": "Нет доступных площадок",
+  "libraryLoadFailed": "Ошибка загрузки: {error}",
+  "@libraryLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryScanCheckIn": "Scan to Check In / Temporarily Leave",
+  "libraryNoActiveReservation": "No active reservation",
+  "libraryClickForDetails": "Нажмите, чтобы увидеть этажи и места",
+  "globalTimetableTitle": "Общее расписание",
+  "globalTimetablePlaceholder": "Общее расписание в разработке…",
+  "settingsAiConnectionSuccess": "Проверка подключения ИИ успешна.",
+  "settingsAiConnectionFailed": "Ошибка подключения: {error}",
+  "@settingsAiConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardLoading": "Загрузка {name}…",
+  "@luojiaEcardLoading": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "luojiaEcardPreparing": "Подготовка {name}…",
+  "@luojiaEcardPreparing": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pagePreparationFailed": "Не удалось подготовить страницу: {error}",
+  "@pagePreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "linkNotSupported": "Эту ссылку нужно открыть в браузере или школьном приложении.",
+  "pageLoginRequired": "Войдите, чтобы открыть {name}",
+  "@pageLoginRequired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pageTemporarilyUnavailable": "Страница временно недоступна",
+  "pageRefresh": "Обновить",
+  "accountStatus": "Статус аккаунта",
+  "whuCasLoginRequired": "Сначала войдите в CAS WHU.",
+  "whuCasServiceAuthFailed": "Авторизация службы не удалась. Войдите снова в CAS WHU.",
+  "whuCasServiceRequestFailed": "Запрос авторизации службы не удался: {error}",
+  "@whuCasServiceRequestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasNoCookie": "Не найден действительный cookie учебной системы.",
+  "whuCasSessionExpired": "Сессия учебной системы истекла. Войдите снова.",
+  "whuCasSessionVerifyFailed": "Проверка учебной сессии не удалась: {error}",
+  "@whuCasSessionVerifyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasFetchFailed": "Не удалось получить данные учебной учётки (HTTP {code}).",
+  "@whuCasFetchFailed": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "whuCasLoginFailedReason": "Вход в учебную систему не удался: {reason}",
+  "@whuCasLoginFailedReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCasLoginFailedGeneric": "Вход в учебную систему не удался. Войдите снова в CAS WHU.",
+  "courseHubToolsTitle": "Инструменты и сведения о курсах",
+  "courseHubToolsDescription": "Календарь, посещение, расписание, оценки и отзывы.",
+  "courseHubSearchCourse": "Поиск курсов",
+  "courseHubCalendar": "Календарь",
+  "courseHubCalendarSubtitle": "Семестры, каникулы и экзаменационные недели",
+  "courseHubAuditCourse": "Слушание",
+  "courseHubAuditCourseSubtitle": "Найти курсы для посещения · WIP",
+  "courseHubTimetableSubtitle": "Все курсы университета · WIP",
+  "courseHubScoresSubtitle": "Найдите курс, чтобы увидеть распределение",
+  "courseHubReviews": "Отзывы о курсе",
+  "courseHubReviewsSubtitle": "Найдите курс, чтобы увидеть отзывы",
+  "courseHubToolsSection": "Учебные инструменты",
+  "courseHubSearchHintGrades": "Найдите курс для истории оценок",
+  "courseHubSearchHintReviews": "Найдите курс для отзывов студентов",
+  "courseHubSearchHintNormal": "Поиск по названию, преподавателю или коду",
+  "courseHubSearchTitle": "Поиск курсов",
+  "courseHubEmptyTitle": "Найти любой курс",
+  "courseHubEmptyDescription": "Откройте карточку курса, чтобы увидеть оценки и отзывы.",
+  "courseHubNoResults": "Курсы не найдены",
+  "courseHubSearchError": "Ошибка поиска: {error}",
+  "@courseHubSearchError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubResultSubtitle": "{uid} · {department}",
+  "@courseHubResultSubtitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      },
+      "department": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailTitle": "Курс: {uid}",
+  "@courseDetailTitle": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      }
+    }
+  },
+  "courseDetailGradesTab": "Оценки",
+  "courseDetailReviewsTab": "Отзывы",
+  "courseDetailGradesPlaceholder": "График распределения оценок — скоро",
+  "courseDetailReviewsPlaceholder": "Список отзывов — скоро",
+  "courseAuditTitle": "Свободное посещение",
+  "courseAuditPlaceholder": "Функция «свободное посещение» в разработке…",
+  "courseHubSearchFailMessage": "Ошибка поиска: {message}",
+  "@courseHubSearchFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubGradeStatsFailMessage": "Не удалось загрузить распределение: {message}",
+  "@courseHubGradeStatsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHubReviewsFailMessage": "Не удалось загрузить отзывы: {message}",
+  "@courseHubReviewsFailMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "courseTimetableDefaultName": "Расписание {index}",
+  "@courseTimetableDefaultName": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyClassroomSectionFormat": "Period {groups}",
+  "@emptyClassroomSectionFormat": {
+    "placeholders": {
+      "groups": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupImportPlaceholder": "Парсер ссылок/кодов Wakeup ещё не подключён — пока только заглушка импорта.",
+  "sportsReservationToday": "Сегодня",
+  "sportsReservationTomorrow": "Завтра",
+  "sportsReservationDayAfterTomorrow": "Послезавтра",
+  "sportsVenueCourtFormat": "Корт {areaNo}",
+  "@sportsVenueCourtFormat": {
+    "placeholders": {
+      "areaNo": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderNo": "№ заказа",
+  "sportsOrderCreatedAt": "Создано",
+  "sportsOrderPaidAmount": "Сумма оплаты",
+  "sportsOrderTotalAmount": "Итого",
+  "sportsOrderDiscountAmount": "Скидка",
+  "sportsOrderPaymentStartTime": "Начало оплаты",
+  "sportsOrderPaymentDeadline": "Срок оплаты",
+  "sportsOrderPaymentTime": "Время оплаты",
+  "sportsOrderRefundDeadline": "Срок возврата",
+  "sportsOrderRefundAmount": "Сумма возврата",
+  "sportsOrderCancelReason": "Причина отмены",
+  "sportsOrderCancelTime": "Время отмены",
+  "sportsOrderRefundTime": "Время возврата",
+  "sportsOrderRealName": "ФИО",
+  "sportsOrderStudentWorkNo": "Студ./таб. №",
+  "sportsVenueFree": "Бесплатно",
+  "sportsVenuePriceFormat": "{price} CNY",
+  "@sportsVenuePriceFormat": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
+  "@sportsVenuePriceRangeFormat": {
+    "placeholders": {
+      "lowPrice": {
+        "type": "String"
+      },
+      "highPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsOrderPriceWithUnitFormat": "{value} CNY",
+  "@sportsOrderPriceWithUnitFormat": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsReservationSelectVenueTimeHint": "Сначала выберите доступную площадку и слот.",
+  "sportsReservationVenueTimeUnavailable": "Выбранные площадка или слот недоступны. Выберите снова.",
+  "sportsReservationSessionExpired": "Сессия системы спортплощадок истекла.",
+  "sportsReservationAuthRequired": "Сначала авторизуйте систему спортплощадок.",
+  "sportsReservationWhuLoginRequired": "Сначала войдите в единый вход WHU.",
+  "sportsFetchSportsTypes": "Получить виды спорта",
+  "sportsFetchOftenVenues": "Получить частые площадки",
+  "sportsFetchVenues": "Получить список площадок",
+  "sportsFetchVenueDetail": "Получить детали площадки",
+  "sportsFetchVenueDetailEmpty": "Не удалось получить детали площадки: пустой ответ.",
+  "sportsFetchVenueSportsTypes": "Получить виды спорта площадки",
+  "sportsFetchAppointmentList": "Получить площадки для брони",
+  "sportsFetchAppointmentAreaList": "Получить зоны для брони",
+  "sportsFetchAppointmentRules": "Получить правила брони",
+  "sportsFetchRecentlyStartReservations": "Получить недавние начатые брони",
+  "sportsFetchOrderList": "Получить список заказов",
+  "sportsFetchOrderDetail": "Получить детали заказа",
+  "sportsFetchOrderDetailEmpty": "Не удалось получить детали заказа: пустой ответ.",
+  "sportsOrderCancelDefaultRemark": "Отменено пользователем",
+  "sportsCancelOrder": "Отменить заказ",
+  "sportsApplyRefund": "Запросить возврат",
+  "sportsDeleteOrder": "Удалить запись заказа",
+  "sportsCheckBlacklist": "Проверить ограничения брони",
+  "sportsFetchBulletins": "Получить объявления площадок",
+  "sportsNetworkError": "{action}: сетевая ошибка.",
+  "@sportsNetworkError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiHttpError": "{action}: HTTP {statusCode}.",
+  "@sportsApiHttpError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsApiFormatError": "{action}: неверный формат ответа.",
+  "@sportsApiFormatError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiError": "{action}: ошибка.",
+  "@sportsApiError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiErrorWithMessage": "{action}: {message}",
+  "@sportsApiErrorWithMessage": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiJsonError": "{action}: ответ не JSON. {diagnostic}",
+  "@sportsApiJsonError": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "diagnostic": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsApiResponseEmpty": "Пустой ответ.",
+  "sportsApiDiagnosticSafeLine": "Страница SafeLine WAF",
+  "sportsApiDiagnosticAuthPage": "Страница единого входа",
+  "sportsApiDiagnosticHtmlPage": "HTML-страница",
+  "sportsApiDiagnosticNonJson": "Не-JSON текст",
+  "sportsApiDiagnosticResponseType": "Тип ответа: {kind}.",
+  "@sportsApiDiagnosticResponseType": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAuthNoCasTicket": "Авторизация не удалась: нет CAS ticket.",
+  "sportsAuthNoToken": "Авторизация не удалась: нет учётных данных.",
+  "sportsAuthFetchToken": "Получить учётные данные входа",
+  "sportsAuthNoJwt": "Авторизация не удалась: в ответе нет JWT.",
+  "sportsAuthFailed": "Не удалось авторизовать систему спортплощадок.",
+  "sportsAuthHttpError": "Sports venue system authorization failed (HTTP {statusCode}).",
+  "@sportsAuthHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "sportsAuthRetryLogin": "Sports venue system authorization failed. Please re-login to WHU Unified Authentication.",
+  "scoreImportDescription": "После импорта оценки кэшируются локально для просмотра и расчёта GPA.",
+  "scoreImportCaptchaFailed": "Не удалось разобрать код проверки",
+  "scoreImportCancelled": "Проверка отменена",
+  "scoreImportImportingUndergraduate": "Вход в бакалавриат и импорт оценок…",
+  "scoreImportSuccessWithCount": "{success}: {count} оценок сохранено локально.",
+  "@scoreImportSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportFailedWithError": "{failed}: {error}",
+  "@scoreImportFailedWithError": {
+    "placeholders": {
+      "failed": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportSpoilerImporting": "Импорт оценок из системы проф. развития…",
+  "scoreImportNoStudentId": "Не найден номер студента глобального входа",
+  "scoreImportNoSession": "No academic system session found. Please re-login your WHU account.",
+  "scoreImportSpoilerSuccessWithCount": "{success}: получено {count} записей «спойлера».",
+  "@scoreImportSpoilerSuccessWithCount": {
+    "placeholders": {
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportLastImport": "Last Import",
+  "scoreImportTime": "Time: {time}",
+  "@scoreImportTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreImportCount": "Score count: {count}",
+  "@scoreImportCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "@scoreImportExample": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaAutoVerifying": "Автопроверка…",
+  "seatReservationAlreadySynced": "Эта бронь уже в расписании.",
+  "seatReservationAddedToAgenda": "Бронь места добавлена в расписание.",
+  "seatReservationAddToAgendaTitle": "Add to agenda?",
+  "seatReservationAddButton": "Add",
+  "seatReservationPreparing": "Authorizing the seat reservation system...",
+  "seatReservationErrorTitle": "Seat reservation temporarily unavailable",
+  "seatReservationRetry": "Retry",
+  "seatReservationDefaultLocation": "Wuhan University Library",
+  "seatReservationDraftTitle": "Бронь места в библиотеке",
+  "seatReservationDraftDetails": "Источник: система брони мест библиотеки WHU\nID места: {seatId}\n{marker}",
+  "@seatReservationDraftDetails": {
+    "placeholders": {
+      "seatId": {
+        "type": "String"
+      },
+      "marker": {
+        "type": "String"
+      }
+    }
+  },
+  "seatReservationSourceMarker": "ID синхронизации брони: {sourceId}",
+  "@seatReservationSourceMarker": {
+    "placeholders": {
+      "sourceId": {
+        "type": "String"
+      }
+    }
+  },
+  "whuCalendarDateFormat": "{year}/{month}/{day}",
+  "@whuCalendarDateFormat": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeDefaultBlockLabel": "Block {number}",
+  "@homeDefaultBlockLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "itemDetailDateRangeTo": " — ",
+  "itemDetailSectionGrading": "Оценивание",
+  "itemDetailScoreOverall": "Итоговая",
+  "itemDetailScoreContinuous": "Текущие",
+  "itemDetailScoreFinal": "Экзамен",
+  "itemDetailSectionDistribution": "Распределение оценок",
+  "itemDetailDistRange90to100": "90-100",
+  "itemDetailDistRange80to89": "80-89",
+  "itemDetailDistRange70to79": "70-79",
+  "itemDetailDistRange60to69": "60-69",
+  "itemDetailDistRangeBelow60": "<60",
+  "itemDetailSectionReviews": "Отзывы",
+  "itemDetailMockReview1": "Преподаватель объясняет ясно, материалы хорошие, оценки справедливые. Упражнения на занятиях очень помогают.",
+  "itemDetailMockReview2": "Содержание плотное, экзамен сложный. Домашние задания умеренные — лучше готовиться заранее.",
+  "itemDetailMockReview3": "Очень рекомендую! Курс прояснил направление специальности, лаборатории удачные.",
+  "itemDetailMockReviewer": "Анонимный студент",
+  "itemDetailTimeRangeSeparator": "~",
+  "aiMessageCount": "{count} сообщ.",
+  "@aiMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "citationCardTypeSchedule": "Событие",
+  "citationCardTypeTask": "Задача",
+  "citationCardTypeMemo": "Заметка",
+  "citationCardTypeCourse": "Курс",
+  "citationCardTimeSeparator": "–",
+  "aiHeaderConfigRequired": "Сначала настройте ИИ в параметрах.",
+  "aiHeaderServiceUnavailable": "Сервис ИИ недоступен. Проверьте настройки или сеть.",
+  "aiHeaderRetryLater": "Сервис ИИ временно недоступен. Повторите позже.",
+  "aiHeaderDraftCreated": "Создано через черновик: {title}",
+  "@aiHeaderDraftCreated": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "themeColorSpec2021": "2021",
+  "themeColorSpec2025": "2025",
+  "themeColorLuotopiaBlue": "Luotopia Blue",
+  "themeColorMaterialRed": "Material Red",
+  "themeColorMaterialPink": "Material Pink",
+  "themeColorMaterialPurple": "Material Purple",
+  "themeColorMaterialDeepPurple": "Material Deep Purple",
+  "themeColorMaterialIndigo": "Material Indigo",
+  "themeColorMaterialBlue": "Material Blue",
+  "themeColorMaterialCyan": "Material Cyan",
+  "themeColorMaterialTeal": "Material Teal",
+  "themeColorMaterialGreen": "Material Green",
+  "themeColorMaterialOrange": "Material Orange",
+  "themeColorMaterialBrown": "Material Brown",
+  "themeDpiSmall": "Small",
+  "themeDpiStandard": "Standard",
+  "themeDpiLarge": "Large",
+  "themeDpiExtraLarge": "Extra Large",
+  "aiFormatOpenaiCompletion": "OpenAI Completion",
+  "aiFormatOpenaiResponse": "OpenAI Response",
+  "aiFormatGemini": "Gemini",
+  "aiFormatAnthropic": "Anthropic",
+  "aiSystemPromptDefault": "Вы — ИИ-помощник Luotopia. Отвечайте только по текущему сообщению и краткой сводке дел, без прошлых диалогов. В приоритете — создание дел, организация расписания и вопросы планирования.",
+  "whuAccountFallbackName": "Аккаунт WHU",
+  "homeWidgetDateLabel": "{month}/{day}",
+  "@homeWidgetDateLabel": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "homeWidgetNoScheduleToday": "Сегодня нет дел",
+  "homeWidgetAgendaListTitle": "Список дел",
+  "homeWidgetAgendaListSubtitle": "Слева расписание, справа задачи и заметки",
+  "homeWidgetRightColumnTitle": "Задачи и заметки",
+  "homeWidgetTypeCourse": "Курс",
+  "homeWidgetUntitledItem": "Без названия",
+  "homeWidgetAllDay": "Весь день",
+  "homeWidgetUpdatedAt": "Обновлено {time}",
+  "@homeWidgetUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWidgetWeekLabel": "Неделя {week}",
+  "@homeWidgetWeekLabel": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherConditionSunny": "Sunny",
+  "weatherConditionCloudy": "Cloudy",
+  "weatherConditionRainy": "Rainy",
+  "weatherConditionSnowy": "Snowy",
+  "weatherConditionFoggy": "Foggy",
+  "weatherAqiExcellent": "Отлично",
+  "weatherAqiGood": "Хорошо",
+  "weatherAqiModerate": "Умеренно",
+  "weatherAqiPoor": "Плохо",
+  "weatherBannerRainSoon": "Скоро дождь — не забудьте зонт!",
+  "weatherBannerAlert": "Предупреждение: {alert}",
+  "@weatherBannerAlert": {
+    "placeholders": {
+      "alert": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherAQIValue": "AQI {value}",
+  "@weatherAQIValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
+  "@weatherConditionFormat": {
+    "placeholders": {
+      "condition": {
+        "type": "String"
+      },
+      "minTemp": {
+        "type": "String"
+      },
+      "maxTemp": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCaptchaRetrying": "Автопроверка (попытка {attempt})…",
   "@scoreCaptchaRetrying": {
     "placeholders": {
-      "attempt": { "type": "int" }
+      "attempt": {
+        "type": "int"
+      }
     }
   },
-  "weatherAirQualityTitle": "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u0432\u043E\u0437\u0434\u0443\u0445\u0430",
+  "settingsWeatherProviders": "Поставщики погоды",
+  "weatherProviderForecast": "Прогноз",
+  "weatherProviderCurrent": "Сейчас",
+  "weatherProviderAirQuality": "Качество воздуха",
+  "weatherProviderPrecipitation": "Прогноз осадков",
+  "weatherProviderAlerts": "Предупреждения",
+  "weatherProviderNormalTemp": "Обычный диапазон температур",
+  "weatherProviderLocationLookup": "Поиск места",
+  "weatherProviderChina": "Погода Xiaomi",
+  "weatherProviderOpenMeteo": "Open-Meteo",
+  "weatherProviderQWeather": "QWeather",
+  "weatherProviderAccuWeather": "AccuWeather",
+  "weatherProviderOpenWeatherMap": "OpenWeatherMap",
+  "weatherProviderNominatim": "Nominatim",
+  "weatherAqiHazardous": "Опасно",
+  "weatherRainExpected": "Ожидается дождь",
+  "weatherClear": "Ясно",
+  "weatherCloudy": "Облачно",
+  "weatherFog": "Туман",
+  "weatherRain": "Дождь",
+  "weatherSnow": "Снег",
+  "weatherThunderstorm": "Гроза",
+  "weatherUnknown": "Неизвестно",
+  "settingsWeatherLocationService": "Служба геолокации",
+  "settingsWeatherLocationSystem": "Системная геолокация",
+  "settingsWeatherLocationIpSb": "IP.SB",
+  "settingsWeatherLocationBaiduIp": "IP-геолокация Baidu",
+  "settingsWeatherBaiduApiKey": "Baidu API Key",
+  "locationSearchTitle": "Поиск места",
+  "locationSearchHint": "Поиск города…",
+  "locationSearchNoResults": "Ничего не найдено",
+  "settingsWeatherUpdateInterval": "Интервал обновления",
+  "settingsWeatherUpdate15m": "15 мин",
+  "settingsWeatherUpdate30m": "30 мин",
+  "settingsWeatherUpdate1h": "1 ч",
+  "settingsWeatherUpdate2h": "2 ч",
+  "settingsWeatherUpdateAlways": "Всегда актуальные",
+  "weatherAirQualityTitle": "Качество воздуха",
   "weatherAirQualityPm25": "PM2.5",
   "weatherAirQualityPm10": "PM10",
-  "weatherAirQualityO3": "O\u2083",
-  "weatherAirQualityNo2": "NO\u2082",
-  "weatherAirQualitySo2": "SO\u2082",
+  "weatherAirQualityO3": "O₃",
+  "weatherAirQualityNo2": "NO₂",
+  "weatherAirQualitySo2": "SO₂",
   "weatherAirQualityCo": "CO",
-  "weatherAirQualityUnit": "\u00B5g/m\u00B3",
-  "weatherAirQualityClose": "\u0417\u0430\u043A\u0440\u044B\u0442\u044C",
-  "weatherAirQualitySubtitle": "\u041A\u043E\u043D\u0446\u0435\u043D\u0442\u0440\u0430\u0446\u0438\u0438 \u0437\u0430\u0433\u0440\u044F\u0437\u043D\u044F\u044E\u0449\u0438\u0445 \u0432\u0435\u0449\u0435\u0441\u0442\u0432 \u0432 \u0440\u0435\u0430\u043B\u044C\u043D\u043E\u043C \u0432\u0440\u0435\u043C\u0435\u043D\u0438",
-  "campusBusTitle": "Campus Bus",
-  "campusBusNearestStop": "Nearest: {stopName}",
-  "campusBusDistance": "~{meters}m",
-  "campusBusLineOne": "Line 1",
-  "campusBusLineTwo": "Line 2",
-  "campusBusLineMedical": "Medical Campus",
-  "campusBusPlateNumber": "No. {plate}",
-  "campusBusArrived": "Arrived",
-  "campusBusStopsAway": "{stops} stop(s) away",
-  "campusBusNoInfo": "No bus information available",
-  "campusBusNoNearby": "No nearby bus stops found",
-  "campusBusLoadFailed": "Failed to load bus info",
-  "campusBusNotLoggedIn": "Not logged in or out of service hours",
-  "campusBusRefresh": "Refresh",
-  "settingsBuildTypeDebug": "Debug Build",
-  "settingsBuildTypeProfile": "Profile Build",
-  "settingsBuildTypeRelease": "Release Build",
+  "weatherAirQualityUnit": "µg/m³",
+  "weatherAirQualityClose": "Закрыть",
+  "weatherAirQualitySubtitle": "Концентрации загрязняющих веществ в реальном времени",
+  "campusBusTitle": "Кампусный автобус",
+  "campusBusNearestStop": "Ближайшая: {stopName}",
+  "campusBusDistance": "~{meters} м",
+  "campusBusLineOne": "Маршрут 1",
+  "campusBusLineTwo": "Маршрут 2",
+  "campusBusLineMedical": "Медицинский кампус",
+  "campusBusPlateNumber": "№ {plate}",
+  "campusBusArrived": "Прибыл",
+  "campusBusStopsAway": "Через {stops} остановки",
+  "campusBusNoInfo": "Нет данных об автобусах",
+  "campusBusNoNearby": "Рядом нет остановок",
+  "campusBusLoadFailed": "Не удалось загрузить данные автобусов",
+  "campusBusNotLoggedIn": "Нет входа или вне часов работы",
+  "campusBusRefresh": "Обновить",
+  "campusBusServiceHours": "Часы работы: {hours}",
+  "whuConfirmLogout": "Подтвердить выход",
+  "whuLogoutWarning": "После выхода потребуется снова войти для сервисов WHU.",
+  "settingsDevConfirmDisable": "Отключить режим разработчика?",
+  "settingsDevDisableWarning": "После отключения нужно снова многократно нажать номер версии.",
+  "scoreClearCacheTitle": "Очистить кэш оценок",
+  "scoreClearCacheWarning": "Все локально кэшированные оценки будут удалены. Продолжить?",
+  "scoreClearCacheSuccess": "Кэш оценок очищен",
+  "scoreClearCacheHint": "Очистить все локально кэшированные оценки",
+  "settingsBuildTypeDebug": "Debug-сборка",
+  "settingsBuildTypeProfile": "Profile-сборка",
+  "settingsBuildTypeRelease": "Release-сборка",
   "settingsBuildChannelAlpha": "Alpha",
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
-  "settingsBuildInfoVersion": "Version",
-  "settingsBuildInfoBuildNumber": "Build",
-  "settingsBuildInfoChannel": "Channel",
-  "settingsBuildInfoType": "Type",
-  "weatherAqiStandardUs": "US Standard",
-  "weatherAqiStandardCn": "China Standard",
-  "weatherAqiStandardEu": "EU Standard",
-  "settingsWeatherAqiStandard": "AQI Standard",
-  "settingsWeatherAqiStandardSubtitle": "All AQI values are converted to this standard for consistent display"
+  "settingsBuildInfoVersion": "Версия",
+  "settingsBuildInfoBuildNumber": "Сборка",
+  "settingsBuildInfoChannel": "Канал",
+  "settingsBuildInfoType": "Тип",
+  "weatherAqiStandardUs": "Стандарт США",
+  "weatherAqiStandardCn": "Стандарт Китая",
+  "weatherAqiStandardEu": "Стандарт ЕС",
+  "settingsWeatherAqiStandard": "Стандарт AQI",
+  "settingsWeatherAqiStandardSubtitle": "Все значения AQI пересчитываются в этот стандарт для единообразия",
+  "libraryAuthFailed": "Ошибка авторизации: {error}",
+  "@libraryAuthFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCurrentReservation": "Текущая бронь",
+  "libraryCancelTitle": "Отменить бронь",
+  "libraryCancelConfirm": "Отменить текущее бронирование?",
+  "libraryConfirmCancel": "Подтвердить отмену",
+  "libraryCancelSuccess": "Бронь отменена",
+  "libraryCancelFailed": "Не удалось отменить: {error}",
+  "@libraryCancelFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryCheckoutSuccess": "Вы вышли",
+  "libraryCheckoutFailed": "Ошибка выхода: {error}",
+  "@libraryCheckoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryMenuCancel": "Отменить",
+  "libraryMenuCheckout": "Выйти",
+  "libraryNoRoomData": "Нет данных о залах",
+  "libraryFloor": "Этаж {floor}",
+  "@libraryFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryAvailable": "Свободно {free}/{total}",
+  "@libraryAvailable": {
+    "placeholders": {
+      "free": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryBookTitle": "{building} - {room}",
+  "@libraryBookTitle": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoSeatData": "Нет данных о местах",
+  "librarySeatLayoutFailed": "Не удалось загрузить схему мест: {error}",
+  "@librarySeatLayoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryBookThisSeat": "Забронировать это место",
+  "libraryDate": "Date",
+  "libraryStartTime": "Начало",
+  "libraryEndTime": "Конец",
+  "libraryBookSuccess": "Место забронировано!",
+  "libraryBookFailed": "Ошибка брони: {error}",
+  "@libraryBookFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryNoHistory": "Нет истории бронирований",
+  "libraryStatusReserved": "Забронировано",
+  "libraryStatusCheckIn": "На месте",
+  "libraryStatusAway": "Отошёл",
+  "libraryStatusCompleted": "Завершено",
+  "libraryStatusCancelled": "Отменено",
+  "libraryStatusMissed": "Неявка",
+  "libraryStatusLeftEarly": "Ушёл раньше",
+  "libraryStatusNoCheckout": "Без выхода",
+  "libraryToday": "Сегодня",
+  "libraryTomorrow": "Завтра",
+  "emptyClassroomSelfStudyTitle": "Самоподготовка · {location}",
+  "@emptyClassroomSelfStudyTitle": {
+    "placeholders": {
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyClassroomFilterSection": "Пары",
+  "emptyClassroomSectionClear": "Сбросить",
+  "addToAgendaTitle": "Добавить в расписание?",
+  "addToAgendaConfirm": "Добавить",
+  "sportsAgendaItemTitle": "{type} · {venue}",
+  "@sportsAgendaItemTitle": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "venue": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAgendaItemDetails": "Бронь спортплощадки",
+  "sportsAddedToAgenda": "Добавлено в расписание",
+  "wallpaperCenterTitle": "Обои",
+  "wallpaperCenterSubtitle": "Обои для каждой страницы",
+  "wallpaperSourceNone": "Нет",
+  "wallpaperSourceLocal": "Локальный файл",
+  "wallpaperSourceBing": "Bing дня",
+  "wallpaperPickImage": "Выбрать изображение",
+  "wallpaperNoImage": "Изображение не выбрано",
+  "wallpaperTargetHome": "Расписание",
+  "wallpaperTargetCampus": "Кампус",
+  "wallpaperTargetSettings": "Настройки",
+  "wallpaperTargetTaskList": "Список задач",
+  "wallpaperTargetForum": "Форум",
+  "wallpaperTargetAi": "AI",
+  "libraryBorrowingPlaceholder": "Выдача книг в разработке…",
+  "settingsAiProvider": "Провайдер ИИ",
+  "settingsAiModels": "Список моделей",
+  "settingsAiFetchModels": "Загрузить модели",
+  "settingsAiFetchedCount": "Загружено моделей: {count}",
+  "@settingsAiFetchedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelHint": "Введите имя модели или выберите из списка",
+  "pasteWakeupShareCodelinkParser": "Поддерживает вставку пароля или ссылки для общего доступа к Wakeup. Текущая версия сначала предоставляет процесс-заполнитель.",
+  "egWakeupImport1": "Например: импорт пробуждения 1.",
+  "yy1": "{y}-{yPlus1} учебный год",
+  "wakeupShareLinkcode": "Поделиться паролем/ссылкой для пробуждения",
+  "allSamenameCourses": "Изменить этот курс",
+  "homeJumpCurrentWeek": "Сейчас",
+  "homeJumpSemesterStartWeek": "Старт",
+  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "languageFollowSystem": "Как в системе",
+  "languageFollowApp": "Как в приложении",
+  "ecardPaycodeTitle": "E-Card Payment Code",
+  "ecardPaycodeUseWeb": "Use web version",
+  "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
+  "ecardPaycodeLoginRequiredTitle": "Please log in to your WHU account",
+  "ecardPaycodeLoginRequiredMessage": "After logging in you can get the E-card payment code.",
+  "ecardPaycodeRefreshing": "Refreshing payment code…",
+  "ecardPaycodeLoading": "Getting payment code…",
+  "ecardPaycodeAccountFallback": "WHU account",
+  "ecardPaycodeSessionExpired": "Session expired. Please re-login to WHU under Account.",
+  "ecardPaycodeFetchFailed": "Failed to get payment code. Retry or use the web version.",
+  "ecardPaycodeShowToMerchant": "Show this code to the merchant to pay",
+  "ecardPaycodeAutoRefreshHint": "Auto-refreshes every minute. Do not use screenshots.",
+  "ecardPaycodeRefreshNow": "Обновить",
+  "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
+  "@ecardPaycodeRefreshInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "ecardPaycodeUnavailable": "Unable to get payment code for now",
+  "studyStatusTitle": "Academic status",
+  "studyStatusEmptyTitle": "No academic data yet",
+  "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",
+  "studyStatusFetchData": "Fetch data",
+  "studyStatusFetchFailed": "Failed to fetch data",
+  "studyStatusStatsTime": "Stats as of {time}",
+  "@studyStatusStatsTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusTrainingPlan": "Training plan",
+  "studyStatusCourseOverview": "Course overview",
+  "studyStatusFilterAll": "Все",
+  "studyStatusFilterPassed": "Сдано",
+  "studyStatusFilterFailed": "Не сдано",
+  "studyStatusFilterStudying": "Изучается",
+  "studyStatusFilterNotTaken": "Не взято",
+  "studyStatusOutOfPlan": "Out of plan",
+  "studyStatusTotalCourses": "{count} courses",
+  "@studyStatusTotalCourses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusPassedCount": "Passed {count}",
+  "@studyStatusPassedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusFailedCount": "Failed {count}",
+  "@studyStatusFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusStudyingCount": "In progress {count}",
+  "@studyStatusStudyingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusRequiredCredits": "Required {credits} credits",
+  "@studyStatusRequiredCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusEarnedCredits": "Earned {credits} credits",
+  "@studyStatusEarnedCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusNoCourses": "No course data",
+  "studyStatusCredits": "{credit} credits",
+  "@studyStatusCredits": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusRetake": "Retake",
+  "studyStatusScorePoints": "{score} pts",
+  "@studyStatusScorePoints": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusOriginalScore": "Orig. {score} pts",
+  "@studyStatusOriginalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusGradePoint": "GPA {point}",
+  "@studyStatusGradePoint": {
+    "placeholders": {
+      "point": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageStudyStatus": "Учёба",
+  "scorePageFetchStudyStatus": "Fetch academic status",
+  "aiTimeline": "Лента",
+  "weatherDetailTitle": "Weather details",
+  "weatherDetailTemperature": "Temperature",
+  "weatherDetailFeelsLike": "Feels like",
+  "weatherDetailHighLow": "High / Low",
+  "weatherDetailHumidity": "Humidity",
+  "weatherDetailUv": "UV index",
+  "weatherDetailWind": "Wind",
+  "weatherDetailPressure": "Pressure",
+  "weatherDetailVisibility": "Visibility",
+  "weatherDetailSunrise": "Sunrise",
+  "weatherDetailSunset": "Sunset"
 }

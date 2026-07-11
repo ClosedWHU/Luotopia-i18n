@@ -30,7 +30,6 @@
   "campusAppSeatReservation": "自习预约",
   "campusAppSports": "运动场馆",
   "campusAppTimetable": "课程表",
-  "campusAppStudyStatus": "学业情况",
   "campusPageTitle": "校园服务",
   "campusTitle": "校园",
   "cancel": "取消",
@@ -334,7 +333,7 @@
   "homeCurrentWeekRange": "本周 ({start} - {end})",
   "homeDescription": "这里将承载周视图与月视图的表格化规划主页。",
   "homeGoToCurrentWeek": "转到本周",
-  "homeGoToNextSemesterFirstWeek": "转到开学第一周",
+  "homeGoToNextSemesterFirstWeek": "转到开学周",
   "homeGridModeCourse": "课程方格",
   "homeGridModeTime": "时间方格",
   "homePeriodRange": "{start} - {end}",
@@ -462,8 +461,6 @@
   "scoreImportTitle": "成绩导入",
   "scoreImportUndergraduateTitle": "从本科教务导入",
   "scoreImportUndergraduateSubtitle": "导入精确的成绩但是可能更新较慢",
-  "scoreImportSpoilerTitle": "从专业发展指导系统导入",
-  "scoreImportSpoilerSubtitle": "只能获取绩点，但是比本科教务出成绩更快",
   "scorePageAcademicYear": "学年",
   "scorePageAnonymousContribution": "匿名贡献给分",
   "scorePageAvgExam": "期末均分",
@@ -532,7 +529,7 @@
   "settingsAboutEntryTitle": "关于",
   "settingsAboutDevTeam": "开发团队",
   "settingsAboutTranslation": "翻译平台",
-  "settingsLicensesTitle": "开放源代码许可证",
+  "settingsLicensesTitle": "开源许可证",
   "licenseAuthor": "作者: {author}",
   "@licenseAuthor": {
     "placeholders": {
@@ -599,7 +596,6 @@
   "settingsHomeWideLayout": "超宽屏默认范围",
   "settingsLanguage": "语言",
   "settingsLicenses": "开源许可证",
-  "settingsLicensesTitle": "开源许可证",
   "settingsLight": "浅色",
   "settingsListEntrySubtitle": "列表排序、重排与展示偏好",
   "settingsListEntryTitle": "列表页设置",
@@ -618,6 +614,15 @@
   "settingsTheme": "主题",
   "settingsTitle": "设置",
   "settingsVersion": "版本",
+  "settingsFriendLinksTitle": "友情链接",
+  "settingsFriendLinksSubtitle": "合作伙伴、社区与相关项目",
+  "settingsFriendLinksEmpty": "暂无友情链接",
+  "friendLinkDialogClose": "关闭",
+  "friendLinkOpenFailed": "无法打开链接",
+    "friendLinkCategoryFeedback": "使用反馈",
+  "friendLinkCategoryClubOrg": "社团组织",
+  "friendLinkCategoryPartnerApp": "合作与致谢",
+  "friendLinkCategoryOther": "其他",
   "settingsWeatherSectionTitle": "天气设置",
   "settingsWeatherSectionSubtitle": "天气服务商、API 密钥与定位",
   "settingsWeatherProvider": "天气服务商",
@@ -719,7 +724,7 @@
   "wakeupShareLinkCode": "Wakeup 分享口令/链接",
   "weatherCachedAt": "缓存于 {time}",
   "weatherCacheTimeUnknown": "缓存时间未知",
-  "weatherFeelsLike": "体感 {temp}",
+  "weatherFeelsLike": "体感{temp}",
   "weatherLibraryBorrowingDetail": "借阅详情",
   "weatherLibraryReminder": "图书馆：《罪与罚》借阅将在三天后到期",
   "weatherLoadFailed": "天气加载失败",
@@ -1356,15 +1361,16 @@
         "type": "String"
       }
     }
-  }
-,
+  },
   "settingsAboutDescription": "Luotopia 致力于打造一个现代化、美观、功能强大的教务与校园生活枢纽平台。感谢您的使用与支持！",
   "settingsDevModeAlreadyOn": "开发者模式已开启：您已经是开发者了。",
   "settingsDevModeActivated": "开发者模式已开启：您现在可以使用开发者设置了！",
   "settingsDevModeTapCount": "即将开启开发者模式：再点击 {count} 次开启开发者模式",
   "@settingsDevModeTapCount": {
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "settingsNotificationsTitle": "通知管理",
@@ -1374,8 +1380,22 @@
   "settingsMarketingNotificationsSubtitle": "接收校园活动与推广信息的推送",
   "settingsStorageTitle": "存储管理",
   "settingsClearCache": "清除缓存",
-  "settingsClearCacheSubtitle": "释放本地存储空间（大约 128 MB）",
-  "settingsCacheCleared": "缓存已清除: 释放了 128 MB 空间",
+  "settingsClearCacheSubtitle": "释放可清理的临时文件与缓存数据（约 {size}）",
+  "settingsCacheCleared": "缓存已清除：释放了 {size}",
+  "@settingsClearCacheSubtitle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsCacheCleared": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiEntrySubtitle": "模型、密钥与系统提示词",
   "settingsDeveloperTitle": "开发者设置",
   "settingsDeveloperSubtitle": "服务器地址与测试选项",
@@ -1383,14 +1403,18 @@
   "settingsDevScanSuccess": "成功发现服务器: {ip}:6262",
   "@settingsDevScanSuccess": {
     "placeholders": {
-      "ip": { "type": "String" }
+      "ip": {
+        "type": "String"
+      }
     }
   },
   "settingsDevScanFailed": "未能在局域网中发现开放 6262 端口的 API 服务器",
   "settingsDevScanError": "扫描失败: {error}",
   "@settingsDevScanError": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "settingsDevServerUrl": "自定义服务器地址",
@@ -1414,7 +1438,9 @@
   "whuLoginVerificationFailed": "登录状态验证失败：{error}",
   "@whuLoginVerificationFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "retry": "重试",
@@ -1425,7 +1451,9 @@
   "libraryLoadFailed": "加载失败：{error}",
   "@libraryLoadFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryScanCheckIn": "扫码签到/暂离",
@@ -1433,39 +1461,46 @@
   "libraryClickForDetails": "点击查看各楼层及座位详情",
   "globalTimetableTitle": "全校课表",
   "globalTimetablePlaceholder": "全校课表功能正在开发中...",
-  "whuAccountCollege": "学院",
-  "whuAccountRecentLogin": "最近登录",
-  "whuAccountRecentVerification": "最近验证",
   "settingsAiConnectionSuccess": "AI 连接测试成功。",
   "settingsAiConnectionFailed": "连接失败：{error}",
   "@settingsAiConnectionFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "luojiaEcardLoading": "正在加载{name}...",
   "@luojiaEcardLoading": {
     "placeholders": {
-      "name": { "type": "String" }
+      "name": {
+        "type": "String"
+      }
     }
   },
   "luojiaEcardPreparing": "正在准备{name}...",
   "@luojiaEcardPreparing": {
     "placeholders": {
-      "name": { "type": "String" }
+      "name": {
+        "type": "String"
+      }
     }
   },
   "pagePreparationFailed": "页面准备失败：{error}",
   "@pagePreparationFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "linkNotSupported": "当前链接需要在浏览器或学校应用中打开。",
   "pageLoginRequired": "登录后可继续访问{name}。",
   "@pageLoginRequired": {
     "placeholders": {
-      "name": { "type": "String" }
+      "name": {
+        "type": "String"
+      }
     }
   },
   "pageTemporarilyUnavailable": "页面暂时无法打开",
@@ -1476,7 +1511,9 @@
   "whuCasServiceRequestFailed": "服务授权请求失败：{error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "whuCasNoCookie": "没有检测到有效的教务系统 Cookie。",
@@ -1484,19 +1521,25 @@
   "whuCasSessionVerifyFailed": "教务会话验证失败：{error}",
   "@whuCasSessionVerifyFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "whuCasFetchFailed": "获取教务账户信息失败（HTTP {code}）。",
   "@whuCasFetchFailed": {
     "placeholders": {
-      "code": { "type": "int" }
+      "code": {
+        "type": "int"
+      }
     }
   },
   "whuCasLoginFailedReason": "教务系统登录失败：{reason}",
   "@whuCasLoginFailedReason": {
     "placeholders": {
-      "reason": { "type": "String" }
+      "reason": {
+        "type": "String"
+      }
     }
   },
   "whuCasLoginFailedGeneric": "教务系统登录失败，请重新登录武大统一认证。",
@@ -1522,20 +1565,28 @@
   "courseHubSearchError": "搜索失败：{error}",
   "@courseHubSearchError": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "courseHubResultSubtitle": "{uid} · {department}",
   "@courseHubResultSubtitle": {
     "placeholders": {
-      "uid": { "type": "String" },
-      "department": { "type": "String" }
+      "uid": {
+        "type": "String"
+      },
+      "department": {
+        "type": "String"
+      }
     }
   },
   "courseDetailTitle": "课程详情：{uid}",
   "@courseDetailTitle": {
     "placeholders": {
-      "uid": { "type": "String" }
+      "uid": {
+        "type": "String"
+      }
     }
   },
   "courseDetailGradesTab": "课程给分",
@@ -1547,31 +1598,41 @@
   "courseHubSearchFailMessage": "搜索失败：{message}",
   "@courseHubSearchFailMessage": {
     "placeholders": {
-      "message": { "type": "String" }
+      "message": {
+        "type": "String"
+      }
     }
   },
   "courseHubGradeStatsFailMessage": "获取给分分布失败：{message}",
   "@courseHubGradeStatsFailMessage": {
     "placeholders": {
-      "message": { "type": "String" }
+      "message": {
+        "type": "String"
+      }
     }
   },
   "courseHubReviewsFailMessage": "获取评价失败：{message}",
   "@courseHubReviewsFailMessage": {
     "placeholders": {
-      "message": { "type": "String" }
+      "message": {
+        "type": "String"
+      }
     }
   },
   "courseTimetableDefaultName": "课程表{index}",
   "@courseTimetableDefaultName": {
     "placeholders": {
-      "index": { "type": "int" }
+      "index": {
+        "type": "int"
+      }
     }
   },
   "emptyClassroomSectionFormat": "第{groups}节",
   "@emptyClassroomSectionFormat": {
     "placeholders": {
-      "groups": { "type": "String" }
+      "groups": {
+        "type": "String"
+      }
     }
   },
   "wakeupImportPlaceholder": "Wakeup 分享口令/链接解析器待接入，当前版本先提供导入流程占位。",
@@ -1581,7 +1642,9 @@
   "sportsVenueCourtFormat": "{areaNo}号场",
   "@sportsVenueCourtFormat": {
     "placeholders": {
-      "areaNo": { "type": "String" }
+      "areaNo": {
+        "type": "String"
+      }
     }
   },
   "sportsOrderNo": "订单编号",
@@ -1603,20 +1666,28 @@
   "sportsVenuePriceFormat": "{price}元",
   "@sportsVenuePriceFormat": {
     "placeholders": {
-      "price": { "type": "String" }
+      "price": {
+        "type": "String"
+      }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice}元",
   "@sportsVenuePriceRangeFormat": {
     "placeholders": {
-      "lowPrice": { "type": "String" },
-      "highPrice": { "type": "String" }
+      "lowPrice": {
+        "type": "String"
+      },
+      "highPrice": {
+        "type": "String"
+      }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value}元",
   "@sportsOrderPriceWithUnitFormat": {
     "placeholders": {
-      "value": { "type": "String" }
+      "value": {
+        "type": "String"
+      }
     }
   },
   "sportsReservationSelectVenueTimeHint": "请先选择可预约的场馆和时段。",
@@ -1646,40 +1717,58 @@
   "sportsNetworkError": "{action}失败：网络请求异常。",
   "@sportsNetworkError": {
     "placeholders": {
-      "action": { "type": "String" }
+      "action": {
+        "type": "String"
+      }
     }
   },
   "sportsApiHttpError": "{action}失败（HTTP {statusCode}）。",
   "@sportsApiHttpError": {
     "placeholders": {
-      "action": { "type": "String" },
-      "statusCode": { "type": "int" }
+      "action": {
+        "type": "String"
+      },
+      "statusCode": {
+        "type": "int"
+      }
     }
   },
   "sportsApiFormatError": "{action}失败：响应格式异常。",
   "@sportsApiFormatError": {
     "placeholders": {
-      "action": { "type": "String" }
+      "action": {
+        "type": "String"
+      }
     }
   },
   "sportsApiError": "{action}失败。",
   "@sportsApiError": {
     "placeholders": {
-      "action": { "type": "String" }
+      "action": {
+        "type": "String"
+      }
     }
   },
   "sportsApiErrorWithMessage": "{action}失败：{message}",
   "@sportsApiErrorWithMessage": {
     "placeholders": {
-      "action": { "type": "String" },
-      "message": { "type": "String" }
+      "action": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
     }
   },
   "sportsApiJsonError": "{action}失败：响应不是有效 JSON。{diagnostic}",
   "@sportsApiJsonError": {
     "placeholders": {
-      "action": { "type": "String" },
-      "diagnostic": { "type": "String" }
+      "action": {
+        "type": "String"
+      },
+      "diagnostic": {
+        "type": "String"
+      }
     }
   },
   "sportsApiResponseEmpty": "响应为空。",
@@ -1690,7 +1779,9 @@
   "sportsApiDiagnosticResponseType": "响应类型：{kind}。",
   "@sportsApiDiagnosticResponseType": {
     "placeholders": {
-      "kind": { "type": "String" }
+      "kind": {
+        "type": "String"
+      }
     }
   },
   "sportsAuthNoCasTicket": "运动场馆系统授权失败：未获取到 CAS ticket。",
@@ -1701,7 +1792,9 @@
   "sportsAuthHttpError": "运动场馆系统授权失败（HTTP {statusCode}）。",
   "@sportsAuthHttpError": {
     "placeholders": {
-      "statusCode": { "type": "int" }
+      "statusCode": {
+        "type": "int"
+      }
     }
   },
   "sportsAuthRetryLogin": "运动场馆系统授权失败，请重新登录武大统一认证。",
@@ -1712,15 +1805,23 @@
   "scoreImportSuccessWithCount": "{success}：{count}条成绩已缓存到本机。",
   "@scoreImportSuccessWithCount": {
     "placeholders": {
-      "success": { "type": "String" },
-      "count": { "type": "int" }
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
     }
   },
   "scoreImportFailedWithError": "{failed}：{error}",
   "@scoreImportFailedWithError": {
     "placeholders": {
-      "failed": { "type": "String" },
-      "error": { "type": "String" }
+      "failed": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
     }
   },
   "scoreImportSpoilerImporting": "正在通过专业发展系统导入成绩…",
@@ -1729,29 +1830,43 @@
   "scoreImportSpoilerSuccessWithCount": "{success}：获取到{count}条剧透成绩记录。",
   "@scoreImportSpoilerSuccessWithCount": {
     "placeholders": {
-      "success": { "type": "String" },
-      "count": { "type": "int" }
+      "success": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
     }
   },
   "scoreImportLastImport": "最近一次导入",
   "scoreImportTime": "时间：{time}",
   "@scoreImportTime": {
     "placeholders": {
-      "time": { "type": "String" }
+      "time": {
+        "type": "String"
+      }
     }
   },
   "scoreImportCount": "成绩条数：{count}",
   "@scoreImportCount": {
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "scoreImportExample": "示例：{name} · {score}分 · {credit}",
   "@scoreImportExample": {
     "placeholders": {
-      "name": { "type": "String" },
-      "score": { "type": "String" },
-      "credit": { "type": "String" }
+      "name": {
+        "type": "String"
+      },
+      "score": {
+        "type": "String"
+      },
+      "credit": {
+        "type": "String"
+      }
     }
   },
   "scoreCaptchaAutoVerifying": "自动验证中...",
@@ -1767,28 +1882,42 @@
   "seatReservationDraftDetails": "来源：武汉大学图书馆座位预约系统\n座位ID：{seatId}\n{marker}",
   "@seatReservationDraftDetails": {
     "placeholders": {
-      "seatId": { "type": "String" },
-      "marker": { "type": "String" }
+      "seatId": {
+        "type": "String"
+      },
+      "marker": {
+        "type": "String"
+      }
     }
   },
   "seatReservationSourceMarker": "座位预约同步ID：{sourceId}",
   "@seatReservationSourceMarker": {
     "placeholders": {
-      "sourceId": { "type": "String" }
+      "sourceId": {
+        "type": "String"
+      }
     }
   },
   "whuCalendarDateFormat": "{year}年{month}月{day}日",
   "@whuCalendarDateFormat": {
     "placeholders": {
-      "year": { "type": "int" },
-      "month": { "type": "int" },
-      "day": { "type": "int" }
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
     }
   },
   "homeDefaultBlockLabel": "第{number}块",
   "@homeDefaultBlockLabel": {
     "placeholders": {
-      "number": { "type": "int" }
+      "number": {
+        "type": "int"
+      }
     }
   },
   "itemDetailDateRangeTo": "至",
@@ -1811,7 +1940,9 @@
   "aiMessageCount": "{count}条消息",
   "@aiMessageCount": {
     "placeholders": {
-      "count": { "type": "int" }
+      "count": {
+        "type": "int"
+      }
     }
   },
   "citationCardTypeSchedule": "日程",
@@ -1825,7 +1956,9 @@
   "aiHeaderDraftCreated": "已通过草稿页创建事项：{title}",
   "@aiHeaderDraftCreated": {
     "placeholders": {
-      "title": { "type": "String" }
+      "title": {
+        "type": "String"
+      }
     }
   },
   "themeColorSpec2021": "2021",
@@ -1855,8 +1988,12 @@
   "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
     "placeholders": {
-      "month": { "type": "int" },
-      "day": { "type": "int" }
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
     }
   },
   "homeWidgetNoScheduleToday": "今日无日程",
@@ -1869,13 +2006,17 @@
   "homeWidgetUpdatedAt": "更新于{time}",
   "@homeWidgetUpdatedAt": {
     "placeholders": {
-      "time": { "type": "String" }
+      "time": {
+        "type": "String"
+      }
     }
   },
   "homeWidgetWeekLabel": "第{week}周",
   "@homeWidgetWeekLabel": {
     "placeholders": {
-      "week": { "type": "int" }
+      "week": {
+        "type": "int"
+      }
     }
   },
   "weatherConditionSunny": "晴",
@@ -1885,33 +2026,45 @@
   "weatherConditionFoggy": "雾",
   "weatherAqiExcellent": "优",
   "weatherAqiGood": "良",
-  "weatherAqiModerate": "中",
-  "weatherAqiPoor": "差",
+  "weatherAqiModerate": "轻度污染",
+  "weatherAqiPoor": "中度污染",
   "weatherBannerRainSoon": "快要下雨了，出门记得带伞！",
   "weatherBannerAlert": "天气警报：{alert}",
   "@weatherBannerAlert": {
     "placeholders": {
-      "alert": { "type": "String" }
+      "alert": {
+        "type": "String"
+      }
     }
   },
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
-      "value": { "type": "String" }
+      "value": {
+        "type": "String"
+      }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
     "placeholders": {
-      "condition": { "type": "String" },
-      "minTemp": { "type": "String" },
-      "maxTemp": { "type": "String" }
+      "condition": {
+        "type": "String"
+      },
+      "minTemp": {
+        "type": "String"
+      },
+      "maxTemp": {
+        "type": "String"
+      }
     }
   },
   "scoreCaptchaRetrying": "自动验证中（第{attempt}次尝试）...",
   "@scoreCaptchaRetrying": {
     "placeholders": {
-      "attempt": { "type": "int" }
+      "attempt": {
+        "type": "int"
+      }
     }
   },
   "settingsWeatherProviders": "天气数据提供商",
@@ -1928,10 +2081,6 @@
   "weatherProviderAccuWeather": "AccuWeather",
   "weatherProviderOpenWeatherMap": "OpenWeatherMap",
   "weatherProviderNominatim": "Nominatim",
-  "weatherAqiExcellent": "优",
-  "weatherAqiGood": "良",
-  "weatherAqiModerate": "轻度污染",
-  "weatherAqiPoor": "中度污染",
   "weatherAqiHazardous": "重度污染",
   "weatherRainExpected": "即将下雨",
   "weatherClear": "晴",
@@ -1958,11 +2107,11 @@
   "weatherAirQualityTitle": "空气质量",
   "weatherAirQualityPm25": "PM2.5",
   "weatherAirQualityPm10": "PM10",
-  "weatherAirQualityO3": "O\u2083",
-  "weatherAirQualityNo2": "NO\u2082",
-  "weatherAirQualitySo2": "SO\u2082",
+  "weatherAirQualityO3": "O₃",
+  "weatherAirQualityNo2": "NO₂",
+  "weatherAirQualitySo2": "SO₂",
   "weatherAirQualityCo": "CO",
-  "weatherAirQualityUnit": "\u00B5g/m\u00B3",
+  "weatherAirQualityUnit": "µg/m³",
   "weatherAirQualityClose": "关闭",
   "weatherAirQualitySubtitle": "实时污染物浓度",
   "campusBusTitle": "校巴",
@@ -2006,7 +2155,9 @@
   "libraryAuthFailed": "授权失败：{error}",
   "@libraryAuthFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryCurrentReservation": "当前预约",
@@ -2017,14 +2168,18 @@
   "libraryCancelFailed": "取消失败：{error}",
   "@libraryCancelFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryCheckoutSuccess": "已签退",
   "libraryCheckoutFailed": "签退失败：{error}",
   "@libraryCheckoutFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryMenuCancel": "取消预约",
@@ -2033,28 +2188,40 @@
   "libraryFloor": "{floor}楼",
   "@libraryFloor": {
     "placeholders": {
-      "floor": { "type": "int" }
+      "floor": {
+        "type": "int"
+      }
     }
   },
   "libraryAvailable": "可用 {free}/{total}",
   "@libraryAvailable": {
     "placeholders": {
-      "free": { "type": "int" },
-      "total": { "type": "int" }
+      "free": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
     "placeholders": {
-      "building": { "type": "String" },
-      "room": { "type": "String" }
+      "building": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
     }
   },
   "libraryNoSeatData": "暂无座位数据",
   "librarySeatLayoutFailed": "加载座位图失败：{error}",
   "@librarySeatLayoutFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryBookThisSeat": "预约此座位",
@@ -2065,7 +2232,9 @@
   "libraryBookFailed": "预约失败：{error}",
   "@libraryBookFailed": {
     "placeholders": {
-      "error": { "type": "String" }
+      "error": {
+        "type": "String"
+      }
     }
   },
   "libraryNoHistory": "暂无预约记录",
@@ -2117,5 +2286,161 @@
   "wallpaperTargetTaskList": "任务列表",
   "wallpaperTargetForum": "论坛",
   "wallpaperTargetAi": "AI",
-  "libraryBorrowingPlaceholder": "图书借阅功能正在开发中…"
+  "libraryBorrowingPlaceholder": "图书借阅功能正在开发中…",
+  "settingsAiProvider": "AI 提供商",
+  "settingsAiModels": "模型列表",
+  "settingsAiFetchModels": "获取模型",
+  "settingsAiFetchedCount": "已获取 {count} 个模型",
+  "@settingsAiFetchedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelHint": "输入模型名称或从列表选择",
+  "homeJumpCurrentWeek": "本周",
+  "homeJumpSemesterStartWeek": "开学周",
+  "weatherAirQualityAccuHint": "将空气质量数据源切换为 AccuWeather 可查看详细污染物",
+  "languageFollowSystem": "跟随系统",
+  "languageFollowApp": "跟随应用",
+  "ecardPaycodeTitle": "E卡付款码",
+  "ecardPaycodeUseWeb": "使用网页版",
+  "ecardPaycodeUseWebSubtitle": "若原生付款码异常，可切换备用",
+  "ecardPaycodeLoginRequiredTitle": "请先登录 WHU 账号",
+  "ecardPaycodeLoginRequiredMessage": "登录后即可获取 E卡付款码。",
+  "ecardPaycodeRefreshing": "正在刷新付款码…",
+  "ecardPaycodeLoading": "正在获取付款码…",
+  "ecardPaycodeAccountFallback": "WHU 账号",
+  "ecardPaycodeSessionExpired": "登录状态已过期，请在「账号」中重新登录 WHU。",
+  "ecardPaycodeFetchFailed": "付款码获取失败，请重试或切换网页版。",
+  "ecardPaycodeShowToMerchant": "向商家出示以完成支付",
+  "ecardPaycodeAutoRefreshHint": "每分钟自动刷新，请勿截图使用",
+  "ecardPaycodeRefreshNow": "立即刷新",
+  "ecardPaycodeRefreshInSeconds": "{seconds} 秒后刷新",
+  "@ecardPaycodeRefreshInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "ecardPaycodeUnavailable": "暂时无法获取付款码",
+  "studyStatusTitle": "学业情况",
+  "studyStatusEmptyTitle": "暂无学业数据",
+  "studyStatusEmptyHint": "点击刷新按钮从教务系统获取",
+  "studyStatusFetchData": "获取数据",
+  "studyStatusFetchFailed": "获取数据失败",
+  "studyStatusStatsTime": "统计时间 {time}",
+  "@studyStatusStatsTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusTrainingPlan": "培养计划",
+  "studyStatusCourseOverview": "课程修读概况",
+  "studyStatusFilterAll": "全部",
+  "studyStatusFilterPassed": "通过",
+  "studyStatusFilterFailed": "未通过",
+  "studyStatusFilterStudying": "在读",
+  "studyStatusFilterNotTaken": "未修",
+  "studyStatusOutOfPlan": "计划外",
+  "studyStatusTotalCourses": "共{count}门",
+  "@studyStatusTotalCourses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusPassedCount": "通过{count}",
+  "@studyStatusPassedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusFailedCount": "未通过{count}",
+  "@studyStatusFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusStudyingCount": "在读{count}",
+  "@studyStatusStudyingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "studyStatusRequiredCredits": "要求{credits}学分",
+  "@studyStatusRequiredCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusEarnedCredits": "已获{credits}学分",
+  "@studyStatusEarnedCredits": {
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusNoCourses": "暂无课程数据",
+  "studyStatusCredits": "{credit}学分",
+  "@studyStatusCredits": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "studyStatusRetake": "重修",
+  "studyStatusScorePoints": "{score}分",
+  "@studyStatusScorePoints": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusOriginalScore": "原{score}分",
+  "@studyStatusOriginalScore": {
+    "placeholders": {
+      "score": {
+        "type": "Object"
+      }
+    }
+  },
+  "studyStatusGradePoint": "绩点{point}",
+  "@studyStatusGradePoint": {
+    "placeholders": {
+      "point": {
+        "type": "Object"
+      }
+    }
+  },
+  "scorePageStudyStatus": "学业情况",
+  "scorePageFetchStudyStatus": "获取学业情况",
+  "aiTimeline": "时间线",
+  "weatherDetailTitle": "天气详情",
+  "weatherDetailTemperature": "温度",
+  "weatherDetailFeelsLike": "体感",
+  "weatherDetailHighLow": "最高/最低",
+  "weatherDetailHumidity": "湿度",
+  "weatherDetailUv": "紫外线",
+  "weatherDetailWind": "风向风速",
+  "weatherDetailPressure": "气压",
+  "weatherDetailVisibility": "能见度",
+  "weatherDetailSunrise": "日出",
+  "weatherDetailSunset": "日落"
 }
