@@ -1,22 +1,13 @@
 {
   "@@locale": "en",
   "aiAssistant": "AI Assistant",
-  "aiDataSourceErrorMessage": "An error occurred in AI service",
-  "aiDataSourceNetworkError": "AI service network error",
-  "aiDataSourceTimeout": "AI service request timed out",
   "aiInputHint": "Ask me anything about your schedule...",
   "aiTitle": "Title",
-  "allCourseItemsInThis": "All course items in this timetable will be deleted.",
   "allCourseItemsInThisTimetableW": "All course items in this timetable will be deleted.",
-  "allSameNameCourses": "All same-name courses",
   "alwaysHide": "Always hide",
   "alwaysShow": "Always show",
-  "applyColorTo": "Apply color to",
-  "appRouterError": "An unexpected routing error occurred",
-  "appRouterNotFound": "Page not found",
   "appTitle": "Luotopia",
   "baseColorForStaticTheme": "Base color for static theme",
-  "biometricLockAuthenticating": "Authenticating...",
   "biometricLockFailed": "Authentication failed",
   "biometricLockReason": "Unlock to access Luotopia",
   "campusAppCourseHub": "Course Hub",
@@ -26,18 +17,25 @@
   "campusAppFileSharing": "File Sharing",
   "campusAppLibrary": "Library",
   "campusAppScores": "Grades",
-  "campusAppStudyStatus": "Study Status",
   "campusAppSeatReservation": "Seat Reservation",
   "campusAppSports": "Sports Venues",
   "campusAppTimetable": "Timetable",
-  "campusPageTitle": "Campus Services",
+  "campusAppZhihuiLuojia": "Zhihui Luojia",
+  "campusAppMessages": "Messages",
+  "messagesTabAll": "All",
+  "messagesTabNotifications": "Notifications",
+  "messagesTabTodo": "To-Do",
+  "messagesFilter": "Filter",
+  "messagesFilterSource": "Source",
+  "messagesFilterAll": "All Sources",
+  "messagesEmpty": "No messages",
+  "messagesEmptySubtitle": "Messages from campus services will appear here",
+  "messagesLoading": "Loading messages…",
+  "messagesErrorRetry": "Retry",
   "campusTitle": "Campus",
   "cancel": "Cancel",
   "changeColorVariantGenerationAlgorithm": "Change color variant generation algorithm",
-  "changeOnlyThisItemOr": "Change only this item, or every course named ",
-  "changeOnlyThisItemOrEveryCours": "Change only this item, or every course named \"{title}\"?",
   "chooseBetweenForumOrAi": "Choose between Forum or AI for the middle tab (default Forum).",
-  "chooseBetweenForumOrAiForTheMi": "Choose between Forum or AI for the middle tab (default Forum).",
   "chooseDuration": "Choose duration",
   "colorsAppearance": "Colors & Appearance",
   "commonBack": "Back",
@@ -45,7 +43,6 @@
   "commonEmail": "Email",
   "commonId": "ID",
   "commonLogin": "Log in",
-  "whuAuthReLogin": "Re-login",
   "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
   "commonLogout": "Logout",
   "commonNotSet": "Not set",
@@ -54,104 +51,31 @@
   "commonRegistrationTime": "Registration time",
   "commonUsername": "Username",
   "courseGridSettings": "Course Grid Settings",
-  "courseHubCourses": "Courses",
-  "courseHubExams": "Exams",
   "courseHubLoginButton": "Log in",
-  "courseHubLoginFailed": "Login failed",
-  "courseHubLoginHint": "Please log in with your WHU academic account",
-  "courseHubLoginSuccess": "Login successful",
-  "courseHubLoginTitle": "WHU Academic Login",
-  "courseHubNoCourseToday": "No classes today",
-  "courseHubScorePageTitle": "Academic Scores",
   "courseHubScores": "Grades",
   "courseHubTimetable": "Timetable",
-  "courseHubTimetablePageTitle": "Course Timetable",
-  "courseHubTimetableWeek": "Week ",
   "courseHubTitle": "Course Hub",
   "courseImport": "Course Import",
-  "courseImportAllCourses": "All Courses",
-  "courseImportAppend": "Append",
-  "courseImportCourseName": "Course Name",
-  "courseImportCurrentSemester": "Current Semester",
-  "courseImportCustomWeeks": "Custom",
-  "courseImportEvenWeek": "Even Week",
-  "courseImportEveryWeek": "Every Week",
-  "courseImportExportFileName": "luotopia_timetable_{name}",
-  "courseImportExportImport": "Import / Export",
-  "courseImportExportSuccess": "Export successful",
-  "courseImportExportToLocal": "Export Local Timetable",
-  "courseImportFromEdu": "Import from Academic System",
-  "courseImportFromFile": "Import from File",
-  "courseImportImporting": "Importing...",
-  "courseImportImportSuccess": "Import successful, added {count} courses",
-  "courseImportImportSuccessDesc": "Successfully imported {count} courses to local timetable",
-  "courseImportLocation": "Location",
-  "courseImportLoginRequired": "Please log in to WHU Academic first",
-  "courseImportNetworkError": "Network error, please check your connection",
-  "courseImportNoData": "No course data",
-  "courseImportNoSemesterData": "No course data for this semester",
-  "courseImportOddWeek": "Odd Week",
-  "courseImportOverwrite": "Overwrite",
-  "courseImportParseFailed": "Failed to parse course data",
-  "courseImportParseSuccess": "Parsed {count} courses",
-  "courseImportParsing": "Parsing course data...",
-  "courseImportSelectFile": "Select file",
   "courseImportSemester": "Semester",
-  "courseImportSemesterRequired": "Please select a semester",
-  "courseImportTeacher": "Teacher",
-  "courseImportTime": "Time",
   "courseImportTitle": "Course Import",
-  "courseImportToLocal": "Import as Local Timetable",
-  "courseImportWarnOverwrite": "This will overwrite your existing local courses. Continue?",
-  "courseImportWeek": "Week",
-  "courseImportWeeks": "Weeks",
   "courseTablesImport": "Course Tables & Import",
-  "courseTimetablesAdd": "Add Timetable",
-  "courseTimetablesCreateFirst": "Create your first timetable",
-  "courseTimetablesCurrent": "Current",
-  "courseTimetablesDelete": "Delete",
-  "courseTimetablesEdit": "Edit",
-  "courseTimetablesImported": "Imported",
-  "courseTimetablesLocal": "Local",
-  "courseTimetablesNoTimetables": "No timetables yet",
-  "courseTimetablesShare": "Share",
-  "courseTimetablesTitle": "Timetables",
-  "courseTimetablesWeekCount": "{count} weeks",
   "create": "Create",
   "createTimetable": "Create timetable",
-  "customSeedColor": "Custom Seed Color",
   "delete": "Delete",
   "deleteTimetable": "Delete timetable",
   "detailDeadlineLabel": "Deadline",
   "detailDelete": "Delete item",
-  "detailDescription": "Shows a full item profile with quick actions.",
-  "detailLocationLabel": "Location",
   "detailMarkComplete": "Mark complete",
   "detailMarkIncomplete": "Mark incomplete",
-  "detailMemoDate": "{date} · est. {duration}",
   "detailMissing": "This item could not be found. It may have been deleted.",
-  "detailNotesLabel": "Notes",
-  "detailRangeDate": "{start} to {end}",
-  "detailReminderLabel": "Reminder",
-  "detailRepeatLabel": "Repeat",
-  "detailTimeLabel": "Time",
   "detailTitle": "Item Detail",
-  "developmentTag": "Foundation UI",
   "done": "Done",
   "dynamicColorMonet": "Dynamic Color (Monet)",
   "dynamicColorSourceAccent": "Use system accent color",
   "dynamicColorSourceGtk": "Use GTK theme color",
   "dynamicColorSourceWallpaper": "Extract from system wallpaper",
-  "ecardPaymentCodeExpired": "Code expired",
-  "ecardPaymentLoading": "Loading payment code...",
-  "ecardPaymentRefresh": "Refresh",
   "ecardPaymentTitle": "E-Card Payment Code",
-  "editorAddFromAlbum": "Add from album",
-  "editorAddItem": "Add item",
-  "editorAddPhoto": "Add Photo",
-  "editorAllDayDescription": "When enabled, only dates are shown and specific times are hidden.",
   "editorAllDayTitle": "All-day item",
-  "editorCancel": "Cancel",
   "editorColorAmber": "Amber",
   "editorColorCoral": "Coral",
   "editorColorCrimson": "Crimson",
@@ -165,59 +89,32 @@
   "editorColorSlate": "Slate",
   "editorColorTeal": "Teal",
   "editorColorViolet": "Violet",
-  "editorColumnMode": "Single Column",
-  "editorConfirmDelete": "Confirm delete",
   "editorCreateMemo": "Create memo",
   "editorCreateSchedule": "Create schedule",
   "editorCreateTask": "Create task",
-  "editorDayOfWeek": "Day of week",
-  "editorDeadlineClear": "Clear",
   "editorDeadlineUnset": "Not set",
-  "editorDeleteItem": "Delete",
-  "editorDeleteWarning": "Are you sure you want to delete this item?",
-  "editorDescription": "The unified editor for schedule, task and memo will live here.",
-  "editorDetailLayout": "Detail Layout",
   "editorDurationHourMinute": "{hours} h {minutes} min",
   "editorDurationHours": "{hours} h",
   "editorDurationMinutes": "{minutes} min",
-  "editorDurationPickerTitle": "Choose duration",
   "editorEditMemo": "Edit memo",
   "editorEditSchedule": "Edit schedule",
   "editorEditTask": "Edit task",
-  "editorEndTime": "End time",
-  "editorEnterDescription": "Enter description",
-  "editorEnterText": "Enter text",
-  "editorEnterTitle": "Enter title",
   "editorErrorDeadlineBeforeStart": "Deadline cannot be earlier than the start time.",
-  "editorErrorDurationPositive": "Duration must be greater than 0.",
   "editorErrorEndBeforeStart": "End time cannot be earlier than start time.",
   "editorErrorTitleRequired": "Please enter a title.",
   "editorFieldDate": "Date",
   "editorFieldDeadline": "Deadline",
-  "editorFieldDeadlineDate": "Deadline date",
-  "editorFieldDeadlineTime": "Deadline time",
-  "editorFieldDetails": "Details",
-  "editorFieldEnd": "End",
-  "editorFieldEndDate": "End date",
   "editorFieldEndTime": "End time",
   "editorFieldEstimatedDuration": "Estimated duration",
-  "editorFieldLocation": "Location",
-  "editorFieldStart": "Start",
-  "editorFieldStartDate": "Start date",
   "editorFieldStartTime": "Start time",
   "editorFieldTargetDate": "Target date",
-  "editorFieldTitle": "Title",
-  "editorFieldTitleName": "Task name",
   "editorHintCourseTitle": "Course name",
   "editorHintDetails": "Add more context",
   "editorHintLocation": "Where does it happen?",
   "editorHintMemoTitle": "Memo name",
   "editorHintScheduleTitle": "Schedule name",
   "editorHintTaskTitle": "Task name",
-  "editorHintTitle": "What needs to be done?",
   "editorLocation": "Location",
-  "editorPickerCancel": "Cancel",
-  "editorPickerConfirm": "Confirm",
   "editorReminderAtTime": "At time",
   "editorReminderFifteenMinutes": "15 minutes before",
   "editorReminderFiveMinutes": "5 minutes before",
@@ -233,40 +130,23 @@
   "editorRepeatWeekdays": "Weekdays",
   "editorRepeatWeekly": "Every week",
   "editorRepeatYearly": "Every year",
-  "editorRowMode": "Sort by Row",
-  "editorSave": "Save",
-  "editorSectionBasic": "Basic info",
-  "editorSectionColor": "Color",
-  "editorSectionLocationNotes": "Location & notes",
   "editorSectionReminder": "Reminder",
   "editorSectionRepeat": "Repeat",
-  "editorSectionTime": "Date & time",
-  "editorSimpleLayout": "Simple Layout",
-  "editorStartTime": "Start time",
-  "editorSubmitButton": "Create item",
   "editorSubmitInvalid": "Please fix the highlighted fields first.",
   "editorSubmitSuccess": "Item saved.",
-  "editorTakePhoto": "Take photo",
   "editorTeacher": "Teacher",
-  "editorTitle": "Create Item",
-  "editorToggleMode": "Edit Mode",
   "editorTypeMemo": "Memo",
   "editorTypePickerTitle": "Switch item type",
   "editorTypeSchedule": "Schedule",
   "editorTypeTask": "Task",
-  "editorUnsavedChanges": "Unsaved changes",
-  "editorUnsavedWarning": "You have unsaved changes. Discard them?",
-  "editorWeek": "Week ",
   "eGWakeupImport1": "e.g. Wakeup Import 1",
   "emptyClassroomAddedSingle": "Added period {section} at {classroom}",
-  "emptyClassroomBuilding": "Building",
   "emptyClassroomCollapseAll": "Collapse All",
   "emptyClassroomConflictCancel": "Cancel",
   "emptyClassroomConflictConfirm": "Confirm",
   "emptyClassroomConflictMulti": "You have schedules at {sections}. Confirm?",
   "emptyClassroomConflictSingle": "You have a schedule at this time. Confirm?",
   "emptyClassroomConflictTitle": "Time Conflict",
-  "emptyClassroomDate": "Date",
   "emptyClassroomExpandAll": "Expand All",
   "emptyClassroomFABExpanded": "{expanded} / {total} expanded",
   "emptyClassroomFABHint": "Tap the arrow to expand periods, then tap a block to add to your schedule",
@@ -277,48 +157,29 @@
   "emptyClassroomFilterWeek": "Week",
   "emptyClassroomFilterWeekDay": "Day",
   "emptyClassroomFloorSeats": "Floor {floor} · {available}/{total} seats",
-  "emptyClassroomGoLogin": "Log in",
-  "emptyClassroomLoading": "Searching...",
-  "emptyClassroomLoginPrompt": "Please log in to WHU first",
   "emptyClassroomNoResults": "No empty classrooms in this building",
   "emptyClassroomQueryButton": "Search Classrooms",
   "emptyClassroomQueryHint": "Filters set. Tap the button above to search",
   "emptyClassroomRetry": "Retry",
   "emptyClassroomSectionHint": "Tap a period to add",
   "emptyClassroomSectionLabel": "Period {section}",
-  "emptyClassroomTime": "Time",
   "emptyClassroomTitle": "Empty Classrooms",
   "emptyClassroomUndo": "Undo",
   "emptyClassroomWeekLabel": "Week {week}",
   "emptyTimetableImportCourse": "2. Import courses",
   "emptyTimetableLoggedInWhu": "Logged in to WHU account",
   "emptyTimetableLoginWhu": "1. Log in to WHU account",
-  "emptyTimetableSubtitle": "Please log in to WHU account first, then import your timetable.",
   "emptyTimetableTitle": "No courses added yet",
   "enableWidgetSync": "Enable widget sync",
   "enterTimetableName": "Enter timetable name",
-  "extractColorsFromWallpaperAuto": "Extract colors from wallpaper automatically",
-  "extractPrimaryColorFromSystem": "Extract primary color from system wallpaper",
   "fallbackRefreshInterval": "Fallback refresh interval",
   "fetchingTimetable": "Fetching timetable...",
-  "fileSharingDelete": "Delete",
-  "fileSharingDownload": "Download",
-  "fileSharingLoading": "Loading files...",
-  "fileSharingNoFiles": "No files yet",
-  "fileSharingShare": "Share",
-  "fileSharingTitle": "File Sharing",
-  "fileSharingUpload": "Upload",
   "followAppLanguage": "Follow app language",
   "followAppTheme": "Follow app theme",
   "forum": "Forum",
   "forumTitle": "Luojia Shelter",
-  "headerNextPeriod": "Next period",
-  "headerOpenItemTypePicker": "Open item type picker",
   "headerOpenListSettings": "Open list settings",
   "headerOpenListTabs": "Open list tabs",
-  "headerOpenTimePicker": "Open time picker",
-  "headerPreviousPeriod": "Previous period",
-  "homeBackToCurrentPeriod": "Back to this week",
   "homeCalendarMainLabelWeek": "Week {week}",
   "homeCalendarMonthDayRange": "{day} - {endDay}",
   "homeCalendarMonthWeek": "Week {week} of {month}",
@@ -329,33 +190,20 @@
   "homeCalendarYearMonth": "{month} {year}",
   "homeCalendarYearWeek": "Week {week} of {year}",
   "homeCourseLunch": "Lunch",
-  "homeCoursePeriod": "Period {courseNumber}",
   "homeCurrentWeekRange": "This week ({start} - {end})",
-  "homeDescription": "The table page will show week and month planning grids here.",
   "homeGoToCurrentWeek": "This week",
   "homeGoToNextSemesterFirstWeek": "Term start",
   "homeGridModeCourse": "Course grid",
   "homeGridModeTime": "Time grid",
   "homePeriodRange": "{start} - {end}",
   "homeScopeMonth": "Month",
-  "homeScopePickerTitle": "Display range",
   "homeScopeWeek": "Week",
-  "homeTitle": "Schedule Overview",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} h",
   "importCoursesViaEmbeddedWeb": "Import courses via embedded web login",
-  "importCoursesViaEmbeddedWebLog": "Import courses via embedded web login",
-  "importedPayloadItemsLengthItem": "Imported {itemsLength} items to \"{tableName}\".",
-  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
   "importedTimestr": "Imported {timeStr}",
-  "importFailedError": "Import failed: {error}",
-  "importFailedError1": "Import failed: {error}",
-  "importFinishedPayloadItemsLeng": "Import finished: {itemsLength} items, {currentWeekCount} in current week.",
-  "importFinishedPayloaditemslengthItemsCurrentweekcount": "Import finished: {itemsLength} items, {currentWeekCount} in current week.",
   "importFromSharedText": "Import from shared text",
-  "importSchedule": "Import Schedule",
   "importSources": "Import Sources",
-  "importTimetableFromSharedText": "Import timetable from shared text",
   "importViaEmbeddedWebLogin": "Import via embedded web login",
   "k1Hour": "1 hour",
   "k30Minutes": "30 minutes",
@@ -363,26 +211,8 @@
   "languageChinese": "Chinese",
   "languageEnglish": "English",
   "languageLabel": "App language",
-  "languageSectionTitle": "Language",
-  "libraryBorrowingHistory": "Borrowing History",
-  "libraryCurrentBorrowing": "Currently Borrowed",
-  "libraryLoading": "Loading...",
-  "libraryQrCodeHint": "Scan QR code on self-service machine",
-  "libraryRenew": "Renew",
-  "libraryReturnDate": "Return Date",
-  "librarySearch": "Search",
-  "libraryTitle": "Seat Reservation",
-  "listActionDelete": "Delete",
-  "listActionEdit": "Edit",
-  "listCompletedCollapse": "Collapse completed items",
-  "listCompletedExpand": "Expand completed items",
   "listCompletedSection": "Completed {count}",
-  "listDescription": "Task, schedule, memo and tag-based lists will be organized here.",
-  "listEmptyDescription": "Use the add button to create your first task, schedule, or memo.",
-  "listEmptyTitle": "No items yet",
   "listMenuTitle": "Switch list tab",
-  "listPendingSection": "Pending {count}",
-  "listReorderHint": "Manual order is enabled. Drag the handle on each task to rearrange it.",
   "listSettingsMenuTitle": "List settings",
   "listSettingsMore": "More settings",
   "listSettingsReorder": "Reorder tasks",
@@ -392,16 +222,11 @@
   "listSortDueDate": "Due date",
   "listSortManual": "Manual order",
   "listSortTodayFocus": "Today focus",
-  "listStaticItemsLabel": "Other items",
-  "listStatusCompleted": "Completed",
-  "listStatusPending": "Pending",
-  "listSummary": "{pending} pending, {completed} completed",
   "listTabAllItems": "All Items",
   "listTabMemos": "Memos",
   "listTabMyDay": "My Day",
   "listTabSchedules": "Schedules",
   "listTabTasks": "Tasks",
-  "listTitle": "Items List",
   "login": "Login",
   "luotopiaAccountDetails": "Account Details",
   "luotopiaAccountTitle": "Luotopia Account",
@@ -436,17 +261,12 @@
   "navList": "Schedule",
   "navSettings": "Settings",
   "noTimetableYetImportOr": "No timetable yet. Import or create one first.",
-  "noTimetableYetImportOrCreateOn": "No timetable yet. Import or create one first.",
-  "noTimetableYetTapTo": "No timetable yet. Tap + to import from WHU.",
   "noTimetableYetTapToImportFromW": "No timetable yet. Tap + to import from WHU.",
   "ok": "OK",
   "paletteAlgorithm": "Palette Algorithm",
   "paletteStyle": "Palette Style",
   "pasteSharedContent": "Paste shared content",
   "pasteWakeupShareCodeLinkParser": "Paste Wakeup share code/link. Parser is not connected in this version.",
-  "placeholderOpenMenu": "Open menu",
-  "placeholderOpenPicker": "Open picker",
-  "pleaseLoginToWhuAcademic": "Please login to WHU Academic System",
   "pleaseLoginToWhuAcademicSystem": "Please log in to WHU",
   "pleaseSelectWeek1Monday": "Please select Week-1 Monday.",
   "scoreImportFailed": "Import Failed",
@@ -454,76 +274,41 @@
   "scoreImportUndergraduateSubtitle": "Imports accurate scores but may update slowly",
   "scoreImportSpoilerTitle": "Import from Professional Development System",
   "scoreImportSpoilerSubtitle": "Can only get grade points, but faster than undergraduate system",
-  "scoreImportFromWHU": "Import from WHU Academic",
-  "scoreImportImporting": "Importing...",
-  "scoreImportLastUpdate": "Last updated: ",
-  "scoreImportNever": "Never",
-  "scoreImportNoNewData": "No new grade data found",
   "scoreImportSuccess": "Import successful",
   "scoreImportTitle": "Grade Import",
-  "scorePageAcademicYear": "Academic Year",
-  "scorePageAnonymousContribution": "Contribute Anonymously",
-  "scorePageAvgExam": "Avg Exam",
-  "scorePageAvgTotal": "Avg Total",
-  "scorePageAvgUsual": "Avg Usual",
-  "scorePageCourse": "Course",
-  "scorePageCourseTeacherNotMatched": "No matching course and teacher found on server.",
-  "scorePageCredit": "Credit",
-  "scorePageCredits": "Credits",
-  "scorePageExamScoreLabel": "Exam Score (Optional)",
-  "scorePageFetchStatsFailed": "Failed to fetch statistics: {error}",
-  "scorePageGpa": "GPA",
-  "scorePageGradeDistribution": "Grade Distribution",
-  "scorePageGradePoint": "Grade Point",
   "scorePageGradeRange60": "60-69",
   "scorePageGradeRange70": "70-79",
   "scorePageGradeRange80": "80-89",
   "scorePageGradeRange90": "90-100",
   "scorePageGradeRangeFail": "<60",
-  "scorePageImport": "Import",
-  "scorePageInstructorLabel": "Instructor: {instructor}",
-  "scorePageInstructorUnknown": "Unknown",
-  "scorePageLoading": "Loading grades...",
-  "scorePageLoginToShare": "Log in with your Luotopia account to share your grade distribution.",
-  "scorePageNoData": "No grade data available",
-  "scorePageRefresh": "Refresh",
   "scorePageRetry": "Retry",
-  "scorePageSampleCount": "Samples",
-  "scorePageScore": "Score",
-  "scorePageSemester": "Semester",
-  "scorePageStatsDialogTitle": "{courseName} Grade Statistics",
-  "scorePageStatsEmpty": "No grade statistics available for this course.",
-  "scorePageSubmitAnonymous": "Submit Anonymously",
-  "scorePageSubmitError": "Submission failed: {error}",
-  "scorePageSubmitFailed": "Submission failed, please try again.",
-  "scorePageSubmitSuccess": "Submitted successfully! Thank you for your anonymous contribution!",
   "scorePageTitle": "Score Query",
-  "scorePageTotalScore": "Total Score: {score}",
-  "scorePageUsualScoreLabel": "Usual Score (Optional)",
-  "seatReservationBook": "Book",
-  "seatReservationCancel": "Cancel Reservation",
-  "seatReservationDuration": "Duration",
-  "seatReservationHours": "hours",
-  "seatReservationLoading": "Loading...",
-  "seatReservationMinutes": "min",
-  "seatReservationNoSeats": "No available seats",
-  "seatReservationRefresh": "Refresh",
-  "seatReservationSelectArea": "Select Area",
-  "seatReservationSelectFloor": "Select Floor",
-  "seatReservationSelectLibrary": "Select Library",
-  "seatReservationTime": "Time",
+  "scoreTranscriptCredential": "Verified Electronic Credential",
+  "scoreTranscriptSelect": "Select a transcript to generate",
+  "scoreTranscriptSystemGenerated": "Generated by the WHU verified electronic credential system",
+  "scoreTranscriptNoTemplates": "No transcript templates are available for this account.",
+  "scoreTranscriptLoadFailed": "Failed to load transcript types: {error}",
+  "@scoreTranscriptLoadFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "scoreTranscriptFetchFailed": "Failed to get verified electronic credential: {error}",
+  "@scoreTranscriptFetchFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "scoreTranscriptSaved": "PDF saved.",
+  "scoreTranscriptShare": "Share",
+  "scoreTranscriptSaveAs": "Save as",
   "seatReservationTitle": "Seat Reservation",
   "seedColor": "Seed Color",
   "selectedOnlyDefault": "Selected only (Default)",
-  "selectSeedColor": "Select Seed Color",
   "selectSemester": "Select Semester",
   "semester": "Semester",
   "semS": "Sem {s}",
-  "semS1": "Sem {s}",
   "settingsAbout": "About",
-  "settingsAboutApp": "About Luotopia",
-  "settingsAboutEntrySubtitle": "App info, version and license",
-  "settingsAboutEntryTitle": "About",
   "settingsAboutDevTeam": "Development Team",
   "settingsAppIcon": "App Icon",
   "settingsAppIconDefault": "Default",
@@ -546,10 +331,7 @@
       }
     }
   },
-  "licenseLicense": "License",
   "licenseProjectHomepage": "Project Homepage",
-  "settingsAboutProductSubtitle": "Grid-based campus planning at a glance",
-  "settingsAboutTitle": "About Luotopia",
   "settingsAboutVersionTitle": "Version",
   "settingsAccountLocalTitle": "Local Account",
   "settingsAccountWhuLoggedIn": "Authenticated",
@@ -564,25 +346,13 @@
   "settingsAiTestButton": "Test connection",
   "settingsAiTestingButton": "Testing...",
   "settingsAppearance": "Appearance",
-  "settingsAppearanceColor": "Color",
-  "settingsAppearanceThemeMode": "Theme Mode",
   "settingsAppearanceTitle": "Appearance Settings",
-  "settingsBiometricLock": "Biometric Lock",
-  "settingsBiometricUnlock": "Unlock with biometrics",
-  "settingsDark": "Dark",
-  "settingsDescription": "Global, schedule, and home settings will be grouped here.",
-  "settingsFollowSystem": "Follow System",
   "settingsGeneral": "General",
   "settingsGeneralEntrySubtitle": "Language, navigation and cache",
   "settingsGeneralEntryTitle": "General",
-  "settingsGeneralTitle": "General Settings",
-  "settingsGeneralWidgetsTitle": "Home-screen widgets",
   "settingsHomeBlockCount": "Block count",
   "settingsHomeBlockDuration": "Block duration",
   "settingsHomeBlockGap": "Gap between blocks",
-  "settingsHomeCourseGridSettings": "Course Grid Settings",
-  "settingsHomeCourseImport": "Course import",
-  "settingsHomeCourseManagement": "Timetable management",
   "settingsHomeDayStart": "Day start time",
   "settingsHomeEntrySubtitle": "Home time blocks, grid mode and wide-screen range",
   "settingsHomeFitGridToScreen": "Fit Grid to Screen",
@@ -590,26 +360,15 @@
   "settingsHomeGridMode": "Grid mode",
   "settingsHomeHideLunchBreak": "Hide Lunch Break",
   "settingsHomeItemOpacity": "Home item block opacity",
-  "settingsHomeSectionDescription": "Configure the home grid time blocks and the default range on ultra-wide screens.",
   "settingsHomeSectionTitle": "Home settings",
   "settingsHomeTimeGridSettings": "Time Grid Settings",
   "settingsHomeWideLayout": "Ultra-wide default range",
-  "settingsLanguage": "Language",
   "settingsLicenses": "Open Source Licenses",
-  "settingsLight": "Light",
-  "settingsListEntrySubtitle": "Sort, reorder and list display preferences",
-  "settingsListEntryTitle": "List settings",
   "settingsMinutesValue": "{value} min",
   "settingsNavigationEntrySubtitle": "Labels and middle tab",
   "settingsNavigationEntryTitle": "Navigation settings",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacy": "Privacy & Security",
   "settingsPrivacyPolicy": "Privacy Policy",
-  "settingsPrivacyTitle": "Privacy & Security",
-  "settingsQuickActionsTitle": "Quick access",
-  "settingsSearchEmpty": "No matching settings found",
-  "settingsSearchHint": "Search settings",
-  "settingsSearchTooltip": "Search settings",
   "settingsTermsOfService": "Terms of Service",
   "settingsTheme": "Theme",
   "settingsTitle": "Settings",
@@ -625,9 +384,6 @@
   "friendLinkCategoryOther": "Other",
   "settingsWeatherSectionTitle": "Weather settings",
   "settingsWeatherSectionSubtitle": "Weather provider, API keys, and location",
-  "settingsWeatherProvider": "Weather provider",
-  "settingsWeatherUseCustomApiKey": "Use custom API key",
-  "settingsWeatherCustomApiKeyHint": "Enter your API key",
   "settingsWeatherLocationMode": "Location mode",
   "settingsWeatherLocationFixed": "Fixed location",
   "settingsWeatherLocationDynamic": "Relocate on every request",
@@ -637,181 +393,82 @@
   "sourceMerged": "Source: Merged",
   "sourceWakeup": "Source: Wakeup",
   "sourceWhu": "Source: WHU",
-  "sportsAllDay": "All Day",
   "sportsAllVenues": "All Venues",
-  "sportsBook": "Book",
   "sportsBooking": "Booking...",
   "sportsBookingFailed": "Booking failed. Please try again.",
-  "sportsBookingRules": "Booking Rules",
   "sportsBookingSuccess": "Booking successful!",
   "sportsBookingUnavailable": "Currently unavailable. Please try again.",
-  "sportsBookNow": "Book Now",
-  "sportsBusinessHours": "Business Hours: ",
   "sportsCheckoutArgsMissing": "Missing checkout arguments. Please go back and select again.",
-  "sportsCheckoutTitle": "Checkout",
   "sportsChooseCourt": "Choose Court",
-  "sportsChooseTimeSlot": "Choose Time Slot",
   "sportsConfirmBooking": "Confirm Booking",
-  "sportsConfirmPayment": "Confirm Payment",
-  "sportsDaytime": "Daytime",
-  "sportsEvening": "Evening",
-  "sportsFriday": "Friday",
   "sportsGoBack": "Go Back",
   "sportsGoToMyOrders": "View My Orders",
-  "sportsLoading": "Loading...",
-  "sportsLoadingFailed": "Loading failed",
+  "loading": "Loading...",
+  "loadingFailed": "Loading failed",
   "sportsLoadingVenues": "Loading venues...",
-  "sportsMinutes": "min",
-  "sportsMonday": "Monday",
-  "sportsMultiDayNotSupported": "Multi-day booking not supported yet",
   "sportsNoCourtsAvailable": "No courts available",
   "sportsOrderArgsMissing": "Missing order arguments. Please go back and select again.",
   "sportsOrderCancelled": "Cancelled",
-  "sportsOrderExpired": "Order has expired",
   "sportsOrderNotFound": "Order not found",
   "sportsOrderPaid": "Paid",
   "sportsOrderPending": "Pending Payment",
-  "sportsOrderStatus": "Status",
   "sportsOrderTitle": "Order Detail",
   "sportsPay": "Pay",
-  "sportsPayFailed": "Payment failed. Please try again.",
-  "sportsPaying": "Paying...",
-  "sportsPaySuccess": "Payment successful!",
-  "sportsPhone": "Phone: ",
-  "sportsPrice": "Price",
   "sportsRetry": "Retry",
-  "sportsSaturday": "Saturday",
-  "sportsSelectDate": "Select Date",
   "sportsSelectDateFirst": "Please select a date first",
-  "sportsSelectDateHint": "Please select a date",
-  "sportsSelectedCourt": "Selected",
   "sportsSelectTimeSlot": "Select Time Slot",
-  "sportsSelectTimeSlotHint": "Please select a time",
   "sportsSelectVenue": "Select Venue",
-  "sportsSelectVenueHint": "Please select a sport venue",
-  "sportsSunday": "Sunday",
-  "sportsThursday": "Thursday",
-  "sportsTuesday": "Tuesday",
-  "sportsVenueAddress": "Venue Address",
-  "sportsVenueDetail": "Venue Detail",
-  "sportsVenueType": "Venue Type",
-  "sportsWednesday": "Wednesday",
   "startImport": "Start Import",
   "tapToSelect": "Tap to select",
-  "themeColors": "Theme Colors",
   "themeDark": "Dark",
   "themeLight": "Light",
   "themeModeLabel": "Theme mode",
-  "themeSectionTitle": "Display",
   "themeSettings": "Theme Settings",
   "themeSystem": "System",
-  "thisItem": "This item",
-  "timePickerDescription": "This route is reserved for the shared day, week and month picker.",
-  "timePickerTitle": "Time Picker",
   "timetable": "Timetable",
   "timetableManagement": "Timetable Management",
   "timetableName": "Timetable name",
-  "timetableName1": "Timetable name",
   "timetables": "Timetables",
-  "tipSelectedDateIsNot": "Tip: Selected date is not a Monday",
   "tipSelectedDateIsNotAMonday": "Tip: Selected date is not a Monday",
   "updateOnDataChangesWith": "Update on data changes, with periodic fallback refresh.",
-  "updateOnDataChangesWithPeriodi": "Update on data changes, with periodic fallback refresh.",
-  "useDynamicColor": "Use Dynamic Color",
-  "verifyingAndEstablishingEducat": "Verifying and establishing education session...",
   "verifyingAndEstablishingEducationSession": "Verifying and establishing education session...",
   "wakeupImport": "Wakeup Import",
   "wakeupShareLinkCode": "Wakeup Share Link/Code",
-  "weatherCachedAt": "Cached at {time}",
-  "weatherCacheTimeUnknown": "Cache time unknown",
-  "weatherFeelsLike": "Feels {temp}",
-  "weatherLibraryBorrowingDetail": "Borrowing Details",
-  "weatherLibraryReminder": "Library: Borrowing of 'Crime and Punishment' expires in three days",
-  "weatherLoadFailed": "Failed to load weather",
   "weatherLoadFailedWithError": "Failed to load weather: {error}",
-  "weatherLoadingLocation": "Getting weather for {locationName}...",
-  "weatherNews": "Campus News",
-  "weatherNewsReminder": "Campus News: May Day holiday adjustment announcement released",
-  "weatherNoClassReminder": "No classes this afternoon. How about auditing 'Ancient Chinese'?",
   "weatherNoHourlyForecast": "No hourly forecast available",
   "weatherRetry": "Retry",
-  "weatherServiceUnavailable": "Weather service is temporarily unavailable. Showing recent cache.",
-  "weatherShowCache": "Showing recent cache",
-  "weatherSnackAuditingClass": "Auditing Recommendation",
-  "weatherTryAgainLater": "Please try again later",
-  "weatherUpdated": "Updated {time}",
-  "weatherUpdating": "Updating weather...",
   "week1Monday": "Week-1 Monday",
   "whuAcademicSystem": "WHU Academic System",
   "whuAccountBind": "Bind WHU Account",
-  "whuAccountCancelBinding": "Cancel Binding",
+  "whuAccountRebind": "Rebind",
   "whuAccountCollege": "College",
+  "whuAccountMajor": "Major",
+  "whuAccountClassName": "Class",
+  "whuAccountGrade": "Grade",
+  "whuAccountGender": "Gender",
+  "whuAccountEthnicity": "Ethnicity",
+  "whuAccountPoliticalStatus": "Political status",
+  "whuAccountStudentType": "Student type",
+  "whuAccountCounselor": "Counselor",
+  "whuAccountEnterTime": "Enrollment date",
+  "whuAccountPredictGraduateTime": "Expected graduation",
+  "whuAccountShift": "Status",
+  "whuAccountEducationalYears": "Program length",
+  "whuAccountRoleName": "Role",
+  "whuAccountSectionPersonal": "Personal",
+  "whuAccountSectionAcademic": "Academic",
+  "whuAccountSectionSession": "Session",
   "whuAccountRecentLogin": "Recent Login",
   "whuAccountRecentVerification": "Recent Verification",
   "whuAccountDetail": "WHU Account Detail",
-  "whuAccountLoggedInAs": "Logged in as ",
   "whuAccountTitle": "WHU Account",
-  "whuAccountUnbind": "Unbind",
-  "whuAccountUnbindConfirm": "Are you sure to unbind this account?",
-  "whuAccountUnbindSuccess": "Unbind successful",
   "whuCalendarListView": "List",
   "whuCalendarMonthView": "Month",
   "whuCalendarNoEvents": "No events",
   "whuCalendarTitle": "Academic Calendar",
   "whuCalendarWeekView": "Week",
-  "whuCourseImportAdapterFailed": "Failed to import courses",
-  "whuCourseImportAdapterImporting": "Importing courses from WHU Academic...",
-  "whuCourseImportAdapterLoginRequired": "WHU Academic login required",
-  "whuCourseImportAdapterParsing": "Parsing WHU course page...",
-  "whuCourseImportAdapterSuccess": "Successfully imported {count} courses",
   "whuLoginWebViewLoading": "Loading...",
   "whuLoginWebViewTitle": "WHU Login",
-  "yY1": "{y}-{yPlus1}",
-  "@changeOnlyThisItemOrEveryCours": {
-    "placeholders": {
-      "title": {}
-    }
-  },
-  "@courseImportImportSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@courseImportImportSuccessDesc": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@courseImportParseSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@courseTimetablesWeekCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@detailMemoDate": {
-    "placeholders": {
-      "date": {},
-      "duration": {}
-    }
-  },
-  "@detailRangeDate": {
-    "placeholders": {
-      "start": {},
-      "end": {}
-    }
-  },
   "@editorDurationHourMinute": {
     "placeholders": {
       "hours": {
@@ -954,13 +611,6 @@
       }
     }
   },
-  "@homeCoursePeriod": {
-    "placeholders": {
-      "courseNumber": {
-        "type": "String"
-      }
-    }
-  },
   "@homeCurrentWeekRange": {
     "placeholders": {
       "start": {
@@ -993,42 +643,9 @@
       "hour": {}
     }
   },
-  "@importedPayloadItemsLengthItem": {
-    "placeholders": {
-      "tableName": {},
-      "itemsLength": {}
-    }
-  },
-  "@importedPayloaditemslengthItemsTo": {
-    "placeholders": {
-      "itemsLength": {}
-    }
-  },
   "@importedTimestr": {
     "placeholders": {
       "timeStr": {}
-    }
-  },
-  "@importFailedError": {
-    "placeholders": {
-      "error": {}
-    }
-  },
-  "@importFailedError1": {
-    "placeholders": {
-      "error": {}
-    }
-  },
-  "@importFinishedPayloadItemsLeng": {
-    "placeholders": {
-      "currentWeekCount": {},
-      "itemsLength": {}
-    }
-  },
-  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
-    "placeholders": {
-      "itemsLength": {},
-      "currentWeekCount": {}
     }
   },
   "@listCompletedSection": {
@@ -1038,69 +655,12 @@
       }
     }
   },
-  "@listPendingSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@listSummary": {
-    "placeholders": {
-      "pending": {
-        "type": "int"
-      },
-      "completed": {
-        "type": "int"
-      }
-    }
-  },
   "@minuteMin": {
     "placeholders": {
       "minute": {}
     }
   },
-  "@scorePageFetchStatsFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageInstructorLabel": {
-    "placeholders": {
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageSubmitError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageTotalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
-      }
-    }
-  },
   "@semS": {
-    "placeholders": {
-      "s": {}
-    }
-  },
-  "@semS1": {
     "placeholders": {
       "s": {}
     }
@@ -1119,45 +679,10 @@
       }
     }
   },
-  "@weatherCachedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "@weatherFeelsLike": {
-    "placeholders": {
-      "temp": {
-        "type": "String"
-      }
-    }
-  },
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
         "type": "String"
-      }
-    }
-  },
-  "@weatherLoadingLocation": {
-    "placeholders": {
-      "locationName": {
-        "type": "String"
-      }
-    }
-  },
-  "@weatherUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "@whuCourseImportAdapterSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
       }
     }
   },
@@ -1167,13 +692,6 @@
       "yPlus1": {}
     }
   },
-  "@yY1": {
-    "placeholders": {
-      "y": {},
-      "yPlus1": {}
-    }
-  },
-  "courseImportFailed": "Import failed",
   "courseImportStatusImported": "Import finished: {count} items, {currentWeek} in current week.",
   "@courseImportStatusImported": {
     "placeholders": {
@@ -1223,14 +741,6 @@
       }
     }
   },
-  "courseImportImportFailedStatus": "Import failed: {error}",
-  "@courseImportImportFailedStatus": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "editorEditCourse": "Edit course",
   "editorCreateCourse": "Create course",
   "editorAllDaySchedule": "All-day schedule",
@@ -1267,7 +777,6 @@
   "aiDelete": "Delete",
   "aiNoMessages": "No messages",
   "aiClearConversations": "Clear conversations",
-  "aiClearConversationsConfirm": "Are you sure you want to clear all conversation history?",
   "aiCancel": "Cancel",
   "aiClear": "Clear",
   "aiRenameConversation": "Rename conversation",
@@ -1292,36 +801,7 @@
   "scorePageStandardWes": "WES Standard",
   "scorePageStandard40": "Standard 4.0 Algorithm",
   "scorePageStandard100": "Percentage Average",
-  "scorePageSpoiler": "Score Spoiler",
-  "scorePageSpoilerHint": "Fetch uploaded scores not yet synced to the educational administration system",
-  "scorePageEnableSpoiler": "Enable Score Spoiler",
-  "scorePageStudentId": "Student ID",
-  "scorePageStudentIdHint": "Used for spoiler API; can also extract stuId from Cookie",
-  "scorePageCookie": "Cookie (Optional)",
-  "scorePageCookieHint": "If API needs auth, paste Cookie like JSESSIONID / route / stuId",
   "scorePageBiometricAuthFailed": "Biometric authentication failed",
-  "scorePageGoToSettings": "Go to Settings",
-  "scorePageSpoilerFailed": "Failed to fetch score spoiler",
-  "scorePageSpoilerHintText": "By enabling Score Spoiler, you can view early scores.",
-  "scorePageSpoilerFetched": "Fetched {count} records · {credits} credits",
-  "@scorePageSpoilerFetched": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "credits": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageSpoilerUpdated": "Updated: {time}",
-  "@scorePageSpoilerUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "scorePageCourseInfo": "{type} · {credit} credits · {instructor}",
   "@scorePageCourseInfo": {
     "placeholders": {
@@ -1329,23 +809,6 @@
         "type": "String"
       },
       "credit": {
-        "type": "String"
-      },
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageCourseInfoWithExam": "{type} · {credit} credits · {exam}\n{instructor}",
-  "@scorePageCourseInfoWithExam": {
-    "placeholders": {
-      "type": {
-        "type": "String"
-      },
-      "credit": {
-        "type": "String"
-      },
-      "exam": {
         "type": "String"
       },
       "instructor": {
@@ -1422,8 +885,6 @@
   "settingsDevUrlHint": "Leave empty to use default",
   "settingsDevDisableTitle": "Disable Developer Mode",
   "settingsDevDisableSubtitle": "After disabling, re-enable by tapping version number repeatedly",
-  "settingsHomeBackgroundImage": "Custom Background Image",
-  "settingsHomeBackgroundSet": "Set",
   "settingsHomeGridAlpha": "Grid Background Opacity",
   "settingsHomeGridBorderAlpha": "Grid Border Opacity",
   "settingsHomeCropImage": "Crop Image",
@@ -1455,8 +916,6 @@
       }
     }
   },
-  "libraryScanCheckIn": "Scan to Check In / Temporarily Leave",
-  "libraryNoActiveReservation": "No active reservation",
   "libraryClickForDetails": "Tap to view floor and seat details",
   "globalTimetableTitle": "Global Timetable",
   "globalTimetablePlaceholder": "Global timetable feature is under development...",
@@ -1494,14 +953,6 @@
     }
   },
   "linkNotSupported": "This link needs to be opened in a browser or school app.",
-  "pageLoginRequired": "Log in to access {name}.",
-  "@pageLoginRequired": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "pageTemporarilyUnavailable": "Page temporarily unavailable",
   "pageRefresh": "Refresh",
   "accountStatus": "Account Status",
@@ -1623,14 +1074,6 @@
     "placeholders": {
       "index": {
         "type": "int"
-      }
-    }
-  },
-  "emptyClassroomSectionFormat": "Period {groups}",
-  "@emptyClassroomSectionFormat": {
-    "placeholders": {
-      "groups": {
-        "type": "String"
       }
     }
   },
@@ -1788,15 +1231,6 @@
   "sportsAuthFetchToken": "Fetch sports venue login credential",
   "sportsAuthNoJwt": "Sports venue system authorization failed: JWT missing in response.",
   "sportsAuthFailed": "Sports venue system authorization failed.",
-  "sportsAuthHttpError": "Sports venue system authorization failed (HTTP {statusCode}).",
-  "@sportsAuthHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
-      }
-    }
-  },
-  "sportsAuthRetryLogin": "Sports venue system authorization failed. Please re-login to WHU Unified Authentication.",
   "scoreImportDescription": "After import, scores are cached locally for instant viewing and GPA calculation.",
   "scoreImportCaptchaFailed": "Failed to parse verification code",
   "scoreImportCancelled": "Verification cancelled",
@@ -1825,7 +1259,6 @@
   },
   "scoreImportSpoilerImporting": "Importing scores from the Professional Development System...",
   "scoreImportNoStudentId": "No globally logged-in student ID found",
-  "scoreImportNoSession": "No academic system session found. Please re-login your WHU account.",
   "scoreImportSpoilerSuccessWithCount": "{success}: Fetched {count} spoiler score records.",
   "@scoreImportSpoilerSuccessWithCount": {
     "placeholders": {
@@ -1871,12 +1304,6 @@
   "scoreCaptchaAutoVerifying": "Auto-verifying...",
   "seatReservationAlreadySynced": "This reservation is already in your agenda.",
   "seatReservationAddedToAgenda": "Seat reservation added to your agenda.",
-  "seatReservationAddToAgendaTitle": "Add to agenda?",
-  "seatReservationAddButton": "Add",
-  "seatReservationPreparing": "Authorizing the seat reservation system...",
-  "seatReservationErrorTitle": "Seat reservation temporarily unavailable",
-  "seatReservationRetry": "Retry",
-  "seatReservationDefaultLocation": "Wuhan University Library",
   "seatReservationDraftTitle": "Library Seat Reservation",
   "seatReservationDraftDetails": "Source: WHU Library Seat Reservation System\nSeat ID: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
@@ -1897,39 +1324,12 @@
       }
     }
   },
-  "whuCalendarDateFormat": "{year}/{month}/{day}",
-  "@whuCalendarDateFormat": {
-    "placeholders": {
-      "year": {
-        "type": "int"
-      },
-      "month": {
-        "type": "int"
-      },
-      "day": {
-        "type": "int"
-      }
-    }
-  },
-  "homeDefaultBlockLabel": "Block {number}",
-  "@homeDefaultBlockLabel": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "itemDetailDateRangeTo": " to ",
   "itemDetailSectionGrading": "Course Grading",
   "itemDetailScoreOverall": "Overall",
   "itemDetailScoreContinuous": "Continuous",
   "itemDetailScoreFinal": "Final",
   "itemDetailSectionDistribution": "Score Distribution",
-  "itemDetailDistRange90to100": "90-100",
-  "itemDetailDistRange80to89": "80-89",
-  "itemDetailDistRange70to79": "70-79",
-  "itemDetailDistRange60to69": "60-69",
-  "itemDetailDistRangeBelow60": "<60",
   "itemDetailSectionReviews": "Course Reviews",
   "itemDetailMockReview1": "The teacher explains clearly, the courseware is well-made, and the grading is reasonable. Every class has in-class exercises that help greatly with understanding concepts.",
   "itemDetailMockReview2": "The course content is substantial, but the final exam is quite challenging. The usual workload is moderate; I recommend starting review early.",
@@ -1960,8 +1360,6 @@
       }
     }
   },
-  "themeColorSpec2021": "2021",
-  "themeColorSpec2025": "2025",
   "themeColorLuotopiaBlue": "Luotopia Blue",
   "themeColorMaterialRed": "Material Red",
   "themeColorMaterialPink": "Material Pink",
@@ -1974,10 +1372,6 @@
   "themeColorMaterialGreen": "Material Green",
   "themeColorMaterialOrange": "Material Orange",
   "themeColorMaterialBrown": "Material Brown",
-  "themeDpiSmall": "Small",
-  "themeDpiStandard": "Standard",
-  "themeDpiLarge": "Large",
-  "themeDpiExtraLarge": "Extra Large",
   "aiFormatOpenaiCompletion": "OpenAI Completion",
   "aiFormatOpenaiResponse": "OpenAI Response",
   "aiFormatGemini": "Gemini",
@@ -2018,24 +1412,11 @@
       }
     }
   },
-  "weatherConditionSunny": "Sunny",
-  "weatherConditionCloudy": "Cloudy",
-  "weatherConditionRainy": "Rainy",
-  "weatherConditionSnowy": "Snowy",
-  "weatherConditionFoggy": "Foggy",
   "weatherAqiExcellent": "Excellent",
   "weatherAqiGood": "Good",
   "weatherAqiModerate": "Moderate",
   "weatherAqiPoor": "Poor",
   "weatherBannerRainSoon": "Rain expected soon, don't forget your umbrella!",
-  "weatherBannerAlert": "Weather Alert: {alert}",
-  "@weatherBannerAlert": {
-    "placeholders": {
-      "alert": {
-        "type": "String"
-      }
-    }
-  },
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -2076,12 +1457,9 @@
   "weatherProviderLocationLookup": "Location Lookup",
   "weatherProviderChina": "Xiaomi Weather",
   "weatherProviderOpenMeteo": "Open-Meteo",
-  "weatherProviderQWeather": "QWeather",
   "weatherProviderAccuWeather": "AccuWeather",
-  "weatherProviderOpenWeatherMap": "OpenWeatherMap",
   "weatherProviderNominatim": "Nominatim",
   "weatherAqiHazardous": "Hazardous",
-  "weatherRainExpected": "Rain Expected Soon",
   "weatherClear": "Clear",
   "weatherCloudy": "Cloudy",
   "weatherFog": "Fog",
@@ -2092,8 +1470,6 @@
   "settingsWeatherLocationService": "Location Service",
   "settingsWeatherLocationSystem": "System Location",
   "settingsWeatherLocationIpSb": "IP.SB Location",
-  "settingsWeatherLocationBaiduIp": "Baidu IP Location",
-  "settingsWeatherBaiduApiKey": "Baidu API Key",
   "locationSearchTitle": "Search Location",
   "locationSearchHint": "Search for a city...",
   "locationSearchNoResults": "No results found",
@@ -2112,7 +1488,6 @@
   "weatherAirQualityCo": "CO",
   "weatherAirQualityUnit": "µg/m³",
   "weatherAirQualityClose": "Close",
-  "weatherAirQualitySubtitle": "Real-time pollutant concentrations",
   "campusBusTitle": "Campus Bus",
   "campusBusNearestStop": "Nearest: {stopName}",
   "campusBusDistance": "~{meters}m",
@@ -2125,7 +1500,6 @@
   "campusBusNoInfo": "No bus information available",
   "campusBusNoNearby": "No nearby bus stops found",
   "campusBusLoadFailed": "Failed to load bus info",
-  "campusBusNotLoggedIn": "Not logged in or out of service hours",
   "campusBusRefresh": "Refresh",
   "campusBusServiceHours": "Service Hours: {hours}",
   "whuConfirmLogout": "Confirm logout",
@@ -2150,7 +1524,6 @@
   "weatherAqiStandardCn": "China Standard",
   "weatherAqiStandardEu": "EU Standard",
   "settingsWeatherAqiStandard": "AQI Standard",
-  "settingsWeatherAqiStandardSubtitle": "All AQI values are converted to this standard for consistent display",
   "libraryAuthFailed": "Authorization failed: {error}",
   "@libraryAuthFailed": {
     "placeholders": {
@@ -2224,7 +1597,6 @@
     }
   },
   "libraryBookThisSeat": "Book This Seat",
-  "libraryDate": "Date",
   "libraryStartTime": "Start",
   "libraryEndTime": "End",
   "libraryBookSuccess": "Reservation successful!",
@@ -2279,6 +1651,7 @@
   "wallpaperSourceBing": "Bing daily",
   "wallpaperPickImage": "Choose image",
   "wallpaperNoImage": "No image selected",
+  "wallpaperDarkOverlayOpacity": "Dark mode overlay opacity",
   "wallpaperTargetHome": "Timetable",
   "wallpaperTargetCampus": "Campus",
   "wallpaperTargetSettings": "Settings",
@@ -2306,8 +1679,6 @@
   "ecardPaycodeTitle": "E-Card Payment Code",
   "ecardPaycodeUseWeb": "Use web version",
   "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
-  "ecardPaycodeLoginRequiredTitle": "Please log in to your WHU account",
-  "ecardPaycodeLoginRequiredMessage": "After logging in you can get the E-card payment code.",
   "ecardPaycodeRefreshing": "Refreshing payment code…",
   "ecardPaycodeLoading": "Getting payment code…",
   "ecardPaycodeAccountFallback": "WHU account",
@@ -2339,6 +1710,7 @@
     }
   },
   "studyStatusTrainingPlan": "Training plan",
+  "studyStatusCurrentTrainingPlan": "Currently showing",
   "studyStatusCourseOverview": "Course overview",
   "studyStatusFilterAll": "All",
   "studyStatusFilterPassed": "Passed",
@@ -2451,7 +1823,6 @@
   "onboardingLegalTitle": "Terms & Privacy",
   "onboardingLegalSubtitle": "Please review and accept our terms to continue.",
   "onboardingLegalAgreePrefix": "I have read and agree to the ",
-  "onboardingLegalAgreeAnd": " and ",
   "onboardingLegalRequired": "Please accept the terms and privacy policy first.",
   "onboardingPermissionsTitle": "App permissions",
   "onboardingPermissionsSubtitle": "These permissions unlock specific features. You can grant them later in system settings.",
@@ -2532,5 +1903,50 @@
   "locationUnavailableTitle": "Location unavailable",
   "locationUnavailableMessage": "No valid location could be resolved. Choose a fixed location in settings, or enable system location.",
   "weatherDetailNormalHighLow": "Typical high / low",
-  "settingsWeatherLocationIpApi": "ip-api.com"
+  "settingsWeatherLocationIpApi": "ip-api.com",
+  "settingsDevWebViewDebugger": "WebView network debugger",
+  "settingsDevWebViewDebuggerSubtitle": "Inspect XHR/fetch requests in Zhihui Luojia",
+  "debuggerTitle": "Network debugger",
+  "debuggerPause": "Pause",
+  "debuggerResume": "Resume",
+  "debuggerClear": "Clear",
+  "debuggerExport": "Export",
+  "debuggerFilter": "Filter",
+  "debuggerFilterAll": "All",
+  "debuggerLevelDebug": "Debug",
+  "debuggerLevelInfo": "Info",
+  "debuggerLevelWarn": "Warning",
+  "debuggerLevelError": "Error",
+  "debuggerNoLogs": "No requests recorded",
+  "debuggerNoLogsSubtitle": "Network activity will appear here",
+  "debuggerDetailTitle": "Request details",
+  "debuggerTabOverview": "Overview",
+  "debuggerTabRequestHeaders": "Request headers",
+  "debuggerTabRequestBody": "Request body",
+  "debuggerTabResponseHeaders": "Response headers",
+  "debuggerTabResponseBody": "Response body",
+  "debuggerResend": "Resend",
+  "debuggerResendTitle": "Resend request",
+  "debuggerResendSend": "Send",
+  "debuggerExportSelected": "Export selected",
+  "debuggerExportAll": "Export all",
+  "debuggerExportFiltered": "Export filtered",
+  "debuggerExportSuccess": "Exported {count} request(s)",
+  "@debuggerExportSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "debuggerCopyValue": "Copy value",
+  "debuggerPaused": "Paused",
+  "loginRequiredToUse": "Log in to use {feature}",
+  "@loginRequiredToUse": {
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  }
 }

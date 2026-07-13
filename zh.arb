@@ -1,22 +1,13 @@
 {
   "@@locale": "zh",
   "aiAssistant": "AI 助手",
-  "aiDataSourceErrorMessage": "AI 服务发生错误",
-  "aiDataSourceNetworkError": "AI 服务网络错误",
-  "aiDataSourceTimeout": "AI 服务请求超时",
   "aiInputHint": "关于日程的任何问题...",
   "aiTitle": "标题",
-  "allCourseItemsInThis": "会同时删除该课程表下的所有课程事项。",
   "allCourseItemsInThisTimetableW": "会同时删除该课程表下的所有课程事项。",
-  "allSameNameCourses": "改这门课程",
   "alwaysHide": "始终隐藏",
   "alwaysShow": "始终显示",
-  "applyColorTo": "应用颜色到哪里？",
-  "appRouterError": "发生意外的路由错误",
-  "appRouterNotFound": "页面未找到",
   "appTitle": "珞家",
   "baseColorForStaticTheme": "静态主题的基础色",
-  "biometricLockAuthenticating": "正在验证...",
   "biometricLockFailed": "验证失败",
   "biometricLockReason": "解锁以访问 Luotopia",
   "campusAppCourseHub": "教务枢纽",
@@ -26,18 +17,25 @@
   "campusAppFileSharing": "学习资料共享",
   "campusAppLibrary": "图书借阅",
   "campusAppScores": "成绩",
-  "campusAppStudyStatus": "学业情况",
   "campusAppSeatReservation": "自习预约",
   "campusAppSports": "运动场馆",
   "campusAppTimetable": "课程表",
-  "campusPageTitle": "校园服务",
+  "campusAppZhihuiLuojia": "智慧珞珈",
+  "campusAppMessages": "消息",
+  "messagesTabAll": "全部",
+  "messagesTabNotifications": "通知",
+  "messagesTabTodo": "待办",
+  "messagesFilter": "筛选",
+  "messagesFilterSource": "来源",
+  "messagesFilterAll": "全部来源",
+  "messagesEmpty": "暂无消息",
+  "messagesEmptySubtitle": "校园应用的消息将显示在这里",
+  "messagesLoading": "正在加载…",
+  "messagesErrorRetry": "重试",
   "campusTitle": "校园",
   "cancel": "取消",
   "changeColorVariantGenerationAlgorithm": "改变颜色变体生成算法",
-  "changeOnlyThisItemOr": "仅修改这一项，还是所有名为 ",
-  "changeOnlyThisItemOrEveryCours": "仅修改这一项，还是所有名为 “{title}” 的课程？",
   "chooseBetweenForumOrAi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
-  "chooseBetweenForumOrAiForTheMi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
   "chooseDuration": "选择时长",
   "colorsAppearance": "色彩与外观",
   "commonBack": "返回",
@@ -45,7 +43,6 @@
   "commonEmail": "邮箱",
   "commonId": "ID",
   "commonLogin": "登录",
-  "whuAuthReLogin": "重新登录",
   "whuSessionExpiredPrompt": "登录状态已失效且自动刷新失败，请重新登录。",
   "commonLogout": "退出",
   "commonNotSet": "未设置",
@@ -54,104 +51,31 @@
   "commonRegistrationTime": "注册时间",
   "commonUsername": "用户名",
   "courseGridSettings": "课程方格模式设置",
-  "courseHubCourses": "课程",
-  "courseHubExams": "考试",
   "courseHubLoginButton": "登录",
-  "courseHubLoginFailed": "登录失败",
-  "courseHubLoginHint": "请使用武大教务账户登录",
-  "courseHubLoginSuccess": "登录成功",
-  "courseHubLoginTitle": "武大教务登录",
-  "courseHubNoCourseToday": "今天没有课",
-  "courseHubScorePageTitle": "学业成绩",
   "courseHubScores": "成绩",
   "courseHubTimetable": "课程表",
-  "courseHubTimetablePageTitle": "课程表",
-  "courseHubTimetableWeek": "第 ",
   "courseHubTitle": "教务枢纽",
   "courseImport": "课程表导入",
-  "courseImportAllCourses": "全部课程",
-  "courseImportAppend": "追加",
-  "courseImportCourseName": "课程名称",
-  "courseImportCurrentSemester": "当前学期",
-  "courseImportCustomWeeks": "自定义",
-  "courseImportEvenWeek": "双周",
-  "courseImportEveryWeek": "每周",
-  "courseImportExportFileName": "luotopia_课表_{name}",
-  "courseImportExportImport": "导入 / 导出",
-  "courseImportExportSuccess": "导出成功",
-  "courseImportExportToLocal": "导出本地课表",
-  "courseImportFromEdu": "从教务系统导入",
-  "courseImportFromFile": "从文件导入",
-  "courseImportImporting": "正在导入...",
-  "courseImportImportSuccess": "导入完成：新增 {count} 条",
-  "courseImportImportSuccessDesc": "成功导入 {count} 门课程到本地课表",
-  "courseImportLocation": "地点",
-  "courseImportLoginRequired": "请先登录武大教务",
-  "courseImportNetworkError": "网络错误，请检查网络连接",
-  "courseImportNoData": "暂无课程数据",
-  "courseImportNoSemesterData": "该学期暂无课程数据",
-  "courseImportOddWeek": "单周",
-  "courseImportOverwrite": "覆盖",
-  "courseImportParseFailed": "解析课程数据失败",
-  "courseImportParseSuccess": "已解析 {count} 门课程",
-  "courseImportParsing": "正在解析课程数据...",
-  "courseImportSelectFile": "选择文件",
   "courseImportSemester": "学期",
-  "courseImportSemesterRequired": "请选择学期",
-  "courseImportTeacher": "教师",
-  "courseImportTime": "时间",
   "courseImportTitle": "导入课表",
-  "courseImportToLocal": "导入为本地课表",
-  "courseImportWarnOverwrite": "这将覆盖您现有的本地课程，是否继续？",
-  "courseImportWeek": "周",
-  "courseImportWeeks": "周",
   "courseTablesImport": "课程表与导入",
-  "courseTimetablesAdd": "添加课表",
-  "courseTimetablesCreateFirst": "创建你的第一个课程表",
-  "courseTimetablesCurrent": "当前",
-  "courseTimetablesDelete": "删除",
-  "courseTimetablesEdit": "编辑",
-  "courseTimetablesImported": "已导入",
-  "courseTimetablesLocal": "本地",
-  "courseTimetablesNoTimetables": "暂无课程表",
-  "courseTimetablesShare": "分享",
-  "courseTimetablesTitle": "课程表",
-  "courseTimetablesWeekCount": "{count} 周",
   "create": "创建",
   "createTimetable": "新建课程表",
-  "customSeedColor": "自定义主色",
   "delete": "删除",
   "deleteTimetable": "删除课程表",
   "detailDeadlineLabel": "截止时间",
   "detailDelete": "删除事项",
-  "detailDescription": "展示单个事项的完整信息与快捷操作。",
-  "detailLocationLabel": "地点",
   "detailMarkComplete": "标记完成",
   "detailMarkIncomplete": "恢复未完成",
-  "detailMemoDate": "{date} · 预计 {duration}",
   "detailMissing": "没有找到这个事项，可能已经被删除。",
-  "detailNotesLabel": "备注",
-  "detailRangeDate": "{start} 至 {end}",
-  "detailReminderLabel": "提醒",
-  "detailRepeatLabel": "重复",
-  "detailTimeLabel": "时间",
   "detailTitle": "事项详情",
-  "developmentTag": "基础 UI",
   "done": "确定",
   "dynamicColorMonet": "动态取色",
   "dynamicColorSourceAccent": "使用系统强调色",
   "dynamicColorSourceGtk": "使用 GTK 主题色",
   "dynamicColorSourceWallpaper": "根据系统壁纸提取主色调",
-  "ecardPaymentCodeExpired": "付款码已过期",
-  "ecardPaymentLoading": "正在加载付款码...",
-  "ecardPaymentRefresh": "刷新",
   "ecardPaymentTitle": "E卡付款码",
-  "editorAddFromAlbum": "从相册选择",
-  "editorAddItem": "添加项目",
-  "editorAddPhoto": "添加图片",
-  "editorAllDayDescription": "开启后只显示日期，不再单独设置具体时分。",
   "editorAllDayTitle": "全天任务",
-  "editorCancel": "取消",
   "editorColorAmber": "琥珀",
   "editorColorCoral": "珊瑚红",
   "editorColorCrimson": "绯红",
@@ -165,59 +89,32 @@
   "editorColorSlate": "石板灰",
   "editorColorTeal": "鸭绿",
   "editorColorViolet": "紫罗兰",
-  "editorColumnMode": "单列",
-  "editorConfirmDelete": "确认删除",
   "editorCreateMemo": "创建备忘",
   "editorCreateSchedule": "创建日程",
   "editorCreateTask": "创建任务",
-  "editorDayOfWeek": "星期",
-  "editorDeadlineClear": "清除",
   "editorDeadlineUnset": "未设置",
-  "editorDeleteItem": "删除",
-  "editorDeleteWarning": "确定要删除此项目吗？",
-  "editorDescription": "这里将承载日程、任务、备忘的统一编辑页面。",
-  "editorDetailLayout": "详细布局",
   "editorDurationHourMinute": "{hours} 小时 {minutes} 分钟",
   "editorDurationHours": "{hours} 小时",
   "editorDurationMinutes": "{minutes} 分钟",
-  "editorDurationPickerTitle": "选择时长",
   "editorEditMemo": "编辑备忘",
   "editorEditSchedule": "编辑日程",
   "editorEditTask": "编辑任务",
-  "editorEndTime": "结束时间",
-  "editorEnterDescription": "输入描述",
-  "editorEnterText": "输入文字",
-  "editorEnterTitle": "输入标题",
   "editorErrorDeadlineBeforeStart": "截止时间不能早于开始时间。",
-  "editorErrorDurationPositive": "时长必须大于 0。",
   "editorErrorEndBeforeStart": "结束时间不能早于开始时间。",
   "editorErrorTitleRequired": "请输入名称。",
   "editorFieldDate": "日期",
   "editorFieldDeadline": "截止时间",
-  "editorFieldDeadlineDate": "截止日期",
-  "editorFieldDeadlineTime": "截止时刻",
-  "editorFieldDetails": "详情",
-  "editorFieldEnd": "结束时间",
-  "editorFieldEndDate": "结束日期",
   "editorFieldEndTime": "结束时间",
   "editorFieldEstimatedDuration": "预计时长",
-  "editorFieldLocation": "地点",
-  "editorFieldStart": "开始时间",
-  "editorFieldStartDate": "开始日期",
   "editorFieldStartTime": "开始时间",
   "editorFieldTargetDate": "目标日期",
-  "editorFieldTitle": "名称",
-  "editorFieldTitleName": "任务名称",
   "editorHintCourseTitle": "课程名称",
   "editorHintDetails": "备注",
   "editorHintLocation": "地点",
   "editorHintMemoTitle": "备忘名称",
   "editorHintScheduleTitle": "日程名称",
   "editorHintTaskTitle": "任务名称",
-  "editorHintTitle": "这件事叫什么？",
   "editorLocation": "地点",
-  "editorPickerCancel": "取消",
-  "editorPickerConfirm": "确定",
   "editorReminderAtTime": "准时提醒",
   "editorReminderFifteenMinutes": "提前 15 分钟",
   "editorReminderFiveMinutes": "提前 5 分钟",
@@ -233,40 +130,23 @@
   "editorRepeatWeekdays": "工作日",
   "editorRepeatWeekly": "每周",
   "editorRepeatYearly": "每年",
-  "editorRowMode": "按行排序",
-  "editorSave": "保存",
-  "editorSectionBasic": "基本信息",
-  "editorSectionColor": "颜色",
-  "editorSectionLocationNotes": "地点与备注",
   "editorSectionReminder": "提醒",
   "editorSectionRepeat": "重复",
-  "editorSectionTime": "日期与时间",
-  "editorSimpleLayout": "简洁布局",
-  "editorStartTime": "开始时间",
-  "editorSubmitButton": "创建事项",
   "editorSubmitInvalid": "请先修正高亮字段。",
   "editorSubmitSuccess": "事项已保存。",
-  "editorTakePhoto": "拍照",
   "editorTeacher": "教师",
-  "editorTitle": "新建事项",
-  "editorToggleMode": "编辑模式",
   "editorTypeMemo": "备忘",
   "editorTypePickerTitle": "切换事项类型",
   "editorTypeSchedule": "日程",
   "editorTypeTask": "任务",
-  "editorUnsavedChanges": "未保存的更改",
-  "editorUnsavedWarning": "您有未保存的更改，要放弃吗？",
-  "editorWeek": "第 ",
   "eGWakeupImport1": "例如：Wakeup 导入 1",
   "emptyClassroomAddedSingle": "已添加{classroom}第{classroom}节课",
-  "emptyClassroomBuilding": "教学楼",
   "emptyClassroomCollapseAll": "收起全部",
   "emptyClassroomConflictCancel": "取消",
   "emptyClassroomConflictConfirm": "确认加课",
   "emptyClassroomConflictMulti": "{sections} 已有安排，是否确认加课？",
   "emptyClassroomConflictSingle": "该时段已有安排，是否确认加课？",
   "emptyClassroomConflictTitle": "时间冲突",
-  "emptyClassroomDate": "日期",
   "emptyClassroomExpandAll": "展开全部",
   "emptyClassroomFABExpanded": "已展开 {expanded} / {total} 个教室",
   "emptyClassroomFABHint": "点击教室右侧箭头展开节次，点击节次方块即可添加到日程",
@@ -277,48 +157,29 @@
   "emptyClassroomFilterWeek": "周次",
   "emptyClassroomFilterWeekDay": "星期",
   "emptyClassroomFloorSeats": "{floor}楼 · {available}/{total} 座",
-  "emptyClassroomGoLogin": "去登录",
-  "emptyClassroomLoading": "正在查询...",
-  "emptyClassroomLoginPrompt": "请先登录武大统一认证",
   "emptyClassroomNoResults": "该教学楼当前没有空闲教室",
   "emptyClassroomQueryButton": "查询空闲教室",
   "emptyClassroomQueryHint": "已选择筛选条件，点击上方按钮查询空闲教室",
   "emptyClassroomRetry": "重试",
   "emptyClassroomSectionHint": "点击节次添加自习",
   "emptyClassroomSectionLabel": "第{section}节",
-  "emptyClassroomTime": "时间",
   "emptyClassroomTitle": "空闲教室",
   "emptyClassroomUndo": "撤销",
   "emptyClassroomWeekLabel": "第{week}周",
   "emptyTimetableImportCourse": "2. 导入教务课程",
   "emptyTimetableLoggedInWhu": "已登录武大账号",
   "emptyTimetableLoginWhu": "1. 登录武大账号",
-  "emptyTimetableSubtitle": "请先登录武大账号，然后导入课程表。",
   "emptyTimetableTitle": "还没有添加课程",
   "enableWidgetSync": "启用桌面小组件同步",
   "enterTimetableName": "输入课程表名称",
-  "extractColorsFromWallpaperAuto": "自动从壁纸提取主色",
-  "extractPrimaryColorFromSystem": "根据系统壁纸动态提取主色调",
   "fallbackRefreshInterval": "兜底刷新频率",
   "fetchingTimetable": "正在请求教务课表...",
-  "fileSharingDelete": "删除",
-  "fileSharingDownload": "下载",
-  "fileSharingLoading": "正在加载文件...",
-  "fileSharingNoFiles": "暂无文件",
-  "fileSharingShare": "分享",
-  "fileSharingTitle": "学习资料共享",
-  "fileSharingUpload": "上传",
   "followAppLanguage": "跟随应用语言",
   "followAppTheme": "跟随应用主题",
   "forum": "论坛 (珞珈防空洞)",
   "forumTitle": "珞珈防空洞",
-  "headerNextPeriod": "下一时间段",
-  "headerOpenItemTypePicker": "打开事项类型切换",
   "headerOpenListSettings": "打开列表页设置",
   "headerOpenListTabs": "打开标签页选择",
-  "headerOpenTimePicker": "打开时间选择",
-  "headerPreviousPeriod": "上一时间段",
-  "homeBackToCurrentPeriod": "返回本周",
   "homeCalendarMainLabelWeek": "第{week}周",
   "homeCalendarMonthDayRange": "{day} - {endDay}日",
   "homeCalendarMonthWeek": "{month}月第{month}周",
@@ -329,33 +190,20 @@
   "homeCalendarYearMonth": "{year}年{year}月",
   "homeCalendarYearWeek": "{year}年第{year}周",
   "homeCourseLunch": "午休",
-  "homeCoursePeriod": "第{courseNumber}节",
   "homeCurrentWeekRange": "本周 ({start} - {end})",
-  "homeDescription": "这里将承载周视图与月视图的表格化规划主页。",
   "homeGoToCurrentWeek": "转到本周",
   "homeGoToNextSemesterFirstWeek": "转到开学周",
   "homeGridModeCourse": "课程方格",
   "homeGridModeTime": "时间方格",
   "homePeriodRange": "{start} - {end}",
   "homeScopeMonth": "月",
-  "homeScopePickerTitle": "显示范围",
   "homeScopeWeek": "周",
-  "homeTitle": "日程总览",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} 小时",
   "importCoursesViaEmbeddedWeb": "通过内嵌网页登录并导入课程",
-  "importCoursesViaEmbeddedWebLog": "通过内嵌网页登录并导入课程",
-  "importedPayloadItemsLengthItem": "导入完成：新增 {itemsLength} 条课程事项，课程表「{tableName}」。",
-  "importedPayloaditemslengthItemsTo": "Imported {itemsLength} items to ",
   "importedTimestr": "导入于 {timeStr}",
-  "importFailedError": "导入失败：{error}",
-  "importFailedError1": "导入失败：{error}",
-  "importFinishedPayloadItemsLeng": "导入完成：新增 {itemsLength} 条，当前周 {currentWeekCount} 条。",
-  "importFinishedPayloaditemslengthItemsCurrentweekcount": "导入完成：新增 {itemsLength} 条，当前周 {currentWeekCount} 条。",
   "importFromSharedText": "从分享文本导入课程表",
-  "importSchedule": "导入课程表",
   "importSources": "导入来源",
-  "importTimetableFromSharedText": "从分享文本导入课程表",
   "importViaEmbeddedWebLogin": "通过内嵌网页登录并导入课程",
   "k1Hour": "1 小时",
   "k30Minutes": "30 分钟",
@@ -363,26 +211,8 @@
   "languageChinese": "中文",
   "languageEnglish": "英文",
   "languageLabel": "应用语言",
-  "languageSectionTitle": "语言",
-  "libraryBorrowingHistory": "借阅历史",
-  "libraryCurrentBorrowing": "当前借阅",
-  "libraryLoading": "正在加载...",
-  "libraryQrCodeHint": "请在自助借还机扫描二维码",
-  "libraryRenew": "续借",
-  "libraryReturnDate": "归还日期",
-  "librarySearch": "搜索",
-  "libraryTitle": "自习预约",
-  "listActionDelete": "删除",
-  "listActionEdit": "编辑",
-  "listCompletedCollapse": "收起已完成事项",
-  "listCompletedExpand": "展开已完成事项",
   "listCompletedSection": "已完成 {count}",
-  "listDescription": "这里将承载任务、日程、备忘和标签页驱动的列表体验。",
-  "listEmptyDescription": "点击右下角加号，先创建第一条任务、日程或备忘。",
-  "listEmptyTitle": "这里还没有事项",
   "listMenuTitle": "切换标签页",
-  "listPendingSection": "待处理 {count}",
-  "listReorderHint": "当前已进入手动排序，拖动任务右侧的手柄即可重新排列。",
   "listSettingsMenuTitle": "列表页设置",
   "listSettingsMore": "更多设置",
   "listSettingsReorder": "对任务重新排序",
@@ -392,16 +222,11 @@
   "listSortDueDate": "到期日期",
   "listSortManual": "手动排序",
   "listSortTodayFocus": "今天执行者",
-  "listStaticItemsLabel": "其他事项",
-  "listStatusCompleted": "已完成",
-  "listStatusPending": "未完成",
-  "listSummary": "未完成 {pending} 项，已完成 {completed} 项",
   "listTabAllItems": "全部事项",
   "listTabMemos": "备忘列表",
   "listTabMyDay": "我的一天",
   "listTabSchedules": "日程列表",
   "listTabTasks": "任务列表",
-  "listTitle": "事项列表",
   "login": "去登录",
   "luotopiaAccountDetails": "账户详情",
   "luotopiaAccountTitle": "Luotopia 账户",
@@ -436,97 +261,57 @@
   "navList": "日程",
   "navSettings": "设置",
   "noTimetableYetImportOr": "还没有课程表，先从上方导入或手动创建。",
-  "noTimetableYetImportOrCreateOn": "还没有课程表，先从上方导入或手动创建。",
-  "noTimetableYetTapTo": "还没有课程表，点右上角 + 从武大教务系统导入。",
   "noTimetableYetTapToImportFromW": "还没有课程表，点右上角 + 从武大教务系统导入。",
   "ok": "确定",
   "paletteAlgorithm": "调色盘算法",
   "paletteStyle": "调色盘算法",
   "pasteSharedContent": "粘贴 Wakeup 分享内容",
   "pasteWakeupShareCodeLinkParser": "支持粘贴 Wakeup 分享口令或链接。当前版本先提供占位流程。",
-  "placeholderOpenMenu": "打开菜单",
-  "placeholderOpenPicker": "打开选择器",
-  "pleaseLoginToWhuAcademic": "请先登录武大教务账户",
   "pleaseLoginToWhuAcademicSystem": "请先登录武大统一认证",
   "pleaseSelectWeek1Monday": "请选择第1周周一日期。",
   "scoreImportFailed": "导入失败",
-  "scoreImportFromWHU": "从武大教务导入",
-  "scoreImportImporting": "正在导入...",
-  "scoreImportLastUpdate": "最后更新：",
-  "scoreImportNever": "从未",
-  "scoreImportNoNewData": "没有新的成绩数据",
   "scoreImportSpoilerSubtitle": "只能获取绩点，但是比本科教务出成绩更快",
   "scoreImportSpoilerTitle": "从专业发展指导系统导入",
   "scoreImportSuccess": "导入成功",
   "scoreImportTitle": "成绩导入",
   "scoreImportUndergraduateTitle": "从本科教务导入",
   "scoreImportUndergraduateSubtitle": "导入精确的成绩但是可能更新较慢",
-  "scorePageAcademicYear": "学年",
-  "scorePageAnonymousContribution": "匿名贡献给分",
-  "scorePageAvgExam": "期末均分",
-  "scorePageAvgTotal": "总评均分",
-  "scorePageAvgUsual": "平时均分",
-  "scorePageCourse": "课程",
-  "scorePageCourseTeacherNotMatched": "未在服务端中匹配到此课程及教师",
-  "scorePageCredit": "学分",
-  "scorePageCredits": "学分",
-  "scorePageExamScoreLabel": "期末成绩 (选填)",
-  "scorePageFetchStatsFailed": "获取统计数据失败：{error}",
-  "scorePageGpa": "绩点",
-  "scorePageGradeDistribution": "成绩分布",
-  "scorePageGradePoint": "绩点",
   "scorePageGradeRange60": "60-69分",
   "scorePageGradeRange70": "70-79分",
   "scorePageGradeRange80": "80-89分",
   "scorePageGradeRange90": "90-100分",
   "scorePageGradeRangeFail": "不及格",
-  "scorePageImport": "导入",
-  "scorePageInstructorLabel": "教师: {instructor}",
-  "scorePageInstructorUnknown": "未知",
-  "scorePageLoading": "正在加载成绩...",
-  "scorePageLoginToShare": "登录 Luotopia 账号以共享您的课程成绩分布。",
-  "scorePageNoData": "暂无成绩数据",
-  "scorePageRefresh": "刷新",
   "scorePageRetry": "重试",
-  "scorePageSampleCount": "样本量",
-  "scorePageScore": "成绩",
-  "scorePageSemester": "学期",
-  "scorePageStatsDialogTitle": "{courseName} 给分统计",
-  "scorePageStatsEmpty": "该课程暂无给分统计样本",
-  "scorePageSubmitAnonymous": "匿名提交",
-  "scorePageSubmitError": "提交失败：{error}",
-  "scorePageSubmitFailed": "提交失败，请重试",
-  "scorePageSubmitSuccess": "提交成功！感谢您的匿名贡献！",
   "scorePageTitle": "成绩查询",
-  "scorePageTotalScore": "总评成绩: {score}",
-  "scorePageUsualScoreLabel": "平时成绩 (选填)",
-  "seatReservationBook": "预约",
-  "seatReservationCancel": "取消预约",
-  "seatReservationDuration": "时长",
-  "seatReservationHours": "小时",
-  "seatReservationLoading": "正在加载...",
-  "seatReservationMinutes": "分钟",
-  "seatReservationNoSeats": "暂无可用座位",
-  "seatReservationRefresh": "刷新",
-  "seatReservationSelectArea": "选择区域",
-  "seatReservationSelectFloor": "选择楼层",
-  "seatReservationSelectLibrary": "选择图书馆",
-  "seatReservationTime": "时间",
+  "scoreTranscriptCredential": "可信电子凭证",
+  "scoreTranscriptSelect": "选择要生成的成绩单",
+  "scoreTranscriptSystemGenerated": "由武汉大学可信电子凭证系统生成",
+  "scoreTranscriptNoTemplates": "当前账号没有可用的成绩单模板",
+  "scoreTranscriptLoadFailed": "加载成绩单类型失败：{error}",
+  "@scoreTranscriptLoadFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "scoreTranscriptFetchFailed": "获取可信电子凭证失败：{error}",
+  "@scoreTranscriptFetchFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "scoreTranscriptSaved": "PDF 已另存为",
+  "scoreTranscriptShare": "分享",
+  "scoreTranscriptSaveAs": "另存为",
   "seatReservationTitle": "自习预约",
   "seedColor": "种子颜色",
   "selectedOnlyDefault": "仅选中项显示 (默认)",
-  "selectSeedColor": "选择主色",
   "selectSemester": "选择学期",
   "semester": "导入学期",
   "semS": "第{s}学期",
-  "semS1": "第{s}学期",
   "settingsAbout": "关于",
   "settingsAppIcon": "应用图标",
   "settingsAppIconDefault": "默认",
   "settingsAppIconAlt": "备选",
-  "settingsAboutApp": "关于 Luotopia",
-  "settingsAboutEntrySubtitle": "应用信息、版本与许可",
-  "settingsAboutEntryTitle": "关于",
   "settingsAboutDevTeam": "开发团队",
   "settingsAboutTranslation": "翻译平台",
   "settingsLicensesTitle": "开源许可证",
@@ -546,10 +331,7 @@
       }
     }
   },
-  "licenseLicense": "开源协议",
   "licenseProjectHomepage": "项目主页",
-  "settingsAboutProductSubtitle": "全屏纵览表格化校园规划",
-  "settingsAboutTitle": "关于 Luotopia",
   "settingsAboutVersionTitle": "版本",
   "settingsAccountLocalTitle": "本地账户",
   "settingsAccountWhuLoggedIn": "已认证",
@@ -564,25 +346,13 @@
   "settingsAiTestButton": "测试连接",
   "settingsAiTestingButton": "测试中...",
   "settingsAppearance": "外观",
-  "settingsAppearanceColor": "颜色",
-  "settingsAppearanceThemeMode": "主题模式",
   "settingsAppearanceTitle": "外观设置",
-  "settingsBiometricLock": "生物识别锁",
-  "settingsBiometricUnlock": "使用生物识别解锁",
-  "settingsDark": "深色",
-  "settingsDescription": "这里将承载全局、主页和列表页的设置入口。",
-  "settingsFollowSystem": "跟随系统",
   "settingsGeneral": "通用",
   "settingsGeneralEntrySubtitle": "语言、导航栏与缓存",
   "settingsGeneralEntryTitle": "通用设置",
-  "settingsGeneralTitle": "通用设置",
-  "settingsGeneralWidgetsTitle": "桌面小组件",
   "settingsHomeBlockCount": "规划块数量",
   "settingsHomeBlockDuration": "单个规划块时长",
   "settingsHomeBlockGap": "规划块间隔",
-  "settingsHomeCourseGridSettings": "课程方格模式设置",
-  "settingsHomeCourseImport": "课程表导入",
-  "settingsHomeCourseManagement": "课程表管理",
   "settingsHomeDayStart": "每天开始规划时间",
   "settingsHomeEntrySubtitle": "主页时间块、网格模式与宽屏显示范围",
   "settingsHomeFitGridToScreen": "自适应屏幕大小",
@@ -590,26 +360,15 @@
   "settingsHomeGridMode": "网格模式",
   "settingsHomeHideLunchBreak": "隐藏午休",
   "settingsHomeItemOpacity": "主页事项方块不透明度",
-  "settingsHomeSectionDescription": "配置主页的时间块切分规则，以及超宽屏默认显示的时间范围。",
   "settingsHomeSectionTitle": "主页设置",
   "settingsHomeTimeGridSettings": "时间方格模式设置",
   "settingsHomeWideLayout": "超宽屏默认范围",
-  "settingsLanguage": "语言",
   "settingsLicenses": "开源许可证",
-  "settingsLight": "浅色",
-  "settingsListEntrySubtitle": "列表排序、重排与展示偏好",
-  "settingsListEntryTitle": "列表页设置",
   "settingsMinutesValue": "{value} 分钟",
   "settingsNavigationEntrySubtitle": "显示文字、中间标签页",
   "settingsNavigationEntryTitle": "导航栏设置",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacy": "隐私与安全",
   "settingsPrivacyPolicy": "隐私政策",
-  "settingsPrivacyTitle": "隐私与安全",
-  "settingsQuickActionsTitle": "快捷定位",
-  "settingsSearchEmpty": "没有找到匹配的设置项",
-  "settingsSearchHint": "搜索设置项",
-  "settingsSearchTooltip": "搜索设置",
   "settingsTermsOfService": "服务条款",
   "settingsTheme": "主题",
   "settingsTitle": "设置",
@@ -625,9 +384,6 @@
   "friendLinkCategoryOther": "其他",
   "settingsWeatherSectionTitle": "天气设置",
   "settingsWeatherSectionSubtitle": "天气服务商、API 密钥与定位",
-  "settingsWeatherProvider": "天气服务商",
-  "settingsWeatherUseCustomApiKey": "使用自定义 API 密钥",
-  "settingsWeatherCustomApiKeyHint": "请输入 API 密钥",
   "settingsWeatherLocationMode": "定位模式",
   "settingsWeatherLocationFixed": "固定位置",
   "settingsWeatherLocationDynamic": "每次请求重新定位",
@@ -637,181 +393,82 @@
   "sourceMerged": "来源：合并",
   "sourceWakeup": "来源：Wakeup",
   "sourceWhu": "来源：武大教务",
-  "sportsAllDay": "全天",
   "sportsAllVenues": "全部场馆",
-  "sportsBook": "预约",
   "sportsBooking": "预约中...",
   "sportsBookingFailed": "预约失败，请重试。",
-  "sportsBookingRules": "预约须知",
   "sportsBookingSuccess": "预约成功！",
   "sportsBookingUnavailable": "当前暂时无法预约，请稍后重试。",
-  "sportsBookNow": "立即预约",
-  "sportsBusinessHours": "营业时间：",
   "sportsCheckoutArgsMissing": "预约确认参数缺失，请返回重新选择。",
-  "sportsCheckoutTitle": "确认预约",
   "sportsChooseCourt": "选择场地",
-  "sportsChooseTimeSlot": "选择时段",
   "sportsConfirmBooking": "确认预约",
-  "sportsConfirmPayment": "确认支付",
-  "sportsDaytime": "白天",
-  "sportsEvening": "晚上",
-  "sportsFriday": "周五",
   "sportsGoBack": "返回",
   "sportsGoToMyOrders": "查看我的预约",
-  "sportsLoading": "加载中...",
-  "sportsLoadingFailed": "加载失败",
+  "loading": "加载中...",
+  "loadingFailed": "加载失败",
   "sportsLoadingVenues": "正在加载场馆...",
-  "sportsMinutes": "分钟",
-  "sportsMonday": "周一",
-  "sportsMultiDayNotSupported": "暂不支持多天预约",
   "sportsNoCourtsAvailable": "暂无可用场地",
   "sportsOrderArgsMissing": "订单参数缺失，请返回重新选择。",
   "sportsOrderCancelled": "已取消",
-  "sportsOrderExpired": "订单已过期",
   "sportsOrderNotFound": "未找到订单",
   "sportsOrderPaid": "已付款",
   "sportsOrderPending": "待付款",
-  "sportsOrderStatus": "状态",
   "sportsOrderTitle": "预约详情",
   "sportsPay": "支付",
-  "sportsPayFailed": "支付失败，请重试。",
-  "sportsPaying": "支付中...",
-  "sportsPaySuccess": "支付成功！",
-  "sportsPhone": "电话：",
-  "sportsPrice": "价格",
   "sportsRetry": "重试",
-  "sportsSaturday": "周六",
-  "sportsSelectDate": "选择日期",
   "sportsSelectDateFirst": "请先选择日期",
-  "sportsSelectDateHint": "请选择日期",
-  "sportsSelectedCourt": "已选场地",
   "sportsSelectTimeSlot": "选择时段",
-  "sportsSelectTimeSlotHint": "请选择时间段",
   "sportsSelectVenue": "选择场馆",
-  "sportsSelectVenueHint": "请选择运动场馆",
-  "sportsSunday": "周日",
-  "sportsThursday": "周四",
-  "sportsTuesday": "周二",
-  "sportsVenueAddress": "场馆地址",
-  "sportsVenueDetail": "场馆详情",
-  "sportsVenueType": "场馆类型",
-  "sportsWednesday": "周三",
   "startImport": "开始导入",
   "tapToSelect": "点击选择",
-  "themeColors": "主题配色",
   "themeDark": "深色",
   "themeLight": "浅色",
   "themeModeLabel": "主题模式",
-  "themeSectionTitle": "显示",
   "themeSettings": "主题设置",
   "themeSystem": "跟随系统",
-  "thisItem": "只改这一项",
-  "timePickerDescription": "这个路由预留给共享的日周月时间选择器。",
-  "timePickerTitle": "时间选择",
   "timetable": "课程表",
   "timetableManagement": "课程表管理",
   "timetableName": "课程表名称",
-  "timetableName1": "课程表名称",
   "timetables": "课程表列表",
-  "tipSelectedDateIsNot": "提示：所选日期并非星期一",
   "tipSelectedDateIsNotAMonday": "提示：所选日期并非星期一",
   "updateOnDataChangesWith": "数据变更即时推送，同时按频率兜底刷新。",
-  "updateOnDataChangesWithPeriodi": "数据变更即时推送，同时按频率兜底刷新。",
-  "useDynamicColor": "莫奈取色 (Dynamic Color)",
-  "verifyingAndEstablishingEducat": "正在校验并建立教务会话...",
   "verifyingAndEstablishingEducationSession": "正在校验并建立教务会话...",
   "wakeupImport": "Wakeup 导入",
   "wakeupShareLinkCode": "Wakeup 分享口令/链接",
-  "weatherCachedAt": "缓存于 {time}",
-  "weatherCacheTimeUnknown": "缓存时间未知",
-  "weatherFeelsLike": "体感{temp}",
-  "weatherLibraryBorrowingDetail": "借阅详情",
-  "weatherLibraryReminder": "图书馆：《罪与罚》借阅将在三天后到期",
-  "weatherLoadFailed": "天气加载失败",
   "weatherLoadFailedWithError": "天气加载失败：{error}",
-  "weatherLoadingLocation": "正在获取{locationName}天气",
-  "weatherNews": "校园新闻",
-  "weatherNewsReminder": "校园新闻：五一调休通知新鲜出炉",
-  "weatherNoClassReminder": "下午没课，试试一节「古代汉语」？",
   "weatherNoHourlyForecast": "暂无逐小时预报",
   "weatherRetry": "重试",
-  "weatherServiceUnavailable": "天气服务暂时不可用，显示最近缓存。",
-  "weatherShowCache": "显示最近缓存",
-  "weatherSnackAuditingClass": "蹭课推荐",
-  "weatherTryAgainLater": "请稍后重试",
-  "weatherUpdated": "更新 {time}",
-  "weatherUpdating": "正在更新天气",
   "week1Monday": "第一周周一",
   "whuAcademicSystem": "武汉大学教务系统",
   "whuAccountBind": "绑定 WHU 账户",
-  "whuAccountCancelBinding": "取消绑定",
+  "whuAccountRebind": "重新绑定",
   "whuAccountCollege": "学院",
+  "whuAccountMajor": "专业",
+  "whuAccountClassName": "班级",
+  "whuAccountGrade": "年级",
+  "whuAccountGender": "性别",
+  "whuAccountEthnicity": "民族",
+  "whuAccountPoliticalStatus": "政治面貌",
+  "whuAccountStudentType": "学生类别",
+  "whuAccountCounselor": "辅导员",
+  "whuAccountEnterTime": "入学时间",
+  "whuAccountPredictGraduateTime": "预计毕业",
+  "whuAccountShift": "学籍状态",
+  "whuAccountEducationalYears": "学制",
+  "whuAccountRoleName": "角色",
+  "whuAccountSectionPersonal": "个人信息",
+  "whuAccountSectionAcademic": "学籍学业",
+  "whuAccountSectionSession": "登录状态",
   "whuAccountRecentLogin": "最近登录",
   "whuAccountRecentVerification": "最近验证",
   "whuAccountDetail": "WHU 账户详情",
-  "whuAccountLoggedInAs": "已登录：",
   "whuAccountTitle": "WHU 账户",
-  "whuAccountUnbind": "解绑",
-  "whuAccountUnbindConfirm": "确定要解绑此账户吗？",
-  "whuAccountUnbindSuccess": "解绑成功",
   "whuCalendarListView": "列表",
   "whuCalendarMonthView": "月视图",
   "whuCalendarNoEvents": "无事件",
   "whuCalendarTitle": "校历",
   "whuCalendarWeekView": "周视图",
-  "whuCourseImportAdapterFailed": "导入课程失败",
-  "whuCourseImportAdapterImporting": "正在从武大教务导入课程...",
-  "whuCourseImportAdapterLoginRequired": "需要登录武大教务",
-  "whuCourseImportAdapterParsing": "正在解析武大教务页面...",
-  "whuCourseImportAdapterSuccess": "成功导入 {count} 门课程",
   "whuLoginWebViewLoading": "正在加载...",
   "whuLoginWebViewTitle": "WHU 登录",
-  "yY1": "{y}-{yPlus1} 学年",
-  "@changeOnlyThisItemOrEveryCours": {
-    "placeholders": {
-      "title": {}
-    }
-  },
-  "@courseImportImportSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@courseImportImportSuccessDesc": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@courseImportParseSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@courseTimetablesWeekCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@detailMemoDate": {
-    "placeholders": {
-      "date": {},
-      "duration": {}
-    }
-  },
-  "@detailRangeDate": {
-    "placeholders": {
-      "start": {},
-      "end": {}
-    }
-  },
   "@editorDurationHourMinute": {
     "placeholders": {
       "hours": {
@@ -954,13 +611,6 @@
       }
     }
   },
-  "@homeCoursePeriod": {
-    "placeholders": {
-      "courseNumber": {
-        "type": "String"
-      }
-    }
-  },
   "@homeCurrentWeekRange": {
     "placeholders": {
       "start": {
@@ -993,43 +643,9 @@
       "hour": {}
     }
   },
-  "@importedPayloadItemsLengthItem": {
-    "placeholders": {
-      "tableName": {},
-      "itemsLength": {}
-    }
-  },
-  "@importedPayloaditemslengthItemsTo": {
-    "placeholders": {
-      "itemsLength": {},
-      "tableName": {}
-    }
-  },
   "@importedTimestr": {
     "placeholders": {
       "timeStr": {}
-    }
-  },
-  "@importFailedError": {
-    "placeholders": {
-      "error": {}
-    }
-  },
-  "@importFailedError1": {
-    "placeholders": {
-      "error": {}
-    }
-  },
-  "@importFinishedPayloadItemsLeng": {
-    "placeholders": {
-      "currentWeekCount": {},
-      "itemsLength": {}
-    }
-  },
-  "@importFinishedPayloaditemslengthItemsCurrentweekcount": {
-    "placeholders": {
-      "itemsLength": {},
-      "currentWeekCount": {}
     }
   },
   "@listCompletedSection": {
@@ -1039,69 +655,12 @@
       }
     }
   },
-  "@listPendingSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@listSummary": {
-    "placeholders": {
-      "pending": {
-        "type": "int"
-      },
-      "completed": {
-        "type": "int"
-      }
-    }
-  },
   "@minuteMin": {
     "placeholders": {
       "minute": {}
     }
   },
-  "@scorePageFetchStatsFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageInstructorLabel": {
-    "placeholders": {
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageStatsDialogTitle": {
-    "placeholders": {
-      "courseName": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageSubmitError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "@scorePageTotalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
-      }
-    }
-  },
   "@semS": {
-    "placeholders": {
-      "s": {}
-    }
-  },
-  "@semS1": {
     "placeholders": {
       "s": {}
     }
@@ -1120,45 +679,10 @@
       }
     }
   },
-  "@weatherCachedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "@weatherFeelsLike": {
-    "placeholders": {
-      "temp": {
-        "type": "String"
-      }
-    }
-  },
   "@weatherLoadFailedWithError": {
     "placeholders": {
       "error": {
         "type": "String"
-      }
-    }
-  },
-  "@weatherLoadingLocation": {
-    "placeholders": {
-      "locationName": {
-        "type": "String"
-      }
-    }
-  },
-  "@weatherUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
-  "@whuCourseImportAdapterSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
       }
     }
   },
@@ -1168,13 +692,6 @@
       "yPlus1": {}
     }
   },
-  "@yY1": {
-    "placeholders": {
-      "y": {},
-      "yPlus1": {}
-    }
-  },
-  "courseImportFailed": "导入失败",
   "courseImportStatusImported": "导入完成：新增 {count} 条，当前周 {currentWeek} 条。",
   "@courseImportStatusImported": {
     "placeholders": {
@@ -1224,14 +741,6 @@
       }
     }
   },
-  "courseImportImportFailedStatus": "导入失败：{error}",
-  "@courseImportImportFailedStatus": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "editorEditCourse": "编辑课程",
   "editorCreateCourse": "创建课程",
   "editorAllDaySchedule": "全天日程",
@@ -1268,7 +777,6 @@
   "aiDelete": "删除",
   "aiNoMessages": "没有消息",
   "aiClearConversations": "清空对话历史",
-  "aiClearConversationsConfirm": "确定要清空当前所有对话历史吗？",
   "aiCancel": "取消",
   "aiClear": "清空",
   "aiRenameConversation": "重命名对话",
@@ -1293,36 +801,7 @@
   "scorePageStandardWes": "WES 标准",
   "scorePageStandard40": "标准 4.0 算法",
   "scorePageStandard100": "百分制均分",
-  "scorePageSpoiler": "成绩剧透",
-  "scorePageSpoilerHint": "拉取平台已上传但教务未同步的成绩，并本地缓存",
-  "scorePageEnableSpoiler": "开启成绩剧透",
-  "scorePageStudentId": "学号",
-  "scorePageStudentIdHint": "用于请求剧透接口；也可从 Cookie 中自动提取 stuId",
-  "scorePageCookie": "Cookie（可选）",
-  "scorePageCookieHint": "若接口需要登录态，请粘贴 JSESSIONID / route / stuId 等 Cookie",
-  "scorePageGoToSettings": "去设置",
   "scorePageBiometricAuthFailed": "生物认证失败",
-  "scorePageSpoilerFailed": "成绩剧透拉取失败",
-  "scorePageSpoilerHintText": "开启成绩剧透后，可提前查看平台已发布但未同步到教务系统的成绩。",
-  "scorePageSpoilerFetched": "已拉取 {count} 条记录 · {credits} 学分",
-  "@scorePageSpoilerFetched": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "credits": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageSpoilerUpdated": "更新时间：{time}",
-  "@scorePageSpoilerUpdated": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "scorePageCourseInfo": "{type} · {credit}学分 · {instructor}",
   "@scorePageCourseInfo": {
     "placeholders": {
@@ -1330,23 +809,6 @@
         "type": "String"
       },
       "credit": {
-        "type": "String"
-      },
-      "instructor": {
-        "type": "String"
-      }
-    }
-  },
-  "scorePageCourseInfoWithExam": "{type} · {credit} 学分 · {exam}\n{instructor}",
-  "@scorePageCourseInfoWithExam": {
-    "placeholders": {
-      "type": {
-        "type": "String"
-      },
-      "credit": {
-        "type": "String"
-      },
-      "exam": {
         "type": "String"
       },
       "instructor": {
@@ -1423,8 +885,6 @@
   "settingsDevUrlHint": "留空以使用默认地址",
   "settingsDevDisableTitle": "关闭开发者模式",
   "settingsDevDisableSubtitle": "关闭后需要重新连续点击版本号开启",
-  "settingsHomeBackgroundImage": "自定义背景图片",
-  "settingsHomeBackgroundSet": "已设置",
   "settingsHomeGridAlpha": "网格背景透明度",
   "settingsHomeGridBorderAlpha": "网格边框透明度",
   "settingsHomeCropImage": "裁剪图片",
@@ -1456,8 +916,6 @@
       }
     }
   },
-  "libraryScanCheckIn": "扫码签到/暂离",
-  "libraryNoActiveReservation": "当前无进行中的预约",
   "libraryClickForDetails": "点击查看各楼层及座位详情",
   "globalTimetableTitle": "全校课表",
   "globalTimetablePlaceholder": "全校课表功能正在开发中...",
@@ -1495,14 +953,6 @@
     }
   },
   "linkNotSupported": "当前链接需要在浏览器或学校应用中打开。",
-  "pageLoginRequired": "登录后可继续访问{name}。",
-  "@pageLoginRequired": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "pageTemporarilyUnavailable": "页面暂时无法打开",
   "pageRefresh": "刷新",
   "accountStatus": "账户状态",
@@ -1624,14 +1074,6 @@
     "placeholders": {
       "index": {
         "type": "int"
-      }
-    }
-  },
-  "emptyClassroomSectionFormat": "第{groups}节",
-  "@emptyClassroomSectionFormat": {
-    "placeholders": {
-      "groups": {
-        "type": "String"
       }
     }
   },
@@ -1789,15 +1231,6 @@
   "sportsAuthFetchToken": "获取运动场馆登录凭证",
   "sportsAuthNoJwt": "运动场馆系统授权失败：响应中缺少 JWT。",
   "sportsAuthFailed": "运动场馆系统授权失败。",
-  "sportsAuthHttpError": "运动场馆系统授权失败（HTTP {statusCode}）。",
-  "@sportsAuthHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
-      }
-    }
-  },
-  "sportsAuthRetryLogin": "运动场馆系统授权失败，请重新登录武大统一认证。",
   "scoreImportDescription": "导入后会写入本机缓存，后续可以直接查看并用于成绩计算。",
   "scoreImportCaptchaFailed": "验证码解析失败",
   "scoreImportCancelled": "已取消验证",
@@ -1826,7 +1259,6 @@
   },
   "scoreImportSpoilerImporting": "正在通过专业发展系统导入成绩…",
   "scoreImportNoStudentId": "未找到全局登录的学号信息",
-  "scoreImportNoSession": "未找到教务系统会话，请重新登录武大账号",
   "scoreImportSpoilerSuccessWithCount": "{success}：获取到{count}条剧透成绩记录。",
   "@scoreImportSpoilerSuccessWithCount": {
     "placeholders": {
@@ -1872,12 +1304,6 @@
   "scoreCaptchaAutoVerifying": "自动验证中...",
   "seatReservationAlreadySynced": "这条预约已经在日程里了。",
   "seatReservationAddedToAgenda": "座位预约已添加到日程。",
-  "seatReservationAddToAgendaTitle": "添加到日程？",
-  "seatReservationAddButton": "添加",
-  "seatReservationPreparing": "正在授权座位预约系统...",
-  "seatReservationErrorTitle": "座位预约暂时无法打开",
-  "seatReservationRetry": "重试",
-  "seatReservationDefaultLocation": "武汉大学图书馆",
   "seatReservationDraftTitle": "图书馆座位预约",
   "seatReservationDraftDetails": "来源：武汉大学图书馆座位预约系统\n座位ID：{seatId}\n{marker}",
   "@seatReservationDraftDetails": {
@@ -1898,39 +1324,12 @@
       }
     }
   },
-  "whuCalendarDateFormat": "{year}年{month}月{day}日",
-  "@whuCalendarDateFormat": {
-    "placeholders": {
-      "year": {
-        "type": "int"
-      },
-      "month": {
-        "type": "int"
-      },
-      "day": {
-        "type": "int"
-      }
-    }
-  },
-  "homeDefaultBlockLabel": "第{number}块",
-  "@homeDefaultBlockLabel": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "itemDetailDateRangeTo": "至",
   "itemDetailSectionGrading": "课程给分",
   "itemDetailScoreOverall": "总评",
   "itemDetailScoreContinuous": "平时",
   "itemDetailScoreFinal": "期末",
   "itemDetailSectionDistribution": "成绩分布",
-  "itemDetailDistRange90to100": "90-100",
-  "itemDetailDistRange80to89": "80-89",
-  "itemDetailDistRange70to79": "70-79",
-  "itemDetailDistRange60to69": "60-69",
-  "itemDetailDistRangeBelow60": "<60",
   "itemDetailSectionReviews": "课程评价",
   "itemDetailMockReview1": "老师讲得很清楚，课件制作精良，给分也不错。每节课都有课堂练习，对理解概念帮助很大。",
   "itemDetailMockReview2": "课程内容比较充实，但期末考试有一定难度。平时作业量适中，建议提前复习。",
@@ -1961,8 +1360,6 @@
       }
     }
   },
-  "themeColorSpec2021": "2021",
-  "themeColorSpec2025": "2025",
   "themeColorLuotopiaBlue": "Luotopia Blue",
   "themeColorMaterialRed": "Material Red",
   "themeColorMaterialPink": "Material Pink",
@@ -1975,10 +1372,6 @@
   "themeColorMaterialGreen": "Material Green",
   "themeColorMaterialOrange": "Material Orange",
   "themeColorMaterialBrown": "Material Brown",
-  "themeDpiSmall": "小",
-  "themeDpiStandard": "标准",
-  "themeDpiLarge": "大",
-  "themeDpiExtraLarge": "超大",
   "aiFormatOpenaiCompletion": "OpenAI Completion",
   "aiFormatOpenaiResponse": "OpenAI Response",
   "aiFormatGemini": "Gemini",
@@ -2019,24 +1412,11 @@
       }
     }
   },
-  "weatherConditionSunny": "晴",
-  "weatherConditionCloudy": "多云",
-  "weatherConditionRainy": "雨",
-  "weatherConditionSnowy": "雪",
-  "weatherConditionFoggy": "雾",
   "weatherAqiExcellent": "优",
   "weatherAqiGood": "良",
   "weatherAqiModerate": "轻度污染",
   "weatherAqiPoor": "中度污染",
   "weatherBannerRainSoon": "快要下雨了，出门记得带伞！",
-  "weatherBannerAlert": "天气警报：{alert}",
-  "@weatherBannerAlert": {
-    "placeholders": {
-      "alert": {
-        "type": "String"
-      }
-    }
-  },
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -2077,12 +1457,9 @@
   "weatherProviderLocationLookup": "位置查询",
   "weatherProviderChina": "小米天气",
   "weatherProviderOpenMeteo": "Open-Meteo",
-  "weatherProviderQWeather": "和风天气",
   "weatherProviderAccuWeather": "AccuWeather",
-  "weatherProviderOpenWeatherMap": "OpenWeatherMap",
   "weatherProviderNominatim": "Nominatim",
   "weatherAqiHazardous": "重度污染",
-  "weatherRainExpected": "即将下雨",
   "weatherClear": "晴",
   "weatherCloudy": "多云",
   "weatherFog": "雾",
@@ -2093,8 +1470,6 @@
   "settingsWeatherLocationService": "定位服务",
   "settingsWeatherLocationSystem": "系统定位",
   "settingsWeatherLocationIpSb": "IP.SB",
-  "settingsWeatherLocationBaiduIp": "百度IP定位",
-  "settingsWeatherBaiduApiKey": "Baidu API Key",
   "locationSearchTitle": "搜索位置",
   "locationSearchHint": "搜索城市...",
   "locationSearchNoResults": "未找到结果",
@@ -2113,7 +1488,6 @@
   "weatherAirQualityCo": "CO",
   "weatherAirQualityUnit": "µg/m³",
   "weatherAirQualityClose": "关闭",
-  "weatherAirQualitySubtitle": "实时污染物浓度",
   "campusBusTitle": "校巴",
   "campusBusNearestStop": "最近: {stopName}",
   "campusBusDistance": "约{meters}米",
@@ -2126,7 +1500,6 @@
   "campusBusNoInfo": "暂无校巴运行信息",
   "campusBusNoNearby": "没有获取到附近的校巴信息",
   "campusBusLoadFailed": "加载校巴失败",
-  "campusBusNotLoggedIn": "未登录或不在服务时间",
   "campusBusRefresh": "刷新",
   "campusBusServiceHours": "运营时间: {hours}",
   "whuConfirmLogout": "确认退出",
@@ -2151,7 +1524,6 @@
   "weatherAqiStandardCn": "中国标准",
   "weatherAqiStandardEu": "欧盟标准",
   "settingsWeatherAqiStandard": "AQI 标准",
-  "settingsWeatherAqiStandardSubtitle": "所有 AQI 值都会统一换算为此标准显示",
   "libraryAuthFailed": "授权失败：{error}",
   "@libraryAuthFailed": {
     "placeholders": {
@@ -2225,7 +1597,6 @@
     }
   },
   "libraryBookThisSeat": "预约此座位",
-  "libraryDate": "日期",
   "libraryStartTime": "开始",
   "libraryEndTime": "结束",
   "libraryBookSuccess": "预约成功！",
@@ -2280,6 +1651,7 @@
   "wallpaperSourceBing": "Bing 每日",
   "wallpaperPickImage": "选择图片",
   "wallpaperNoImage": "未选择图片",
+  "wallpaperDarkOverlayOpacity": "深色模式蒙版透明度",
   "wallpaperTargetHome": "课程表",
   "wallpaperTargetCampus": "校园",
   "wallpaperTargetSettings": "设置",
@@ -2307,8 +1679,6 @@
   "ecardPaycodeTitle": "E卡付款码",
   "ecardPaycodeUseWeb": "使用网页版",
   "ecardPaycodeUseWebSubtitle": "若原生付款码异常，可切换备用",
-  "ecardPaycodeLoginRequiredTitle": "请先登录 WHU 账号",
-  "ecardPaycodeLoginRequiredMessage": "登录后即可获取 E卡付款码。",
   "ecardPaycodeRefreshing": "正在刷新付款码…",
   "ecardPaycodeLoading": "正在获取付款码…",
   "ecardPaycodeAccountFallback": "WHU 账号",
@@ -2340,6 +1710,7 @@
     }
   },
   "studyStatusTrainingPlan": "培养计划",
+  "studyStatusCurrentTrainingPlan": "当前显示的培养方案",
   "studyStatusCourseOverview": "课程修读概况",
   "studyStatusFilterAll": "全部",
   "studyStatusFilterPassed": "通过",
@@ -2452,7 +1823,6 @@
   "onboardingLegalTitle": "用户协议与隐私政策",
   "onboardingLegalSubtitle": "请阅读并同意相关条款后继续。",
   "onboardingLegalAgreePrefix": "我已阅读并同意",
-  "onboardingLegalAgreeAnd": "和",
   "onboardingLegalRequired": "请先同意用户协议和隐私政策。",
   "onboardingPermissionsTitle": "需要若干权限",
   "onboardingPermissionsSubtitle": "这些权限用于对应功能。你也可以稍后在系统设置中授权。",
@@ -2533,5 +1903,43 @@
   "locationUnavailableTitle": "无法获取位置",
   "locationUnavailableMessage": "未能解析有效位置。请在设置中选择固定位置，或开启系统定位。",
   "weatherDetailNormalHighLow": "常年最高 / 最低",
-  "settingsWeatherLocationIpApi": "ip-api.com"
+  "settingsWeatherLocationIpApi": "ip-api.com",
+  "loginRequiredToUse": "需要登录后才能使用{feature}",
+  "settingsDevWebViewDebugger": "WebView 网络调试器",
+  "settingsDevWebViewDebuggerSubtitle": "嗅探智慧珞珈页面的 XHR/fetch 请求",
+  "debuggerTitle": "网络调试器",
+  "debuggerPause": "暂停",
+  "debuggerResume": "继续",
+  "debuggerClear": "清除",
+  "debuggerExport": "导出",
+  "debuggerFilter": "筛选",
+  "debuggerFilterAll": "全部",
+  "debuggerLevelDebug": "调试",
+  "debuggerLevelInfo": "信息",
+  "debuggerLevelWarn": "警告",
+  "debuggerLevelError": "错误",
+  "debuggerNoLogs": "暂无请求记录",
+  "debuggerNoLogsSubtitle": "页面发起网络请求后会在这里显示",
+  "debuggerDetailTitle": "请求详情",
+  "debuggerTabOverview": "概览",
+  "debuggerTabRequestHeaders": "请求头",
+  "debuggerTabRequestBody": "请求体",
+  "debuggerTabResponseHeaders": "响应头",
+  "debuggerTabResponseBody": "响应体",
+  "debuggerResend": "重发",
+  "debuggerResendTitle": "重发请求",
+  "debuggerResendSend": "发送",
+  "debuggerExportSelected": "导出选中",
+  "debuggerExportAll": "导出全部",
+  "debuggerExportFiltered": "导出筛选结果",
+  "debuggerExportSuccess": "已导出 {count} 条请求",
+  "@debuggerExportSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "debuggerCopyValue": "复制",
+  "debuggerPaused": "已暂停"
 }
