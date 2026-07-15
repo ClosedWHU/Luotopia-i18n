@@ -97,6 +97,26 @@
   "editorFieldEstimatedDuration": "예상 기간",
   "editorFieldStartTime": "시작 시간",
   "editorFieldTargetDate": "목표 날짜",
+  "editorFieldCourseWeekOneDate": "First teaching day (week start)",
+  "editorFieldCoursePeriod": "Periods",
+  "editorFieldCourseWeeks": "Weeks",
+  "editorCourseWeeksUnset": "Not set",
+  "editorCoursePeriodStart": "Start period",
+  "editorCoursePeriodEnd": "End period",
+  "editorCoursePeriodN": "Period {n}",
+  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "editorCoursePeriodSingle": "Period {n} · {time}",
+  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
+  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "editorCourseWeekStart": "Start week",
+  "editorCourseWeekEnd": "End week",
+  "editorCourseWeekN": "Week {n}",
+  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "editorCourseWeekParity": "Week parity",
+  "editorCourseWeekParityAll": "Every week",
+  "editorCourseWeekParityOdd": "Odd weeks",
+  "editorCourseWeekParityEven": "Even weeks",
   "editorHintCourseTitle": "코스명",
   "editorHintDetails": "비고",
   "editorHintLocation": "위치",
@@ -298,10 +318,10 @@
       }
     }
   },
-  "academicSystem": "학사 시스템", "academicSystemImport": "학사 시스템에서 가져오기", "addTimetable": "시간표 추가", "addToTimetable": "{name}에 추가", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "폴더", "campusDissolveFolderConfirm": "폴더 해제", "campusDissolveFolderContent": "이 폴더의 앱이 앱 그리드로 돌아갑니다.", "campusDissolveFolderTitle": "이 폴더를 해제할까요?", "campusFolderEditAction": "순서 변경 / 제거", "createEmptyTimetable": "빈 시간표 만들기", "createEmptyTimetableDescription": "강의를 가져오지 않고 시간표를 만듭니다", "emptyTimetable": "빈 시간표", "emptyTimetableExportNotNeeded": "빈 시간표는 내보낼 필요가 없습니다.", "enterStarlinkShareCode": "Starlink 공유 코드 입력", "exportTimetable": "시간표 내보내기", "homeTimeBlock": "블록 {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "JSON 파일", "listStatusCompleted": "완료됨", "listStatusEndedPendingCompletion": "종료됨, 완료 대기 중", "listStatusInProgress": "진행 중", "listStatusPending": "대기 중", "localFile": "로컬 파일", "localFileImport": "로컬 파일 가져오기", "localFileImportDescription": "JSON 파일에서 Luotopia 시간표 백업을 가져옵니다", "luotopiaJsonBackup": "Luotopia JSON 백업", "luotopiaJsonBackupDescription": "Luotopia용 전체 시간표 백업", "mixed": "혼합", "mixedTimetable": "혼합 시간표", "newTimetableName": "새 시간표 이름",
+  "academicSystem": "학사 시스템", "academicSystemImport": "학사 시스템에서 가져오기", "addTimetable": "시간표 추가", "addToTimetable": "{name}에 추가", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "폴더", "campusDissolveFolderConfirm": "폴더 해제", "campusDissolveFolderContent": "이 폴더의 앱이 앱 그리드로 돌아갑니다.", "campusDissolveFolderTitle": "이 폴더를 해제할까요?", "campusFolderEditAction": "순서 변경 / 제거", "createEmptyTimetable": "빈 시간표 만들기", "createEmptyTimetableDescription": "강의를 가져오지 않고 시간표를 만듭니다", "editCourses": "강의 편집", "emptyTimetable": "빈 시간표", "emptyTimetableExportNotNeeded": "빈 시간표는 내보낼 필요가 없습니다.", "timetableNotFound": "시간표를 찾을 수 없습니다", "enterStarlinkShareCode": "Starlink 공유 코드 입력", "exportTimetable": "시간표 내보내기", "homeTimeBlock": "블록 {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "JSON 파일", "listStatusCompleted": "완료됨", "listStatusEndedPendingCompletion": "종료됨, 완료 대기 중", "listStatusInProgress": "진행 중", "listStatusPending": "대기 중", "localFile": "로컬 파일", "localFileImport": "로컬 파일 가져오기", "localFileImportDescription": "JSON 파일에서 Luotopia 시간표 백업을 가져옵니다", "luotopiaJsonBackup": "Luotopia JSON 백업", "luotopiaJsonBackupDescription": "Luotopia용 전체 시간표 백업", "mixed": "혼합", "mixedTimetable": "혼합 시간표", "newTimetableName": "새 시간표 이름",
   "notificationChannelAgendaDefaultDescription": "약간 지연될 수 있는 항목 알림입니다.", "notificationChannelAgendaDefaultName": "일정 알림", "notificationChannelAgendaExactDescription": "항목 및 강의의 정시 및 임박 알림입니다.", "notificationChannelAgendaExactName": "일정 알림(정확)", "notificationChannelCampusDescription": "예약 및 캠퍼스 관련 알림입니다.", "notificationChannelCampusName": "캠퍼스 서비스", "notificationChannelMarketingDescription": "캠퍼스 활동 및 프로모션 업데이트입니다.", "notificationChannelMarketingName": "활동 및 프로모션", "notificationCourseInProgress": "수업 진행 중", "notificationReminderTitle": "알림", "notificationScheduleEndedBody": "이 일정은 종료되었습니다. 완료로 표시하거나 후속 일정을 계획하는 것을 잊지 마세요.", "notificationScheduleIncomplete": "일정 미완료", "notificationStartsInFifteenMinutes": "15분 후 시작 · {time}", "@notificationStartsInFifteenMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInFiveMinutes": "5분 후 시작 · {time}", "@notificationStartsInFiveMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInOneHour": "1시간 후 시작 · {time}", "@notificationStartsInOneHour": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsSoon": "곧 시작 · {time}", "@notificationStartsSoon": {"placeholders":{"time":{"type":"String"}}}, "notificationTomorrow": "내일 · {time}", "@notificationTomorrow": {"placeholders":{"time":{"type":"String"}}},
   "notProvided": "제공되지 않음", "notUpdated": "업데이트되지 않음", "renameTimetable": "시간표 이름 바꾸기", "selectCourseSourceToUpdate": "업데이트할 강의 출처 선택", "selectFileFormatToSave": "저장할 파일 형식 선택", "selectImportMethod": "가져오기 방법 선택", "separate": "분리", "separatedTimetableName": "{name}(분리됨)", "@separatedTimetableName": {"placeholders":{"name":{"type":"String"}}}, "separateTimetable": "시간표 분리", "shareCode": "공유 코드", "shiguang": "Shiguang", "shiguangFileImportDescription": "Shiguang 시간표 JSON 파일 가져오기", "shiguangImportFailed": "Shiguang 시간표를 가져오지 못했습니다: {error}", "@shiguangImportFailed": {"placeholders":{"error":{"type":"String"}}}, "shiguangTimetable": "Shiguang 시간표", "shiguangTimetableExportDescription": "Shiguang과 호환되는 시간표 내보내기", "shiguangTimetableImport": "Shiguang 시간표 가져오기", "shiguangTimetableJson": "Shiguang 시간표 JSON", "sourceLocalFile": "출처: 로컬 파일", "sourceShiguang": "출처: Shiguang", "sourceStarlink": "출처: Starlink", "starlink": "Starlink", "starlinkFileMustBeJsonObject": "Starlink 파일에는 JSON 객체가 포함되어야 합니다.", "starlinkImportDescription": "JSON 파일 또는 공유 코드에서 Starlink 시간표를 가져옵니다", "starlinkImportFailed": "Starlink 시간표를 가져오지 못했습니다: {error}", "@starlinkImportFailed": {"placeholders":{"error":{"type":"String"}}}, "starlinkTimetable": "Starlink 시간표", "starlinkTimetableExportDescription": "Starlink와 호환되는 시간표 내보내기", "starlinkTimetableImport": "Starlink 시간표 가져오기", "starlinkTimetableJson": "Starlink 시간표 JSON", "starlinkTimetableShareCode": "Starlink 시간표 공유 코드",
-  "timetableDetails": "학기: {term}\\n가져온 시간: {importedAt}\\n업데이트: {updatedAt}\\n출처: {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "시간표를 내보냈습니다.", "timetableImportFailed": "시간표를 가져오지 못했습니다: {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "이 시간표 출처는 개별적으로 업데이트할 수 없습니다.", "updateTimetable": "시간표 업데이트", "wakeupCsv": "Wakeup CSV", "wakeupCsvDescription": "강의를 Wakeup 호환 CSV로 내보내기", "wakeupFileAlreadyAdded": "이 Wakeup 시간표는 이미 추가되었습니다.", "wakeupFileImportDescription": "Wakeup CSV 또는 시간표 파일 가져오기", "wakeupImportFailed": "Wakeup 시간표를 가져오지 못했습니다: {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Wakeup 시간표 파일", "wakeupShareFileDescription": "Wakeup 시간표 파일 내보내기", "webViewErrorTitle": "페이지를 열 수 없음", "webViewLoadFailed": "페이지를 불러오지 못했습니다. 네트워크 연결을 확인하고 다시 시도하세요.", "webViewLoadingPage": "페이지를 불러오는 중...", "webViewPreparationFailed": "페이지 준비 실패: {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "페이지 준비 중...", "webViewRetry": "다시 시도",
+  "timetableDetails": "학기: {term}\n가져온 시간: {importedAt}\n업데이트: {updatedAt}\n출처: {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "시간표를 내보냈습니다.", "timetableImportFailed": "시간표를 가져오지 못했습니다: {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "이 시간표 출처는 개별적으로 업데이트할 수 없습니다.", "updateTimetable": "시간표 업데이트", "wakeupCsv": "Wakeup CSV", "wakeupCsvDescription": "강의를 Wakeup 호환 CSV로 내보내기", "wakeupFileAlreadyAdded": "이 Wakeup 시간표는 이미 추가되었습니다.", "wakeupFileImportDescription": "Wakeup CSV 또는 시간표 파일 가져오기", "wakeupImportFailed": "Wakeup 시간표를 가져오지 못했습니다: {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Wakeup 시간표 파일", "wakeupShareFileDescription": "Wakeup 시간표 파일 내보내기", "webViewErrorTitle": "페이지를 열 수 없음", "webViewLoadFailed": "페이지를 불러오지 못했습니다. 네트워크 연결을 확인하고 다시 시도하세요.", "webViewLoadingPage": "페이지를 불러오는 중...", "webViewPreparationFailed": "페이지 준비 실패: {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "페이지 준비 중...", "webViewRetry": "다시 시도",
   "licenseVersion": "버전: {version}",
   "@licenseVersion": {
     "placeholders": {
@@ -814,7 +834,31 @@
   "settingsPushNotificationsSubtitle": "일정·후기·시스템 메시지 알림",
   "settingsMarketingNotifications": "마케팅·이벤트",
   "settingsMarketingNotificationsSubtitle": "캠퍼스 행사·프로모션 알림 수신",
-  "settingsStorageTitle": "저장 공간 관리",
+  
+  "settingsNotificationChannelsTitle": "Android 알림 채널",
+  "settingsNotificationChannelsHint": "채널을 탭하면 시스템 설정에서 중요도를 변경할 수 있습니다. 무음 또는 낮음이면 소리·헤드업이 없을 수 있습니다.",
+  "settingsNotificationChannelsUnsupported": "채널 중요도는 Android에서만 확인할 수 있습니다.",
+  "settingsNotificationChannelOpenSystem": "시스템 설정 열기",
+  "settingsNotificationChannelNotCreated": "아직 생성되지 않음",
+  "settingsNotificationChannelCurrent": "현재: {level}",
+  "@settingsNotificationChannelCurrent": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNotificationImportanceNone": "차단됨",
+  "settingsNotificationImportanceMin": "최소",
+  "settingsNotificationImportanceLow": "낮음(무음)",
+  "settingsNotificationImportanceDefault": "기본",
+  "settingsNotificationImportanceHigh": "높음",
+  "settingsNotificationImportanceMax": "긴급",
+  "settingsNotificationImportanceUnknown": "알 수 없음",
+  "settingsNotificationImportanceSilentWarning": "현재 무음 또는 낮음 — 알림 소리가 없을 수 있음",
+  "notificationChannelLiveUpdatesName": "진행 중 항목",
+  "notificationChannelLiveUpdatesDescription": "수업 및 일정의 실시간 진행 상황.",
+"settingsStorageTitle": "저장 공간 관리",
   "settingsClearCache": "캐시 삭제",
   "settingsClearCacheSubtitle": "임시 파일과 캐시를 정리합니다(약 {size})",
   "settingsCacheCleared": "캐시를 지웠습니다: {size} 확보",
@@ -1443,7 +1487,7 @@
   "weatherRain": "비",
   "weatherSnow": "눈",
   "weatherThunderstorm": "뇌우",
-  "weatherUnknown": "알 수 없음",
+  "unknown": "알 수 없음",
   "settingsWeatherLocationService": "위치 서비스",
   "settingsWeatherLocationSystem": "시스템 위치",
   "settingsWeatherLocationIpSb": "IP.SB",
@@ -1476,6 +1520,8 @@
   "campusBusStopsAway": "{stops}개 정류장 전",
   "campusBusNoInfo": "버스 정보 없음",
   "campusBusNoNearby": "근처 정류장을 찾을 수 없음",
+  "campusBusTooFarTitle": "캠퍼스에서 멀리 있음",
+  "campusBusTooFarMessage": "우한대학교 근처가 아닌 것 같습니다. 캠퍼스 버스는 주변에서만 유용합니다.",
   "campusBusLoadFailed": "버스 정보 불러오기 실패",
   "campusBusRefresh": "새로고침",
   "campusBusServiceHours": "운행 시간: {hours}",
@@ -1493,7 +1539,9 @@
   "settingsBuildChannelAlpha": "Alpha",
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
-  "settingsBuildInfoVersion": "버전：",
+  
+  "settingsBuildInfoChannel": "채널",
+"settingsBuildInfoVersion": "버전：",
   "settingsBuildInfoBuildNumber": "빌드 번호：",
   "settingsBuildInfoType": "빌드 유형：",
   "weatherAqiStandardUs": "미국 기준",
@@ -1881,7 +1929,16 @@
   "onboardingLegalAgreePrefix": "다음 내용에 동의합니다: ",
   "onboardingLegalRequired": "먼저 이용약관과 개인정보 처리방침에 동의해 주세요.",
   "onboardingLegalUpdateTitle": "약관이 업데이트되었습니다",
-  "onboardingLegalUpdateSubtitle": "아래 약관이 업데이트되었습니다. 앱을 계속 사용하려면 다시 읽고 동의해 주세요. 동의하지 않으시면 사용을 중단하고 앱을 삭제해 주세요.",
+  
+  "onboardingLegalLastUpdated": "업데이트: {date}",
+  "@onboardingLegalLastUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+"onboardingLegalUpdateSubtitle": "아래 약관이 업데이트되었습니다. 앱을 계속 사용하려면 다시 읽고 동의해 주세요. 동의하지 않으시면 사용을 중단하고 앱을 삭제해 주세요.",
   "onboardingLegalUpdateContinue": "동의하고 계속",
   "onboardingPermissionsTitle": "필요한 권한",
   "onboardingPermissionsSubtitle": "이 권한은 해당 기능에 사용됩니다. 나중에 시스템 설정에서 허용할 수도 있습니다.",
@@ -2006,6 +2063,9 @@
   "messagesEmptySubtitle": "캠퍼스 서비스의 메시지가 여기에 표시됩니다",
   "messagesLoading": "메시지를 불러오는 중...",
   "messagesErrorRetry": "다시 시도",
+  "messagesMarkAllRead": "모두 읽음",
+  "messagesMarkAllReadSuccess": "모두 읽음으로 표시했습니다",
+  "messagesMarkAllReadFailed": "모두 읽음 처리 실패",
   "wallpaperDarkOverlayOpacity": "다크 모드 오버레이 투명도",
   "scoreTranscriptCredential": "검증된 전자 증명서",
   "scoreTranscriptSelect": "생성할 성적 증명서를 선택하세요",
@@ -2242,7 +2302,7 @@
   "forumPostDeleted": "게시글이 삭제되었습니다.",
   "forumPostRestored": "게시글이 복원되었습니다.",
   "forumAppealResolved": "이의제기가 처리되었습니다.",
-  "campusCreateFolder": "폴더 만들기", "campusLayoutDragHint": "앱을 드래그하여 순서를 바꾸거나 폴더를 만드세요", "campusLayoutColumns": "한 줄에 {count}개", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
+  "campusCreateFolder": "폴더 만들기", "campusRenameFolder": "폴더 이름 바꾸기", "campusEditModeEntry": "편집 모드", "fontSettings": "글꼴", "fontFamilyLabel": "글꼴", "fontFamilySubtitle": "시스템 글꼴 또는 Google Fonts", "fontFamilySystem": "시스템 글꼴", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "앱을 드래그하여 순서를 바꾸거나 폴더를 만드세요", "campusLayoutColumns": "한 줄에 {count}개", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
   "courseImportOverwriteModifiedTitle": "수정된 강의를 덮어쓸까요?", "courseImportOverwriteModifiedMessage": "이번 학기의 강의 {count}개가 수동으로 수정되었습니다. 가져오기를 계속하면 이 변경 사항을 덮어씁니다.", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "그래도 덮어쓰기", "courseImportOverwriteModifiedKeepLocal": "모든 로컬 변경 유지", "courseImportOverwriteModifiedReviewIndividually": "개별 검토", "courseImportModifiedRecordMessage": "수정된 강의 일정: {time}\n이 기록을 처리할 방법을 선택하세요.", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "덮어쓰기", "courseImportRecordKeepLocal": "로컬 변경 유지", "courseImportRecordSkip": "이 기록 건너뛰기",
   "listCompleteSelected": "선택한 항목 완료", "listDeleteSelected": "선택한 항목 삭제", "detailSkipOccurrence": "이번 일정 건너뛰기", "detailStatusInProgress": "진행 중", "detailStatusCompleted": "완료됨", "detailStatusEnded": "종료됨, 완료 대기 중", "detailStatusOverdue": "기한 지남", "detailStatusUpcoming": "예정됨", "detailStatusInactive": "완료 상태 추적 안 함", "detailConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
   "editorCompletionMode": "완료 방식", "editorCompletionModeManual": "수동 완료", "editorCompletionModeAutomatic": "종료 시간에 완료", "editorCompletionModeNone": "표시만", "editorConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "언어 설정", "commonOk": "확인", "whuAccountEducationalYearsValue": "{years}년", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}}
