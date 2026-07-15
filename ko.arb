@@ -13,6 +13,7 @@
   "campusAppCourseHub": "교무",
   "campusAppEcard": "뤄자 E카드",
   "campusAppEcardPayment": "결제코드",
+  "campusAppWaterControl": "기숙사 급수 코드",
   "campusAppEmptyClassroom": "빈 강의실",
   "campusAppFileSharing": "자료 공유",
   "campusAppLibrary": "도서관",
@@ -1670,6 +1671,87 @@
     }
   },
   "ecardPaycodeUnavailable": "현재 결제코드를 가져올 수 없습니다",
+  "waterControlTitle": "급수 코드",
+  "waterControlRefresh": "새로고침",
+  "waterControlLoading": "급수 서비스에 연결하는 중…",
+  "waterControlRequestSuccess": "급수 코드가 준비되었습니다",
+  "waterControlCancelTitle": "이 코드를 비활성화할까요?",
+  "waterControlCancelMessage": "{dormitory}의 활성 코드는 즉시 사용할 수 없게 됩니다.",
+  "@waterControlCancelMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlCancelConfirm": "비활성화",
+  "waterControlCancelSuccess": "급수 코드를 비활성화했습니다",
+  "waterControlCopied": "코드를 복사했습니다",
+  "waterControlSessionExpired": "WHU 세션이 만료되었습니다. '계정'에서 다시 로그인해 주세요.",
+  "waterControlOperationFailed": "작업을 완료하지 못했습니다. 다시 시도해 주세요.",
+  "waterControlLoadFailed": "급수 서비스를 일시적으로 이용할 수 없습니다. 연결 상태를 확인한 후 다시 시도해 주세요.",
+  "waterControlAccountFallback": "캠퍼스 카드 계정",
+  "waterControlUpdatedAt": "{time}에 업데이트",
+  "@waterControlUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlConnected": "연결됨",
+  "waterControlChangeDormitory": "변경",
+  "waterControlActiveCode": "활성 급수 코드",
+  "waterControlExpiryUnknown": "현재 코드의 만료 시간을 확인할 수 없습니다",
+  "waterControlExpiresIn": "약 {hours}시간 {minutes}분 남음",
+  "@waterControlExpiresIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlCopyCode": "코드 복사",
+  "waterControlCancelling": "비활성화하는 중…",
+  "waterControlCancelCode": "코드 비활성화",
+  "waterControlNoActiveCode": "활성 코드 없음",
+  "waterControlNoActiveCodeHint": "기숙사 급수기를 사용하기 전에 4자리 코드를 발급받으세요.",
+  "waterControlRequesting": "발급 중…",
+  "waterControlRequestCode": "급수 코드 발급",
+  "waterControlFreeRate": "사용 가능 기기",
+  "waterControlDevices": "전체 기기",
+  "waterControlWarnings": "경고",
+  "waterControlUsageHint": "급수기에 4자리 코드를 입력하세요. 새로 발급된 코드는 일반적으로 240분 동안 유효합니다. 더 이상 필요하지 않으면 비활성화하세요.",
+  "waterControlSelectDormitory": "기숙사 선택",
+  "waterControlSelectDormitoryHint": "선택 내용은 이 기기에만 저장되며 언제든지 변경할 수 있습니다.",
+  "waterControlChooseDormitory": "기숙사 선택",
+  "waterControlOtherActiveCodes": "다른 활성 코드",
+  "waterControlSearchDormitory": "기숙사 이름 또는 ClassNo 검색",
+  "waterControlDormitoryCount": "{count}개 위치",
+  "@waterControlDormitoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlActiveBadge": "활성",
+  "waterControlNoSearchResults": "일치하는 기숙사가 없습니다",
+  "waterControlUnavailable": "급수 서비스에 연결할 수 없습니다",
+  "waterControlCategoryEngineering": "공학부",
+  "waterControlCategoryGuiGarden": "구이위안(桂园)",
+  "waterControlCategoryFengGarden": "펑위안(枫园)",
+  "waterControlCategoryLakeside": "후빈(湖滨)",
+  "waterControlCategoryInternational": "유학생원(留学生院)",
+  "waterControlCategoryMeiGarden": "메이위안(梅园)",
+  "waterControlCategoryInformation": "정보학부",
+  "waterControlCategoryMedical": "의학부",
+  "waterControlCategoryPeoplesHospital": "인민병원",
+  "waterControlCategoryHotWater": "온수",
+  "waterControlCategoryOther": "기타",
   "studyStatusTitle": "학업 현황",
   "studyStatusEmptyTitle": "학업 데이터 없음",
   "studyStatusEmptyHint": "새로고침으로 교무에서 가져오기",

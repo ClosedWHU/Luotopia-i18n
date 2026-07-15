@@ -13,6 +13,7 @@
   "campusAppCourseHub": "Course Hub",
   "campusAppEcard": "Luojia E-Card",
   "campusAppEcardPayment": "E-Card Payment Code",
+  "campusAppWaterControl": "Water Access Code",
   "campusAppEmptyClassroom": "Empty Classrooms",
   "campusAppFileSharing": "File Sharing",
   "campusAppLibrary": "Library",
@@ -1774,6 +1775,87 @@
     }
   },
   "ecardPaycodeUnavailable": "Unable to get payment code for now",
+  "waterControlTitle": "Water Access",
+  "waterControlRefresh": "Refresh",
+  "waterControlLoading": "Connecting to water control…",
+  "waterControlRequestSuccess": "Water access code is ready",
+  "waterControlCancelTitle": "Deactivate this code?",
+  "waterControlCancelMessage": "The active code for {dormitory} will stop working immediately.",
+  "@waterControlCancelMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlCancelConfirm": "Deactivate",
+  "waterControlCancelSuccess": "Water access code deactivated",
+  "waterControlCopied": "Code copied",
+  "waterControlSessionExpired": "Your WHU session expired. Please log in again under Account.",
+  "waterControlOperationFailed": "The operation could not be completed. Please try again.",
+  "waterControlLoadFailed": "Water control is temporarily unavailable. Check your connection and try again.",
+  "waterControlAccountFallback": "Campus card account",
+  "waterControlUpdatedAt": "Updated at {time}",
+  "@waterControlUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlConnected": "Connected",
+  "waterControlChangeDormitory": "Change",
+  "waterControlActiveCode": "Active water code",
+  "waterControlExpiryUnknown": "The expiry time of this existing code is not available",
+  "waterControlExpiresIn": "About {hours}h {minutes}m remaining",
+  "@waterControlExpiresIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlCopyCode": "Copy code",
+  "waterControlCancelling": "Deactivating…",
+  "waterControlCancelCode": "Deactivate code",
+  "waterControlNoActiveCode": "No active code",
+  "waterControlNoActiveCodeHint": "Request a four-digit code before using a dormitory water dispenser.",
+  "waterControlRequesting": "Requesting…",
+  "waterControlRequestCode": "Request water code",
+  "waterControlFreeRate": "Devices available",
+  "waterControlDevices": "Total devices",
+  "waterControlWarnings": "Warnings",
+  "waterControlUsageHint": "Enter the four-digit code on the water dispenser. A newly requested code is normally valid for 240 minutes. Deactivate it when you no longer need it.",
+  "waterControlSelectDormitory": "Choose your dormitory",
+  "waterControlSelectDormitoryHint": "This choice is saved only on this device and can be changed at any time.",
+  "waterControlChooseDormitory": "Choose dormitory",
+  "waterControlOtherActiveCodes": "Other active codes",
+  "waterControlSearchDormitory": "Search name or ClassNo",
+  "waterControlDormitoryCount": "{count} locations",
+  "@waterControlDormitoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlActiveBadge": "Active",
+  "waterControlNoSearchResults": "No matching dormitories",
+  "waterControlUnavailable": "Unable to connect to water control",
+  "waterControlCategoryEngineering": "Engineering Campus",
+  "waterControlCategoryGuiGarden": "Gui Garden",
+  "waterControlCategoryFengGarden": "Feng Garden",
+  "waterControlCategoryLakeside": "Lakeside",
+  "waterControlCategoryInternational": "International Students College",
+  "waterControlCategoryMeiGarden": "Mei Garden",
+  "waterControlCategoryInformation": "Information Campus",
+  "waterControlCategoryMedical": "Medical Campus",
+  "waterControlCategoryPeoplesHospital": "People's Hospital",
+  "waterControlCategoryHotWater": "Hot Water",
+  "waterControlCategoryOther": "Other",
   "studyStatusTitle": "Academic status",
   "studyStatusEmptyTitle": "No academic data yet",
   "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",

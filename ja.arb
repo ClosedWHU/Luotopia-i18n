@@ -13,6 +13,7 @@
   "campusAppCourseHub": "教務",
   "campusAppEcard": "珞珈Eカード",
   "campusAppEcardPayment": "支払コード",
+  "campusAppWaterControl": "寮の給水コード",
   "campusAppEmptyClassroom": "空き教室",
   "campusAppFileSharing": "資料共有",
   "campusAppLibrary": "図書館",
@@ -1682,6 +1683,87 @@
     }
   },
   "ecardPaycodeUnavailable": "支払コードを取得できません",
+  "waterControlTitle": "給水コード",
+  "waterControlRefresh": "更新",
+  "waterControlLoading": "給水サービスに接続中…",
+  "waterControlRequestSuccess": "給水コードを発行しました",
+  "waterControlCancelTitle": "このコードを無効にしますか？",
+  "waterControlCancelMessage": "{dormitory}の有効なコードはすぐに使えなくなります。",
+  "@waterControlCancelMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlCancelConfirm": "無効にする",
+  "waterControlCancelSuccess": "給水コードを無効にしました",
+  "waterControlCopied": "コードをコピーしました",
+  "waterControlSessionExpired": "WHUのセッションの有効期限が切れました。「アカウント」から再度ログインしてください。",
+  "waterControlOperationFailed": "操作を完了できませんでした。もう一度お試しください。",
+  "waterControlLoadFailed": "給水サービスを一時的に利用できません。通信状況を確認して、もう一度お試しください。",
+  "waterControlAccountFallback": "キャンパスカードのアカウント",
+  "waterControlUpdatedAt": "更新: {time}",
+  "@waterControlUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlConnected": "接続済み",
+  "waterControlChangeDormitory": "変更",
+  "waterControlActiveCode": "有効な給水コード",
+  "waterControlExpiryUnknown": "このコードの有効期限は確認できません",
+  "waterControlExpiresIn": "残り約{hours}時間{minutes}分",
+  "@waterControlExpiresIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlCopyCode": "コードをコピー",
+  "waterControlCancelling": "無効化中…",
+  "waterControlCancelCode": "コードを無効にする",
+  "waterControlNoActiveCode": "有効なコードはありません",
+  "waterControlNoActiveCodeHint": "寮の給水機を利用する前に、4桁のコードを発行してください。",
+  "waterControlRequesting": "発行中…",
+  "waterControlRequestCode": "給水コードを発行",
+  "waterControlFreeRate": "利用可能な給水機",
+  "waterControlDevices": "給水機の総数",
+  "waterControlWarnings": "警告",
+  "waterControlUsageHint": "給水機で4桁のコードを入力してください。新しく発行されたコードは通常240分間有効です。不要になったら無効にしてください。",
+  "waterControlSelectDormitory": "寮を選択",
+  "waterControlSelectDormitoryHint": "選択内容はこの端末にのみ保存され、いつでも変更できます。",
+  "waterControlChooseDormitory": "寮を選ぶ",
+  "waterControlOtherActiveCodes": "その他の有効なコード",
+  "waterControlSearchDormitory": "寮名またはClassNoで検索",
+  "waterControlDormitoryCount": "{count}か所",
+  "@waterControlDormitoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlActiveBadge": "有効",
+  "waterControlNoSearchResults": "一致する寮はありません",
+  "waterControlUnavailable": "給水サービスに接続できません",
+  "waterControlCategoryEngineering": "工学部キャンパス",
+  "waterControlCategoryGuiGarden": "桂園",
+  "waterControlCategoryFengGarden": "楓園（枫园）",
+  "waterControlCategoryLakeside": "湖畔（湖滨）",
+  "waterControlCategoryInternational": "留学生院",
+  "waterControlCategoryMeiGarden": "梅園",
+  "waterControlCategoryInformation": "情報学部キャンパス",
+  "waterControlCategoryMedical": "医学部キャンパス",
+  "waterControlCategoryPeoplesHospital": "人民病院（人民医院）",
+  "waterControlCategoryHotWater": "給湯",
+  "waterControlCategoryOther": "その他",
   "studyStatusTitle": "履修状況",
   "studyStatusEmptyTitle": "履修データがありません",
   "studyStatusEmptyHint": "更新して教務から取得",

@@ -13,6 +13,7 @@
   "campusAppCourseHub": "Học vụ",
   "campusAppEcard": "Thẻ E",
   "campusAppEcardPayment": "Mã thanh toán",
+  "campusAppWaterControl": "Mã lấy nước ký túc xá",
   "campusAppEmptyClassroom": "Phòng trống",
   "campusAppFileSharing": "Tài liệu",
   "campusAppLibrary": "Thư viện",
@@ -1668,6 +1669,87 @@
     }
   },
   "ecardPaycodeUnavailable": "Hiện không thể lấy mã thanh toán",
+  "waterControlTitle": "Mã lấy nước",
+  "waterControlRefresh": "Làm mới",
+  "waterControlLoading": "Đang kết nối dịch vụ cấp nước…",
+  "waterControlRequestSuccess": "Mã lấy nước đã sẵn sàng",
+  "waterControlCancelTitle": "Hủy kích hoạt mã này?",
+  "waterControlCancelMessage": "Mã đang hoạt động tại {dormitory} sẽ mất hiệu lực ngay lập tức.",
+  "@waterControlCancelMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlCancelConfirm": "Hủy kích hoạt",
+  "waterControlCancelSuccess": "Đã hủy kích hoạt mã lấy nước",
+  "waterControlCopied": "Đã sao chép mã",
+  "waterControlSessionExpired": "Phiên WHU đã hết hạn. Vui lòng đăng nhập lại trong mục Tài khoản.",
+  "waterControlOperationFailed": "Không thể hoàn tất thao tác. Vui lòng thử lại.",
+  "waterControlLoadFailed": "Dịch vụ cấp nước tạm thời không khả dụng. Hãy kiểm tra kết nối và thử lại.",
+  "waterControlAccountFallback": "Tài khoản thẻ trường",
+  "waterControlUpdatedAt": "Cập nhật lúc {time}",
+  "@waterControlUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlConnected": "Đã kết nối",
+  "waterControlChangeDormitory": "Đổi",
+  "waterControlActiveCode": "Mã lấy nước đang hoạt động",
+  "waterControlExpiryUnknown": "Không có thông tin về thời điểm hết hạn của mã hiện tại",
+  "waterControlExpiresIn": "Còn khoảng {hours} giờ {minutes} phút",
+  "@waterControlExpiresIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlCopyCode": "Sao chép mã",
+  "waterControlCancelling": "Đang hủy kích hoạt…",
+  "waterControlCancelCode": "Hủy kích hoạt mã",
+  "waterControlNoActiveCode": "Không có mã đang hoạt động",
+  "waterControlNoActiveCodeHint": "Hãy yêu cầu mã gồm 4 chữ số trước khi dùng máy lấy nước uống tại ký túc xá.",
+  "waterControlRequesting": "Đang yêu cầu…",
+  "waterControlRequestCode": "Yêu cầu mã lấy nước",
+  "waterControlFreeRate": "Thiết bị khả dụng",
+  "waterControlDevices": "Tổng số thiết bị",
+  "waterControlWarnings": "Cảnh báo",
+  "waterControlUsageHint": "Nhập mã gồm 4 chữ số trên máy lấy nước. Mã mới thường có hiệu lực trong 240 phút. Hãy hủy kích hoạt khi không còn sử dụng.",
+  "waterControlSelectDormitory": "Chọn tòa ký túc xá",
+  "waterControlSelectDormitoryHint": "Lựa chọn này chỉ được lưu trên thiết bị này và có thể thay đổi bất cứ lúc nào.",
+  "waterControlChooseDormitory": "Chọn tòa ký túc xá",
+  "waterControlOtherActiveCodes": "Các mã đang hoạt động khác",
+  "waterControlSearchDormitory": "Tìm theo tên ký túc xá hoặc ClassNo",
+  "waterControlDormitoryCount": "{count} địa điểm",
+  "@waterControlDormitoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlActiveBadge": "Đang hoạt động",
+  "waterControlNoSearchResults": "Không có ký túc xá phù hợp",
+  "waterControlUnavailable": "Không thể kết nối dịch vụ cấp nước",
+  "waterControlCategoryEngineering": "Cơ sở Kỹ thuật",
+  "waterControlCategoryGuiGarden": "Quế Viên (桂园)",
+  "waterControlCategoryFengGarden": "Phong Viên (枫园)",
+  "waterControlCategoryLakeside": "Khu Hồ Tân (湖滨)",
+  "waterControlCategoryInternational": "Học viện Sinh viên Quốc tế (留学生院)",
+  "waterControlCategoryMeiGarden": "Mai Viên (梅园)",
+  "waterControlCategoryInformation": "Cơ sở Công nghệ Thông tin",
+  "waterControlCategoryMedical": "Cơ sở Y khoa",
+  "waterControlCategoryPeoplesHospital": "Bệnh viện Nhân dân",
+  "waterControlCategoryHotWater": "Nước nóng",
+  "waterControlCategoryOther": "Khác",
   "studyStatusTitle": "Trạng thái học tập",
   "studyStatusEmptyTitle": "Chưa có dữ liệu học tập",
   "studyStatusEmptyHint": "Nhấn làm mới để lấy dữ liệu từ hệ thống học vụ",

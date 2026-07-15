@@ -13,6 +13,7 @@
   "campusAppCourseHub": "教務中心",
   "campusAppEcard": "珞珈E卡",
   "campusAppEcardPayment": "E卡付款碼",
+  "campusAppWaterControl": "宿舍取水碼",
   "campusAppEmptyClassroom": "空置課室",
   "campusAppFileSharing": "學習資料分享",
   "campusAppLibrary": "圖書借閲",
@@ -1678,6 +1679,87 @@
     }
   },
   "ecardPaycodeUnavailable": "暫時攞唔到付款碼",
+  "waterControlTitle": "宿舍取水碼",
+  "waterControlRefresh": "重新整理",
+  "waterControlLoading": "連接緊水控服務…",
+  "waterControlRequestSuccess": "成功申請取水碼",
+  "waterControlCancelTitle": "停用呢個取水碼？",
+  "waterControlCancelMessage": "{dormitory} 而家嘅取水碼會即刻失效。",
+  "@waterControlCancelMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlCancelConfirm": "確認停用",
+  "waterControlCancelSuccess": "取水碼已經停用",
+  "waterControlCopied": "已複製取水碼",
+  "waterControlSessionExpired": "WHU 登入狀態已過期，請去「帳號」重新登入。",
+  "waterControlOperationFailed": "操作做唔到，請遲啲再試。",
+  "waterControlLoadFailed": "水控服務暫時用唔到，請檢查網絡再試。",
+  "waterControlAccountFallback": "校園卡帳戶",
+  "waterControlUpdatedAt": "更新時間：{time}",
+  "@waterControlUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlConnected": "已連接",
+  "waterControlChangeDormitory": "轉宿舍",
+  "waterControlActiveCode": "而家嘅取水碼",
+  "waterControlExpiryUnknown": "暫時查唔到而家個取水碼幾時到期",
+  "waterControlExpiresIn": "預計仲有 {hours} 小時 {minutes} 分鐘",
+  "@waterControlExpiresIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlCopyCode": "複製取水碼",
+  "waterControlCancelling": "停用緊…",
+  "waterControlCancelCode": "停用取水碼",
+  "waterControlNoActiveCode": "未有取水碼",
+  "waterControlNoActiveCodeHint": "用宿舍飲水機之前，先申請一個四位取水碼。",
+  "waterControlRequesting": "申請緊…",
+  "waterControlRequestCode": "申請取水碼",
+  "waterControlFreeRate": "設備空閒率",
+  "waterControlDevices": "設備總數",
+  "waterControlWarnings": "警報設備",
+  "waterControlUsageHint": "喺飲水機輸入四位取水碼就用得。新申請嘅取水碼通常喺 240 分鐘內有效，唔再用就記得停用。",
+  "waterControlSelectDormitory": "揀你住嘅宿舍樓",
+  "waterControlSelectDormitoryHint": "揀好之後只會儲存喺呢部機，之後可以隨時轉。",
+  "waterControlChooseDormitory": "揀宿舍樓",
+  "waterControlOtherActiveCodes": "其他有效取水碼",
+  "waterControlSearchDormitory": "搜尋宿舍名或 ClassNo",
+  "waterControlDormitoryCount": "{count} 個地點",
+  "@waterControlDormitoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlActiveBadge": "有效",
+  "waterControlNoSearchResults": "搵唔到相符嘅宿舍樓",
+  "waterControlUnavailable": "暫時連接唔到水控服務",
+  "waterControlCategoryEngineering": "工學部",
+  "waterControlCategoryGuiGarden": "桂園",
+  "waterControlCategoryFengGarden": "楓園",
+  "waterControlCategoryLakeside": "湖濱",
+  "waterControlCategoryInternational": "留學生院",
+  "waterControlCategoryMeiGarden": "梅園",
+  "waterControlCategoryInformation": "信息學部",
+  "waterControlCategoryMedical": "醫學部",
+  "waterControlCategoryPeoplesHospital": "人民醫院",
+  "waterControlCategoryHotWater": "開水",
+  "waterControlCategoryOther": "其他",
   "studyStatusTitle": "學業情況",
   "studyStatusEmptyTitle": "暫無學業資料",
   "studyStatusEmptyHint": "撳重新整理由教務系統攞",

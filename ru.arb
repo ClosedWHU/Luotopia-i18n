@@ -13,6 +13,7 @@
   "campusAppCourseHub": "Учёба",
   "campusAppEcard": "Карта E",
   "campusAppEcardPayment": "Код оплаты",
+  "campusAppWaterControl": "Код доступа к воде",
   "campusAppEmptyClassroom": "Своб. аудитории",
   "campusAppFileSharing": "Файлы",
   "campusAppLibrary": "Библиотека",
@@ -1659,6 +1660,87 @@
     }
   },
   "ecardPaycodeUnavailable": "В данный момент невозможно получить код оплаты",
+  "waterControlTitle": "Доступ к воде",
+  "waterControlRefresh": "Обновить",
+  "waterControlLoading": "Подключение к системе подачи воды…",
+  "waterControlRequestSuccess": "Код доступа готов",
+  "waterControlCancelTitle": "Отключить этот код?",
+  "waterControlCancelMessage": "Активный код для общежития {dormitory} сразу перестанет действовать.",
+  "@waterControlCancelMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlCancelConfirm": "Отключить",
+  "waterControlCancelSuccess": "Код доступа отключён",
+  "waterControlCopied": "Код скопирован",
+  "waterControlSessionExpired": "Сеанс WHU истёк. Снова войдите в разделе «Аккаунт».",
+  "waterControlOperationFailed": "Не удалось выполнить операцию. Повторите попытку.",
+  "waterControlLoadFailed": "Сервис временно недоступен. Проверьте подключение и повторите попытку.",
+  "waterControlAccountFallback": "Счёт карты кампуса",
+  "waterControlUpdatedAt": "Обновлено в {time}",
+  "@waterControlUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlConnected": "Подключено",
+  "waterControlChangeDormitory": "Изменить",
+  "waterControlActiveCode": "Активный код",
+  "waterControlExpiryUnknown": "Срок действия этого кода неизвестен",
+  "waterControlExpiresIn": "Осталось около {hours} ч {minutes} мин",
+  "@waterControlExpiresIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlCopyCode": "Скопировать код",
+  "waterControlCancelling": "Отключение…",
+  "waterControlCancelCode": "Отключить код",
+  "waterControlNoActiveCode": "Нет активного кода",
+  "waterControlNoActiveCodeHint": "Перед использованием кулера в общежитии запросите четырёхзначный код.",
+  "waterControlRequesting": "Получение…",
+  "waterControlRequestCode": "Получить код",
+  "waterControlFreeRate": "Доступно устройств",
+  "waterControlDevices": "Всего устройств",
+  "waterControlWarnings": "Предупреждения",
+  "waterControlUsageHint": "Введите четырёхзначный код на кулере. Новый код обычно действует 240 минут. Отключите его, когда он больше не нужен.",
+  "waterControlSelectDormitory": "Выберите общежитие",
+  "waterControlSelectDormitoryHint": "Выбор сохраняется только на этом устройстве, его можно изменить в любое время.",
+  "waterControlChooseDormitory": "Выбрать общежитие",
+  "waterControlOtherActiveCodes": "Другие активные коды",
+  "waterControlSearchDormitory": "Поиск по названию или ClassNo",
+  "waterControlDormitoryCount": "Общежития: {count}",
+  "@waterControlDormitoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlActiveBadge": "Активен",
+  "waterControlNoSearchResults": "Подходящие общежития не найдены",
+  "waterControlUnavailable": "Не удалось подключиться к системе подачи воды",
+  "waterControlCategoryEngineering": "Инженерный кампус",
+  "waterControlCategoryGuiGarden": "Сад Гуй",
+  "waterControlCategoryFengGarden": "Сад Фэн",
+  "waterControlCategoryLakeside": "Приозёрный кампус",
+  "waterControlCategoryInternational": "Колледж иностранных студентов",
+  "waterControlCategoryMeiGarden": "Сад Мэй",
+  "waterControlCategoryInformation": "Информационный кампус",
+  "waterControlCategoryMedical": "Медицинский кампус",
+  "waterControlCategoryPeoplesHospital": "Народная больница",
+  "waterControlCategoryHotWater": "Горячая вода",
+  "waterControlCategoryOther": "Другое",
   "studyStatusTitle": "Учёба",
   "studyStatusEmptyTitle": "Учебных данных пока нет",
   "studyStatusEmptyHint": "Нажмите «Обновить» для загрузки из учебной системы",

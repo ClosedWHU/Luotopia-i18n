@@ -13,6 +13,7 @@
   "campusAppCourseHub": "Acadêmico",
   "campusAppEcard": "Cartão E",
   "campusAppEcardPayment": "Cód. pagamento",
+  "campusAppWaterControl": "Código de acesso à água",
   "campusAppEmptyClassroom": "Salas livres",
   "campusAppFileSharing": "Arquivos",
   "campusAppLibrary": "Biblioteca",
@@ -1664,6 +1665,87 @@
     }
   },
   "ecardPaycodeUnavailable": "Não é possível obter o código de pagamento no momento",
+  "waterControlTitle": "Acesso à água",
+  "waterControlRefresh": "Atualizar",
+  "waterControlLoading": "Conectando ao serviço de água…",
+  "waterControlRequestSuccess": "O código de acesso à água está pronto",
+  "waterControlCancelTitle": "Desativar este código?",
+  "waterControlCancelMessage": "O código ativo de {dormitory} deixará de funcionar imediatamente.",
+  "@waterControlCancelMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlCancelConfirm": "Desativar",
+  "waterControlCancelSuccess": "Código de acesso à água desativado",
+  "waterControlCopied": "Código copiado",
+  "waterControlSessionExpired": "Sua sessão da WHU expirou. Faça login novamente em Conta.",
+  "waterControlOperationFailed": "Não foi possível concluir a operação. Tente novamente.",
+  "waterControlLoadFailed": "O serviço de água está temporariamente indisponível. Verifique sua conexão e tente novamente.",
+  "waterControlAccountFallback": "Conta do cartão do campus",
+  "waterControlUpdatedAt": "Atualizado às {time}",
+  "@waterControlUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlConnected": "Conectado",
+  "waterControlChangeDormitory": "Alterar",
+  "waterControlActiveCode": "Código de acesso à água ativo",
+  "waterControlExpiryUnknown": "O horário de expiração deste código ativo não está disponível",
+  "waterControlExpiresIn": "Cerca de {hours} h {minutes} min restantes",
+  "@waterControlExpiresIn": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlCopyCode": "Copiar código",
+  "waterControlCancelling": "Desativando…",
+  "waterControlCancelCode": "Desativar código",
+  "waterControlNoActiveCode": "Nenhum código ativo",
+  "waterControlNoActiveCodeHint": "Solicite um código de quatro dígitos antes de usar um dispensador de água da residência.",
+  "waterControlRequesting": "Solicitando…",
+  "waterControlRequestCode": "Solicitar código de acesso",
+  "waterControlFreeRate": "Dispensadores disponíveis",
+  "waterControlDevices": "Total de dispensadores",
+  "waterControlWarnings": "Alertas",
+  "waterControlUsageHint": "Digite o código de quatro dígitos no dispensador de água. Um novo código normalmente é válido por 240 minutos. Desative-o quando não precisar mais dele.",
+  "waterControlSelectDormitory": "Escolha sua residência",
+  "waterControlSelectDormitoryHint": "Esta opção é salva apenas neste dispositivo e pode ser alterada a qualquer momento.",
+  "waterControlChooseDormitory": "Escolher residência",
+  "waterControlOtherActiveCodes": "Outros códigos ativos",
+  "waterControlSearchDormitory": "Buscar por nome ou ClassNo",
+  "waterControlDormitoryCount": "{count} locais",
+  "@waterControlDormitoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waterControlActiveBadge": "Ativo",
+  "waterControlNoSearchResults": "Nenhuma residência correspondente",
+  "waterControlUnavailable": "Não foi possível conectar ao serviço de água",
+  "waterControlCategoryEngineering": "Campus de Engenharia",
+  "waterControlCategoryGuiGarden": "Gui Garden",
+  "waterControlCategoryFengGarden": "Feng Garden",
+  "waterControlCategoryLakeside": "Margem do Lago",
+  "waterControlCategoryInternational": "Instituto de Estudantes Internacionais",
+  "waterControlCategoryMeiGarden": "Mei Garden",
+  "waterControlCategoryInformation": "Campus de Ciências da Informação",
+  "waterControlCategoryMedical": "Campus de Medicina",
+  "waterControlCategoryPeoplesHospital": "Hospital do Povo",
+  "waterControlCategoryHotWater": "Água quente",
+  "waterControlCategoryOther": "Outros",
   "studyStatusTitle": "Situação acadêmica",
   "studyStatusEmptyTitle": "Ainda não há dados acadêmicos",
   "studyStatusEmptyHint": "Toque em atualizar para buscar do sistema acadêmico",
