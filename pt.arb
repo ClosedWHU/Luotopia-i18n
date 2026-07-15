@@ -31,7 +31,7 @@
   "commonEmail": "E-mail",
   "commonId": "ID",
   "commonLogin": "Entrar",
-  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "whuSessionExpiredPrompt": "A sua sessão expirou e não foi possível atualizar automaticamente. Por favor, faça login novamente.",
   "commonLogout": "Sair",
   "commonNotSet": "Não definido",
   "commonPassword": "Senha",
@@ -39,7 +39,7 @@
   "commonRegistrationTime": "Data de registro",
   "commonUsername": "Nome de usuário",
   "courseGridSettings": "Configurações da Grade",
-  "courseHubLoginButton": "Log in",
+  "courseHubLoginButton": "Entrar",
   "courseHubScores": "Notas",
   "courseHubTimetable": "Grade horária",
   "courseHubTitle": "Centro acadêmico",
@@ -62,7 +62,7 @@
   "dynamicColorSourceAccent": "Usar a cor de destaque do sistema",
   "dynamicColorSourceGtk": "Usar a cor do tema GTK",
   "dynamicColorSourceWallpaper": "Extrair do papel de parede do sistema",
-  "ecardPaymentTitle": "E-Card Payment Code",
+  "ecardPaymentTitle": "Código de pagamento E-Card",
   "editorAllDayTitle": "tarefas do dia inteiro",
   "editorColorAmber": "âmbar",
   "editorColorCoral": "coral vermelho",
@@ -154,10 +154,10 @@
   "emptyClassroomTitle": "Salas Vazias",
   "emptyClassroomUndo": "Desfazer",
   "emptyClassroomWeekLabel": "Semana {week}",
-  "emptyTimetableImportCourse": "2. Import courses",
-  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
-  "emptyTimetableLoginWhu": "1. Log in to WHU account",
-  "emptyTimetableTitle": "No courses added yet",
+  "emptyTimetableImportCourse": "2. Importar disciplinas",
+  "emptyTimetableLoggedInWhu": "Sessão iniciada na conta WHU",
+  "emptyTimetableLoginWhu": "1. Entrar na conta WHU",
+  "emptyTimetableTitle": "Nenhum curso adicionado ainda",
   "enableWidgetSync": "Sincronizar widgets",
   "enterTimetableName": "Digite o nome",
   "fallbackRefreshInterval": "Intervalo de atualização de fallback",
@@ -258,8 +258,8 @@
   "pleaseLoginToWhuAcademicSystem": "Entre no WHU primeiro",
   "pleaseSelectWeek1Monday": "Selecione a segunda-feira da Semana 1.",
   "scoreImportFailed": "Falha na importação",
-  "scoreImportCredentialTitle": "Importar de credencial confiável",
-  "scoreImportCredentialSubtitle": "Baixa e analisa localmente o histórico oficial de disciplinas chinesas",
+  "scoreImportCredentialTitle": "Importar de credencial eletrónica verificada",
+  "scoreImportCredentialSubtitle": "Baixa e analisa localmente o histórico oficial de disciplinas em chinês",
   "scoreImportUndergraduateTitle": "Importar do sistema de graduação",
   "scoreImportUndergraduateSubtitle": "Notas exatas, mas a atualização pode ser lenta",
   "scoreImportSpoilerTitle": "Importar do sistema de desenvolvimento profissional",
@@ -339,9 +339,9 @@
   "settingsNavigationEntrySubtitle": "Rótulos e aba central",
   "settingsNavigationEntryTitle": "Configurações da barra de navegação",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacyPolicy": "Privacy Policy",
-  "settingsTermsOfService": "Terms of Service",
-  "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
+  "settingsPrivacyPolicy": "Política de Privacidade",
+  "settingsTermsOfService": "Termos de Serviço",
+  "settingsCrossBorderDataTransfer": "Aviso de Transferência Transfronteiriça de Dados",
   "settingsTheme": "Tema",
   "settingsTitle": "configurações",
   "settingsVersion": "Versão",
@@ -849,7 +849,7 @@
   "settingsDevServerUrlSubtitle": "Substitui a URL base da API, ex.: http://192.168.1.100:6262",
   "settingsDevUrlLabel": "URL do servidor",
   "settingsDevUrlHint": "Deixe vazio para usar o padrão",
-  "settingsDevKeepScreenAwake": "Manter tela ligada durante depuração",
+  "settingsDevKeepScreenAwake": "Manter tela ligada durante a depuração",
   "settingsDevKeepScreenAwakeSubtitle": "Impede a suspensão apenas em versões Debug quando o app está em primeiro plano",
   "settingsDevDisableTitle": "Desativar modo desenvolvedor",
   "settingsDevDisableSubtitle": "Após desativar, toque o número da versão várias vezes para reativar",
@@ -1203,7 +1203,7 @@
   "scoreImportCaptchaFailed": "Falha ao interpretar o código",
   "scoreImportCancelled": "Verificação cancelada",
   "scoreImportImportingUndergraduate": "Entrando no sistema de graduação e importando…",
-  "scoreImportImportingCredential": "Baixando e analisando localmente a credencial confiável…",
+  "scoreImportImportingCredential": "Baixando e analisando localmente a credencial eletrónica verificada…",
   "scoreImportSuccessWithCount": "{success}: {count} notas em cache local.",
   "@scoreImportSuccessWithCount": {
     "placeholders": {
@@ -1239,8 +1239,8 @@
       }
     }
   },
-  "scoreImportLastImport": "Last Import",
-  "scoreImportTime": "Time: {time}",
+  "scoreImportLastImport": "Última importação",
+  "scoreImportTime": "Hora: {time}",
   "@scoreImportTime": {
     "placeholders": {
       "time": {
@@ -1248,7 +1248,7 @@
       }
     }
   },
-  "scoreImportCount": "Score count: {count}",
+  "scoreImportCount": "Número de notas: {count}",
   "@scoreImportCount": {
     "placeholders": {
       "count": {
@@ -1256,7 +1256,7 @@
       }
     }
   },
-  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "scoreImportExample": "Exemplo: {name} · {score} · {credit}",
   "@scoreImportExample": {
     "placeholders": {
       "name": {
@@ -1443,8 +1443,8 @@
   "locationSearchHint": "Buscar uma cidade…",
   "locationSearchNoResults": "Sem resultados",
   "settingsWeatherUpdateInterval": "Intervalo de atualização",
-  "settingsWeatherUpdate15m": "15 min",
-  "settingsWeatherUpdate30m": "30 min",
+  "settingsWeatherUpdate15m": "15 minutos",
+  "settingsWeatherUpdate30m": "30 minutos",
   "settingsWeatherUpdate1h": "1 h",
   "settingsWeatherUpdate2h": "2 h",
   "settingsWeatherUpdateAlways": "Sempre atualizado",
@@ -1485,10 +1485,10 @@
   "settingsBuildChannelAlpha": "Alpha",
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
-  "settingsBuildInfoVersion": "Versão",
-  "settingsBuildInfoBuildNumber": "Build",
+  "settingsBuildInfoVersion": "Versão:",
+  "settingsBuildInfoBuildNumber": "Compilação:",
   "settingsBuildInfoChannel": "Canal",
-  "settingsBuildInfoType": "Tipo",
+  "settingsBuildInfoType": "Tipo:",
   "weatherAqiStandardUs": "Padrão EUA",
   "weatherAqiStandardCn": "Padrão China",
   "weatherAqiStandardEu": "Padrão UE",
@@ -1625,7 +1625,7 @@
   "wallpaperTargetSettings": "Configurações",
   "wallpaperTargetTaskList": "Lista de tarefas",
   "wallpaperTargetForum": "Fórum",
-  "wallpaperTargetAi": "AI",
+  "wallpaperTargetAi": "IA",
   "libraryBorrowingPlaceholder": "O empréstimo de livros está em desenvolvimento…",
   "settingsAiProvider": "Provedor de IA",
   "settingsAiModels": "Lista de modelos",
@@ -1641,21 +1641,21 @@
   "settingsAiModelHint": "Digite o nome do modelo ou escolha na lista",
   "homeJumpCurrentWeek": "Esta sem.",
   "homeJumpSemesterStartWeek": "Início",
-  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "weatherAirQualityAccuHint": "Mude a fonte de qualidade do ar para AccuWeather para ver detalhes de poluentes",
   "languageFollowSystem": "Seguir sistema",
   "languageFollowApp": "Seguir o app",
-  "ecardPaycodeTitle": "E-Card Payment Code",
-  "ecardPaycodeUseWeb": "Use web version",
-  "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
-  "ecardPaycodeRefreshing": "Refreshing payment code…",
-  "ecardPaycodeLoading": "Getting payment code…",
-  "ecardPaycodeAccountFallback": "WHU account",
-  "ecardPaycodeSessionExpired": "Session expired. Please re-login to WHU under Account.",
-  "ecardPaycodeFetchFailed": "Failed to get payment code. Retry or use the web version.",
-  "ecardPaycodeShowToMerchant": "Show this code to the merchant to pay",
-  "ecardPaycodeAutoRefreshHint": "Auto-refreshes every minute. Do not use screenshots.",
+  "ecardPaycodeTitle": "Código de pagamento E-Card",
+  "ecardPaycodeUseWeb": "Usar versão web",
+  "ecardPaycodeUseWebSubtitle": "Se o código de pagamento nativo falhar, mude para esta alternativa",
+  "ecardPaycodeRefreshing": "Atualizando código de pagamento…",
+  "ecardPaycodeLoading": "Obtendo código de pagamento…",
+  "ecardPaycodeAccountFallback": "Conta WHU",
+  "ecardPaycodeSessionExpired": "A sessão expirou. Por favor, faça login novamente na WHU em «Conta».",
+  "ecardPaycodeFetchFailed": "Não foi possível obter o código de pagamento. Tente novamente ou use a versão web.",
+  "ecardPaycodeShowToMerchant": "Mostre este código ao comerciante para pagar",
+  "ecardPaycodeAutoRefreshHint": "Atualiza automaticamente a cada minuto. Não use capturas de tela.",
   "ecardPaycodeRefreshNow": "Atualizar",
-  "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
+  "ecardPaycodeRefreshInSeconds": "Atualiza em {seconds}s",
   "@ecardPaycodeRefreshInSeconds": {
     "placeholders": {
       "seconds": {
@@ -1663,13 +1663,13 @@
       }
     }
   },
-  "ecardPaycodeUnavailable": "Unable to get payment code for now",
-  "studyStatusTitle": "Academic status",
-  "studyStatusEmptyTitle": "No academic data yet",
-  "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",
-  "studyStatusFetchData": "Fetch data",
-  "studyStatusFetchFailed": "Failed to fetch data",
-  "studyStatusStatsTime": "Stats as of {time}",
+  "ecardPaycodeUnavailable": "Não é possível obter o código de pagamento no momento",
+  "studyStatusTitle": "Situação acadêmica",
+  "studyStatusEmptyTitle": "Ainda não há dados acadêmicos",
+  "studyStatusEmptyHint": "Toque em atualizar para buscar do sistema acadêmico",
+  "studyStatusFetchData": "Buscar dados",
+  "studyStatusFetchFailed": "Falha ao buscar dados",
+  "studyStatusStatsTime": "Estatísticas até {time}",
   "@studyStatusStatsTime": {
     "placeholders": {
       "time": {
@@ -1677,16 +1677,16 @@
       }
     }
   },
-  "studyStatusTrainingPlan": "Training plan",
+  "studyStatusTrainingPlan": "Plano de estudos",
   "studyStatusCurrentTrainingPlan": "Plano de estudos exibido",
-  "studyStatusCourseOverview": "Course overview",
+  "studyStatusCourseOverview": "Resumo de disciplinas",
   "studyStatusFilterAll": "Todos",
   "studyStatusFilterPassed": "Aprovado",
   "studyStatusFilterFailed": "Reprovado",
   "studyStatusFilterStudying": "Cursando",
   "studyStatusFilterNotTaken": "Não cursado",
-  "studyStatusOutOfPlan": "Out of plan",
-  "studyStatusTotalCourses": "{count} courses",
+  "studyStatusOutOfPlan": "Fora do plano",
+  "studyStatusTotalCourses": "{count} disciplinas",
   "@studyStatusTotalCourses": {
     "placeholders": {
       "count": {
@@ -1694,7 +1694,7 @@
       }
     }
   },
-  "studyStatusPassedCount": "Passed {count}",
+  "studyStatusPassedCount": "Aprovadas {count}",
   "@studyStatusPassedCount": {
     "placeholders": {
       "count": {
@@ -1702,7 +1702,7 @@
       }
     }
   },
-  "studyStatusFailedCount": "Failed {count}",
+  "studyStatusFailedCount": "Reprovadas {count}",
   "@studyStatusFailedCount": {
     "placeholders": {
       "count": {
@@ -1710,7 +1710,7 @@
       }
     }
   },
-  "studyStatusStudyingCount": "In progress {count}",
+  "studyStatusStudyingCount": "Em andamento {count}",
   "@studyStatusStudyingCount": {
     "placeholders": {
       "count": {
@@ -1718,7 +1718,7 @@
       }
     }
   },
-  "studyStatusRequiredCredits": "Required {credits} credits",
+  "studyStatusRequiredCredits": "Exigidos {credits} créditos",
   "@studyStatusRequiredCredits": {
     "placeholders": {
       "credits": {
@@ -1726,7 +1726,7 @@
       }
     }
   },
-  "studyStatusEarnedCredits": "Earned {credits} credits",
+  "studyStatusEarnedCredits": "Obtidos {credits} créditos",
   "@studyStatusEarnedCredits": {
     "placeholders": {
       "credits": {
@@ -1734,8 +1734,8 @@
       }
     }
   },
-  "studyStatusNoCourses": "No course data",
-  "studyStatusCredits": "{credit} credits",
+  "studyStatusNoCourses": "Sem dados de disciplinas",
+  "studyStatusCredits": "{credit} créditos",
   "@studyStatusCredits": {
     "placeholders": {
       "credit": {
@@ -1743,7 +1743,7 @@
       }
     }
   },
-  "studyStatusRetake": "Retake",
+  "studyStatusRetake": "Repetir",
   "studyStatusScorePoints": "{score} pts",
   "@studyStatusScorePoints": {
     "placeholders": {
@@ -1752,7 +1752,7 @@
       }
     }
   },
-  "studyStatusOriginalScore": "Orig. {score} pts",
+  "studyStatusOriginalScore": "Original {score} pts",
   "@studyStatusOriginalScore": {
     "placeholders": {
       "score": {
@@ -1768,20 +1768,20 @@
       }
     }
   },
-  "scorePageStudyStatus": "Academic status",
-  "scorePageFetchStudyStatus": "Fetch academic status",
+  "scorePageStudyStatus": "Situação acadêmica",
+  "scorePageFetchStudyStatus": "Buscar situação acadêmica",
   "aiTimeline": "Linha do tempo",
-  "weatherDetailTitle": "Weather details",
-  "weatherDetailTemperature": "Temperature",
-  "weatherDetailFeelsLike": "Feels like",
-  "weatherDetailHighLow": "High / Low",
-  "weatherDetailHumidity": "Humidity",
-  "weatherDetailUv": "UV index",
-  "weatherDetailWind": "Wind",
-  "weatherDetailPressure": "Pressure",
-  "weatherDetailVisibility": "Visibility",
-  "weatherDetailSunrise": "Sunrise",
-  "weatherDetailSunset": "Sunset",
+  "weatherDetailTitle": "Detalhes do clima",
+  "weatherDetailTemperature": "Temperatura",
+  "weatherDetailFeelsLike": "Sensação térmica",
+  "weatherDetailHighLow": "Máxima / Mínima",
+  "weatherDetailHumidity": "Humidade",
+  "weatherDetailUv": "Índice UV",
+  "weatherDetailWind": "Vento",
+  "weatherDetailPressure": "Pressão",
+  "weatherDetailVisibility": "Visibilidade",
+  "weatherDetailSunrise": "Nascer do sol",
+  "weatherDetailSunset": "Pôr do sol",
   "onboardingWelcomeTitle": "Bem-vindo ao Luotopia",
   "onboardingWelcomeSubtitle": "Alguns passos rápidos para configurar o seu companheiro de campus.",
   "onboardingChooseLanguage": "Primeiro escolha o idioma",
@@ -1792,10 +1792,10 @@
   "onboardingLegalSubtitle": "Leia e aceite os nossos termos para continuar.",
   "onboardingLegalAgreePrefix": "Li e aceito ",
   "onboardingLegalRequired": "Aceite primeiro os termos de serviço e a política de privacidade.",
-  "onboardingLegalLastUpdated": "Updated: {date}",
-  "onboardingLegalUpdateTitle": "Updated terms",
-  "onboardingLegalUpdateSubtitle": "We have updated the following agreements. Please read and accept them again to continue using the app. If you do not agree, please stop using the app and uninstall it.",
-  "onboardingLegalUpdateContinue": "Agree and continue",
+  "onboardingLegalLastUpdated": "Última atualização: {date}",
+  "onboardingLegalUpdateTitle": "Termos atualizados",
+  "onboardingLegalUpdateSubtitle": "Atualizámos os seguintes acordos. Por favor, leia e aceite novamente para continuar usando o aplicativo. Se não concordar, pare de usar e desinstale o app.",
+  "onboardingLegalUpdateContinue": "Aceitar e continuar",
   "onboardingPermissionsTitle": "Permissões necessárias",
   "onboardingPermissionsSubtitle": "Estas permissões desbloqueiam funções específicas. Também pode concedê-las mais tarde nas definições do sistema.",
   "onboardingPermissionsLaterHint": "Sem permissões, apenas as funções relacionadas ficam limitadas; pode autorizá-las depois.",
@@ -1875,7 +1875,7 @@
   "locationUnavailableTitle": "Localização indisponível",
   "locationUnavailableMessage": "Não foi possível obter uma localização válida. Escolha um local fixo nas definições ou ative a localização do sistema.",
   "weatherDetailNormalHighLow": "Normal máx. / mín.",
-  "settingsWeatherLocationIpApi": "ip-api.com",
+  "settingsWeatherLocationIpApi": "IP API",
   "campusAppZhihuiLuojia": "Zhihui Luojia",
   "settingsDevWebViewDebugger": "Depurador de rede WebView",
   "settingsDevWebViewDebuggerSubtitle": "Inspecione solicitações XHR/fetch no Zhihui Luojia",
@@ -1907,7 +1907,7 @@
   "debuggerExportSuccess": "{count} solicitação(ões) exportada(s)",
   "debuggerCopyValue": "Copiar valor",
   "debuggerPaused": "Pausado",
-  "loginRequiredToUse": "Log in to use {feature}",
+  "loginRequiredToUse": "Entre para usar {feature}",
   "campusAppMessages": "Mensagens",
   "messagesTabAll": "Todos",
   "messagesTabNotifications": "Notificacoes",

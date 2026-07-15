@@ -31,7 +31,7 @@
   "commonEmail": "이메일",
   "commonId": "ID",
   "commonLogin": "로그인",
-  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "whuSessionExpiredPrompt": "로그인 세션이 만료되어 자동 갱신할 수 없습니다. 다시 로그인해 주세요.",
   "commonLogout": "로그아웃",
   "commonNotSet": "설정 안 됨",
   "commonPassword": "비밀번호",
@@ -39,7 +39,7 @@
   "commonRegistrationTime": "가입 시각",
   "commonUsername": "사용자 이름",
   "courseGridSettings": "과목 그리드 설정",
-  "courseHubLoginButton": "Log in",
+  "courseHubLoginButton": "로그인",
   "courseHubScores": "성적",
   "courseHubTimetable": "시간표",
   "courseHubTitle": "교무 허브",
@@ -62,12 +62,12 @@
   "dynamicColorSourceAccent": "시스템 강조 색 사용",
   "dynamicColorSourceGtk": "GTK 테마 색 사용",
   "dynamicColorSourceWallpaper": "시스템 배경화면에서 추출",
-  "ecardPaymentTitle": "E-Card Payment Code",
+  "ecardPaymentTitle": "E카드 결제코드",
   "editorAllDayTitle": "하루 종일 할 일",
   "editorColorAmber": "호박색",
   "editorColorCoral": "산호 레드",
   "editorColorCrimson": "진홍색",
-  "editorColorIndigo": "남색",
+  "editorColorIndigo": "인디고",
   "editorColorJade": "에메랄드 그린",
   "editorColorLime": "라임 그린",
   "editorColorOrchid": "파란색 보라색",
@@ -154,10 +154,10 @@
   "emptyClassroomTitle": "빈 강의실",
   "emptyClassroomUndo": "실행 취소",
   "emptyClassroomWeekLabel": "{week}주차",
-  "emptyTimetableImportCourse": "2. Import courses",
-  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
-  "emptyTimetableLoginWhu": "1. Log in to WHU account",
-  "emptyTimetableTitle": "No courses added yet",
+  "emptyTimetableImportCourse": "2. 과목 가져오기",
+  "emptyTimetableLoggedInWhu": "우한대 계정에 로그인됨",
+  "emptyTimetableLoginWhu": "1. 우한대 계정으로 로그인",
+  "emptyTimetableTitle": "아직 과목이 없습니다",
   "enableWidgetSync": "위젯 동기화",
   "enterTimetableName": "시간표 이름 입력",
   "fallbackRefreshInterval": "폴백 새로 고침 간격",
@@ -262,7 +262,7 @@
   "pleaseSelectWeek1Monday": "1주차 월요일을 선택하세요.",
   "scoreImportFailed": "가져오기 실패",
   "scoreImportCredentialTitle": "신뢰할 수 있는 자격 증명에서 가져오기",
-  "scoreImportCredentialSubtitle": "공식 중국어 전공 성적표를 다운로드하여 로컬에서 정확한 성적을 파싱",
+  "scoreImportCredentialSubtitle": "공식 중국어 전공 성적표를 다운로드하여 로컬에서 정확한 성적을 파싱합니다",
   "scoreImportUndergraduateTitle": "학부 교무에서 가져오기",
   "scoreImportUndergraduateSubtitle": "정확한 성적이지만 업데이트가 느릴 수 있음",
   "scoreImportSpoilerTitle": "전문발전 지도 시스템에서 가져오기",
@@ -346,9 +346,9 @@
   "settingsNavigationEntrySubtitle": "라벨·가운데 탭",
   "settingsNavigationEntryTitle": "탐색 표시줄 설정",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacyPolicy": "Privacy Policy",
-  "settingsTermsOfService": "Terms of Service",
-  "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
+  "settingsPrivacyPolicy": "개인정보 처리방침",
+  "settingsTermsOfService": "이용약관",
+  "settingsCrossBorderDataTransfer": "국외 이전 안내",
   "settingsTheme": "테마",
   "settingsTitle": "설정",
   "settingsVersion": "버전",
@@ -789,7 +789,7 @@
       }
     }
   },
-  "scorePageGpaDisplay": "GPA: {gpa}",
+  "scorePageGpaDisplay": "평점：{gpa}",
   "@scorePageGpaDisplay": {
     "placeholders": {
       "gpa": {
@@ -808,7 +808,7 @@
       }
     }
   },
-  "settingsNotificationsTitle": "알림",
+  "settingsNotificationsTitle": "알림 설정",
   "settingsPushNotifications": "푸시 알림",
   "settingsPushNotificationsSubtitle": "일정·후기·시스템 메시지 알림",
   "settingsMarketingNotifications": "마케팅·이벤트",
@@ -856,8 +856,8 @@
   "settingsDevServerUrlSubtitle": "기본 API Base URL을 덮어씀(예: http://192.168.1.100:6262)",
   "settingsDevUrlLabel": "서버 URL",
   "settingsDevUrlHint": "비우면 기본값 사용",
-  "settingsDevKeepScreenAwake": "디버깅 중 화면 켜짐 유지",
-  "settingsDevKeepScreenAwakeSubtitle": "디버그 빌드에서 앱이 포그라운드에 있을 때만 수면 방지",
+  "settingsDevKeepScreenAwake": "디버그 중 화면 켜짐 유지",
+  "settingsDevKeepScreenAwakeSubtitle": "디버그 빌드에서 앱이 포그라운드에 있을 때만 수면을 방지합니다",
   "settingsDevDisableTitle": "개발자 모드 끄기",
   "settingsDevDisableSubtitle": "끈 뒤에는 버전 번호를 연속 탭해 다시 켜세요",
   "settingsHomeGridAlpha": "그리드 배경 불투명도",
@@ -1246,8 +1246,8 @@
       }
     }
   },
-  "scoreImportLastImport": "Last Import",
-  "scoreImportTime": "Time: {time}",
+  "scoreImportLastImport": "마지막 가져오기",
+  "scoreImportTime": "시각：{time}",
   "@scoreImportTime": {
     "placeholders": {
       "time": {
@@ -1255,7 +1255,7 @@
       }
     }
   },
-  "scoreImportCount": "Score count: {count}",
+  "scoreImportCount": "성적 항목：{count}건",
   "@scoreImportCount": {
     "placeholders": {
       "count": {
@@ -1263,7 +1263,7 @@
       }
     }
   },
-  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "scoreImportExample": "예시：{name} · {score}점 · {credit}학점",
   "@scoreImportExample": {
     "placeholders": {
       "name": {
@@ -1304,7 +1304,7 @@
   "itemDetailSectionGrading": "채점",
   "itemDetailScoreOverall": "총평",
   "itemDetailScoreContinuous": "평소",
-  "itemDetailScoreFinal": "기말",
+  "itemDetailScoreFinal": "기말고사",
   "itemDetailSectionDistribution": "성적 분포",
   "itemDetailSectionReviews": "수강 후기",
   "itemDetailMockReview1": "교수님 설명이 명확하고 교안이 좋으며 채점도 합리적입니다. 매 수업 연습이 개념 이해에 큰 도움이 됩니다.",
@@ -1312,7 +1312,7 @@
   "itemDetailMockReview3": "강력 추천. 전공 방향이 분명해졌고 실험도 잘 설계되어 있습니다.",
   "itemDetailMockReviewer": "익명 학생",
   "itemDetailTimeRangeSeparator": "~",
-  "aiMessageCount": "메시지 {count}개",
+  "aiMessageCount": "{count}개 메시지",
   "@aiMessageCount": {
     "placeholders": {
       "count": {
@@ -1354,7 +1354,7 @@
   "aiFormatAnthropic": "Anthropic",
   "aiSystemPromptDefault": "당신은 Luotopia의 AI 어시스턴트입니다. 현재 사용자 메시지와 제공된 일정 요약만 바탕으로 답하고 이전 대화는 참조하지 마세요. 일정 생성·정리와 스케줄 질문에 우선 도움을 주세요.",
   "whuAccountFallbackName": "우한대 계정",
-  "homeWidgetDateLabel": "{month}/{day}",
+  "homeWidgetDateLabel": "{month}월 {day}일",
   "@homeWidgetDateLabel": {
     "placeholders": {
       "month": {
@@ -1492,10 +1492,9 @@
   "settingsBuildChannelAlpha": "Alpha",
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
-  "settingsBuildInfoVersion": "버전",
-  "settingsBuildInfoBuildNumber": "빌드",
-  "settingsBuildInfoChannel": "채널",
-  "settingsBuildInfoType": "유형",
+  "settingsBuildInfoVersion": "버전：",
+  "settingsBuildInfoBuildNumber": "빌드 번호：",
+  "settingsBuildInfoType": "빌드 유형：",
   "weatherAqiStandardUs": "미국 기준",
   "weatherAqiStandardCn": "중국 기준",
   "weatherAqiStandardEu": "EU 기준",
@@ -1648,19 +1647,19 @@
   "settingsAiModelHint": "모델 이름을 입력하거나 목록에서 선택",
   "homeJumpCurrentWeek": "이번 주",
   "homeJumpSemesterStartWeek": "개강 주",
-  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "weatherAirQualityAccuHint": "오염 물질 상세 정보를 보려면 AQI 제공자를 AccuWeather로 전환하세요",
   "languageFollowSystem": "시스템 따르기",
   "languageFollowApp": "앱 따름",
   "ecardPaycodeTitle": "E카드 결제코드",
   "ecardPaycodeUseWeb": "웹 버전 사용",
-  "ecardPaycodeUseWebSubtitle": "네이티브 오류 시 웹으로 전환",
+  "ecardPaycodeUseWebSubtitle": "네이티브 결제코드 오류 시 이 백업을 사용하세요",
   "ecardPaycodeRefreshing": "결제코드 새로고침 중…",
   "ecardPaycodeLoading": "결제코드 가져오는 중…",
   "ecardPaycodeAccountFallback": "WHU 계정",
-  "ecardPaycodeSessionExpired": "세션 만료. 계정에서 WHU에 다시 로그인하세요.",
-  "ecardPaycodeFetchFailed": "결제코드 실패. 재시도 또는 웹 버전 사용.",
-  "ecardPaycodeShowToMerchant": "가맹점에 코드를 제시하세요",
-  "ecardPaycodeAutoRefreshHint": "1분마다 자동 새로고침. 캡처 사용 금지.",
+  "ecardPaycodeSessionExpired": "세션이 만료되었습니다. 계정에서 WHU에 다시 로그인하세요.",
+  "ecardPaycodeFetchFailed": "결제코드를 가져오지 못했습니다. 다시 시도하거나 웹 버전을 사용하세요.",
+  "ecardPaycodeShowToMerchant": "가맹점에 이 코드를 보여주고 결제하세요",
+  "ecardPaycodeAutoRefreshHint": "매분 자동 새로고침됩니다. 스크린샷을 사용하지 마세요.",
   "ecardPaycodeRefreshNow": "지금 새로고침",
   "ecardPaycodeRefreshInSeconds": "{seconds}초 후 새로고침",
   "@ecardPaycodeRefreshInSeconds": {
@@ -1670,7 +1669,7 @@
       }
     }
   },
-  "ecardPaycodeUnavailable": "결제코드를 받을 수 없음",
+  "ecardPaycodeUnavailable": "현재 결제코드를 가져올 수 없습니다",
   "studyStatusTitle": "학업 현황",
   "studyStatusEmptyTitle": "학업 데이터 없음",
   "studyStatusEmptyHint": "새로고침으로 교무에서 가져오기",
@@ -1778,17 +1777,17 @@
   "scorePageStudyStatus": "학업 현황",
   "scorePageFetchStudyStatus": "학업 현황 가져오기",
   "aiTimeline": "타임라인",
-  "weatherDetailTitle": "Weather details",
-  "weatherDetailTemperature": "Temperature",
-  "weatherDetailFeelsLike": "Feels like",
-  "weatherDetailHighLow": "High / Low",
-  "weatherDetailHumidity": "Humidity",
-  "weatherDetailUv": "UV index",
-  "weatherDetailWind": "Wind",
-  "weatherDetailPressure": "Pressure",
-  "weatherDetailVisibility": "Visibility",
-  "weatherDetailSunrise": "Sunrise",
-  "weatherDetailSunset": "Sunset",
+  "weatherDetailTitle": "날씨 상세",
+  "weatherDetailTemperature": "기온",
+  "weatherDetailFeelsLike": "체감",
+  "weatherDetailHighLow": "최고 / 최저",
+  "weatherDetailHumidity": "습도",
+  "weatherDetailUv": "자외선 지수",
+  "weatherDetailWind": "풍향·풍속",
+  "weatherDetailPressure": "기압",
+  "weatherDetailVisibility": "시정",
+  "weatherDetailSunrise": "일출",
+  "weatherDetailSunset": "일몰",
   "onboardingWelcomeTitle": "Luotopia에 오신 것을 환영합니다",
   "onboardingWelcomeSubtitle": "캠퍼스 라이프 앱을 위한 초기 설정을 몇 단계로 진행합니다.",
   "onboardingChooseLanguage": "먼저 언어를 선택하세요",
@@ -1799,10 +1798,9 @@
   "onboardingLegalSubtitle": "계속하려면 약관을 확인하고 동의해 주세요.",
   "onboardingLegalAgreePrefix": "다음 내용에 동의합니다: ",
   "onboardingLegalRequired": "먼저 이용약관과 개인정보 처리방침에 동의해 주세요.",
-  "onboardingLegalLastUpdated": "Updated: {date}",
-  "onboardingLegalUpdateTitle": "Updated terms",
-  "onboardingLegalUpdateSubtitle": "We have updated the following agreements. Please read and accept them again to continue using the app. If you do not agree, please stop using the app and uninstall it.",
-  "onboardingLegalUpdateContinue": "Agree and continue",
+  "onboardingLegalUpdateTitle": "약관이 업데이트되었습니다",
+  "onboardingLegalUpdateSubtitle": "아래 약관이 업데이트되었습니다. 앱을 계속 사용하려면 다시 읽고 동의해 주세요. 동의하지 않으시면 사용을 중단하고 앱을 삭제해 주세요.",
+  "onboardingLegalUpdateContinue": "동의하고 계속",
   "onboardingPermissionsTitle": "필요한 권한",
   "onboardingPermissionsSubtitle": "이 권한은 해당 기능에 사용됩니다. 나중에 시스템 설정에서 허용할 수도 있습니다.",
   "onboardingPermissionsLaterHint": "권한이 없어도 관련 기능만 제한되며, 나중에 다시 허용할 수 있습니다.",
@@ -1914,7 +1912,7 @@
   "debuggerExportSuccess": "{count}개 요청을 내보냈습니다",
   "debuggerCopyValue": "값 복사",
   "debuggerPaused": "일시정지됨",
-  "loginRequiredToUse": "Log in to use {feature}",
+  "loginRequiredToUse": "{feature}를 사용하려면 로그인하세요",
   "campusAppMessages": "메시지",
   "messagesTabAll": "전체",
   "messagesTabNotifications": "알림",

@@ -31,7 +31,7 @@
   "commonEmail": "E-mail",
   "commonId": "ID",
   "commonLogin": "Connexion",
-  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "whuSessionExpiredPrompt": "Votre session a expiré et n'a pas pu être renouvelée automatiquement. Veuillez vous reconnecter.",
   "commonLogout": "Déconnexion",
   "commonNotSet": "Non défini",
   "commonPassword": "Mot de passe",
@@ -39,7 +39,7 @@
   "commonRegistrationTime": "Date d’inscription",
   "commonUsername": "Nom d’utilisateur",
   "courseGridSettings": "Paramètres de la grille",
-  "courseHubLoginButton": "Log in",
+  "courseHubLoginButton": "Se connecter",
   "courseHubScores": "Notes",
   "courseHubTimetable": "Emploi du temps",
   "courseHubTitle": "Centre pédagogique",
@@ -62,12 +62,12 @@
   "dynamicColorSourceAccent": "Utiliser la couleur d’accent système",
   "dynamicColorSourceGtk": "Utiliser la couleur du thème GTK",
   "dynamicColorSourceWallpaper": "Extraire du fond d’écran système",
-  "ecardPaymentTitle": "E-Card Payment Code",
+  "ecardPaymentTitle": "Code de paiement E-Card",
   "editorAllDayTitle": "tâches toute la journée",
   "editorColorAmber": "ambre",
   "editorColorCoral": "rouge corail",
   "editorColorCrimson": "cramoisi",
-  "editorColorIndigo": "indigo",
+  "editorColorIndigo": "Indigo",
   "editorColorJade": "vert émeraude",
   "editorColorLime": "vert lime",
   "editorColorOrchid": "bleu violet",
@@ -154,10 +154,10 @@
   "emptyClassroomTitle": "Salles Libres",
   "emptyClassroomUndo": "Annuler",
   "emptyClassroomWeekLabel": "Semaine {week}",
-  "emptyTimetableImportCourse": "2. Import courses",
-  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
-  "emptyTimetableLoginWhu": "1. Log in to WHU account",
-  "emptyTimetableTitle": "No courses added yet",
+  "emptyTimetableImportCourse": "2. Importer les cours",
+  "emptyTimetableLoggedInWhu": "Connecté au compte WHU",
+  "emptyTimetableLoginWhu": "1. Se connecter au compte WHU",
+  "emptyTimetableTitle": "Aucun cours ajouté pour le moment",
   "enableWidgetSync": "Sync. widgets",
   "enterTimetableName": "Entrer le nom",
   "fallbackRefreshInterval": "Intervalle de rafraîchissement",
@@ -303,7 +303,7 @@
     }
   },
   "licenseProjectHomepage": "Site du projet",
-  "settingsAboutVersionTitle": "version",
+  "settingsAboutVersionTitle": "Version",
   "settingsAccountLocalTitle": "compte local",
   "settingsAccountWhuLoggedIn": "Certifié",
   "settingsAccountWhuNotLoggedIn": "Non connecté",
@@ -339,9 +339,9 @@
   "settingsNavigationEntrySubtitle": "Libellés et onglet central",
   "settingsNavigationEntryTitle": "Paramètres de la barre de navigation",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacyPolicy": "Privacy Policy",
-  "settingsTermsOfService": "Terms of Service",
-  "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
+  "settingsPrivacyPolicy": "Politique de confidentialité",
+  "settingsTermsOfService": "Conditions d'utilisation",
+  "settingsCrossBorderDataTransfer": "Avis de transfert transfrontalier de données",
   "settingsTheme": "Thème",
   "settingsTitle": "paramètres",
   "settingsVersion": "Version",
@@ -363,8 +363,8 @@
   "showNavigationLabels": "Afficher les libellés",
   "sourceManual": "Source: Manuel",
   "sourceMerged": "Source: Fusionné",
-  "sourceWakeup": "Source: Wakeup",
-  "sourceWhu": "Source: WHU",
+  "sourceWakeup": "Source : Wakeup",
+  "sourceWhu": "Source : WHU",
   "sportsAllVenues": "Tous les lieux",
   "sportsBooking": "Réservation…",
   "sportsBookingFailed": "Échec de la réservation. Réessayez.",
@@ -1073,7 +1073,7 @@
   "sportsOrderRealName": "Nom",
   "sportsOrderStudentWorkNo": "Nº étudiant/employé",
   "sportsVenueFree": "Gratuit",
-  "sportsVenuePriceFormat": "{price} CNY",
+  "sportsVenuePriceFormat": "{price} ¥",
   "@sportsVenuePriceFormat": {
     "placeholders": {
       "price": {
@@ -1081,7 +1081,7 @@
       }
     }
   },
-  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
+  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} ¥",
   "@sportsVenuePriceRangeFormat": {
     "placeholders": {
       "lowPrice": {
@@ -1092,7 +1092,7 @@
       }
     }
   },
-  "sportsOrderPriceWithUnitFormat": "{value} CNY",
+  "sportsOrderPriceWithUnitFormat": "{value} ¥",
   "@sportsOrderPriceWithUnitFormat": {
     "placeholders": {
       "value": {
@@ -1239,8 +1239,8 @@
       }
     }
   },
-  "scoreImportLastImport": "Last Import",
-  "scoreImportTime": "Time: {time}",
+  "scoreImportLastImport": "Dernière importation",
+  "scoreImportTime": "Heure : {time}",
   "@scoreImportTime": {
     "placeholders": {
       "time": {
@@ -1248,7 +1248,7 @@
       }
     }
   },
-  "scoreImportCount": "Score count: {count}",
+  "scoreImportCount": "Nombre de notes : {count}",
   "@scoreImportCount": {
     "placeholders": {
       "count": {
@@ -1256,7 +1256,7 @@
       }
     }
   },
-  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "scoreImportExample": "Exemple : {name} · {score} · {credit}",
   "@scoreImportExample": {
     "placeholders": {
       "name": {
@@ -1381,7 +1381,7 @@
       }
     }
   },
-  "weatherAqiExcellent": "Excellent",
+  "weatherAqiExcellent": "Excellente",
   "weatherAqiGood": "Bon",
   "weatherAqiModerate": "Modéré",
   "weatherAqiPoor": "Médiocre",
@@ -1486,7 +1486,7 @@
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
   "settingsBuildInfoVersion": "Version",
-  "settingsBuildInfoBuildNumber": "Build",
+  "settingsBuildInfoBuildNumber": "Révision",
   "settingsBuildInfoChannel": "Canal",
   "settingsBuildInfoType": "Type",
   "weatherAqiStandardUs": "Norme US",
@@ -1625,7 +1625,7 @@
   "wallpaperTargetSettings": "Paramètres",
   "wallpaperTargetTaskList": "Liste de tâches",
   "wallpaperTargetForum": "Forum",
-  "wallpaperTargetAi": "AI",
+  "wallpaperTargetAi": "IA",
   "libraryBorrowingPlaceholder": "Le prêt de livres est en cours de développement…",
   "settingsAiProvider": "Fournisseur d’IA",
   "settingsAiModels": "Liste des modèles",
@@ -1641,21 +1641,21 @@
   "settingsAiModelHint": "Saisissez un nom de modèle ou choisissez dans la liste",
   "homeJumpCurrentWeek": "Sem. en cours",
   "homeJumpSemesterStartWeek": "Début",
-  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "weatherAirQualityAccuHint": "Passez à AccuWeather pour des détails sur les polluants",
   "languageFollowSystem": "Suivre le système",
   "languageFollowApp": "Suivre l'application",
-  "ecardPaycodeTitle": "E-Card Payment Code",
-  "ecardPaycodeUseWeb": "Use web version",
-  "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
-  "ecardPaycodeRefreshing": "Refreshing payment code…",
-  "ecardPaycodeLoading": "Getting payment code…",
-  "ecardPaycodeAccountFallback": "WHU account",
-  "ecardPaycodeSessionExpired": "Session expired. Please re-login to WHU under Account.",
-  "ecardPaycodeFetchFailed": "Failed to get payment code. Retry or use the web version.",
-  "ecardPaycodeShowToMerchant": "Show this code to the merchant to pay",
-  "ecardPaycodeAutoRefreshHint": "Auto-refreshes every minute. Do not use screenshots.",
+  "ecardPaycodeTitle": "Code de paiement E-Card",
+  "ecardPaycodeUseWeb": "Utiliser la version web",
+  "ecardPaycodeUseWebSubtitle": "Si le code de paiement natif ne fonctionne pas, utilisez la version de secours",
+  "ecardPaycodeRefreshing": "Actualisation du code de paiement…",
+  "ecardPaycodeLoading": "Récupération du code de paiement…",
+  "ecardPaycodeAccountFallback": "Compte WHU",
+  "ecardPaycodeSessionExpired": "Session expirée. Veuillez vous reconnecter au WHU depuis l'onglet Compte.",
+  "ecardPaycodeFetchFailed": "Échec de la récupération du code de paiement. Réessayez ou utilisez la version web.",
+  "ecardPaycodeShowToMerchant": "Présentez ce code au commerçant pour payer",
+  "ecardPaycodeAutoRefreshHint": "Actualisation automatique toutes les minutes. N'utilisez pas de captures d'écran.",
   "ecardPaycodeRefreshNow": "Actualiser",
-  "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
+  "ecardPaycodeRefreshInSeconds": "Actualisation dans {seconds}s",
   "@ecardPaycodeRefreshInSeconds": {
     "placeholders": {
       "seconds": {
@@ -1663,13 +1663,13 @@
       }
     }
   },
-  "ecardPaycodeUnavailable": "Unable to get payment code for now",
-  "studyStatusTitle": "Academic status",
-  "studyStatusEmptyTitle": "No academic data yet",
-  "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",
-  "studyStatusFetchData": "Fetch data",
-  "studyStatusFetchFailed": "Failed to fetch data",
-  "studyStatusStatsTime": "Stats as of {time}",
+  "ecardPaycodeUnavailable": "Impossible de récupérer le code de paiement pour le moment",
+  "studyStatusTitle": "Situation académique",
+  "studyStatusEmptyTitle": "Aucune donnée académique",
+  "studyStatusEmptyHint": "Appuyez sur actualiser pour récupérer les données du système académique",
+  "studyStatusFetchData": "Récupérer les données",
+  "studyStatusFetchFailed": "Échec de la récupération des données",
+  "studyStatusStatsTime": "Données au {time}",
   "@studyStatusStatsTime": {
     "placeholders": {
       "time": {
@@ -1677,16 +1677,16 @@
       }
     }
   },
-  "studyStatusTrainingPlan": "Training plan",
+  "studyStatusTrainingPlan": "Plan de formation",
   "studyStatusCurrentTrainingPlan": "Programme actuellement affiché",
-  "studyStatusCourseOverview": "Course overview",
+  "studyStatusCourseOverview": "Vue d'ensemble des cours",
   "studyStatusFilterAll": "Tous",
   "studyStatusFilterPassed": "Réussi",
   "studyStatusFilterFailed": "Échoué",
   "studyStatusFilterStudying": "En cours",
   "studyStatusFilterNotTaken": "Non pris",
-  "studyStatusOutOfPlan": "Out of plan",
-  "studyStatusTotalCourses": "{count} courses",
+  "studyStatusOutOfPlan": "Hors plan",
+  "studyStatusTotalCourses": "{count} cours",
   "@studyStatusTotalCourses": {
     "placeholders": {
       "count": {
@@ -1694,7 +1694,7 @@
       }
     }
   },
-  "studyStatusPassedCount": "Passed {count}",
+  "studyStatusPassedCount": "Réussi {count}",
   "@studyStatusPassedCount": {
     "placeholders": {
       "count": {
@@ -1702,7 +1702,7 @@
       }
     }
   },
-  "studyStatusFailedCount": "Failed {count}",
+  "studyStatusFailedCount": "Échoué {count}",
   "@studyStatusFailedCount": {
     "placeholders": {
       "count": {
@@ -1710,7 +1710,7 @@
       }
     }
   },
-  "studyStatusStudyingCount": "In progress {count}",
+  "studyStatusStudyingCount": "En cours {count}",
   "@studyStatusStudyingCount": {
     "placeholders": {
       "count": {
@@ -1718,7 +1718,7 @@
       }
     }
   },
-  "studyStatusRequiredCredits": "Required {credits} credits",
+  "studyStatusRequiredCredits": "{credits} crédits requis",
   "@studyStatusRequiredCredits": {
     "placeholders": {
       "credits": {
@@ -1726,7 +1726,7 @@
       }
     }
   },
-  "studyStatusEarnedCredits": "Earned {credits} credits",
+  "studyStatusEarnedCredits": "{credits} crédits obtenus",
   "@studyStatusEarnedCredits": {
     "placeholders": {
       "credits": {
@@ -1734,8 +1734,8 @@
       }
     }
   },
-  "studyStatusNoCourses": "No course data",
-  "studyStatusCredits": "{credit} credits",
+  "studyStatusNoCourses": "Aucune donnée de cours",
+  "studyStatusCredits": "{credit} crédits",
   "@studyStatusCredits": {
     "placeholders": {
       "credit": {
@@ -1743,7 +1743,7 @@
       }
     }
   },
-  "studyStatusRetake": "Retake",
+  "studyStatusRetake": "À reprendre",
   "studyStatusScorePoints": "{score} pts",
   "@studyStatusScorePoints": {
     "placeholders": {
@@ -1752,7 +1752,7 @@
       }
     }
   },
-  "studyStatusOriginalScore": "Orig. {score} pts",
+  "studyStatusOriginalScore": "Score orig. {score} pts",
   "@studyStatusOriginalScore": {
     "placeholders": {
       "score": {
@@ -1768,20 +1768,20 @@
       }
     }
   },
-  "scorePageStudyStatus": "Academic status",
-  "scorePageFetchStudyStatus": "Fetch academic status",
+  "scorePageStudyStatus": "Situation académique",
+  "scorePageFetchStudyStatus": "Récupérer la situation académique",
   "aiTimeline": "Chronologie",
-  "weatherDetailTitle": "Weather details",
-  "weatherDetailTemperature": "Temperature",
-  "weatherDetailFeelsLike": "Feels like",
-  "weatherDetailHighLow": "High / Low",
-  "weatherDetailHumidity": "Humidity",
-  "weatherDetailUv": "UV index",
-  "weatherDetailWind": "Wind",
-  "weatherDetailPressure": "Pressure",
-  "weatherDetailVisibility": "Visibility",
-  "weatherDetailSunrise": "Sunrise",
-  "weatherDetailSunset": "Sunset",
+  "weatherDetailTitle": "Détails météo",
+  "weatherDetailTemperature": "Température",
+  "weatherDetailFeelsLike": "Ressenti",
+  "weatherDetailHighLow": "Max / Min",
+  "weatherDetailHumidity": "Humidité",
+  "weatherDetailUv": "Indice UV",
+  "weatherDetailWind": "Vent",
+  "weatherDetailPressure": "Pression",
+  "weatherDetailVisibility": "Visibilité",
+  "weatherDetailSunrise": "Lever du soleil",
+  "weatherDetailSunset": "Coucher du soleil",
   "onboardingWelcomeTitle": "Bienvenue dans Luotopia",
   "onboardingWelcomeSubtitle": "Quelques étapes rapides pour configurer votre compagnon de campus.",
   "onboardingChooseLanguage": "Choisissez d’abord la langue",
@@ -1792,10 +1792,10 @@
   "onboardingLegalSubtitle": "Veuillez lire et accepter nos conditions pour continuer.",
   "onboardingLegalAgreePrefix": "J’ai lu et j’accepte ",
   "onboardingLegalRequired": "Veuillez d’abord accepter les conditions d’utilisation et la politique de confidentialité.",
-  "onboardingLegalLastUpdated": "Updated: {date}",
-  "onboardingLegalUpdateTitle": "Updated terms",
-  "onboardingLegalUpdateSubtitle": "We have updated the following agreements. Please read and accept them again to continue using the app. If you do not agree, please stop using the app and uninstall it.",
-  "onboardingLegalUpdateContinue": "Agree and continue",
+  "onboardingLegalLastUpdated": "Mis à jour le {date}",
+  "onboardingLegalUpdateTitle": "Conditions mises à jour",
+  "onboardingLegalUpdateSubtitle": "Nous avons mis à jour les accords suivants. Veuillez les lire et les accepter pour continuer à utiliser l'application. Si vous n'êtes pas d'accord, veuillez arrêter d'utiliser l'application et la désinstaller.",
+  "onboardingLegalUpdateContinue": "Accepter et continuer",
   "onboardingPermissionsTitle": "Autorisations nécessaires",
   "onboardingPermissionsSubtitle": "Ces autorisations débloquent des fonctions précises. Vous pourrez les accorder plus tard dans les réglages système.",
   "onboardingPermissionsLaterHint": "Sans autorisation, seules les fonctions concernées sont limitées ; vous pourrez les accorder plus tard.",
@@ -1907,7 +1907,7 @@
   "debuggerExportSuccess": "{count} requête(s) exportée(s)",
   "debuggerCopyValue": "Copier la valeur",
   "debuggerPaused": "En pause",
-  "loginRequiredToUse": "Log in to use {feature}",
+  "loginRequiredToUse": "Connectez-vous pour utiliser {feature}",
   "campusAppMessages": "Messages",
   "messagesTabAll": "Tous",
   "messagesTabNotifications": "Notifications",

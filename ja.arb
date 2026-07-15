@@ -6,7 +6,7 @@
   "allCourseItemsInThisTimetableW": "この時間割のすべてのコースが削除されます。",
   "alwaysHide": "常に非表示",
   "alwaysShow": "常に表示",
-  "appTitle": "Luotopia",
+  "appTitle": "ロートピア",
   "baseColorForStaticTheme": "静的テーマの基本色",
   "biometricLockFailed": "認証に失敗しました",
   "biometricLockReason": "ロックを解除して Luotopia を利用",
@@ -31,7 +31,7 @@
   "commonEmail": "メール",
   "commonId": "ID",
   "commonLogin": "ログイン",
-  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "whuSessionExpiredPrompt": "ログインセッションが期限切れで、自動更新に失敗しました。再度ログインしてください。",
   "commonLogout": "ログアウト",
   "commonNotSet": "未設定",
   "commonPassword": "パスワード",
@@ -39,7 +39,7 @@
   "commonRegistrationTime": "登録日時",
   "commonUsername": "ユーザー名",
   "courseGridSettings": "コースグリッド設定",
-  "courseHubLoginButton": "Log in",
+  "courseHubLoginButton": "ログイン",
   "courseHubScores": "成績",
   "courseHubTimetable": "時間割",
   "courseHubTitle": "教務ハブ",
@@ -62,7 +62,7 @@
   "dynamicColorSourceAccent": "システムのアクセントカラーを使用",
   "dynamicColorSourceGtk": "GTK テーマの色を使用",
   "dynamicColorSourceWallpaper": "システム壁紙から抽出",
-  "ecardPaymentTitle": "E-Card Payment Code",
+  "ecardPaymentTitle": "Eカード決済コード",
   "editorAllDayTitle": "終日のタスク",
   "editorColorAmber": "琥珀",
   "editorColorCoral": "コーラルレッド",
@@ -154,10 +154,10 @@
   "emptyClassroomTitle": "空き教室",
   "emptyClassroomUndo": "元に戻す",
   "emptyClassroomWeekLabel": "第{week}週",
-  "emptyTimetableImportCourse": "2. Import courses",
-  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
-  "emptyTimetableLoginWhu": "1. Log in to WHU account",
-  "emptyTimetableTitle": "No courses added yet",
+  "emptyTimetableImportCourse": "2. コースをインポート",
+  "emptyTimetableLoggedInWhu": "WHUアカウントにログイン済み",
+  "emptyTimetableLoginWhu": "1. WHUアカウントにログイン",
+  "emptyTimetableTitle": "まだコースが追加されていません",
   "enableWidgetSync": "ウィジェット同期",
   "enterTimetableName": "時間割名を入力",
   "fallbackRefreshInterval": "フォールバック更新間隔",
@@ -187,11 +187,11 @@
   "headerOpenListSettings": "リストページの設定を開く",
   "headerOpenListTabs": "タブの選択を開く",
   "homeCalendarMainLabelWeek": "第{week}週",
-  "homeCalendarMonthDayRange": "{day} - {endDay}",
+  "homeCalendarMonthDayRange": "{day}日 - {endDay}日",
   "homeCalendarMonthWeek": "{month} 第{month}週",
   "homeCalendarSummerBreak": "夏休",
-  "homeCalendarTopLabel": "{year} {term}",
-  "homeCalendarTopLabelYearOnly": "{year}",
+  "homeCalendarTopLabel": "{year}年度 {term}",
+  "homeCalendarTopLabelYearOnly": "{year}年度",
   "homeCalendarWinterBreak": "冬休",
   "homeCalendarYearMonth": "{year}年 {year}",
   "homeCalendarYearWeek": "{year}年 第{year}週",
@@ -357,9 +357,9 @@
   "settingsNavigationEntrySubtitle": "ラベルと中央タブ",
   "settingsNavigationEntryTitle": "ナビゲーションバーの設定",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacyPolicy": "Privacy Policy",
-  "settingsTermsOfService": "Terms of Service",
-  "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
+  "settingsPrivacyPolicy": "プライバシーポリシー",
+  "settingsTermsOfService": "利用規約",
+  "settingsCrossBorderDataTransfer": "国境を越えるデータ移転に関する通知",
   "settingsTheme": "テーマ",
   "settingsTitle": "設定",
   "settingsVersion": "バージョン",
@@ -1233,7 +1233,7 @@
       }
     }
   },
-  "scoreImportFailedWithError": "{failed}: {error}",
+  "scoreImportFailedWithError": "{failed}：{error}",
   "@scoreImportFailedWithError": {
     "placeholders": {
       "failed": {
@@ -1257,8 +1257,8 @@
       }
     }
   },
-  "scoreImportLastImport": "Last Import",
-  "scoreImportTime": "Time: {time}",
+  "scoreImportLastImport": "前回のインポート",
+  "scoreImportTime": "時刻: {time}",
   "@scoreImportTime": {
     "placeholders": {
       "time": {
@@ -1266,7 +1266,7 @@
       }
     }
   },
-  "scoreImportCount": "Score count: {count}",
+  "scoreImportCount": "成績件数: {count}",
   "@scoreImportCount": {
     "placeholders": {
       "count": {
@@ -1274,7 +1274,7 @@
       }
     }
   },
-  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "scoreImportExample": "例: {name} · {score} · {credit}",
   "@scoreImportExample": {
     "placeholders": {
       "name": {
@@ -1365,7 +1365,7 @@
   "aiFormatAnthropic": "Anthropic",
   "aiSystemPromptDefault": "あなたは Luotopia の AI アシスタントです。現在のユーザーメッセージと提供された予定要約のみに基づいて回答し、過去の会話は参照しません。予定の作成・整理とスケジューリングの質問を優先して支援してください。",
   "whuAccountFallbackName": "武大アカウント",
-  "homeWidgetDateLabel": "{month}/{day}",
+  "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
     "placeholders": {
       "month": {
@@ -1659,7 +1659,7 @@
   "settingsAiModelHint": "モデル名を入力するか一覧から選択",
   "homeJumpCurrentWeek": "今週",
   "homeJumpSemesterStartWeek": "開講週",
-  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "weatherAirQualityAccuHint": "AQIプロバイダーをAccuWeatherに切り替えると汚染物質の詳細を確認できます",
   "languageFollowSystem": "システムに従う",
   "languageFollowApp": "アプリに従う",
   "ecardPaycodeTitle": "Eカード支払コード",
@@ -1789,17 +1789,17 @@
   "scorePageStudyStatus": "履修状況",
   "scorePageFetchStudyStatus": "履修状況を取得",
   "aiTimeline": "タイムライン",
-  "weatherDetailTitle": "Weather details",
-  "weatherDetailTemperature": "Temperature",
-  "weatherDetailFeelsLike": "Feels like",
-  "weatherDetailHighLow": "High / Low",
-  "weatherDetailHumidity": "Humidity",
-  "weatherDetailUv": "UV index",
-  "weatherDetailWind": "Wind",
-  "weatherDetailPressure": "Pressure",
-  "weatherDetailVisibility": "Visibility",
-  "weatherDetailSunrise": "Sunrise",
-  "weatherDetailSunset": "Sunset",
+  "weatherDetailTitle": "天気の詳細",
+  "weatherDetailTemperature": "気温",
+  "weatherDetailFeelsLike": "体感温度",
+  "weatherDetailHighLow": "最高 / 最低",
+  "weatherDetailHumidity": "湿度",
+  "weatherDetailUv": "UV指数",
+  "weatherDetailWind": "風",
+  "weatherDetailPressure": "気圧",
+  "weatherDetailVisibility": "視界",
+  "weatherDetailSunrise": "日の出",
+  "weatherDetailSunset": "日の入り",
   "onboardingWelcomeTitle": "珞家へようこそ",
   "onboardingWelcomeSubtitle": "キャンパス生活を支えるアプリの初期設定を、いくつかのステップで進めます。",
   "onboardingChooseLanguage": "まず言語を選択",
@@ -1810,10 +1810,10 @@
   "onboardingLegalSubtitle": "続行する前に、内容を確認して同意してください。",
   "onboardingLegalAgreePrefix": "以下に同意します：",
   "onboardingLegalRequired": "先に利用規約とプライバシーポリシーに同意してください。",
-  "onboardingLegalLastUpdated": "Updated: {date}",
-  "onboardingLegalUpdateTitle": "Updated terms",
-  "onboardingLegalUpdateSubtitle": "We have updated the following agreements. Please read and accept them again to continue using the app. If you do not agree, please stop using the app and uninstall it.",
-  "onboardingLegalUpdateContinue": "Agree and continue",
+  "onboardingLegalLastUpdated": "更新日: {date}",
+  "onboardingLegalUpdateTitle": "利用規約の更新",
+  "onboardingLegalUpdateSubtitle": "以下の利用規約を更新しました。続行するには、内容を確認して同意してください。同意しない場合は、アプリの使用を中止し、アンインストールしてください。",
+  "onboardingLegalUpdateContinue": "同意して続ける",
   "onboardingPermissionsTitle": "必要な権限",
   "onboardingPermissionsSubtitle": "これらの権限は各機能で使用します。後からシステム設定で許可することもできます。",
   "onboardingPermissionsLaterHint": "権限がなくても関連機能が使えないだけで、後からいつでも許可できます。",
@@ -1925,7 +1925,7 @@
   "debuggerExportSuccess": "{count} 件のリクエストをエクスポートしました",
   "debuggerCopyValue": "値をコピー",
   "debuggerPaused": "一時停止中",
-  "loginRequiredToUse": "Log in to use {feature}",
+  "loginRequiredToUse": "{feature}を使用するにはログインしてください",
   "campusAppMessages": "メッセージ",
   "messagesTabAll": "すべて",
   "messagesTabNotifications": "通知",
@@ -1961,7 +1961,7 @@
   "scoreTranscriptSaved": "PDFを保存しました。",
   "scoreTranscriptShare": "共有",
   "scoreTranscriptSaveAs": "名前を付けて保存"
-  ,"authSecurityTitle":"セキュリティと二段階認証","authTwoFactorTitle":"二段階認証 (2FA)","authTwoFactorEnabled":"有効：ログイン時にメールコードまたはPasskeyが必要です","authTwoFactorDisabled":"無効：ログイン時はパスワードのみ必要です","authCurrentPassword":"現在のパスワード","authPasskeys":"Passkey","authRegisterPasskey":"この端末にPasskeyを登録","authPasskeyRegistered":"Passkeyを登録しました","authNoPasskeys":"Passkeyはまだありません","authForgotPassword":"パスワードを忘れましたか？","authResetPassword":"パスワードをリセット","authSendResetLink":"リセットリンクを送信","authResetRequested":"このメールが登録されている場合、リセットリンクを送信しました。","authMfaTitle":"二段階認証","authMfaEmailSent":"確認コードを {email} に送信しました","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"メール確認コード","authVerifyAndLogin":"確認してログイン","authUsePasskey":"Passkeyを使用","authResendCode":"コードを再送信","authBackToPasswordLogin":"パスワードログインに戻る","authLoginRequired":"先にログインしてください",
+  ,"authSecurityTitle":"セキュリティと二段階認証","authTwoFactorTitle":"二段階認証 (2FA)","authTwoFactorEnabled":"有効：ログイン時にメールコードまたはPasskeyが必要です","authTwoFactorDisabled":"無効：ログイン時はパスワードのみ必要です","authCurrentPassword":"現在のパスワード","authPasskeys":"パスキー","authRegisterPasskey":"この端末にPasskeyを登録","authPasskeyRegistered":"Passkeyを登録しました","authNoPasskeys":"Passkeyはまだありません","authForgotPassword":"パスワードを忘れましたか？","authResetPassword":"パスワードをリセット","authSendResetLink":"リセットリンクを送信","authResetRequested":"このメールが登録されている場合、リセットリンクを送信しました。","authMfaTitle":"二段階認証","authMfaEmailSent":"確認コードを {email} に送信しました","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"メール確認コード","authVerifyAndLogin":"確認してログイン","authUsePasskey":"Passkeyを使用","authResendCode":"コードを再送信","authBackToPasswordLogin":"パスワードログインに戻る","authLoginRequired":"先にログインしてください",
   "commonConfirm": "確認",
   "commonContinue": "続ける",
   "commonCopy": "コピー",

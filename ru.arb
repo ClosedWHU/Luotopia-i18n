@@ -31,7 +31,7 @@
   "commonEmail": "Эл. почта",
   "commonId": "ID",
   "commonLogin": "Войти",
-  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "whuSessionExpiredPrompt": "Ваш сеанс истёк, и автоматическое обновление не удалось. Пожалуйста, войдите заново.",
   "commonLogout": "Выйти",
   "commonNotSet": "Не задано",
   "commonPassword": "Пароль",
@@ -39,7 +39,7 @@
   "commonRegistrationTime": "Время регистрации",
   "commonUsername": "Имя пользователя",
   "courseGridSettings": "Настройки сетки курсов",
-  "courseHubLoginButton": "Log in",
+  "courseHubLoginButton": "Войти",
   "courseHubScores": "Оценки",
   "courseHubTimetable": "Расписание",
   "courseHubTitle": "Учебный центр",
@@ -62,7 +62,7 @@
   "dynamicColorSourceAccent": "Использовать системный акцентный цвет",
   "dynamicColorSourceGtk": "Использовать цвет темы GTK",
   "dynamicColorSourceWallpaper": "Извлекать из системных обоев",
-  "ecardPaymentTitle": "E-Card Payment Code",
+  "ecardPaymentTitle": "Код оплаты E-Card",
   "editorAllDayTitle": "задачи на весь день",
   "editorColorAmber": "янтарь",
   "editorColorCoral": "кораллово-красный",
@@ -154,10 +154,10 @@
   "emptyClassroomTitle": "Свободные аудитории",
   "emptyClassroomUndo": "Отменить",
   "emptyClassroomWeekLabel": "Неделя {week}",
-  "emptyTimetableImportCourse": "2. Import courses",
-  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
-  "emptyTimetableLoginWhu": "1. Log in to WHU account",
-  "emptyTimetableTitle": "No courses added yet",
+  "emptyTimetableImportCourse": "2. Импортировать курсы",
+  "emptyTimetableLoggedInWhu": "Вход в аккаунт WHU выполнен",
+  "emptyTimetableLoginWhu": "1. Войти в аккаунт WHU",
+  "emptyTimetableTitle": "Курсы ещё не добавлены",
   "enableWidgetSync": "Синхр. виджетов",
   "enterTimetableName": "Введите название расписания",
   "fallbackRefreshInterval": "Интервал резервного обновления",
@@ -337,9 +337,9 @@
   "settingsNavigationEntrySubtitle": "Подписи и центр. вкладка",
   "settingsNavigationEntryTitle": "Настройки панели навигации",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacyPolicy": "Privacy Policy",
-  "settingsTermsOfService": "Terms of Service",
-  "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
+  "settingsPrivacyPolicy": "Политика конфиденциальности",
+  "settingsTermsOfService": "Условия использования",
+  "settingsCrossBorderDataTransfer": "Уведомление о трансграничной передаче данных",
   "settingsTheme": "Тема",
   "settingsTitle": "настройки",
   "settingsVersion": "Версия",
@@ -1069,7 +1069,7 @@
   "sportsOrderRealName": "ФИО",
   "sportsOrderStudentWorkNo": "Студ./таб. №",
   "sportsVenueFree": "Бесплатно",
-  "sportsVenuePriceFormat": "{price} CNY",
+  "sportsVenuePriceFormat": "{price} юаней",
   "@sportsVenuePriceFormat": {
     "placeholders": {
       "price": {
@@ -1077,7 +1077,7 @@
       }
     }
   },
-  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
+  "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} юаней",
   "@sportsVenuePriceRangeFormat": {
     "placeholders": {
       "lowPrice": {
@@ -1088,7 +1088,7 @@
       }
     }
   },
-  "sportsOrderPriceWithUnitFormat": "{value} CNY",
+  "sportsOrderPriceWithUnitFormat": "{value} юаней",
   "@sportsOrderPriceWithUnitFormat": {
     "placeholders": {
       "value": {
@@ -1234,8 +1234,8 @@
       }
     }
   },
-  "scoreImportLastImport": "Last Import",
-  "scoreImportTime": "Time: {time}",
+  "scoreImportLastImport": "Последний импорт",
+  "scoreImportTime": "Время: {time}",
   "@scoreImportTime": {
     "placeholders": {
       "time": {
@@ -1243,7 +1243,7 @@
       }
     }
   },
-  "scoreImportCount": "Score count: {count}",
+  "scoreImportCount": "Количество оценок: {count}",
   "@scoreImportCount": {
     "placeholders": {
       "count": {
@@ -1251,7 +1251,7 @@
       }
     }
   },
-  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "scoreImportExample": "Пример: {name} · {score} · {credit}",
   "@scoreImportExample": {
     "placeholders": {
       "name": {
@@ -1620,7 +1620,7 @@
   "wallpaperTargetSettings": "Настройки",
   "wallpaperTargetTaskList": "Список задач",
   "wallpaperTargetForum": "Форум",
-  "wallpaperTargetAi": "AI",
+  "wallpaperTargetAi": "ИИ",
   "libraryBorrowingPlaceholder": "Выдача книг в разработке…",
   "settingsAiProvider": "Провайдер ИИ",
   "settingsAiModels": "Список моделей",
@@ -1636,21 +1636,21 @@
   "settingsAiModelHint": "Введите имя модели или выберите из списка",
   "homeJumpCurrentWeek": "Сейчас",
   "homeJumpSemesterStartWeek": "Старт",
-  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "weatherAirQualityAccuHint": "Переключите поставщик AQI на AccuWeather для подробных данных о загрязнении",
   "languageFollowSystem": "Как в системе",
   "languageFollowApp": "Как в приложении",
-  "ecardPaycodeTitle": "E-Card Payment Code",
-  "ecardPaycodeUseWeb": "Use web version",
-  "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
-  "ecardPaycodeRefreshing": "Refreshing payment code…",
-  "ecardPaycodeLoading": "Getting payment code…",
-  "ecardPaycodeAccountFallback": "WHU account",
-  "ecardPaycodeSessionExpired": "Session expired. Please re-login to WHU under Account.",
-  "ecardPaycodeFetchFailed": "Failed to get payment code. Retry or use the web version.",
-  "ecardPaycodeShowToMerchant": "Show this code to the merchant to pay",
-  "ecardPaycodeAutoRefreshHint": "Auto-refreshes every minute. Do not use screenshots.",
+  "ecardPaycodeTitle": "Код оплаты E-Card",
+  "ecardPaycodeUseWeb": "Использовать веб-версию",
+  "ecardPaycodeUseWebSubtitle": "Если встроенный код оплаты не работает, используйте резервный вариант",
+  "ecardPaycodeRefreshing": "Обновление кода оплаты…",
+  "ecardPaycodeLoading": "Получение кода оплаты…",
+  "ecardPaycodeAccountFallback": "Аккаунт WHU",
+  "ecardPaycodeSessionExpired": "Сеанс истёк. Пожалуйста, войдите в WHU заново в разделе «Аккаунт».",
+  "ecardPaycodeFetchFailed": "Не удалось получить код оплаты. Повторите попытку или используйте веб-версию.",
+  "ecardPaycodeShowToMerchant": "Покажите этот код продавцу для оплаты",
+  "ecardPaycodeAutoRefreshHint": "Обновляется автоматически каждую минуту. Не используйте скриншоты.",
   "ecardPaycodeRefreshNow": "Обновить",
-  "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
+  "ecardPaycodeRefreshInSeconds": "Обновление через {seconds} сек.",
   "@ecardPaycodeRefreshInSeconds": {
     "placeholders": {
       "seconds": {
@@ -1658,13 +1658,13 @@
       }
     }
   },
-  "ecardPaycodeUnavailable": "Unable to get payment code for now",
-  "studyStatusTitle": "Academic status",
-  "studyStatusEmptyTitle": "No academic data yet",
-  "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",
-  "studyStatusFetchData": "Fetch data",
-  "studyStatusFetchFailed": "Failed to fetch data",
-  "studyStatusStatsTime": "Stats as of {time}",
+  "ecardPaycodeUnavailable": "В данный момент невозможно получить код оплаты",
+  "studyStatusTitle": "Учёба",
+  "studyStatusEmptyTitle": "Учебных данных пока нет",
+  "studyStatusEmptyHint": "Нажмите «Обновить» для загрузки из учебной системы",
+  "studyStatusFetchData": "Загрузить данные",
+  "studyStatusFetchFailed": "Не удалось загрузить данные",
+  "studyStatusStatsTime": "Статистика на {time}",
   "@studyStatusStatsTime": {
     "placeholders": {
       "time": {
@@ -1672,16 +1672,16 @@
       }
     }
   },
-  "studyStatusTrainingPlan": "Training plan",
+  "studyStatusTrainingPlan": "Учебный план",
   "studyStatusCurrentTrainingPlan": "Отображаемый учебный план",
-  "studyStatusCourseOverview": "Course overview",
+  "studyStatusCourseOverview": "Обзор курсов",
   "studyStatusFilterAll": "Все",
   "studyStatusFilterPassed": "Сдано",
   "studyStatusFilterFailed": "Не сдано",
   "studyStatusFilterStudying": "Изучается",
   "studyStatusFilterNotTaken": "Не взято",
-  "studyStatusOutOfPlan": "Out of plan",
-  "studyStatusTotalCourses": "{count} courses",
+  "studyStatusOutOfPlan": "Вне плана",
+  "studyStatusTotalCourses": "{count} курсов",
   "@studyStatusTotalCourses": {
     "placeholders": {
       "count": {
@@ -1689,7 +1689,7 @@
       }
     }
   },
-  "studyStatusPassedCount": "Passed {count}",
+  "studyStatusPassedCount": "Сдано {count}",
   "@studyStatusPassedCount": {
     "placeholders": {
       "count": {
@@ -1697,7 +1697,7 @@
       }
     }
   },
-  "studyStatusFailedCount": "Failed {count}",
+  "studyStatusFailedCount": "Не сдано {count}",
   "@studyStatusFailedCount": {
     "placeholders": {
       "count": {
@@ -1705,7 +1705,7 @@
       }
     }
   },
-  "studyStatusStudyingCount": "In progress {count}",
+  "studyStatusStudyingCount": "В процессе {count}",
   "@studyStatusStudyingCount": {
     "placeholders": {
       "count": {
@@ -1713,7 +1713,7 @@
       }
     }
   },
-  "studyStatusRequiredCredits": "Required {credits} credits",
+  "studyStatusRequiredCredits": "Требуется {credits} кредитов",
   "@studyStatusRequiredCredits": {
     "placeholders": {
       "credits": {
@@ -1721,7 +1721,7 @@
       }
     }
   },
-  "studyStatusEarnedCredits": "Earned {credits} credits",
+  "studyStatusEarnedCredits": "Получено {credits} кредитов",
   "@studyStatusEarnedCredits": {
     "placeholders": {
       "credits": {
@@ -1729,8 +1729,8 @@
       }
     }
   },
-  "studyStatusNoCourses": "No course data",
-  "studyStatusCredits": "{credit} credits",
+  "studyStatusNoCourses": "Данные о курсах отсутствуют",
+  "studyStatusCredits": "{credit} кредитов",
   "@studyStatusCredits": {
     "placeholders": {
       "credit": {
@@ -1738,8 +1738,8 @@
       }
     }
   },
-  "studyStatusRetake": "Retake",
-  "studyStatusScorePoints": "{score} pts",
+  "studyStatusRetake": "Пересдача",
+  "studyStatusScorePoints": "{score} баллов",
   "@studyStatusScorePoints": {
     "placeholders": {
       "score": {
@@ -1747,7 +1747,7 @@
       }
     }
   },
-  "studyStatusOriginalScore": "Orig. {score} pts",
+  "studyStatusOriginalScore": "Исходный балл: {score}",
   "@studyStatusOriginalScore": {
     "placeholders": {
       "score": {
@@ -1764,19 +1764,19 @@
     }
   },
   "scorePageStudyStatus": "Учёба",
-  "scorePageFetchStudyStatus": "Fetch academic status",
+  "scorePageFetchStudyStatus": "Загрузить учебный статус",
   "aiTimeline": "Лента",
-  "weatherDetailTitle": "Weather details",
-  "weatherDetailTemperature": "Temperature",
-  "weatherDetailFeelsLike": "Feels like",
-  "weatherDetailHighLow": "High / Low",
-  "weatherDetailHumidity": "Humidity",
-  "weatherDetailUv": "UV index",
-  "weatherDetailWind": "Wind",
-  "weatherDetailPressure": "Pressure",
-  "weatherDetailVisibility": "Visibility",
-  "weatherDetailSunrise": "Sunrise",
-  "weatherDetailSunset": "Sunset",
+  "weatherDetailTitle": "Подробности о погоде",
+  "weatherDetailTemperature": "Температура",
+  "weatherDetailFeelsLike": "Ощущается как",
+  "weatherDetailHighLow": "Макс. / мин.",
+  "weatherDetailHumidity": "Влажность",
+  "weatherDetailUv": "УФ-индекс",
+  "weatherDetailWind": "Ветер",
+  "weatherDetailPressure": "Давление",
+  "weatherDetailVisibility": "Видимость",
+  "weatherDetailSunrise": "Восход",
+  "weatherDetailSunset": "Закат",
   "onboardingWelcomeTitle": "Добро пожаловать в Luotopia",
   "onboardingWelcomeSubtitle": "Несколько быстрых шагов для первоначальной настройки вашего кампусного помощника.",
   "onboardingChooseLanguage": "Сначала выберите язык",
@@ -1787,10 +1787,10 @@
   "onboardingLegalSubtitle": "Ознакомьтесь с условиями и примите их, чтобы продолжить.",
   "onboardingLegalAgreePrefix": "Я прочитал(а) и принимаю ",
   "onboardingLegalRequired": "Сначала примите пользовательское соглашение и политику конфиденциальности.",
-  "onboardingLegalLastUpdated": "Updated: {date}",
-  "onboardingLegalUpdateTitle": "Updated terms",
-  "onboardingLegalUpdateSubtitle": "We have updated the following agreements. Please read and accept them again to continue using the app. If you do not agree, please stop using the app and uninstall it.",
-  "onboardingLegalUpdateContinue": "Agree and continue",
+  "onboardingLegalLastUpdated": "Обновлено: {date}",
+  "onboardingLegalUpdateTitle": "Условия обновлены",
+  "onboardingLegalUpdateSubtitle": "Мы обновили следующие соглашения. Пожалуйста, ознакомьтесь и примите их, чтобы продолжить использование приложения. Если вы не согласны, прекратите использование и удалите приложение.",
+  "onboardingLegalUpdateContinue": "Принять и продолжить",
   "onboardingPermissionsTitle": "Необходимые разрешения",
   "onboardingPermissionsSubtitle": "Эти разрешения нужны для отдельных функций. Их можно выдать позже в настройках системы.",
   "onboardingPermissionsLaterHint": "Без разрешений недоступны только связанные функции; выдать их можно позже.",
@@ -1902,7 +1902,7 @@
   "debuggerExportSuccess": "Экспортировано запросов: {count}",
   "debuggerCopyValue": "Копировать значение",
   "debuggerPaused": "Приостановлено",
-  "loginRequiredToUse": "Log in to use {feature}",
+  "loginRequiredToUse": "Войдите, чтобы использовать {feature}",
   "campusAppMessages": "Сообщения",
   "messagesTabAll": "Все",
   "messagesTabNotifications": "Уведомления",

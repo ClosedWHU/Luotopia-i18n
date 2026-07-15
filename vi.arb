@@ -31,7 +31,7 @@
   "commonEmail": "Email",
   "commonId": "ID",
   "commonLogin": "Đăng nhập",
-  "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "whuSessionExpiredPrompt": "Phiên đăng nhập đã hết hạn và không thể tự động làm mới. Vui lòng đăng nhập lại.",
   "commonLogout": "Đăng xuất",
   "commonNotSet": "Chưa đặt",
   "commonPassword": "Mật khẩu",
@@ -39,7 +39,7 @@
   "commonRegistrationTime": "Thời gian đăng ký",
   "commonUsername": "Tên người dùng",
   "courseGridSettings": "Cài đặt lưới",
-  "courseHubLoginButton": "Log in",
+  "courseHubLoginButton": "Đăng nhập",
   "courseHubScores": "Điểm số",
   "courseHubTimetable": "Thời khóa biểu",
   "courseHubTitle": "Trung tâm học vụ",
@@ -62,7 +62,7 @@
   "dynamicColorSourceAccent": "Dùng màu nhấn hệ thống",
   "dynamicColorSourceGtk": "Dùng màu chủ đề GTK",
   "dynamicColorSourceWallpaper": "Trích từ hình nền hệ thống",
-  "ecardPaymentTitle": "E-Card Payment Code",
+  "ecardPaymentTitle": "Mã thanh toán E-Card",
   "editorAllDayTitle": "nhiệm vụ cả ngày",
   "editorColorAmber": "hổ phách",
   "editorColorCoral": "san hô đỏ",
@@ -154,10 +154,10 @@
   "emptyClassroomTitle": "Phòng Trống",
   "emptyClassroomUndo": "Hoàn tác",
   "emptyClassroomWeekLabel": "Tuần {week}",
-  "emptyTimetableImportCourse": "2. Import courses",
-  "emptyTimetableLoggedInWhu": "Logged in to WHU account",
-  "emptyTimetableLoginWhu": "1. Log in to WHU account",
-  "emptyTimetableTitle": "No courses added yet",
+  "emptyTimetableImportCourse": "2. Nhập môn học",
+  "emptyTimetableLoggedInWhu": "Đã đăng nhập tài khoản WHU",
+  "emptyTimetableLoginWhu": "1. Đăng nhập tài khoản WHU",
+  "emptyTimetableTitle": "Chưa thêm môn học nào",
   "enableWidgetSync": "Đồng bộ widget",
   "enterTimetableName": "Nhập tên",
   "fallbackRefreshInterval": "Khoảng thời gian làm mới dự phòng",
@@ -343,9 +343,9 @@
   "settingsNavigationEntrySubtitle": "Nhãn và tab giữa",
   "settingsNavigationEntryTitle": "Cài đặt thanh điều hướng",
   "settingsPercentValue": "{value}%",
-  "settingsPrivacyPolicy": "Privacy Policy",
-  "settingsTermsOfService": "Terms of Service",
-  "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
+  "settingsPrivacyPolicy": "Chính sách bảo mật",
+  "settingsTermsOfService": "Điều khoản dịch vụ",
+  "settingsCrossBorderDataTransfer": "Thông báo chuyển dữ liệu xuyên biên giới",
   "settingsTheme": "Chủ đề",
   "settingsTitle": "cài đặt",
   "settingsVersion": "Phiên bản",
@@ -786,7 +786,7 @@
       }
     }
   },
-  "scorePageGpaDisplay": "GPA: {gpa}",
+  "scorePageGpaDisplay": "Điểm GPA: {gpa}",
   "@scorePageGpaDisplay": {
     "placeholders": {
       "gpa": {
@@ -1243,8 +1243,8 @@
       }
     }
   },
-  "scoreImportLastImport": "Last Import",
-  "scoreImportTime": "Time: {time}",
+  "scoreImportLastImport": "Lần nhập cuối",
+  "scoreImportTime": "Thời gian: {time}",
   "@scoreImportTime": {
     "placeholders": {
       "time": {
@@ -1252,7 +1252,7 @@
       }
     }
   },
-  "scoreImportCount": "Score count: {count}",
+  "scoreImportCount": "Số điểm: {count}",
   "@scoreImportCount": {
     "placeholders": {
       "count": {
@@ -1260,7 +1260,7 @@
       }
     }
   },
-  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "scoreImportExample": "Ví dụ: {name} · {score} · {credit}",
   "@scoreImportExample": {
     "placeholders": {
       "name": {
@@ -1645,21 +1645,21 @@
   "settingsAiModelHint": "Nhập tên mô hình hoặc chọn từ danh sách",
   "homeJumpCurrentWeek": "Tuần này",
   "homeJumpSemesterStartWeek": "Tuần đầu",
-  "weatherAirQualityAccuHint": "Switch AQI provider to AccuWeather for pollutant details",
+  "weatherAirQualityAccuHint": "Chuyển nhà cung cấp AQI sang AccuWeather để xem chi tiết ô nhiễm",
   "languageFollowSystem": "Theo hệ thống",
   "languageFollowApp": "Theo ứng dụng",
-  "ecardPaycodeTitle": "E-Card Payment Code",
-  "ecardPaycodeUseWeb": "Use web version",
-  "ecardPaycodeUseWebSubtitle": "If the native pay code fails, switch to the backup",
-  "ecardPaycodeRefreshing": "Refreshing payment code…",
-  "ecardPaycodeLoading": "Getting payment code…",
-  "ecardPaycodeAccountFallback": "WHU account",
-  "ecardPaycodeSessionExpired": "Session expired. Please re-login to WHU under Account.",
-  "ecardPaycodeFetchFailed": "Failed to get payment code. Retry or use the web version.",
-  "ecardPaycodeShowToMerchant": "Show this code to the merchant to pay",
-  "ecardPaycodeAutoRefreshHint": "Auto-refreshes every minute. Do not use screenshots.",
+  "ecardPaycodeTitle": "Mã thanh toán E-Card",
+  "ecardPaycodeUseWeb": "Dùng phiên bản web",
+  "ecardPaycodeUseWebSubtitle": "Nếu mã thanh toán gốc bị lỗi, hãy chuyển sang bản dự phòng",
+  "ecardPaycodeRefreshing": "Đang làm mới mã thanh toán…",
+  "ecardPaycodeLoading": "Đang lấy mã thanh toán…",
+  "ecardPaycodeAccountFallback": "Tài khoản WHU",
+  "ecardPaycodeSessionExpired": "Phiên đã hết hạn. Vui lòng đăng nhập lại WHU tại mục Tài khoản.",
+  "ecardPaycodeFetchFailed": "Không lấy được mã thanh toán. Thử lại hoặc dùng phiên bản web.",
+  "ecardPaycodeShowToMerchant": "Cho nhân viên xem mã này để thanh toán",
+  "ecardPaycodeAutoRefreshHint": "Tự động làm mới mỗi phút. Không chụp màn hình.",
   "ecardPaycodeRefreshNow": "Làm mới",
-  "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
+  "ecardPaycodeRefreshInSeconds": "Làm mới sau {seconds}s",
   "@ecardPaycodeRefreshInSeconds": {
     "placeholders": {
       "seconds": {
@@ -1667,13 +1667,13 @@
       }
     }
   },
-  "ecardPaycodeUnavailable": "Unable to get payment code for now",
-  "studyStatusTitle": "Academic status",
-  "studyStatusEmptyTitle": "No academic data yet",
-  "studyStatusEmptyHint": "Tap refresh to fetch from the academic system",
-  "studyStatusFetchData": "Fetch data",
-  "studyStatusFetchFailed": "Failed to fetch data",
-  "studyStatusStatsTime": "Stats as of {time}",
+  "ecardPaycodeUnavailable": "Hiện không thể lấy mã thanh toán",
+  "studyStatusTitle": "Trạng thái học tập",
+  "studyStatusEmptyTitle": "Chưa có dữ liệu học tập",
+  "studyStatusEmptyHint": "Nhấn làm mới để lấy dữ liệu từ hệ thống học vụ",
+  "studyStatusFetchData": "Lấy dữ liệu",
+  "studyStatusFetchFailed": "Lấy dữ liệu thất bại",
+  "studyStatusStatsTime": "Thống kê tính đến {time}",
   "@studyStatusStatsTime": {
     "placeholders": {
       "time": {
@@ -1681,16 +1681,16 @@
       }
     }
   },
-  "studyStatusTrainingPlan": "Training plan",
+  "studyStatusTrainingPlan": "Chương trình đào tạo",
   "studyStatusCurrentTrainingPlan": "Chương trình đào tạo đang hiển thị",
-  "studyStatusCourseOverview": "Course overview",
+  "studyStatusCourseOverview": "Tổng quan môn học",
   "studyStatusFilterAll": "Tất cả",
   "studyStatusFilterPassed": "Đạt",
   "studyStatusFilterFailed": "Không đạt",
   "studyStatusFilterStudying": "Đang học",
   "studyStatusFilterNotTaken": "Chưa học",
-  "studyStatusOutOfPlan": "Out of plan",
-  "studyStatusTotalCourses": "{count} courses",
+  "studyStatusOutOfPlan": "Ngoài kế hoạch",
+  "studyStatusTotalCourses": "{count} môn học",
   "@studyStatusTotalCourses": {
     "placeholders": {
       "count": {
@@ -1698,7 +1698,7 @@
       }
     }
   },
-  "studyStatusPassedCount": "Passed {count}",
+  "studyStatusPassedCount": "Đạt {count}",
   "@studyStatusPassedCount": {
     "placeholders": {
       "count": {
@@ -1706,7 +1706,7 @@
       }
     }
   },
-  "studyStatusFailedCount": "Failed {count}",
+  "studyStatusFailedCount": "Không đạt {count}",
   "@studyStatusFailedCount": {
     "placeholders": {
       "count": {
@@ -1714,7 +1714,7 @@
       }
     }
   },
-  "studyStatusStudyingCount": "In progress {count}",
+  "studyStatusStudyingCount": "Đang học {count}",
   "@studyStatusStudyingCount": {
     "placeholders": {
       "count": {
@@ -1722,7 +1722,7 @@
       }
     }
   },
-  "studyStatusRequiredCredits": "Required {credits} credits",
+  "studyStatusRequiredCredits": "Yêu cầu {credits} tín chỉ",
   "@studyStatusRequiredCredits": {
     "placeholders": {
       "credits": {
@@ -1730,7 +1730,7 @@
       }
     }
   },
-  "studyStatusEarnedCredits": "Earned {credits} credits",
+  "studyStatusEarnedCredits": "Đã tích lũy {credits} tín chỉ",
   "@studyStatusEarnedCredits": {
     "placeholders": {
       "credits": {
@@ -1738,8 +1738,8 @@
       }
     }
   },
-  "studyStatusNoCourses": "No course data",
-  "studyStatusCredits": "{credit} credits",
+  "studyStatusNoCourses": "Không có dữ liệu môn học",
+  "studyStatusCredits": "{credit} tín chỉ",
   "@studyStatusCredits": {
     "placeholders": {
       "credit": {
@@ -1747,8 +1747,8 @@
       }
     }
   },
-  "studyStatusRetake": "Retake",
-  "studyStatusScorePoints": "{score} pts",
+  "studyStatusRetake": "Học lại",
+  "studyStatusScorePoints": "{score} điểm",
   "@studyStatusScorePoints": {
     "placeholders": {
       "score": {
@@ -1756,7 +1756,7 @@
       }
     }
   },
-  "studyStatusOriginalScore": "Orig. {score} pts",
+  "studyStatusOriginalScore": "Gốc: {score} điểm",
   "@studyStatusOriginalScore": {
     "placeholders": {
       "score": {
@@ -1764,7 +1764,7 @@
       }
     }
   },
-  "studyStatusGradePoint": "GPA {point}",
+  "studyStatusGradePoint": "Điểm GPA {point}",
   "@studyStatusGradePoint": {
     "placeholders": {
       "point": {
@@ -1772,20 +1772,20 @@
       }
     }
   },
-  "scorePageStudyStatus": "Academic status",
-  "scorePageFetchStudyStatus": "Fetch academic status",
+  "scorePageStudyStatus": "Trạng thái học tập",
+  "scorePageFetchStudyStatus": "Lấy trạng thái học tập",
   "aiTimeline": "Dòng thời gian",
-  "weatherDetailTitle": "Weather details",
-  "weatherDetailTemperature": "Temperature",
-  "weatherDetailFeelsLike": "Feels like",
-  "weatherDetailHighLow": "High / Low",
-  "weatherDetailHumidity": "Humidity",
-  "weatherDetailUv": "UV index",
-  "weatherDetailWind": "Wind",
-  "weatherDetailPressure": "Pressure",
-  "weatherDetailVisibility": "Visibility",
-  "weatherDetailSunrise": "Sunrise",
-  "weatherDetailSunset": "Sunset",
+  "weatherDetailTitle": "Chi tiết thời tiết",
+  "weatherDetailTemperature": "Nhiệt độ",
+  "weatherDetailFeelsLike": "Cảm giác như",
+  "weatherDetailHighLow": "Cao / Thấp",
+  "weatherDetailHumidity": "Độ ẩm",
+  "weatherDetailUv": "Chỉ số UV",
+  "weatherDetailWind": "Gió",
+  "weatherDetailPressure": "Áp suất",
+  "weatherDetailVisibility": "Tầm nhìn",
+  "weatherDetailSunrise": "Mặt trời mọc",
+  "weatherDetailSunset": "Mặt trời lặn",
   "onboardingWelcomeTitle": "Chào mừng đến với Luotopia",
   "onboardingWelcomeSubtitle": "Chỉ vài bước để hoàn tất thiết lập ban đầu cho trợ lý khuôn viên của bạn.",
   "onboardingChooseLanguage": "Trước tiên hãy chọn ngôn ngữ",
@@ -1796,10 +1796,10 @@
   "onboardingLegalSubtitle": "Vui lòng đọc và đồng ý với các điều khoản để tiếp tục.",
   "onboardingLegalAgreePrefix": "Tôi đã đọc và đồng ý với ",
   "onboardingLegalRequired": "Vui lòng đồng ý điều khoản dịch vụ và chính sách quyền riêng tư trước.",
-  "onboardingLegalLastUpdated": "Updated: {date}",
-  "onboardingLegalUpdateTitle": "Updated terms",
-  "onboardingLegalUpdateSubtitle": "We have updated the following agreements. Please read and accept them again to continue using the app. If you do not agree, please stop using the app and uninstall it.",
-  "onboardingLegalUpdateContinue": "Agree and continue",
+  "onboardingLegalLastUpdated": "Cập nhật: {date}",
+  "onboardingLegalUpdateTitle": "Điều khoản đã cập nhật",
+  "onboardingLegalUpdateSubtitle": "Chúng tôi đã cập nhật các điều khoản sau. Vui lòng đọc và đồng ý để tiếp tục sử dụng ứng dụng. Nếu không đồng ý, vui lòng ngừng sử dụng và gỡ cài đặt.",
+  "onboardingLegalUpdateContinue": "Đồng ý và tiếp tục",
   "onboardingPermissionsTitle": "Cần một số quyền",
   "onboardingPermissionsSubtitle": "Các quyền này dùng cho tính năng tương ứng. Bạn cũng có thể cấp sau trong cài đặt hệ thống.",
   "onboardingPermissionsLaterHint": "Thiếu quyền chỉ hạn chế tính năng liên quan; bạn vẫn có thể cấp sau.",
@@ -1911,7 +1911,7 @@
   "debuggerExportSuccess": "Đã xuất {count} yêu cầu",
   "debuggerCopyValue": "Sao chép giá trị",
   "debuggerPaused": "Đã tạm dừng",
-  "loginRequiredToUse": "Log in to use {feature}",
+  "loginRequiredToUse": "Đăng nhập để sử dụng {feature}",
   "campusAppMessages": "Tin nhan",
   "messagesTabAll": "Tat ca",
   "messagesTabNotifications": "Thong bao",
