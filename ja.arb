@@ -103,15 +103,48 @@
   "editorCoursePeriodStart": "Start period",
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
-  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCoursePeriodN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCoursePeriodSingle": "Period {n} · {time}",
-  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodSingle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
-  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCourseWeekStart": "Start week",
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
-  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCourseWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCourseWeekParity": "Week parity",
   "editorCourseWeekParityAll": "Every week",
   "editorCourseWeekParityOdd": "Odd weeks",
@@ -198,10 +231,207 @@
       }
     }
   },
-  "academicSystem": "教務システム", "academicSystemImport": "教務システムからインポート", "addTimetable": "時間割を追加", "addToTimetable": "{name} に追加", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "フォルダー", "campusDissolveFolderConfirm": "フォルダーを解除", "campusDissolveFolderContent": "このフォルダー内のアプリはアプリグリッドに戻されます。", "campusDissolveFolderTitle": "このフォルダーを解除しますか？", "createEmptyTimetable": "空の時間割を作成", "createEmptyTimetableDescription": "授業をインポートせずに時間割を作成", "editCourses": "授業を編集", "emptyTimetable": "空の時間割", "emptyTimetableExportNotNeeded": "空の時間割をエクスポートする必要はありません。", "timetableNotFound": "時間割が見つかりません", "enterStarlinkShareCode": "Starlink 共有コードを入力", "exportTimetable": "時間割をエクスポート", "homeTimeBlock": "ブロック {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "JSON ファイル", "listStatusCompleted": "完了", "listStatusEndedPendingCompletion": "終了、完了待ち", "listStatusInProgress": "進行中", "listStatusPending": "保留中", "localFile": "ローカルファイル", "localFileImport": "ローカルファイルからインポート", "localFileImportDescription": "JSON ファイルから Luotopia の時間割バックアップをインポート", "luotopiaJsonBackup": "Luotopia JSON バックアップ", "luotopiaJsonBackupDescription": "Luotopia 用の完全な時間割バックアップ", "mixed": "混合", "mixedTimetable": "混合時間割", "newTimetableName": "新しい時間割名",
-  "notificationChannelAgendaDefaultDescription": "多少遅れる場合がある項目リマインダー。", "notificationChannelAgendaDefaultName": "予定リマインダー", "notificationChannelAgendaExactDescription": "項目と授業の定刻および直前のリマインダー。", "notificationChannelAgendaExactName": "予定リマインダー（正確）", "notificationChannelCampusDescription": "予約およびキャンパス関連のリマインダー。", "notificationChannelCampusName": "キャンパスサービス", "notificationChannelMarketingDescription": "キャンパス活動とプロモーションの更新。", "notificationChannelMarketingName": "活動とプロモーション", "notificationCourseInProgress": "授業中", "notificationReminderTitle": "リマインダー", "notificationScheduleEndedBody": "この予定は終了しました。完了にするか、次の予定を立てることを忘れないでください。", "notificationScheduleIncomplete": "予定が未完了", "notificationStartsInFifteenMinutes": "15 分後に開始 · {time}", "@notificationStartsInFifteenMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInFiveMinutes": "5 分後に開始 · {time}", "@notificationStartsInFiveMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInOneHour": "1 時間後に開始 · {time}", "@notificationStartsInOneHour": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsSoon": "まもなく開始 · {time}", "@notificationStartsSoon": {"placeholders":{"time":{"type":"String"}}}, "notificationTomorrow": "明日 · {time}", "@notificationTomorrow": {"placeholders":{"time":{"type":"String"}}},
-  "notProvided": "未提供", "notUpdated": "未更新", "renameTimetable": "時間割名を変更", "selectCourseSourceToUpdate": "更新する授業のソースを選択", "selectFileFormatToSave": "保存するファイル形式を選択", "selectImportMethod": "インポート方法を選択", "separate": "分割", "separatedTimetableName": "{name}（分割）", "@separatedTimetableName": {"placeholders":{"name":{"type":"String"}}}, "separateTimetable": "時間割を分割", "shareCode": "共有コード", "shiguang": "Shiguang", "shiguangFileImportDescription": "Shiguang の時間割 JSON ファイルをインポート", "shiguangImportFailed": "Shiguang の時間割のインポートに失敗: {error}", "@shiguangImportFailed": {"placeholders":{"error":{"type":"String"}}}, "shiguangTimetable": "Shiguang 時間割", "shiguangTimetableExportDescription": "Shiguang と互換性のある時間割をエクスポート", "shiguangTimetableImport": "Shiguang 時間割をインポート", "shiguangTimetableJson": "Shiguang 時間割 JSON", "sourceLocalFile": "ソース: ローカルファイル", "sourceShiguang": "ソース: Shiguang", "sourceStarlink": "ソース: Starlink", "starlink": "Starlink", "starlinkFileMustBeJsonObject": "Starlink ファイルには JSON オブジェクトが含まれている必要があります。", "starlinkImportDescription": "JSON ファイルまたは共有コードから Starlink の時間割をインポート", "starlinkImportFailed": "Starlink の時間割のインポートに失敗: {error}", "@starlinkImportFailed": {"placeholders":{"error":{"type":"String"}}}, "starlinkTimetable": "Starlink 時間割", "starlinkTimetableExportDescription": "Starlink と互換性のある時間割をエクスポート", "starlinkTimetableImport": "Starlink 時間割をインポート", "starlinkTimetableJson": "Starlink 時間割 JSON", "starlinkTimetableShareCode": "Starlink 時間割共有コード",
-  "timetableDetails": "学期: {term}\nインポート: {importedAt}\n更新: {updatedAt}\nソース: {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "時間割をエクスポートしました。", "timetableImportFailed": "時間割のインポートに失敗: {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "この時間割のソースは個別に更新できません。", "updateTimetable": "時間割を更新", "wakeupCsv": "Wakeup CSV", "wakeupCsvDescription": "授業を Wakeup 互換の CSV としてエクスポート", "wakeupFileAlreadyAdded": "この Wakeup 時間割はすでに追加されています。", "wakeupFileImportDescription": "Wakeup CSV または時間割ファイルをインポート", "wakeupImportFailed": "Wakeup 時間割のインポートに失敗: {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Wakeup 時間割ファイル", "wakeupShareFileDescription": "Wakeup 時間割ファイルをエクスポート", "webViewErrorTitle": "ページを開けません", "webViewLoadFailed": "ページの読み込みに失敗しました。ネットワーク接続を確認して再試行してください。", "webViewLoadingPage": "ページを読み込み中...", "webViewPreparationFailed": "ページの準備に失敗: {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "ページを準備中...", "webViewRetry": "再試行",
+  "academicSystem": "教務システム",
+  "academicSystemImport": "教務システムからインポート",
+  "addTimetable": "時間割を追加",
+  "addToTimetable": "{name} に追加",
+  "@addToTimetable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "campusDefaultFolderName": "フォルダー",
+  "campusDissolveFolderConfirm": "フォルダーを解除",
+  "campusDissolveFolderContent": "このフォルダー内のアプリはアプリグリッドに戻されます。",
+  "campusDissolveFolderTitle": "このフォルダーを解除しますか？",
+  "createEmptyTimetable": "空の時間割を作成",
+  "createEmptyTimetableDescription": "授業をインポートせずに時間割を作成",
+  "editCourses": "授業を編集",
+  "emptyTimetable": "空の時間割",
+  "emptyTimetableExportNotNeeded": "空の時間割をエクスポートする必要はありません。",
+  "timetableNotFound": "時間割が見つかりません",
+  "enterStarlinkShareCode": "Starlink 共有コードを入力",
+  "exportTimetable": "時間割をエクスポート",
+  "homeTimeBlock": "ブロック {index}",
+  "@homeTimeBlock": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "jsonFile": "JSON ファイル",
+  "listStatusCompleted": "完了",
+  "listStatusEndedPendingCompletion": "終了、完了待ち",
+  "listStatusInProgress": "進行中",
+  "listStatusPending": "保留中",
+  "localFile": "ローカルファイル",
+  "localFileImport": "ローカルファイルからインポート",
+  "localFileImportDescription": "JSON ファイルから Luotopia の時間割バックアップをインポート",
+  "luotopiaJsonBackup": "Luotopia JSON バックアップ",
+  "luotopiaJsonBackupDescription": "Luotopia 用の完全な時間割バックアップ",
+  "mixed": "混合",
+  "mixedTimetable": "混合時間割",
+  "newTimetableName": "新しい時間割名",
+  "notificationChannelAgendaDefaultDescription": "多少遅れる場合がある項目リマインダー。",
+  "notificationChannelAgendaDefaultName": "予定リマインダー",
+  "notificationChannelAgendaExactDescription": "項目と授業の定刻および直前のリマインダー。",
+  "notificationChannelAgendaExactName": "予定リマインダー（正確）",
+  "notificationChannelCampusDescription": "予約およびキャンパス関連のリマインダー。",
+  "notificationChannelCampusName": "キャンパスサービス",
+  "notificationChannelMarketingDescription": "キャンパス活動とプロモーションの更新。",
+  "notificationChannelMarketingName": "活動とプロモーション",
+  "notificationCourseInProgress": "授業中",
+  "notificationReminderTitle": "リマインダー",
+  "notificationScheduleEndedBody": "この予定は終了しました。完了にするか、次の予定を立てることを忘れないでください。",
+  "notificationScheduleIncomplete": "予定が未完了",
+  "notificationStartsInFifteenMinutes": "15 分後に開始 · {time}",
+  "@notificationStartsInFifteenMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInFiveMinutes": "5 分後に開始 · {time}",
+  "@notificationStartsInFiveMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInOneHour": "1 時間後に開始 · {time}",
+  "@notificationStartsInOneHour": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsSoon": "まもなく開始 · {time}",
+  "@notificationStartsSoon": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTomorrow": "明日 · {time}",
+  "@notificationTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notProvided": "未提供",
+  "notUpdated": "未更新",
+  "renameTimetable": "時間割名を変更",
+  "selectCourseSourceToUpdate": "更新する授業のソースを選択",
+  "selectFileFormatToSave": "保存するファイル形式を選択",
+  "selectImportMethod": "インポート方法を選択",
+  "separate": "分割",
+  "separatedTimetableName": "{name}（分割）",
+  "@separatedTimetableName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "separateTimetable": "時間割を分割",
+  "shareCode": "共有コード",
+  "shiguang": "Shiguang",
+  "shiguangFileImportDescription": "Shiguang の時間割 JSON ファイルをインポート",
+  "shiguangImportFailed": "Shiguang の時間割のインポートに失敗: {error}",
+  "@shiguangImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shiguangTimetable": "Shiguang 時間割",
+  "shiguangTimetableExportDescription": "Shiguang と互換性のある時間割をエクスポート",
+  "shiguangTimetableImport": "Shiguang 時間割をインポート",
+  "shiguangTimetableJson": "Shiguang 時間割 JSON",
+  "sourceLocalFile": "ソース: ローカルファイル",
+  "sourceShiguang": "ソース: Shiguang",
+  "sourceStarlink": "ソース: Starlink",
+  "starlink": "Starlink",
+  "starlinkFileMustBeJsonObject": "Starlink ファイルには JSON オブジェクトが含まれている必要があります。",
+  "starlinkImportDescription": "JSON ファイルまたは共有コードから Starlink の時間割をインポート",
+  "starlinkImportFailed": "Starlink の時間割のインポートに失敗: {error}",
+  "@starlinkImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "starlinkTimetable": "Starlink 時間割",
+  "starlinkTimetableExportDescription": "Starlink と互換性のある時間割をエクスポート",
+  "starlinkTimetableImport": "Starlink 時間割をインポート",
+  "starlinkTimetableJson": "Starlink 時間割 JSON",
+  "starlinkTimetableShareCode": "Starlink 時間割共有コード",
+  "timetableDetails": "学期: {term}\nインポート: {importedAt}\n更新: {updatedAt}\nソース: {source}",
+  "@timetableDetails": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "importedAt": {
+        "type": "String"
+      },
+      "updatedAt": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableExported": "時間割をエクスポートしました。",
+  "timetableImportFailed": "時間割のインポートに失敗: {error}",
+  "@timetableImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableIndependentUpdateUnsupported": "この時間割のソースは個別に更新できません。",
+  "updateTimetable": "時間割を更新",
+  "wakeupCsv": "Wakeup CSV",
+  "wakeupCsvDescription": "授業を Wakeup 互換の CSV としてエクスポート",
+  "wakeupFileAlreadyAdded": "この Wakeup 時間割はすでに追加されています。",
+  "wakeupFileImportDescription": "Wakeup CSV または時間割ファイルをインポート",
+  "wakeupImportFailed": "Wakeup 時間割のインポートに失敗: {error}",
+  "@wakeupImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupShareFile": "Wakeup 時間割ファイル",
+  "wakeupShareFileDescription": "Wakeup 時間割ファイルをエクスポート",
+  "webViewErrorTitle": "ページを開けません",
+  "webViewLoadFailed": "ページの読み込みに失敗しました。ネットワーク接続を確認して再試行してください。",
+  "webViewLoadingPage": "ページを読み込み中...",
+  "webViewPreparationFailed": "ページの準備に失敗: {error}",
+  "@webViewPreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webViewPreparingPage": "ページを準備中...",
+  "webViewRetry": "再試行",
   "headerOpenListSettings": "リストページの設定を開く",
   "headerOpenListTabs": "タブの選択を開く",
   "homeCalendarMainLabelWeek": "第{week}週",
@@ -455,6 +685,9 @@
   "whuAccountShift": "在籍状況",
   "whuAccountEducationalYears": "修業年限",
   "whuAccountRoleName": "役割",
+  "whuAccountDormBuilding": "寮棟",
+  "whuAccountDormRoom": "部屋番号",
+  "whuAccountDormBed": "ベッド番号",
   "whuAccountSectionPersonal": "個人情報",
   "whuAccountSectionAcademic": "学籍・履修",
   "whuAccountSectionSession": "ログイン状態",
@@ -834,7 +1067,6 @@
   "settingsPushNotificationsSubtitle": "予定・評価・システムメッセージの通知",
   "settingsMarketingNotifications": "マーケティングとイベント",
   "settingsMarketingNotificationsSubtitle": "キャンパスイベントやプロモの通知を受け取る",
-  
   "settingsNotificationChannelsTitle": "Android 通知チャネル",
   "settingsNotificationChannelsHint": "チャネルをタップするとシステム設定で重要度を変更できます。サイレントや低重要度では音やヘッドアップが出ないことがあります。",
   "settingsNotificationChannelOpenSystem": "システム設定を開く",
@@ -857,7 +1089,7 @@
   "settingsNotificationImportanceSilentWarning": "サイレントまたは低重要度のため、音が鳴らない可能性があります",
   "notificationChannelLiveUpdatesName": "進行中の予定",
   "notificationChannelLiveUpdatesDescription": "授業や予定の進行中のリアルタイム進捗。",
-"settingsStorageTitle": "ストレージ管理",
+  "settingsStorageTitle": "ストレージ管理",
   "settingsClearCache": "キャッシュ削除",
   "settingsClearCacheSubtitle": "一時ファイルとキャッシュを解放（約 {size}）",
   "settingsCacheCleared": "キャッシュを消去しました: {size} を解放",
@@ -2078,15 +2310,48 @@
   },
   "scoreTranscriptSaved": "PDFを保存しました。",
   "scoreTranscriptShare": "共有",
-  "scoreTranscriptSaveAs": "名前を付けて保存"
-  ,"authSecurityTitle":"セキュリティと二段階認証","authTwoFactorTitle":"二段階認証 (2FA)","authTwoFactorEnabled":"有効：ログイン時にメールコードまたはPasskeyが必要です","authTwoFactorDisabled":"無効：ログイン時はパスワードのみ必要です","authCurrentPassword":"現在のパスワード","authPasskeys":"パスキー","authRegisterPasskey":"この端末にPasskeyを登録","authPasskeyRegistered":"Passkeyを登録しました","authNoPasskeys":"Passkeyはまだありません","authForgotPassword":"パスワードを忘れましたか？","authResetPassword":"パスワードをリセット","authSendResetLink":"リセットリンクを送信","authResetRequested":"このメールが登録されている場合、リセットリンクを送信しました。","authMfaTitle":"二段階認証","authMfaEmailSent":"確認コードを {email} に送信しました","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"メール確認コード","authVerifyAndLogin":"確認してログイン","authUsePasskey":"Passkeyを使用","authResendCode":"コードを再送信","authBackToPasswordLogin":"パスワードログインに戻る","authLoginRequired":"先にログインしてください",
+  "scoreTranscriptSaveAs": "名前を付けて保存",
+  "authSecurityTitle": "セキュリティと二段階認証",
+  "authTwoFactorTitle": "二段階認証 (2FA)",
+  "authTwoFactorEnabled": "有効：ログイン時にメールコードまたはPasskeyが必要です",
+  "authTwoFactorDisabled": "無効：ログイン時はパスワードのみ必要です",
+  "authCurrentPassword": "現在のパスワード",
+  "authPasskeys": "パスキー",
+  "authRegisterPasskey": "この端末にPasskeyを登録",
+  "authPasskeyRegistered": "Passkeyを登録しました",
+  "authNoPasskeys": "Passkeyはまだありません",
+  "authForgotPassword": "パスワードを忘れましたか？",
+  "authResetPassword": "パスワードをリセット",
+  "authSendResetLink": "リセットリンクを送信",
+  "authResetRequested": "このメールが登録されている場合、リセットリンクを送信しました。",
+  "authMfaTitle": "二段階認証",
+  "authMfaEmailSent": "確認コードを {email} に送信しました",
+  "@authMfaEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmailCode": "メール確認コード",
+  "authVerifyAndLogin": "確認してログイン",
+  "authUsePasskey": "Passkeyを使用",
+  "authResendCode": "コードを再送信",
+  "authBackToPasswordLogin": "パスワードログインに戻る",
+  "authLoginRequired": "先にログインしてください",
   "commonConfirm": "確認",
   "commonContinue": "続ける",
   "commonCopy": "コピー",
   "commonSave": "保存",
   "commonRetry": "再試行",
   "commonLoadFailed": "読み込みに失敗しました: {error}",
-  "@commonLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@commonLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsTitle": "API 認証情報",
   "authApiCredentialCreate": "認証情報を作成",
   "authApiCredentialName": "名前",
@@ -2097,16 +2362,37 @@
   "authApiCredentialSecretShownOnce": "API シークレット（一度だけ表示）",
   "authApiCredentialSaved": "保存しました",
   "authApiCredentialCreateFailed": "認証情報の作成に失敗しました: {error}",
-  "@authApiCredentialCreateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsEmpty": "API 認証情報はまだありません",
   "authApiCredentialUnnamed": "名前なし",
   "authApiCredentialStatus": "状態: {status} · 作成日: {date}",
-  "@authApiCredentialStatus": {"placeholders": {"status": {"type": "String"}, "date": {"type": "String"}}},
+  "@authApiCredentialStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialActive": "有効",
   "authApiCredentialRevoked": "無効化済み",
   "authApiCredentialRevoke": "無効化",
   "authApiCredentialRevokeFailed": "認証情報の無効化に失敗しました: {error}",
-  "@authApiCredentialRevokeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialRevokeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsTitle": "デバイスとセッション",
   "authSessionsSignOutAll": "すべてのデバイスからログアウト",
   "authSessionsSignOutAllWarning": "このデバイスを含む、ログイン中のすべてのデバイスが直ちに無効になります。再度ログインが必要です。",
@@ -2119,36 +2405,102 @@
   "authSessionsUnknownDevice": "不明なデバイス",
   "authSessionsUnknown": "不明",
   "authSessionsDetails": "IP: {ip}\n最終アクティブ: {lastActive}\nログイン日時: {signedIn}",
-  "@authSessionsDetails": {"placeholders": {"ip": {"type": "String"}, "lastActive": {"type": "String"}, "signedIn": {"type": "String"}}},
+  "@authSessionsDetails": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      },
+      "lastActive": {
+        "type": "String"
+      },
+      "signedIn": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSignOut": "このデバイスからログアウト",
   "authSessionsSignOutSucceeded": "デバイスからログアウトしました",
   "authSessionsSignOutFailed": "デバイスからのログアウトに失敗しました: {error}",
-  "@authSessionsSignOutFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authSessionsSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDefaultDeviceName": "このデバイス",
   "authPasskeyDeviceName": "デバイス名",
   "authPasskeyRegisterFailed": "Passkey の登録に失敗しました: {error}",
-  "@authPasskeyRegisterFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyRegisterFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeysDescription": "{count} 件登録済み。Passkey はデバイスのシステム生体認証を使用します。",
-  "@authPasskeysDescription": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasskeysDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authPasskeysSupportedDeviceHint": "対応デバイスで生体認証キーを登録",
   "authPasskeyCreatedAt": "作成日: {date}",
-  "@authPasskeyCreatedAt": {"placeholders": {"date": {"type": "String"}}},
+  "@authPasskeyCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Passkey の削除に失敗しました: {error}",
-  "@authPasskeyDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOperationFailed": "操作に失敗しました: {error}",
-  "@authOperationFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsTitle": "連携済み WHU アカウント",
   "authWhuBindingsManage": "ローカル認証を管理",
   "authWhuBindingSucceeded": "アカウントを連携しました",
   "authWhuBindingFailed": "アカウントの連携に失敗しました: {error}",
-  "@authWhuBindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuBindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingCurrent": "現在のローカルアカウントを連携（{studentId}）",
-  "@authWhuBindingCurrent": {"placeholders": {"studentId": {"type": "String"}}},
+  "@authWhuBindingCurrent": {
+    "placeholders": {
+      "studentId": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsEmpty": "連携済みアカウントはありません",
   "authWhuBindingKeepOne": "少なくとも 1 つの有効なアカウントを残す必要があります",
   "authWhuUnbindingSucceeded": "アカウントの連携を解除しました",
   "authWhuUnbindingFailed": "アカウントの連携解除に失敗しました: {error}",
-  "@authWhuUnbindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuUnbindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSubtitle": "ログイン中のデバイスを確認してログアウトできます",
   "authApiCredentialsSubtitle": "外部アクセス用の API キーを管理",
   "authChangePassword": "パスワードを変更",
@@ -2156,28 +2508,64 @@
   "authDeleteAccountWarning": "アカウントを削除してもよろしいですか？この操作は元に戻せません。",
   "authDeleteAccountConfirm": "アカウントを削除",
   "authDeleteAccountFailed": "アカウントの削除に失敗しました: {error}",
-  "@authDeleteAccountFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authDeleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authEditProfile": "プロフィールを編集",
   "authDisplayName": "表示名",
   "authProfileUpdateFailed": "プロフィールの更新に失敗しました: {error}",
-  "@authProfileUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authProfileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOldPassword": "現在のパスワード",
   "authNewPassword": "新しいパスワード",
   "authPasswordChanged": "パスワードを変更しました。もう一度ログインしてください。",
   "authPasswordChangeFailed": "パスワードの変更に失敗しました: {error}",
-  "@authPasswordChangeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordChangeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordChangeConfirm": "パスワードを変更",
   "authRegistrationWhuBindingRequired": "登録には WHU アカウントの連携が必要です",
   "authRegistrationBindWhuAccount": "WHU アカウントを連携",
   "authPasswordMinLength": "パスワードは {count} 文字以上にしてください",
-  "@authPasswordMinLength": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasswordMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsLoadFailed": "成績分布の読み込みに失敗しました: {error}",
-  "@courseGradeStatsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseGradeStatsSubmit": "匿名で成績を投稿",
   "courseGradeStatsNoTeachers": "この授業には教員が登録されていないため、成績を投稿できません。",
   "courseGradeStatsPrivacyThreshold": "プライバシー保護のため、少なくとも 5 件のサンプルが必要です。",
   "courseGradeStatsSamples": "匿名サンプル {count} 件",
-  "@courseGradeStatsSamples": {"placeholders": {"count": {"type": "int"}}},
+  "@courseGradeStatsSamples": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsTotalAverage": "総合点の平均",
   "courseGradeStatsUsualAverage": "平常点の平均",
   "courseGradeStatsExamAverage": "試験点の平均",
@@ -2186,52 +2574,136 @@
   "courseGradeStatsTotalScore": "総合点（0～100）",
   "courseGradeStatsSubmitted": "匿名の成績を投稿しました。",
   "courseGradeStatsSubmitFailed": "成績の投稿に失敗しました: {error}",
-  "@courseGradeStatsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsLoginRequired": "匿名の授業レビューを見るにはログインしてください。",
   "courseReviewsSyncEligibility": "修了した授業を同期",
   "courseReviewsWrite": "匿名レビューを書く",
   "courseReviewsAnonymousStudent": "匿名の学生 · {semester}",
-  "@courseReviewsAnonymousStudent": {"placeholders": {"semester": {"type": "String"}}},
+  "@courseReviewsAnonymousStudent": {
+    "placeholders": {
+      "semester": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsTitle": "匿名の授業レビュー",
   "courseReviewsContent": "レビュー",
   "courseReviewsRating": "評価",
   "courseReviewsRatingValue": "{rating} / 5",
-  "@courseReviewsRatingValue": {"placeholders": {"rating": {"type": "String"}}},
+  "@courseReviewsRatingValue": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSubmit": "審査に提出",
   "courseReviewsSubmitted": "レビューを提出しました。承認後に表示されます。",
   "courseReviewsSubmitFailed": "レビューの投稿に失敗しました: {error}",
-  "@courseReviewsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSyncSucceeded": "対象の授業を {count} 件同期しました。",
-  "@courseReviewsSyncSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@courseReviewsSyncSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseReviewsSyncFailed": "同期に失敗しました: {error}",
-  "@courseReviewsSyncFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSyncFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumCreatePost": "投稿を作成",
   "forumPost": "投稿",
   "forumBoardShelter": "シェルター {name}",
-  "@forumBoardShelter": {"placeholders": {"name": {"type": "String"}}},
+  "@forumBoardShelter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumBoardsLoadFailed": "掲示板の読み込みに失敗しました: {error}",
-  "@forumBoardsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumBoardsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostsLoadFailed": "投稿の読み込みに失敗しました: {error}",
-  "@forumPostsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPostsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostTitle": "タイトル",
   "forumPostContent": "内容",
   "forumPublish": "公開",
   "forumPublishFailed": "公開に失敗しました: {error}",
-  "@forumPublishFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPublishFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumEmpty": "まだ投稿がありません。最初の投稿をしてみましょう。",
   "forumAnonymous": "匿名",
   "forumPostMetadata": "{author} · 返信 {comments} 件 · 高評価 {upvotes} 件",
-  "@forumPostMetadata": {"placeholders": {"author": {"type": "String"}, "comments": {"type": "int"}, "upvotes": {"type": "int"}}},
+  "@forumPostMetadata": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "comments": {
+        "type": "int"
+      },
+      "upvotes": {
+        "type": "int"
+      }
+    }
+  },
   "forumPostDetails": "投稿の詳細",
   "forumReplies": "返信",
   "forumReply": "返信",
   "forumRepliesLoadFailed": "返信の読み込みに失敗しました: {error}",
-  "@forumRepliesLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumRepliesLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyPost": "投稿に返信",
   "forumReplyHint": "礼儀を守り、個人情報は共有しないでください。",
   "forumSend": "送信",
   "forumReplyFailed": "返信に失敗しました: {error}",
-  "@forumReplyFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReplyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumMyPosts": "自分の投稿",
   "forumLikedPosts": "高く評価した投稿",
   "forumFavoritePosts": "保存した投稿",
@@ -2241,29 +2713,59 @@
   "forumShelterPrivacyTitle": "シェルターでのプライバシー",
   "forumShelterPrivacyDescription": "あなたの匿名名はこのトピック内でのみ一貫して表示されます。アバターやプロフィールは表示されず、この投稿は24時間後に期限切れになります。",
   "forumShelterExpiresIn": "期限切れまで {time}",
-  "@forumShelterExpiresIn": {"placeholders": {"time": {"type": "String"}}},
+  "@forumShelterExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "forumRemoveLike": "高評価を取り消す",
   "forumRemoveFavorite": "保存を解除",
   "forumPersonalEmpty": "まだ何もありません。",
   "authPasswordResetEmail": "メールアドレス",
   "authPasswordResetSendFailed": "送信に失敗しました: {error}",
-  "@authPasswordResetSendFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordResetSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsMyReviews": "自分のレビュー",
   "courseReviewsMyReviewsEmpty": "まだレビューを投稿していません。",
   "courseReviewsStatusPending": "審査待ち",
   "courseReviewsStatusApproved": "承認済み",
   "courseReviewsStatusRejected": "却下されました",
   "courseReviewsRejectionReason": "審査コメント: {reason}",
-  "@courseReviewsRejectionReason": {"placeholders": {"reason": {"type": "String"}}},
+  "@courseReviewsRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsEdit": "レビューを編集",
   "courseReviewsDelete": "レビューを削除",
   "courseReviewsDeleteConfirm": "このレビューを削除しますか？この操作は取り消せません。",
   "courseReviewsDeleted": "レビューを削除しました。",
   "courseReviewsDeleteFailed": "レビューの削除に失敗しました: {error}",
-  "@courseReviewsDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsUpdated": "レビューを更新し、再度審査に提出しました。",
   "courseReviewsUpdateFailed": "レビューの更新に失敗しました: {error}",
-  "@courseReviewsUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumNotificationsTitle": "フォーラムのお知らせ",
   "forumNotificationsEmpty": "フォーラムのお知らせはありません。",
   "forumNotificationsMarkAllRead": "すべて既読にする",
@@ -2283,10 +2785,85 @@
   "forumPostDeleted": "投稿が削除されました。",
   "forumPostRestored": "投稿が復元されました。",
   "forumAppealResolved": "異議申立てが処理されました。",
-  "campusCreateFolder": "フォルダーを作成", "campusRenameFolder": "フォルダー名を変更", "campusEditModeEntry": "編集モード", "fontSettings": "フォント", "fontFamilyLabel": "フォント", "fontFamilySubtitle": "システムフォントまたは Google Fonts", "fontFamilySystem": "システムフォント", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "アプリをドラッグして並べ替えるか、フォルダーを作成します", "campusLayoutColumns": "1 行に {count} 個", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
-  "courseImportOverwriteModifiedTitle": "変更した授業を上書きしますか？", "courseImportOverwriteModifiedMessage": "この学期の {count} 件の授業が手動で変更されています。インポートを続行すると、これらの変更が上書きされます。", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "上書きする", "courseImportOverwriteModifiedKeepLocal": "すべてのローカル変更を保持", "courseImportOverwriteModifiedReviewIndividually": "個別に確認", "courseImportModifiedRecordMessage": "変更された授業の予定: {time}\nこの記録の処理方法を選択してください。", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "上書き", "courseImportRecordKeepLocal": "ローカル変更を保持", "courseImportRecordSkip": "この記録をスキップ",
-  "listCompleteSelected": "選択した項目を完了", "listDeleteSelected": "選択した項目を削除", "detailSkipOccurrence": "この予定をスキップ", "detailStatusInProgress": "進行中", "detailStatusCompleted": "完了", "detailStatusEnded": "終了、完了待ち", "detailStatusOverdue": "期限切れ", "detailStatusUpcoming": "予定", "detailStatusInactive": "完了を追跡しない", "detailConflictWithItems": "{items} と時間が重複しています。保存は可能です。", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
-  "editorCompletionMode": "完了方法", "editorCompletionModeManual": "手動で完了", "editorCompletionModeAutomatic": "終了時刻に完了", "editorCompletionModeNone": "表示のみ", "editorConflictWithItems": "{items} と時間が重複しています。保存は可能です。", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "言語設定", "commonOk": "OK", "whuAccountEducationalYearsValue": "{years} 年", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}},
+  "campusCreateFolder": "フォルダーを作成",
+  "campusRenameFolder": "フォルダー名を変更",
+  "campusEditModeEntry": "編集モード",
+  "fontSettings": "フォント",
+  "fontFamilyLabel": "フォント",
+  "fontFamilySubtitle": "システムフォントまたは Google Fonts",
+  "fontFamilySystem": "システムフォント",
+  "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "campusLayoutDragHint": "アプリをドラッグして並べ替えるか、フォルダーを作成します",
+  "campusLayoutColumns": "1 行に {count} 個",
+  "@campusLayoutColumns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedTitle": "変更した授業を上書きしますか？",
+  "courseImportOverwriteModifiedMessage": "この学期の {count} 件の授業が手動で変更されています。インポートを続行すると、これらの変更が上書きされます。",
+  "@courseImportOverwriteModifiedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedConfirm": "上書きする",
+  "courseImportOverwriteModifiedKeepLocal": "すべてのローカル変更を保持",
+  "courseImportOverwriteModifiedReviewIndividually": "個別に確認",
+  "courseImportModifiedRecordMessage": "変更された授業の予定: {time}\nこの記録の処理方法を選択してください。",
+  "@courseImportModifiedRecordMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportRecordOverwrite": "上書き",
+  "courseImportRecordKeepLocal": "ローカル変更を保持",
+  "courseImportRecordSkip": "この記録をスキップ",
+  "listCompleteSelected": "選択した項目を完了",
+  "listDeleteSelected": "選択した項目を削除",
+  "detailSkipOccurrence": "この予定をスキップ",
+  "detailStatusInProgress": "進行中",
+  "detailStatusCompleted": "完了",
+  "detailStatusEnded": "終了、完了待ち",
+  "detailStatusOverdue": "期限切れ",
+  "detailStatusUpcoming": "予定",
+  "detailStatusInactive": "完了を追跡しない",
+  "detailConflictWithItems": "{items} と時間が重複しています。保存は可能です。",
+  "@detailConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "editorCompletionMode": "完了方法",
+  "editorCompletionModeManual": "手動で完了",
+  "editorCompletionModeAutomatic": "終了時刻に完了",
+  "editorCompletionModeNone": "表示のみ",
+  "editorConflictWithItems": "{items} と時間が重複しています。保存は可能です。",
+  "@editorConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemSettings": "言語設定",
+  "commonOk": "OK",
+  "whuAccountEducationalYearsValue": "{years} 年",
+  "@whuAccountEducationalYearsValue": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
   "appUpdateAvailableTitle": "アップデートがあります",
   "appUpdateSkipVersion": "このバージョンをスキップ",
   "appUpdateLater": "後で",
@@ -2341,5 +2918,87 @@
   "aiProviderAliyun": "阿里通義千問",
   "aiProviderTencent": "騰訊混元",
   "aiProviderYi": "01.AI (Yi)",
-  "aiProviderBaichuan": "百川智能"
+  "aiProviderBaichuan": "百川智能",
+  "detailDeleteConfirmTitle": "この項目を削除しますか？",
+  "detailDeleteConfirmMessage": "この項目は完全に削除されます。",
+  "listDeleteSelectedConfirmTitle": "選択した項目を削除しますか？",
+  "listDeleteSelectedConfirmMessage": "{count} 件の項目が完全に削除されます。",
+  "courseTimetableDefaultGroupName": "デフォルト",
+  "courseTimetableGroupNew": "新しいグループ",
+  "courseTimetableGroupRename": "グループ名を変更",
+  "courseTimetableGroupDelete": "グループを削除",
+  "courseTimetableGroupSetDefault": "デフォルトのインポート先グループに設定",
+  "courseTimetableGroupDefaultBadge": "デフォルト",
+  "courseTimetableGroupNameHint": "グループ名",
+  "courseTimetableGroupDeleteConfirm": "このグループを削除しますか？時間割はデフォルトグループに移動します。",
+  "courseTimetableGroupCannotDeleteLast": "グループは少なくとも1つ残してください。",
+  "courseTimetablePickGroup": "グループに追加",
+  "courseTimetableMoveToGroup": "グループへ移動",
+  "courseTimetableShowOnHome": "ホームに表示",
+  "courseTimetableImportToGroup": "このグループにインポート",
+  "courseTimetableCreateInGroup": "ここに空の時間割を作成",
+  "courseTimetableSetHomePrimary": "ホームのメインに表示",
+  "courseTimetableToggleHomeFaded": "ホームで薄く表示",
+  "courseTimetableHomeFadedOn": "ホームで薄く表示中",
+  "courseTimetableHomeFadedOff": "薄く表示しない",
+  "courseTimetableGroupMoveUp": "グループを上へ",
+  "courseTimetableGroupMoveDown": "グループを下へ",
+  "courseTimetableGroupExpand": "グループを展開",
+  "courseTimetableGroupCollapse": "グループを折りたたむ",
+  "settingsHomeTimetableGroups": "ホームの時間割グループ",
+  "settingsHomePrimaryGroup": "メイングループ（通常表示）",
+  "settingsHomeFadedGroups": "あわせて表示（薄く）",
+  "settingsHomeTimetableGroupsHint": "メインは通常表示、薄いグループは低不透明度で重ねて表示されます。時間割ページで個別の時間割のチェックを外すと非表示にできます。",
+  "homePickOverlappingItem": "項目を選択",
+  "homePickOverlappingSecondary": "サブグループ",
+  "notificationStartsInMinutes": "{minutes} 分後に開始 · {time}",
+  "settingsDefaultCourseReminder": "デフォルトグループの授業リマインダー",
+  "settingsDefaultCourseReminderSubtitle": "デフォルト時間割グループの開始前通知時間（0 = オフ）。他のグループは既定でオフで、下でグループごとに設定できます。5分刻み、最大100。",
+  "settingsDefaultCourseReminderValue": "{minutes} 分前",
+  "settingsDefaultCourseReminderOff": "オフ",
+  "settingsGroupCourseRemindersTitle": "時間割グループごとのリマインダー",
+  "settingsGroupCourseRemindersHint": "デフォルトグループは上のスライダーを使用（カスタム時を除く）。友達などの他グループは 0（オフ）から始まります。",
+  "settingsGroupCourseReminderDefaultMark": "デフォルトグループ",
+  "settingsCourseReminderOverridesTitle": "科目ごとのリマインダー",
+  "settingsCourseReminderOverridesHint": "同じ科目名（またはソース ID）は通知時間を共有し、グループ既定を上書きします。",
+  "settingsCourseReminderUseDefault": "グループ既定を使用（{minutes} 分）",
+  "settingsCourseReminderCustom": "カスタム：{minutes} 分",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  }
 }

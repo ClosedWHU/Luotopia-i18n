@@ -103,15 +103,48 @@
   "editorCoursePeriodStart": "Start period",
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
-  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCoursePeriodN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCoursePeriodSingle": "Period {n} · {time}",
-  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodSingle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
-  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCourseWeekStart": "Start week",
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
-  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCourseWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCourseWeekParity": "Week parity",
   "editorCourseWeekParityAll": "Every week",
   "editorCourseWeekParityOdd": "Odd weeks",
@@ -304,10 +337,207 @@
       }
     }
   },
-  "academicSystem": "Hệ thống học vụ", "academicSystemImport": "Nhập từ hệ thống học vụ", "addTimetable": "Thêm thời khóa biểu", "addToTimetable": "Thêm vào {name}", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "Thư mục", "campusDissolveFolderConfirm": "Giải tán thư mục", "campusDissolveFolderContent": "Các ứng dụng trong thư mục này sẽ được chuyển lại lưới ứng dụng.", "campusDissolveFolderTitle": "Giải tán thư mục này?", "createEmptyTimetable": "Tạo thời khóa biểu trống", "createEmptyTimetableDescription": "Tạo thời khóa biểu mà không nhập học phần", "editCourses": "Sửa học phần", "emptyTimetable": "Thời khóa biểu trống", "emptyTimetableExportNotNeeded": "Thời khóa biểu trống không cần xuất.", "timetableNotFound": "Không tìm thấy thời khóa biểu", "enterStarlinkShareCode": "Nhập mã chia sẻ Starlink", "exportTimetable": "Xuất thời khóa biểu", "homeTimeBlock": "Khối {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "Tệp JSON", "listStatusCompleted": "Đã hoàn thành", "listStatusEndedPendingCompletion": "Đã kết thúc, chờ hoàn thành", "listStatusInProgress": "Đang thực hiện", "listStatusPending": "Đang chờ", "localFile": "Tệp cục bộ", "localFileImport": "Nhập tệp cục bộ", "localFileImportDescription": "Nhập bản sao lưu thời khóa biểu Luotopia từ tệp JSON", "luotopiaJsonBackup": "Sao lưu JSON Luotopia", "luotopiaJsonBackupDescription": "Bản sao lưu thời khóa biểu đầy đủ cho Luotopia", "mixed": "Hỗn hợp", "mixedTimetable": "Thời khóa biểu hỗn hợp", "newTimetableName": "Tên thời khóa biểu mới",
-  "notificationChannelAgendaDefaultDescription": "Nhắc mục có thể bị trễ một chút.", "notificationChannelAgendaDefaultName": "Nhắc lịch", "notificationChannelAgendaExactDescription": "Nhắc đúng giờ và sắp diễn ra cho mục và học phần.", "notificationChannelAgendaExactName": "Nhắc lịch (chính xác)", "notificationChannelCampusDescription": "Nhắc đặt chỗ và các nội dung liên quan đến khuôn viên.", "notificationChannelCampusName": "Dịch vụ khuôn viên", "notificationChannelMarketingDescription": "Cập nhật hoạt động và khuyến mãi trong khuôn viên.", "notificationChannelMarketingName": "Hoạt động và khuyến mãi", "notificationCourseInProgress": "Đang học", "notificationReminderTitle": "Lời nhắc", "notificationScheduleEndedBody": "Lịch này đã kết thúc. Hãy nhớ đánh dấu hoàn thành hoặc lên kế hoạch tiếp theo.", "notificationScheduleIncomplete": "Lịch chưa hoàn thành", "notificationStartsInFifteenMinutes": "Bắt đầu sau 15 phút · {time}", "@notificationStartsInFifteenMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInFiveMinutes": "Bắt đầu sau 5 phút · {time}", "@notificationStartsInFiveMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInOneHour": "Bắt đầu sau 1 giờ · {time}", "@notificationStartsInOneHour": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsSoon": "Sắp bắt đầu · {time}", "@notificationStartsSoon": {"placeholders":{"time":{"type":"String"}}}, "notificationTomorrow": "Ngày mai · {time}", "@notificationTomorrow": {"placeholders":{"time":{"type":"String"}}},
-  "notProvided": "Chưa cung cấp", "notUpdated": "Chưa cập nhật", "renameTimetable": "Đổi tên thời khóa biểu", "selectCourseSourceToUpdate": "Chọn nguồn học phần để cập nhật", "selectFileFormatToSave": "Chọn định dạng tệp để lưu", "selectImportMethod": "Chọn phương thức nhập", "separate": "Tách", "separatedTimetableName": "{name} (đã tách)", "@separatedTimetableName": {"placeholders":{"name":{"type":"String"}}}, "separateTimetable": "Tách thời khóa biểu", "shareCode": "Mã chia sẻ", "shiguang": "Shiguang", "shiguangFileImportDescription": "Nhập tệp JSON thời khóa biểu Shiguang", "shiguangImportFailed": "Không thể nhập thời khóa biểu Shiguang: {error}", "@shiguangImportFailed": {"placeholders":{"error":{"type":"String"}}}, "shiguangTimetable": "Thời khóa biểu Shiguang", "shiguangTimetableExportDescription": "Xuất thời khóa biểu tương thích với Shiguang", "shiguangTimetableImport": "Nhập thời khóa biểu Shiguang", "shiguangTimetableJson": "JSON thời khóa biểu Shiguang", "sourceLocalFile": "Nguồn: Tệp cục bộ", "sourceShiguang": "Nguồn: Shiguang", "sourceStarlink": "Nguồn: Starlink", "starlink": "Starlink", "starlinkFileMustBeJsonObject": "Tệp Starlink phải chứa một đối tượng JSON.", "starlinkImportDescription": "Nhập thời khóa biểu Starlink từ tệp JSON hoặc mã chia sẻ", "starlinkImportFailed": "Không thể nhập thời khóa biểu Starlink: {error}", "@starlinkImportFailed": {"placeholders":{"error":{"type":"String"}}}, "starlinkTimetable": "Thời khóa biểu Starlink", "starlinkTimetableExportDescription": "Xuất thời khóa biểu tương thích với Starlink", "starlinkTimetableImport": "Nhập thời khóa biểu Starlink", "starlinkTimetableJson": "JSON thời khóa biểu Starlink", "starlinkTimetableShareCode": "Mã chia sẻ thời khóa biểu Starlink",
-  "timetableDetails": "Học kỳ: {term}\nĐã nhập: {importedAt}\nĐã cập nhật: {updatedAt}\nNguồn: {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "Đã xuất thời khóa biểu.", "timetableImportFailed": "Không thể nhập thời khóa biểu: {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "Không thể cập nhật riêng nguồn thời khóa biểu này.", "updateTimetable": "Cập nhật thời khóa biểu", "wakeupCsv": "Wakeup CSV", "wakeupCsvDescription": "Xuất học phần thành CSV tương thích Wakeup", "wakeupFileAlreadyAdded": "Thời khóa biểu Wakeup này đã được thêm.", "wakeupFileImportDescription": "Nhập CSV hoặc tệp thời khóa biểu Wakeup", "wakeupImportFailed": "Không thể nhập thời khóa biểu Wakeup: {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Tệp thời khóa biểu Wakeup", "wakeupShareFileDescription": "Xuất tệp thời khóa biểu Wakeup", "webViewErrorTitle": "Không thể mở trang", "webViewLoadFailed": "Không thể tải trang. Hãy kiểm tra kết nối mạng và thử lại.", "webViewLoadingPage": "Đang tải trang...", "webViewPreparationFailed": "Chuẩn bị trang thất bại: {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "Đang chuẩn bị trang...", "webViewRetry": "Thử lại",
+  "academicSystem": "Hệ thống học vụ",
+  "academicSystemImport": "Nhập từ hệ thống học vụ",
+  "addTimetable": "Thêm thời khóa biểu",
+  "addToTimetable": "Thêm vào {name}",
+  "@addToTimetable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "campusDefaultFolderName": "Thư mục",
+  "campusDissolveFolderConfirm": "Giải tán thư mục",
+  "campusDissolveFolderContent": "Các ứng dụng trong thư mục này sẽ được chuyển lại lưới ứng dụng.",
+  "campusDissolveFolderTitle": "Giải tán thư mục này?",
+  "createEmptyTimetable": "Tạo thời khóa biểu trống",
+  "createEmptyTimetableDescription": "Tạo thời khóa biểu mà không nhập học phần",
+  "editCourses": "Sửa học phần",
+  "emptyTimetable": "Thời khóa biểu trống",
+  "emptyTimetableExportNotNeeded": "Thời khóa biểu trống không cần xuất.",
+  "timetableNotFound": "Không tìm thấy thời khóa biểu",
+  "enterStarlinkShareCode": "Nhập mã chia sẻ Starlink",
+  "exportTimetable": "Xuất thời khóa biểu",
+  "homeTimeBlock": "Khối {index}",
+  "@homeTimeBlock": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "jsonFile": "Tệp JSON",
+  "listStatusCompleted": "Đã hoàn thành",
+  "listStatusEndedPendingCompletion": "Đã kết thúc, chờ hoàn thành",
+  "listStatusInProgress": "Đang thực hiện",
+  "listStatusPending": "Đang chờ",
+  "localFile": "Tệp cục bộ",
+  "localFileImport": "Nhập tệp cục bộ",
+  "localFileImportDescription": "Nhập bản sao lưu thời khóa biểu Luotopia từ tệp JSON",
+  "luotopiaJsonBackup": "Sao lưu JSON Luotopia",
+  "luotopiaJsonBackupDescription": "Bản sao lưu thời khóa biểu đầy đủ cho Luotopia",
+  "mixed": "Hỗn hợp",
+  "mixedTimetable": "Thời khóa biểu hỗn hợp",
+  "newTimetableName": "Tên thời khóa biểu mới",
+  "notificationChannelAgendaDefaultDescription": "Nhắc mục có thể bị trễ một chút.",
+  "notificationChannelAgendaDefaultName": "Nhắc lịch",
+  "notificationChannelAgendaExactDescription": "Nhắc đúng giờ và sắp diễn ra cho mục và học phần.",
+  "notificationChannelAgendaExactName": "Nhắc lịch (chính xác)",
+  "notificationChannelCampusDescription": "Nhắc đặt chỗ và các nội dung liên quan đến khuôn viên.",
+  "notificationChannelCampusName": "Dịch vụ khuôn viên",
+  "notificationChannelMarketingDescription": "Cập nhật hoạt động và khuyến mãi trong khuôn viên.",
+  "notificationChannelMarketingName": "Hoạt động và khuyến mãi",
+  "notificationCourseInProgress": "Đang học",
+  "notificationReminderTitle": "Lời nhắc",
+  "notificationScheduleEndedBody": "Lịch này đã kết thúc. Hãy nhớ đánh dấu hoàn thành hoặc lên kế hoạch tiếp theo.",
+  "notificationScheduleIncomplete": "Lịch chưa hoàn thành",
+  "notificationStartsInFifteenMinutes": "Bắt đầu sau 15 phút · {time}",
+  "@notificationStartsInFifteenMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInFiveMinutes": "Bắt đầu sau 5 phút · {time}",
+  "@notificationStartsInFiveMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInOneHour": "Bắt đầu sau 1 giờ · {time}",
+  "@notificationStartsInOneHour": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsSoon": "Sắp bắt đầu · {time}",
+  "@notificationStartsSoon": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTomorrow": "Ngày mai · {time}",
+  "@notificationTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notProvided": "Chưa cung cấp",
+  "notUpdated": "Chưa cập nhật",
+  "renameTimetable": "Đổi tên thời khóa biểu",
+  "selectCourseSourceToUpdate": "Chọn nguồn học phần để cập nhật",
+  "selectFileFormatToSave": "Chọn định dạng tệp để lưu",
+  "selectImportMethod": "Chọn phương thức nhập",
+  "separate": "Tách",
+  "separatedTimetableName": "{name} (đã tách)",
+  "@separatedTimetableName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "separateTimetable": "Tách thời khóa biểu",
+  "shareCode": "Mã chia sẻ",
+  "shiguang": "Shiguang",
+  "shiguangFileImportDescription": "Nhập tệp JSON thời khóa biểu Shiguang",
+  "shiguangImportFailed": "Không thể nhập thời khóa biểu Shiguang: {error}",
+  "@shiguangImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shiguangTimetable": "Thời khóa biểu Shiguang",
+  "shiguangTimetableExportDescription": "Xuất thời khóa biểu tương thích với Shiguang",
+  "shiguangTimetableImport": "Nhập thời khóa biểu Shiguang",
+  "shiguangTimetableJson": "JSON thời khóa biểu Shiguang",
+  "sourceLocalFile": "Nguồn: Tệp cục bộ",
+  "sourceShiguang": "Nguồn: Shiguang",
+  "sourceStarlink": "Nguồn: Starlink",
+  "starlink": "Starlink",
+  "starlinkFileMustBeJsonObject": "Tệp Starlink phải chứa một đối tượng JSON.",
+  "starlinkImportDescription": "Nhập thời khóa biểu Starlink từ tệp JSON hoặc mã chia sẻ",
+  "starlinkImportFailed": "Không thể nhập thời khóa biểu Starlink: {error}",
+  "@starlinkImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "starlinkTimetable": "Thời khóa biểu Starlink",
+  "starlinkTimetableExportDescription": "Xuất thời khóa biểu tương thích với Starlink",
+  "starlinkTimetableImport": "Nhập thời khóa biểu Starlink",
+  "starlinkTimetableJson": "JSON thời khóa biểu Starlink",
+  "starlinkTimetableShareCode": "Mã chia sẻ thời khóa biểu Starlink",
+  "timetableDetails": "Học kỳ: {term}\nĐã nhập: {importedAt}\nĐã cập nhật: {updatedAt}\nNguồn: {source}",
+  "@timetableDetails": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "importedAt": {
+        "type": "String"
+      },
+      "updatedAt": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableExported": "Đã xuất thời khóa biểu.",
+  "timetableImportFailed": "Không thể nhập thời khóa biểu: {error}",
+  "@timetableImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableIndependentUpdateUnsupported": "Không thể cập nhật riêng nguồn thời khóa biểu này.",
+  "updateTimetable": "Cập nhật thời khóa biểu",
+  "wakeupCsv": "Wakeup CSV",
+  "wakeupCsvDescription": "Xuất học phần thành CSV tương thích Wakeup",
+  "wakeupFileAlreadyAdded": "Thời khóa biểu Wakeup này đã được thêm.",
+  "wakeupFileImportDescription": "Nhập CSV hoặc tệp thời khóa biểu Wakeup",
+  "wakeupImportFailed": "Không thể nhập thời khóa biểu Wakeup: {error}",
+  "@wakeupImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupShareFile": "Tệp thời khóa biểu Wakeup",
+  "wakeupShareFileDescription": "Xuất tệp thời khóa biểu Wakeup",
+  "webViewErrorTitle": "Không thể mở trang",
+  "webViewLoadFailed": "Không thể tải trang. Hãy kiểm tra kết nối mạng và thử lại.",
+  "webViewLoadingPage": "Đang tải trang...",
+  "webViewPreparationFailed": "Chuẩn bị trang thất bại: {error}",
+  "@webViewPreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webViewPreparingPage": "Đang chuẩn bị trang...",
+  "webViewRetry": "Thử lại",
   "licenseVersion": "Phiên bản: {version}",
   "@licenseVersion": {
     "placeholders": {
@@ -441,6 +671,9 @@
   "whuAccountShift": "Trạng thái",
   "whuAccountEducationalYears": "Thời gian đào tạo",
   "whuAccountRoleName": "Vai trò",
+  "whuAccountDormBuilding": "Tòa ký túc",
+  "whuAccountDormRoom": "Phòng",
+  "whuAccountDormBed": "Giường",
   "whuAccountSectionPersonal": "Thông tin cá nhân",
   "whuAccountSectionAcademic": "Học vụ",
   "whuAccountSectionSession": "Phiên đăng nhập",
@@ -820,7 +1053,6 @@
   "settingsPushNotificationsSubtitle": "Nhận thông báo lịch, đánh giá và hệ thống",
   "settingsMarketingNotifications": "Marketing & sự kiện",
   "settingsMarketingNotificationsSubtitle": "Nhận thông báo sự kiện & khuyến mãi khuôn viên",
-  
   "settingsNotificationChannelsTitle": "Kênh thông báo Android",
   "settingsNotificationChannelsHint": "Chạm kênh để đổi mức quan trọng trong cài đặt hệ thống. Mức thấp/im lặng có thể không có âm thanh.",
   "settingsNotificationChannelOpenSystem": "Mở cài đặt hệ thống",
@@ -843,7 +1075,7 @@
   "settingsNotificationImportanceSilentWarning": "Đang im lặng hoặc thấp — nhắc nhở có thể không có tiếng",
   "notificationChannelLiveUpdatesName": "Mục đang diễn ra",
   "notificationChannelLiveUpdatesDescription": "Tiến độ trực tiếp cho buổi học và lịch trình.",
-"settingsStorageTitle": "Quản lý lưu trữ",
+  "settingsStorageTitle": "Quản lý lưu trữ",
   "settingsClearCache": "Xóa cache",
   "settingsClearCacheSubtitle": "Xóa tệp tạm và cache (khoảng {size})",
   "settingsCacheCleared": "Đã xóa cache: giải phóng {size}",
@@ -2065,14 +2297,47 @@
   "scoreTranscriptSaved": "Da luu PDF.",
   "scoreTranscriptShare": "Chia se",
   "scoreTranscriptSaveAs": "Luu thanh",
-  "authSecurityTitle":"Bảo mật và xác thực hai yếu tố","authTwoFactorTitle":"Xác thực hai yếu tố (2FA)","authTwoFactorEnabled":"Đã bật: cần mã email hoặc Passkey khi đăng nhập","authTwoFactorDisabled":"Đã tắt: chỉ cần mật khẩu khi đăng nhập","authCurrentPassword":"Mật khẩu hiện tại","authPasskeys":"Passkey","authRegisterPasskey":"Đăng ký Passkey trên thiết bị này","authPasskeyRegistered":"Đã đăng ký Passkey","authNoPasskeys":"Chưa có Passkey","authForgotPassword":"Quên mật khẩu?","authResetPassword":"Đặt lại mật khẩu","authSendResetLink":"Gửi liên kết","authResetRequested":"Nếu email đã được đăng ký, liên kết đã được gửi.","authMfaTitle":"Xác thực hai yếu tố","authMfaEmailSent":"Mã đã được gửi đến {email}","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"Mã xác minh email","authVerifyAndLogin":"Xác minh và đăng nhập","authUsePasskey":"Dùng Passkey","authResendCode":"Gửi lại mã","authBackToPasswordLogin":"Quay lại đăng nhập bằng mật khẩu","authLoginRequired":"Hãy đăng nhập trước",
+  "authSecurityTitle": "Bảo mật và xác thực hai yếu tố",
+  "authTwoFactorTitle": "Xác thực hai yếu tố (2FA)",
+  "authTwoFactorEnabled": "Đã bật: cần mã email hoặc Passkey khi đăng nhập",
+  "authTwoFactorDisabled": "Đã tắt: chỉ cần mật khẩu khi đăng nhập",
+  "authCurrentPassword": "Mật khẩu hiện tại",
+  "authPasskeys": "Passkey",
+  "authRegisterPasskey": "Đăng ký Passkey trên thiết bị này",
+  "authPasskeyRegistered": "Đã đăng ký Passkey",
+  "authNoPasskeys": "Chưa có Passkey",
+  "authForgotPassword": "Quên mật khẩu?",
+  "authResetPassword": "Đặt lại mật khẩu",
+  "authSendResetLink": "Gửi liên kết",
+  "authResetRequested": "Nếu email đã được đăng ký, liên kết đã được gửi.",
+  "authMfaTitle": "Xác thực hai yếu tố",
+  "authMfaEmailSent": "Mã đã được gửi đến {email}",
+  "@authMfaEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmailCode": "Mã xác minh email",
+  "authVerifyAndLogin": "Xác minh và đăng nhập",
+  "authUsePasskey": "Dùng Passkey",
+  "authResendCode": "Gửi lại mã",
+  "authBackToPasswordLogin": "Quay lại đăng nhập bằng mật khẩu",
+  "authLoginRequired": "Hãy đăng nhập trước",
   "commonConfirm": "Xác nhận",
   "commonContinue": "Tiếp tục",
   "commonCopy": "Sao chép",
   "commonSave": "Lưu",
   "commonRetry": "Thử lại",
   "commonLoadFailed": "Không thể tải: {error}",
-  "@commonLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@commonLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsTitle": "Thông tin xác thực API",
   "authApiCredentialCreate": "Tạo thông tin xác thực",
   "authApiCredentialName": "Tên",
@@ -2083,16 +2348,37 @@
   "authApiCredentialSecretShownOnce": "Mã bí mật API (chỉ hiển thị một lần)",
   "authApiCredentialSaved": "Tôi đã lưu lại",
   "authApiCredentialCreateFailed": "Không thể tạo thông tin xác thực: {error}",
-  "@authApiCredentialCreateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsEmpty": "Chưa có thông tin xác thực API",
   "authApiCredentialUnnamed": "Không tên",
   "authApiCredentialStatus": "Trạng thái: {status} · Đã tạo {date}",
-  "@authApiCredentialStatus": {"placeholders": {"status": {"type": "String"}, "date": {"type": "String"}}},
+  "@authApiCredentialStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialActive": "Đang hoạt động",
   "authApiCredentialRevoked": "Đã thu hồi",
   "authApiCredentialRevoke": "Thu hồi",
   "authApiCredentialRevokeFailed": "Không thể thu hồi thông tin xác thực: {error}",
-  "@authApiCredentialRevokeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialRevokeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsTitle": "Thiết bị và phiên đăng nhập",
   "authSessionsSignOutAll": "Đăng xuất khỏi tất cả thiết bị",
   "authSessionsSignOutAllWarning": "Thao tác này sẽ ngay lập tức vô hiệu hóa mọi thiết bị đã đăng nhập, bao gồm cả thiết bị này. Bạn sẽ cần đăng nhập lại.",
@@ -2105,36 +2391,102 @@
   "authSessionsUnknownDevice": "Thiết bị không xác định",
   "authSessionsUnknown": "Không xác định",
   "authSessionsDetails": "IP: {ip}\nHoạt động gần nhất: {lastActive}\nĐăng nhập: {signedIn}",
-  "@authSessionsDetails": {"placeholders": {"ip": {"type": "String"}, "lastActive": {"type": "String"}, "signedIn": {"type": "String"}}},
+  "@authSessionsDetails": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      },
+      "lastActive": {
+        "type": "String"
+      },
+      "signedIn": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSignOut": "Đăng xuất khỏi thiết bị này",
   "authSessionsSignOutSucceeded": "Đã đăng xuất thiết bị",
   "authSessionsSignOutFailed": "Không thể đăng xuất thiết bị: {error}",
-  "@authSessionsSignOutFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authSessionsSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDefaultDeviceName": "Thiết bị này",
   "authPasskeyDeviceName": "Tên thiết bị",
   "authPasskeyRegisterFailed": "Không thể đăng ký Passkey: {error}",
-  "@authPasskeyRegisterFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyRegisterFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeysDescription": "Đã đăng ký {count}. Passkey sử dụng xác thực sinh trắc học của hệ thống trên thiết bị của bạn.",
-  "@authPasskeysDescription": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasskeysDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authPasskeysSupportedDeviceHint": "Đăng ký khóa sinh trắc học trên thiết bị được hỗ trợ",
   "authPasskeyCreatedAt": "Đã tạo {date}",
-  "@authPasskeyCreatedAt": {"placeholders": {"date": {"type": "String"}}},
+  "@authPasskeyCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Không thể xóa Passkey: {error}",
-  "@authPasskeyDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOperationFailed": "Thao tác thất bại: {error}",
-  "@authOperationFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsTitle": "Tài khoản WHU đã liên kết",
   "authWhuBindingsManage": "Quản lý xác thực cục bộ",
   "authWhuBindingSucceeded": "Đã liên kết tài khoản",
   "authWhuBindingFailed": "Không thể liên kết tài khoản: {error}",
-  "@authWhuBindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuBindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingCurrent": "Liên kết tài khoản cục bộ hiện tại ({studentId})",
-  "@authWhuBindingCurrent": {"placeholders": {"studentId": {"type": "String"}}},
+  "@authWhuBindingCurrent": {
+    "placeholders": {
+      "studentId": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsEmpty": "Không có tài khoản nào được liên kết",
   "authWhuBindingKeepOne": "Phải còn ít nhất một tài khoản đang hoạt động",
   "authWhuUnbindingSucceeded": "Đã hủy liên kết tài khoản",
   "authWhuUnbindingFailed": "Không thể hủy liên kết tài khoản: {error}",
-  "@authWhuUnbindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuUnbindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSubtitle": "Xem và đăng xuất các thiết bị đã đăng nhập",
   "authApiCredentialsSubtitle": "Quản lý khóa API để truy cập từ bên ngoài",
   "authChangePassword": "Đổi mật khẩu",
@@ -2142,28 +2494,64 @@
   "authDeleteAccountWarning": "Bạn có chắc muốn xóa tài khoản của mình không? Không thể hoàn tác thao tác này.",
   "authDeleteAccountConfirm": "Xóa tài khoản",
   "authDeleteAccountFailed": "Không thể xóa tài khoản: {error}",
-  "@authDeleteAccountFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authDeleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authEditProfile": "Chỉnh sửa hồ sơ",
   "authDisplayName": "Tên hiển thị",
   "authProfileUpdateFailed": "Không thể cập nhật hồ sơ: {error}",
-  "@authProfileUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authProfileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOldPassword": "Mật khẩu hiện tại",
   "authNewPassword": "Mật khẩu mới",
   "authPasswordChanged": "Đã đổi mật khẩu. Vui lòng đăng nhập lại.",
   "authPasswordChangeFailed": "Không thể đổi mật khẩu: {error}",
-  "@authPasswordChangeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordChangeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordChangeConfirm": "Đổi mật khẩu",
   "authRegistrationWhuBindingRequired": "Cần liên kết tài khoản WHU để đăng ký",
   "authRegistrationBindWhuAccount": "Liên kết tài khoản WHU",
   "authPasswordMinLength": "Mật khẩu phải có ít nhất {count} ký tự",
-  "@authPasswordMinLength": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasswordMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsLoadFailed": "Không thể tải phân bố điểm: {error}",
-  "@courseGradeStatsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseGradeStatsSubmit": "Gửi điểm ẩn danh",
   "courseGradeStatsNoTeachers": "Không có giảng viên nào cho học phần này nên không thể gửi điểm.",
   "courseGradeStatsPrivacyThreshold": "Cần ít nhất 5 mẫu để bảo vệ quyền riêng tư.",
   "courseGradeStatsSamples": "{count} mẫu ẩn danh",
-  "@courseGradeStatsSamples": {"placeholders": {"count": {"type": "int"}}},
+  "@courseGradeStatsSamples": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsTotalAverage": "Điểm tổng kết trung bình",
   "courseGradeStatsUsualAverage": "Điểm thường xuyên trung bình",
   "courseGradeStatsExamAverage": "Điểm thi trung bình",
@@ -2172,71 +2560,179 @@
   "courseGradeStatsTotalScore": "Tổng điểm (0 - 100)",
   "courseGradeStatsSubmitted": "Đã gửi điểm ẩn danh.",
   "courseGradeStatsSubmitFailed": "Không thể gửi điểm: {error}",
-  "@courseGradeStatsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsLoginRequired": "Hãy đăng nhập để xem đánh giá học phần ẩn danh.",
   "courseReviewsSyncEligibility": "Đồng bộ các học phần đã hoàn thành",
   "courseReviewsWrite": "Viết đánh giá ẩn danh",
   "courseReviewsAnonymousStudent": "Sinh viên ẩn danh · {semester}",
-  "@courseReviewsAnonymousStudent": {"placeholders": {"semester": {"type": "String"}}},
+  "@courseReviewsAnonymousStudent": {
+    "placeholders": {
+      "semester": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsTitle": "Đánh giá học phần ẩn danh",
   "courseReviewsContent": "Đánh giá",
   "courseReviewsRating": "Xếp hạng",
   "courseReviewsRatingValue": "{rating} / 5",
-  "@courseReviewsRatingValue": {"placeholders": {"rating": {"type": "String"}}},
+  "@courseReviewsRatingValue": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSubmit": "Gửi để xét duyệt",
   "courseReviewsSubmitted": "Đã gửi đánh giá và sẽ được hiển thị sau khi phê duyệt.",
   "courseReviewsSubmitFailed": "Không thể gửi đánh giá: {error}",
-  "@courseReviewsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSyncSucceeded": "Đã đồng bộ {count} học phần đủ điều kiện.",
-  "@courseReviewsSyncSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@courseReviewsSyncSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseReviewsSyncFailed": "Không thể đồng bộ: {error}",
-  "@courseReviewsSyncFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSyncFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumCreatePost": "Tạo bài viết",
   "forumPost": "Bài viết",
   "forumBoardShelter": "Khu trú ẩn {name}",
-  "@forumBoardShelter": {"placeholders": {"name": {"type": "String"}}},
+  "@forumBoardShelter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumBoardsLoadFailed": "Không thể tải diễn đàn: {error}",
-  "@forumBoardsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumBoardsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostsLoadFailed": "Không thể tải bài viết: {error}",
-  "@forumPostsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPostsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostTitle": "Tiêu đề",
   "forumPostContent": "Nội dung",
   "forumPublish": "Đăng",
   "forumPublishFailed": "Không thể đăng: {error}",
-  "@forumPublishFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPublishFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumEmpty": "Chưa có bài viết nào. Hãy là người đầu tiên đăng bài.",
   "forumAnonymous": "Ẩn danh",
   "forumPostMetadata": "{author} · {comments} phản hồi · {upvotes} lượt ủng hộ",
-  "@forumPostMetadata": {"placeholders": {"author": {"type": "String"}, "comments": {"type": "int"}, "upvotes": {"type": "int"}}},
+  "@forumPostMetadata": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "comments": {
+        "type": "int"
+      },
+      "upvotes": {
+        "type": "int"
+      }
+    }
+  },
   "forumPostDetails": "Chi tiết bài viết",
   "forumReplies": "Phản hồi",
   "forumReply": "Phản hồi",
   "forumRepliesLoadFailed": "Không thể tải phản hồi: {error}",
-  "@forumRepliesLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumRepliesLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyPost": "Phản hồi bài viết",
   "forumReplyHint": "Hãy lịch sự và không chia sẻ thông tin cá nhân.",
   "forumSend": "Gửi",
   "forumReplyFailed": "Không thể phản hồi: {error}",
-  "@forumReplyFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReplyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordResetEmail": "Email",
   "authPasswordResetSendFailed": "Không thể gửi: {error}",
-  "@authPasswordResetSendFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordResetSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsMyReviews": "Đánh giá của tôi",
   "courseReviewsMyReviewsEmpty": "Bạn chưa gửi đánh giá nào.",
   "courseReviewsStatusPending": "Đang chờ duyệt",
   "courseReviewsStatusApproved": "Đã duyệt",
   "courseReviewsStatusRejected": "Bị từ chối",
   "courseReviewsRejectionReason": "Ghi chú duyệt: {reason}",
-  "@courseReviewsRejectionReason": {"placeholders": {"reason": {"type": "String"}}},
+  "@courseReviewsRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsEdit": "Chỉnh sửa đánh giá",
   "courseReviewsDelete": "Xóa đánh giá",
   "courseReviewsDeleteConfirm": "Xóa đánh giá này? Thao tác này không thể hoàn tác.",
   "courseReviewsDeleted": "Đã xóa đánh giá.",
   "courseReviewsDeleteFailed": "Không thể xóa đánh giá: {error}",
-  "@courseReviewsDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsUpdated": "Đã cập nhật đánh giá và gửi lại để duyệt.",
   "courseReviewsUpdateFailed": "Không thể cập nhật đánh giá: {error}",
-  "@courseReviewsUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumMyPosts": "Bài viết của tôi",
   "forumLikedPosts": "Bài viết đã thích",
   "forumFavoritePosts": "Bài viết đã lưu",
@@ -2249,7 +2745,13 @@
   "forumShelterPrivacyTitle": "Quyền riêng tư của khu trú ẩn",
   "forumShelterPrivacyDescription": "Bí danh của bạn chỉ được giữ nhất quán trong chủ đề này. Ảnh đại diện và hồ sơ sẽ không hiển thị, đồng thời bài viết này sẽ hết hạn sau 24 giờ.",
   "forumShelterExpiresIn": "Hết hạn sau {time}",
-  "@forumShelterExpiresIn": {"placeholders": {"time": {"type": "String"}}},
+  "@forumShelterExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "forumLike": "Thích",
   "forumDislike": "Không thích",
   "forumSave": "Lưu",
@@ -2257,7 +2759,13 @@
   "forumReportReason": "Lý do",
   "forumReportSubmitted": "Đã gửi báo cáo.",
   "forumReportFailed": "Không thể gửi báo cáo: {error}",
-  "@forumReportFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumNotificationsTitle": "Thông báo diễn đàn",
   "forumNotificationsEmpty": "Bạn không có thông báo nào từ diễn đàn.",
   "forumNotificationsMarkAllRead": "Đánh dấu tất cả là đã đọc",
@@ -2277,10 +2785,85 @@
   "forumPostDeleted": "Bài viết đã bị xóa.",
   "forumPostRestored": "Bài viết đã được khôi phục.",
   "forumAppealResolved": "Kháng nghị đã được xử lý.",
-  "campusCreateFolder": "Tạo thư mục", "campusRenameFolder": "Đổi tên thư mục", "campusEditModeEntry": "Chế độ chỉnh sửa", "fontSettings": "Phông chữ", "fontFamilyLabel": "Phông chữ", "fontFamilySubtitle": "Phông chữ hệ thống hoặc Google Fonts", "fontFamilySystem": "Phông chữ hệ thống", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "Kéo ứng dụng để sắp xếp lại hoặc tạo thư mục", "campusLayoutColumns": "{count} mỗi hàng", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
-  "courseImportOverwriteModifiedTitle": "Ghi đè các môn học đã chỉnh sửa?", "courseImportOverwriteModifiedMessage": "{count} môn học trong học kỳ này đã được chỉnh sửa thủ công. Tiếp tục nhập sẽ ghi đè các thay đổi đó.", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "Vẫn ghi đè", "courseImportOverwriteModifiedKeepLocal": "Giữ tất cả thay đổi cục bộ", "courseImportOverwriteModifiedReviewIndividually": "Xem xét từng mục", "courseImportModifiedRecordMessage": "Lần học đã chỉnh sửa: {time}\nChọn cách xử lý bản ghi này.", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "Ghi đè", "courseImportRecordKeepLocal": "Giữ thay đổi cục bộ", "courseImportRecordSkip": "Bỏ qua bản ghi này",
-  "listCompleteSelected": "Hoàn thành mục đã chọn", "listDeleteSelected": "Xóa mục đã chọn", "detailSkipOccurrence": "Bỏ qua lần này", "detailStatusInProgress": "Đang thực hiện", "detailStatusCompleted": "Đã hoàn thành", "detailStatusEnded": "Đã kết thúc, chờ hoàn thành", "detailStatusOverdue": "Quá hạn", "detailStatusUpcoming": "Sắp tới", "detailStatusInactive": "Không theo dõi hoàn thành", "detailConflictWithItems": "Trùng thời gian với {items}. Bạn vẫn có thể lưu.", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
-  "editorCompletionMode": "Hoàn thành", "editorCompletionModeManual": "Hoàn thành thủ công", "editorCompletionModeAutomatic": "Hoàn thành vào giờ kết thúc", "editorCompletionModeNone": "Chỉ hiển thị", "editorConflictWithItems": "Trùng thời gian với {items}. Bạn vẫn có thể lưu.", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "Cài đặt ngôn ngữ", "commonOk": "OK", "whuAccountEducationalYearsValue": "{years} năm", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}},
+  "campusCreateFolder": "Tạo thư mục",
+  "campusRenameFolder": "Đổi tên thư mục",
+  "campusEditModeEntry": "Chế độ chỉnh sửa",
+  "fontSettings": "Phông chữ",
+  "fontFamilyLabel": "Phông chữ",
+  "fontFamilySubtitle": "Phông chữ hệ thống hoặc Google Fonts",
+  "fontFamilySystem": "Phông chữ hệ thống",
+  "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "campusLayoutDragHint": "Kéo ứng dụng để sắp xếp lại hoặc tạo thư mục",
+  "campusLayoutColumns": "{count} mỗi hàng",
+  "@campusLayoutColumns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedTitle": "Ghi đè các môn học đã chỉnh sửa?",
+  "courseImportOverwriteModifiedMessage": "{count} môn học trong học kỳ này đã được chỉnh sửa thủ công. Tiếp tục nhập sẽ ghi đè các thay đổi đó.",
+  "@courseImportOverwriteModifiedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedConfirm": "Vẫn ghi đè",
+  "courseImportOverwriteModifiedKeepLocal": "Giữ tất cả thay đổi cục bộ",
+  "courseImportOverwriteModifiedReviewIndividually": "Xem xét từng mục",
+  "courseImportModifiedRecordMessage": "Lần học đã chỉnh sửa: {time}\nChọn cách xử lý bản ghi này.",
+  "@courseImportModifiedRecordMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportRecordOverwrite": "Ghi đè",
+  "courseImportRecordKeepLocal": "Giữ thay đổi cục bộ",
+  "courseImportRecordSkip": "Bỏ qua bản ghi này",
+  "listCompleteSelected": "Hoàn thành mục đã chọn",
+  "listDeleteSelected": "Xóa mục đã chọn",
+  "detailSkipOccurrence": "Bỏ qua lần này",
+  "detailStatusInProgress": "Đang thực hiện",
+  "detailStatusCompleted": "Đã hoàn thành",
+  "detailStatusEnded": "Đã kết thúc, chờ hoàn thành",
+  "detailStatusOverdue": "Quá hạn",
+  "detailStatusUpcoming": "Sắp tới",
+  "detailStatusInactive": "Không theo dõi hoàn thành",
+  "detailConflictWithItems": "Trùng thời gian với {items}. Bạn vẫn có thể lưu.",
+  "@detailConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "editorCompletionMode": "Hoàn thành",
+  "editorCompletionModeManual": "Hoàn thành thủ công",
+  "editorCompletionModeAutomatic": "Hoàn thành vào giờ kết thúc",
+  "editorCompletionModeNone": "Chỉ hiển thị",
+  "editorConflictWithItems": "Trùng thời gian với {items}. Bạn vẫn có thể lưu.",
+  "@editorConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemSettings": "Cài đặt ngôn ngữ",
+  "commonOk": "OK",
+  "whuAccountEducationalYearsValue": "{years} năm",
+  "@whuAccountEducationalYearsValue": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
   "appUpdateAvailableTitle": "Có bản cập nhật",
   "appUpdateSkipVersion": "Bỏ qua phiên bản này",
   "appUpdateLater": "Để sau",
@@ -2335,5 +2918,87 @@
   "aiProviderAliyun": "Alibaba Tongyi Qianwen",
   "aiProviderTencent": "Tencent Hunyuan",
   "aiProviderYi": "01.AI (Yi)",
-  "aiProviderBaichuan": "Baichuan AI"
+  "aiProviderBaichuan": "Baichuan AI",
+  "detailDeleteConfirmTitle": "Xóa mục này?",
+  "detailDeleteConfirmMessage": "Mục này sẽ bị xóa vĩnh viễn.",
+  "listDeleteSelectedConfirmTitle": "Xóa các mục đã chọn?",
+  "listDeleteSelectedConfirmMessage": "{count} mục sẽ bị xóa vĩnh viễn.",
+  "courseTimetableDefaultGroupName": "Mặc định",
+  "courseTimetableGroupNew": "Nhóm mới",
+  "courseTimetableGroupRename": "Đổi tên nhóm",
+  "courseTimetableGroupDelete": "Xóa nhóm",
+  "courseTimetableGroupSetDefault": "Đặt làm nhóm nhập mặc định",
+  "courseTimetableGroupDefaultBadge": "Mặc định",
+  "courseTimetableGroupNameHint": "Tên nhóm",
+  "courseTimetableGroupDeleteConfirm": "Xóa nhóm này? Các TKB sẽ được chuyển sang nhóm mặc định.",
+  "courseTimetableGroupCannotDeleteLast": "Giữ lại ít nhất một nhóm.",
+  "courseTimetablePickGroup": "Thêm vào nhóm",
+  "courseTimetableMoveToGroup": "Chuyển sang nhóm",
+  "courseTimetableShowOnHome": "Hiển thị trên trang chủ",
+  "courseTimetableImportToGroup": "Nhập vào nhóm này",
+  "courseTimetableCreateInGroup": "Tạo TKB trống tại đây",
+  "courseTimetableSetHomePrimary": "Hiển thị chính trên trang chủ",
+  "courseTimetableToggleHomeFaded": "Làm mờ trên trang chủ",
+  "courseTimetableHomeFadedOn": "Đang làm mờ trên trang chủ",
+  "courseTimetableHomeFadedOff": "Không làm mờ",
+  "courseTimetableGroupMoveUp": "Di chuyển nhóm lên",
+  "courseTimetableGroupMoveDown": "Di chuyển nhóm xuống",
+  "courseTimetableGroupExpand": "Mở rộng nhóm",
+  "courseTimetableGroupCollapse": "Thu gọn nhóm",
+  "settingsHomeTimetableGroups": "Nhóm TKB trên trang chủ",
+  "settingsHomePrimaryGroup": "Nhóm chính (độ mờ đầy đủ)",
+  "settingsHomeFadedGroups": "Cũng hiển thị (làm mờ)",
+  "settingsHomeTimetableGroupsHint": "Nhóm chính hiển thị rõ; nhóm làm mờ chồng lên với độ mờ thấp hơn. Bỏ chọn từng TKB trên trang TKB để ẩn.",
+  "homePickOverlappingItem": "Chọn mục",
+  "homePickOverlappingSecondary": "Nhóm phụ",
+  "notificationStartsInMinutes": "Bắt đầu sau {minutes} phút · {time}",
+  "settingsDefaultCourseReminder": "Nhắc học phần của nhóm mặc định",
+  "settingsDefaultCourseReminderSubtitle": "Thời gian nhắc trước của nhóm TKB mặc định (0 = tắt). Các nhóm khác mặc định tắt và có thể đặt bên dưới. Bước 5, tối đa 100.",
+  "settingsDefaultCourseReminderValue": "Trước {minutes} phút",
+  "settingsDefaultCourseReminderOff": "Tắt",
+  "settingsGroupCourseRemindersTitle": "Nhắc theo nhóm TKB",
+  "settingsGroupCourseRemindersHint": "Nhóm mặc định dùng thanh trượt phía trên trừ khi tùy chỉnh. Nhóm bạn bè/khác bắt đầu từ 0 (tắt).",
+  "settingsGroupCourseReminderDefaultMark": "Nhóm mặc định",
+  "settingsCourseReminderOverridesTitle": "Nhắc theo học phần",
+  "settingsCourseReminderOverridesHint": "Cùng tên học phần (hoặc id nguồn) dùng chung thời gian nhắc và ghi đè mặc định nhóm.",
+  "settingsCourseReminderUseDefault": "Dùng mặc định nhóm ({minutes} phút)",
+  "settingsCourseReminderCustom": "Tùy chỉnh: {minutes} phút",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  }
 }

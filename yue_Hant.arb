@@ -103,15 +103,48 @@
   "editorCoursePeriodStart": "Start period",
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
-  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCoursePeriodN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCoursePeriodSingle": "Period {n} · {time}",
-  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodSingle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
-  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCourseWeekStart": "Start week",
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
-  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCourseWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCourseWeekParity": "Week parity",
   "editorCourseWeekParityAll": "Every week",
   "editorCourseWeekParityOdd": "Odd weeks",
@@ -437,6 +470,9 @@
   "whuAccountShift": "學籍狀態",
   "whuAccountEducationalYears": "學制",
   "whuAccountRoleName": "角色",
+  "whuAccountDormBuilding": "宿舍樓棟",
+  "whuAccountDormRoom": "房間號",
+  "whuAccountDormBed": "床位號",
   "whuAccountSectionPersonal": "個人資料",
   "whuAccountSectionAcademic": "學籍學業",
   "whuAccountSectionSession": "登入狀態",
@@ -816,7 +852,6 @@
   "settingsPushNotificationsSubtitle": "接收關於日程、評價同系統訊息嘅通知",
   "settingsMarketingNotifications": "營銷同活動",
   "settingsMarketingNotificationsSubtitle": "接收校園活動同推廣資訊推送",
-  
   "settingsNotificationChannelsTitle": "Android 通知渠道",
   "settingsNotificationChannelsHint": "撳渠道可以喺系統設定度調重要程度。靜音或者低重要度可能會冇聲、冇橫幅。",
   "settingsNotificationChannelOpenSystem": "開啟系統設定",
@@ -839,7 +874,7 @@
   "settingsNotificationImportanceSilentWarning": "而家係靜音或者低重要度，提醒可能冇聲",
   "notificationChannelLiveUpdatesName": "進行中事項",
   "notificationChannelLiveUpdatesDescription": "科目同日程進行中嘅即時進度。",
-"settingsStorageTitle": "儲存管理",
+  "settingsStorageTitle": "儲存管理",
   "settingsClearCache": "清走快取",
   "settingsClearCacheSubtitle": "釋放可清理的臨時文件與緩存資料（約 {size}）",
   "settingsCacheCleared": "緩存已清除：釋放了 {size}",
@@ -2060,15 +2095,48 @@
   },
   "scoreTranscriptSaved": "PDF 已儲存。",
   "scoreTranscriptShare": "分享",
-  "scoreTranscriptSaveAs": "另存為"
-  ,"authSecurityTitle":"安全同兩步驗證","authTwoFactorTitle":"兩步驗證 (2FA)","authTwoFactorEnabled":"已開：登入要電郵驗證碼或者 Passkey","authTwoFactorDisabled":"未開：登入淨係要密碼","authCurrentPassword":"而家密碼","authPasskeys":"Passkey","authRegisterPasskey":"幫呢部裝置註冊 Passkey","authPasskeyRegistered":"Passkey 註冊成功","authNoPasskeys":"暫時未有 Passkey","authForgotPassword":"唔記得密碼？","authResetPassword":"重設密碼","authSendResetLink":"傳送重設連結","authResetRequested":"如果呢個電郵已註冊，重設連結已傳送。","authMfaTitle":"兩步驗證","authMfaEmailSent":"驗證碼已傳送去 {email}","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"電郵驗證碼","authVerifyAndLogin":"驗證並登入","authUsePasskey":"用 Passkey 驗證","authResendCode":"重新傳送驗證碼","authBackToPasswordLogin":"返去密碼登入","authLoginRequired":"請先登入",
+  "scoreTranscriptSaveAs": "另存為",
+  "authSecurityTitle": "安全同兩步驗證",
+  "authTwoFactorTitle": "兩步驗證 (2FA)",
+  "authTwoFactorEnabled": "已開：登入要電郵驗證碼或者 Passkey",
+  "authTwoFactorDisabled": "未開：登入淨係要密碼",
+  "authCurrentPassword": "而家密碼",
+  "authPasskeys": "Passkey",
+  "authRegisterPasskey": "幫呢部裝置註冊 Passkey",
+  "authPasskeyRegistered": "Passkey 註冊成功",
+  "authNoPasskeys": "暫時未有 Passkey",
+  "authForgotPassword": "唔記得密碼？",
+  "authResetPassword": "重設密碼",
+  "authSendResetLink": "傳送重設連結",
+  "authResetRequested": "如果呢個電郵已註冊，重設連結已傳送。",
+  "authMfaTitle": "兩步驗證",
+  "authMfaEmailSent": "驗證碼已傳送去 {email}",
+  "@authMfaEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmailCode": "電郵驗證碼",
+  "authVerifyAndLogin": "驗證並登入",
+  "authUsePasskey": "用 Passkey 驗證",
+  "authResendCode": "重新傳送驗證碼",
+  "authBackToPasswordLogin": "返去密碼登入",
+  "authLoginRequired": "請先登入",
   "commonConfirm": "確認",
   "commonContinue": "繼續",
   "commonCopy": "複製",
   "commonSave": "儲存",
   "commonRetry": "再試",
   "commonLoadFailed": "載入失敗：{error}",
-  "@commonLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@commonLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsTitle": "API 憑證",
   "authApiCredentialCreate": "建立憑證",
   "authApiCredentialName": "名稱",
@@ -2079,16 +2147,37 @@
   "authApiCredentialSecretShownOnce": "API 密鑰（只會顯示一次）",
   "authApiCredentialSaved": "我已經儲存咗",
   "authApiCredentialCreateFailed": "建立憑證失敗：{error}",
-  "@authApiCredentialCreateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsEmpty": "仲未有 API 憑證",
   "authApiCredentialUnnamed": "未命名",
   "authApiCredentialStatus": "狀態：{status} · 建立於 {date}",
-  "@authApiCredentialStatus": {"placeholders": {"status": {"type": "String"}, "date": {"type": "String"}}},
+  "@authApiCredentialStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialActive": "使用中",
   "authApiCredentialRevoked": "已撤銷",
   "authApiCredentialRevoke": "撤銷",
   "authApiCredentialRevokeFailed": "撤銷憑證失敗：{error}",
-  "@authApiCredentialRevokeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialRevokeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsTitle": "裝置同工作階段",
   "authSessionsSignOutAll": "登出所有裝置",
   "authSessionsSignOutAllWarning": "咁樣會即時令所有已登入嘅裝置失效，包括呢部。你要重新登入。",
@@ -2101,36 +2190,102 @@
   "authSessionsUnknownDevice": "未知裝置",
   "authSessionsUnknown": "未知",
   "authSessionsDetails": "IP：{ip}\n最後活動：{lastActive}\n登入時間：{signedIn}",
-  "@authSessionsDetails": {"placeholders": {"ip": {"type": "String"}, "lastActive": {"type": "String"}, "signedIn": {"type": "String"}}},
+  "@authSessionsDetails": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      },
+      "lastActive": {
+        "type": "String"
+      },
+      "signedIn": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSignOut": "登出呢部裝置",
   "authSessionsSignOutSucceeded": "裝置已登出",
   "authSessionsSignOutFailed": "登出裝置失敗：{error}",
-  "@authSessionsSignOutFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authSessionsSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDefaultDeviceName": "呢部裝置",
   "authPasskeyDeviceName": "裝置名稱",
   "authPasskeyRegisterFailed": "註冊 Passkey 失敗：{error}",
-  "@authPasskeyRegisterFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyRegisterFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeysDescription": "已註冊 {count} 個。Passkey 會用你部裝置嘅系統生物識別驗證。",
-  "@authPasskeysDescription": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasskeysDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authPasskeysSupportedDeviceHint": "喺支援嘅裝置註冊生物識別金鑰",
   "authPasskeyCreatedAt": "建立於 {date}",
-  "@authPasskeyCreatedAt": {"placeholders": {"date": {"type": "String"}}},
+  "@authPasskeyCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "刪除 Passkey 失敗：{error}",
-  "@authPasskeyDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOperationFailed": "操作失敗：{error}",
-  "@authOperationFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsTitle": "已連結嘅 WHU 帳戶",
   "authWhuBindingsManage": "管理本機驗證",
   "authWhuBindingSucceeded": "帳戶已連結",
   "authWhuBindingFailed": "連結帳戶失敗：{error}",
-  "@authWhuBindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuBindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingCurrent": "連結而家嘅本機帳戶（{studentId}）",
-  "@authWhuBindingCurrent": {"placeholders": {"studentId": {"type": "String"}}},
+  "@authWhuBindingCurrent": {
+    "placeholders": {
+      "studentId": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsEmpty": "冇已連結嘅帳戶",
   "authWhuBindingKeepOne": "最少要保留一個使用中嘅帳戶",
   "authWhuUnbindingSucceeded": "帳戶已解除連結",
   "authWhuUnbindingFailed": "解除帳戶連結失敗：{error}",
-  "@authWhuUnbindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuUnbindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSubtitle": "查看同登出已登入嘅裝置",
   "authApiCredentialsSubtitle": "管理外部存取用嘅 API 金鑰",
   "authChangePassword": "更改密碼",
@@ -2138,28 +2293,64 @@
   "authDeleteAccountWarning": "你肯定要刪除帳戶？呢個操作無法復原。",
   "authDeleteAccountConfirm": "刪除帳戶",
   "authDeleteAccountFailed": "刪除帳戶失敗：{error}",
-  "@authDeleteAccountFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authDeleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authEditProfile": "編輯個人資料",
   "authDisplayName": "顯示名稱",
   "authProfileUpdateFailed": "更新個人資料失敗：{error}",
-  "@authProfileUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authProfileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOldPassword": "而家嘅密碼",
   "authNewPassword": "新密碼",
   "authPasswordChanged": "密碼已更改。請重新登入。",
   "authPasswordChangeFailed": "更改密碼失敗：{error}",
-  "@authPasswordChangeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordChangeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordChangeConfirm": "更改密碼",
   "authRegistrationWhuBindingRequired": "註冊需要已連結嘅 WHU 帳戶",
   "authRegistrationBindWhuAccount": "連結 WHU 帳戶",
   "authPasswordMinLength": "密碼最少要有 {count} 個字元",
-  "@authPasswordMinLength": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasswordMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsLoadFailed": "載入成績分佈失敗：{error}",
-  "@courseGradeStatsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseGradeStatsSubmit": "提交匿名成績",
   "courseGradeStatsNoTeachers": "呢科冇可用嘅老師，所以唔可以提交成績。",
   "courseGradeStatsPrivacyThreshold": "為咗保護私隱，最少要有 5 個樣本。",
   "courseGradeStatsSamples": "{count} 個匿名樣本",
-  "@courseGradeStatsSamples": {"placeholders": {"count": {"type": "int"}}},
+  "@courseGradeStatsSamples": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsTotalAverage": "總成績平均分",
   "courseGradeStatsUsualAverage": "平時成績平均分",
   "courseGradeStatsExamAverage": "考試成績平均分",
@@ -2168,71 +2359,179 @@
   "courseGradeStatsTotalScore": "總成績（0 - 100）",
   "courseGradeStatsSubmitted": "匿名成績已提交。",
   "courseGradeStatsSubmitFailed": "提交成績失敗：{error}",
-  "@courseGradeStatsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsLoginRequired": "登入後先可以睇匿名課程評價。",
   "courseReviewsSyncEligibility": "同步已完成嘅課程",
   "courseReviewsWrite": "寫匿名評價",
   "courseReviewsAnonymousStudent": "匿名學生 · {semester}",
-  "@courseReviewsAnonymousStudent": {"placeholders": {"semester": {"type": "String"}}},
+  "@courseReviewsAnonymousStudent": {
+    "placeholders": {
+      "semester": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsTitle": "匿名課程評價",
   "courseReviewsContent": "評價",
   "courseReviewsRating": "評分",
   "courseReviewsRatingValue": "{rating} / 5",
-  "@courseReviewsRatingValue": {"placeholders": {"rating": {"type": "String"}}},
+  "@courseReviewsRatingValue": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSubmit": "提交評價",
   "courseReviewsSubmitted": "評價已提交，審核後會顯示。",
   "courseReviewsSubmitFailed": "提交評價失敗：{error}",
-  "@courseReviewsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSyncSucceeded": "已同步 {count} 科符合資格嘅課程。",
-  "@courseReviewsSyncSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@courseReviewsSyncSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseReviewsSyncFailed": "同步失敗：{error}",
-  "@courseReviewsSyncFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSyncFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsMyReviews": "我嘅評價",
   "courseReviewsMyReviewsEmpty": "你仲未提交任何評價。",
   "courseReviewsStatusPending": "等候審核",
   "courseReviewsStatusApproved": "已批准",
   "courseReviewsStatusRejected": "已拒絕",
   "courseReviewsRejectionReason": "審核備註：{reason}",
-  "@courseReviewsRejectionReason": {"placeholders": {"reason": {"type": "String"}}},
+  "@courseReviewsRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsEdit": "編輯評價",
   "courseReviewsDelete": "刪除評價",
   "courseReviewsDeleteConfirm": "刪除呢個評價？此操作無法還原。",
   "courseReviewsDeleted": "評價已刪除。",
   "courseReviewsDeleteFailed": "刪除評價失敗：{error}",
-  "@courseReviewsDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsUpdated": "評價已更新，並再次提交審核。",
   "courseReviewsUpdateFailed": "更新評價失敗：{error}",
-  "@courseReviewsUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumCreatePost": "建立帖子",
   "forumPost": "帖子",
   "forumBoardShelter": "避難所 {name}",
-  "@forumBoardShelter": {"placeholders": {"name": {"type": "String"}}},
+  "@forumBoardShelter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumBoardsLoadFailed": "載入討論區失敗：{error}",
-  "@forumBoardsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumBoardsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostsLoadFailed": "載入帖子失敗：{error}",
-  "@forumPostsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPostsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostTitle": "標題",
   "forumPostContent": "內容",
   "forumPublish": "發佈",
   "forumPublishFailed": "發佈失敗：{error}",
-  "@forumPublishFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPublishFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumEmpty": "仲未有帖子。嚟做第一個發帖嘅人啦。",
   "forumAnonymous": "匿名",
   "forumPostMetadata": "{author} · {comments} 個回覆 · {upvotes} 個讚",
-  "@forumPostMetadata": {"placeholders": {"author": {"type": "String"}, "comments": {"type": "int"}, "upvotes": {"type": "int"}}},
+  "@forumPostMetadata": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "comments": {
+        "type": "int"
+      },
+      "upvotes": {
+        "type": "int"
+      }
+    }
+  },
   "forumPostDetails": "帖子詳情",
   "forumReplies": "回覆",
   "forumReply": "回覆",
   "forumRepliesLoadFailed": "載入回覆失敗：{error}",
-  "@forumRepliesLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumRepliesLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyPost": "回覆帖子",
   "forumReplyHint": "請友善交流，唔好分享個人資料。",
   "forumSend": "傳送",
   "forumReplyFailed": "回覆失敗：{error}",
-  "@forumReplyFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReplyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordResetEmail": "電郵",
   "authPasswordResetSendFailed": "傳送失敗：{error}",
-  "@authPasswordResetSendFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordResetSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumMyPosts": "我嘅帖子",
   "forumLikedPosts": "已讚嘅帖子",
   "forumFavoritePosts": "已收藏嘅帖子",
@@ -2264,7 +2563,13 @@
   "forumShelterPrivacyTitle": "防空洞私隱",
   "forumShelterPrivacyDescription": "你嘅匿名名只會喺呢個話題入面保持一致。唔會顯示頭像或者個人資料，篇帖會喺 24 小時後過期。",
   "forumShelterExpiresIn": "仲有 {time} 就過期",
-  "@forumShelterExpiresIn": {"placeholders": {"time": {"type": "String"}}},
+  "@forumShelterExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "forumLike": "讚好",
   "forumDislike": "唔讚好",
   "forumSave": "收藏",
@@ -2272,14 +2577,293 @@
   "forumReportReason": "舉報原因",
   "forumReportSubmitted": "舉報已提交。",
   "forumReportFailed": "提交舉報失敗：{error}",
-  "@forumReportFailed": {"placeholders": {"error": {"type": "String"}}},
-  "campusCreateFolder": "建立資料夾", "campusRenameFolder": "重新命名資料夾", "campusEditModeEntry": "編輯模式", "fontSettings": "字體", "fontFamilyLabel": "字體", "fontFamilySubtitle": "系統字體或 Google Fonts", "fontFamilySystem": "系統字體", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "拖動 App 去重新排序或者建立資料夾", "campusLayoutColumns": "每行 {count} 個", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
-  "courseImportOverwriteModifiedTitle": "覆蓋已修改嘅課程？", "courseImportOverwriteModifiedMessage": "今個學期有 {count} 門課程曾經手動修改。繼續匯入會覆蓋呢啲修改。", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "仍然覆蓋", "courseImportOverwriteModifiedKeepLocal": "保留所有本機修改", "courseImportOverwriteModifiedReviewIndividually": "逐項檢查", "courseImportModifiedRecordMessage": "已修改嘅課程記錄：{time}\n請揀點樣處理呢條記錄。", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "覆蓋", "courseImportRecordKeepLocal": "保留本機修改", "courseImportRecordSkip": "跳過呢條記錄",
-  "listCompleteSelected": "完成已選項目", "listDeleteSelected": "刪除已選項目", "detailSkipOccurrence": "跳過今次事件", "detailStatusInProgress": "進行中", "detailStatusCompleted": "已完成", "detailStatusEnded": "已結束，等候完成", "detailStatusOverdue": "已逾期", "detailStatusUpcoming": "即將開始", "detailStatusInactive": "唔追蹤完成狀態", "detailConflictWithItems": "同 {items} 時間重疊。你仍然可以儲存。", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
-  "editorCompletionMode": "完成方式", "editorCompletionModeManual": "手動完成", "editorCompletionModeAutomatic": "喺結束時間完成", "editorCompletionModeNone": "只顯示", "editorConflictWithItems": "同 {items} 時間重疊。你仍然可以儲存。", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "語言設定", "commonOk": "確定", "whuAccountEducationalYearsValue": "{years} 年", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}},
-  "academicSystem":"教務系統","academicSystemImport":"教務系統匯入","addTimetable":"加時間表","addToTimetable":"加到{name}","@addToTimetable":{"placeholders":{"name":{"type":"String"}}},"campusDefaultFolderName":"資料夾","campusDissolveFolderConfirm":"解散資料夾","campusDissolveFolderContent":"呢個資料夾入面嘅 App 會搬返去 App 網格。","campusDissolveFolderTitle":"要解散呢個資料夾？","createEmptyTimetable":"開空白時間表","createEmptyTimetableDescription":"唔匯入科目，直接開時間表","editCourses": "改科目", "emptyTimetable":"空白時間表","emptyTimetableExportNotNeeded":"空白時間表唔使匯出。","timetableNotFound": "搵唔到時間表", "enterStarlinkShareCode":"輸入 Starlink 分享碼","exportTimetable":"匯出時間表","homeTimeBlock":"第{index}格","@homeTimeBlock":{"placeholders":{"index":{"type":"String"}}},"jsonFile":"JSON 檔案","listStatusCompleted":"已完成","listStatusEndedPendingCompletion":"已完，等完成","listStatusInProgress":"進行中","listStatusPending":"未處理","localFile":"本機檔案","localFileImport":"本機檔案匯入","localFileImportDescription":"由 JSON 檔案匯入珞家時間表備份","luotopiaJsonBackup":"珞家 JSON 備份","luotopiaJsonBackupDescription":"珞家完整時間表備份","mixed":"混合","mixedTimetable":"混合時間表","newTimetableName":"新時間表名稱",
-  "notificationChannelAgendaDefaultDescription":"可能會有少少延遲嘅事項提醒。","notificationChannelAgendaDefaultName":"日程提醒","notificationChannelAgendaExactDescription":"事項同科目嘅準時同臨近提醒。","notificationChannelAgendaExactName":"日程提醒（精確）","notificationChannelCampusDescription":"預約同其他校園相關提醒。","notificationChannelCampusName":"校園服務","notificationChannelMarketingDescription":"校園活動同推廣資訊。","notificationChannelMarketingName":"活動同推廣","notificationCourseInProgress":"科目進行中","notificationReminderTitle":"事項提醒","notificationScheduleEndedBody":"日程已完，記得標記完成或者安排後續事項。","notificationScheduleIncomplete":"日程仲未完成","notificationStartsInFifteenMinutes":"15 分鐘後開始 · {time}","@notificationStartsInFifteenMinutes":{"placeholders":{"time":{"type":"String"}}},"notificationStartsInFiveMinutes":"5 分鐘後開始 · {time}","@notificationStartsInFiveMinutes":{"placeholders":{"time":{"type":"String"}}},"notificationStartsInOneHour":"1 個鐘後開始 · {time}","@notificationStartsInOneHour":{"placeholders":{"time":{"type":"String"}}},"notificationStartsSoon":"就快開始 · {time}","@notificationStartsSoon":{"placeholders":{"time":{"type":"String"}}},"notificationTomorrow":"聽日 · {time}","@notificationTomorrow":{"placeholders":{"time":{"type":"String"}}},"notProvided":"未提供","notUpdated":"未更新","renameTimetable":"改時間表名","selectCourseSourceToUpdate":"揀要更新嘅科目來源","selectFileFormatToSave":"揀要儲存嘅檔案格式","selectImportMethod":"揀匯入方法","separate":"拆開","separatedTimetableName":"{name}（拆開）","@separatedTimetableName":{"placeholders":{"name":{"type":"String"}}},"separateTimetable":"拆開時間表","shareCode":"分享碼","shiguang":"時光","shiguangFileImportDescription":"匯入時光時間表 JSON 檔案","shiguangImportFailed":"匯入時光時間表失敗：{error}","@shiguangImportFailed":{"placeholders":{"error":{"type":"String"}}},"shiguangTimetable":"時光時間表","shiguangTimetableExportDescription":"匯出相容時光嘅時間表","shiguangTimetableImport":"時光時間表匯入","shiguangTimetableJson":"時光時間表 JSON","sourceLocalFile":"嚟源：本機檔案","sourceShiguang":"嚟源：時光","sourceStarlink":"嚟源：Starlink","starlink":"Starlink","starlinkFileMustBeJsonObject":"Starlink 檔案一定要有 JSON 物件。","starlinkImportDescription":"用 JSON 檔案或者分享碼匯入 Starlink 時間表","starlinkImportFailed":"匯入 Starlink 時間表失敗：{error}","@starlinkImportFailed":{"placeholders":{"error":{"type":"String"}}},"starlinkTimetable":"Starlink 時間表","starlinkTimetableExportDescription":"匯出相容 Starlink 嘅時間表","starlinkTimetableImport":"Starlink 時間表匯入","starlinkTimetableJson":"Starlink 時間表 JSON","starlinkTimetableShareCode":"Starlink 時間表分享碼",
-  "timetableDetails":"學期：{term}\n匯入時間：{importedAt}\n更新時間：{updatedAt}\n嚟源：{source}","@timetableDetails":{"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}},"timetableExported":"時間表已匯出。","timetableImportFailed":"匯入時間表失敗：{error}","@timetableImportFailed":{"placeholders":{"error":{"type":"String"}}},"timetableIndependentUpdateUnsupported":"呢個時間表來源唔支援單獨更新。","updateTimetable":"更新時間表","wakeupCsv":"Wakeup CSV","wakeupCsvDescription":"將科目匯出做相容 Wakeup 嘅 CSV 檔案","wakeupFileAlreadyAdded":"呢個 Wakeup 時間表已經加咗。","wakeupFileImportDescription":"匯入 Wakeup CSV 或者時間表檔案","wakeupImportFailed":"匯入 Wakeup 時間表失敗：{error}","@wakeupImportFailed":{"placeholders":{"error":{"type":"String"}}},"wakeupShareFile":"Wakeup 時間表檔案","wakeupShareFileDescription":"匯出 Wakeup 時間表檔案","webViewErrorTitle":"打唔開頁面","webViewLoadFailed":"頁面載入失敗，請檢查網絡連線後再試。","webViewLoadingPage":"載入緊頁面...","webViewPreparationFailed":"頁面準備失敗：{error}","@webViewPreparationFailed":{"placeholders":{"error":{"type":"String"}}},"webViewPreparingPage":"準備緊頁面...","webViewRetry":"再試",
+  "@forumReportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "campusCreateFolder": "建立資料夾",
+  "campusRenameFolder": "重新命名資料夾",
+  "campusEditModeEntry": "編輯模式",
+  "fontSettings": "字體",
+  "fontFamilyLabel": "字體",
+  "fontFamilySubtitle": "系統字體或 Google Fonts",
+  "fontFamilySystem": "系統字體",
+  "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "campusLayoutDragHint": "拖動 App 去重新排序或者建立資料夾",
+  "campusLayoutColumns": "每行 {count} 個",
+  "@campusLayoutColumns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedTitle": "覆蓋已修改嘅課程？",
+  "courseImportOverwriteModifiedMessage": "今個學期有 {count} 門課程曾經手動修改。繼續匯入會覆蓋呢啲修改。",
+  "@courseImportOverwriteModifiedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedConfirm": "仍然覆蓋",
+  "courseImportOverwriteModifiedKeepLocal": "保留所有本機修改",
+  "courseImportOverwriteModifiedReviewIndividually": "逐項檢查",
+  "courseImportModifiedRecordMessage": "已修改嘅課程記錄：{time}\n請揀點樣處理呢條記錄。",
+  "@courseImportModifiedRecordMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportRecordOverwrite": "覆蓋",
+  "courseImportRecordKeepLocal": "保留本機修改",
+  "courseImportRecordSkip": "跳過呢條記錄",
+  "listCompleteSelected": "完成已選項目",
+  "listDeleteSelected": "刪除已選項目",
+  "detailSkipOccurrence": "跳過今次事件",
+  "detailStatusInProgress": "進行中",
+  "detailStatusCompleted": "已完成",
+  "detailStatusEnded": "已結束，等候完成",
+  "detailStatusOverdue": "已逾期",
+  "detailStatusUpcoming": "即將開始",
+  "detailStatusInactive": "唔追蹤完成狀態",
+  "detailConflictWithItems": "同 {items} 時間重疊。你仍然可以儲存。",
+  "@detailConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "editorCompletionMode": "完成方式",
+  "editorCompletionModeManual": "手動完成",
+  "editorCompletionModeAutomatic": "喺結束時間完成",
+  "editorCompletionModeNone": "只顯示",
+  "editorConflictWithItems": "同 {items} 時間重疊。你仍然可以儲存。",
+  "@editorConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemSettings": "語言設定",
+  "commonOk": "確定",
+  "whuAccountEducationalYearsValue": "{years} 年",
+  "@whuAccountEducationalYearsValue": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
+  "academicSystem": "教務系統",
+  "academicSystemImport": "教務系統匯入",
+  "addTimetable": "加時間表",
+  "addToTimetable": "加到{name}",
+  "@addToTimetable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "campusDefaultFolderName": "資料夾",
+  "campusDissolveFolderConfirm": "解散資料夾",
+  "campusDissolveFolderContent": "呢個資料夾入面嘅 App 會搬返去 App 網格。",
+  "campusDissolveFolderTitle": "要解散呢個資料夾？",
+  "createEmptyTimetable": "開空白時間表",
+  "createEmptyTimetableDescription": "唔匯入科目，直接開時間表",
+  "editCourses": "改科目",
+  "emptyTimetable": "空白時間表",
+  "emptyTimetableExportNotNeeded": "空白時間表唔使匯出。",
+  "timetableNotFound": "搵唔到時間表",
+  "enterStarlinkShareCode": "輸入 Starlink 分享碼",
+  "exportTimetable": "匯出時間表",
+  "homeTimeBlock": "第{index}格",
+  "@homeTimeBlock": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "jsonFile": "JSON 檔案",
+  "listStatusCompleted": "已完成",
+  "listStatusEndedPendingCompletion": "已完，等完成",
+  "listStatusInProgress": "進行中",
+  "listStatusPending": "未處理",
+  "localFile": "本機檔案",
+  "localFileImport": "本機檔案匯入",
+  "localFileImportDescription": "由 JSON 檔案匯入珞家時間表備份",
+  "luotopiaJsonBackup": "珞家 JSON 備份",
+  "luotopiaJsonBackupDescription": "珞家完整時間表備份",
+  "mixed": "混合",
+  "mixedTimetable": "混合時間表",
+  "newTimetableName": "新時間表名稱",
+  "notificationChannelAgendaDefaultDescription": "可能會有少少延遲嘅事項提醒。",
+  "notificationChannelAgendaDefaultName": "日程提醒",
+  "notificationChannelAgendaExactDescription": "事項同科目嘅準時同臨近提醒。",
+  "notificationChannelAgendaExactName": "日程提醒（精確）",
+  "notificationChannelCampusDescription": "預約同其他校園相關提醒。",
+  "notificationChannelCampusName": "校園服務",
+  "notificationChannelMarketingDescription": "校園活動同推廣資訊。",
+  "notificationChannelMarketingName": "活動同推廣",
+  "notificationCourseInProgress": "科目進行中",
+  "notificationReminderTitle": "事項提醒",
+  "notificationScheduleEndedBody": "日程已完，記得標記完成或者安排後續事項。",
+  "notificationScheduleIncomplete": "日程仲未完成",
+  "notificationStartsInFifteenMinutes": "15 分鐘後開始 · {time}",
+  "@notificationStartsInFifteenMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInFiveMinutes": "5 分鐘後開始 · {time}",
+  "@notificationStartsInFiveMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInOneHour": "1 個鐘後開始 · {time}",
+  "@notificationStartsInOneHour": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsSoon": "就快開始 · {time}",
+  "@notificationStartsSoon": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTomorrow": "聽日 · {time}",
+  "@notificationTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notProvided": "未提供",
+  "notUpdated": "未更新",
+  "renameTimetable": "改時間表名",
+  "selectCourseSourceToUpdate": "揀要更新嘅科目來源",
+  "selectFileFormatToSave": "揀要儲存嘅檔案格式",
+  "selectImportMethod": "揀匯入方法",
+  "separate": "拆開",
+  "separatedTimetableName": "{name}（拆開）",
+  "@separatedTimetableName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "separateTimetable": "拆開時間表",
+  "shareCode": "分享碼",
+  "shiguang": "時光",
+  "shiguangFileImportDescription": "匯入時光時間表 JSON 檔案",
+  "shiguangImportFailed": "匯入時光時間表失敗：{error}",
+  "@shiguangImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shiguangTimetable": "時光時間表",
+  "shiguangTimetableExportDescription": "匯出相容時光嘅時間表",
+  "shiguangTimetableImport": "時光時間表匯入",
+  "shiguangTimetableJson": "時光時間表 JSON",
+  "sourceLocalFile": "嚟源：本機檔案",
+  "sourceShiguang": "嚟源：時光",
+  "sourceStarlink": "嚟源：Starlink",
+  "starlink": "Starlink",
+  "starlinkFileMustBeJsonObject": "Starlink 檔案一定要有 JSON 物件。",
+  "starlinkImportDescription": "用 JSON 檔案或者分享碼匯入 Starlink 時間表",
+  "starlinkImportFailed": "匯入 Starlink 時間表失敗：{error}",
+  "@starlinkImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "starlinkTimetable": "Starlink 時間表",
+  "starlinkTimetableExportDescription": "匯出相容 Starlink 嘅時間表",
+  "starlinkTimetableImport": "Starlink 時間表匯入",
+  "starlinkTimetableJson": "Starlink 時間表 JSON",
+  "starlinkTimetableShareCode": "Starlink 時間表分享碼",
+  "timetableDetails": "學期：{term}\n匯入時間：{importedAt}\n更新時間：{updatedAt}\n嚟源：{source}",
+  "@timetableDetails": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "importedAt": {
+        "type": "String"
+      },
+      "updatedAt": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableExported": "時間表已匯出。",
+  "timetableImportFailed": "匯入時間表失敗：{error}",
+  "@timetableImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableIndependentUpdateUnsupported": "呢個時間表來源唔支援單獨更新。",
+  "updateTimetable": "更新時間表",
+  "wakeupCsv": "Wakeup CSV",
+  "wakeupCsvDescription": "將科目匯出做相容 Wakeup 嘅 CSV 檔案",
+  "wakeupFileAlreadyAdded": "呢個 Wakeup 時間表已經加咗。",
+  "wakeupFileImportDescription": "匯入 Wakeup CSV 或者時間表檔案",
+  "wakeupImportFailed": "匯入 Wakeup 時間表失敗：{error}",
+  "@wakeupImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupShareFile": "Wakeup 時間表檔案",
+  "wakeupShareFileDescription": "匯出 Wakeup 時間表檔案",
+  "webViewErrorTitle": "打唔開頁面",
+  "webViewLoadFailed": "頁面載入失敗，請檢查網絡連線後再試。",
+  "webViewLoadingPage": "載入緊頁面...",
+  "webViewPreparationFailed": "頁面準備失敗：{error}",
+  "@webViewPreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webViewPreparingPage": "準備緊頁面...",
+  "webViewRetry": "再試",
   "appUpdateAvailableTitle": "有新版本",
   "appUpdateSkipVersion": "略過呢個版本",
   "appUpdateLater": "之後再講",
@@ -2334,5 +2918,87 @@
   "aiProviderAliyun": "阿里通義千問",
   "aiProviderTencent": "騰訊混元",
   "aiProviderYi": "零一萬物 (Yi)",
-  "aiProviderBaichuan": "百川智能"
+  "aiProviderBaichuan": "百川智能",
+  "detailDeleteConfirmTitle": "刪除呢個事項？",
+  "detailDeleteConfirmMessage": "呢個事項會永久刪除。",
+  "listDeleteSelectedConfirmTitle": "刪除已選事項？",
+  "listDeleteSelectedConfirmMessage": "將永久刪除 {count} 個事項。",
+  "courseTimetableDefaultGroupName": "預設",
+  "courseTimetableGroupNew": "新建分組",
+  "courseTimetableGroupRename": "重新命名分組",
+  "courseTimetableGroupDelete": "刪除分組",
+  "courseTimetableGroupSetDefault": "設為預設匯入分組",
+  "courseTimetableGroupDefaultBadge": "預設",
+  "courseTimetableGroupNameHint": "分組名稱",
+  "courseTimetableGroupDeleteConfirm": "刪除呢個分組？入面嘅科目表會移去預設分組。",
+  "courseTimetableGroupCannotDeleteLast": "最少要留一個分組。",
+  "courseTimetablePickGroup": "加到分組",
+  "courseTimetableMoveToGroup": "移到分組",
+  "courseTimetableShowOnHome": "喺主頁顯示",
+  "courseTimetableImportToGroup": "匯入到呢個分組",
+  "courseTimetableCreateInGroup": "喺度新建空科目表",
+  "courseTimetableSetHomePrimary": "設為主頁主分組",
+  "courseTimetableToggleHomeFaded": "主頁淡化顯示",
+  "courseTimetableHomeFadedOn": "主頁已淡化",
+  "courseTimetableHomeFadedOff": "主頁未淡化",
+  "courseTimetableGroupMoveUp": "分組上移",
+  "courseTimetableGroupMoveDown": "分組下移",
+  "courseTimetableGroupExpand": "展開分組",
+  "courseTimetableGroupCollapse": "摺疊分組",
+  "settingsHomeTimetableGroups": "主頁科目表分組",
+  "settingsHomePrimaryGroup": "主分組（正常顯示）",
+  "settingsHomeFadedGroups": "同時顯示（淡化）",
+  "settingsHomeTimetableGroupsHint": "主分組正常顯示，淡化分組半透疊加。可喺科目表頁取消剔選單張科目表嚟隱藏。",
+  "homePickOverlappingItem": "選擇事項",
+  "homePickOverlappingSecondary": "次要分組",
+  "notificationStartsInMinutes": "{minutes} 分鐘後開始 · {time}",
+  "settingsDefaultCourseReminder": "預設分組科目提醒",
+  "settingsDefaultCourseReminderSubtitle": "預設科目表分組開課前提前量（0 = 關閉）。其他分組預設關閉，可喺下面按分組改。步長 5，最大 100。",
+  "settingsDefaultCourseReminderValue": "提前 {minutes} 分鐘",
+  "settingsDefaultCourseReminderOff": "關閉",
+  "settingsGroupCourseRemindersTitle": "按科目表分組提醒",
+  "settingsGroupCourseRemindersHint": "預設分組用上方滑桿；朋友等其他分組預設 0（關閉），可單獨開。",
+  "settingsGroupCourseReminderDefaultMark": "預設分組",
+  "settingsCourseReminderOverridesTitle": "單科提醒",
+  "settingsCourseReminderOverridesHint": "同一科名（或者來源科目 ID）共用提前時間，並覆蓋分組預設。",
+  "settingsCourseReminderUseDefault": "用分組預設（{minutes} 分鐘）",
+  "settingsCourseReminderCustom": "自訂：{minutes} 分鐘",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  }
 }

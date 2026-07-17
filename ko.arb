@@ -103,15 +103,48 @@
   "editorCoursePeriodStart": "Start period",
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
-  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCoursePeriodN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCoursePeriodSingle": "Period {n} · {time}",
-  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodSingle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
-  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCourseWeekStart": "Start week",
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
-  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCourseWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCourseWeekParity": "Week parity",
   "editorCourseWeekParityAll": "Every week",
   "editorCourseWeekParityOdd": "Odd weeks",
@@ -307,10 +340,207 @@
       }
     }
   },
-  "academicSystem": "학사 시스템", "academicSystemImport": "학사 시스템에서 가져오기", "addTimetable": "시간표 추가", "addToTimetable": "{name}에 추가", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "폴더", "campusDissolveFolderConfirm": "폴더 해제", "campusDissolveFolderContent": "이 폴더의 앱이 앱 그리드로 돌아갑니다.", "campusDissolveFolderTitle": "이 폴더를 해제할까요?", "createEmptyTimetable": "빈 시간표 만들기", "createEmptyTimetableDescription": "강의를 가져오지 않고 시간표를 만듭니다", "editCourses": "강의 편집", "emptyTimetable": "빈 시간표", "emptyTimetableExportNotNeeded": "빈 시간표는 내보낼 필요가 없습니다.", "timetableNotFound": "시간표를 찾을 수 없습니다", "enterStarlinkShareCode": "Starlink 공유 코드 입력", "exportTimetable": "시간표 내보내기", "homeTimeBlock": "블록 {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "JSON 파일", "listStatusCompleted": "완료됨", "listStatusEndedPendingCompletion": "종료됨, 완료 대기 중", "listStatusInProgress": "진행 중", "listStatusPending": "대기 중", "localFile": "로컬 파일", "localFileImport": "로컬 파일 가져오기", "localFileImportDescription": "JSON 파일에서 Luotopia 시간표 백업을 가져옵니다", "luotopiaJsonBackup": "Luotopia JSON 백업", "luotopiaJsonBackupDescription": "Luotopia용 전체 시간표 백업", "mixed": "혼합", "mixedTimetable": "혼합 시간표", "newTimetableName": "새 시간표 이름",
-  "notificationChannelAgendaDefaultDescription": "약간 지연될 수 있는 항목 알림입니다.", "notificationChannelAgendaDefaultName": "일정 알림", "notificationChannelAgendaExactDescription": "항목 및 강의의 정시 및 임박 알림입니다.", "notificationChannelAgendaExactName": "일정 알림(정확)", "notificationChannelCampusDescription": "예약 및 캠퍼스 관련 알림입니다.", "notificationChannelCampusName": "캠퍼스 서비스", "notificationChannelMarketingDescription": "캠퍼스 활동 및 프로모션 업데이트입니다.", "notificationChannelMarketingName": "활동 및 프로모션", "notificationCourseInProgress": "수업 진행 중", "notificationReminderTitle": "알림", "notificationScheduleEndedBody": "이 일정은 종료되었습니다. 완료로 표시하거나 후속 일정을 계획하는 것을 잊지 마세요.", "notificationScheduleIncomplete": "일정 미완료", "notificationStartsInFifteenMinutes": "15분 후 시작 · {time}", "@notificationStartsInFifteenMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInFiveMinutes": "5분 후 시작 · {time}", "@notificationStartsInFiveMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInOneHour": "1시간 후 시작 · {time}", "@notificationStartsInOneHour": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsSoon": "곧 시작 · {time}", "@notificationStartsSoon": {"placeholders":{"time":{"type":"String"}}}, "notificationTomorrow": "내일 · {time}", "@notificationTomorrow": {"placeholders":{"time":{"type":"String"}}},
-  "notProvided": "제공되지 않음", "notUpdated": "업데이트되지 않음", "renameTimetable": "시간표 이름 바꾸기", "selectCourseSourceToUpdate": "업데이트할 강의 출처 선택", "selectFileFormatToSave": "저장할 파일 형식 선택", "selectImportMethod": "가져오기 방법 선택", "separate": "분리", "separatedTimetableName": "{name}(분리됨)", "@separatedTimetableName": {"placeholders":{"name":{"type":"String"}}}, "separateTimetable": "시간표 분리", "shareCode": "공유 코드", "shiguang": "Shiguang", "shiguangFileImportDescription": "Shiguang 시간표 JSON 파일 가져오기", "shiguangImportFailed": "Shiguang 시간표를 가져오지 못했습니다: {error}", "@shiguangImportFailed": {"placeholders":{"error":{"type":"String"}}}, "shiguangTimetable": "Shiguang 시간표", "shiguangTimetableExportDescription": "Shiguang과 호환되는 시간표 내보내기", "shiguangTimetableImport": "Shiguang 시간표 가져오기", "shiguangTimetableJson": "Shiguang 시간표 JSON", "sourceLocalFile": "출처: 로컬 파일", "sourceShiguang": "출처: Shiguang", "sourceStarlink": "출처: Starlink", "starlink": "Starlink", "starlinkFileMustBeJsonObject": "Starlink 파일에는 JSON 객체가 포함되어야 합니다.", "starlinkImportDescription": "JSON 파일 또는 공유 코드에서 Starlink 시간표를 가져옵니다", "starlinkImportFailed": "Starlink 시간표를 가져오지 못했습니다: {error}", "@starlinkImportFailed": {"placeholders":{"error":{"type":"String"}}}, "starlinkTimetable": "Starlink 시간표", "starlinkTimetableExportDescription": "Starlink와 호환되는 시간표 내보내기", "starlinkTimetableImport": "Starlink 시간표 가져오기", "starlinkTimetableJson": "Starlink 시간표 JSON", "starlinkTimetableShareCode": "Starlink 시간표 공유 코드",
-  "timetableDetails": "학기: {term}\n가져온 시간: {importedAt}\n업데이트: {updatedAt}\n출처: {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "시간표를 내보냈습니다.", "timetableImportFailed": "시간표를 가져오지 못했습니다: {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "이 시간표 출처는 개별적으로 업데이트할 수 없습니다.", "updateTimetable": "시간표 업데이트", "wakeupCsv": "Wakeup CSV", "wakeupCsvDescription": "강의를 Wakeup 호환 CSV로 내보내기", "wakeupFileAlreadyAdded": "이 Wakeup 시간표는 이미 추가되었습니다.", "wakeupFileImportDescription": "Wakeup CSV 또는 시간표 파일 가져오기", "wakeupImportFailed": "Wakeup 시간표를 가져오지 못했습니다: {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Wakeup 시간표 파일", "wakeupShareFileDescription": "Wakeup 시간표 파일 내보내기", "webViewErrorTitle": "페이지를 열 수 없음", "webViewLoadFailed": "페이지를 불러오지 못했습니다. 네트워크 연결을 확인하고 다시 시도하세요.", "webViewLoadingPage": "페이지를 불러오는 중...", "webViewPreparationFailed": "페이지 준비 실패: {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "페이지 준비 중...", "webViewRetry": "다시 시도",
+  "academicSystem": "학사 시스템",
+  "academicSystemImport": "학사 시스템에서 가져오기",
+  "addTimetable": "시간표 추가",
+  "addToTimetable": "{name}에 추가",
+  "@addToTimetable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "campusDefaultFolderName": "폴더",
+  "campusDissolveFolderConfirm": "폴더 해제",
+  "campusDissolveFolderContent": "이 폴더의 앱이 앱 그리드로 돌아갑니다.",
+  "campusDissolveFolderTitle": "이 폴더를 해제할까요?",
+  "createEmptyTimetable": "빈 시간표 만들기",
+  "createEmptyTimetableDescription": "강의를 가져오지 않고 시간표를 만듭니다",
+  "editCourses": "강의 편집",
+  "emptyTimetable": "빈 시간표",
+  "emptyTimetableExportNotNeeded": "빈 시간표는 내보낼 필요가 없습니다.",
+  "timetableNotFound": "시간표를 찾을 수 없습니다",
+  "enterStarlinkShareCode": "Starlink 공유 코드 입력",
+  "exportTimetable": "시간표 내보내기",
+  "homeTimeBlock": "블록 {index}",
+  "@homeTimeBlock": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "jsonFile": "JSON 파일",
+  "listStatusCompleted": "완료됨",
+  "listStatusEndedPendingCompletion": "종료됨, 완료 대기 중",
+  "listStatusInProgress": "진행 중",
+  "listStatusPending": "대기 중",
+  "localFile": "로컬 파일",
+  "localFileImport": "로컬 파일 가져오기",
+  "localFileImportDescription": "JSON 파일에서 Luotopia 시간표 백업을 가져옵니다",
+  "luotopiaJsonBackup": "Luotopia JSON 백업",
+  "luotopiaJsonBackupDescription": "Luotopia용 전체 시간표 백업",
+  "mixed": "혼합",
+  "mixedTimetable": "혼합 시간표",
+  "newTimetableName": "새 시간표 이름",
+  "notificationChannelAgendaDefaultDescription": "약간 지연될 수 있는 항목 알림입니다.",
+  "notificationChannelAgendaDefaultName": "일정 알림",
+  "notificationChannelAgendaExactDescription": "항목 및 강의의 정시 및 임박 알림입니다.",
+  "notificationChannelAgendaExactName": "일정 알림(정확)",
+  "notificationChannelCampusDescription": "예약 및 캠퍼스 관련 알림입니다.",
+  "notificationChannelCampusName": "캠퍼스 서비스",
+  "notificationChannelMarketingDescription": "캠퍼스 활동 및 프로모션 업데이트입니다.",
+  "notificationChannelMarketingName": "활동 및 프로모션",
+  "notificationCourseInProgress": "수업 진행 중",
+  "notificationReminderTitle": "알림",
+  "notificationScheduleEndedBody": "이 일정은 종료되었습니다. 완료로 표시하거나 후속 일정을 계획하는 것을 잊지 마세요.",
+  "notificationScheduleIncomplete": "일정 미완료",
+  "notificationStartsInFifteenMinutes": "15분 후 시작 · {time}",
+  "@notificationStartsInFifteenMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInFiveMinutes": "5분 후 시작 · {time}",
+  "@notificationStartsInFiveMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInOneHour": "1시간 후 시작 · {time}",
+  "@notificationStartsInOneHour": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsSoon": "곧 시작 · {time}",
+  "@notificationStartsSoon": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTomorrow": "내일 · {time}",
+  "@notificationTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notProvided": "제공되지 않음",
+  "notUpdated": "업데이트되지 않음",
+  "renameTimetable": "시간표 이름 바꾸기",
+  "selectCourseSourceToUpdate": "업데이트할 강의 출처 선택",
+  "selectFileFormatToSave": "저장할 파일 형식 선택",
+  "selectImportMethod": "가져오기 방법 선택",
+  "separate": "분리",
+  "separatedTimetableName": "{name}(분리됨)",
+  "@separatedTimetableName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "separateTimetable": "시간표 분리",
+  "shareCode": "공유 코드",
+  "shiguang": "Shiguang",
+  "shiguangFileImportDescription": "Shiguang 시간표 JSON 파일 가져오기",
+  "shiguangImportFailed": "Shiguang 시간표를 가져오지 못했습니다: {error}",
+  "@shiguangImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shiguangTimetable": "Shiguang 시간표",
+  "shiguangTimetableExportDescription": "Shiguang과 호환되는 시간표 내보내기",
+  "shiguangTimetableImport": "Shiguang 시간표 가져오기",
+  "shiguangTimetableJson": "Shiguang 시간표 JSON",
+  "sourceLocalFile": "출처: 로컬 파일",
+  "sourceShiguang": "출처: Shiguang",
+  "sourceStarlink": "출처: Starlink",
+  "starlink": "Starlink",
+  "starlinkFileMustBeJsonObject": "Starlink 파일에는 JSON 객체가 포함되어야 합니다.",
+  "starlinkImportDescription": "JSON 파일 또는 공유 코드에서 Starlink 시간표를 가져옵니다",
+  "starlinkImportFailed": "Starlink 시간표를 가져오지 못했습니다: {error}",
+  "@starlinkImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "starlinkTimetable": "Starlink 시간표",
+  "starlinkTimetableExportDescription": "Starlink와 호환되는 시간표 내보내기",
+  "starlinkTimetableImport": "Starlink 시간표 가져오기",
+  "starlinkTimetableJson": "Starlink 시간표 JSON",
+  "starlinkTimetableShareCode": "Starlink 시간표 공유 코드",
+  "timetableDetails": "학기: {term}\n가져온 시간: {importedAt}\n업데이트: {updatedAt}\n출처: {source}",
+  "@timetableDetails": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "importedAt": {
+        "type": "String"
+      },
+      "updatedAt": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableExported": "시간표를 내보냈습니다.",
+  "timetableImportFailed": "시간표를 가져오지 못했습니다: {error}",
+  "@timetableImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableIndependentUpdateUnsupported": "이 시간표 출처는 개별적으로 업데이트할 수 없습니다.",
+  "updateTimetable": "시간표 업데이트",
+  "wakeupCsv": "Wakeup CSV",
+  "wakeupCsvDescription": "강의를 Wakeup 호환 CSV로 내보내기",
+  "wakeupFileAlreadyAdded": "이 Wakeup 시간표는 이미 추가되었습니다.",
+  "wakeupFileImportDescription": "Wakeup CSV 또는 시간표 파일 가져오기",
+  "wakeupImportFailed": "Wakeup 시간표를 가져오지 못했습니다: {error}",
+  "@wakeupImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupShareFile": "Wakeup 시간표 파일",
+  "wakeupShareFileDescription": "Wakeup 시간표 파일 내보내기",
+  "webViewErrorTitle": "페이지를 열 수 없음",
+  "webViewLoadFailed": "페이지를 불러오지 못했습니다. 네트워크 연결을 확인하고 다시 시도하세요.",
+  "webViewLoadingPage": "페이지를 불러오는 중...",
+  "webViewPreparationFailed": "페이지 준비 실패: {error}",
+  "@webViewPreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webViewPreparingPage": "페이지 준비 중...",
+  "webViewRetry": "다시 시도",
   "licenseVersion": "버전: {version}",
   "@licenseVersion": {
     "placeholders": {
@@ -444,6 +674,9 @@
   "whuAccountShift": "학적 상태",
   "whuAccountEducationalYears": "수업 연한",
   "whuAccountRoleName": "역할",
+  "whuAccountDormBuilding": "기숙사 동",
+  "whuAccountDormRoom": "호실",
+  "whuAccountDormBed": "침대 번호",
   "whuAccountSectionPersonal": "개인 정보",
   "whuAccountSectionAcademic": "학적·학업",
   "whuAccountSectionSession": "로그인 상태",
@@ -823,7 +1056,6 @@
   "settingsPushNotificationsSubtitle": "일정·후기·시스템 메시지 알림",
   "settingsMarketingNotifications": "마케팅·이벤트",
   "settingsMarketingNotificationsSubtitle": "캠퍼스 행사·프로모션 알림 수신",
-  
   "settingsNotificationChannelsTitle": "Android 알림 채널",
   "settingsNotificationChannelsHint": "채널을 탭하면 시스템 설정에서 중요도를 변경할 수 있습니다. 무음 또는 낮음이면 소리·헤드업이 없을 수 있습니다.",
   "settingsNotificationChannelOpenSystem": "시스템 설정 열기",
@@ -846,7 +1078,7 @@
   "settingsNotificationImportanceSilentWarning": "현재 무음 또는 낮음 — 알림 소리가 없을 수 있음",
   "notificationChannelLiveUpdatesName": "진행 중 항목",
   "notificationChannelLiveUpdatesDescription": "수업 및 일정의 실시간 진행 상황.",
-"settingsStorageTitle": "저장 공간 관리",
+  "settingsStorageTitle": "저장 공간 관리",
   "settingsClearCache": "캐시 삭제",
   "settingsClearCacheSubtitle": "임시 파일과 캐시를 정리합니다(약 {size})",
   "settingsCacheCleared": "캐시를 지웠습니다: {size} 확보",
@@ -1527,9 +1759,8 @@
   "settingsBuildChannelAlpha": "Alpha",
   "settingsBuildChannelBeta": "Beta",
   "settingsBuildChannelStable": "Stable",
-  
   "settingsBuildInfoChannel": "채널",
-"settingsBuildInfoVersion": "버전：",
+  "settingsBuildInfoVersion": "버전：",
   "settingsBuildInfoBuildNumber": "빌드 번호：",
   "settingsBuildInfoType": "빌드 유형：",
   "weatherAqiStandardUs": "미국 기준",
@@ -1916,7 +2147,6 @@
   "onboardingLegalAgreePrefix": "다음 내용에 동의합니다: ",
   "onboardingLegalRequired": "먼저 이용약관과 개인정보 처리방침에 동의해 주세요.",
   "onboardingLegalUpdateTitle": "약관이 업데이트되었습니다",
-  
   "onboardingLegalLastUpdated": "업데이트: {date}",
   "@onboardingLegalLastUpdated": {
     "placeholders": {
@@ -1925,7 +2155,7 @@
       }
     }
   },
-"onboardingLegalUpdateSubtitle": "아래 약관이 업데이트되었습니다. 앱을 계속 사용하려면 다시 읽고 동의해 주세요. 동의하지 않으시면 사용을 중단하고 앱을 삭제해 주세요.",
+  "onboardingLegalUpdateSubtitle": "아래 약관이 업데이트되었습니다. 앱을 계속 사용하려면 다시 읽고 동의해 주세요. 동의하지 않으시면 사용을 중단하고 앱을 삭제해 주세요.",
   "onboardingLegalUpdateContinue": "동의하고 계속",
   "onboardingPermissionsTitle": "필요한 권한",
   "onboardingPermissionsSubtitle": "이 권한은 해당 기능에 사용됩니다. 나중에 시스템 설정에서 허용할 수도 있습니다.",
@@ -2076,15 +2306,48 @@
   },
   "scoreTranscriptSaved": "PDF가 저장되었습니다.",
   "scoreTranscriptShare": "공유",
-  "scoreTranscriptSaveAs": "다른 이름으로 저장"
-  ,"authSecurityTitle":"보안 및 2단계 인증","authTwoFactorTitle":"2단계 인증 (2FA)","authTwoFactorEnabled":"사용: 로그인 시 이메일 코드 또는 Passkey가 필요합니다","authTwoFactorDisabled":"사용 안 함: 로그인 시 비밀번호만 필요합니다","authCurrentPassword":"현재 비밀번호","authPasskeys":"Passkey","authRegisterPasskey":"이 기기에 Passkey 등록","authPasskeyRegistered":"Passkey가 등록되었습니다","authNoPasskeys":"등록된 Passkey가 없습니다","authForgotPassword":"비밀번호를 잊으셨나요?","authResetPassword":"비밀번호 재설정","authSendResetLink":"재설정 링크 보내기","authResetRequested":"등록된 이메일인 경우 재설정 링크를 보냈습니다.","authMfaTitle":"2단계 인증","authMfaEmailSent":"확인 코드를 {email}로 보냈습니다","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"이메일 확인 코드","authVerifyAndLogin":"확인 후 로그인","authUsePasskey":"Passkey 사용","authResendCode":"코드 다시 보내기","authBackToPasswordLogin":"비밀번호 로그인으로 돌아가기","authLoginRequired":"먼저 로그인하세요",
+  "scoreTranscriptSaveAs": "다른 이름으로 저장",
+  "authSecurityTitle": "보안 및 2단계 인증",
+  "authTwoFactorTitle": "2단계 인증 (2FA)",
+  "authTwoFactorEnabled": "사용: 로그인 시 이메일 코드 또는 Passkey가 필요합니다",
+  "authTwoFactorDisabled": "사용 안 함: 로그인 시 비밀번호만 필요합니다",
+  "authCurrentPassword": "현재 비밀번호",
+  "authPasskeys": "Passkey",
+  "authRegisterPasskey": "이 기기에 Passkey 등록",
+  "authPasskeyRegistered": "Passkey가 등록되었습니다",
+  "authNoPasskeys": "등록된 Passkey가 없습니다",
+  "authForgotPassword": "비밀번호를 잊으셨나요?",
+  "authResetPassword": "비밀번호 재설정",
+  "authSendResetLink": "재설정 링크 보내기",
+  "authResetRequested": "등록된 이메일인 경우 재설정 링크를 보냈습니다.",
+  "authMfaTitle": "2단계 인증",
+  "authMfaEmailSent": "확인 코드를 {email}로 보냈습니다",
+  "@authMfaEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmailCode": "이메일 확인 코드",
+  "authVerifyAndLogin": "확인 후 로그인",
+  "authUsePasskey": "Passkey 사용",
+  "authResendCode": "코드 다시 보내기",
+  "authBackToPasswordLogin": "비밀번호 로그인으로 돌아가기",
+  "authLoginRequired": "먼저 로그인하세요",
   "commonConfirm": "확인",
   "commonContinue": "계속",
   "commonCopy": "복사",
   "commonSave": "저장",
   "commonRetry": "다시 시도",
   "commonLoadFailed": "불러오지 못했습니다: {error}",
-  "@commonLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@commonLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsTitle": "API 자격 증명",
   "authApiCredentialCreate": "자격 증명 만들기",
   "authApiCredentialName": "이름",
@@ -2095,16 +2358,37 @@
   "authApiCredentialSecretShownOnce": "API 시크릿(한 번만 표시됨)",
   "authApiCredentialSaved": "저장했습니다",
   "authApiCredentialCreateFailed": "자격 증명을 만들지 못했습니다: {error}",
-  "@authApiCredentialCreateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsEmpty": "아직 API 자격 증명이 없습니다",
   "authApiCredentialUnnamed": "이름 없음",
   "authApiCredentialStatus": "상태: {status} · 생성일: {date}",
-  "@authApiCredentialStatus": {"placeholders": {"status": {"type": "String"}, "date": {"type": "String"}}},
+  "@authApiCredentialStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialActive": "활성",
   "authApiCredentialRevoked": "해지됨",
   "authApiCredentialRevoke": "해지",
   "authApiCredentialRevokeFailed": "자격 증명을 해지하지 못했습니다: {error}",
-  "@authApiCredentialRevokeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialRevokeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsTitle": "기기 및 세션",
   "authSessionsSignOutAll": "모든 기기에서 로그아웃",
   "authSessionsSignOutAllWarning": "이 기기를 포함한 로그인된 모든 기기가 즉시 로그아웃됩니다. 다시 로그인해야 합니다.",
@@ -2117,36 +2401,102 @@
   "authSessionsUnknownDevice": "알 수 없는 기기",
   "authSessionsUnknown": "알 수 없음",
   "authSessionsDetails": "IP: {ip}\n마지막 활동: {lastActive}\n로그인: {signedIn}",
-  "@authSessionsDetails": {"placeholders": {"ip": {"type": "String"}, "lastActive": {"type": "String"}, "signedIn": {"type": "String"}}},
+  "@authSessionsDetails": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      },
+      "lastActive": {
+        "type": "String"
+      },
+      "signedIn": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSignOut": "이 기기에서 로그아웃",
   "authSessionsSignOutSucceeded": "기기에서 로그아웃되었습니다",
   "authSessionsSignOutFailed": "기기에서 로그아웃하지 못했습니다: {error}",
-  "@authSessionsSignOutFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authSessionsSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDefaultDeviceName": "이 기기",
   "authPasskeyDeviceName": "기기 이름",
   "authPasskeyRegisterFailed": "Passkey를 등록하지 못했습니다: {error}",
-  "@authPasskeyRegisterFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyRegisterFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeysDescription": "{count}개 등록됨. Passkey는 기기의 시스템 생체 인증을 사용합니다.",
-  "@authPasskeysDescription": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasskeysDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authPasskeysSupportedDeviceHint": "지원되는 기기에서 생체 인증 키를 등록하세요",
   "authPasskeyCreatedAt": "생성일: {date}",
-  "@authPasskeyCreatedAt": {"placeholders": {"date": {"type": "String"}}},
+  "@authPasskeyCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Passkey를 삭제하지 못했습니다: {error}",
-  "@authPasskeyDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOperationFailed": "작업에 실패했습니다: {error}",
-  "@authOperationFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsTitle": "연결된 WHU 계정",
   "authWhuBindingsManage": "로컬 인증 관리",
   "authWhuBindingSucceeded": "계정이 연결되었습니다",
   "authWhuBindingFailed": "계정을 연결하지 못했습니다: {error}",
-  "@authWhuBindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuBindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingCurrent": "현재 로컬 계정 연결({studentId})",
-  "@authWhuBindingCurrent": {"placeholders": {"studentId": {"type": "String"}}},
+  "@authWhuBindingCurrent": {
+    "placeholders": {
+      "studentId": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsEmpty": "연결된 계정이 없습니다",
   "authWhuBindingKeepOne": "활성 계정을 하나 이상 유지해야 합니다",
   "authWhuUnbindingSucceeded": "계정 연결이 해제되었습니다",
   "authWhuUnbindingFailed": "계정 연결을 해제하지 못했습니다: {error}",
-  "@authWhuUnbindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuUnbindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSubtitle": "로그인된 기기를 확인하고 로그아웃합니다",
   "authApiCredentialsSubtitle": "외부 접근용 API 키를 관리합니다",
   "authChangePassword": "비밀번호 변경",
@@ -2154,28 +2504,64 @@
   "authDeleteAccountWarning": "정말 계정을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
   "authDeleteAccountConfirm": "계정 삭제",
   "authDeleteAccountFailed": "계정을 삭제하지 못했습니다: {error}",
-  "@authDeleteAccountFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authDeleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authEditProfile": "프로필 수정",
   "authDisplayName": "표시 이름",
   "authProfileUpdateFailed": "프로필을 업데이트하지 못했습니다: {error}",
-  "@authProfileUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authProfileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOldPassword": "현재 비밀번호",
   "authNewPassword": "새 비밀번호",
   "authPasswordChanged": "비밀번호가 변경되었습니다. 다시 로그인해 주세요.",
   "authPasswordChangeFailed": "비밀번호를 변경하지 못했습니다: {error}",
-  "@authPasswordChangeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordChangeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordChangeConfirm": "비밀번호 변경",
   "authRegistrationWhuBindingRequired": "등록하려면 연결된 WHU 계정이 필요합니다",
   "authRegistrationBindWhuAccount": "WHU 계정 연결",
   "authPasswordMinLength": "비밀번호는 최소 {count}자 이상이어야 합니다",
-  "@authPasswordMinLength": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasswordMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsLoadFailed": "성적 분포를 불러오지 못했습니다: {error}",
-  "@courseGradeStatsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseGradeStatsSubmit": "익명 성적 제출",
   "courseGradeStatsNoTeachers": "이 과목에는 담당 교사가 없어 성적을 제출할 수 없습니다.",
   "courseGradeStatsPrivacyThreshold": "개인정보 보호를 위해 최소 5개의 표본이 필요합니다.",
   "courseGradeStatsSamples": "익명 표본 {count}개",
-  "@courseGradeStatsSamples": {"placeholders": {"count": {"type": "int"}}},
+  "@courseGradeStatsSamples": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsTotalAverage": "총점 평균",
   "courseGradeStatsUsualAverage": "평소 점수 평균",
   "courseGradeStatsExamAverage": "시험 점수 평균",
@@ -2184,71 +2570,179 @@
   "courseGradeStatsTotalScore": "총점(0~100)",
   "courseGradeStatsSubmitted": "익명 성적이 제출되었습니다.",
   "courseGradeStatsSubmitFailed": "성적을 제출하지 못했습니다: {error}",
-  "@courseGradeStatsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsLoginRequired": "익명 강의 후기를 보려면 로그인하세요.",
   "courseReviewsSyncEligibility": "이수한 과목 동기화",
   "courseReviewsWrite": "익명 후기 작성",
   "courseReviewsAnonymousStudent": "익명 학생 · {semester}",
-  "@courseReviewsAnonymousStudent": {"placeholders": {"semester": {"type": "String"}}},
+  "@courseReviewsAnonymousStudent": {
+    "placeholders": {
+      "semester": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsTitle": "익명 강의 후기",
   "courseReviewsContent": "후기",
   "courseReviewsRating": "평점",
   "courseReviewsRatingValue": "{rating} / 5",
-  "@courseReviewsRatingValue": {"placeholders": {"rating": {"type": "String"}}},
+  "@courseReviewsRatingValue": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSubmit": "검토를 위해 제출",
   "courseReviewsSubmitted": "후기가 제출되었으며 승인 후 표시됩니다.",
   "courseReviewsSubmitFailed": "후기를 제출하지 못했습니다: {error}",
-  "@courseReviewsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSyncSucceeded": "후기 작성 가능한 과목 {count}개를 동기화했습니다.",
-  "@courseReviewsSyncSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@courseReviewsSyncSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseReviewsSyncFailed": "동기화하지 못했습니다: {error}",
-  "@courseReviewsSyncFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSyncFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumCreatePost": "게시글 작성",
   "forumPost": "게시글",
   "forumBoardShelter": "쉼터 {name}",
-  "@forumBoardShelter": {"placeholders": {"name": {"type": "String"}}},
+  "@forumBoardShelter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumBoardsLoadFailed": "게시판을 불러오지 못했습니다: {error}",
-  "@forumBoardsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumBoardsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostsLoadFailed": "게시글을 불러오지 못했습니다: {error}",
-  "@forumPostsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPostsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostTitle": "제목",
   "forumPostContent": "내용",
   "forumPublish": "게시",
   "forumPublishFailed": "게시하지 못했습니다: {error}",
-  "@forumPublishFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPublishFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumEmpty": "아직 게시글이 없습니다. 첫 게시글을 작성해 보세요.",
   "forumAnonymous": "익명",
   "forumPostMetadata": "{author} · 답글 {comments}개 · 추천 {upvotes}개",
-  "@forumPostMetadata": {"placeholders": {"author": {"type": "String"}, "comments": {"type": "int"}, "upvotes": {"type": "int"}}},
+  "@forumPostMetadata": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "comments": {
+        "type": "int"
+      },
+      "upvotes": {
+        "type": "int"
+      }
+    }
+  },
   "forumPostDetails": "게시글 상세",
   "forumReplies": "답글",
   "forumReply": "답글",
   "forumRepliesLoadFailed": "답글을 불러오지 못했습니다: {error}",
-  "@forumRepliesLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumRepliesLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyPost": "게시글에 답글 달기",
   "forumReplyHint": "친절하게 작성하고 개인정보를 공유하지 마세요.",
   "forumSend": "보내기",
   "forumReplyFailed": "답글을 작성하지 못했습니다: {error}",
-  "@forumReplyFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReplyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordResetEmail": "이메일",
   "authPasswordResetSendFailed": "전송하지 못했습니다: {error}",
-  "@authPasswordResetSendFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordResetSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsMyReviews": "내 리뷰",
   "courseReviewsMyReviewsEmpty": "아직 작성한 리뷰가 없습니다.",
   "courseReviewsStatusPending": "검토 대기 중",
   "courseReviewsStatusApproved": "승인됨",
   "courseReviewsStatusRejected": "반려됨",
   "courseReviewsRejectionReason": "리뷰 메모: {reason}",
-  "@courseReviewsRejectionReason": {"placeholders": {"reason": {"type": "String"}}},
+  "@courseReviewsRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsEdit": "리뷰 수정",
   "courseReviewsDelete": "리뷰 삭제",
   "courseReviewsDeleteConfirm": "이 리뷰를 삭제하시겠습니까? 삭제한 내용은 되돌릴 수 없습니다.",
   "courseReviewsDeleted": "리뷰가 삭제되었습니다.",
   "courseReviewsDeleteFailed": "리뷰를 삭제하지 못했습니다: {error}",
-  "@courseReviewsDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsUpdated": "리뷰가 수정되어 다시 검토를 위해 제출되었습니다.",
   "courseReviewsUpdateFailed": "리뷰를 수정하지 못했습니다: {error}",
-  "@courseReviewsUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumMyPosts": "내 게시글",
   "forumLikedPosts": "좋아요한 게시글",
   "forumFavoritePosts": "저장한 게시글",
@@ -2261,7 +2755,13 @@
   "forumShelterPrivacyTitle": "쉼터 개인정보 보호",
   "forumShelterPrivacyDescription": "별명은 이 주제 안에서만 일관되게 유지됩니다. 아바타나 프로필은 표시되지 않으며, 이 게시글은 24시간 후 만료됩니다.",
   "forumShelterExpiresIn": "{time} 후 만료",
-  "@forumShelterExpiresIn": {"placeholders": {"time": {"type": "String"}}},
+  "@forumShelterExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "forumLike": "좋아요",
   "forumDislike": "싫어요",
   "forumSave": "저장",
@@ -2269,7 +2769,13 @@
   "forumReportReason": "사유",
   "forumReportSubmitted": "신고가 접수되었습니다.",
   "forumReportFailed": "신고를 제출하지 못했습니다: {error}",
-  "@forumReportFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumUnavailableDeleted": "심사에 의해 삭제됨",
   "forumAppeal": "이의제기",
   "forumAppealReason": "이의제기 내용",
@@ -2286,10 +2792,85 @@
   "forumPostDeleted": "게시글이 삭제되었습니다.",
   "forumPostRestored": "게시글이 복원되었습니다.",
   "forumAppealResolved": "이의제기가 처리되었습니다.",
-  "campusCreateFolder": "폴더 만들기", "campusRenameFolder": "폴더 이름 바꾸기", "campusEditModeEntry": "편집 모드", "fontSettings": "글꼴", "fontFamilyLabel": "글꼴", "fontFamilySubtitle": "시스템 글꼴 또는 Google Fonts", "fontFamilySystem": "시스템 글꼴", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "앱을 드래그하여 순서를 바꾸거나 폴더를 만드세요", "campusLayoutColumns": "한 줄에 {count}개", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
-  "courseImportOverwriteModifiedTitle": "수정된 강의를 덮어쓸까요?", "courseImportOverwriteModifiedMessage": "이번 학기의 강의 {count}개가 수동으로 수정되었습니다. 가져오기를 계속하면 이 변경 사항을 덮어씁니다.", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "그래도 덮어쓰기", "courseImportOverwriteModifiedKeepLocal": "모든 로컬 변경 유지", "courseImportOverwriteModifiedReviewIndividually": "개별 검토", "courseImportModifiedRecordMessage": "수정된 강의 일정: {time}\n이 기록을 처리할 방법을 선택하세요.", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "덮어쓰기", "courseImportRecordKeepLocal": "로컬 변경 유지", "courseImportRecordSkip": "이 기록 건너뛰기",
-  "listCompleteSelected": "선택한 항목 완료", "listDeleteSelected": "선택한 항목 삭제", "detailSkipOccurrence": "이번 일정 건너뛰기", "detailStatusInProgress": "진행 중", "detailStatusCompleted": "완료됨", "detailStatusEnded": "종료됨, 완료 대기 중", "detailStatusOverdue": "기한 지남", "detailStatusUpcoming": "예정됨", "detailStatusInactive": "완료 상태 추적 안 함", "detailConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
-  "editorCompletionMode": "완료 방식", "editorCompletionModeManual": "수동 완료", "editorCompletionModeAutomatic": "종료 시간에 완료", "editorCompletionModeNone": "표시만", "editorConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "언어 설정", "commonOk": "확인", "whuAccountEducationalYearsValue": "{years}년", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}},
+  "campusCreateFolder": "폴더 만들기",
+  "campusRenameFolder": "폴더 이름 바꾸기",
+  "campusEditModeEntry": "편집 모드",
+  "fontSettings": "글꼴",
+  "fontFamilyLabel": "글꼴",
+  "fontFamilySubtitle": "시스템 글꼴 또는 Google Fonts",
+  "fontFamilySystem": "시스템 글꼴",
+  "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "campusLayoutDragHint": "앱을 드래그하여 순서를 바꾸거나 폴더를 만드세요",
+  "campusLayoutColumns": "한 줄에 {count}개",
+  "@campusLayoutColumns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedTitle": "수정된 강의를 덮어쓸까요?",
+  "courseImportOverwriteModifiedMessage": "이번 학기의 강의 {count}개가 수동으로 수정되었습니다. 가져오기를 계속하면 이 변경 사항을 덮어씁니다.",
+  "@courseImportOverwriteModifiedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedConfirm": "그래도 덮어쓰기",
+  "courseImportOverwriteModifiedKeepLocal": "모든 로컬 변경 유지",
+  "courseImportOverwriteModifiedReviewIndividually": "개별 검토",
+  "courseImportModifiedRecordMessage": "수정된 강의 일정: {time}\n이 기록을 처리할 방법을 선택하세요.",
+  "@courseImportModifiedRecordMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportRecordOverwrite": "덮어쓰기",
+  "courseImportRecordKeepLocal": "로컬 변경 유지",
+  "courseImportRecordSkip": "이 기록 건너뛰기",
+  "listCompleteSelected": "선택한 항목 완료",
+  "listDeleteSelected": "선택한 항목 삭제",
+  "detailSkipOccurrence": "이번 일정 건너뛰기",
+  "detailStatusInProgress": "진행 중",
+  "detailStatusCompleted": "완료됨",
+  "detailStatusEnded": "종료됨, 완료 대기 중",
+  "detailStatusOverdue": "기한 지남",
+  "detailStatusUpcoming": "예정됨",
+  "detailStatusInactive": "완료 상태 추적 안 함",
+  "detailConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.",
+  "@detailConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "editorCompletionMode": "완료 방식",
+  "editorCompletionModeManual": "수동 완료",
+  "editorCompletionModeAutomatic": "종료 시간에 완료",
+  "editorCompletionModeNone": "표시만",
+  "editorConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.",
+  "@editorConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemSettings": "언어 설정",
+  "commonOk": "확인",
+  "whuAccountEducationalYearsValue": "{years}년",
+  "@whuAccountEducationalYearsValue": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
   "appUpdateAvailableTitle": "업데이트 가능",
   "appUpdateSkipVersion": "이 버전 건너뛰기",
   "appUpdateLater": "나중에",
@@ -2344,5 +2925,87 @@
   "aiProviderAliyun": "알리바바 통이 첸원",
   "aiProviderTencent": "텐센트 훈위안",
   "aiProviderYi": "01.AI (Yi)",
-  "aiProviderBaichuan": "Baichuan AI"
+  "aiProviderBaichuan": "Baichuan AI",
+  "detailDeleteConfirmTitle": "이 항목을 삭제할까요?",
+  "detailDeleteConfirmMessage": "이 항목은 영구적으로 삭제됩니다.",
+  "listDeleteSelectedConfirmTitle": "선택한 항목을 삭제할까요?",
+  "listDeleteSelectedConfirmMessage": "{count}개의 항목이 영구적으로 삭제됩니다.",
+  "courseTimetableDefaultGroupName": "기본",
+  "courseTimetableGroupNew": "새 그룹",
+  "courseTimetableGroupRename": "그룹 이름 바꾸기",
+  "courseTimetableGroupDelete": "그룹 삭제",
+  "courseTimetableGroupSetDefault": "기본 가져오기 그룹으로 설정",
+  "courseTimetableGroupDefaultBadge": "기본",
+  "courseTimetableGroupNameHint": "그룹 이름",
+  "courseTimetableGroupDeleteConfirm": "이 그룹을 삭제할까요? 시간표는 기본 그룹으로 이동합니다.",
+  "courseTimetableGroupCannotDeleteLast": "그룹을 하나 이상 남겨 두세요.",
+  "courseTimetablePickGroup": "그룹에 추가",
+  "courseTimetableMoveToGroup": "그룹으로 이동",
+  "courseTimetableShowOnHome": "홈에 표시",
+  "courseTimetableImportToGroup": "이 그룹으로 가져오기",
+  "courseTimetableCreateInGroup": "여기에 빈 시간표 만들기",
+  "courseTimetableSetHomePrimary": "홈 기본 그룹으로 표시",
+  "courseTimetableToggleHomeFaded": "홈에서 흐리게 표시",
+  "courseTimetableHomeFadedOn": "홈에서 흐리게 표시 중",
+  "courseTimetableHomeFadedOff": "흐리게 표시 안 함",
+  "courseTimetableGroupMoveUp": "그룹 위로",
+  "courseTimetableGroupMoveDown": "그룹 아래로",
+  "courseTimetableGroupExpand": "그룹 펼치기",
+  "courseTimetableGroupCollapse": "그룹 접기",
+  "settingsHomeTimetableGroups": "홈 시간표 그룹",
+  "settingsHomePrimaryGroup": "기본 그룹(불투명)",
+  "settingsHomeFadedGroups": "함께 표시(흐리게)",
+  "settingsHomeTimetableGroupsHint": "기본 그룹은 선명하게, 흐린 그룹은 낮은 불투명도로 겹쳐 표시됩니다. 시간표 페이지에서 개별 시간표 선택을 해제하면 숨길 수 있습니다.",
+  "homePickOverlappingItem": "항목 선택",
+  "homePickOverlappingSecondary": "보조 그룹",
+  "notificationStartsInMinutes": "{minutes}분 후 시작 · {time}",
+  "settingsDefaultCourseReminder": "기본 그룹 수업 알림",
+  "settingsDefaultCourseReminderSubtitle": "기본 시간표 그룹의 시작 전 알림 시간(0 = 끔). 다른 그룹은 기본적으로 꺼져 있으며 아래에서 그룹별로 설정할 수 있습니다. 5분 단위, 최대 100.",
+  "settingsDefaultCourseReminderValue": "{minutes}분 전",
+  "settingsDefaultCourseReminderOff": "끔",
+  "settingsGroupCourseRemindersTitle": "시간표 그룹별 알림",
+  "settingsGroupCourseRemindersHint": "기본 그룹은 위 슬라이더를 사용합니다(사용자 지정 제외). 친구 등 다른 그룹은 0(끔)에서 시작합니다.",
+  "settingsGroupCourseReminderDefaultMark": "기본 그룹",
+  "settingsCourseReminderOverridesTitle": "과목별 알림",
+  "settingsCourseReminderOverridesHint": "같은 과목 이름(또는 출처 ID)은 알림 시간을 공유하며 그룹 기본값을 덮어씁니다.",
+  "settingsCourseReminderUseDefault": "그룹 기본값 사용({minutes}분)",
+  "settingsCourseReminderCustom": "사용자 지정: {minutes}분",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  }
 }

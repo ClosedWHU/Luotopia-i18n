@@ -103,15 +103,48 @@
   "editorCoursePeriodStart": "Start period",
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
-  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCoursePeriodN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCoursePeriodSingle": "Period {n} · {time}",
-  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodSingle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
-  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCourseWeekStart": "Start week",
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
-  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCourseWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCourseWeekParity": "Week parity",
   "editorCourseWeekParityAll": "Every week",
   "editorCourseWeekParityOdd": "Odd weeks",
@@ -435,6 +468,9 @@
   "whuAccountShift": "Статус",
   "whuAccountEducationalYears": "Срок обучения",
   "whuAccountRoleName": "Роль",
+  "whuAccountDormBuilding": "Корпус",
+  "whuAccountDormRoom": "Комната",
+  "whuAccountDormBed": "Койка",
   "whuAccountSectionPersonal": "Личные данные",
   "whuAccountSectionAcademic": "Учёба",
   "whuAccountSectionSession": "Сессия",
@@ -814,7 +850,6 @@
   "settingsPushNotificationsSubtitle": "Уведомления о расписании, отзывах и системе",
   "settingsMarketingNotifications": "Маркетинг и события",
   "settingsMarketingNotificationsSubtitle": "Уведомления о событиях и акциях кампуса",
-  
   "settingsNotificationChannelsTitle": "Каналы уведомлений Android",
   "settingsNotificationChannelsHint": "Нажмите канал, чтобы изменить важность в системных настройках. Низкая/тихая важность может отключать звук.",
   "settingsNotificationChannelOpenSystem": "Открыть системные настройки",
@@ -837,7 +872,7 @@
   "settingsNotificationImportanceSilentWarning": "Сейчас тихо или низкая важность — звука может не быть",
   "notificationChannelLiveUpdatesName": "Текущие дела",
   "notificationChannelLiveUpdatesDescription": "Живой прогресс занятий и событий.",
-"settingsStorageTitle": "Управление хранилищем",
+  "settingsStorageTitle": "Управление хранилищем",
   "settingsClearCache": "Очистить кэш",
   "settingsClearCacheSubtitle": "Очистить временные файлы и кэш (около {size})",
   "settingsCacheCleared": "Кэш очищен: освобождено {size}",
@@ -2053,15 +2088,48 @@
   },
   "scoreTranscriptSaved": "PDF сохранен.",
   "scoreTranscriptShare": "Поделиться",
-  "scoreTranscriptSaveAs": "Сохранить как"
-  ,"authSecurityTitle":"Безопасность и двухфакторная аутентификация","authTwoFactorTitle":"Двухфакторная аутентификация (2FA)","authTwoFactorEnabled":"Включена: при входе нужен код из почты или Passkey","authTwoFactorDisabled":"Выключена: при входе нужен только пароль","authCurrentPassword":"Текущий пароль","authPasskeys":"Passkey","authRegisterPasskey":"Зарегистрировать Passkey на устройстве","authPasskeyRegistered":"Passkey зарегистрирован","authNoPasskeys":"Нет Passkey","authForgotPassword":"Забыли пароль?","authResetPassword":"Сбросить пароль","authSendResetLink":"Отправить ссылку","authResetRequested":"Если адрес зарегистрирован, ссылка отправлена.","authMfaTitle":"Двухфакторная аутентификация","authMfaEmailSent":"Код отправлен на {email}","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"Код из электронной почты","authVerifyAndLogin":"Проверить и войти","authUsePasskey":"Использовать Passkey","authResendCode":"Отправить код снова","authBackToPasswordLogin":"Вернуться ко входу по паролю","authLoginRequired":"Сначала войдите",
+  "scoreTranscriptSaveAs": "Сохранить как",
+  "authSecurityTitle": "Безопасность и двухфакторная аутентификация",
+  "authTwoFactorTitle": "Двухфакторная аутентификация (2FA)",
+  "authTwoFactorEnabled": "Включена: при входе нужен код из почты или Passkey",
+  "authTwoFactorDisabled": "Выключена: при входе нужен только пароль",
+  "authCurrentPassword": "Текущий пароль",
+  "authPasskeys": "Passkey",
+  "authRegisterPasskey": "Зарегистрировать Passkey на устройстве",
+  "authPasskeyRegistered": "Passkey зарегистрирован",
+  "authNoPasskeys": "Нет Passkey",
+  "authForgotPassword": "Забыли пароль?",
+  "authResetPassword": "Сбросить пароль",
+  "authSendResetLink": "Отправить ссылку",
+  "authResetRequested": "Если адрес зарегистрирован, ссылка отправлена.",
+  "authMfaTitle": "Двухфакторная аутентификация",
+  "authMfaEmailSent": "Код отправлен на {email}",
+  "@authMfaEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmailCode": "Код из электронной почты",
+  "authVerifyAndLogin": "Проверить и войти",
+  "authUsePasskey": "Использовать Passkey",
+  "authResendCode": "Отправить код снова",
+  "authBackToPasswordLogin": "Вернуться ко входу по паролю",
+  "authLoginRequired": "Сначала войдите",
   "commonConfirm": "Подтвердить",
   "commonContinue": "Продолжить",
   "commonCopy": "Копировать",
   "commonSave": "Сохранить",
   "commonRetry": "Повторить",
   "commonLoadFailed": "Не удалось загрузить: {error}",
-  "@commonLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@commonLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsTitle": "Учётные данные API",
   "authApiCredentialCreate": "Создать учётные данные",
   "authApiCredentialName": "Название",
@@ -2072,16 +2140,37 @@
   "authApiCredentialSecretShownOnce": "Секрет API (показывается только один раз)",
   "authApiCredentialSaved": "Я сохранил(а) его",
   "authApiCredentialCreateFailed": "Не удалось создать учётные данные: {error}",
-  "@authApiCredentialCreateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsEmpty": "Учётных данных API пока нет",
   "authApiCredentialUnnamed": "Без названия",
   "authApiCredentialStatus": "Статус: {status} · Создано: {date}",
-  "@authApiCredentialStatus": {"placeholders": {"status": {"type": "String"}, "date": {"type": "String"}}},
+  "@authApiCredentialStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialActive": "Активен",
   "authApiCredentialRevoked": "Отозван",
   "authApiCredentialRevoke": "Отозвать",
   "authApiCredentialRevokeFailed": "Не удалось отозвать учётные данные: {error}",
-  "@authApiCredentialRevokeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialRevokeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsTitle": "Устройства и сеансы",
   "authSessionsSignOutAll": "Выйти на всех устройствах",
   "authSessionsSignOutAllWarning": "Все устройства, на которых выполнен вход, включая это, будут немедленно отключены. Вам потребуется войти снова.",
@@ -2094,36 +2183,102 @@
   "authSessionsUnknownDevice": "Неизвестное устройство",
   "authSessionsUnknown": "Неизвестно",
   "authSessionsDetails": "IP: {ip}\nПоследняя активность: {lastActive}\nВход выполнен: {signedIn}",
-  "@authSessionsDetails": {"placeholders": {"ip": {"type": "String"}, "lastActive": {"type": "String"}, "signedIn": {"type": "String"}}},
+  "@authSessionsDetails": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      },
+      "lastActive": {
+        "type": "String"
+      },
+      "signedIn": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSignOut": "Выйти на этом устройстве",
   "authSessionsSignOutSucceeded": "Выполнен выход с устройства",
   "authSessionsSignOutFailed": "Не удалось выйти с устройства: {error}",
-  "@authSessionsSignOutFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authSessionsSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDefaultDeviceName": "Это устройство",
   "authPasskeyDeviceName": "Название устройства",
   "authPasskeyRegisterFailed": "Не удалось зарегистрировать Passkey: {error}",
-  "@authPasskeyRegisterFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyRegisterFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeysDescription": "Зарегистрировано: {count}. Passkey использует системную биометрическую аутентификацию вашего устройства.",
-  "@authPasskeysDescription": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasskeysDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authPasskeysSupportedDeviceHint": "Зарегистрируйте биометрический ключ на поддерживаемом устройстве",
   "authPasskeyCreatedAt": "Создано: {date}",
-  "@authPasskeyCreatedAt": {"placeholders": {"date": {"type": "String"}}},
+  "@authPasskeyCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Не удалось удалить Passkey: {error}",
-  "@authPasskeyDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOperationFailed": "Операция не выполнена: {error}",
-  "@authOperationFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsTitle": "Связанные аккаунты WHU",
   "authWhuBindingsManage": "Управление локальной аутентификацией",
   "authWhuBindingSucceeded": "Аккаунт привязан",
   "authWhuBindingFailed": "Не удалось привязать аккаунт: {error}",
-  "@authWhuBindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuBindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingCurrent": "Привязать текущий локальный аккаунт ({studentId})",
-  "@authWhuBindingCurrent": {"placeholders": {"studentId": {"type": "String"}}},
+  "@authWhuBindingCurrent": {
+    "placeholders": {
+      "studentId": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsEmpty": "Нет связанных аккаунтов",
   "authWhuBindingKeepOne": "Должен остаться хотя бы один активный аккаунт",
   "authWhuUnbindingSucceeded": "Аккаунт отвязан",
   "authWhuUnbindingFailed": "Не удалось отвязать аккаунт: {error}",
-  "@authWhuUnbindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuUnbindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSubtitle": "Просматривайте устройства со входом и выходите из них",
   "authApiCredentialsSubtitle": "Управляйте ключами API для внешнего доступа",
   "authChangePassword": "Изменить пароль",
@@ -2131,28 +2286,64 @@
   "authDeleteAccountWarning": "Вы уверены, что хотите удалить аккаунт? Это действие нельзя отменить.",
   "authDeleteAccountConfirm": "Удалить аккаунт",
   "authDeleteAccountFailed": "Не удалось удалить аккаунт: {error}",
-  "@authDeleteAccountFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authDeleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authEditProfile": "Изменить профиль",
   "authDisplayName": "Отображаемое имя",
   "authProfileUpdateFailed": "Не удалось обновить профиль: {error}",
-  "@authProfileUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authProfileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOldPassword": "Текущий пароль",
   "authNewPassword": "Новый пароль",
   "authPasswordChanged": "Пароль изменён. Войдите снова.",
   "authPasswordChangeFailed": "Не удалось изменить пароль: {error}",
-  "@authPasswordChangeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordChangeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordChangeConfirm": "Изменить пароль",
   "authRegistrationWhuBindingRequired": "Для регистрации требуется связанный аккаунт WHU",
   "authRegistrationBindWhuAccount": "Привязать аккаунт WHU",
   "authPasswordMinLength": "Пароль должен содержать не менее {count} символов",
-  "@authPasswordMinLength": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasswordMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsLoadFailed": "Не удалось загрузить распределение оценок: {error}",
-  "@courseGradeStatsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseGradeStatsSubmit": "Отправить анонимную оценку",
   "courseGradeStatsNoTeachers": "Для этого курса нет преподавателей, поэтому оценку нельзя отправить.",
   "courseGradeStatsPrivacyThreshold": "Для защиты конфиденциальности необходимо не менее 5 образцов.",
   "courseGradeStatsSamples": "Анонимных образцов: {count}",
-  "@courseGradeStatsSamples": {"placeholders": {"count": {"type": "int"}}},
+  "@courseGradeStatsSamples": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsTotalAverage": "Средний итоговый балл",
   "courseGradeStatsUsualAverage": "Средний текущий балл",
   "courseGradeStatsExamAverage": "Средний экзаменационный балл",
@@ -2161,71 +2352,179 @@
   "courseGradeStatsTotalScore": "Итоговый балл (0 - 100)",
   "courseGradeStatsSubmitted": "Анонимная оценка отправлена.",
   "courseGradeStatsSubmitFailed": "Не удалось отправить оценку: {error}",
-  "@courseGradeStatsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsLoginRequired": "Войдите, чтобы просматривать анонимные отзывы о курсах.",
   "courseReviewsSyncEligibility": "Синхронизировать завершённые курсы",
   "courseReviewsWrite": "Написать анонимный отзыв",
   "courseReviewsAnonymousStudent": "Анонимный студент · {semester}",
-  "@courseReviewsAnonymousStudent": {"placeholders": {"semester": {"type": "String"}}},
+  "@courseReviewsAnonymousStudent": {
+    "placeholders": {
+      "semester": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsTitle": "Анонимный отзыв о курсе",
   "courseReviewsContent": "Отзыв",
   "courseReviewsRating": "Оценка",
   "courseReviewsRatingValue": "{rating} / 5",
-  "@courseReviewsRatingValue": {"placeholders": {"rating": {"type": "String"}}},
+  "@courseReviewsRatingValue": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSubmit": "Отправить на проверку",
   "courseReviewsSubmitted": "Отзыв отправлен и будет показан после одобрения.",
   "courseReviewsSubmitFailed": "Не удалось отправить отзыв: {error}",
-  "@courseReviewsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSyncSucceeded": "Синхронизировано подходящих курсов: {count}.",
-  "@courseReviewsSyncSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@courseReviewsSyncSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseReviewsSyncFailed": "Не удалось синхронизировать: {error}",
-  "@courseReviewsSyncFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSyncFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsMyReviews": "Мои отзывы",
   "courseReviewsMyReviewsEmpty": "Вы ещё не оставили ни одного отзыва.",
   "courseReviewsStatusPending": "На проверке",
   "courseReviewsStatusApproved": "Одобрен",
   "courseReviewsStatusRejected": "Отклонён",
   "courseReviewsRejectionReason": "Комментарий к отзыву: {reason}",
-  "@courseReviewsRejectionReason": {"placeholders": {"reason": {"type": "String"}}},
+  "@courseReviewsRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsEdit": "Редактировать отзыв",
   "courseReviewsDelete": "Удалить отзыв",
   "courseReviewsDeleteConfirm": "Удалить этот отзыв? Это действие нельзя отменить.",
   "courseReviewsDeleted": "Отзыв удалён.",
   "courseReviewsDeleteFailed": "Не удалось удалить отзыв: {error}",
-  "@courseReviewsDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsUpdated": "Отзыв обновлён и снова отправлен на проверку.",
   "courseReviewsUpdateFailed": "Не удалось обновить отзыв: {error}",
-  "@courseReviewsUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumCreatePost": "Создать публикацию",
   "forumPost": "Публикация",
   "forumBoardShelter": "Убежище {name}",
-  "@forumBoardShelter": {"placeholders": {"name": {"type": "String"}}},
+  "@forumBoardShelter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumBoardsLoadFailed": "Не удалось загрузить разделы: {error}",
-  "@forumBoardsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumBoardsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostsLoadFailed": "Не удалось загрузить публикации: {error}",
-  "@forumPostsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPostsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostTitle": "Заголовок",
   "forumPostContent": "Содержание",
   "forumPublish": "Опубликовать",
   "forumPublishFailed": "Не удалось опубликовать: {error}",
-  "@forumPublishFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPublishFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumEmpty": "Публикаций пока нет. Станьте первым, кто опубликует запись.",
   "forumAnonymous": "Аноним",
   "forumPostMetadata": "{author} · ответов: {comments} · отметок «нравится»: {upvotes}",
-  "@forumPostMetadata": {"placeholders": {"author": {"type": "String"}, "comments": {"type": "int"}, "upvotes": {"type": "int"}}},
+  "@forumPostMetadata": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "comments": {
+        "type": "int"
+      },
+      "upvotes": {
+        "type": "int"
+      }
+    }
+  },
   "forumPostDetails": "Сведения о публикации",
   "forumReplies": "Ответы",
   "forumReply": "Ответить",
   "forumRepliesLoadFailed": "Не удалось загрузить ответы: {error}",
-  "@forumRepliesLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumRepliesLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyPost": "Ответить на публикацию",
   "forumReplyHint": "Будьте вежливы и не раскрывайте личную информацию.",
   "forumSend": "Отправить",
   "forumReplyFailed": "Не удалось отправить ответ: {error}",
-  "@forumReplyFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReplyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordResetEmail": "Электронная почта",
   "authPasswordResetSendFailed": "Не удалось отправить: {error}",
-  "@authPasswordResetSendFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordResetSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumMyPosts": "Мои публикации",
   "forumLikedPosts": "Понравившиеся публикации",
   "forumFavoritePosts": "Сохранённые публикации",
@@ -2238,7 +2537,13 @@
   "forumShelterPrivacyTitle": "Конфиденциальность укрытия",
   "forumShelterPrivacyDescription": "Ваш псевдоним остаётся неизменным только в рамках этой темы. Аватар и профиль не отображаются, а эта публикация исчезнет через 24 часа.",
   "forumShelterExpiresIn": "Исчезнет через {time}",
-  "@forumShelterExpiresIn": {"placeholders": {"time": {"type": "String"}}},
+  "@forumShelterExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "forumLike": "Нравится",
   "forumDislike": "Не нравится",
   "forumSave": "Сохранить",
@@ -2246,18 +2551,296 @@
   "forumReportReason": "Причина",
   "forumReportSubmitted": "Жалоба отправлена.",
   "forumReportFailed": "Не удалось отправить жалобу: {error}",
-  "@forumReportFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumNotificationsTitle": "Уведомления форума",
   "forumNotificationsEmpty": "У вас нет уведомлений форума.",
   "forumNotificationsMarkAllRead": "Отметить всё как прочитанное",
-  "campusCreateFolder": "Создать папку", "campusRenameFolder": "Переименовать папку", "campusEditModeEntry": "Режим редактирования", "fontSettings": "Шрифт", "fontFamilyLabel": "Шрифт", "fontFamilySubtitle": "Системный шрифт или Google Fonts", "fontFamilySystem": "Системный шрифт", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "Перетаскивайте приложения, чтобы изменить порядок или создать папки", "campusLayoutColumns": "{count} в ряду", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
-  "courseImportOverwriteModifiedTitle": "Перезаписать изменённые курсы?", "courseImportOverwriteModifiedMessage": "{count} курсов в этом семестре были изменены вручную. Продолжение импорта перезапишет эти изменения.", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "Всё равно перезаписать", "courseImportOverwriteModifiedKeepLocal": "Сохранить все локальные изменения", "courseImportOverwriteModifiedReviewIndividually": "Просмотреть по отдельности", "courseImportModifiedRecordMessage": "Изменённое занятие: {time}\nВыберите, как обработать эту запись.", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "Перезаписать", "courseImportRecordKeepLocal": "Сохранить локальные изменения", "courseImportRecordSkip": "Пропустить эту запись",
-  "listCompleteSelected": "Завершить выбранные элементы", "listDeleteSelected": "Удалить выбранные элементы", "detailSkipOccurrence": "Пропустить это событие", "detailStatusInProgress": "Выполняется", "detailStatusCompleted": "Завершено", "detailStatusEnded": "Завершилось, ожидает отметки", "detailStatusOverdue": "Просрочено", "detailStatusUpcoming": "Предстоящее", "detailStatusInactive": "Завершение не отслеживается", "detailConflictWithItems": "Пересекается с {items}. Вы всё равно можете сохранить.", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
-  "editorCompletionMode": "Завершение", "editorCompletionModeManual": "Завершать вручную", "editorCompletionModeAutomatic": "Завершить в конце", "editorCompletionModeNone": "Только отображать", "editorConflictWithItems": "Пересекается с {items}. Вы всё равно можете сохранить.", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "Настройки языка", "commonOk": "ОК", "whuAccountEducationalYearsValue": "{years} лет", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}},
-  "academicSystem": "Учебная система", "academicSystemImport": "Импорт из учебной системы", "addTimetable": "Добавить расписание", "addToTimetable": "Добавить в {name}", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "Папка", "campusDissolveFolderConfirm": "Расформировать папку", "campusDissolveFolderContent": "Приложения из этой папки будут возвращены в сетку приложений.", "campusDissolveFolderTitle": "Расформировать эту папку?", "createEmptyTimetable": "Создать пустое расписание", "createEmptyTimetableDescription": "Создать расписание без импорта курсов", "editCourses": "Редактировать курсы", "emptyTimetable": "Пустое расписание", "emptyTimetableExportNotNeeded": "Пустое расписание не нужно экспортировать.", "timetableNotFound": "Расписание не найдено", "enterStarlinkShareCode": "Введите код Starlink", "exportTimetable": "Экспортировать расписание", "homeTimeBlock": "Блок {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "Файл JSON", "listStatusCompleted": "Завершено", "listStatusEndedPendingCompletion": "Завершено, ожидает отметки", "listStatusInProgress": "Выполняется", "listStatusPending": "Ожидает", "localFile": "Локальный файл", "localFileImport": "Импорт локального файла", "localFileImportDescription": "Импорт резервной копии расписания Luotopia из файла JSON", "luotopiaJsonBackup": "Резервная копия Luotopia JSON", "luotopiaJsonBackupDescription": "Полная резервная копия расписания для Luotopia", "mixed": "Смешанное", "mixedTimetable": "Смешанное расписание", "newTimetableName": "Новое название расписания",
-  "notificationChannelAgendaDefaultDescription": "Напоминания о делах, которые могут немного задерживаться.", "notificationChannelAgendaDefaultName": "Напоминания о расписании", "notificationChannelAgendaExactDescription": "Точные и заблаговременные напоминания о делах и курсах.", "notificationChannelAgendaExactName": "Напоминания о расписании (точные)", "notificationChannelCampusDescription": "Напоминания о бронированиях и сервисах кампуса.", "notificationChannelCampusName": "Сервисы кампуса", "notificationChannelMarketingDescription": "Новости кампусных событий и акций.", "notificationChannelMarketingName": "События и акции", "notificationCourseInProgress": "Занятие идёт", "notificationReminderTitle": "Напоминание", "notificationScheduleEndedBody": "Это событие завершилось. Не забудьте отметить его выполненным или запланировать продолжение.", "notificationScheduleIncomplete": "Событие не завершено", "notificationStartsInFifteenMinutes": "Начнётся через 15 минут · {time}", "@notificationStartsInFifteenMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInFiveMinutes": "Начнётся через 5 минут · {time}", "@notificationStartsInFiveMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInOneHour": "Начнётся через 1 час · {time}", "@notificationStartsInOneHour": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsSoon": "Скоро начнётся · {time}", "@notificationStartsSoon": {"placeholders":{"time":{"type":"String"}}}, "notificationTomorrow": "Завтра · {time}", "@notificationTomorrow": {"placeholders":{"time":{"type":"String"}}},
-  "notProvided": "Не указано", "notUpdated": "Не обновлено", "renameTimetable": "Переименовать расписание", "selectCourseSourceToUpdate": "Выберите источник курсов для обновления", "selectFileFormatToSave": "Выберите формат файла для сохранения", "selectImportMethod": "Выберите способ импорта", "separate": "Разделить", "separatedTimetableName": "{name} (разделено)", "@separatedTimetableName": {"placeholders":{"name":{"type":"String"}}}, "separateTimetable": "Разделить расписание", "shareCode": "Код доступа", "shiguang": "Шигуан", "shiguangFileImportDescription": "Импорт файла JSON расписания Шигуан", "shiguangImportFailed": "Не удалось импортировать расписание Шигуан: {error}", "@shiguangImportFailed": {"placeholders":{"error":{"type":"String"}}}, "shiguangTimetable": "Расписание Шигуан", "shiguangTimetableExportDescription": "Экспортировать расписание, совместимое с Шигуан", "shiguangTimetableImport": "Импорт расписания Шигуан", "shiguangTimetableJson": "JSON расписания Шигуан", "sourceLocalFile": "Источник: локальный файл", "sourceShiguang": "Источник: Шигуан", "sourceStarlink": "Источник: Starlink", "starlink": "Starlink", "starlinkFileMustBeJsonObject": "Файл Starlink должен содержать объект JSON.", "starlinkImportDescription": "Импорт расписания Starlink из файла JSON или кода доступа", "starlinkImportFailed": "Не удалось импортировать расписание Starlink: {error}", "@starlinkImportFailed": {"placeholders":{"error":{"type":"String"}}}, "starlinkTimetable": "Расписание Starlink", "starlinkTimetableExportDescription": "Экспортировать расписание, совместимое с Starlink", "starlinkTimetableImport": "Импорт расписания Starlink", "starlinkTimetableJson": "JSON расписания Starlink", "starlinkTimetableShareCode": "Код доступа к расписанию Starlink",
-  "timetableDetails": "Семестр: {term}\nИмпортировано: {importedAt}\nОбновлено: {updatedAt}\nИсточник: {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "Расписание экспортировано.", "timetableImportFailed": "Не удалось импортировать расписание: {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "Этот источник расписания нельзя обновить отдельно.", "updateTimetable": "Обновить расписание", "wakeupCsv": "Wakeup CSV", "wakeupCsvDescription": "Экспортировать курсы в CSV, совместимый с Wakeup", "wakeupFileAlreadyAdded": "Это расписание Wakeup уже добавлено.", "wakeupFileImportDescription": "Импорт файла Wakeup CSV или расписания", "wakeupImportFailed": "Не удалось импортировать расписание Wakeup: {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Файл расписания Wakeup", "wakeupShareFileDescription": "Экспортировать файл расписания Wakeup", "webViewErrorTitle": "Не удалось открыть страницу", "webViewLoadFailed": "Не удалось загрузить страницу. Проверьте подключение к сети и повторите попытку.", "webViewLoadingPage": "Загрузка страницы...", "webViewPreparationFailed": "Не удалось подготовить страницу: {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "Подготовка страницы...",   "webViewRetry": "Повторить",
+  "campusCreateFolder": "Создать папку",
+  "campusRenameFolder": "Переименовать папку",
+  "campusEditModeEntry": "Режим редактирования",
+  "fontSettings": "Шрифт",
+  "fontFamilyLabel": "Шрифт",
+  "fontFamilySubtitle": "Системный шрифт или Google Fonts",
+  "fontFamilySystem": "Системный шрифт",
+  "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "campusLayoutDragHint": "Перетаскивайте приложения, чтобы изменить порядок или создать папки",
+  "campusLayoutColumns": "{count} в ряду",
+  "@campusLayoutColumns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedTitle": "Перезаписать изменённые курсы?",
+  "courseImportOverwriteModifiedMessage": "{count} курсов в этом семестре были изменены вручную. Продолжение импорта перезапишет эти изменения.",
+  "@courseImportOverwriteModifiedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedConfirm": "Всё равно перезаписать",
+  "courseImportOverwriteModifiedKeepLocal": "Сохранить все локальные изменения",
+  "courseImportOverwriteModifiedReviewIndividually": "Просмотреть по отдельности",
+  "courseImportModifiedRecordMessage": "Изменённое занятие: {time}\nВыберите, как обработать эту запись.",
+  "@courseImportModifiedRecordMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportRecordOverwrite": "Перезаписать",
+  "courseImportRecordKeepLocal": "Сохранить локальные изменения",
+  "courseImportRecordSkip": "Пропустить эту запись",
+  "listCompleteSelected": "Завершить выбранные элементы",
+  "listDeleteSelected": "Удалить выбранные элементы",
+  "detailSkipOccurrence": "Пропустить это событие",
+  "detailStatusInProgress": "Выполняется",
+  "detailStatusCompleted": "Завершено",
+  "detailStatusEnded": "Завершилось, ожидает отметки",
+  "detailStatusOverdue": "Просрочено",
+  "detailStatusUpcoming": "Предстоящее",
+  "detailStatusInactive": "Завершение не отслеживается",
+  "detailConflictWithItems": "Пересекается с {items}. Вы всё равно можете сохранить.",
+  "@detailConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "editorCompletionMode": "Завершение",
+  "editorCompletionModeManual": "Завершать вручную",
+  "editorCompletionModeAutomatic": "Завершить в конце",
+  "editorCompletionModeNone": "Только отображать",
+  "editorConflictWithItems": "Пересекается с {items}. Вы всё равно можете сохранить.",
+  "@editorConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemSettings": "Настройки языка",
+  "commonOk": "ОК",
+  "whuAccountEducationalYearsValue": "{years} лет",
+  "@whuAccountEducationalYearsValue": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
+  "academicSystem": "Учебная система",
+  "academicSystemImport": "Импорт из учебной системы",
+  "addTimetable": "Добавить расписание",
+  "addToTimetable": "Добавить в {name}",
+  "@addToTimetable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "campusDefaultFolderName": "Папка",
+  "campusDissolveFolderConfirm": "Расформировать папку",
+  "campusDissolveFolderContent": "Приложения из этой папки будут возвращены в сетку приложений.",
+  "campusDissolveFolderTitle": "Расформировать эту папку?",
+  "createEmptyTimetable": "Создать пустое расписание",
+  "createEmptyTimetableDescription": "Создать расписание без импорта курсов",
+  "editCourses": "Редактировать курсы",
+  "emptyTimetable": "Пустое расписание",
+  "emptyTimetableExportNotNeeded": "Пустое расписание не нужно экспортировать.",
+  "timetableNotFound": "Расписание не найдено",
+  "enterStarlinkShareCode": "Введите код Starlink",
+  "exportTimetable": "Экспортировать расписание",
+  "homeTimeBlock": "Блок {index}",
+  "@homeTimeBlock": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "jsonFile": "Файл JSON",
+  "listStatusCompleted": "Завершено",
+  "listStatusEndedPendingCompletion": "Завершено, ожидает отметки",
+  "listStatusInProgress": "Выполняется",
+  "listStatusPending": "Ожидает",
+  "localFile": "Локальный файл",
+  "localFileImport": "Импорт локального файла",
+  "localFileImportDescription": "Импорт резервной копии расписания Luotopia из файла JSON",
+  "luotopiaJsonBackup": "Резервная копия Luotopia JSON",
+  "luotopiaJsonBackupDescription": "Полная резервная копия расписания для Luotopia",
+  "mixed": "Смешанное",
+  "mixedTimetable": "Смешанное расписание",
+  "newTimetableName": "Новое название расписания",
+  "notificationChannelAgendaDefaultDescription": "Напоминания о делах, которые могут немного задерживаться.",
+  "notificationChannelAgendaDefaultName": "Напоминания о расписании",
+  "notificationChannelAgendaExactDescription": "Точные и заблаговременные напоминания о делах и курсах.",
+  "notificationChannelAgendaExactName": "Напоминания о расписании (точные)",
+  "notificationChannelCampusDescription": "Напоминания о бронированиях и сервисах кампуса.",
+  "notificationChannelCampusName": "Сервисы кампуса",
+  "notificationChannelMarketingDescription": "Новости кампусных событий и акций.",
+  "notificationChannelMarketingName": "События и акции",
+  "notificationCourseInProgress": "Занятие идёт",
+  "notificationReminderTitle": "Напоминание",
+  "notificationScheduleEndedBody": "Это событие завершилось. Не забудьте отметить его выполненным или запланировать продолжение.",
+  "notificationScheduleIncomplete": "Событие не завершено",
+  "notificationStartsInFifteenMinutes": "Начнётся через 15 минут · {time}",
+  "@notificationStartsInFifteenMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInFiveMinutes": "Начнётся через 5 минут · {time}",
+  "@notificationStartsInFiveMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInOneHour": "Начнётся через 1 час · {time}",
+  "@notificationStartsInOneHour": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsSoon": "Скоро начнётся · {time}",
+  "@notificationStartsSoon": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTomorrow": "Завтра · {time}",
+  "@notificationTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notProvided": "Не указано",
+  "notUpdated": "Не обновлено",
+  "renameTimetable": "Переименовать расписание",
+  "selectCourseSourceToUpdate": "Выберите источник курсов для обновления",
+  "selectFileFormatToSave": "Выберите формат файла для сохранения",
+  "selectImportMethod": "Выберите способ импорта",
+  "separate": "Разделить",
+  "separatedTimetableName": "{name} (разделено)",
+  "@separatedTimetableName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "separateTimetable": "Разделить расписание",
+  "shareCode": "Код доступа",
+  "shiguang": "Шигуан",
+  "shiguangFileImportDescription": "Импорт файла JSON расписания Шигуан",
+  "shiguangImportFailed": "Не удалось импортировать расписание Шигуан: {error}",
+  "@shiguangImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shiguangTimetable": "Расписание Шигуан",
+  "shiguangTimetableExportDescription": "Экспортировать расписание, совместимое с Шигуан",
+  "shiguangTimetableImport": "Импорт расписания Шигуан",
+  "shiguangTimetableJson": "JSON расписания Шигуан",
+  "sourceLocalFile": "Источник: локальный файл",
+  "sourceShiguang": "Источник: Шигуан",
+  "sourceStarlink": "Источник: Starlink",
+  "starlink": "Starlink",
+  "starlinkFileMustBeJsonObject": "Файл Starlink должен содержать объект JSON.",
+  "starlinkImportDescription": "Импорт расписания Starlink из файла JSON или кода доступа",
+  "starlinkImportFailed": "Не удалось импортировать расписание Starlink: {error}",
+  "@starlinkImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "starlinkTimetable": "Расписание Starlink",
+  "starlinkTimetableExportDescription": "Экспортировать расписание, совместимое с Starlink",
+  "starlinkTimetableImport": "Импорт расписания Starlink",
+  "starlinkTimetableJson": "JSON расписания Starlink",
+  "starlinkTimetableShareCode": "Код доступа к расписанию Starlink",
+  "timetableDetails": "Семестр: {term}\nИмпортировано: {importedAt}\nОбновлено: {updatedAt}\nИсточник: {source}",
+  "@timetableDetails": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "importedAt": {
+        "type": "String"
+      },
+      "updatedAt": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableExported": "Расписание экспортировано.",
+  "timetableImportFailed": "Не удалось импортировать расписание: {error}",
+  "@timetableImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableIndependentUpdateUnsupported": "Этот источник расписания нельзя обновить отдельно.",
+  "updateTimetable": "Обновить расписание",
+  "wakeupCsv": "Wakeup CSV",
+  "wakeupCsvDescription": "Экспортировать курсы в CSV, совместимый с Wakeup",
+  "wakeupFileAlreadyAdded": "Это расписание Wakeup уже добавлено.",
+  "wakeupFileImportDescription": "Импорт файла Wakeup CSV или расписания",
+  "wakeupImportFailed": "Не удалось импортировать расписание Wakeup: {error}",
+  "@wakeupImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupShareFile": "Файл расписания Wakeup",
+  "wakeupShareFileDescription": "Экспортировать файл расписания Wakeup",
+  "webViewErrorTitle": "Не удалось открыть страницу",
+  "webViewLoadFailed": "Не удалось загрузить страницу. Проверьте подключение к сети и повторите попытку.",
+  "webViewLoadingPage": "Загрузка страницы...",
+  "webViewPreparationFailed": "Не удалось подготовить страницу: {error}",
+  "@webViewPreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webViewPreparingPage": "Подготовка страницы...",
+  "webViewRetry": "Повторить",
   "scoreImportCredentialTitle": "Импорт из проверенного электронного удостоверения",
   "scoreImportCredentialSubtitle": "Загружает и разбирает официальную ведомость на китайском языке локально",
   "settingsDevKeepScreenAwake": "Держать экран активным при отладке",
@@ -2335,5 +2918,87 @@
   "aiProviderAliyun": "Alibaba Tongyi Qianwen",
   "aiProviderTencent": "Tencent Hunyuan",
   "aiProviderYi": "01.AI (Yi)",
-  "aiProviderBaichuan": "Baichuan AI"
+  "aiProviderBaichuan": "Baichuan AI",
+  "detailDeleteConfirmTitle": "Удалить этот элемент?",
+  "detailDeleteConfirmMessage": "Элемент будет удалён безвозвратно.",
+  "listDeleteSelectedConfirmTitle": "Удалить выбранные элементы?",
+  "listDeleteSelectedConfirmMessage": "{count} элементов будут удалены безвозвратно.",
+  "courseTimetableDefaultGroupName": "По умолчанию",
+  "courseTimetableGroupNew": "Новая группа",
+  "courseTimetableGroupRename": "Переименовать группу",
+  "courseTimetableGroupDelete": "Удалить группу",
+  "courseTimetableGroupSetDefault": "Сделать группой импорта по умолчанию",
+  "courseTimetableGroupDefaultBadge": "По умолчанию",
+  "courseTimetableGroupNameHint": "Название группы",
+  "courseTimetableGroupDeleteConfirm": "Удалить эту группу? Расписания будут перенесены в группу по умолчанию.",
+  "courseTimetableGroupCannotDeleteLast": "Оставьте хотя бы одну группу.",
+  "courseTimetablePickGroup": "Добавить в группу",
+  "courseTimetableMoveToGroup": "Переместить в группу",
+  "courseTimetableShowOnHome": "Показывать на главной",
+  "courseTimetableImportToGroup": "Импортировать в эту группу",
+  "courseTimetableCreateInGroup": "Создать пустое расписание здесь",
+  "courseTimetableSetHomePrimary": "Показывать как основное на главной",
+  "courseTimetableToggleHomeFaded": "Приглушить на главной",
+  "courseTimetableHomeFadedOn": "Приглушено на главной",
+  "courseTimetableHomeFadedOff": "Без приглушения",
+  "courseTimetableGroupMoveUp": "Переместить группу вверх",
+  "courseTimetableGroupMoveDown": "Переместить группу вниз",
+  "courseTimetableGroupExpand": "Развернуть группу",
+  "courseTimetableGroupCollapse": "Свернуть группу",
+  "settingsHomeTimetableGroups": "Группы расписания на главной",
+  "settingsHomePrimaryGroup": "Основная группа (полная непрозрачность)",
+  "settingsHomeFadedGroups": "Также показывать (приглушённо)",
+  "settingsHomeTimetableGroupsHint": "Основная отображается полностью; приглушённые накладываются с меньшей непрозрачностью. Снимите отметку с отдельных расписаний на странице расписания, чтобы скрыть их.",
+  "homePickOverlappingItem": "Выбрать элемент",
+  "homePickOverlappingSecondary": "Дополнительная группа",
+  "notificationStartsInMinutes": "Начнётся через {minutes} мин · {time}",
+  "settingsDefaultCourseReminder": "Напоминание о занятиях для группы по умолчанию",
+  "settingsDefaultCourseReminderSubtitle": "За сколько минут напоминать для группы расписания по умолчанию (0 = выкл.). Остальные группы по умолчанию выключены и настраиваются ниже. Шаг 5, макс. 100.",
+  "settingsDefaultCourseReminderValue": "за {minutes} мин",
+  "settingsDefaultCourseReminderOff": "Выкл.",
+  "settingsGroupCourseRemindersTitle": "Напоминания по группам расписания",
+  "settingsGroupCourseRemindersHint": "Группа по умолчанию использует ползунок выше, если не задано иное. Дружеские/прочие группы начинают с 0 (выкл.).",
+  "settingsGroupCourseReminderDefaultMark": "Группа по умолчанию",
+  "settingsCourseReminderOverridesTitle": "Напоминания по предметам",
+  "settingsCourseReminderOverridesHint": "Одно и то же название предмета (или id источника) использует общее время и перекрывает значение группы.",
+  "settingsCourseReminderUseDefault": "Использовать значение группы ({minutes} мин)",
+  "settingsCourseReminderCustom": "Своё: {minutes} мин",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  }
 }

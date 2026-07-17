@@ -103,15 +103,48 @@
   "editorCoursePeriodStart": "Start period",
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
-  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCoursePeriodN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCoursePeriodSingle": "Period {n} · {time}",
-  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodSingle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
-  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCourseWeekStart": "Start week",
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
-  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCourseWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCourseWeekParity": "Week parity",
   "editorCourseWeekParityAll": "Every week",
   "editorCourseWeekParityOdd": "Odd weeks",
@@ -437,6 +470,9 @@
   "whuAccountShift": "Status",
   "whuAccountEducationalYears": "Duração do curso",
   "whuAccountRoleName": "Função",
+  "whuAccountDormBuilding": "Prédio",
+  "whuAccountDormRoom": "Quarto",
+  "whuAccountDormBed": "Cama",
   "whuAccountSectionPersonal": "Informações pessoais",
   "whuAccountSectionAcademic": "Vida acadêmica",
   "whuAccountSectionSession": "Sessão",
@@ -816,7 +852,6 @@
   "settingsPushNotificationsSubtitle": "Avisos de agenda, avaliações e sistema",
   "settingsMarketingNotifications": "Marketing e eventos",
   "settingsMarketingNotificationsSubtitle": "Receber avisos de eventos e promoções do campus",
-  
   "settingsNotificationChannelsTitle": "Canais de notificação do Android",
   "settingsNotificationChannelsHint": "Toque num canal para alterar a importância nas definições do sistema. Importância baixa/silenciosa pode remover o som.",
   "settingsNotificationChannelOpenSystem": "Abrir definições do sistema",
@@ -839,7 +874,7 @@
   "settingsNotificationImportanceSilentWarning": "Atualmente silencioso ou baixo — lembretes podem não ter som",
   "notificationChannelLiveUpdatesName": "Itens em andamento",
   "notificationChannelLiveUpdatesDescription": "Progresso em tempo real de aulas e horários.",
-"settingsStorageTitle": "Gerenciamento de armazenamento",
+  "settingsStorageTitle": "Gerenciamento de armazenamento",
   "settingsClearCache": "Limpar cache",
   "settingsClearCacheSubtitle": "Liberar arquivos temporários e cache (cerca de {size})",
   "settingsCacheCleared": "Cache limpo: {size} liberados",
@@ -2060,15 +2095,48 @@
   },
   "scoreTranscriptSaved": "PDF salvo.",
   "scoreTranscriptShare": "Compartilhar",
-  "scoreTranscriptSaveAs": "Salvar como"
-   ,"authSecurityTitle":"Segurança e autenticação em dois fatores","authTwoFactorTitle":"Autenticação em dois fatores (2FA)","authTwoFactorEnabled":"Ativada: código de e-mail ou Passkey será exigido","authTwoFactorDisabled":"Desativada: apenas a senha será exigida","authCurrentPassword":"Senha atual","authPasskeys":"Passkeys","authRegisterPasskey":"Registrar Passkey neste dispositivo","authPasskeyRegistered":"Passkey registrada","authNoPasskeys":"Nenhuma Passkey","authForgotPassword":"Esqueceu a senha?","authResetPassword":"Redefinir senha","authSendResetLink":"Enviar link","authResetRequested":"Se este e-mail estiver cadastrado, um link foi enviado.","authMfaTitle":"Autenticação em dois fatores","authMfaEmailSent":"Um código foi enviado para {email}","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"Código de verificação por e-mail","authVerifyAndLogin":"Verificar e entrar","authUsePasskey":"Usar Passkey","authResendCode":"Reenviar código","authBackToPasswordLogin":"Voltar ao login por senha","authLoginRequired":"Faça login primeiro",
+  "scoreTranscriptSaveAs": "Salvar como",
+  "authSecurityTitle": "Segurança e autenticação em dois fatores",
+  "authTwoFactorTitle": "Autenticação em dois fatores (2FA)",
+  "authTwoFactorEnabled": "Ativada: código de e-mail ou Passkey será exigido",
+  "authTwoFactorDisabled": "Desativada: apenas a senha será exigida",
+  "authCurrentPassword": "Senha atual",
+  "authPasskeys": "Passkeys",
+  "authRegisterPasskey": "Registrar Passkey neste dispositivo",
+  "authPasskeyRegistered": "Passkey registrada",
+  "authNoPasskeys": "Nenhuma Passkey",
+  "authForgotPassword": "Esqueceu a senha?",
+  "authResetPassword": "Redefinir senha",
+  "authSendResetLink": "Enviar link",
+  "authResetRequested": "Se este e-mail estiver cadastrado, um link foi enviado.",
+  "authMfaTitle": "Autenticação em dois fatores",
+  "authMfaEmailSent": "Um código foi enviado para {email}",
+  "@authMfaEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmailCode": "Código de verificação por e-mail",
+  "authVerifyAndLogin": "Verificar e entrar",
+  "authUsePasskey": "Usar Passkey",
+  "authResendCode": "Reenviar código",
+  "authBackToPasswordLogin": "Voltar ao login por senha",
+  "authLoginRequired": "Faça login primeiro",
   "commonConfirm": "Confirmar",
   "commonContinue": "Continuar",
   "commonCopy": "Copiar",
   "commonSave": "Salvar",
   "commonRetry": "Tentar novamente",
   "commonLoadFailed": "Falha ao carregar: {error}",
-  "@commonLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@commonLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsTitle": "Credenciais de API",
   "authApiCredentialCreate": "Criar credencial",
   "authApiCredentialName": "Nome",
@@ -2079,16 +2147,37 @@
   "authApiCredentialSecretShownOnce": "Segredo da API (exibido apenas uma vez)",
   "authApiCredentialSaved": "Já salvei",
   "authApiCredentialCreateFailed": "Falha ao criar credencial: {error}",
-  "@authApiCredentialCreateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsEmpty": "Ainda não há credenciais de API",
   "authApiCredentialUnnamed": "Sem nome",
   "authApiCredentialStatus": "Status: {status} · Criada em {date}",
-  "@authApiCredentialStatus": {"placeholders": {"status": {"type": "String"}, "date": {"type": "String"}}},
+  "@authApiCredentialStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialActive": "Ativa",
   "authApiCredentialRevoked": "Revogada",
   "authApiCredentialRevoke": "Revogar",
   "authApiCredentialRevokeFailed": "Falha ao revogar credencial: {error}",
-  "@authApiCredentialRevokeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialRevokeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsTitle": "Dispositivos e sessões",
   "authSessionsSignOutAll": "Sair de todos os dispositivos",
   "authSessionsSignOutAllWarning": "Isso invalidará imediatamente todos os dispositivos conectados, inclusive este. Você precisará entrar novamente.",
@@ -2101,36 +2190,102 @@
   "authSessionsUnknownDevice": "Dispositivo desconhecido",
   "authSessionsUnknown": "Desconhecido",
   "authSessionsDetails": "IP: {ip}\nÚltima atividade: {lastActive}\nLogin em: {signedIn}",
-  "@authSessionsDetails": {"placeholders": {"ip": {"type": "String"}, "lastActive": {"type": "String"}, "signedIn": {"type": "String"}}},
+  "@authSessionsDetails": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      },
+      "lastActive": {
+        "type": "String"
+      },
+      "signedIn": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSignOut": "Sair deste dispositivo",
   "authSessionsSignOutSucceeded": "Sessão do dispositivo encerrada",
   "authSessionsSignOutFailed": "Falha ao encerrar sessão do dispositivo: {error}",
-  "@authSessionsSignOutFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authSessionsSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDefaultDeviceName": "Este dispositivo",
   "authPasskeyDeviceName": "Nome do dispositivo",
   "authPasskeyRegisterFailed": "Falha ao registrar Passkey: {error}",
-  "@authPasskeyRegisterFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyRegisterFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeysDescription": "{count} registrada(s). As Passkeys usam a autenticação biométrica do sistema do seu dispositivo.",
-  "@authPasskeysDescription": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasskeysDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authPasskeysSupportedDeviceHint": "Registre uma chave biométrica em um dispositivo compatível",
   "authPasskeyCreatedAt": "Criada em {date}",
-  "@authPasskeyCreatedAt": {"placeholders": {"date": {"type": "String"}}},
+  "@authPasskeyCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Falha ao excluir Passkey: {error}",
-  "@authPasskeyDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOperationFailed": "Falha na operação: {error}",
-  "@authOperationFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsTitle": "Contas WHU vinculadas",
   "authWhuBindingsManage": "Gerenciar autenticação local",
   "authWhuBindingSucceeded": "Conta vinculada",
   "authWhuBindingFailed": "Falha ao vincular conta: {error}",
-  "@authWhuBindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuBindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingCurrent": "Vincular conta local atual ({studentId})",
-  "@authWhuBindingCurrent": {"placeholders": {"studentId": {"type": "String"}}},
+  "@authWhuBindingCurrent": {
+    "placeholders": {
+      "studentId": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsEmpty": "Não há contas vinculadas",
   "authWhuBindingKeepOne": "Pelo menos uma conta ativa deve permanecer",
   "authWhuUnbindingSucceeded": "Vínculo da conta removido",
   "authWhuUnbindingFailed": "Falha ao desvincular conta: {error}",
-  "@authWhuUnbindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuUnbindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSubtitle": "Veja e encerre sessões em dispositivos conectados",
   "authApiCredentialsSubtitle": "Gerencie chaves de API para acesso externo",
   "authChangePassword": "Alterar senha",
@@ -2138,28 +2293,64 @@
   "authDeleteAccountWarning": "Tem certeza de que deseja excluir sua conta? Esta ação não pode ser desfeita.",
   "authDeleteAccountConfirm": "Excluir conta",
   "authDeleteAccountFailed": "Falha ao excluir conta: {error}",
-  "@authDeleteAccountFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authDeleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authEditProfile": "Editar perfil",
   "authDisplayName": "Nome de exibição",
   "authProfileUpdateFailed": "Falha ao atualizar perfil: {error}",
-  "@authProfileUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authProfileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOldPassword": "Senha atual",
   "authNewPassword": "Nova senha",
   "authPasswordChanged": "Senha alterada. Entre novamente.",
   "authPasswordChangeFailed": "Falha ao alterar senha: {error}",
-  "@authPasswordChangeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordChangeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordChangeConfirm": "Alterar senha",
   "authRegistrationWhuBindingRequired": "É necessário vincular uma conta WHU para se cadastrar",
   "authRegistrationBindWhuAccount": "Vincular uma conta WHU",
   "authPasswordMinLength": "A senha deve ter pelo menos {count} caracteres",
-  "@authPasswordMinLength": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasswordMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsLoadFailed": "Falha ao carregar a distribuição de notas: {error}",
-  "@courseGradeStatsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseGradeStatsSubmit": "Enviar nota anônima",
   "courseGradeStatsNoTeachers": "Não há professores disponíveis para esta disciplina; por isso, não é possível enviar notas.",
   "courseGradeStatsPrivacyThreshold": "São necessárias pelo menos 5 amostras para proteger a privacidade.",
   "courseGradeStatsSamples": "{count} amostras anônimas",
-  "@courseGradeStatsSamples": {"placeholders": {"count": {"type": "int"}}},
+  "@courseGradeStatsSamples": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsTotalAverage": "Média da nota total",
   "courseGradeStatsUsualAverage": "Média da avaliação contínua",
   "courseGradeStatsExamAverage": "Média da prova",
@@ -2168,71 +2359,179 @@
   "courseGradeStatsTotalScore": "Nota total (0 a 100)",
   "courseGradeStatsSubmitted": "Nota anônima enviada.",
   "courseGradeStatsSubmitFailed": "Falha ao enviar nota: {error}",
-  "@courseGradeStatsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsLoginRequired": "Entre para ver avaliações anônimas de disciplinas.",
   "courseReviewsSyncEligibility": "Sincronizar disciplinas concluídas",
   "courseReviewsWrite": "Escrever avaliação anônima",
   "courseReviewsAnonymousStudent": "Estudante anônimo · {semester}",
-  "@courseReviewsAnonymousStudent": {"placeholders": {"semester": {"type": "String"}}},
+  "@courseReviewsAnonymousStudent": {
+    "placeholders": {
+      "semester": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsTitle": "Avaliação anônima da disciplina",
   "courseReviewsContent": "Avaliação",
   "courseReviewsRating": "Classificação",
   "courseReviewsRatingValue": "{rating} / 5",
-  "@courseReviewsRatingValue": {"placeholders": {"rating": {"type": "String"}}},
+  "@courseReviewsRatingValue": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSubmit": "Enviar para avaliação",
   "courseReviewsSubmitted": "Avaliação enviada e será exibida após aprovação.",
   "courseReviewsSubmitFailed": "Falha ao enviar avaliação: {error}",
-  "@courseReviewsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSyncSucceeded": "{count} disciplinas elegíveis sincronizadas.",
-  "@courseReviewsSyncSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@courseReviewsSyncSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseReviewsSyncFailed": "Falha ao sincronizar: {error}",
-  "@courseReviewsSyncFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSyncFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumCreatePost": "Criar publicação",
   "forumPost": "Publicação",
   "forumBoardShelter": "Abrigo {name}",
-  "@forumBoardShelter": {"placeholders": {"name": {"type": "String"}}},
+  "@forumBoardShelter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumBoardsLoadFailed": "Falha ao carregar fóruns: {error}",
-  "@forumBoardsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumBoardsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostsLoadFailed": "Falha ao carregar publicações: {error}",
-  "@forumPostsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPostsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostTitle": "Título",
   "forumPostContent": "Conteúdo",
   "forumPublish": "Publicar",
   "forumPublishFailed": "Falha ao publicar: {error}",
-  "@forumPublishFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPublishFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumEmpty": "Ainda não há publicações. Seja o primeiro a publicar.",
   "forumAnonymous": "Anônimo",
   "forumPostMetadata": "{author} · {comments} respostas · {upvotes} votos positivos",
-  "@forumPostMetadata": {"placeholders": {"author": {"type": "String"}, "comments": {"type": "int"}, "upvotes": {"type": "int"}}},
+  "@forumPostMetadata": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "comments": {
+        "type": "int"
+      },
+      "upvotes": {
+        "type": "int"
+      }
+    }
+  },
   "forumPostDetails": "Detalhes da publicação",
   "forumReplies": "Respostas",
   "forumReply": "Responder",
   "forumRepliesLoadFailed": "Falha ao carregar respostas: {error}",
-  "@forumRepliesLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumRepliesLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyPost": "Responder à publicação",
   "forumReplyHint": "Seja gentil e não compartilhe informações pessoais.",
   "forumSend": "Enviar",
   "forumReplyFailed": "Falha ao responder: {error}",
-  "@forumReplyFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReplyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordResetEmail": "E-mail",
   "authPasswordResetSendFailed": "Falha ao enviar: {error}",
-  "@authPasswordResetSendFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordResetSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsMyReviews": "Minhas avaliações",
   "courseReviewsMyReviewsEmpty": "Você ainda não enviou nenhuma avaliação.",
   "courseReviewsStatusPending": "Aguardando análise",
   "courseReviewsStatusApproved": "Aprovada",
   "courseReviewsStatusRejected": "Rejeitada",
   "courseReviewsRejectionReason": "Observação da avaliação: {reason}",
-  "@courseReviewsRejectionReason": {"placeholders": {"reason": {"type": "String"}}},
+  "@courseReviewsRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsEdit": "Editar avaliação",
   "courseReviewsDelete": "Excluir avaliação",
   "courseReviewsDeleteConfirm": "Excluir esta avaliação? Esta ação não pode ser desfeita.",
   "courseReviewsDeleted": "Avaliação excluída.",
   "courseReviewsDeleteFailed": "Falha ao excluir avaliação: {error}",
-  "@courseReviewsDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsUpdated": "Avaliação atualizada e enviada novamente para análise.",
   "courseReviewsUpdateFailed": "Falha ao atualizar avaliação: {error}",
-  "@courseReviewsUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumMyPosts": "Minhas publicações",
   "forumLikedPosts": "Publicações curtidas",
   "forumFavoritePosts": "Publicações salvas",
@@ -2246,7 +2545,13 @@
   "forumShelterPrivacyTitle": "Privacidade do abrigo",
   "forumShelterPrivacyDescription": "Seu pseudônimo permanece consistente apenas neste tópico. Nenhum avatar ou perfil é exibido, e esta publicação expira após 24 horas.",
   "forumShelterExpiresIn": "Expira em {time}",
-  "@forumShelterExpiresIn": {"placeholders": {"time": {"type": "String"}}},
+  "@forumShelterExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "forumLike": "Curtir",
   "forumDislike": "Não curtir",
   "forumSave": "Salvar",
@@ -2254,7 +2559,13 @@
   "forumReportReason": "Motivo",
   "forumReportSubmitted": "Denúncia enviada.",
   "forumReportFailed": "Falha ao enviar denúncia: {error}",
-  "@forumReportFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumNotificationsTitle": "Notificações do fórum",
   "forumNotificationsEmpty": "Você não tem notificações do fórum.",
   "forumNotificationsMarkAllRead": "Marcar todas como lidas",
@@ -2273,14 +2584,286 @@
   "forumPostDeleted": "Publicação excluída.",
   "forumPostRestored": "Publicação restaurada.",
   "forumAppealResolved": "Recurso resolvido.",
-  "campusCreateFolder": "Criar pasta", "campusRenameFolder": "Renomear pasta", "campusEditModeEntry": "Modo de edição", "fontSettings": "Fonte", "fontFamilyLabel": "Fonte", "fontFamilySubtitle": "Fonte do sistema ou Google Fonts", "fontFamilySystem": "Fonte do sistema", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "Arraste aplicativos para reordenar ou criar pastas", "campusLayoutColumns": "{count} por linha", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
-  "courseImportOverwriteModifiedTitle": "Substituir cursos modificados?", "courseImportOverwriteModifiedMessage": "{count} cursos deste semestre foram modificados manualmente. Continuar a importação substituirá essas alterações.", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "Substituir mesmo assim", "courseImportOverwriteModifiedKeepLocal": "Manter todas as alterações locais", "courseImportOverwriteModifiedReviewIndividually": "Revisar individualmente", "courseImportModifiedRecordMessage": "Ocorrência de curso modificada: {time}\nEscolha como tratar este registro.", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "Substituir", "courseImportRecordKeepLocal": "Manter alterações locais", "courseImportRecordSkip": "Pular este registro",
-  "listCompleteSelected": "Concluir itens selecionados", "listDeleteSelected": "Excluir itens selecionados", "detailSkipOccurrence": "Pular esta ocorrência", "detailStatusInProgress": "Em andamento", "detailStatusCompleted": "Concluído", "detailStatusEnded": "Encerrado, aguardando conclusão", "detailStatusOverdue": "Atrasado", "detailStatusUpcoming": "Próximo", "detailStatusInactive": "Conclusão não acompanhada", "detailConflictWithItems": "Há sobreposição com {items}. Você ainda pode salvar.", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
-  "editorCompletionMode": "Conclusão", "editorCompletionModeManual": "Conclusão manual", "editorCompletionModeAutomatic": "Concluir no horário de término", "editorCompletionModeNone": "Somente exibir", "editorConflictWithItems": "Há sobreposição com {items}. Você ainda pode salvar.", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "Configurações de idioma", "commonOk": "OK", "whuAccountEducationalYearsValue": "{years} anos", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}},
-  "academicSystem": "Sistema acadêmico", "academicSystemImport": "Importação do sistema acadêmico", "addTimetable": "Adicionar horário", "addToTimetable": "Adicionar a {name}", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "Pasta", "campusDissolveFolderConfirm": "Dissolver pasta", "campusDissolveFolderContent": "Os aplicativos desta pasta voltarão para a grade de aplicativos.", "campusDissolveFolderTitle": "Dissolver esta pasta?", "createEmptyTimetable": "Criar horário vazio", "createEmptyTimetableDescription": "Crie um horário sem importar disciplinas", "editCourses": "Editar disciplinas", "emptyTimetable": "Horário vazio", "emptyTimetableExportNotNeeded": "Não é necessário exportar um horário vazio.", "timetableNotFound": "Horário não encontrado", "enterStarlinkShareCode": "Digite o código de compartilhamento do Starlink", "exportTimetable": "Exportar horário", "homeTimeBlock": "Bloco {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "Arquivo JSON", "listStatusCompleted": "Concluído", "listStatusEndedPendingCompletion": "Encerrado, aguardando conclusão", "listStatusInProgress": "Em andamento", "listStatusPending": "Pendente", "localFile": "Arquivo local", "localFileImport": "Importação de arquivo local", "localFileImportDescription": "Importe um backup de horário do Luotopia de um arquivo JSON", "luotopiaJsonBackup": "Backup JSON do Luotopia", "luotopiaJsonBackupDescription": "Backup completo de horários para o Luotopia", "mixed": "Misto", "mixedTimetable": "Horário misto", "newTimetableName": "Nome do novo horário",
-  "notificationChannelAgendaDefaultDescription": "Lembretes de itens que podem sofrer um pequeno atraso.", "notificationChannelAgendaDefaultName": "Lembretes de agenda", "notificationChannelAgendaExactDescription": "Lembretes pontuais e próximos para itens e disciplinas.", "notificationChannelAgendaExactName": "Lembretes de agenda (exatos)", "notificationChannelCampusDescription": "Lembretes de reservas e relacionados ao campus.", "notificationChannelCampusName": "Serviços do campus", "notificationChannelMarketingDescription": "Atualizações sobre atividades e promoções do campus.", "notificationChannelMarketingName": "Atividades e promoções", "notificationCourseInProgress": "Aula em andamento", "notificationReminderTitle": "Lembrete", "notificationScheduleEndedBody": "Este horário terminou. Lembre-se de marcá-lo como concluído ou planejar um acompanhamento.", "notificationScheduleIncomplete": "Horário não concluído", "notificationStartsInFifteenMinutes": "Começa em 15 minutos · {time}", "@notificationStartsInFifteenMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInFiveMinutes": "Começa em 5 minutos · {time}", "@notificationStartsInFiveMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInOneHour": "Começa em 1 hora · {time}", "@notificationStartsInOneHour": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsSoon": "Começa em breve · {time}", "@notificationStartsSoon": {"placeholders":{"time":{"type":"String"}}}, "notificationTomorrow": "Amanhã · {time}", "@notificationTomorrow": {"placeholders":{"time":{"type":"String"}}},
-  "notProvided": "Não informado", "notUpdated": "Não atualizado", "renameTimetable": "Renomear horário", "selectCourseSourceToUpdate": "Selecione uma fonte de disciplinas para atualizar", "selectFileFormatToSave": "Selecione um formato de arquivo para salvar", "selectImportMethod": "Selecione um método de importação", "separate": "Separar", "separatedTimetableName": "{name} (separado)", "@separatedTimetableName": {"placeholders":{"name":{"type":"String"}}}, "separateTimetable": "Separar horário", "shareCode": "Código de compartilhamento", "shiguang": "Shiguang", "shiguangFileImportDescription": "Importe um arquivo JSON de horário do Shiguang", "shiguangImportFailed": "Falha ao importar o horário do Shiguang: {error}", "@shiguangImportFailed": {"placeholders":{"error":{"type":"String"}}}, "shiguangTimetable": "Horário do Shiguang", "shiguangTimetableExportDescription": "Exporte um horário compatível com o Shiguang", "shiguangTimetableImport": "Importação de horário do Shiguang", "shiguangTimetableJson": "JSON de horário do Shiguang", "sourceLocalFile": "Fonte: arquivo local", "sourceShiguang": "Fonte: Shiguang", "sourceStarlink": "Fonte: Starlink", "starlink": "Starlink", "starlinkFileMustBeJsonObject": "O arquivo do Starlink deve conter um objeto JSON.", "starlinkImportDescription": "Importe um horário do Starlink de um arquivo JSON ou código de compartilhamento", "starlinkImportFailed": "Falha ao importar o horário do Starlink: {error}", "@starlinkImportFailed": {"placeholders":{"error":{"type":"String"}}}, "starlinkTimetable": "Horário do Starlink", "starlinkTimetableExportDescription": "Exporte um horário compatível com o Starlink", "starlinkTimetableImport": "Importação de horário do Starlink", "starlinkTimetableJson": "JSON de horário do Starlink", "starlinkTimetableShareCode": "Código de compartilhamento de horário do Starlink",
-  "timetableDetails": "Semestre: {term}\nImportado: {importedAt}\nAtualizado: {updatedAt}\nFonte: {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "Horário exportado.", "timetableImportFailed": "Falha ao importar o horário: {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "Esta fonte de horário não pode ser atualizada de forma independente.", "updateTimetable": "Atualizar horário", "wakeupCsv": "CSV do Wakeup", "wakeupCsvDescription": "Exporte as disciplinas como um CSV compatível com o Wakeup", "wakeupFileAlreadyAdded": "Este horário do Wakeup já foi adicionado.", "wakeupFileImportDescription": "Importe um arquivo CSV ou de horário do Wakeup", "wakeupImportFailed": "Falha ao importar o horário do Wakeup: {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Arquivo de horário do Wakeup", "wakeupShareFileDescription": "Exporte um arquivo de horário do Wakeup", "webViewErrorTitle": "Não foi possível abrir a página", "webViewLoadFailed": "Não foi possível carregar a página. Verifique sua conexão de rede e tente novamente.", "webViewLoadingPage": "Carregando página...", "webViewPreparationFailed": "Falha ao preparar a página: {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "Preparando página...", "webViewRetry": "Tentar novamente",
+  "campusCreateFolder": "Criar pasta",
+  "campusRenameFolder": "Renomear pasta",
+  "campusEditModeEntry": "Modo de edição",
+  "fontSettings": "Fonte",
+  "fontFamilyLabel": "Fonte",
+  "fontFamilySubtitle": "Fonte do sistema ou Google Fonts",
+  "fontFamilySystem": "Fonte do sistema",
+  "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "campusLayoutDragHint": "Arraste aplicativos para reordenar ou criar pastas",
+  "campusLayoutColumns": "{count} por linha",
+  "@campusLayoutColumns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedTitle": "Substituir cursos modificados?",
+  "courseImportOverwriteModifiedMessage": "{count} cursos deste semestre foram modificados manualmente. Continuar a importação substituirá essas alterações.",
+  "@courseImportOverwriteModifiedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedConfirm": "Substituir mesmo assim",
+  "courseImportOverwriteModifiedKeepLocal": "Manter todas as alterações locais",
+  "courseImportOverwriteModifiedReviewIndividually": "Revisar individualmente",
+  "courseImportModifiedRecordMessage": "Ocorrência de curso modificada: {time}\nEscolha como tratar este registro.",
+  "@courseImportModifiedRecordMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportRecordOverwrite": "Substituir",
+  "courseImportRecordKeepLocal": "Manter alterações locais",
+  "courseImportRecordSkip": "Pular este registro",
+  "listCompleteSelected": "Concluir itens selecionados",
+  "listDeleteSelected": "Excluir itens selecionados",
+  "detailSkipOccurrence": "Pular esta ocorrência",
+  "detailStatusInProgress": "Em andamento",
+  "detailStatusCompleted": "Concluído",
+  "detailStatusEnded": "Encerrado, aguardando conclusão",
+  "detailStatusOverdue": "Atrasado",
+  "detailStatusUpcoming": "Próximo",
+  "detailStatusInactive": "Conclusão não acompanhada",
+  "detailConflictWithItems": "Há sobreposição com {items}. Você ainda pode salvar.",
+  "@detailConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "editorCompletionMode": "Conclusão",
+  "editorCompletionModeManual": "Conclusão manual",
+  "editorCompletionModeAutomatic": "Concluir no horário de término",
+  "editorCompletionModeNone": "Somente exibir",
+  "editorConflictWithItems": "Há sobreposição com {items}. Você ainda pode salvar.",
+  "@editorConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemSettings": "Configurações de idioma",
+  "commonOk": "OK",
+  "whuAccountEducationalYearsValue": "{years} anos",
+  "@whuAccountEducationalYearsValue": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
+  "academicSystem": "Sistema acadêmico",
+  "academicSystemImport": "Importação do sistema acadêmico",
+  "addTimetable": "Adicionar horário",
+  "addToTimetable": "Adicionar a {name}",
+  "@addToTimetable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "campusDefaultFolderName": "Pasta",
+  "campusDissolveFolderConfirm": "Dissolver pasta",
+  "campusDissolveFolderContent": "Os aplicativos desta pasta voltarão para a grade de aplicativos.",
+  "campusDissolveFolderTitle": "Dissolver esta pasta?",
+  "createEmptyTimetable": "Criar horário vazio",
+  "createEmptyTimetableDescription": "Crie um horário sem importar disciplinas",
+  "editCourses": "Editar disciplinas",
+  "emptyTimetable": "Horário vazio",
+  "emptyTimetableExportNotNeeded": "Não é necessário exportar um horário vazio.",
+  "timetableNotFound": "Horário não encontrado",
+  "enterStarlinkShareCode": "Digite o código de compartilhamento do Starlink",
+  "exportTimetable": "Exportar horário",
+  "homeTimeBlock": "Bloco {index}",
+  "@homeTimeBlock": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "jsonFile": "Arquivo JSON",
+  "listStatusCompleted": "Concluído",
+  "listStatusEndedPendingCompletion": "Encerrado, aguardando conclusão",
+  "listStatusInProgress": "Em andamento",
+  "listStatusPending": "Pendente",
+  "localFile": "Arquivo local",
+  "localFileImport": "Importação de arquivo local",
+  "localFileImportDescription": "Importe um backup de horário do Luotopia de um arquivo JSON",
+  "luotopiaJsonBackup": "Backup JSON do Luotopia",
+  "luotopiaJsonBackupDescription": "Backup completo de horários para o Luotopia",
+  "mixed": "Misto",
+  "mixedTimetable": "Horário misto",
+  "newTimetableName": "Nome do novo horário",
+  "notificationChannelAgendaDefaultDescription": "Lembretes de itens que podem sofrer um pequeno atraso.",
+  "notificationChannelAgendaDefaultName": "Lembretes de agenda",
+  "notificationChannelAgendaExactDescription": "Lembretes pontuais e próximos para itens e disciplinas.",
+  "notificationChannelAgendaExactName": "Lembretes de agenda (exatos)",
+  "notificationChannelCampusDescription": "Lembretes de reservas e relacionados ao campus.",
+  "notificationChannelCampusName": "Serviços do campus",
+  "notificationChannelMarketingDescription": "Atualizações sobre atividades e promoções do campus.",
+  "notificationChannelMarketingName": "Atividades e promoções",
+  "notificationCourseInProgress": "Aula em andamento",
+  "notificationReminderTitle": "Lembrete",
+  "notificationScheduleEndedBody": "Este horário terminou. Lembre-se de marcá-lo como concluído ou planejar um acompanhamento.",
+  "notificationScheduleIncomplete": "Horário não concluído",
+  "notificationStartsInFifteenMinutes": "Começa em 15 minutos · {time}",
+  "@notificationStartsInFifteenMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInFiveMinutes": "Começa em 5 minutos · {time}",
+  "@notificationStartsInFiveMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInOneHour": "Começa em 1 hora · {time}",
+  "@notificationStartsInOneHour": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsSoon": "Começa em breve · {time}",
+  "@notificationStartsSoon": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTomorrow": "Amanhã · {time}",
+  "@notificationTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notProvided": "Não informado",
+  "notUpdated": "Não atualizado",
+  "renameTimetable": "Renomear horário",
+  "selectCourseSourceToUpdate": "Selecione uma fonte de disciplinas para atualizar",
+  "selectFileFormatToSave": "Selecione um formato de arquivo para salvar",
+  "selectImportMethod": "Selecione um método de importação",
+  "separate": "Separar",
+  "separatedTimetableName": "{name} (separado)",
+  "@separatedTimetableName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "separateTimetable": "Separar horário",
+  "shareCode": "Código de compartilhamento",
+  "shiguang": "Shiguang",
+  "shiguangFileImportDescription": "Importe um arquivo JSON de horário do Shiguang",
+  "shiguangImportFailed": "Falha ao importar o horário do Shiguang: {error}",
+  "@shiguangImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shiguangTimetable": "Horário do Shiguang",
+  "shiguangTimetableExportDescription": "Exporte um horário compatível com o Shiguang",
+  "shiguangTimetableImport": "Importação de horário do Shiguang",
+  "shiguangTimetableJson": "JSON de horário do Shiguang",
+  "sourceLocalFile": "Fonte: arquivo local",
+  "sourceShiguang": "Fonte: Shiguang",
+  "sourceStarlink": "Fonte: Starlink",
+  "starlink": "Starlink",
+  "starlinkFileMustBeJsonObject": "O arquivo do Starlink deve conter um objeto JSON.",
+  "starlinkImportDescription": "Importe um horário do Starlink de um arquivo JSON ou código de compartilhamento",
+  "starlinkImportFailed": "Falha ao importar o horário do Starlink: {error}",
+  "@starlinkImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "starlinkTimetable": "Horário do Starlink",
+  "starlinkTimetableExportDescription": "Exporte um horário compatível com o Starlink",
+  "starlinkTimetableImport": "Importação de horário do Starlink",
+  "starlinkTimetableJson": "JSON de horário do Starlink",
+  "starlinkTimetableShareCode": "Código de compartilhamento de horário do Starlink",
+  "timetableDetails": "Semestre: {term}\nImportado: {importedAt}\nAtualizado: {updatedAt}\nFonte: {source}",
+  "@timetableDetails": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "importedAt": {
+        "type": "String"
+      },
+      "updatedAt": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableExported": "Horário exportado.",
+  "timetableImportFailed": "Falha ao importar o horário: {error}",
+  "@timetableImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableIndependentUpdateUnsupported": "Esta fonte de horário não pode ser atualizada de forma independente.",
+  "updateTimetable": "Atualizar horário",
+  "wakeupCsv": "CSV do Wakeup",
+  "wakeupCsvDescription": "Exporte as disciplinas como um CSV compatível com o Wakeup",
+  "wakeupFileAlreadyAdded": "Este horário do Wakeup já foi adicionado.",
+  "wakeupFileImportDescription": "Importe um arquivo CSV ou de horário do Wakeup",
+  "wakeupImportFailed": "Falha ao importar o horário do Wakeup: {error}",
+  "@wakeupImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupShareFile": "Arquivo de horário do Wakeup",
+  "wakeupShareFileDescription": "Exporte um arquivo de horário do Wakeup",
+  "webViewErrorTitle": "Não foi possível abrir a página",
+  "webViewLoadFailed": "Não foi possível carregar a página. Verifique sua conexão de rede e tente novamente.",
+  "webViewLoadingPage": "Carregando página...",
+  "webViewPreparationFailed": "Falha ao preparar a página: {error}",
+  "@webViewPreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webViewPreparingPage": "Preparando página...",
+  "webViewRetry": "Tentar novamente",
   "appUpdateAvailableTitle": "Atualização disponível",
   "appUpdateSkipVersion": "Ignorar esta versão",
   "appUpdateLater": "Mais tarde",
@@ -2335,5 +2918,87 @@
   "aiProviderAliyun": "Alibaba Tongyi Qianwen",
   "aiProviderTencent": "Tencent Hunyuan",
   "aiProviderYi": "01.AI (Yi)",
-  "aiProviderBaichuan": "Baichuan AI"
+  "aiProviderBaichuan": "Baichuan AI",
+  "detailDeleteConfirmTitle": "Excluir este item?",
+  "detailDeleteConfirmMessage": "Este item será removido permanentemente.",
+  "listDeleteSelectedConfirmTitle": "Excluir os itens selecionados?",
+  "listDeleteSelectedConfirmMessage": "{count} itens serão removidos permanentemente.",
+  "courseTimetableDefaultGroupName": "Padrão",
+  "courseTimetableGroupNew": "Novo grupo",
+  "courseTimetableGroupRename": "Renomear grupo",
+  "courseTimetableGroupDelete": "Excluir grupo",
+  "courseTimetableGroupSetDefault": "Definir como grupo de importação padrão",
+  "courseTimetableGroupDefaultBadge": "Padrão",
+  "courseTimetableGroupNameHint": "Nome do grupo",
+  "courseTimetableGroupDeleteConfirm": "Excluir este grupo? As grades serão movidas para o grupo padrão.",
+  "courseTimetableGroupCannotDeleteLast": "Mantenha pelo menos um grupo.",
+  "courseTimetablePickGroup": "Adicionar ao grupo",
+  "courseTimetableMoveToGroup": "Mover para o grupo",
+  "courseTimetableShowOnHome": "Mostrar na página inicial",
+  "courseTimetableImportToGroup": "Importar para este grupo",
+  "courseTimetableCreateInGroup": "Criar grade vazia aqui",
+  "courseTimetableSetHomePrimary": "Mostrar como principal na página inicial",
+  "courseTimetableToggleHomeFaded": "Esmaecer na página inicial",
+  "courseTimetableHomeFadedOn": "Esmaecido na página inicial",
+  "courseTimetableHomeFadedOff": "Sem esmaecer",
+  "courseTimetableGroupMoveUp": "Mover grupo para cima",
+  "courseTimetableGroupMoveDown": "Mover grupo para baixo",
+  "courseTimetableGroupExpand": "Expandir grupo",
+  "courseTimetableGroupCollapse": "Recolher grupo",
+  "settingsHomeTimetableGroups": "Grupos de grade na página inicial",
+  "settingsHomePrimaryGroup": "Grupo principal (opacidade total)",
+  "settingsHomeFadedGroups": "Mostrar também (esmaecidos)",
+  "settingsHomeTimetableGroupsHint": "O principal aparece sólido; os esmaecidos sobrepõem com menor opacidade. Desmarque grades individuais na página de grades para ocultá-las.",
+  "homePickOverlappingItem": "Escolher item",
+  "homePickOverlappingSecondary": "Grupo secundário",
+  "notificationStartsInMinutes": "Começa em {minutes} minutos · {time}",
+  "settingsDefaultCourseReminder": "Lembrete de aulas do grupo padrão",
+  "settingsDefaultCourseReminderSubtitle": "Antecedência do grupo de grade padrão (0 = desligado). Outros grupos começam desligados e podem ser definidos abaixo. Passo 5, máx. 100.",
+  "settingsDefaultCourseReminderValue": "{minutes} min antes",
+  "settingsDefaultCourseReminderOff": "Desligado",
+  "settingsGroupCourseRemindersTitle": "Lembretes por grupo de grade",
+  "settingsGroupCourseRemindersHint": "O grupo padrão usa o controle acima, salvo personalização. Grupos de amigos/outros começam em 0 (desligado).",
+  "settingsGroupCourseReminderDefaultMark": "Grupo padrão",
+  "settingsCourseReminderOverridesTitle": "Lembretes por disciplina",
+  "settingsCourseReminderOverridesHint": "O mesmo nome de disciplina (ou id de origem) compartilha uma antecedência e substitui o padrão do grupo.",
+  "settingsCourseReminderUseDefault": "Usar padrão do grupo ({minutes} min)",
+  "settingsCourseReminderCustom": "Personalizado: {minutes} min",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  }
 }

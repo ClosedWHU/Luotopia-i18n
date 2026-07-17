@@ -68,6 +68,17 @@
   "deleteTimetable": "删除课程表",
   "detailDeadlineLabel": "截止时间",
   "detailDelete": "删除事项",
+  "detailDeleteConfirmTitle": "删除此事项？",
+  "detailDeleteConfirmMessage": "删除后无法恢复。",
+  "listDeleteSelectedConfirmTitle": "删除所选事项？",
+  "listDeleteSelectedConfirmMessage": "将永久删除 {count} 个事项。",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "detailMarkComplete": "标记完成",
   "detailMarkIncomplete": "恢复未完成",
   "detailMissing": "没有找到这个事项，可能已经被删除。",
@@ -508,6 +519,9 @@
   "whuAccountShift": "学籍状态",
   "whuAccountEducationalYears": "学制",
   "whuAccountRoleName": "角色",
+  "whuAccountDormBuilding": "宿舍楼栋",
+  "whuAccountDormRoom": "房间号",
+  "whuAccountDormBed": "床位号",
   "whuAccountSectionPersonal": "个人信息",
   "whuAccountSectionAcademic": "学籍学业",
   "whuAccountSectionSession": "登录状态",
@@ -1154,6 +1168,34 @@
       }
     }
   },
+  "courseTimetableDefaultGroupName": "默认",
+  "courseTimetableGroupNew": "新建分组",
+  "courseTimetableGroupRename": "重命名分组",
+  "courseTimetableGroupDelete": "删除分组",
+  "courseTimetableGroupSetDefault": "设为默认导入分组",
+  "courseTimetableGroupDefaultBadge": "默认",
+  "courseTimetableGroupNameHint": "分组名称",
+  "courseTimetableGroupDeleteConfirm": "删除此分组？其中的课表将移到默认分组。",
+  "courseTimetableGroupCannotDeleteLast": "至少保留一个分组。",
+  "courseTimetablePickGroup": "添加到分组",
+  "courseTimetableMoveToGroup": "移动到分组",
+  "courseTimetableShowOnHome": "在主页显示",
+  "courseTimetableImportToGroup": "导入到此分组",
+  "courseTimetableCreateInGroup": "在此新建空课表",
+  "courseTimetableSetHomePrimary": "设为主页主分组",
+  "courseTimetableToggleHomeFaded": "主页淡化显示",
+  "courseTimetableHomeFadedOn": "主页已淡化",
+  "courseTimetableHomeFadedOff": "主页未淡化",
+  "courseTimetableGroupMoveUp": "分组上移",
+  "courseTimetableGroupMoveDown": "分组下移",
+  "courseTimetableGroupExpand": "展开分组",
+  "courseTimetableGroupCollapse": "折叠分组",
+  "settingsHomeTimetableGroups": "主页课表分组",
+  "settingsHomePrimaryGroup": "主分组（正常显示）",
+  "settingsHomeFadedGroups": "同时显示（淡化）",
+  "settingsHomeTimetableGroupsHint": "主分组正常显示，淡化分组半透叠加。可在课表页取消勾选单张课表以隐藏。",
+  "homePickOverlappingItem": "选择事项",
+  "homePickOverlappingSecondary": "次要分组",
   "wakeupImportPlaceholder": "Wakeup 分享口令/链接解析器待接入，当前版本先提供导入流程占位。",
   "sportsReservationToday": "今天",
   "sportsReservationTomorrow": "明天",
@@ -2753,6 +2795,49 @@
     "placeholders": {
       "time": {
         "type": "String"
+      }
+    }
+  },
+  "notificationStartsInMinutes": "{minutes} 分钟后开始 · {time}",
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDefaultCourseReminder": "默认分组课程提醒",
+  "settingsDefaultCourseReminderSubtitle": "默认课表分组的开课前提前量（0 = 关闭）。其他分组默认为关闭，可在下方按分组修改。步长 5，最大 100。",
+  "settingsDefaultCourseReminderValue": "提前 {minutes} 分钟",
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDefaultCourseReminderOff": "关闭",
+  "settingsGroupCourseRemindersTitle": "按课表分组提醒",
+  "settingsGroupCourseRemindersHint": "默认分组用上方滑块；朋友等其它分组默认为 0（关闭），可单独开启。",
+  "settingsGroupCourseReminderDefaultMark": "默认分组",
+  "settingsCourseReminderOverridesTitle": "单课提醒",
+  "settingsCourseReminderOverridesHint": "同一课程名（或来源课程 ID）共用提前时间，并覆盖分组默认。",
+  "settingsCourseReminderUseDefault": "使用分组默认（{minutes} 分钟）",
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsCourseReminderCustom": "自定义：{minutes} 分钟",
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },

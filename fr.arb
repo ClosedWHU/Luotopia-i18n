@@ -103,15 +103,48 @@
   "editorCoursePeriodStart": "Start period",
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
-  "@editorCoursePeriodN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCoursePeriodN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCoursePeriodSingle": "Period {n} · {time}",
-  "@editorCoursePeriodSingle": {"placeholders": {"n": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodSingle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
-  "@editorCoursePeriodRange": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}, "time": {"type": "String"}}},
+  "@editorCoursePeriodRange": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "editorCourseWeekStart": "Start week",
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
-  "@editorCourseWeekN": {"placeholders": {"n": {"type": "int"}}},
+  "@editorCourseWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "editorCourseWeekParity": "Week parity",
   "editorCourseWeekParityAll": "Every week",
   "editorCourseWeekParityOdd": "Odd weeks",
@@ -437,6 +470,9 @@
   "whuAccountShift": "Statut",
   "whuAccountEducationalYears": "Durée des études",
   "whuAccountRoleName": "Rôle",
+  "whuAccountDormBuilding": "Bâtiment",
+  "whuAccountDormRoom": "Chambre",
+  "whuAccountDormBed": "Lit",
   "whuAccountSectionPersonal": "Informations personnelles",
   "whuAccountSectionAcademic": "Scolarité",
   "whuAccountSectionSession": "Session",
@@ -816,7 +852,6 @@
   "settingsPushNotificationsSubtitle": "Notifications d’agenda, d’avis et système",
   "settingsMarketingNotifications": "Marketing et événements",
   "settingsMarketingNotificationsSubtitle": "Recevoir les notifications d’événements et promos du campus",
-  
   "settingsNotificationChannelsTitle": "Canaux de notification Android",
   "settingsNotificationChannelsHint": "Appuyez sur un canal pour modifier son importance dans les réglages système. Une importance faible ou silencieuse peut masquer le son.",
   "settingsNotificationChannelOpenSystem": "Ouvrir les réglages système",
@@ -839,7 +874,7 @@
   "settingsNotificationImportanceSilentWarning": "Actuellement silencieux ou faible — les rappels peuvent être sans son",
   "notificationChannelLiveUpdatesName": "Éléments en cours",
   "notificationChannelLiveUpdatesDescription": "Progression en direct des cours et emplois du temps.",
-"settingsStorageTitle": "Gestion du stockage",
+  "settingsStorageTitle": "Gestion du stockage",
   "settingsClearCache": "Vider le cache",
   "settingsClearCacheSubtitle": "Libérer fichiers temporaires et cache (environ {size})",
   "settingsCacheCleared": "Cache effacé : {size} libérés",
@@ -2060,15 +2095,48 @@
   },
   "scoreTranscriptSaved": "PDF enregistre.",
   "scoreTranscriptShare": "Partager",
-  "scoreTranscriptSaveAs": "Enregistrer sous"
-  ,"authSecurityTitle":"Sécurité et double authentification","authTwoFactorTitle":"Double authentification (2FA)","authTwoFactorEnabled":"Activée : un code e-mail ou une Passkey est requis à la connexion","authTwoFactorDisabled":"Désactivée : seul votre mot de passe est requis","authCurrentPassword":"Mot de passe actuel","authPasskeys":"Passkeys","authRegisterPasskey":"Enregistrer une Passkey sur cet appareil","authPasskeyRegistered":"Passkey enregistrée","authNoPasskeys":"Aucune Passkey","authForgotPassword":"Mot de passe oublié ?","authResetPassword":"Réinitialiser le mot de passe","authSendResetLink":"Envoyer le lien","authResetRequested":"Si cet e-mail est enregistré, un lien a été envoyé.","authMfaTitle":"Double authentification","authMfaEmailSent":"Un code a été envoyé à {email}","@authMfaEmailSent":{"placeholders":{"email":{"type":"String"}}},"authEmailCode":"Code de vérification e-mail","authVerifyAndLogin":"Vérifier et se connecter","authUsePasskey":"Utiliser une Passkey","authResendCode":"Renvoyer le code","authBackToPasswordLogin":"Retour à la connexion par mot de passe","authLoginRequired":"Connectez-vous d’abord",
+  "scoreTranscriptSaveAs": "Enregistrer sous",
+  "authSecurityTitle": "Sécurité et double authentification",
+  "authTwoFactorTitle": "Double authentification (2FA)",
+  "authTwoFactorEnabled": "Activée : un code e-mail ou une Passkey est requis à la connexion",
+  "authTwoFactorDisabled": "Désactivée : seul votre mot de passe est requis",
+  "authCurrentPassword": "Mot de passe actuel",
+  "authPasskeys": "Passkeys",
+  "authRegisterPasskey": "Enregistrer une Passkey sur cet appareil",
+  "authPasskeyRegistered": "Passkey enregistrée",
+  "authNoPasskeys": "Aucune Passkey",
+  "authForgotPassword": "Mot de passe oublié ?",
+  "authResetPassword": "Réinitialiser le mot de passe",
+  "authSendResetLink": "Envoyer le lien",
+  "authResetRequested": "Si cet e-mail est enregistré, un lien a été envoyé.",
+  "authMfaTitle": "Double authentification",
+  "authMfaEmailSent": "Un code a été envoyé à {email}",
+  "@authMfaEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmailCode": "Code de vérification e-mail",
+  "authVerifyAndLogin": "Vérifier et se connecter",
+  "authUsePasskey": "Utiliser une Passkey",
+  "authResendCode": "Renvoyer le code",
+  "authBackToPasswordLogin": "Retour à la connexion par mot de passe",
+  "authLoginRequired": "Connectez-vous d’abord",
   "commonConfirm": "Confirmer",
   "commonContinue": "Continuer",
   "commonCopy": "Copier",
   "commonSave": "Enregistrer",
   "commonRetry": "Réessayer",
   "commonLoadFailed": "Échec du chargement : {error}",
-  "@commonLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@commonLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsTitle": "Identifiants API",
   "authApiCredentialCreate": "Créer un identifiant",
   "authApiCredentialName": "Nom",
@@ -2079,16 +2147,37 @@
   "authApiCredentialSecretShownOnce": "Secret API (affiché une seule fois)",
   "authApiCredentialSaved": "Je l’ai enregistré",
   "authApiCredentialCreateFailed": "Échec de la création de l’identifiant : {error}",
-  "@authApiCredentialCreateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialsEmpty": "Aucun identifiant API pour le moment",
   "authApiCredentialUnnamed": "Sans nom",
   "authApiCredentialStatus": "Statut : {status} · Créé le {date}",
-  "@authApiCredentialStatus": {"placeholders": {"status": {"type": "String"}, "date": {"type": "String"}}},
+  "@authApiCredentialStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialActive": "Actif",
   "authApiCredentialRevoked": "Révoqué",
   "authApiCredentialRevoke": "Révoquer",
   "authApiCredentialRevokeFailed": "Échec de la révocation de l’identifiant : {error}",
-  "@authApiCredentialRevokeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authApiCredentialRevokeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsTitle": "Appareils et sessions",
   "authSessionsSignOutAll": "Déconnecter tous les appareils",
   "authSessionsSignOutAllWarning": "Cette action invalidera immédiatement toutes les sessions ouvertes, y compris celle de cet appareil. Vous devrez vous reconnecter.",
@@ -2101,36 +2190,102 @@
   "authSessionsUnknownDevice": "Appareil inconnu",
   "authSessionsUnknown": "Inconnu",
   "authSessionsDetails": "IP : {ip}\nDernière activité : {lastActive}\nConnecté le : {signedIn}",
-  "@authSessionsDetails": {"placeholders": {"ip": {"type": "String"}, "lastActive": {"type": "String"}, "signedIn": {"type": "String"}}},
+  "@authSessionsDetails": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      },
+      "lastActive": {
+        "type": "String"
+      },
+      "signedIn": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSignOut": "Déconnecter cet appareil",
   "authSessionsSignOutSucceeded": "Appareil déconnecté",
   "authSessionsSignOutFailed": "Échec de la déconnexion de l’appareil : {error}",
-  "@authSessionsSignOutFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authSessionsSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDefaultDeviceName": "Cet appareil",
   "authPasskeyDeviceName": "Nom de l’appareil",
   "authPasskeyRegisterFailed": "Échec de l’enregistrement de la Passkey : {error}",
-  "@authPasskeyRegisterFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyRegisterFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeysDescription": "{count} Passkey(s) enregistrée(s). Les Passkeys utilisent l’authentification biométrique du système de votre appareil.",
-  "@authPasskeysDescription": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasskeysDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authPasskeysSupportedDeviceHint": "Enregistrez une clé biométrique sur un appareil compatible",
   "authPasskeyCreatedAt": "Créée le {date}",
-  "@authPasskeyCreatedAt": {"placeholders": {"date": {"type": "String"}}},
+  "@authPasskeyCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Échec de la suppression de la Passkey : {error}",
-  "@authPasskeyDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasskeyDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOperationFailed": "Échec de l’opération : {error}",
-  "@authOperationFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsTitle": "Comptes WHU associés",
   "authWhuBindingsManage": "Gérer l’authentification locale",
   "authWhuBindingSucceeded": "Compte associé",
   "authWhuBindingFailed": "Échec de l’association du compte : {error}",
-  "@authWhuBindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuBindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingCurrent": "Associer le compte local actuel ({studentId})",
-  "@authWhuBindingCurrent": {"placeholders": {"studentId": {"type": "String"}}},
+  "@authWhuBindingCurrent": {
+    "placeholders": {
+      "studentId": {
+        "type": "String"
+      }
+    }
+  },
   "authWhuBindingsEmpty": "Aucun compte associé",
   "authWhuBindingKeepOne": "Au moins un compte actif doit être conservé",
   "authWhuUnbindingSucceeded": "Compte dissocié",
   "authWhuUnbindingFailed": "Échec de la dissociation du compte : {error}",
-  "@authWhuUnbindingFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authWhuUnbindingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authSessionsSubtitle": "Consultez et déconnectez les appareils connectés",
   "authApiCredentialsSubtitle": "Gérez les clés API pour les accès externes",
   "authChangePassword": "Modifier le mot de passe",
@@ -2138,28 +2293,64 @@
   "authDeleteAccountWarning": "Voulez-vous vraiment supprimer votre compte ? Cette action est irréversible.",
   "authDeleteAccountConfirm": "Supprimer le compte",
   "authDeleteAccountFailed": "Échec de la suppression du compte : {error}",
-  "@authDeleteAccountFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authDeleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authEditProfile": "Modifier le profil",
   "authDisplayName": "Nom d’affichage",
   "authProfileUpdateFailed": "Échec de la mise à jour du profil : {error}",
-  "@authProfileUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authProfileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authOldPassword": "Mot de passe actuel",
   "authNewPassword": "Nouveau mot de passe",
   "authPasswordChanged": "Mot de passe modifié. Veuillez vous reconnecter.",
   "authPasswordChangeFailed": "Échec de la modification du mot de passe : {error}",
-  "@authPasswordChangeFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordChangeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordChangeConfirm": "Modifier le mot de passe",
   "authRegistrationWhuBindingRequired": "Un compte WHU associé est requis pour l’inscription",
   "authRegistrationBindWhuAccount": "Associer un compte WHU",
   "authPasswordMinLength": "Le mot de passe doit contenir au moins {count} caractères",
-  "@authPasswordMinLength": {"placeholders": {"count": {"type": "int"}}},
+  "@authPasswordMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsLoadFailed": "Échec du chargement de la répartition des notes : {error}",
-  "@courseGradeStatsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseGradeStatsSubmit": "Envoyer une note anonyme",
   "courseGradeStatsNoTeachers": "Aucun enseignant n’est disponible pour ce cours ; les notes ne peuvent pas être envoyées.",
   "courseGradeStatsPrivacyThreshold": "Au moins 5 échantillons sont nécessaires pour protéger la confidentialité.",
   "courseGradeStatsSamples": "{count} échantillon(s) anonyme(s)",
-  "@courseGradeStatsSamples": {"placeholders": {"count": {"type": "int"}}},
+  "@courseGradeStatsSamples": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseGradeStatsTotalAverage": "Moyenne générale",
   "courseGradeStatsUsualAverage": "Moyenne du contrôle continu",
   "courseGradeStatsExamAverage": "Moyenne d’examen",
@@ -2168,71 +2359,179 @@
   "courseGradeStatsTotalScore": "Note totale (0 - 100)",
   "courseGradeStatsSubmitted": "Note anonyme envoyée.",
   "courseGradeStatsSubmitFailed": "Échec de l’envoi de la note : {error}",
-  "@courseGradeStatsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseGradeStatsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsLoginRequired": "Connectez-vous pour consulter les avis anonymes sur les cours.",
   "courseReviewsSyncEligibility": "Synchroniser les cours terminés",
   "courseReviewsWrite": "Rédiger un avis anonyme",
   "courseReviewsAnonymousStudent": "Étudiant anonyme · {semester}",
-  "@courseReviewsAnonymousStudent": {"placeholders": {"semester": {"type": "String"}}},
+  "@courseReviewsAnonymousStudent": {
+    "placeholders": {
+      "semester": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsTitle": "Avis anonyme sur le cours",
   "courseReviewsContent": "Avis",
   "courseReviewsRating": "Évaluation",
   "courseReviewsRatingValue": "{rating} / 5",
-  "@courseReviewsRatingValue": {"placeholders": {"rating": {"type": "String"}}},
+  "@courseReviewsRatingValue": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSubmit": "Soumettre pour examen",
   "courseReviewsSubmitted": "Avis envoyé ; il sera affiché après approbation.",
   "courseReviewsSubmitFailed": "Échec de l’envoi de l’avis : {error}",
-  "@courseReviewsSubmitFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsSyncSucceeded": "{count} cours éligible(s) synchronisé(s).",
-  "@courseReviewsSyncSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@courseReviewsSyncSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseReviewsSyncFailed": "Échec de la synchronisation : {error}",
-  "@courseReviewsSyncFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsSyncFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumCreatePost": "Créer une publication",
   "forumPost": "Publication",
   "forumBoardShelter": "Forum {name}",
-  "@forumBoardShelter": {"placeholders": {"name": {"type": "String"}}},
+  "@forumBoardShelter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumBoardsLoadFailed": "Échec du chargement des forums : {error}",
-  "@forumBoardsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumBoardsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostsLoadFailed": "Échec du chargement des publications : {error}",
-  "@forumPostsLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPostsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumPostTitle": "Titre",
   "forumPostContent": "Contenu",
   "forumPublish": "Publier",
   "forumPublishFailed": "Échec de la publication : {error}",
-  "@forumPublishFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumPublishFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumEmpty": "Aucune publication pour le moment. Soyez le premier à publier.",
   "forumAnonymous": "Anonyme",
   "forumPostMetadata": "{author} · {comments} réponse(s) · {upvotes} vote(s) positif(s)",
-  "@forumPostMetadata": {"placeholders": {"author": {"type": "String"}, "comments": {"type": "int"}, "upvotes": {"type": "int"}}},
+  "@forumPostMetadata": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "comments": {
+        "type": "int"
+      },
+      "upvotes": {
+        "type": "int"
+      }
+    }
+  },
   "forumPostDetails": "Détails de la publication",
   "forumReplies": "Réponses",
   "forumReply": "Répondre",
   "forumRepliesLoadFailed": "Échec du chargement des réponses : {error}",
-  "@forumRepliesLoadFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumRepliesLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyPost": "Répondre à la publication",
   "forumReplyHint": "Soyez courtois et ne partagez pas d’informations personnelles.",
   "forumSend": "Envoyer",
   "forumReplyFailed": "Échec de l’envoi de la réponse : {error}",
-  "@forumReplyFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReplyFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authPasswordResetEmail": "E-mail",
   "authPasswordResetSendFailed": "Échec de l’envoi : {error}",
-  "@authPasswordResetSendFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@authPasswordResetSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsMyReviews": "Mes avis",
   "courseReviewsMyReviewsEmpty": "Vous n’avez pas encore soumis d’avis.",
   "courseReviewsStatusPending": "En attente d’examen",
   "courseReviewsStatusApproved": "Approuvé",
   "courseReviewsStatusRejected": "Rejeté",
   "courseReviewsRejectionReason": "Note d’examen : {reason}",
-  "@courseReviewsRejectionReason": {"placeholders": {"reason": {"type": "String"}}},
+  "@courseReviewsRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsEdit": "Modifier l’avis",
   "courseReviewsDelete": "Supprimer l’avis",
   "courseReviewsDeleteConfirm": "Supprimer cet avis ? Cette action est irréversible.",
   "courseReviewsDeleted": "Avis supprimé.",
   "courseReviewsDeleteFailed": "Échec de la suppression de l’avis : {error}",
-  "@courseReviewsDeleteFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "courseReviewsUpdated": "Avis modifié et de nouveau soumis pour examen.",
   "courseReviewsUpdateFailed": "Échec de la modification de l’avis : {error}",
-  "@courseReviewsUpdateFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@courseReviewsUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumMyPosts": "Mes publications",
   "forumLikedPosts": "Publications aimées",
   "forumFavoritePosts": "Publications enregistrées",
@@ -2246,7 +2545,13 @@
   "forumShelterPrivacyTitle": "Confidentialité de l’abri",
   "forumShelterPrivacyDescription": "Votre pseudonyme reste cohérent uniquement dans ce sujet. Aucun avatar ni profil n’est affiché, et cette publication expire après 24 heures.",
   "forumShelterExpiresIn": "Expire dans {time}",
-  "@forumShelterExpiresIn": {"placeholders": {"time": {"type": "String"}}},
+  "@forumShelterExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "forumLike": "J’aime",
   "forumDislike": "Je n’aime pas",
   "forumSave": "Enregistrer",
@@ -2254,7 +2559,13 @@
   "forumReportReason": "Motif",
   "forumReportSubmitted": "Signalement envoyé.",
   "forumReportFailed": "Échec de l’envoi du signalement : {error}",
-  "@forumReportFailed": {"placeholders": {"error": {"type": "String"}}},
+  "@forumReportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "forumNotificationsTitle": "Notifications du forum",
   "forumNotificationsEmpty": "Vous n’avez aucune notification du forum.",
   "forumNotificationsMarkAllRead": "Tout marquer comme lu",
@@ -2273,14 +2584,286 @@
   "forumPostDeleted": "Publication supprimée.",
   "forumPostRestored": "Publication restaurée.",
   "forumAppealResolved": "Contestation résolue.",
-  "campusCreateFolder": "Créer un dossier", "campusRenameFolder": "Renommer le dossier", "campusEditModeEntry": "Mode édition", "fontSettings": "Police", "fontFamilyLabel": "Police", "fontFamilySubtitle": "Police système ou Google Fonts", "fontFamilySystem": "Police système", "fontFamilyGoogleNotoSans": "Google Noto Sans", "campusLayoutDragHint": "Faites glisser les applications pour les réorganiser ou créer des dossiers", "campusLayoutColumns": "{count} par ligne", "@campusLayoutColumns": {"placeholders":{"count":{"type":"int"}}},
-  "courseImportOverwriteModifiedTitle": "Écraser les cours modifiés ?", "courseImportOverwriteModifiedMessage": "{count} cours de ce semestre ont été modifiés manuellement. Poursuivre l’importation écrasera ces modifications.", "@courseImportOverwriteModifiedMessage": {"placeholders":{"count":{"type":"int"}}}, "courseImportOverwriteModifiedConfirm": "Écraser quand même", "courseImportOverwriteModifiedKeepLocal": "Conserver toutes les modifications locales", "courseImportOverwriteModifiedReviewIndividually": "Examiner individuellement", "courseImportModifiedRecordMessage": "Occurrence de cours modifiée : {time}\nChoisissez comment traiter cet enregistrement.", "@courseImportModifiedRecordMessage": {"placeholders":{"time":{"type":"String"}}}, "courseImportRecordOverwrite": "Écraser", "courseImportRecordKeepLocal": "Conserver les modifications locales", "courseImportRecordSkip": "Ignorer cet enregistrement",
-  "listCompleteSelected": "Terminer les éléments sélectionnés", "listDeleteSelected": "Supprimer les éléments sélectionnés", "detailSkipOccurrence": "Ignorer cette occurrence", "detailStatusInProgress": "En cours", "detailStatusCompleted": "Terminé", "detailStatusEnded": "Terminé, en attente de finalisation", "detailStatusOverdue": "En retard", "detailStatusUpcoming": "À venir", "detailStatusInactive": "Finalisation non suivie", "detailConflictWithItems": "Chevauche {items}. Vous pouvez quand même enregistrer.", "@detailConflictWithItems": {"placeholders":{"items":{"type":"String"}}},
-  "editorCompletionMode": "Finalisation", "editorCompletionModeManual": "Finalisation manuelle", "editorCompletionModeAutomatic": "Terminer à l’heure de fin", "editorCompletionModeNone": "Affichage seulement", "editorConflictWithItems": "Chevauche {items}. Vous pouvez quand même enregistrer.", "@editorConflictWithItems": {"placeholders":{"items":{"type":"String"}}}, "languageSystemSettings": "Paramètres de langue", "commonOk": "OK", "whuAccountEducationalYearsValue": "{years} ans", "@whuAccountEducationalYearsValue": {"placeholders":{"years":{"type":"int"}}},
-  "academicSystem": "Système académique", "academicSystemImport": "Importation du système académique", "addTimetable": "Ajouter un emploi du temps", "addToTimetable": "Ajouter à {name}", "@addToTimetable": {"placeholders":{"name":{"type":"String"}}}, "campusDefaultFolderName": "Dossier", "campusDissolveFolderConfirm": "Dissoudre le dossier", "campusDissolveFolderContent": "Les applications de ce dossier seront replacées dans la grille d’applications.", "campusDissolveFolderTitle": "Dissoudre ce dossier ?", "createEmptyTimetable": "Créer un emploi du temps vide", "createEmptyTimetableDescription": "Créez un emploi du temps sans importer de cours", "editCourses": "Modifier les cours", "emptyTimetable": "Emploi du temps vide", "emptyTimetableExportNotNeeded": "Un emploi du temps vide n’a pas besoin d’être exporté.", "timetableNotFound": "Emploi du temps introuvable", "enterStarlinkShareCode": "Saisir le code de partage Starlink", "exportTimetable": "Exporter l’emploi du temps", "homeTimeBlock": "Bloc {index}", "@homeTimeBlock": {"placeholders":{"index":{"type":"String"}}}, "jsonFile": "Fichier JSON", "listStatusCompleted": "Terminé", "listStatusEndedPendingCompletion": "Terminé, en attente de finalisation", "listStatusInProgress": "En cours", "listStatusPending": "En attente", "localFile": "Fichier local", "localFileImport": "Importation de fichier local", "localFileImportDescription": "Importez une sauvegarde d’emploi du temps Luotopia depuis un fichier JSON", "luotopiaJsonBackup": "Sauvegarde JSON Luotopia", "luotopiaJsonBackupDescription": "Sauvegarde complète d’emploi du temps pour Luotopia", "mixed": "Mixte", "mixedTimetable": "Emploi du temps mixte", "newTimetableName": "Nom du nouvel emploi du temps",
-  "notificationChannelAgendaDefaultDescription": "Rappels d’éléments pouvant être légèrement retardés.", "notificationChannelAgendaDefaultName": "Rappels d’agenda", "notificationChannelAgendaExactDescription": "Rappels ponctuels et imminents pour les éléments et les cours.", "notificationChannelAgendaExactName": "Rappels d’agenda (précis)", "notificationChannelCampusDescription": "Rappels de réservations et liés au campus.", "notificationChannelCampusName": "Services du campus", "notificationChannelMarketingDescription": "Actualités des activités et promotions du campus.", "notificationChannelMarketingName": "Activités et promotions", "notificationCourseInProgress": "Cours en cours", "notificationReminderTitle": "Rappel", "notificationScheduleEndedBody": "Cet emploi du temps est terminé. Pensez à le marquer comme terminé ou à prévoir un suivi.", "notificationScheduleIncomplete": "Emploi du temps non terminé", "notificationStartsInFifteenMinutes": "Commence dans 15 minutes · {time}", "@notificationStartsInFifteenMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInFiveMinutes": "Commence dans 5 minutes · {time}", "@notificationStartsInFiveMinutes": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsInOneHour": "Commence dans 1 heure · {time}", "@notificationStartsInOneHour": {"placeholders":{"time":{"type":"String"}}}, "notificationStartsSoon": "Commence bientôt · {time}", "@notificationStartsSoon": {"placeholders":{"time":{"type":"String"}}}, "notificationTomorrow": "Demain · {time}", "@notificationTomorrow": {"placeholders":{"time":{"type":"String"}}},
-  "notProvided": "Non renseigné", "notUpdated": "Non mis à jour", "renameTimetable": "Renommer l’emploi du temps", "selectCourseSourceToUpdate": "Sélectionnez une source de cours à mettre à jour", "selectFileFormatToSave": "Sélectionnez un format de fichier à enregistrer", "selectImportMethod": "Sélectionnez une méthode d’importation", "separate": "Séparer", "separatedTimetableName": "{name} (séparé)", "@separatedTimetableName": {"placeholders":{"name":{"type":"String"}}}, "separateTimetable": "Séparer l’emploi du temps", "shareCode": "Code de partage", "shiguang": "Shiguang", "shiguangFileImportDescription": "Importez un fichier JSON d’emploi du temps Shiguang", "shiguangImportFailed": "Échec de l’importation de l’emploi du temps Shiguang : {error}", "@shiguangImportFailed": {"placeholders":{"error":{"type":"String"}}}, "shiguangTimetable": "Emploi du temps Shiguang", "shiguangTimetableExportDescription": "Exportez un emploi du temps compatible avec Shiguang", "shiguangTimetableImport": "Importation d’emploi du temps Shiguang", "shiguangTimetableJson": "JSON d’emploi du temps Shiguang", "sourceLocalFile": "Source : fichier local", "sourceShiguang": "Source : Shiguang", "sourceStarlink": "Source : Starlink", "starlink": "Starlink", "starlinkFileMustBeJsonObject": "Le fichier Starlink doit contenir un objet JSON.", "starlinkImportDescription": "Importez un emploi du temps Starlink depuis un fichier JSON ou un code de partage", "starlinkImportFailed": "Échec de l’importation de l’emploi du temps Starlink : {error}", "@starlinkImportFailed": {"placeholders":{"error":{"type":"String"}}}, "starlinkTimetable": "Emploi du temps Starlink", "starlinkTimetableExportDescription": "Exportez un emploi du temps compatible avec Starlink", "starlinkTimetableImport": "Importation d’emploi du temps Starlink", "starlinkTimetableJson": "JSON d’emploi du temps Starlink", "starlinkTimetableShareCode": "Code de partage d’emploi du temps Starlink",
-  "timetableDetails": "Semestre : {term}\nImporté : {importedAt}\nMis à jour : {updatedAt}\nSource : {source}", "@timetableDetails": {"placeholders":{"term":{"type":"String"},"importedAt":{"type":"String"},"updatedAt":{"type":"String"},"source":{"type":"String"}}}, "timetableExported": "Emploi du temps exporté.", "timetableImportFailed": "Échec de l’importation de l’emploi du temps : {error}", "@timetableImportFailed": {"placeholders":{"error":{"type":"String"}}}, "timetableIndependentUpdateUnsupported": "Cette source d’emploi du temps ne peut pas être mise à jour indépendamment.", "updateTimetable": "Mettre à jour l’emploi du temps", "wakeupCsv": "CSV Wakeup", "wakeupCsvDescription": "Exportez les cours au format CSV compatible avec Wakeup", "wakeupFileAlreadyAdded": "Cet emploi du temps Wakeup a déjà été ajouté.", "wakeupFileImportDescription": "Importez un fichier CSV ou d’emploi du temps Wakeup", "wakeupImportFailed": "Échec de l’importation de l’emploi du temps Wakeup : {error}", "@wakeupImportFailed": {"placeholders":{"error":{"type":"String"}}}, "wakeupShareFile": "Fichier d’emploi du temps Wakeup", "wakeupShareFileDescription": "Exportez un fichier d’emploi du temps Wakeup", "webViewErrorTitle": "Impossible d’ouvrir la page", "webViewLoadFailed": "Échec du chargement de la page. Vérifiez votre connexion réseau et réessayez.", "webViewLoadingPage": "Chargement de la page...", "webViewPreparationFailed": "Échec de la préparation de la page : {error}", "@webViewPreparationFailed": {"placeholders":{"error":{"type":"String"}}}, "webViewPreparingPage": "Préparation de la page...", "webViewRetry": "Réessayer",
+  "campusCreateFolder": "Créer un dossier",
+  "campusRenameFolder": "Renommer le dossier",
+  "campusEditModeEntry": "Mode édition",
+  "fontSettings": "Police",
+  "fontFamilyLabel": "Police",
+  "fontFamilySubtitle": "Police système ou Google Fonts",
+  "fontFamilySystem": "Police système",
+  "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "campusLayoutDragHint": "Faites glisser les applications pour les réorganiser ou créer des dossiers",
+  "campusLayoutColumns": "{count} par ligne",
+  "@campusLayoutColumns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedTitle": "Écraser les cours modifiés ?",
+  "courseImportOverwriteModifiedMessage": "{count} cours de ce semestre ont été modifiés manuellement. Poursuivre l’importation écrasera ces modifications.",
+  "@courseImportOverwriteModifiedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportOverwriteModifiedConfirm": "Écraser quand même",
+  "courseImportOverwriteModifiedKeepLocal": "Conserver toutes les modifications locales",
+  "courseImportOverwriteModifiedReviewIndividually": "Examiner individuellement",
+  "courseImportModifiedRecordMessage": "Occurrence de cours modifiée : {time}\nChoisissez comment traiter cet enregistrement.",
+  "@courseImportModifiedRecordMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "courseImportRecordOverwrite": "Écraser",
+  "courseImportRecordKeepLocal": "Conserver les modifications locales",
+  "courseImportRecordSkip": "Ignorer cet enregistrement",
+  "listCompleteSelected": "Terminer les éléments sélectionnés",
+  "listDeleteSelected": "Supprimer les éléments sélectionnés",
+  "detailSkipOccurrence": "Ignorer cette occurrence",
+  "detailStatusInProgress": "En cours",
+  "detailStatusCompleted": "Terminé",
+  "detailStatusEnded": "Terminé, en attente de finalisation",
+  "detailStatusOverdue": "En retard",
+  "detailStatusUpcoming": "À venir",
+  "detailStatusInactive": "Finalisation non suivie",
+  "detailConflictWithItems": "Chevauche {items}. Vous pouvez quand même enregistrer.",
+  "@detailConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "editorCompletionMode": "Finalisation",
+  "editorCompletionModeManual": "Finalisation manuelle",
+  "editorCompletionModeAutomatic": "Terminer à l’heure de fin",
+  "editorCompletionModeNone": "Affichage seulement",
+  "editorConflictWithItems": "Chevauche {items}. Vous pouvez quand même enregistrer.",
+  "@editorConflictWithItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSystemSettings": "Paramètres de langue",
+  "commonOk": "OK",
+  "whuAccountEducationalYearsValue": "{years} ans",
+  "@whuAccountEducationalYearsValue": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
+  "academicSystem": "Système académique",
+  "academicSystemImport": "Importation du système académique",
+  "addTimetable": "Ajouter un emploi du temps",
+  "addToTimetable": "Ajouter à {name}",
+  "@addToTimetable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "campusDefaultFolderName": "Dossier",
+  "campusDissolveFolderConfirm": "Dissoudre le dossier",
+  "campusDissolveFolderContent": "Les applications de ce dossier seront replacées dans la grille d’applications.",
+  "campusDissolveFolderTitle": "Dissoudre ce dossier ?",
+  "createEmptyTimetable": "Créer un emploi du temps vide",
+  "createEmptyTimetableDescription": "Créez un emploi du temps sans importer de cours",
+  "editCourses": "Modifier les cours",
+  "emptyTimetable": "Emploi du temps vide",
+  "emptyTimetableExportNotNeeded": "Un emploi du temps vide n’a pas besoin d’être exporté.",
+  "timetableNotFound": "Emploi du temps introuvable",
+  "enterStarlinkShareCode": "Saisir le code de partage Starlink",
+  "exportTimetable": "Exporter l’emploi du temps",
+  "homeTimeBlock": "Bloc {index}",
+  "@homeTimeBlock": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "jsonFile": "Fichier JSON",
+  "listStatusCompleted": "Terminé",
+  "listStatusEndedPendingCompletion": "Terminé, en attente de finalisation",
+  "listStatusInProgress": "En cours",
+  "listStatusPending": "En attente",
+  "localFile": "Fichier local",
+  "localFileImport": "Importation de fichier local",
+  "localFileImportDescription": "Importez une sauvegarde d’emploi du temps Luotopia depuis un fichier JSON",
+  "luotopiaJsonBackup": "Sauvegarde JSON Luotopia",
+  "luotopiaJsonBackupDescription": "Sauvegarde complète d’emploi du temps pour Luotopia",
+  "mixed": "Mixte",
+  "mixedTimetable": "Emploi du temps mixte",
+  "newTimetableName": "Nom du nouvel emploi du temps",
+  "notificationChannelAgendaDefaultDescription": "Rappels d’éléments pouvant être légèrement retardés.",
+  "notificationChannelAgendaDefaultName": "Rappels d’agenda",
+  "notificationChannelAgendaExactDescription": "Rappels ponctuels et imminents pour les éléments et les cours.",
+  "notificationChannelAgendaExactName": "Rappels d’agenda (précis)",
+  "notificationChannelCampusDescription": "Rappels de réservations et liés au campus.",
+  "notificationChannelCampusName": "Services du campus",
+  "notificationChannelMarketingDescription": "Actualités des activités et promotions du campus.",
+  "notificationChannelMarketingName": "Activités et promotions",
+  "notificationCourseInProgress": "Cours en cours",
+  "notificationReminderTitle": "Rappel",
+  "notificationScheduleEndedBody": "Cet emploi du temps est terminé. Pensez à le marquer comme terminé ou à prévoir un suivi.",
+  "notificationScheduleIncomplete": "Emploi du temps non terminé",
+  "notificationStartsInFifteenMinutes": "Commence dans 15 minutes · {time}",
+  "@notificationStartsInFifteenMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInFiveMinutes": "Commence dans 5 minutes · {time}",
+  "@notificationStartsInFiveMinutes": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsInOneHour": "Commence dans 1 heure · {time}",
+  "@notificationStartsInOneHour": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationStartsSoon": "Commence bientôt · {time}",
+  "@notificationStartsSoon": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTomorrow": "Demain · {time}",
+  "@notificationTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notProvided": "Non renseigné",
+  "notUpdated": "Non mis à jour",
+  "renameTimetable": "Renommer l’emploi du temps",
+  "selectCourseSourceToUpdate": "Sélectionnez une source de cours à mettre à jour",
+  "selectFileFormatToSave": "Sélectionnez un format de fichier à enregistrer",
+  "selectImportMethod": "Sélectionnez une méthode d’importation",
+  "separate": "Séparer",
+  "separatedTimetableName": "{name} (séparé)",
+  "@separatedTimetableName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "separateTimetable": "Séparer l’emploi du temps",
+  "shareCode": "Code de partage",
+  "shiguang": "Shiguang",
+  "shiguangFileImportDescription": "Importez un fichier JSON d’emploi du temps Shiguang",
+  "shiguangImportFailed": "Échec de l’importation de l’emploi du temps Shiguang : {error}",
+  "@shiguangImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shiguangTimetable": "Emploi du temps Shiguang",
+  "shiguangTimetableExportDescription": "Exportez un emploi du temps compatible avec Shiguang",
+  "shiguangTimetableImport": "Importation d’emploi du temps Shiguang",
+  "shiguangTimetableJson": "JSON d’emploi du temps Shiguang",
+  "sourceLocalFile": "Source : fichier local",
+  "sourceShiguang": "Source : Shiguang",
+  "sourceStarlink": "Source : Starlink",
+  "starlink": "Starlink",
+  "starlinkFileMustBeJsonObject": "Le fichier Starlink doit contenir un objet JSON.",
+  "starlinkImportDescription": "Importez un emploi du temps Starlink depuis un fichier JSON ou un code de partage",
+  "starlinkImportFailed": "Échec de l’importation de l’emploi du temps Starlink : {error}",
+  "@starlinkImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "starlinkTimetable": "Emploi du temps Starlink",
+  "starlinkTimetableExportDescription": "Exportez un emploi du temps compatible avec Starlink",
+  "starlinkTimetableImport": "Importation d’emploi du temps Starlink",
+  "starlinkTimetableJson": "JSON d’emploi du temps Starlink",
+  "starlinkTimetableShareCode": "Code de partage d’emploi du temps Starlink",
+  "timetableDetails": "Semestre : {term}\nImporté : {importedAt}\nMis à jour : {updatedAt}\nSource : {source}",
+  "@timetableDetails": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "importedAt": {
+        "type": "String"
+      },
+      "updatedAt": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableExported": "Emploi du temps exporté.",
+  "timetableImportFailed": "Échec de l’importation de l’emploi du temps : {error}",
+  "@timetableImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableIndependentUpdateUnsupported": "Cette source d’emploi du temps ne peut pas être mise à jour indépendamment.",
+  "updateTimetable": "Mettre à jour l’emploi du temps",
+  "wakeupCsv": "CSV Wakeup",
+  "wakeupCsvDescription": "Exportez les cours au format CSV compatible avec Wakeup",
+  "wakeupFileAlreadyAdded": "Cet emploi du temps Wakeup a déjà été ajouté.",
+  "wakeupFileImportDescription": "Importez un fichier CSV ou d’emploi du temps Wakeup",
+  "wakeupImportFailed": "Échec de l’importation de l’emploi du temps Wakeup : {error}",
+  "@wakeupImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wakeupShareFile": "Fichier d’emploi du temps Wakeup",
+  "wakeupShareFileDescription": "Exportez un fichier d’emploi du temps Wakeup",
+  "webViewErrorTitle": "Impossible d’ouvrir la page",
+  "webViewLoadFailed": "Échec du chargement de la page. Vérifiez votre connexion réseau et réessayez.",
+  "webViewLoadingPage": "Chargement de la page...",
+  "webViewPreparationFailed": "Échec de la préparation de la page : {error}",
+  "@webViewPreparationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "webViewPreparingPage": "Préparation de la page...",
+  "webViewRetry": "Réessayer",
   "appUpdateAvailableTitle": "Mise à jour disponible",
   "appUpdateSkipVersion": "Ignorer cette version",
   "appUpdateLater": "Plus tard",
@@ -2335,5 +2918,87 @@
   "aiProviderAliyun": "Alibaba Tongyi Qianwen",
   "aiProviderTencent": "Tencent Hunyuan",
   "aiProviderYi": "01.AI (Yi)",
-  "aiProviderBaichuan": "Baichuan AI"
+  "aiProviderBaichuan": "Baichuan AI",
+  "detailDeleteConfirmTitle": "Supprimer cet élément ?",
+  "detailDeleteConfirmMessage": "Cet élément sera définitivement supprimé.",
+  "listDeleteSelectedConfirmTitle": "Supprimer les éléments sélectionnés ?",
+  "listDeleteSelectedConfirmMessage": "{count} éléments seront définitivement supprimés.",
+  "courseTimetableDefaultGroupName": "Par défaut",
+  "courseTimetableGroupNew": "Nouveau groupe",
+  "courseTimetableGroupRename": "Renommer le groupe",
+  "courseTimetableGroupDelete": "Supprimer le groupe",
+  "courseTimetableGroupSetDefault": "Définir comme groupe d'import par défaut",
+  "courseTimetableGroupDefaultBadge": "Par défaut",
+  "courseTimetableGroupNameHint": "Nom du groupe",
+  "courseTimetableGroupDeleteConfirm": "Supprimer ce groupe ? Les emplois du temps seront déplacés vers le groupe par défaut.",
+  "courseTimetableGroupCannotDeleteLast": "Conservez au moins un groupe.",
+  "courseTimetablePickGroup": "Ajouter au groupe",
+  "courseTimetableMoveToGroup": "Déplacer vers le groupe",
+  "courseTimetableShowOnHome": "Afficher sur l'accueil",
+  "courseTimetableImportToGroup": "Importer dans ce groupe",
+  "courseTimetableCreateInGroup": "Créer un emploi du temps vide ici",
+  "courseTimetableSetHomePrimary": "Afficher comme principal sur l'accueil",
+  "courseTimetableToggleHomeFaded": "Atténuer sur l'accueil",
+  "courseTimetableHomeFadedOn": "Atténué sur l'accueil",
+  "courseTimetableHomeFadedOff": "Non atténué",
+  "courseTimetableGroupMoveUp": "Monter le groupe",
+  "courseTimetableGroupMoveDown": "Descendre le groupe",
+  "courseTimetableGroupExpand": "Développer le groupe",
+  "courseTimetableGroupCollapse": "Réduire le groupe",
+  "settingsHomeTimetableGroups": "Groupes d'emploi du temps sur l'accueil",
+  "settingsHomePrimaryGroup": "Groupe principal (opacité totale)",
+  "settingsHomeFadedGroups": "Afficher aussi (atténués)",
+  "settingsHomeTimetableGroupsHint": "Le principal apparaît opaque ; les groupes atténués se superposent avec une opacité plus faible. Décochez des emplois du temps sur la page correspondante pour les masquer.",
+  "homePickOverlappingItem": "Choisir un élément",
+  "homePickOverlappingSecondary": "Groupe secondaire",
+  "notificationStartsInMinutes": "Commence dans {minutes} minutes · {time}",
+  "settingsDefaultCourseReminder": "Rappel de cours du groupe par défaut",
+  "settingsDefaultCourseReminderSubtitle": "Délai pour le groupe d'emploi du temps par défaut (0 = désactivé). Les autres groupes sont désactivés par défaut et configurables ci-dessous. Pas de 5, max 100.",
+  "settingsDefaultCourseReminderValue": "{minutes} min avant",
+  "settingsDefaultCourseReminderOff": "Désactivé",
+  "settingsGroupCourseRemindersTitle": "Rappels par groupe d'emploi du temps",
+  "settingsGroupCourseRemindersHint": "Le groupe par défaut utilise le curseur ci-dessus sauf personnalisation. Les groupes amis/autres démarrent à 0 (désactivé).",
+  "settingsGroupCourseReminderDefaultMark": "Groupe par défaut",
+  "settingsCourseReminderOverridesTitle": "Rappels par cours",
+  "settingsCourseReminderOverridesHint": "Le même nom de cours (ou id source) partage un délai et remplace les valeurs du groupe.",
+  "settingsCourseReminderUseDefault": "Utiliser la valeur du groupe ({minutes} min)",
+  "settingsCourseReminderCustom": "Personnalisé : {minutes} min",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  }
 }

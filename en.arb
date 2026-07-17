@@ -110,6 +110,17 @@
   "deleteTimetable": "Delete timetable",
   "detailDeadlineLabel": "Deadline",
   "detailDelete": "Delete item",
+  "detailDeleteConfirmTitle": "Delete this item?",
+  "detailDeleteConfirmMessage": "This item will be removed permanently.",
+  "listDeleteSelectedConfirmTitle": "Delete selected items?",
+  "listDeleteSelectedConfirmMessage": "{count} items will be removed permanently.",
+  "@listDeleteSelectedConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "detailMarkComplete": "Mark complete",
   "detailMarkIncomplete": "Mark incomplete",
   "detailSkipOccurrence": "Skip this occurrence",
@@ -587,6 +598,9 @@
     }
   },
   "whuAccountRoleName": "Role",
+  "whuAccountDormBuilding": "Dorm building",
+  "whuAccountDormRoom": "Room",
+  "whuAccountDormBed": "Bed",
   "whuAccountSectionPersonal": "Personal",
   "whuAccountSectionAcademic": "Academic",
   "whuAccountSectionSession": "Session",
@@ -1233,6 +1247,34 @@
       }
     }
   },
+  "courseTimetableDefaultGroupName": "Default",
+  "courseTimetableGroupNew": "New group",
+  "courseTimetableGroupRename": "Rename group",
+  "courseTimetableGroupDelete": "Delete group",
+  "courseTimetableGroupSetDefault": "Set as default import group",
+  "courseTimetableGroupDefaultBadge": "Default",
+  "courseTimetableGroupNameHint": "Group name",
+  "courseTimetableGroupDeleteConfirm": "Delete this group? Timetables will move to the default group.",
+  "courseTimetableGroupCannotDeleteLast": "Keep at least one group.",
+  "courseTimetablePickGroup": "Add to group",
+  "courseTimetableMoveToGroup": "Move to group",
+  "courseTimetableShowOnHome": "Show on home",
+  "courseTimetableImportToGroup": "Import into this group",
+  "courseTimetableCreateInGroup": "Create empty timetable here",
+  "courseTimetableSetHomePrimary": "Show as primary on home",
+  "courseTimetableToggleHomeFaded": "Fade on home",
+  "courseTimetableHomeFadedOn": "Faded on home",
+  "courseTimetableHomeFadedOff": "Not shown faded",
+  "courseTimetableGroupMoveUp": "Move group up",
+  "courseTimetableGroupMoveDown": "Move group down",
+  "courseTimetableGroupExpand": "Expand group",
+  "courseTimetableGroupCollapse": "Collapse group",
+  "settingsHomeTimetableGroups": "Home timetable groups",
+  "settingsHomePrimaryGroup": "Primary group (full opacity)",
+  "settingsHomeFadedGroups": "Also show (faded)",
+  "settingsHomeTimetableGroupsHint": "Primary appears solid; faded groups overlay at lower opacity. Uncheck individual timetables on the timetable page to hide them.",
+  "homePickOverlappingItem": "Choose item",
+  "homePickOverlappingSecondary": "Secondary group",
   "wakeupImportPlaceholder": "Wakeup share link/code parser pending — current version provides an import flow placeholder only.",
   "sportsReservationToday": "Today",
   "sportsReservationTomorrow": "Tomorrow",
@@ -2760,6 +2802,49 @@
     "placeholders": {
       "time": {
         "type": "String"
+      }
+    }
+  },
+  "notificationStartsInMinutes": "Starts in {minutes} minutes · {time}",
+  "@notificationStartsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDefaultCourseReminder": "Default group course reminder",
+  "settingsDefaultCourseReminderSubtitle": "Lead time for the default timetable group (0 = off). Other groups default to off and can be set per group below. Step 5, max 100.",
+  "settingsDefaultCourseReminderValue": "{minutes} min before",
+  "@settingsDefaultCourseReminderValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDefaultCourseReminderOff": "Off",
+  "settingsGroupCourseRemindersTitle": "Reminders by timetable group",
+  "settingsGroupCourseRemindersHint": "Default group uses the slider above unless customized. Friend/other groups start at 0 (off).",
+  "settingsGroupCourseReminderDefaultMark": "Default group",
+  "settingsCourseReminderOverridesTitle": "Per-course reminders",
+  "settingsCourseReminderOverridesHint": "Same course name (or source id) shares one lead time and overrides group defaults.",
+  "settingsCourseReminderUseDefault": "Use group default ({minutes} min)",
+  "@settingsCourseReminderUseDefault": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsCourseReminderCustom": "Custom: {minutes} min",
+  "@settingsCourseReminderCustom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
