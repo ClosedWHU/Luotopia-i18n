@@ -95,14 +95,16 @@
   "editorFieldEndTime": "hora de término",
   "editorFieldEstimatedDuration": "Duração estimada",
   "editorFieldStartTime": "hora de início",
+  "editorTimeInputModeTime": "Horário",
+  "editorTimeInputModePeriod": "Períodos",
   "editorFieldTargetDate": "data prevista",
-  "editorFieldCourseWeekOneDate": "First teaching day (week start)",
-  "editorFieldCoursePeriod": "Periods",
-  "editorFieldCourseWeeks": "Weeks",
-  "editorCourseWeeksUnset": "Not set",
-  "editorCoursePeriodStart": "Start period",
-  "editorCoursePeriodEnd": "End period",
-  "editorCoursePeriodN": "Period {n}",
+  "editorFieldCourseWeekOneDate": "Primeiro dia letivo (início da semana 1)",
+  "editorFieldCoursePeriod": "Períodos",
+  "editorFieldCourseWeeks": "Semanas",
+  "editorCourseWeeksUnset": "Não definido",
+  "editorCoursePeriodStart": "Período inicial",
+  "editorCoursePeriodEnd": "Período final",
+  "editorCoursePeriodN": "Período {n}",
   "@editorCoursePeriodN": {
     "placeholders": {
       "n": {
@@ -110,7 +112,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Period {n} · {time}",
+  "editorCoursePeriodSingle": "Período {n} · {time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -121,7 +123,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
+  "editorCoursePeriodRange": "Períodos {from}-{to} · {time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -135,9 +137,9 @@
       }
     }
   },
-  "editorCourseWeekStart": "Start week",
-  "editorCourseWeekEnd": "End week",
-  "editorCourseWeekN": "Week {n}",
+  "editorCourseWeekStart": "Semana inicial",
+  "editorCourseWeekEnd": "Semana final",
+  "editorCourseWeekN": "Semana {n}",
   "@editorCourseWeekN": {
     "placeholders": {
       "n": {
@@ -145,10 +147,10 @@
       }
     }
   },
-  "editorCourseWeekParity": "Week parity",
-  "editorCourseWeekParityAll": "Every week",
-  "editorCourseWeekParityOdd": "Odd weeks",
-  "editorCourseWeekParityEven": "Even weeks",
+  "editorCourseWeekParity": "Paridade das semanas",
+  "editorCourseWeekParityAll": "Todas as semanas",
+  "editorCourseWeekParityOdd": "Semanas ímpares",
+  "editorCourseWeekParityEven": "Semanas pares",
   "editorHintCourseTitle": "Nome do curso",
   "editorHintDetails": "Observações",
   "editorHintLocation": "localização",
@@ -318,7 +320,7 @@
   "scorePageTitle": "Notas",
   "seatReservationTitle": "Assentos",
   "seedColor": "Cor da Semente",
-  "selectedOnlyDefault": "Apenas selecionados (Padrão)",
+  "selectedOnlyDefault": "Apenas selecionados",
   "selectSemester": "Selecionar Semestre",
   "semester": "Semestre",
   "semS": "Sem {s}",
@@ -361,6 +363,8 @@
   "settingsAiTestingButton": "Testando...",
   "settingsAppearance": "Aparência",
   "settingsAppearanceTitle": "Configurações de aparência",
+  "settingsFeaturesEntryTitle": "Recursos",
+  "settingsFeaturesEntrySubtitle": "Widgets, início, IA e clima",
   "settingsGeneral": "Geral",
   "settingsGeneralEntrySubtitle": "Idioma e navegação",
   "settingsGeneralEntryTitle": "Geral",
@@ -848,6 +852,10 @@
     }
   },
   "settingsNotificationsTitle": "Notificações",
+  "settingsNotificationsEntrySubtitle": "Push, crachá e canais Android",
+  "settingsCourseRemindersEntryTitle": "Lembretes de aula",
+  "settingsCourseRemindersEntrySubtitle": "Padrão, por grupo e por disciplina",
+  "settingsCourseRemindersEmpty": "Sem disciplinas",
   "settingsPushNotifications": "Notificações push",
   "settingsPushNotificationsSubtitle": "Avisos de agenda, avaliações e sistema",
   "settingsMarketingNotifications": "Marketing e eventos",
@@ -1940,7 +1948,7 @@
     }
   },
   "studyStatusRetake": "Repetir",
-  "studyStatusScorePoints": "{score} pts",
+  "studyStatusScorePoints": "{score} pontos",
   "@studyStatusScorePoints": {
     "placeholders": {
       "score": {
@@ -1956,7 +1964,7 @@
       }
     }
   },
-  "studyStatusGradePoint": "GPA {point}",
+  "studyStatusGradePoint": "Média {point}",
   "@studyStatusGradePoint": {
     "placeholders": {
       "point": {
@@ -2148,7 +2156,7 @@
   "authTwoFactorEnabled": "Ativada: código de e-mail ou Passkey será exigido",
   "authTwoFactorDisabled": "Desativada: apenas a senha será exigida",
   "authCurrentPassword": "Senha atual",
-  "authPasskeys": "Passkeys",
+  "authPasskeys": "Chaves de acesso",
   "authRegisterPasskey": "Registrar Passkey neste dispositivo",
   "authPasskeyRegistered": "Passkey registrada",
   "authNoPasskeys": "Nenhuma Passkey",

@@ -95,14 +95,16 @@
   "editorFieldEndTime": "結束時間",
   "editorFieldEstimatedDuration": "預計時長",
   "editorFieldStartTime": "開始時間",
+  "editorTimeInputModeTime": "時間",
+  "editorTimeInputModePeriod": "節次",
   "editorFieldTargetDate": "目標日期",
-  "editorFieldCourseWeekOneDate": "First teaching day (week start)",
-  "editorFieldCoursePeriod": "Periods",
-  "editorFieldCourseWeeks": "Weeks",
-  "editorCourseWeeksUnset": "Not set",
-  "editorCoursePeriodStart": "Start period",
-  "editorCoursePeriodEnd": "End period",
-  "editorCoursePeriodN": "Period {n}",
+  "editorFieldCourseWeekOneDate": "第一個上堂日（第 1 周起始）",
+  "editorFieldCoursePeriod": "節次",
+  "editorFieldCourseWeeks": "周次",
+  "editorCourseWeeksUnset": "未設定",
+  "editorCoursePeriodStart": "開始節次",
+  "editorCoursePeriodEnd": "結束節次",
+  "editorCoursePeriodN": "第 {n} 節",
   "@editorCoursePeriodN": {
     "placeholders": {
       "n": {
@@ -110,7 +112,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Period {n} · {time}",
+  "editorCoursePeriodSingle": "第 {n} 節 · {time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -121,7 +123,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
+  "editorCoursePeriodRange": "第 {from}–{to} 節 · {time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -135,9 +137,9 @@
       }
     }
   },
-  "editorCourseWeekStart": "Start week",
-  "editorCourseWeekEnd": "End week",
-  "editorCourseWeekN": "Week {n}",
+  "editorCourseWeekStart": "開始周",
+  "editorCourseWeekEnd": "結束周",
+  "editorCourseWeekN": "第 {n} 周",
   "@editorCourseWeekN": {
     "placeholders": {
       "n": {
@@ -145,10 +147,10 @@
       }
     }
   },
-  "editorCourseWeekParity": "Week parity",
-  "editorCourseWeekParityAll": "Every week",
-  "editorCourseWeekParityOdd": "Odd weeks",
-  "editorCourseWeekParityEven": "Even weeks",
+  "editorCourseWeekParity": "單雙周",
+  "editorCourseWeekParityAll": "每周",
+  "editorCourseWeekParityOdd": "單周",
+  "editorCourseWeekParityEven": "雙周",
   "editorHintCourseTitle": "科目名稱",
   "editorHintDetails": "備註",
   "editorHintLocation": "地點",
@@ -332,7 +334,7 @@
   "scorePageTitle": "成績查詢",
   "seatReservationTitle": "温習預約",
   "seedColor": "種子顏色",
-  "selectedOnlyDefault": "僅選中項顯示 (預設)",
+  "selectedOnlyDefault": "僅選中項顯示",
   "selectSemester": "揀學期",
   "semester": "匯入學期",
   "semS": "第{s}學期",
@@ -375,6 +377,8 @@
   "settingsAiTestingButton": "測試中...",
   "settingsAppearance": "外觀",
   "settingsAppearanceTitle": "外觀設定",
+  "settingsFeaturesEntryTitle": "功能設定",
+  "settingsFeaturesEntrySubtitle": "小組件、主頁、AI 同天氣",
   "settingsGeneral": "一般",
   "settingsGeneralEntrySubtitle": "語言、導航欄同快取",
   "settingsGeneralEntryTitle": "通用設定",
@@ -862,6 +866,10 @@
     }
   },
   "settingsNotificationsTitle": "通知管理",
+  "settingsNotificationsEntrySubtitle": "推送、角標同 Android 通知渠道",
+  "settingsCourseRemindersEntryTitle": "課程提醒",
+  "settingsCourseRemindersEntrySubtitle": "預設、分組同單課提前量",
+  "settingsCourseRemindersEmpty": "暫未有課程",
   "settingsPushNotifications": "推送通知",
   "settingsPushNotificationsSubtitle": "接收關於日程、評價同系統訊息嘅通知",
   "settingsMarketingNotifications": "營銷同活動",

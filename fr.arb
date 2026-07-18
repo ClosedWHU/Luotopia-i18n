@@ -95,14 +95,16 @@
   "editorFieldEndTime": "heure de fin",
   "editorFieldEstimatedDuration": "Durée estimée",
   "editorFieldStartTime": "heure de début",
+  "editorTimeInputModeTime": "Heure",
+  "editorTimeInputModePeriod": "Créneaux",
   "editorFieldTargetDate": "date cible",
-  "editorFieldCourseWeekOneDate": "First teaching day (week start)",
-  "editorFieldCoursePeriod": "Periods",
-  "editorFieldCourseWeeks": "Weeks",
-  "editorCourseWeeksUnset": "Not set",
-  "editorCoursePeriodStart": "Start period",
-  "editorCoursePeriodEnd": "End period",
-  "editorCoursePeriodN": "Period {n}",
+  "editorFieldCourseWeekOneDate": "Premier jour de cours (début de la semaine 1)",
+  "editorFieldCoursePeriod": "Créneaux",
+  "editorFieldCourseWeeks": "Semaines",
+  "editorCourseWeeksUnset": "Non défini",
+  "editorCoursePeriodStart": "Créneau de début",
+  "editorCoursePeriodEnd": "Créneau de fin",
+  "editorCoursePeriodN": "Créneau {n}",
   "@editorCoursePeriodN": {
     "placeholders": {
       "n": {
@@ -110,7 +112,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Period {n} · {time}",
+  "editorCoursePeriodSingle": "Créneau {n} · {time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -121,7 +123,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
+  "editorCoursePeriodRange": "Créneaux {from}-{to} · {time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -135,9 +137,9 @@
       }
     }
   },
-  "editorCourseWeekStart": "Start week",
-  "editorCourseWeekEnd": "End week",
-  "editorCourseWeekN": "Week {n}",
+  "editorCourseWeekStart": "Semaine de début",
+  "editorCourseWeekEnd": "Semaine de fin",
+  "editorCourseWeekN": "Semaine {n}",
   "@editorCourseWeekN": {
     "placeholders": {
       "n": {
@@ -145,10 +147,10 @@
       }
     }
   },
-  "editorCourseWeekParity": "Week parity",
-  "editorCourseWeekParityAll": "Every week",
-  "editorCourseWeekParityOdd": "Odd weeks",
-  "editorCourseWeekParityEven": "Even weeks",
+  "editorCourseWeekParity": "Parité des semaines",
+  "editorCourseWeekParityAll": "Toutes les semaines",
+  "editorCourseWeekParityOdd": "Semaines impaires",
+  "editorCourseWeekParityEven": "Semaines paires",
   "editorHintCourseTitle": "Nom du cours",
   "editorHintDetails": "Remarques",
   "editorHintLocation": "emplacement",
@@ -361,6 +363,8 @@
   "settingsAiTestingButton": "Test...",
   "settingsAppearance": "Apparence",
   "settingsAppearanceTitle": "Paramètres d’apparence",
+  "settingsFeaturesEntryTitle": "Fonctionnalités",
+  "settingsFeaturesEntrySubtitle": "Widgets, accueil, IA et météo",
   "settingsGeneral": "Général",
   "settingsGeneralEntrySubtitle": "Langue et navigation",
   "settingsGeneralEntryTitle": "Général",
@@ -848,6 +852,10 @@
     }
   },
   "settingsNotificationsTitle": "Notifications",
+  "settingsNotificationsEntrySubtitle": "Push, badge et canaux Android",
+  "settingsCourseRemindersEntryTitle": "Rappels de cours",
+  "settingsCourseRemindersEntrySubtitle": "Par défaut, par groupe et par cours",
+  "settingsCourseRemindersEmpty": "Aucun cours",
   "settingsPushNotifications": "Notifications push",
   "settingsPushNotificationsSubtitle": "Notifications d’agenda, d’avis et système",
   "settingsMarketingNotifications": "Marketing et événements",
@@ -1940,7 +1948,7 @@
     }
   },
   "studyStatusRetake": "À reprendre",
-  "studyStatusScorePoints": "{score} pts",
+  "studyStatusScorePoints": "{score} points",
   "@studyStatusScorePoints": {
     "placeholders": {
       "score": {
@@ -1956,7 +1964,7 @@
       }
     }
   },
-  "studyStatusGradePoint": "GPA {point}",
+  "studyStatusGradePoint": "Moyenne {point}",
   "@studyStatusGradePoint": {
     "placeholders": {
       "point": {
@@ -2148,7 +2156,7 @@
   "authTwoFactorEnabled": "Activée : un code e-mail ou une Passkey est requis à la connexion",
   "authTwoFactorDisabled": "Désactivée : seul votre mot de passe est requis",
   "authCurrentPassword": "Mot de passe actuel",
-  "authPasskeys": "Passkeys",
+  "authPasskeys": "Clés d’accès",
   "authRegisterPasskey": "Enregistrer une Passkey sur cet appareil",
   "authPasskeyRegistered": "Passkey enregistrée",
   "authNoPasskeys": "Aucune Passkey",

@@ -95,14 +95,16 @@
   "editorFieldEndTime": "종료 시간",
   "editorFieldEstimatedDuration": "예상 기간",
   "editorFieldStartTime": "시작 시간",
+  "editorTimeInputModeTime": "시간",
+  "editorTimeInputModePeriod": "교시",
   "editorFieldTargetDate": "목표 날짜",
-  "editorFieldCourseWeekOneDate": "First teaching day (week start)",
-  "editorFieldCoursePeriod": "Periods",
-  "editorFieldCourseWeeks": "Weeks",
-  "editorCourseWeeksUnset": "Not set",
-  "editorCoursePeriodStart": "Start period",
-  "editorCoursePeriodEnd": "End period",
-  "editorCoursePeriodN": "Period {n}",
+  "editorFieldCourseWeekOneDate": "첫 수업일(1주 차 시작)",
+  "editorFieldCoursePeriod": "교시",
+  "editorFieldCourseWeeks": "주차",
+  "editorCourseWeeksUnset": "설정 안 됨",
+  "editorCoursePeriodStart": "시작 교시",
+  "editorCoursePeriodEnd": "종료 교시",
+  "editorCoursePeriodN": "{n}교시",
   "@editorCoursePeriodN": {
     "placeholders": {
       "n": {
@@ -110,7 +112,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Period {n} · {time}",
+  "editorCoursePeriodSingle": "{n}교시 · {time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -121,7 +123,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
+  "editorCoursePeriodRange": "{from}–{to}교시 · {time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -135,9 +137,9 @@
       }
     }
   },
-  "editorCourseWeekStart": "Start week",
-  "editorCourseWeekEnd": "End week",
-  "editorCourseWeekN": "Week {n}",
+  "editorCourseWeekStart": "시작 주차",
+  "editorCourseWeekEnd": "종료 주차",
+  "editorCourseWeekN": "{n}주 차",
   "@editorCourseWeekN": {
     "placeholders": {
       "n": {
@@ -145,10 +147,10 @@
       }
     }
   },
-  "editorCourseWeekParity": "Week parity",
-  "editorCourseWeekParityAll": "Every week",
-  "editorCourseWeekParityOdd": "Odd weeks",
-  "editorCourseWeekParityEven": "Even weeks",
+  "editorCourseWeekParity": "홀짝 주차",
+  "editorCourseWeekParityAll": "매주",
+  "editorCourseWeekParityOdd": "홀수 주",
+  "editorCourseWeekParityEven": "짝수 주",
   "editorHintCourseTitle": "코스명",
   "editorHintDetails": "비고",
   "editorHintLocation": "위치",
@@ -321,7 +323,7 @@
   "scorePageTitle": "성적",
   "seatReservationTitle": "좌석 예약",
   "seedColor": "종자색",
-  "selectedOnlyDefault": "선택한 항목만 (기본값)",
+  "selectedOnlyDefault": "선택한 항목만",
   "selectSemester": "학기 선택",
   "semester": "학기",
   "semS": "{s}학기",
@@ -565,6 +567,8 @@
   "settingsAiTestingButton": "테스트 중...",
   "settingsAppearance": "모양",
   "settingsAppearanceTitle": "모양 설정",
+  "settingsFeaturesEntryTitle": "기능 설정",
+  "settingsFeaturesEntrySubtitle": "위젯, 홈, AI, 날씨",
   "settingsGeneral": "일반",
   "settingsGeneralEntrySubtitle": "언어 및 탐색",
   "settingsGeneralEntryTitle": "일반",
@@ -1052,6 +1056,10 @@
     }
   },
   "settingsNotificationsTitle": "알림 설정",
+  "settingsNotificationsEntrySubtitle": "푸시, 배지, Android 채널",
+  "settingsCourseRemindersEntryTitle": "수업 알림",
+  "settingsCourseRemindersEntrySubtitle": "기본·그룹·과목별 미리 알림",
+  "settingsCourseRemindersEmpty": "수업이 없습니다",
   "settingsPushNotifications": "푸시 알림",
   "settingsPushNotificationsSubtitle": "일정·후기·시스템 메시지 알림",
   "settingsMarketingNotifications": "마케팅·이벤트",

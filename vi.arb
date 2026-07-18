@@ -95,14 +95,16 @@
   "editorFieldEndTime": "thời gian kết thúc",
   "editorFieldEstimatedDuration": "Thời lượng ước tính",
   "editorFieldStartTime": "thời gian bắt đầu",
+  "editorTimeInputModeTime": "Thời gian",
+  "editorTimeInputModePeriod": "Tiết học",
   "editorFieldTargetDate": "ngày mục tiêu",
-  "editorFieldCourseWeekOneDate": "First teaching day (week start)",
-  "editorFieldCoursePeriod": "Periods",
-  "editorFieldCourseWeeks": "Weeks",
-  "editorCourseWeeksUnset": "Not set",
-  "editorCoursePeriodStart": "Start period",
-  "editorCoursePeriodEnd": "End period",
-  "editorCoursePeriodN": "Period {n}",
+  "editorFieldCourseWeekOneDate": "Ngày học đầu tiên (đầu tuần 1)",
+  "editorFieldCoursePeriod": "Tiết học",
+  "editorFieldCourseWeeks": "Tuần học",
+  "editorCourseWeeksUnset": "Chưa đặt",
+  "editorCoursePeriodStart": "Tiết bắt đầu",
+  "editorCoursePeriodEnd": "Tiết kết thúc",
+  "editorCoursePeriodN": "Tiết {n}",
   "@editorCoursePeriodN": {
     "placeholders": {
       "n": {
@@ -110,7 +112,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Period {n} · {time}",
+  "editorCoursePeriodSingle": "Tiết {n} · {time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -121,7 +123,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
+  "editorCoursePeriodRange": "Tiết {from}–{to} · {time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -135,9 +137,9 @@
       }
     }
   },
-  "editorCourseWeekStart": "Start week",
-  "editorCourseWeekEnd": "End week",
-  "editorCourseWeekN": "Week {n}",
+  "editorCourseWeekStart": "Tuần bắt đầu",
+  "editorCourseWeekEnd": "Tuần kết thúc",
+  "editorCourseWeekN": "Tuần {n}",
   "@editorCourseWeekN": {
     "placeholders": {
       "n": {
@@ -145,10 +147,10 @@
       }
     }
   },
-  "editorCourseWeekParity": "Week parity",
-  "editorCourseWeekParityAll": "Every week",
-  "editorCourseWeekParityOdd": "Odd weeks",
-  "editorCourseWeekParityEven": "Even weeks",
+  "editorCourseWeekParity": "Chẵn lẻ tuần",
+  "editorCourseWeekParityAll": "Mỗi tuần",
+  "editorCourseWeekParityOdd": "Tuần lẻ",
+  "editorCourseWeekParityEven": "Tuần chẵn",
   "editorHintCourseTitle": "Tên khóa học",
   "editorHintDetails": "Bình luận",
   "editorHintLocation": "vị trí",
@@ -562,6 +564,8 @@
   "settingsAiTestingButton": "Đang thử nghiệm...",
   "settingsAppearance": "Giao diện",
   "settingsAppearanceTitle": "Cài đặt giao diện",
+  "settingsFeaturesEntryTitle": "Tính năng",
+  "settingsFeaturesEntrySubtitle": "Widget, trang chủ, AI và thời tiết",
   "settingsGeneral": "Chung",
   "settingsGeneralEntrySubtitle": "Ngôn ngữ và điều hướng",
   "settingsGeneralEntryTitle": "Chung",
@@ -1049,6 +1053,10 @@
     }
   },
   "settingsNotificationsTitle": "Thông báo",
+  "settingsNotificationsEntrySubtitle": "Push, huy hiệu và kênh Android",
+  "settingsCourseRemindersEntryTitle": "Nhắc lịch học",
+  "settingsCourseRemindersEntrySubtitle": "Mặc định, theo nhóm và từng môn",
+  "settingsCourseRemindersEmpty": "Chưa có môn học",
   "settingsPushNotifications": "Thông báo đẩy",
   "settingsPushNotificationsSubtitle": "Nhận thông báo lịch, đánh giá và hệ thống",
   "settingsMarketingNotifications": "Marketing & sự kiện",

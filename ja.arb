@@ -95,14 +95,16 @@
   "editorFieldEndTime": "終了時間",
   "editorFieldEstimatedDuration": "推定所要時間",
   "editorFieldStartTime": "開始時間",
+  "editorTimeInputModeTime": "時間",
+  "editorTimeInputModePeriod": "時限",
   "editorFieldTargetDate": "目標日",
-  "editorFieldCourseWeekOneDate": "First teaching day (week start)",
-  "editorFieldCoursePeriod": "Periods",
-  "editorFieldCourseWeeks": "Weeks",
-  "editorCourseWeeksUnset": "Not set",
-  "editorCoursePeriodStart": "Start period",
-  "editorCoursePeriodEnd": "End period",
-  "editorCoursePeriodN": "Period {n}",
+  "editorFieldCourseWeekOneDate": "最初の授業日（第1週開始）",
+  "editorFieldCoursePeriod": "時限",
+  "editorFieldCourseWeeks": "週",
+  "editorCourseWeeksUnset": "未設定",
+  "editorCoursePeriodStart": "開始時限",
+  "editorCoursePeriodEnd": "終了時限",
+  "editorCoursePeriodN": "第{n}時限",
   "@editorCoursePeriodN": {
     "placeholders": {
       "n": {
@@ -110,7 +112,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Period {n} · {time}",
+  "editorCoursePeriodSingle": "第{n}時限 · {time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -121,7 +123,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Periods {from}-{to} · {time}",
+  "editorCoursePeriodRange": "第{from}～{to}時限 · {time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -135,9 +137,9 @@
       }
     }
   },
-  "editorCourseWeekStart": "Start week",
-  "editorCourseWeekEnd": "End week",
-  "editorCourseWeekN": "Week {n}",
+  "editorCourseWeekStart": "開始週",
+  "editorCourseWeekEnd": "終了週",
+  "editorCourseWeekN": "第{n}週",
   "@editorCourseWeekN": {
     "placeholders": {
       "n": {
@@ -145,10 +147,10 @@
       }
     }
   },
-  "editorCourseWeekParity": "Week parity",
-  "editorCourseWeekParityAll": "Every week",
-  "editorCourseWeekParityOdd": "Odd weeks",
-  "editorCourseWeekParityEven": "Even weeks",
+  "editorCourseWeekParity": "隔週設定",
+  "editorCourseWeekParityAll": "毎週",
+  "editorCourseWeekParityOdd": "奇数週",
+  "editorCourseWeekParityEven": "偶数週",
   "editorHintCourseTitle": "コース名",
   "editorHintDetails": "備考",
   "editorHintLocation": "場所",
@@ -533,7 +535,7 @@
   "scorePageTitle": "成績",
   "seatReservationTitle": "座席予約",
   "seedColor": "シードカラー",
-  "selectedOnlyDefault": "選択中のみ (デフォルト)",
+  "selectedOnlyDefault": "選択中のみ",
   "selectSemester": "学期を選択",
   "semester": "学期",
   "semS": "{s}学期",
@@ -576,6 +578,8 @@
   "settingsAiTestingButton": "テスト中...",
   "settingsAppearance": "外観",
   "settingsAppearanceTitle": "外観設定",
+  "settingsFeaturesEntryTitle": "機能設定",
+  "settingsFeaturesEntrySubtitle": "ウィジェット、ホーム、AI、天気",
   "settingsGeneral": "一般",
   "settingsGeneralEntrySubtitle": "言語とナビゲーション",
   "settingsGeneralEntryTitle": "一般",
@@ -1063,6 +1067,10 @@
     }
   },
   "settingsNotificationsTitle": "通知",
+  "settingsNotificationsEntrySubtitle": "プッシュ、バッジ、Android チャネル",
+  "settingsCourseRemindersEntryTitle": "授業リマインダー",
+  "settingsCourseRemindersEntrySubtitle": "既定・グループ・科目ごとの通知時間",
+  "settingsCourseRemindersEmpty": "科目がありません",
   "settingsPushNotifications": "プッシュ通知",
   "settingsPushNotificationsSubtitle": "予定・評価・システムメッセージの通知",
   "settingsMarketingNotifications": "マーケティングとイベント",
@@ -2849,7 +2857,8 @@
   "fontSizeScaleCustom": "カスタム",
   "fontSizeCustomBaseLabel": "カスタムサイズ",
   "fontSizeCustomBaseSubtitle": "本文の基準サイズ（sp）",
-  "fontWeightScaleLabel": "基準文字の太さ",
+
+  "fontWeightScaleLabel": "基準文字の太さ",
   "fontWeightScaleSubtitle": "見出しと本文の階層を保ったまま太さを調整",
   "fontWeightScaleAuto": "自動",
   "fontWeightScaleThin": "細",
