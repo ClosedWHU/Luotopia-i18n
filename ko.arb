@@ -467,9 +467,9 @@
   "shiguangTimetableExportDescription": "Shiguang과 호환되는 시간표 내보내기",
   "shiguangTimetableImport": "Shiguang 시간표 가져오기",
   "shiguangTimetableJson": "Shiguang 시간표 JSON",
-  "sourceLocalFile": "출처: 로컬 파일",
-  "sourceShiguang": "출처: Shiguang",
-  "sourceStarlink": "출처: Starlink",
+  "sourceLocalFile": "로컬 파일",
+  "sourceShiguang": "Shiguang",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "Starlink 파일에는 JSON 객체가 포함되어야 합니다.",
   "starlinkImportDescription": "JSON 파일 또는 공유 코드에서 Starlink 시간표를 가져옵니다",
@@ -611,10 +611,10 @@
   "settingsWeatherLocationFixed": "고정 위치",
   "settingsWeatherLocationDynamic": "요청마다 다시 위치 확인",
   "showNavigationLabels": "탐색 라벨 표시",
-  "sourceManual": "출처: 수동",
-  "sourceMerged": "출처: 병합됨",
-  "sourceWakeup": "출처: Wakeup",
-  "sourceWhu": "출처: 우한대",
+  "sourceManual": "수동",
+  "sourceMerged": "병합됨",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "우한대",
   "sportsAllVenues": "전체 시설",
   "sportsBookingFailed": "예약에 실패했습니다. 다시 시도하세요.",
   "sportsBookingSuccess": "예약 성공!",
@@ -1056,6 +1056,16 @@
   "settingsPushNotificationsSubtitle": "일정·후기·시스템 메시지 알림",
   "settingsMarketingNotifications": "마케팅·이벤트",
   "settingsMarketingNotificationsSubtitle": "캠퍼스 행사·프로모션 알림 수신",
+  "settingsAppIconBadge": "앱 아이콘 배지",
+  "settingsAppIconBadgeSubtitle": "홈 화면 아이콘에 합계 표시",
+  "settingsAppIconBadgeIncludeList": "나의 하루",
+  "settingsAppIconBadgeIncludeListSubtitle": "나의 하루 미완료 항목",
+  "settingsAppIconBadgeIncludeForum": "포럼",
+  "settingsAppIconBadgeIncludeForumSubtitle": "읽지 않은 포럼 알림",
+  "settingsAppIconBadgeIncludeCampusEmail": "캠퍼스 메일",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "읽지 않은 메일 수",
+  "settingsAppIconBadgeIncludeCampusMessages": "캠퍼스 메시지",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "읽지 않은 메시지 수",
   "settingsNotificationChannelsTitle": "Android 알림 채널",
   "settingsNotificationChannelsHint": "채널을 탭하면 시스템 설정에서 중요도를 변경할 수 있습니다. 무음 또는 낮음이면 소리·헤드업이 없을 수 있습니다.",
   "settingsNotificationChannelOpenSystem": "시스템 설정 열기",
@@ -1658,6 +1668,25 @@
   "weatherAqiModerate": "나쁨",
   "weatherAqiPoor": "나쁨+",
   "weatherBannerRainSoon": "곧 비가 옵니다. 우산을 챙기세요!",
+  "weatherBannerRainImminent": "곧 비가 옵니다. 우산을 챙기세요!",
+  "weatherBannerRainInMinutes": "약 {minutes}분 후 비 — 우산을 챙기세요.",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "약 {hours}시간 후 비 — 외출 시 우산을.",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "오늘 늦은 시간 비 소식 — 우산을 고려하세요.",
+  "weatherBannerRainTomorrow": "내일 비 소식 — 외출 시 우산을 준비하세요.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1843,6 +1872,18 @@
   "libraryStartTime": "시작",
   "libraryEndTime": "종료",
   "libraryBookSuccess": "예약 성공!",
+  "libraryCaptchaTitle": "보안 인증",
+  "libraryCaptchaUnsupported": "이 플랫폼에서는 인증을 완료할 수 없습니다. Android 또는 iOS를 사용하세요.",
+  "libraryCaptchaLoadFailed": "인증 로드에 실패했습니다. 다시 시도하세요.",
+  "libraryCaptchaAutoVerifying": "자동 인증 중…",
+  "libraryCaptchaRetrying": "인증 재시도 중 ({count})…",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "예약 실패: {error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1897,7 +1938,12 @@
   "wallpaperTargetHome": "시간표",
   "wallpaperTargetCampus": "캠퍼스",
   "wallpaperTargetSettings": "설정",
-  "wallpaperTargetTaskList": "할 일 목록",
+  "wallpaperTargetTaskList": "작업 목록",
+  "wallpaperTargetListMyDay": "목록 · 나의 하루",
+  "wallpaperTargetListAllItems": "목록 · 전체",
+  "wallpaperTargetListTasks": "목록 · 할 일",
+  "wallpaperTargetListSchedules": "목록 · 일정",
+  "wallpaperTargetListMemos": "목록 · 메모",
   "wallpaperTargetForum": "포럼",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "도서 대출 기능은 개발 중입니다…",
@@ -2238,6 +2284,7 @@
   "weatherDetailNormalHighLow": "평년 최고 / 최저",
   "settingsWeatherLocationIpApi": "ip-api.com",
   "campusAppZhihuiLuojia": "스마트 뤄자",
+  "campusAppMedicalService": "의료 서비스",
   "settingsDevWebViewDebugger": "WebView 네트워크 디버거",
   "settingsDevWebViewDebuggerSubtitle": "스마트 뤄자의 XHR/fetch 요청 검사",
   "debuggerTitle": "네트워크 디버거",
@@ -2809,6 +2856,16 @@
   "fontSizeScaleCustom": "사용자 지정",
   "fontSizeCustomBaseLabel": "사용자 지정 크기",
   "fontSizeCustomBaseSubtitle": "본문 기준 크기(sp)",
+
+  "fontWeightScaleLabel": "기본 글자 굵기",
+  "fontWeightScaleSubtitle": "제목/본문 계층을 유지하며 전체 굵기 조절",
+  "fontWeightScaleAuto": "자동",
+  "fontWeightScaleThin": "얇게",
+  "fontWeightScaleMedium": "보통",
+  "fontWeightScaleBold": "굵게",
+  "fontWeightScaleCustom": "사용자 지정",
+  "fontWeightCustomBaseLabel": "사용자 지정 굵기",
+  "fontWeightCustomBaseSubtitle": "본문 기준 굵기(100–900)",
 
   "campusLayoutDragHint": "앱을 드래그하여 순서를 바꾸거나 폴더를 만드세요",
   "campusLayoutColumns": "한 줄에 {count}개",

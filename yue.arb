@@ -421,10 +421,10 @@
   "settingsWeatherLocationFixed": "固定位置",
   "settingsWeatherLocationDynamic": "每次請求重新定位",
   "showNavigationLabels": "導航欄顯示文字",
-  "sourceManual": "嚟源：手動",
-  "sourceMerged": "嚟源：合併",
-  "sourceWakeup": "嚟源：Wakeup",
-  "sourceWhu": "嚟源：武大教務",
+  "sourceManual": "手動",
+  "sourceMerged": "合併",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "武大教務",
   "sportsAllVenues": "全部場館",
   "sportsBookingFailed": "預約失敗，請再試。",
   "sportsBookingSuccess": "預約成功！",
@@ -866,6 +866,16 @@
   "settingsPushNotificationsSubtitle": "接收關於日程、評價同系統訊息嘅通知",
   "settingsMarketingNotifications": "營銷同活動",
   "settingsMarketingNotificationsSubtitle": "接收校園活動同推廣資訊推送",
+  "settingsAppIconBadge": "主畫面圖示角標",
+  "settingsAppIconBadgeSubtitle": "喺手機主畫面 App 圖示顯示合計未讀數",
+  "settingsAppIconBadgeIncludeList": "我嘅一日",
+  "settingsAppIconBadgeIncludeListSubtitle": "我嘅一日入面未完成事項",
+  "settingsAppIconBadgeIncludeForum": "論壇",
+  "settingsAppIconBadgeIncludeForumSubtitle": "論壇未讀通知",
+  "settingsAppIconBadgeIncludeCampusEmail": "校園電郵",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "校園電郵未讀數",
+  "settingsAppIconBadgeIncludeCampusMessages": "校園訊息",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "校園訊息未讀數",
   "settingsNotificationChannelsTitle": "Android 通知渠道",
   "settingsNotificationChannelsHint": "撳渠道可以喺系統設定度調重要程度。靜音或者低重要度可能會冇聲、冇橫幅。",
   "settingsNotificationChannelOpenSystem": "開啟系統設定",
@@ -1468,6 +1478,25 @@
   "weatherAqiModerate": "輕度污染",
   "weatherAqiPoor": "中度污染",
   "weatherBannerRainSoon": "就嚟落雨喇，出門記得帶遮！",
+  "weatherBannerRainImminent": "好快落雨喇，記得帶遮！",
+  "weatherBannerRainInMinutes": "大概 {minutes} 分鐘後落雨，記得帶遮。",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "大概 {hours} 個鐘後落雨，出門可帶遮。",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "今日晏啲有雨，可考慮帶遮。",
+  "weatherBannerRainTomorrow": "聽日有雨，出門可準備雨具。",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1653,6 +1682,18 @@
   "libraryStartTime": "開始",
   "libraryEndTime": "完",
   "libraryBookSuccess": "預約成功！",
+  "libraryCaptchaTitle": "安全驗證",
+  "libraryCaptchaUnsupported": "目前平台無法完成滑動驗證，請使用 Android / iOS。",
+  "libraryCaptchaLoadFailed": "驗證碼載入失敗，請重試。",
+  "libraryCaptchaAutoVerifying": "正在自動驗證…",
+  "libraryCaptchaRetrying": "自動驗證重試（第 {count} 次）…",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "預約失敗：{error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1708,6 +1749,11 @@
   "wallpaperTargetCampus": "校園",
   "wallpaperTargetSettings": "設定",
   "wallpaperTargetTaskList": "工作清單",
+  "wallpaperTargetListMyDay": "清單 · 我嘅一日",
+  "wallpaperTargetListAllItems": "清單 · 全部事項",
+  "wallpaperTargetListTasks": "清單 · 工作",
+  "wallpaperTargetListSchedules": "清單 · 日程",
+  "wallpaperTargetListMemos": "清單 · 備忘",
   "wallpaperTargetForum": "論壇",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "圖書借閲功能仲開發緊…",
@@ -2041,6 +2087,7 @@
   "weatherDetailNormalHighLow": "常年最高 / 最低",
   "settingsWeatherLocationIpApi": "ip-api.com",
   "campusAppZhihuiLuojia": "智慧珞珈",
+  "campusAppMedicalService": "就醫服務",
   "settingsDevWebViewDebugger": "WebView 網絡偵錯器",
   "settingsDevWebViewDebuggerSubtitle": "檢查智慧珞珈嘅 XHR/fetch 請求",
   "debuggerTitle": "網絡偵錯器",
@@ -2602,6 +2649,16 @@
   "fontSizeCustomBaseLabel": "自訂字號",
   "fontSizeCustomBaseSubtitle": "正文參考字號（sp）",
 
+  "fontWeightScaleLabel": "基準字重",
+  "fontWeightScaleSubtitle": "整體調整文字粗幼，保持標題同正文層次",
+  "fontWeightScaleAuto": "自動",
+  "fontWeightScaleThin": "幼",
+  "fontWeightScaleMedium": "中",
+  "fontWeightScaleBold": "粗",
+  "fontWeightScaleCustom": "自訂",
+  "fontWeightCustomBaseLabel": "自訂字重",
+  "fontWeightCustomBaseSubtitle": "正文參考字重（100–900）",
+
   "campusLayoutDragHint": "拖動 App 去重新排序或者建立資料夾",
   "campusLayoutColumns": "每行 {count} 個",
   "@campusLayoutColumns": {
@@ -2800,9 +2857,9 @@
   "shiguangTimetableExportDescription": "匯出相容時光嘅時間表",
   "shiguangTimetableImport": "時光時間表匯入",
   "shiguangTimetableJson": "時光時間表 JSON",
-  "sourceLocalFile": "嚟源：本機檔案",
-  "sourceShiguang": "嚟源：時光",
-  "sourceStarlink": "嚟源：Starlink",
+  "sourceLocalFile": "本機檔案",
+  "sourceShiguang": "時光",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "Starlink 檔案一定要有 JSON 物件。",
   "starlinkImportDescription": "用 JSON 檔案或者分享碼匯入 Starlink 時間表",

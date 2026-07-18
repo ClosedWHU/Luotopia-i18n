@@ -464,9 +464,9 @@
   "shiguangTimetableExportDescription": "Xuất thời khóa biểu tương thích với Shiguang",
   "shiguangTimetableImport": "Nhập thời khóa biểu Shiguang",
   "shiguangTimetableJson": "JSON thời khóa biểu Shiguang",
-  "sourceLocalFile": "Nguồn: Tệp cục bộ",
-  "sourceShiguang": "Nguồn: Shiguang",
-  "sourceStarlink": "Nguồn: Starlink",
+  "sourceLocalFile": "Tệp cục bộ",
+  "sourceShiguang": "Shiguang",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "Tệp Starlink phải chứa một đối tượng JSON.",
   "starlinkImportDescription": "Nhập thời khóa biểu Starlink từ tệp JSON hoặc mã chia sẻ",
@@ -608,10 +608,10 @@
   "settingsWeatherLocationFixed": "Vị trí cố định",
   "settingsWeatherLocationDynamic": "Định vị lại mỗi lần yêu cầu",
   "showNavigationLabels": "Hiện nhãn điều hướng",
-  "sourceManual": "Nguồn: Thủ công",
-  "sourceMerged": "Nguồn: Đã hợp nhất",
-  "sourceWakeup": "Nguồn: Wakeup",
-  "sourceWhu": "Nguồn: WHU",
+  "sourceManual": "Thủ công",
+  "sourceMerged": "Đã hợp nhất",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "WHU",
   "sportsAllVenues": "Tất cả địa điểm",
   "sportsBookingFailed": "Đặt chỗ thất bại. Vui lòng thử lại.",
   "sportsBookingSuccess": "Đặt chỗ thành công!",
@@ -1053,6 +1053,16 @@
   "settingsPushNotificationsSubtitle": "Nhận thông báo lịch, đánh giá và hệ thống",
   "settingsMarketingNotifications": "Marketing & sự kiện",
   "settingsMarketingNotificationsSubtitle": "Nhận thông báo sự kiện & khuyến mãi khuôn viên",
+  "settingsAppIconBadge": "Huy hiệu biểu tượng",
+  "settingsAppIconBadgeSubtitle": "Hiện tổng số trên biểu tượng màn hình chính",
+  "settingsAppIconBadgeIncludeList": "Ngày của tôi",
+  "settingsAppIconBadgeIncludeListSubtitle": "Mục chưa xong trong Ngày của tôi",
+  "settingsAppIconBadgeIncludeForum": "Diễn đàn",
+  "settingsAppIconBadgeIncludeForumSubtitle": "Thông báo diễn đàn chưa đọc",
+  "settingsAppIconBadgeIncludeCampusEmail": "Email campus",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "Số email chưa đọc",
+  "settingsAppIconBadgeIncludeCampusMessages": "Tin nhắn campus",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "Số tin nhắn chưa đọc",
   "settingsNotificationChannelsTitle": "Kênh thông báo Android",
   "settingsNotificationChannelsHint": "Chạm kênh để đổi mức quan trọng trong cài đặt hệ thống. Mức thấp/im lặng có thể không có âm thanh.",
   "settingsNotificationChannelOpenSystem": "Mở cài đặt hệ thống",
@@ -1655,6 +1665,25 @@
   "weatherAqiModerate": "Ô nhiễm nhẹ",
   "weatherAqiPoor": "Ô nhiễm vừa",
   "weatherBannerRainSoon": "Sắp mưa, nhớ mang ô!",
+  "weatherBannerRainImminent": "Sắp mưa — nhớ mang ô!",
+  "weatherBannerRainInMinutes": "Mưa khoảng {minutes} phút nữa — mang ô.",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "Mưa khoảng {hours} giờ nữa — mang ô khi ra ngoài.",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "Hôm nay muộn hơn có mưa — cân nhắc mang ô.",
+  "weatherBannerRainTomorrow": "Ngày mai có mưa — chuẩn bị ô nếu ra ngoài.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1840,6 +1869,18 @@
   "libraryStartTime": "Bắt đầu",
   "libraryEndTime": "Kết thúc",
   "libraryBookSuccess": "Đặt chỗ thành công!",
+  "libraryCaptchaTitle": "Xác minh bảo mật",
+  "libraryCaptchaUnsupported": "Không thể hoàn tất xác minh trên nền tảng này. Vui lòng dùng Android hoặc iOS.",
+  "libraryCaptchaLoadFailed": "Tải captcha thất bại. Vui lòng thử lại.",
+  "libraryCaptchaAutoVerifying": "Đang xác minh...",
+  "libraryCaptchaRetrying": "Đang thử lại xác minh ({count})...",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "Đặt chỗ thất bại: {error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1895,6 +1936,11 @@
   "wallpaperTargetCampus": "Khuôn viên",
   "wallpaperTargetSettings": "Cài đặt",
   "wallpaperTargetTaskList": "Danh sách việc",
+  "wallpaperTargetListMyDay": "Danh sách · Ngày của tôi",
+  "wallpaperTargetListAllItems": "Danh sách · Tất cả",
+  "wallpaperTargetListTasks": "Danh sách · Việc",
+  "wallpaperTargetListSchedules": "Danh sách · Lịch",
+  "wallpaperTargetListMemos": "Danh sách · Ghi chú",
   "wallpaperTargetForum": "Diễn đàn",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "Mượn sách đang phát triển…",
@@ -2228,6 +2274,7 @@
   "weatherDetailNormalHighLow": "Cao / thấp trung bình",
   "settingsWeatherLocationIpApi": "ip-api.com",
   "campusAppZhihuiLuojia": "Zhihui Luojia",
+  "campusAppMedicalService": "Dich vu y te",
   "settingsDevWebViewDebugger": "Trình gỡ lỗi mạng WebView",
   "settingsDevWebViewDebuggerSubtitle": "Kiểm tra yêu cầu XHR/fetch trong Zhihui Luojia",
   "debuggerTitle": "Trình gỡ lỗi mạng",
@@ -2802,6 +2849,16 @@
   "fontSizeScaleCustom": "Tùy chỉnh",
   "fontSizeCustomBaseLabel": "Cỡ tùy chỉnh",
   "fontSizeCustomBaseSubtitle": "Cỡ thân bài tham chiếu (sp)",
+
+  "fontWeightScaleLabel": "Độ đậm chữ cơ sở",
+  "fontWeightScaleSubtitle": "Điều chỉnh độ đậm toàn bộ, giữ phân cấp tiêu đề/nội dung",
+  "fontWeightScaleAuto": "Tự động",
+  "fontWeightScaleThin": "Mảnh",
+  "fontWeightScaleMedium": "Vừa",
+  "fontWeightScaleBold": "Đậm",
+  "fontWeightScaleCustom": "Tùy chỉnh",
+  "fontWeightCustomBaseLabel": "Độ đậm tùy chỉnh",
+  "fontWeightCustomBaseSubtitle": "Độ đậm thân bài tham chiếu (100–900)",
 
   "campusLayoutDragHint": "Kéo ứng dụng để sắp xếp lại hoặc tạo thư mục",
   "campusLayoutColumns": "{count} mỗi hàng",

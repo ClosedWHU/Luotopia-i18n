@@ -22,6 +22,7 @@
   "campusAppSports": "运动场馆",
   "campusAppTimetable": "课程表",
   "campusAppZhihuiLuojia": "智慧珞珈",
+  "campusAppMedicalService": "就医服务",
   "campusAppMessages": "消息",
   "messagesTabAll": "全部",
   "messagesTabNotifications": "通知",
@@ -456,10 +457,10 @@
   "settingsWeatherLocationFixed": "固定位置",
   "settingsWeatherLocationDynamic": "每次请求重新定位",
   "showNavigationLabels": "导航栏显示文字",
-  "sourceManual": "来源：手动",
-  "sourceMerged": "来源：合并",
-  "sourceWakeup": "来源：Wakeup",
-  "sourceWhu": "来源：武大教务",
+  "sourceManual": "手动",
+  "sourceMerged": "合并",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "武大教务",
   "sportsAllVenues": "全部场馆",
   "sportsBookingFailed": "预约失败，请重试。",
   "sportsBookingSuccess": "预约成功！",
@@ -907,6 +908,16 @@
   "settingsPushNotificationsSubtitle": "接收有关日程、评价和系统消息的通知",
   "settingsMarketingNotifications": "营销与活动",
   "settingsMarketingNotificationsSubtitle": "接收校园活动与推广信息的推送",
+  "settingsAppIconBadge": "桌面图标角标",
+  "settingsAppIconBadgeSubtitle": "在手机桌面应用图标上显示合计未读数",
+  "settingsAppIconBadgeIncludeList": "我的一天",
+  "settingsAppIconBadgeIncludeListSubtitle": "我的一天中未完成的事项",
+  "settingsAppIconBadgeIncludeForum": "论坛",
+  "settingsAppIconBadgeIncludeForumSubtitle": "论坛未读通知",
+  "settingsAppIconBadgeIncludeCampusEmail": "校园邮箱",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "校园邮箱未读数",
+  "settingsAppIconBadgeIncludeCampusMessages": "校园消息",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "校园消息未读数",
   "settingsNotificationChannelsTitle": "Android 通知渠道",
   "settingsNotificationChannelsHint": "点按渠道可在系统设置中调整重要程度。静默或低重要度可能导致无声音、无横幅。",
   "settingsNotificationChannelOpenSystem": "打开系统设置",
@@ -1537,6 +1548,25 @@
   "weatherAqiModerate": "轻度污染",
   "weatherAqiPoor": "中度污染",
   "weatherBannerRainSoon": "快要下雨了，出门记得带伞！",
+  "weatherBannerRainImminent": "很快要下雨了，记得带伞！",
+  "weatherBannerRainInMinutes": "约 {minutes} 分钟后有雨，记得带伞。",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "约 {hours} 小时后有雨，出门可带伞。",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "今天晚些时候有雨，可考虑带伞。",
+  "weatherBannerRainTomorrow": "明天有雨，出门可准备雨具。",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1722,6 +1752,18 @@
   "libraryStartTime": "开始",
   "libraryEndTime": "结束",
   "libraryBookSuccess": "预约成功！",
+  "libraryCaptchaTitle": "安全验证",
+  "libraryCaptchaUnsupported": "当前平台无法完成滑动验证，请使用 Android / iOS。",
+    "libraryCaptchaLoadFailed": "验证码加载失败，请重试。",
+  "libraryCaptchaAutoVerifying": "正在自动验证…",
+  "libraryCaptchaRetrying": "自动验证重试（第 {count} 次）…",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "预约失败：{error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1790,6 +1832,11 @@
   "wallpaperTargetCampus": "校园",
   "wallpaperTargetSettings": "设置",
   "wallpaperTargetTaskList": "任务列表",
+  "wallpaperTargetListMyDay": "列表 · 我的一天",
+  "wallpaperTargetListAllItems": "列表 · 全部事项",
+  "wallpaperTargetListTasks": "列表 · 任务",
+  "wallpaperTargetListSchedules": "列表 · 日程",
+  "wallpaperTargetListMemos": "列表 · 备忘",
   "wallpaperTargetForum": "论坛",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "图书借阅功能正在开发中…",
@@ -2672,6 +2719,15 @@
   "fontSizeScaleCustom": "自定义",
   "fontSizeCustomBaseLabel": "自定义字号",
   "fontSizeCustomBaseSubtitle": "正文参考字号（sp）",
+  "fontWeightScaleLabel": "基准字重",
+  "fontWeightScaleSubtitle": "整体调整文字粗细，保持标题与正文层次",
+  "fontWeightScaleAuto": "自动",
+  "fontWeightScaleThin": "细",
+  "fontWeightScaleMedium": "中",
+  "fontWeightScaleBold": "粗",
+  "fontWeightScaleCustom": "自定义",
+  "fontWeightCustomBaseLabel": "自定义字重",
+  "fontWeightCustomBaseSubtitle": "正文参考字重（100–900）",
   "campusLayoutDragHint": "拖动应用以重新排序或创建文件夹",
   "campusLayoutColumns": "每行 {count} 个",
   "@campusLayoutColumns": {
@@ -2913,9 +2969,9 @@
   "shiguangTimetableExportDescription": "导出兼容时光的课程表",
   "shiguangTimetableImport": "时光课程表导入",
   "shiguangTimetableJson": "时光课程表 JSON",
-  "sourceLocalFile": "来源：本地文件",
-  "sourceShiguang": "来源：时光",
-  "sourceStarlink": "来源：Starlink",
+  "sourceLocalFile": "本地文件",
+  "sourceShiguang": "时光",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "Starlink 文件必须包含 JSON 对象。",
   "starlinkImportDescription": "通过 JSON 文件或分享口令导入 Starlink 课程表",

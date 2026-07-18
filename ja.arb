@@ -358,9 +358,9 @@
   "shiguangTimetableExportDescription": "Shiguang と互換性のある時間割をエクスポート",
   "shiguangTimetableImport": "Shiguang 時間割をインポート",
   "shiguangTimetableJson": "Shiguang 時間割 JSON",
-  "sourceLocalFile": "ソース: ローカルファイル",
-  "sourceShiguang": "ソース: Shiguang",
-  "sourceStarlink": "ソース: Starlink",
+  "sourceLocalFile": "ローカルファイル",
+  "sourceShiguang": "Shiguang",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "Starlink ファイルには JSON オブジェクトが含まれている必要があります。",
   "starlinkImportDescription": "JSON ファイルまたは共有コードから Starlink の時間割をインポート",
@@ -622,10 +622,10 @@
   "settingsWeatherLocationFixed": "固定位置",
   "settingsWeatherLocationDynamic": "リクエストごとに再測位",
   "showNavigationLabels": "ナビの文字を表示",
-  "sourceManual": "ソース: 手動",
-  "sourceMerged": "ソース: 結合済み",
-  "sourceWakeup": "ソース: Wakeup",
-  "sourceWhu": "ソース: 武漢大学",
+  "sourceManual": "手動",
+  "sourceMerged": "結合済み",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "武漢大学",
   "sportsAllVenues": "すべての施設",
   "sportsBookingFailed": "予約に失敗しました。再試行してください。",
   "sportsBookingSuccess": "予約しました！",
@@ -1067,6 +1067,16 @@
   "settingsPushNotificationsSubtitle": "予定・評価・システムメッセージの通知",
   "settingsMarketingNotifications": "マーケティングとイベント",
   "settingsMarketingNotificationsSubtitle": "キャンパスイベントやプロモの通知を受け取る",
+  "settingsAppIconBadge": "アプリアイコンのバッジ",
+  "settingsAppIconBadgeSubtitle": "ホーム画面のアイコンに合計件数を表示",
+  "settingsAppIconBadgeIncludeList": "今日の予定",
+  "settingsAppIconBadgeIncludeListSubtitle": "今日の未完了アイテム",
+  "settingsAppIconBadgeIncludeForum": "フォーラム",
+  "settingsAppIconBadgeIncludeForumSubtitle": "未読のフォーラム通知",
+  "settingsAppIconBadgeIncludeCampusEmail": "キャンパスメール",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "未読メール数",
+  "settingsAppIconBadgeIncludeCampusMessages": "キャンパスメッセージ",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "未読メッセージ数",
   "settingsNotificationChannelsTitle": "Android 通知チャネル",
   "settingsNotificationChannelsHint": "チャネルをタップするとシステム設定で重要度を変更できます。サイレントや低重要度では音やヘッドアップが出ないことがあります。",
   "settingsNotificationChannelOpenSystem": "システム設定を開く",
@@ -1669,6 +1679,25 @@
   "weatherAqiModerate": "軽度汚染",
   "weatherAqiPoor": "中度汚染",
   "weatherBannerRainSoon": "まもなく雨。傘を忘れずに！",
+  "weatherBannerRainImminent": "まもなく雨。傘を忘れずに！",
+  "weatherBannerRainInMinutes": "約{minutes}分後に雨。傘を。",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "約{hours}時間後に雨。外出時は傘を。",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "今日の遅い時間に雨の予報。傘があると安心です。",
+  "weatherBannerRainTomorrow": "明日は雨の予報。外出時は傘を。",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1854,6 +1883,18 @@
   "libraryStartTime": "開始",
   "libraryEndTime": "終了",
   "libraryBookSuccess": "予約しました！",
+  "libraryCaptchaTitle": "セキュリティ認証",
+  "libraryCaptchaUnsupported": "このプラットフォームでは認証できません。Android/iOS をご利用ください。",
+  "libraryCaptchaLoadFailed": "認証の読み込みに失敗しました。",
+  "libraryCaptchaAutoVerifying": "自動認証中…",
+  "libraryCaptchaRetrying": "再試行中（{count}）…",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "予約に失敗: {error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1909,6 +1950,11 @@
   "wallpaperTargetCampus": "キャンパス",
   "wallpaperTargetSettings": "設定",
   "wallpaperTargetTaskList": "タスクリスト",
+  "wallpaperTargetListMyDay": "リスト · 今日",
+  "wallpaperTargetListAllItems": "リスト · すべて",
+  "wallpaperTargetListTasks": "リスト · タスク",
+  "wallpaperTargetListSchedules": "リスト · 予定",
+  "wallpaperTargetListMemos": "リスト · メモ",
   "wallpaperTargetForum": "フォーラム",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "図書貸出機能は開発中です…",
@@ -2242,6 +2288,7 @@
   "weatherDetailNormalHighLow": "平年最高 / 最低",
   "settingsWeatherLocationIpApi": "ip-api.com",
   "campusAppZhihuiLuojia": "智慧珞珈",
+  "campusAppMedicalService": "医療サービス",
   "settingsDevWebViewDebugger": "WebView ネットワークデバッガー",
   "settingsDevWebViewDebuggerSubtitle": "智慧珞珈の XHR/fetch リクエストを調査",
   "debuggerTitle": "ネットワークデバッガー",
@@ -2802,6 +2849,15 @@
   "fontSizeScaleCustom": "カスタム",
   "fontSizeCustomBaseLabel": "カスタムサイズ",
   "fontSizeCustomBaseSubtitle": "本文の基準サイズ（sp）",
+  "fontWeightScaleLabel": "基準文字の太さ",
+  "fontWeightScaleSubtitle": "見出しと本文の階層を保ったまま太さを調整",
+  "fontWeightScaleAuto": "自動",
+  "fontWeightScaleThin": "細",
+  "fontWeightScaleMedium": "中",
+  "fontWeightScaleBold": "太",
+  "fontWeightScaleCustom": "カスタム",
+  "fontWeightCustomBaseLabel": "カスタム太さ",
+  "fontWeightCustomBaseSubtitle": "本文の基準太さ（100–900）",
 
   "campusLayoutDragHint": "アプリをドラッグして並べ替えるか、フォルダーを作成します",
   "campusLayoutColumns": "1 行に {count} 個",

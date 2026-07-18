@@ -405,10 +405,10 @@
   "settingsWeatherLocationFixed": "Фиксированное место",
   "settingsWeatherLocationDynamic": "Определять место при каждом запросе",
   "showNavigationLabels": "Показывать подписи",
-  "sourceManual": "Источник: Вручную",
-  "sourceMerged": "Источник: Объединено",
-  "sourceWakeup": "Источник: Wakeup",
-  "sourceWhu": "Источник: WHU",
+  "sourceManual": "Вручную",
+  "sourceMerged": "Объединено",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "WHU",
   "sportsAllVenues": "Все площадки",
   "sportsBookingFailed": "Бронь не удалась. Повторите попытку.",
   "sportsBookingSuccess": "Бронь успешна!",
@@ -850,6 +850,16 @@
   "settingsPushNotificationsSubtitle": "Уведомления о расписании, отзывах и системе",
   "settingsMarketingNotifications": "Маркетинг и события",
   "settingsMarketingNotificationsSubtitle": "Уведомления о событиях и акциях кампуса",
+  "settingsAppIconBadge": "Значок на иконке",
+  "settingsAppIconBadgeSubtitle": "Показывать сумму на иконке приложения",
+  "settingsAppIconBadgeIncludeList": "Мой день",
+  "settingsAppIconBadgeIncludeListSubtitle": "Незавершённые пункты «Мой день»",
+  "settingsAppIconBadgeIncludeForum": "Форум",
+  "settingsAppIconBadgeIncludeForumSubtitle": "Непрочитанные уведомления форума",
+  "settingsAppIconBadgeIncludeCampusEmail": "Кампусная почта",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "Непрочитанные письма",
+  "settingsAppIconBadgeIncludeCampusMessages": "Сообщения кампуса",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "Непрочитанные сообщения",
   "settingsNotificationChannelsTitle": "Каналы уведомлений Android",
   "settingsNotificationChannelsHint": "Нажмите канал, чтобы изменить важность в системных настройках. Низкая/тихая важность может отключать звук.",
   "settingsNotificationChannelOpenSystem": "Открыть системные настройки",
@@ -1447,6 +1457,25 @@
   "weatherAqiModerate": "Умеренно",
   "weatherAqiPoor": "Плохо",
   "weatherBannerRainSoon": "Скоро дождь — не забудьте зонт!",
+  "weatherBannerRainImminent": "Скоро дождь — не забудьте зонт!",
+  "weatherBannerRainInMinutes": "Дождь примерно через {minutes} мин — возьмите зонт.",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "Дождь примерно через {hours} ч — зонт пригодится.",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "Позже сегодня возможен дождь — возьмите зонт.",
+  "weatherBannerRainTomorrow": "Завтра возможен дождь — возьмите зонт, если выходите.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1632,6 +1661,18 @@
   "libraryStartTime": "Начало",
   "libraryEndTime": "Конец",
   "libraryBookSuccess": "Место забронировано!",
+  "libraryCaptchaTitle": "Проверка безопасности",
+  "libraryCaptchaUnsupported": "Проверка недоступна на этой платформе. Используйте Android или iOS.",
+  "libraryCaptchaLoadFailed": "Не удалось загрузить капчу. Попробуйте снова.",
+  "libraryCaptchaAutoVerifying": "Проверка...",
+  "libraryCaptchaRetrying": "Повтор проверки ({count})...",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "Ошибка брони: {error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1687,6 +1728,11 @@
   "wallpaperTargetCampus": "Кампус",
   "wallpaperTargetSettings": "Настройки",
   "wallpaperTargetTaskList": "Список задач",
+  "wallpaperTargetListMyDay": "Список · Мой день",
+  "wallpaperTargetListAllItems": "Список · Все",
+  "wallpaperTargetListTasks": "Список · Задачи",
+  "wallpaperTargetListSchedules": "Список · Расписание",
+  "wallpaperTargetListMemos": "Список · Заметки",
   "wallpaperTargetForum": "Форум",
   "wallpaperTargetAi": "ИИ",
   "libraryBorrowingPlaceholder": "Выдача книг в разработке…",
@@ -2020,6 +2066,7 @@
   "weatherDetailNormalHighLow": "Норма макс. / мин.",
   "settingsWeatherLocationIpApi": "ip-api.com",
   "campusAppZhihuiLuojia": "Чжихуэй Лоцзя",
+  "campusAppMedicalService": "Мед. сервис",
   "settingsDevWebViewDebugger": "Сетевой отладчик WebView",
   "settingsDevWebViewDebuggerSubtitle": "Проверка XHR/fetch-запросов в Чжихуэй Лоцзя",
   "debuggerTitle": "Сетевой отладчик",
@@ -2579,6 +2626,16 @@
   "fontSizeCustomBaseLabel": "Свой размер",
   "fontSizeCustomBaseSubtitle": "Базовый размер основного текста (sp)",
 
+  "fontWeightScaleLabel": "Базовая насыщенность текста",
+  "fontWeightScaleSubtitle": "Сдвигает насыщенность, сохраняя иерархию",
+  "fontWeightScaleAuto": "Авто",
+  "fontWeightScaleThin": "Тонкий",
+  "fontWeightScaleMedium": "Средний",
+  "fontWeightScaleBold": "Жирный",
+  "fontWeightScaleCustom": "Свой",
+  "fontWeightCustomBaseLabel": "Своя насыщенность",
+  "fontWeightCustomBaseSubtitle": "Базовая насыщенность основного текста (100–900)",
+
   "campusLayoutDragHint": "Перетаскивайте приложения, чтобы изменить порядок или создать папки",
   "campusLayoutColumns": "{count} в ряду",
   "@campusLayoutColumns": {
@@ -2777,9 +2834,9 @@
   "shiguangTimetableExportDescription": "Экспортировать расписание, совместимое с Шигуан",
   "shiguangTimetableImport": "Импорт расписания Шигуан",
   "shiguangTimetableJson": "JSON расписания Шигуан",
-  "sourceLocalFile": "Источник: локальный файл",
-  "sourceShiguang": "Источник: Шигуан",
-  "sourceStarlink": "Источник: Starlink",
+  "sourceLocalFile": "локальный файл",
+  "sourceShiguang": "Шигуан",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "Файл Starlink должен содержать объект JSON.",
   "starlinkImportDescription": "Импорт расписания Starlink из файла JSON или кода доступа",

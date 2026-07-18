@@ -22,6 +22,7 @@
   "campusAppSports": "Sports Venues",
   "campusAppTimetable": "Timetable",
   "campusAppZhihuiLuojia": "Zhihui Luojia",
+  "campusAppMedicalService": "Medical Service",
   "campusAppMessages": "Messages",
   "messagesTabAll": "All",
   "messagesTabNotifications": "Notifications",
@@ -54,6 +55,15 @@
   "fontSizeScaleCustom": "Custom",
   "fontSizeCustomBaseLabel": "Custom size",
   "fontSizeCustomBaseSubtitle": "Reference body size (sp)",
+  "fontWeightScaleLabel": "Base text weight",
+  "fontWeightScaleSubtitle": "Shifts all text weight while keeping title/body hierarchy",
+  "fontWeightScaleAuto": "Auto",
+  "fontWeightScaleThin": "Thin",
+  "fontWeightScaleMedium": "Medium",
+  "fontWeightScaleBold": "Bold",
+  "fontWeightScaleCustom": "Custom",
+  "fontWeightCustomBaseLabel": "Custom weight",
+  "fontWeightCustomBaseSubtitle": "Reference body weight (100–900)",
   "campusLayoutDragHint": "Drag apps to reorder or create folders",
   "campusLayoutColumns": "{count} per row",
   "@campusLayoutColumns": {
@@ -536,10 +546,10 @@
   "settingsWeatherLocationFixed": "Fixed location",
   "settingsWeatherLocationDynamic": "Relocate on every request",
   "showNavigationLabels": "Show navigation labels",
-  "sourceManual": "Source: Manual",
-  "sourceMerged": "Source: Merged",
-  "sourceWakeup": "Source: Wakeup",
-  "sourceWhu": "Source: WHU",
+  "sourceManual": "Manual",
+  "sourceMerged": "Merged",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "WHU",
   "sportsAllVenues": "All Venues",
   "sportsBookingFailed": "Booking failed. Please try again.",
   "sportsBookingSuccess": "Booking successful!",
@@ -995,6 +1005,16 @@
   "settingsPushNotificationsSubtitle": "Receive notifications about schedules, reviews and system messages",
   "settingsMarketingNotifications": "Marketing & Events",
   "settingsMarketingNotificationsSubtitle": "Receive campus event and promotion notifications",
+  "settingsAppIconBadge": "App icon badge",
+  "settingsAppIconBadgeSubtitle": "Show a combined count on the home-screen icon",
+  "settingsAppIconBadgeIncludeList": "My Day tasks",
+  "settingsAppIconBadgeIncludeListSubtitle": "Incomplete items in My Day",
+  "settingsAppIconBadgeIncludeForum": "Forum",
+  "settingsAppIconBadgeIncludeForumSubtitle": "Unread forum notifications",
+  "settingsAppIconBadgeIncludeCampusEmail": "Campus email",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "Unread campus mailbox count",
+  "settingsAppIconBadgeIncludeCampusMessages": "Campus messages",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "Unread campus message count",
   "settingsNotificationChannelsTitle": "Android notification channels",
   "settingsNotificationChannelsHint": "Tap a channel to change its importance in system settings. Silent or low importance may hide sounds and heads-up alerts.",
   "settingsNotificationChannelOpenSystem": "Open system settings",
@@ -1625,6 +1645,25 @@
   "weatherAqiModerate": "Moderate",
   "weatherAqiPoor": "Poor",
   "weatherBannerRainSoon": "Rain expected soon, don't forget your umbrella!",
+  "weatherBannerRainImminent": "Rain starting soon — grab an umbrella!",
+  "weatherBannerRainInMinutes": "Rain in about {minutes} min — bring an umbrella.",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "Rain in about {hours} h — bring an umbrella if heading out.",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "Rain later today — consider an umbrella.",
+  "weatherBannerRainTomorrow": "Rain expected tomorrow — plan an umbrella if going out.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1810,6 +1849,18 @@
   "libraryStartTime": "Start",
   "libraryEndTime": "End",
   "libraryBookSuccess": "Reservation successful!",
+  "libraryCaptchaTitle": "Security verification",
+  "libraryCaptchaUnsupported": "Captcha is not available on this platform. Use Android or iOS.",
+    "libraryCaptchaLoadFailed": "Failed to load captcha. Try again.",
+  "libraryCaptchaAutoVerifying": "Verifying...",
+  "libraryCaptchaRetrying": "Retrying verification ({count})...",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "Reservation failed: {error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1878,6 +1929,11 @@
   "wallpaperTargetCampus": "Campus",
   "wallpaperTargetSettings": "Settings",
   "wallpaperTargetTaskList": "Task list",
+  "wallpaperTargetListMyDay": "List · My Day",
+  "wallpaperTargetListAllItems": "List · All Items",
+  "wallpaperTargetListTasks": "List · Tasks",
+  "wallpaperTargetListSchedules": "List · Schedules",
+  "wallpaperTargetListMemos": "List · Memos",
   "wallpaperTargetForum": "Forum",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "Library borrowing is under development…",
@@ -2920,9 +2976,9 @@
   "shiguangTimetableExportDescription": "Export a timetable compatible with Shiguang",
   "shiguangTimetableImport": "Shiguang timetable import",
   "shiguangTimetableJson": "Shiguang timetable JSON",
-  "sourceLocalFile": "Source: Local file",
-  "sourceShiguang": "Source: Shiguang",
-  "sourceStarlink": "Source: Starlink",
+  "sourceLocalFile": "Local file",
+  "sourceShiguang": "Shiguang",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "The Starlink file must contain a JSON object.",
   "starlinkImportDescription": "Import a Starlink timetable from a JSON file or share code",

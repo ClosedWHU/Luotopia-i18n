@@ -407,10 +407,10 @@
   "settingsWeatherLocationFixed": "Local fixo",
   "settingsWeatherLocationDynamic": "Relocalizar a cada solicitação",
   "showNavigationLabels": "Mostrar rótulos",
-  "sourceManual": "Fonte: Manual",
-  "sourceMerged": "Fonte: Mesclado",
-  "sourceWakeup": "Fonte: Wakeup",
-  "sourceWhu": "Fonte: WHU",
+  "sourceManual": "Manual",
+  "sourceMerged": "Mesclado",
+  "sourceWakeup": "Wakeup",
+  "sourceWhu": "WHU",
   "sportsAllVenues": "Todos os locais",
   "sportsBookingFailed": "Falha na reserva. Tente novamente.",
   "sportsBookingSuccess": "Reserva concluída!",
@@ -852,6 +852,16 @@
   "settingsPushNotificationsSubtitle": "Avisos de agenda, avaliações e sistema",
   "settingsMarketingNotifications": "Marketing e eventos",
   "settingsMarketingNotificationsSubtitle": "Receber avisos de eventos e promoções do campus",
+  "settingsAppIconBadge": "Distintivo do ícone",
+  "settingsAppIconBadgeSubtitle": "Mostrar total no ícone da tela inicial",
+  "settingsAppIconBadgeIncludeList": "Meu dia",
+  "settingsAppIconBadgeIncludeListSubtitle": "Itens incompletos em Meu dia",
+  "settingsAppIconBadgeIncludeForum": "Fórum",
+  "settingsAppIconBadgeIncludeForumSubtitle": "Notificações do fórum não lidas",
+  "settingsAppIconBadgeIncludeCampusEmail": "E-mail do campus",
+  "settingsAppIconBadgeIncludeCampusEmailSubtitle": "E-mails não lidos",
+  "settingsAppIconBadgeIncludeCampusMessages": "Mensagens do campus",
+  "settingsAppIconBadgeIncludeCampusMessagesSubtitle": "Mensagens não lidas",
   "settingsNotificationChannelsTitle": "Canais de notificação do Android",
   "settingsNotificationChannelsHint": "Toque num canal para alterar a importância nas definições do sistema. Importância baixa/silenciosa pode remover o som.",
   "settingsNotificationChannelOpenSystem": "Abrir definições do sistema",
@@ -1454,6 +1464,25 @@
   "weatherAqiModerate": "Moderado",
   "weatherAqiPoor": "Ruim",
   "weatherBannerRainSoon": "Chuva em breve — não esqueça o guarda-chuva!",
+  "weatherBannerRainImminent": "Chuva em breve — pegue o guarda-chuva!",
+  "weatherBannerRainInMinutes": "Chuva em cerca de {minutes} min — leve o guarda-chuva.",
+  "@weatherBannerRainInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainInHours": "Chuva em cerca de {hours} h — leve o guarda-chuva se sair.",
+  "@weatherBannerRainInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "weatherBannerRainLaterToday": "Chuva mais tarde hoje — considere o guarda-chuva.",
+  "weatherBannerRainTomorrow": "Chuva amanhã — leve o guarda-chuva se sair.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
     "placeholders": {
@@ -1639,6 +1668,18 @@
   "libraryStartTime": "Início",
   "libraryEndTime": "Fim",
   "libraryBookSuccess": "Reserva concluída!",
+  "libraryCaptchaTitle": "Verificação de segurança",
+  "libraryCaptchaUnsupported": "A verificação não está disponível nesta plataforma. Use Android ou iOS.",
+  "libraryCaptchaLoadFailed": "Falha ao carregar o captcha. Tente novamente.",
+  "libraryCaptchaAutoVerifying": "A verificar...",
+  "libraryCaptchaRetrying": "A repetir verificação ({count})...",
+  "@libraryCaptchaRetrying": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "libraryBookFailed": "Falha na reserva: {error}",
   "@libraryBookFailed": {
     "placeholders": {
@@ -1694,6 +1735,11 @@
   "wallpaperTargetCampus": "Campus",
   "wallpaperTargetSettings": "Configurações",
   "wallpaperTargetTaskList": "Lista de tarefas",
+  "wallpaperTargetListMyDay": "Lista · Meu dia",
+  "wallpaperTargetListAllItems": "Lista · Todos",
+  "wallpaperTargetListTasks": "Lista · Tarefas",
+  "wallpaperTargetListSchedules": "Lista · Agenda",
+  "wallpaperTargetListMemos": "Lista · Notas",
   "wallpaperTargetForum": "Fórum",
   "wallpaperTargetAi": "IA",
   "libraryBorrowingPlaceholder": "O empréstimo de livros está em desenvolvimento…",
@@ -2027,6 +2073,7 @@
   "weatherDetailNormalHighLow": "Normal máx. / mín.",
   "settingsWeatherLocationIpApi": "IP API",
   "campusAppZhihuiLuojia": "Zhihui Luojia",
+  "campusAppMedicalService": "Serviço médico",
   "settingsDevWebViewDebugger": "Depurador de rede WebView",
   "settingsDevWebViewDebuggerSubtitle": "Inspecione solicitações XHR/fetch no Zhihui Luojia",
   "debuggerTitle": "Depurador de rede",
@@ -2602,6 +2649,16 @@
   "fontSizeCustomBaseLabel": "Tamanho personalizado",
   "fontSizeCustomBaseSubtitle": "Tamanho de corpo de referência (sp)",
 
+  "fontWeightScaleLabel": "Peso base do texto",
+  "fontWeightScaleSubtitle": "Ajusta o peso mantendo a hierarquia título/corpo",
+  "fontWeightScaleAuto": "Automático",
+  "fontWeightScaleThin": "Fino",
+  "fontWeightScaleMedium": "Médio",
+  "fontWeightScaleBold": "Negrito",
+  "fontWeightScaleCustom": "Personalizado",
+  "fontWeightCustomBaseLabel": "Peso personalizado",
+  "fontWeightCustomBaseSubtitle": "Peso de corpo de referência (100–900)",
+
   "campusLayoutDragHint": "Arraste aplicativos para reordenar ou criar pastas",
   "campusLayoutColumns": "{count} por linha",
   "@campusLayoutColumns": {
@@ -2800,9 +2857,9 @@
   "shiguangTimetableExportDescription": "Exporte um horário compatível com o Shiguang",
   "shiguangTimetableImport": "Importação de horário do Shiguang",
   "shiguangTimetableJson": "JSON de horário do Shiguang",
-  "sourceLocalFile": "Fonte: arquivo local",
-  "sourceShiguang": "Fonte: Shiguang",
-  "sourceStarlink": "Fonte: Starlink",
+  "sourceLocalFile": "arquivo local",
+  "sourceShiguang": "Shiguang",
+  "sourceStarlink": "Starlink",
   "starlink": "Starlink",
   "starlinkFileMustBeJsonObject": "O arquivo do Starlink deve conter um objeto JSON.",
   "starlinkImportDescription": "Importe um horário do Starlink de um arquivo JSON ou código de compartilhamento",
