@@ -183,7 +183,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Créneau {n} · {time}",
+  "editorCoursePeriodSingle": "Créneau {n}\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Créneaux {from}-{to} · {time}",
+  "editorCoursePeriodRange": "Créneaux {from}-{to}\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -536,6 +536,18 @@
   "whuAccountClassName": "Classe",
   "whuAccountGrade": "Promotion",
   "whuAccountGender": "Genre",
+  "whuAccountBirthday": "Date de naissance",
+  "whuAccountMobile": "Mobile",
+  "whuAccountVerifyMobile": "Vérifier le numéro mobile",
+  "whuAccountVerifyMobileSubtitle": "Saisissez votre numéro complet pour confirmer qu’il est lié à ce compte WHU",
+  "whuAccountVerifyMobileSuccess": "Numéro mobile vérifié",
+  "whuAccountVerifyMobileFailed": "Impossible de vérifier ce numéro mobile",
+  "whuAccountVerifyEmail": "Vérifier l’adresse e-mail",
+  "whuAccountVerifyEmailSubtitle": "Saisissez l’adresse complète pour confirmer qu’elle est liée à ce compte WHU",
+  "whuAccountVerifyEmailSuccess": "Adresse e-mail vérifiée",
+  "whuAccountVerifyEmailFailed": "Impossible de vérifier cette adresse e-mail",
+  "whuAccountVerifyEmailWaiting": "Attendez {seconds} s",
+  "whuAccountVerifyMobileWaiting": "Attendez {seconds} s",
   "whuAccountEthnicity": "Ethnie",
   "whuAccountPoliticalStatus": "Statut politique",
   "whuAccountStudentType": "Type d’étudiant",
@@ -1912,7 +1924,7 @@
     }
   },
   "ecardPaycodeUnavailable": "Impossible de récupérer le code de paiement pour le moment",
-  "waterControlTitle": "Accès à l’eau",
+  "waterControlTitle": "Code d’eau du dortoir",
   "waterControlRefresh": "Actualiser",
   "waterControlLoading": "Connexion au service d’eau…",
   "waterControlRequestSuccess": "Le code d’accès à l’eau est prêt",
@@ -1959,13 +1971,13 @@
   "waterControlCancelling": "Désactivation…",
   "waterControlCancelCode": "Désactiver le code",
   "waterControlNoActiveCode": "Aucun code actif",
-  "waterControlNoActiveCodeHint": "Demandez un code à quatre chiffres avant d’utiliser un distributeur d’eau de la résidence.",
+  "waterControlNoActiveCodeHint": "Demandez un code d’eau à quatre chiffres avant d’utiliser les installations d’eau de la résidence.",
   "waterControlRequesting": "Demande en cours…",
   "waterControlRequestCode": "Demander un code d’accès",
   "waterControlFreeRate": "Distributeurs disponibles",
   "waterControlDevices": "Nombre total de distributeurs",
   "waterControlWarnings": "Alertes",
-  "waterControlUsageHint": "Saisissez le code à quatre chiffres sur le distributeur d’eau. Un nouveau code est normalement valable 240 minutes. Désactivez-le lorsque vous n’en avez plus besoin.",
+  "waterControlUsageHint": "Saisissez le code d’eau à quatre chiffres sur une installation d’eau de la résidence. Un nouveau code est normalement valable 240 minutes. Désactivez-le lorsque vous n’en avez plus besoin.",
   "waterControlSelectDormitory": "Choisissez votre résidence",
   "waterControlSelectDormitoryHint": "Ce choix est enregistré uniquement sur cet appareil et peut être modifié à tout moment.",
   "waterControlChooseDormitory": "Choisir une résidence",

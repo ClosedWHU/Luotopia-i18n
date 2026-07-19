@@ -183,7 +183,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Занятие {n} · {time}",
+  "editorCoursePeriodSingle": "Занятие {n}\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Занятия {from}–{to} · {time}",
+  "editorCoursePeriodRange": "Занятия {from}–{to}\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -534,6 +534,18 @@
   "whuAccountClassName": "Класс",
   "whuAccountGrade": "Курс",
   "whuAccountGender": "Пол",
+  "whuAccountBirthday": "Дата рождения",
+  "whuAccountMobile": "Мобильный телефон",
+  "whuAccountVerifyMobile": "Подтвердить номер телефона",
+  "whuAccountVerifyMobileSubtitle": "Введите полный номер, чтобы подтвердить его привязку к этой учётной записи WHU",
+  "whuAccountVerifyMobileSuccess": "Номер телефона подтверждён",
+  "whuAccountVerifyMobileFailed": "Не удалось подтвердить этот номер телефона",
+  "whuAccountVerifyEmail": "Подтвердить эл. почту",
+  "whuAccountVerifyEmailSubtitle": "Введите полный адрес, чтобы подтвердить его привязку к этой учётной записи WHU",
+  "whuAccountVerifyEmailSuccess": "Эл. почта подтверждена",
+  "whuAccountVerifyEmailFailed": "Не удалось подтвердить этот адрес эл. почты",
+  "whuAccountVerifyEmailWaiting": "Подождите {seconds} с",
+  "whuAccountVerifyMobileWaiting": "Подождите {seconds} с",
   "whuAccountEthnicity": "Национальность",
   "whuAccountPoliticalStatus": "Политический статус",
   "whuAccountStudentType": "Тип студента",
@@ -1905,7 +1917,7 @@
     }
   },
   "ecardPaycodeUnavailable": "В данный момент невозможно получить код оплаты",
-  "waterControlTitle": "Доступ к воде",
+  "waterControlTitle": "Код доступа к воде в общежитии",
   "waterControlRefresh": "Обновить",
   "waterControlLoading": "Подключение к системе подачи воды…",
   "waterControlRequestSuccess": "Код доступа готов",
@@ -1952,13 +1964,13 @@
   "waterControlCancelling": "Отключение…",
   "waterControlCancelCode": "Отключить код",
   "waterControlNoActiveCode": "Нет активного кода",
-  "waterControlNoActiveCodeHint": "Перед использованием кулера в общежитии запросите четырёхзначный код.",
+  "waterControlNoActiveCodeHint": "Перед использованием устройств водоснабжения в общежитии запросите четырёхзначный код доступа к воде.",
   "waterControlRequesting": "Получение…",
   "waterControlRequestCode": "Получить код",
   "waterControlFreeRate": "Доступно устройств",
   "waterControlDevices": "Всего устройств",
   "waterControlWarnings": "Предупреждения",
-  "waterControlUsageHint": "Введите четырёхзначный код на кулере. Новый код обычно действует 240 минут. Отключите его, когда он больше не нужен.",
+  "waterControlUsageHint": "Введите четырёхзначный код доступа к воде на устройстве водоснабжения в общежитии. Новый код обычно действует 240 минут. Отключите его, когда он больше не нужен.",
   "waterControlSelectDormitory": "Выберите общежитие",
   "waterControlSelectDormitoryHint": "Выбор сохраняется только на этом устройстве, его можно изменить в любое время.",
   "waterControlChooseDormitory": "Выбрать общежитие",

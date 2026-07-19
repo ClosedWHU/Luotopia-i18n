@@ -183,7 +183,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "Tiết {n} · {time}",
+  "editorCoursePeriodSingle": "Tiết {n}\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "Tiết {from}–{to} · {time}",
+  "editorCoursePeriodRange": "Tiết {from}–{to}\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -737,6 +737,18 @@
   "whuAccountClassName": "Lớp",
   "whuAccountGrade": "Khóa",
   "whuAccountGender": "Giới tính",
+  "whuAccountBirthday": "Ngày sinh",
+  "whuAccountMobile": "Số điện thoại",
+  "whuAccountVerifyMobile": "Xác minh số điện thoại",
+  "whuAccountVerifyMobileSubtitle": "Nhập đầy đủ số để xác nhận số này đã liên kết với tài khoản WHU",
+  "whuAccountVerifyMobileSuccess": "Đã xác minh số điện thoại",
+  "whuAccountVerifyMobileFailed": "Không thể xác minh số điện thoại này",
+  "whuAccountVerifyEmail": "Xác minh email",
+  "whuAccountVerifyEmailSubtitle": "Nhập đầy đủ địa chỉ để xác nhận email đã liên kết với tài khoản WHU này",
+  "whuAccountVerifyEmailSuccess": "Đã xác minh email",
+  "whuAccountVerifyEmailFailed": "Không thể xác minh email này",
+  "whuAccountVerifyEmailWaiting": "Chờ {seconds} giây",
+  "whuAccountVerifyMobileWaiting": "Chờ {seconds} giây",
   "whuAccountEthnicity": "Dân tộc",
   "whuAccountPoliticalStatus": "Chính trị",
   "whuAccountStudentType": "Loại sinh viên",
@@ -2113,7 +2125,7 @@
     }
   },
   "ecardPaycodeUnavailable": "Hiện không thể lấy mã thanh toán",
-  "waterControlTitle": "Mã lấy nước",
+  "waterControlTitle": "Mã dùng nước ký túc xá",
   "waterControlRefresh": "Làm mới",
   "waterControlLoading": "Đang kết nối dịch vụ cấp nước…",
   "waterControlRequestSuccess": "Mã lấy nước đã sẵn sàng",
@@ -2160,13 +2172,13 @@
   "waterControlCancelling": "Đang hủy kích hoạt…",
   "waterControlCancelCode": "Hủy kích hoạt mã",
   "waterControlNoActiveCode": "Không có mã đang hoạt động",
-  "waterControlNoActiveCodeHint": "Hãy yêu cầu mã gồm 4 chữ số trước khi dùng máy lấy nước uống tại ký túc xá.",
+  "waterControlNoActiveCodeHint": "Hãy yêu cầu mã dùng nước gồm 4 chữ số trước khi dùng thiết bị nước tại ký túc xá.",
   "waterControlRequesting": "Đang yêu cầu…",
   "waterControlRequestCode": "Yêu cầu mã lấy nước",
   "waterControlFreeRate": "Thiết bị khả dụng",
   "waterControlDevices": "Tổng số thiết bị",
   "waterControlWarnings": "Cảnh báo",
-  "waterControlUsageHint": "Nhập mã gồm 4 chữ số trên máy lấy nước. Mã mới thường có hiệu lực trong 240 phút. Hãy hủy kích hoạt khi không còn sử dụng.",
+  "waterControlUsageHint": "Nhập mã dùng nước gồm 4 chữ số trên thiết bị nước tại ký túc xá. Mã mới thường có hiệu lực trong 240 phút. Hãy hủy kích hoạt khi không còn sử dụng.",
   "waterControlSelectDormitory": "Chọn tòa ký túc xá",
   "waterControlSelectDormitoryHint": "Lựa chọn này chỉ được lưu trên thiết bị này và có thể thay đổi bất cứ lúc nào.",
   "waterControlChooseDormitory": "Chọn tòa ký túc xá",

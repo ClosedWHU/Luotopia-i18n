@@ -183,7 +183,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "第 {n} 节 · {time}",
+  "editorCoursePeriodSingle": "第 {n} 节\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "第 {from}–{to} 节 · {time}",
+  "editorCoursePeriodRange": "第 {from}–{to} 节\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -536,6 +536,18 @@
   "whuAccountClassName": "班级",
   "whuAccountGrade": "年级",
   "whuAccountGender": "性别",
+  "whuAccountBirthday": "生日",
+  "whuAccountMobile": "手机号码",
+  "whuAccountVerifyMobile": "认证手机号码",
+  "whuAccountVerifyMobileSubtitle": "输入完整手机号码，确认佢已绑定而家嘅武大账户",
+  "whuAccountVerifyMobileSuccess": "手机号码认证成功",
+  "whuAccountVerifyMobileFailed": "无法认证呢个手机号码",
+  "whuAccountVerifyEmail": "认证电邮",
+  "whuAccountVerifyEmailSubtitle": "输入完整电邮，确认佢已绑定而家嘅武大账户",
+  "whuAccountVerifyEmailSuccess": "电邮认证成功",
+  "whuAccountVerifyEmailFailed": "无法认证呢个电邮",
+  "whuAccountVerifyEmailWaiting": "等 {seconds} 秒",
+  "whuAccountVerifyMobileWaiting": "等 {seconds} 秒",
   "whuAccountEthnicity": "民族",
   "whuAccountPoliticalStatus": "政治面貌",
   "whuAccountStudentType": "学生类别",
@@ -1912,7 +1924,7 @@
     }
   },
   "ecardPaycodeUnavailable": "暂时攞唔到付款码",
-  "waterControlTitle": "宿舍取水码",
+  "waterControlTitle": "宿舍用水码",
   "waterControlRefresh": "重新整理",
   "waterControlLoading": "连接紧水控服务…",
   "waterControlRequestSuccess": "成功申请取水码",
@@ -1959,13 +1971,13 @@
   "waterControlCancelling": "停用紧…",
   "waterControlCancelCode": "停用取水码",
   "waterControlNoActiveCode": "未有取水码",
-  "waterControlNoActiveCodeHint": "用宿舍饮水机之前，先申请一个四位取水码。",
+  "waterControlNoActiveCodeHint": "用宿舍用水设备之前，先申请一个四位用水码。",
   "waterControlRequesting": "申请紧…",
   "waterControlRequestCode": "申请取水码",
   "waterControlFreeRate": "设备空闲率",
   "waterControlDevices": "设备总数",
   "waterControlWarnings": "警报设备",
-  "waterControlUsageHint": "喺饮水机输入四位取水码就用得。新申请嘅取水码通常喺 240 分钟内有效，唔再用就记得停用。",
+  "waterControlUsageHint": "喺宿舍用水设备输入四位用水码就用得。新申请嘅用水码通常喺 240 分钟内有效，唔再用就记得停用。",
   "waterControlSelectDormitory": "拣你住嘅宿舍楼",
   "waterControlSelectDormitoryHint": "拣好之后只会储存喺呢部机，之后可以随时转。",
   "waterControlChooseDormitory": "拣宿舍楼",

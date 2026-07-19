@@ -183,7 +183,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "{n}교시 · {time}",
+  "editorCoursePeriodSingle": "{n}교시\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "{from}–{to}교시 · {time}",
+  "editorCoursePeriodRange": "{from}–{to}교시\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -740,6 +740,18 @@
   "whuAccountClassName": "반",
   "whuAccountGrade": "학년",
   "whuAccountGender": "성별",
+  "whuAccountBirthday": "생년월일",
+  "whuAccountMobile": "휴대전화 번호",
+  "whuAccountVerifyMobile": "휴대전화 번호 확인",
+  "whuAccountVerifyMobileSubtitle": "전체 번호를 입력하여 이 WHU 계정에 연결되어 있는지 확인하세요",
+  "whuAccountVerifyMobileSuccess": "휴대전화 번호가 확인되었습니다",
+  "whuAccountVerifyMobileFailed": "이 휴대전화 번호를 확인할 수 없습니다",
+  "whuAccountVerifyEmail": "이메일 확인",
+  "whuAccountVerifyEmailSubtitle": "전체 이메일 주소를 입력하여 이 WHU 계정에 연결되어 있는지 확인하세요",
+  "whuAccountVerifyEmailSuccess": "이메일이 확인되었습니다",
+  "whuAccountVerifyEmailFailed": "이 이메일을 확인할 수 없습니다",
+  "whuAccountVerifyEmailWaiting": "{seconds}초 대기",
+  "whuAccountVerifyMobileWaiting": "{seconds}초 대기",
   "whuAccountEthnicity": "민족",
   "whuAccountPoliticalStatus": "정치 신분",
   "whuAccountStudentType": "학생 유형",
@@ -2116,7 +2128,7 @@
     }
   },
   "ecardPaycodeUnavailable": "현재 결제코드를 가져올 수 없습니다",
-  "waterControlTitle": "급수 코드",
+  "waterControlTitle": "기숙사 용수 코드",
   "waterControlRefresh": "새로고침",
   "waterControlLoading": "급수 서비스에 연결하는 중…",
   "waterControlRequestSuccess": "급수 코드가 준비되었습니다",
@@ -2163,13 +2175,13 @@
   "waterControlCancelling": "비활성화하는 중…",
   "waterControlCancelCode": "코드 비활성화",
   "waterControlNoActiveCode": "활성 코드 없음",
-  "waterControlNoActiveCodeHint": "기숙사 급수기를 사용하기 전에 4자리 코드를 발급받으세요.",
+  "waterControlNoActiveCodeHint": "기숙사 용수 설비를 사용하기 전에 4자리 용수 코드를 발급받으세요.",
   "waterControlRequesting": "발급 중…",
   "waterControlRequestCode": "급수 코드 발급",
   "waterControlFreeRate": "사용 가능 기기",
   "waterControlDevices": "전체 기기",
   "waterControlWarnings": "경고",
-  "waterControlUsageHint": "급수기에 4자리 코드를 입력하세요. 새로 발급된 코드는 일반적으로 240분 동안 유효합니다. 더 이상 필요하지 않으면 비활성화하세요.",
+  "waterControlUsageHint": "기숙사 용수 설비에 4자리 용수 코드를 입력하세요. 새로 발급된 코드는 일반적으로 240분 동안 유효합니다. 더 이상 필요하지 않으면 비활성화하세요.",
   "waterControlSelectDormitory": "기숙사 선택",
   "waterControlSelectDormitoryHint": "선택 내용은 이 기기에만 저장되며 언제든지 변경할 수 있습니다.",
   "waterControlChooseDormitory": "기숙사 선택",

@@ -183,7 +183,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "第{n}時限 · {time}",
+  "editorCoursePeriodSingle": "第{n}時限\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "第{from}～{to}時限 · {time}",
+  "editorCoursePeriodRange": "第{from}～{to}時限\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -751,6 +751,18 @@
   "whuAccountClassName": "クラス",
   "whuAccountGrade": "学年",
   "whuAccountGender": "性別",
+  "whuAccountBirthday": "生年月日",
+  "whuAccountMobile": "携帯電話番号",
+  "whuAccountVerifyMobile": "携帯電話番号を確認",
+  "whuAccountVerifyMobileSubtitle": "完全な番号を入力し、この WHU アカウントに紐付いていることを確認します",
+  "whuAccountVerifyMobileSuccess": "携帯電話番号を確認しました",
+  "whuAccountVerifyMobileFailed": "この携帯電話番号を確認できませんでした",
+  "whuAccountVerifyEmail": "メールを確認",
+  "whuAccountVerifyEmailSubtitle": "完全なメールアドレスを入力し、この WHU アカウントに紐付いていることを確認します",
+  "whuAccountVerifyEmailSuccess": "メールを確認しました",
+  "whuAccountVerifyEmailFailed": "このメールを確認できませんでした",
+  "whuAccountVerifyEmailWaiting": "{seconds}秒待機",
+  "whuAccountVerifyMobileWaiting": "{seconds}秒待機",
   "whuAccountEthnicity": "民族",
   "whuAccountPoliticalStatus": "政治的身分",
   "whuAccountStudentType": "学生区分",
@@ -2127,7 +2139,7 @@
     }
   },
   "ecardPaycodeUnavailable": "支払コードを取得できません",
-  "waterControlTitle": "給水コード",
+  "waterControlTitle": "寮用水コード",
   "waterControlRefresh": "更新",
   "waterControlLoading": "給水サービスに接続中…",
   "waterControlRequestSuccess": "給水コードを発行しました",
@@ -2174,13 +2186,13 @@
   "waterControlCancelling": "無効化中…",
   "waterControlCancelCode": "コードを無効にする",
   "waterControlNoActiveCode": "有効なコードはありません",
-  "waterControlNoActiveCodeHint": "寮の給水機を利用する前に、4桁のコードを発行してください。",
+  "waterControlNoActiveCodeHint": "寮の用水設備を利用する前に、4桁の用水コードを発行してください。",
   "waterControlRequesting": "発行中…",
   "waterControlRequestCode": "給水コードを発行",
   "waterControlFreeRate": "利用可能な給水機",
   "waterControlDevices": "給水機の総数",
   "waterControlWarnings": "警告",
-  "waterControlUsageHint": "給水機で4桁のコードを入力してください。新しく発行されたコードは通常240分間有効です。不要になったら無効にしてください。",
+  "waterControlUsageHint": "寮の用水設備で4桁の用水コードを入力してください。新しく発行されたコードは通常240分間有効です。不要になったら無効にしてください。",
   "waterControlSelectDormitory": "寮を選択",
   "waterControlSelectDormitoryHint": "選択内容はこの端末にのみ保存され、いつでも変更できます。",
   "waterControlChooseDormitory": "寮を選ぶ",

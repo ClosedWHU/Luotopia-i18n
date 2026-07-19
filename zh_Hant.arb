@@ -183,7 +183,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "第 {n} 節 · {time}",
+  "editorCoursePeriodSingle": "第 {n} 節\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -194,7 +194,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "第 {from}–{to} 節 · {time}",
+  "editorCoursePeriodRange": "第 {from}–{to} 節\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -559,6 +559,18 @@
   "whuAccountClassName": "班級",
   "whuAccountGrade": "年級",
   "whuAccountGender": "性別",
+  "whuAccountBirthday": "生日",
+  "whuAccountMobile": "手機號碼",
+  "whuAccountVerifyMobile": "認證手機號碼",
+  "whuAccountVerifyMobileSubtitle": "輸入完整手機號碼，確認其已綁定目前武大帳戶",
+  "whuAccountVerifyMobileSuccess": "手機號碼認證成功",
+  "whuAccountVerifyMobileFailed": "無法認證此手機號碼",
+  "whuAccountVerifyEmail": "認證電子郵件",
+  "whuAccountVerifyEmailSubtitle": "輸入完整電子郵件，確認其已綁定目前武大帳戶",
+  "whuAccountVerifyEmailSuccess": "電子郵件認證成功",
+  "whuAccountVerifyEmailFailed": "無法認證此電子郵件",
+  "whuAccountVerifyEmailWaiting": "等待 {seconds} 秒",
+  "whuAccountVerifyMobileWaiting": "等待 {seconds} 秒",
   "whuAccountEthnicity": "民族",
   "whuAccountPoliticalStatus": "政治面貌",
   "whuAccountStudentType": "學生類別",
@@ -1935,7 +1947,7 @@
     }
   },
   "ecardPaycodeUnavailable": "暫時無法取得付款碼",
-  "waterControlTitle": "宿舍取水碼",
+  "waterControlTitle": "宿舍用水碼",
   "waterControlRefresh": "重新整理",
   "waterControlLoading": "正在連線至水控服務…",
   "waterControlRequestSuccess": "取水碼已產生",
@@ -1982,13 +1994,13 @@
   "waterControlCancelling": "正在停用…",
   "waterControlCancelCode": "停用取水碼",
   "waterControlNoActiveCode": "尚未申請取水碼",
-  "waterControlNoActiveCodeHint": "使用宿舍飲水機前，請先申請一個四位取水碼。",
+  "waterControlNoActiveCodeHint": "使用宿舍用水設備前，請先申請一個四位用水碼。",
   "waterControlRequesting": "正在申請…",
   "waterControlRequestCode": "申請取水碼",
   "waterControlFreeRate": "設備空閒率",
   "waterControlDevices": "設備總數",
   "waterControlWarnings": "警報設備",
-  "waterControlUsageHint": "在飲水機上輸入四位取水碼即可使用。新申請的取水碼通常在 240 分鐘內有效，不再使用時請及時停用。",
+  "waterControlUsageHint": "在宿舍用水設備上輸入四位用水碼即可使用。新申請的用水碼通常在 240 分鐘內有效，不再使用時請及時停用。",
   "waterControlSelectDormitory": "選擇你的宿舍樓",
   "waterControlSelectDormitoryHint": "選擇結果只會儲存在此裝置上，之後可隨時切換。",
   "waterControlChooseDormitory": "選擇宿舍樓",

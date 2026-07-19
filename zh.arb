@@ -210,7 +210,7 @@
       }
     }
   },
-  "editorCoursePeriodSingle": "第{n}节 · {time}",
+  "editorCoursePeriodSingle": "第{n}节\n{time}",
   "@editorCoursePeriodSingle": {
     "placeholders": {
       "n": {
@@ -221,7 +221,7 @@
       }
     }
   },
-  "editorCoursePeriodRange": "第{from}-{to}节 · {time}",
+  "editorCoursePeriodRange": "第{from}-{to}节\n{time}",
   "@editorCoursePeriodRange": {
     "placeholders": {
       "from": {
@@ -586,6 +586,18 @@
   "whuAccountClassName": "班级",
   "whuAccountGrade": "年级",
   "whuAccountGender": "性别",
+  "whuAccountBirthday": "生日",
+  "whuAccountMobile": "手机号",
+  "whuAccountVerifyMobile": "认证手机号",
+  "whuAccountVerifyMobileSubtitle": "输入完整手机号，确认其已绑定当前武大账号",
+  "whuAccountVerifyMobileSuccess": "手机号认证成功",
+  "whuAccountVerifyMobileFailed": "无法认证该手机号",
+  "whuAccountVerifyEmail": "认证邮箱",
+  "whuAccountVerifyEmailSubtitle": "输入完整邮箱，确认其已绑定当前武大账号",
+  "whuAccountVerifyEmailSuccess": "邮箱认证成功",
+  "whuAccountVerifyEmailFailed": "无法认证该邮箱",
+  "whuAccountVerifyEmailWaiting": "等待 {seconds} 秒",
+  "whuAccountVerifyMobileWaiting": "等待 {seconds} 秒",
   "whuAccountEthnicity": "民族",
   "whuAccountPoliticalStatus": "政治面貌",
   "whuAccountStudentType": "学生类别",
@@ -1956,7 +1968,7 @@
     }
   },
   "ecardPaycodeUnavailable": "暂时无法获取付款码",
-  "waterControlTitle": "宿舍取水码",
+  "waterControlTitle": "宿舍用水码",
   "waterControlRefresh": "刷新",
   "waterControlLoading": "正在连接水控服务…",
   "waterControlRequestSuccess": "取水码已生成",
@@ -2003,13 +2015,13 @@
   "waterControlCancelling": "正在停用…",
   "waterControlCancelCode": "停用取水码",
   "waterControlNoActiveCode": "暂未申请取水码",
-  "waterControlNoActiveCodeHint": "使用宿舍饮水机前，先申请一个四位取水码。",
+  "waterControlNoActiveCodeHint": "使用宿舍用水设备前，先申请一个四位用水码。",
   "waterControlRequesting": "正在申请…",
   "waterControlRequestCode": "申请取水码",
   "waterControlFreeRate": "设备空闲率",
   "waterControlDevices": "设备总数",
   "waterControlWarnings": "报警设备",
-  "waterControlUsageHint": "在饮水机上输入四位取水码即可使用。新申请的取水码通常在 240 分钟内有效，不再使用时请及时停用。",
+  "waterControlUsageHint": "在宿舍用水设备上输入四位用水码即可使用。新申请的用水码通常在 240 分钟内有效，不再使用时请及时停用。",
   "waterControlSelectDormitory": "选择你的宿舍楼",
   "waterControlSelectDormitoryHint": "选择结果只保存在本机，之后可随时切换。",
   "waterControlChooseDormitory": "选择宿舍楼",
