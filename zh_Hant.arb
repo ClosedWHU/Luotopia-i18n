@@ -945,6 +945,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "熱更新管理",
+  "settingsDevHotUpdateSubtitle": "查看可熱更新的解析腳本及其狀態",
+  "hotUpdateTitle": "熱更新管理",
+  "hotUpdateManifestVersion": "Manifest v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "更新於：{time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "從未更新（使用內建預設）",
+  "hotUpdateLocalVersion": "本地 v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "遠端 v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "查看 JS 程式碼",
+  "hotUpdateLoading": "載入 manifest 中...",
+  "hotUpdateLoadFailed": "載入 manifest 失敗",
   "settingsNotificationsTitle": "通知管理",
   "settingsNotificationsEntrySubtitle": "推送、角標與 Android 通知渠道",
   "settingsCourseRemindersEntryTitle": "課程提醒",

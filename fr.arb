@@ -922,6 +922,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "Gestion des mises à jour à chaud",
+  "settingsDevHotUpdateSubtitle": "Voir les scripts d'analyse mis à jour à chaud et leur état",
+  "hotUpdateTitle": "Gestion des mises à jour à chaud",
+  "hotUpdateManifestVersion": "Manifest v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "Mis à jour : {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "Jamais mis à jour (utilise l'intégr par défaut)",
+  "hotUpdateLocalVersion": "Local v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": " distant v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256 : {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "Voir le code JS",
+  "hotUpdateLoading": "Chargement du manifest...",
+  "hotUpdateLoadFailed": "Échec du chargement du manifest",
   "settingsNotificationsTitle": "Notifications",
   "settingsNotificationsEntrySubtitle": "Push, badge et canaux Android",
   "settingsCourseRemindersEntryTitle": "Rappels de cours",

@@ -1126,6 +1126,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "핫 업데이트 관리",
+  "settingsDevHotUpdateSubtitle": "핫 업데이트 가능한 파서 스크립트와 상태 보기",
+  "hotUpdateTitle": "핫 업데이트 관리",
+  "hotUpdateManifestVersion": "매니페스트 v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "업데이트: {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "업데이트 기록 없음 (내장 기본값 사용)",
+  "hotUpdateLocalVersion": "로컬 v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "원격 v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "JS 코드 보기",
+  "hotUpdateLoading": "매니페스트 로딩 중...",
+  "hotUpdateLoadFailed": "매니페스트 로딩 실패",
   "settingsNotificationsTitle": "알림 설정",
   "settingsNotificationsEntrySubtitle": "푸시, 배지, Android 채널",
   "settingsCourseRemindersEntryTitle": "수업 알림",

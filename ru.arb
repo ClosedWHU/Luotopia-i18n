@@ -920,6 +920,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "Управление горячим обновлением",
+  "settingsDevHotUpdateSubtitle": "Просмотр скриптов парсера с горячим обновлением и их состояния",
+  "hotUpdateTitle": "Управление горячим обновлением",
+  "hotUpdateManifestVersion": "Манифест v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "Обновлено: {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "Никогда не обновлялось (используется встроенное значение)",
+  "hotUpdateLocalVersion": "Локальная v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "Удалённая v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "Просмотреть код JS",
+  "hotUpdateLoading": "Загрузка манифеста...",
+  "hotUpdateLoadFailed": "Ошибка загрузки манифеста",
   "settingsNotificationsTitle": "Уведомления",
   "settingsNotificationsEntrySubtitle": "Пуш, значок и каналы Android",
   "settingsCourseRemindersEntryTitle": "Напоминания о занятиях",

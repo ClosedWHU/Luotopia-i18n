@@ -1123,6 +1123,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "Quản lý cập nhật nóng",
+  "settingsDevHotUpdateSubtitle": "Xem các tập lệnh phân tích có thể cập nhật nóng và trạng thái của chúng",
+  "hotUpdateTitle": "Quản lý cập nhật nóng",
+  "hotUpdateManifestVersion": "Manifest v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "Cập nhật: {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "Chưa từng cập nhật (sử dụng mặc định nhúng)",
+  "hotUpdateLocalVersion": "Cục bộ v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "Từ xa v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "Xem mã JS",
+  "hotUpdateLoading": "Đang tải manifest...",
+  "hotUpdateLoadFailed": "Không thể tải manifest",
   "settingsNotificationsTitle": "Thông báo",
   "settingsNotificationsEntrySubtitle": "Push, huy hiệu và kênh Android",
   "settingsCourseRemindersEntryTitle": "Nhắc lịch học",

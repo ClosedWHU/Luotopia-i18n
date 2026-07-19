@@ -922,6 +922,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "热更新管理",
+  "settingsDevHotUpdateSubtitle": "查看可热更新嘅分析脚本同佢哋嘅状态",
+  "hotUpdateTitle": "热更新管理",
+  "hotUpdateManifestVersion": "Manifest v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "更新咗：{time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "未更新过（用紧内建预设）",
+  "hotUpdateLocalVersion": "本地 v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "远端 v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "查看 JS 程式码",
+  "hotUpdateLoading": "载入 manifest 中...",
+  "hotUpdateLoadFailed": "载入 manifest 失败",
   "settingsNotificationsTitle": "通知管理",
   "settingsNotificationsEntrySubtitle": "推送、角标同 Android 通知渠道",
   "settingsCourseRemindersEntryTitle": "课程提醒",

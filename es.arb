@@ -922,6 +922,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "Gestión de actualización en caliente",
+  "settingsDevHotUpdateSubtitle": "Ver scripts de análisis actualizables en caliente y su estado",
+  "hotUpdateTitle": "Gestión de actualización en caliente",
+  "hotUpdateManifestVersion": "Manifest v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "Actualizado: {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "Nunca actualizado (usando el predeterminado integrado)",
+  "hotUpdateLocalVersion": "Local v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "Remoto v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "Ver código JS",
+  "hotUpdateLoading": "Cargando manifest...",
+  "hotUpdateLoadFailed": "Error al cargar el manifest",
   "settingsNotificationsTitle": "Notificaciones",
   "settingsNotificationsEntrySubtitle": "Push, insignia y canales de Android",
   "settingsCourseRemindersEntryTitle": "Recordatorios de clase",

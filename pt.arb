@@ -922,6 +922,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "Gerenciamento de atualização instantânea",
+  "settingsDevHotUpdateSubtitle": "Ver scripts de análise atualizáveis instantaneamente e seu status",
+  "hotUpdateTitle": "Gerenciamento de atualização instantânea",
+  "hotUpdateManifestVersion": "Manifesto v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "Atualizado: {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "Nunca atualizado (usando o padrão embutido)",
+  "hotUpdateLocalVersion": "Local v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "Remoto v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "Ver código JS",
+  "hotUpdateLoading": "Carregando manifesto...",
+  "hotUpdateLoadFailed": "Falha ao carregar o manifesto",
   "settingsNotificationsTitle": "Notificações",
   "settingsNotificationsEntrySubtitle": "Push, crachá e canais Android",
   "settingsCourseRemindersEntryTitle": "Lembretes de aula",

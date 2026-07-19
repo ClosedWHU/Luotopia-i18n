@@ -2358,6 +2358,39 @@
   "settingsWeatherLocationIpApi": "ip-api.com",
   "settingsDevWebViewDebugger": "WebView network debugger",
   "settingsDevWebViewDebuggerSubtitle": "Inspect XHR/fetch requests in Zhihui Luojia",
+  "settingsDevHotUpdate": "Hot Update Management",
+  "settingsDevHotUpdateSubtitle": "View hot-updatable parser scripts and their status",
+  "hotUpdateTitle": "Hot Update Management",
+  "hotUpdateManifestVersion": "Manifest v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {"version": {"type": "int"}}
+  },
+  "hotUpdateUpdatedAt": "Updated: {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {"time": {"type": "String"}}
+  },
+  "hotUpdateNeverUpdated": "Never updated (using embedded default)",
+  "hotUpdateLocalVersion": "Local v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {"version": {"type": "int"}}
+  },
+  "hotUpdateRemoteVersion": "Remote v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {"version": {"type": "int"}}
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {"checksum": {"type": "String"}}
+  },
+  "hotUpdateViewCode": "View JS Code",
+  "hotUpdateLoading": "Loading manifest...",
+  "hotUpdateLoadFailed": "Failed to load manifest",
+  "hotUpdateCheckNow": "Check Now",
+  "hotUpdateChecking": "Checking for hot updates...",
+  "hotUpdateCheckComplete": "Hot update check complete: {count} script(s) updated",
+  "@hotUpdateCheckComplete": {
+    "placeholders": {"count": {"type": "int"}}
+  },
   "debuggerTitle": "Network debugger",
   "debuggerPause": "Pause",
   "debuggerResume": "Resume",

@@ -1137,6 +1137,53 @@
       }
     }
   },
+  "settingsDevHotUpdate": "ホットアップデート管理",
+  "settingsDevHotUpdateSubtitle": "ホットアップデート可能なパーサースクリプトとその状態を表示",
+  "hotUpdateTitle": "ホットアップデート管理",
+  "hotUpdateManifestVersion": "マニフェスト v{version}",
+  "@hotUpdateManifestVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateUpdatedAt": "更新日時: {time}",
+  "@hotUpdateUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateNeverUpdated": "未更新（組み込みデフォルトを使用）",
+  "hotUpdateLocalVersion": "ローカル v{version}",
+  "@hotUpdateLocalVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateRemoteVersion": "リモート v{version}",
+  "@hotUpdateRemoteVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "hotUpdateChecksum": "SHA-256: {checksum}",
+  "@hotUpdateChecksum": {
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
+  },
+  "hotUpdateViewCode": "JSコードを表示",
+  "hotUpdateLoading": "マニフェストを読み込み中...",
+  "hotUpdateLoadFailed": "マニフェストの読み込みに失敗しました",
   "settingsNotificationsTitle": "通知",
   "settingsNotificationsEntrySubtitle": "プッシュ、バッジ、Android チャネル",
   "settingsCourseRemindersEntryTitle": "授業リマインダー",
