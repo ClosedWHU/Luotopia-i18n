@@ -1017,7 +1017,11 @@
   "hotUpdateVersionCompare": "Local v{local} · Distant v{remote}",
   "hotUpdateLastFailure": "Dernier échec : {reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "settingsNotificationsTitle": "Notifications",
   "settingsNotificationsEntrySubtitle": "Push, badge et canaux Android",
@@ -1062,15 +1066,8 @@
   "notificationChannelLiveUpdatesDescription": "Progression en direct des cours et emplois du temps.",
   "settingsStorageTitle": "Gestion du stockage",
   "settingsClearCache": "Vider le cache",
-  "settingsClearCacheSubtitle": "Libérer fichiers temporaires et cache (environ {size})",
+  "settingsClearCacheSubtitle": "Libérer les fichiers temporaires et le cache",
   "settingsCacheCleared": "Cache effacé : {size} libérés",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -2824,7 +2821,6 @@
   "fontSizeScaleCustom": "Personnalisé",
   "fontSizeCustomBaseLabel": "Taille personnalisée",
   "fontSizeCustomBaseSubtitle": "Taille de corps de référence (sp)",
-
   "fontWeightScaleLabel": "Graisse de texte de base",
   "fontWeightScaleSubtitle": "Ajuste la graisse en gardant la hiérarchie titre/corps",
   "fontWeightScaleAuto": "Auto",
@@ -2834,7 +2830,6 @@
   "fontWeightScaleCustom": "Personnalisé",
   "fontWeightCustomBaseLabel": "Graisse personnalisée",
   "fontWeightCustomBaseSubtitle": "Graisse de corps de référence (100–900)",
-
   "campusLayoutDragHint": "Faites glisser les applications pour les réorganiser ou créer des dossiers",
   "campusLayoutColumns": "{count} par ligne",
   "@campusLayoutColumns": {
@@ -3243,5 +3238,78 @@
         "type": "int"
       }
     }
-  }
+  },
+  "campusBusPreviewCardSetting": "Aperçu d'arrivée du bus",
+  "campusBusPreviewCardSettingIosHint": "Affiche les informations d'arrivée en temps réel dans les widgets",
+  "campusBusPreviewCardSettingHint": "Affiche une carte d'aperçu sur l'écran d'accueil",
+  "campusBusArrivalSelectTarget": "Sélectionner un arrêt",
+  "campusBusArrivalLine": "Ligne",
+  "campusBusArrivalStop": "Arrêt",
+  "campusBusArrivalUseNearest": "Utiliser le plus proche : {stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "Aucun arrêt sélectionné",
+  "campusBusArrivalReminder": "Rappel d'arrivée",
+  "campusBusArrivalEnabledTarget": "Rappel pour : {targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "Rappel désactivé",
+  "campusBusArrivalTarget": "Cible du rappel",
+  "campusBusArrivalAutoDisableHint": "Désactivé automatiquement après l'arrivée du bus",
+  "medicalCardSearchTitle": "Recherche de carte patient",
+  "medicalCardSearchDescription": "Recherchez votre carte patient pour consulter les dossiers",
+  "medicalPatientName": "Nom du patient",
+  "medicalRequiredField": "Ce champ est obligatoire",
+  "medicalIdType": "Type de pièce d'identité",
+  "medicalIdNumber": "Numéro de pièce d'identité",
+  "medicalPhoneNumber": "Numéro de téléphone",
+  "medicalInvalidPhone": "Veuillez entrer un numéro de téléphone valide",
+  "medicalSearching": "Recherche en cours…",
+  "medicalSearchCard": "Rechercher la carte",
+  "medicalIdIdentityCard": "Carte nationale d'identité",
+  "medicalIdMilitaryCard": "Carte militaire",
+  "medicalIdPassport": "Passeport",
+  "medicalIdMainlandTravelPermit": "Permis de voyage",
+  "medicalIdOther": "Autre",
+  "medicalGreeting": "Bonjour, {name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "Hôpital Zhongnan de l'Université de Wuhan",
+  "medicalSessionExpired": "Session expirée, veuillez vous reconnecter",
+  "medicalSearchFailed": "Échec de la recherche, veuillez réessayer",
+  "medicalSearchComplete": "Recherche terminée",
+  "medicalNoCardHint": "Aucune carte patient trouvée. Veuillez vous inscrire à l'hôpital d'abord.",
+  "medicalRegistration": "Prise de rendez-vous",
+  "medicalReports": "Rapports d'analyses",
+  "medicalRegistrationRecords": "Dossiers de consultation",
+  "medicalOutpatientPayment": "Paiement ambulatoire",
+  "medicalPaidInvoices": "Factures payées",
+  "medicalPatientCards": "Cartes patient",
+  "medicalQueue": "État de la file d'attente",
+  "medicalInpatient": "Hospitalisation",
+  "medicalInvoiceDetail": "Détail de la facture",
+  "medicalDefaultCard": "Par défaut",
+  "medicalRegistrationDetail": "Détail de la consultation",
+  "medicalRegistrationFee": "Frais de consultation",
+  "medicalNoPatientCards": "Aucune carte patient",
+  "medicalNoRegistrationRecords": "Aucun dossier de consultation",
+  "medicalNoPaidInvoices": "Aucune facture payée",
+  "medicalRecordsLoadFailed": "Échec du chargement des dossiers",
+  "campusBusRouteViewVertical": "Vue verticale de l'itinéraire",
+  "campusBusRouteViewHorizontal": "Vue horizontale de l'itinéraire"
 }

@@ -1017,7 +1017,11 @@
   "hotUpdateVersionCompare": "本机 v{local} · 远端 v{remote}",
   "hotUpdateLastFailure": "上次失败：{reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "settingsNotificationsTitle": "通知管理",
   "settingsNotificationsEntrySubtitle": "推送、角标同 Android 通知渠道",
@@ -1062,15 +1066,8 @@
   "notificationChannelLiveUpdatesDescription": "科目同日程进行中嘅即时进度。",
   "settingsStorageTitle": "储存管理",
   "settingsClearCache": "清走快取",
-  "settingsClearCacheSubtitle": "释放可清理的临时文件与缓存数据（约 {size}）",
+  "settingsClearCacheSubtitle": "释放暂时档案同快取资料",
   "settingsCacheCleared": "缓存已清除：释放了 {size}",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -2824,7 +2821,6 @@
   "fontSizeScaleCustom": "自定义",
   "fontSizeCustomBaseLabel": "自定义字号",
   "fontSizeCustomBaseSubtitle": "正文参考字号（sp）",
-
   "fontWeightScaleLabel": "基准字重",
   "fontWeightScaleSubtitle": "整体调整文字粗细，保持标题同正文层次",
   "fontWeightScaleAuto": "自动",
@@ -2834,7 +2830,6 @@
   "fontWeightScaleCustom": "自定义",
   "fontWeightCustomBaseLabel": "自定义字重",
   "fontWeightCustomBaseSubtitle": "正文参考字重（100–900）",
-
   "campusLayoutDragHint": "拖动 App 去重新排序或者创建文件夹",
   "campusLayoutColumns": "每行 {count} 个",
   "@campusLayoutColumns": {
@@ -3243,5 +3238,78 @@
         "type": "int"
       }
     }
-  }
+  },
+  "campusBusPreviewCardSetting": "巴士到站预览",
+  "campusBusPreviewCardSettingIosHint": "喺叠放小组件入面显示即时到站资讯",
+  "campusBusPreviewCardSettingHint": "喺主页显示预览卡片",
+  "campusBusArrivalSelectTarget": "拣巴士站",
+  "campusBusArrivalLine": "巴士线路",
+  "campusBusArrivalStop": "站",
+  "campusBusArrivalUseNearest": "用最近嘅站：{stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "未拣站",
+  "campusBusArrivalReminder": "到站提醒",
+  "campusBusArrivalEnabledTarget": "紧提紧：{targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "提醒已关",
+  "campusBusArrivalTarget": "提醒目标",
+  "campusBusArrivalAutoDisableHint": "巴士到咗之后自动关闭",
+  "medicalCardSearchTitle": "就诊卡查询",
+  "medicalCardSearchDescription": "搵你嘅就诊卡睇纪录",
+  "medicalPatientName": "病人姓名",
+  "medicalRequiredField": "呢栏要填",
+  "medicalIdType": "证件类型",
+  "medicalIdNumber": "证件号码",
+  "medicalPhoneNumber": "电话号码",
+  "medicalInvalidPhone": "请输入有效嘅电话号码",
+  "medicalSearching": "搜寻紧…",
+  "medicalSearchCard": "搜寻就诊卡",
+  "medicalIdIdentityCard": "身份征",
+  "medicalIdMilitaryCard": "军官证",
+  "medicalIdPassport": "护照",
+  "medicalIdMainlandTravelPermit": "港澳通行证",
+  "medicalIdOther": "其他",
+  "medicalGreeting": "你好，{name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "武大中南医院",
+  "medicalSessionExpired": "工作阶段过咗期，请重新登入",
+  "medicalSearchFailed": "搜寻失败，请再试",
+  "medicalSearchComplete": "搜寻完成",
+  "medicalNoCardHint": "搵唔到就诊卡，请先去医院挂号",
+  "medicalRegistration": "挂号",
+  "medicalReports": "检验报告",
+  "medicalRegistrationRecords": "挂号纪录",
+  "medicalOutpatientPayment": "门诊缴费",
+  "medicalPaidInvoices": "缴费纪录",
+  "medicalPatientCards": "就诊卡",
+  "medicalQueue": "排队状态",
+  "medicalInpatient": "住院",
+  "medicalInvoiceDetail": "缴费详情",
+  "medicalDefaultCard": "预设",
+  "medicalRegistrationDetail": "挂号详情",
+  "medicalRegistrationFee": "挂号费",
+  "medicalNoPatientCards": "暂时冇就诊卡",
+  "medicalNoRegistrationRecords": "暂时冇挂号纪录",
+  "medicalNoPaidInvoices": "暂时冇缴费纪录",
+  "medicalRecordsLoadFailed": "载入纪录失败",
+  "campusBusRouteViewVertical": "纵向路线检视",
+  "campusBusRouteViewHorizontal": "横向路线检视"
 }

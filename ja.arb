@@ -1232,7 +1232,11 @@
   "hotUpdateVersionCompare": "ローカル v{local} ・ リモート v{remote}",
   "hotUpdateLastFailure": "前回の失敗：{reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "settingsNotificationsTitle": "通知",
   "settingsNotificationsEntrySubtitle": "プッシュ、バッジ、Android チャネル",
@@ -1277,15 +1281,8 @@
   "notificationChannelLiveUpdatesDescription": "授業や予定の進行中のリアルタイム進捗。",
   "settingsStorageTitle": "ストレージ管理",
   "settingsClearCache": "キャッシュ削除",
-  "settingsClearCacheSubtitle": "一時ファイルとキャッシュを解放（約 {size}）",
+  "settingsClearCacheSubtitle": "一時ファイルとキャッシュデータを解放",
   "settingsCacheCleared": "キャッシュを消去しました: {size} を解放",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -3025,7 +3022,6 @@
   "fontSizeScaleCustom": "カスタム",
   "fontSizeCustomBaseLabel": "カスタムサイズ",
   "fontSizeCustomBaseSubtitle": "本文の基準サイズ（sp）",
-
   "fontWeightScaleLabel": "基準文字の太さ",
   "fontWeightScaleSubtitle": "見出しと本文の階層を保ったまま太さを調整",
   "fontWeightScaleAuto": "自動",
@@ -3035,7 +3031,6 @@
   "fontWeightScaleCustom": "カスタム",
   "fontWeightCustomBaseLabel": "カスタム太さ",
   "fontWeightCustomBaseSubtitle": "本文の基準太さ（100–900）",
-
   "campusLayoutDragHint": "アプリをドラッグして並べ替えるか、フォルダーを作成します",
   "campusLayoutColumns": "1 行に {count} 個",
   "@campusLayoutColumns": {
@@ -3243,5 +3238,78 @@
         "type": "int"
       }
     }
-  }
+  },
+  "campusBusPreviewCardSetting": "バス到着プレビュー",
+  "campusBusPreviewCardSettingIosHint": "ウィジェットスタックにリアルタイムの到着情報を表示",
+  "campusBusPreviewCardSettingHint": "ホーム画面にプレビューカードを表示",
+  "campusBusArrivalSelectTarget": "バス停を選択",
+  "campusBusArrivalLine": "路線",
+  "campusBusArrivalStop": "停留所",
+  "campusBusArrivalUseNearest": "最寄りを使用：{stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "停留所未選択",
+  "campusBusArrivalReminder": "到着リマインダー",
+  "campusBusArrivalEnabledTarget": "リマインダー対象：{targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "リマインダーOFF",
+  "campusBusArrivalTarget": "リマインダー対象",
+  "campusBusArrivalAutoDisableHint": "バス到着後に自動で無効化",
+  "medicalCardSearchTitle": "診察カード検索",
+  "medicalCardSearchDescription": "診察カードを検索して記録を確認",
+  "medicalPatientName": "患者名",
+  "medicalRequiredField": "必須項目です",
+  "medicalIdType": "本人確認書類",
+  "medicalIdNumber": "証明書番号",
+  "medicalPhoneNumber": "電話番号",
+  "medicalInvalidPhone": "有効な電話番号を入力してください",
+  "medicalSearching": "検索中…",
+  "medicalSearchCard": "カードを検索",
+  "medicalIdIdentityCard": "身分証明書",
+  "medicalIdMilitaryCard": "軍人証",
+  "medicalIdPassport": "パスポート",
+  "medicalIdMainlandTravelPermit": "渡航許可証",
+  "medicalIdOther": "その他",
+  "medicalGreeting": "こんにちは、{name}さん",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "武大中南病院",
+  "medicalSessionExpired": "セッションが期限切れです。再度ログインしてください",
+  "medicalSearchFailed": "検索に失敗しました。もう一度お試しください",
+  "medicalSearchComplete": "検索完了",
+  "medicalNoCardHint": "診察カードが見つかりません。先に病院で受付登録を行ってください。",
+  "medicalRegistration": "受診予約",
+  "medicalReports": "検査報告書",
+  "medicalRegistrationRecords": "受診記録",
+  "medicalOutpatientPayment": "外来支払い",
+  "medicalPaidInvoices": "支払い済み明細",
+  "medicalPatientCards": "診察カード",
+  "medicalQueue": "順番待ち状況",
+  "medicalInpatient": "入院",
+  "medicalInvoiceDetail": "明細詳細",
+  "medicalDefaultCard": "デフォルト",
+  "medicalRegistrationDetail": "受診詳細",
+  "medicalRegistrationFee": "診察料",
+  "medicalNoPatientCards": "診察カードがありません",
+  "medicalNoRegistrationRecords": "受診記録がありません",
+  "medicalNoPaidInvoices": "支払い済み明細がありません",
+  "medicalRecordsLoadFailed": "記録の読み込みに失敗しました",
+  "campusBusRouteViewVertical": "縦型ルート表示",
+  "campusBusRouteViewHorizontal": "横型ルート表示"
 }

@@ -1017,7 +1017,11 @@
   "hotUpdateVersionCompare": "Local v{local} · Remoto v{remote}",
   "hotUpdateLastFailure": "Última falha: {reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "settingsNotificationsTitle": "Notificações",
   "settingsNotificationsEntrySubtitle": "Push, crachá e canais Android",
@@ -1062,15 +1066,8 @@
   "notificationChannelLiveUpdatesDescription": "Progresso em tempo real de aulas e horários.",
   "settingsStorageTitle": "Gerenciamento de armazenamento",
   "settingsClearCache": "Limpar cache",
-  "settingsClearCacheSubtitle": "Liberar arquivos temporários e cache (cerca de {size})",
+  "settingsClearCacheSubtitle": "Libertar ficheiros temporários e dados em cache",
   "settingsCacheCleared": "Cache limpo: {size} liberados",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -2824,7 +2821,6 @@
   "fontSizeScaleCustom": "Personalizado",
   "fontSizeCustomBaseLabel": "Tamanho personalizado",
   "fontSizeCustomBaseSubtitle": "Tamanho de corpo de referência (sp)",
-
   "fontWeightScaleLabel": "Peso base do texto",
   "fontWeightScaleSubtitle": "Ajusta o peso mantendo a hierarquia título/corpo",
   "fontWeightScaleAuto": "Automático",
@@ -2834,7 +2830,6 @@
   "fontWeightScaleCustom": "Personalizado",
   "fontWeightCustomBaseLabel": "Peso personalizado",
   "fontWeightCustomBaseSubtitle": "Peso de corpo de referência (100–900)",
-
   "campusLayoutDragHint": "Arraste aplicativos para reordenar ou criar pastas",
   "campusLayoutColumns": "{count} por linha",
   "@campusLayoutColumns": {
@@ -3243,5 +3238,78 @@
         "type": "int"
       }
     }
-  }
+  },
+  "campusBusPreviewCardSetting": "Pré-visualização de chegada do ônibus",
+  "campusBusPreviewCardSettingIosHint": "Mostra informações de chegada em tempo real nos widgets",
+  "campusBusPreviewCardSettingHint": "Mostra um cartão de pré-visualização na ecrã inicial",
+  "campusBusArrivalSelectTarget": "Selecionar paragem",
+  "campusBusArrivalLine": "Linha",
+  "campusBusArrivalStop": "Paragem",
+  "campusBusArrivalUseNearest": "Usar a mais próxima: {stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "Paragem não selecionada",
+  "campusBusArrivalReminder": "Lembrete de chegada",
+  "campusBusArrivalEnabledTarget": "A lembrar: {targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "Lembrete desativado",
+  "campusBusArrivalTarget": "Alvo do lembrete",
+  "campusBusArrivalAutoDisableHint": "Desativado automaticamente após a chegada do ônibus",
+  "medicalCardSearchTitle": "Pesquisa de cartão de paciente",
+  "medicalCardSearchDescription": "Pesquise o seu cartão de paciente para ver os registos",
+  "medicalPatientName": "Nome do paciente",
+  "medicalRequiredField": "Campo obrigatório",
+  "medicalIdType": "Tipo de documento",
+  "medicalIdNumber": "Número do documento",
+  "medicalPhoneNumber": "Número de telefone",
+  "medicalInvalidPhone": "Introduza um número de telefone válido",
+  "medicalSearching": "A pesquisar…",
+  "medicalSearchCard": "Pesquisar cartão",
+  "medicalIdIdentityCard": "Cartão de identidade",
+  "medicalIdMilitaryCard": "Cartão militar",
+  "medicalIdPassport": "Passaporte",
+  "medicalIdMainlandTravelPermit": "Autorização de viagem",
+  "medicalIdOther": "Outro",
+  "medicalGreeting": "Olá, {name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "Hospital Zhongnan da Universidade de Wuhan",
+  "medicalSessionExpired": "Sessão expirada, inicie sessão novamente",
+  "medicalSearchFailed": "Falha na pesquisa, tente novamente",
+  "medicalSearchComplete": "Pesquisa concluída",
+  "medicalNoCardHint": "Cartão de paciente não encontrado. Registe-se no hospital primeiro.",
+  "medicalRegistration": "Marcação de consulta",
+  "medicalReports": "Relatórios de análises",
+  "medicalRegistrationRecords": "Registos de marcação",
+  "medicalOutpatientPayment": "Pagamento ambulatório",
+  "medicalPaidInvoices": "Faturas pagas",
+  "medicalPatientCards": "Cartões de paciente",
+  "medicalQueue": "Estado da fila",
+  "medicalInpatient": "Internamento",
+  "medicalInvoiceDetail": "Detalhe da fatura",
+  "medicalDefaultCard": "Predefinido",
+  "medicalRegistrationDetail": "Detalhe da marcação",
+  "medicalRegistrationFee": "Taxa de consulta",
+  "medicalNoPatientCards": "Sem cartões de paciente",
+  "medicalNoRegistrationRecords": "Sem registos de marcação",
+  "medicalNoPaidInvoices": "Sem faturas pagas",
+  "medicalRecordsLoadFailed": "Falha ao carregar registos",
+  "campusBusRouteViewVertical": "Vista vertical da rota",
+  "campusBusRouteViewHorizontal": "Vista horizontal da rota"
 }

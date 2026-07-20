@@ -1040,7 +1040,11 @@
   "hotUpdateVersionCompare": "本機 v{local} · 遠端 v{remote}",
   "hotUpdateLastFailure": "上次失敗：{reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "settingsNotificationsTitle": "通知管理",
   "settingsNotificationsEntrySubtitle": "推送、角標與 Android 通知渠道",
@@ -1085,15 +1089,8 @@
   "notificationChannelLiveUpdatesDescription": "課程與日程進行中的即時進度。",
   "settingsStorageTitle": "存儲管理",
   "settingsClearCache": "清除緩存",
-  "settingsClearCacheSubtitle": "釋放可清理的臨時文件與緩存資料（約 {size}）",
+  "settingsClearCacheSubtitle": "釋放暫存檔和快取資料",
   "settingsCacheCleared": "緩存已清除：釋放了 {size}",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -2824,7 +2821,6 @@
   "fontSizeScaleCustom": "自訂",
   "fontSizeCustomBaseLabel": "自訂字號",
   "fontSizeCustomBaseSubtitle": "正文參考字號（sp）",
-
   "fontWeightScaleLabel": "基準字重",
   "fontWeightScaleSubtitle": "整體調整文字粗細，保持標題與正文層次",
   "fontWeightScaleAuto": "自動",
@@ -2834,7 +2830,6 @@
   "fontWeightScaleCustom": "自訂",
   "fontWeightCustomBaseLabel": "自訂字重",
   "fontWeightCustomBaseSubtitle": "正文參考字重（100–900）",
-
   "campusLayoutDragHint": "拖曳應用程式以重新排序或建立資料夾",
   "campusLayoutColumns": "每列 {count} 個",
   "@campusLayoutColumns": {
@@ -3243,5 +3238,78 @@
         "type": "int"
       }
     }
-  }
+  },
+  "campusBusPreviewCardSetting": "公車到站預覽",
+  "campusBusPreviewCardSettingIosHint": "在疊放小組件中顯示即時到站資訊",
+  "campusBusPreviewCardSettingHint": "在主頁顯示預覽卡片",
+  "campusBusArrivalSelectTarget": "選擇公車站點",
+  "campusBusArrivalLine": "公車路線",
+  "campusBusArrivalStop": "站點",
+  "campusBusArrivalUseNearest": "使用最近站點：{stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "未選擇站點",
+  "campusBusArrivalReminder": "到站提醒",
+  "campusBusArrivalEnabledTarget": "正在提醒：{targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "提醒已關閉",
+  "campusBusArrivalTarget": "提醒目標",
+  "campusBusArrivalAutoDisableHint": "公車到站後自動關閉",
+  "medicalCardSearchTitle": "就診卡查詢",
+  "medicalCardSearchDescription": "搜尋您的就診卡以檢視紀錄",
+  "medicalPatientName": "患者姓名",
+  "medicalRequiredField": "此項為必填",
+  "medicalIdType": "證件類型",
+  "medicalIdNumber": "證件號碼",
+  "medicalPhoneNumber": "手機號碼",
+  "medicalInvalidPhone": "請輸入有效的手機號碼",
+  "medicalSearching": "搜尋中…",
+  "medicalSearchCard": "搜尋就診卡",
+  "medicalIdIdentityCard": "身分證",
+  "medicalIdMilitaryCard": "軍官證",
+  "medicalIdPassport": "護照",
+  "medicalIdMainlandTravelPermit": "港澳通行證",
+  "medicalIdOther": "其他",
+  "medicalGreeting": "你好，{name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "武大中南醫院",
+  "medicalSessionExpired": "工作階段已過期，請重新登入",
+  "medicalSearchFailed": "搜尋失敗，請重試",
+  "medicalSearchComplete": "搜尋完成",
+  "medicalNoCardHint": "未找到就診卡，請先到醫院掛號",
+  "medicalRegistration": "掛號",
+  "medicalReports": "檢驗報告",
+  "medicalRegistrationRecords": "掛號紀錄",
+  "medicalOutpatientPayment": "門診繳費",
+  "medicalPaidInvoices": "繳費紀錄",
+  "medicalPatientCards": "就診卡",
+  "medicalQueue": "排隊狀態",
+  "medicalInpatient": "住院",
+  "medicalInvoiceDetail": "繳費詳情",
+  "medicalDefaultCard": "預設",
+  "medicalRegistrationDetail": "掛號詳情",
+  "medicalRegistrationFee": "掛號費",
+  "medicalNoPatientCards": "暫無就診卡",
+  "medicalNoRegistrationRecords": "暫無掛號紀錄",
+  "medicalNoPaidInvoices": "暫無繳費紀錄",
+  "medicalRecordsLoadFailed": "載入紀錄失敗",
+  "campusBusRouteViewVertical": "縱向路線檢視",
+  "campusBusRouteViewHorizontal": "橫向路線檢視"
 }

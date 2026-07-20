@@ -1218,7 +1218,11 @@
   "hotUpdateVersionCompare": "Cục bộ v{local} · Từ xa v{remote}",
   "hotUpdateLastFailure": "Lỗi gần nhất: {reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "settingsNotificationsTitle": "Thông báo",
   "settingsNotificationsEntrySubtitle": "Push, huy hiệu và kênh Android",
@@ -1263,15 +1267,8 @@
   "notificationChannelLiveUpdatesDescription": "Tiến độ trực tiếp cho buổi học và lịch trình.",
   "settingsStorageTitle": "Quản lý lưu trữ",
   "settingsClearCache": "Xóa cache",
-  "settingsClearCacheSubtitle": "Xóa tệp tạm và cache (khoảng {size})",
+  "settingsClearCacheSubtitle": "Giải phóng tệp tạm và dữ liệu đệm",
   "settingsCacheCleared": "Đã xóa cache: giải phóng {size}",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -3025,7 +3022,6 @@
   "fontSizeScaleCustom": "Tùy chỉnh",
   "fontSizeCustomBaseLabel": "Cỡ tùy chỉnh",
   "fontSizeCustomBaseSubtitle": "Cỡ thân bài tham chiếu (sp)",
-
   "fontWeightScaleLabel": "Độ đậm chữ cơ sở",
   "fontWeightScaleSubtitle": "Điều chỉnh độ đậm toàn bộ, giữ phân cấp tiêu đề/nội dung",
   "fontWeightScaleAuto": "Tự động",
@@ -3035,7 +3031,6 @@
   "fontWeightScaleCustom": "Tùy chỉnh",
   "fontWeightCustomBaseLabel": "Độ đậm tùy chỉnh",
   "fontWeightCustomBaseSubtitle": "Độ đậm thân bài tham chiếu (100–900)",
-
   "campusLayoutDragHint": "Kéo ứng dụng để sắp xếp lại hoặc tạo thư mục",
   "campusLayoutColumns": "{count} mỗi hàng",
   "@campusLayoutColumns": {
@@ -3243,5 +3238,78 @@
         "type": "int"
       }
     }
-  }
+  },
+  "campusBusPreviewCardSetting": "Xem trước lượt đến xe buýt",
+  "campusBusPreviewCardSettingIosHint": "Hiển thị thông tin đến lượt thực tế trong ngăn widget",
+  "campusBusPreviewCardSettingHint": "Hiển thị thẻ xem trước trên màn hình chính",
+  "campusBusArrivalSelectTarget": "Chọn trạm dừng",
+  "campusBusArrivalLine": "Tuyến",
+  "campusBusArrivalStop": "Trạm",
+  "campusBusArrivalUseNearest": "Dùng trạm gần nhất: {stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "Chưa chọn trạm",
+  "campusBusArrivalReminder": "Nhắc nhở lượt đến",
+  "campusBusArrivalEnabledTarget": "Đang nhắc: {targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "Nhắc nhở đã tắt",
+  "campusBusArrivalTarget": "Mục tiêu nhắc nhở",
+  "campusBusArrivalAutoDisableHint": "Tự động tắt sau khi xe buýt đến",
+  "medicalCardSearchTitle": "Tìm kiếm thẻ bệnh nhân",
+  "medicalCardSearchDescription": "Tìm thẻ bệnh nhân để xem hồ sơ",
+  "medicalPatientName": "Tên bệnh nhân",
+  "medicalRequiredField": "Trường bắt buộc",
+  "medicalIdType": "Loại giấy tờ",
+  "medicalIdNumber": "Số giấy tờ",
+  "medicalPhoneNumber": "Số điện thoại",
+  "medicalInvalidPhone": "Vui lòng nhập số điện thoại hợp lệ",
+  "medicalSearching": "Đang tìm…",
+  "medicalSearchCard": "Tìm thẻ",
+  "medicalIdIdentityCard": "CCCD",
+  "medicalIdMilitaryCard": "Thẻ quân nhân",
+  "medicalIdPassport": "Hộ chiếu",
+  "medicalIdMainlandTravelPermit": "Giấy phép nhập cảnh",
+  "medicalIdOther": "Khác",
+  "medicalGreeting": "Xin chào, {name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "Bệnh viện Trung Nam ĐH Vũ Hán",
+  "medicalSessionExpired": "Phiên đã hết hạn, vui lòng đăng nhập lại",
+  "medicalSearchFailed": "Tìm kiếm thất bại, vui lòng thử lại",
+  "medicalSearchComplete": "Tìm kiếm hoàn tất",
+  "medicalNoCardHint": "Không tìm thấy thẻ bệnh nhân. Vui lòng đăng ký tại bệnh viện trước.",
+  "medicalRegistration": "Đăng ký khám",
+  "medicalReports": "Kết quả xét nghiệm",
+  "medicalRegistrationRecords": "Hồ sơ khám bệnh",
+  "medicalOutpatientPayment": "Thanh toán ngoại trú",
+  "medicalPaidInvoices": "Hóa đơn đã thanh toán",
+  "medicalPatientCards": "Thẻ bệnh nhân",
+  "medicalQueue": "Trạng thái xếp hàng",
+  "medicalInpatient": "Nội trú",
+  "medicalInvoiceDetail": "Chi tiết hóa đơn",
+  "medicalDefaultCard": "Mặc định",
+  "medicalRegistrationDetail": "Chi tiết đăng ký",
+  "medicalRegistrationFee": "Phí khám bệnh",
+  "medicalNoPatientCards": "Chưa có thẻ bệnh nhân",
+  "medicalNoRegistrationRecords": "Chưa có hồ sơ khám bệnh",
+  "medicalNoPaidInvoices": "Chưa có hóa đơn thanh toán",
+  "medicalRecordsLoadFailed": "Tải hồ sơ thất bại",
+  "campusBusRouteViewVertical": "Hiển thị tuyến dọc",
+  "campusBusRouteViewHorizontal": "Hiển thị tuyến ngang"
 }

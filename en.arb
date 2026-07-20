@@ -52,12 +52,24 @@
   "schoolNetCancelSeamlessAuth": "Disable seamless sign-in",
   "schoolNetCancelSeamlessAuthTitle": "Disable seamless sign-in?",
   "schoolNetCancelSeamlessAuthMessage": "{device} will require authentication the next time it connects.",
-  "@schoolNetCancelSeamlessAuthMessage": {"placeholders": {"device": {"type": "String"}}},
+  "@schoolNetCancelSeamlessAuthMessage": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
   "schoolNetCancelSeamlessAuthSuccess": "Seamless sign-in disabled",
   "schoolNetDisconnectDevice": "Disconnect",
   "schoolNetDisconnectDeviceTitle": "Disconnect this device?",
   "schoolNetDisconnectDeviceMessage": "{device} will immediately lose its current campus network connection.",
-  "@schoolNetDisconnectDeviceMessage": {"placeholders": {"device": {"type": "String"}}},
+  "@schoolNetDisconnectDeviceMessage": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
   "schoolNetDisconnectDeviceSuccess": "Device disconnected",
   "schoolNetPaymentTitle": "Top up network fee",
   "schoolNetPaymentDescription": "Pay through WHU checkout and verify the credit automatically.",
@@ -74,7 +86,13 @@
   "schoolNetPayInvalidAmount": "Enter a valid amount with no more than two decimal places.",
   "schoolNetPayConfirmTitle": "Create top-up order?",
   "schoolNetPayConfirmMessage": "Create an order for ¥{amount}? Do not submit another order after continuing.",
-  "@schoolNetPayConfirmMessage": {"placeholders": {"amount": {"type": "String"}}},
+  "@schoolNetPayConfirmMessage": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "schoolNetPayConfirmAction": "Continue to checkout",
   "schoolNetPayWaitingTitle": "Complete payment in the payment app",
   "schoolNetPayWaitingMessage": "Return here after paying. We will verify that the fee was credited automatically.",
@@ -83,7 +101,13 @@
   "schoolNetPaySuccessTitle": "Fee credited",
   "schoolNetPaySuccessMessage": "Your network fee has been credited successfully.",
   "schoolNetPaySuccessAmount": "Your payment of ¥{amount} has been credited.",
-  "@schoolNetPaySuccessAmount": {"placeholders": {"amount": {"type": "String"}}},
+  "@schoolNetPaySuccessAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "schoolNetPayPendingTitle": "Payment not confirmed",
   "schoolNetPayPendingMessage": "If you have paid, wait a moment and check again. Do not create another order.",
   "schoolNetPayCheckFailedTitle": "Unable to check payment",
@@ -1167,15 +1191,8 @@
   "notificationChannelLiveUpdatesDescription": "Live progress for courses and schedules in progress.",
   "settingsStorageTitle": "Storage Management",
   "settingsClearCache": "Clear Cache",
-  "settingsClearCacheSubtitle": "Free temporary files and cached data (about {size})",
+  "settingsClearCacheSubtitle": "Free temporary files and cached data",
   "settingsCacheCleared": "Cache cleared: freed {size}",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -1979,7 +1996,7 @@
   "libraryBookSuccess": "Reservation successful!",
   "libraryCaptchaTitle": "Security verification",
   "libraryCaptchaUnsupported": "Captcha is not available on this platform. Use Android or iOS.",
-    "libraryCaptchaLoadFailed": "Failed to load captcha. Try again.",
+  "libraryCaptchaLoadFailed": "Failed to load captcha. Try again.",
   "libraryCaptchaAutoVerifying": "Verifying...",
   "libraryCaptchaRetrying": "Retrying verification ({count})...",
   "@libraryCaptchaRetrying": {
@@ -2408,24 +2425,44 @@
   "hotUpdateTitle": "Hot Update Management",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
-    "placeholders": {"version": {"type": "int"}}
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
   },
   "hotUpdateUpdatedAt": "Updated: {time}",
   "@hotUpdateUpdatedAt": {
-    "placeholders": {"time": {"type": "String"}}
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
   },
   "hotUpdateNeverUpdated": "Never updated (using embedded default)",
   "hotUpdateLocalVersion": "Local v{version}",
   "@hotUpdateLocalVersion": {
-    "placeholders": {"version": {"type": "int"}}
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
   },
   "hotUpdateRemoteVersion": "Remote v{version}",
   "@hotUpdateRemoteVersion": {
-    "placeholders": {"version": {"type": "int"}}
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-    "placeholders": {"checksum": {"type": "String"}}
+    "placeholders": {
+      "checksum": {
+        "type": "String"
+      }
+    }
   },
   "hotUpdateViewCode": "View JS Code",
   "hotUpdateLoading": "Loading manifest...",
@@ -2434,14 +2471,24 @@
   "hotUpdateChecking": "Checking for hot updates...",
   "hotUpdateCheckComplete": "Hot update check complete: {count} script(s) updated",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "hotUpdateCheckCompleteDetail": "Updated {applied}, failed {failed} (of {pending} candidate(s))",
   "@hotUpdateCheckCompleteDetail": {
     "placeholders": {
-      "applied": {"type": "int"},
-      "failed": {"type": "int"},
-      "pending": {"type": "int"}
+      "applied": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "pending": {
+        "type": "int"
+      }
     }
   },
   "hotUpdateCheckNoChanges": "Already up to date — no scripts needed updating",
@@ -2451,8 +2498,12 @@
   "hotUpdateStatusBehind": "Behind remote (local v{local} / remote v{remote})",
   "@hotUpdateStatusBehind": {
     "placeholders": {
-      "local": {"type": "int"},
-      "remote": {"type": "int"}
+      "local": {
+        "type": "int"
+      },
+      "remote": {
+        "type": "int"
+      }
     }
   },
   "hotUpdateStatusEmbedded": "Using embedded default",
@@ -2463,13 +2514,21 @@
   "hotUpdateVersionCompare": "Local v{local} · Remote v{remote}",
   "@hotUpdateVersionCompare": {
     "placeholders": {
-      "local": {"type": "int"},
-      "remote": {"type": "int"}
+      "local": {
+        "type": "int"
+      },
+      "remote": {
+        "type": "int"
+      }
     }
   },
   "hotUpdateLastFailure": "Last failure: {reason}",
   "@hotUpdateLastFailure": {
-    "placeholders": {"reason": {"type": "String"}}
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
   },
   "debuggerTitle": "Network debugger",
   "debuggerPause": "Pause",
@@ -3274,17 +3333,53 @@
   "luotopiaRegisterVerifyEmail": "Registration successful. Please verify your email before signing in.",
   "courseImportSemesterAlreadyAdded": "This semester is already added. Choose “Update timetable” from the timetable menu.",
   "waterControlClassNo": "ClassNo {classNo}",
-  "@waterControlClassNo": {"placeholders": {"classNo": {"type": "String"}}},
+  "@waterControlClassNo": {
+    "placeholders": {
+      "classNo": {
+        "type": "String"
+      }
+    }
+  },
   "campusFacultyArts": "Faculty of Arts and Sciences",
   "campusFacultyEngineering": "Faculty of Engineering",
   "campusFacultyInfo": "Faculty of Information",
   "campusFacultyMedicine": "Faculty of Medicine",
   "campusBuildingNumbered": "Building {number}",
-  "@campusBuildingNumbered": {"placeholders": {"number": {"type": "String"}}},
+  "@campusBuildingNumbered": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
   "campusBuildingNamed": "{name} Building",
-  "@campusBuildingNamed": {"placeholders": {"name": {"type": "String"}}},
+  "@campusBuildingNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "campusLocationFormatted": "{faculty} {building} Floor {floor} Room {room}\n({raw})",
-  "@campusLocationFormatted": {"placeholders": {"faculty": {"type": "String"}, "building": {"type": "String"}, "floor": {"type": "String"}, "room": {"type": "String"}, "raw": {"type": "String"}}},
+  "@campusLocationFormatted": {
+    "placeholders": {
+      "faculty": {
+        "type": "String"
+      },
+      "building": {
+        "type": "String"
+      },
+      "floor": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      },
+      "raw": {
+        "type": "String"
+      }
+    }
+  },
   "aiProviderCustom": "Custom",
   "aiProviderMoonshot": "Moonshot (Moonshot AI)",
   "aiProviderZhipu": "Zhipu AI (GLM)",
@@ -3292,5 +3387,78 @@
   "aiProviderAliyun": "Alibaba Tongyi Qianwen",
   "aiProviderTencent": "Tencent Hunyuan",
   "aiProviderYi": "01.AI (Yi)",
-  "aiProviderBaichuan": "Baichuan AI"
+  "aiProviderBaichuan": "Baichuan AI",
+  "campusBusPreviewCardSetting": "Bus Arrival Preview",
+  "campusBusPreviewCardSettingIosHint": "Shows live arrival info in widget stack",
+  "campusBusPreviewCardSettingHint": "Shows a preview card on the home screen",
+  "campusBusArrivalSelectTarget": "Select Bus Stop",
+  "campusBusArrivalLine": "Bus Line",
+  "campusBusArrivalStop": "Stop",
+  "campusBusArrivalUseNearest": "Use nearest: {stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "No stop selected",
+  "campusBusArrivalReminder": "Arrival Reminder",
+  "campusBusArrivalEnabledTarget": "Reminding for: {targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "Reminder off",
+  "campusBusArrivalTarget": "Reminder Target",
+  "campusBusArrivalAutoDisableHint": "Automatically disabled after the bus arrives",
+  "medicalCardSearchTitle": "Patient Card Lookup",
+  "medicalCardSearchDescription": "Search for your patient card to view records",
+  "medicalPatientName": "Patient Name",
+  "medicalRequiredField": "This field is required",
+  "medicalIdType": "ID Type",
+  "medicalIdNumber": "ID Number",
+  "medicalPhoneNumber": "Phone Number",
+  "medicalInvalidPhone": "Please enter a valid phone number",
+  "medicalSearching": "Searching…",
+  "medicalSearchCard": "Search Card",
+  "medicalIdIdentityCard": "Identity Card",
+  "medicalIdMilitaryCard": "Military ID",
+  "medicalIdPassport": "Passport",
+  "medicalIdMainlandTravelPermit": "Mainland Travel Permit",
+  "medicalIdOther": "Other",
+  "medicalGreeting": "Hello, {name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "WHU Zhongnan Hospital",
+  "medicalSessionExpired": "Session expired, please log in again",
+  "medicalSearchFailed": "Search failed, please try again",
+  "medicalSearchComplete": "Search complete",
+  "medicalNoCardHint": "No patient card found. Please register at the hospital first.",
+  "medicalRegistration": "Registration",
+  "medicalReports": "Lab Reports",
+  "medicalRegistrationRecords": "Registration Records",
+  "medicalOutpatientPayment": "Outpatient Payment",
+  "medicalPaidInvoices": "Paid Invoices",
+  "medicalPatientCards": "Patient Cards",
+  "medicalQueue": "Queue Status",
+  "medicalInpatient": "Inpatient",
+  "medicalInvoiceDetail": "Invoice Detail",
+  "medicalDefaultCard": "Default",
+  "medicalRegistrationDetail": "Registration Detail",
+  "medicalRegistrationFee": "Registration Fee",
+  "medicalNoPatientCards": "No patient cards",
+  "medicalNoRegistrationRecords": "No registration records",
+  "medicalNoPaidInvoices": "No paid invoices",
+  "medicalRecordsLoadFailed": "Failed to load records",
+  "campusBusRouteViewVertical": "Vertical route view",
+  "campusBusRouteViewHorizontal": "Horizontal route view"
 }

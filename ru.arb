@@ -1015,7 +1015,11 @@
   "hotUpdateVersionCompare": "Локальная v{local} · Удаленная v{remote}",
   "hotUpdateLastFailure": "Последняя ошибка: {reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {"count": {"type": "int"}}
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "settingsNotificationsTitle": "Уведомления",
   "settingsNotificationsEntrySubtitle": "Пуш, значок и каналы Android",
@@ -1060,15 +1064,8 @@
   "notificationChannelLiveUpdatesDescription": "Живой прогресс занятий и событий.",
   "settingsStorageTitle": "Управление хранилищем",
   "settingsClearCache": "Очистить кэш",
-  "settingsClearCacheSubtitle": "Очистить временные файлы и кэш (около {size})",
+  "settingsClearCacheSubtitle": "Освободить временные файлы и кэш",
   "settingsCacheCleared": "Кэш очищен: освобождено {size}",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -2801,7 +2798,6 @@
   "fontSizeScaleCustom": "Свой",
   "fontSizeCustomBaseLabel": "Свой размер",
   "fontSizeCustomBaseSubtitle": "Базовый размер основного текста (sp)",
-
   "fontWeightScaleLabel": "Базовая насыщенность текста",
   "fontWeightScaleSubtitle": "Сдвигает насыщенность, сохраняя иерархию",
   "fontWeightScaleAuto": "Авто",
@@ -2811,7 +2807,6 @@
   "fontWeightScaleCustom": "Свой",
   "fontWeightCustomBaseLabel": "Своя насыщенность",
   "fontWeightCustomBaseSubtitle": "Базовая насыщенность основного текста (100–900)",
-
   "campusLayoutDragHint": "Перетаскивайте приложения, чтобы изменить порядок или создать папки",
   "campusLayoutColumns": "{count} в ряду",
   "@campusLayoutColumns": {
@@ -3243,5 +3238,78 @@
         "type": "int"
       }
     }
-  }
+  },
+  "campusBusPreviewCardSetting": "Превью прибытия автобуса",
+  "campusBusPreviewCardSettingIosHint": "Показывает информацию о прибытии в стеке виджетов",
+  "campusBusPreviewCardSettingHint": "Показывает карточку превью на главном экране",
+  "campusBusArrivalSelectTarget": "Выберите остановку",
+  "campusBusArrivalLine": "Маршрут",
+  "campusBusArrivalStop": "Остановка",
+  "campusBusArrivalUseNearest": "Ближайшая: {stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "Остановка не выбрана",
+  "campusBusArrivalReminder": "Напоминание о прибытии",
+  "campusBusArrivalEnabledTarget": "Напоминание: {targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "Напоминание отключено",
+  "campusBusArrivalTarget": "Цель напоминания",
+  "campusBusArrivalAutoDisableHint": "Автоматически отключается после прибытия автобуса",
+  "medicalCardSearchTitle": "Поиск карты пациента",
+  "medicalCardSearchDescription": "Найдите свою карту пациента для просмотра записей",
+  "medicalPatientName": "Имя пациента",
+  "medicalRequiredField": "Обязательное поле",
+  "medicalIdType": "Тип документа",
+  "medicalIdNumber": "Номер документа",
+  "medicalPhoneNumber": "Номер телефона",
+  "medicalInvalidPhone": "Введите действительный номер телефона",
+  "medicalSearching": "Поиск…",
+  "medicalSearchCard": "Найти карту",
+  "medicalIdIdentityCard": "Паспорт",
+  "medicalIdMilitaryCard": "Военный билет",
+  "medicalIdPassport": "Загранпаспорт",
+  "medicalIdMainlandTravelPermit": "Разрешение на поездку",
+  "medicalIdOther": "Другое",
+  "medicalGreeting": "Здравствуйте, {name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "Средне-Южная больница Уханьского университета",
+  "medicalSessionExpired": "Сеанс истёк, войдите снова",
+  "medicalSearchFailed": "Поиск не удался, попробуйте снова",
+  "medicalSearchComplete": "Поиск завершён",
+  "medicalNoCardHint": "Карта пациента не найдена. Сначала зарегистрируйтесь в больнице.",
+  "medicalRegistration": "Запись на приём",
+  "medicalReports": "Результаты анализов",
+  "medicalRegistrationRecords": "Записи о приёмах",
+  "medicalOutpatientPayment": "Оплата амбулаторного приёма",
+  "medicalPaidInvoices": "Оплаченные счета",
+  "medicalPatientCards": "Карты пациента",
+  "medicalQueue": "Статус очереди",
+  "medicalInpatient": "Стационар",
+  "medicalInvoiceDetail": "Детали счёта",
+  "medicalDefaultCard": "Основная",
+  "medicalRegistrationDetail": "Детали записи",
+  "medicalRegistrationFee": "Стоимость приёма",
+  "medicalNoPatientCards": "Нет карт пациента",
+  "medicalNoRegistrationRecords": "Нет записей о приёмах",
+  "medicalNoPaidInvoices": "Нет оплаченных счетов",
+  "medicalRecordsLoadFailed": "Не удалось загрузить записи",
+  "campusBusRouteViewVertical": "Вертикальный вид маршрута",
+  "campusBusRouteViewHorizontal": "Горизонтальный вид маршрута"
 }

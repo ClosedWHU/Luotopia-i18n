@@ -1052,15 +1052,8 @@
   "notificationChannelLiveUpdatesDescription": "课程与日程进行中的实时进度。",
   "settingsStorageTitle": "存储管理",
   "settingsClearCache": "清除缓存",
-  "settingsClearCacheSubtitle": "释放可清理的临时文件与缓存数据（约 {size}）",
+  "settingsClearCacheSubtitle": "释放临时文件和缓存数据",
   "settingsCacheCleared": "缓存已清除：释放了 {size}",
-  "@settingsClearCacheSubtitle": {
-    "placeholders": {
-      "size": {
-        "type": "String"
-      }
-    }
-  },
   "@settingsCacheCleared": {
     "placeholders": {
       "size": {
@@ -1864,7 +1857,7 @@
   "libraryBookSuccess": "预约成功！",
   "libraryCaptchaTitle": "安全验证",
   "libraryCaptchaUnsupported": "当前平台无法完成滑动验证，请使用 Android / iOS。",
-    "libraryCaptchaLoadFailed": "验证码加载失败，请重试。",
+  "libraryCaptchaLoadFailed": "验证码加载失败，请重试。",
   "libraryCaptchaAutoVerifying": "正在自动验证…",
   "libraryCaptchaRetrying": "自动验证重试（第 {count} 次）…",
   "@libraryCaptchaRetrying": {
@@ -3223,5 +3216,78 @@
   "aiProviderAliyun": "阿里通义千问",
   "aiProviderTencent": "腾讯混元",
   "aiProviderYi": "零一万物 (Yi)",
-  "aiProviderBaichuan": "百川智能"
+  "aiProviderBaichuan": "百川智能",
+  "campusBusPreviewCardSetting": "公交到站预览",
+  "campusBusPreviewCardSettingIosHint": "在叠放小组件中显示实时到站信息",
+  "campusBusPreviewCardSettingHint": "在主页显示预览卡片",
+  "campusBusArrivalSelectTarget": "选择公交站点",
+  "campusBusArrivalLine": "公交线路",
+  "campusBusArrivalStop": "站点",
+  "campusBusArrivalUseNearest": "使用最近站点：{stopName}",
+  "@campusBusArrivalUseNearest": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalNoTarget": "未选择站点",
+  "campusBusArrivalReminder": "到站提醒",
+  "campusBusArrivalEnabledTarget": "正在提醒：{targetText}",
+  "@campusBusArrivalEnabledTarget": {
+    "placeholders": {
+      "targetText": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusArrivalDisabled": "提醒已关闭",
+  "campusBusArrivalTarget": "提醒目标",
+  "campusBusArrivalAutoDisableHint": "公交到站后自动关闭",
+  "medicalCardSearchTitle": "就诊卡查询",
+  "medicalCardSearchDescription": "搜索您的就诊卡以查看记录",
+  "medicalPatientName": "患者姓名",
+  "medicalRequiredField": "此项为必填",
+  "medicalIdType": "证件类型",
+  "medicalIdNumber": "证件号码",
+  "medicalPhoneNumber": "手机号码",
+  "medicalInvalidPhone": "请输入有效的手机号码",
+  "medicalSearching": "搜索中…",
+  "medicalSearchCard": "搜索就诊卡",
+  "medicalIdIdentityCard": "身份证",
+  "medicalIdMilitaryCard": "军官证",
+  "medicalIdPassport": "护照",
+  "medicalIdMainlandTravelPermit": "港澳通行证",
+  "medicalIdOther": "其他",
+  "medicalGreeting": "你好，{name}",
+  "@medicalGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalHospitalName": "武大中南医院",
+  "medicalSessionExpired": "会话已过期，请重新登录",
+  "medicalSearchFailed": "搜索失败，请重试",
+  "medicalSearchComplete": "搜索完成",
+  "medicalNoCardHint": "未找到就诊卡，请先到医院挂号",
+  "medicalRegistration": "挂号",
+  "medicalReports": "检验报告",
+  "medicalRegistrationRecords": "挂号记录",
+  "medicalOutpatientPayment": "门诊缴费",
+  "medicalPaidInvoices": "缴费记录",
+  "medicalPatientCards": "就诊卡",
+  "medicalQueue": "排队状态",
+  "medicalInpatient": "住院",
+  "medicalInvoiceDetail": "缴费详情",
+  "medicalDefaultCard": "默认",
+  "medicalRegistrationDetail": "挂号详情",
+  "medicalRegistrationFee": "挂号费",
+  "medicalNoPatientCards": "暂无就诊卡",
+  "medicalNoRegistrationRecords": "暂无挂号记录",
+  "medicalNoPaidInvoices": "暂无缴费记录",
+  "medicalRecordsLoadFailed": "加载记录失败",
+  "campusBusRouteViewVertical": "纵向路线视图",
+  "campusBusRouteViewHorizontal": "横向路线视图"
 }
