@@ -575,8 +575,14 @@
   "settingsAiSystemPromptLabel": "System prompt",
   "settingsAiTestButton": "Test connection",
   "settingsAiTestingButton": "Testing...",
-  "settingsAppearance": "Appearance",
-  "settingsAppearanceTitle": "Appearance Settings",
+  "settingsAppearance": "Interface & interaction",
+  "settingsAppearanceTitle": "Language, theme, fonts, and haptics",
+  "settingsHapticTitle": "Haptic feedback",
+  "settingsHapticSubtitle": "Vibration intensity for taps and controls",
+  "settingsHapticOff": "Off",
+  "settingsHapticLow": "Low",
+  "settingsHapticMedium": "Medium",
+  "settingsHapticHigh": "High",
   "settingsFeaturesEntryTitle": "Features",
   "settingsFeaturesEntrySubtitle": "Widgets, home, AI, and weather",
   "settingsGeneral": "General",
@@ -605,6 +611,19 @@
   "settingsNavigationSettingsFixed": "Always last, cannot hide or reorder",
   "settingsPercentValue": "{value}%",
   "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsPrivacyDiagnosticsEntryTitle": "Diagnostics & analytics",
+  "settingsPrivacyDiagnosticsEntrySubtitle": "Usage stats, crash reports, and performance",
+  "settingsPrivacyDiagnosticsTitle": "Diagnostics & analytics",
+  "settingsPrivacyDiagnosticsSubtitle": "These options help improve Luotopia. You can change them anytime. Data is collected only when a switch is on.",
+  "settingsPrivacyDiagnosticsUnsupported": "Diagnostics are only available on Android and iOS builds with Firebase.",
+  "settingsPrivacyAnalyticsTitle": "Usage analytics",
+  "settingsPrivacyAnalyticsSubtitle": "Anonymous feature usage to help improve the app",
+  "settingsPrivacyCrashTitle": "Crash reporting",
+  "settingsPrivacyCrashSubtitle": "Send crash and error reports to fix stability issues",
+  "settingsPrivacyPerformanceTitle": "Performance monitoring",
+  "settingsPrivacyPerformanceSubtitle": "Collect app startup and screen performance metrics",
+  "onboardingTelemetryConsentTitle": "Help improve Luotopia",
+  "onboardingTelemetryConsentSubtitle": "Share anonymous usage, crash, and performance data. You can change this later in Settings.",
   "settingsTermsOfService": "Terms of Service",
   "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
   "settingsTheme": "Theme",
@@ -657,7 +676,7 @@
   "themeDark": "Dark",
   "themeLight": "Light",
   "themeModeLabel": "Theme mode",
-  "themeSettings": "Theme Settings",
+  "themeSettings": "Interface & interaction",
   "themeSystem": "System",
   "timetable": "Timetable",
   "timetableName": "Timetable name",
@@ -2416,6 +2435,41 @@
   "hotUpdateCheckComplete": "Hot update check complete: {count} script(s) updated",
   "@hotUpdateCheckComplete": {
     "placeholders": {"count": {"type": "int"}}
+  },
+  "hotUpdateCheckCompleteDetail": "Updated {applied}, failed {failed} (of {pending} candidate(s))",
+  "@hotUpdateCheckCompleteDetail": {
+    "placeholders": {
+      "applied": {"type": "int"},
+      "failed": {"type": "int"},
+      "pending": {"type": "int"}
+    }
+  },
+  "hotUpdateCheckNoChanges": "Already up to date — no scripts needed updating",
+  "hotUpdateCheckEngineUnavailable": "Hot update engine unavailable; using built-in parsers",
+  "hotUpdateStatusCurrent": "Up to date",
+  "hotUpdateStatusUpdateAvailable": "Update available",
+  "hotUpdateStatusBehind": "Behind remote (local v{local} / remote v{remote})",
+  "@hotUpdateStatusBehind": {
+    "placeholders": {
+      "local": {"type": "int"},
+      "remote": {"type": "int"}
+    }
+  },
+  "hotUpdateStatusEmbedded": "Using embedded default",
+  "hotUpdateStatusCached": "Using cached remote",
+  "hotUpdateStatusTestFailed": "Last update: sandbox test failed",
+  "hotUpdateStatusDownloadFailed": "Last update: download failed",
+  "hotUpdateStatusCommitFailed": "Last update: commit failed",
+  "hotUpdateVersionCompare": "Local v{local} · Remote v{remote}",
+  "@hotUpdateVersionCompare": {
+    "placeholders": {
+      "local": {"type": "int"},
+      "remote": {"type": "int"}
+    }
+  },
+  "hotUpdateLastFailure": "Last failure: {reason}",
+  "@hotUpdateLastFailure": {
+    "placeholders": {"reason": {"type": "String"}}
   },
   "debuggerTitle": "Network debugger",
   "debuggerPause": "Pause",
