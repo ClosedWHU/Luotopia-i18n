@@ -2510,17 +2510,26 @@
       }
     }
   },
+  "hotUpdateStatusMissing": "Local missing — pull to download",
   "hotUpdateStatusEmbedded": "Using embedded default",
   "hotUpdateStatusCached": "Using cached remote",
   "hotUpdateStatusTestFailed": "Last update: sandbox test failed",
   "hotUpdateStatusDownloadFailed": "Last update: download failed",
   "hotUpdateStatusCommitFailed": "Last update: commit failed",
   "hotUpdateVersionCompare": "Local v{local} · Remote v{remote}",
+  "hotUpdateVersionMissing": "Local missing · Remote v{remote}",
   "@hotUpdateVersionCompare": {
     "placeholders": {
       "local": {
         "type": "int"
       },
+      "remote": {
+        "type": "int"
+      }
+    }
+  },
+  "@hotUpdateVersionMissing": {
+    "placeholders": {
       "remote": {
         "type": "int"
       }

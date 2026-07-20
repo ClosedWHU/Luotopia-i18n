@@ -1010,12 +1010,14 @@
   "hotUpdateStatusCurrent": "À jour",
   "hotUpdateStatusUpdateAvailable": "Mise à jour disponible",
   "hotUpdateStatusBehind": "En retard sur le distant (local v{local} / distant v{remote})",
+  "hotUpdateStatusMissing": "Absent en local — tirez pour télécharger",
   "hotUpdateStatusEmbedded": "Version par défaut intégrée utilisée",
   "hotUpdateStatusCached": "Version distante mise en cache utilisée",
   "hotUpdateStatusTestFailed": "Dernière mise à jour : échec du test isolé",
   "hotUpdateStatusDownloadFailed": "Dernière mise à jour : échec du téléchargement",
   "hotUpdateStatusCommitFailed": "Dernière mise à jour : échec de validation",
   "hotUpdateVersionCompare": "Local v{local} · Distant v{remote}",
+  "hotUpdateVersionMissing": "Absent en local · Distant v{remote}",
   "hotUpdateLastFailure": "Dernier échec : {reason}",
   "@hotUpdateCheckComplete": {
     "placeholders": {
@@ -3327,5 +3329,8 @@
   "medicalReportTime": "Date du rapport",
   "medicalLabAxisToggle": "Axe des résultats",
   "campusBusRouteViewVertical": "Vue verticale de l'itinéraire",
+  "campusBusOutsideServiceRange": "Hors des heures de service",
+  "campusBusNoReachableBus": "Aucun bus ne peut plus rejoindre cet arrêt. Choisissez un autre arrêt ou réessayez pendant les heures de service.",
+  "campusBusArrivalUseNearestToggle": "Utiliser l'arrêt le plus proche de cette ligne",
   "campusBusRouteViewHorizontal": "Vue horizontale de l'itinéraire"
 }

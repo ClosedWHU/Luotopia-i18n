@@ -1214,12 +1214,14 @@
   "hotUpdateStatusCurrent": "최신 상태",
   "hotUpdateStatusUpdateAvailable": "업데이트 사용 가능",
   "hotUpdateStatusBehind": "원격보다 이전 버전(로컬 v{local} / 원격 v{remote})",
+  "hotUpdateStatusMissing": "로컬 없음 — 당겨서 다운로드",
   "hotUpdateStatusEmbedded": "내장 기본값 사용 중",
   "hotUpdateStatusCached": "캐시된 원격 버전 사용 중",
   "hotUpdateStatusTestFailed": "마지막 업데이트: 샌드박스 테스트 실패",
   "hotUpdateStatusDownloadFailed": "마지막 업데이트: 다운로드 실패",
   "hotUpdateStatusCommitFailed": "마지막 업데이트: 커밋 실패",
   "hotUpdateVersionCompare": "로컬 v{local} · 원격 v{remote}",
+  "hotUpdateVersionMissing": "로컬 없음 · 원격 v{remote}",
   "hotUpdateLastFailure": "마지막 실패: {reason}",
   "@hotUpdateCheckComplete": {
     "placeholders": {
@@ -3334,5 +3336,8 @@
   "medicalReportTime": "보고 시간",
   "medicalLabAxisToggle": "결과 축",
   "campusBusRouteViewVertical": "세로 경로 보기",
+  "campusBusOutsideServiceRange": "운행 시간 외",
+  "campusBusNoReachableBus": "이 정류장에 도착할 수 있는 버스가 없습니다. 다른 정류장을 선택하거나 운행 시간에 다시 시도하세요.",
+  "campusBusArrivalUseNearestToggle": "이 노선의 가장 가까운 정류장 사용",
   "campusBusRouteViewHorizontal": "가로 경로 보기"
 }

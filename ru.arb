@@ -1008,12 +1008,14 @@
   "hotUpdateStatusCurrent": "Актуально",
   "hotUpdateStatusUpdateAvailable": "Доступно обновление",
   "hotUpdateStatusBehind": "Отстает от удаленной версии (локальная v{local} / удаленная v{remote})",
+  "hotUpdateStatusMissing": "Локально отсутствует — потяните для загрузки",
   "hotUpdateStatusEmbedded": "Используется встроенная версия по умолчанию",
   "hotUpdateStatusCached": "Используется кэшированная удаленная версия",
   "hotUpdateStatusTestFailed": "Последнее обновление: не пройден тест в песочнице",
   "hotUpdateStatusDownloadFailed": "Последнее обновление: ошибка загрузки",
   "hotUpdateStatusCommitFailed": "Последнее обновление: ошибка фиксации",
   "hotUpdateVersionCompare": "Локальная v{local} · Удаленная v{remote}",
+  "hotUpdateVersionMissing": "Локально нет · Удалённая v{remote}",
   "hotUpdateLastFailure": "Последняя ошибка: {reason}",
   "@hotUpdateCheckComplete": {
     "placeholders": {
@@ -3327,5 +3329,8 @@
   "medicalReportTime": "Время отчёта",
   "medicalLabAxisToggle": "Ось результатов",
   "campusBusRouteViewVertical": "Вертикальный вид маршрута",
+  "campusBusOutsideServiceRange": "Вне часов работы",
+  "campusBusNoReachableBus": "Ни один автобус больше не может доехать до этой остановки. Выберите другую или попробуйте в часы работы.",
+  "campusBusArrivalUseNearestToggle": "Использовать ближайшую остановку на этом маршруте",
   "campusBusRouteViewHorizontal": "Горизонтальный вид маршрута"
 }

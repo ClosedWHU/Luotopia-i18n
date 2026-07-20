@@ -1211,12 +1211,14 @@
   "hotUpdateStatusCurrent": "Đã cập nhật",
   "hotUpdateStatusUpdateAvailable": "Có bản cập nhật",
   "hotUpdateStatusBehind": "Chậm hơn bản từ xa (cục bộ v{local} / từ xa v{remote})",
+  "hotUpdateStatusMissing": "Thiếu bản cục bộ — kéo để tải",
   "hotUpdateStatusEmbedded": "Đang dùng bản mặc định tích hợp",
   "hotUpdateStatusCached": "Đang dùng bản từ xa đã lưu đệm",
   "hotUpdateStatusTestFailed": "Lần cập nhật trước: kiểm thử sandbox thất bại",
   "hotUpdateStatusDownloadFailed": "Lần cập nhật trước: tải xuống thất bại",
   "hotUpdateStatusCommitFailed": "Lần cập nhật trước: xác nhận thất bại",
   "hotUpdateVersionCompare": "Cục bộ v{local} · Từ xa v{remote}",
+  "hotUpdateVersionMissing": "Thiếu cục bộ · Từ xa v{remote}",
   "hotUpdateLastFailure": "Lỗi gần nhất: {reason}",
   "@hotUpdateCheckComplete": {
     "placeholders": {
@@ -3327,5 +3329,8 @@
   "medicalReportTime": "Thời gian báo cáo",
   "medicalLabAxisToggle": "Trục kết quả",
   "campusBusRouteViewVertical": "Hiển thị tuyến dọc",
+  "campusBusOutsideServiceRange": "Ngoài giờ hoạt động",
+  "campusBusNoReachableBus": "Không còn xe nào có thể đến trạm này. Hãy chọn trạm khác hoặc thử lại trong giờ hoạt động.",
+  "campusBusArrivalUseNearestToggle": "Dùng trạm gần nhất trên tuyến này",
   "campusBusRouteViewHorizontal": "Hiển thị tuyến ngang"
 }

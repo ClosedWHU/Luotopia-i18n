@@ -1225,12 +1225,14 @@
   "hotUpdateStatusCurrent": "最新",
   "hotUpdateStatusUpdateAvailable": "更新あり",
   "hotUpdateStatusBehind": "リモートより古い（ローカル v{local} / リモート v{remote}）",
+  "hotUpdateStatusMissing": "ローカルにありません — 下に引いてダウンロード",
   "hotUpdateStatusEmbedded": "内蔵の既定値を使用中",
   "hotUpdateStatusCached": "キャッシュ済みのリモート版を使用中",
   "hotUpdateStatusTestFailed": "前回の更新：サンドボックステストに失敗",
   "hotUpdateStatusDownloadFailed": "前回の更新：ダウンロードに失敗",
   "hotUpdateStatusCommitFailed": "前回の更新：コミットに失敗",
   "hotUpdateVersionCompare": "ローカル v{local} ・ リモート v{remote}",
+  "hotUpdateVersionMissing": "ローカルなし · リモート v{remote}",
   "hotUpdateLastFailure": "前回の失敗：{reason}",
   "@hotUpdateCheckComplete": {
     "placeholders": {
@@ -3327,5 +3329,8 @@
   "medicalReportTime": "報告日時",
   "medicalLabAxisToggle": "結果軸",
   "campusBusRouteViewVertical": "縦型ルート表示",
+  "campusBusOutsideServiceRange": "運行時間外です",
+  "campusBusNoReachableBus": "この停留所に到着できるバスがありません。別の停留所を選ぶか、運行時間内に再試行してください。",
+  "campusBusArrivalUseNearestToggle": "この路線の最寄り停留所を使う",
   "campusBusRouteViewHorizontal": "横型ルート表示"
 }

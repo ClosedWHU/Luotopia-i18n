@@ -1033,12 +1033,14 @@
   "hotUpdateStatusCurrent": "已是最新",
   "hotUpdateStatusUpdateAvailable": "有可用更新",
   "hotUpdateStatusBehind": "落後遠端（本機 v{local} / 遠端 v{remote}）",
+  "hotUpdateStatusMissing": "本地缺失，下拉刷新可下載",
   "hotUpdateStatusEmbedded": "使用內建預設版本",
   "hotUpdateStatusCached": "使用已快取的遠端版本",
   "hotUpdateStatusTestFailed": "上次更新：沙箱測試未通過",
   "hotUpdateStatusDownloadFailed": "上次更新：下載失敗",
   "hotUpdateStatusCommitFailed": "上次更新：寫入快取失敗",
   "hotUpdateVersionCompare": "本機 v{local} · 遠端 v{remote}",
+  "hotUpdateVersionMissing": "本地缺失 · 遠端 v{remote}",
   "hotUpdateLastFailure": "上次失敗：{reason}",
   "@hotUpdateCheckComplete": {
     "placeholders": {
@@ -3327,5 +3329,8 @@
   "medicalReportTime": "報告時間",
   "medicalLabAxisToggle": "結果數軸",
   "campusBusRouteViewVertical": "縱向路線檢視",
+  "campusBusOutsideServiceRange": "不在營運範圍內",
+  "campusBusNoReachableBus": "目前沒有車輛可以到達該站，請重新選擇站點或在營運時間內重試。",
+  "campusBusArrivalUseNearestToggle": "使用該路線的最近站點",
   "campusBusRouteViewHorizontal": "橫向路線檢視"
 }
