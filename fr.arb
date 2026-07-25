@@ -353,6 +353,14 @@
   "luotopiaPasswordHint": "Au moins 6 caractères",
   "luotopiaPasswordsDoNotMatch": "Les mots de passe ne correspondent pas",
   "luotopiaPleaseFillFields": "Saisissez le nom d’utilisateur et le mot de passe",
+  "luotopiaEmailRequired": "Saisissez une adresse e-mail",
+  "luotopiaEmailInvalid": "Saisissez une adresse e-mail valide",
+  "luotopiaPasswordRequired": "Saisissez un mot de passe",
+  "luotopiaPasswordPolicyNotMet": "Le mot de passe ne respecte pas les exigences",
+  "luotopiaPasswordRequireDigit": "Inclure un chiffre",
+  "luotopiaPasswordRequireLowercase": "Inclure une lettre minuscule",
+  "luotopiaPasswordRequireUppercase": "Inclure une lettre majuscule",
+  "luotopiaPasswordRequireSpecial": "Inclure un caractère spécial",
   "luotopiaRegistering": "Inscription…",
   "luotopiaRegisterTitle": "Inscription Luotopia",
   "luotopiaUsername": "Nom d’utilisateur",
@@ -1112,6 +1120,10 @@
   "settingsHomeGridAlpha": "Opacité du fond de grille",
   "settingsHomeGridBorderAlpha": "Opacité des bordures de grille",
   "settingsHomeCropImage": "Recadrer l’image",
+  "imageCropDesktopHint": "Glisser pour déplacer · +/− pour redimensionner le cadre",
+  "imageCropDesktopHintSquare": "Glisser pour déplacer · +/− pour redimensionner le cadre carré",
+  "imageCropZoomIn": "Zoom avant",
+  "imageCropZoomOut": "Zoom arrière",
   "settingsAiFormat": "Format d’API",
   "settingsAiFormatSubtitle": "Choisissez le format d’API IA selon le fournisseur",
   "biometricLockContentLocked": "Verrouillé",
@@ -1732,6 +1744,21 @@
   "weatherAirQualityClose": "Fermer",
   "campusBusTitle": "Bus du campus",
   "campusBusNearestStop": "Plus proche : {stopName}",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "Cible : {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
   "campusBusDistance": "~{meters} m",
   "campusBusLineOne": "Ligne 1",
   "campusBusLineTwo": "Ligne 2",
@@ -2363,6 +2390,45 @@
   "authApiCredentialsTitle": "Identifiants API",
   "authApiCredentialCreate": "Créer un identifiant",
   "authApiCredentialName": "Nom",
+  "luotopiaLoginEmailHint": "L’adresse e-mail de votre compte",
+  "luotopiaLoginUsernameHint": "Votre nom d’utilisateur Luotopia",
+  "luotopiaLoginUsernameRequired": "Saisissez votre nom d’utilisateur Luotopia",
+  "luotopiaLoginUsernameInvalid": "Utilisez 3 à 60 lettres, chiffres, points, tirets ou traits de soulignement",
+  "luotopiaLoginWhuStudentId": "Numéro étudiant WHU",
+  "luotopiaLoginWhuStudentIdHint": "Un numéro étudiant WHU associé à ce compte",
+  "luotopiaLoginWhuStudentIdRequired": "Saisissez un numéro étudiant WHU",
+  "luotopiaLoginWhuStudentIdInvalid": "Saisissez un numéro étudiant WHU numérique",
+  "authRememberCredentials": "Mémoriser le compte et le mot de passe",
+  "authWhuBindingAlreadyExists": "Déjà associé. Ne l’associez pas à nouveau.",
+  "authErrorEmailNotAllowedWithDomains": "Utilisez une adresse e-mail autorisée : {domains}.",
+  "luotopiaRegisterSuccess": "Inscription réussie. Vous pouvez maintenant vous connecter.",
+  "luotopiaRegisterEmailCodeSent": "Un code de vérification a été envoyé à {email}.",
+  "luotopiaRegisterEmailCodeRetryAfter": "Renvoi disponible dans {seconds}s",
+  "luotopiaRegisterEmailCodeSending": "Envoi du code de vérification...",
+  "luotopiaRegisterEmailCodeRequired": "Saisissez le code de vérification par e-mail à 6 chiffres.",
+  "luotopiaRegisterEmailAlreadyVerified": "Cet e-mail est déjà vérifié. Vous pouvez continuer à définir un mot de passe.",
+  "luotopiaRegisterProfileRequired": "Remplissez le nom d’utilisateur et l’e-mail avant de continuer.",
+  "luotopiaRegisterPasswordRequired": "Saisissez un mot de passe qui respecte toutes les exigences avant de vous inscrire.",
+  "luotopiaRegisterEmailCodeLabel": "Code de vérification par e-mail",
+  "luotopiaRegisterEmailCodeHint": "Saisissez le code à 6 chiffres",
+  "luotopiaRegisterEmailCodeExpires": "Le code expire dans environ {minutes} minutes.",
+  "luotopiaRegisterSendEmailCode": "Envoyer le code de vérification",
+  "luotopiaRegisterResendEmailCode": "Renvoyer le code de vérification",
+  "authRecoveryCodesTitle": "Enregistrez vos codes de récupération",
+  "authRecoveryCodesDescription": "Conservez ces codes en lieu sûr. Chaque code ne peut être utilisé qu'une fois si vous ne pouvez pas accéder à votre e-mail. Ils ne seront plus affichés.",
+  "authRecoveryCodesSaveAsText": "Enregistrer au format .txt",
+  "authRecoveryCodesSavedConfirmation": "J'ai enregistré ces codes de récupération en lieu sûr.",
+  "authApiCredentialEdit": "Modifier l’identifiant API",
+  "authApiCredentialScopesHint": "Autorisations séparées par des virgules (all pour toutes les autorisations)",
+  "authApiCredentialMonthlyLimitHint": "Limite mensuelle de requêtes (0 hérite de la limite du compte)",
+  "authApiCredentialMinuteLimitHint": "Requêtes par minute (0 hérite de la limite du compte)",
+  "authApiCredentialHourLimitHint": "Requêtes par heure (0 hérite de la limite du compte)",
+  "authApiCredentialEffectiveLimits": "Limites API effectives du compte",
+  "authApiCredentialLoadingLimits": "Chargement des limites API du compte...",
+  "authApiCredentialUsageMinute": "Minute",
+  "authApiCredentialUsageHour": "Heure",
+  "authApiCredentialUsageDay": "Jour",
+  "authApiCredentialUsageMonth": "Mois",
   "authApiCredentialKey": "Clé API",
   "authApiCredentialScopes": "Autorisations",
   "authApiCredentialAllScopes": "Toutes",
@@ -2525,6 +2591,17 @@
   },
   "authEditProfile": "Modifier le profil",
   "authDisplayName": "Nom d’affichage",
+  "authSocialProfile": "Profil social",
+  "authRegion": "Région",
+  "authGender": "Genre",
+  "authGenderMale": "Homme",
+  "authGenderFemale": "Femme",
+  "authGenderNonBinary": "Non binaire",
+  "authGenderPreferNotToSay": "Préfère ne pas répondre",
+  "authGenderOther": "Autre",
+  "authCustomGender": "Décrivez votre genre",
+  "authBirthday": "Date de naissance",
+  "authBio": "Biographie",
   "authProfileUpdateFailed": "Échec de la mise à jour du profil : {error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2639,6 +2716,8 @@
   },
   "forumCreatePost": "Créer une publication",
   "forumPost": "Publication",
+  "forumNoActiveBoards": "Aucun forum actif n'est disponible. Réessayez ou contactez un administrateur.",
+  "forumSelectedBoardUnavailable": "Le forum sélectionné est indisponible. Passage à un forum actif.",
   "forumBoardShelter": "Forum {name}",
   "@forumBoardShelter": {
     "placeholders": {
@@ -2656,6 +2735,11 @@
     }
   },
   "forumPostsLoadFailed": "Échec du chargement des publications : {error}",
+  "forumAttachmentAdd": "Ajouter une pièce jointe",
+  "forumImageAdd": "Ajouter une image",
+  "forumSupportedImageFormats": "Formats d'image pris en charge",
+  "forumSupportedAttachmentFormats": "Formats de fichier pris en charge",
+  "forumAttachmentUploadFailed": "Échec de l’envoi de la pièce jointe : {error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2692,6 +2776,7 @@
   },
   "forumPostDetails": "Détails de la publication",
   "forumReplies": "Réponses",
+  "forumRepliesEmpty": "Aucune réponse pour le moment.",
   "forumReply": "Répondre",
   "forumRepliesLoadFailed": "Échec du chargement des réponses : {error}",
   "@forumRepliesLoadFailed": {
@@ -2778,9 +2863,178 @@
   "forumLike": "J’aime",
   "forumDislike": "Je n’aime pas",
   "forumSave": "Enregistrer",
+  "forumEdit": "Modifier",
+  "forumDownload": "Télécharger",
   "forumReport": "Signaler",
   "forumReportReason": "Motif",
   "forumReportSubmitted": "Signalement envoyé.",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "Pointer",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "Échec de l’envoi du signalement : {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -2796,6 +3050,24 @@
   "forumAppealReason": "Motif de la contestation",
   "forumAppealSubmitted": "Contestation envoyée.",
   "forumModeration": "Modération",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "Approuver",
   "forumHide": "Masquer",
   "forumDelete": "Supprimer",
@@ -3144,7 +3416,48 @@
   "settingsBuildInfoBuildTime": "Heure de build",
   "luotopiaRegisterVerifyEmail": "Inscription réussie. Vérifiez votre e-mail avant de vous connecter.",
   "courseImportSemesterAlreadyAdded": "Ce semestre est déjà ajouté. Choisissez « Mettre à jour l’emploi du temps » dans le menu.",
-  "waterControlClassNo": "ClassNo {classNo}",
+  "waterControlClassNo": "Numéro de classe {classNo}",
+  "forumImageFiles": "Images du forum",
+  "forumAttachmentFiles": "Pièces jointes du forum",
+  "forumModerationAllSources": "Toutes les sources",
+  "forumModerationUnclaimed": "Non pris en charge",
+  "forumModerationUserReports": "Signalements d’utilisateurs",
+  "forumModerationAIHighRisk": "Risque élevé détecté par l’IA",
+  "forumModerationBrigadingRisk": "Risque de signalements coordonnés",
+  "forumCommentDeleted": "Ce commentaire a été supprimé",
+  "forumRepliesExpand": "Afficher {count} réponses supplémentaires",
+  "forumReplyTo": "Répondre à @{name}",
+  "majorInfoEmploymentNoData": "Aucune donnée",
+  "forumSearch": "Rechercher",
+  "forumMoreActions": "Plus d’actions",
+  "forumSearchQuery": "Rechercher des publications",
+  "forumSearchBoard": "Section",
+  "forumSearchTag": "Étiquette",
+  "forumSearchCourseId": "ID du cours",
+  "forumSortLatest": "Plus récentes",
+  "forumSortHottest": "Les plus populaires",
+  "forumSortMostCommented": "Les plus commentées",
+  "forumImagePresetDataSaver": "Économie de données",
+  "forumImagePresetRecommended": "Recommandé",
+  "forumImagePresetHighQuality": "Haute qualité",
+  "forumNotificationRead": "Lu",
+  "forumNotificationUnread": "Non lu",
+  "forumReview": "Examiner",
+  "forumResolve": "Résoudre",
+  "majorInfoBasicInformation": "Informations générales",
+  "majorInfoCollegeInformation": "Informations sur la faculté",
+  "authRegisteredDevicesTitle": "Appareils enregistrés",
+  "authRegisteredDevicesSubtitle": "Retirer un appareil arrête les notifications push, sans déconnecter une session active.",
+  "authRegisteredDevicesEmpty": "Aucun appareil enregistré.",
+  "authRegisteredDeviceLastSeen": "Dernier enregistrement : {time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "Retirer l'appareil",
   "campusFacultyArts": "Faculté des arts et sciences",
   "campusFacultyEngineering": "Faculté d’ingénierie",
   "campusFacultyInfo": "Faculté d’informatique",
@@ -3332,5 +3645,206 @@
   "campusBusOutsideServiceRange": "Hors des heures de service",
   "campusBusNoReachableBus": "Aucun bus ne peut plus rejoindre cet arrêt. Choisissez un autre arrêt ou réessayez pendant les heures de service.",
   "campusBusArrivalUseNearestToggle": "Utiliser l'arrêt le plus proche de cette ligne",
-  "campusBusRouteViewHorizontal": "Vue horizontale de l'itinéraire"
+  "campusBusRouteViewHorizontal": "Vue horizontale de l'itinéraire",
+  "authErrorInvalidCredentials": "Incorrect email or password.",
+  "authErrorEmailNotAllowed": "Use a WHU email address (@whu.edu.cn or @alumni.whu.edu.cn).",
+  "authErrorEmailExists": "Cette adresse e-mail est déjà enregistrée. Connectez-vous ou réinitialisez votre mot de passe.",
+  "authErrorEmailUnverified": "Vérifiez votre adresse e-mail avant de vous connecter.",
+  "authErrorUserDisabled": "Ce compte a été désactivé.",
+  "authErrorPasswordPolicy": "Le mot de passe ne respecte pas les exigences de sécurité actuelles.",
+  "authErrorWhuRequired": "Liez votre compte WHU avant de vous inscrire.",
+  "authErrorWhuAlreadyBound": "Ce compte WHU est déjà lié à un autre compte Luotopia.",
+  "authErrorVerificationFailed": "La vérification a échoué ou a expiré. Veuillez réessayer.",
+  "authErrorRateLimited": "Trop de demandes. Veuillez réessayer plus tard.",
+  "authErrorRequestFailed": "La demande a échoué. Veuillez réessayer.",
+  "apiErrorUnauthorized": "Authentification requise.",
+  "apiErrorInvalidToken": "La session a expiré. Veuillez vous reconnecter.",
+  "apiErrorTokenExpired": "La session a expiré. Veuillez vous reconnecter.",
+  "apiErrorUserNotFound": "Utilisateur introuvable.",
+  "apiErrorPermissionDenied": "Vous n'avez pas l'autorisation d'effectuer cette action.",
+  "apiErrorMfaRequired": "Une vérification supplémentaire est requise.",
+  "apiErrorPasswordChangeRequired": "Veuillez d'abord changer votre mot de passe.",
+  "apiErrorCourseNotFound": "Cours introuvable.",
+  "apiErrorCoursePending": "Le cours est en attente d'approbation.",
+  "apiErrorReviewNotFound": "Avis introuvable.",
+  "apiErrorSearchFailed": "La recherche est temporairement indisponible.",
+  "apiErrorServer": "Erreur du serveur. Veuillez réessayer plus tard.",
+  "apiErrorDatabase": "Le service de données est temporairement indisponible.",
+  "apiErrorConfigMissing": "La configuration du service est indisponible.",
+  "apiErrorForumUserNotFound": "Utilisateur du forum introuvable.",
+  "apiErrorInviteQuotaExhausted": "Le quota d'invitations a été épuisé.",
+  "apiErrorEditWindowExpired": "La période de modification a expiré.",
+  "apiErrorForumForbidden": "Cette action de forum n'est pas autorisée.",
+  "apiErrorForumBadRequest": "Demande de forum non valide.",
+  "apiErrorAdminRequired": "Une autorisation d'administrateur est requise.",
+  "apiErrorCalendarInvalidMode": "Mode d'exportation du calendrier non valide.",
+  "apiErrorCalendarUnavailable": "Le service de calendrier est indisponible.",
+  "apiErrorCalendarTimetableLoad": "Impossible de charger l'emploi du temps pour l'exportation du calendrier.",
+  "apiErrorCalendarGenerateFailed": "Impossible de générer le flux du calendrier.",
+  "apiErrorBusUpstream": "Le service de bus du campus est temporairement indisponible.",
+  "apiErrorCacheOperationFailed": "L'opération de cache a échoué.",
+  "apiErrorCacheDisabled": "Le service de cache est désactivé.",
+  "apiErrorCacheConfirmRequired": "Veuillez confirmer l'opération de cache.",
+  "apiErrorAdminTaskNotFound": "Tâche d'administration introuvable.",
+  "apiErrorAdminTaskUnavailable": "Le service de tâches d'administration est indisponible.",
+  "apiErrorNotImplemented": "Cette opération n'est pas encore implémentée.",
+  "apiErrorQueueUnavailable": "Le service de file d'attente est indisponible.",
+  "apiErrorInvalidRequest": "Demande non valide. Veuillez vérifier vos données.",
+  "apiErrorNotFound": "Ressource introuvable.",
+  "apiErrorConflict": "La demande entre en conflit avec l'état actuel.",
+  "apiErrorServiceUnavailable": "Le service est temporairement indisponible.",
+  "apiErrorUpstream": "Le service en amont est temporairement indisponible.",
+  "apiErrorDuplicateMutation": "Demande en double détectée.",
+  "apiErrorRequestFailed": "La demande a échoué. Veuillez réessayer.",
+  "luotopiaRegisterStepWhuTitle": "Confirmer le compte WHU",
+  "luotopiaRegisterStepWhuSubtitle": "Cette identité étudiante WHU sera liée à votre compte Luotopia.",
+  "luotopiaRegisterWhuNameLabel": "Nom",
+  "luotopiaRegisterWhuStudentIdLabel": "Identifiant étudiant",
+  "luotopiaRegisterWhuMismatchHint": "If this is not you, open WHU account settings to sign out and bind a different account.",
+  "luotopiaRegisterOpenWhuAccount": "Open WHU account",
+  "luotopiaRegisterStepProfileTitle": "Profile & email",
+  "luotopiaRegisterStepProfileSubtitle": "Choose a display name and the email for your Luotopia account.",
+  "luotopiaRegisterEmailVerifiedHint": "This email was verified on your WHU account and filled in automatically. You can still change it.",
+  "luotopiaRegisterEmailUnverifiedHint": "If this is your WHU email, verify it on the WHU account page first so we can fill it in for you.",
+  "luotopiaRegisterGoVerifyEmail": "Verify on WHU account",
+  "luotopiaRegisterStepPasswordTitle": "Set password",
+  "luotopiaRegisterStepPasswordSubtitle": "Use at least 10 characters. You will need this password to sign in.",
+  "luotopiaLoginIdentifierLabel": "E-mail, nom d’utilisateur ou numéro étudiant WHU",
+  "luotopiaLoginIdentifierHint": "Utilisez n’importe quel identifiant associé à ce compte",
+  "luotopiaLoginIdentifierRequired": "Saisissez un e-mail, un nom d’utilisateur ou un numéro étudiant WHU",
+  "scoreImportCountLabel": "Nombre de notes",
+  "campusAppMajorInfo": "Informations sur l'établissement et la filière",
+  "majorInfoTitle": "Informations sur l'établissement et la filière",
+  "majorInfoDescription": "Parcourez les divisions académiques, les facultés, les filières, les programmes d'enseignement et les données sur l'emploi.",
+  "majorInfoMajors": "Filières",
+  "majorInfoMajorCount": "filières",
+  "majorInfoShowCharts": "Afficher les graphiques",
+  "majorInfoShowList": "Afficher la liste des données",
+  "majorInfoEmploymentChartSemantics": "Graphique interactif de répartition de l'emploi",
+  "scoreTranscriptZoom": "Zoom",
+  "scoreTranscriptZoomIn": "Agrandir",
+  "scoreTranscriptZoomOut": "Réduire",
+  "scoreTranscriptMoreActions": "Autres actions sur le document",
+  "majorInfoObjective": "Objectif de formation",
+  "majorInfoPositioning": "Positionnement de la filière",
+  "majorInfoCharacteristics": "Caractéristiques de la filière",
+  "majorInfoTeachingPlan": "Programme d'enseignement",
+  "majorInfoEmploymentTypes": "Débouchés professionnels",
+  "majorInfoEmploymentIndustries": "Secteurs d'emploi",
+  "majorInfoEmploymentRegions": "Régions d'emploi",
+  "majorInfoEmploymentEmployers": "Employeurs",
+  "majorInfoTrainingPlan": "Programme de formation de la faculté",
+  "majorInfoOpenTrainingPlan": "Ouvrir l'aperçu du programme de formation",
+  "majorInfoTrainingPlanSubtitle": "Ouvre l'aperçu officiel du document Chaoxing",
+  "majorInfoTrainingPlanLoading": "Chargement du programme de formation…",
+  "majorInfoTrainingPlanUnavailable": "L'aperçu du programme de formation n'est pas disponible.",
+  "scoreImportParsedCountLabel": "Notes récupérées",
+  "scoreImportMergedCountLabel": "Notes fusionnées",
+  "scoreImportExampleLabel": "Exemple",
+  "adminConsoleTitle": "Console d’administration",
+  "adminConsoleSubtitle": "Utilisateurs, forum et état du système",
+  "adminAccessDenied": "Un accès administrateur est requis.",
+  "adminSectionOverview": "Vue d’ensemble",
+  "adminSectionUsers": "Utilisateurs",
+  "adminSectionForum": "Forum",
+  "adminSystemStatusTitle": "État du système",
+  "adminSystemStatusSubtitle": "Files, workers et statistiques des tâches",
+  "adminWorkerStatusTitle": "État du worker",
+  "adminTaskStatsTitle": "Statistiques des tâches",
+  "adminQueueStatusTitle": "État des files",
+  "adminQueueDepth": "Profondeur",
+  "adminQueuePaused": "En pause",
+  "adminQueuePause": "Mettre en pause",
+  "adminQueueResume": "Reprendre",
+  "adminStatusActiveWorkers": "Active workers",
+  "adminStatusHealthyWorkers": "Healthy workers",
+  "adminStatusTasksProcessed": "Processed",
+  "adminStatusTasksFailed": "Failed",
+  "adminStatusTasksRetried": "Retried",
+  "adminStatusWorkerInstances": "Worker instances",
+  "adminStatusNoWorkers": "No workers online",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "Healthy",
+  "adminStatusUnhealthy": "Unhealthy",
+  "adminStatusQueueSize": "Queue size",
+  "adminStatusProcessing": "Processing",
+  "adminStatusAvgProcessing": "Avg processing",
+  "adminStatusStartedAt": "Started",
+  "adminStatusLastHeartbeat": "Last heartbeat",
+  "adminStatusTasksTotal": "Total",
+  "adminStatusTasksPending": "Pending",
+  "adminStatusTasksRunning": "Running",
+  "adminStatusTasksSuccess": "Success",
+  "adminStatusTasksCancelled": "Cancelled",
+  "adminStatusScheduledRetries": "Scheduled retries",
+  "adminStatusNextRetry": "Next retry",
+  "adminStatusUpdatedAt": "Updated",
+  "adminStatusNoQueues": "No queues",
+  "adminStatusRedisConnected": "Redis connected",
+  "adminStatusRedisDisconnected": "Redis disconnected",
+  "adminUsersTitle": "Gestion des utilisateurs",
+  "adminUsersSubtitle": "Rechercher des utilisateurs et modifier les rôles",
+  "adminUsersSearchHint": "Rechercher par nom ou e-mail",
+  "adminUsersEmpty": "Aucun utilisateur trouvé.",
+  "adminUsersRoleLabel": "Rôle",
+  "adminUsersDisabled": "Désactivé",
+  "adminUsersEnable": "Activer",
+  "adminUsersDisable": "Désactiver",
+  "adminUsersSetRole": "Définir {role}",
+  "adminUsersRoleUpdated": "Rôle utilisateur mis à jour.",
+  "adminUserDetailAccount": "Compte", "adminUserDetailDisplayName": "Nom d’affichage", "adminUserDetailRegistered": "Inscription", "adminUserDetailLastActive": "Dernière activité", "adminUserDetailForum": "Forum", "adminUserDetailNickname": "Pseudonyme", "adminUserDetailStatus": "Statut", "adminUserDetailLevel": "Niveau", "adminUserDetailPosts": "Publications", "adminUserDetailComments": "Commentaires", "adminUserDetailReceivedLikes": "J’aime reçus", "adminUserDetailWhuAccountData": "Données du compte WHU", "adminUserDetailWhuAccountDataDescription": "Visible uniquement par les superadministrateurs. Cet accès est audité.", "adminUserDetailWhuAccount": "Compte WHU", "adminUserDetailManagement": "Gestion",
+  "adminUserContentPostsTitle": "Publications de l'utilisateur",
+  "adminUserContentCommentsTitle": "Commentaires de l'utilisateur",
+  "adminUserContentPostsEmpty": "Aucune publication",
+  "adminUserContentCommentsEmpty": "Aucun commentaire",
+  "adminUserContentPostLabel": "Publication: {postId}",
+  "adminRoleUser": "Utilisateur",
+  "adminRoleAdmin": "Administrateur",
+  "adminRoleSuperAdmin": "Super administrateur",
+  "adminForumBoardsTitle": "Sections du forum",
+  "adminForumBoardsSubtitle": "Créer, modifier et archiver les sections",
+  "adminForumBoardsEmpty": "Aucune section pour le moment.",
+  "adminForumBoardCreate": "Créer une section",
+  "adminForumBoardEdit": "Modifier la section",
+  "adminForumBoardName": "Nom",
+  "adminForumBoardDescription": "Description",
+  "adminForumBoardShelter": "Section refuge",
+  "adminForumBoardActive": "Active",
+  "adminForumBoardInactive": "Inactive",
+  "adminForumBoardActivate": "Activer",
+  "adminForumBoardDeactivate": "Désactiver",
+  "adminForumBoardArchive": "Archiver",
+  "adminForumSettingsTitle": "Paramètres du forum",
+  "adminForumSettingsSubtitle": "Téléversements, invitations et politiques",
+  "adminForumSettingsUpload": "Téléversements",
+  "adminForumSettingsImageExtensions": "Extensions d’image",
+  "adminForumSettingsAttachmentExtensions": "Extensions de pièce jointe",
+  "adminForumSettingsAddExtensionHint": "Saisissez puis appuyez sur Entrée pour ajouter",
+  "adminForumSettingsImageQuality": "Qualité d’image (1–100)",
+  "adminForumSettingsImageMaxDimension": "Dimension max. d’image",
+  "adminForumSettingsAllowAnimated": "Autoriser les images animées",
+  "adminForumSettingsRegistration": "Inscription",
+  "adminForumSettingsInviteRequired": "Invitation requise",
+  "adminForumSettingsInviteQuota": "Quota d’invitations par défaut",
+  "adminForumSettingsSaved": "Paramètres du forum enregistrés.",
+  "adminForumModerationSubtitle": "File des signalements et recours",
+  "adminForumConfigLogTitle": "Journal de configuration",
+  "adminForumConfigLogSubtitle": "Modifications récentes de la configuration du forum",
+  "adminForumConfigLogEmpty": "Aucune modification de configuration enregistrée.",
+  "adminForumConfigLogActor": "Auteur",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "forumReplyDepthLimit": "Profondeur de réponse maximale atteinte"
 }

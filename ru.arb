@@ -353,6 +353,14 @@
   "luotopiaPasswordHint": "Не менее 6 символов",
   "luotopiaPasswordsDoNotMatch": "Пароли не совпадают",
   "luotopiaPleaseFillFields": "Введите имя пользователя и пароль",
+  "luotopiaEmailRequired": "Введите адрес электронной почты",
+  "luotopiaEmailInvalid": "Введите корректный адрес электронной почты",
+  "luotopiaPasswordRequired": "Введите пароль",
+  "luotopiaPasswordPolicyNotMet": "Пароль не соответствует требованиям",
+  "luotopiaPasswordRequireDigit": "Содержит цифру",
+  "luotopiaPasswordRequireLowercase": "Содержит строчную букву",
+  "luotopiaPasswordRequireUppercase": "Содержит прописную букву",
+  "luotopiaPasswordRequireSpecial": "Содержит специальный символ",
   "luotopiaRegistering": "Регистрация…",
   "luotopiaRegisterTitle": "Регистрация Luotopia",
   "luotopiaUsername": "Имя пользователя",
@@ -1106,6 +1114,10 @@
   "settingsHomeGridAlpha": "Непрозрачность фона сетки",
   "settingsHomeGridBorderAlpha": "Непрозрачность границ сетки",
   "settingsHomeCropImage": "Обрезать изображение",
+  "imageCropDesktopHint": "Перетащите, чтобы переместить · +/− — изменить область",
+  "imageCropDesktopHintSquare": "Перетащите, чтобы переместить · +/− — изменить квадратную область",
+  "imageCropZoomIn": "Увеличить",
+  "imageCropZoomOut": "Уменьшить",
   "settingsAiFormat": "Формат API",
   "settingsAiFormatSubtitle": "Выберите формат API ИИ под провайдера",
   "biometricLockContentLocked": "Заблокировано",
@@ -1725,6 +1737,21 @@
   "weatherAirQualityClose": "Закрыть",
   "campusBusTitle": "Кампусный автобус",
   "campusBusNearestStop": "Ближайшая: {stopName}",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "Цель: {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
   "campusBusDistance": "~{meters} м",
   "campusBusLineOne": "Маршрут 1",
   "campusBusLineTwo": "Маршрут 2",
@@ -2356,6 +2383,45 @@
   "authApiCredentialsTitle": "Учётные данные API",
   "authApiCredentialCreate": "Создать учётные данные",
   "authApiCredentialName": "Название",
+  "luotopiaLoginEmailHint": "Адрес электронной почты вашей учетной записи",
+  "luotopiaLoginUsernameHint": "Ваше имя пользователя Luotopia",
+  "luotopiaLoginUsernameRequired": "Введите имя пользователя Luotopia",
+  "luotopiaLoginUsernameInvalid": "Используйте от 3 до 60 букв, цифр, точек, дефисов или подчеркиваний",
+  "luotopiaLoginWhuStudentId": "Номер студента WHU",
+  "luotopiaLoginWhuStudentIdHint": "Номер студента WHU, связанный с этой учетной записью",
+  "luotopiaLoginWhuStudentIdRequired": "Введите номер студента WHU",
+  "luotopiaLoginWhuStudentIdInvalid": "Введите числовой номер студента WHU",
+  "authRememberCredentials": "Запомнить учетную запись и пароль",
+  "authWhuBindingAlreadyExists": "Уже связано. Не связывайте повторно.",
+  "authErrorEmailNotAllowedWithDomains": "Используйте разрешенный адрес электронной почты: {domains}.",
+  "luotopiaRegisterSuccess": "Регистрация прошла успешно. Теперь вы можете войти.",
+  "luotopiaRegisterEmailCodeSent": "Код подтверждения отправлен на {email}.",
+  "luotopiaRegisterEmailCodeRetryAfter": "Повторная отправка доступна через {seconds} с",
+  "luotopiaRegisterEmailCodeSending": "Отправка кода подтверждения...",
+  "luotopiaRegisterEmailCodeRequired": "Введите 6-значный код подтверждения электронной почты.",
+  "luotopiaRegisterEmailAlreadyVerified": "Этот адрес уже подтвержден. Можно продолжить настройку пароля.",
+  "luotopiaRegisterProfileRequired": "Перед продолжением заполните имя пользователя и адрес электронной почты.",
+  "luotopiaRegisterPasswordRequired": "Перед регистрацией введите пароль, соответствующий всем требованиям.",
+  "luotopiaRegisterEmailCodeLabel": "Код подтверждения электронной почты",
+  "luotopiaRegisterEmailCodeHint": "Введите 6-значный код",
+  "luotopiaRegisterEmailCodeExpires": "Срок действия кода истекает примерно через {minutes} мин.",
+  "luotopiaRegisterSendEmailCode": "Отправить код подтверждения",
+  "luotopiaRegisterResendEmailCode": "Отправить код повторно",
+  "authRecoveryCodesTitle": "Сохраните коды восстановления",
+  "authRecoveryCodesDescription": "Храните эти коды в безопасном месте. Каждый код можно использовать один раз, если у вас нет доступа к электронной почте. Они больше не будут показаны.",
+  "authRecoveryCodesSaveAsText": "Сохранить как .txt",
+  "authRecoveryCodesSavedConfirmation": "Я надежно сохранил(а) эти коды восстановления.",
+  "authApiCredentialEdit": "Изменить учетные данные API",
+  "authApiCredentialScopesHint": "Области действия через запятую (all для всех областей)",
+  "authApiCredentialMonthlyLimitHint": "Месячный лимит запросов (0 наследует лимит учетной записи)",
+  "authApiCredentialMinuteLimitHint": "Запросов в минуту (0 наследует лимит учетной записи)",
+  "authApiCredentialHourLimitHint": "Запросов в час (0 наследует лимит учетной записи)",
+  "authApiCredentialEffectiveLimits": "Действующие лимиты API учетной записи",
+  "authApiCredentialLoadingLimits": "Загрузка лимитов API учетной записи...",
+  "authApiCredentialUsageMinute": "Минута",
+  "authApiCredentialUsageHour": "Час",
+  "authApiCredentialUsageDay": "День",
+  "authApiCredentialUsageMonth": "Месяц",
   "authApiCredentialKey": "Ключ API",
   "authApiCredentialScopes": "Области доступа",
   "authApiCredentialAllScopes": "Все",
@@ -2518,6 +2584,17 @@
   },
   "authEditProfile": "Изменить профиль",
   "authDisplayName": "Отображаемое имя",
+  "authSocialProfile": "Социальный профиль",
+  "authRegion": "Регион",
+  "authGender": "Гендер",
+  "authGenderMale": "Мужской",
+  "authGenderFemale": "Женский",
+  "authGenderNonBinary": "Небинарный",
+  "authGenderPreferNotToSay": "Предпочитаю не указывать",
+  "authGenderOther": "Другое",
+  "authCustomGender": "Опишите свой гендер",
+  "authBirthday": "Дата рождения",
+  "authBio": "О себе",
   "authProfileUpdateFailed": "Не удалось обновить профиль: {error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2666,6 +2743,8 @@
   },
   "forumCreatePost": "Создать публикацию",
   "forumPost": "Публикация",
+  "forumNoActiveBoards": "Нет доступных активных разделов. Повторите попытку или обратитесь к администратору.",
+  "forumSelectedBoardUnavailable": "Выбранный раздел недоступен. Выполнен переход к активному разделу.",
   "forumBoardShelter": "Убежище {name}",
   "@forumBoardShelter": {
     "placeholders": {
@@ -2683,6 +2762,11 @@
     }
   },
   "forumPostsLoadFailed": "Не удалось загрузить публикации: {error}",
+  "forumAttachmentAdd": "Добавить вложение",
+  "forumImageAdd": "Добавить изображение",
+  "forumSupportedImageFormats": "Поддерживаемые форматы изображений",
+  "forumSupportedAttachmentFormats": "Поддерживаемые форматы вложений",
+  "forumAttachmentUploadFailed": "Не удалось загрузить вложение: {error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2719,6 +2803,7 @@
   },
   "forumPostDetails": "Сведения о публикации",
   "forumReplies": "Ответы",
+  "forumRepliesEmpty": "Ответов пока нет.",
   "forumReply": "Ответить",
   "forumRepliesLoadFailed": "Не удалось загрузить ответы: {error}",
   "@forumRepliesLoadFailed": {
@@ -2770,9 +2855,178 @@
   "forumLike": "Нравится",
   "forumDislike": "Не нравится",
   "forumSave": "Сохранить",
+  "forumEdit": "Редактировать",
+  "forumDownload": "Скачать",
   "forumReport": "Пожаловаться",
   "forumReportReason": "Причина",
   "forumReportSubmitted": "Жалоба отправлена.",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "Отметиться",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "Не удалось отправить жалобу: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3094,6 +3348,24 @@
   "forumAppealReason": "Текст жалобы",
   "forumAppealSubmitted": "Жалоба отправлена.",
   "forumModeration": "Модерация",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "Одобрить",
   "forumHide": "Скрыть",
   "forumDelete": "Удалить",
@@ -3144,7 +3416,48 @@
   "settingsBuildInfoBuildTime": "Время сборки",
   "luotopiaRegisterVerifyEmail": "Регистрация успешна. Подтвердите email перед входом.",
   "courseImportSemesterAlreadyAdded": "Этот семестр уже добавлен. Выберите «Обновить расписание» в меню.",
-  "waterControlClassNo": "ClassNo {classNo}",
+  "waterControlClassNo": "Номер занятия {classNo}",
+  "forumImageFiles": "Изображения форума",
+  "forumAttachmentFiles": "Вложения форума",
+  "forumModerationAllSources": "Все источники",
+  "forumModerationUnclaimed": "Не назначено",
+  "forumModerationUserReports": "Жалобы пользователей",
+  "forumModerationAIHighRisk": "Высокий риск по оценке ИИ",
+  "forumModerationBrigadingRisk": "Риск скоординированных жалоб",
+  "forumCommentDeleted": "Этот комментарий удалён",
+  "forumRepliesExpand": "Показать ещё {count} ответов",
+  "forumReplyTo": "Ответить @{name}",
+  "majorInfoEmploymentNoData": "Нет данных",
+  "forumSearch": "Поиск",
+  "forumMoreActions": "Ещё действия",
+  "forumSearchQuery": "Искать публикации",
+  "forumSearchBoard": "Раздел",
+  "forumSearchTag": "Тег",
+  "forumSearchCourseId": "ID курса",
+  "forumSortLatest": "Новые",
+  "forumSortHottest": "Популярные",
+  "forumSortMostCommented": "С наибольшим числом комментариев",
+  "forumImagePresetDataSaver": "Экономия трафика",
+  "forumImagePresetRecommended": "Рекомендуется",
+  "forumImagePresetHighQuality": "Высокое качество",
+  "forumNotificationRead": "Прочитано",
+  "forumNotificationUnread": "Не прочитано",
+  "forumReview": "Проверить",
+  "forumResolve": "Решить",
+  "majorInfoBasicInformation": "Основная информация",
+  "majorInfoCollegeInformation": "Информация о факультете",
+  "authRegisteredDevicesTitle": "Зарегистрированные устройства",
+  "authRegisteredDevicesSubtitle": "Удаление устройства остановит push-уведомления, но не завершит активный сеанс.",
+  "authRegisteredDevicesEmpty": "Нет зарегистрированных устройств.",
+  "authRegisteredDeviceLastSeen": "Последняя регистрация: {time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "Удалить устройство",
   "campusFacultyArts": "Факультет искусств и наук",
   "campusFacultyEngineering": "Инженерный факультет",
   "campusFacultyInfo": "Факультет информатики",
@@ -3332,5 +3645,206 @@
   "campusBusOutsideServiceRange": "Вне часов работы",
   "campusBusNoReachableBus": "Ни один автобус больше не может доехать до этой остановки. Выберите другую или попробуйте в часы работы.",
   "campusBusArrivalUseNearestToggle": "Использовать ближайшую остановку на этом маршруте",
-  "campusBusRouteViewHorizontal": "Горизонтальный вид маршрута"
+  "campusBusRouteViewHorizontal": "Горизонтальный вид маршрута",
+  "luotopiaLoginIdentifierLabel": "Электронная почта, имя пользователя или номер студента WHU",
+  "luotopiaLoginIdentifierHint": "Используйте любой идентификатор, связанный с этим аккаунтом",
+  "luotopiaLoginIdentifierRequired": "Введите электронную почту, имя пользователя или номер студента WHU",
+  "authErrorInvalidCredentials": "Неверный адрес электронной почты или пароль.",
+  "authErrorEmailNotAllowed": "Используйте адрес WHU (@whu.edu.cn или @alumni.whu.edu.cn).",
+  "authErrorEmailExists": "Этот адрес уже зарегистрирован. Войдите или сбросьте пароль.",
+  "authErrorEmailUnverified": "Подтвердите электронную почту перед входом.",
+  "authErrorUserDisabled": "Эта учётная запись отключена.",
+  "authErrorPasswordPolicy": "Пароль не соответствует текущим требованиям безопасности.",
+  "authErrorWhuRequired": "Свяжите аккаунт WHU перед регистрацией.",
+  "authErrorWhuAlreadyBound": "Этот аккаунт WHU уже связан с другой учётной записью Luotopia.",
+  "authErrorVerificationFailed": "Проверка не удалась или истекла. Повторите попытку.",
+  "authErrorRateLimited": "Слишком много запросов. Повторите позже.",
+  "authErrorRequestFailed": "Запрос не выполнен. Повторите попытку.",
+  "apiErrorUnauthorized": "Требуется аутентификация.",
+  "apiErrorInvalidToken": "Срок действия сеанса истёк. Войдите снова.",
+  "apiErrorTokenExpired": "Срок действия сеанса истёк. Войдите снова.",
+  "apiErrorUserNotFound": "Пользователь не найден.",
+  "apiErrorPermissionDenied": "У вас нет разрешения на это действие.",
+  "apiErrorMfaRequired": "Требуется дополнительная проверка.",
+  "apiErrorPasswordChangeRequired": "Сначала измените пароль.",
+  "apiErrorCourseNotFound": "Курс не найден.",
+  "apiErrorCoursePending": "Курс ожидает утверждения.",
+  "apiErrorReviewNotFound": "Отзыв не найден.",
+  "apiErrorSearchFailed": "Поиск временно недоступен.",
+  "apiErrorServer": "Ошибка сервера. Повторите позже.",
+  "apiErrorDatabase": "Сервис данных временно недоступен.",
+  "apiErrorConfigMissing": "Конфигурация сервиса недоступна.",
+  "apiErrorForumUserNotFound": "Пользователь форума не найден.",
+  "apiErrorInviteQuotaExhausted": "Лимит приглашений исчерпан.",
+  "apiErrorEditWindowExpired": "Срок редактирования истёк.",
+  "apiErrorForumForbidden": "Это действие на форуме запрещено.",
+  "apiErrorForumBadRequest": "Недопустимый запрос форума.",
+  "apiErrorAdminRequired": "Требуются права администратора.",
+  "apiErrorCalendarInvalidMode": "Недопустимый режим экспорта календаря.",
+  "apiErrorCalendarUnavailable": "Сервис календаря недоступен.",
+  "apiErrorCalendarTimetableLoad": "Не удалось загрузить расписание для экспорта календаря.",
+  "apiErrorCalendarGenerateFailed": "Не удалось создать ленту календаря.",
+  "apiErrorBusUpstream": "Сервис кампусных автобусов временно недоступен.",
+  "apiErrorCacheOperationFailed": "Операция с кешем не выполнена.",
+  "apiErrorCacheDisabled": "Сервис кеша отключён.",
+  "apiErrorCacheConfirmRequired": "Подтвердите операцию с кешем.",
+  "apiErrorAdminTaskNotFound": "Задача администратора не найдена.",
+  "apiErrorAdminTaskUnavailable": "Сервис задач администратора недоступен.",
+  "apiErrorNotImplemented": "Эта операция ещё не реализована.",
+  "apiErrorQueueUnavailable": "Сервис очереди недоступен.",
+  "apiErrorInvalidRequest": "Недопустимый запрос. Проверьте введённые данные.",
+  "apiErrorNotFound": "Ресурс не найден.",
+  "apiErrorConflict": "Запрос конфликтует с текущим состоянием.",
+  "apiErrorServiceUnavailable": "Сервис временно недоступен.",
+  "apiErrorUpstream": "Вышестоящий сервис временно недоступен.",
+  "apiErrorDuplicateMutation": "Обнаружен повторный запрос.",
+  "apiErrorRequestFailed": "Запрос не выполнен. Повторите попытку.",
+  "luotopiaRegisterStepWhuTitle": "Подтвердите аккаунт WHU",
+  "luotopiaRegisterStepWhuSubtitle": "Эта студенческая учётная запись WHU будет связана с вашим аккаунтом Luotopia.",
+  "luotopiaRegisterWhuNameLabel": "Имя",
+  "luotopiaRegisterWhuStudentIdLabel": "Номер студента",
+  "luotopiaRegisterWhuMismatchHint": "Если это не вы, откройте настройки аккаунта WHU, выйдите и привяжите другой аккаунт.",
+  "luotopiaRegisterOpenWhuAccount": "Открыть аккаунт WHU",
+  "luotopiaRegisterStepProfileTitle": "Профиль и электронная почта",
+  "luotopiaRegisterStepProfileSubtitle": "Выберите отображаемое имя и почту для аккаунта Luotopia.",
+  "luotopiaRegisterEmailVerifiedHint": "Эта почта подтверждена в аккаунте WHU и заполнена автоматически. Вы всё ещё можете её изменить.",
+  "luotopiaRegisterEmailUnverifiedHint": "Если это ваша почта WHU, сначала подтвердите её на странице аккаунта WHU, чтобы мы могли заполнить её автоматически.",
+  "luotopiaRegisterGoVerifyEmail": "Подтвердить в аккаунте WHU",
+  "luotopiaRegisterStepPasswordTitle": "Задайте пароль",
+  "luotopiaRegisterStepPasswordSubtitle": "Используйте не менее 10 символов. Этот пароль потребуется для входа.",
+  "scoreImportCountLabel": "Количество оценок",
+  "campusAppMajorInfo": "Информация о факультете и специальности",
+  "majorInfoTitle": "Информация о факультете и специальности",
+  "majorInfoDescription": "Просматривайте учебные подразделения, факультеты, специальности, учебные планы и данные о трудоустройстве.",
+  "majorInfoMajors": "Специальности",
+  "majorInfoMajorCount": "специальностей",
+  "majorInfoShowCharts": "Показать диаграммы",
+  "majorInfoShowList": "Показать список данных",
+  "majorInfoEmploymentChartSemantics": "Интерактивная диаграмма распределения трудоустройства",
+  "scoreTranscriptZoom": "Масштаб",
+  "scoreTranscriptZoomIn": "Увеличить",
+  "scoreTranscriptZoomOut": "Уменьшить",
+  "scoreTranscriptMoreActions": "Другие действия с документом",
+  "majorInfoObjective": "Цель подготовки",
+  "majorInfoPositioning": "Позиционирование специальности",
+  "majorInfoCharacteristics": "Особенности специальности",
+  "majorInfoTeachingPlan": "Учебный план",
+  "majorInfoEmploymentTypes": "Направления трудоустройства",
+  "majorInfoEmploymentIndustries": "Отрасли трудоустройства",
+  "majorInfoEmploymentRegions": "Регионы трудоустройства",
+  "majorInfoEmploymentEmployers": "Работодатели",
+  "majorInfoTrainingPlan": "План подготовки факультета",
+  "majorInfoOpenTrainingPlan": "Открыть предварительный просмотр плана подготовки",
+  "majorInfoTrainingPlanSubtitle": "Открывает официальный предварительный просмотр документа Chaoxing",
+  "majorInfoTrainingPlanLoading": "Загрузка плана подготовки…",
+  "majorInfoTrainingPlanUnavailable": "Предварительный просмотр плана подготовки недоступен.",
+  "scoreImportParsedCountLabel": "Полученные оценки",
+  "scoreImportMergedCountLabel": "Объединённые оценки",
+  "scoreImportExampleLabel": "Пример",
+  "adminConsoleTitle": "Консоль администратора",
+  "adminConsoleSubtitle": "Пользователи, форум и состояние системы",
+  "adminAccessDenied": "Требуются права администратора.",
+  "adminSectionOverview": "Обзор",
+  "adminSectionUsers": "Пользователи",
+  "adminSectionForum": "Форум",
+  "adminSystemStatusTitle": "Состояние системы",
+  "adminSystemStatusSubtitle": "Очереди, воркеры и статистика задач",
+  "adminWorkerStatusTitle": "Состояние воркера",
+  "adminTaskStatsTitle": "Статистика задач",
+  "adminQueueStatusTitle": "Состояние очередей",
+  "adminQueueDepth": "Глубина",
+  "adminQueuePaused": "Приостановлено",
+  "adminQueuePause": "Пауза",
+  "adminQueueResume": "Возобновить",
+  "adminStatusActiveWorkers": "Active workers",
+  "adminStatusHealthyWorkers": "Healthy workers",
+  "adminStatusTasksProcessed": "Processed",
+  "adminStatusTasksFailed": "Failed",
+  "adminStatusTasksRetried": "Retried",
+  "adminStatusWorkerInstances": "Worker instances",
+  "adminStatusNoWorkers": "No workers online",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "Healthy",
+  "adminStatusUnhealthy": "Unhealthy",
+  "adminStatusQueueSize": "Queue size",
+  "adminStatusProcessing": "Processing",
+  "adminStatusAvgProcessing": "Avg processing",
+  "adminStatusStartedAt": "Started",
+  "adminStatusLastHeartbeat": "Last heartbeat",
+  "adminStatusTasksTotal": "Total",
+  "adminStatusTasksPending": "Pending",
+  "adminStatusTasksRunning": "Running",
+  "adminStatusTasksSuccess": "Success",
+  "adminStatusTasksCancelled": "Cancelled",
+  "adminStatusScheduledRetries": "Scheduled retries",
+  "adminStatusNextRetry": "Next retry",
+  "adminStatusUpdatedAt": "Updated",
+  "adminStatusNoQueues": "No queues",
+  "adminStatusRedisConnected": "Redis connected",
+  "adminStatusRedisDisconnected": "Redis disconnected",
+  "adminUsersTitle": "Управление пользователями",
+  "adminUsersSubtitle": "Поиск пользователей и смена ролей",
+  "adminUsersSearchHint": "Поиск по имени или email",
+  "adminUsersEmpty": "Пользователи не найдены.",
+  "adminUsersRoleLabel": "Роль",
+  "adminUsersDisabled": "Отключён",
+  "adminUsersEnable": "Включить",
+  "adminUsersDisable": "Отключить",
+  "adminUsersSetRole": "Назначить {role}",
+  "adminUsersRoleUpdated": "Роль пользователя обновлена.",
+  "adminUserDetailAccount": "Учётная запись", "adminUserDetailDisplayName": "Отображаемое имя", "adminUserDetailRegistered": "Регистрация", "adminUserDetailLastActive": "Последняя активность", "adminUserDetailForum": "Форум", "adminUserDetailNickname": "Псевдоним", "adminUserDetailStatus": "Статус", "adminUserDetailLevel": "Уровень", "adminUserDetailPosts": "Публикации", "adminUserDetailComments": "Комментарии", "adminUserDetailReceivedLikes": "Полученные отметки «нравится»", "adminUserDetailWhuAccountData": "Данные учётной записи WHU", "adminUserDetailWhuAccountDataDescription": "Доступно только суперадминистраторам. Доступ журналируется.", "adminUserDetailWhuAccount": "Учётная запись WHU", "adminUserDetailManagement": "Управление",
+  "adminUserContentPostsTitle": "Публикации пользователя",
+  "adminUserContentCommentsTitle": "Комментарии пользователя",
+  "adminUserContentPostsEmpty": "Нет публикаций",
+  "adminUserContentCommentsEmpty": "Нет комментариев",
+  "adminUserContentPostLabel": "Публикация: {postId}",
+  "adminRoleUser": "Пользователь",
+  "adminRoleAdmin": "Администратор",
+  "adminRoleSuperAdmin": "Суперадминистратор",
+  "adminForumBoardsTitle": "Разделы форума",
+  "adminForumBoardsSubtitle": "Создание, правка и архивация разделов",
+  "adminForumBoardsEmpty": "Разделов пока нет.",
+  "adminForumBoardCreate": "Создать раздел",
+  "adminForumBoardEdit": "Редактировать раздел",
+  "adminForumBoardName": "Название",
+  "adminForumBoardDescription": "Описание",
+  "adminForumBoardShelter": "Раздел-убежище",
+  "adminForumBoardActive": "Активен",
+  "adminForumBoardInactive": "Неактивен",
+  "adminForumBoardActivate": "Активировать",
+  "adminForumBoardDeactivate": "Деактивировать",
+  "adminForumBoardArchive": "В архив",
+  "adminForumSettingsTitle": "Настройки форума",
+  "adminForumSettingsSubtitle": "Загрузки, приглашения и политики",
+  "adminForumSettingsUpload": "Загрузки",
+  "adminForumSettingsImageExtensions": "Расширения изображений",
+  "adminForumSettingsAttachmentExtensions": "Расширения вложений",
+  "adminForumSettingsAddExtensionHint": "Введите и нажмите Enter, чтобы добавить",
+  "adminForumSettingsImageQuality": "Качество изображений (1–100)",
+  "adminForumSettingsImageMaxDimension": "Макс. размер изображения",
+  "adminForumSettingsAllowAnimated": "Разрешить анимированные изображения",
+  "adminForumSettingsRegistration": "Регистрация",
+  "adminForumSettingsInviteRequired": "Требуется приглашение",
+  "adminForumSettingsInviteQuota": "Квота приглашений по умолчанию",
+  "adminForumSettingsSaved": "Настройки форума сохранены.",
+  "adminForumModerationSubtitle": "Очередь жалоб и апелляций",
+  "adminForumConfigLogTitle": "Журнал конфигурации",
+  "adminForumConfigLogSubtitle": "Недавние изменения настроек форума",
+  "adminForumConfigLogEmpty": "Записей об изменениях конфигурации нет.",
+  "adminForumConfigLogActor": "Исполнитель",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "forumReplyDepthLimit": "Достигнута максимальная глубина ответа"
 }

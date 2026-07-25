@@ -490,12 +490,31 @@
   "luotopiaEmailOptional": "Email (optional)",
   "luotopiaLoggingIn": "Logging in...",
   "luotopiaLoginTitle": "Log in to Luotopia",
+  "luotopiaLoginIdentifierLabel": "Email, username, or WHU student ID",
+  "luotopiaLoginIdentifierHint": "Use any identifier bound to this account",
+  "luotopiaLoginIdentifierRequired": "Enter an email, username, or WHU student ID",
+  "luotopiaLoginEmailHint": "Your account email address",
+  "luotopiaLoginUsernameHint": "Your Luotopia username",
+  "luotopiaLoginUsernameRequired": "Enter your Luotopia username",
+  "luotopiaLoginUsernameInvalid": "Use 3-60 letters, numbers, dots, hyphens, or underscores",
+  "luotopiaLoginWhuStudentId": "WHU student ID",
+  "luotopiaLoginWhuStudentIdHint": "A WHU student ID bound to this account",
+  "luotopiaLoginWhuStudentIdRequired": "Enter a WHU student ID",
+  "luotopiaLoginWhuStudentIdInvalid": "Enter a numeric WHU student ID",
   "luotopiaLogoutWarning": "You will need to log in again to use forum and other features.",
   "luotopiaNoAccountYet": "No account yet?",
   "luotopiaNotLoggedIn": "Not logged in",
   "luotopiaPasswordHint": "At least 6 characters",
   "luotopiaPasswordsDoNotMatch": "Passwords do not match",
-  "luotopiaPleaseFillFields": "Please enter username and password",
+   "luotopiaPleaseFillFields": "Please enter username and password",
+   "luotopiaEmailRequired": "Enter an email address",
+   "luotopiaEmailInvalid": "Enter a valid email address",
+   "luotopiaPasswordRequired": "Enter a password",
+   "luotopiaPasswordPolicyNotMet": "Password does not meet the requirements",
+   "luotopiaPasswordRequireDigit": "Include a number",
+   "luotopiaPasswordRequireLowercase": "Include a lowercase letter",
+   "luotopiaPasswordRequireUppercase": "Include an uppercase letter",
+   "luotopiaPasswordRequireSpecial": "Include a special character",
   "luotopiaRegistering": "Registering...",
   "luotopiaRegisterTitle": "Register Luotopia",
   "luotopiaUsername": "Username",
@@ -1235,6 +1254,10 @@
   "settingsHomeGridAlpha": "Grid Background Opacity",
   "settingsHomeGridBorderAlpha": "Grid Border Opacity",
   "settingsHomeCropImage": "Crop Image",
+  "imageCropDesktopHint": "Drag to move · use +/− to resize the crop",
+  "imageCropDesktopHintSquare": "Drag to move · use +/− to resize the square crop",
+  "imageCropZoomIn": "Zoom in",
+  "imageCropZoomOut": "Zoom out",
   "settingsAiFormat": "API Format",
   "settingsAiFormatSubtitle": "Select AI API format for different providers",
   "biometricLockContentLocked": "Content Locked",
@@ -1654,6 +1677,37 @@
     }
   },
   "scoreImportCount": "Score count: {count}",
+  "scoreImportCountLabel": "Score count",
+  "campusAppMajorInfo": "School & Major Info",
+  "majorInfoTitle": "School & Major Information",
+  "majorInfoDescription": "Browse academic divisions, colleges, majors, teaching plans, and employment data.",
+  "majorInfoMajors": "Majors",
+  "majorInfoMajorCount": "majors",
+  "majorInfoShowCharts": "Show charts",
+  "majorInfoShowList": "Show data list",
+  "majorInfoEmploymentChartSemantics": "Interactive employment distribution chart",
+  "scoreTranscriptZoom": "Zoom",
+  "scoreTranscriptZoomIn": "Zoom in",
+  "scoreTranscriptZoomOut": "Zoom out",
+  "scoreTranscriptMoreActions": "More document actions",
+  "majorInfoObjective": "Training objective",
+  "majorInfoPositioning": "Major positioning",
+  "majorInfoCharacteristics": "Major characteristics",
+  "majorInfoTeachingPlan": "Teaching plan",
+  "majorInfoBasicInformation": "Basic information",
+  "majorInfoCollegeInformation": "College information",
+  "majorInfoEmploymentTypes": "Employment destinations",
+  "majorInfoEmploymentIndustries": "Employment industries",
+  "majorInfoEmploymentRegions": "Employment regions",
+  "majorInfoEmploymentEmployers": "Employers",
+  "majorInfoEmploymentNoData": "No data",
+  "majorInfoTrainingPlan": "College training plan",
+  "majorInfoOpenTrainingPlan": "Open training-plan preview",
+  "majorInfoTrainingPlanSubtitle": "Opens the official Chaoxing document preview",
+  "majorInfoTrainingPlanLoading": "Loading training plan…",
+  "majorInfoTrainingPlanUnavailable": "Training-plan preview is unavailable.",
+  "scoreImportParsedCountLabel": "Fetched scores",
+  "scoreImportMergedCountLabel": "Merged scores",
   "@scoreImportCount": {
     "placeholders": {
       "count": {
@@ -1661,7 +1715,8 @@
       }
     }
   },
-  "scoreImportExample": "Example: {name} · {score} · {credit}",
+  "scoreImportExample": "{name} · {score} · {credit}",
+  "scoreImportExampleLabel": "Example",
   "@scoreImportExample": {
     "placeholders": {
       "name": {
@@ -1883,7 +1938,22 @@
   "weatherAirQualityClose": "Close",
   "campusBusTitle": "Campus Bus",
   "campusBusNearestStop": "Nearest: {stopName}",
-  "campusBusDistance": "~{meters}m",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "Target: {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+"campusBusDistance": "~{meters}m",
   "campusBusLineOne": "Line 1",
   "campusBusLineTwo": "Line 2",
   "campusBusLineMedical": "Medical Campus",
@@ -2596,6 +2666,7 @@
   "authPasskeyRegistered": "Passkey registered",
   "authNoPasskeys": "No Passkeys yet",
   "authForgotPassword": "Forgot password?",
+  "authRememberCredentials": "Remember account and password",
   "authResetPassword": "Reset password",
   "authSendResetLink": "Send reset link",
   "authResetRequested": "If this email is registered, a reset link has been sent.",
@@ -2630,6 +2701,21 @@
   "authApiCredentialsTitle": "API credentials",
   "authApiCredentialCreate": "Create credential",
   "authApiCredentialName": "Name",
+  "authRecoveryCodesTitle": "Save your recovery codes",
+  "authRecoveryCodesDescription": "Store these codes somewhere safe. Each code can be used once if you cannot access your email. They will not be shown again.",
+  "authRecoveryCodesSaveAsText": "Save as .txt",
+  "authRecoveryCodesSavedConfirmation": "I have safely saved these recovery codes.",
+  "authApiCredentialEdit": "Edit API credential",
+  "authApiCredentialScopesHint": "Scopes, comma separated (all for all scopes)",
+  "authApiCredentialMonthlyLimitHint": "Monthly request limit (0 inherits account limit)",
+  "authApiCredentialMinuteLimitHint": "Requests per minute (0 inherits account limit)",
+  "authApiCredentialHourLimitHint": "Requests per hour (0 inherits account limit)",
+  "authApiCredentialEffectiveLimits": "Effective account API limits",
+  "authApiCredentialLoadingLimits": "Loading account API limits...",
+  "authApiCredentialUsageMinute": "Minute",
+  "authApiCredentialUsageHour": "Hour",
+  "authApiCredentialUsageDay": "Day",
+  "authApiCredentialUsageMonth": "Month",
   "authApiCredentialKey": "API Key",
   "authApiCredentialScopes": "Scopes",
   "authApiCredentialAllScopes": "All",
@@ -2749,6 +2835,7 @@
   "authWhuBindingsTitle": "Linked WHU accounts",
   "authWhuBindingsManage": "Manage local authentication",
   "authWhuBindingSucceeded": "Account linked",
+  "authWhuBindingAlreadyExists": "Already linked. Please do not link it again.",
   "authWhuBindingFailed": "Failed to link account: {error}",
   "@authWhuBindingFailed": {
     "placeholders": {
@@ -2792,6 +2879,17 @@
   },
   "authEditProfile": "Edit profile",
   "authDisplayName": "Display name",
+  "authSocialProfile": "Social profile",
+  "authRegion": "Region",
+  "authGender": "Gender",
+  "authGenderMale": "Male",
+  "authGenderFemale": "Female",
+  "authGenderNonBinary": "Non-binary",
+  "authGenderPreferNotToSay": "Prefer not to say",
+  "authGenderOther": "Other",
+  "authCustomGender": "Describe your gender",
+  "authBirthday": "Birthday",
+  "authBio": "Bio",
   "authProfileUpdateFailed": "Failed to update profile: {error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2812,6 +2910,65 @@
     }
   },
   "authPasswordChangeConfirm": "Change password",
+  "authErrorInvalidCredentials": "Incorrect sign-in identifier or password.",
+  "authErrorEmailNotAllowed": "This email domain is not allowed.",
+  "authErrorEmailNotAllowedWithDomains": "Use an allowed email address: {domains}.",
+  "@authErrorEmailNotAllowedWithDomains": {
+    "placeholders": {
+      "domains": {
+        "type": "String"
+      }
+    }
+  },
+  "authErrorEmailExists": "This email is already registered. Sign in or reset your password.",
+  "authErrorEmailUnverified": "Verify your email before signing in.",
+  "authErrorUserDisabled": "This account has been disabled.",
+  "authErrorPasswordPolicy": "Password does not meet the current security requirements.",
+  "authErrorWhuRequired": "Link your WHU account before registering.",
+  "authErrorWhuAlreadyBound": "This WHU account is already linked to another Luotopia account.",
+  "authErrorVerificationFailed": "Verification failed or expired. Please try again.",
+  "authErrorRateLimited": "Too many requests. Please try again later.",
+  "authErrorRequestFailed": "Request failed. Please try again.",
+  "apiErrorUnauthorized": "Authentication required.",
+  "apiErrorInvalidToken": "Session expired. Please sign in again.",
+  "apiErrorTokenExpired": "Session expired. Please sign in again.",
+  "apiErrorUserNotFound": "User not found.",
+  "apiErrorPermissionDenied": "You do not have permission for this action.",
+  "apiErrorMfaRequired": "Additional verification is required.",
+  "apiErrorPasswordChangeRequired": "Please change your password first.",
+  "apiErrorCourseNotFound": "Course not found.",
+  "apiErrorCoursePending": "Course is pending approval.",
+  "apiErrorReviewNotFound": "Review not found.",
+  "apiErrorSearchFailed": "Search is temporarily unavailable.",
+  "apiErrorServer": "Server error. Please try again later.",
+  "apiErrorDatabase": "Data service is temporarily unavailable.",
+  "apiErrorConfigMissing": "Service configuration is unavailable.",
+  "apiErrorForumUserNotFound": "Forum user not found.",
+  "apiErrorInviteQuotaExhausted": "Invite quota has been used up.",
+  "apiErrorEditWindowExpired": "The edit window has expired.",
+  "apiErrorForumForbidden": "This forum action is not allowed.",
+  "apiErrorForumBadRequest": "Invalid forum request.",
+  "apiErrorAdminRequired": "Administrator permission is required.",
+  "apiErrorCalendarInvalidMode": "Invalid calendar export mode.",
+  "apiErrorCalendarUnavailable": "Calendar service is unavailable.",
+  "apiErrorCalendarTimetableLoad": "Failed to load timetable for calendar export.",
+  "apiErrorCalendarGenerateFailed": "Failed to generate calendar feed.",
+  "apiErrorBusUpstream": "Campus bus service is temporarily unavailable.",
+  "apiErrorCacheOperationFailed": "Cache operation failed.",
+  "apiErrorCacheDisabled": "Cache service is disabled.",
+  "apiErrorCacheConfirmRequired": "Please confirm the cache operation.",
+  "apiErrorAdminTaskNotFound": "Admin task not found.",
+  "apiErrorAdminTaskUnavailable": "Admin task service is unavailable.",
+  "apiErrorNotImplemented": "This operation is not implemented yet.",
+  "apiErrorQueueUnavailable": "Queue service is unavailable.",
+  "apiErrorInvalidRequest": "Invalid request. Please check your input.",
+  "apiErrorNotFound": "Resource not found.",
+  "apiErrorConflict": "The request conflicts with the current state.",
+  "apiErrorServiceUnavailable": "Service is temporarily unavailable.",
+  "apiErrorUpstream": "Upstream service is temporarily unavailable.",
+  "apiErrorDuplicateMutation": "Duplicate request detected.",
+  "apiErrorRequestFailed": "Request failed. Please try again.",
+
   "authRegistrationWhuBindingRequired": "A linked WHU account is required to register",
   "authRegistrationBindWhuAccount": "Link a WHU account",
   "authPasswordMinLength": "Password must be at least {count} characters",
@@ -2905,7 +3062,18 @@
     }
   },
   "forumCreatePost": "Create post",
+  "forumSearch": "Search posts",
+  "forumMoreActions": "More forum actions",
+  "forumSearchQuery": "Search posts",
+  "forumSearchBoard": "Board",
+  "forumSearchTag": "Tag",
+  "forumSearchCourseId": "Course ID",
+  "forumSortLatest": "Latest",
+  "forumSortHottest": "Hottest",
+  "forumSortMostCommented": "Most commented",
   "forumPost": "Post",
+  "forumNoActiveBoards": "No active boards are available. Try again or contact an administrator.",
+  "forumSelectedBoardUnavailable": "Your selected board is unavailable. Switched to an active board.",
   "forumBoardShelter": "Shelter {name}",
   "@forumBoardShelter": {
     "placeholders": {
@@ -2923,6 +3091,23 @@
     }
   },
   "forumPostsLoadFailed": "Failed to load posts: {error}",
+  "forumAttachmentAdd": "Add attachment",
+  "forumImageAdd": "Add image",
+  "forumSupportedImageFormats": "Supported image formats",
+  "forumSupportedAttachmentFormats": "Supported attachment formats",
+  "forumImagePresetDataSaver": "Data saver",
+  "forumImagePresetRecommended": "Recommended",
+  "forumImagePresetHighQuality": "High quality",
+  "forumSearch": "Search",
+  "forumMoreActions": "More actions",
+  "forumSearchQuery": "Search posts",
+  "forumSearchBoard": "Board",
+  "forumSearchTag": "Tag",
+  "forumSearchCourseId": "Course ID",
+  "forumSortLatest": "Latest",
+  "forumSortHottest": "Hottest",
+  "forumSortMostCommented": "Most commented",
+  "forumAttachmentUploadFailed": "Failed to upload attachment: {error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2959,6 +3144,7 @@
   },
   "forumPostDetails": "Post details",
   "forumReplies": "Replies",
+  "forumRepliesEmpty": "No replies yet.",
   "forumReply": "Reply",
   "forumRepliesLoadFailed": "Failed to load replies: {error}",
   "@forumRepliesLoadFailed": {
@@ -3045,9 +3231,12 @@
   "forumLike": "Like",
   "forumDislike": "Dislike",
   "forumSave": "Save",
+  "forumEdit": "Edit",
+  "forumDownload": "Download",
   "forumReport": "Report",
   "forumReportReason": "Reason",
   "forumReportSubmitted": "Report submitted.",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
   "forumReportFailed": "Failed to submit report: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3056,13 +3245,201 @@
       }
     }
   },
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "Check in",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumNotificationsTitle": "Forum notifications",
   "forumNotificationsEmpty": "You have no forum notifications.",
   "forumNotificationsMarkAllRead": "Mark all read",
+  "forumNotificationRead": "Read",
+  "forumNotificationUnread": "Unread",
   "forumAppeal": "Appeal",
   "forumAppealReason": "Appeal statement",
   "forumAppealSubmitted": "Appeal submitted.",
   "forumModeration": "Moderation",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside 灌水, use reason low_quality (suggested −10). Water-board posts earn no publish reward.",
+  "forumReview": "Review",
+  "forumResolve": "Resolve",
   "forumApprove": "Approve",
   "forumHide": "Hide",
   "forumDelete": "Delete",
@@ -3344,8 +3721,38 @@
   "settingsBuildInfoArchitecture": "Architecture",
   "settingsBuildInfoBuildTime": "Build Time",
   "luotopiaRegisterVerifyEmail": "Registration successful. Please verify your email before signing in.",
+  "luotopiaRegisterSuccess": "Registration successful. You can now sign in.",
+  "luotopiaRegisterEmailCodeSent": "A verification code was sent to {email}.",
+  "@luotopiaRegisterEmailCodeSent": {"placeholders": {"email": {"type": "String"}}},
+  "luotopiaRegisterEmailCodeRetryAfter": "Resend available in {seconds}s",
+  "@luotopiaRegisterEmailCodeRetryAfter": {"placeholders": {"seconds": {"type": "int"}}},
+  "luotopiaRegisterEmailCodeSending": "Sending verification code...",
+  "luotopiaRegisterEmailCodeRequired": "Enter the 6-digit email verification code.",
+  "luotopiaRegisterEmailAlreadyVerified": "This email is already verified. You can continue to set a password.",
+  "luotopiaRegisterProfileRequired": "Complete the username and email fields before continuing.",
+  "luotopiaRegisterPasswordRequired": "Enter a password that meets all requirements before registering.",
+  "luotopiaRegisterEmailCodeLabel": "Email verification code",
+  "luotopiaRegisterEmailCodeHint": "Enter the 6-digit code",
+  "luotopiaRegisterEmailCodeExpires": "Code expires in about {minutes} minutes.",
+  "@luotopiaRegisterEmailCodeExpires": {"placeholders": {"minutes": {"type": "int"}}},
+  "luotopiaRegisterSendEmailCode": "Send verification code",
+  "luotopiaRegisterResendEmailCode": "Resend verification code",
+  "luotopiaRegisterStepWhuTitle": "Confirm WHU account",
+  "luotopiaRegisterStepWhuSubtitle": "This WHU student identity will be linked to your Luotopia account.",
+  "luotopiaRegisterWhuNameLabel": "Name",
+  "luotopiaRegisterWhuStudentIdLabel": "Student ID",
+  "luotopiaRegisterWhuMismatchHint": "If this is not you, open WHU account settings to sign out and bind a different account.",
+  "luotopiaRegisterOpenWhuAccount": "Open WHU account",
+  "luotopiaRegisterStepProfileTitle": "Profile & email",
+  "luotopiaRegisterStepProfileSubtitle": "Choose a unique username and the email for your Luotopia account.",
+  "luotopiaRegisterEmailVerifiedHint": "This email was verified on your WHU account and filled in automatically. You can still change it.",
+  "luotopiaRegisterEmailUnverifiedHint": "If this is your WHU email, verify it on the WHU account page first so we can fill it in for you.",
+  "luotopiaRegisterGoVerifyEmail": "Verify on WHU account",
+  "luotopiaRegisterStepPasswordTitle": "Set password",
+  "luotopiaRegisterStepPasswordSubtitle": "Use at least 10 characters. You will need this password to sign in.",
   "courseImportSemesterAlreadyAdded": "This semester is already added. Choose “Update timetable” from the timetable menu.",
   "waterControlClassNo": "ClassNo {classNo}",
+  "forumImageFiles": "Forum images", "forumAttachmentFiles": "Forum attachments",
   "@waterControlClassNo": {
     "placeholders": {
       "classNo": {
@@ -3353,6 +3760,7 @@
       }
     }
   },
+  "authRegisteredDevicesTitle": "Registered devices", "authRegisteredDevicesSubtitle": "Removing a device stops push notifications. It does not sign out an active session.", "authRegisteredDevicesEmpty": "No registered devices.", "authRegisteredDeviceLastSeen": "Last registered: {time}", "@authRegisteredDeviceLastSeen": {"placeholders": {"time": {"type": "String"}}}, "authRegisteredDeviceRemove": "Remove device",
   "campusFacultyArts": "Faculty of Arts and Sciences",
   "campusFacultyEngineering": "Faculty of Engineering",
   "campusFacultyInfo": "Faculty of Information",
@@ -3488,5 +3896,143 @@
   "medicalReportTime": "Reported at",
   "medicalLabAxisToggle": "Result axis",
   "campusBusRouteViewVertical": "Vertical route view",
-  "campusBusRouteViewHorizontal": "Horizontal route view"
+  "campusBusRouteViewHorizontal": "Horizontal route view",
+
+  "adminConsoleTitle": "Admin console",
+  "adminConsoleSubtitle": "Users, forum, and system status",
+  "adminAccessDenied": "Administrator access is required.",
+  "adminSectionOverview": "Overview",
+  "adminSectionUsers": "Users",
+  "adminSectionForum": "Forum",
+  "adminSystemStatusTitle": "System status",
+  "adminSystemStatusSubtitle": "Queues, workers, and task statistics",
+  "adminWorkerStatusTitle": "Worker status",
+  "adminTaskStatsTitle": "Task statistics",
+  "adminQueueStatusTitle": "Queue status",
+  "adminQueueDepth": "Depth",
+  "adminQueuePaused": "Paused",
+  "adminQueuePause": "Pause",
+  "adminQueueResume": "Resume",
+  "adminStatusActiveWorkers": "Active workers",
+  "adminStatusHealthyWorkers": "Healthy workers",
+  "adminStatusTasksProcessed": "Processed",
+  "adminStatusTasksFailed": "Failed",
+  "adminStatusTasksRetried": "Retried",
+  "adminStatusWorkerInstances": "Worker instances",
+  "adminStatusNoWorkers": "No workers online",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "Healthy",
+  "adminStatusUnhealthy": "Unhealthy",
+  "adminStatusQueueSize": "Queue size",
+  "adminStatusProcessing": "Processing",
+  "adminStatusAvgProcessing": "Avg processing",
+  "adminStatusStartedAt": "Started",
+  "adminStatusLastHeartbeat": "Last heartbeat",
+  "adminStatusTasksTotal": "Total",
+  "adminStatusTasksPending": "Pending",
+  "adminStatusTasksRunning": "Running",
+  "adminStatusTasksSuccess": "Success",
+  "adminStatusTasksCancelled": "Cancelled",
+  "adminStatusScheduledRetries": "Scheduled retries",
+  "adminStatusNextRetry": "Next retry",
+  "adminStatusUpdatedAt": "Updated",
+  "adminStatusNoQueues": "No queues",
+  "adminStatusRedisConnected": "Redis connected",
+  "adminStatusRedisDisconnected": "Redis disconnected",
+  "adminUsersTitle": "User management",
+  "adminUsersSubtitle": "Search users and change roles",
+  "adminUsersSearchHint": "Search by name or email",
+  "adminUsersEmpty": "No users found.",
+  "adminUsersRoleLabel": "Role",
+  "adminUsersDisabled": "Disabled",
+  "adminUsersEnable": "Enable",
+  "adminUsersDisable": "Disable",
+  "adminUsersSetRole": "Set {role}",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "adminUsersRoleUpdated": "User role updated.",
+  "adminUserDetailAccount": "Account",
+  "adminUserDetailDisplayName": "Display name",
+  "adminUserDetailRegistered": "Registered",
+  "adminUserDetailLastActive": "Last active",
+  "adminUserDetailForum": "Forum",
+  "adminUserDetailNickname": "Nickname",
+  "adminUserDetailStatus": "Status",
+  "adminUserDetailLevel": "Level",
+  "adminUserDetailPosts": "Posts",
+  "adminUserDetailComments": "Comments",
+  "adminUserDetailReceivedLikes": "Received likes",
+  "adminUserDetailWhuAccountData": "WHU account data",
+  "adminUserDetailWhuAccountDataDescription": "Visible only to super administrators. This access is audited.",
+  "adminUserDetailWhuAccount": "WHU account",
+  "adminUserDetailManagement": "Management",
+  "adminUserContentPostsTitle": "User posts",
+  "adminUserContentCommentsTitle": "User comments",
+  "adminUserContentPostsEmpty": "No posts",
+  "adminUserContentCommentsEmpty": "No comments",
+  "adminUserContentPostLabel": "Post: {postId}",
+  "@adminUserContentPostLabel": {
+    "placeholders": {
+      "postId": {
+        "type": "String"
+      }
+    }
+  },
+  "adminRoleUser": "User",
+  "adminRoleAdmin": "Admin",
+  "adminRoleSuperAdmin": "Super admin",
+  "adminForumBoardsTitle": "Forum boards",
+  "adminForumBoardsSubtitle": "Create, edit, and archive boards",
+  "adminForumBoardsEmpty": "No boards yet.",
+  "adminForumBoardCreate": "Create board",
+  "adminForumBoardEdit": "Edit board",
+  "adminForumBoardName": "Name",
+  "adminForumBoardDescription": "Description",
+  "adminForumBoardShelter": "Shelter board",
+  "adminForumBoardActive": "Active",
+  "adminForumBoardInactive": "Inactive",
+  "adminForumBoardActivate": "Activate",
+  "adminForumBoardDeactivate": "Deactivate",
+  "adminForumBoardArchive": "Archive",
+  "adminForumSettingsTitle": "Forum settings",
+  "adminForumSettingsSubtitle": "Uploads, invites, and policies",
+  "adminForumSettingsUpload": "Uploads",
+  "adminForumSettingsImageExtensions": "Image extensions",
+  "adminForumSettingsAttachmentExtensions": "Attachment extensions",
+  "adminForumSettingsAddExtensionHint": "Type and press Enter to add",
+  "adminForumSettingsImageQuality": "Image quality (1–100)",
+  "adminForumSettingsImageMaxDimension": "Max image dimension",
+  "adminForumSettingsAllowAnimated": "Allow animated images",
+  "adminForumSettingsRegistration": "Registration",
+  "adminForumSettingsInviteRequired": "Invite required",
+  "adminForumSettingsInviteQuota": "Default invite quota",
+  "adminForumSettingsSaved": "Forum settings saved.",
+  "adminForumModerationSubtitle": "Reports and appeals queue",
+  "adminForumConfigLogTitle": "Config change log",
+  "adminForumConfigLogSubtitle": "Recent forum configuration changes",
+  "adminForumConfigLogEmpty": "No configuration changes recorded.",
+  "adminForumConfigLogActor": "Actor",
+  "forumModerationAllSources": "All sources",
+  "forumModerationUnclaimed": "Unclaimed",
+  "forumModerationUserReports": "User reports",
+  "forumModerationAIHighRisk": "AI high risk",
+  "forumModerationBrigadingRisk": "Brigading risk"
+  ,"forumCommentDeleted": "This comment was deleted"
+  ,"forumRepliesExpand": "Show {count} more replies"
+  ,"@forumRepliesExpand": {"placeholders": {"count": {"type": "int"}}}
+  ,"forumReplyTo": "Reply to @{name}"
+  ,"@forumReplyTo": {"placeholders": {"name": {"type": "String"}}},
+  "forumReplyDepthLimit": "Maximum reply depth reached"
 }

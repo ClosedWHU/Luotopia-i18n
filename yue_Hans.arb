@@ -353,6 +353,14 @@
   "luotopiaPasswordHint": "起码 6 个字元",
   "luotopiaPasswordsDoNotMatch": "两次入嘅密码唔一致",
   "luotopiaPleaseFillFields": "请填用户名同密码",
+  "luotopiaEmailRequired": "请填电邮地址",
+  "luotopiaEmailInvalid": "请输入正确格式嘅电邮地址",
+  "luotopiaPasswordRequired": "请填密码",
+  "luotopiaPasswordPolicyNotMet": "密码唔符合要求",
+  "luotopiaPasswordRequireDigit": "包含数字",
+  "luotopiaPasswordRequireLowercase": "包含小写字母",
+  "luotopiaPasswordRequireUppercase": "包含大写字母",
+  "luotopiaPasswordRequireSpecial": "包含特殊字符",
   "luotopiaRegistering": "注册紧…",
   "luotopiaRegisterTitle": "注册 Luotopia",
   "luotopiaUsername": "用户名",
@@ -1112,6 +1120,10 @@
   "settingsHomeGridAlpha": "网格背景透明度",
   "settingsHomeGridBorderAlpha": "网格边框透明度",
   "settingsHomeCropImage": "裁剪图片",
+  "imageCropDesktopHint": "拖动嚟移动 · 用 +/− 调整裁剪范围",
+  "imageCropDesktopHintSquare": "拖动嚟移动 · 用 +/− 调整正方形裁剪范围",
+  "imageCropZoomIn": "放大",
+  "imageCropZoomOut": "缩小",
   "settingsAiFormat": "API 格式（Format）",
   "settingsAiFormatSubtitle": "拣对应的 AI 接口格式以适配不同的提供商",
   "biometricLockContentLocked": "内容已经锁咗",
@@ -1732,6 +1744,21 @@
   "weatherAirQualityClose": "关闭",
   "campusBusTitle": "校巴",
   "campusBusNearestStop": "最近: {stopName}",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "目标: {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
   "campusBusDistance": "约{meters}米",
   "campusBusLineOne": "1号线",
   "campusBusLineTwo": "2号线",
@@ -2363,6 +2390,37 @@
   "authApiCredentialsTitle": "API 凭证",
   "authApiCredentialCreate": "创建凭证",
   "authApiCredentialName": "名称",
+  "authRememberCredentials": "记住账户和密码",
+  "authWhuBindingAlreadyExists": "已经关联，请不要再次关联。",
+  "authErrorEmailNotAllowedWithDomains": "请使用允许的电邮地址：{domains}。",
+  "luotopiaRegisterSuccess": "注册成功，现在可以登录。",
+  "luotopiaRegisterEmailCodeSent": "验证码已发送到 {email}。",
+  "luotopiaRegisterEmailCodeRetryAfter": "{seconds} 秒后可以重新发送",
+  "luotopiaRegisterEmailCodeSending": "正在发送验证码...",
+  "luotopiaRegisterEmailCodeRequired": "请输入 6 位数电邮验证码。",
+  "luotopiaRegisterEmailAlreadyVerified": "这个电邮已经验证，可以继续设置密码。",
+  "luotopiaRegisterProfileRequired": "继续前请填写用户名和电邮地址。",
+  "luotopiaRegisterPasswordRequired": "注册前请输入符合所有要求的密码。",
+  "luotopiaRegisterEmailCodeLabel": "电邮验证码",
+  "luotopiaRegisterEmailCodeHint": "输入 6 位数验证码",
+  "luotopiaRegisterEmailCodeExpires": "验证码约在 {minutes} 分钟后过期。",
+  "luotopiaRegisterSendEmailCode": "发送验证码",
+  "luotopiaRegisterResendEmailCode": "重新发送验证码",
+  "authRecoveryCodesTitle": "保存恢复码",
+  "authRecoveryCodesDescription": "请把这些代码放在安全的地方。无法访问电邮时，每个代码只能用一次。之后不会再显示。",
+  "authRecoveryCodesSaveAsText": "另存为 .txt",
+  "authRecoveryCodesSavedConfirmation": "我已经安全保存了这些恢复码。",
+  "authApiCredentialEdit": "编辑 API 凭据",
+  "authApiCredentialScopesHint": "权限范围用逗号分隔（all 代表全部范围）",
+  "authApiCredentialMonthlyLimitHint": "每月请求上限（0 即沿用账户上限）",
+  "authApiCredentialMinuteLimitHint": "每分钟请求数（0 即沿用账户上限）",
+  "authApiCredentialHourLimitHint": "每小时请求数（0 即沿用账户上限）",
+  "authApiCredentialEffectiveLimits": "生效的账户 API 限制",
+  "authApiCredentialLoadingLimits": "正在加载账户 API 限制...",
+  "authApiCredentialUsageMinute": "分钟",
+  "authApiCredentialUsageHour": "小时",
+  "authApiCredentialUsageDay": "日",
+  "authApiCredentialUsageMonth": "月",
   "authApiCredentialKey": "API 密钥",
   "authApiCredentialScopes": "权限范围",
   "authApiCredentialAllScopes": "全部",
@@ -2525,6 +2583,17 @@
   },
   "authEditProfile": "编辑个人资料",
   "authDisplayName": "显示名称",
+  "authSocialProfile": "社交资料",
+  "authRegion": "地区",
+  "authGender": "性别",
+  "authGenderMale": "男",
+  "authGenderFemale": "女",
+  "authGenderNonBinary": "非二元性别",
+  "authGenderPreferNotToSay": "唔想讲",
+  "authGenderOther": "其他",
+  "authCustomGender": "描述你嘅性别",
+  "authBirthday": "生日",
+  "authBio": "个人简介",
   "authProfileUpdateFailed": "更新个人资料失败：{error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2639,7 +2708,9 @@
   },
   "forumCreatePost": "创建帖子",
   "forumPost": "帖子",
-  "forumBoardShelter": "树洞 {name}",
+  "forumNoActiveBoards": "而家冇可用嘅活跃版面。请再试一次，或者联络管理员。",
+  "forumSelectedBoardUnavailable": "你拣嘅版面暂时唔可用。已经转去活跃版面。",
+  "forumBoardShelter": "防空洞 {name}",
   "@forumBoardShelter": {
     "placeholders": {
       "name": {
@@ -2647,7 +2718,7 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "加载板块失败：{error}",
+  "forumBoardsLoadFailed": "加载版面失败：{error}",
   "@forumBoardsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2656,6 +2727,11 @@
     }
   },
   "forumPostsLoadFailed": "加载帖子失败：{error}",
+  "forumAttachmentAdd": "添加附件",
+  "forumImageAdd": "添加图片",
+  "forumSupportedImageFormats": "支持嘅图片格式",
+  "forumSupportedAttachmentFormats": "支持嘅附件格式",
+  "forumAttachmentUploadFailed": "上传附件失败：{error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2692,6 +2768,7 @@
   },
   "forumPostDetails": "帖子详情",
   "forumReplies": "回复",
+  "forumRepliesEmpty": "暂时未有回复。",
   "forumReply": "回复",
   "forumRepliesLoadFailed": "加载回复失败：{error}",
   "@forumRepliesLoadFailed": {
@@ -2765,9 +2842,9 @@
   "forumRemoveLike": "取消赞好",
   "forumRemoveFavorite": "取消收藏帖子",
   "forumPersonalEmpty": "呢度暂时冇嘢。",
-  "forumShelterPrivacyTitle": "树洞隐私",
+  "forumShelterPrivacyTitle": "防空洞私隐",
   "forumShelterPrivacyDescription": "你嘅匿名名只会喺呢个话题入面保持一致。唔会显示头像或者个人资料，而且呢个帖子会喺 24 个钟之后过期。",
-  "forumShelterExpiresIn": "仲有 {time} 过期",
+  "forumShelterExpiresIn": "仲有 {time} 就过期",
   "@forumShelterExpiresIn": {
     "placeholders": {
       "time": {
@@ -2778,9 +2855,178 @@
   "forumLike": "赞好",
   "forumDislike": "踩低",
   "forumSave": "收藏",
+  "forumEdit": "编辑",
+  "forumDownload": "下载",
   "forumReport": "举报",
   "forumReportReason": "举报原因",
   "forumReportSubmitted": "举报已提交。",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "签到",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "提交举报失败：{error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -2792,10 +3038,28 @@
   "forumNotificationsTitle": "论坛通知",
   "forumNotificationsEmpty": "你暂时冇论坛通知。",
   "forumNotificationsMarkAllRead": "全部标记为已读",
-  "forumAppeal": "上诉",
-  "forumAppealReason": "上诉说明",
-  "forumAppealSubmitted": "上诉已提交。",
+  "forumAppeal": "申诉",
+  "forumAppealReason": "申诉说明",
+  "forumAppealSubmitted": "申诉已提交。",
   "forumModeration": "内容审核",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "通过",
   "forumHide": "隐藏",
   "forumDelete": "删除",
@@ -2806,7 +3070,7 @@
   "forumPostHidden": "帖子已隐藏。",
   "forumPostDeleted": "帖子已移除。",
   "forumPostRestored": "帖子已还原。",
-  "forumAppealResolved": "上诉已处理。",
+  "forumAppealResolved": "申诉已处理。",
   "campusCreateFolder": "创建文件夹",
   "campusRenameFolder": "重命名文件夹",
   "campusEditModeEntry": "编辑模式",
@@ -3144,7 +3408,48 @@
   "settingsBuildInfoBuildTime": "建构时间",
   "luotopiaRegisterVerifyEmail": "注册成功，请去邮箱完成验证再登入。",
   "courseImportSemesterAlreadyAdded": "呢个学期已经加咗，请喺课程表选单拣「更新课程表」。",
-  "waterControlClassNo": "ClassNo {classNo}",
+  "waterControlClassNo": "班号 {classNo}",
+  "forumImageFiles": "论坛图片",
+  "forumAttachmentFiles": "论坛附件",
+  "forumModerationAllSources": "全部来源",
+  "forumModerationUnclaimed": "未认领",
+  "forumModerationUserReports": "用户举报",
+  "forumModerationAIHighRisk": "AI 高风险",
+  "forumModerationBrigadingRisk": "疑似围攻",
+  "forumCommentDeleted": "呢则留言已删除",
+  "forumRepliesExpand": "展开其余 {count} 条回复",
+  "forumReplyTo": "回复 @{name}",
+  "majorInfoEmploymentNoData": "冇资料",
+  "forumSearch": "搜索",
+  "forumMoreActions": "更多操作",
+  "forumSearchQuery": "搜索帖子",
+  "forumSearchBoard": "版面",
+  "forumSearchTag": "标签",
+  "forumSearchCourseId": "课程 ID",
+  "forumSortLatest": "最新",
+  "forumSortHottest": "最热门",
+  "forumSortMostCommented": "最多评论",
+  "forumImagePresetDataSaver": "节省流量",
+  "forumImagePresetRecommended": "推荐",
+  "forumImagePresetHighQuality": "高质量",
+  "forumNotificationRead": "已读",
+  "forumNotificationUnread": "未读",
+  "forumReview": "审核",
+  "forumResolve": "解决",
+  "majorInfoBasicInformation": "基本资料",
+  "majorInfoCollegeInformation": "学院资料",
+  "authRegisteredDevicesTitle": "已登记设备",
+  "authRegisteredDevicesSubtitle": "移除设备会停止推送通知，但唔会登出进行中嘅会话。",
+  "authRegisteredDevicesEmpty": "冇已登记设备。",
+  "authRegisteredDeviceLastSeen": "最近登记：{time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "移除设备",
   "campusFacultyArts": "文理学部",
   "campusFacultyEngineering": "工学部",
   "campusFacultyInfo": "信息学部",
@@ -3332,5 +3637,228 @@
   "campusBusOutsideServiceRange": "唔喺营运时间",
   "campusBusNoReachableBus": "而家冇车可以去到呢个站，请另选站点或喺营运时间再试。",
   "campusBusArrivalUseNearestToggle": "用呢条线最近嘅站",
-  "campusBusRouteViewHorizontal": "横向路线检视"
+  "campusBusRouteViewHorizontal": "横向路线检视",
+  "luotopiaLoginIdentifierLabel": "电邮、用户名或者 WHU 学生编号",
+  "luotopiaLoginIdentifierHint": "使用任何同这个账户绑定嘅识别资料",
+  "luotopiaLoginIdentifierRequired": "输入电邮、用户名或者 WHU 学生编号",
+  "luotopiaLoginEmailHint": "账户绑定嘅电邮地址",
+  "luotopiaLoginUsernameHint": "你嘅 Luotopia 用户名",
+  "luotopiaLoginUsernameRequired": "输入 Luotopia 用户名",
+  "luotopiaLoginUsernameInvalid": "输入 3-60 位英文字母、数字、点、连字号或者下划线",
+  "luotopiaLoginWhuStudentId": "WHU 学生编号",
+  "luotopiaLoginWhuStudentIdHint": "已绑定到呢个账户嘅 WHU 学生编号",
+  "luotopiaLoginWhuStudentIdRequired": "输入 WHU 学生编号",
+  "luotopiaLoginWhuStudentIdInvalid": "输入 13 位纯数字 WHU 学生编号",
+  "authErrorInvalidCredentials": "登录识别资料或者密码唔啱。",
+  "authErrorEmailNotAllowed": "请使用 WHU 电邮地址（@whu.edu.cn 或 @alumni.whu.edu.cn）。",
+  "authErrorEmailExists": "呢个电邮已经注册，请直接登录或者重设密码。",
+  "authErrorEmailUnverified": "请先验证电邮再登录。",
+  "authErrorUserDisabled": "呢个账户已被停用。",
+  "authErrorPasswordPolicy": "密码唔符合而家嘅安全要求。",
+  "authErrorWhuRequired": "注册前请先绑定 WHU 账户。",
+  "authErrorWhuAlreadyBound": "呢个 WHU 账户已经绑定去另一个 Luotopia 账户。",
+  "authErrorVerificationFailed": "验证失败或者已过期，请再试一次。",
+  "authErrorRateLimited": "请求太频密，请迟啲再试。",
+  "authErrorRequestFailed": "请求失败，请再试一次。",
+  "apiErrorUnauthorized": "需要验证身份。",
+  "apiErrorInvalidToken": "工作阶段已过期，请重新登录。",
+  "apiErrorTokenExpired": "工作阶段已过期，请重新登录。",
+  "apiErrorUserNotFound": "揾唔到用户。",
+  "apiErrorPermissionDenied": "你冇权限做呢个操作。",
+  "apiErrorMfaRequired": "需要额外验证。",
+  "apiErrorPasswordChangeRequired": "请先改密码。",
+  "apiErrorCourseNotFound": "揾唔到课程。",
+  "apiErrorCoursePending": "课程仲等紧审批。",
+  "apiErrorReviewNotFound": "揾唔到评价。",
+  "apiErrorSearchFailed": "搜索暂时唔可用。",
+  "apiErrorServer": "服务器错误，请迟啲再试。",
+  "apiErrorDatabase": "数据服务暂时唔可用。",
+  "apiErrorConfigMissing": "服务设置唔可用。",
+  "apiErrorForumUserNotFound": "揾唔到论坛用户。",
+  "apiErrorInviteQuotaExhausted": "邀请名额已经用晒。",
+  "apiErrorEditWindowExpired": "编辑期限已过。",
+  "apiErrorForumForbidden": "唔容许呢个论坛操作。",
+  "apiErrorForumBadRequest": "无效嘅论坛请求。",
+  "apiErrorAdminRequired": "需要管理员权限。",
+  "apiErrorCalendarInvalidMode": "无效嘅日历导出模式。",
+  "apiErrorCalendarUnavailable": "日历服务暂时唔可用。",
+  "apiErrorCalendarTimetableLoad": "加载导出日历所需嘅课程表失败。",
+  "apiErrorCalendarGenerateFailed": "生成日历订阅失败。",
+  "apiErrorBusUpstream": "校园巴士服务暂时唔可用。",
+  "apiErrorCacheOperationFailed": "缓存操作失败。",
+  "apiErrorCacheDisabled": "缓存服务已停用。",
+  "apiErrorCacheConfirmRequired": "请确认缓存操作。",
+  "apiErrorAdminTaskNotFound": "揾唔到管理员任务。",
+  "apiErrorAdminTaskUnavailable": "管理员任务服务唔可用。",
+  "apiErrorNotImplemented": "呢个操作仲未实现。",
+  "apiErrorQueueUnavailable": "队列服务唔可用。",
+  "apiErrorInvalidRequest": "请求无效，请检查你嘅输入。",
+  "apiErrorNotFound": "揾唔到资源。",
+  "apiErrorConflict": "请求同目前状态有冲突。",
+  "apiErrorServiceUnavailable": "服务暂时不可用。",
+  "apiErrorUpstream": "上游服务暂时唔可用。",
+  "apiErrorDuplicateMutation": "侦测到重复请求。",
+  "apiErrorRequestFailed": "请求失败，请再试一次。",
+  "luotopiaRegisterStepWhuTitle": "确认 WHU 账户",
+  "luotopiaRegisterStepWhuSubtitle": "这个 WHU 学生身份会同你嘅 Luotopia 账户绑定。",
+  "luotopiaRegisterWhuNameLabel": "姓名",
+  "luotopiaRegisterWhuStudentIdLabel": "学生编号",
+  "luotopiaRegisterWhuMismatchHint": "如果唔系你，请打开 WHU 账户设置登出，再绑定其他账户。",
+  "luotopiaRegisterOpenWhuAccount": "打开 WHU 账户",
+  "luotopiaRegisterStepProfileTitle": "个人资料同电邮",
+  "luotopiaRegisterStepProfileSubtitle": "拣一个唯一嘅 Luotopia 用户名同账户电邮。",
+  "luotopiaRegisterEmailVerifiedHint": "呢个电邮已经喺 WHU 账户验证并自动填入，你仍然可以修改。",
+  "luotopiaRegisterEmailUnverifiedHint": "如果呢个系你嘅 WHU 电邮，请先喺 WHU 账户页面验证，方便我哋自动填入。",
+  "luotopiaRegisterGoVerifyEmail": "喺 WHU 账户验证",
+  "luotopiaRegisterStepPasswordTitle": "设置密码",
+  "luotopiaRegisterStepPasswordSubtitle": "使用至少 10 个字符。登录时会用到呢个密码。",
+  "scoreImportCountLabel": "分数数量",
+  "campusAppMajorInfo": "学院同主修资料",
+  "majorInfoTitle": "学院同主修资料",
+  "majorInfoDescription": "浏览学术部门、学院、主修、教学计划同就业数据。",
+  "majorInfoMajors": "主修",
+  "majorInfoMajorCount": "个主修",
+  "majorInfoShowCharts": "显示图表",
+  "majorInfoShowList": "显示资料列表",
+  "majorInfoEmploymentChartSemantics": "互动式就业分布图表",
+  "scoreTranscriptZoom": "缩放",
+  "scoreTranscriptZoomIn": "放大",
+  "scoreTranscriptZoomOut": "缩小",
+  "scoreTranscriptMoreActions": "更多文件操作",
+  "majorInfoObjective": "培养目标",
+  "majorInfoPositioning": "主修定位",
+  "majorInfoCharacteristics": "主修特色",
+  "majorInfoTeachingPlan": "教学计划",
+  "majorInfoEmploymentTypes": "就业去向",
+  "majorInfoEmploymentIndustries": "就业行业",
+  "majorInfoEmploymentRegions": "就业地区",
+  "majorInfoEmploymentEmployers": "雇主",
+  "majorInfoTrainingPlan": "学院培养计划",
+  "majorInfoOpenTrainingPlan": "开启培养计划预览",
+  "majorInfoTrainingPlanSubtitle": "开启超星官方文件预览",
+  "majorInfoTrainingPlanLoading": "载入培养计划中…",
+  "majorInfoTrainingPlanUnavailable": "培养计划预览暂时无法使用。",
+  "scoreImportParsedCountLabel": "已撷取分数",
+  "scoreImportMergedCountLabel": "已合并分数",
+  "scoreImportExampleLabel": "范例",
+  "adminConsoleTitle": "管理控制台",
+  "adminConsoleSubtitle": "用户、论坛同系统状态",
+  "adminAccessDenied": "需要管理员权限。",
+  "adminSectionOverview": "总览",
+  "adminSectionUsers": "用户",
+  "adminSectionForum": "论坛",
+  "adminSystemStatusTitle": "系统状态",
+  "adminSystemStatusSubtitle": "队列、Worker 同任务统计",
+  "adminWorkerStatusTitle": "Worker 状态",
+  "adminTaskStatsTitle": "任务统计",
+  "adminQueueStatusTitle": "队列状态",
+  "adminQueueDepth": "深度",
+  "adminQueuePaused": "已暂停",
+  "adminQueuePause": "暂停",
+  "adminQueueResume": "恢复",
+  "adminStatusActiveWorkers": "活跃 Worker",
+  "adminStatusHealthyWorkers": "健康 Worker",
+  "adminStatusTasksProcessed": "已处理",
+  "adminStatusTasksFailed": "失败",
+  "adminStatusTasksRetried": "重试",
+  "adminStatusWorkerInstances": "Worker 实例",
+  "adminStatusNoWorkers": "暂无在线 Worker",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "健康",
+  "adminStatusUnhealthy": "异常",
+  "adminStatusQueueSize": "队列长度",
+  "adminStatusProcessing": "处理中",
+  "adminStatusAvgProcessing": "平均耗时",
+  "adminStatusStartedAt": "启动时间",
+  "adminStatusLastHeartbeat": "最近心跳",
+  "adminStatusTasksTotal": "总计",
+  "adminStatusTasksPending": "待处理",
+  "adminStatusTasksRunning": "运行中",
+  "adminStatusTasksSuccess": "成功",
+  "adminStatusTasksCancelled": "已取消",
+  "adminStatusScheduledRetries": "计划重试",
+  "adminStatusNextRetry": "下次重试",
+  "adminStatusUpdatedAt": "更新时间",
+  "adminStatusNoQueues": "暂无队列",
+  "adminStatusRedisConnected": "Redis 已连接",
+  "adminStatusRedisDisconnected": "Redis 未连接",
+  "adminUsersTitle": "用户管理",
+  "adminUsersSubtitle": "搜索用户并调整角色",
+  "adminUsersSearchHint": "按名称或电邮搜索",
+  "adminUsersEmpty": "揾唔到用户。",
+  "adminUsersRoleLabel": "角色",
+  "adminUsersDisabled": "已停用",
+  "adminUsersEnable": "启用",
+  "adminUsersDisable": "停用",
+  "adminUsersSetRole": "设为{role}",
+  "adminUsersRoleUpdated": "用户角色已更新。",
+  "adminUserDetailAccount": "账户",
+  "adminUserDetailDisplayName": "显示名称",
+  "adminUserDetailRegistered": "注册时间",
+  "adminUserDetailLastActive": "最近活跃",
+  "adminUserDetailForum": "论坛",
+  "adminUserDetailNickname": "昵称",
+  "adminUserDetailStatus": "状态",
+  "adminUserDetailLevel": "等级",
+  "adminUserDetailPosts": "帖子",
+  "adminUserDetailComments": "评论",
+  "adminUserDetailReceivedLikes": "收到嘅赞",
+  "adminUserDetailWhuAccountData": "武大账户资料",
+  "adminUserDetailWhuAccountDataDescription": "只限超级管理员睇到，存取会被记录。",
+  "adminUserDetailWhuAccount": "武大账户",
+  "adminUserDetailManagement": "管理",
+  "adminUserContentPostsTitle": "用户帖子",
+  "adminUserContentCommentsTitle": "用户评论",
+  "adminUserContentPostsEmpty": "暂无帖子",
+  "adminUserContentCommentsEmpty": "暂无评论",
+  "adminUserContentPostLabel": "帖子：{postId}",
+  "adminRoleUser": "用户",
+  "adminRoleAdmin": "管理员",
+  "adminRoleSuperAdmin": "超级管理员",
+  "adminForumBoardsTitle": "论坛版面",
+  "adminForumBoardsSubtitle": "创建、编辑同封存版面",
+  "adminForumBoardsEmpty": "暂时未有版面。",
+  "adminForumBoardCreate": "创建版面",
+  "adminForumBoardEdit": "编辑版面",
+  "adminForumBoardName": "名称",
+  "adminForumBoardDescription": "描述",
+  "adminForumBoardShelter": "防空洞版面",
+  "adminForumBoardActive": "启用中",
+  "adminForumBoardInactive": "已停用",
+  "adminForumBoardActivate": "启用",
+  "adminForumBoardDeactivate": "停用",
+  "adminForumBoardArchive": "封存",
+  "adminForumSettingsTitle": "论坛设定",
+  "adminForumSettingsSubtitle": "上载、邀请同政策",
+  "adminForumSettingsUpload": "上载",
+  "adminForumSettingsImageExtensions": "图片副档名",
+  "adminForumSettingsAttachmentExtensions": "附件副档名",
+  "adminForumSettingsAddExtensionHint": "输入后撳 Enter 添加",
+  "adminForumSettingsImageQuality": "图片质素（1–100）",
+  "adminForumSettingsImageMaxDimension": "图片最大边长",
+  "adminForumSettingsAllowAnimated": "允许动图",
+  "adminForumSettingsRegistration": "注册",
+  "adminForumSettingsInviteRequired": "需要邀请码",
+  "adminForumSettingsInviteQuota": "预设邀请配额",
+  "adminForumSettingsSaved": "论坛设定已保存。",
+  "adminForumModerationSubtitle": "举报同申诉队列",
+  "adminForumConfigLogTitle": "设定变更日志",
+  "adminForumConfigLogSubtitle": "论坛设定近期变更",
+  "adminForumConfigLogEmpty": "暂时未有设定变更记录。",
+  "adminForumConfigLogActor": "操作者",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "forumReplyDepthLimit": "已达最大回复层级"
 }

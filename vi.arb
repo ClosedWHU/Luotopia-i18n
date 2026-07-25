@@ -353,6 +353,14 @@
   "luotopiaPasswordHint": "Ít nhất 6 ký tự",
   "luotopiaPasswordsDoNotMatch": "Mật khẩu không khớp",
   "luotopiaPleaseFillFields": "Vui lòng nhập tên người dùng và mật khẩu",
+  "luotopiaEmailRequired": "Nhập địa chỉ email",
+  "luotopiaEmailInvalid": "Nhập địa chỉ email hợp lệ",
+  "luotopiaPasswordRequired": "Nhập mật khẩu",
+  "luotopiaPasswordPolicyNotMet": "Mật khẩu không đáp ứng yêu cầu",
+  "luotopiaPasswordRequireDigit": "Bao gồm một chữ số",
+  "luotopiaPasswordRequireLowercase": "Bao gồm một chữ cái viết thường",
+  "luotopiaPasswordRequireUppercase": "Bao gồm một chữ cái viết hoa",
+  "luotopiaPasswordRequireSpecial": "Bao gồm một ký tự đặc biệt",
   "luotopiaRegistering": "Đang đăng ký…",
   "luotopiaRegisterTitle": "Đăng ký Luotopia",
   "luotopiaUsername": "Tên người dùng",
@@ -1313,6 +1321,10 @@
   "settingsHomeGridAlpha": "Độ mờ nền lưới",
   "settingsHomeGridBorderAlpha": "Độ mờ viền lưới",
   "settingsHomeCropImage": "Cắt ảnh",
+  "imageCropDesktopHint": "Kéo để di chuyển · dùng +/− để chỉnh vùng cắt",
+  "imageCropDesktopHintSquare": "Kéo để di chuyển · dùng +/− để chỉnh vùng cắt hình vuông",
+  "imageCropZoomIn": "Phóng to",
+  "imageCropZoomOut": "Thu nhỏ",
   "settingsAiFormat": "Định dạng API",
   "settingsAiFormatSubtitle": "Chọn định dạng API AI theo nhà cung cấp",
   "biometricLockContentLocked": "Đã khóa",
@@ -1933,6 +1945,21 @@
   "weatherAirQualityClose": "Đóng",
   "campusBusTitle": "Xe buýt khuôn viên",
   "campusBusNearestStop": "Gần nhất: {stopName}",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "Mục tiêu: {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
   "campusBusDistance": "~{meters}m",
   "campusBusLineOne": "Tuyến 1",
   "campusBusLineTwo": "Tuyến 2",
@@ -2564,6 +2591,45 @@
   "authApiCredentialsTitle": "Thông tin xác thực API",
   "authApiCredentialCreate": "Tạo thông tin xác thực",
   "authApiCredentialName": "Tên",
+  "luotopiaLoginEmailHint": "Địa chỉ email của tài khoản",
+  "luotopiaLoginUsernameHint": "Tên người dùng Luotopia của bạn",
+  "luotopiaLoginUsernameRequired": "Nhập tên người dùng Luotopia",
+  "luotopiaLoginUsernameInvalid": "Dùng 3-60 chữ cái, số, dấu chấm, gạch nối hoặc gạch dưới",
+  "luotopiaLoginWhuStudentId": "Mã số sinh viên WHU",
+  "luotopiaLoginWhuStudentIdHint": "Mã số sinh viên WHU liên kết với tài khoản này",
+  "luotopiaLoginWhuStudentIdRequired": "Nhập mã số sinh viên WHU",
+  "luotopiaLoginWhuStudentIdInvalid": "Nhập mã số sinh viên WHU bằng số",
+  "authRememberCredentials": "Ghi nhớ tài khoản và mật khẩu",
+  "authWhuBindingAlreadyExists": "Đã liên kết. Vui lòng không liên kết lại.",
+  "authErrorEmailNotAllowedWithDomains": "Dùng địa chỉ email được phép: {domains}.",
+  "luotopiaRegisterSuccess": "Đăng ký thành công. Bây giờ bạn có thể đăng nhập.",
+  "luotopiaRegisterEmailCodeSent": "Mã xác minh đã được gửi đến {email}.",
+  "luotopiaRegisterEmailCodeRetryAfter": "Có thể gửi lại sau {seconds} giây",
+  "luotopiaRegisterEmailCodeSending": "Đang gửi mã xác minh...",
+  "luotopiaRegisterEmailCodeRequired": "Nhập mã xác minh email gồm 6 chữ số.",
+  "luotopiaRegisterEmailAlreadyVerified": "Email này đã được xác minh. Bạn có thể tiếp tục đặt mật khẩu.",
+  "luotopiaRegisterProfileRequired": "Hoàn thành tên người dùng và email trước khi tiếp tục.",
+  "luotopiaRegisterPasswordRequired": "Nhập mật khẩu đáp ứng mọi yêu cầu trước khi đăng ký.",
+  "luotopiaRegisterEmailCodeLabel": "Mã xác minh email",
+  "luotopiaRegisterEmailCodeHint": "Nhập mã 6 chữ số",
+  "luotopiaRegisterEmailCodeExpires": "Mã hết hạn sau khoảng {minutes} phút.",
+  "luotopiaRegisterSendEmailCode": "Gửi mã xác minh",
+  "luotopiaRegisterResendEmailCode": "Gửi lại mã xác minh",
+  "authRecoveryCodesTitle": "Lưu mã khôi phục",
+  "authRecoveryCodesDescription": "Hãy lưu các mã này ở nơi an toàn. Mỗi mã chỉ dùng được một lần nếu bạn không thể truy cập email. Chúng sẽ không được hiển thị lại.",
+  "authRecoveryCodesSaveAsText": "Lưu dạng .txt",
+  "authRecoveryCodesSavedConfirmation": "Tôi đã lưu an toàn các mã khôi phục này.",
+  "authApiCredentialEdit": "Chỉnh sửa thông tin xác thực API",
+  "authApiCredentialScopesHint": "Phạm vi cách nhau bằng dấu phẩy (all cho mọi phạm vi)",
+  "authApiCredentialMonthlyLimitHint": "Giới hạn yêu cầu hàng tháng (0 kế thừa giới hạn tài khoản)",
+  "authApiCredentialMinuteLimitHint": "Yêu cầu mỗi phút (0 kế thừa giới hạn tài khoản)",
+  "authApiCredentialHourLimitHint": "Yêu cầu mỗi giờ (0 kế thừa giới hạn tài khoản)",
+  "authApiCredentialEffectiveLimits": "Giới hạn API tài khoản đang áp dụng",
+  "authApiCredentialLoadingLimits": "Đang tải giới hạn API tài khoản...",
+  "authApiCredentialUsageMinute": "Phút",
+  "authApiCredentialUsageHour": "Giờ",
+  "authApiCredentialUsageDay": "Ngày",
+  "authApiCredentialUsageMonth": "Tháng",
   "authApiCredentialKey": "Khóa API",
   "authApiCredentialScopes": "Phạm vi",
   "authApiCredentialAllScopes": "Tất cả",
@@ -2726,6 +2792,17 @@
   },
   "authEditProfile": "Chỉnh sửa hồ sơ",
   "authDisplayName": "Tên hiển thị",
+  "authSocialProfile": "Hồ sơ xã hội",
+  "authRegion": "Khu vực",
+  "authGender": "Giới tính",
+  "authGenderMale": "Nam",
+  "authGenderFemale": "Nữ",
+  "authGenderNonBinary": "Phi nhị nguyên",
+  "authGenderPreferNotToSay": "Không muốn nói",
+  "authGenderOther": "Khác",
+  "authCustomGender": "Mô tả giới tính của bạn",
+  "authBirthday": "Ngày sinh",
+  "authBio": "Giới thiệu",
   "authProfileUpdateFailed": "Không thể cập nhật hồ sơ: {error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2840,6 +2917,8 @@
   },
   "forumCreatePost": "Tạo bài viết",
   "forumPost": "Bài viết",
+  "forumNoActiveBoards": "Không có diễn đàn đang hoạt động. Hãy thử lại hoặc liên hệ quản trị viên.",
+  "forumSelectedBoardUnavailable": "Diễn đàn đã chọn không khả dụng. Đã chuyển sang diễn đàn đang hoạt động.",
   "forumBoardShelter": "Khu trú ẩn {name}",
   "@forumBoardShelter": {
     "placeholders": {
@@ -2857,6 +2936,11 @@
     }
   },
   "forumPostsLoadFailed": "Không thể tải bài viết: {error}",
+  "forumAttachmentAdd": "Thêm tệp đính kèm",
+  "forumImageAdd": "Thêm ảnh",
+  "forumSupportedImageFormats": "Định dạng hình ảnh được hỗ trợ",
+  "forumSupportedAttachmentFormats": "Định dạng tệp đính kèm được hỗ trợ",
+  "forumAttachmentUploadFailed": "Không thể tải lên tệp đính kèm: {error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2893,6 +2977,7 @@
   },
   "forumPostDetails": "Chi tiết bài viết",
   "forumReplies": "Phản hồi",
+  "forumRepliesEmpty": "Chưa có phản hồi nào.",
   "forumReply": "Phản hồi",
   "forumRepliesLoadFailed": "Không thể tải phản hồi: {error}",
   "@forumRepliesLoadFailed": {
@@ -2978,9 +3063,178 @@
   "forumLike": "Thích",
   "forumDislike": "Không thích",
   "forumSave": "Lưu",
+  "forumEdit": "Chỉnh sửa",
+  "forumDownload": "Tải xuống",
   "forumReport": "Báo cáo",
   "forumReportReason": "Lý do",
   "forumReportSubmitted": "Đã gửi báo cáo.",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "Điểm danh",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "Không thể gửi báo cáo: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -2997,6 +3251,24 @@
   "forumAppealReason": "Nội dung kháng nghị",
   "forumAppealSubmitted": "Đã gửi kháng nghị.",
   "forumModeration": "Kiểm duyệt nội dung",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "Phê duyệt",
   "forumHide": "Ẩn",
   "forumDelete": "Xóa",
@@ -3144,7 +3416,48 @@
   "settingsBuildInfoBuildTime": "Thời gian build",
   "luotopiaRegisterVerifyEmail": "Đăng ký thành công. Vui lòng xác minh email trước khi đăng nhập.",
   "courseImportSemesterAlreadyAdded": "Học kỳ này đã được thêm. Hãy chọn “Cập nhật thời khóa biểu” trong menu.",
-  "waterControlClassNo": "ClassNo {classNo}",
+  "waterControlClassNo": "Số lớp {classNo}",
+  "forumImageFiles": "Hình ảnh diễn đàn",
+  "forumAttachmentFiles": "Tệp đính kèm diễn đàn",
+  "forumModerationAllSources": "Tất cả nguồn",
+  "forumModerationUnclaimed": "Chưa nhận xử lý",
+  "forumModerationUserReports": "Báo cáo từ người dùng",
+  "forumModerationAIHighRisk": "AI đánh giá rủi ro cao",
+  "forumModerationBrigadingRisk": "Nguy cơ báo cáo phối hợp",
+  "forumCommentDeleted": "Bình luận này đã bị xóa",
+  "forumRepliesExpand": "Xem thêm {count} phản hồi",
+  "forumReplyTo": "Trả lời @{name}",
+  "majorInfoEmploymentNoData": "Không có dữ liệu",
+  "forumSearch": "Tìm kiếm",
+  "forumMoreActions": "Thêm thao tác",
+  "forumSearchQuery": "Tìm bài viết",
+  "forumSearchBoard": "Chuyên mục",
+  "forumSearchTag": "Thẻ",
+  "forumSearchCourseId": "ID khóa học",
+  "forumSortLatest": "Mới nhất",
+  "forumSortHottest": "Nổi bật",
+  "forumSortMostCommented": "Nhiều bình luận nhất",
+  "forumImagePresetDataSaver": "Tiết kiệm dữ liệu",
+  "forumImagePresetRecommended": "Đề xuất",
+  "forumImagePresetHighQuality": "Chất lượng cao",
+  "forumNotificationRead": "Đã đọc",
+  "forumNotificationUnread": "Chưa đọc",
+  "forumReview": "Xem xét",
+  "forumResolve": "Giải quyết",
+  "majorInfoBasicInformation": "Thông tin cơ bản",
+  "majorInfoCollegeInformation": "Thông tin trường",
+  "authRegisteredDevicesTitle": "Thiết bị đã đăng ký",
+  "authRegisteredDevicesSubtitle": "Xóa thiết bị sẽ dừng thông báo đẩy nhưng không đăng xuất phiên đang hoạt động.",
+  "authRegisteredDevicesEmpty": "Không có thiết bị đã đăng ký.",
+  "authRegisteredDeviceLastSeen": "Đăng ký gần nhất: {time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "Xóa thiết bị",
   "campusFacultyArts": "Khoa Khoa học và Nghệ thuật",
   "campusFacultyEngineering": "Khoa Kỹ thuật",
   "campusFacultyInfo": "Khoa Thông tin",
@@ -3332,5 +3645,206 @@
   "campusBusOutsideServiceRange": "Ngoài giờ hoạt động",
   "campusBusNoReachableBus": "Không còn xe nào có thể đến trạm này. Hãy chọn trạm khác hoặc thử lại trong giờ hoạt động.",
   "campusBusArrivalUseNearestToggle": "Dùng trạm gần nhất trên tuyến này",
-  "campusBusRouteViewHorizontal": "Hiển thị tuyến ngang"
+  "campusBusRouteViewHorizontal": "Hiển thị tuyến ngang",
+  "luotopiaLoginIdentifierLabel": "Email, tên người dùng hoặc mã số sinh viên WHU",
+  "luotopiaLoginIdentifierHint": "Dùng bất kỳ thông tin định danh nào được liên kết với tài khoản này",
+  "luotopiaLoginIdentifierRequired": "Nhập email, tên người dùng hoặc mã số sinh viên WHU",
+  "authErrorInvalidCredentials": "Email hoặc mật khẩu không đúng.",
+  "authErrorEmailNotAllowed": "Hãy dùng địa chỉ email WHU (@whu.edu.cn hoặc @alumni.whu.edu.cn).",
+  "authErrorEmailExists": "Email này đã được đăng ký. Hãy đăng nhập hoặc đặt lại mật khẩu.",
+  "authErrorEmailUnverified": "Hãy xác minh email trước khi đăng nhập.",
+  "authErrorUserDisabled": "Tài khoản này đã bị vô hiệu hóa.",
+  "authErrorPasswordPolicy": "Mật khẩu không đáp ứng yêu cầu bảo mật hiện tại.",
+  "authErrorWhuRequired": "Hãy liên kết tài khoản WHU trước khi đăng ký.",
+  "authErrorWhuAlreadyBound": "Tài khoản WHU này đã được liên kết với một tài khoản Luotopia khác.",
+  "authErrorVerificationFailed": "Xác minh thất bại hoặc đã hết hạn. Vui lòng thử lại.",
+  "authErrorRateLimited": "Quá nhiều yêu cầu. Vui lòng thử lại sau.",
+  "authErrorRequestFailed": "Yêu cầu thất bại. Vui lòng thử lại.",
+  "apiErrorUnauthorized": "Yêu cầu xác thực.",
+  "apiErrorInvalidToken": "Phiên đã hết hạn. Vui lòng đăng nhập lại.",
+  "apiErrorTokenExpired": "Phiên đã hết hạn. Vui lòng đăng nhập lại.",
+  "apiErrorUserNotFound": "Không tìm thấy người dùng.",
+  "apiErrorPermissionDenied": "Bạn không có quyền thực hiện thao tác này.",
+  "apiErrorMfaRequired": "Cần xác minh bổ sung.",
+  "apiErrorPasswordChangeRequired": "Vui lòng đổi mật khẩu trước.",
+  "apiErrorCourseNotFound": "Không tìm thấy học phần.",
+  "apiErrorCoursePending": "Học phần đang chờ phê duyệt.",
+  "apiErrorReviewNotFound": "Không tìm thấy đánh giá.",
+  "apiErrorSearchFailed": "Tạm thời không thể tìm kiếm.",
+  "apiErrorServer": "Lỗi máy chủ. Vui lòng thử lại sau.",
+  "apiErrorDatabase": "Dịch vụ dữ liệu tạm thời không khả dụng.",
+  "apiErrorConfigMissing": "Cấu hình dịch vụ không khả dụng.",
+  "apiErrorForumUserNotFound": "Không tìm thấy người dùng diễn đàn.",
+  "apiErrorInviteQuotaExhausted": "Đã dùng hết hạn mức lời mời.",
+  "apiErrorEditWindowExpired": "Thời hạn chỉnh sửa đã hết.",
+  "apiErrorForumForbidden": "Thao tác diễn đàn này không được phép.",
+  "apiErrorForumBadRequest": "Yêu cầu diễn đàn không hợp lệ.",
+  "apiErrorAdminRequired": "Cần quyền quản trị viên.",
+  "apiErrorCalendarInvalidMode": "Chế độ xuất lịch không hợp lệ.",
+  "apiErrorCalendarUnavailable": "Dịch vụ lịch tạm thời không khả dụng.",
+  "apiErrorCalendarTimetableLoad": "Không thể tải thời khóa biểu để xuất lịch.",
+  "apiErrorCalendarGenerateFailed": "Không thể tạo nguồn lịch.",
+  "apiErrorBusUpstream": "Dịch vụ xe buýt trong trường tạm thời không khả dụng.",
+  "apiErrorCacheOperationFailed": "Thao tác bộ nhớ đệm thất bại.",
+  "apiErrorCacheDisabled": "Dịch vụ bộ nhớ đệm đã bị tắt.",
+  "apiErrorCacheConfirmRequired": "Vui lòng xác nhận thao tác bộ nhớ đệm.",
+  "apiErrorAdminTaskNotFound": "Không tìm thấy tác vụ quản trị viên.",
+  "apiErrorAdminTaskUnavailable": "Dịch vụ tác vụ quản trị viên không khả dụng.",
+  "apiErrorNotImplemented": "Thao tác này chưa được triển khai.",
+  "apiErrorQueueUnavailable": "Dịch vụ hàng đợi không khả dụng.",
+  "apiErrorInvalidRequest": "Yêu cầu không hợp lệ. Hãy kiểm tra dữ liệu nhập.",
+  "apiErrorNotFound": "Không tìm thấy tài nguyên.",
+  "apiErrorConflict": "Yêu cầu xung đột với trạng thái hiện tại.",
+  "apiErrorServiceUnavailable": "Dịch vụ tạm thời không khả dụng.",
+  "apiErrorUpstream": "Dịch vụ upstream tạm thời không khả dụng.",
+  "apiErrorDuplicateMutation": "Phát hiện yêu cầu trùng lặp.",
+  "apiErrorRequestFailed": "Yêu cầu thất bại. Vui lòng thử lại.",
+  "luotopiaRegisterStepWhuTitle": "Xác nhận tài khoản WHU",
+  "luotopiaRegisterStepWhuSubtitle": "Danh tính sinh viên WHU này sẽ được liên kết với tài khoản Luotopia của bạn.",
+  "luotopiaRegisterWhuNameLabel": "Họ tên",
+  "luotopiaRegisterWhuStudentIdLabel": "Mã số sinh viên",
+  "luotopiaRegisterWhuMismatchHint": "Nếu không phải bạn, hãy mở phần cài đặt tài khoản WHU, đăng xuất và liên kết tài khoản khác.",
+  "luotopiaRegisterOpenWhuAccount": "Mở tài khoản WHU",
+  "luotopiaRegisterStepProfileTitle": "Hồ sơ và email",
+  "luotopiaRegisterStepProfileSubtitle": "Chọn tên hiển thị và email cho tài khoản Luotopia.",
+  "luotopiaRegisterEmailVerifiedHint": "Email này đã được xác minh trên tài khoản WHU và tự động điền. Bạn vẫn có thể thay đổi.",
+  "luotopiaRegisterEmailUnverifiedHint": "Nếu đây là email WHU của bạn, hãy xác minh trước trên trang tài khoản WHU để chúng tôi tự điền.",
+  "luotopiaRegisterGoVerifyEmail": "Xác minh trên tài khoản WHU",
+  "luotopiaRegisterStepPasswordTitle": "Đặt mật khẩu",
+  "luotopiaRegisterStepPasswordSubtitle": "Dùng ít nhất 10 ký tự. Bạn sẽ cần mật khẩu này để đăng nhập.",
+  "scoreImportCountLabel": "Số lượng điểm",
+  "campusAppMajorInfo": "Thông tin trường và ngành học",
+  "majorInfoTitle": "Thông tin trường và ngành học",
+  "majorInfoDescription": "Khám phá các đơn vị học thuật, trường, ngành học, kế hoạch giảng dạy và dữ liệu việc làm.",
+  "majorInfoMajors": "Ngành học",
+  "majorInfoMajorCount": "ngành học",
+  "majorInfoShowCharts": "Hiển thị biểu đồ",
+  "majorInfoShowList": "Hiển thị danh sách dữ liệu",
+  "majorInfoEmploymentChartSemantics": "Biểu đồ tương tác về phân bố việc làm",
+  "scoreTranscriptZoom": "Thu phóng",
+  "scoreTranscriptZoomIn": "Phóng to",
+  "scoreTranscriptZoomOut": "Thu nhỏ",
+  "scoreTranscriptMoreActions": "Thao tác khác với tài liệu",
+  "majorInfoObjective": "Mục tiêu đào tạo",
+  "majorInfoPositioning": "Định vị ngành học",
+  "majorInfoCharacteristics": "Đặc điểm ngành học",
+  "majorInfoTeachingPlan": "Kế hoạch giảng dạy",
+  "majorInfoEmploymentTypes": "Hướng việc làm",
+  "majorInfoEmploymentIndustries": "Ngành nghề việc làm",
+  "majorInfoEmploymentRegions": "Khu vực việc làm",
+  "majorInfoEmploymentEmployers": "Nhà tuyển dụng",
+  "majorInfoTrainingPlan": "Kế hoạch đào tạo của trường",
+  "majorInfoOpenTrainingPlan": "Mở bản xem trước kế hoạch đào tạo",
+  "majorInfoTrainingPlanSubtitle": "Mở bản xem trước tài liệu chính thức của Chaoxing",
+  "majorInfoTrainingPlanLoading": "Đang tải kế hoạch đào tạo…",
+  "majorInfoTrainingPlanUnavailable": "Bản xem trước kế hoạch đào tạo hiện không khả dụng.",
+  "scoreImportParsedCountLabel": "Điểm đã tải về",
+  "scoreImportMergedCountLabel": "Điểm đã gộp",
+  "scoreImportExampleLabel": "Ví dụ",
+  "adminConsoleTitle": "Bảng điều khiển quản trị",
+  "adminConsoleSubtitle": "Người dùng, diễn đàn và trạng thái hệ thống",
+  "adminAccessDenied": "Cần quyền quản trị viên.",
+  "adminSectionOverview": "Tổng quan",
+  "adminSectionUsers": "Người dùng",
+  "adminSectionForum": "Diễn đàn",
+  "adminSystemStatusTitle": "Trạng thái hệ thống",
+  "adminSystemStatusSubtitle": "Hàng đợi, worker và thống kê tác vụ",
+  "adminWorkerStatusTitle": "Trạng thái worker",
+  "adminTaskStatsTitle": "Thống kê tác vụ",
+  "adminQueueStatusTitle": "Trạng thái hàng đợi",
+  "adminQueueDepth": "Độ sâu",
+  "adminQueuePaused": "Đã tạm dừng",
+  "adminQueuePause": "Tạm dừng",
+  "adminQueueResume": "Tiếp tục",
+  "adminStatusActiveWorkers": "Active workers",
+  "adminStatusHealthyWorkers": "Healthy workers",
+  "adminStatusTasksProcessed": "Processed",
+  "adminStatusTasksFailed": "Failed",
+  "adminStatusTasksRetried": "Retried",
+  "adminStatusWorkerInstances": "Worker instances",
+  "adminStatusNoWorkers": "No workers online",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "Healthy",
+  "adminStatusUnhealthy": "Unhealthy",
+  "adminStatusQueueSize": "Queue size",
+  "adminStatusProcessing": "Processing",
+  "adminStatusAvgProcessing": "Avg processing",
+  "adminStatusStartedAt": "Started",
+  "adminStatusLastHeartbeat": "Last heartbeat",
+  "adminStatusTasksTotal": "Total",
+  "adminStatusTasksPending": "Pending",
+  "adminStatusTasksRunning": "Running",
+  "adminStatusTasksSuccess": "Success",
+  "adminStatusTasksCancelled": "Cancelled",
+  "adminStatusScheduledRetries": "Scheduled retries",
+  "adminStatusNextRetry": "Next retry",
+  "adminStatusUpdatedAt": "Updated",
+  "adminStatusNoQueues": "No queues",
+  "adminStatusRedisConnected": "Redis connected",
+  "adminStatusRedisDisconnected": "Redis disconnected",
+  "adminUsersTitle": "Quản lý người dùng",
+  "adminUsersSubtitle": "Tìm người dùng và đổi vai trò",
+  "adminUsersSearchHint": "Tìm theo tên hoặc email",
+  "adminUsersEmpty": "Không tìm thấy người dùng.",
+  "adminUsersRoleLabel": "Vai trò",
+  "adminUsersDisabled": "Đã vô hiệu hóa",
+  "adminUsersEnable": "Bật",
+  "adminUsersDisable": "Tắt",
+  "adminUsersSetRole": "Đặt thành {role}",
+  "adminUsersRoleUpdated": "Đã cập nhật vai trò người dùng.",
+  "adminUserDetailAccount": "Tài khoản", "adminUserDetailDisplayName": "Tên hiển thị", "adminUserDetailRegistered": "Đã đăng ký", "adminUserDetailLastActive": "Hoạt động gần nhất", "adminUserDetailForum": "Diễn đàn", "adminUserDetailNickname": "Biệt danh", "adminUserDetailStatus": "Trạng thái", "adminUserDetailLevel": "Cấp độ", "adminUserDetailPosts": "Bài viết", "adminUserDetailComments": "Bình luận", "adminUserDetailReceivedLikes": "Lượt thích đã nhận", "adminUserDetailWhuAccountData": "Dữ liệu tài khoản WHU", "adminUserDetailWhuAccountDataDescription": "Chỉ quản trị viên cấp cao mới xem được. Truy cập này được kiểm toán.", "adminUserDetailWhuAccount": "Tài khoản WHU", "adminUserDetailManagement": "Quản lý",
+  "adminUserContentPostsTitle": "Bài viết của người dùng",
+  "adminUserContentCommentsTitle": "Bình luận của người dùng",
+  "adminUserContentPostsEmpty": "Không có bài viết",
+  "adminUserContentCommentsEmpty": "Không có bình luận",
+  "adminUserContentPostLabel": "Bài viết: {postId}",
+  "adminRoleUser": "Người dùng",
+  "adminRoleAdmin": "Quản trị viên",
+  "adminRoleSuperAdmin": "Siêu quản trị",
+  "adminForumBoardsTitle": "Chuyên mục diễn đàn",
+  "adminForumBoardsSubtitle": "Tạo, sửa và lưu trữ chuyên mục",
+  "adminForumBoardsEmpty": "Chưa có chuyên mục.",
+  "adminForumBoardCreate": "Tạo chuyên mục",
+  "adminForumBoardEdit": "Sửa chuyên mục",
+  "adminForumBoardName": "Tên",
+  "adminForumBoardDescription": "Mô tả",
+  "adminForumBoardShelter": "Chuyên mục trú ẩn",
+  "adminForumBoardActive": "Đang bật",
+  "adminForumBoardInactive": "Đang tắt",
+  "adminForumBoardActivate": "Bật",
+  "adminForumBoardDeactivate": "Tắt",
+  "adminForumBoardArchive": "Lưu trữ",
+  "adminForumSettingsTitle": "Cài đặt diễn đàn",
+  "adminForumSettingsSubtitle": "Tải lên, lời mời và chính sách",
+  "adminForumSettingsUpload": "Tải lên",
+  "adminForumSettingsImageExtensions": "Phần mở rộng ảnh",
+  "adminForumSettingsAttachmentExtensions": "Phần mở rộng tệp đính kèm",
+  "adminForumSettingsAddExtensionHint": "Nhập và nhấn Enter để thêm",
+  "adminForumSettingsImageQuality": "Chất lượng ảnh (1–100)",
+  "adminForumSettingsImageMaxDimension": "Kích thước ảnh tối đa",
+  "adminForumSettingsAllowAnimated": "Cho phép ảnh động",
+  "adminForumSettingsRegistration": "Đăng ký",
+  "adminForumSettingsInviteRequired": "Bắt buộc lời mời",
+  "adminForumSettingsInviteQuota": "Hạn mức lời mời mặc định",
+  "adminForumSettingsSaved": "Đã lưu cài đặt diễn đàn.",
+  "adminForumModerationSubtitle": "Hàng đợi báo cáo và kháng nghị",
+  "adminForumConfigLogTitle": "Nhật ký cấu hình",
+  "adminForumConfigLogSubtitle": "Các thay đổi cấu hình diễn đàn gần đây",
+  "adminForumConfigLogEmpty": "Chưa có thay đổi cấu hình nào được ghi nhận.",
+  "adminForumConfigLogActor": "Người thao tác",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "forumReplyDepthLimit": "Đã đạt độ sâu trả lời tối đa"
 }

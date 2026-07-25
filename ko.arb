@@ -356,6 +356,14 @@
   "luotopiaPasswordHint": "6자 이상",
   "luotopiaPasswordsDoNotMatch": "비밀번호가 일치하지 않습니다",
   "luotopiaPleaseFillFields": "사용자 이름과 비밀번호를 입력하세요",
+  "luotopiaEmailRequired": "이메일 주소를 입력하세요",
+  "luotopiaEmailInvalid": "올바른 이메일 주소를 입력하세요",
+  "luotopiaPasswordRequired": "비밀번호를 입력하세요",
+  "luotopiaPasswordPolicyNotMet": "비밀번호가 요구 사항을 충족하지 않습니다",
+  "luotopiaPasswordRequireDigit": "숫자 포함",
+  "luotopiaPasswordRequireLowercase": "소문자 포함",
+  "luotopiaPasswordRequireUppercase": "대문자 포함",
+  "luotopiaPasswordRequireSpecial": "특수 문자 포함",
   "luotopiaRegistering": "가입 중…",
   "luotopiaRegisterTitle": "Luotopia 가입",
   "luotopiaUsername": "사용자 이름",
@@ -1316,6 +1324,10 @@
   "settingsHomeGridAlpha": "그리드 배경 불투명도",
   "settingsHomeGridBorderAlpha": "그리드 테두리 불투명도",
   "settingsHomeCropImage": "이미지 자르기",
+  "imageCropDesktopHint": "드래그하여 이동 · +/−로 자르기 영역 조절",
+  "imageCropDesktopHintSquare": "드래그하여 이동 · +/−로 정사각 자르기 영역 조절",
+  "imageCropZoomIn": "확대",
+  "imageCropZoomOut": "축소",
   "settingsAiFormat": "API 형식",
   "settingsAiFormatSubtitle": "제공자에 맞는 AI API 형식을 선택",
   "biometricLockContentLocked": "잠김",
@@ -1936,6 +1948,21 @@
   "weatherAirQualityClose": "닫기",
   "campusBusTitle": "캠퍼스 버스",
   "campusBusNearestStop": "가장 가까운 정류장: {stopName}",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "지정: {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
   "campusBusDistance": "약 {meters}m",
   "campusBusLineOne": "1호선",
   "campusBusLineTwo": "2호선",
@@ -2574,6 +2601,45 @@
   "authApiCredentialsTitle": "API 자격 증명",
   "authApiCredentialCreate": "자격 증명 만들기",
   "authApiCredentialName": "이름",
+  "luotopiaLoginEmailHint": "계정 이메일 주소",
+  "luotopiaLoginUsernameHint": "Luotopia 사용자 이름",
+  "luotopiaLoginUsernameRequired": "Luotopia 사용자 이름을 입력하세요",
+  "luotopiaLoginUsernameInvalid": "3~60자의 영문, 숫자, 점, 하이픈 또는 밑줄을 사용하세요",
+  "luotopiaLoginWhuStudentId": "WHU 학번",
+  "luotopiaLoginWhuStudentIdHint": "이 계정에 연결된 WHU 학번",
+  "luotopiaLoginWhuStudentIdRequired": "WHU 학번을 입력하세요",
+  "luotopiaLoginWhuStudentIdInvalid": "숫자로 된 WHU 학번을 입력하세요",
+  "authRememberCredentials": "계정과 비밀번호 기억",
+  "authWhuBindingAlreadyExists": "이미 연결되었습니다. 다시 연결하지 마세요.",
+  "authErrorEmailNotAllowedWithDomains": "허용된 이메일 주소를 사용하세요: {domains}.",
+  "luotopiaRegisterSuccess": "가입되었습니다. 이제 로그인할 수 있습니다.",
+  "luotopiaRegisterEmailCodeSent": "확인 코드가 {email}로 전송되었습니다.",
+  "luotopiaRegisterEmailCodeRetryAfter": "{seconds}초 후 재전송할 수 있습니다",
+  "luotopiaRegisterEmailCodeSending": "확인 코드 전송 중...",
+  "luotopiaRegisterEmailCodeRequired": "6자리 이메일 확인 코드를 입력하세요.",
+  "luotopiaRegisterEmailAlreadyVerified": "이 이메일은 이미 확인되었습니다. 비밀번호 설정을 계속할 수 있습니다.",
+  "luotopiaRegisterProfileRequired": "계속하기 전에 사용자 이름과 이메일을 입력하세요.",
+  "luotopiaRegisterPasswordRequired": "가입하기 전에 모든 요구 사항을 충족하는 비밀번호를 입력하세요.",
+  "luotopiaRegisterEmailCodeLabel": "이메일 확인 코드",
+  "luotopiaRegisterEmailCodeHint": "6자리 코드 입력",
+  "luotopiaRegisterEmailCodeExpires": "코드는 약 {minutes}분 후 만료됩니다.",
+  "luotopiaRegisterSendEmailCode": "확인 코드 보내기",
+  "luotopiaRegisterResendEmailCode": "확인 코드 다시 보내기",
+  "authRecoveryCodesTitle": "복구 코드 저장",
+  "authRecoveryCodesDescription": "이 코드를 안전한 곳에 보관하세요. 이메일에 접근할 수 없을 때 각 코드는 한 번만 사용할 수 있습니다. 다시 표시되지 않습니다.",
+  "authRecoveryCodesSaveAsText": ".txt로 저장",
+  "authRecoveryCodesSavedConfirmation": "복구 코드를 안전하게 저장했습니다.",
+  "authApiCredentialEdit": "API 자격 증명 수정",
+  "authApiCredentialScopesHint": "범위를 쉼표로 구분하여 입력하세요(모든 범위는 all)",
+  "authApiCredentialMonthlyLimitHint": "월간 요청 한도(0은 계정 한도 상속)",
+  "authApiCredentialMinuteLimitHint": "분당 요청 수(0은 계정 한도 상속)",
+  "authApiCredentialHourLimitHint": "시간당 요청 수(0은 계정 한도 상속)",
+  "authApiCredentialEffectiveLimits": "적용되는 계정 API 한도",
+  "authApiCredentialLoadingLimits": "계정 API 한도를 불러오는 중...",
+  "authApiCredentialUsageMinute": "분",
+  "authApiCredentialUsageHour": "시간",
+  "authApiCredentialUsageDay": "일",
+  "authApiCredentialUsageMonth": "월",
   "authApiCredentialKey": "API 키",
   "authApiCredentialScopes": "범위",
   "authApiCredentialAllScopes": "전체",
@@ -2736,6 +2802,17 @@
   },
   "authEditProfile": "프로필 수정",
   "authDisplayName": "표시 이름",
+  "authSocialProfile": "소셜 프로필",
+  "authRegion": "지역",
+  "authGender": "성별",
+  "authGenderMale": "남성",
+  "authGenderFemale": "여성",
+  "authGenderNonBinary": "논바이너리",
+  "authGenderPreferNotToSay": "답변하지 않음",
+  "authGenderOther": "기타",
+  "authCustomGender": "성별을 설명하세요",
+  "authBirthday": "생일",
+  "authBio": "소개",
   "authProfileUpdateFailed": "프로필을 업데이트하지 못했습니다: {error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2850,6 +2927,8 @@
   },
   "forumCreatePost": "게시글 작성",
   "forumPost": "게시글",
+  "forumNoActiveBoards": "사용 가능한 활성 게시판이 없습니다. 다시 시도하거나 관리자에게 문의하세요.",
+  "forumSelectedBoardUnavailable": "선택한 게시판을 사용할 수 없습니다. 활성 게시판으로 변경했습니다.",
   "forumBoardShelter": "쉼터 {name}",
   "@forumBoardShelter": {
     "placeholders": {
@@ -2867,6 +2946,11 @@
     }
   },
   "forumPostsLoadFailed": "게시글을 불러오지 못했습니다: {error}",
+  "forumAttachmentAdd": "첨부 파일 추가",
+  "forumImageAdd": "이미지 추가",
+  "forumSupportedImageFormats": "지원하는 이미지 형식",
+  "forumSupportedAttachmentFormats": "지원하는 첨부 파일 형식",
+  "forumAttachmentUploadFailed": "첨부 파일 업로드에 실패했습니다: {error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2903,6 +2987,7 @@
   },
   "forumPostDetails": "게시글 상세",
   "forumReplies": "답글",
+  "forumRepliesEmpty": "아직 답글이 없습니다.",
   "forumReply": "답글",
   "forumRepliesLoadFailed": "답글을 불러오지 못했습니다: {error}",
   "@forumRepliesLoadFailed": {
@@ -2988,9 +3073,178 @@
   "forumLike": "좋아요",
   "forumDislike": "싫어요",
   "forumSave": "저장",
+  "forumEdit": "수정",
+  "forumDownload": "다운로드",
   "forumReport": "신고",
   "forumReportReason": "사유",
   "forumReportSubmitted": "신고가 접수되었습니다.",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "체크인",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "신고를 제출하지 못했습니다: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3004,6 +3258,24 @@
   "forumAppealReason": "이의제기 내용",
   "forumAppealSubmitted": "이의제기가 제출되었습니다.",
   "forumModeration": "콘텐츠 심사",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "승인",
   "forumHide": "숨기기",
   "forumDelete": "삭제",
@@ -3151,7 +3423,48 @@
   "settingsBuildInfoBuildTime": "빌드 시간",
   "luotopiaRegisterVerifyEmail": "가입이 완료되었습니다. 이메일 인증 후 로그인해 주세요.",
   "courseImportSemesterAlreadyAdded": "이 학기는 이미 추가되었습니다. 시간표 메뉴에서 “시간표 업데이트”를 선택하세요.",
-  "waterControlClassNo": "ClassNo {classNo}",
+  "waterControlClassNo": "수업 번호 {classNo}",
+  "forumImageFiles": "포럼 이미지",
+  "forumAttachmentFiles": "포럼 첨부 파일",
+  "forumModerationAllSources": "모든 출처",
+  "forumModerationUnclaimed": "미할당",
+  "forumModerationUserReports": "사용자 신고",
+  "forumModerationAIHighRisk": "AI 고위험",
+  "forumModerationBrigadingRisk": "조직적 신고 의심",
+  "forumCommentDeleted": "삭제된 댓글입니다",
+  "forumRepliesExpand": "답글 {count}개 더 보기",
+  "forumReplyTo": "@{name}님에게 답글",
+  "majorInfoEmploymentNoData": "데이터 없음",
+  "forumSearch": "검색",
+  "forumMoreActions": "작업 더보기",
+  "forumSearchQuery": "게시물 검색",
+  "forumSearchBoard": "게시판",
+  "forumSearchTag": "태그",
+  "forumSearchCourseId": "강좌 ID",
+  "forumSortLatest": "최신순",
+  "forumSortHottest": "인기순",
+  "forumSortMostCommented": "댓글 많은 순",
+  "forumImagePresetDataSaver": "데이터 절약",
+  "forumImagePresetRecommended": "권장",
+  "forumImagePresetHighQuality": "고화질",
+  "forumNotificationRead": "읽음",
+  "forumNotificationUnread": "읽지 않음",
+  "forumReview": "검토",
+  "forumResolve": "해결",
+  "majorInfoBasicInformation": "기본 정보",
+  "majorInfoCollegeInformation": "단과대학 정보",
+  "authRegisteredDevicesTitle": "등록된 기기",
+  "authRegisteredDevicesSubtitle": "기기를 삭제하면 푸시 알림이 중지되지만 활성 세션은 로그아웃되지 않습니다.",
+  "authRegisteredDevicesEmpty": "등록된 기기가 없습니다.",
+  "authRegisteredDeviceLastSeen": "최근 등록: {time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "기기 삭제",
   "campusFacultyArts": "문리학부",
   "campusFacultyEngineering": "공학부",
   "campusFacultyInfo": "정보학부",
@@ -3339,5 +3652,206 @@
   "campusBusOutsideServiceRange": "운행 시간 외",
   "campusBusNoReachableBus": "이 정류장에 도착할 수 있는 버스가 없습니다. 다른 정류장을 선택하거나 운행 시간에 다시 시도하세요.",
   "campusBusArrivalUseNearestToggle": "이 노선의 가장 가까운 정류장 사용",
-  "campusBusRouteViewHorizontal": "가로 경로 보기"
+  "campusBusRouteViewHorizontal": "가로 경로 보기",
+  "luotopiaLoginIdentifierLabel": "이메일, 사용자 이름 또는 WHU 학번",
+  "luotopiaLoginIdentifierHint": "이 계정에 연결된 식별자를 사용하세요",
+  "luotopiaLoginIdentifierRequired": "이메일, 사용자 이름 또는 WHU 학번을 입력하세요",
+  "authErrorInvalidCredentials": "이메일 또는 비밀번호가 올바르지 않습니다.",
+  "authErrorEmailNotAllowed": "WHU 이메일 주소(@whu.edu.cn 또는 @alumni.whu.edu.cn)를 사용하세요.",
+  "authErrorEmailExists": "이 이메일은 이미 등록되어 있습니다. 로그인하거나 비밀번호를 재설정하세요.",
+  "authErrorEmailUnverified": "로그인하기 전에 이메일을 인증하세요.",
+  "authErrorUserDisabled": "이 계정은 비활성화되었습니다.",
+  "authErrorPasswordPolicy": "비밀번호가 현재 보안 요구사항을 충족하지 않습니다.",
+  "authErrorWhuRequired": "가입하기 전에 WHU 계정을 연동하세요.",
+  "authErrorWhuAlreadyBound": "이 WHU 계정은 이미 다른 Luotopia 계정에 연결되어 있습니다.",
+  "authErrorVerificationFailed": "인증에 실패했거나 만료되었습니다. 다시 시도하세요.",
+  "authErrorRateLimited": "요청이 너무 많습니다. 나중에 다시 시도하세요.",
+  "authErrorRequestFailed": "요청에 실패했습니다. 다시 시도하세요.",
+  "apiErrorUnauthorized": "인증이 필요합니다.",
+  "apiErrorInvalidToken": "세션이 만료되었습니다. 다시 로그인하세요.",
+  "apiErrorTokenExpired": "세션이 만료되었습니다. 다시 로그인하세요.",
+  "apiErrorUserNotFound": "사용자를 찾을 수 없습니다.",
+  "apiErrorPermissionDenied": "이 작업을 수행할 권한이 없습니다.",
+  "apiErrorMfaRequired": "추가 인증이 필요합니다.",
+  "apiErrorPasswordChangeRequired": "먼저 비밀번호를 변경하세요.",
+  "apiErrorCourseNotFound": "강좌를 찾을 수 없습니다.",
+  "apiErrorCoursePending": "강좌가 승인 대기 중입니다.",
+  "apiErrorReviewNotFound": "리뷰를 찾을 수 없습니다.",
+  "apiErrorSearchFailed": "검색을 일시적으로 사용할 수 없습니다.",
+  "apiErrorServer": "서버 오류입니다. 나중에 다시 시도하세요.",
+  "apiErrorDatabase": "데이터 서비스를 일시적으로 사용할 수 없습니다.",
+  "apiErrorConfigMissing": "서비스 설정을 사용할 수 없습니다.",
+  "apiErrorForumUserNotFound": "포럼 사용자를 찾을 수 없습니다.",
+  "apiErrorInviteQuotaExhausted": "초대 한도를 모두 사용했습니다.",
+  "apiErrorEditWindowExpired": "수정 가능 시간이 만료되었습니다.",
+  "apiErrorForumForbidden": "이 포럼 작업은 허용되지 않습니다.",
+  "apiErrorForumBadRequest": "잘못된 포럼 요청입니다.",
+  "apiErrorAdminRequired": "관리자 권한이 필요합니다.",
+  "apiErrorCalendarInvalidMode": "잘못된 캘린더 내보내기 모드입니다.",
+  "apiErrorCalendarUnavailable": "캘린더 서비스를 사용할 수 없습니다.",
+  "apiErrorCalendarTimetableLoad": "캘린더 내보내기용 시간표를 불러오지 못했습니다.",
+  "apiErrorCalendarGenerateFailed": "캘린더 피드를 생성하지 못했습니다.",
+  "apiErrorBusUpstream": "캠퍼스 버스 서비스를 일시적으로 사용할 수 없습니다.",
+  "apiErrorCacheOperationFailed": "캐시 작업에 실패했습니다.",
+  "apiErrorCacheDisabled": "캐시 서비스가 비활성화되어 있습니다.",
+  "apiErrorCacheConfirmRequired": "캐시 작업을 확인하세요.",
+  "apiErrorAdminTaskNotFound": "관리자 작업을 찾을 수 없습니다.",
+  "apiErrorAdminTaskUnavailable": "관리자 작업 서비스를 사용할 수 없습니다.",
+  "apiErrorNotImplemented": "이 작업은 아직 구현되지 않았습니다.",
+  "apiErrorQueueUnavailable": "대기열 서비스를 사용할 수 없습니다.",
+  "apiErrorInvalidRequest": "잘못된 요청입니다. 입력 내용을 확인하세요.",
+  "apiErrorNotFound": "리소스를 찾을 수 없습니다.",
+  "apiErrorConflict": "요청이 현재 상태와 충돌합니다.",
+  "apiErrorServiceUnavailable": "서비스를 일시적으로 사용할 수 없습니다.",
+  "apiErrorUpstream": "상위 서비스를 일시적으로 사용할 수 없습니다.",
+  "apiErrorDuplicateMutation": "중복 요청이 감지되었습니다.",
+  "apiErrorRequestFailed": "요청에 실패했습니다. 다시 시도하세요.",
+  "luotopiaRegisterStepWhuTitle": "WHU 계정 확인",
+  "luotopiaRegisterStepWhuSubtitle": "이 WHU 학생 신원은 Luotopia 계정에 연결됩니다.",
+  "luotopiaRegisterWhuNameLabel": "이름",
+  "luotopiaRegisterWhuStudentIdLabel": "학번",
+  "luotopiaRegisterWhuMismatchHint": "본인이 아니라면 WHU 계정 설정에서 로그아웃한 뒤 다른 계정을 연결하세요.",
+  "luotopiaRegisterOpenWhuAccount": "WHU 계정 열기",
+  "luotopiaRegisterStepProfileTitle": "프로필 및 이메일",
+  "luotopiaRegisterStepProfileSubtitle": "표시 이름과 Luotopia 계정에 사용할 이메일을 선택하세요.",
+  "luotopiaRegisterEmailVerifiedHint": "이 이메일은 WHU 계정에서 인증되어 자동으로 입력되었습니다. 변경할 수도 있습니다.",
+  "luotopiaRegisterEmailUnverifiedHint": "WHU 이메일이라면 먼저 WHU 계정 페이지에서 인증하면 자동으로 입력할 수 있습니다.",
+  "luotopiaRegisterGoVerifyEmail": "WHU 계정에서 인증",
+  "luotopiaRegisterStepPasswordTitle": "비밀번호 설정",
+  "luotopiaRegisterStepPasswordSubtitle": "10자 이상을 사용하세요. 로그인할 때 이 비밀번호가 필요합니다.",
+  "scoreImportCountLabel": "성적 수",
+  "campusAppMajorInfo": "단과대학 및 전공 정보",
+  "majorInfoTitle": "단과대학 및 전공 정보",
+  "majorInfoDescription": "학술 부문, 단과대학, 전공, 교육 계획 및 취업 데이터를 살펴보세요.",
+  "majorInfoMajors": "전공",
+  "majorInfoMajorCount": "전공",
+  "majorInfoShowCharts": "차트 표시",
+  "majorInfoShowList": "데이터 목록 표시",
+  "majorInfoEmploymentChartSemantics": "대화형 취업 분포 차트",
+  "scoreTranscriptZoom": "확대/축소",
+  "scoreTranscriptZoomIn": "확대",
+  "scoreTranscriptZoomOut": "축소",
+  "scoreTranscriptMoreActions": "추가 문서 작업",
+  "majorInfoObjective": "교육 목표",
+  "majorInfoPositioning": "전공의 위상",
+  "majorInfoCharacteristics": "전공 특성",
+  "majorInfoTeachingPlan": "교육 계획",
+  "majorInfoEmploymentTypes": "취업 진로",
+  "majorInfoEmploymentIndustries": "취업 산업",
+  "majorInfoEmploymentRegions": "취업 지역",
+  "majorInfoEmploymentEmployers": "고용주",
+  "majorInfoTrainingPlan": "단과대학 교육 계획",
+  "majorInfoOpenTrainingPlan": "교육 계획 미리보기 열기",
+  "majorInfoTrainingPlanSubtitle": "Chaoxing 공식 문서 미리보기를 엽니다",
+  "majorInfoTrainingPlanLoading": "교육 계획을 불러오는 중…",
+  "majorInfoTrainingPlanUnavailable": "교육 계획 미리보기를 사용할 수 없습니다.",
+  "scoreImportParsedCountLabel": "가져온 성적",
+  "scoreImportMergedCountLabel": "병합된 성적",
+  "scoreImportExampleLabel": "예시",
+  "adminConsoleTitle": "관리 콘솔",
+  "adminConsoleSubtitle": "사용자, 포럼, 시스템 상태",
+  "adminAccessDenied": "관리자 권한이 필요합니다.",
+  "adminSectionOverview": "개요",
+  "adminSectionUsers": "사용자",
+  "adminSectionForum": "포럼",
+  "adminSystemStatusTitle": "시스템 상태",
+  "adminSystemStatusSubtitle": "큐, 워커, 작업 통계",
+  "adminWorkerStatusTitle": "워커 상태",
+  "adminTaskStatsTitle": "작업 통계",
+  "adminQueueStatusTitle": "큐 상태",
+  "adminQueueDepth": "깊이",
+  "adminQueuePaused": "일시 중지됨",
+  "adminQueuePause": "일시 중지",
+  "adminQueueResume": "재개",
+  "adminStatusActiveWorkers": "Active workers",
+  "adminStatusHealthyWorkers": "Healthy workers",
+  "adminStatusTasksProcessed": "Processed",
+  "adminStatusTasksFailed": "Failed",
+  "adminStatusTasksRetried": "Retried",
+  "adminStatusWorkerInstances": "Worker instances",
+  "adminStatusNoWorkers": "No workers online",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "Healthy",
+  "adminStatusUnhealthy": "Unhealthy",
+  "adminStatusQueueSize": "Queue size",
+  "adminStatusProcessing": "Processing",
+  "adminStatusAvgProcessing": "Avg processing",
+  "adminStatusStartedAt": "Started",
+  "adminStatusLastHeartbeat": "Last heartbeat",
+  "adminStatusTasksTotal": "Total",
+  "adminStatusTasksPending": "Pending",
+  "adminStatusTasksRunning": "Running",
+  "adminStatusTasksSuccess": "Success",
+  "adminStatusTasksCancelled": "Cancelled",
+  "adminStatusScheduledRetries": "Scheduled retries",
+  "adminStatusNextRetry": "Next retry",
+  "adminStatusUpdatedAt": "Updated",
+  "adminStatusNoQueues": "No queues",
+  "adminStatusRedisConnected": "Redis connected",
+  "adminStatusRedisDisconnected": "Redis disconnected",
+  "adminUsersTitle": "사용자 관리",
+  "adminUsersSubtitle": "사용자 검색 및 역할 변경",
+  "adminUsersSearchHint": "이름 또는 이메일로 검색",
+  "adminUsersEmpty": "사용자를 찾을 수 없습니다.",
+  "adminUsersRoleLabel": "역할",
+  "adminUsersDisabled": "비활성화됨",
+  "adminUsersEnable": "활성화",
+  "adminUsersDisable": "비활성화",
+  "adminUsersSetRole": "{role}(으)로 설정",
+  "adminUsersRoleUpdated": "사용자 역할이 업데이트되었습니다.",
+  "adminUserDetailAccount": "계정", "adminUserDetailDisplayName": "표시 이름", "adminUserDetailRegistered": "가입일", "adminUserDetailLastActive": "마지막 활동", "adminUserDetailForum": "포럼", "adminUserDetailNickname": "별명", "adminUserDetailStatus": "상태", "adminUserDetailLevel": "레벨", "adminUserDetailPosts": "게시물", "adminUserDetailComments": "댓글", "adminUserDetailReceivedLikes": "받은 좋아요", "adminUserDetailWhuAccountData": "WHU 계정 데이터", "adminUserDetailWhuAccountDataDescription": "최고 관리자만 볼 수 있으며, 이 접근은 감사됩니다.", "adminUserDetailWhuAccount": "WHU 계정", "adminUserDetailManagement": "관리",
+  "adminUserContentPostsTitle": "사용자 게시물",
+  "adminUserContentCommentsTitle": "사용자 댓글",
+  "adminUserContentPostsEmpty": "게시물이 없습니다",
+  "adminUserContentCommentsEmpty": "댓글이 없습니다",
+  "adminUserContentPostLabel": "게시물: {postId}",
+  "adminRoleUser": "사용자",
+  "adminRoleAdmin": "관리자",
+  "adminRoleSuperAdmin": "최고 관리자",
+  "adminForumBoardsTitle": "포럼 게시판",
+  "adminForumBoardsSubtitle": "게시판 생성, 편집, 보관",
+  "adminForumBoardsEmpty": "게시판이 아직 없습니다.",
+  "adminForumBoardCreate": "게시판 만들기",
+  "adminForumBoardEdit": "게시판 편집",
+  "adminForumBoardName": "이름",
+  "adminForumBoardDescription": "설명",
+  "adminForumBoardShelter": "대피소 게시판",
+  "adminForumBoardActive": "활성",
+  "adminForumBoardInactive": "비활성",
+  "adminForumBoardActivate": "활성화",
+  "adminForumBoardDeactivate": "비활성화",
+  "adminForumBoardArchive": "보관",
+  "adminForumSettingsTitle": "포럼 설정",
+  "adminForumSettingsSubtitle": "업로드, 초대, 정책",
+  "adminForumSettingsUpload": "업로드",
+  "adminForumSettingsImageExtensions": "이미지 확장자",
+  "adminForumSettingsAttachmentExtensions": "첨부파일 확장자",
+  "adminForumSettingsAddExtensionHint": "입력 후 Enter를 눌러 추가",
+  "adminForumSettingsImageQuality": "이미지 품질(1–100)",
+  "adminForumSettingsImageMaxDimension": "이미지 최대 크기",
+  "adminForumSettingsAllowAnimated": "애니메이션 이미지 허용",
+  "adminForumSettingsRegistration": "가입",
+  "adminForumSettingsInviteRequired": "초대 필요",
+  "adminForumSettingsInviteQuota": "기본 초대 할당량",
+  "adminForumSettingsSaved": "포럼 설정이 저장되었습니다.",
+  "adminForumModerationSubtitle": "신고 및 이의 제기 대기열",
+  "adminForumConfigLogTitle": "설정 변경 로그",
+  "adminForumConfigLogSubtitle": "최근 포럼 설정 변경",
+  "adminForumConfigLogEmpty": "기록된 설정 변경이 없습니다.",
+  "adminForumConfigLogActor": "작업자",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "forumReplyDepthLimit": "더 이상 답글을 달 수 없습니다"
 }

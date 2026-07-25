@@ -292,10 +292,179 @@
   "forumTitle": "珞珈防空洞",
   "forumLike": "讚好",
   "forumDislike": "唔鍾意",
-  "forumSave": "儲存",
+  "forumSave": "收藏",
+  "forumEdit": "編輯",
+  "forumDownload": "下載",
   "forumReport": "舉報",
   "forumReportReason": "舉報原因",
   "forumReportSubmitted": "舉報已提交。",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "簽到",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "提交舉報失敗：{error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -367,6 +536,14 @@
   "luotopiaPasswordHint": "起碼 6 個字元",
   "luotopiaPasswordsDoNotMatch": "兩次入嘅密碼唔一致",
   "luotopiaPleaseFillFields": "請填用户名同密碼",
+  "luotopiaEmailRequired": "請填電郵地址",
+  "luotopiaEmailInvalid": "請輸入正確格式嘅電郵地址",
+  "luotopiaPasswordRequired": "請填密碼",
+  "luotopiaPasswordPolicyNotMet": "密碼唔符合要求",
+  "luotopiaPasswordRequireDigit": "包含數字",
+  "luotopiaPasswordRequireLowercase": "包含小寫字母",
+  "luotopiaPasswordRequireUppercase": "包含大寫字母",
+  "luotopiaPasswordRequireSpecial": "包含特殊字元",
   "luotopiaRegistering": "註冊緊…",
   "luotopiaRegisterTitle": "註冊 Luotopia",
   "luotopiaUsername": "用户名",
@@ -1126,6 +1303,10 @@
   "settingsHomeGridAlpha": "網格背景透明度",
   "settingsHomeGridBorderAlpha": "網格邊框透明度",
   "settingsHomeCropImage": "裁剪圖片",
+  "imageCropDesktopHint": "拖動嚟移動 · 用 +/− 調整裁剪範圍",
+  "imageCropDesktopHintSquare": "拖動嚟移動 · 用 +/− 調整正方形裁剪範圍",
+  "imageCropZoomIn": "放大",
+  "imageCropZoomOut": "縮小",
   "settingsAiFormat": "API 格式（Format）",
   "settingsAiFormatSubtitle": "揀對應的 AI 介面格式以適配不同的提供商",
   "biometricLockContentLocked": "內容已經鎖咗",
@@ -1746,6 +1927,21 @@
   "weatherAirQualityClose": "關閉",
   "campusBusTitle": "校巴",
   "campusBusNearestStop": "最近: {stopName}",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "目標: {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
   "campusBusDistance": "約{meters}米",
   "campusBusLineOne": "1號線",
   "campusBusLineTwo": "2號線",
@@ -2377,6 +2573,37 @@
   "authApiCredentialsTitle": "API 憑證",
   "authApiCredentialCreate": "建立憑證",
   "authApiCredentialName": "名稱",
+  "authRememberCredentials": "記住帳戶同密碼",
+  "authWhuBindingAlreadyExists": "已經連結咗，請唔好再連結。",
+  "authErrorEmailNotAllowedWithDomains": "請使用允許嘅電郵地址：{domains}。",
+  "luotopiaRegisterSuccess": "註冊成功，而家可以登入。",
+  "luotopiaRegisterEmailCodeSent": "驗證碼已經傳送到 {email}。",
+  "luotopiaRegisterEmailCodeRetryAfter": "{seconds} 秒後可以重新傳送",
+  "luotopiaRegisterEmailCodeSending": "傳送緊驗證碼...",
+  "luotopiaRegisterEmailCodeRequired": "請輸入 6 位數電郵驗證碼。",
+  "luotopiaRegisterEmailAlreadyVerified": "呢個電郵已經驗證，可以繼續設定密碼。",
+  "luotopiaRegisterProfileRequired": "繼續之前請填妥用戶名稱同電郵地址。",
+  "luotopiaRegisterPasswordRequired": "註冊之前請輸入符合所有要求嘅密碼。",
+  "luotopiaRegisterEmailCodeLabel": "電郵驗證碼",
+  "luotopiaRegisterEmailCodeHint": "輸入 6 位數驗證碼",
+  "luotopiaRegisterEmailCodeExpires": "驗證碼大約 {minutes} 分鐘後過期。",
+  "luotopiaRegisterSendEmailCode": "傳送驗證碼",
+  "luotopiaRegisterResendEmailCode": "重新傳送驗證碼",
+  "authRecoveryCodesTitle": "儲存復原碼",
+  "authRecoveryCodesDescription": "請將呢啲代碼放喺安全嘅地方。當你無法存取電郵時，每個代碼只可以用一次。之後唔會再顯示。",
+  "authRecoveryCodesSaveAsText": "另存為 .txt",
+  "authRecoveryCodesSavedConfirmation": "我已經安全噉儲存咗呢啲復原碼。",
+  "authApiCredentialEdit": "編輯 API 憑證",
+  "authApiCredentialScopesHint": "權限範圍用逗號分隔（all 代表全部範圍）",
+  "authApiCredentialMonthlyLimitHint": "每月請求上限（0 即係沿用帳戶上限）",
+  "authApiCredentialMinuteLimitHint": "每分鐘請求數（0 即係沿用帳戶上限）",
+  "authApiCredentialHourLimitHint": "每小時請求數（0 即係沿用帳戶上限）",
+  "authApiCredentialEffectiveLimits": "生效嘅帳戶 API 限制",
+  "authApiCredentialLoadingLimits": "載入緊帳戶 API 限制...",
+  "authApiCredentialUsageMinute": "分鐘",
+  "authApiCredentialUsageHour": "鐘",
+  "authApiCredentialUsageDay": "日",
+  "authApiCredentialUsageMonth": "月",
   "authApiCredentialKey": "API 金鑰",
   "authApiCredentialScopes": "權限範圍",
   "authApiCredentialAllScopes": "全部",
@@ -2539,6 +2766,17 @@
   },
   "authEditProfile": "編輯個人資料",
   "authDisplayName": "顯示名稱",
+  "authSocialProfile": "社交資料",
+  "authRegion": "地區",
+  "authGender": "性別",
+  "authGenderMale": "男",
+  "authGenderFemale": "女",
+  "authGenderNonBinary": "非二元性別",
+  "authGenderPreferNotToSay": "唔想講",
+  "authGenderOther": "其他",
+  "authCustomGender": "描述你嘅性別",
+  "authBirthday": "生日",
+  "authBio": "個人簡介",
   "authProfileUpdateFailed": "更新個人資料失敗：{error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2653,6 +2891,8 @@
   },
   "forumCreatePost": "建立帖子",
   "forumPost": "帖子",
+  "forumNoActiveBoards": "而家冇可用嘅活躍版面。請再試一次，或者聯絡管理員。",
+  "forumSelectedBoardUnavailable": "你揀嘅版面暫時唔可用。已經轉去活躍版面。",
   "forumBoardShelter": "防空洞 {name}",
   "@forumBoardShelter": {
     "placeholders": {
@@ -2670,6 +2910,11 @@
     }
   },
   "forumPostsLoadFailed": "載入帖子失敗：{error}",
+  "forumAttachmentAdd": "新增附件",
+  "forumImageAdd": "新增圖片",
+  "forumSupportedImageFormats": "支援嘅圖片格式",
+  "forumSupportedAttachmentFormats": "支援嘅附件格式",
+  "forumAttachmentUploadFailed": "上傳附件失敗：{error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2706,6 +2951,7 @@
   },
   "forumPostDetails": "帖子詳情",
   "forumReplies": "回覆",
+  "forumRepliesEmpty": "暫時未有回覆。",
   "forumReply": "回覆",
   "forumRepliesLoadFailed": "載入回覆失敗：{error}",
   "@forumRepliesLoadFailed": {
@@ -2792,10 +3038,28 @@
   "forumNotificationsTitle": "論壇通知",
   "forumNotificationsEmpty": "你仲未有任何論壇通知。",
   "forumNotificationsMarkAllRead": "全部標示為已讀",
-  "forumAppeal": "上訴",
-  "forumAppealReason": "上訴說明",
-  "forumAppealSubmitted": "上訴已提交。",
+  "forumAppeal": "申訴",
+  "forumAppealReason": "申訴說明",
+  "forumAppealSubmitted": "申訴已提交。",
   "forumModeration": "內容審核",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "通過",
   "forumHide": "隱藏",
   "forumDelete": "刪除",
@@ -2806,7 +3070,7 @@
   "forumPostHidden": "帖子已隱藏。",
   "forumPostDeleted": "帖子已移除。",
   "forumPostRestored": "帖子已還原。",
-  "forumAppealResolved": "上訴已處理。",
+  "forumAppealResolved": "申訴已處理。",
   "campusCreateFolder": "建立資料夾",
   "campusRenameFolder": "重新命名資料夾",
   "campusEditModeEntry": "編輯模式",
@@ -3144,7 +3408,48 @@
   "settingsBuildInfoBuildTime": "建構時間",
   "luotopiaRegisterVerifyEmail": "註冊成功，請去信箱完成驗證再登入。",
   "courseImportSemesterAlreadyAdded": "呢個學期已經加咗，請喺課程表選單揀「更新課程表」。",
-  "waterControlClassNo": "ClassNo {classNo}",
+  "waterControlClassNo": "班號 {classNo}",
+  "forumImageFiles": "論壇圖片",
+  "forumAttachmentFiles": "論壇附件",
+  "forumModerationAllSources": "全部來源",
+  "forumModerationUnclaimed": "未認領",
+  "forumModerationUserReports": "用戶舉報",
+  "forumModerationAIHighRisk": "AI 高風險",
+  "forumModerationBrigadingRisk": "疑似圍攻",
+  "forumCommentDeleted": "呢則留言已刪除",
+  "forumRepliesExpand": "展開其餘 {count} 則回覆",
+  "forumReplyTo": "回覆 @{name}",
+  "majorInfoEmploymentNoData": "冇資料",
+  "forumSearch": "搜尋",
+  "forumMoreActions": "更多操作",
+  "forumSearchQuery": "搜尋帖子",
+  "forumSearchBoard": "版面",
+  "forumSearchTag": "標籤",
+  "forumSearchCourseId": "課程 ID",
+  "forumSortLatest": "最新",
+  "forumSortHottest": "最熱門",
+  "forumSortMostCommented": "最多留言",
+  "forumImagePresetDataSaver": "慳數據",
+  "forumImagePresetRecommended": "推薦",
+  "forumImagePresetHighQuality": "高畫質",
+  "forumNotificationRead": "已讀",
+  "forumNotificationUnread": "未讀",
+  "forumReview": "審核",
+  "forumResolve": "解決",
+  "majorInfoBasicInformation": "基本資料",
+  "majorInfoCollegeInformation": "學院資料",
+  "authRegisteredDevicesTitle": "已登記裝置",
+  "authRegisteredDevicesSubtitle": "移除裝置會停止推送通知，但唔會登出進行中嘅工作階段。",
+  "authRegisteredDevicesEmpty": "冇已登記裝置。",
+  "authRegisteredDeviceLastSeen": "最近登記：{time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "移除裝置",
   "campusFacultyArts": "文理學部",
   "campusFacultyEngineering": "工學部",
   "campusFacultyInfo": "資訊學部",
@@ -3332,5 +3637,228 @@
   "campusBusOutsideServiceRange": "唔喺營運時間",
   "campusBusNoReachableBus": "而家冇車可以去到呢個站，請另選站點或喺營運時間再試。",
   "campusBusArrivalUseNearestToggle": "用呢條線最近嘅站",
-  "campusBusRouteViewHorizontal": "橫向路線檢視"
+  "campusBusRouteViewHorizontal": "橫向路線檢視",
+  "luotopiaLoginIdentifierLabel": "電郵、使用者名稱或者 WHU 學生編號",
+  "luotopiaLoginIdentifierHint": "使用任何同呢個帳戶綁定嘅識別資料",
+  "luotopiaLoginIdentifierRequired": "輸入電郵、使用者名稱或者 WHU 學生編號",
+  "luotopiaLoginEmailHint": "帳戶綁定嘅電郵地址",
+  "luotopiaLoginUsernameHint": "你嘅 Luotopia 使用者名稱",
+  "luotopiaLoginUsernameRequired": "輸入 Luotopia 使用者名稱",
+  "luotopiaLoginUsernameInvalid": "輸入 3-60 位英文字母、數字、點、連字號或者底線",
+  "luotopiaLoginWhuStudentId": "WHU 學生編號",
+  "luotopiaLoginWhuStudentIdHint": "已綁定到呢個帳戶嘅 WHU 學生編號",
+  "luotopiaLoginWhuStudentIdRequired": "輸入 WHU 學生編號",
+  "luotopiaLoginWhuStudentIdInvalid": "輸入 13 位純數字 WHU 學生編號",
+  "authErrorInvalidCredentials": "登入識別資料或者密碼唔啱。",
+  "authErrorEmailNotAllowed": "請使用 WHU 電郵地址（@whu.edu.cn 或 @alumni.whu.edu.cn）。",
+  "authErrorEmailExists": "呢個電郵已經註冊，請直接登入或者重設密碼。",
+  "authErrorEmailUnverified": "請先驗證電郵再登入。",
+  "authErrorUserDisabled": "呢個帳戶已被停用。",
+  "authErrorPasswordPolicy": "密碼唔符合而家嘅安全要求。",
+  "authErrorWhuRequired": "註冊前請先綁定 WHU 帳戶。",
+  "authErrorWhuAlreadyBound": "呢個 WHU 帳戶已經綁定去另一個 Luotopia 帳戶。",
+  "authErrorVerificationFailed": "驗證失敗或者已過期，請再試一次。",
+  "authErrorRateLimited": "請求太頻密，請遲啲再試。",
+  "authErrorRequestFailed": "請求失敗，請再試一次。",
+  "apiErrorUnauthorized": "需要驗證身份。",
+  "apiErrorInvalidToken": "工作階段已過期，請重新登入。",
+  "apiErrorTokenExpired": "工作階段已過期，請重新登入。",
+  "apiErrorUserNotFound": "搵唔到使用者。",
+  "apiErrorPermissionDenied": "你冇權限做呢個操作。",
+  "apiErrorMfaRequired": "需要額外驗證。",
+  "apiErrorPasswordChangeRequired": "請先改密碼。",
+  "apiErrorCourseNotFound": "搵唔到課程。",
+  "apiErrorCoursePending": "課程仲等緊審批。",
+  "apiErrorReviewNotFound": "搵唔到評價。",
+  "apiErrorSearchFailed": "搜尋暫時唔可用。",
+  "apiErrorServer": "伺服器錯誤，請遲啲再試。",
+  "apiErrorDatabase": "資料服務暫時唔可用。",
+  "apiErrorConfigMissing": "服務設定唔可用。",
+  "apiErrorForumUserNotFound": "搵唔到論壇使用者。",
+  "apiErrorInviteQuotaExhausted": "邀請名額已經用晒。",
+  "apiErrorEditWindowExpired": "編輯期限已過。",
+  "apiErrorForumForbidden": "唔容許呢個論壇操作。",
+  "apiErrorForumBadRequest": "無效嘅論壇請求。",
+  "apiErrorAdminRequired": "需要管理員權限。",
+  "apiErrorCalendarInvalidMode": "無效嘅行事曆匯出模式。",
+  "apiErrorCalendarUnavailable": "行事曆服務暫時唔可用。",
+  "apiErrorCalendarTimetableLoad": "載入匯出行事曆所需嘅課程表失敗。",
+  "apiErrorCalendarGenerateFailed": "產生行事曆訂閱失敗。",
+  "apiErrorBusUpstream": "校園巴士服務暫時唔可用。",
+  "apiErrorCacheOperationFailed": "快取操作失敗。",
+  "apiErrorCacheDisabled": "快取服務已停用。",
+  "apiErrorCacheConfirmRequired": "請確認快取操作。",
+  "apiErrorAdminTaskNotFound": "搵唔到管理員任務。",
+  "apiErrorAdminTaskUnavailable": "管理員任務服務唔可用。",
+  "apiErrorNotImplemented": "呢個操作仲未實作。",
+  "apiErrorQueueUnavailable": "佇列服務唔可用。",
+  "apiErrorInvalidRequest": "請求無效，請檢查你嘅輸入。",
+  "apiErrorNotFound": "搵唔到資源。",
+  "apiErrorConflict": "請求同目前狀態有衝突。",
+  "apiErrorServiceUnavailable": "服務暫時不可用。",
+  "apiErrorUpstream": "上游服務暫時唔可用。",
+  "apiErrorDuplicateMutation": "偵測到重複請求。",
+  "apiErrorRequestFailed": "請求失敗，請再試一次。",
+  "luotopiaRegisterStepWhuTitle": "確認 WHU 帳戶",
+  "luotopiaRegisterStepWhuSubtitle": "呢個 WHU 學生身份會同你嘅 Luotopia 帳戶綁定。",
+  "luotopiaRegisterWhuNameLabel": "姓名",
+  "luotopiaRegisterWhuStudentIdLabel": "學生編號",
+  "luotopiaRegisterWhuMismatchHint": "如果唔係你，請開啟 WHU 帳戶設定登出，再綁定其他帳戶。",
+  "luotopiaRegisterOpenWhuAccount": "開啟 WHU 帳戶",
+  "luotopiaRegisterStepProfileTitle": "個人資料同電郵",
+  "luotopiaRegisterStepProfileSubtitle": "揀一個唯一嘅 Luotopia 使用者名稱同帳戶電郵。",
+  "luotopiaRegisterEmailVerifiedHint": "呢個電郵已喺 WHU 帳戶驗證並自動填入，你仍然可以修改。",
+  "luotopiaRegisterEmailUnverifiedHint": "如果呢個係你嘅 WHU 電郵，請先喺 WHU 帳戶頁面驗證，方便我哋自動填入。",
+  "luotopiaRegisterGoVerifyEmail": "喺 WHU 帳戶驗證",
+  "luotopiaRegisterStepPasswordTitle": "設定密碼",
+  "luotopiaRegisterStepPasswordSubtitle": "使用至少 10 個字元。登入時會用到呢個密碼。",
+  "scoreImportCountLabel": "分數數量",
+  "campusAppMajorInfo": "學院同主修資料",
+  "majorInfoTitle": "學院同主修資料",
+  "majorInfoDescription": "瀏覽學術部門、學院、主修、教學計劃同就業數據。",
+  "majorInfoMajors": "主修",
+  "majorInfoMajorCount": "個主修",
+  "majorInfoShowCharts": "顯示圖表",
+  "majorInfoShowList": "顯示資料列表",
+  "majorInfoEmploymentChartSemantics": "互動式就業分布圖表",
+  "scoreTranscriptZoom": "縮放",
+  "scoreTranscriptZoomIn": "放大",
+  "scoreTranscriptZoomOut": "縮小",
+  "scoreTranscriptMoreActions": "更多文件操作",
+  "majorInfoObjective": "培養目標",
+  "majorInfoPositioning": "主修定位",
+  "majorInfoCharacteristics": "主修特色",
+  "majorInfoTeachingPlan": "教學計劃",
+  "majorInfoEmploymentTypes": "就業去向",
+  "majorInfoEmploymentIndustries": "就業行業",
+  "majorInfoEmploymentRegions": "就業地區",
+  "majorInfoEmploymentEmployers": "僱主",
+  "majorInfoTrainingPlan": "學院培養計劃",
+  "majorInfoOpenTrainingPlan": "開啟培養計劃預覽",
+  "majorInfoTrainingPlanSubtitle": "開啟超星官方文件預覽",
+  "majorInfoTrainingPlanLoading": "載入培養計劃中…",
+  "majorInfoTrainingPlanUnavailable": "培養計劃預覽暫時無法使用。",
+  "scoreImportParsedCountLabel": "已擷取分數",
+  "scoreImportMergedCountLabel": "已合併分數",
+  "scoreImportExampleLabel": "範例",
+  "adminConsoleTitle": "管理控制台",
+  "adminConsoleSubtitle": "用戶、論壇同系統狀態",
+  "adminAccessDenied": "需要管理員權限。",
+  "adminSectionOverview": "總覽",
+  "adminSectionUsers": "用戶",
+  "adminSectionForum": "論壇",
+  "adminSystemStatusTitle": "系統狀態",
+  "adminSystemStatusSubtitle": "隊列、Worker 同任務統計",
+  "adminWorkerStatusTitle": "Worker 狀態",
+  "adminTaskStatsTitle": "任務統計",
+  "adminQueueStatusTitle": "隊列狀態",
+  "adminQueueDepth": "深度",
+  "adminQueuePaused": "已暫停",
+  "adminQueuePause": "暫停",
+  "adminQueueResume": "恢復",
+  "adminStatusActiveWorkers": "活躍 Worker",
+  "adminStatusHealthyWorkers": "健康 Worker",
+  "adminStatusTasksProcessed": "已處理",
+  "adminStatusTasksFailed": "失敗",
+  "adminStatusTasksRetried": "重試",
+  "adminStatusWorkerInstances": "Worker 實例",
+  "adminStatusNoWorkers": "暫無在線 Worker",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "健康",
+  "adminStatusUnhealthy": "異常",
+  "adminStatusQueueSize": "隊列長度",
+  "adminStatusProcessing": "處理中",
+  "adminStatusAvgProcessing": "平均耗時",
+  "adminStatusStartedAt": "啟動時間",
+  "adminStatusLastHeartbeat": "最近心跳",
+  "adminStatusTasksTotal": "總計",
+  "adminStatusTasksPending": "待處理",
+  "adminStatusTasksRunning": "運行中",
+  "adminStatusTasksSuccess": "成功",
+  "adminStatusTasksCancelled": "已取消",
+  "adminStatusScheduledRetries": "計劃重試",
+  "adminStatusNextRetry": "下次重試",
+  "adminStatusUpdatedAt": "更新時間",
+  "adminStatusNoQueues": "暫無隊列",
+  "adminStatusRedisConnected": "Redis 已連接",
+  "adminStatusRedisDisconnected": "Redis 未連接",
+  "adminUsersTitle": "用戶管理",
+  "adminUsersSubtitle": "搜尋用戶並調整角色",
+  "adminUsersSearchHint": "按名稱或電郵搜尋",
+  "adminUsersEmpty": "搵唔到用戶。",
+  "adminUsersRoleLabel": "角色",
+  "adminUsersDisabled": "已停用",
+  "adminUsersEnable": "啟用",
+  "adminUsersDisable": "停用",
+  "adminUsersSetRole": "設為{role}",
+  "adminUsersRoleUpdated": "用戶角色已更新。",
+  "adminUserDetailAccount": "帳戶",
+  "adminUserDetailDisplayName": "顯示名稱",
+  "adminUserDetailRegistered": "註冊時間",
+  "adminUserDetailLastActive": "最近活躍",
+  "adminUserDetailForum": "論壇",
+  "adminUserDetailNickname": "暱稱",
+  "adminUserDetailStatus": "狀態",
+  "adminUserDetailLevel": "等級",
+  "adminUserDetailPosts": "貼文",
+  "adminUserDetailComments": "留言",
+  "adminUserDetailReceivedLikes": "收到嘅讚",
+  "adminUserDetailWhuAccountData": "武大帳戶資料",
+  "adminUserDetailWhuAccountDataDescription": "只限超級管理員睇到，存取會被記錄。",
+  "adminUserDetailWhuAccount": "武大帳戶",
+  "adminUserDetailManagement": "管理",
+  "adminUserContentPostsTitle": "用戶貼文",
+  "adminUserContentCommentsTitle": "用戶留言",
+  "adminUserContentPostsEmpty": "暫無貼文",
+  "adminUserContentCommentsEmpty": "暫無留言",
+  "adminUserContentPostLabel": "貼文：{postId}",
+  "adminRoleUser": "用戶",
+  "adminRoleAdmin": "管理員",
+  "adminRoleSuperAdmin": "超級管理員",
+  "adminForumBoardsTitle": "論壇版面",
+  "adminForumBoardsSubtitle": "建立、編輯同封存版面",
+  "adminForumBoardsEmpty": "暫時未有版面。",
+  "adminForumBoardCreate": "建立版面",
+  "adminForumBoardEdit": "編輯版面",
+  "adminForumBoardName": "名稱",
+  "adminForumBoardDescription": "描述",
+  "adminForumBoardShelter": "防空洞版面",
+  "adminForumBoardActive": "啟用中",
+  "adminForumBoardInactive": "已停用",
+  "adminForumBoardActivate": "啟用",
+  "adminForumBoardDeactivate": "停用",
+  "adminForumBoardArchive": "封存",
+  "adminForumSettingsTitle": "論壇設定",
+  "adminForumSettingsSubtitle": "上載、邀請同政策",
+  "adminForumSettingsUpload": "上載",
+  "adminForumSettingsImageExtensions": "圖片副檔名",
+  "adminForumSettingsAttachmentExtensions": "附件副檔名",
+  "adminForumSettingsAddExtensionHint": "輸入後撳 Enter 新增",
+  "adminForumSettingsImageQuality": "圖片質素（1–100）",
+  "adminForumSettingsImageMaxDimension": "圖片最大邊長",
+  "adminForumSettingsAllowAnimated": "允許動圖",
+  "adminForumSettingsRegistration": "註冊",
+  "adminForumSettingsInviteRequired": "需要邀請碼",
+  "adminForumSettingsInviteQuota": "預設邀請配額",
+  "adminForumSettingsSaved": "論壇設定已儲存。",
+  "adminForumModerationSubtitle": "舉報同申訴隊列",
+  "adminForumConfigLogTitle": "設定變更日誌",
+  "adminForumConfigLogSubtitle": "論壇設定近期變更",
+  "adminForumConfigLogEmpty": "暫時未有設定變更記錄。",
+  "adminForumConfigLogActor": "操作者",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "forumReplyDepthLimit": "已達最大回覆層級"
 }

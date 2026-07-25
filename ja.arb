@@ -293,9 +293,178 @@
   "forumLike": "いいね",
   "forumDislike": "よくないね",
   "forumSave": "保存",
+  "forumEdit": "編集",
+  "forumDownload": "ダウンロード",
   "forumReport": "報告",
   "forumReportReason": "理由",
   "forumReportSubmitted": "報告を送信しました。",
+  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumKarma": "Karma",
+  "forumKarmaLevel": "Lv{level}",
+  "@forumKarmaLevel": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
+  "@forumKarmaAuthorMeta": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelOnly": "Lv{level}",
+  "@forumKarmaLevelOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLevelTitle0": "Newcomer",
+  "forumKarmaLevelTitle1": "Apprentice",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Active",
+  "forumKarmaLevelTitle4": "Adept",
+  "forumKarmaLevelTitle5": "Expert",
+  "forumKarmaLevelTitle6": "Elder",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Beacon",
+  "forumKarmaLevelTitle9": "Legend",
+  "forumKarmaLevelTitle10": "Myth",
+  "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
+  "@forumKarmaLevelTitleOnly": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
+  "@forumKarmaAuthorMetaWithTitle": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
+  "forumKarmaHideExact": "Hide exact Karma",
+  "forumKarmaHideExactHint": "Others only see your level, not the number.",
+  "forumLeaderboardLoadMore": "Load more",
+  "forumKarmaDailyBudget": "Daily allotment",
+  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
+  "@forumKarmaBudgetLine": {
+    "placeholders": {
+      "up": {
+        "type": "int"
+      },
+      "down": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaInsufficient": "Insufficient Karma",
+  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
+  "forumCheckinTodo": "チェックイン",
+  "forumCheckinTitle": "Daily check-in",
+  "forumCheckinFixed": "Steady path (+{amount})",
+  "@forumCheckinFixed": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "forumCheckinRandom": "Trial of chance",
+  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
+  "forumCheckinDone": "Already checked in today",
+  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
+  "@forumCheckinSuccess": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      },
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumAppealFlavor": "Request reconsideration",
+  "forumModerationFlavorPending": "Pending review",
+  "forumKarmaLedgerTitle": "Ledger",
+  "forumKarmaLedgerContentUp": "Received upvote",
+  "forumKarmaLedgerContentDown": "Received downvote",
+  "forumKarmaLedgerVoteCost": "Vote cost",
+  "forumKarmaLedgerVoteRefund": "Vote refund",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Streak bonus",
+  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerAdmin": "Admin adjustment",
+  "forumKarmaNextLevel": "Next level at {karma}",
+  "@forumKarmaNextLevel": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaStreakLine": "Check-in streak: {streak}",
+  "@forumKarmaStreakLine": {
+    "placeholders": {
+      "streak": {
+        "type": "int"
+      }
+    }
+  },
+  "forumKarmaLedgerEmpty": "No karma movements yet.",
+  "forumKarmaAdminAdjust": "Adjust Karma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Reason",
+  "forumKarmaAdminSuccess": "Karma updated to {karma}",
+  "@forumKarmaAdminSuccess": {
+    "placeholders": {
+      "karma": {
+        "type": "int"
+      }
+    }
+  },
+  "forumLeaderboardTitle": "Karma ranking",
+  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
+  "forumLeaderboardJoinNamed": "Join with nickname",
+  "forumLeaderboardJoinAnonymous": "Join anonymously",
+  "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardAnonymous": "Appear anonymously",
+  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
+  "forumLeaderboardEmpty": "No participants yet.",
+  "forumAdminLogTitle": "Moderation notices",
+  "forumAdminLogSearchHint": "Search summaries or details",
+  "forumAdminLogEmpty": "No public moderation notices yet.",
+  "forumAdminLogLoadMore": "Load more",
+  "forumAdminLogActionBan": "Ban",
+  "forumAdminLogActionUnban": "Unban",
+  "forumAdminLogActionMute": "Mute",
+  "forumAdminLogActionUnmute": "Unmute",
+  "forumAdminLogActionKarma": "Karma adjust",
+  "forumAdminLogActionHide": "Hide post",
+  "forumAdminLogActionDelete": "Delete post",
+  "forumAdminLogActionRestore": "Restore post",
+  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "報告の送信に失敗しました: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -568,6 +737,14 @@
   "luotopiaPasswordHint": "6 文字以上",
   "luotopiaPasswordsDoNotMatch": "パスワードが一致しません",
   "luotopiaPleaseFillFields": "ユーザー名とパスワードを入力してください",
+  "luotopiaEmailRequired": "メールアドレスを入力してください",
+  "luotopiaEmailInvalid": "有効なメールアドレスを入力してください",
+  "luotopiaPasswordRequired": "パスワードを入力してください",
+  "luotopiaPasswordPolicyNotMet": "パスワードが要件を満たしていません",
+  "luotopiaPasswordRequireDigit": "数字を含める",
+  "luotopiaPasswordRequireLowercase": "小文字を含める",
+  "luotopiaPasswordRequireUppercase": "大文字を含める",
+  "luotopiaPasswordRequireSpecial": "特殊文字を含める",
   "luotopiaRegistering": "登録中…",
   "luotopiaRegisterTitle": "Luotopia 登録",
   "luotopiaUsername": "ユーザー名",
@@ -1327,6 +1504,10 @@
   "settingsHomeGridAlpha": "グリッド背景の不透明度",
   "settingsHomeGridBorderAlpha": "グリッド枠の不透明度",
   "settingsHomeCropImage": "画像を切り抜き",
+  "imageCropDesktopHint": "ドラッグで移動 · +/− で範囲を調整",
+  "imageCropDesktopHintSquare": "ドラッグで移動 · +/− で正方形の範囲を調整",
+  "imageCropZoomIn": "拡大",
+  "imageCropZoomOut": "縮小",
   "settingsAiFormat": "API 形式",
   "settingsAiFormatSubtitle": "プロバイダーに合わせて AI API 形式を選択",
   "biometricLockContentLocked": "ロック中",
@@ -1947,6 +2128,21 @@
   "weatherAirQualityClose": "閉じる",
   "campusBusTitle": "キャンパスバス",
   "campusBusNearestStop": "最寄り: {stopName}",
+  "@campusBusNearestStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusTargetStop": "指定: {stopName}",
+  "@campusBusTargetStop": {
+    "placeholders": {
+      "stopName": {
+        "type": "String"
+      }
+    }
+  },
   "campusBusDistance": "約{meters}m",
   "campusBusLineOne": "1 号線",
   "campusBusLineTwo": "2 号線",
@@ -2578,6 +2774,45 @@
   "authApiCredentialsTitle": "API 認証情報",
   "authApiCredentialCreate": "認証情報を作成",
   "authApiCredentialName": "名前",
+  "luotopiaLoginEmailHint": "アカウントのメールアドレス",
+  "luotopiaLoginUsernameHint": "Luotopia のユーザー名",
+  "luotopiaLoginUsernameRequired": "Luotopia のユーザー名を入力してください",
+  "luotopiaLoginUsernameInvalid": "3～60 文字の英字、数字、ドット、ハイフン、アンダースコアを使用してください",
+  "luotopiaLoginWhuStudentId": "WHU 学籍番号",
+  "luotopiaLoginWhuStudentIdHint": "このアカウントに紐付けられた WHU 学籍番号",
+  "luotopiaLoginWhuStudentIdRequired": "WHU 学籍番号を入力してください",
+  "luotopiaLoginWhuStudentIdInvalid": "数字の WHU 学籍番号を入力してください",
+  "authRememberCredentials": "アカウントとパスワードを記憶する",
+  "authWhuBindingAlreadyExists": "すでに連携されています。再度連携しないでください。",
+  "authErrorEmailNotAllowedWithDomains": "許可されたメールアドレスを使用してください: {domains}。",
+  "luotopiaRegisterSuccess": "登録が完了しました。ログインできます。",
+  "luotopiaRegisterEmailCodeSent": "確認コードを {email} に送信しました。",
+  "luotopiaRegisterEmailCodeRetryAfter": "{seconds}秒後に再送できます",
+  "luotopiaRegisterEmailCodeSending": "確認コードを送信中...",
+  "luotopiaRegisterEmailCodeRequired": "6 桁のメール確認コードを入力してください。",
+  "luotopiaRegisterEmailAlreadyVerified": "このメールはすでに確認済みです。パスワードの設定を続けられます。",
+  "luotopiaRegisterProfileRequired": "続行する前にユーザー名とメールアドレスを入力してください。",
+  "luotopiaRegisterPasswordRequired": "登録する前に、すべての要件を満たすパスワードを入力してください。",
+  "luotopiaRegisterEmailCodeLabel": "メール確認コード",
+  "luotopiaRegisterEmailCodeHint": "6 桁のコードを入力",
+  "luotopiaRegisterEmailCodeExpires": "コードは約 {minutes} 分で期限切れになります。",
+  "luotopiaRegisterSendEmailCode": "確認コードを送信",
+  "luotopiaRegisterResendEmailCode": "確認コードを再送",
+  "authRecoveryCodesTitle": "復旧コードを保存",
+  "authRecoveryCodesDescription": "これらのコードは安全な場所に保管してください。メールにアクセスできない場合、各コードは一度だけ使用できます。再表示されません。",
+  "authRecoveryCodesSaveAsText": ".txt として保存",
+  "authRecoveryCodesSavedConfirmation": "復旧コードを安全に保存しました。",
+  "authApiCredentialEdit": "API 認証情報を編集",
+  "authApiCredentialScopesHint": "スコープをカンマ区切りで入力（すべてのスコープは all）",
+  "authApiCredentialMonthlyLimitHint": "月間リクエスト上限（0 はアカウント上限を継承）",
+  "authApiCredentialMinuteLimitHint": "1 分あたりのリクエスト数（0 はアカウント上限を継承）",
+  "authApiCredentialHourLimitHint": "1 時間あたりのリクエスト数（0 はアカウント上限を継承）",
+  "authApiCredentialEffectiveLimits": "有効なアカウント API 上限",
+  "authApiCredentialLoadingLimits": "アカウント API 上限を読み込み中...",
+  "authApiCredentialUsageMinute": "分",
+  "authApiCredentialUsageHour": "時間",
+  "authApiCredentialUsageDay": "日",
+  "authApiCredentialUsageMonth": "月",
   "authApiCredentialKey": "API キー",
   "authApiCredentialScopes": "スコープ",
   "authApiCredentialAllScopes": "すべて",
@@ -2740,6 +2975,17 @@
   },
   "authEditProfile": "プロフィールを編集",
   "authDisplayName": "表示名",
+  "authSocialProfile": "ソーシャルプロフィール",
+  "authRegion": "地域",
+  "authGender": "性別",
+  "authGenderMale": "男性",
+  "authGenderFemale": "女性",
+  "authGenderNonBinary": "ノンバイナリー",
+  "authGenderPreferNotToSay": "回答しない",
+  "authGenderOther": "その他",
+  "authCustomGender": "性別を説明してください",
+  "authBirthday": "誕生日",
+  "authBio": "自己紹介",
   "authProfileUpdateFailed": "プロフィールの更新に失敗しました: {error}",
   "@authProfileUpdateFailed": {
     "placeholders": {
@@ -2854,6 +3100,8 @@
   },
   "forumCreatePost": "投稿を作成",
   "forumPost": "投稿",
+  "forumNoActiveBoards": "利用可能な掲示板がありません。もう一度試すか、管理者にお問い合わせください。",
+  "forumSelectedBoardUnavailable": "選択した掲示板は利用できません。利用可能な掲示板に切り替えました。",
   "forumBoardShelter": "シェルター {name}",
   "@forumBoardShelter": {
     "placeholders": {
@@ -2871,6 +3119,11 @@
     }
   },
   "forumPostsLoadFailed": "投稿の読み込みに失敗しました: {error}",
+  "forumAttachmentAdd": "添付ファイルを追加",
+  "forumImageAdd": "画像を追加",
+  "forumSupportedImageFormats": "対応画像形式",
+  "forumSupportedAttachmentFormats": "対応ファイル形式",
+  "forumAttachmentUploadFailed": "添付ファイルのアップロードに失敗しました: {error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2907,6 +3160,7 @@
   },
   "forumPostDetails": "投稿の詳細",
   "forumReplies": "返信",
+  "forumRepliesEmpty": "まだ返信はありません。",
   "forumReply": "返信",
   "forumRepliesLoadFailed": "返信の読み込みに失敗しました: {error}",
   "@forumRepliesLoadFailed": {
@@ -2997,6 +3251,24 @@
   "forumAppealReason": "異議申立内容",
   "forumAppealSubmitted": "異議申立てを送信しました。",
   "forumModeration": "コンテンツ審査",
+  "forumKarmaEconomySettings": "Karma economy",
+  "forumKarmaEconomySaved": "Karma settings saved.",
+  "forumKarmaSettingPostUp": "Post upvote gain",
+  "forumKarmaSettingPostDown": "Post downvote loss",
+  "forumKarmaSettingCommentUp": "Comment upvote gain",
+  "forumKarmaSettingCommentDown": "Comment downvote loss",
+  "forumKarmaSettingVoteCostUp": "Upvote cost",
+  "forumKarmaSettingVoteCostDown": "Downvote cost",
+  "forumKarmaSettingCheckinFixed": "Fixed check-in",
+  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
+  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
+  "forumKarmaSettingCreatePostReward": "Create post reward",
+  "forumKarmaSettingCreateCommentReward": "Create comment reward",
+  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
+  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
+  "forumKarmaLedgerCreatePost": "Published a post",
+  "forumKarmaLedgerCreateComment": "Posted a reply",
+  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "承認",
   "forumHide": "非表示",
   "forumDelete": "削除",
@@ -3144,7 +3416,48 @@
   "settingsBuildInfoBuildTime": "ビルド時刻",
   "luotopiaRegisterVerifyEmail": "登録が完了しました。メール認証後にログインしてください。",
   "courseImportSemesterAlreadyAdded": "この学期は既に追加されています。時間割メニューから「時間割を更新」を選んでください。",
-  "waterControlClassNo": "ClassNo {classNo}",
+  "waterControlClassNo": "クラス番号 {classNo}",
+  "forumImageFiles": "フォーラム画像",
+  "forumAttachmentFiles": "フォーラム添付ファイル",
+  "forumModerationAllSources": "すべての報告元",
+  "forumModerationUnclaimed": "未担当",
+  "forumModerationUserReports": "ユーザー通報",
+  "forumModerationAIHighRisk": "AI 高リスク",
+  "forumModerationBrigadingRisk": "組織的通報の疑い",
+  "forumCommentDeleted": "このコメントは削除されました",
+  "forumRepliesExpand": "残り {count} 件の返信を表示",
+  "forumReplyTo": "@{name} に返信",
+  "majorInfoEmploymentNoData": "データなし",
+  "forumSearch": "検索",
+  "forumMoreActions": "その他の操作",
+  "forumSearchQuery": "投稿を検索",
+  "forumSearchBoard": "掲示板",
+  "forumSearchTag": "タグ",
+  "forumSearchCourseId": "コースID",
+  "forumSortLatest": "最新",
+  "forumSortHottest": "話題",
+  "forumSortMostCommented": "コメント数順",
+  "forumImagePresetDataSaver": "データ節約",
+  "forumImagePresetRecommended": "推奨",
+  "forumImagePresetHighQuality": "高画質",
+  "forumNotificationRead": "既読",
+  "forumNotificationUnread": "未読",
+  "forumReview": "確認",
+  "forumResolve": "解決",
+  "majorInfoBasicInformation": "基本情報",
+  "majorInfoCollegeInformation": "学部情報",
+  "authRegisteredDevicesTitle": "登録済みのデバイス",
+  "authRegisteredDevicesSubtitle": "デバイスを削除するとプッシュ通知は停止しますが、進行中のセッションはサインアウトされません。",
+  "authRegisteredDevicesEmpty": "登録済みのデバイスはありません。",
+  "authRegisteredDeviceLastSeen": "最終登録: {time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "デバイスを削除",
   "campusFacultyArts": "文理学部",
   "campusFacultyEngineering": "工学部",
   "campusFacultyInfo": "情報学部",
@@ -3332,5 +3645,206 @@
   "campusBusOutsideServiceRange": "運行時間外です",
   "campusBusNoReachableBus": "この停留所に到着できるバスがありません。別の停留所を選ぶか、運行時間内に再試行してください。",
   "campusBusArrivalUseNearestToggle": "この路線の最寄り停留所を使う",
-  "campusBusRouteViewHorizontal": "横型ルート表示"
+  "campusBusRouteViewHorizontal": "横型ルート表示",
+  "luotopiaLoginIdentifierLabel": "メールアドレス、ユーザー名、またはWHU学生番号",
+  "luotopiaLoginIdentifierHint": "このアカウントに紐付いた識別情報を使用してください",
+  "luotopiaLoginIdentifierRequired": "メールアドレス、ユーザー名、またはWHU学生番号を入力してください",
+  "authErrorInvalidCredentials": "メールアドレスまたはパスワードが正しくありません。",
+  "authErrorEmailNotAllowed": "WHUのメールアドレス（@whu.edu.cn または @alumni.whu.edu.cn）を使用してください。",
+  "authErrorEmailExists": "このメールアドレスは登録済みです。ログインするか、パスワードをリセットしてください。",
+  "authErrorEmailUnverified": "ログインする前にメールアドレスを確認してください。",
+  "authErrorUserDisabled": "このアカウントは無効になっています。",
+  "authErrorPasswordPolicy": "パスワードが現在のセキュリティ要件を満たしていません。",
+  "authErrorWhuRequired": "登録前にWHUアカウントを連携してください。",
+  "authErrorWhuAlreadyBound": "このWHUアカウントはすでに別のLuotopiaアカウントに連携されています。",
+  "authErrorVerificationFailed": "確認に失敗したか、有効期限が切れています。もう一度お試しください。",
+  "authErrorRateLimited": "リクエストが多すぎます。しばらくしてからお試しください。",
+  "authErrorRequestFailed": "リクエストに失敗しました。もう一度お試しください。",
+  "apiErrorUnauthorized": "認証が必要です。",
+  "apiErrorInvalidToken": "セッションの有効期限が切れました。もう一度ログインしてください。",
+  "apiErrorTokenExpired": "セッションの有効期限が切れました。もう一度ログインしてください。",
+  "apiErrorUserNotFound": "ユーザーが見つかりません。",
+  "apiErrorPermissionDenied": "この操作を行う権限がありません。",
+  "apiErrorMfaRequired": "追加の確認が必要です。",
+  "apiErrorPasswordChangeRequired": "先にパスワードを変更してください。",
+  "apiErrorCourseNotFound": "コースが見つかりません。",
+  "apiErrorCoursePending": "コースは承認待ちです。",
+  "apiErrorReviewNotFound": "レビューが見つかりません。",
+  "apiErrorSearchFailed": "検索は一時的に利用できません。",
+  "apiErrorServer": "サーバーエラーです。しばらくしてからお試しください。",
+  "apiErrorDatabase": "データサービスは一時的に利用できません。",
+  "apiErrorConfigMissing": "サービス設定を利用できません。",
+  "apiErrorForumUserNotFound": "フォーラムユーザーが見つかりません。",
+  "apiErrorInviteQuotaExhausted": "招待枠を使い切りました。",
+  "apiErrorEditWindowExpired": "編集可能な期間が終了しました。",
+  "apiErrorForumForbidden": "このフォーラム操作は許可されていません。",
+  "apiErrorForumBadRequest": "フォーラムへのリクエストが無効です。",
+  "apiErrorAdminRequired": "管理者権限が必要です。",
+  "apiErrorCalendarInvalidMode": "カレンダーのエクスポートモードが無効です。",
+  "apiErrorCalendarUnavailable": "カレンダーサービスを利用できません。",
+  "apiErrorCalendarTimetableLoad": "カレンダー出力用の時間割を読み込めませんでした。",
+  "apiErrorCalendarGenerateFailed": "カレンダーフィードを生成できませんでした。",
+  "apiErrorBusUpstream": "キャンパスバスサービスは一時的に利用できません。",
+  "apiErrorCacheOperationFailed": "キャッシュ操作に失敗しました。",
+  "apiErrorCacheDisabled": "キャッシュサービスは無効です。",
+  "apiErrorCacheConfirmRequired": "キャッシュ操作を確認してください。",
+  "apiErrorAdminTaskNotFound": "管理タスクが見つかりません。",
+  "apiErrorAdminTaskUnavailable": "管理タスクサービスを利用できません。",
+  "apiErrorNotImplemented": "この操作はまだ実装されていません。",
+  "apiErrorQueueUnavailable": "キューサービスを利用できません。",
+  "apiErrorInvalidRequest": "リクエストが無効です。入力内容を確認してください。",
+  "apiErrorNotFound": "リソースが見つかりません。",
+  "apiErrorConflict": "現在の状態とリクエストが競合しています。",
+  "apiErrorServiceUnavailable": "サービスは一時的に利用できません。",
+  "apiErrorUpstream": "上流サービスは一時的に利用できません。",
+  "apiErrorDuplicateMutation": "重複したリクエストが検出されました。",
+  "apiErrorRequestFailed": "リクエストに失敗しました。もう一度お試しください。",
+  "luotopiaRegisterStepWhuTitle": "WHUアカウントを確認",
+  "luotopiaRegisterStepWhuSubtitle": "このWHU学生IDはLuotopiaアカウントに連携されます。",
+  "luotopiaRegisterWhuNameLabel": "氏名",
+  "luotopiaRegisterWhuStudentIdLabel": "学生番号",
+  "luotopiaRegisterWhuMismatchHint": "本人でない場合は、WHUアカウント設定を開いてログアウトし、別のアカウントを連携してください。",
+  "luotopiaRegisterOpenWhuAccount": "WHUアカウントを開く",
+  "luotopiaRegisterStepProfileTitle": "プロフィールとメール",
+  "luotopiaRegisterStepProfileSubtitle": "表示名とLuotopiaアカウントのメールアドレスを選択してください。",
+  "luotopiaRegisterEmailVerifiedHint": "このメールアドレスはWHUアカウントで確認済みのため自動入力されました。変更することもできます。",
+  "luotopiaRegisterEmailUnverifiedHint": "WHUのメールアドレスである場合は、先にWHUアカウントページで確認すると自動入力できます。",
+  "luotopiaRegisterGoVerifyEmail": "WHUアカウントで確認",
+  "luotopiaRegisterStepPasswordTitle": "パスワードを設定",
+  "luotopiaRegisterStepPasswordSubtitle": "10文字以上を使用してください。ログイン時にこのパスワードが必要です。",
+  "scoreImportCountLabel": "成績数",
+  "campusAppMajorInfo": "学部・専攻情報",
+  "majorInfoTitle": "学部・専攻情報",
+  "majorInfoDescription": "学術部門、学部、専攻、教育計画、就職データを閲覧できます。",
+  "majorInfoMajors": "専攻",
+  "majorInfoMajorCount": "専攻",
+  "majorInfoShowCharts": "グラフを表示",
+  "majorInfoShowList": "データ一覧を表示",
+  "majorInfoEmploymentChartSemantics": "インタラクティブな就職先分布グラフ",
+  "scoreTranscriptZoom": "ズーム",
+  "scoreTranscriptZoomIn": "拡大",
+  "scoreTranscriptZoomOut": "縮小",
+  "scoreTranscriptMoreActions": "その他の文書操作",
+  "majorInfoObjective": "育成目標",
+  "majorInfoPositioning": "専攻の位置付け",
+  "majorInfoCharacteristics": "専攻の特徴",
+  "majorInfoTeachingPlan": "教育計画",
+  "majorInfoEmploymentTypes": "就職先",
+  "majorInfoEmploymentIndustries": "就職業界",
+  "majorInfoEmploymentRegions": "就職地域",
+  "majorInfoEmploymentEmployers": "雇用主",
+  "majorInfoTrainingPlan": "学部の育成計画",
+  "majorInfoOpenTrainingPlan": "育成計画のプレビューを開く",
+  "majorInfoTrainingPlanSubtitle": "Chaoxingの公式文書プレビューを開きます",
+  "majorInfoTrainingPlanLoading": "育成計画を読み込んでいます…",
+  "majorInfoTrainingPlanUnavailable": "育成計画のプレビューは利用できません。",
+  "scoreImportParsedCountLabel": "取得した成績",
+  "scoreImportMergedCountLabel": "統合した成績",
+  "scoreImportExampleLabel": "例",
+  "adminConsoleTitle": "管理コンソール",
+  "adminConsoleSubtitle": "ユーザー・フォーラム・システム状態",
+  "adminAccessDenied": "管理者権限が必要です。",
+  "adminSectionOverview": "概要",
+  "adminSectionUsers": "ユーザー",
+  "adminSectionForum": "フォーラム",
+  "adminSystemStatusTitle": "システム状態",
+  "adminSystemStatusSubtitle": "キュー、ワーカー、タスク統計",
+  "adminWorkerStatusTitle": "ワーカー状態",
+  "adminTaskStatsTitle": "タスク統計",
+  "adminQueueStatusTitle": "キュー状態",
+  "adminQueueDepth": "深度",
+  "adminQueuePaused": "一時停止中",
+  "adminQueuePause": "一時停止",
+  "adminQueueResume": "再開",
+  "adminStatusActiveWorkers": "Active workers",
+  "adminStatusHealthyWorkers": "Healthy workers",
+  "adminStatusTasksProcessed": "Processed",
+  "adminStatusTasksFailed": "Failed",
+  "adminStatusTasksRetried": "Retried",
+  "adminStatusWorkerInstances": "Worker instances",
+  "adminStatusNoWorkers": "No workers online",
+  "adminStatusWorkerInstance": "Worker {index}",
+  "@adminStatusWorkerInstance": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "adminStatusHealthy": "Healthy",
+  "adminStatusUnhealthy": "Unhealthy",
+  "adminStatusQueueSize": "Queue size",
+  "adminStatusProcessing": "Processing",
+  "adminStatusAvgProcessing": "Avg processing",
+  "adminStatusStartedAt": "Started",
+  "adminStatusLastHeartbeat": "Last heartbeat",
+  "adminStatusTasksTotal": "Total",
+  "adminStatusTasksPending": "Pending",
+  "adminStatusTasksRunning": "Running",
+  "adminStatusTasksSuccess": "Success",
+  "adminStatusTasksCancelled": "Cancelled",
+  "adminStatusScheduledRetries": "Scheduled retries",
+  "adminStatusNextRetry": "Next retry",
+  "adminStatusUpdatedAt": "Updated",
+  "adminStatusNoQueues": "No queues",
+  "adminStatusRedisConnected": "Redis connected",
+  "adminStatusRedisDisconnected": "Redis disconnected",
+  "adminUsersTitle": "ユーザー管理",
+  "adminUsersSubtitle": "ユーザー検索とロール変更",
+  "adminUsersSearchHint": "名前またはメールで検索",
+  "adminUsersEmpty": "ユーザーが見つかりません。",
+  "adminUsersRoleLabel": "ロール",
+  "adminUsersDisabled": "無効",
+  "adminUsersEnable": "有効化",
+  "adminUsersDisable": "無効化",
+  "adminUsersSetRole": "{role} に設定",
+  "adminUsersRoleUpdated": "ユーザーロールを更新しました。",
+  "adminUserDetailAccount": "アカウント", "adminUserDetailDisplayName": "表示名", "adminUserDetailRegistered": "登録日時", "adminUserDetailLastActive": "最終アクティブ", "adminUserDetailForum": "フォーラム", "adminUserDetailNickname": "ニックネーム", "adminUserDetailStatus": "状態", "adminUserDetailLevel": "レベル", "adminUserDetailPosts": "投稿", "adminUserDetailComments": "コメント", "adminUserDetailReceivedLikes": "受け取ったいいね", "adminUserDetailWhuAccountData": "WHUアカウント情報", "adminUserDetailWhuAccountDataDescription": "スーパー管理者のみ閲覧でき、アクセスは監査されます。", "adminUserDetailWhuAccount": "WHUアカウント", "adminUserDetailManagement": "管理",
+  "adminUserContentPostsTitle": "ユーザーの投稿",
+  "adminUserContentCommentsTitle": "ユーザーのコメント",
+  "adminUserContentPostsEmpty": "投稿がありません",
+  "adminUserContentCommentsEmpty": "コメントがありません",
+  "adminUserContentPostLabel": "投稿: {postId}",
+  "adminRoleUser": "ユーザー",
+  "adminRoleAdmin": "管理者",
+  "adminRoleSuperAdmin": "スーパー管理者",
+  "adminForumBoardsTitle": "フォーラム掲示板",
+  "adminForumBoardsSubtitle": "掲示板の作成・編集・アーカイブ",
+  "adminForumBoardsEmpty": "掲示板はまだありません。",
+  "adminForumBoardCreate": "掲示板を作成",
+  "adminForumBoardEdit": "掲示板を編集",
+  "adminForumBoardName": "名前",
+  "adminForumBoardDescription": "説明",
+  "adminForumBoardShelter": "シェルター掲示板",
+  "adminForumBoardActive": "有効",
+  "adminForumBoardInactive": "無効",
+  "adminForumBoardActivate": "有効化",
+  "adminForumBoardDeactivate": "無効化",
+  "adminForumBoardArchive": "アーカイブ",
+  "adminForumSettingsTitle": "フォーラム設定",
+  "adminForumSettingsSubtitle": "アップロード、招待、ポリシー",
+  "adminForumSettingsUpload": "アップロード",
+  "adminForumSettingsImageExtensions": "画像拡張子",
+  "adminForumSettingsAttachmentExtensions": "添付ファイル拡張子",
+  "adminForumSettingsAddExtensionHint": "入力して Enter で追加",
+  "adminForumSettingsImageQuality": "画像品質（1–100）",
+  "adminForumSettingsImageMaxDimension": "画像の最大寸法",
+  "adminForumSettingsAllowAnimated": "アニメーション画像を許可",
+  "adminForumSettingsRegistration": "登録",
+  "adminForumSettingsInviteRequired": "招待が必要",
+  "adminForumSettingsInviteQuota": "デフォルト招待枠",
+  "adminForumSettingsSaved": "フォーラム設定を保存しました。",
+  "adminForumModerationSubtitle": "通報と異議のキュー",
+  "adminForumConfigLogTitle": "設定変更ログ",
+  "adminForumConfigLogSubtitle": "フォーラム設定の最近の変更",
+  "adminForumConfigLogEmpty": "設定変更の記録はありません。",
+  "adminForumConfigLogActor": "操作者",
+  "@adminUsersSetRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "forumReplyDepthLimit": "これ以上返信できません"
 }
