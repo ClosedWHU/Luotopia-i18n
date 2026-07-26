@@ -9,8 +9,10 @@
   "appTitle": "珞家",
   "baseColorForStaticTheme": "静态主题的基础色",
   "biometricLockFailed": "验证失败",
-  "biometricLockReason": "解锁以访问 Luotopia",
-  "campusAppCourseHub": "教务枢纽",
+  "biometricLockReason": "解锁以访问珞家",
+  "campusAppCalendar": "校历",
+  "campusAppGlobalTimetable": "全校课表",
+  "campusAppGradesReviews": "给分和评价",
   "campusAppEcard": "珞珈E卡",
   "campusAppEcardPayment": "E卡付款码",
   "campusAppWaterControl": "取水码",
@@ -44,6 +46,13 @@
   "schoolNetOperationFailed": "未能确认操作结果，请刷新状态后再试。",
   "schoolNetLoadFailed": "无法加载校园网信息，请检查网络后重试。",
   "schoolNetLoadFailedTitle": "校园网暂不可用",
+  "schoolNetAutoVerify": "自动验证",
+  "schoolNetAutoVerifyDescription": "使用武大账号和密码向校园网门户认证当前设备。",
+  "schoolNetProvider": "运营商",
+  "schoolNetProviderCernet": "教育网",
+  "schoolNetProviderTelecom": "电信",
+  "schoolNetProviderUnicom": "联通",
+  "schoolNetProviderMobile": "移动",
   "schoolNetDevices": "已连接设备",
   "schoolNetNoDevices": "当前没有在线设备",
   "schoolNetDeviceOnlineSince": "上线时间",
@@ -127,10 +136,8 @@
   "commonRegistrationTime": "注册时间",
   "commonUsername": "用户名",
   "courseGridSettings": "课程方格模式设置",
-  "courseHubLoginButton": "登录",
-  "courseHubScores": "成绩",
-  "courseHubTimetable": "课程表",
-  "courseHubTitle": "教务枢纽",
+  "gradesReviewsScores": "成绩",
+  "gradesReviewsTitle": "给分和评价",
   "courseImport": "课程表导入",
   "courseImportSemester": "学期",
   "courseImportTitle": "导入课表",
@@ -160,6 +167,13 @@
   "dynamicColorSourceAccent": "使用系统强调色",
   "dynamicColorSourceGtk": "使用 GTK 主题色",
   "dynamicColorSourceWallpaper": "根据系统壁纸提取主色调",
+  "themeColorSource": "颜色来源",
+  "themeColorSourceSystemScheme": "系统动态配色",
+  "themeColorSourceSystemSchemeDescription": "完整使用系统提供的动态颜色方案。",
+  "themeColorSourceSystemAccent": "系统强调色",
+  "themeColorSourceSystemAccentDescription": "使用系统强调色作为种子，再应用所选的珞家调色盘算法。",
+  "themeColorSourceCustomSeed": "自定义颜色",
+  "themeColorSourceCustomSeedDescription": "使用所选颜色和调色盘算法生成主题。",
   "ecardPaymentTitle": "E卡付款码",
   "editorAllDayTitle": "全天任务",
   "editorColorAmber": "琥珀",
@@ -365,21 +379,21 @@
   "listTabTasks": "任务列表",
   "login": "去登录",
   "luotopiaAccountDetails": "账户详情",
-  "luotopiaAccountTitle": "Luotopia 账户",
+  "luotopiaAccountTitle": "珞家账户",
   "luotopiaAlreadyHaveAccount": "已有账户？",
   "luotopiaConfirmLogout": "确认退出",
   "luotopiaConfirmPassword": "确认密码",
-  "luotopiaCreateAccount": "创建 Luotopia 账户",
+  "luotopiaCreateAccount": "创建珞家账户",
   "luotopiaEmailHint": "用于找回密码",
   "luotopiaEmailOptional": "邮箱（可选）",
   "luotopiaLoggingIn": "登录中...",
-  "luotopiaLoginTitle": "登录 Luotopia",
+  "luotopiaLoginTitle": "登录珞家",
   "luotopiaLoginIdentifierLabel": "邮箱、用户名或 WHU 学号",
   "luotopiaLoginIdentifierHint": "使用已绑定到此账号的任一标识",
   "luotopiaLoginIdentifierRequired": "请填写邮箱、用户名或 WHU 学号",
   "luotopiaLoginEmailHint": "账号绑定的邮箱地址",
-  "luotopiaLoginUsernameHint": "你的 Luotopia 用户名",
-  "luotopiaLoginUsernameRequired": "请填写 Luotopia 用户名",
+  "luotopiaLoginUsernameHint": "你的珞家用户名",
+  "luotopiaLoginUsernameRequired": "请填写珞家用户名",
   "luotopiaLoginUsernameInvalid": "请输入 3-60 位字母、数字、点、连字符或下划线",
   "luotopiaLoginWhuStudentId": "WHU 学号",
   "luotopiaLoginWhuStudentIdHint": "已绑定到此账号的 WHU 学号",
@@ -400,7 +414,7 @@
    "luotopiaPasswordRequireUppercase": "包含大写字母",
    "luotopiaPasswordRequireSpecial": "包含特殊字符",
   "luotopiaRegistering": "注册中...",
-  "luotopiaRegisterTitle": "注册 Luotopia",
+  "luotopiaRegisterTitle": "注册珞家",
   "luotopiaUsername": "用户名",
   "luotopiaUsernameMinHint": "至少 3 个字符",
   "luotopiaUsernameTooShort": "用户名至少 3 个字符",
@@ -605,6 +619,8 @@
   "themeModeLabel": "主题模式",
   "themeSettings": "界面与交互",
   "themeSystem": "跟随系统",
+  "settingsDevThemeLabTitle": "主题实验室",
+  "settingsDevThemeLabSubtitle": "并排预览浅色与深色主题下的核心组件。",
   "timetable": "课程表",
   "timetableName": "课程表名称",
   "timetables": "课程表列表",
@@ -1018,7 +1034,7 @@
       }
     }
   },
-  "settingsAboutDescription": "Luotopia 致力于打造一个现代化、美观、功能强大的教务与校园生活枢纽平台。感谢您的使用与支持！",
+  "settingsAboutDescription": "珞家致力于打造一个现代化、美观、功能强大的教务与校园生活枢纽平台。感谢您的使用与支持！",
   "settingsDevModeAlreadyOn": "开发者模式已开启：您已经是开发者了。",
   "settingsDevModeActivated": "开发者模式已开启：您现在可以使用开发者设置了！",
   "settingsDevModeTapCount": "即将开启开发者模式：再点击 {count} 次开启开发者模式",
@@ -1224,35 +1240,30 @@
     }
   },
   "whuCasLoginFailedGeneric": "教务系统登录失败，请重新登录武大统一认证。",
-  "courseHubToolsTitle": "教务工具与课程信息",
-  "courseHubToolsDescription": "整合校历、蹭课、全校课表、课程给分与评价。",
-  "courseHubSearchCourse": "搜索课程",
-  "courseHubCalendar": "校历",
-  "courseHubCalendarSubtitle": "学期、假期与考试周",
-  "courseHubAuditCourse": "蹭课",
-  "courseHubAuditCourseSubtitle": "发现可旁听课程 · 建设中",
-  "courseHubTimetableSubtitle": "浏览全校开课 · 建设中",
-  "courseHubScoresSubtitle": "搜索课程后查看分布",
-  "courseHubReviews": "课程评价",
-  "courseHubReviewsSubtitle": "搜索课程后查看评价",
-  "courseHubToolsSection": "教务工具",
-  "courseHubSearchHintGrades": "搜索课程后查看历史给分分布",
-  "courseHubSearchHintReviews": "搜索课程后查看同学评价",
-  "courseHubSearchHintNormal": "搜索课程名称、教师姓名或课程代码",
-  "courseHubSearchTitle": "课程搜索",
-  "courseHubEmptyTitle": "搜索任意课程",
-  "courseHubEmptyDescription": "进入课程详情后可查看给分分布与课程评价。",
-  "courseHubNoResults": "没有找到相关课程",
-  "courseHubSearchError": "搜索失败：{error}",
-  "@courseHubSearchError": {
+  "gradesReviewsToolsTitle": "课程给分与评价",
+  "gradesReviewsToolsDescription": "搜索课程，查看历史给分分布与同学评价。",
+  "gradesReviewsSearchCourse": "搜索课程",
+  "gradesReviewsScoresSubtitle": "搜索课程后查看分布",
+  "gradesReviewsReviews": "课程评价",
+  "gradesReviewsReviewsSubtitle": "搜索课程后查看评价",
+  "gradesReviewsToolsSection": "教务工具",
+  "gradesReviewsSearchHintGrades": "搜索课程后查看历史给分分布",
+  "gradesReviewsSearchHintReviews": "搜索课程后查看同学评价",
+  "gradesReviewsSearchHintNormal": "搜索课程名称、教师姓名或课程代码",
+  "gradesReviewsSearchTitle": "课程搜索",
+  "gradesReviewsEmptyTitle": "搜索任意课程",
+  "gradesReviewsEmptyDescription": "进入课程详情后可查看给分分布与课程评价。",
+  "gradesReviewsNoResults": "没有找到相关课程",
+  "gradesReviewsSearchError": "搜索失败：{error}",
+  "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
         "type": "String"
       }
     }
   },
-  "courseHubResultSubtitle": "{uid} · {department}",
-  "@courseHubResultSubtitle": {
+  "gradesReviewsResultSubtitle": "{uid} · {department}",
+  "@gradesReviewsResultSubtitle": {
     "placeholders": {
       "uid": {
         "type": "String"
@@ -1274,24 +1285,24 @@
   "courseDetailReviewsTab": "课程评价",
   "courseAuditTitle": "蹭课",
   "courseAuditPlaceholder": "蹭课功能正在开发中...",
-  "courseHubSearchFailMessage": "搜索失败：{message}",
-  "@courseHubSearchFailMessage": {
+  "gradesReviewsSearchFailMessage": "搜索失败：{message}",
+  "@gradesReviewsSearchFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubGradeStatsFailMessage": "获取给分分布失败：{message}",
-  "@courseHubGradeStatsFailMessage": {
+  "gradesReviewsGradeStatsFailMessage": "获取给分分布失败：{message}",
+  "@gradesReviewsGradeStatsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubReviewsFailMessage": "获取评价失败：{message}",
-  "@courseHubReviewsFailMessage": {
+  "gradesReviewsReviewsFailMessage": "获取评价失败：{message}",
+  "@gradesReviewsReviewsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
@@ -1666,7 +1677,7 @@
   "aiFormatOpenaiResponse": "OpenAI Response",
   "aiFormatGemini": "Gemini",
   "aiFormatAnthropic": "Anthropic",
-  "aiSystemPromptDefault": "你是 Luotopia 的 AI 助手。你只会基于当前用户消息和提供的事项摘要回答，不引用历史对话。优先帮助用户创建事项、整理安排、回答日程问题。",
+  "aiSystemPromptDefault": "你是珞家的 AI 助手。你只会基于当前用户消息和提供的事项摘要回答，不引用历史对话。优先帮助用户创建事项、整理安排、回答日程问题。",
   "whuAccountFallbackName": "武大账户",
   "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
@@ -1708,6 +1719,7 @@
   "weatherAqiPoor": "中度污染",
   "weatherBannerRainSoon": "快要下雨了，出门记得带伞！",
   "weatherBannerRainImminent": "很快要下雨了，记得带伞！",
+  "weatherRainReminderTitle": "降雨提醒",
   "weatherBannerRainInMinutes": "约 {minutes} 分钟后有雨，记得带伞。",
   "@weatherBannerRainInMinutes": {
     "placeholders": {
@@ -1839,6 +1851,14 @@
   "scoreClearCacheWarning": "所有本地缓存的成绩数据将被清除，确定继续吗？",
   "scoreClearCacheSuccess": "成绩缓存已清空",
   "scoreClearCacheHint": "清除本地缓存的成绩数据",
+  "studyStatusClearCacheTitle": "清空学业情况缓存",
+  "studyStatusClearCacheWarning": "本地缓存的学业情况和培养方案数据将被清除，确定继续吗？",
+  "studyStatusClearCacheSuccess": "学业情况缓存已清空",
+  "studyStatusClearCacheHint": "清除本地缓存的学业情况和培养方案数据",
+  "academicDataClearAllTitle": "清空所有学业数据",
+  "academicDataClearAllWarning": "所有本地缓存的成绩、成绩预览、学业情况和培养方案数据将被清除，确定继续吗？",
+  "academicDataClearAllSuccess": "所有学业数据已清空",
+  "academicDataClearAllHint": "同时清除成绩和学业情况缓存",
   "settingsBuildTypeDebug": "调试版",
   "settingsBuildTypeProfile": "性能分析版",
   "settingsBuildTypeRelease": "发布版",
@@ -2432,6 +2452,7 @@
   "authNoPasskeys": "暂无 Passkey",
   "authForgotPassword": "忘记密码？",
   "authRememberCredentials": "记住账号和密码",
+  "whuNativeLoginRememberMobile": "记住手机号",
   "authResetPassword": "重置密码",
   "authSendResetLink": "发送重置链接",
   "authResetRequested": "如该邮箱已注册，重置链接已发送。",
@@ -2676,7 +2697,7 @@
   "authErrorUserDisabled": "该账户已被禁用",
   "authErrorPasswordPolicy": "密码不符合当前安全要求",
   "authErrorWhuRequired": "注册前请先关联武汉大学账号",
-  "authErrorWhuAlreadyBound": "该武汉大学账号已绑定到其他 Luotopia 账户",
+  "authErrorWhuAlreadyBound": "该武汉大学账号已绑定到其他珞家账户",
   "authErrorVerificationFailed": "人机验证失败或已过期，请重试",
   "authErrorRateLimited": "请求过于频繁，请稍后再试",
   "authErrorRequestFailed": "请求失败，请稍后重试",
@@ -3551,6 +3572,20 @@
   "whuLoginMethodDatarepoSubtitle": "智慧珞珈个人数据中心（FineReport 导出表）。学籍字段较全；校方改版报表时可能失效。",
   "whuLoginMethodNotRecommended": "不推荐",
   "whuLoginMethodApiError": "接口异常",
+  "whuLoginImplementationTitle": "使用原生登录",
+  "whuLoginImplementationNative": "已开启：使用原生表单，仅在需要验证码时打开 WebView",
+  "whuLoginImplementationWebView": "已关闭：全程在武大登录 WebView 中完成",
+  "whuNativeLoginTitle": "武大统一认证",
+  "whuNativeLoginHeading": "登录武大统一身份认证",
+  "whuNativeLoginPrivacy": "账号凭据仅从本机直连武大，不会上传至珞家服务端。",
+  "whuNativeLoginPasswordTab": "账号密码",
+  "whuNativeLoginOtpTab": "短信动态码",
+  "whuNativeLoginUsernameLabel": "学号 / 用户名",
+  "whuNativeLoginMobileLabel": "手机号",
+  "whuNativeLoginPasswordLabel": "密码",
+  "whuNativeLoginCodeLabel": "动态码",
+  "whuNativeLoginSendCode": "获取动态码",
+  "whuNativeLoginSubmit": "登录",
   "forumModerationReports": "举报",
   "forumModerationAppeals": "申诉",
   "settingsBuildInfoArchitecture": "架构",

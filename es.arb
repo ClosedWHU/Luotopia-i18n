@@ -1,5 +1,29 @@
 {
   "@@locale": "es",
+  "schoolNetAutoVerify": "Autenticación automática",
+  "schoolNetAutoVerifyDescription": "Usa tu cuenta y contraseña de WHU para autenticar este dispositivo en el portal de la red del campus.",
+  "schoolNetProvider": "Proveedor de red",
+  "schoolNetProviderCernet": "CERNET",
+  "schoolNetProviderTelecom": "China Telecom",
+  "schoolNetProviderUnicom": "China Unicom",
+  "schoolNetProviderMobile": "China Mobile",
+  "settingsDevThemeLabTitle": "Laboratorio de temas",
+  "settingsDevThemeLabSubtitle": "Previsualiza los componentes principales con los temas claro y oscuro.",
+  "whuNativeLoginRememberMobile": "Recordar el número de móvil",
+  "whuLoginImplementationTitle": "Inicio de sesión nativo",
+  "whuLoginImplementationNative": "Activado: usa el formulario nativo y muestra el WebView solo cuando se requiere un CAPTCHA",
+  "whuLoginImplementationWebView": "Desactivado: completa todo el inicio de sesión en el WebView de WHU",
+  "whuNativeLoginTitle": "Inicio de sesión en WHU",
+  "whuNativeLoginHeading": "Inicia sesión en el sistema de autenticación unificada de WHU",
+  "whuNativeLoginPrivacy": "Tus credenciales se envían directamente a WHU y nunca se transmiten a los servidores de Luotopia.",
+  "whuNativeLoginPasswordTab": "Contraseña",
+  "whuNativeLoginOtpTab": "Código por SMS",
+  "whuNativeLoginUsernameLabel": "Número de estudiante / nombre de usuario",
+  "whuNativeLoginMobileLabel": "Número de móvil",
+  "whuNativeLoginPasswordLabel": "Contraseña",
+  "whuNativeLoginCodeLabel": "Código de verificación",
+  "whuNativeLoginSendCode": "Enviar código",
+  "whuNativeLoginSubmit": "Iniciar sesión",
   "aiAssistant": "Asistente AI",
   "aiInputHint": "Cualquier duda sobre el horario...",
   "aiTitle": "asistente de IA",
@@ -10,7 +34,9 @@
   "baseColorForStaticTheme": "Color base para temas estáticos",
   "biometricLockFailed": "Error de autenticación",
   "biometricLockReason": "Desbloquea para usar Luotopia",
-  "campusAppCourseHub": "Académico",
+  "campusAppCalendar": "Calendario",
+  "campusAppGlobalTimetable": "Horario global",
+  "campusAppGradesReviews": "Notas y reseñas",
   "campusAppEcard": "Tarjeta E",
   "campusAppEcardPayment": "Código pago",
   "campusAppWaterControl": "Código de acceso al agua",
@@ -111,10 +137,8 @@
   "commonRegistrationTime": "Fecha de registro",
   "commonUsername": "Nombre de usuario",
   "courseGridSettings": "Ajustes de Cuadrícula",
-  "courseHubLoginButton": "Entrar",
-  "courseHubScores": "Calificaciones",
-  "courseHubTimetable": "Horario",
-  "courseHubTitle": "Centro académico",
+  "gradesReviewsScores": "Calificaciones",
+  "gradesReviewsTitle": "Notas y reseñas",
   "courseImport": "Importar Cursos",
   "courseImportSemester": "Semestre",
   "courseImportTitle": "Importar horario",
@@ -133,6 +157,13 @@
   "dynamicColorSourceAccent": "Usar el color de acento del sistema",
   "dynamicColorSourceGtk": "Usar el color del tema GTK",
   "dynamicColorSourceWallpaper": "Extraer del fondo del sistema",
+  "themeColorSource": "Fuente de color",
+  "themeColorSourceSystemScheme": "Colores dinámicos del sistema",
+  "themeColorSourceSystemSchemeDescription": "Usar el esquema de colores completo proporcionado por el sistema.",
+  "themeColorSourceSystemAccent": "Acento del sistema",
+  "themeColorSourceSystemAccentDescription": "Usar el acento del sistema como color base y aplicar el algoritmo de paleta de Luotopia seleccionado.",
+  "themeColorSourceCustomSeed": "Color personalizado",
+  "themeColorSourceCustomSeedDescription": "Usar el color y el algoritmo de paleta seleccionados para generar el tema.",
   "ecardPaymentTitle": "Código de pago E-Card",
   "editorAllDayTitle": "tareas de todo el día",
   "editorColorAmber": "ámbar",
@@ -1229,35 +1260,30 @@
     }
   },
   "whuCasLoginFailedGeneric": "Error al iniciar sesión académica. Vuelve a entrar en el CAS WHU.",
-  "courseHubToolsTitle": "Herramientas y datos de cursos",
-  "courseHubToolsDescription": "Calendario, asistir, horario global, notas y reseñas.",
-  "courseHubSearchCourse": "Buscar cursos",
-  "courseHubCalendar": "Calendario",
-  "courseHubCalendarSubtitle": "Semestres, vacaciones y semanas de examen",
-  "courseHubAuditCourse": "Asistir",
-  "courseHubAuditCourseSubtitle": "Descubrir clases para asistir · en desarrollo",
-  "courseHubTimetableSubtitle": "Explorar todos los cursos · en desarrollo",
-  "courseHubScoresSubtitle": "Busca un curso para ver la distribución",
-  "courseHubReviews": "Reseñas del curso",
-  "courseHubReviewsSubtitle": "Busca un curso para ver reseñas",
-  "courseHubToolsSection": "Herramientas académicas",
-  "courseHubSearchHintGrades": "Busca un curso para ver la distribución histórica",
-  "courseHubSearchHintReviews": "Busca un curso para ver reseñas de estudiantes",
-  "courseHubSearchHintNormal": "Buscar por nombre, profesor o código",
-  "courseHubSearchTitle": "Búsqueda de cursos",
-  "courseHubEmptyTitle": "Buscar un curso",
-  "courseHubEmptyDescription": "Entra en el detalle del curso para ver notas y reseñas.",
-  "courseHubNoResults": "No se encontraron cursos",
-  "courseHubSearchError": "Error de búsqueda: {error}",
-  "@courseHubSearchError": {
+  "gradesReviewsToolsTitle": "Notas y reseñas",
+  "gradesReviewsToolsDescription": "Busca un curso para ver notas y reseñas.",
+  "gradesReviewsSearchCourse": "Buscar cursos",
+  "gradesReviewsScoresSubtitle": "Busca un curso para ver la distribución",
+  "gradesReviewsReviews": "Reseñas del curso",
+  "gradesReviewsReviewsSubtitle": "Busca un curso para ver reseñas",
+  "gradesReviewsToolsSection": "Herramientas académicas",
+  "gradesReviewsSearchHintGrades": "Busca un curso para ver la distribución histórica",
+  "gradesReviewsSearchHintReviews": "Busca un curso para ver reseñas de estudiantes",
+  "gradesReviewsSearchHintNormal": "Buscar por nombre, profesor o código",
+  "gradesReviewsSearchTitle": "Búsqueda de cursos",
+  "gradesReviewsEmptyTitle": "Buscar un curso",
+  "gradesReviewsEmptyDescription": "Entra en el detalle del curso para ver notas y reseñas.",
+  "gradesReviewsNoResults": "No se encontraron cursos",
+  "gradesReviewsSearchError": "Error de búsqueda: {error}",
+  "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
         "type": "String"
       }
     }
   },
-  "courseHubResultSubtitle": "{uid} · {department}",
-  "@courseHubResultSubtitle": {
+  "gradesReviewsResultSubtitle": "{uid} · {department}",
+  "@gradesReviewsResultSubtitle": {
     "placeholders": {
       "uid": {
         "type": "String"
@@ -1279,24 +1305,24 @@
   "courseDetailReviewsTab": "Reseñas",
   "courseAuditTitle": "Asistir a clases",
   "courseAuditPlaceholder": "La función de escuchar clases está en desarrollo…",
-  "courseHubSearchFailMessage": "Error de búsqueda: {message}",
-  "@courseHubSearchFailMessage": {
+  "gradesReviewsSearchFailMessage": "Error de búsqueda: {message}",
+  "@gradesReviewsSearchFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubGradeStatsFailMessage": "Error al cargar la distribución: {message}",
-  "@courseHubGradeStatsFailMessage": {
+  "gradesReviewsGradeStatsFailMessage": "Error al cargar la distribución: {message}",
+  "@gradesReviewsGradeStatsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubReviewsFailMessage": "Error al cargar reseñas: {message}",
-  "@courseHubReviewsFailMessage": {
+  "gradesReviewsReviewsFailMessage": "Error al cargar reseñas: {message}",
+  "@gradesReviewsReviewsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
@@ -1653,6 +1679,7 @@
   "weatherAqiPoor": "Malo",
   "weatherBannerRainSoon": "¡Lloverá pronto, no olvides el paraguas!",
   "weatherBannerRainImminent": "Lluvia inminente — ¡lleva paraguas!",
+  "weatherRainReminderTitle": "Aviso de lluvia",
   "weatherBannerRainInMinutes": "Lluvia en unos {minutes} min — lleva paraguas.",
   "@weatherBannerRainInMinutes": {
     "placeholders": {
@@ -1781,6 +1808,14 @@
   "scoreClearCacheWarning": "Se borrarán todas las notas en caché local. ¿Continuar?",
   "scoreClearCacheSuccess": "Caché de notas borrada",
   "scoreClearCacheHint": "Borrar todas las notas en caché local",
+  "studyStatusClearCacheTitle": "Borrar caché del progreso académico",
+  "studyStatusClearCacheWarning": "Se borrarán el progreso académico y el plan de estudios almacenados localmente. ¿Continuar?",
+  "studyStatusClearCacheSuccess": "Caché del progreso académico borrada",
+  "studyStatusClearCacheHint": "Borrar el progreso académico y el plan de estudios en caché",
+  "academicDataClearAllTitle": "Borrar todos los datos académicos",
+  "academicDataClearAllWarning": "Se borrarán todas las notas, vistas previas, el progreso académico y el plan de estudios en caché. ¿Continuar?",
+  "academicDataClearAllSuccess": "Todos los datos académicos fueron borrados",
+  "academicDataClearAllHint": "Borrar juntas las notas y el progreso académico en caché",
   "settingsBuildTypeDebug": "Build de depuración",
   "settingsBuildTypeProfile": "Build de perfil",
   "settingsBuildTypeRelease": "Build de release",

@@ -1,5 +1,29 @@
 {
   "@@locale": "ru",
+  "schoolNetAutoVerify": "Автоматическая авторизация",
+  "schoolNetAutoVerifyDescription": "Использовать учётную запись и пароль WHU для авторизации этого устройства на портале сети кампуса.",
+  "schoolNetProvider": "Оператор сети",
+  "schoolNetProviderCernet": "CERNET",
+  "schoolNetProviderTelecom": "China Telecom",
+  "schoolNetProviderUnicom": "China Unicom",
+  "schoolNetProviderMobile": "China Mobile",
+  "settingsDevThemeLabTitle": "Лаборатория тем",
+  "settingsDevThemeLabSubtitle": "Предпросмотр основных компонентов в светлой и тёмной темах.",
+  "whuNativeLoginRememberMobile": "Запомнить номер телефона",
+  "whuLoginImplementationTitle": "Вход через встроенную форму",
+  "whuLoginImplementationNative": "Включено: используется встроенная форма, а WebView открывается только при запросе капчи",
+  "whuLoginImplementationWebView": "Выключено: весь процесс входа выполняется в WHU WebView",
+  "whuNativeLoginTitle": "Вход в WHU",
+  "whuNativeLoginHeading": "Вход через единую систему аутентификации WHU",
+  "whuNativeLoginPrivacy": "Ваши учётные данные передаются с этого устройства напрямую в WHU и не загружаются на серверы Luotopia.",
+  "whuNativeLoginPasswordTab": "Пароль",
+  "whuNativeLoginOtpTab": "Код из SMS",
+  "whuNativeLoginUsernameLabel": "Номер студента / имя пользователя",
+  "whuNativeLoginMobileLabel": "Номер телефона",
+  "whuNativeLoginPasswordLabel": "Пароль",
+  "whuNativeLoginCodeLabel": "Код подтверждения",
+  "whuNativeLoginSendCode": "Отправить код",
+  "whuNativeLoginSubmit": "Войти",
   "aiAssistant": "AI Ассистент",
   "aiInputHint": "Есть вопросы по расписанию...",
   "aiTitle": "ИИ-помощник",
@@ -10,7 +34,9 @@
   "baseColorForStaticTheme": "Базовый цвет для статических тем",
   "biometricLockFailed": "Ошибка аутентификации",
   "biometricLockReason": "Разблокируйте для доступа к Luotopia",
-  "campusAppCourseHub": "Учёба",
+  "campusAppCalendar": "Календарь",
+  "campusAppGlobalTimetable": "Общее расписание",
+  "campusAppGradesReviews": "Оценки и отзывы",
   "campusAppEcard": "Карта E",
   "campusAppEcardPayment": "Код оплаты",
   "campusAppWaterControl": "Код доступа к воде",
@@ -111,10 +137,8 @@
   "commonRegistrationTime": "Время регистрации",
   "commonUsername": "Имя пользователя",
   "courseGridSettings": "Настройки сетки курсов",
-  "courseHubLoginButton": "Войти",
-  "courseHubScores": "Оценки",
-  "courseHubTimetable": "Расписание",
-  "courseHubTitle": "Учебный центр",
+  "gradesReviewsScores": "Оценки",
+  "gradesReviewsTitle": "Оценки и отзывы",
   "courseImport": "Импорт курсов",
   "courseImportSemester": "Семестр",
   "courseImportTitle": "Импорт расписания",
@@ -133,6 +157,13 @@
   "dynamicColorSourceAccent": "Использовать системный акцентный цвет",
   "dynamicColorSourceGtk": "Использовать цвет темы GTK",
   "dynamicColorSourceWallpaper": "Извлекать из системных обоев",
+  "themeColorSource": "Источник цветов",
+  "themeColorSourceSystemScheme": "Системные динамические цвета",
+  "themeColorSourceSystemSchemeDescription": "Использовать полную цветовую схему, предоставленную системой.",
+  "themeColorSourceSystemAccent": "Системный акцент",
+  "themeColorSourceSystemAccentDescription": "Использовать системный акцент как базовый цвет, а затем применить выбранный алгоритм палитры Luotopia.",
+  "themeColorSourceCustomSeed": "Свой цвет",
+  "themeColorSourceCustomSeedDescription": "Создать тему из выбранного цвета и алгоритма палитры.",
   "ecardPaymentTitle": "Код оплаты E-Card",
   "editorAllDayTitle": "задачи на весь день",
   "editorColorAmber": "янтарь",
@@ -1223,35 +1254,30 @@
     }
   },
   "whuCasLoginFailedGeneric": "Вход в учебную систему не удался. Войдите снова в CAS WHU.",
-  "courseHubToolsTitle": "Инструменты и сведения о курсах",
-  "courseHubToolsDescription": "Календарь, посещение, расписание, оценки и отзывы.",
-  "courseHubSearchCourse": "Поиск курсов",
-  "courseHubCalendar": "Календарь",
-  "courseHubCalendarSubtitle": "Семестры, каникулы и экзаменационные недели",
-  "courseHubAuditCourse": "Слушание",
-  "courseHubAuditCourseSubtitle": "Найти курсы для посещения · WIP",
-  "courseHubTimetableSubtitle": "Все курсы университета · WIP",
-  "courseHubScoresSubtitle": "Найдите курс, чтобы увидеть распределение",
-  "courseHubReviews": "Отзывы о курсе",
-  "courseHubReviewsSubtitle": "Найдите курс, чтобы увидеть отзывы",
-  "courseHubToolsSection": "Учебные инструменты",
-  "courseHubSearchHintGrades": "Найдите курс для истории оценок",
-  "courseHubSearchHintReviews": "Найдите курс для отзывов студентов",
-  "courseHubSearchHintNormal": "Поиск по названию, преподавателю или коду",
-  "courseHubSearchTitle": "Поиск курсов",
-  "courseHubEmptyTitle": "Найти любой курс",
-  "courseHubEmptyDescription": "Откройте карточку курса, чтобы увидеть оценки и отзывы.",
-  "courseHubNoResults": "Курсы не найдены",
-  "courseHubSearchError": "Ошибка поиска: {error}",
-  "@courseHubSearchError": {
+  "gradesReviewsToolsTitle": "Оценки и отзывы",
+  "gradesReviewsToolsDescription": "Найдите курс, чтобы посмотреть оценки и отзывы.",
+  "gradesReviewsSearchCourse": "Поиск курсов",
+  "gradesReviewsScoresSubtitle": "Найдите курс, чтобы увидеть распределение",
+  "gradesReviewsReviews": "Отзывы о курсе",
+  "gradesReviewsReviewsSubtitle": "Найдите курс, чтобы увидеть отзывы",
+  "gradesReviewsToolsSection": "Учебные инструменты",
+  "gradesReviewsSearchHintGrades": "Найдите курс для истории оценок",
+  "gradesReviewsSearchHintReviews": "Найдите курс для отзывов студентов",
+  "gradesReviewsSearchHintNormal": "Поиск по названию, преподавателю или коду",
+  "gradesReviewsSearchTitle": "Поиск курсов",
+  "gradesReviewsEmptyTitle": "Найти любой курс",
+  "gradesReviewsEmptyDescription": "Откройте карточку курса, чтобы увидеть оценки и отзывы.",
+  "gradesReviewsNoResults": "Курсы не найдены",
+  "gradesReviewsSearchError": "Ошибка поиска: {error}",
+  "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
         "type": "String"
       }
     }
   },
-  "courseHubResultSubtitle": "{uid} · {department}",
-  "@courseHubResultSubtitle": {
+  "gradesReviewsResultSubtitle": "{uid} · {department}",
+  "@gradesReviewsResultSubtitle": {
     "placeholders": {
       "uid": {
         "type": "String"
@@ -1273,24 +1299,24 @@
   "courseDetailReviewsTab": "Отзывы",
   "courseAuditTitle": "Свободное посещение",
   "courseAuditPlaceholder": "Функция «свободное посещение» в разработке…",
-  "courseHubSearchFailMessage": "Ошибка поиска: {message}",
-  "@courseHubSearchFailMessage": {
+  "gradesReviewsSearchFailMessage": "Ошибка поиска: {message}",
+  "@gradesReviewsSearchFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubGradeStatsFailMessage": "Не удалось загрузить распределение: {message}",
-  "@courseHubGradeStatsFailMessage": {
+  "gradesReviewsGradeStatsFailMessage": "Не удалось загрузить распределение: {message}",
+  "@gradesReviewsGradeStatsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubReviewsFailMessage": "Не удалось загрузить отзывы: {message}",
-  "@courseHubReviewsFailMessage": {
+  "gradesReviewsReviewsFailMessage": "Не удалось загрузить отзывы: {message}",
+  "@gradesReviewsReviewsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
@@ -1646,6 +1672,7 @@
   "weatherAqiPoor": "Плохо",
   "weatherBannerRainSoon": "Скоро дождь — не забудьте зонт!",
   "weatherBannerRainImminent": "Скоро дождь — не забудьте зонт!",
+  "weatherRainReminderTitle": "Напоминание о дожде",
   "weatherBannerRainInMinutes": "Дождь примерно через {minutes} мин — возьмите зонт.",
   "@weatherBannerRainInMinutes": {
     "placeholders": {
@@ -1774,6 +1801,14 @@
   "scoreClearCacheWarning": "Все локально кэшированные оценки будут удалены. Продолжить?",
   "scoreClearCacheSuccess": "Кэш оценок очищен",
   "scoreClearCacheHint": "Очистить все локально кэшированные оценки",
+  "studyStatusClearCacheTitle": "Очистить кэш учебного прогресса",
+  "studyStatusClearCacheWarning": "Кэш учебного прогресса и учебного плана будет удалён. Продолжить?",
+  "studyStatusClearCacheSuccess": "Кэш учебного прогресса очищен",
+  "studyStatusClearCacheHint": "Очистить кэш учебного прогресса и учебного плана",
+  "academicDataClearAllTitle": "Очистить все учебные данные",
+  "academicDataClearAllWarning": "Все кэшированные оценки, предварительные результаты, учебный прогресс и учебный план будут удалены. Продолжить?",
+  "academicDataClearAllSuccess": "Все учебные данные очищены",
+  "academicDataClearAllHint": "Одновременно очистить оценки и учебный прогресс",
   "settingsBuildTypeDebug": "Debug-сборка",
   "settingsBuildTypeProfile": "Profile-сборка",
   "settingsBuildTypeRelease": "Release-сборка",

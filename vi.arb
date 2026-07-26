@@ -1,5 +1,29 @@
 {
   "@@locale": "vi",
+  "schoolNetAutoVerify": "Tự động xác thực",
+  "schoolNetAutoVerifyDescription": "Dùng tài khoản và mật khẩu WHU để xác thực thiết bị này qua cổng mạng trường.",
+  "schoolNetProvider": "Nhà cung cấp mạng",
+  "schoolNetProviderCernet": "CERNET",
+  "schoolNetProviderTelecom": "China Telecom",
+  "schoolNetProviderUnicom": "China Unicom",
+  "schoolNetProviderMobile": "China Mobile",
+  "settingsDevThemeLabTitle": "Phòng thử nghiệm chủ đề",
+  "settingsDevThemeLabSubtitle": "Xem trước các thành phần cốt lõi trong chủ đề sáng và tối.",
+  "whuNativeLoginRememberMobile": "Ghi nhớ số điện thoại",
+  "whuLoginImplementationTitle": "Dùng biểu mẫu đăng nhập tích hợp",
+  "whuLoginImplementationNative": "Bật: dùng biểu mẫu tích hợp và chỉ hiển thị WebView khi cần CAPTCHA",
+  "whuLoginImplementationWebView": "Tắt: hoàn tất toàn bộ quá trình đăng nhập trong WebView của Đại học Vũ Hán",
+  "whuNativeLoginTitle": "Xác thực tập trung Đại học Vũ Hán",
+  "whuNativeLoginHeading": "Đăng nhập hệ thống xác thực tập trung của Đại học Vũ Hán",
+  "whuNativeLoginPrivacy": "Thông tin đăng nhập của bạn được gửi trực tiếp đến Đại học Vũ Hán và không bao giờ được tải lên máy chủ Luotopia.",
+  "whuNativeLoginPasswordTab": "Mật khẩu",
+  "whuNativeLoginOtpTab": "Mã SMS",
+  "whuNativeLoginUsernameLabel": "Mã số sinh viên / tên người dùng",
+  "whuNativeLoginMobileLabel": "Số điện thoại",
+  "whuNativeLoginPasswordLabel": "Mật khẩu",
+  "whuNativeLoginCodeLabel": "Mã xác minh",
+  "whuNativeLoginSendCode": "Gửi mã",
+  "whuNativeLoginSubmit": "Đăng nhập",
   "aiAssistant": "Trợ lý AI",
   "aiInputHint": "Mọi thắc mắc về lịch trình...",
   "aiTitle": "Trợ lý AI",
@@ -10,7 +34,9 @@
   "baseColorForStaticTheme": "Màu cơ bản cho chủ đề tĩnh",
   "biometricLockFailed": "Xác thực thất bại",
   "biometricLockReason": "Mở khóa để dùng Luotopia",
-  "campusAppCourseHub": "Học vụ",
+  "campusAppCalendar": "Lịch học",
+  "campusAppGlobalTimetable": "Thời khóa biểu toàn trường",
+  "campusAppGradesReviews": "Điểm và đánh giá",
   "campusAppEcard": "Thẻ E",
   "campusAppEcardPayment": "Mã thanh toán",
   "campusAppWaterControl": "Mã lấy nước ký túc xá",
@@ -111,10 +137,8 @@
   "commonRegistrationTime": "Thời gian đăng ký",
   "commonUsername": "Tên người dùng",
   "courseGridSettings": "Cài đặt lưới",
-  "courseHubLoginButton": "Đăng nhập",
-  "courseHubScores": "Điểm số",
-  "courseHubTimetable": "Thời khóa biểu",
-  "courseHubTitle": "Trung tâm học vụ",
+  "gradesReviewsScores": "Điểm số",
+  "gradesReviewsTitle": "Điểm và đánh giá",
   "courseImport": "Nhập khóa học",
   "courseImportSemester": "Học kỳ",
   "courseImportTitle": "Nhập thời khóa biểu",
@@ -133,6 +157,13 @@
   "dynamicColorSourceAccent": "Dùng màu nhấn hệ thống",
   "dynamicColorSourceGtk": "Dùng màu chủ đề GTK",
   "dynamicColorSourceWallpaper": "Trích từ hình nền hệ thống",
+  "themeColorSource": "Nguồn màu",
+  "themeColorSourceSystemScheme": "Màu động của hệ thống",
+  "themeColorSourceSystemSchemeDescription": "Sử dụng toàn bộ bảng màu do hệ thống cung cấp.",
+  "themeColorSourceSystemAccent": "Màu nhấn hệ thống",
+  "themeColorSourceSystemAccentDescription": "Dùng màu nhấn hệ thống làm màu gốc, sau đó áp dụng thuật toán bảng màu Luotopia đã chọn.",
+  "themeColorSourceCustomSeed": "Màu tùy chỉnh",
+  "themeColorSourceCustomSeedDescription": "Dùng màu và thuật toán bảng màu đã chọn để tạo chủ đề.",
   "ecardPaymentTitle": "Mã thanh toán E-Card",
   "editorAllDayTitle": "nhiệm vụ cả ngày",
   "editorColorAmber": "hổ phách",
@@ -1430,35 +1461,30 @@
     }
   },
   "whuCasLoginFailedGeneric": "Đăng nhập học vụ thất bại. Hãy đăng nhập lại CAS WHU.",
-  "courseHubToolsTitle": "Công cụ học vụ & thông tin học phần",
-  "courseHubToolsDescription": "Gộp lịch học vụ, nghe lớp, TKB toàn trường, điểm & đánh giá.",
-  "courseHubSearchCourse": "Tìm học phần",
-  "courseHubCalendar": "Lịch học vụ",
-  "courseHubCalendarSubtitle": "Học kỳ, nghỉ lễ & tuần thi",
-  "courseHubAuditCourse": "Nghe lớp",
-  "courseHubAuditCourseSubtitle": "Tìm lớp có thể nghe · đang xây",
-  "courseHubTimetableSubtitle": "Duyệt toàn bộ lớp mở · đang xây",
-  "courseHubScoresSubtitle": "Tìm học phần để xem phân bố",
-  "courseHubReviews": "Đánh giá học phần",
-  "courseHubReviewsSubtitle": "Tìm học phần để xem đánh giá",
-  "courseHubToolsSection": "Công cụ học vụ",
-  "courseHubSearchHintGrades": "Tìm học phần để xem phân bố điểm lịch sử",
-  "courseHubSearchHintReviews": "Tìm học phần để xem đánh giá của sinh viên",
-  "courseHubSearchHintNormal": "Tìm theo tên học phần, giảng viên hoặc mã",
-  "courseHubSearchTitle": "Tìm học phần",
-  "courseHubEmptyTitle": "Tìm học phần",
-  "courseHubEmptyDescription": "Vào chi tiết học phần để xem phân bố điểm và đánh giá.",
-  "courseHubNoResults": "Không tìm thấy học phần",
-  "courseHubSearchError": "Tìm kiếm thất bại: {error}",
-  "@courseHubSearchError": {
+  "gradesReviewsToolsTitle": "Điểm và đánh giá",
+  "gradesReviewsToolsDescription": "Tìm môn học để xem điểm và đánh giá.",
+  "gradesReviewsSearchCourse": "Tìm học phần",
+  "gradesReviewsScoresSubtitle": "Tìm học phần để xem phân bố",
+  "gradesReviewsReviews": "Đánh giá học phần",
+  "gradesReviewsReviewsSubtitle": "Tìm học phần để xem đánh giá",
+  "gradesReviewsToolsSection": "Công cụ học vụ",
+  "gradesReviewsSearchHintGrades": "Tìm học phần để xem phân bố điểm lịch sử",
+  "gradesReviewsSearchHintReviews": "Tìm học phần để xem đánh giá của sinh viên",
+  "gradesReviewsSearchHintNormal": "Tìm theo tên học phần, giảng viên hoặc mã",
+  "gradesReviewsSearchTitle": "Tìm học phần",
+  "gradesReviewsEmptyTitle": "Tìm học phần",
+  "gradesReviewsEmptyDescription": "Vào chi tiết học phần để xem phân bố điểm và đánh giá.",
+  "gradesReviewsNoResults": "Không tìm thấy học phần",
+  "gradesReviewsSearchError": "Tìm kiếm thất bại: {error}",
+  "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
         "type": "String"
       }
     }
   },
-  "courseHubResultSubtitle": "{uid} · {department}",
-  "@courseHubResultSubtitle": {
+  "gradesReviewsResultSubtitle": "{uid} · {department}",
+  "@gradesReviewsResultSubtitle": {
     "placeholders": {
       "uid": {
         "type": "String"
@@ -1480,24 +1506,24 @@
   "courseDetailReviewsTab": "Đánh giá",
   "courseAuditTitle": "Nghe lén lớp",
   "courseAuditPlaceholder": "Tính năng nghe lén lớp đang phát triển…",
-  "courseHubSearchFailMessage": "Tìm kiếm thất bại: {message}",
-  "@courseHubSearchFailMessage": {
+  "gradesReviewsSearchFailMessage": "Tìm kiếm thất bại: {message}",
+  "@gradesReviewsSearchFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubGradeStatsFailMessage": "Không tải được phân bố điểm: {message}",
-  "@courseHubGradeStatsFailMessage": {
+  "gradesReviewsGradeStatsFailMessage": "Không tải được phân bố điểm: {message}",
+  "@gradesReviewsGradeStatsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubReviewsFailMessage": "Không tải được đánh giá: {message}",
-  "@courseHubReviewsFailMessage": {
+  "gradesReviewsReviewsFailMessage": "Không tải được đánh giá: {message}",
+  "@gradesReviewsReviewsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
@@ -1854,6 +1880,7 @@
   "weatherAqiPoor": "Ô nhiễm vừa",
   "weatherBannerRainSoon": "Sắp mưa, nhớ mang ô!",
   "weatherBannerRainImminent": "Sắp mưa — nhớ mang ô!",
+  "weatherRainReminderTitle": "Nhắc mưa",
   "weatherBannerRainInMinutes": "Mưa khoảng {minutes} phút nữa — mang ô.",
   "@weatherBannerRainInMinutes": {
     "placeholders": {
@@ -1982,6 +2009,14 @@
   "scoreClearCacheWarning": "Toàn bộ điểm cache trên máy sẽ bị xóa. Tiếp tục?",
   "scoreClearCacheSuccess": "Đã xóa cache điểm",
   "scoreClearCacheHint": "Xóa toàn bộ điểm đã cache trên máy",
+  "studyStatusClearCacheTitle": "Xóa cache tình trạng học tập",
+  "studyStatusClearCacheWarning": "Tình trạng học tập và chương trình đào tạo đã cache sẽ bị xóa. Tiếp tục?",
+  "studyStatusClearCacheSuccess": "Đã xóa cache tình trạng học tập",
+  "studyStatusClearCacheHint": "Xóa tình trạng học tập và chương trình đào tạo đã cache",
+  "academicDataClearAllTitle": "Xóa toàn bộ dữ liệu học tập",
+  "academicDataClearAllWarning": "Toàn bộ điểm, bản xem trước điểm, tình trạng học tập và chương trình đào tạo đã cache sẽ bị xóa. Tiếp tục?",
+  "academicDataClearAllSuccess": "Đã xóa toàn bộ dữ liệu học tập",
+  "academicDataClearAllHint": "Xóa cùng lúc cache điểm và tình trạng học tập",
   "settingsBuildTypeDebug": "Bản debug",
   "settingsBuildTypeProfile": "Bản profile",
   "settingsBuildTypeRelease": "Bản release",

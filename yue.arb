@@ -1,5 +1,29 @@
 {
   "@@locale": "yue",
+  "schoolNetAutoVerify": "自動認證",
+  "schoolNetAutoVerifyDescription": "用你嘅武大帳號同密碼，經校園網門戶認證呢部裝置。",
+  "schoolNetProvider": "網絡營運商",
+  "schoolNetProviderCernet": "教育網",
+  "schoolNetProviderTelecom": "中國電信",
+  "schoolNetProviderUnicom": "中國聯通",
+  "schoolNetProviderMobile": "中國移動",
+  "settingsDevThemeLabTitle": "主題實驗室",
+  "settingsDevThemeLabSubtitle": "並排預覽核心元件喺淺色同深色主題下嘅效果。",
+  "whuNativeLoginRememberMobile": "記住手機號碼",
+  "whuLoginImplementationTitle": "使用原生登入",
+  "whuLoginImplementationNative": "已開：用原生表單，淨係喺需要驗證碼嗰陣先開 WebView",
+  "whuLoginImplementationWebView": "已關：全程喺武大登入 WebView 入面完成",
+  "whuNativeLoginTitle": "武大統一認證",
+  "whuNativeLoginHeading": "登入武大統一身份認證",
+  "whuNativeLoginPrivacy": "你嘅登入資料只會由呢部裝置直接傳送去武大，唔會上傳到珞家伺服器。",
+  "whuNativeLoginPasswordTab": "帳號密碼",
+  "whuNativeLoginOtpTab": "短訊動態碼",
+  "whuNativeLoginUsernameLabel": "學號 / 用戶名",
+  "whuNativeLoginMobileLabel": "手機號碼",
+  "whuNativeLoginPasswordLabel": "密碼",
+  "whuNativeLoginCodeLabel": "動態碼",
+  "whuNativeLoginSendCode": "取得動態碼",
+  "whuNativeLoginSubmit": "登入",
   "aiAssistant": "AI 助手",
   "aiInputHint": "關於日程的任何問題...",
   "aiTitle": "標題",
@@ -9,8 +33,10 @@
   "appTitle": "珞家",
   "baseColorForStaticTheme": "靜態主題的基礎色",
   "biometricLockFailed": "驗證失敗",
-  "biometricLockReason": "解鎖先至用到 Luotopia",
-  "campusAppCourseHub": "教務中心",
+  "biometricLockReason": "解鎖先至用到珞家",
+  "campusAppCalendar": "校曆",
+  "campusAppGlobalTimetable": "全校課表",
+  "campusAppGradesReviews": "給分同評價",
   "campusAppEcard": "珞珈E卡",
   "campusAppEcardPayment": "E卡付款碼",
   "campusAppWaterControl": "取水碼",
@@ -111,10 +137,8 @@
   "commonRegistrationTime": "註冊時間",
   "commonUsername": "用户名",
   "courseGridSettings": "科目方格模式設定",
-  "courseHubLoginButton": "登入",
-  "courseHubScores": "成績",
-  "courseHubTimetable": "時間表",
-  "courseHubTitle": "教務中心",
+  "gradesReviewsScores": "成績",
+  "gradesReviewsTitle": "給分同評價",
   "courseImport": "科目表匯入",
   "courseImportSemester": "學期",
   "courseImportTitle": "匯入時間表",
@@ -133,6 +157,13 @@
   "dynamicColorSourceAccent": "使用系統強調色",
   "dynamicColorSourceGtk": "使用 GTK 主題色",
   "dynamicColorSourceWallpaper": "根據系統桌布提取主色調",
+  "themeColorSource": "顏色來源",
+  "themeColorSourceSystemScheme": "系統動態配色",
+  "themeColorSourceSystemSchemeDescription": "完整使用系統提供嘅動態顏色方案。",
+  "themeColorSourceSystemAccent": "系統強調色",
+  "themeColorSourceSystemAccentDescription": "用系統強調色做種子，再套用所選嘅珞家調色盤演算法。",
+  "themeColorSourceCustomSeed": "自訂顏色",
+  "themeColorSourceCustomSeedDescription": "用所選顏色同調色盤演算法產生主題。",
   "ecardPaymentTitle": "E卡付款碼",
   "editorAllDayTitle": "全天任務",
   "editorColorAmber": "琥珀",
@@ -521,15 +552,15 @@
   "listTabTasks": "工作清單",
   "login": "去登入",
   "luotopiaAccountDetails": "賬户詳情",
-  "luotopiaAccountTitle": "Luotopia 賬户",
+  "luotopiaAccountTitle": "珞家賬户",
   "luotopiaAlreadyHaveAccount": "已經有賬户？",
   "luotopiaConfirmLogout": "確認登出",
   "luotopiaConfirmPassword": "確認密碼",
-  "luotopiaCreateAccount": "開 Luotopia 賬户",
+  "luotopiaCreateAccount": "開珞家賬户",
   "luotopiaEmailHint": "用嚟揾返密碼",
   "luotopiaEmailOptional": "電郵（可選）",
   "luotopiaLoggingIn": "登入緊…",
-  "luotopiaLoginTitle": "登入 Luotopia",
+  "luotopiaLoginTitle": "登入珞家",
   "luotopiaLogoutWarning": "登出之後要重新登入先用到論壇等功能。",
   "luotopiaNoAccountYet": "仲未有賬户？",
   "luotopiaNotLoggedIn": "未登入",
@@ -545,7 +576,7 @@
   "luotopiaPasswordRequireUppercase": "包含大寫字母",
   "luotopiaPasswordRequireSpecial": "包含特殊字元",
   "luotopiaRegistering": "註冊緊…",
-  "luotopiaRegisterTitle": "註冊 Luotopia",
+  "luotopiaRegisterTitle": "註冊珞家",
   "luotopiaUsername": "用户名",
   "luotopiaUsernameMinHint": "起碼 3 個字元",
   "luotopiaUsernameTooShort": "用户名起碼要 3 個字元",
@@ -1134,7 +1165,7 @@
       }
     }
   },
-  "settingsAboutDescription": "Luotopia 致力打造一個現代化、美觀、功能夠勁嘅教務同校園生活中心平台。多謝你用同支持！",
+  "settingsAboutDescription": "珞家致力打造一個現代化、美觀、功能夠勁嘅教務同校園生活中心平台。多謝你用同支持！",
   "settingsDevModeAlreadyOn": "開發者模式已經開咗：你已經係開發者。",
   "settingsDevModeActivated": "開發者模式已經開咗：而家可以用開發者設定喇！",
   "settingsDevModeTapCount": "即將開啓開發者模式：再撳 {count} 次開啓開發者模式",
@@ -1412,35 +1443,30 @@
     }
   },
   "whuCasLoginFailedGeneric": "教務系統登入失敗，請重新登入武大統一認證。",
-  "courseHubToolsTitle": "教務工具同科目資訊",
-  "courseHubToolsDescription": "整合校歷、旁聽、全校時間表、科目畀分同評價。",
-  "courseHubSearchCourse": "搜尋科目",
-  "courseHubCalendar": "校歷",
-  "courseHubCalendarSubtitle": "學期、假期同考試周",
-  "courseHubAuditCourse": "旁聽",
-  "courseHubAuditCourseSubtitle": "揾可以旁聽嘅科目 · 建設中",
-  "courseHubTimetableSubtitle": "睇全校開課 · 建設中",
-  "courseHubScoresSubtitle": "搜尋科目之後睇分佈",
-  "courseHubReviews": "科目評價",
-  "courseHubReviewsSubtitle": "搜尋科目之後睇評價",
-  "courseHubToolsSection": "教務工具",
-  "courseHubSearchHintGrades": "搜尋科目之後睇紀錄畀分分佈",
-  "courseHubSearchHintReviews": "搜尋科目之後睇同學評價",
-  "courseHubSearchHintNormal": "搜尋科目名稱、講師姓名或者科目代碼",
-  "courseHubSearchTitle": "科目搜尋",
-  "courseHubEmptyTitle": "搜尋任何科目",
-  "courseHubEmptyDescription": "入到科目詳情就可以睇畀分分佈同科目評價。",
-  "courseHubNoResults": "揾唔到相關科目",
-  "courseHubSearchError": "搜尋失敗：{error}",
-  "@courseHubSearchError": {
+  "gradesReviewsToolsTitle": "課程給分同評價",
+  "gradesReviewsToolsDescription": "搜尋課程，查看歷史給分分佈同同學評價。",
+  "gradesReviewsSearchCourse": "搜尋科目",
+  "gradesReviewsScoresSubtitle": "搜尋科目之後睇分佈",
+  "gradesReviewsReviews": "科目評價",
+  "gradesReviewsReviewsSubtitle": "搜尋科目之後睇評價",
+  "gradesReviewsToolsSection": "教務工具",
+  "gradesReviewsSearchHintGrades": "搜尋科目之後睇紀錄畀分分佈",
+  "gradesReviewsSearchHintReviews": "搜尋科目之後睇同學評價",
+  "gradesReviewsSearchHintNormal": "搜尋科目名稱、講師姓名或者科目代碼",
+  "gradesReviewsSearchTitle": "科目搜尋",
+  "gradesReviewsEmptyTitle": "搜尋任何科目",
+  "gradesReviewsEmptyDescription": "入到科目詳情就可以睇畀分分佈同科目評價。",
+  "gradesReviewsNoResults": "揾唔到相關科目",
+  "gradesReviewsSearchError": "搜尋失敗：{error}",
+  "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
         "type": "String"
       }
     }
   },
-  "courseHubResultSubtitle": "{uid} · {department}",
-  "@courseHubResultSubtitle": {
+  "gradesReviewsResultSubtitle": "{uid} · {department}",
+  "@gradesReviewsResultSubtitle": {
     "placeholders": {
       "uid": {
         "type": "String"
@@ -1462,24 +1488,24 @@
   "courseDetailReviewsTab": "科目評價",
   "courseAuditTitle": "旁聽",
   "courseAuditPlaceholder": "旁聽功能仲開發緊…",
-  "courseHubSearchFailMessage": "搜尋失敗：{message}",
-  "@courseHubSearchFailMessage": {
+  "gradesReviewsSearchFailMessage": "搜尋失敗：{message}",
+  "@gradesReviewsSearchFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubGradeStatsFailMessage": "攞畀分分佈失敗：{message}",
-  "@courseHubGradeStatsFailMessage": {
+  "gradesReviewsGradeStatsFailMessage": "攞畀分分佈失敗：{message}",
+  "@gradesReviewsGradeStatsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubReviewsFailMessage": "攞評價失敗：{message}",
-  "@courseHubReviewsFailMessage": {
+  "gradesReviewsReviewsFailMessage": "攞評價失敗：{message}",
+  "@gradesReviewsReviewsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
@@ -1794,7 +1820,7 @@
   "aiFormatOpenaiResponse": "OpenAI Response",
   "aiFormatGemini": "Gemini",
   "aiFormatAnthropic": "Anthropic",
-  "aiSystemPromptDefault": "你係 Luotopia 嘅 AI 助手。你只會根據而家用户訊息同提供嘅事項摘要回答，唔引用舊傾偈。優先幫手開事項、整理安排、答日程問題。",
+  "aiSystemPromptDefault": "你係珞家嘅 AI 助手。你只會根據而家用户訊息同提供嘅事項摘要回答，唔引用舊傾偈。優先幫手開事項、整理安排、答日程問題。",
   "whuAccountFallbackName": "武大賬户",
   "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
@@ -1836,6 +1862,7 @@
   "weatherAqiPoor": "中度污染",
   "weatherBannerRainSoon": "就嚟落雨喇，出門記得帶遮！",
   "weatherBannerRainImminent": "好快落雨喇，記得帶遮！",
+  "weatherRainReminderTitle": "落雨提醒",
   "weatherBannerRainInMinutes": "大概 {minutes} 分鐘後落雨，記得帶遮。",
   "@weatherBannerRainInMinutes": {
     "placeholders": {
@@ -1964,6 +1991,14 @@
   "scoreClearCacheWarning": "所有本機快取嘅成績資料都會清走，確定繼續？",
   "scoreClearCacheSuccess": "成績快取已經清走",
   "scoreClearCacheHint": "清走本機快取嘅成績資料",
+  "studyStatusClearCacheTitle": "清走學業情況快取",
+  "studyStatusClearCacheWarning": "本機快取嘅學業情況同培養方案資料都會清走，確定繼續？",
+  "studyStatusClearCacheSuccess": "學業情況快取已經清走",
+  "studyStatusClearCacheHint": "清走本機快取嘅學業情況同培養方案資料",
+  "academicDataClearAllTitle": "清走所有學業資料",
+  "academicDataClearAllWarning": "所有本機快取嘅成績、成績預覽、學業情況同培養方案資料都會清走，確定繼續？",
+  "academicDataClearAllSuccess": "所有學業資料已經清走",
+  "academicDataClearAllHint": "一齊清走成績同學業情況快取",
   "settingsBuildTypeDebug": "調試版",
   "settingsBuildTypeProfile": "性能分析版",
   "settingsBuildTypeRelease": "發佈版",
@@ -3642,8 +3677,8 @@
   "luotopiaLoginIdentifierHint": "使用任何同呢個帳戶綁定嘅識別資料",
   "luotopiaLoginIdentifierRequired": "輸入電郵、使用者名稱或者 WHU 學生編號",
   "luotopiaLoginEmailHint": "帳戶綁定嘅電郵地址",
-  "luotopiaLoginUsernameHint": "你嘅 Luotopia 使用者名稱",
-  "luotopiaLoginUsernameRequired": "輸入 Luotopia 使用者名稱",
+  "luotopiaLoginUsernameHint": "你嘅珞家使用者名稱",
+  "luotopiaLoginUsernameRequired": "輸入珞家使用者名稱",
   "luotopiaLoginUsernameInvalid": "輸入 3-60 位英文字母、數字、點、連字號或者底線",
   "luotopiaLoginWhuStudentId": "WHU 學生編號",
   "luotopiaLoginWhuStudentIdHint": "已綁定到呢個帳戶嘅 WHU 學生編號",
@@ -3656,7 +3691,7 @@
   "authErrorUserDisabled": "呢個帳戶已被停用。",
   "authErrorPasswordPolicy": "密碼唔符合而家嘅安全要求。",
   "authErrorWhuRequired": "註冊前請先綁定 WHU 帳戶。",
-  "authErrorWhuAlreadyBound": "呢個 WHU 帳戶已經綁定去另一個 Luotopia 帳戶。",
+  "authErrorWhuAlreadyBound": "呢個 WHU 帳戶已經綁定去另一個珞家帳戶。",
   "authErrorVerificationFailed": "驗證失敗或者已過期，請再試一次。",
   "authErrorRateLimited": "請求太頻密，請遲啲再試。",
   "authErrorRequestFailed": "請求失敗，請再試一次。",
@@ -3700,13 +3735,13 @@
   "apiErrorDuplicateMutation": "偵測到重複請求。",
   "apiErrorRequestFailed": "請求失敗，請再試一次。",
   "luotopiaRegisterStepWhuTitle": "確認 WHU 帳戶",
-  "luotopiaRegisterStepWhuSubtitle": "呢個 WHU 學生身份會同你嘅 Luotopia 帳戶綁定。",
+  "luotopiaRegisterStepWhuSubtitle": "呢個 WHU 學生身份會同你嘅珞家帳戶綁定。",
   "luotopiaRegisterWhuNameLabel": "姓名",
   "luotopiaRegisterWhuStudentIdLabel": "學生編號",
   "luotopiaRegisterWhuMismatchHint": "如果唔係你，請開啟 WHU 帳戶設定登出，再綁定其他帳戶。",
   "luotopiaRegisterOpenWhuAccount": "開啟 WHU 帳戶",
   "luotopiaRegisterStepProfileTitle": "個人資料同電郵",
-  "luotopiaRegisterStepProfileSubtitle": "揀一個唯一嘅 Luotopia 使用者名稱同帳戶電郵。",
+  "luotopiaRegisterStepProfileSubtitle": "揀一個唯一嘅珞家使用者名稱同帳戶電郵。",
   "luotopiaRegisterEmailVerifiedHint": "呢個電郵已喺 WHU 帳戶驗證並自動填入，你仍然可以修改。",
   "luotopiaRegisterEmailUnverifiedHint": "如果呢個係你嘅 WHU 電郵，請先喺 WHU 帳戶頁面驗證，方便我哋自動填入。",
   "luotopiaRegisterGoVerifyEmail": "喺 WHU 帳戶驗證",

@@ -7,10 +7,15 @@
   "alwaysHide": "Always hide",
   "alwaysShow": "Always show",
   "appTitle": "Luotopia",
+  "@appTitle": {
+    "description": "Product brand name. Use 珞家 in Chinese, Cantonese, Japanese, and Korean locales; use Luotopia in all other locales. Apply the same locale-specific brand spelling wherever the product is named."
+  },
   "baseColorForStaticTheme": "Base color for static theme",
   "biometricLockFailed": "Authentication failed",
   "biometricLockReason": "Unlock to access Luotopia",
-  "campusAppCourseHub": "Course Hub",
+  "campusAppCalendar": "Academic Calendar",
+  "campusAppGlobalTimetable": "Global Timetable",
+  "campusAppGradesReviews": "Grades & Reviews",
   "campusAppEcard": "Luojia E-Card",
   "campusAppEcardPayment": "E-Card Payment Code",
   "campusAppWaterControl": "Water Access Code",
@@ -44,6 +49,13 @@
   "schoolNetOperationFailed": "The operation was not confirmed. Refresh the status before trying again.",
   "schoolNetLoadFailed": "Unable to load campus network information. Check your connection and try again.",
   "schoolNetLoadFailedTitle": "Campus network unavailable",
+  "schoolNetAutoVerify": "Auto verify",
+  "schoolNetAutoVerifyDescription": "Use your WHU account and password to authenticate this device with the campus network portal.",
+  "schoolNetProvider": "Network provider",
+  "schoolNetProviderCernet": "CERNET",
+  "schoolNetProviderTelecom": "China Telecom",
+  "schoolNetProviderUnicom": "China Unicom",
+  "schoolNetProviderMobile": "China Mobile",
   "schoolNetDevices": "Connected devices",
   "schoolNetNoDevices": "No devices are currently online.",
   "schoolNetDeviceOnlineSince": "Online since",
@@ -190,10 +202,8 @@
   "commonRegistrationTime": "Registration time",
   "commonUsername": "Username",
   "courseGridSettings": "Course Grid Settings",
-  "courseHubLoginButton": "Log in",
-  "courseHubScores": "Grades",
-  "courseHubTimetable": "Timetable",
-  "courseHubTitle": "Course Hub",
+  "gradesReviewsScores": "Grades",
+  "gradesReviewsTitle": "Grades & Reviews",
   "courseImport": "Course Import",
   "courseImportSemester": "Semester",
   "courseImportTitle": "Course Import",
@@ -263,6 +273,13 @@
   "dynamicColorSourceAccent": "Use system accent color",
   "dynamicColorSourceGtk": "Use GTK theme color",
   "dynamicColorSourceWallpaper": "Extract from system wallpaper",
+  "themeColorSource": "Color source",
+  "themeColorSourceSystemScheme": "System dynamic colors",
+  "themeColorSourceSystemSchemeDescription": "Use the complete color scheme provided by the system.",
+  "themeColorSourceSystemAccent": "System accent",
+  "themeColorSourceSystemAccentDescription": "Use the system accent as a seed, then apply the selected Luotopia palette algorithm.",
+  "themeColorSourceCustomSeed": "Custom color",
+  "themeColorSourceCustomSeedDescription": "Use the selected color and palette algorithm to generate the theme.",
   "ecardPaymentTitle": "E-Card Payment Code",
   "editorAllDayTitle": "All-day item",
   "editorColorAmber": "Amber",
@@ -722,6 +739,8 @@
   "themeModeLabel": "Theme mode",
   "themeSettings": "Interface & interaction",
   "themeSystem": "System",
+  "settingsDevThemeLabTitle": "Theme Lab",
+  "settingsDevThemeLabSubtitle": "Preview core components in light and dark themes.",
   "timetable": "Timetable",
   "timetableName": "Timetable name",
   "timetables": "Timetables",
@@ -1363,35 +1382,30 @@
     }
   },
   "whuCasLoginFailedGeneric": "Academic login failed, please re-login to WHU CAS.",
-  "courseHubToolsTitle": "Academic Tools & Course Info",
-  "courseHubToolsDescription": "Integrates academic calendar, audit courses, global timetable, scores & reviews.",
-  "courseHubSearchCourse": "Search courses",
-  "courseHubCalendar": "Calendar",
-  "courseHubCalendarSubtitle": "Semesters, holidays & exam weeks",
-  "courseHubAuditCourse": "Audit Courses",
-  "courseHubAuditCourseSubtitle": "Discover courses to sit in · WIP",
-  "courseHubTimetableSubtitle": "Browse all courses offered · WIP",
-  "courseHubScoresSubtitle": "Search a course to view grade distribution",
-  "courseHubReviews": "Course Reviews",
-  "courseHubReviewsSubtitle": "Search a course to view reviews",
-  "courseHubToolsSection": "Academic Tools",
-  "courseHubSearchHintGrades": "Search a course to view historical grade distribution",
-  "courseHubSearchHintReviews": "Search a course to view student reviews",
-  "courseHubSearchHintNormal": "Search by course name, instructor name, or course code",
-  "courseHubSearchTitle": "Course Search",
-  "courseHubEmptyTitle": "Search any course",
-  "courseHubEmptyDescription": "Enter a course detail page to view grade distribution and reviews.",
-  "courseHubNoResults": "No courses found",
-  "courseHubSearchError": "Search failed: {error}",
-  "@courseHubSearchError": {
+  "gradesReviewsToolsTitle": "Course grades & reviews",
+  "gradesReviewsToolsDescription": "Search courses for grade distributions and student reviews.",
+  "gradesReviewsSearchCourse": "Search courses",
+  "gradesReviewsScoresSubtitle": "Search a course to view grade distribution",
+  "gradesReviewsReviews": "Course Reviews",
+  "gradesReviewsReviewsSubtitle": "Search a course to view reviews",
+  "gradesReviewsToolsSection": "Academic Tools",
+  "gradesReviewsSearchHintGrades": "Search a course to view historical grade distribution",
+  "gradesReviewsSearchHintReviews": "Search a course to view student reviews",
+  "gradesReviewsSearchHintNormal": "Search by course name, instructor name, or course code",
+  "gradesReviewsSearchTitle": "Course Search",
+  "gradesReviewsEmptyTitle": "Search any course",
+  "gradesReviewsEmptyDescription": "Enter a course detail page to view grade distribution and reviews.",
+  "gradesReviewsNoResults": "No courses found",
+  "gradesReviewsSearchError": "Search failed: {error}",
+  "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
         "type": "String"
       }
     }
   },
-  "courseHubResultSubtitle": "{uid} · {department}",
-  "@courseHubResultSubtitle": {
+  "gradesReviewsResultSubtitle": "{uid} · {department}",
+  "@gradesReviewsResultSubtitle": {
     "placeholders": {
       "uid": {
         "type": "String"
@@ -1413,24 +1427,24 @@
   "courseDetailReviewsTab": "Reviews",
   "courseAuditTitle": "Audit Courses",
   "courseAuditPlaceholder": "Audit courses feature is under development...",
-  "courseHubSearchFailMessage": "Search failed: {message}",
-  "@courseHubSearchFailMessage": {
+  "gradesReviewsSearchFailMessage": "Search failed: {message}",
+  "@gradesReviewsSearchFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubGradeStatsFailMessage": "Failed to load grade distribution: {message}",
-  "@courseHubGradeStatsFailMessage": {
+  "gradesReviewsGradeStatsFailMessage": "Failed to load grade distribution: {message}",
+  "@gradesReviewsGradeStatsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
       }
     }
   },
-  "courseHubReviewsFailMessage": "Failed to load reviews: {message}",
-  "@courseHubReviewsFailMessage": {
+  "gradesReviewsReviewsFailMessage": "Failed to load reviews: {message}",
+  "@gradesReviewsReviewsFailMessage": {
     "placeholders": {
       "message": {
         "type": "String"
@@ -1790,6 +1804,9 @@
     }
   },
   "themeColorLuotopiaBlue": "Luotopia Blue",
+  "@themeColorLuotopiaBlue": {
+    "description": "WHU's traditional Luojia Blue color name. 珞珈 is the correct proper noun here and must not be changed to the product brand 珞家."
+  },
   "themeColorMaterialRed": "Material Red",
   "themeColorMaterialPink": "Material Pink",
   "themeColorMaterialPurple": "Material Purple",
@@ -1847,6 +1864,7 @@
   "weatherAqiPoor": "Poor",
   "weatherBannerRainSoon": "Rain expected soon, don't forget your umbrella!",
   "weatherBannerRainImminent": "Rain starting soon — grab an umbrella!",
+  "weatherRainReminderTitle": "Rain reminder",
   "weatherBannerRainInMinutes": "Rain in about {minutes} min — bring an umbrella.",
   "@weatherBannerRainInMinutes": {
     "placeholders": {
@@ -1978,6 +1996,14 @@
   "scoreClearCacheWarning": "All locally cached score data will be cleared. Continue?",
   "scoreClearCacheSuccess": "Score cache cleared",
   "scoreClearCacheHint": "Clear all locally cached score data",
+  "studyStatusClearCacheTitle": "Clear cached study status",
+  "studyStatusClearCacheWarning": "The locally cached study status and training plan will be cleared. Continue?",
+  "studyStatusClearCacheSuccess": "Study status cache cleared",
+  "studyStatusClearCacheHint": "Clear the cached study status and training plan",
+  "academicDataClearAllTitle": "Clear all academic data",
+  "academicDataClearAllWarning": "All locally cached scores, score previews, study status, and training plan data will be cleared. Continue?",
+  "academicDataClearAllSuccess": "All academic data cleared",
+  "academicDataClearAllHint": "Clear cached scores and study status together",
   "settingsBuildTypeDebug": "Debug Build",
   "settingsBuildTypeProfile": "Profile Build",
   "settingsBuildTypeRelease": "Release Build",
@@ -2667,6 +2693,7 @@
   "authNoPasskeys": "No Passkeys yet",
   "authForgotPassword": "Forgot password?",
   "authRememberCredentials": "Remember account and password",
+  "whuNativeLoginRememberMobile": "Remember mobile number",
   "authResetPassword": "Reset password",
   "authSendResetLink": "Send reset link",
   "authResetRequested": "If this email is registered, a reset link has been sent.",
@@ -3716,6 +3743,20 @@
   "whuLoginMethodDatarepoSubtitle": "Smart Luojia data portal (FineReport). Richer profile fields; may break if the school redesigns the report.",
   "whuLoginMethodNotRecommended": "Not recommended",
   "whuLoginMethodApiError": "Service unavailable",
+  "whuLoginImplementationTitle": "Native login",
+  "whuLoginImplementationNative": "On: use the native form and show WebView only for a CAPTCHA",
+  "whuLoginImplementationWebView": "Off: complete the entire login in the WHU WebView",
+  "whuNativeLoginTitle": "WHU Login",
+  "whuNativeLoginHeading": "Sign in to WHU CAS",
+  "whuNativeLoginPrivacy": "Your credentials are sent directly to WHU and are never uploaded to Luotopia servers.",
+  "whuNativeLoginPasswordTab": "Password",
+  "whuNativeLoginOtpTab": "SMS code",
+  "whuNativeLoginUsernameLabel": "Student ID / username",
+  "whuNativeLoginMobileLabel": "Mobile number",
+  "whuNativeLoginPasswordLabel": "Password",
+  "whuNativeLoginCodeLabel": "Verification code",
+  "whuNativeLoginSendCode": "Send code",
+  "whuNativeLoginSubmit": "Sign in",
   "forumModerationReports": "Reports",
   "forumModerationAppeals": "Appeals",
   "settingsBuildInfoArchitecture": "Architecture",
