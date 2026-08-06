@@ -8,7 +8,7 @@
   "alwaysShow": "Always show",
   "appTitle": "Luotopia",
   "@appTitle": {
-    "description": "Product brand name. Use 珞家 in Chinese, Cantonese, Japanese, and Korean locales; use Luotopia in all other locales. Apply the same locale-specific brand spelling wherever the product is named."
+    "description": "Product brand name. Use 珞家 in Chinese, Cantonese, and Japanese locales; use 뤄자 in Korean; use Luotopia in all other locales. Apply the same locale-specific brand spelling wherever the product is named."
   },
   "baseColorForStaticTheme": "Base color for static theme",
   "biometricLockFailed": "Authentication failed",
@@ -240,6 +240,7 @@
   "detailDelete": "Delete item",
   "detailDeleteConfirmTitle": "Delete this item?",
   "detailDeleteConfirmMessage": "This item will be removed permanently.",
+  "detailDeleteSeriesConfirmMessage": "This deletes the entire repeating item, including all future occurrences. This cannot be undone.",
   "listDeleteSelectedConfirmTitle": "Delete selected items?",
   "listDeleteSelectedConfirmMessage": "{count} items will be removed permanently.",
   "@listDeleteSelectedConfirmMessage": {
@@ -623,7 +624,7 @@
   "licenseProjectHomepage": "Project Homepage",
   "commonOk": "OK",
   "settingsAboutVersionTitle": "Version",
-  "settingsAccountLocalTitle": "Local Account",
+  "settingsAccountLocalTitle": "Luotopia Account",
   "settingsAccountWhuLoggedIn": "Authenticated",
   "settingsAccountWhuNotLoggedIn": "Not logged in",
   "settingsAccountWhuTitle": "WHU Account",
@@ -812,6 +813,20 @@
   "whuAccountSectionSession": "Session",
   "whuAccountRecentLogin": "Recent Login",
   "whuAccountRecentVerification": "Recent Verification",
+  "whuCookieExportTitle": "Export cookies",
+  "whuCookieExportSubtitle": "Developer tool: export the current cookie jar by domain",
+  "whuCookieExportWarningTitle": "Export sensitive credentials?",
+  "whuCookieExportWarning": "Cookies can let someone access your WHU services without your password. Only export them for your own debugging, and do not upload or share the exported content.",
+  "whuCookieExportEmpty": "The current cookie jar is empty.",
+  "whuCookieExportCopied": "Cookies copied to the clipboard.",
+  "whuCookieExportSaved": "Cookie export saved.",
+  "whuCookieExportFailed": "Could not export cookies.",
+  "settingsDevAuthDiagnostics": "Authentication and CAS diagnostics",
+  "settingsDevAuthDiagnosticsSubtitle": "Trace authentication, cookies, CAS redirects, and service authorization",
+  "settingsDevCampusDiagnostics": "Campus service diagnostics",
+  "settingsDevCampusDiagnosticsSubtitle": "Trace mailbox and message sessions, requests, and parsers",
+  "settingsDevLifecycleDiagnostics": "App lifecycle diagnostics",
+  "settingsDevLifecycleDiagnosticsSubtitle": "Trace hot update, location refresh, and lifecycle control flow",
   "whuAccountDetail": "WHU Account Detail",
   "whuAccountTitle": "WHU Account",
   "whuCalendarListView": "List",
@@ -1153,6 +1168,25 @@
   "scorePageStandardWes": "WES Standard",
   "scorePageStandard40": "Standard 4.0 Algorithm",
   "scorePageStandard100": "Percentage Average",
+  "scorePageFilterTitle": "Filter scores",
+  "scorePageFilterCourseType": "Course type",
+  "scorePageFilterStatus": "Score status",
+  "scorePageFilterAll": "All",
+  "scorePageFilterFailed": "Failed only",
+  "scorePageFilterRetaken": "Retaken only",
+  "scorePageTrendTitle": "Score trends",
+  "scorePageTrendGpa": "Term GPA trend",
+  "scorePageSemesterLabel": "{year} - Term {semester}",
+  "@scorePageSemesterLabel": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
   "scorePageBiometricAuthFailed": "Biometric authentication failed",
   "scorePageCourseInfo": "{type} · {credit} credits · {instructor}",
   "@scorePageCourseInfo": {
@@ -1308,6 +1342,44 @@
   "libraryClickForDetails": "Tap to view floor and seat details",
   "globalTimetableTitle": "Global Timetable",
   "globalTimetablePlaceholder": "Global timetable feature is under development...",
+  "globalTimetableCourseMatching": "Course matching",
+  "globalTimetableContribute": "Contribute timetable",
+  "globalTimetableLocalImport": "Import to this device",
+  "globalTimetableLocalImportMessage": "Download and save {year}-{nextYear}, term {term}, directly from the WHU education system on this device. The data and your education session will not be uploaded to Luotopia. Local data will be used before cloud data for search and filtering.",
+  "@globalTimetableLocalImportMessage": {"placeholders": {"year": {"type": "int"}, "nextYear": {"type": "int"}, "term": {"type": "int"}}},
+  "globalTimetableLocalImportStart": "Download and save",
+  "globalTimetableLocalImportSuccess": "Saved {count} schedule entries on this device.",
+  "@globalTimetableLocalImportSuccess": {"placeholders": {"count": {"type": "int"}}},
+  "globalTimetableLocalImportFailed": "Could not import the university-wide timetable to this device.",
+  "globalTimetableLocalUnsupported": "Local timetable import is not available on this platform.",
+  "globalTimetableSourceLocal": "Local data",
+  "globalTimetableSourceCloud": "Cloud data",
+  "globalTimetableSourceCloudUnavailable": "No cloud data for this period",
+  "globalTimetableContributionTitle": "Contribute the university-wide timetable",
+  "globalTimetableContributionMessage": "Authorize Luotopia with a one-time WHU CAS ticket. The server worker will import {year}-{nextYear}, term {term}, directly from the WHU education system in the background. Your WHU identity must match the one bound to your Luotopia account.",
+  "@globalTimetableContributionMessage": {"placeholders": {"year": {"type": "int"}, "nextYear": {"type": "int"}, "term": {"type": "int"}}},
+  "globalTimetableContributionStart": "Authorize and start",
+  "globalTimetableContributionLoginLuotopia": "Log in to Luotopia before contributing.",
+  "globalTimetableContributionLoginWhu": "Log in to WHU CAS before contributing.",
+  "globalTimetableContributionUnsupported": "Timetable contribution is not available on this platform.",
+  "globalTimetableResults": "{count} results",
+  "@globalTimetableResults": {"placeholders": {"count": {"type": "int"}}},
+  "globalTimetableCachedData": "Cached data",
+  "globalTimetableTerm": "Term {term}",
+  "@globalTimetableTerm": {"placeholders": {"term": {"type": "int"}}},
+  "globalTimetableImportStatus": "Import: {phase}",
+  "@globalTimetableImportStatus": {"placeholders": {"phase": {"type": "String"}}},
+  "globalTimetablePhaseAuthorizing": "Authorizing",
+  "globalTimetablePhaseQueued": "Queued",
+  "globalTimetablePhaseFetching": "Fetching from WHU",
+  "globalTimetablePhaseParsing": "Parsing courses",
+  "globalTimetablePhasePublishing": "Publishing timetable",
+  "globalTimetablePhaseRewarding": "Granting contribution reward",
+  "globalTimetablePhaseRetrying": "Waiting to retry",
+  "globalTimetablePhaseCompleted": "Completed",
+  "globalTimetablePhaseFailed": "Failed",
+  "globalTimetableImportCounts": "Fetched {fetched}; stored {stored}",
+  "@globalTimetableImportCounts": {"placeholders": {"fetched": {"type": "int"}, "stored": {"type": "int"}}},
   "settingsAiConnectionSuccess": "AI connection test successful.",
   "settingsAiConnectionFailed": "Connection failed: {error}",
   "@settingsAiConnectionFailed": {
@@ -1774,6 +1846,26 @@
   "itemDetailScoreFinal": "Final",
   "itemDetailSectionDistribution": "Score Distribution",
   "itemDetailSectionReviews": "Course Reviews",
+  "itemDetailCourseInsightsTitle": "Real course grades & reviews",
+  "itemDetailCourseInsightsDescription": "View Luotopia statistics, Ham grade data, and student reviews. Timetable courses are matched by course name.",
+  "itemDetailCourseInsightsMatching": "Matching this timetable course...",
+  "itemDetailCourseInsightsOpen": "View more grades & reviews",
+  "itemDetailCourseInsightsSearch": "Choose matching course",
+  "itemDetailCourseInsightsNoMatch": "No unique course match was found. Search and choose the correct course.",
+  "itemDetailCourseInsightsAmbiguous": "Multiple Luotopia courses have this exact name. Choose the correct course to avoid using the wrong data.",
+  "itemDetailCourseInsightsPickTeacher": "Open the full grades page to choose a teacher and view detailed score data.",
+  "itemDetailCourseInsightsCourseLabel": "Course",
+  "itemDetailCourseInsightsTeacherLabel": "Teacher",
+  "itemDetailCourseInsightsSourceLabel": "Source",
+  "itemDetailCourseInsightsSamplesLabel": "Samples",
+  "itemDetailCourseInsightsOpenReviews": "View more reviews",
+  "itemDetailCourseInsightsNoReviews": "No public reviews yet.",
+  "courseGradeStatsTeacherHint": "Choose a teacher to view the corresponding grade data.",
+  "courseGradeStatsTeacherInputHint": "Search teachers, or leave empty to view all teachers",
+  "courseGradeStatsTeacherClear": "Clear teacher",
+  "courseGradeStatsTeacherSearch": "Search teacher",
+  "courseGradeStatsAllTeachersPrepared": "All teacher data is ready. Choose a teacher to view its grade data.",
+
   "itemDetailMockReview1": "The teacher explains clearly, the courseware is well-made, and the grading is reasonable. Every class has in-class exercises that help greatly with understanding concepts.",
   "itemDetailMockReview2": "The course content is substantial, but the final exam is quite challenging. The usual workload is moderate; I recommend starting review early.",
   "itemDetailMockReview3": "Highly recommended! This course gave me a clearer direction for my major, and the lab sessions are well-designed.",
@@ -2696,7 +2788,20 @@
   "whuNativeLoginRememberMobile": "Remember mobile number",
   "authResetPassword": "Reset password",
   "authSendResetLink": "Send reset link",
-  "authResetRequested": "If this email is registered, a reset link has been sent.",
+  "authResetRequested": "If this email is registered, the password reset email should arrive within a few minutes. If you do not receive it, check your spam folder and the spelling of the email address.",
+  "authLoginEmailUnverified": "This email address has not been verified. Verify it before signing in.",
+  "authLoginAccountDisabled": "This account has been disabled. Contact an administrator for assistance.",
+  "authResendVerification": "Resend verification",
+  "authVerificationEmailPromptTitle": "Enter your account email",
+  "authVerificationEmailSent": "If the account exists and still needs verification, a verification email has been sent.",
+  "authVerificationEmailSendFailed": "Unable to send verification email: {error}",
+  "@authVerificationEmailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "authMfaTitle": "Two-factor authentication",
   "authMfaEmailSent": "A verification code was sent to {email}",
   "@authMfaEmailSent": {
@@ -2871,7 +2976,7 @@
       }
     }
   },
-  "authWhuBindingCurrent": "Link current local account ({studentId})",
+  "authWhuBindingCurrent": "Link current Luotopia account ({studentId})",
   "@authWhuBindingCurrent": {
     "placeholders": {
       "studentId": {
@@ -3006,6 +3111,18 @@
       }
     }
   },
+  "courseGradeStatsSourceHam": "Source: Ham",
+  "courseGradeStatsSourceLuotopia": "Source: Luotopia",
+  "courseGradeStatsSourceHint": "Choose a data source",
+  "courseGradeStatsSourceLuotopiaShort": "Luotopia",
+  "courseGradeStatsSourceHamShort": "Ham",
+  "courseGradeStatsRange": "{from} - {to}",
+  "@courseGradeStatsRange": {
+    "placeholders": {
+      "from": {"type": "int"},
+      "to": {"type": "int"}
+    }
+  },
   "courseGradeStatsLoadFailed": "Failed to load grade distribution: {error}",
   "@courseGradeStatsLoadFailed": {
     "placeholders": {
@@ -3025,10 +3142,13 @@
       }
     }
   },
+  "courseGradeStatsMedian": "Median score",
   "courseGradeStatsTotalAverage": "Average total score",
   "courseGradeStatsUsualAverage": "Average usual score",
   "courseGradeStatsExamAverage": "Average exam score",
   "courseGradeStatsDistribution": "Score distribution",
+  "courseGradeStatsScore": "Score",
+  "courseGradeStatsWhuGpa": "WHU GPA",
   "courseGradeStatsFail": "Failing",
   "courseGradeStatsTotalScore": "Total score (0 - 100)",
   "courseGradeStatsSubmitted": "Anonymous grade submitted.",
@@ -3041,7 +3161,16 @@
     }
   },
   "courseReviewsLoginRequired": "Sign in to view anonymous course reviews.",
+  "settingsPrivacyCourseDataTitle": "Course grades and reviews",
+  "settingsPrivacyCourseDataDescription": "You may use local university features with only a WHU account and without registering for Luotopia. By signing in to Luotopia and using course grades or reviews, you agree that verified course grades may be de-identified for anonymous statistics.",
+  "settingsPrivacyCourseDataAggregationTitle": "Anonymous grade statistics",
+  "settingsPrivacyCourseDataAggregationSubtitle": "Distributions and averages are shown only after the minimum sample threshold. Individual grades, identities, WHU passwords, and education cookies are not public.",
   "courseReviewsSyncEligibility": "Sync completed courses",
+  "scoreContributionAutoSyncTitle": "Automatically sync and contribute grades",
+  "scoreContributionAutoSyncDescription": "After undergraduate grades are fetched, sync completed-course eligibility and contribute exact numeric grades to Luotopia's anonymous aggregate.",
+  "scoreContributionLoginRequired": "Sign in to Luotopia to enable automatic grade contribution.",
+  "scoreContributionConsentTitle": "Authorize automatic grade contribution",
+  "scoreContributionConsentMessage": "After each successful undergraduate grade fetch, Luotopia will use a one-time WHU CAS ticket to verify your transcript on the server. Completed courses are saved privately for eligibility, while exact numeric grades with a matched course and teacher are added to anonymous aggregates. Your WHU password and education cookies are never uploaded. You can disable future synchronization at any time.",
   "courseReviewsWrite": "Write anonymous review",
   "courseReviewsAnonymousStudent": "Anonymous student · {semester}",
   "@courseReviewsAnonymousStudent": {
@@ -3784,6 +3913,11 @@
   "luotopiaRegisterWhuStudentIdLabel": "Student ID",
   "luotopiaRegisterWhuMismatchHint": "If this is not you, open WHU account settings to sign out and bind a different account.",
   "luotopiaRegisterOpenWhuAccount": "Open WHU account",
+  "luotopiaRegisterAlreadyRegisteredMessage": "This WHU identity already has a Luotopia account. Sign in to that account or use a different WHU identity.",
+  "luotopiaRegisterGoToLogin": "Go to Luotopia login",
+  "luotopiaRegisterUseAnotherWhu": "Use another WHU account",
+  "luotopiaRegisterUseAnotherWhuTitle": "Switch WHU account?",
+  "luotopiaRegisterUseAnotherWhuConfirm": "This will sign out of the current WHU account and clear the registration details entered for this identity.",
   "luotopiaRegisterStepProfileTitle": "Profile & email",
   "luotopiaRegisterStepProfileSubtitle": "Choose a unique username and the email for your Luotopia account.",
   "luotopiaRegisterEmailVerifiedHint": "This email was verified on your WHU account and filled in automatically. You can still change it.",
