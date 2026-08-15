@@ -1161,6 +1161,24 @@
   "aiConfirmationDecline": "Hủy",
   "aiConfirmationSubmit": "Gửi lựa chọn",
   "aiConfirmationDecisionRequired": "Hãy chọn đồng ý hoặc hủy cho từng thao tác.",
+  "aiAutomation": "Mức tự động hóa",
+  "aiAutomationManual": "Thủ công hoàn toàn",
+  "aiAutomationSemiAutomatic": "Bán tự động",
+  "aiAutomationFullyAutomatic": "Tự động hoàn toàn",
+  "aiAutomationManualDescription": "Mọi thao tác đều chờ bạn xác nhận trước khi thực hiện.",
+  "aiAutomationSemiAutomaticDescription": "Thao tác ghi do Agent thực hiện vẫn cần bạn xác nhận; các xác nhận khác được tự động thông qua.",
+  "aiAutomationFullyAutomaticDescription": "Mọi thao tác được tự động xác nhận và lưu bản ghi đầy đủ.",
+  "aiConfirmationAutoApproved": "Đã tự động xác nhận {count} thao tác ({mode})",
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "scorePagePrivacyLocked": "Bảng điểm được khóa quyền riêng tư",
   "scorePageClickToUnlock": "Chạm để mở khóa",
   "scorePageNoLocalScore": "Không có điểm trên máy",

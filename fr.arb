@@ -960,6 +960,24 @@
   "aiConfirmationDecline": "Annuler",
   "aiConfirmationSubmit": "Envoyer les décisions",
   "aiConfirmationDecisionRequired": "Choisissez d’approuver ou d’annuler chaque action.",
+  "aiAutomation": "Automatisation",
+  "aiAutomationManual": "Manuel",
+  "aiAutomationSemiAutomatic": "Semi-automatique",
+  "aiAutomationFullyAutomatic": "Entièrement automatique",
+  "aiAutomationManualDescription": "Chaque action attend votre confirmation avant de s'exécuter.",
+  "aiAutomationSemiAutomaticDescription": "Les actions d'écriture de l'Agent attendent toujours votre confirmation ; les autres sont confirmées automatiquement.",
+  "aiAutomationFullyAutomaticDescription": "Chaque action est confirmée automatiquement, avec un historique complet.",
+  "aiConfirmationAutoApproved": "{count} actions confirmées automatiquement ({mode})",
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "scorePagePrivacyLocked": "Le relevé est protégé par un verrou de confidentialité",
   "scorePageClickToUnlock": "Appuyez pour déverrouiller",
   "scorePageNoLocalScore": "Aucune note locale",

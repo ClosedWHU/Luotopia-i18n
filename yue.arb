@@ -1143,6 +1143,24 @@
   "aiConfirmationDecline": "取消",
   "aiConfirmationSubmit": "提交決定",
   "aiConfirmationDecisionRequired": "請為每一項操作揀同意或者取消。",
+  "aiAutomation": "自動化程度",
+  "aiAutomationManual": "全手動",
+  "aiAutomationSemiAutomatic": "半自動",
+  "aiAutomationFullyAutomatic": "全自動",
+  "aiAutomationManualDescription": "每項操作都要你確認咗先執行。",
+  "aiAutomationSemiAutomaticDescription": "Agent 發起嘅寫入操作仲要你確認，其他確認自動通過。",
+  "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
+  "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "scorePagePrivacyLocked": "成績表已經俾私隱鎖保護",
   "scorePageClickToUnlock": "撳解鎖",
   "scorePageNoLocalScore": "本機冇成績",

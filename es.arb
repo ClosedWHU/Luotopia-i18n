@@ -960,6 +960,24 @@
   "aiConfirmationDecline": "Cancelar",
   "aiConfirmationSubmit": "Enviar decisiones",
   "aiConfirmationDecisionRequired": "Elige aprobar o cancelar para cada acción.",
+  "aiAutomation": "Automatización",
+  "aiAutomationManual": "Manual",
+  "aiAutomationSemiAutomatic": "Semiautomático",
+  "aiAutomationFullyAutomatic": "Totalmente automático",
+  "aiAutomationManualDescription": "Cada acción espera tu confirmación antes de ejecutarse.",
+  "aiAutomationSemiAutomaticDescription": "Las acciones de escritura del Agent siguen esperando tu confirmación; las demás se confirman automáticamente.",
+  "aiAutomationFullyAutomaticDescription": "Cada acción se confirma automáticamente y se conserva un registro completo.",
+  "aiConfirmationAutoApproved": "{count} acciones confirmadas automáticamente ({mode})",
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "scorePagePrivacyLocked": "El expediente está protegido por un bloqueo de privacidad",
   "scorePageClickToUnlock": "Toca para desbloquear",
   "scorePageNoLocalScore": "Sin notas locales",

@@ -958,6 +958,24 @@
   "aiConfirmationDecline": "Отменить",
   "aiConfirmationSubmit": "Отправить решения",
   "aiConfirmationDecisionRequired": "Для каждого действия выберите «Разрешить» или «Отменить».",
+  "aiAutomation": "Автоматизация",
+  "aiAutomationManual": "Вручную",
+  "aiAutomationSemiAutomatic": "Полуавтоматически",
+  "aiAutomationFullyAutomatic": "Полностью автоматически",
+  "aiAutomationManualDescription": "Каждое действие выполняется после вашего подтверждения.",
+  "aiAutomationSemiAutomaticDescription": "Операции записи агента по-прежнему требуют вашего подтверждения; остальные подтверждаются автоматически.",
+  "aiAutomationFullyAutomaticDescription": "Все действия подтверждаются автоматически, полная история сохраняется.",
+  "aiConfirmationAutoApproved": "Автоматически подтверждено действий: {count} ({mode})",
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "scorePagePrivacyLocked": "Ведомость защищена замком конфиденциальности",
   "scorePageClickToUnlock": "Нажмите, чтобы разблокировать",
   "scorePageNoLocalScore": "Нет локальных оценок",

@@ -1164,6 +1164,24 @@
   "aiConfirmationDecline": "취소",
   "aiConfirmationSubmit": "선택 제출",
   "aiConfirmationDecisionRequired": "모든 작업에 대해 허용 또는 취소를 선택하세요.",
+  "aiAutomation": "자동화 수준",
+  "aiAutomationManual": "완전 수동",
+  "aiAutomationSemiAutomatic": "반자동",
+  "aiAutomationFullyAutomatic": "완전 자동",
+  "aiAutomationManualDescription": "모든 작업은 확인 후에 실행됩니다.",
+  "aiAutomationSemiAutomaticDescription": "Agent의 쓰기 작업은 계속 확인이 필요하며, 나머지 확인은 자동으로 승인됩니다.",
+  "aiAutomationFullyAutomaticDescription": "모든 작업을 자동으로 확인하고 전체 기록을 유지합니다.",
+  "aiConfirmationAutoApproved": "{count}개의 작업을 자동 승인했습니다({mode})",
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "scorePagePrivacyLocked": "성적표가 프라이버시 잠금으로 보호됨",
   "scorePageClickToUnlock": "탭하여 잠금 해제",
   "scorePageNoLocalScore": "로컬 성적 없음",

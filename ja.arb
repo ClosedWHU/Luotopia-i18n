@@ -1344,6 +1344,24 @@
   "aiConfirmationDecline": "キャンセル",
   "aiConfirmationSubmit": "選択を送信",
   "aiConfirmationDecisionRequired": "各操作について、許可またはキャンセルを選択してください。",
+  "aiAutomation": "自動化レベル",
+  "aiAutomationManual": "完全手動",
+  "aiAutomationSemiAutomatic": "半自動",
+  "aiAutomationFullyAutomatic": "完全自動",
+  "aiAutomationManualDescription": "すべての操作は確認後に実行されます。",
+  "aiAutomationSemiAutomaticDescription": "Agent による書き込み操作は引き続き確認が必要で、その他の確認は自動的に承認されます。",
+  "aiAutomationFullyAutomaticDescription": "すべての操作を自動的に確認し、完全な記録を保持します。",
+  "aiConfirmationAutoApproved": "{count} 件の操作を自動承認しました（{mode}）",
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "scorePagePrivacyLocked": "成績表はプライバシーロックで保護されています",
   "scorePageClickToUnlock": "タップしてロック解除",
   "scorePageNoLocalScore": "端末に成績がありません",
