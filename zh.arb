@@ -4023,5 +4023,15 @@
   ,"forumCommentDeleted": "该评论已删除"
   ,"forumRepliesExpand": "展开其余 {count} 条回复"
   ,"forumReplyTo": "回复 @{name}",
-  "forumReplyDepthLimit": "已达最大回复层级"
+  "forumReplyDepthLimit": "已达最大回复层级",
+  "aiStop": "停止",
+  "aiAutomation": "自动化程度",
+  "aiAutomationManual": "全手动",
+  "aiAutomationSemiAutomatic": "半自动",
+  "aiAutomationFullyAutomatic": "全自动",
+  "aiAutomationManualDescription": "每项操作都需要你确认后执行。",
+  "aiAutomationSemiAutomaticDescription": "Agent 发起的写入操作仍需你确认，其余确认自动通过。",
+  "aiAutomationFullyAutomaticDescription": "自动确认所有操作，并保留完整记录。",
+  "aiConfirmationAutoApproved": "已自动确认 {count} 项操作（{mode}）",
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
 }

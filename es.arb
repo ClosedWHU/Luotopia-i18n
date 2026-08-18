@@ -2498,13 +2498,13 @@
   "authForgotPassword": "¿Olvidaste la contraseña?",
   "authResetPassword": "Restablecer contraseña",
   "authSendResetLink": "Enviar enlace",
-  "authResetRequested": "If this email is registered, the password reset email should arrive within a few minutes. If you do not receive it, check your spam folder and the spelling of the email address.",
-  "authLoginEmailUnverified": "This email address has not been verified. Verify it before signing in.",
-  "authLoginAccountDisabled": "This account has been disabled. Contact an administrator for assistance.",
-  "authResendVerification": "Resend verification",
-  "authVerificationEmailPromptTitle": "Enter your account email",
-  "authVerificationEmailSent": "If the account exists and still needs verification, a verification email has been sent.",
-  "authVerificationEmailSendFailed": "Unable to send verification email: {error}",
+  "authResetRequested": "Si este correo está registrado, recibirás el mensaje para restablecer la contraseña en unos minutos. Si no lo recibes, revisa el correo no deseado y comprueba que la dirección esté bien escrita.",
+  "authLoginEmailUnverified": "Esta dirección de correo no se ha verificado. Verifícala antes de iniciar sesión.",
+  "authLoginAccountDisabled": "Esta cuenta se ha desactivado. Contacta con un administrador para obtener ayuda.",
+  "authResendVerification": "Reenviar verificación",
+  "authVerificationEmailPromptTitle": "Introduce el correo de tu cuenta",
+  "authVerificationEmailSent": "Si la cuenta existe y aún necesita verificación, se ha enviado un correo de verificación.",
+  "authVerificationEmailSendFailed": "No se pudo enviar el correo de verificación: {error}",
   "authMfaTitle": "Autenticación de dos factores",
   "authMfaEmailSent": "Se envió un código a {email}",
   "@authMfaEmailSent": {
@@ -4030,5 +4030,15 @@
       }
     }
   },
-  "forumReplyDepthLimit": "Se alcanzó la profundidad máxima de respuesta"
+  "forumReplyDepthLimit": "Se alcanzó la profundidad máxima de respuesta",
+  "aiStop": "Detener",
+  "aiAutomation": "Automatización",
+  "aiAutomationManual": "Manual",
+  "aiAutomationSemiAutomatic": "Semiautomático",
+  "aiAutomationFullyAutomatic": "Totalmente automático",
+  "aiAutomationManualDescription": "Cada acción espera tu confirmación antes de ejecutarse.",
+  "aiAutomationSemiAutomaticDescription": "Las acciones de escritura del Agent siguen esperando tu confirmación; las demás se confirman automáticamente.",
+  "aiAutomationFullyAutomaticDescription": "Cada acción se confirma automáticamente y se conserva un registro completo.",
+  "aiConfirmationAutoApproved": "{count} acciones confirmadas automáticamente ({mode})",
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
 }

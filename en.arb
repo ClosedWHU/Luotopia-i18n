@@ -4262,5 +4262,15 @@
   ,"@forumRepliesExpand": {"placeholders": {"count": {"type": "int"}}}
   ,"forumReplyTo": "Reply to @{name}"
   ,"@forumReplyTo": {"placeholders": {"name": {"type": "String"}}},
-  "forumReplyDepthLimit": "Maximum reply depth reached"
+  "forumReplyDepthLimit": "Maximum reply depth reached",
+  "aiStop": "Stop",
+  "aiAutomation": "Automation",
+  "aiAutomationManual": "Manual",
+  "aiAutomationSemiAutomatic": "Semi-automatic",
+  "aiAutomationFullyAutomatic": "Fully automatic",
+  "aiAutomationManualDescription": "Every action waits for your confirmation before it runs.",
+  "aiAutomationSemiAutomaticDescription": "Write actions from the Agent still wait for your confirmation; other confirmations run automatically.",
+  "aiAutomationFullyAutomaticDescription": "Every action is confirmed automatically, with a complete record kept.",
+  "aiConfirmationAutoApproved": "Auto-confirmed {count} actions ({mode})",
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
 }

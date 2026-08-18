@@ -2498,13 +2498,13 @@
   "authForgotPassword": "Mot de passe oublié ?",
   "authResetPassword": "Réinitialiser le mot de passe",
   "authSendResetLink": "Envoyer le lien",
-  "authResetRequested": "If this email is registered, the password reset email should arrive within a few minutes. If you do not receive it, check your spam folder and the spelling of the email address.",
-  "authLoginEmailUnverified": "This email address has not been verified. Verify it before signing in.",
-  "authLoginAccountDisabled": "This account has been disabled. Contact an administrator for assistance.",
-  "authResendVerification": "Resend verification",
-  "authVerificationEmailPromptTitle": "Enter your account email",
-  "authVerificationEmailSent": "If the account exists and still needs verification, a verification email has been sent.",
-  "authVerificationEmailSendFailed": "Unable to send verification email: {error}",
+  "authResetRequested": "Si cette adresse e-mail est enregistrée, l’e-mail de réinitialisation du mot de passe devrait arriver dans quelques minutes. Si vous ne le recevez pas, vérifiez vos courriers indésirables et l’orthographe de l’adresse.",
+  "authLoginEmailUnverified": "Cette adresse e-mail n’a pas été vérifiée. Vérifiez-la avant de vous connecter.",
+  "authLoginAccountDisabled": "Ce compte a été désactivé. Contactez un administrateur pour obtenir de l’aide.",
+  "authResendVerification": "Renvoyer la vérification",
+  "authVerificationEmailPromptTitle": "Saisissez l’adresse e-mail de votre compte",
+  "authVerificationEmailSent": "Si le compte existe et doit encore être vérifié, un e-mail de vérification a été envoyé.",
+  "authVerificationEmailSendFailed": "Impossible d’envoyer l’e-mail de vérification : {error}",
   "authMfaTitle": "Double authentification",
   "authMfaEmailSent": "Un code a été envoyé à {email}",
   "@authMfaEmailSent": {
@@ -4030,5 +4030,15 @@
       }
     }
   },
-  "forumReplyDepthLimit": "Profondeur de réponse maximale atteinte"
+  "forumReplyDepthLimit": "Profondeur de réponse maximale atteinte",
+  "aiStop": "Arrêter",
+  "aiAutomation": "Automatisation",
+  "aiAutomationManual": "Manuel",
+  "aiAutomationSemiAutomatic": "Semi-automatique",
+  "aiAutomationFullyAutomatic": "Entièrement automatique",
+  "aiAutomationManualDescription": "Chaque action attend votre confirmation avant de s’exécuter.",
+  "aiAutomationSemiAutomaticDescription": "Les actions d’écriture de l’Agent attendent toujours votre confirmation ; les autres sont confirmées automatiquement.",
+  "aiAutomationFullyAutomaticDescription": "Chaque action est confirmée automatiquement, avec un historique complet.",
+  "aiConfirmationAutoApproved": "{count} actions confirmées automatiquement ({mode})",
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
 }

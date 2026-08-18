@@ -4034,5 +4034,15 @@
   "scoreContributionAutoSyncDescription": "取得本科成績後，會同步已完成課程的參與資格，並將精確數字成績貢獻至珞家的匿名統計。",
   "scoreContributionLoginRequired": "登入珞家以啟用自動貢獻成績。",
   "scoreContributionConsentTitle": "授權自動貢獻成績",
-  "scoreContributionConsentMessage": "每次成功取得本科成績後，珞家會使用一次性 WHU CAS 票據，在伺服器上驗證你的成績單。已完成的課程會私下儲存，以判斷參與資格；與課程及教師相符的精確數字成績會加入匿名統計。你的 WHU 密碼與教務 Cookie 絕不會上傳。你可以隨時停用日後的同步。"
+  "scoreContributionConsentMessage": "每次成功取得本科成績後，珞家會使用一次性 WHU CAS 票據，在伺服器上驗證你的成績單。已完成的課程會私下儲存，以判斷參與資格；與課程及教師相符的精確數字成績會加入匿名統計。你的 WHU 密碼與教務 Cookie 絕不會上傳。你可以隨時停用日後的同步。",
+  "aiStop": "停止",
+  "aiAutomation": "自動化程度",
+  "aiAutomationManual": "全手動",
+  "aiAutomationSemiAutomatic": "半自動",
+  "aiAutomationFullyAutomatic": "全自動",
+  "aiAutomationManualDescription": "每項操作都需要你確認後執行。",
+  "aiAutomationSemiAutomaticDescription": "Agent 發起的寫入操作仍需你確認，其餘確認自動通過。",
+  "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
+  "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
 }

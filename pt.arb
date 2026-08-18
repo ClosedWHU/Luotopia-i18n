@@ -2498,13 +2498,13 @@
   "authForgotPassword": "Esqueceu a senha?",
   "authResetPassword": "Redefinir senha",
   "authSendResetLink": "Enviar link",
-  "authResetRequested": "If this email is registered, the password reset email should arrive within a few minutes. If you do not receive it, check your spam folder and the spelling of the email address.",
-  "authLoginEmailUnverified": "This email address has not been verified. Verify it before signing in.",
-  "authLoginAccountDisabled": "This account has been disabled. Contact an administrator for assistance.",
-  "authResendVerification": "Resend verification",
-  "authVerificationEmailPromptTitle": "Enter your account email",
-  "authVerificationEmailSent": "If the account exists and still needs verification, a verification email has been sent.",
-  "authVerificationEmailSendFailed": "Unable to send verification email: {error}",
+  "authResetRequested": "Se este e-mail estiver registrado, a mensagem para redefinir a senha deverá chegar em alguns minutos. Se não a receber, verifique o spam e a grafia do endereço.",
+  "authLoginEmailUnverified": "Este endereço de e-mail ainda não foi verificado. Verifique-o antes de entrar.",
+  "authLoginAccountDisabled": "Esta conta foi desativada. Entre em contato com um administrador para obter ajuda.",
+  "authResendVerification": "Reenviar verificação",
+  "authVerificationEmailPromptTitle": "Digite o e-mail da sua conta",
+  "authVerificationEmailSent": "Se a conta existir e ainda precisar de verificação, um e-mail de verificação foi enviado.",
+  "authVerificationEmailSendFailed": "Não foi possível enviar o e-mail de verificação: {error}",
   "authMfaTitle": "Autenticação em dois fatores",
   "authMfaEmailSent": "Um código foi enviado para {email}",
   "@authMfaEmailSent": {
@@ -4030,5 +4030,15 @@
       }
     }
   },
-  "forumReplyDepthLimit": "Profundidade máxima de resposta atingida"
+  "forumReplyDepthLimit": "Profundidade máxima de resposta atingida",
+  "aiStop": "Parar",
+  "aiAutomation": "Automação",
+  "aiAutomationManual": "Manual",
+  "aiAutomationSemiAutomatic": "Semiautomático",
+  "aiAutomationFullyAutomatic": "Totalmente automático",
+  "aiAutomationManualDescription": "Cada ação aguarda sua confirmação antes de ser executada.",
+  "aiAutomationSemiAutomaticDescription": "As ações de escrita do Agent ainda aguardam sua confirmação; as demais são confirmadas automaticamente.",
+  "aiAutomationFullyAutomaticDescription": "Cada ação é confirmada automaticamente, com registro completo.",
+  "aiConfirmationAutoApproved": "{count} ações confirmadas automaticamente ({mode})",
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
 }
