@@ -4273,5 +4273,18 @@
   "aiAutomationSemiAutomaticDescription": "Write actions from the Agent still wait for your confirmation; other confirmations run automatically.",
   "aiAutomationFullyAutomaticDescription": "Every action is confirmed automatically, with a complete record kept.",
   "aiConfirmationAutoApproved": "Auto-confirmed {count} actions ({mode})",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "settingsAiWorkspaceTitle": "AI workspace",
+  "settingsAiWorkspaceDescription": "Manage files stored in your private AI workspace.",
+  "settingsAiWorkspaceUsageTitle": "Workspace usage",
+  "settingsAiWorkspaceUsageFiles": "{count} files",
+  "@settingsAiWorkspaceUsageFiles": {"placeholders": {"count": {"type": "int"}}},
+  "settingsAiWorkspaceLoadFailed": "Unable to load workspace usage.",
+  "settingsAiWorkspaceClearTitle": "Clear AI workspace",
+  "settingsAiWorkspaceClearSubtitle": "Delete all files from your private AI workspace.",
+  "settingsAiWorkspaceClearConfirmTitle": "Clear AI workspace?",
+  "settingsAiWorkspaceClearConfirmMessage": "This permanently deletes all files in your private AI workspace. This action cannot be undone.",
+  "settingsAiWorkspaceClearConfirmAction": "Clear workspace",
+  "settingsAiWorkspaceCleared": "AI workspace cleared.",
+  "settingsAiWorkspaceClearFailed": "Failed to clear the AI workspace."
 }

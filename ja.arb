@@ -4041,5 +4041,17 @@
   "aiAutomationSemiAutomaticDescription": "Agent による書き込み操作は引き続き確認が必要で、その他の確認は自動的に承認されます。",
   "aiAutomationFullyAutomaticDescription": "すべての操作を自動的に確認し、完全な記録を保持します。",
   "aiConfirmationAutoApproved": "{count} 件の操作を自動承認しました（{mode}）",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "settingsAiWorkspaceTitle": "AI ワークスペース",
+  "settingsAiWorkspaceDescription": "プライベート AI ワークスペースに保存されたファイルを管理します。",
+  "settingsAiWorkspaceUsageTitle": "ワークスペース使用量",
+  "settingsAiWorkspaceUsageFiles": "{count} 個のファイル",
+  "settingsAiWorkspaceLoadFailed": "ワークスペースの使用量を読み込めませんでした。",
+  "settingsAiWorkspaceClearTitle": "AI ワークスペースを消去",
+  "settingsAiWorkspaceClearSubtitle": "プライベート AI ワークスペース内のすべてのファイルを削除します。",
+  "settingsAiWorkspaceClearConfirmTitle": "AI ワークスペースを消去しますか？",
+  "settingsAiWorkspaceClearConfirmMessage": "プライベート AI ワークスペース内のすべてのファイルが完全に削除されます。この操作は元に戻せません。",
+  "settingsAiWorkspaceClearConfirmAction": "ワークスペースを消去",
+  "settingsAiWorkspaceCleared": "AI ワークスペースを消去しました。",
+  "settingsAiWorkspaceClearFailed": "AI ワークスペースを消去できませんでした。"
 }

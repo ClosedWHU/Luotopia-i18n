@@ -4034,5 +4034,17 @@
   "aiAutomationSemiAutomaticDescription": "Agent 发起的写入操作仍需你确认，其余确认自动通过。",
   "aiAutomationFullyAutomaticDescription": "自动确认所有操作，并保留完整记录。",
   "aiConfirmationAutoApproved": "已自动确认 {count} 项操作（{mode}）",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "settingsAiWorkspaceTitle": "AI 工作区",
+  "settingsAiWorkspaceDescription": "管理存储在你的私有 AI 工作区中的文件。",
+  "settingsAiWorkspaceUsageTitle": "工作区用量",
+  "settingsAiWorkspaceUsageFiles": "{count} 个文件",
+  "settingsAiWorkspaceLoadFailed": "无法加载工作区用量。",
+  "settingsAiWorkspaceClearTitle": "清空 AI 工作区",
+  "settingsAiWorkspaceClearSubtitle": "删除私有 AI 工作区中的所有文件。",
+  "settingsAiWorkspaceClearConfirmTitle": "清空 AI 工作区？",
+  "settingsAiWorkspaceClearConfirmMessage": "这将永久删除私有 AI 工作区中的所有文件，且无法撤销。",
+  "settingsAiWorkspaceClearConfirmAction": "清空工作区",
+  "settingsAiWorkspaceCleared": "AI 工作区已清空。",
+  "settingsAiWorkspaceClearFailed": "清空 AI 工作区失败。"
 }

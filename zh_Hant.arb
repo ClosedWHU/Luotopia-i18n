@@ -4045,5 +4045,17 @@
   "aiAutomationSemiAutomaticDescription": "Agent 發起的寫入操作仍需你確認，其餘確認自動通過。",
   "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
   "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}}
+  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "settingsAiWorkspaceTitle": "AI 工作區",
+  "settingsAiWorkspaceDescription": "管理儲存在你的私人 AI 工作區中的檔案。",
+  "settingsAiWorkspaceUsageTitle": "工作區用量",
+  "settingsAiWorkspaceUsageFiles": "{count} 個檔案",
+  "settingsAiWorkspaceLoadFailed": "無法載入工作區用量。",
+  "settingsAiWorkspaceClearTitle": "清空 AI 工作區",
+  "settingsAiWorkspaceClearSubtitle": "刪除私人 AI 工作區中的所有檔案。",
+  "settingsAiWorkspaceClearConfirmTitle": "清空 AI 工作區？",
+  "settingsAiWorkspaceClearConfirmMessage": "這將永久刪除私人 AI 工作區中的所有檔案，且無法復原。",
+  "settingsAiWorkspaceClearConfirmAction": "清空工作區",
+  "settingsAiWorkspaceCleared": "AI 工作區已清空。",
+  "settingsAiWorkspaceClearFailed": "清空 AI 工作區失敗。"
 }
