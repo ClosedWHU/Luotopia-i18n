@@ -728,6 +728,7 @@
   "settingsPrivacyDiagnosticsTitle": "진단 및 분석",
   "settingsPrivacyDiagnosticsSubtitle": "이 옵션은 뤄자 개선에 도움이 됩니다. 언제든지 변경할 수 있으며, 스위치가 켜진 경우에만 데이터가 수집됩니다.",
   "settingsPrivacyDiagnosticsUnsupported": "진단 기능은 Firebase가 포함된 Android 및 iOS 빌드에서만 사용할 수 있습니다.",
+  "settingsPrivacyDiagnosticsDebugLocked": "Debug 빌드는 원격 측정을 수집하지 않습니다. 이 스위치는 Release 빌드에서 적용되며 저장된 선택이 유지됩니다.",
   "settingsPrivacyAnalyticsTitle": "사용 분석",
   "settingsPrivacyAnalyticsSubtitle": "앱 개선을 위한 익명 기능 사용 데이터",
   "settingsPrivacyCrashTitle": "충돌 보고",
@@ -1145,7 +1146,6 @@
   "aiOpenDraftPage": "초안 페이지 열기",
   "aiSending": "보내는 중",
   "aiSend": "보내기",
-  "aiStop": "중지",
   "aiClearHistory": "기록 삭제",
   "aiRename": "이름 바꾸기",
   "aiDelete": "삭제",
@@ -1175,24 +1175,6 @@
   "aiConfirmationDecline": "취소",
   "aiConfirmationSubmit": "선택 제출",
   "aiConfirmationDecisionRequired": "모든 작업에 대해 허용 또는 취소를 선택하세요.",
-  "aiAutomation": "자동화 수준",
-  "aiAutomationManual": "완전 수동",
-  "aiAutomationSemiAutomatic": "반자동",
-  "aiAutomationFullyAutomatic": "완전 자동",
-  "aiAutomationManualDescription": "모든 작업은 확인 후에 실행됩니다.",
-  "aiAutomationSemiAutomaticDescription": "Agent의 쓰기 작업은 계속 확인이 필요하며, 나머지 확인은 자동으로 승인됩니다.",
-  "aiAutomationFullyAutomaticDescription": "모든 작업을 자동으로 확인하고 전체 기록을 유지합니다.",
-  "aiConfirmationAutoApproved": "{count}개의 작업을 자동 승인했습니다({mode})",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "성적표가 프라이버시 잠금으로 보호됨",
   "scorePageClickToUnlock": "탭하여 잠금 해제",
   "scorePageNoLocalScore": "로컬 성적 없음",
@@ -1874,11 +1856,6 @@
   "itemDetailScoreFinal": "기말고사",
   "itemDetailSectionDistribution": "성적 분포",
   "itemDetailSectionReviews": "수강 후기",
-  "courseGradeStatsTeacherHint": "담당 교수를 선택하면 해당 교수의 성적 데이터를 확인할 수 있습니다.",
-  "courseGradeStatsTeacherInputHint": "교수 이름을 검색하거나 비워 두면 모든 교수를 표시합니다",
-  "courseGradeStatsTeacherClear": "교수 선택 지우기",
-  "courseGradeStatsTeacherSearch": "교수 검색",
-  "courseGradeStatsAllTeachersPrepared": "모든 교수의 성적 데이터를 준비했습니다. 교수를 선택하면 자세한 내용을 확인할 수 있습니다.",
   "itemDetailCourseInsightsTitle": "실제 과목 성적 및 후기",
   "itemDetailCourseInsightsDescription": "뤄자 통계, Ham 성적 데이터와 학생 후기를 확인할 수 있습니다. 시간표 과목은 과목명으로 매칭됩니다.",
   "itemDetailCourseInsightsAmbiguous": "뤄자에 같은 이름의 과목이 여러 개 있습니다. 잘못된 데이터를 사용하지 않도록 올바른 과목을 선택하세요.",
@@ -2984,13 +2961,9 @@
   "settingsDevCampusDiagnosticsSubtitle": "메일함과 메시지의 세션, 요청 및 파서 추적",
   "settingsDevLifecycleDiagnostics": "앱 수명 주기 진단",
   "settingsDevLifecycleDiagnosticsSubtitle": "핫 업데이트, 위치 새로고침 및 수명 주기 제어 흐름 추적",
-  "courseGradeStatsSourceHam": "출처: Ham",
-  "courseGradeStatsSourceLuotopia": "출처: 뤄자",
-  "courseGradeStatsSourceHint": "성적 데이터 출처 선택",
   "courseGradeStatsSourceLuotopiaShort": "뤄자",
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
-  "courseGradeStatsLoadFailed": "성적 분포를 불러오지 못했습니다: {error}",
   "@courseGradeStatsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2998,10 +2971,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "익명 성적 제출",
-  "courseGradeStatsNoTeachers": "이 과목에는 담당 교사가 없어 성적을 제출할 수 없습니다.",
-  "courseGradeStatsPrivacyThreshold": "개인정보 보호를 위해 최소 5개의 표본이 필요합니다.",
-  "courseGradeStatsSamples": "익명 표본 {count}개",
   "@courseGradeStatsSamples": {
     "placeholders": {
       "count": {
@@ -3010,14 +2979,8 @@
     }
   },
   "courseGradeStatsMedian": "Median score",
-  "courseGradeStatsTotalAverage": "총점 평균",
-  "courseGradeStatsUsualAverage": "평소 점수 평균",
-  "courseGradeStatsExamAverage": "시험 점수 평균",
   "courseGradeStatsDistribution": "점수 분포",
-  "courseGradeStatsFail": "불합격",
   "courseGradeStatsTotalScore": "총점(0~100)",
-  "courseGradeStatsSubmitted": "익명 성적이 제출되었습니다.",
-  "courseGradeStatsSubmitFailed": "성적을 제출하지 못했습니다: {error}",
   "@courseGradeStatsSubmitFailed": {
     "placeholders": {
       "error": {
@@ -3227,8 +3190,6 @@
   "forumReport": "신고",
   "forumReportReason": "사유",
   "forumReportSubmitted": "신고가 접수되었습니다.",
-  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
-  "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
     "placeholders": {
@@ -3237,7 +3198,6 @@
       }
     }
   },
-  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3256,17 +3216,6 @@
       }
     }
   },
-  "forumKarmaLevelTitle0": "Newcomer",
-  "forumKarmaLevelTitle1": "Apprentice",
-  "forumKarmaLevelTitle2": "Regular",
-  "forumKarmaLevelTitle3": "Active",
-  "forumKarmaLevelTitle4": "Adept",
-  "forumKarmaLevelTitle5": "Expert",
-  "forumKarmaLevelTitle6": "Elder",
-  "forumKarmaLevelTitle7": "Luminary",
-  "forumKarmaLevelTitle8": "Beacon",
-  "forumKarmaLevelTitle9": "Legend",
-  "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
     "placeholders": {
@@ -3278,7 +3227,6 @@
       }
     }
   },
-  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
     "placeholders": {
       "level": {
@@ -3292,12 +3240,6 @@
       }
     }
   },
-  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
-  "forumKarmaHideExact": "Hide exact Karma",
-  "forumKarmaHideExactHint": "Others only see your level, not the number.",
-  "forumLeaderboardLoadMore": "Load more",
-  "forumKarmaDailyBudget": "Daily allotment",
-  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
     "placeholders": {
       "up": {
@@ -3308,11 +3250,6 @@
       }
     }
   },
-  "forumKarmaInsufficient": "Insufficient Karma",
-  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
-  "forumCheckinTodo": "체크인",
-  "forumCheckinTitle": "Daily check-in",
-  "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
     "placeholders": {
       "amount": {
@@ -3320,10 +3257,6 @@
       }
     }
   },
-  "forumCheckinRandom": "Trial of chance",
-  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
-  "forumCheckinDone": "Already checked in today",
-  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
     "placeholders": {
       "amount": {
@@ -3334,18 +3267,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
-  "forumModerationFlavorPending": "Pending review",
-  "forumKarmaLedgerTitle": "Ledger",
-  "forumKarmaLedgerContentUp": "Received upvote",
-  "forumKarmaLedgerContentDown": "Received downvote",
-  "forumKarmaLedgerVoteCost": "Vote cost",
-  "forumKarmaLedgerVoteRefund": "Vote refund",
-  "forumKarmaLedgerCheckin": "Check-in",
-  "forumKarmaLedgerCheckinStreak": "Streak bonus",
-  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
-  "forumKarmaLedgerAdmin": "Admin adjustment",
-  "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
     "placeholders": {
       "karma": {
@@ -3353,7 +3274,6 @@
       }
     }
   },
-  "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
     "placeholders": {
       "streak": {
@@ -3361,11 +3281,6 @@
       }
     }
   },
-  "forumKarmaLedgerEmpty": "No karma movements yet.",
-  "forumKarmaAdminAdjust": "Adjust Karma",
-  "forumKarmaAdminDelta": "Delta",
-  "forumKarmaAdminReason": "Reason",
-  "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
     "placeholders": {
       "karma": {
@@ -3373,27 +3288,6 @@
       }
     }
   },
-  "forumLeaderboardTitle": "Karma ranking",
-  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
-  "forumLeaderboardJoinNamed": "Join with nickname",
-  "forumLeaderboardJoinAnonymous": "Join anonymously",
-  "forumLeaderboardLeave": "Leave ranking",
-  "forumLeaderboardAnonymous": "Appear anonymously",
-  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
-  "forumLeaderboardEmpty": "No participants yet.",
-  "forumAdminLogTitle": "Moderation notices",
-  "forumAdminLogSearchHint": "Search summaries or details",
-  "forumAdminLogEmpty": "No public moderation notices yet.",
-  "forumAdminLogLoadMore": "Load more",
-  "forumAdminLogActionBan": "Ban",
-  "forumAdminLogActionUnban": "Unban",
-  "forumAdminLogActionMute": "Mute",
-  "forumAdminLogActionUnmute": "Unmute",
-  "forumAdminLogActionKarma": "Karma adjust",
-  "forumAdminLogActionHide": "Hide post",
-  "forumAdminLogActionDelete": "Delete post",
-  "forumAdminLogActionRestore": "Restore post",
-  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "신고를 제출하지 못했습니다: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3407,24 +3301,6 @@
   "forumAppealReason": "이의제기 내용",
   "forumAppealSubmitted": "이의제기가 제출되었습니다.",
   "forumModeration": "콘텐츠 심사",
-  "forumKarmaEconomySettings": "Karma economy",
-  "forumKarmaEconomySaved": "Karma settings saved.",
-  "forumKarmaSettingPostUp": "Post upvote gain",
-  "forumKarmaSettingPostDown": "Post downvote loss",
-  "forumKarmaSettingCommentUp": "Comment upvote gain",
-  "forumKarmaSettingCommentDown": "Comment downvote loss",
-  "forumKarmaSettingVoteCostUp": "Upvote cost",
-  "forumKarmaSettingVoteCostDown": "Downvote cost",
-  "forumKarmaSettingCheckinFixed": "Fixed check-in",
-  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
-  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
-  "forumKarmaSettingCreatePostReward": "Create post reward",
-  "forumKarmaSettingCreateCommentReward": "Create comment reward",
-  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
-  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
-  "forumKarmaLedgerCreatePost": "Published a post",
-  "forumKarmaLedgerCreateComment": "Posted a reply",
-  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "승인",
   "forumHide": "숨기기",
   "forumDelete": "삭제",
@@ -3565,6 +3441,7 @@
   "sportsOrderFilterReserved": "예약됨",
   "sportsOrderFilterHistory": "기록",
   "whuLoginMethodNotRecommended": "비권장",
+  "whuLoginMethodUndergraduateOnly": "학부생 전용",
   "whuLoginMethodApiError": "서비스 이용 불가",
   "forumModerationReports": "신고",
   "forumModerationAppeals": "이의제기",
@@ -4093,5 +3970,111 @@
   "aiToolTraceDetails": "도구 호출 세부 정보",
   "aiToolTraceStatusSucceeded": "성공",
   "aiToolTraceStatusFailed": "실패",
-  "aiToolTraceStatusCancelled": "미완료"
+  "aiToolTraceStatusCancelled": "미완료",
+  "forumAdminLogActionApprove": "게시글 승인",
+  "forumAdminLogActionBan": "차단",
+  "forumAdminLogActionDelete": "게시글 삭제",
+  "forumAdminLogActionHide": "게시글 숨기기",
+  "forumAdminLogActionKarma": "카르마 조정",
+  "forumAdminLogActionMute": "뮤트",
+  "forumAdminLogActionRestore": "게시글 복원",
+  "forumAdminLogActionUnban": "차단 해제",
+  "forumAdminLogActionUnmute": "뮤트 해제",
+  "forumAdminLogEmpty": "공개 중재 알림이 아직 없습니다.",
+  "forumAdminLogLoadMore": "더 보기",
+  "forumAdminLogSearchHint": "요약 또는 세부정보 검색",
+  "forumAdminLogTitle": "중재 알림",
+  "forumAppealFlavor": "재심사 요청",
+  "forumCheckinDone": "오늘 체크인 완료",
+  "forumCheckinFixed": "고정 경로 (+{amount})",
+  "forumCheckinRandom": "확률 시도",
+  "forumCheckinRandomHint": "장기 평균은 고정 경로보다 약간 낮습니다",
+  "forumCheckinSuccess": "+{amount} 카르마 (연속 {streak}일)",
+  "forumCheckinTitle": "데일리 체크인",
+  "forumCheckinTodo": "체크인",
+  "forumKarma": "카르마",
+  "forumKarmaAdminAdjust": "카르마 조정",
+  "forumKarmaAdminDelta": "증감",
+  "forumKarmaAdminReason": "사유",
+  "forumKarmaAdminSuccess": "카르마가 {karma}(으)로 업데이트되었습니다",
+  "forumKarmaAuthorMeta": "Lv{level} · 카르마 {karma}",
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · 카르마 {karma}",
+  "forumKarmaBudgetExhausted": "일일 할당량 소진",
+  "forumKarmaBudgetLine": "좋아요 {up} · 싫어요 {down}",
+  "forumKarmaDailyBudget": "일일 할당량",
+  "forumKarmaEconomySaved": "카르마 설정이 저장되었습니다.",
+  "forumKarmaEconomySettings": "카르마 경제",
+  "forumKarmaHideExact": "정확한 카르마 숨기기",
+  "forumKarmaHideExactHint": "다른 사람에게는 숫자가 아닌 레벨만 표시됩니다.",
+  "forumKarmaInsufficient": "카르마 부족",
+  "forumKarmaLedgerAdmin": "관리자 조정",
+  "forumKarmaLedgerCheckin": "체크인",
+  "forumKarmaLedgerCheckinStreak": "연속 보너스",
+  "forumKarmaLedgerContentDown": "싫어요 받음",
+  "forumKarmaLedgerContentUp": "좋아요 받음",
+  "forumKarmaLedgerCreateComment": "답글 작성",
+  "forumKarmaLedgerCreatePost": "게시글 게시",
+  "forumKarmaLedgerEmpty": "카르마 변동이 아직 없습니다.",
+  "forumKarmaLedgerRollback": "콘텐츠 제거(카르마 조정됨)",
+  "forumKarmaLedgerTitle": "내역",
+  "forumKarmaLedgerVoteCost": "투표 비용",
+  "forumKarmaLedgerVoteRefund": "투표 환불",
+  "forumKarmaLowQualityHint": "물군 이외의 저신호 게시글에는 사유 low_quality(권장 ?10)를 사용하세요. 물군 게시글은 게시 보상을 받지 못합니다.",
+  "forumKarmaNextLevel": "다음 레벨 {karma}",
+  "forumKarmaSettingCheckinFixed": "고정 체크인",
+  "forumKarmaSettingCommentDown": "댓글 싫어요 손실",
+  "forumKarmaSettingCommentUp": "댓글 좋아요 획득",
+  "forumKarmaSettingCreateCommentDailyCap": "일일 댓글 보상 상한",
+  "forumKarmaSettingCreateCommentReward": "댓글 작성 보상",
+  "forumKarmaSettingCreatePostDailyCap": "일일 게시글 보상 상한",
+  "forumKarmaSettingCreatePostReward": "게시글 작성 보상",
+  "forumKarmaSettingMutualThreshold": "상호 좋아요 임계값",
+  "forumKarmaSettingMutualWindowHours": "상호 좋아요 기간(시간)",
+  "forumKarmaSettingPostDown": "게시글 싫어요 손실",
+  "forumKarmaSettingPostUp": "게시글 좋아요 획득",
+  "forumKarmaSettingVoteCostDown": "싫어요 비용",
+  "forumKarmaSettingVoteCostUp": "좋아요 비용",
+  "forumKarmaSoftDemotionHint": "카르마가 레벨 아래로 떨어지면 완화 강등 전에 약 7일간 배지가 유지됩니다.",
+  "forumKarmaStreakLine": "체크인 연속: {streak}",
+  "forumLeaderboardAnonymous": "익명으로 표시",
+  "forumLeaderboardAnonymousHint": "다른 사람에게는 마스킹된 이름이 보입니다. 본인 순위는 볼 수 있습니다.",
+  "forumLeaderboardEmpty": "참여자가 아직 없습니다.",
+  "forumLeaderboardJoinAnonymous": "익명으로 참여",
+  "forumLeaderboardJoinHint": "순위에 참여하면 현황을 볼 수 있습니다. 닉네임 또는 익명으로 표시됩니다.",
+  "forumLeaderboardJoinNamed": "닉네임으로 참여",
+  "forumLeaderboardLeave": "순위에서 나가기",
+  "forumLeaderboardLoadMore": "더 보기",
+  "forumLeaderboardTitle": "카르마 순위",
+  "forumModerationFlavorPending": "검토 대기 중",
+  "forumReportSubmittedFlavor": "기록됨; 응답 대기 중.",
+  "courseGradeStatsAllTeachersPrepared": "모든 교사 데이터가 준비됐습니다. 교사를 선택해 성적 데이터를 보세요.",
+  "courseGradeStatsExamAverage": "평균 시험 점수",
+  "courseGradeStatsFail": "낙제",
+  "courseGradeStatsLoadFailed": "성적 분포를 불러오지 못했습니다: {error}",
+  "courseGradeStatsNoTeachers": "이 과목에는 교사가 없어 성적을 제출할 수 없습니다.",
+  "courseGradeStatsPrivacyThreshold": "프라이버시 보호를 위해 최소 5개 샘플이 필요합니다.",
+  "courseGradeStatsSamples": "{count}개 익명 샘플",
+  "courseGradeStatsSourceHam": "출처: Ham",
+  "courseGradeStatsSourceHint": "데이터 소스 선택",
+  "courseGradeStatsSourceLuotopia": "출처: Luotopia",
+  "courseGradeStatsSubmit": "익명 성적 제출",
+  "courseGradeStatsSubmitFailed": "성적 제출 실패: {error}",
+  "courseGradeStatsSubmitted": "익명 성적을 제출했습니다.",
+  "courseGradeStatsTeacherClear": "교사 지우기",
+  "courseGradeStatsTeacherHint": "해당 성적 데이터를 볼 교사를 선택하세요.",
+  "courseGradeStatsTeacherInputHint": "교사 검색, 또는 비워두면 모두 표시",
+  "courseGradeStatsTeacherSearch": "교사 검색",
+  "courseGradeStatsTotalAverage": "평균 총점",
+  "courseGradeStatsUsualAverage": "평균 평소 점수",
+  "forumKarmaLevelTitle0": "신참",
+  "forumKarmaLevelTitle1": "견습",
+  "forumKarmaLevelTitle10": "신화",
+  "forumKarmaLevelTitle2": "단골",
+  "forumKarmaLevelTitle3": "활동",
+  "forumKarmaLevelTitle4": "숙련",
+  "forumKarmaLevelTitle5": "전문",
+  "forumKarmaLevelTitle6": "원로",
+  "forumKarmaLevelTitle7": "광휘",
+  "forumKarmaLevelTitle8": "등대",
+  "forumKarmaLevelTitle9": "전설"
 }

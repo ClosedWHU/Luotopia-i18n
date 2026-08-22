@@ -520,6 +520,7 @@
   "settingsPrivacyDiagnosticsTitle": "Диагностика и аналитика",
   "settingsPrivacyDiagnosticsSubtitle": "Эти параметры помогают улучшать Luotopia. Их можно изменить в любое время. Данные собираются только при включенном переключателе.",
   "settingsPrivacyDiagnosticsUnsupported": "Диагностика доступна только в сборках Android и iOS с Firebase.",
+  "settingsPrivacyDiagnosticsDebugLocked": "Сборки Debug не собирают телеметрию. Эти переключатели действуют в сборках Release и сохраняют ваш выбор.",
   "settingsPrivacyAnalyticsTitle": "Аналитика использования",
   "settingsPrivacyAnalyticsSubtitle": "Анонимные данные об использовании функций для улучшения приложения",
   "settingsPrivacyCrashTitle": "Отчеты о сбоях",
@@ -937,7 +938,6 @@
   "aiOpenDraftPage": "Открыть черновик",
   "aiSending": "Отправка…",
   "aiSend": "Отправить",
-  "aiStop": "Стоп",
   "aiClearHistory": "Очистить историю",
   "aiRename": "Переименовать",
   "aiDelete": "Удалить",
@@ -967,24 +967,6 @@
   "aiConfirmationDecline": "Отменить",
   "aiConfirmationSubmit": "Отправить решения",
   "aiConfirmationDecisionRequired": "Для каждого действия выберите «Разрешить» или «Отменить».",
-  "aiAutomation": "Автоматизация",
-  "aiAutomationManual": "Вручную",
-  "aiAutomationSemiAutomatic": "Полуавтоматически",
-  "aiAutomationFullyAutomatic": "Полностью автоматически",
-  "aiAutomationManualDescription": "Каждое действие выполняется после вашего подтверждения.",
-  "aiAutomationSemiAutomaticDescription": "Операции записи агента по-прежнему требуют вашего подтверждения; остальные подтверждаются автоматически.",
-  "aiAutomationFullyAutomaticDescription": "Все действия подтверждаются автоматически, полная история сохраняется.",
-  "aiConfirmationAutoApproved": "Автоматически подтверждено действий: {count} ({mode})",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "Ведомость защищена замком конфиденциальности",
   "scorePageClickToUnlock": "Нажмите, чтобы разблокировать",
   "scorePageNoLocalScore": "Нет локальных оценок",
@@ -1661,11 +1643,6 @@
   "itemDetailScoreFinal": "Экзамен",
   "itemDetailSectionDistribution": "Распределение оценок",
   "itemDetailSectionReviews": "Отзывы",
-  "courseGradeStatsTeacherHint": "Выберите преподавателя, чтобы посмотреть соответствующие данные об оценках.",
-  "courseGradeStatsTeacherInputHint": "Введите имя для поиска или оставьте поле пустым, чтобы показать всех преподавателей",
-  "courseGradeStatsTeacherClear": "Очистить преподавателя",
-  "courseGradeStatsTeacherSearch": "Найти преподавателя",
-  "courseGradeStatsAllTeachersPrepared": "Данные обо всех преподавателях готовы. Выберите преподавателя, чтобы посмотреть его оценки.",
   "itemDetailMockReview1": "Преподаватель объясняет ясно, материалы хорошие, оценки справедливые. Упражнения на занятиях очень помогают.",
   "itemDetailMockReview2": "Содержание плотное, экзамен сложный. Домашние задания умеренные — лучше готовиться заранее.",
   "itemDetailMockReview3": "Очень рекомендую! Курс прояснил направление специальности, лаборатории удачные.",
@@ -2761,13 +2738,9 @@
   "settingsDevCampusDiagnosticsSubtitle": "Отслеживание сеансов почты и сообщений, запросов и парсеров",
   "settingsDevLifecycleDiagnostics": "Диагностика жизненного цикла приложения",
   "settingsDevLifecycleDiagnosticsSubtitle": "Отслеживание горячих обновлений, обновления местоположения и управления жизненным циклом",
-  "courseGradeStatsSourceHam": "Источник: Ham",
-  "courseGradeStatsSourceLuotopia": "Источник: Luotopia",
-  "courseGradeStatsSourceHint": "Выберите источник данных",
   "courseGradeStatsSourceLuotopiaShort": "Luotopia",
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
-  "courseGradeStatsLoadFailed": "Не удалось загрузить распределение оценок: {error}",
   "@courseGradeStatsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2775,10 +2748,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "Отправить анонимную оценку",
-  "courseGradeStatsNoTeachers": "Для этого курса нет преподавателей, поэтому оценку нельзя отправить.",
-  "courseGradeStatsPrivacyThreshold": "Для защиты конфиденциальности необходимо не менее 5 образцов.",
-  "courseGradeStatsSamples": "Анонимных образцов: {count}",
   "@courseGradeStatsSamples": {
     "placeholders": {
       "count": {
@@ -2787,14 +2756,8 @@
     }
   },
   "courseGradeStatsMedian": "Median score",
-  "courseGradeStatsTotalAverage": "Средний итоговый балл",
-  "courseGradeStatsUsualAverage": "Средний текущий балл",
-  "courseGradeStatsExamAverage": "Средний экзаменационный балл",
   "courseGradeStatsDistribution": "Распределение оценок",
-  "courseGradeStatsFail": "Неудовлетворительно",
   "courseGradeStatsTotalScore": "Итоговый балл (0 - 100)",
-  "courseGradeStatsSubmitted": "Анонимная оценка отправлена.",
-  "courseGradeStatsSubmitFailed": "Не удалось отправить оценку: {error}",
   "@courseGradeStatsSubmitFailed": {
     "placeholders": {
       "error": {
@@ -3004,8 +2967,6 @@
   "forumReport": "Пожаловаться",
   "forumReportReason": "Причина",
   "forumReportSubmitted": "Жалоба отправлена.",
-  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
-  "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
     "placeholders": {
@@ -3014,7 +2975,6 @@
       }
     }
   },
-  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3033,17 +2993,6 @@
       }
     }
   },
-  "forumKarmaLevelTitle0": "Newcomer",
-  "forumKarmaLevelTitle1": "Apprentice",
-  "forumKarmaLevelTitle2": "Regular",
-  "forumKarmaLevelTitle3": "Active",
-  "forumKarmaLevelTitle4": "Adept",
-  "forumKarmaLevelTitle5": "Expert",
-  "forumKarmaLevelTitle6": "Elder",
-  "forumKarmaLevelTitle7": "Luminary",
-  "forumKarmaLevelTitle8": "Beacon",
-  "forumKarmaLevelTitle9": "Legend",
-  "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
     "placeholders": {
@@ -3055,7 +3004,6 @@
       }
     }
   },
-  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
     "placeholders": {
       "level": {
@@ -3069,12 +3017,6 @@
       }
     }
   },
-  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
-  "forumKarmaHideExact": "Hide exact Karma",
-  "forumKarmaHideExactHint": "Others only see your level, not the number.",
-  "forumLeaderboardLoadMore": "Load more",
-  "forumKarmaDailyBudget": "Daily allotment",
-  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
     "placeholders": {
       "up": {
@@ -3085,11 +3027,6 @@
       }
     }
   },
-  "forumKarmaInsufficient": "Insufficient Karma",
-  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
-  "forumCheckinTodo": "Отметиться",
-  "forumCheckinTitle": "Daily check-in",
-  "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
     "placeholders": {
       "amount": {
@@ -3097,10 +3034,6 @@
       }
     }
   },
-  "forumCheckinRandom": "Trial of chance",
-  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
-  "forumCheckinDone": "Already checked in today",
-  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
     "placeholders": {
       "amount": {
@@ -3111,18 +3044,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
-  "forumModerationFlavorPending": "Pending review",
-  "forumKarmaLedgerTitle": "Ledger",
-  "forumKarmaLedgerContentUp": "Received upvote",
-  "forumKarmaLedgerContentDown": "Received downvote",
-  "forumKarmaLedgerVoteCost": "Vote cost",
-  "forumKarmaLedgerVoteRefund": "Vote refund",
-  "forumKarmaLedgerCheckin": "Check-in",
-  "forumKarmaLedgerCheckinStreak": "Streak bonus",
-  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
-  "forumKarmaLedgerAdmin": "Admin adjustment",
-  "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
     "placeholders": {
       "karma": {
@@ -3130,7 +3051,6 @@
       }
     }
   },
-  "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
     "placeholders": {
       "streak": {
@@ -3138,11 +3058,6 @@
       }
     }
   },
-  "forumKarmaLedgerEmpty": "No karma movements yet.",
-  "forumKarmaAdminAdjust": "Adjust Karma",
-  "forumKarmaAdminDelta": "Delta",
-  "forumKarmaAdminReason": "Reason",
-  "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
     "placeholders": {
       "karma": {
@@ -3150,27 +3065,6 @@
       }
     }
   },
-  "forumLeaderboardTitle": "Karma ranking",
-  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
-  "forumLeaderboardJoinNamed": "Join with nickname",
-  "forumLeaderboardJoinAnonymous": "Join anonymously",
-  "forumLeaderboardLeave": "Leave ranking",
-  "forumLeaderboardAnonymous": "Appear anonymously",
-  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
-  "forumLeaderboardEmpty": "No participants yet.",
-  "forumAdminLogTitle": "Moderation notices",
-  "forumAdminLogSearchHint": "Search summaries or details",
-  "forumAdminLogEmpty": "No public moderation notices yet.",
-  "forumAdminLogLoadMore": "Load more",
-  "forumAdminLogActionBan": "Ban",
-  "forumAdminLogActionUnban": "Unban",
-  "forumAdminLogActionMute": "Mute",
-  "forumAdminLogActionUnmute": "Unmute",
-  "forumAdminLogActionKarma": "Karma adjust",
-  "forumAdminLogActionHide": "Hide post",
-  "forumAdminLogActionDelete": "Delete post",
-  "forumAdminLogActionRestore": "Restore post",
-  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "Не удалось отправить жалобу: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3494,24 +3388,6 @@
   "forumAppealReason": "Текст жалобы",
   "forumAppealSubmitted": "Жалоба отправлена.",
   "forumModeration": "Модерация",
-  "forumKarmaEconomySettings": "Karma economy",
-  "forumKarmaEconomySaved": "Karma settings saved.",
-  "forumKarmaSettingPostUp": "Post upvote gain",
-  "forumKarmaSettingPostDown": "Post downvote loss",
-  "forumKarmaSettingCommentUp": "Comment upvote gain",
-  "forumKarmaSettingCommentDown": "Comment downvote loss",
-  "forumKarmaSettingVoteCostUp": "Upvote cost",
-  "forumKarmaSettingVoteCostDown": "Downvote cost",
-  "forumKarmaSettingCheckinFixed": "Fixed check-in",
-  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
-  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
-  "forumKarmaSettingCreatePostReward": "Create post reward",
-  "forumKarmaSettingCreateCommentReward": "Create comment reward",
-  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
-  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
-  "forumKarmaLedgerCreatePost": "Published a post",
-  "forumKarmaLedgerCreateComment": "Posted a reply",
-  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "Одобрить",
   "forumHide": "Скрыть",
   "forumDelete": "Удалить",
@@ -3555,6 +3431,7 @@
   "sportsOrderFilterReserved": "Забронированные",
   "sportsOrderFilterHistory": "История",
   "whuLoginMethodNotRecommended": "Не рекомендуется",
+  "whuLoginMethodUndergraduateOnly": "Только для бакалавров",
   "whuLoginMethodApiError": "Сервис недоступен",
   "forumModerationReports": "Жалобы",
   "forumModerationAppeals": "Обжалования",
@@ -4076,5 +3953,111 @@
   "aiToolTraceDetails": "Сведения о вызовах инструментов",
   "aiToolTraceStatusSucceeded": "Успешно",
   "aiToolTraceStatusFailed": "Ошибка",
-  "aiToolTraceStatusCancelled": "Не завершено"
+  "aiToolTraceStatusCancelled": "Не завершено",
+  "forumAdminLogActionApprove": "Одобрить пост",
+  "forumAdminLogActionBan": "Бан",
+  "forumAdminLogActionDelete": "Удалить пост",
+  "forumAdminLogActionHide": "Скрыть пост",
+  "forumAdminLogActionKarma": "Корректировка кармы",
+  "forumAdminLogActionMute": "Мут",
+  "forumAdminLogActionRestore": "Восстановить пост",
+  "forumAdminLogActionUnban": "Разбан",
+  "forumAdminLogActionUnmute": "Снять мут",
+  "forumAdminLogEmpty": "Публичных уведомлений модерации пока нет.",
+  "forumAdminLogLoadMore": "Загрузить ещё",
+  "forumAdminLogSearchHint": "Поиск по сводкам или деталям",
+  "forumAdminLogTitle": "Уведомления модерации",
+  "forumAppealFlavor": "Запросить пересмотр",
+  "forumCheckinDone": "Сегодня уже отметились",
+  "forumCheckinFixed": "Стабильный путь (+{amount})",
+  "forumCheckinRandom": "Испытать удачу",
+  "forumCheckinRandomHint": "Средний результат на дистанции немного ниже стабильного пути",
+  "forumCheckinSuccess": "+{amount} Кармы (серия {streak})",
+  "forumCheckinTitle": "Ежедневная отметка",
+  "forumCheckinTodo": "Отметиться",
+  "forumKarma": "Карма",
+  "forumKarmaAdminAdjust": "Изменить Карму",
+  "forumKarmaAdminDelta": "Дельта",
+  "forumKarmaAdminReason": "Причина",
+  "forumKarmaAdminSuccess": "Карма обновлена до {karma}",
+  "forumKarmaAuthorMeta": "Lv{level} · Карма {karma}",
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · Карма {karma}",
+  "forumKarmaBudgetExhausted": "Дневной лимит исчерпан",
+  "forumKarmaBudgetLine": "Лайки {up} · Дизлайки {down}",
+  "forumKarmaDailyBudget": "Дневной лимит",
+  "forumKarmaEconomySaved": "Настройки кармы сохранены.",
+  "forumKarmaEconomySettings": "Экономика кармы",
+  "forumKarmaHideExact": "Скрыть точную Карму",
+  "forumKarmaHideExactHint": "Другие видят только ваш уровень, а не число.",
+  "forumKarmaInsufficient": "Недостаточно Кармы",
+  "forumKarmaLedgerAdmin": "Корректировка администратора",
+  "forumKarmaLedgerCheckin": "Отметка",
+  "forumKarmaLedgerCheckinStreak": "Бонус за серию",
+  "forumKarmaLedgerContentDown": "Получен дизлайк",
+  "forumKarmaLedgerContentUp": "Получен лайк",
+  "forumKarmaLedgerCreateComment": "Опубликован ответ",
+  "forumKarmaLedgerCreatePost": "Опубликован пост",
+  "forumKarmaLedgerEmpty": "Движений кармы пока нет.",
+  "forumKarmaLedgerRollback": "Контент удалён (карма скорректирована)",
+  "forumKarmaLedgerTitle": "Журнал",
+  "forumKarmaLedgerVoteCost": "Стоимость голоса",
+  "forumKarmaLedgerVoteRefund": "Возврат голоса",
+  "forumKarmaLowQualityHint": "Для низкосигнальных постов вне 水军 используйте причину low_quality (предложение ?10). Посты 水军 не получают награды за публикацию.",
+  "forumKarmaNextLevel": "Следующий уровень при {karma}",
+  "forumKarmaSettingCheckinFixed": "Фиксированная отметка",
+  "forumKarmaSettingCommentDown": "Потеря за дизлайк комментария",
+  "forumKarmaSettingCommentUp": "Прибавка за лайк комментария",
+  "forumKarmaSettingCreateCommentDailyCap": "Дневной лимит награды за комментарии",
+  "forumKarmaSettingCreateCommentReward": "Награда за создание комментария",
+  "forumKarmaSettingCreatePostDailyCap": "Дневной лимит награды за посты",
+  "forumKarmaSettingCreatePostReward": "Награда за создание поста",
+  "forumKarmaSettingMutualThreshold": "Порог взаимного лайка",
+  "forumKarmaSettingMutualWindowHours": "Окно взаимного лайка (часы)",
+  "forumKarmaSettingPostDown": "Потеря за дизлайк поста",
+  "forumKarmaSettingPostUp": "Прибавка за лайк поста",
+  "forumKarmaSettingVoteCostDown": "Стоимость дизлайка",
+  "forumKarmaSettingVoteCostUp": "Стоимость лайка",
+  "forumKarmaSoftDemotionHint": "Если Карма опустится ниже уровня, значок сохраняется около 7 дней перед мягким понижением.",
+  "forumKarmaStreakLine": "Серия отметок: {streak}",
+  "forumLeaderboardAnonymous": "Отображаться анонимно",
+  "forumLeaderboardAnonymousHint": "Другие видят скрытое имя; вы продолжаете видеть свою позицию.",
+  "forumLeaderboardEmpty": "Участников пока нет.",
+  "forumLeaderboardJoinAnonymous": "Вступить анонимно",
+  "forumLeaderboardJoinHint": "Вступите в рейтинг, чтобы видеть позиции. Можно отображаться под ником или анонимно.",
+  "forumLeaderboardJoinNamed": "Вступить с ником",
+  "forumLeaderboardLeave": "Покинуть рейтинг",
+  "forumLeaderboardLoadMore": "Загрузить ещё",
+  "forumLeaderboardTitle": "Рейтинг кармы",
+  "forumModerationFlavorPending": "На модерации",
+  "forumReportSubmittedFlavor": "Записано; ожидание ответа.",
+  "courseGradeStatsAllTeachersPrepared": "Данные всех преподавателей готовы. Выберите преподавателя для просмотра оценок.",
+  "courseGradeStatsExamAverage": "Средний балл за экзамен",
+  "courseGradeStatsFail": "Незачёт",
+  "courseGradeStatsLoadFailed": "Не удалось загрузить распределение оценок: {error}",
+  "courseGradeStatsNoTeachers": "Для этого курса нет преподавателей, поэтому оценки отправить нельзя.",
+  "courseGradeStatsPrivacyThreshold": "Для защиты приватности требуется минимум 5 образцов.",
+  "courseGradeStatsSamples": "{count} анонимных образцов",
+  "courseGradeStatsSourceHam": "Источник: Ham",
+  "courseGradeStatsSourceHint": "Выберите источник данных",
+  "courseGradeStatsSourceLuotopia": "Источник: Luotopia",
+  "courseGradeStatsSubmit": "Отправить анонимную оценку",
+  "courseGradeStatsSubmitFailed": "Не удалось отправить оценку: {error}",
+  "courseGradeStatsSubmitted": "Анонимная оценка отправлена.",
+  "courseGradeStatsTeacherClear": "Очистить преподавателя",
+  "courseGradeStatsTeacherHint": "Выберите преподавателя для просмотра соответствующих данных об оценках.",
+  "courseGradeStatsTeacherInputHint": "Поиск преподавателей, или оставьте пустым для показа всех",
+  "courseGradeStatsTeacherSearch": "Поиск преподавателя",
+  "courseGradeStatsTotalAverage": "Средний итоговый балл",
+  "courseGradeStatsUsualAverage": "Средний текущий балл",
+  "forumKarmaLevelTitle0": "Новичок",
+  "forumKarmaLevelTitle1": "Ученик",
+  "forumKarmaLevelTitle10": "Миф",
+  "forumKarmaLevelTitle2": "Постоянный",
+  "forumKarmaLevelTitle3": "Активный",
+  "forumKarmaLevelTitle4": "Умелец",
+  "forumKarmaLevelTitle5": "Эксперт",
+  "forumKarmaLevelTitle6": "Старейшина",
+  "forumKarmaLevelTitle7": "Светило",
+  "forumKarmaLevelTitle8": "Маяк",
+  "forumKarmaLevelTitle9": "Легенда"
 }

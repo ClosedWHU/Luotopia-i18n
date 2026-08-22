@@ -522,6 +522,7 @@
   "settingsPrivacyDiagnosticsTitle": "Diagnóstico e análises",
   "settingsPrivacyDiagnosticsSubtitle": "Estas opções ajudam a melhorar o Luotopia. Você pode alterá-las a qualquer momento. Os dados só são coletados quando uma opção está ativada.",
   "settingsPrivacyDiagnosticsUnsupported": "O diagnóstico só está disponível em compilações Android e iOS com Firebase.",
+  "settingsPrivacyDiagnosticsDebugLocked": "Builds de Debug não coletam telemetria. Estes interruptores entram em vigor nas builds de Release e mantêm a sua escolha guardada.",
   "settingsPrivacyAnalyticsTitle": "Análise de uso",
   "settingsPrivacyAnalyticsSubtitle": "Uso anônimo de recursos para ajudar a melhorar o aplicativo",
   "settingsPrivacyCrashTitle": "Relatórios de falhas",
@@ -939,7 +940,6 @@
   "aiOpenDraftPage": "Abrir rascunho",
   "aiSending": "Enviando…",
   "aiSend": "Enviar",
-  "aiStop": "Parar",
   "aiClearHistory": "Limpar histórico",
   "aiRename": "Renomear",
   "aiDelete": "Excluir",
@@ -969,24 +969,6 @@
   "aiConfirmationDecline": "Cancelar",
   "aiConfirmationSubmit": "Enviar decisões",
   "aiConfirmationDecisionRequired": "Escolha aprovar ou cancelar para cada ação.",
-  "aiAutomation": "Automação",
-  "aiAutomationManual": "Manual",
-  "aiAutomationSemiAutomatic": "Semiautomático",
-  "aiAutomationFullyAutomatic": "Totalmente automático",
-  "aiAutomationManualDescription": "Cada ação aguarda sua confirmação antes de ser executada.",
-  "aiAutomationSemiAutomaticDescription": "As ações de escrita do Agent ainda aguardam sua confirmação; as demais são confirmadas automaticamente.",
-  "aiAutomationFullyAutomaticDescription": "Cada ação é confirmada automaticamente, com registro completo.",
-  "aiConfirmationAutoApproved": "{count} ações confirmadas automaticamente ({mode})",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "O histórico está protegido por bloqueio de privacidade",
   "scorePageClickToUnlock": "Toque para desbloquear",
   "scorePageNoLocalScore": "Sem notas locais",
@@ -1687,11 +1669,6 @@
   "itemDetailScoreFinal": "Final",
   "itemDetailSectionDistribution": "Distribuição de notas",
   "itemDetailSectionReviews": "Avaliações",
-  "courseGradeStatsTeacherHint": "Escolha um professor para consultar os dados de notas correspondentes.",
-  "courseGradeStatsTeacherInputHint": "Pesquise pelo nome ou deixe vazio para ver todos os professores",
-  "courseGradeStatsTeacherClear": "Limpar professor",
-  "courseGradeStatsTeacherSearch": "Buscar professor",
-  "courseGradeStatsAllTeachersPrepared": "Os dados de todos os professores estão prontos. Escolha um para ver suas notas.",
   "itemDetailCourseInsightsTitle": "Notas e avaliações reais da disciplina",
   "itemDetailCourseInsightsDescription": "Veja as estatísticas do Luotopia, os dados de notas do Ham e as avaliações dos alunos. As disciplinas do horário são associadas pelo nome.",
   "itemDetailCourseInsightsMatching": "Associando esta disciplina do horário...",
@@ -2801,13 +2778,9 @@
   "settingsDevCampusDiagnosticsSubtitle": "Monitoramento das sessões da caixa de correio e de mensagens, das solicitações e dos analisadores",
   "settingsDevLifecycleDiagnostics": "Diagnóstico do ciclo de vida do aplicativo",
   "settingsDevLifecycleDiagnosticsSubtitle": "Monitoramento da atualização a quente, da atualização da localização e do fluxo de controle do ciclo de vida",
-  "courseGradeStatsSourceHam": "Fonte: Ham",
-  "courseGradeStatsSourceLuotopia": "Fonte: Luotopia",
-  "courseGradeStatsSourceHint": "Escolha a fonte dos dados",
   "courseGradeStatsSourceLuotopiaShort": "Luotopia",
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
-  "courseGradeStatsLoadFailed": "Falha ao carregar a distribuição de notas: {error}",
   "@courseGradeStatsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2815,10 +2788,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "Enviar nota anônima",
-  "courseGradeStatsNoTeachers": "Não há professores disponíveis para esta disciplina; por isso, não é possível enviar notas.",
-  "courseGradeStatsPrivacyThreshold": "São necessárias pelo menos 5 amostras para proteger a privacidade.",
-  "courseGradeStatsSamples": "{count} amostras anônimas",
   "@courseGradeStatsSamples": {
     "placeholders": {
       "count": {
@@ -2827,14 +2796,8 @@
     }
   },
   "courseGradeStatsMedian": "Mediana da nota",
-  "courseGradeStatsTotalAverage": "Média da nota total",
-  "courseGradeStatsUsualAverage": "Média da avaliação contínua",
-  "courseGradeStatsExamAverage": "Média da prova",
   "courseGradeStatsDistribution": "Distribuição de notas",
-  "courseGradeStatsFail": "Reprovado",
   "courseGradeStatsTotalScore": "Nota total (0 a 100)",
-  "courseGradeStatsSubmitted": "Nota anônima enviada.",
-  "courseGradeStatsSubmitFailed": "Falha ao enviar nota: {error}",
   "@courseGradeStatsSubmitFailed": {
     "placeholders": {
       "error": {
@@ -3056,8 +3019,6 @@
   "forumReport": "Denunciar",
   "forumReportReason": "Motivo",
   "forumReportSubmitted": "Denúncia enviada.",
-  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
-  "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
     "placeholders": {
@@ -3066,7 +3027,6 @@
       }
     }
   },
-  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3085,17 +3045,6 @@
       }
     }
   },
-  "forumKarmaLevelTitle0": "Newcomer",
-  "forumKarmaLevelTitle1": "Apprentice",
-  "forumKarmaLevelTitle2": "Regular",
-  "forumKarmaLevelTitle3": "Active",
-  "forumKarmaLevelTitle4": "Adept",
-  "forumKarmaLevelTitle5": "Expert",
-  "forumKarmaLevelTitle6": "Elder",
-  "forumKarmaLevelTitle7": "Luminary",
-  "forumKarmaLevelTitle8": "Beacon",
-  "forumKarmaLevelTitle9": "Legend",
-  "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
     "placeholders": {
@@ -3107,7 +3056,6 @@
       }
     }
   },
-  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
     "placeholders": {
       "level": {
@@ -3121,12 +3069,6 @@
       }
     }
   },
-  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
-  "forumKarmaHideExact": "Hide exact Karma",
-  "forumKarmaHideExactHint": "Others only see your level, not the number.",
-  "forumLeaderboardLoadMore": "Load more",
-  "forumKarmaDailyBudget": "Daily allotment",
-  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
     "placeholders": {
       "up": {
@@ -3137,11 +3079,6 @@
       }
     }
   },
-  "forumKarmaInsufficient": "Insufficient Karma",
-  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
-  "forumCheckinTodo": "Check-in",
-  "forumCheckinTitle": "Daily check-in",
-  "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
     "placeholders": {
       "amount": {
@@ -3149,10 +3086,6 @@
       }
     }
   },
-  "forumCheckinRandom": "Trial of chance",
-  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
-  "forumCheckinDone": "Already checked in today",
-  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
     "placeholders": {
       "amount": {
@@ -3163,18 +3096,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
-  "forumModerationFlavorPending": "Pending review",
-  "forumKarmaLedgerTitle": "Ledger",
-  "forumKarmaLedgerContentUp": "Received upvote",
-  "forumKarmaLedgerContentDown": "Received downvote",
-  "forumKarmaLedgerVoteCost": "Vote cost",
-  "forumKarmaLedgerVoteRefund": "Vote refund",
-  "forumKarmaLedgerCheckin": "Check-in",
-  "forumKarmaLedgerCheckinStreak": "Streak bonus",
-  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
-  "forumKarmaLedgerAdmin": "Admin adjustment",
-  "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
     "placeholders": {
       "karma": {
@@ -3182,7 +3103,6 @@
       }
     }
   },
-  "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
     "placeholders": {
       "streak": {
@@ -3190,11 +3110,6 @@
       }
     }
   },
-  "forumKarmaLedgerEmpty": "No karma movements yet.",
-  "forumKarmaAdminAdjust": "Adjust Karma",
-  "forumKarmaAdminDelta": "Delta",
-  "forumKarmaAdminReason": "Reason",
-  "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
     "placeholders": {
       "karma": {
@@ -3202,27 +3117,6 @@
       }
     }
   },
-  "forumLeaderboardTitle": "Karma ranking",
-  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
-  "forumLeaderboardJoinNamed": "Join with nickname",
-  "forumLeaderboardJoinAnonymous": "Join anonymously",
-  "forumLeaderboardLeave": "Leave ranking",
-  "forumLeaderboardAnonymous": "Appear anonymously",
-  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
-  "forumLeaderboardEmpty": "No participants yet.",
-  "forumAdminLogTitle": "Moderation notices",
-  "forumAdminLogSearchHint": "Search summaries or details",
-  "forumAdminLogEmpty": "No public moderation notices yet.",
-  "forumAdminLogLoadMore": "Load more",
-  "forumAdminLogActionBan": "Ban",
-  "forumAdminLogActionUnban": "Unban",
-  "forumAdminLogActionMute": "Mute",
-  "forumAdminLogActionUnmute": "Unmute",
-  "forumAdminLogActionKarma": "Karma adjust",
-  "forumAdminLogActionHide": "Hide post",
-  "forumAdminLogActionDelete": "Delete post",
-  "forumAdminLogActionRestore": "Restore post",
-  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "Falha ao enviar denúncia: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3238,24 +3132,6 @@
   "forumAppealReason": "Motivo do recurso",
   "forumAppealSubmitted": "Recurso enviado.",
   "forumModeration": "Moderação",
-  "forumKarmaEconomySettings": "Karma economy",
-  "forumKarmaEconomySaved": "Karma settings saved.",
-  "forumKarmaSettingPostUp": "Post upvote gain",
-  "forumKarmaSettingPostDown": "Post downvote loss",
-  "forumKarmaSettingCommentUp": "Comment upvote gain",
-  "forumKarmaSettingCommentDown": "Comment downvote loss",
-  "forumKarmaSettingVoteCostUp": "Upvote cost",
-  "forumKarmaSettingVoteCostDown": "Downvote cost",
-  "forumKarmaSettingCheckinFixed": "Fixed check-in",
-  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
-  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
-  "forumKarmaSettingCreatePostReward": "Create post reward",
-  "forumKarmaSettingCreateCommentReward": "Create comment reward",
-  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
-  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
-  "forumKarmaLedgerCreatePost": "Published a post",
-  "forumKarmaLedgerCreateComment": "Posted a reply",
-  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "Aprovar",
   "forumHide": "Ocultar",
   "forumDelete": "Excluir",
@@ -3599,6 +3475,7 @@
   "sportsOrderFilterReserved": "Reservadas",
   "sportsOrderFilterHistory": "Histórico",
   "whuLoginMethodNotRecommended": "Não recomendado",
+  "whuLoginMethodUndergraduateOnly": "Apenas graduacao",
   "whuLoginMethodApiError": "Serviço indisponível",
   "forumModerationReports": "Denúncias",
   "forumModerationAppeals": "Recursos",
@@ -4086,5 +3963,111 @@
   "aiToolTraceDetails": "Detalhes das chamadas de ferramentas",
   "aiToolTraceStatusSucceeded": "Bem-sucedida",
   "aiToolTraceStatusFailed": "Falhou",
-  "aiToolTraceStatusCancelled": "Incompleta"
+  "aiToolTraceStatusCancelled": "Incompleta",
+  "forumAdminLogActionApprove": "Aprovar publicação",
+  "forumAdminLogActionBan": "Banir",
+  "forumAdminLogActionDelete": "Eliminar publicação",
+  "forumAdminLogActionHide": "Ocultar publicação",
+  "forumAdminLogActionKarma": "Ajuste de carma",
+  "forumAdminLogActionMute": "Silenciar",
+  "forumAdminLogActionRestore": "Restaurar publicação",
+  "forumAdminLogActionUnban": "Desbanir",
+  "forumAdminLogActionUnmute": "Reativar som",
+  "forumAdminLogEmpty": "Ainda não há avisos públicos de moderação.",
+  "forumAdminLogLoadMore": "Carregar mais",
+  "forumAdminLogSearchHint": "Pesquisar resumos ou detalhes",
+  "forumAdminLogTitle": "Avisos de moderação",
+  "forumAppealFlavor": "Pedir reavaliação",
+  "forumCheckinDone": "Já fez check-in hoje",
+  "forumCheckinFixed": "Caminho fixo (+{amount})",
+  "forumCheckinRandom": "Tentativa de sorte",
+  "forumCheckinRandomHint": "A média a longo prazo é ligeiramente inferior ao caminho fixo",
+  "forumCheckinSuccess": "+{amount} Carma (sequência {streak})",
+  "forumCheckinTitle": "Check-in diário",
+  "forumCheckinTodo": "Check-in",
+  "forumKarma": "Carma",
+  "forumKarmaAdminAdjust": "Ajustar Carma",
+  "forumKarmaAdminDelta": "Delta",
+  "forumKarmaAdminReason": "Motivo",
+  "forumKarmaAdminSuccess": "Carma atualizado para {karma}",
+  "forumKarmaAuthorMeta": "Lv{level} · Carma {karma}",
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · Carma {karma}",
+  "forumKarmaBudgetExhausted": "Quota diária esgotada",
+  "forumKarmaBudgetLine": "Gostos {up} · Não gostos {down}",
+  "forumKarmaDailyBudget": "Quota diária",
+  "forumKarmaEconomySaved": "Definições de carma guardadas.",
+  "forumKarmaEconomySettings": "Economia de carma",
+  "forumKarmaHideExact": "Ocultar Carma exato",
+  "forumKarmaHideExactHint": "Os outros veem apenas o seu nível, não o número.",
+  "forumKarmaInsufficient": "Carma insuficiente",
+  "forumKarmaLedgerAdmin": "Ajuste do administrador",
+  "forumKarmaLedgerCheckin": "Check-in",
+  "forumKarmaLedgerCheckinStreak": "Bónus de sequência",
+  "forumKarmaLedgerContentDown": "Não gosto recebido",
+  "forumKarmaLedgerContentUp": "Gosto recebido",
+  "forumKarmaLedgerCreateComment": "Publicou uma resposta",
+  "forumKarmaLedgerCreatePost": "Publicou uma publicação",
+  "forumKarmaLedgerEmpty": "Ainda não há movimentos de carma.",
+  "forumKarmaLedgerRollback": "Conteúdo removido (carma ajustado)",
+  "forumKarmaLedgerTitle": "Registo",
+  "forumKarmaLedgerVoteCost": "Custo do voto",
+  "forumKarmaLedgerVoteRefund": "Reembolso do voto",
+  "forumKarmaLowQualityHint": "Para publicações de baixo sinal fora do 水军, use o motivo low_quality (sugerido ?10). Publicações de水军 não recebem recompensa de publicação.",
+  "forumKarmaNextLevel": "Próximo nível em {karma}",
+  "forumKarmaSettingCheckinFixed": "Check-in fixo",
+  "forumKarmaSettingCommentDown": "Perda de não gosto em comentário",
+  "forumKarmaSettingCommentUp": "Ganho de gosto em comentário",
+  "forumKarmaSettingCreateCommentDailyCap": "Limite diário de recompensa de comentário",
+  "forumKarmaSettingCreateCommentReward": "Recompensa de criar comentário",
+  "forumKarmaSettingCreatePostDailyCap": "Limite diário de recompensa de publicação",
+  "forumKarmaSettingCreatePostReward": "Recompensa de criar publicação",
+  "forumKarmaSettingMutualThreshold": "Limiar de gosto mútuo",
+  "forumKarmaSettingMutualWindowHours": "Janela de gosto mútuo (horas)",
+  "forumKarmaSettingPostDown": "Perda de não gosto em publicação",
+  "forumKarmaSettingPostUp": "Ganho de gosto em publicação",
+  "forumKarmaSettingVoteCostDown": "Custo de não gosto",
+  "forumKarmaSettingVoteCostUp": "Custo de gosto",
+  "forumKarmaSoftDemotionHint": "Se o Carma cair abaixo de um nível, o emblema é mantido por cerca de 7 dias antes da rebaixa suave.",
+  "forumKarmaStreakLine": "Sequência de check-in: {streak}",
+  "forumLeaderboardAnonymous": "Aparecer anonimamente",
+  "forumLeaderboardAnonymousHint": "Os outros veem um nome oculto; você continua a ver a sua posição.",
+  "forumLeaderboardEmpty": "Ainda não há participantes.",
+  "forumLeaderboardJoinAnonymous": "Entrar anonimamente",
+  "forumLeaderboardJoinHint": "Junte-se ao ranking para ver a classificação. Pode aparecer com o seu nome ou anonimamente.",
+  "forumLeaderboardJoinNamed": "Entrar com nome",
+  "forumLeaderboardLeave": "Sair do ranking",
+  "forumLeaderboardLoadMore": "Carregar mais",
+  "forumLeaderboardTitle": "Ranking de carma",
+  "forumModerationFlavorPending": "Em revisão",
+  "forumReportSubmittedFlavor": "Registado; a aguardar resposta.",
+  "courseGradeStatsAllTeachersPrepared": "Todos os dados de professores estão prontos. Escolha um professor para ver os dados de notas.",
+  "courseGradeStatsExamAverage": "Média da nota de exame",
+  "courseGradeStatsFail": "Reprovado",
+  "courseGradeStatsLoadFailed": "Falha ao carregar a distribuição de notas: {error}",
+  "courseGradeStatsNoTeachers": "Não há professores disponíveis para esta disciplina, pelo que as notas não podem ser submetidas.",
+  "courseGradeStatsPrivacyThreshold": "São necessárias pelo menos 5 amostras para proteger a privacidade.",
+  "courseGradeStatsSamples": "{count} amostras anónimas",
+  "courseGradeStatsSourceHam": "Origem: Ham",
+  "courseGradeStatsSourceHint": "Escolha uma origem de dados",
+  "courseGradeStatsSourceLuotopia": "Origem: Luotopia",
+  "courseGradeStatsSubmit": "Submeter nota anónima",
+  "courseGradeStatsSubmitFailed": "Falha ao submeter a nota: {error}",
+  "courseGradeStatsSubmitted": "Nota anónima submetida.",
+  "courseGradeStatsTeacherClear": "Limpar professor",
+  "courseGradeStatsTeacherHint": "Escolha um professor para ver os respetivos dados de notas.",
+  "courseGradeStatsTeacherInputHint": "Pesquisar professores, ou deixar vazio para ver todos",
+  "courseGradeStatsTeacherSearch": "Pesquisar professor",
+  "courseGradeStatsTotalAverage": "Média da nota total",
+  "courseGradeStatsUsualAverage": "Média da nota habitual",
+  "forumKarmaLevelTitle0": "Novato",
+  "forumKarmaLevelTitle1": "Aprendiz",
+  "forumKarmaLevelTitle10": "Mito",
+  "forumKarmaLevelTitle2": "Regular",
+  "forumKarmaLevelTitle3": "Ativo",
+  "forumKarmaLevelTitle4": "Aptidão",
+  "forumKarmaLevelTitle5": "Especialista",
+  "forumKarmaLevelTitle6": "Veterano",
+  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle8": "Farol",
+  "forumKarmaLevelTitle9": "Lenda"
 }

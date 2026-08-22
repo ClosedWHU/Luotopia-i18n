@@ -338,8 +338,6 @@
   "forumReport": "報告",
   "forumReportReason": "理由",
   "forumReportSubmitted": "報告を送信しました。",
-  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
-  "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
     "placeholders": {
@@ -348,7 +346,6 @@
       }
     }
   },
-  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -367,17 +364,6 @@
       }
     }
   },
-  "forumKarmaLevelTitle0": "Newcomer",
-  "forumKarmaLevelTitle1": "Apprentice",
-  "forumKarmaLevelTitle2": "Regular",
-  "forumKarmaLevelTitle3": "Active",
-  "forumKarmaLevelTitle4": "Adept",
-  "forumKarmaLevelTitle5": "Expert",
-  "forumKarmaLevelTitle6": "Elder",
-  "forumKarmaLevelTitle7": "Luminary",
-  "forumKarmaLevelTitle8": "Beacon",
-  "forumKarmaLevelTitle9": "Legend",
-  "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
     "placeholders": {
@@ -389,7 +375,6 @@
       }
     }
   },
-  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
     "placeholders": {
       "level": {
@@ -403,12 +388,6 @@
       }
     }
   },
-  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
-  "forumKarmaHideExact": "Hide exact Karma",
-  "forumKarmaHideExactHint": "Others only see your level, not the number.",
-  "forumLeaderboardLoadMore": "Load more",
-  "forumKarmaDailyBudget": "Daily allotment",
-  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
     "placeholders": {
       "up": {
@@ -419,11 +398,6 @@
       }
     }
   },
-  "forumKarmaInsufficient": "Insufficient Karma",
-  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
-  "forumCheckinTodo": "チェックイン",
-  "forumCheckinTitle": "Daily check-in",
-  "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
     "placeholders": {
       "amount": {
@@ -431,10 +405,6 @@
       }
     }
   },
-  "forumCheckinRandom": "Trial of chance",
-  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
-  "forumCheckinDone": "Already checked in today",
-  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
     "placeholders": {
       "amount": {
@@ -445,18 +415,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
-  "forumModerationFlavorPending": "Pending review",
-  "forumKarmaLedgerTitle": "Ledger",
-  "forumKarmaLedgerContentUp": "Received upvote",
-  "forumKarmaLedgerContentDown": "Received downvote",
-  "forumKarmaLedgerVoteCost": "Vote cost",
-  "forumKarmaLedgerVoteRefund": "Vote refund",
-  "forumKarmaLedgerCheckin": "Check-in",
-  "forumKarmaLedgerCheckinStreak": "Streak bonus",
-  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
-  "forumKarmaLedgerAdmin": "Admin adjustment",
-  "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
     "placeholders": {
       "karma": {
@@ -464,7 +422,6 @@
       }
     }
   },
-  "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
     "placeholders": {
       "streak": {
@@ -472,11 +429,6 @@
       }
     }
   },
-  "forumKarmaLedgerEmpty": "No karma movements yet.",
-  "forumKarmaAdminAdjust": "Adjust Karma",
-  "forumKarmaAdminDelta": "Delta",
-  "forumKarmaAdminReason": "Reason",
-  "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
     "placeholders": {
       "karma": {
@@ -484,27 +436,6 @@
       }
     }
   },
-  "forumLeaderboardTitle": "Karma ranking",
-  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
-  "forumLeaderboardJoinNamed": "Join with nickname",
-  "forumLeaderboardJoinAnonymous": "Join anonymously",
-  "forumLeaderboardLeave": "Leave ranking",
-  "forumLeaderboardAnonymous": "Appear anonymously",
-  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
-  "forumLeaderboardEmpty": "No participants yet.",
-  "forumAdminLogTitle": "Moderation notices",
-  "forumAdminLogSearchHint": "Search summaries or details",
-  "forumAdminLogEmpty": "No public moderation notices yet.",
-  "forumAdminLogLoadMore": "Load more",
-  "forumAdminLogActionBan": "Ban",
-  "forumAdminLogActionUnban": "Unban",
-  "forumAdminLogActionMute": "Mute",
-  "forumAdminLogActionUnmute": "Unmute",
-  "forumAdminLogActionKarma": "Karma adjust",
-  "forumAdminLogActionHide": "Hide post",
-  "forumAdminLogActionDelete": "Delete post",
-  "forumAdminLogActionRestore": "Restore post",
-  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "報告の送信に失敗しました: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -908,6 +839,7 @@
   "settingsPrivacyDiagnosticsTitle": "診断と分析",
   "settingsPrivacyDiagnosticsSubtitle": "これらの設定は珞家の改善に役立ちます。いつでも変更できます。データはスイッチがオンのときにのみ収集されます。",
   "settingsPrivacyDiagnosticsUnsupported": "診断機能は、Firebase を含む Android および iOS ビルドでのみ利用できます。",
+  "settingsPrivacyDiagnosticsDebugLocked": "Debug ビルドではテレメトリを収集しません。これらのスイッチは Release ビルドで有効になり、保存した選択が保持されます。",
   "settingsPrivacyAnalyticsTitle": "利用状況の分析",
   "settingsPrivacyAnalyticsSubtitle": "アプリ改善のための匿名の機能利用データ",
   "settingsPrivacyCrashTitle": "クラッシュレポート",
@@ -1325,7 +1257,6 @@
   "aiOpenDraftPage": "下書きページを開く",
   "aiSending": "送信中",
   "aiSend": "送信",
-  "aiStop": "停止",
   "aiClearHistory": "履歴消去",
   "aiRename": "名前を変更",
   "aiDelete": "削除",
@@ -1355,24 +1286,6 @@
   "aiConfirmationDecline": "キャンセル",
   "aiConfirmationSubmit": "選択を送信",
   "aiConfirmationDecisionRequired": "各操作について、許可またはキャンセルを選択してください。",
-  "aiAutomation": "自動化レベル",
-  "aiAutomationManual": "完全手動",
-  "aiAutomationSemiAutomatic": "半自動",
-  "aiAutomationFullyAutomatic": "完全自動",
-  "aiAutomationManualDescription": "すべての操作は確認後に実行されます。",
-  "aiAutomationSemiAutomaticDescription": "Agent による書き込み操作は引き続き確認が必要で、その他の確認は自動的に承認されます。",
-  "aiAutomationFullyAutomaticDescription": "すべての操作を自動的に確認し、完全な記録を保持します。",
-  "aiConfirmationAutoApproved": "{count} 件の操作を自動承認しました（{mode}）",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "成績表はプライバシーロックで保護されています",
   "scorePageClickToUnlock": "タップしてロック解除",
   "scorePageNoLocalScore": "端末に成績がありません",
@@ -2054,11 +1967,6 @@
   "itemDetailScoreFinal": "期末",
   "itemDetailSectionDistribution": "成績分布",
   "itemDetailSectionReviews": "授業評価",
-  "courseGradeStatsTeacherHint": "担当教員を選択すると、その教員の成績データを確認できます。",
-  "courseGradeStatsTeacherInputHint": "教員名で検索できます。空欄にすると全教員を表示します",
-  "courseGradeStatsTeacherClear": "教員をクリア",
-  "courseGradeStatsTeacherSearch": "教員を検索",
-  "courseGradeStatsAllTeachersPrepared": "全教員の成績データを準備しました。教員を選択すると詳細を確認できます。",
   "itemDetailCourseInsightsTitle": "実際の科目成績とレビュー",
   "itemDetailCourseInsightsDescription": "珞家の統計、Hamの成績データ、学生のレビューを確認できます。時間割の科目は科目名で照合されます。",
   "itemDetailCourseInsightsAmbiguous": "珞家には同名の科目が複数あります。誤ったデータを使用しないよう、正しい科目を選択してください。",
@@ -3157,13 +3065,9 @@
   "settingsDevCampusDiagnosticsSubtitle": "メールボックスとメッセージのセッション、リクエスト、パーサーをトレース",
   "settingsDevLifecycleDiagnostics": "アプリのライフサイクル診断",
   "settingsDevLifecycleDiagnosticsSubtitle": "ホットアップデート、位置情報の更新、ライフサイクルの制御フローをトレース",
-  "courseGradeStatsSourceHam": "出典：Ham",
-  "courseGradeStatsSourceLuotopia": "出典：珞家",
-  "courseGradeStatsSourceHint": "成績データの出典を選択",
   "courseGradeStatsSourceLuotopiaShort": "珞家",
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
-  "courseGradeStatsLoadFailed": "成績分布の読み込みに失敗しました: {error}",
   "@courseGradeStatsLoadFailed": {
     "placeholders": {
       "error": {
@@ -3171,10 +3075,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "匿名で成績を投稿",
-  "courseGradeStatsNoTeachers": "この授業には教員が登録されていないため、成績を投稿できません。",
-  "courseGradeStatsPrivacyThreshold": "プライバシー保護のため、少なくとも 5 件のサンプルが必要です。",
-  "courseGradeStatsSamples": "匿名サンプル {count} 件",
   "@courseGradeStatsSamples": {
     "placeholders": {
       "count": {
@@ -3183,14 +3083,8 @@
     }
   },
   "courseGradeStatsMedian": "Median score",
-  "courseGradeStatsTotalAverage": "総合点の平均",
-  "courseGradeStatsUsualAverage": "平常点の平均",
-  "courseGradeStatsExamAverage": "試験点の平均",
   "courseGradeStatsDistribution": "成績分布",
-  "courseGradeStatsFail": "不合格",
   "courseGradeStatsTotalScore": "総合点（0～100）",
-  "courseGradeStatsSubmitted": "匿名の成績を投稿しました。",
-  "courseGradeStatsSubmitFailed": "成績の投稿に失敗しました: {error}",
   "@courseGradeStatsSubmitFailed": {
     "placeholders": {
       "error": {
@@ -3400,24 +3294,6 @@
   "forumAppealReason": "異議申立内容",
   "forumAppealSubmitted": "異議申立てを送信しました。",
   "forumModeration": "コンテンツ審査",
-  "forumKarmaEconomySettings": "Karma economy",
-  "forumKarmaEconomySaved": "Karma settings saved.",
-  "forumKarmaSettingPostUp": "Post upvote gain",
-  "forumKarmaSettingPostDown": "Post downvote loss",
-  "forumKarmaSettingCommentUp": "Comment upvote gain",
-  "forumKarmaSettingCommentDown": "Comment downvote loss",
-  "forumKarmaSettingVoteCostUp": "Upvote cost",
-  "forumKarmaSettingVoteCostDown": "Downvote cost",
-  "forumKarmaSettingCheckinFixed": "Fixed check-in",
-  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
-  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
-  "forumKarmaSettingCreatePostReward": "Create post reward",
-  "forumKarmaSettingCreateCommentReward": "Create comment reward",
-  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
-  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
-  "forumKarmaLedgerCreatePost": "Published a post",
-  "forumKarmaLedgerCreateComment": "Posted a reply",
-  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "承認",
   "forumHide": "非表示",
   "forumDelete": "削除",
@@ -3558,6 +3434,7 @@
   "sportsOrderFilterReserved": "予約済み",
   "sportsOrderFilterHistory": "履歴",
   "whuLoginMethodNotRecommended": "非推奨",
+  "whuLoginMethodUndergraduateOnly": "学部生のみ",
   "whuLoginMethodApiError": "サービス利用不可",
   "forumModerationReports": "報告",
   "forumModerationAppeals": "異議申立て",
@@ -4086,5 +3963,111 @@
   "aiToolTraceDetails": "ツール呼び出しの詳細",
   "aiToolTraceStatusSucceeded": "成功",
   "aiToolTraceStatusFailed": "失敗",
-  "aiToolTraceStatusCancelled": "未完了"
+  "aiToolTraceStatusCancelled": "未完了",
+  "forumAdminLogActionApprove": "投稿を承認",
+  "forumAdminLogActionBan": "BAN",
+  "forumAdminLogActionDelete": "投稿を削除",
+  "forumAdminLogActionHide": "投稿を非表示",
+  "forumAdminLogActionKarma": "カルマ調整",
+  "forumAdminLogActionMute": "ミュート",
+  "forumAdminLogActionRestore": "投稿を復元",
+  "forumAdminLogActionUnban": "BAN解除",
+  "forumAdminLogActionUnmute": "ミュート解除",
+  "forumAdminLogEmpty": "公開モデレーション通知はまだありません。",
+  "forumAdminLogLoadMore": "もっと見る",
+  "forumAdminLogSearchHint": "要約または詳細を検索",
+  "forumAdminLogTitle": "モデレーション通知",
+  "forumAppealFlavor": "再審査をリクエスト",
+  "forumCheckinDone": "今日はチェックイン済みです",
+  "forumCheckinFixed": "固定路線（+{amount}）",
+  "forumCheckinRandom": "一撃の抽選",
+  "forumCheckinRandomHint": "長期的な平均は固定路線よりやや低くなります",
+  "forumCheckinSuccess": "+{amount} カルマ（連続 {streak} 日）",
+  "forumCheckinTitle": "デイリーチェックイン",
+  "forumCheckinTodo": "チェックイン",
+  "forumKarma": "カルマ",
+  "forumKarmaAdminAdjust": "カルマを調整",
+  "forumKarmaAdminDelta": "増減",
+  "forumKarmaAdminReason": "理由",
+  "forumKarmaAdminSuccess": "カルマを {karma} に更新しました",
+  "forumKarmaAuthorMeta": "Lv{level} · カルマ {karma}",
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · カルマ {karma}",
+  "forumKarmaBudgetExhausted": "1 日の割り当てを使い切りました",
+  "forumKarmaBudgetLine": "高評価 {up} · 低評価 {down}",
+  "forumKarmaDailyBudget": "1 日の割り当て",
+  "forumKarmaEconomySaved": "カルマ設定を保存しました。",
+  "forumKarmaEconomySettings": "カルマエコノミー",
+  "forumKarmaHideExact": "カルマの正確な数値を非表示",
+  "forumKarmaHideExactHint": "他の人には数値ではなくレベルのみ表示されます。",
+  "forumKarmaInsufficient": "カルマ不足",
+  "forumKarmaLedgerAdmin": "管理者調整",
+  "forumKarmaLedgerCheckin": "チェックイン",
+  "forumKarmaLedgerCheckinStreak": "連続ボーナス",
+  "forumKarmaLedgerContentDown": "低評価を獲得",
+  "forumKarmaLedgerContentUp": "高評価を獲得",
+  "forumKarmaLedgerCreateComment": "返信を投稿",
+  "forumKarmaLedgerCreatePost": "投稿を公開",
+  "forumKarmaLedgerEmpty": "カルマの変動はまだありません。",
+  "forumKarmaLedgerRollback": "コンテンツ削除（カルマ調整済み）",
+  "forumKarmaLedgerTitle": "台帳",
+  "forumKarmaLedgerVoteCost": "投票コスト",
+  "forumKarmaLedgerVoteRefund": "投票の返金",
+  "forumKarmaLowQualityHint": "水軍以外の低シグナル投稿には理由 low_quality（推奨 ?10）を使用します。水軍の投稿は公開報酬を得られません。",
+  "forumKarmaNextLevel": "次のレベルは {karma}",
+  "forumKarmaSettingCheckinFixed": "固定チェックイン",
+  "forumKarmaSettingCommentDown": "コメントの低評価損失",
+  "forumKarmaSettingCommentUp": "コメントの高評価獲得",
+  "forumKarmaSettingCreateCommentDailyCap": "1 日のコメント報酬上限",
+  "forumKarmaSettingCreateCommentReward": "コメント作成の報酬",
+  "forumKarmaSettingCreatePostDailyCap": "1 日の投稿報酬上限",
+  "forumKarmaSettingCreatePostReward": "投稿作成の報酬",
+  "forumKarmaSettingMutualThreshold": "相互高評価のしきい値",
+  "forumKarmaSettingMutualWindowHours": "相互高評価の期間（時間）",
+  "forumKarmaSettingPostDown": "投稿の低評価損失",
+  "forumKarmaSettingPostUp": "投稿の高評価獲得",
+  "forumKarmaSettingVoteCostDown": "低評価のコスト",
+  "forumKarmaSettingVoteCostUp": "高評価のコスト",
+  "forumKarmaSoftDemotionHint": "カルマがレベルを下回ると、緩やかな降格前に約 7 日間バッジが保持されます。",
+  "forumKarmaStreakLine": "チェックイン連続日数: {streak}",
+  "forumLeaderboardAnonymous": "匿名で表示",
+  "forumLeaderboardAnonymousHint": "他の人にはマスクされた名前が表示されます。自分の順位は確認できます。",
+  "forumLeaderboardEmpty": "参加者はまだいません。",
+  "forumLeaderboardJoinAnonymous": "匿名で参加",
+  "forumLeaderboardJoinHint": "ランキングに参加して順位を確認できます。ニックネームまたは匿名で表示されます。",
+  "forumLeaderboardJoinNamed": "ニックネームで参加",
+  "forumLeaderboardLeave": "ランキングから離脱",
+  "forumLeaderboardLoadMore": "もっと見る",
+  "forumLeaderboardTitle": "カルマランキング",
+  "forumModerationFlavorPending": "審査待ち",
+  "forumReportSubmittedFlavor": "記録しました。回答待ちです。",
+  "courseGradeStatsAllTeachersPrepared": "全教師のデータが準備完了です。教師を選んで成績データを表示してください。",
+  "courseGradeStatsExamAverage": "平均試験成績",
+  "courseGradeStatsFail": "不合格",
+  "courseGradeStatsLoadFailed": "成績分布の読み込みに失敗しました: {error}",
+  "courseGradeStatsNoTeachers": "この科目には教師がいないため、成績を提出できません。",
+  "courseGradeStatsPrivacyThreshold": "プライバシー保護のため最低 5 件のサンプルが必要です。",
+  "courseGradeStatsSamples": "{count} 件の匿名サンプル",
+  "courseGradeStatsSourceHam": "出典: Ham",
+  "courseGradeStatsSourceHint": "データソースを選択",
+  "courseGradeStatsSourceLuotopia": "出典: Luotopia",
+  "courseGradeStatsSubmit": "匿名で成績を提出",
+  "courseGradeStatsSubmitFailed": "成績の提出に失敗しました: {error}",
+  "courseGradeStatsSubmitted": "匿名成績を提出しました。",
+  "courseGradeStatsTeacherClear": "教師をクリア",
+  "courseGradeStatsTeacherHint": "対応する成績データを表示する教師を選択してください。",
+  "courseGradeStatsTeacherInputHint": "教師を検索、または空のままですべて表示",
+  "courseGradeStatsTeacherSearch": "教師を検索",
+  "courseGradeStatsTotalAverage": "平均総合成績",
+  "courseGradeStatsUsualAverage": "平均平常成績",
+  "forumKarmaLevelTitle0": "新参者",
+  "forumKarmaLevelTitle1": "見習い",
+  "forumKarmaLevelTitle10": "神話",
+  "forumKarmaLevelTitle2": "常連",
+  "forumKarmaLevelTitle3": "活発",
+  "forumKarmaLevelTitle4": "熟達",
+  "forumKarmaLevelTitle5": "熟練",
+  "forumKarmaLevelTitle6": "長老",
+  "forumKarmaLevelTitle7": "光輝",
+  "forumKarmaLevelTitle8": "灯台",
+  "forumKarmaLevelTitle9": "伝説"
 }

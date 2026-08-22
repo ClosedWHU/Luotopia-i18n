@@ -23,6 +23,19 @@
   "campusAppEcard": "珞珈E卡",
   "campusAppEcardPayment": "E卡付款码",
   "campusAppWaterControl": "取水码",
+  "busArrivalStatusArrived": "已到站",
+  "busArrivalStatusNoInfo": "暂无车辆信息",
+  "busArrivalStatusStopsAway": "{busNum} · {stopsAway}站",
+  "@busArrivalStatusStopsAway": {
+    "placeholders": {
+      "busNum": {
+        "type": "String"
+      },
+      "stopsAway": {
+        "type": "int"
+      }
+    }
+  },
   "campusAppSchoolNet": "校园网",
   "campusAppSchoolNetPay": "网费缴费",
   "schoolNetRefresh": "刷新校园网状态",
@@ -412,15 +425,15 @@
   "luotopiaNotLoggedIn": "未登录",
   "luotopiaPasswordHint": "至少 6 个字符",
   "luotopiaPasswordsDoNotMatch": "两次输入的密码不一致",
-   "luotopiaPleaseFillFields": "请填写用户名和密码",
-   "luotopiaEmailRequired": "请填写邮箱",
-   "luotopiaEmailInvalid": "请输入格式正确的邮箱",
-   "luotopiaPasswordRequired": "请填写密码",
-   "luotopiaPasswordPolicyNotMet": "密码不符合要求",
-   "luotopiaPasswordRequireDigit": "包含数字",
-   "luotopiaPasswordRequireLowercase": "包含小写字母",
-   "luotopiaPasswordRequireUppercase": "包含大写字母",
-   "luotopiaPasswordRequireSpecial": "包含特殊字符",
+  "luotopiaPleaseFillFields": "请填写用户名和密码",
+  "luotopiaEmailRequired": "请填写邮箱",
+  "luotopiaEmailInvalid": "请输入格式正确的邮箱",
+  "luotopiaPasswordRequired": "请填写密码",
+  "luotopiaPasswordPolicyNotMet": "密码不符合要求",
+  "luotopiaPasswordRequireDigit": "包含数字",
+  "luotopiaPasswordRequireLowercase": "包含小写字母",
+  "luotopiaPasswordRequireUppercase": "包含大写字母",
+  "luotopiaPasswordRequireSpecial": "包含特殊字符",
   "luotopiaRegistering": "注册中...",
   "luotopiaRegisterTitle": "注册珞家",
   "luotopiaUsername": "用户名",
@@ -565,6 +578,7 @@
   "settingsPrivacyDiagnosticsTitle": "诊断与分析",
   "settingsPrivacyDiagnosticsSubtitle": "这些选项用于改进珞家。你可以随时更改。仅在开启后才会收集数据。",
   "settingsPrivacyDiagnosticsUnsupported": "诊断功能仅在已接入 Firebase 的 Android / iOS 版本可用。",
+  "settingsPrivacyDiagnosticsDebugLocked": "Debug 构建不采集遥测数据。以下开关将在 Release 构建生效，并保留你已保存的选择。",
   "settingsPrivacyAnalyticsTitle": "使用分析",
   "settingsPrivacyAnalyticsSubtitle": "匿名功能使用数据，用于改进应用体验",
   "settingsPrivacyCrashTitle": "崩溃报告",
@@ -1011,23 +1025,6 @@
   "aiNoMessages": "没有消息",
   "aiClearConversations": "清空对话历史",
   "aiCancel": "取消",
-  "aiConfirmationBatchTitle": "{count} 项操作待确认",
-  "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "aiConfirmationBatchDescription": "请逐项审阅并决定是否执行。",
-  "aiConfirmationApproveAll": "全部通过",
-  "aiConfirmationReview": "逐项审阅",
-  "aiConfirmationCancelAll": "全部拒绝",
-  "aiConfirmationDialogTitle": "操作审阅",
-  "aiConfirmationDecisionRequired": "请为每项操作做出决定",
-  "aiConfirmationApprove": "通过",
-  "aiConfirmationDecline": "拒绝",
-  "aiConfirmationSubmit": "提交决定",
   "aiClear": "清空",
   "aiRenameConversation": "重命名对话",
   "aiSave": "保存",
@@ -1777,7 +1774,6 @@
   "courseGradeStatsTeacherClear": "清除教师",
   "courseGradeStatsTeacherSearch": "查询教师",
   "courseGradeStatsAllTeachersPrepared": "已准备好所有教师的给分数据，请选择教师查看详情。",
-
   "itemDetailMockReview1": "老师讲得很清楚，课件制作精良，给分也不错。每节课都有课堂练习，对理解概念帮助很大。",
   "itemDetailMockReview2": "课程内容比较充实，但期末考试有一定难度。平时作业量适中，建议提前复习。",
   "itemDetailMockReview3": "强烈推荐！这门课让我对专业方向有了更清晰的认识，实验环节设计得很好。",
@@ -1972,7 +1968,7 @@
       }
     }
   },
-"campusBusDistance": "约{meters}米",
+  "campusBusDistance": "约{meters}米",
   "campusBusLineOne": "1号线",
   "campusBusLineTwo": "2号线",
   "campusBusLineMedical": "医学部",
@@ -2639,7 +2635,21 @@
   "authApiCredentialsTitle": "API 凭据",
   "authApiCredentialCreate": "创建凭据",
   "authApiCredentialName": "名称",
-  "authRecoveryCodesTitle": "保存恢复代码", "authRecoveryCodesDescription": "请将这些代码保存在安全的地方。无法访问邮箱时，每个代码只能使用一次。它们不会再次显示。", "authRecoveryCodesSaveAsText": "另存为 .txt", "authRecoveryCodesSavedConfirmation": "我已安全保存这些恢复代码。", "authApiCredentialEdit": "编辑 API 凭据", "authApiCredentialScopesHint": "权限范围，用逗号分隔（all 表示所有范围）", "authApiCredentialMonthlyLimitHint": "每月请求限制（0 表示继承账户限制）", "authApiCredentialMinuteLimitHint": "每分钟请求数（0 表示继承账户限制）", "authApiCredentialHourLimitHint": "每小时请求数（0 表示继承账户限制）", "authApiCredentialEffectiveLimits": "生效的账户 API 限制", "authApiCredentialLoadingLimits": "正在加载账户 API 限制...", "authApiCredentialUsageMinute": "分钟", "authApiCredentialUsageHour": "小时", "authApiCredentialUsageDay": "天", "authApiCredentialUsageMonth": "月",
+  "authRecoveryCodesTitle": "保存恢复代码",
+  "authRecoveryCodesDescription": "请将这些代码保存在安全的地方。无法访问邮箱时，每个代码只能使用一次。它们不会再次显示。",
+  "authRecoveryCodesSaveAsText": "另存为 .txt",
+  "authRecoveryCodesSavedConfirmation": "我已安全保存这些恢复代码。",
+  "authApiCredentialEdit": "编辑 API 凭据",
+  "authApiCredentialScopesHint": "权限范围，用逗号分隔（all 表示所有范围）",
+  "authApiCredentialMonthlyLimitHint": "每月请求限制（0 表示继承账户限制）",
+  "authApiCredentialMinuteLimitHint": "每分钟请求数（0 表示继承账户限制）",
+  "authApiCredentialHourLimitHint": "每小时请求数（0 表示继承账户限制）",
+  "authApiCredentialEffectiveLimits": "生效的账户 API 限制",
+  "authApiCredentialLoadingLimits": "正在加载账户 API 限制...",
+  "authApiCredentialUsageMinute": "分钟",
+  "authApiCredentialUsageHour": "小时",
+  "authApiCredentialUsageDay": "天",
+  "authApiCredentialUsageMonth": "月",
   "authApiCredentialKey": "API 密钥",
   "authApiCredentialScopes": "权限范围",
   "authApiCredentialAllScopes": "全部",
@@ -2892,7 +2902,6 @@
   "apiErrorUpstream": "上游服务暂时不可用",
   "apiErrorDuplicateMutation": "检测到重复请求",
   "apiErrorRequestFailed": "请求失败，请稍后重试",
-
   "authRegistrationWhuBindingRequired": "注册需要关联 WHU 账户",
   "authRegistrationBindWhuAccount": "关联 WHU 账户",
   "authPasswordMinLength": "密码至少需要 {count} 个字符",
@@ -3745,6 +3754,7 @@
   "whuLoginMethodDatarepoSubtitle": "智慧珞珈个人数据中心（FineReport 导出表）。学籍字段较全；校方改版报表时可能失效。",
   "whuLoginMethodNotRecommended": "不推荐",
   "whuLoginMethodApiError": "接口异常",
+  "whuLoginMethodUndergraduateOnly": "仅限本科",
   "whuLoginImplementationTitle": "使用原生登录",
   "whuLoginImplementationNative": "已开启：使用原生表单，仅在需要验证码时打开 WebView",
   "whuLoginImplementationWebView": "已关闭：全程在武大登录 WebView 中完成",
@@ -3768,9 +3778,21 @@
   "luotopiaRegisterVerifyEmail": "注册成功，请前往邮箱完成验证后再登录。",
   "luotopiaRegisterSuccess": "注册成功，现在可以登录。",
   "luotopiaRegisterEmailCodeSent": "验证码已发送至 {email}",
-  "@luotopiaRegisterEmailCodeSent": {"placeholders": {"email": {"type": "String"}}},
+  "@luotopiaRegisterEmailCodeSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "luotopiaRegisterEmailCodeRetryAfter": "{seconds} 秒后可重新发送",
-  "@luotopiaRegisterEmailCodeRetryAfter": {"placeholders": {"seconds": {"type": "int"}}},
+  "@luotopiaRegisterEmailCodeRetryAfter": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "luotopiaRegisterEmailCodeSending": "正在发送验证码...",
   "luotopiaRegisterEmailCodeRequired": "请输入 6 位邮箱验证码",
   "luotopiaRegisterEmailAlreadyVerified": "该邮箱已验证，可以继续设置密码",
@@ -3779,7 +3801,13 @@
   "luotopiaRegisterEmailCodeLabel": "邮箱验证码",
   "luotopiaRegisterEmailCodeHint": "输入 6 位验证码",
   "luotopiaRegisterEmailCodeExpires": "验证码约 {minutes} 分钟后失效",
-  "@luotopiaRegisterEmailCodeExpires": {"placeholders": {"minutes": {"type": "int"}}},
+  "@luotopiaRegisterEmailCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "luotopiaRegisterSendEmailCode": "发送验证码",
   "luotopiaRegisterResendEmailCode": "重新发送验证码",
   "luotopiaRegisterStepWhuTitle": "确认武大账号",
@@ -3802,9 +3830,24 @@
   "luotopiaRegisterStepPasswordSubtitle": "至少 10 个字符。登录时需要使用此密码。",
   "courseImportSemesterAlreadyAdded": "该学期已添加，请在课程表菜单中选择“更新课程表”。",
   "waterControlClassNo": "班号 {classNo}",
-  "forumImageFiles": "论坛图片", "forumAttachmentFiles": "论坛附件",
-  "forumNotificationRead": "已读", "forumNotificationUnread": "未读", "forumReview": "审核", "forumResolve": "解决",
-  "authRegisteredDevicesTitle": "已注册设备", "authRegisteredDevicesSubtitle": "移除设备会停止推送通知，但不会退出仍在进行的会话。", "authRegisteredDevicesEmpty": "没有已注册设备。", "authRegisteredDeviceLastSeen": "最近注册：{time}", "@authRegisteredDeviceLastSeen": {"placeholders": {"time": {"type": "String"}}}, "authRegisteredDeviceRemove": "移除设备",
+  "forumImageFiles": "论坛图片",
+  "forumAttachmentFiles": "论坛附件",
+  "forumNotificationRead": "已读",
+  "forumNotificationUnread": "未读",
+  "forumReview": "审核",
+  "forumResolve": "解决",
+  "authRegisteredDevicesTitle": "已注册设备",
+  "authRegisteredDevicesSubtitle": "移除设备会停止推送通知，但不会退出仍在进行的会话。",
+  "authRegisteredDevicesEmpty": "没有已注册设备。",
+  "authRegisteredDeviceLastSeen": "最近注册：{time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "移除设备",
   "campusFacultyArts": "文理学部",
   "campusFacultyEngineering": "工学部",
   "campusFacultyInfo": "信息学部",
@@ -3908,7 +3951,6 @@
   "medicalLabAxisToggle": "结果数轴",
   "campusBusRouteViewVertical": "纵向路线视图",
   "campusBusRouteViewHorizontal": "横向路线视图",
-
   "adminConsoleTitle": "管理控制台",
   "adminConsoleSubtitle": "用户、论坛与系统状态",
   "adminAccessDenied": "需要管理员权限。",
@@ -4032,21 +4074,11 @@
   "forumModerationUnclaimed": "未领取",
   "forumModerationUserReports": "用户举报",
   "forumModerationAIHighRisk": "AI 高风险",
-  "forumModerationBrigadingRisk": "疑似围攻"
-  ,"forumCommentDeleted": "该评论已删除"
-  ,"forumRepliesExpand": "展开其余 {count} 条回复"
-  ,"forumReplyTo": "回复 @{name}",
+  "forumModerationBrigadingRisk": "疑似围攻",
+  "forumCommentDeleted": "该评论已删除",
+  "forumRepliesExpand": "展开其余 {count} 条回复",
+  "forumReplyTo": "回复 @{name}",
   "forumReplyDepthLimit": "已达最大回复层级",
-  "aiStop": "停止",
-  "aiAutomation": "自动化程度",
-  "aiAutomationManual": "全手动",
-  "aiAutomationSemiAutomatic": "半自动",
-  "aiAutomationFullyAutomatic": "全自动",
-  "aiAutomationManualDescription": "每项操作都需要你确认后执行。",
-  "aiAutomationSemiAutomaticDescription": "Agent 发起的写入操作仍需你确认，其余确认自动通过。",
-  "aiAutomationFullyAutomaticDescription": "自动确认所有操作，并保留完整记录。",
-  "aiConfirmationAutoApproved": "已自动确认 {count} 项操作（{mode}）",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
   "settingsAiWorkspaceTitle": "AI 工作区",
   "settingsAiWorkspaceDescription": "管理存储在你的私有 AI 工作区中的文件。",
   "settingsAiWorkspaceUsageTitle": "工作区用量",
@@ -4079,5 +4111,27 @@
   "aiToolTraceDetails": "工具调用详情",
   "aiToolTraceStatusSucceeded": "成功",
   "aiToolTraceStatusFailed": "失败",
-  "aiToolTraceStatusCancelled": "未完成"
+  "aiToolTraceStatusCancelled": "未完成",
+  "aiToolStatusRunning": "正在执行",
+  "aiToolStatusWaiting": "等待确认",
+  "aiToolStatusCompleted": "工具完成",
+  "aiToolStatusFailed": "工具失败",
+  "aiToolUnknown": "未知工具",
+  "aiRequestCancelled": "请求已取消。",
+  "majorInfoLegendOver10": "10%以上",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "{range}周",
+  "courseWeekRangeOdd": "{range}周(单)",
+  "courseWeekRangeEven": "{range}周(双)",
+  "sportsAreaLabel": "{no}号场",
+  "courseUnnamed": "未命名课程",
+  "courseTimetableWakeupDefaultName": "WakeUp 课程表",
+  "courseTimetableShiguangDefaultName": "拾光课程表",
+  "courseTimetableXinglianDefaultName": "星链课程表",
+  "courseTimetableLocalFileDefaultName": "本地课程表",
+  "studyStatusOutOfPlanSectionTitle": "其他课程",
+  "schoolNetDefaultDeviceName": "我的设备"
 }

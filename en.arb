@@ -1,5 +1,6 @@
 {
   "@@locale": "en",
+  "@@keep-english": "Keys intentionally left as English in every locale (do NOT translate — a non-English ARB matching the English value here is expected, not a gap): (1) format strings with {placeholders} such as homePeriodRange, weatherAQIValue, weatherConditionFormat, itemDetailTimeRangeSeparator, citationCardTimeSeparator, courseGradeStatsRange '{from} - {to}', forumKarmaLevel 'Lv{level}', forumKarmaAuthorMeta; (2) brand/proper nouns such as appTitle 'Luotopia', starlink, shiguang, aiProvider* (Zhipu/Baidu/Alipay/Tencent/Yi/Baichuan/Moonshot), schoolNetProvider*/schoolNetPay* (Cernet/Telecom/Unicom/Mobile/Alipay/Wechat/UnionPay), campusAppZhihuiLuojia, waterControlCategory*Garden, fontFamilyGoogleNotoSans, adminStatusRedis*; (3) universal units/abbreviations/OS names such as weatherAirQualityPm25/Pm10/O3/No2/So2/Co and weatherAirQualityUnit, schoolNetDeviceIp/Mac, commonId, ok/commonOk, navAi 'AI', semS, hourH, minuteMin, authSessionsDeviceWindows/Macos/Linux, settingsBuildChannelAlpha/Beta/Stable, wakeupCsv; (4) admin/dev-only labels such as adminStatus* (worker/queue/heartbeat/redis...) seen only by admins. Translate everything else.",
   "aiAssistant": "AI Assistant",
   "aiInputHint": "Ask me anything about your schedule...",
   "aiTitle": "Title",
@@ -15,15 +16,52 @@
   "badgeItemForum": "{count, plural, one{{count} unread post} other{{count} unread posts}}",
   "badgeItemMessages": "{count, plural, one{{count} new message} other{{count} new messages}}",
   "badgeItemTasks": "{count, plural, one{{count} incomplete task} other{{count} incomplete tasks}}",
-  "@badgeItemEmail": {"placeholders": {"count": {"type": "int"}}},
-  "@badgeItemForum": {"placeholders": {"count": {"type": "int"}}},
-  "@badgeItemMessages": {"placeholders": {"count": {"type": "int"}}},
-  "@badgeItemTasks": {"placeholders": {"count": {"type": "int"}}},
+  "@badgeItemEmail": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@badgeItemForum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@badgeItemMessages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@badgeItemTasks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "badgeLastSep": " and ",
   "badgePrefix": "You have {items}",
   "badgeSep": ", ",
   "biometricLockFailed": "Authentication failed",
   "biometricLockReason": "Unlock to access Luotopia",
+  "busArrivalStatusArrived": "Arrived",
+  "busArrivalStatusNoInfo": "No bus info available",
+  "busArrivalStatusStopsAway": "{busNum} · {stopsAway} {stopsAway, plural, one{stop away} other{stops away}}",
+  "@busArrivalStatusStopsAway": {
+    "placeholders": {
+      "busNum": {
+        "type": "String"
+      },
+      "stopsAway": {
+        "type": "int"
+      }
+    }
+  },
   "campusAppCalendar": "Academic Calendar",
   "campusAppGlobalTimetable": "Global Timetable",
   "campusAppGradesReviews": "Grades & Reviews",
@@ -535,15 +573,15 @@
   "luotopiaNotLoggedIn": "Not logged in",
   "luotopiaPasswordHint": "At least 6 characters",
   "luotopiaPasswordsDoNotMatch": "Passwords do not match",
-   "luotopiaPleaseFillFields": "Please enter username and password",
-   "luotopiaEmailRequired": "Enter an email address",
-   "luotopiaEmailInvalid": "Enter a valid email address",
-   "luotopiaPasswordRequired": "Enter a password",
-   "luotopiaPasswordPolicyNotMet": "Password does not meet the requirements",
-   "luotopiaPasswordRequireDigit": "Include a number",
-   "luotopiaPasswordRequireLowercase": "Include a lowercase letter",
-   "luotopiaPasswordRequireUppercase": "Include an uppercase letter",
-   "luotopiaPasswordRequireSpecial": "Include a special character",
+  "luotopiaPleaseFillFields": "Please enter username and password",
+  "luotopiaEmailRequired": "Enter an email address",
+  "luotopiaEmailInvalid": "Enter a valid email address",
+  "luotopiaPasswordRequired": "Enter a password",
+  "luotopiaPasswordPolicyNotMet": "Password does not meet the requirements",
+  "luotopiaPasswordRequireDigit": "Include a number",
+  "luotopiaPasswordRequireLowercase": "Include a lowercase letter",
+  "luotopiaPasswordRequireUppercase": "Include an uppercase letter",
+  "luotopiaPasswordRequireSpecial": "Include a special character",
   "luotopiaRegistering": "Registering...",
   "luotopiaRegisterTitle": "Register Luotopia",
   "luotopiaUsername": "Username",
@@ -689,6 +727,7 @@
   "settingsPrivacyDiagnosticsTitle": "Diagnostics & analytics",
   "settingsPrivacyDiagnosticsSubtitle": "These options help improve Luotopia. You can change them anytime. Data is collected only when a switch is on.",
   "settingsPrivacyDiagnosticsUnsupported": "Diagnostics are only available on Android and iOS builds with Firebase.",
+  "settingsPrivacyDiagnosticsDebugLocked": "Debug builds don't collect telemetry. These switches take effect in Release builds and keep your saved choice.",
   "settingsPrivacyAnalyticsTitle": "Usage analytics",
   "settingsPrivacyAnalyticsSubtitle": "Anonymous feature usage to help improve the app",
   "settingsPrivacyCrashTitle": "Crash reporting",
@@ -1157,23 +1196,6 @@
   "aiNoMessages": "No messages",
   "aiClearConversations": "Clear conversations",
   "aiCancel": "Cancel",
-  "aiConfirmationBatchTitle": "{count} actions to confirm",
-  "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "aiConfirmationBatchDescription": "Review each action and decide whether to execute.",
-  "aiConfirmationApproveAll": "Approve all",
-  "aiConfirmationReview": "Review each",
-  "aiConfirmationCancelAll": "Decline all",
-  "aiConfirmationDialogTitle": "Action review",
-  "aiConfirmationDecisionRequired": "Please make a decision for each action",
-  "aiConfirmationApprove": "Approve",
-  "aiConfirmationDecline": "Decline",
-  "aiConfirmationSubmit": "Submit decisions",
   "aiClear": "Clear",
   "aiRenameConversation": "Rename conversation",
   "aiSave": "Save",
@@ -1410,10 +1432,28 @@
   "globalTimetableContribute": "Contribute timetable",
   "globalTimetableLocalImport": "Import to this device",
   "globalTimetableLocalImportMessage": "Download and save {year}-{nextYear}, term {term}, directly from the WHU education system on this device. The data and your education session will not be uploaded to Luotopia. Local data will be used before cloud data for search and filtering.",
-  "@globalTimetableLocalImportMessage": {"placeholders": {"year": {"type": "int"}, "nextYear": {"type": "int"}, "term": {"type": "int"}}},
+  "@globalTimetableLocalImportMessage": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "nextYear": {
+        "type": "int"
+      },
+      "term": {
+        "type": "int"
+      }
+    }
+  },
   "globalTimetableLocalImportStart": "Download and save",
   "globalTimetableLocalImportSuccess": "Saved {count} schedule entries on this device.",
-  "@globalTimetableLocalImportSuccess": {"placeholders": {"count": {"type": "int"}}},
+  "@globalTimetableLocalImportSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "globalTimetableLocalImportFailed": "Could not import the university-wide timetable to this device.",
   "globalTimetableLocalUnsupported": "Local timetable import is not available on this platform.",
   "globalTimetableSourceLocal": "Local data",
@@ -1421,18 +1461,48 @@
   "globalTimetableSourceCloudUnavailable": "No cloud data for this period",
   "globalTimetableContributionTitle": "Contribute the university-wide timetable",
   "globalTimetableContributionMessage": "Authorize Luotopia with a one-time WHU CAS ticket. The server worker will import {year}-{nextYear}, term {term}, directly from the WHU education system in the background. Your WHU identity must match the one bound to your Luotopia account.",
-  "@globalTimetableContributionMessage": {"placeholders": {"year": {"type": "int"}, "nextYear": {"type": "int"}, "term": {"type": "int"}}},
+  "@globalTimetableContributionMessage": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "nextYear": {
+        "type": "int"
+      },
+      "term": {
+        "type": "int"
+      }
+    }
+  },
   "globalTimetableContributionStart": "Authorize and start",
   "globalTimetableContributionLoginLuotopia": "Log in to Luotopia before contributing.",
   "globalTimetableContributionLoginWhu": "Log in to WHU CAS before contributing.",
   "globalTimetableContributionUnsupported": "Timetable contribution is not available on this platform.",
   "globalTimetableResults": "{count} results",
-  "@globalTimetableResults": {"placeholders": {"count": {"type": "int"}}},
+  "@globalTimetableResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "globalTimetableCachedData": "Cached data",
   "globalTimetableTerm": "Term {term}",
-  "@globalTimetableTerm": {"placeholders": {"term": {"type": "int"}}},
+  "@globalTimetableTerm": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      }
+    }
+  },
   "globalTimetableImportStatus": "Import: {phase}",
-  "@globalTimetableImportStatus": {"placeholders": {"phase": {"type": "String"}}},
+  "@globalTimetableImportStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      }
+    }
+  },
   "globalTimetablePhaseAuthorizing": "Authorizing",
   "globalTimetablePhaseQueued": "Queued",
   "globalTimetablePhaseFetching": "Fetching from WHU",
@@ -1443,7 +1513,16 @@
   "globalTimetablePhaseCompleted": "Completed",
   "globalTimetablePhaseFailed": "Failed",
   "globalTimetableImportCounts": "Fetched {fetched}; stored {stored}",
-  "@globalTimetableImportCounts": {"placeholders": {"fetched": {"type": "int"}, "stored": {"type": "int"}}},
+  "@globalTimetableImportCounts": {
+    "placeholders": {
+      "fetched": {
+        "type": "int"
+      },
+      "stored": {
+        "type": "int"
+      }
+    }
+  },
   "settingsAiConnectionSuccess": "AI connection test successful.",
   "settingsAiConnectionFailed": "Connection failed: {error}",
   "@settingsAiConnectionFailed": {
@@ -1930,7 +2009,6 @@
   "courseGradeStatsTeacherClear": "Clear teacher",
   "courseGradeStatsTeacherSearch": "Search teacher",
   "courseGradeStatsAllTeachersPrepared": "All teacher data is ready. Choose a teacher to view its grade data.",
-
   "itemDetailMockReview1": "The teacher explains clearly, the courseware is well-made, and the grading is reasonable. Every class has in-class exercises that help greatly with understanding concepts.",
   "itemDetailMockReview2": "The course content is substantial, but the final exam is quite challenging. The usual workload is moderate; I recommend starting review early.",
   "itemDetailMockReview3": "Highly recommended! This course gave me a clearer direction for my major, and the lab sessions are well-designed.",
@@ -2128,7 +2206,7 @@
       }
     }
   },
-"campusBusDistance": "~{meters}m",
+  "campusBusDistance": "~{meters}m",
   "campusBusLineOne": "Line 1",
   "campusBusLineTwo": "Line 2",
   "campusBusLineMedical": "Medical Campus",
@@ -3165,7 +3243,6 @@
   "apiErrorUpstream": "Upstream service is temporarily unavailable.",
   "apiErrorDuplicateMutation": "Duplicate request detected.",
   "apiErrorRequestFailed": "Request failed. Please try again.",
-
   "authRegistrationWhuBindingRequired": "A linked WHU account is required to register",
   "authRegistrationBindWhuAccount": "Link a WHU account",
   "authPasswordMinLength": "Password must be at least {count} characters",
@@ -3184,8 +3261,12 @@
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsRange": {
     "placeholders": {
-      "from": {"type": "int"},
-      "to": {"type": "int"}
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      }
     }
   },
   "courseGradeStatsLoadFailed": "Failed to load grade distribution: {error}",
@@ -3319,15 +3400,6 @@
   "forumImagePresetDataSaver": "Data saver",
   "forumImagePresetRecommended": "Recommended",
   "forumImagePresetHighQuality": "High quality",
-  "forumSearch": "Search",
-  "forumMoreActions": "More actions",
-  "forumSearchQuery": "Search posts",
-  "forumSearchBoard": "Board",
-  "forumSearchTag": "Tag",
-  "forumSearchCourseId": "Course ID",
-  "forumSortLatest": "Latest",
-  "forumSortHottest": "Hottest",
-  "forumSortMostCommented": "Most commented",
   "forumAttachmentUploadFailed": "Failed to upload attachment: {error}",
   "@forumPostsLoadFailed": {
     "placeholders": {
@@ -3940,6 +4012,7 @@
   "whuLoginMethodDatarepoSubtitle": "Smart Luojia data portal (FineReport). Richer profile fields; may break if the school redesigns the report.",
   "whuLoginMethodNotRecommended": "Not recommended",
   "whuLoginMethodApiError": "Service unavailable",
+  "whuLoginMethodUndergraduateOnly": "Undergraduate only",
   "whuLoginImplementationTitle": "Native login",
   "whuLoginImplementationNative": "On: use the native form and show WebView only for a CAPTCHA",
   "whuLoginImplementationWebView": "Off: complete the entire login in the WHU WebView",
@@ -3969,9 +4042,21 @@
   "luotopiaRegisterVerifyEmail": "Registration successful. Please verify your email before signing in.",
   "luotopiaRegisterSuccess": "Registration successful. You can now sign in.",
   "luotopiaRegisterEmailCodeSent": "A verification code was sent to {email}.",
-  "@luotopiaRegisterEmailCodeSent": {"placeholders": {"email": {"type": "String"}}},
+  "@luotopiaRegisterEmailCodeSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "luotopiaRegisterEmailCodeRetryAfter": "Resend available in {seconds}s",
-  "@luotopiaRegisterEmailCodeRetryAfter": {"placeholders": {"seconds": {"type": "int"}}},
+  "@luotopiaRegisterEmailCodeRetryAfter": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "luotopiaRegisterEmailCodeSending": "Sending verification code...",
   "luotopiaRegisterEmailCodeRequired": "Enter the 6-digit email verification code.",
   "luotopiaRegisterEmailAlreadyVerified": "This email is already verified. You can continue to set a password.",
@@ -3980,7 +4065,13 @@
   "luotopiaRegisterEmailCodeLabel": "Email verification code",
   "luotopiaRegisterEmailCodeHint": "Enter the 6-digit code",
   "luotopiaRegisterEmailCodeExpires": "Code expires in about {minutes} minutes.",
-  "@luotopiaRegisterEmailCodeExpires": {"placeholders": {"minutes": {"type": "int"}}},
+  "@luotopiaRegisterEmailCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "luotopiaRegisterSendEmailCode": "Send verification code",
   "luotopiaRegisterResendEmailCode": "Resend verification code",
   "luotopiaRegisterStepWhuTitle": "Confirm WHU account",
@@ -4003,7 +4094,8 @@
   "luotopiaRegisterStepPasswordSubtitle": "Use at least 10 characters. You will need this password to sign in.",
   "courseImportSemesterAlreadyAdded": "This semester is already added. Choose “Update timetable” from the timetable menu.",
   "waterControlClassNo": "ClassNo {classNo}",
-  "forumImageFiles": "Forum images", "forumAttachmentFiles": "Forum attachments",
+  "forumImageFiles": "Forum images",
+  "forumAttachmentFiles": "Forum attachments",
   "@waterControlClassNo": {
     "placeholders": {
       "classNo": {
@@ -4011,7 +4103,18 @@
       }
     }
   },
-  "authRegisteredDevicesTitle": "Registered devices", "authRegisteredDevicesSubtitle": "Removing a device stops push notifications. It does not sign out an active session.", "authRegisteredDevicesEmpty": "No registered devices.", "authRegisteredDeviceLastSeen": "Last registered: {time}", "@authRegisteredDeviceLastSeen": {"placeholders": {"time": {"type": "String"}}}, "authRegisteredDeviceRemove": "Remove device",
+  "authRegisteredDevicesTitle": "Registered devices",
+  "authRegisteredDevicesSubtitle": "Removing a device stops push notifications. It does not sign out an active session.",
+  "authRegisteredDevicesEmpty": "No registered devices.",
+  "authRegisteredDeviceLastSeen": "Last registered: {time}",
+  "@authRegisteredDeviceLastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "authRegisteredDeviceRemove": "Remove device",
   "campusFacultyArts": "Faculty of Arts and Sciences",
   "campusFacultyEngineering": "Faculty of Engineering",
   "campusFacultyInfo": "Faculty of Information",
@@ -4148,7 +4251,6 @@
   "medicalLabAxisToggle": "Result axis",
   "campusBusRouteViewVertical": "Vertical route view",
   "campusBusRouteViewHorizontal": "Horizontal route view",
-
   "adminConsoleTitle": "Admin console",
   "adminConsoleSubtitle": "Users, forum, and system status",
   "adminAccessDenied": "Administrator access is required.",
@@ -4279,28 +4381,36 @@
   "forumModerationUnclaimed": "Unclaimed",
   "forumModerationUserReports": "User reports",
   "forumModerationAIHighRisk": "AI high risk",
-  "forumModerationBrigadingRisk": "Brigading risk"
-  ,"forumCommentDeleted": "This comment was deleted"
-  ,"forumRepliesExpand": "Show {count} more replies"
-  ,"@forumRepliesExpand": {"placeholders": {"count": {"type": "int"}}}
-  ,"forumReplyTo": "Reply to @{name}"
-  ,"@forumReplyTo": {"placeholders": {"name": {"type": "String"}}},
+  "forumModerationBrigadingRisk": "Brigading risk",
+  "forumCommentDeleted": "This comment was deleted",
+  "forumRepliesExpand": "Show {count} more replies",
+  "@forumRepliesExpand": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "forumReplyTo": "Reply to @{name}",
+  "@forumReplyTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "forumReplyDepthLimit": "Maximum reply depth reached",
-  "aiStop": "Stop",
-  "aiAutomation": "Automation",
-  "aiAutomationManual": "Manual",
-  "aiAutomationSemiAutomatic": "Semi-automatic",
-  "aiAutomationFullyAutomatic": "Fully automatic",
-  "aiAutomationManualDescription": "Every action waits for your confirmation before it runs.",
-  "aiAutomationSemiAutomaticDescription": "Write actions from the Agent still wait for your confirmation; other confirmations run automatically.",
-  "aiAutomationFullyAutomaticDescription": "Every action is confirmed automatically, with a complete record kept.",
-  "aiConfirmationAutoApproved": "Auto-confirmed {count} actions ({mode})",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
   "settingsAiWorkspaceTitle": "AI workspace",
   "settingsAiWorkspaceDescription": "Manage files stored in your private AI workspace.",
   "settingsAiWorkspaceUsageTitle": "Workspace usage",
   "settingsAiWorkspaceUsageFiles": "{count} files",
-  "@settingsAiWorkspaceUsageFiles": {"placeholders": {"count": {"type": "int"}}},
+  "@settingsAiWorkspaceUsageFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "settingsAiWorkspaceLoadFailed": "Unable to load workspace usage.",
   "settingsAiWorkspaceClearTitle": "Clear AI workspace",
   "settingsAiWorkspaceClearSubtitle": "Delete all files from your private AI workspace.",
@@ -4322,17 +4432,181 @@
   "aiLiveProcessing": "Processing",
   "aiLiveProcessingDescription": "Preparing the next step",
   "aiToolTraceMoreTools": "{visibleTools} and {count} tools total",
-  "@aiToolTraceMoreTools": {"placeholders": {"visibleTools": {"type": "String"}, "count": {"type": "int"}}},
+  "@aiToolTraceMoreTools": {
+    "placeholders": {
+      "visibleTools": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "aiToolTraceSucceeded": "{count} succeeded",
-  "@aiToolTraceSucceeded": {"placeholders": {"count": {"type": "int"}}},
+  "@aiToolTraceSucceeded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "aiToolTraceFailed": "{count} failed",
-  "@aiToolTraceFailed": {"placeholders": {"count": {"type": "int"}}},
+  "@aiToolTraceFailed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "aiToolTraceCancelled": "{count} incomplete",
-  "@aiToolTraceCancelled": {"placeholders": {"count": {"type": "int"}}},
+  "@aiToolTraceCancelled": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "aiToolTraceSummary": "Tool calls: {tools} · {statuses}",
-  "@aiToolTraceSummary": {"placeholders": {"tools": {"type": "String"}, "statuses": {"type": "String"}}},
+  "@aiToolTraceSummary": {
+    "placeholders": {
+      "tools": {
+        "type": "String"
+      },
+      "statuses": {
+        "type": "String"
+      }
+    }
+  },
   "aiToolTraceDetails": "Tool call details",
   "aiToolTraceStatusSucceeded": "Succeeded",
   "aiToolTraceStatusFailed": "Failed",
-  "aiToolTraceStatusCancelled": "Incomplete"
+  "aiToolTraceStatusCancelled": "Incomplete",
+  "forumModerationModeratePost": "Moderate post",
+  "forumModerationPostIdLabel": "Post ID",
+  "forumModerationPostIdRequired": "Post ID is required",
+  "forumModerationPostEvidenceTitle": "Post evidence",
+  "forumModerationAccountAction": "Account action",
+  "forumModerationBanAccount": "Ban account",
+  "forumModerationRemoveMute": "Remove mute",
+  "forumModerationRemoveBan": "Remove ban",
+  "forumModerationAccountActionApplied": "Account action applied",
+  "forumModerationMovePost": "Move post",
+  "forumModerationKeepBoard": "Keep board",
+  "forumModerationKarmaReason": "Karma reason",
+  "courseMatchingTargetTimetable": "Target timetable",
+  "courseMatchingCreateNewTimetable": "Create a new timetable",
+  "courseMatchingCurrentTimeSlotOnly": "Current time slot only",
+  "courseMatchingNoConflicts": "No conflicts",
+  "courseMatchingConflictsCount": "{count} conflicts",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "Advanced filters",
+  "courseMatchingDayOfWeek": "Day of week",
+  "courseMatchingFromSection": "From section",
+  "courseMatchingToSection": "To section",
+  "courseMatchingCourseType": "Course type",
+  "courseMatchingMinCredits": "Minimum credits",
+  "courseMatchingMaxCredits": "Maximum credits",
+  "adminControllableQueues": "Controllable queues",
+  "adminSystemQueues": "System queues",
+  "luotopiaAccountViewLargeAvatar": "View large image",
+  "luotopiaAccountChangeAvatar": "Change avatar",
+  "luotopiaRegisterDebugCode": "Dev debug code: {code}",
+  "@luotopiaRegisterDebugCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "schoolNetCheckpointRecorded": "Checkpoint recorded: {checkpoint}",
+  "@schoolNetCheckpointRecorded": {
+    "placeholders": {
+      "checkpoint": {
+        "type": "String"
+      }
+    }
+  },
+  "schoolNetCheckpointTooltip": "Record personal network capture checkpoint",
+  "schoolNetCheckpointDevicesLoaded": "Devices loaded",
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "Before canceling seamless auth",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "After canceling seamless auth",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "Before device disconnect",
+  "schoolNetCheckpointAfterDeviceDisconnect": "After device disconnect",
+  "schoolNetAuthEmptyCredentials": "Username or password cannot be empty",
+  "schoolNetAuthPortalNotDetected": "Campus network authentication page not detected. Please connect to the campus network and try again.",
+  "schoolNetAuthServiceUnavailable": "Campus network authentication service is temporarily unavailable. Please try again later.",
+  "schoolNetAuthRejected": "Campus network authentication was rejected. Please check your account, password, and plan status.",
+  "schoolNetAuthSubmittedNotOnline": "Authentication request submitted, but the device is not yet online. Please try again later.",
+  "schoolNetAuthTimeout": "Campus network authentication request timed out. Please try again later.",
+  "schoolNetAuthConnectionFailed": "Unable to connect to campus network authentication service. Please confirm you are connected to the campus network.",
+  "whuCasCodeSendFailed": "Verification code failed to send",
+  "whuCasFormErrorFallback": "Account, password, or dynamic code is incorrect",
+  "aiModelFormatUnsupported": "The current Agent Harness only supports OpenAI Completion compatible interfaces.",
+  "aiModelRequestCancelled": "Request cancelled.",
+  "aiModelHttpError": "AI service returned HTTP {statusCode}.",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "AI service returned duplicate tool call identifiers.",
+  "aiModelEmptyResponse": "AI service returned no usable content.",
+  "aiToolStatusRunning": "Executing",
+  "aiToolStatusWaiting": "Awaiting Confirmation",
+  "aiToolStatusCompleted": "Tool Completed",
+  "aiToolStatusFailed": "Tool Failed",
+  "aiToolUnknown": "Unknown Tool",
+  "aiRequestCancelled": "Request cancelled.",
+  "majorInfoLegendOver10": "Over 10%",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "{range} wks",
+  "@courseWeekRangeAll": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeOdd": "{range} wks (Odd)",
+  "@courseWeekRangeOdd": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeEven": "{range} wks (Even)",
+  "@courseWeekRangeEven": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAreaLabel": "Court {no}",
+  "@sportsAreaLabel": {
+    "placeholders": {
+      "no": {
+        "type": "Object"
+      }
+    }
+  },
+  "courseUnnamed": "Unnamed Course",
+  "courseTimetableWakeupDefaultName": "WakeUp Schedule",
+  "courseTimetableShiguangDefaultName": "Shiguang Schedule",
+  "courseTimetableXinglianDefaultName": "Xinglian Schedule",
+  "courseTimetableLocalFileDefaultName": "Local Schedule",
+  "studyStatusOutOfPlanSectionTitle": "Out-of-plan Courses",
+  "schoolNetDefaultDeviceName": "My Device"
 }

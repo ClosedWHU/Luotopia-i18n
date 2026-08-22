@@ -522,6 +522,7 @@
   "settingsPrivacyDiagnosticsTitle": "Diagnostics et analyses",
   "settingsPrivacyDiagnosticsSubtitle": "Ces options contribuent à améliorer Luotopia. Vous pouvez les modifier à tout moment. Les données ne sont collectées que lorsqu'un interrupteur est activé.",
   "settingsPrivacyDiagnosticsUnsupported": "Les diagnostics sont disponibles uniquement sur les versions Android et iOS avec Firebase.",
+  "settingsPrivacyDiagnosticsDebugLocked": "Les builds Debug ne collectent pas de télémétrie. Ces commutateurs prennent effet dans les builds Release et conservent votre choix enregistré.",
   "settingsPrivacyAnalyticsTitle": "Analyse de l'utilisation",
   "settingsPrivacyAnalyticsSubtitle": "Utilisation anonyme des fonctionnalités pour améliorer l'application",
   "settingsPrivacyCrashTitle": "Rapports de plantage",
@@ -939,7 +940,6 @@
   "aiOpenDraftPage": "Ouvrir le brouillon",
   "aiSending": "Envoi…",
   "aiSend": "Envoyer",
-  "aiStop": "Arrêter",
   "aiClearHistory": "Effacer l’historique",
   "aiRename": "Renommer",
   "aiDelete": "Supprimer",
@@ -969,24 +969,6 @@
   "aiConfirmationDecline": "Annuler",
   "aiConfirmationSubmit": "Envoyer les décisions",
   "aiConfirmationDecisionRequired": "Choisissez d’approuver ou d’annuler chaque action.",
-  "aiAutomation": "Automatisation",
-  "aiAutomationManual": "Manuel",
-  "aiAutomationSemiAutomatic": "Semi-automatique",
-  "aiAutomationFullyAutomatic": "Entièrement automatique",
-  "aiAutomationManualDescription": "Chaque action attend votre confirmation avant de s'exécuter.",
-  "aiAutomationSemiAutomaticDescription": "Les actions d'écriture de l'Agent attendent toujours votre confirmation ; les autres sont confirmées automatiquement.",
-  "aiAutomationFullyAutomaticDescription": "Chaque action est confirmée automatiquement, avec un historique complet.",
-  "aiConfirmationAutoApproved": "{count} actions confirmées automatiquement ({mode})",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "Le relevé est protégé par un verrou de confidentialité",
   "scorePageClickToUnlock": "Appuyez pour déverrouiller",
   "scorePageNoLocalScore": "Aucune note locale",
@@ -3599,6 +3581,7 @@
   "sportsOrderFilterReserved": "Réservées",
   "sportsOrderFilterHistory": "Historique",
   "whuLoginMethodNotRecommended": "Non recommandé",
+  "whuLoginMethodUndergraduateOnly": "Premier cycle uniquement",
   "whuLoginMethodApiError": "Service indisponible",
   "forumModerationReports": "Signalements",
   "forumModerationAppeals": "Contestations",

@@ -522,6 +522,7 @@
   "settingsPrivacyDiagnosticsTitle": "診斷與分析",
   "settingsPrivacyDiagnosticsSubtitle": "這些選項用於改進珞家。你可以隨時更改。僅在開啟後才會收集資料。",
   "settingsPrivacyDiagnosticsUnsupported": "診斷功能僅在已接入 Firebase 的 Android / iOS 版本可用。",
+  "settingsPrivacyDiagnosticsDebugLocked": "Debug 版唔採集遙測資料。以下開關會喺 Release 版生效，仲會保留你儲存咗嘅選擇。",
   "settingsPrivacyAnalyticsTitle": "使用分析",
   "settingsPrivacyAnalyticsSubtitle": "匿名功能使用資料，用於改進應用體驗",
   "settingsPrivacyCrashTitle": "崩潰報告",
@@ -939,7 +940,6 @@
   "aiOpenDraftPage": "打開草稿頁面",
   "aiSending": "傳送緊",
   "aiSend": "傳送",
-  "aiStop": "停止",
   "aiClearHistory": "清走紀錄",
   "aiRename": "改名",
   "aiDelete": "刪除",
@@ -969,24 +969,6 @@
   "aiConfirmationDecline": "取消",
   "aiConfirmationSubmit": "提交決定",
   "aiConfirmationDecisionRequired": "請為每一項操作揀同意或者取消。",
-  "aiAutomation": "自動化程度",
-  "aiAutomationManual": "全手動",
-  "aiAutomationSemiAutomatic": "半自動",
-  "aiAutomationFullyAutomatic": "全自動",
-  "aiAutomationManualDescription": "每項操作都要你確認咗先執行。",
-  "aiAutomationSemiAutomaticDescription": "Agent 發起嘅寫入操作仲要你確認，其他確認自動通過。",
-  "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
-  "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "成績表已經俾私隱鎖保護",
   "scorePageClickToUnlock": "撳解鎖",
   "scorePageNoLocalScore": "本機冇成績",
@@ -1668,11 +1650,6 @@
   "itemDetailScoreFinal": "期末",
   "itemDetailSectionDistribution": "成績分佈",
   "itemDetailSectionReviews": "科目評價",
-  "courseGradeStatsTeacherHint": "請揀任教老師，查看相應嘅給分資料。",
-  "courseGradeStatsTeacherInputHint": "可以輸入老師名搜尋；留空就睇晒所有老師",
-  "courseGradeStatsTeacherClear": "清除老師",
-  "courseGradeStatsTeacherSearch": "搜尋老師",
-  "courseGradeStatsAllTeachersPrepared": "所有老師嘅給分資料已準備好，請揀一位老師查看詳情。",
   "itemDetailCourseInsightsDescription": "查看珞家統計、Ham 畀分資料同同學評價。課表科目會按科目名稱配對。",
   "itemDetailCourseInsightsAmbiguous": "珞家入面有幾科同名科目，請手動選擇，避免配對錯誤資料。",
   "itemDetailMockReview1": "老師講得好清楚，課件做得好，畀分都唔錯。每堂都有堂上練習，對明概念好有幫助。",
@@ -2762,13 +2739,9 @@
   "settingsDevCampusDiagnosticsSubtitle": "追蹤郵箱及訊息工作階段、請求同剖析器",
   "settingsDevLifecycleDiagnostics": "應用程式生命週期診斷",
   "settingsDevLifecycleDiagnosticsSubtitle": "追蹤熱更新、位置重新整理及生命週期控制流程",
-  "courseGradeStatsSourceHam": "來源：Ham",
-  "courseGradeStatsSourceLuotopia": "來源：Luotopia",
-  "courseGradeStatsSourceHint": "揀給分資料來源",
   "courseGradeStatsSourceLuotopiaShort": "珞家",
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
-  "courseGradeStatsLoadFailed": "載入成績分佈失敗：{error}",
   "@courseGradeStatsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2776,10 +2749,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "提交匿名成績",
-  "courseGradeStatsNoTeachers": "呢科冇可用嘅老師，所以唔可以提交成績。",
-  "courseGradeStatsPrivacyThreshold": "為咗保護私隱，最少要有 5 個樣本。",
-  "courseGradeStatsSamples": "{count} 個匿名樣本",
   "@courseGradeStatsSamples": {
     "placeholders": {
       "count": {
@@ -2788,14 +2757,8 @@
     }
   },
   "courseGradeStatsMedian": "中位數",
-  "courseGradeStatsTotalAverage": "總成績平均分",
-  "courseGradeStatsUsualAverage": "平時成績平均分",
-  "courseGradeStatsExamAverage": "考試成績平均分",
   "courseGradeStatsDistribution": "成績分佈",
-  "courseGradeStatsFail": "不合格",
   "courseGradeStatsTotalScore": "總成績（0 - 100）",
-  "courseGradeStatsSubmitted": "匿名成績已提交。",
-  "courseGradeStatsSubmitFailed": "提交成績失敗：{error}",
   "@courseGradeStatsSubmitFailed": {
     "placeholders": {
       "error": {
@@ -2995,24 +2958,6 @@
   "forumAppealReason": "申訴說明",
   "forumAppealSubmitted": "申訴已提交。",
   "forumModeration": "內容審核",
-  "forumKarmaEconomySettings": "Karma economy",
-  "forumKarmaEconomySaved": "Karma settings saved.",
-  "forumKarmaSettingPostUp": "Post upvote gain",
-  "forumKarmaSettingPostDown": "Post downvote loss",
-  "forumKarmaSettingCommentUp": "Comment upvote gain",
-  "forumKarmaSettingCommentDown": "Comment downvote loss",
-  "forumKarmaSettingVoteCostUp": "Upvote cost",
-  "forumKarmaSettingVoteCostDown": "Downvote cost",
-  "forumKarmaSettingCheckinFixed": "Fixed check-in",
-  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
-  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
-  "forumKarmaSettingCreatePostReward": "Create post reward",
-  "forumKarmaSettingCreateCommentReward": "Create comment reward",
-  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
-  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
-  "forumKarmaLedgerCreatePost": "Published a post",
-  "forumKarmaLedgerCreateComment": "Posted a reply",
-  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "通過",
   "forumHide": "隱藏",
   "forumDelete": "刪除",
@@ -3042,8 +2987,6 @@
   "forumReport": "舉報",
   "forumReportReason": "舉報原因",
   "forumReportSubmitted": "舉報已提交。",
-  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
-  "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
     "placeholders": {
@@ -3052,7 +2995,6 @@
       }
     }
   },
-  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3071,17 +3013,6 @@
       }
     }
   },
-  "forumKarmaLevelTitle0": "Newcomer",
-  "forumKarmaLevelTitle1": "Apprentice",
-  "forumKarmaLevelTitle2": "Regular",
-  "forumKarmaLevelTitle3": "Active",
-  "forumKarmaLevelTitle4": "Adept",
-  "forumKarmaLevelTitle5": "Expert",
-  "forumKarmaLevelTitle6": "Elder",
-  "forumKarmaLevelTitle7": "Luminary",
-  "forumKarmaLevelTitle8": "Beacon",
-  "forumKarmaLevelTitle9": "Legend",
-  "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
     "placeholders": {
@@ -3093,7 +3024,6 @@
       }
     }
   },
-  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
     "placeholders": {
       "level": {
@@ -3107,12 +3037,6 @@
       }
     }
   },
-  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
-  "forumKarmaHideExact": "Hide exact Karma",
-  "forumKarmaHideExactHint": "Others only see your level, not the number.",
-  "forumLeaderboardLoadMore": "Load more",
-  "forumKarmaDailyBudget": "Daily allotment",
-  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
     "placeholders": {
       "up": {
@@ -3123,11 +3047,6 @@
       }
     }
   },
-  "forumKarmaInsufficient": "Insufficient Karma",
-  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
-  "forumCheckinTodo": "簽到",
-  "forumCheckinTitle": "Daily check-in",
-  "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
     "placeholders": {
       "amount": {
@@ -3135,10 +3054,6 @@
       }
     }
   },
-  "forumCheckinRandom": "Trial of chance",
-  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
-  "forumCheckinDone": "Already checked in today",
-  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
     "placeholders": {
       "amount": {
@@ -3149,18 +3064,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
-  "forumModerationFlavorPending": "Pending review",
-  "forumKarmaLedgerTitle": "Ledger",
-  "forumKarmaLedgerContentUp": "Received upvote",
-  "forumKarmaLedgerContentDown": "Received downvote",
-  "forumKarmaLedgerVoteCost": "Vote cost",
-  "forumKarmaLedgerVoteRefund": "Vote refund",
-  "forumKarmaLedgerCheckin": "Check-in",
-  "forumKarmaLedgerCheckinStreak": "Streak bonus",
-  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
-  "forumKarmaLedgerAdmin": "Admin adjustment",
-  "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
     "placeholders": {
       "karma": {
@@ -3168,7 +3071,6 @@
       }
     }
   },
-  "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
     "placeholders": {
       "streak": {
@@ -3176,11 +3078,6 @@
       }
     }
   },
-  "forumKarmaLedgerEmpty": "No karma movements yet.",
-  "forumKarmaAdminAdjust": "Adjust Karma",
-  "forumKarmaAdminDelta": "Delta",
-  "forumKarmaAdminReason": "Reason",
-  "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
     "placeholders": {
       "karma": {
@@ -3188,27 +3085,6 @@
       }
     }
   },
-  "forumLeaderboardTitle": "Karma ranking",
-  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
-  "forumLeaderboardJoinNamed": "Join with nickname",
-  "forumLeaderboardJoinAnonymous": "Join anonymously",
-  "forumLeaderboardLeave": "Leave ranking",
-  "forumLeaderboardAnonymous": "Appear anonymously",
-  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
-  "forumLeaderboardEmpty": "No participants yet.",
-  "forumAdminLogTitle": "Moderation notices",
-  "forumAdminLogSearchHint": "Search summaries or details",
-  "forumAdminLogEmpty": "No public moderation notices yet.",
-  "forumAdminLogLoadMore": "Load more",
-  "forumAdminLogActionBan": "Ban",
-  "forumAdminLogActionUnban": "Unban",
-  "forumAdminLogActionMute": "Mute",
-  "forumAdminLogActionUnmute": "Unmute",
-  "forumAdminLogActionKarma": "Karma adjust",
-  "forumAdminLogActionHide": "Hide post",
-  "forumAdminLogActionDelete": "Delete post",
-  "forumAdminLogActionRestore": "Restore post",
-  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "提交舉報失敗：{error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3549,6 +3425,7 @@
   "sportsOrderFilterReserved": "已預約",
   "sportsOrderFilterHistory": "歷史",
   "whuLoginMethodNotRecommended": "唔推薦",
+  "whuLoginMethodUndergraduateOnly": "僅限本科",
   "whuLoginMethodApiError": "接口異常",
   "forumModerationReports": "舉報",
   "forumModerationAppeals": "申訴",
@@ -4090,5 +3967,111 @@
   "aiToolTraceDetails": "工具呼叫詳情",
   "aiToolTraceStatusSucceeded": "成功",
   "aiToolTraceStatusFailed": "失敗",
-  "aiToolTraceStatusCancelled": "未完成"
+  "aiToolTraceStatusCancelled": "未完成",
+  "forumAdminLogActionApprove": "通過帖",
+  "forumAdminLogActionBan": "封鎖",
+  "forumAdminLogActionDelete": "刪除帖",
+  "forumAdminLogActionHide": "隱藏帖",
+  "forumAdminLogActionKarma": "業果調整",
+  "forumAdminLogActionMute": "禁言",
+  "forumAdminLogActionRestore": "復原帖",
+  "forumAdminLogActionUnban": "解封",
+  "forumAdminLogActionUnmute": "解禁",
+  "forumAdminLogEmpty": "仲未有公開管理員公告。",
+  "forumAdminLogLoadMore": "載多啲",
+  "forumAdminLogSearchHint": "搜尋摘要或詳情",
+  "forumAdminLogTitle": "管理員公告",
+  "forumAppealFlavor": "要求覆核",
+  "forumCheckinDone": "今日經已簽到",
+  "forumCheckinFixed": "穩陣路徑（+{amount}）",
+  "forumCheckinRandom": "博一鋪",
+  "forumCheckinRandomHint": "長線平均稍低於穩陣路徑",
+  "forumCheckinSuccess": "+{amount} 業果（連續 {streak} 日）",
+  "forumCheckinTitle": "每日簽到",
+  "forumCheckinTodo": "簽到",
+  "forumKarma": "業果",
+  "forumKarmaAdminAdjust": "調整業果",
+  "forumKarmaAdminDelta": "增減",
+  "forumKarmaAdminReason": "原因",
+  "forumKarmaAdminSuccess": "業果更新做 {karma}",
+  "forumKarmaAuthorMeta": "Lv{level} · 業果 {karma}",
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · 業果 {karma}",
+  "forumKarmaBudgetExhausted": "每日配額用晒",
+  "forumKarmaBudgetLine": "讚 {up} · 踩 {down}",
+  "forumKarmaDailyBudget": "每日配額",
+  "forumKarmaEconomySaved": "業果設定已儲存。",
+  "forumKarmaEconomySettings": "業果經濟設定",
+  "forumKarmaHideExact": "隱藏確實業果",
+  "forumKarmaHideExactHint": "其他人只睇到你嘅等級，睇唔到數字。",
+  "forumKarmaInsufficient": "業果唔夠",
+  "forumKarmaLedgerAdmin": "管理員調整",
+  "forumKarmaLedgerCheckin": "簽到",
+  "forumKarmaLedgerCheckinStreak": "連續獎勵",
+  "forumKarmaLedgerContentDown": "收到踩",
+  "forumKarmaLedgerContentUp": "收到讚",
+  "forumKarmaLedgerCreateComment": "回咗覆",
+  "forumKarmaLedgerCreatePost": "出咗帖",
+  "forumKarmaLedgerEmpty": "仲未有業果變動。",
+  "forumKarmaLedgerRollback": "內容已移除（業果已調整）",
+  "forumKarmaLedgerTitle": "業果流水",
+  "forumKarmaLedgerVoteCost": "投票成本",
+  "forumKarmaLedgerVoteRefund": "投票退款",
+  "forumKarmaLowQualityHint": "水軍以外嘅低信號帖，用理由 low_quality（建議 ?10）。水軍帖拎唔到出帖獎勵。",
+  "forumKarmaNextLevel": "下一級喺 {karma}",
+  "forumKarmaSettingCheckinFixed": "固定簽到",
+  "forumKarmaSettingCommentDown": "留言踩所失",
+  "forumKarmaSettingCommentUp": "留言讚所得",
+  "forumKarmaSettingCreateCommentDailyCap": "每日留言獎勵上限",
+  "forumKarmaSettingCreateCommentReward": "回覆獎勵",
+  "forumKarmaSettingCreatePostDailyCap": "每日帖獎勵上限",
+  "forumKarmaSettingCreatePostReward": "出帖獎勵",
+  "forumKarmaSettingMutualThreshold": "互讚門檻",
+  "forumKarmaSettingMutualWindowHours": "互讚時段（小時）",
+  "forumKarmaSettingPostDown": "帖踩所失",
+  "forumKarmaSettingPostUp": "帖讚所得",
+  "forumKarmaSettingVoteCostDown": "踩成本",
+  "forumKarmaSettingVoteCostUp": "讚成本",
+  "forumKarmaSoftDemotionHint": "如果業果跌過某個等級，徽章會保留大約 7 日先至軟性降級。",
+  "forumKarmaStreakLine": "簽到連續：{streak}",
+  "forumLeaderboardAnonymous": "匿名顯示",
+  "forumLeaderboardAnonymousHint": "其他人睇到遮咗嘅名；你仍然睇到自己嘅名次。",
+  "forumLeaderboardEmpty": "仲未有參加者。",
+  "forumLeaderboardJoinAnonymous": "匿名參加",
+  "forumLeaderboardJoinHint": "參加排名睇排名。可以用暱稱或者匿名顯示。",
+  "forumLeaderboardJoinNamed": "用暱稱參加",
+  "forumLeaderboardLeave": "退出排名",
+  "forumLeaderboardLoadMore": "載多啲",
+  "forumLeaderboardTitle": "業果排名",
+  "forumModerationFlavorPending": "待審核",
+  "forumReportSubmittedFlavor": "已記錄；等緊回應。",
+  "courseGradeStatsAllTeachersPrepared": "全部老師數據已就緒。揀個老師去睇成績數據。",
+  "courseGradeStatsExamAverage": "平均考試分",
+  "courseGradeStatsFail": "唔合格",
+  "courseGradeStatsLoadFailed": "載入成績分佈失敗: {error}",
+  "courseGradeStatsNoTeachers": "呢科無老師，提交唔到成績。",
+  "courseGradeStatsPrivacyThreshold": "為咗保障私隱，最少要 5 個樣本。",
+  "courseGradeStatsSamples": "{count} 個匿名樣本",
+  "courseGradeStatsSourceHam": "來源: Ham",
+  "courseGradeStatsSourceHint": "揀個數據來源",
+  "courseGradeStatsSourceLuotopia": "來源: Luotopia",
+  "courseGradeStatsSubmit": "匿名提交成績",
+  "courseGradeStatsSubmitFailed": "提交成績失敗: {error}",
+  "courseGradeStatsSubmitted": "已匿名提交成績。",
+  "courseGradeStatsTeacherClear": "清除老師",
+  "courseGradeStatsTeacherHint": "揀個老師去睇對應嘅成績數據。",
+  "courseGradeStatsTeacherInputHint": "搜尋老師，或者留空睇全部",
+  "courseGradeStatsTeacherSearch": "搜尋老師",
+  "courseGradeStatsTotalAverage": "平均總分",
+  "courseGradeStatsUsualAverage": "平均平時分",
+  "forumKarmaLevelTitle0": "新人",
+  "forumKarmaLevelTitle1": "學徒",
+  "forumKarmaLevelTitle10": "神話",
+  "forumKarmaLevelTitle2": "常客",
+  "forumKarmaLevelTitle3": "活躍",
+  "forumKarmaLevelTitle4": "熟手",
+  "forumKarmaLevelTitle5": "老手",
+  "forumKarmaLevelTitle6": "長老",
+  "forumKarmaLevelTitle7": "光輝",
+  "forumKarmaLevelTitle8": "燈塔",
+  "forumKarmaLevelTitle9": "傳說"
 }

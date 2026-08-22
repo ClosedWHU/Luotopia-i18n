@@ -545,6 +545,7 @@
   "settingsPrivacyDiagnosticsTitle": "診斷與分析",
   "settingsPrivacyDiagnosticsSubtitle": "這些選項用於改進珞家。你可以隨時更改。僅在開啟後才會收集資料。",
   "settingsPrivacyDiagnosticsUnsupported": "診斷功能僅在已接入 Firebase 的 Android / iOS 版本可用。",
+  "settingsPrivacyDiagnosticsDebugLocked": "Debug 版本不收集遙測資料。以下開關將於 Release 版本生效，並保留你已儲存的選擇。",
   "settingsPrivacyAnalyticsTitle": "使用分析",
   "settingsPrivacyAnalyticsSubtitle": "匿名功能使用資料，用於改進應用體驗",
   "settingsPrivacyCrashTitle": "崩潰報告",
@@ -962,7 +963,6 @@
   "aiOpenDraftPage": "打開草稿二級頁",
   "aiSending": "發送中",
   "aiSend": "發送",
-  "aiStop": "停止",
   "aiClearHistory": "清空歷史",
   "aiRename": "重命名",
   "aiDelete": "刪除",
@@ -992,24 +992,6 @@
   "aiConfirmationDecline": "取消",
   "aiConfirmationSubmit": "提交決定",
   "aiConfirmationDecisionRequired": "請為每一項操作選擇同意或取消。",
-  "aiAutomation": "自動化程度",
-  "aiAutomationManual": "全手動",
-  "aiAutomationSemiAutomatic": "半自動",
-  "aiAutomationFullyAutomatic": "全自動",
-  "aiAutomationManualDescription": "每項操作都需要你確認後執行。",
-  "aiAutomationSemiAutomaticDescription": "Agent 發起的寫入操作仍需你確認，其餘確認自動通過。",
-  "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
-  "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "成績單已被隱私鎖保護",
   "scorePageClickToUnlock": "點擊解鎖",
   "scorePageNoLocalScore": "沒有本地成績",
@@ -3599,6 +3581,7 @@
   "sportsOrderFilterHistory": "歷史",
   "whuLoginMethodNotRecommended": "不推薦",
   "whuLoginMethodApiError": "介面異常",
+  "whuLoginMethodUndergraduateOnly": "僅限本科",
   "forumModerationReports": "檢舉",
   "forumModerationAppeals": "申訴",
   "settingsBuildInfoArchitecture": "架構",

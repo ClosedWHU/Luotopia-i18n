@@ -725,6 +725,7 @@
   "settingsPrivacyDiagnosticsTitle": "Chẩn đoán và phân tích",
   "settingsPrivacyDiagnosticsSubtitle": "Các tùy chọn này giúp cải thiện Luotopia. Bạn có thể thay đổi bất cứ lúc nào. Dữ liệu chỉ được thu thập khi công tắc được bật.",
   "settingsPrivacyDiagnosticsUnsupported": "Chẩn đoán chỉ khả dụng trên các bản dựng Android và iOS có Firebase.",
+  "settingsPrivacyDiagnosticsDebugLocked": "Bản Debug không thu thập dữ liệu từ xa. Các công tắc này có hiệu lực trong bản Release và giữ lại lựa chọn đã lưu.",
   "settingsPrivacyAnalyticsTitle": "Phân tích mức sử dụng",
   "settingsPrivacyAnalyticsSubtitle": "Dữ liệu sử dụng tính năng ẩn danh để giúp cải thiện ứng dụng",
   "settingsPrivacyCrashTitle": "Báo cáo sự cố",
@@ -1142,7 +1143,6 @@
   "aiOpenDraftPage": "Mở trang nháp",
   "aiSending": "Đang gửi",
   "aiSend": "Gửi",
-  "aiStop": "Dừng",
   "aiClearHistory": "Xóa lịch sử",
   "aiRename": "Đổi tên",
   "aiDelete": "Xóa",
@@ -1172,24 +1172,6 @@
   "aiConfirmationDecline": "Hủy",
   "aiConfirmationSubmit": "Gửi lựa chọn",
   "aiConfirmationDecisionRequired": "Hãy chọn đồng ý hoặc hủy cho từng thao tác.",
-  "aiAutomation": "Mức tự động hóa",
-  "aiAutomationManual": "Thủ công hoàn toàn",
-  "aiAutomationSemiAutomatic": "Bán tự động",
-  "aiAutomationFullyAutomatic": "Tự động hoàn toàn",
-  "aiAutomationManualDescription": "Mọi thao tác đều chờ bạn xác nhận trước khi thực hiện.",
-  "aiAutomationSemiAutomaticDescription": "Thao tác ghi do Agent thực hiện vẫn cần bạn xác nhận; các xác nhận khác được tự động thông qua.",
-  "aiAutomationFullyAutomaticDescription": "Mọi thao tác được tự động xác nhận và lưu bản ghi đầy đủ.",
-  "aiConfirmationAutoApproved": "Đã tự động xác nhận {count} thao tác ({mode})",
-  "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "mode": {
-        "type": "String"
-      }
-    }
-  },
   "scorePagePrivacyLocked": "Bảng điểm được khóa quyền riêng tư",
   "scorePageClickToUnlock": "Chạm để mở khóa",
   "scorePageNoLocalScore": "Không có điểm trên máy",
@@ -1871,11 +1853,6 @@
   "itemDetailScoreFinal": "Cuối kỳ",
   "itemDetailSectionDistribution": "Phân bố điểm",
   "itemDetailSectionReviews": "Đánh giá",
-  "courseGradeStatsTeacherHint": "Chọn giảng viên để xem dữ liệu điểm tương ứng.",
-  "courseGradeStatsTeacherInputHint": "Tìm theo tên giảng viên hoặc để trống để xem tất cả giảng viên",
-  "courseGradeStatsTeacherClear": "Xóa giảng viên",
-  "courseGradeStatsTeacherSearch": "Tìm giảng viên",
-  "courseGradeStatsAllTeachersPrepared": "Dữ liệu điểm của tất cả giảng viên đã sẵn sàng. Hãy chọn một giảng viên để xem chi tiết.",
   "itemDetailMockReview1": "Thầy/cô giảng rõ, slide tốt, chấm điểm hợp lý. Bài tập trên lớp giúp hiểu khái niệm rất nhiều.",
   "itemDetailMockReview2": "Nội dung dày, thi cuối khó. Bài tập vừa phải; nên ôn sớm.",
   "itemDetailMockReview3": "Rất đáng học! Môn này làm rõ hướng chuyên ngành, lab thiết kế tốt.",
@@ -2971,13 +2948,9 @@
   "settingsDevCampusDiagnosticsSubtitle": "Theo dõi phiên hộp thư và tin nhắn, yêu cầu và trình phân tích cú pháp",
   "settingsDevLifecycleDiagnostics": "Chẩn đoán vòng đời ứng dụng",
   "settingsDevLifecycleDiagnosticsSubtitle": "Theo dõi cập nhật nóng, làm mới vị trí và luồng điều khiển vòng đời",
-  "courseGradeStatsSourceHam": "Nguồn: Ham",
-  "courseGradeStatsSourceLuotopia": "Nguồn: Luotopia",
-  "courseGradeStatsSourceHint": "Chọn nguồn dữ liệu",
   "courseGradeStatsSourceLuotopiaShort": "Luotopia",
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
-  "courseGradeStatsLoadFailed": "Không thể tải phân bố điểm: {error}",
   "@courseGradeStatsLoadFailed": {
     "placeholders": {
       "error": {
@@ -2985,10 +2958,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "Gửi điểm ẩn danh",
-  "courseGradeStatsNoTeachers": "Không có giảng viên nào cho học phần này nên không thể gửi điểm.",
-  "courseGradeStatsPrivacyThreshold": "Cần ít nhất 5 mẫu để bảo vệ quyền riêng tư.",
-  "courseGradeStatsSamples": "{count} mẫu ẩn danh",
   "@courseGradeStatsSamples": {
     "placeholders": {
       "count": {
@@ -2997,14 +2966,8 @@
     }
   },
   "courseGradeStatsMedian": "Median score",
-  "courseGradeStatsTotalAverage": "Điểm tổng kết trung bình",
-  "courseGradeStatsUsualAverage": "Điểm thường xuyên trung bình",
-  "courseGradeStatsExamAverage": "Điểm thi trung bình",
   "courseGradeStatsDistribution": "Phân bố điểm",
-  "courseGradeStatsFail": "Không đạt",
   "courseGradeStatsTotalScore": "Tổng điểm (0 - 100)",
-  "courseGradeStatsSubmitted": "Đã gửi điểm ẩn danh.",
-  "courseGradeStatsSubmitFailed": "Không thể gửi điểm: {error}",
   "@courseGradeStatsSubmitFailed": {
     "placeholders": {
       "error": {
@@ -3214,8 +3177,6 @@
   "forumReport": "Báo cáo",
   "forumReportReason": "Lý do",
   "forumReportSubmitted": "Đã gửi báo cáo.",
-  "forumReportSubmittedFlavor": "Recorded; awaiting response.",
-  "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
     "placeholders": {
@@ -3224,7 +3185,6 @@
       }
     }
   },
-  "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3243,17 +3203,6 @@
       }
     }
   },
-  "forumKarmaLevelTitle0": "Newcomer",
-  "forumKarmaLevelTitle1": "Apprentice",
-  "forumKarmaLevelTitle2": "Regular",
-  "forumKarmaLevelTitle3": "Active",
-  "forumKarmaLevelTitle4": "Adept",
-  "forumKarmaLevelTitle5": "Expert",
-  "forumKarmaLevelTitle6": "Elder",
-  "forumKarmaLevelTitle7": "Luminary",
-  "forumKarmaLevelTitle8": "Beacon",
-  "forumKarmaLevelTitle9": "Legend",
-  "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
     "placeholders": {
@@ -3265,7 +3214,6 @@
       }
     }
   },
-  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
     "placeholders": {
       "level": {
@@ -3279,12 +3227,6 @@
       }
     }
   },
-  "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
-  "forumKarmaHideExact": "Hide exact Karma",
-  "forumKarmaHideExactHint": "Others only see your level, not the number.",
-  "forumLeaderboardLoadMore": "Load more",
-  "forumKarmaDailyBudget": "Daily allotment",
-  "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
     "placeholders": {
       "up": {
@@ -3295,11 +3237,6 @@
       }
     }
   },
-  "forumKarmaInsufficient": "Insufficient Karma",
-  "forumKarmaBudgetExhausted": "Daily allotment exhausted",
-  "forumCheckinTodo": "Điểm danh",
-  "forumCheckinTitle": "Daily check-in",
-  "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
     "placeholders": {
       "amount": {
@@ -3307,10 +3244,6 @@
       }
     }
   },
-  "forumCheckinRandom": "Trial of chance",
-  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
-  "forumCheckinDone": "Already checked in today",
-  "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
     "placeholders": {
       "amount": {
@@ -3321,18 +3254,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
-  "forumModerationFlavorPending": "Pending review",
-  "forumKarmaLedgerTitle": "Ledger",
-  "forumKarmaLedgerContentUp": "Received upvote",
-  "forumKarmaLedgerContentDown": "Received downvote",
-  "forumKarmaLedgerVoteCost": "Vote cost",
-  "forumKarmaLedgerVoteRefund": "Vote refund",
-  "forumKarmaLedgerCheckin": "Check-in",
-  "forumKarmaLedgerCheckinStreak": "Streak bonus",
-  "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
-  "forumKarmaLedgerAdmin": "Admin adjustment",
-  "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
     "placeholders": {
       "karma": {
@@ -3340,7 +3261,6 @@
       }
     }
   },
-  "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
     "placeholders": {
       "streak": {
@@ -3348,11 +3268,6 @@
       }
     }
   },
-  "forumKarmaLedgerEmpty": "No karma movements yet.",
-  "forumKarmaAdminAdjust": "Adjust Karma",
-  "forumKarmaAdminDelta": "Delta",
-  "forumKarmaAdminReason": "Reason",
-  "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
     "placeholders": {
       "karma": {
@@ -3360,27 +3275,6 @@
       }
     }
   },
-  "forumLeaderboardTitle": "Karma ranking",
-  "forumLeaderboardJoinHint": "Join the ranking to view standings. You may appear under your nickname or anonymously.",
-  "forumLeaderboardJoinNamed": "Join with nickname",
-  "forumLeaderboardJoinAnonymous": "Join anonymously",
-  "forumLeaderboardLeave": "Leave ranking",
-  "forumLeaderboardAnonymous": "Appear anonymously",
-  "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
-  "forumLeaderboardEmpty": "No participants yet.",
-  "forumAdminLogTitle": "Moderation notices",
-  "forumAdminLogSearchHint": "Search summaries or details",
-  "forumAdminLogEmpty": "No public moderation notices yet.",
-  "forumAdminLogLoadMore": "Load more",
-  "forumAdminLogActionBan": "Ban",
-  "forumAdminLogActionUnban": "Unban",
-  "forumAdminLogActionMute": "Mute",
-  "forumAdminLogActionUnmute": "Unmute",
-  "forumAdminLogActionKarma": "Karma adjust",
-  "forumAdminLogActionHide": "Hide post",
-  "forumAdminLogActionDelete": "Delete post",
-  "forumAdminLogActionRestore": "Restore post",
-  "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "Không thể gửi báo cáo: {error}",
   "@forumReportFailed": {
     "placeholders": {
@@ -3397,24 +3291,6 @@
   "forumAppealReason": "Nội dung kháng nghị",
   "forumAppealSubmitted": "Đã gửi kháng nghị.",
   "forumModeration": "Kiểm duyệt nội dung",
-  "forumKarmaEconomySettings": "Karma economy",
-  "forumKarmaEconomySaved": "Karma settings saved.",
-  "forumKarmaSettingPostUp": "Post upvote gain",
-  "forumKarmaSettingPostDown": "Post downvote loss",
-  "forumKarmaSettingCommentUp": "Comment upvote gain",
-  "forumKarmaSettingCommentDown": "Comment downvote loss",
-  "forumKarmaSettingVoteCostUp": "Upvote cost",
-  "forumKarmaSettingVoteCostDown": "Downvote cost",
-  "forumKarmaSettingCheckinFixed": "Fixed check-in",
-  "forumKarmaSettingMutualThreshold": "Mutual upvote threshold",
-  "forumKarmaSettingMutualWindowHours": "Mutual upvote window (hours)",
-  "forumKarmaSettingCreatePostReward": "Create post reward",
-  "forumKarmaSettingCreateCommentReward": "Create comment reward",
-  "forumKarmaSettingCreatePostDailyCap": "Daily post reward cap",
-  "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
-  "forumKarmaLedgerCreatePost": "Published a post",
-  "forumKarmaLedgerCreateComment": "Posted a reply",
-  "forumKarmaLowQualityHint": "For low-signal posts outside water board, use reason low_quality (suggested -10).",
   "forumApprove": "Phê duyệt",
   "forumHide": "Ẩn",
   "forumDelete": "Xóa",
@@ -3555,6 +3431,7 @@
   "sportsOrderFilterReserved": "Đã đặt",
   "sportsOrderFilterHistory": "Lịch sử",
   "whuLoginMethodNotRecommended": "Không khuyến nghị",
+  "whuLoginMethodUndergraduateOnly": "Chi danh cho sinh vien dai hoc",
   "whuLoginMethodApiError": "Dịch vụ không khả dụng",
   "forumModerationReports": "Báo cáo",
   "forumModerationAppeals": "Kháng nghị",
@@ -4076,5 +3953,111 @@
   "aiToolTraceDetails": "Chi tiết lệnh gọi công cụ",
   "aiToolTraceStatusSucceeded": "Thành công",
   "aiToolTraceStatusFailed": "Thất bại",
-  "aiToolTraceStatusCancelled": "Chưa hoàn tất"
+  "aiToolTraceStatusCancelled": "Chưa hoàn tất",
+  "forumAdminLogActionApprove": "Duyệt bài viết",
+  "forumAdminLogActionBan": "Cấm",
+  "forumAdminLogActionDelete": "Xoá bài viết",
+  "forumAdminLogActionHide": "Ẩn bài viết",
+  "forumAdminLogActionKarma": "Điều chỉnh nghiệp",
+  "forumAdminLogActionMute": "Tắt tiếng",
+  "forumAdminLogActionRestore": "Khôi phục bài viết",
+  "forumAdminLogActionUnban": "Bỏ cấm",
+  "forumAdminLogActionUnmute": "Mở tiếng",
+  "forumAdminLogEmpty": "Chưa có thông báo kiểm duyệt công khai.",
+  "forumAdminLogLoadMore": "Tải thêm",
+  "forumAdminLogSearchHint": "Tìm tóm tắt hoặc chi tiết",
+  "forumAdminLogTitle": "Thông báo kiểm duyệt",
+  "forumAppealFlavor": "Yêu cầu xem xét lại",
+  "forumCheckinDone": "Hôm nay đã điểm danh",
+  "forumCheckinFixed": "Lộ trình cố định (+{amount})",
+  "forumCheckinRandom": "Thử vận may",
+  "forumCheckinRandomHint": "Trung bình dài hạn hơi thấp hơn lộ trình cố định",
+  "forumCheckinSuccess": "+{amount} Nghiệp (chuỗi {streak})",
+  "forumCheckinTitle": "Điểm danh hằng ngày",
+  "forumCheckinTodo": "Điểm danh",
+  "forumKarma": "Nghiệp",
+  "forumKarmaAdminAdjust": "Điều chỉnh Nghiệp",
+  "forumKarmaAdminDelta": "Biến thiên",
+  "forumKarmaAdminReason": "Lý do",
+  "forumKarmaAdminSuccess": "Đã cập nhật Nghiệp thành {karma}",
+  "forumKarmaAuthorMeta": "Lv{level} · Nghiệp {karma}",
+  "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · Nghiệp {karma}",
+  "forumKarmaBudgetExhausted": "Hạn mức hằng ngày đã hết",
+  "forumKarmaBudgetLine": "Thích {up} · Không thích {down}",
+  "forumKarmaDailyBudget": "Hạn mức hằng ngày",
+  "forumKarmaEconomySaved": "Đã lưu cài đặt nghiệp.",
+  "forumKarmaEconomySettings": "Kinh tế nghiệp",
+  "forumKarmaHideExact": "Ẩn số Nghiệp chính xác",
+  "forumKarmaHideExactHint": "Người khác chỉ thấy cấp của bạn, không thấy con số.",
+  "forumKarmaInsufficient": "Không đủ Nghiệp",
+  "forumKarmaLedgerAdmin": "Điều chỉnh quản trị",
+  "forumKarmaLedgerCheckin": "Điểm danh",
+  "forumKarmaLedgerCheckinStreak": "Thưởng chuỗi",
+  "forumKarmaLedgerContentDown": "Nhận lượt không thích",
+  "forumKarmaLedgerContentUp": "Nhận lượt thích",
+  "forumKarmaLedgerCreateComment": "Đã đăng trả lời",
+  "forumKarmaLedgerCreatePost": "Đã đăng bài viết",
+  "forumKarmaLedgerEmpty": "Chưa có biến động nghiệp.",
+  "forumKarmaLedgerRollback": "Nội dung bị gỡ (nghiệp đã điều chỉnh)",
+  "forumKarmaLedgerTitle": "Sổ ghi",
+  "forumKarmaLedgerVoteCost": "Chi phí bình chọn",
+  "forumKarmaLedgerVoteRefund": "Hoàn bình chọn",
+  "forumKarmaLowQualityHint": "Với bài tín hiệu thấp ngoài 水军, dùng lý do low_quality (đề xuất ?10). Bài 水军 không nhận phần thưởng đăng.",
+  "forumKarmaNextLevel": "Cấp kế tại {karma}",
+  "forumKarmaSettingCheckinFixed": "Điểm danh cố định",
+  "forumKarmaSettingCommentDown": "Lượng giảm khi bị không thích bình luận",
+  "forumKarmaSettingCommentUp": "Lượng tăng khi được thích bình luận",
+  "forumKarmaSettingCreateCommentDailyCap": "Trần thưởng bình luận hằng ngày",
+  "forumKarmaSettingCreateCommentReward": "Phần thưởng tạo bình luận",
+  "forumKarmaSettingCreatePostDailyCap": "Trần thưởng bài hằng ngày",
+  "forumKarmaSettingCreatePostReward": "Phần thưởng tạo bài",
+  "forumKarmaSettingMutualThreshold": "Ngưỡng thích lẫn nhau",
+  "forumKarmaSettingMutualWindowHours": "Khoảng thích lẫn nhau (giờ)",
+  "forumKarmaSettingPostDown": "Lượng giảm khi bị không thích bài",
+  "forumKarmaSettingPostUp": "Lượng tăng khi được thích bài",
+  "forumKarmaSettingVoteCostDown": "Chi phí lượt không thích",
+  "forumKarmaSettingVoteCostUp": "Chi phí lượt thích",
+  "forumKarmaSoftDemotionHint": "Khi Nghiệp giảm dưới một cấp, huy hiệu được giữ khoảng 7 ngày trước khi giáng cấp mềm.",
+  "forumKarmaStreakLine": "Chuỗi điểm danh: {streak}",
+  "forumLeaderboardAnonymous": "Hiện ẩn danh",
+  "forumLeaderboardAnonymousHint": "Người khác thấy tên bị che; bạn vẫn thấy thứ hạng của mình.",
+  "forumLeaderboardEmpty": "Chưa có người tham gia.",
+  "forumLeaderboardJoinAnonymous": "Tham gia ẩn danh",
+  "forumLeaderboardJoinHint": "Tham gia xếp hạng để xem thứ hạng. Có thể hiện với biệt danh hoặc ẩn danh.",
+  "forumLeaderboardJoinNamed": "Tham gia với biệt danh",
+  "forumLeaderboardLeave": "Rời xếp hạng",
+  "forumLeaderboardLoadMore": "Tải thêm",
+  "forumLeaderboardTitle": "Xếp hạng nghiệp",
+  "forumModerationFlavorPending": "Đang xét duyệt",
+  "forumReportSubmittedFlavor": "Đã ghi; chờ phản hồi.",
+  "courseGradeStatsAllTeachersPrepared": "Dữ liệu giáo viên đã sẵn sàng. Chọn giáo viên để xem dữ liệu điểm.",
+  "courseGradeStatsExamAverage": "Điểm thi trung bình",
+  "courseGradeStatsFail": "Trượt",
+  "courseGradeStatsLoadFailed": "Không thể tải phân bố điểm: {error}",
+  "courseGradeStatsNoTeachers": "Không có giáo viên cho môn này nên không thể gửi điểm.",
+  "courseGradeStatsPrivacyThreshold": "Cần ít nhất 5 mẫu để bảo vệ quyền riêng tư.",
+  "courseGradeStatsSamples": "{count} mẫu ẩn danh",
+  "courseGradeStatsSourceHam": "Nguồn: Ham",
+  "courseGradeStatsSourceHint": "Chọn nguồn dữ liệu",
+  "courseGradeStatsSourceLuotopia": "Nguồn: Luotopia",
+  "courseGradeStatsSubmit": "Gửi điểm ẩn danh",
+  "courseGradeStatsSubmitFailed": "Gửi điểm thất bại: {error}",
+  "courseGradeStatsSubmitted": "Đã gửi điểm ẩn danh.",
+  "courseGradeStatsTeacherClear": "Xoá giáo viên",
+  "courseGradeStatsTeacherHint": "Chọn giáo viên để xem dữ liệu điểm tương ứng.",
+  "courseGradeStatsTeacherInputHint": "Tìm giáo viên, hoặc để trống để xem tất cả",
+  "courseGradeStatsTeacherSearch": "Tìm giáo viên",
+  "courseGradeStatsTotalAverage": "Điểm tổng trung bình",
+  "courseGradeStatsUsualAverage": "Điểm thường xuyên trung bình",
+  "forumKarmaLevelTitle0": "Tân binh",
+  "forumKarmaLevelTitle1": "Tập sự",
+  "forumKarmaLevelTitle10": "Thần thoại",
+  "forumKarmaLevelTitle2": "Thường xuyên",
+  "forumKarmaLevelTitle3": "Tích cực",
+  "forumKarmaLevelTitle4": "Thạo",
+  "forumKarmaLevelTitle5": "Chuyên gia",
+  "forumKarmaLevelTitle6": "Lão làng",
+  "forumKarmaLevelTitle7": "Tinh hoa",
+  "forumKarmaLevelTitle8": "Hải đăng",
+  "forumKarmaLevelTitle9": "Huyền thoại"
 }
