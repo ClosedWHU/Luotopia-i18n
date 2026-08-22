@@ -26,16 +26,6 @@
   "busArrivalStatusArrived": "已到站",
   "busArrivalStatusNoInfo": "暂无车辆信息",
   "busArrivalStatusStopsAway": "{busNum} · {stopsAway}站",
-  "@busArrivalStatusStopsAway": {
-    "placeholders": {
-      "busNum": {
-        "type": "String"
-      },
-      "stopsAway": {
-        "type": "int"
-      }
-    }
-  },
   "campusAppSchoolNet": "校园网",
   "campusAppSchoolNetPay": "网费缴费",
   "schoolNetRefresh": "刷新校园网状态",
@@ -4133,5 +4123,86 @@
   "courseTimetableXinglianDefaultName": "星链课程表",
   "courseTimetableLocalFileDefaultName": "本地课程表",
   "studyStatusOutOfPlanSectionTitle": "其他课程",
-  "schoolNetDefaultDeviceName": "我的设备"
+  "schoolNetDefaultDeviceName": "我的设备",
+  "forumFreeUpvote": "免费点赞",
+  "forumFreeDownvote": "免费点踩",
+  "whuAuthSmsSendFailed": "验证码发送失败，请检查手机号后重试",
+  "whuAuthSmsSendRequired": "请先向当前手机号获取验证码",
+  "whuAuthCaptchaLoadFailed": "安全验证加载失败，请关闭后重试",
+  "whuAuthLoginCredentialsError": "账号、密码或动态码错误",
+  "whuSmartCampusAuthFailedCasRequired": "智慧珞珈授权失败，请重新登录武大统一认证。",
+  "whuSmartCampusAuthFailedHttp": "智慧珞珈授权失败（HTTP {statusCode}）。",
+  "whuSmartCampusAuthFailedRetryLater": "智慧珞珈授权失败，请稍后重试。",
+  "forumMyKarma": "我的 Karma",
+  "forumModerationModeratePost": "审核/管理帖子",
+  "forumModerationPostIdLabel": "帖子 ID",
+  "forumModerationPostIdRequired": "请输入帖子 ID",
+  "forumModerationPostEvidenceTitle": "审核证据",
+  "forumModerationAccountAction": "账号处理",
+  "forumModerationBanAccount": "封禁账号",
+  "forumModerationRemoveMute": "解封禁言",
+  "forumModerationRemoveBan": "解封账号",
+  "forumModerationAccountActionApplied": "账号处理已生效",
+  "forumModerationMovePost": "移动帖子",
+  "forumModerationKeepBoard": "保留当前版块",
+  "forumModerationKarmaReason": "Karma 审核原因",
+  "courseMatchingTargetTimetable": "目标课表",
+  "courseMatchingCreateNewTimetable": "创建新课表",
+  "courseMatchingCurrentTimeSlotOnly": "仅匹配当前时段",
+  "courseMatchingNoConflicts": "无时间冲突",
+  "courseMatchingConflictsCount": "{count} 处时间冲突",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "高级筛选",
+  "courseMatchingDayOfWeek": "星期",
+  "courseMatchingFromSection": "起始节次",
+  "courseMatchingToSection": "结束节次",
+  "courseMatchingCourseType": "课程类型",
+  "courseMatchingMinCredits": "最小学分",
+  "courseMatchingMaxCredits": "最大学分",
+  "adminControllableQueues": "受控任务队列",
+  "adminSystemQueues": "系统任务队列",
+  "luotopiaAccountViewLargeAvatar": "查看大头像",
+  "luotopiaAccountChangeAvatar": "更换头像",
+  "luotopiaRegisterDebugCode": "调试验证码",
+  "schoolNetCheckpointRecorded": "已记录抓包检查点",
+  "schoolNetCheckpointTooltip": "记录取水码抓包检查点",
+  "schoolNetCheckpointDevicesLoaded": "已获取 {count} 台在线设备",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "无感认证取消前",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "无感认证取消后",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "设备下线前",
+  "schoolNetCheckpointAfterDeviceDisconnect": "设备下线后",
+  "schoolNetAuthEmptyCredentials": "账号或密码不能为空",
+  "schoolNetAuthPortalNotDetected": "未检测到校园网登录页面",
+  "schoolNetAuthServiceUnavailable": "校园网服务暂不可用",
+  "schoolNetAuthRejected": "校园网登录被拒绝",
+  "schoolNetAuthSubmittedNotOnline": "认证已提交但未显示在线",
+  "schoolNetAuthTimeout": "校园网登录超时",
+  "schoolNetAuthConnectionFailed": "校园网连接失败",
+  "whuCasCodeSendFailed": "验证码发送失败",
+  "whuCasFormErrorFallback": "统一认证表单提交错误",
+  "aiModelFormatUnsupported": "不支持的 AI 模型格式",
+  "aiModelRequestCancelled": "AI 请求已取消",
+  "aiModelHttpError": "AI HTTP 错误 ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "重复的工具调用 ID",
+  "aiModelEmptyResponse": "AI 返回了空响应"
 }

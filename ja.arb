@@ -3831,7 +3831,21 @@
   "adminUsersDisable": "無効化",
   "adminUsersSetRole": "{role} に設定",
   "adminUsersRoleUpdated": "ユーザーロールを更新しました。",
-  "adminUserDetailAccount": "アカウント", "adminUserDetailDisplayName": "表示名", "adminUserDetailRegistered": "登録日時", "adminUserDetailLastActive": "最終アクティブ", "adminUserDetailForum": "フォーラム", "adminUserDetailNickname": "ニックネーム", "adminUserDetailStatus": "状態", "adminUserDetailLevel": "レベル", "adminUserDetailPosts": "投稿", "adminUserDetailComments": "コメント", "adminUserDetailReceivedLikes": "受け取ったいいね", "adminUserDetailWhuAccountData": "WHUアカウント情報", "adminUserDetailWhuAccountDataDescription": "スーパー管理者のみ閲覧でき、アクセスは監査されます。", "adminUserDetailWhuAccount": "WHUアカウント", "adminUserDetailManagement": "管理",
+  "adminUserDetailAccount": "アカウント",
+  "adminUserDetailDisplayName": "表示名",
+  "adminUserDetailRegistered": "登録日時",
+  "adminUserDetailLastActive": "最終アクティブ",
+  "adminUserDetailForum": "フォーラム",
+  "adminUserDetailNickname": "ニックネーム",
+  "adminUserDetailStatus": "状態",
+  "adminUserDetailLevel": "レベル",
+  "adminUserDetailPosts": "投稿",
+  "adminUserDetailComments": "コメント",
+  "adminUserDetailReceivedLikes": "受け取ったいいね",
+  "adminUserDetailWhuAccountData": "WHUアカウント情報",
+  "adminUserDetailWhuAccountDataDescription": "スーパー管理者のみ閲覧でき、アクセスは監査されます。",
+  "adminUserDetailWhuAccount": "WHUアカウント",
+  "adminUserDetailManagement": "管理",
   "adminUserContentPostsTitle": "ユーザーの投稿",
   "adminUserContentCommentsTitle": "ユーザーのコメント",
   "adminUserContentPostsEmpty": "投稿がありません",
@@ -3930,7 +3944,16 @@
   "aiAutomationSemiAutomaticDescription": "Agent による書き込み操作は引き続き確認が必要で、その他の確認は自動的に承認されます。",
   "aiAutomationFullyAutomaticDescription": "すべての操作を自動的に確認し、完全な記録を保持します。",
   "aiConfirmationAutoApproved": "{count} 件の操作を自動承認しました（{mode}）",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiWorkspaceTitle": "AI ワークスペース",
   "settingsAiWorkspaceDescription": "プライベート AI ワークスペースに保存されたファイルを管理します。",
   "settingsAiWorkspaceUsageTitle": "ワークスペース使用量",
@@ -4069,5 +4092,146 @@
   "forumKarmaLevelTitle6": "長老",
   "forumKarmaLevelTitle7": "光輝",
   "forumKarmaLevelTitle8": "灯台",
-  "forumKarmaLevelTitle9": "伝説"
+  "forumKarmaLevelTitle9": "伝説",
+  "busArrivalStatusArrived": "到着済み",
+  "busArrivalStatusNoInfo": "到着情報なし",
+  "busArrivalStatusStopsAway": "{busNum} · {stopsAway}停留所前",
+  "forumModerationModeratePost": "投稿をモデレート",
+  "forumModerationPostIdLabel": "投稿ID",
+  "forumModerationPostIdRequired": "投稿IDを入力してください",
+  "forumModerationPostEvidenceTitle": "監査証拠",
+  "forumModerationAccountAction": " accounts アクション",
+  "forumModerationBanAccount": "アカウントをBAN",
+  "forumModerationRemoveMute": "ミュート解除",
+  "forumModerationRemoveBan": "BAN解除",
+  "forumModerationAccountActionApplied": "アカウント操作が適用されました",
+  "forumModerationMovePost": "投稿を移動",
+  "forumModerationKeepBoard": "現在の掲示板を維持",
+  "forumModerationKarmaReason": "Karma 監査理由",
+  "courseMatchingTargetTimetable": "ターゲット時間割",
+  "courseMatchingCreateNewTimetable": "新しい時間割を作成",
+  "courseMatchingCurrentTimeSlotOnly": "現在の時間帯のみに一致",
+  "courseMatchingNoConflicts": "時間重複なし",
+  "courseMatchingConflictsCount": "{count}件の時間重複",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "詳細フィルター",
+  "courseMatchingDayOfWeek": "曜日",
+  "courseMatchingFromSection": "開始コマ",
+  "courseMatchingToSection": "終了コマ",
+  "courseMatchingCourseType": "コースタイプ",
+  "courseMatchingMinCredits": "最小単位数",
+  "courseMatchingMaxCredits": "最大単位数",
+  "adminControllableQueues": "制御可能なタスクキュー",
+  "adminSystemQueues": "システムタスクキュー",
+  "luotopiaAccountViewLargeAvatar": "アバターを拡大表示",
+  "luotopiaAccountChangeAvatar": "アバターを変更",
+  "luotopiaRegisterDebugCode": "デバッグ検証コード",
+  "schoolNetCheckpointRecorded": "キャプチャチェックポイントが記録されました",
+  "schoolNetCheckpointTooltip": "取水コードのキャプチャチェックポイントを記録",
+  "schoolNetCheckpointDevicesLoaded": "{count}台のオンラインデバイスを取得しました",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "シームレス認証キャンセル前",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "シームレス認証キャンセル後",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "デバイス切断前",
+  "schoolNetCheckpointAfterDeviceDisconnect": "デバイス切断後",
+  "schoolNetAuthEmptyCredentials": "ユーザー名またはパスワードを空にすることはできません",
+  "schoolNetAuthPortalNotDetected": "キャンパスネットワークのログインページが検出されません",
+  "schoolNetAuthServiceUnavailable": "キャンパスネットワークサービスは一時的に利用できません",
+  "schoolNetAuthRejected": "キャンパスネットワークログインが拒否されました",
+  "schoolNetAuthSubmittedNotOnline": "認証情報は送信されましたがオンラインと表示されません",
+  "schoolNetAuthTimeout": "キャンパスネットワークログインがタイムアウトしました",
+  "schoolNetAuthConnectionFailed": "キャンパスネットワークへの接続に失敗しました",
+  "whuCasCodeSendFailed": "検証コードの送信に失敗しました",
+  "whuCasFormErrorFallback": "CASフォーム送信エラー",
+  "aiModelFormatUnsupported": "未対応のAIモデルフォーマット",
+  "aiModelRequestCancelled": "AIリクエストがキャンセルされました",
+  "aiModelHttpError": "AI HTTPエラー ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "重複したツール呼び出しID",
+  "aiModelEmptyResponse": "AIが空の応答を返しました",
+  "aiToolStatusRunning": "ツールを実行中...",
+  "aiToolStatusWaiting": "ユーザーの操作を待機中...",
+  "aiToolStatusCompleted": "ツール実行完了",
+  "aiToolStatusFailed": "ツール実行失敗",
+  "aiToolUnknown": "不明なツール",
+  "aiRequestCancelled": "リクエストがキャンセルされました。",
+  "majorInfoLegendOver10": "10%以上",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "{range}週",
+  "@courseWeekRangeAll": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeOdd": "{range}週(単)",
+  "@courseWeekRangeOdd": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeEven": "{range}週(複)",
+  "@courseWeekRangeEven": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAreaLabel": "{no}番コート",
+  "@sportsAreaLabel": {
+    "placeholders": {
+      "no": {
+        "type": "Object"
+      }
+    }
+  },
+  "courseUnnamed": "無題のコース",
+  "courseTimetableWakeupDefaultName": "WakeUp 時間割",
+  "courseTimetableShiguangDefaultName": "拾光 時間割",
+  "courseTimetableXinglianDefaultName": "星連 時間割",
+  "courseTimetableLocalFileDefaultName": "ローカル時間割",
+  "studyStatusOutOfPlanSectionTitle": "計画外コース",
+  "schoolNetDefaultDeviceName": "マイデバイス",
+  "forumFreeUpvote": "無料高評価",
+  "forumFreeDownvote": "無料低評価",
+  "whuAuthSmsSendFailed": "検証コードの送信に失敗しました。電話番号を確認してやり直してください。",
+  "whuAuthSmsSendRequired": "最初に現在の電話番号に検証コードを送信してください。",
+  "whuAuthCaptchaLoadFailed": "セキュリティ検証の読み込みに失敗しました。閉じて再試行してください。",
+  "whuAuthLoginCredentialsError": "アカウント、パスワード、または動的コードが正しくありません",
+  "whuSmartCampusAuthFailedCasRequired": "スマート珞珈の認証に失敗しました。WHU CAS経由で再ログインしてください。",
+  "whuSmartCampusAuthFailedHttp": "スマート珞珈の認証に失敗しました (HTTP {statusCode})。",
+  "@whuSmartCampusAuthFailedHttp": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "whuSmartCampusAuthFailedRetryLater": "スマート珞珈の認証に失敗しました。後でもう一度お試しください。",
+  "forumMyKarma": "マイ Karma"
 }

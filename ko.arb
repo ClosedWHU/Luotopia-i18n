@@ -3838,7 +3838,21 @@
   "adminUsersDisable": "비활성화",
   "adminUsersSetRole": "{role}(으)로 설정",
   "adminUsersRoleUpdated": "사용자 역할이 업데이트되었습니다.",
-  "adminUserDetailAccount": "계정", "adminUserDetailDisplayName": "표시 이름", "adminUserDetailRegistered": "가입일", "adminUserDetailLastActive": "마지막 활동", "adminUserDetailForum": "포럼", "adminUserDetailNickname": "별명", "adminUserDetailStatus": "상태", "adminUserDetailLevel": "레벨", "adminUserDetailPosts": "게시물", "adminUserDetailComments": "댓글", "adminUserDetailReceivedLikes": "받은 좋아요", "adminUserDetailWhuAccountData": "WHU 계정 데이터", "adminUserDetailWhuAccountDataDescription": "최고 관리자만 볼 수 있으며, 이 접근은 감사됩니다.", "adminUserDetailWhuAccount": "WHU 계정", "adminUserDetailManagement": "관리",
+  "adminUserDetailAccount": "계정",
+  "adminUserDetailDisplayName": "표시 이름",
+  "adminUserDetailRegistered": "가입일",
+  "adminUserDetailLastActive": "마지막 활동",
+  "adminUserDetailForum": "포럼",
+  "adminUserDetailNickname": "별명",
+  "adminUserDetailStatus": "상태",
+  "adminUserDetailLevel": "레벨",
+  "adminUserDetailPosts": "게시물",
+  "adminUserDetailComments": "댓글",
+  "adminUserDetailReceivedLikes": "받은 좋아요",
+  "adminUserDetailWhuAccountData": "WHU 계정 데이터",
+  "adminUserDetailWhuAccountDataDescription": "최고 관리자만 볼 수 있으며, 이 접근은 감사됩니다.",
+  "adminUserDetailWhuAccount": "WHU 계정",
+  "adminUserDetailManagement": "관리",
   "adminUserContentPostsTitle": "사용자 게시물",
   "adminUserContentCommentsTitle": "사용자 댓글",
   "adminUserContentPostsEmpty": "게시물이 없습니다",
@@ -3937,7 +3951,16 @@
   "aiAutomationSemiAutomaticDescription": "Agent의 쓰기 작업은 계속 확인이 필요하며, 나머지 확인은 자동으로 승인됩니다.",
   "aiAutomationFullyAutomaticDescription": "모든 작업을 자동으로 확인하고 전체 기록을 유지합니다.",
   "aiConfirmationAutoApproved": "{count}개의 작업을 자동 승인했습니다({mode})",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiWorkspaceTitle": "AI 작업 공간",
   "settingsAiWorkspaceDescription": "비공개 AI 작업 공간에 저장된 파일을 관리합니다.",
   "settingsAiWorkspaceUsageTitle": "작업 공간 사용량",
@@ -4076,5 +4099,146 @@
   "forumKarmaLevelTitle6": "원로",
   "forumKarmaLevelTitle7": "광휘",
   "forumKarmaLevelTitle8": "등대",
-  "forumKarmaLevelTitle9": "전설"
+  "forumKarmaLevelTitle9": "전설",
+  "busArrivalStatusArrived": "도착함",
+  "busArrivalStatusNoInfo": "도착 정보 없음",
+  "busArrivalStatusStopsAway": "{busNum} · {stopsAway}개 정류장 전",
+  "forumModerationModeratePost": "게시글 관리",
+  "forumModerationPostIdLabel": "게시글 ID",
+  "forumModerationPostIdRequired": "게시글 ID를 입력하세요",
+  "forumModerationPostEvidenceTitle": "심사 증거",
+  "forumModerationAccountAction": "계정 조치",
+  "forumModerationBanAccount": "계정 차단",
+  "forumModerationRemoveMute": "음소거 해제",
+  "forumModerationRemoveBan": "차단 해제",
+  "forumModerationAccountActionApplied": "계정 조치가 적용되었습니다",
+  "forumModerationMovePost": "게시글 이동",
+  "forumModerationKeepBoard": "현재 게시판 유지",
+  "forumModerationKarmaReason": "Karma 심사 사유",
+  "courseMatchingTargetTimetable": "대상 시간표",
+  "courseMatchingCreateNewTimetable": "새 시간표 만들기",
+  "courseMatchingCurrentTimeSlotOnly": "현재 시간대만 매칭",
+  "courseMatchingNoConflicts": "시간 충돌 없음",
+  "courseMatchingConflictsCount": "{count}개 시간 충돌",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "고급 필터",
+  "courseMatchingDayOfWeek": "요일",
+  "courseMatchingFromSection": "시작 교시",
+  "courseMatchingToSection": "종료 교시",
+  "courseMatchingCourseType": "강의 유형",
+  "courseMatchingMinCredits": "최소 학점",
+  "courseMatchingMaxCredits": "최대 학점",
+  "adminControllableQueues": "제어 가능한 작업 큐",
+  "adminSystemQueues": "시스템 작업 큐",
+  "luotopiaAccountViewLargeAvatar": "아바타 크게 보기",
+  "luotopiaAccountChangeAvatar": "아바타 변경",
+  "luotopiaRegisterDebugCode": "디버그 인증 코드",
+  "schoolNetCheckpointRecorded": "패킷 캡처 체크포인트가 기록되었습니다",
+  "schoolNetCheckpointTooltip": "취수 코드 패킷 캡처 체크포인트 기록",
+  "schoolNetCheckpointDevicesLoaded": "온라인 기기 {count}대를 가져왔습니다",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "무감각 인증 취소 전",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "무감각 인증 취소 후",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "기기 오프라인 전환 전",
+  "schoolNetCheckpointAfterDeviceDisconnect": "기기 오프라인 전환 후",
+  "schoolNetAuthEmptyCredentials": "아이디 또는 비밀번호는 비워 둘 수 없습니다",
+  "schoolNetAuthPortalNotDetected": "교내망 로그인 페이지를 찾을 수 없습니다",
+  "schoolNetAuthServiceUnavailable": "교내망 서비스를 일시적으로 사용할 수 없습니다",
+  "schoolNetAuthRejected": "교내망 로그인이 거부되었습니다",
+  "schoolNetAuthSubmittedNotOnline": "인증 정보는 제출되었으나 온라인으로 표시되지 않습니다",
+  "schoolNetAuthTimeout": "교내망 로그인 요청 시간이 초과되었습니다",
+  "schoolNetAuthConnectionFailed": "교내망 연결에 실패했습니다",
+  "whuCasCodeSendFailed": "인증 코드 전송 실패",
+  "whuCasFormErrorFallback": "CAS 폼 제출 오류",
+  "aiModelFormatUnsupported": "지원되지 않는 AI 모델 형식",
+  "aiModelRequestCancelled": "AI 요청이 취소되었습니다",
+  "aiModelHttpError": "AI HTTP 오류 ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "중복된 도구 호출 ID",
+  "aiModelEmptyResponse": "AI가 빈 응답을 반환했습니다",
+  "aiToolStatusRunning": "도구 실행 중...",
+  "aiToolStatusWaiting": "사용자 작업 대기 중...",
+  "aiToolStatusCompleted": "도구 실행 완료",
+  "aiToolStatusFailed": "도구 실행 실패",
+  "aiToolUnknown": "알 수 없는 도구",
+  "aiRequestCancelled": "요청이 취소되었습니다.",
+  "majorInfoLegendOver10": "10% 이상",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "{range}주",
+  "@courseWeekRangeAll": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeOdd": "{range}주(홀수)",
+  "@courseWeekRangeOdd": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeEven": "{range}주(짝수)",
+  "@courseWeekRangeEven": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAreaLabel": "{no}번 코트",
+  "@sportsAreaLabel": {
+    "placeholders": {
+      "no": {
+        "type": "Object"
+      }
+    }
+  },
+  "courseUnnamed": "이름 없는 과목",
+  "courseTimetableWakeupDefaultName": "WakeUp 시간표",
+  "courseTimetableShiguangDefaultName": "Shiguang 시간표",
+  "courseTimetableXinglianDefaultName": "Xinglian 시간표",
+  "courseTimetableLocalFileDefaultName": "로컬 시간표",
+  "studyStatusOutOfPlanSectionTitle": "기타 과목",
+  "schoolNetDefaultDeviceName": "내 기기",
+  "forumFreeUpvote": "무료 좋아요",
+  "forumFreeDownvote": "무료 싫어요",
+  "whuAuthSmsSendFailed": "인증 코드 전송 실패. 전화번호를 확인하고 다시 시도하세요.",
+  "whuAuthSmsSendRequired": "먼저 현재 전화번호로 인증 코드를 받으세요.",
+  "whuAuthCaptchaLoadFailed": "보안 인증을 로드하지 못했습니다. 닫고 다시 시도하세요.",
+  "whuAuthLoginCredentialsError": "계정, 비밀번호 또는 동적 코드가 올바르지 않습니다",
+  "whuSmartCampusAuthFailedCasRequired": "스마트 뤄자 인증 실패. WHU CAS를 통해 다시 로그인하세요.",
+  "whuSmartCampusAuthFailedHttp": "스마트 뤄자 인증 실패 (HTTP {statusCode}).",
+  "@whuSmartCampusAuthFailedHttp": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "whuSmartCampusAuthFailedRetryLater": "스마트 뤄자 인증 실패. 나중에 다시 시도하세요.",
+  "forumMyKarma": "내 Karma"
 }

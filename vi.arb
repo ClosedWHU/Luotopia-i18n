@@ -3828,7 +3828,21 @@
   "adminUsersDisable": "Tắt",
   "adminUsersSetRole": "Đặt thành {role}",
   "adminUsersRoleUpdated": "Đã cập nhật vai trò người dùng.",
-  "adminUserDetailAccount": "Tài khoản", "adminUserDetailDisplayName": "Tên hiển thị", "adminUserDetailRegistered": "Đã đăng ký", "adminUserDetailLastActive": "Hoạt động gần nhất", "adminUserDetailForum": "Diễn đàn", "adminUserDetailNickname": "Biệt danh", "adminUserDetailStatus": "Trạng thái", "adminUserDetailLevel": "Cấp độ", "adminUserDetailPosts": "Bài viết", "adminUserDetailComments": "Bình luận", "adminUserDetailReceivedLikes": "Lượt thích đã nhận", "adminUserDetailWhuAccountData": "Dữ liệu tài khoản WHU", "adminUserDetailWhuAccountDataDescription": "Chỉ quản trị viên cấp cao mới xem được. Truy cập này được kiểm toán.", "adminUserDetailWhuAccount": "Tài khoản WHU", "adminUserDetailManagement": "Quản lý",
+  "adminUserDetailAccount": "Tài khoản",
+  "adminUserDetailDisplayName": "Tên hiển thị",
+  "adminUserDetailRegistered": "Đã đăng ký",
+  "adminUserDetailLastActive": "Hoạt động gần nhất",
+  "adminUserDetailForum": "Diễn đàn",
+  "adminUserDetailNickname": "Biệt danh",
+  "adminUserDetailStatus": "Trạng thái",
+  "adminUserDetailLevel": "Cấp độ",
+  "adminUserDetailPosts": "Bài viết",
+  "adminUserDetailComments": "Bình luận",
+  "adminUserDetailReceivedLikes": "Lượt thích đã nhận",
+  "adminUserDetailWhuAccountData": "Dữ liệu tài khoản WHU",
+  "adminUserDetailWhuAccountDataDescription": "Chỉ quản trị viên cấp cao mới xem được. Truy cập này được kiểm toán.",
+  "adminUserDetailWhuAccount": "Tài khoản WHU",
+  "adminUserDetailManagement": "Quản lý",
   "adminUserContentPostsTitle": "Bài viết của người dùng",
   "adminUserContentCommentsTitle": "Bình luận của người dùng",
   "adminUserContentPostsEmpty": "Không có bài viết",
@@ -3920,7 +3934,16 @@
   "aiAutomationSemiAutomaticDescription": "Thao tác ghi do Agent thực hiện vẫn cần bạn xác nhận; các xác nhận khác được tự động thông qua.",
   "aiAutomationFullyAutomaticDescription": "Mọi thao tác được tự động xác nhận và lưu bản ghi đầy đủ.",
   "aiConfirmationAutoApproved": "Đã tự động xác nhận {count} thao tác ({mode})",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiWorkspaceTitle": "Không gian làm việc AI",
   "settingsAiWorkspaceDescription": "Quản lý các tệp được lưu trong không gian làm việc AI riêng tư của bạn.",
   "settingsAiWorkspaceUsageTitle": "Mức sử dụng không gian làm việc",
@@ -4059,5 +4082,146 @@
   "forumKarmaLevelTitle6": "Lão làng",
   "forumKarmaLevelTitle7": "Tinh hoa",
   "forumKarmaLevelTitle8": "Hải đăng",
-  "forumKarmaLevelTitle9": "Huyền thoại"
+  "forumKarmaLevelTitle9": "Huyền thoại",
+  "busArrivalStatusArrived": "Đã đến",
+  "busArrivalStatusNoInfo": "Không có thông tin đến",
+  "busArrivalStatusStopsAway": "{busNum} · cách {stopsAway} trạm",
+  "forumModerationModeratePost": "Kiểm duyệt bài viết",
+  "forumModerationPostIdLabel": "ID bài viết",
+  "forumModerationPostIdRequired": "Vui lòng nhập ID bài viết",
+  "forumModerationPostEvidenceTitle": "Bằng chứng kiểm duyệt",
+  "forumModerationAccountAction": "Xử lý tài khoản",
+  "forumModerationBanAccount": "Khóa tài khoản",
+  "forumModerationRemoveMute": "Mở khóa bình luận",
+  "forumModerationRemoveBan": "Mở khóa tài khoản",
+  "forumModerationAccountActionApplied": "Đã áp dụng xử lý tài khoản",
+  "forumModerationMovePost": "Di chuyển bài viết",
+  "forumModerationKeepBoard": "Giữ bảng hiện tại",
+  "forumModerationKarmaReason": "Lý do kiểm duyệt Karma",
+  "courseMatchingTargetTimetable": "Thời khóa biểu mục tiêu",
+  "courseMatchingCreateNewTimetable": "Tạo thời khóa biểu mới",
+  "courseMatchingCurrentTimeSlotOnly": "Chỉ khớp khung giờ hiện tại",
+  "courseMatchingNoConflicts": "Không có trùng lịch",
+  "courseMatchingConflictsCount": "{count} chỗ trùng lịch",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "Bộ lọc nâng cao",
+  "courseMatchingDayOfWeek": "Thứ trong tuần",
+  "courseMatchingFromSection": "Từ tiết",
+  "courseMatchingToSection": "Đến tiết",
+  "courseMatchingCourseType": "Loại môn học",
+  "courseMatchingMinCredits": "Tín chỉ tối thiểu",
+  "courseMatchingMaxCredits": "Tín chỉ tối đa",
+  "adminControllableQueues": "Hàng đợi tác vụ có thể kiểm soát",
+  "adminSystemQueues": "Hàng đợi hệ thống",
+  "luotopiaAccountViewLargeAvatar": "Xem ảnh đại diện lớn",
+  "luotopiaAccountChangeAvatar": "Đổi ảnh đại diện",
+  "luotopiaRegisterDebugCode": "Mã xác minh gỡ lỗi",
+  "schoolNetCheckpointRecorded": "Đã ghi điểm kiểm tra gói tin",
+  "schoolNetCheckpointTooltip": "Ghi điểm kiểm tra mã nước",
+  "schoolNetCheckpointDevicesLoaded": "Đã lấy {count} thiết bị đang online",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "Trước khi hủy xác thực tự động",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "Sau khi hủy xác thực tự động",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "Trước khi ngắt kết nối thiết bị",
+  "schoolNetCheckpointAfterDeviceDisconnect": "Sau khi ngắt kết nối thiết bị",
+  "schoolNetAuthEmptyCredentials": "Tài khoản hoặc mật khẩu không được để trống",
+  "schoolNetAuthPortalNotDetected": "Không phát hiện trang đăng nhập mạng trường",
+  "schoolNetAuthServiceUnavailable": "Dịch vụ mạng trường tạm thời không khả dụng",
+  "schoolNetAuthRejected": "Đăng nhập mạng trường bị từ chối",
+  "schoolNetAuthSubmittedNotOnline": "Đã gửi xác thực nhưng thiết bị chưa báo online",
+  "schoolNetAuthTimeout": "Yêu cầu đăng nhập mạng trường quá thời gian",
+  "schoolNetAuthConnectionFailed": "Kết nối mạng trường thất bại",
+  "whuCasCodeSendFailed": "Gửi mã xác minh thất bại",
+  "whuCasFormErrorFallback": "Lỗi gửi biểu mẫu CAS",
+  "aiModelFormatUnsupported": "Định dạng mô hình AI không được hỗ trợ",
+  "aiModelRequestCancelled": "Đã hủy yêu cầu AI",
+  "aiModelHttpError": "Lỗi AI HTTP ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "Trùng lặp ID gọi công cụ",
+  "aiModelEmptyResponse": "AI đã trả về phản hồi rỗng",
+  "aiToolStatusRunning": "Đang thực thi công cụ...",
+  "aiToolStatusWaiting": "Đang chờ người dùng...",
+  "aiToolStatusCompleted": "Công cụ hoàn thành",
+  "aiToolStatusFailed": "Thực thi công cụ thất bại",
+  "aiToolUnknown": "Công cụ không xác định",
+  "aiRequestCancelled": "Yêu cầu đã bị hủy.",
+  "majorInfoLegendOver10": "Trên 10%",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "Tuần {range}",
+  "@courseWeekRangeAll": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeOdd": "Tuần {range} (Lẻ)",
+  "@courseWeekRangeOdd": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeEven": "Tuần {range} (Chẵn)",
+  "@courseWeekRangeEven": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAreaLabel": "Sân {no}",
+  "@sportsAreaLabel": {
+    "placeholders": {
+      "no": {
+        "type": "Object"
+      }
+    }
+  },
+  "courseUnnamed": "Khóa học chưa đặt tên",
+  "courseTimetableWakeupDefaultName": "Thời khóa biểu WakeUp",
+  "courseTimetableShiguangDefaultName": "Thời khóa biểu Shiguang",
+  "courseTimetableXinglianDefaultName": "Thời khóa biểu Xinglian",
+  "courseTimetableLocalFileDefaultName": "Thời khóa biểu cục bộ",
+  "studyStatusOutOfPlanSectionTitle": "Các môn ngoài kế hoạch",
+  "schoolNetDefaultDeviceName": "Thiết bị của tôi",
+  "forumFreeUpvote": "Thích miễn phí",
+  "forumFreeDownvote": "Bỏ thích miễn phí",
+  "whuAuthSmsSendFailed": "Gửi mã xác minh thất bại. Vui lòng kiểm tra số điện thoại và thử lại.",
+  "whuAuthSmsSendRequired": "Vui lòng lấy mã xác minh cho số điện thoại hiện tại trước.",
+  "whuAuthCaptchaLoadFailed": "Tải xác minh an toàn thất bại. Vui lòng đóng và thử lại.",
+  "whuAuthLoginCredentialsError": "Tài khoản, mật khẩu hoặc mã động không đúng",
+  "whuSmartCampusAuthFailedCasRequired": "Xác thực Luojia Thông minh thất bại. Vui lòng đăng nhập lại qua WHU CAS.",
+  "whuSmartCampusAuthFailedHttp": "Xác thực Luojia Thông minh thất bại (HTTP {statusCode}).",
+  "@whuSmartCampusAuthFailedHttp": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "whuSmartCampusAuthFailedRetryLater": "Xác thực Luojia Thông minh thất bại. Vui lòng thử lại sau.",
+  "forumMyKarma": "Karma của tôi"
 }

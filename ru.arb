@@ -3828,7 +3828,21 @@
   "adminUsersDisable": "Отключить",
   "adminUsersSetRole": "Назначить {role}",
   "adminUsersRoleUpdated": "Роль пользователя обновлена.",
-  "adminUserDetailAccount": "Учётная запись", "adminUserDetailDisplayName": "Отображаемое имя", "adminUserDetailRegistered": "Регистрация", "adminUserDetailLastActive": "Последняя активность", "adminUserDetailForum": "Форум", "adminUserDetailNickname": "Псевдоним", "adminUserDetailStatus": "Статус", "adminUserDetailLevel": "Уровень", "adminUserDetailPosts": "Публикации", "adminUserDetailComments": "Комментарии", "adminUserDetailReceivedLikes": "Полученные отметки «нравится»", "adminUserDetailWhuAccountData": "Данные учётной записи WHU", "adminUserDetailWhuAccountDataDescription": "Доступно только суперадминистраторам. Доступ журналируется.", "adminUserDetailWhuAccount": "Учётная запись WHU", "adminUserDetailManagement": "Управление",
+  "adminUserDetailAccount": "Учётная запись",
+  "adminUserDetailDisplayName": "Отображаемое имя",
+  "adminUserDetailRegistered": "Регистрация",
+  "adminUserDetailLastActive": "Последняя активность",
+  "adminUserDetailForum": "Форум",
+  "adminUserDetailNickname": "Псевдоним",
+  "adminUserDetailStatus": "Статус",
+  "adminUserDetailLevel": "Уровень",
+  "adminUserDetailPosts": "Публикации",
+  "adminUserDetailComments": "Комментарии",
+  "adminUserDetailReceivedLikes": "Полученные отметки «нравится»",
+  "adminUserDetailWhuAccountData": "Данные учётной записи WHU",
+  "adminUserDetailWhuAccountDataDescription": "Доступно только суперадминистраторам. Доступ журналируется.",
+  "adminUserDetailWhuAccount": "Учётная запись WHU",
+  "adminUserDetailManagement": "Управление",
   "adminUserContentPostsTitle": "Публикации пользователя",
   "adminUserContentCommentsTitle": "Комментарии пользователя",
   "adminUserContentPostsEmpty": "Нет публикаций",
@@ -3920,7 +3934,16 @@
   "aiAutomationSemiAutomaticDescription": "Операции записи агента по-прежнему требуют вашего подтверждения; остальные подтверждаются автоматически.",
   "aiAutomationFullyAutomaticDescription": "Все действия подтверждаются автоматически, полная история сохраняется.",
   "aiConfirmationAutoApproved": "Автоматически подтверждено действий: {count} ({mode})",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiWorkspaceTitle": "Рабочее пространство ИИ",
   "settingsAiWorkspaceDescription": "Управляйте файлами в личном рабочем пространстве ИИ.",
   "settingsAiWorkspaceUsageTitle": "Использование рабочего пространства",
@@ -4059,5 +4082,146 @@
   "forumKarmaLevelTitle6": "Старейшина",
   "forumKarmaLevelTitle7": "Светило",
   "forumKarmaLevelTitle8": "Маяк",
-  "forumKarmaLevelTitle9": "Легенда"
+  "forumKarmaLevelTitle9": "Легенда",
+  "busArrivalStatusArrived": "Прибыл",
+  "busArrivalStatusNoInfo": "Нет информации о прибытии",
+  "busArrivalStatusStopsAway": "{busNum} · в {stopsAway} остановках",
+  "forumModerationModeratePost": "Модерировать публикацию",
+  "forumModerationPostIdLabel": "ID публикации",
+  "forumModerationPostIdRequired": "Введите ID публикации",
+  "forumModerationPostEvidenceTitle": "Доказательства модерации",
+  "forumModerationAccountAction": "Действие с аккаунтом",
+  "forumModerationBanAccount": "Заблокировать аккаунт",
+  "forumModerationRemoveMute": "Снять мут",
+  "forumModerationRemoveBan": "Разблокировать аккаунт",
+  "forumModerationAccountActionApplied": "Действие с аккаунтом применилось",
+  "forumModerationMovePost": "Переместить публикацию",
+  "forumModerationKeepBoard": "Оставить текущий раздел",
+  "forumModerationKarmaReason": "Причина модерации Karma",
+  "courseMatchingTargetTimetable": "Целевое расписание",
+  "courseMatchingCreateNewTimetable": "Создать новое расписание",
+  "courseMatchingCurrentTimeSlotOnly": "Только текущий временной слот",
+  "courseMatchingNoConflicts": "Без конфликтов расписания",
+  "courseMatchingConflictsCount": "{count} конфликтов",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "Расширенные фильтры",
+  "courseMatchingDayOfWeek": "День недели",
+  "courseMatchingFromSection": "С занятия",
+  "courseMatchingToSection": "По занятие",
+  "courseMatchingCourseType": "Тип курса",
+  "courseMatchingMinCredits": "Мин. кредиты",
+  "courseMatchingMaxCredits": "Макс. кредиты",
+  "adminControllableQueues": "Управляемые очереди задач",
+  "adminSystemQueues": "Системные очереди",
+  "luotopiaAccountViewLargeAvatar": "Просмотреть аватар",
+  "luotopiaAccountChangeAvatar": "Сменить аватар",
+  "luotopiaRegisterDebugCode": "Отладочный код проверки",
+  "schoolNetCheckpointRecorded": "Контрольная точка захвата записана",
+  "schoolNetCheckpointTooltip": "Записать контрольную точку кода воды",
+  "schoolNetCheckpointDevicesLoaded": "Загружено онлайн-устройств: {count}",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "До отмены бесшовной аутентификации",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "После отмены бесшовной аутентификации",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "До отключения устройства",
+  "schoolNetCheckpointAfterDeviceDisconnect": "После отключения устройства",
+  "schoolNetAuthEmptyCredentials": "Имя пользователя или пароль не могут быть пустыми",
+  "schoolNetAuthPortalNotDetected": "Страница входа в сеть кампуса не обнаружена",
+  "schoolNetAuthServiceUnavailable": "Служба сети кампуса временно недоступна",
+  "schoolNetAuthRejected": "Вход в сеть кампуса отклонен",
+  "schoolNetAuthSubmittedNotOnline": "Учетные данные отправлены, но устройство не в сети",
+  "schoolNetAuthTimeout": "Превышено время ожидания входа в сеть кампуса",
+  "schoolNetAuthConnectionFailed": "Сбой подключения к сети кампуса",
+  "whuCasCodeSendFailed": "Сбой отправки кода проверки",
+  "whuCasFormErrorFallback": "Ошибка отправки формы CAS",
+  "aiModelFormatUnsupported": "Неподдерживаемый формат модели ИИ",
+  "aiModelRequestCancelled": "Запрос ИИ отменен",
+  "aiModelHttpError": "Ошибка HTTP ИИ ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "Дублирующийся ID вызова инструмента",
+  "aiModelEmptyResponse": "ИИ вернул пустой ответ",
+  "aiToolStatusRunning": "Выполнение инструмента...",
+  "aiToolStatusWaiting": "Ожидание действия пользователя...",
+  "aiToolStatusCompleted": "Инструмент выполнен",
+  "aiToolStatusFailed": "Сбой инструмента",
+  "aiToolUnknown": "Неизвестный инструмент",
+  "aiRequestCancelled": "Запрос отменен.",
+  "majorInfoLegendOver10": "Более 10%",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "Недели {range}",
+  "@courseWeekRangeAll": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeOdd": "Недели {range} (Нечет)",
+  "@courseWeekRangeOdd": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeEven": "Недели {range} (Чет)",
+  "@courseWeekRangeEven": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAreaLabel": "Корт №{no}",
+  "@sportsAreaLabel": {
+    "placeholders": {
+      "no": {
+        "type": "Object"
+      }
+    }
+  },
+  "courseUnnamed": "Безымянный курс",
+  "courseTimetableWakeupDefaultName": "Расписание WakeUp",
+  "courseTimetableShiguangDefaultName": "Расписание Shiguang",
+  "courseTimetableXinglianDefaultName": "Расписание Xinglian",
+  "courseTimetableLocalFileDefaultName": "Локальное расписание",
+  "studyStatusOutOfPlanSectionTitle": "Внеучебные курсы",
+  "schoolNetDefaultDeviceName": "Мое устройство",
+  "forumFreeUpvote": "Бесплатный лайк",
+  "forumFreeDownvote": "Бесплатный дизлайк",
+  "whuAuthSmsSendFailed": "Сбой отправки кода. Проверьте номер телефона и повторите попытку.",
+  "whuAuthSmsSendRequired": "Сначала запросите код проверки для текущего номера телефона.",
+  "whuAuthCaptchaLoadFailed": "Сбой загрузки проверки безопасности. Закройте и повторите попытку.",
+  "whuAuthLoginCredentialsError": "Неверный аккаунт, пароль или динамический код",
+  "whuSmartCampusAuthFailedCasRequired": "Сбой авторизации Smart Luojia. Войдите повторно через WHU CAS.",
+  "whuSmartCampusAuthFailedHttp": "Сбой авторизации Smart Luojia (HTTP {statusCode}).",
+  "@whuSmartCampusAuthFailedHttp": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "whuSmartCampusAuthFailedRetryLater": "Сбой авторизации Smart Luojia. Повторите попытку позже.",
+  "forumMyKarma": "Моя Карма"
 }

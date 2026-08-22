@@ -3934,7 +3934,16 @@
   "aiAutomationSemiAutomaticDescription": "Agent 发起嘅写入操作仲要你确认，其他确认自动通过。",
   "aiAutomationFullyAutomaticDescription": "自动确认所有操作，并保留完整记录。",
   "aiConfirmationAutoApproved": "已自动确认 {count} 项操作（{mode}）",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiWorkspaceTitle": "AI 工作区",
   "settingsAiWorkspaceDescription": "管理储存喺你私人 AI 工作区入面嘅文件。",
   "settingsAiWorkspaceUsageTitle": "工作区用量",
@@ -4073,5 +4082,146 @@
   "forumKarmaLevelTitle6": "长老",
   "forumKarmaLevelTitle7": "光辉",
   "forumKarmaLevelTitle8": "灯塔",
-  "forumKarmaLevelTitle9": "传说"
+  "forumKarmaLevelTitle9": "传说",
+  "busArrivalStatusArrived": "已到達",
+  "busArrivalStatusNoInfo": "暫無車輛資訊",
+  "busArrivalStatusStopsAway": "{busNum} · 距 {stopsAway} 站",
+  "forumModerationModeratePost": "審核/管理帖子",
+  "forumModerationPostIdLabel": "帖子 ID",
+  "forumModerationPostIdRequired": "請輸入帖子 ID",
+  "forumModerationPostEvidenceTitle": "審核證據",
+  "forumModerationAccountAction": "帳號處理",
+  "forumModerationBanAccount": "封禁帳號",
+  "forumModerationRemoveMute": "解封禁言",
+  "forumModerationRemoveBan": "解封帳號",
+  "forumModerationAccountActionApplied": "帳號處理已生效",
+  "forumModerationMovePost": "移動帖子",
+  "forumModerationKeepBoard": "保留當前版塊",
+  "forumModerationKarmaReason": "Karma 審核原因",
+  "courseMatchingTargetTimetable": "目標課表",
+  "courseMatchingCreateNewTimetable": "創建新課表",
+  "courseMatchingCurrentTimeSlotOnly": "僅匹配當前時段",
+  "courseMatchingNoConflicts": "無時間衝突",
+  "courseMatchingConflictsCount": "{count} 處時間衝突",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "高級篩選",
+  "courseMatchingDayOfWeek": "星期",
+  "courseMatchingFromSection": "起始節次",
+  "courseMatchingToSection": "結束節次",
+  "courseMatchingCourseType": "課程類型",
+  "courseMatchingMinCredits": "最小學分",
+  "courseMatchingMaxCredits": "最大學分",
+  "adminControllableQueues": "受控任務隊列",
+  "adminSystemQueues": "系統任務隊列",
+  "luotopiaAccountViewLargeAvatar": "查看大頭像",
+  "luotopiaAccountChangeAvatar": "更換頭像",
+  "luotopiaRegisterDebugCode": "調試驗證碼",
+  "schoolNetCheckpointRecorded": "已記錄抓包檢查點",
+  "schoolNetCheckpointTooltip": "記錄取水碼抓包檢查點",
+  "schoolNetCheckpointDevicesLoaded": "已獲取 {count} 臺在線設備",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "無感認證取消前",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "無感認證取消後",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "設備下線前",
+  "schoolNetCheckpointAfterDeviceDisconnect": "設備下線後",
+  "schoolNetAuthEmptyCredentials": "帳號或密碼不能爲空",
+  "schoolNetAuthPortalNotDetected": "未檢測到校園網登錄頁面",
+  "schoolNetAuthServiceUnavailable": "校園網服務暫不可用",
+  "schoolNetAuthRejected": "校園網登錄被拒絕",
+  "schoolNetAuthSubmittedNotOnline": "認證已提交但未顯示在線",
+  "schoolNetAuthTimeout": "校園網登錄超時",
+  "schoolNetAuthConnectionFailed": "校園網連接失敗",
+  "whuCasCodeSendFailed": "驗證碼發送失敗",
+  "whuCasFormErrorFallback": "統一認證表單提交錯誤",
+  "aiModelFormatUnsupported": "不支持的 AI 模型格式",
+  "aiModelRequestCancelled": "AI 請求已取消",
+  "aiModelHttpError": "AI HTTP 錯誤 ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "重複的工具調用 ID",
+  "aiModelEmptyResponse": "AI 返回了空響應",
+  "aiToolStatusRunning": "正在執行工具...",
+  "aiToolStatusWaiting": "等待用戶操作...",
+  "aiToolStatusCompleted": "工具執行完成",
+  "aiToolStatusFailed": "工具執行失敗",
+  "aiToolUnknown": "未知工具",
+  "aiRequestCancelled": "請求已取消。",
+  "majorInfoLegendOver10": "10%以上",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "{range}周",
+  "@courseWeekRangeAll": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeOdd": "{range}周(單)",
+  "@courseWeekRangeOdd": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeEven": "{range}周(雙)",
+  "@courseWeekRangeEven": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAreaLabel": "{no}號場",
+  "@sportsAreaLabel": {
+    "placeholders": {
+      "no": {
+        "type": "Object"
+      }
+    }
+  },
+  "courseUnnamed": "未命名課程",
+  "courseTimetableWakeupDefaultName": "WakeUp 課程表",
+  "courseTimetableShiguangDefaultName": "拾光課程表",
+  "courseTimetableXinglianDefaultName": "星鏈課程表",
+  "courseTimetableLocalFileDefaultName": "本地課程表",
+  "studyStatusOutOfPlanSectionTitle": "其他課程",
+  "schoolNetDefaultDeviceName": "我的設備",
+  "forumFreeUpvote": "免費點贊",
+  "forumFreeDownvote": "免費點踩",
+  "whuAuthSmsSendFailed": "驗證碼發送失敗，請檢查手機號後重試",
+  "whuAuthSmsSendRequired": "請先向當前手機號獲取驗證碼",
+  "whuAuthCaptchaLoadFailed": "安全驗證加載失敗，請關閉後重試",
+  "whuAuthLoginCredentialsError": "帳號、密碼或動態碼錯誤",
+  "whuSmartCampusAuthFailedCasRequired": "智慧珞珈授權失敗，請重新登錄武大統一認證。",
+  "whuSmartCampusAuthFailedHttp": "智慧珞珈授權失敗（HTTP {statusCode}）。",
+  "@whuSmartCampusAuthFailedHttp": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "whuSmartCampusAuthFailedRetryLater": "智慧珞珈授權失敗，請稍後重試。",
+  "forumMyKarma": "我的 Karma"
 }

@@ -3979,7 +3979,21 @@
   "adminUsersDisable": "Désactiver",
   "adminUsersSetRole": "Définir {role}",
   "adminUsersRoleUpdated": "Rôle utilisateur mis à jour.",
-  "adminUserDetailAccount": "Compte", "adminUserDetailDisplayName": "Nom d’affichage", "adminUserDetailRegistered": "Inscription", "adminUserDetailLastActive": "Dernière activité", "adminUserDetailForum": "Forum", "adminUserDetailNickname": "Pseudonyme", "adminUserDetailStatus": "Statut", "adminUserDetailLevel": "Niveau", "adminUserDetailPosts": "Publications", "adminUserDetailComments": "Commentaires", "adminUserDetailReceivedLikes": "J’aime reçus", "adminUserDetailWhuAccountData": "Données du compte WHU", "adminUserDetailWhuAccountDataDescription": "Visible uniquement par les superadministrateurs. Cet accès est audité.", "adminUserDetailWhuAccount": "Compte WHU", "adminUserDetailManagement": "Gestion",
+  "adminUserDetailAccount": "Compte",
+  "adminUserDetailDisplayName": "Nom d’affichage",
+  "adminUserDetailRegistered": "Inscription",
+  "adminUserDetailLastActive": "Dernière activité",
+  "adminUserDetailForum": "Forum",
+  "adminUserDetailNickname": "Pseudonyme",
+  "adminUserDetailStatus": "Statut",
+  "adminUserDetailLevel": "Niveau",
+  "adminUserDetailPosts": "Publications",
+  "adminUserDetailComments": "Commentaires",
+  "adminUserDetailReceivedLikes": "J’aime reçus",
+  "adminUserDetailWhuAccountData": "Données du compte WHU",
+  "adminUserDetailWhuAccountDataDescription": "Visible uniquement par les superadministrateurs. Cet accès est audité.",
+  "adminUserDetailWhuAccount": "Compte WHU",
+  "adminUserDetailManagement": "Gestion",
   "adminUserContentPostsTitle": "Publications de l'utilisateur",
   "adminUserContentCommentsTitle": "Commentaires de l'utilisateur",
   "adminUserContentPostsEmpty": "Aucune publication",
@@ -4036,7 +4050,16 @@
   "aiAutomationSemiAutomaticDescription": "Les actions d’écriture de l’Agent attendent toujours votre confirmation ; les autres sont confirmées automatiquement.",
   "aiAutomationFullyAutomaticDescription": "Chaque action est confirmée automatiquement, avec un historique complet.",
   "aiConfirmationAutoApproved": "{count} actions confirmées automatiquement ({mode})",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiWorkspaceTitle": "Espace de travail IA",
   "settingsAiWorkspaceDescription": "Gérez les fichiers stockés dans votre espace de travail IA privé.",
   "settingsAiWorkspaceUsageTitle": "Utilisation de l’espace de travail",
@@ -4069,5 +4092,146 @@
   "aiToolTraceDetails": "Détails des appels d’outils",
   "aiToolTraceStatusSucceeded": "Réussi",
   "aiToolTraceStatusFailed": "Échoué",
-  "aiToolTraceStatusCancelled": "Incomplet"
+  "aiToolTraceStatusCancelled": "Incomplet",
+  "busArrivalStatusArrived": "Arrivé",
+  "busArrivalStatusNoInfo": "Pas d'info d'arrivée",
+  "busArrivalStatusStopsAway": "{busNum} · à {stopsAway} arrêts",
+  "forumModerationModeratePost": "Modérer la publication",
+  "forumModerationPostIdLabel": "ID de la publication",
+  "forumModerationPostIdRequired": "Veuillez saisir un ID de publication",
+  "forumModerationPostEvidenceTitle": "Preuve de modération",
+  "forumModerationAccountAction": "Action sur le compte",
+  "forumModerationBanAccount": "Bannir le compte",
+  "forumModerationRemoveMute": "Rétablir la parole",
+  "forumModerationRemoveBan": "Débannir le compte",
+  "forumModerationAccountActionApplied": "Action sur el compte appliquée",
+  "forumModerationMovePost": "Déplacer la publication",
+  "forumModerationKeepBoard": "Conserver el forum actuel",
+  "forumModerationKarmaReason": "Raison de modération de Karma",
+  "courseMatchingTargetTimetable": "Emploi du temps cible",
+  "courseMatchingCreateNewTimetable": "Créer un nouvel emploi du temps",
+  "courseMatchingCurrentTimeSlotOnly": "Filtre créneau actuel uniquement",
+  "courseMatchingNoConflicts": "Aucun conflit de temps",
+  "courseMatchingConflictsCount": "{count} conflits d'emploi du temps",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "Filtres avancés",
+  "courseMatchingDayOfWeek": "Jour de la semaine",
+  "courseMatchingFromSection": "De la période",
+  "courseMatchingToSection": "À la période",
+  "courseMatchingCourseType": "Type de cours",
+  "courseMatchingMinCredits": "Crédits minimum",
+  "courseMatchingMaxCredits": "Crédits maximum",
+  "adminControllableQueues": "Files de tâches contrôlables",
+  "adminSystemQueues": "Files système",
+  "luotopiaAccountViewLargeAvatar": "Voir l'avatar en grand",
+  "luotopiaAccountChangeAvatar": "Changer l'avatar",
+  "luotopiaRegisterDebugCode": "Code de vérification de débogage",
+  "schoolNetCheckpointRecorded": "Point de contrôle d'analyse enregistré",
+  "schoolNetCheckpointTooltip": "Enregistrer le point de contrôle du code d'eau",
+  "schoolNetCheckpointDevicesLoaded": "{count} appareils en ligne chargés",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "Avant l'annulation de l'authentification transparente",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "Après l'annulation de l'authentification transparente",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "Avant la déconnexion de l'appareil",
+  "schoolNetCheckpointAfterDeviceDisconnect": "Après la déconnexion de l'appareil",
+  "schoolNetAuthEmptyCredentials": "Le nom d'utilisateur ou le mot de passe ne puede être vide",
+  "schoolNetAuthPortalNotDetected": "Page de connexion réseau du campus non détectée",
+  "schoolNetAuthServiceUnavailable": "Service réseau du campus indisponible",
+  "schoolNetAuthRejected": "Connexion au réseau du campus refusée",
+  "schoolNetAuthSubmittedNotOnline": "Identifiants soumis mais l'appareil n'est pas en ligne",
+  "schoolNetAuthTimeout": "Délai de connexion réseau du campus dépassé",
+  "schoolNetAuthConnectionFailed": "Échec de la connexion au réseau du campus",
+  "whuCasCodeSendFailed": "Échec de l'envoi du code de vérification",
+  "whuCasFormErrorFallback": "Erreur de soumission du formulaire CAS",
+  "aiModelFormatUnsupported": "Format de modèle IA non pris en charge",
+  "aiModelRequestCancelled": "Demande IA annulée",
+  "aiModelHttpError": "Erreur HTTP IA ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "ID d'appel d'outil en double",
+  "aiModelEmptyResponse": "L'IA a renvoyé une réponse vide",
+  "aiToolStatusRunning": "Exécution de l'outil...",
+  "aiToolStatusWaiting": "En attente de l'utilisateur...",
+  "aiToolStatusCompleted": "Outil terminé",
+  "aiToolStatusFailed": "Échec de l'outil",
+  "aiToolUnknown": "Outil inconnu",
+  "aiRequestCancelled": "Demande annulée.",
+  "majorInfoLegendOver10": "Plus de 10%",
+  "majorInfoLegend5To10": "5%-10%",
+  "majorInfoLegend1To5": "1%-5%",
+  "majorInfoLegend0To1": "0-1%",
+  "majorInfoLegend0": "0%",
+  "courseWeekRangeAll": "Semaines {range}",
+  "@courseWeekRangeAll": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeOdd": "Semaines {range} (Impair)",
+  "@courseWeekRangeOdd": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "courseWeekRangeEven": "Semaines {range} (Pair)",
+  "@courseWeekRangeEven": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "sportsAreaLabel": "Terrain {no}",
+  "@sportsAreaLabel": {
+    "placeholders": {
+      "no": {
+        "type": "Object"
+      }
+    }
+  },
+  "courseUnnamed": "Cours sans nom",
+  "courseTimetableWakeupDefaultName": "Emploi du temps WakeUp",
+  "courseTimetableShiguangDefaultName": "Emploi du temps Shiguang",
+  "courseTimetableXinglianDefaultName": "Emploi du temps Xinglian",
+  "courseTimetableLocalFileDefaultName": "Emploi du temps local",
+  "studyStatusOutOfPlanSectionTitle": "Cours hors programme",
+  "schoolNetDefaultDeviceName": "Mon appareil",
+  "forumFreeUpvote": "Vote positif gratuit",
+  "forumFreeDownvote": "Vote négatif gratuit",
+  "whuAuthSmsSendFailed": "Échec de l'envoi du code. Veuillez vérifier votre numéro et réessayer.",
+  "whuAuthSmsSendRequired": "Veuillez d'abord demander un code de vérification pour ce numéro.",
+  "whuAuthCaptchaLoadFailed": "Échec du chargement de la vérification de sécurité. Veuillez fermer et réessayer.",
+  "whuAuthLoginCredentialsError": "Compte, mot de passe ou code dynamique incorrect",
+  "whuSmartCampusAuthFailedCasRequired": "Échec de l'autorisation Smart Luojia. Veuillez vous reconnecter via WHU CAS.",
+  "whuSmartCampusAuthFailedHttp": "Échec de l'autorisation Smart Luojia (HTTP {statusCode}).",
+  "@whuSmartCampusAuthFailedHttp": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "whuSmartCampusAuthFailedRetryLater": "Échec de l'autorisation Smart Luojia. Veuillez réessayer plus tard.",
+  "forumMyKarma": "Mon Karma"
 }

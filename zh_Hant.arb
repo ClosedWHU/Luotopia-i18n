@@ -4040,7 +4040,16 @@
   "aiAutomationSemiAutomaticDescription": "Agent 發起的寫入操作仍需你確認，其餘確認自動通過。",
   "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
   "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
-  "@aiConfirmationAutoApproved": {"placeholders": {"count": {"type": "int"}, "mode": {"type": "String"}}},
+  "@aiConfirmationAutoApproved": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
   "settingsAiWorkspaceTitle": "AI 工作區",
   "settingsAiWorkspaceDescription": "管理儲存在你的私人 AI 工作區中的檔案。",
   "settingsAiWorkspaceUsageTitle": "工作區用量",
@@ -4073,5 +4082,77 @@
   "aiToolTraceDetails": "工具呼叫詳情",
   "aiToolTraceStatusSucceeded": "成功",
   "aiToolTraceStatusFailed": "失敗",
-  "aiToolTraceStatusCancelled": "未完成"
+  "aiToolTraceStatusCancelled": "未完成",
+  "forumModerationModeratePost": "審核/管理帖子",
+  "forumModerationPostIdLabel": "帖子 ID",
+  "forumModerationPostIdRequired": "請輸入帖子 ID",
+  "forumModerationPostEvidenceTitle": "審核證據",
+  "forumModerationAccountAction": "帳號處理",
+  "forumModerationBanAccount": "封禁帳號",
+  "forumModerationRemoveMute": "解封禁言",
+  "forumModerationRemoveBan": "解封帳號",
+  "forumModerationAccountActionApplied": "帳號處理已生效",
+  "forumModerationMovePost": "移動帖子",
+  "forumModerationKeepBoard": "保留當前版塊",
+  "forumModerationKarmaReason": "Karma 審核原因",
+  "courseMatchingTargetTimetable": "目標課表",
+  "courseMatchingCreateNewTimetable": "創建新課表",
+  "courseMatchingCurrentTimeSlotOnly": "僅匹配當前時段",
+  "courseMatchingNoConflicts": "無時間衝突",
+  "courseMatchingConflictsCount": "{count} 處時間衝突",
+  "@courseMatchingConflictsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAdvancedFilters": "高級篩選",
+  "courseMatchingDayOfWeek": "星期",
+  "courseMatchingFromSection": "起始節次",
+  "courseMatchingToSection": "結束節次",
+  "courseMatchingCourseType": "課程類型",
+  "courseMatchingMinCredits": "最小學分",
+  "courseMatchingMaxCredits": "最大學分",
+  "adminControllableQueues": "受控任務隊列",
+  "adminSystemQueues": "系統任務隊列",
+  "luotopiaAccountViewLargeAvatar": "查看大頭像",
+  "luotopiaAccountChangeAvatar": "更換頭像",
+  "luotopiaRegisterDebugCode": "調試驗證碼",
+  "schoolNetCheckpointRecorded": "已記錄抓包檢查點",
+  "schoolNetCheckpointTooltip": "記錄取水碼抓包檢查點",
+  "schoolNetCheckpointDevicesLoaded": "已獲取 {count} 臺在線設備",
+  "@schoolNetCheckpointDevicesLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "schoolNetCheckpointBeforeSeamlessAuthCancel": "無感認證取消前",
+  "schoolNetCheckpointAfterSeamlessAuthCancel": "無感認證取消後",
+  "schoolNetCheckpointBeforeDeviceDisconnect": "設備下線前",
+  "schoolNetCheckpointAfterDeviceDisconnect": "設備下線後",
+  "schoolNetAuthEmptyCredentials": "帳號或密碼不能爲空",
+  "schoolNetAuthPortalNotDetected": "未檢測到校園網登錄頁面",
+  "schoolNetAuthServiceUnavailable": "校園網服務暫不可用",
+  "schoolNetAuthRejected": "校園網登錄被拒絕",
+  "schoolNetAuthSubmittedNotOnline": "認證已提交但未顯示在線",
+  "schoolNetAuthTimeout": "校園網登錄超時",
+  "schoolNetAuthConnectionFailed": "校園網連接失敗",
+  "whuCasCodeSendFailed": "驗證碼發送失敗",
+  "whuCasFormErrorFallback": "統一認證表單提交錯誤",
+  "aiModelFormatUnsupported": "不支持的 AI 模型格式",
+  "aiModelRequestCancelled": "AI 請求已取消",
+  "aiModelHttpError": "AI HTTP 錯誤 ({statusCode})",
+  "@aiModelHttpError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "aiModelDuplicateToolCallId": "重複的工具調用 ID",
+  "aiModelEmptyResponse": "AI 返回了空響應",
+  "busArrivalStatusStopsAway": "{busNum} · 距 {stopsAway} 站"
 }
