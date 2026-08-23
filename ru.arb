@@ -3673,6 +3673,123 @@
   "medicalReportItems": "Показатели",
   "medicalReportTime": "Время отчёта",
   "medicalLabAxisToggle": "Ось результатов",
+  "medicalCardQueryTitle": "Карты пациентов",
+  "medicalCardQueryEmpty": "У вас нет привязанных карт пациентов",
+  "medicalCardQueryEmptyHint": "Нажмите кнопку создания в правом верхнем углу, чтобы создать новую карту, или воспользуйтесь поиском ниже, чтобы привязать существующую карту",
+  "medicalCardAddTitle": "Добавить карту пациента",
+  "medicalCardSearchBind": "Найти и привязать существующую карту",
+  "medicalCardSearchBindDesc": "Введите свои данные, чтобы найти и привязать существующую карту пациента",
+  "medicalCardCreateNew": "Создать новую карту",
+  "medicalCardCreateNewDesc": "Создать совершенно новую карту пациента",
+  "medicalCreateCard": "Создать карту",
+  "medicalBindCard": "Привязать",
+  "medicalBindCardTitle": "Привязать карту пациента",
+  "medicalSendCode": "Отправить код",
+  "medicalResendCode": "Отправить повторно",
+  "medicalCodeResent": "Код подтверждения отправлен",
+  "medicalResendCountdown": "Повторная отправка через {seconds} с",
+  "@medicalResendCountdown": {
+   "placeholders": {
+     "seconds": {
+       "type": "int"
+      }
+    }
+  },
+  "medicalAuthCode": "Код подтверждения",
+  "medicalAuthCodeHint": "Введите код подтверждения из SMS",
+  "medicalCity": "Город",
+  "medicalCityHint": "Выберите город",
+  "medicalAddress": "Адрес",
+  "medicalAddressHint": "Введите полный адрес",
+  "medicalBindSuccess": "Карта успешно привязана",
+  "medicalBindFailed": "Не удалось привязать карту",
+  "medicalCreateSuccess": "Карта успешно создана",
+  "medicalCreateFailed": "Не удалось создать карту",
+  "medicalSetDefault": "Сделать основной",
+  "medicalSetDefaultSuccess": "Карта назначена основной",
+  "medicalSetDefaultFailed": "Не удалось назначить карту основной",
+  "medicalCardDetail": "Данные карты",
+  "medicalInvoiceTotal": "Итого",
+  "medicalInvoiceQuantity": "Количество: {value}",
+  "@medicalInvoiceQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoicePackageCount": "{value} уп.",
+  "@medicalInvoicePackageCount": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "medicalInvoiceTotalQuantity": "Всего: {value}",
+  "@medicalInvoiceTotalQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceSpecification": "Спецификация: {value}",
+  "@medicalInvoiceSpecification": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceUnitPrice": "Цена за единицу: {value}",
+  "@medicalInvoiceUnitPrice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalCardRealName": "Полное имя",
+  "medicalCardIdNumber": "Номер документа",
+  "medicalCardPhoneNumber": "Номер телефона",
+  "medicalCardNumber": "Номер карты",
+  "medicalRegistrationNumber": "Номер записи",
+  "medicalRegistrationQrLabel": "QR-код записи",
+  "medicalOutpatientSection": "Амбулаторные услуги",
+  "medicalInpatientSection": "Стационарные услуги",
+  "medicalCardUnbind": "Отвязать",
+  "medicalCardUnbindConfirm": "Отвязать эту карту?",
+  "medicalCardUnbindSuccess": "Карта успешно отвязана",
+  "medicalCardUnbindFailed": "Не удалось отвязать карту",
+  "medicalCardSwitchPatient": "Сменить пациента",
+  "medicalCardSwitchPatientDesc": "Переключиться на пациента {name} ({card})?",
+  "@medicalCardSwitchPatientDesc": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      },
+     "card": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalSelectCard": "Выберите карту",
+  "medicalCardType": "Тип карты",
+  "medicalSearchCardHint": "Найдите существующую карту, чтобы привязать её",
+  "medicalConfirmBind": "Подтвердить привязку",
+  "medicalConfirmCreate": "Подтвердить создание",
+  "medicalCardBound": "Эта карта уже привязана",
+  "medicalMaskedPhone": "Код подтверждения будет отправлен на номер {phone}",
+  "@medicalMaskedPhone": {
+   "placeholders": {
+     "phone": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalCardQuerySearchSection": "Поиск карты",
+  "medicalCardQuerySearchDescription": "Введите свои данные, чтобы найти и привязать существующую карту пациента",
   "campusBusRouteViewVertical": "Вертикальный вид маршрута",
   "campusBusOutsideServiceRange": "Вне часов работы",
   "campusBusNoReachableBus": "Ни один автобус больше не может доехать до этой остановки. Выберите другую или попробуйте в часы работы.",

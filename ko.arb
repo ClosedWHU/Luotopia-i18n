@@ -3683,6 +3683,123 @@
   "medicalReportItems": "항목 수",
   "medicalReportTime": "보고 시간",
   "medicalLabAxisToggle": "결과 축",
+  "medicalCardQueryTitle": "진료카드",
+  "medicalCardQueryEmpty": "연결된 진료카드가 없습니다",
+  "medicalCardQueryEmptyHint": "오른쪽 상단의 생성 버튼을 눌러 새 카드를 만들거나, 아래에서 검색하여 기존 카드를 연결하세요",
+  "medicalCardAddTitle": "진료카드 추가",
+  "medicalCardSearchBind": "기존 진료카드 검색 및 연결",
+  "medicalCardSearchBindDesc": "정보를 입력하여 기존 진료카드를 검색하고 연결하세요",
+  "medicalCardCreateNew": "새 진료카드 만들기",
+  "medicalCardCreateNewDesc": "새 진료카드를 만드세요",
+  "medicalCreateCard": "카드 만들기",
+  "medicalBindCard": "연결",
+  "medicalBindCardTitle": "진료카드 연결",
+  "medicalSendCode": "인증번호 전송",
+  "medicalResendCode": "다시 보내기",
+  "medicalCodeResent": "인증번호를 전송했습니다",
+  "medicalResendCountdown": "{seconds}초 후 다시 보내기",
+  "@medicalResendCountdown": {
+   "placeholders": {
+     "seconds": {
+       "type": "int"
+      }
+    }
+  },
+  "medicalAuthCode": "인증 코드",
+  "medicalAuthCodeHint": "SMS 인증번호를 입력하세요",
+  "medicalCity": "도시",
+  "medicalCityHint": "도시를 선택하세요",
+  "medicalAddress": "주소",
+  "medicalAddressHint": "상세 주소를 입력하세요",
+  "medicalBindSuccess": "연결되었습니다",
+  "medicalBindFailed": "연결하지 못했습니다",
+  "medicalCreateSuccess": "생성되었습니다",
+  "medicalCreateFailed": "생성하지 못했습니다",
+  "medicalSetDefault": "기본 카드로 설정",
+  "medicalSetDefaultSuccess": "기본 카드로 설정했습니다",
+  "medicalSetDefaultFailed": "기본 카드로 설정하지 못했습니다",
+  "medicalCardDetail": "진료카드 상세 정보",
+  "medicalInvoiceTotal": "합계",
+  "medicalInvoiceQuantity": "수량 {value}",
+  "@medicalInvoiceQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoicePackageCount": "{value}상자",
+  "@medicalInvoicePackageCount": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "medicalInvoiceTotalQuantity": "총 {value}",
+  "@medicalInvoiceTotalQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceSpecification": "규격 {value}",
+  "@medicalInvoiceSpecification": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceUnitPrice": "단가 {value}",
+  "@medicalInvoiceUnitPrice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalCardRealName": "성명",
+  "medicalCardIdNumber": "증명서 번호",
+  "medicalCardPhoneNumber": "전화번호",
+  "medicalCardNumber": "카드 번호",
+  "medicalRegistrationNumber": "진료 접수 번호",
+  "medicalRegistrationQrLabel": "진료 접수 QR 코드",
+  "medicalOutpatientSection": "외래 진료",
+  "medicalInpatientSection": "입원 진료",
+  "medicalCardUnbind": "연결 해제",
+  "medicalCardUnbindConfirm": "이 진료카드의 연결을 해제하시겠습니까?",
+  "medicalCardUnbindSuccess": "진료카드 연결을 해제했습니다",
+  "medicalCardUnbindFailed": "진료카드 연결을 해제하지 못했습니다",
+  "medicalCardSwitchPatient": "환자 전환",
+  "medicalCardSwitchPatientDesc": "진료 대상자를 {name}님({card})으로 전환하시겠습니까?",
+  "@medicalCardSwitchPatientDesc": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      },
+     "card": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalSelectCard": "카드 선택",
+  "medicalCardType": "카드 유형",
+  "medicalSearchCardHint": "기존 진료카드를 검색하여 연결하세요",
+  "medicalConfirmBind": "연결 확인",
+  "medicalConfirmCreate": "생성 확인",
+  "medicalCardBound": "이 진료카드는 이미 연결되어 있습니다",
+  "medicalMaskedPhone": "인증번호를 {phone}(으)로 전송합니다",
+  "@medicalMaskedPhone": {
+   "placeholders": {
+     "phone": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalCardQuerySearchSection": "진료카드 검색",
+  "medicalCardQuerySearchDescription": "정보를 입력하여 기존 진료카드를 검색하고 연결하세요",
   "campusBusRouteViewVertical": "세로 경로 보기",
   "campusBusOutsideServiceRange": "운행 시간 외",
   "campusBusNoReachableBus": "이 정류장에 도착할 수 있는 버스가 없습니다. 다른 정류장을 선택하거나 운행 시간에 다시 시도하세요.",

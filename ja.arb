@@ -3676,6 +3676,123 @@
   "medicalReportItems": "項目数",
   "medicalReportTime": "報告日時",
   "medicalLabAxisToggle": "結果軸",
+  "medicalCardQueryTitle": "診察カード",
+  "medicalCardQueryEmpty": "連携済みの診察カードはありません",
+  "medicalCardQueryEmptyHint": "右上の作成ボタンをタップして新しいカードを作成するか、下の検索から既存のカードを連携してください",
+  "medicalCardAddTitle": "診察カードを追加",
+  "medicalCardSearchBind": "既存のカードを検索して連携",
+  "medicalCardSearchBindDesc": "情報を入力して既存の診察カードを検索・連携します",
+  "medicalCardCreateNew": "新しいカードを作成",
+  "medicalCardCreateNewDesc": "新しい診察カードを作成します",
+  "medicalCreateCard": "カードを作成",
+  "medicalBindCard": "連携",
+  "medicalBindCardTitle": "診察カードを連携",
+  "medicalSendCode": "認証コードを送信",
+  "medicalResendCode": "再送信",
+  "medicalCodeResent": "認証コードを送信しました",
+  "medicalResendCountdown": "{seconds}秒後に再送信できます",
+  "@medicalResendCountdown": {
+   "placeholders": {
+     "seconds": {
+       "type": "int"
+      }
+    }
+  },
+  "medicalAuthCode": "認証コード",
+  "medicalAuthCodeHint": "SMSで届いた認証コードを入力",
+  "medicalCity": "市区町村",
+  "medicalCityHint": "市区町村を選択",
+  "medicalAddress": "住所",
+  "medicalAddressHint": "詳しい住所を入力",
+  "medicalBindSuccess": "連携しました",
+  "medicalBindFailed": "連携に失敗しました",
+  "medicalCreateSuccess": "作成しました",
+  "medicalCreateFailed": "作成に失敗しました",
+  "medicalSetDefault": "デフォルトに設定",
+  "medicalSetDefaultSuccess": "デフォルトカードに設定しました",
+  "medicalSetDefaultFailed": "デフォルトカードの設定に失敗しました",
+  "medicalCardDetail": "カード詳細",
+  "medicalInvoiceTotal": "合計",
+  "medicalInvoiceQuantity": "数量 {value}",
+  "@medicalInvoiceQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoicePackageCount": "{value}箱",
+  "@medicalInvoicePackageCount": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "medicalInvoiceTotalQuantity": "合計 {value}",
+  "@medicalInvoiceTotalQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceSpecification": "規格 {value}",
+  "@medicalInvoiceSpecification": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceUnitPrice": "単価 {value}",
+  "@medicalInvoiceUnitPrice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalCardRealName": "氏名",
+  "medicalCardIdNumber": "身分証明書番号",
+  "medicalCardPhoneNumber": "電話番号",
+  "medicalCardNumber": "デフォルトカード",
+  "medicalRegistrationNumber": "受付番号",
+  "medicalRegistrationQrLabel": "受付番号QRコード",
+  "medicalOutpatientSection": "外来サービス",
+  "medicalInpatientSection": "入院サービス",
+  "medicalCardUnbind": "連携を解除",
+  "medicalCardUnbindConfirm": "このカードとの連携を解除しますか？",
+  "medicalCardUnbindSuccess": "カードとの連携を解除しました",
+  "medicalCardUnbindFailed": "カードとの連携解除に失敗しました",
+  "medicalCardSwitchPatient": "患者を切り替え",
+  "medicalCardSwitchPatientDesc": "{name}さん（{card}）に切り替えますか？",
+  "@medicalCardSwitchPatientDesc": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      },
+     "card": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalSelectCard": "カードを選択",
+  "medicalCardType": "カード種別",
+  "medicalSearchCardHint": "連携する既存のカードを検索",
+  "medicalConfirmBind": "連携を確認",
+  "medicalConfirmCreate": "作成を確認",
+  "medicalCardBound": "このカードはすでに連携されています",
+  "medicalMaskedPhone": "確認コードを{phone}に送信します",
+  "@medicalMaskedPhone": {
+   "placeholders": {
+     "phone": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalCardQuerySearchSection": "診察カードを検索",
+  "medicalCardQuerySearchDescription": "情報を入力して既存の診察カードを検索・連携します",
   "campusBusRouteViewVertical": "縦型ルート表示",
   "campusBusOutsideServiceRange": "運行時間外です",
   "campusBusNoReachableBus": "この停留所に到着できるバスがありません。別の停留所を選ぶか、運行時間内に再試行してください。",

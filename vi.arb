@@ -3673,6 +3673,123 @@
   "medicalReportItems": "Số mục",
   "medicalReportTime": "Thời gian báo cáo",
   "medicalLabAxisToggle": "Trục kết quả",
+  "medicalCardQueryTitle": "Thẻ bệnh nhân",
+  "medicalCardQueryEmpty": "Bạn chưa liên kết thẻ bệnh nhân nào",
+  "medicalCardQueryEmptyHint": "Nhấn nút tạo ở góc trên bên phải để tạo thẻ mới, hoặc dùng ô tìm kiếm bên dưới để liên kết thẻ hiện có",
+  "medicalCardAddTitle": "Thêm thẻ bệnh nhân",
+  "medicalCardSearchBind": "Tìm và liên kết thẻ hiện có",
+  "medicalCardSearchBindDesc": "Nhập thông tin của bạn để tìm và liên kết thẻ bệnh nhân hiện có",
+  "medicalCardCreateNew": "Tạo thẻ mới",
+  "medicalCardCreateNewDesc": "Tạo thẻ bệnh nhân hoàn toàn mới",
+  "medicalCreateCard": "Tạo thẻ",
+  "medicalBindCard": "Liên kết",
+  "medicalBindCardTitle": "Liên kết thẻ bệnh nhân",
+  "medicalSendCode": "Gửi mã",
+  "medicalResendCode": "Gửi lại",
+  "medicalCodeResent": "Đã gửi mã xác minh",
+  "medicalResendCountdown": "Gửi lại sau {seconds} giây",
+  "@medicalResendCountdown": {
+   "placeholders": {
+     "seconds": {
+       "type": "int"
+     }
+    }
+  },
+  "medicalAuthCode": "Mã xác thực",
+  "medicalAuthCodeHint": "Nhập mã xác minh được gửi qua SMS",
+  "medicalCity": "Thành phố",
+  "medicalCityHint": "Chọn thành phố",
+  "medicalAddress": "Địa chỉ",
+  "medicalAddressHint": "Nhập địa chỉ cụ thể",
+  "medicalBindSuccess": "Liên kết thành công",
+  "medicalBindFailed": "Không thể liên kết",
+  "medicalCreateSuccess": "Tạo thành công",
+  "medicalCreateFailed": "Không thể tạo",
+  "medicalSetDefault": "Đặt làm mặc định",
+  "medicalSetDefaultSuccess": "Đã đặt làm thẻ mặc định",
+  "medicalSetDefaultFailed": "Không thể đặt làm thẻ mặc định",
+  "medicalCardDetail": "Chi tiết thẻ",
+  "medicalInvoiceTotal": "Tổng cộng",
+  "medicalInvoiceQuantity": "Số lượng {value}",
+  "@medicalInvoiceQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoicePackageCount": "{value} hộp",
+  "@medicalInvoicePackageCount": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "medicalInvoiceTotalQuantity": "Tổng cộng {value}",
+  "@medicalInvoiceTotalQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceSpecification": "Quy cách {value}",
+  "@medicalInvoiceSpecification": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceUnitPrice": "Đơn giá {value}",
+  "@medicalInvoiceUnitPrice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalCardRealName": "Họ và tên",
+  "medicalCardIdNumber": "Số giấy tờ",
+  "medicalCardPhoneNumber": "Số điện thoại",
+  "medicalCardNumber": "Số thẻ",
+  "medicalRegistrationNumber": "Số đăng ký",
+  "medicalRegistrationQrLabel": "Mã QR đăng ký",
+  "medicalOutpatientSection": "Dịch vụ ngoại trú",
+  "medicalInpatientSection": "Dịch vụ nội trú",
+  "medicalCardUnbind": "Hủy liên kết",
+  "medicalCardUnbindConfirm": "Hủy liên kết thẻ này?",
+  "medicalCardUnbindSuccess": "Đã hủy liên kết thẻ",
+  "medicalCardUnbindFailed": "Không thể hủy liên kết thẻ",
+  "medicalCardSwitchPatient": "Chuyển bệnh nhân",
+  "medicalCardSwitchPatientDesc": "Chuyển sang {name} ({card})?",
+  "@medicalCardSwitchPatientDesc": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+     },
+     "card": {
+       "type": "String"
+     }
+    }
+  },
+  "medicalSelectCard": "Chọn thẻ",
+  "medicalCardType": "Loại thẻ",
+  "medicalSearchCardHint": "Tìm thẻ hiện có để liên kết",
+  "medicalConfirmBind": "Xác nhận liên kết",
+  "medicalConfirmCreate": "Xác nhận tạo",
+  "medicalCardBound": "Thẻ này đã được liên kết",
+  "medicalMaskedPhone": "Mã xác minh sẽ được gửi đến {phone}",
+  "@medicalMaskedPhone": {
+   "placeholders": {
+     "phone": {
+       "type": "String"
+     }
+    }
+  },
+  "medicalCardQuerySearchSection": "Tìm thẻ",
+  "medicalCardQuerySearchDescription": "Nhập thông tin của bạn để tìm và liên kết thẻ bệnh nhân hiện có",
   "campusBusRouteViewVertical": "Hiển thị tuyến dọc",
   "campusBusOutsideServiceRange": "Ngoài giờ hoạt động",
   "campusBusNoReachableBus": "Không còn xe nào có thể đến trạm này. Hãy chọn trạm khác hoặc thử lại trong giờ hoạt động.",

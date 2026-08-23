@@ -3824,7 +3824,124 @@
   "medicalReportItems": "Éléments",
   "medicalReportTime": "Date du rapport",
   "medicalLabAxisToggle": "Axe des résultats",
-  "campusBusRouteViewVertical": "Vue verticale de l'itinéraire",
+  "medicalCardQueryTitle": "Cartes patient",
+  "medicalCardQueryEmpty": "Vous n’avez aucune carte patient associée",
+  "medicalCardQueryEmptyHint": "Appuyez sur le bouton de création en haut à droite pour créer une nouvelle carte, ou utilisez la recherche ci-dessous pour associer une carte existante",
+  "medicalCardAddTitle": "Ajouter une carte patient",
+  "medicalCardSearchBind": "Rechercher et associer une carte existante",
+  "medicalCardSearchBindDesc": "Saisissez vos informations pour rechercher et associer une carte patient existante",
+  "medicalCardCreateNew": "Créer une nouvelle carte",
+  "medicalCardCreateNewDesc": "Créer une toute nouvelle carte patient",
+  "medicalCreateCard": "Créer la carte",
+  "medicalBindCard": "Associer",
+  "medicalBindCardTitle": "Associer une carte patient",
+  "medicalSendCode": "Envoyer le code",
+  "medicalResendCode": "Renvoyer",
+  "medicalCodeResent": "Code de vérification envoyé",
+  "medicalResendCountdown": "Renvoyer dans {seconds} s",
+  "medicalAuthCode": "Code d’authentification",
+  "medicalAuthCodeHint": "Saisissez le code de vérification reçu par SMS",
+  "medicalCity": "Ville",
+  "medicalCityHint": "Sélectionnez une ville",
+  "medicalAddress": "Adresse",
+  "medicalAddressHint": "Saisissez l’adresse complète",
+  "medicalBindSuccess": "Association réussie",
+  "medicalBindFailed": "Échec de l’association",
+  "medicalCreateSuccess": "Création réussie",
+  "medicalCreateFailed": "Échec de la création",
+  "medicalSetDefault": "Définir par défaut",
+  "medicalSetDefaultSuccess": "Carte définie par défaut",
+  "medicalSetDefaultFailed": "Échec de la définition de la carte par défaut",
+  "medicalCardDetail": "Détails de la carte",
+  "medicalInvoiceTotal": "Total",
+  "medicalInvoiceQuantity": "Qté {value}",
+  "medicalInvoicePackageCount": "{value} boîtes",
+  "medicalInvoiceTotalQuantity": "Total {value}",
+  "medicalInvoiceSpecification": "Spécification : {value}",
+  "medicalInvoiceUnitPrice": "Prix unitaire : {value}",
+  "medicalCardRealName": "Nom complet",
+  "medicalCardIdNumber": "Numéro d’identification",
+  "medicalCardPhoneNumber": "Numéro de téléphone",
+  "medicalCardNumber": "Carte par défaut",
+  "medicalRegistrationNumber": "N° d’inscription",
+  "medicalRegistrationQrLabel": "Code QR d’inscription",
+  "medicalOutpatientSection": "Services ambulatoires",
+  "medicalInpatientSection": "Services d’hospitalisation",
+  "medicalCardUnbind": "Dissocier",
+  "medicalCardUnbindConfirm": "Dissocier cette carte ?",
+  "medicalCardUnbindSuccess": "Carte dissociée",
+  "medicalCardUnbindFailed": "Échec de la dissociation de la carte",
+  "medicalCardSwitchPatient": "Changer de patient",
+  "medicalCardSwitchPatientDesc": "Passer à {name} ({card}) ?",
+  "medicalSelectCard": "Sélectionner une carte",
+  "medicalCardType": "Type de carte",
+  "medicalSearchCardHint": "Rechercher une carte existante à associer",
+  "medicalConfirmBind": "Confirmer l’association",
+  "medicalConfirmCreate": "Confirmer la création",
+  "medicalCardBound": "Cette carte est déjà associée",
+  "medicalMaskedPhone": "Le code de vérification sera envoyé au {phone}",
+  "medicalCardQuerySearchSection": "Rechercher une carte",
+  "medicalCardQuerySearchDescription": "Saisissez vos informations pour rechercher et associer une carte patient existante",
+  "@medicalResendCountdown": {
+   "placeholders": {
+     "seconds": {
+       "type": "int"
+      }
+    }
+  },
+  "@medicalInvoiceQuantity": {
+   "placeholders": {
+     "value": {
+       "type": "String"
+      }
+    }
+  },
+  "@medicalInvoicePackageCount": {
+   "placeholders": {
+     "value": {
+       "type": "int"
+      }
+    }
+  },
+  "@medicalInvoiceTotalQuantity": {
+   "placeholders": {
+     "value": {
+       "type": "String"
+      }
+    }
+  },
+  "@medicalInvoiceSpecification": {
+   "placeholders": {
+     "value": {
+       "type": "String"
+      }
+    }
+  },
+  "@medicalInvoiceUnitPrice": {
+   "placeholders": {
+     "value": {
+       "type": "String"
+      }
+    }
+  },
+  "@medicalCardSwitchPatientDesc": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      },
+     "card": {
+       "type": "String"
+      }
+    }
+  },
+  "@medicalMaskedPhone": {
+   "placeholders": {
+     "phone": {
+       "type": "String"
+      }
+    }
+  },
+  "campusBusRouteViewVertical": "Vue verticale de l’itinéraire",
   "campusBusOutsideServiceRange": "Hors des heures de service",
   "campusBusNoReachableBus": "Aucun bus ne peut plus rejoindre cet arrêt. Choisissez un autre arrêt ou réessayez pendant les heures de service.",
   "campusBusArrivalUseNearestToggle": "Utiliser l'arrêt le plus proche de cette ligne",

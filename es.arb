@@ -3824,6 +3824,123 @@
   "medicalReportItems": "Ítems",
   "medicalReportTime": "Fecha del informe",
   "medicalLabAxisToggle": "Eje de resultados",
+  "medicalCardQueryTitle": "Tarjetas de paciente",
+  "medicalCardQueryEmpty": "No tienes tarjetas de paciente vinculadas",
+  "medicalCardQueryEmptyHint": "Toca el botón de creación de la esquina superior derecha para crear una tarjeta nueva, o usa la búsqueda de abajo para vincular una tarjeta existente",
+  "medicalCardAddTitle": "Añadir tarjeta de paciente",
+  "medicalCardSearchBind": "Buscar y vincular una tarjeta existente",
+  "medicalCardSearchBindDesc": "Introduce tus datos para buscar y vincular una tarjeta de paciente existente",
+  "medicalCardCreateNew": "Crear una tarjeta nueva",
+  "medicalCardCreateNewDesc": "Crear una tarjeta de paciente completamente nueva",
+  "medicalCreateCard": "Crear tarjeta",
+  "medicalBindCard": "Vincular",
+  "medicalBindCardTitle": "Vincular tarjeta de paciente",
+  "medicalSendCode": "Enviar código",
+  "medicalResendCode": "Reenviar",
+  "medicalCodeResent": "Código de verificación enviado",
+  "medicalResendCountdown": "Reenviar en {seconds}s",
+  "@medicalResendCountdown": {
+   "placeholders": {
+     "seconds": {
+       "type": "int"
+      }
+    }
+  },
+  "medicalAuthCode": "Código de verificación",
+  "medicalAuthCodeHint": "Introduce el código de verificación enviado por SMS",
+  "medicalCity": "Ciudad",
+  "medicalCityHint": "Selecciona una ciudad",
+  "medicalAddress": "Dirección",
+  "medicalAddressHint": "Introduce la dirección completa",
+  "medicalBindSuccess": "Vinculada correctamente",
+  "medicalBindFailed": "No se pudo vincular",
+  "medicalCreateSuccess": "Creada correctamente",
+  "medicalCreateFailed": "No se pudo crear",
+  "medicalSetDefault": "Establecer como predeterminada",
+  "medicalSetDefaultSuccess": "Tarjeta establecida como predeterminada",
+  "medicalSetDefaultFailed": "No se pudo establecer la tarjeta predeterminada",
+  "medicalCardDetail": "Detalles de la tarjeta",
+  "medicalInvoiceTotal": "Total",
+  "medicalInvoiceQuantity": "Cantidad {value}",
+  "@medicalInvoiceQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoicePackageCount": "{value} cajas",
+  "@medicalInvoicePackageCount": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "medicalInvoiceTotalQuantity": "Cantidad total {value}",
+  "@medicalInvoiceTotalQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceSpecification": "Especificación {value}",
+  "@medicalInvoiceSpecification": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceUnitPrice": "Precio unitario {value}",
+  "@medicalInvoiceUnitPrice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalCardRealName": "Nombre completo",
+  "medicalCardIdNumber": "Número de documento",
+  "medicalCardPhoneNumber": "Número de teléfono",
+  "medicalCardNumber": "Número de tarjeta",
+  "medicalRegistrationNumber": "N.º de registro",
+  "medicalRegistrationQrLabel": "Código QR de registro",
+  "medicalOutpatientSection": "Servicios ambulatorios",
+  "medicalInpatientSection": "Servicios de hospitalización",
+  "medicalCardUnbind": "Desvincular",
+  "medicalCardUnbindConfirm": "¿Desvincular esta tarjeta?",
+  "medicalCardUnbindSuccess": "Tarjeta desvinculada correctamente",
+  "medicalCardUnbindFailed": "No se pudo desvincular la tarjeta",
+  "medicalCardSwitchPatient": "Cambiar de paciente",
+  "medicalCardSwitchPatientDesc": "¿Cambiar a {name} ({card})?",
+  "@medicalCardSwitchPatientDesc": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      },
+     "card": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalSelectCard": "Seleccionar tarjeta",
+  "medicalCardType": "Tipo de tarjeta",
+  "medicalSearchCardHint": "Busca una tarjeta existente para vincularla",
+  "medicalConfirmBind": "Confirmar vinculación",
+  "medicalConfirmCreate": "Confirmar creación",
+  "medicalCardBound": "Esta tarjeta ya está vinculada",
+  "medicalMaskedPhone": "El código de verificación se enviará a {phone}",
+  "@medicalMaskedPhone": {
+   "placeholders": {
+     "phone": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalCardQuerySearchSection": "Buscar tarjeta",
+  "medicalCardQuerySearchDescription": "Introduce tus datos para buscar y vincular una tarjeta de paciente existente",
   "campusBusRouteViewVertical": "Vista vertical de la ruta",
   "campusBusOutsideServiceRange": "Fuera del horario de servicio",
   "campusBusNoReachableBus": "Ningún autobús puede llegar a esta parada. Elige otra o inténtalo en horario de servicio.",
