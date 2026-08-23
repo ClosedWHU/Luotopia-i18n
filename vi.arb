@@ -218,34 +218,34 @@
   "editorCoursePeriodEnd": "Tiết kết thúc",
   "editorCoursePeriodN": "Tiết {n}",
   "@editorCoursePeriodN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "Tiết {n}\n{time}",
   "@editorCoursePeriodSingle": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "Tiết {from}–{to}\n{time}",
   "@editorCoursePeriodRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
+   "placeholders": {
+     "from": {
+       "type": "int"
       },
-      "to": {
-        "type": "int"
+     "to": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -253,9 +253,9 @@
   "editorCourseWeekEnd": "Tuần kết thúc",
   "editorCourseWeekN": "Tuần {n}",
   "@editorCourseWeekN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
@@ -453,9 +453,9 @@
   "settingsLicensesTitle": "Giấy phép mã nguồn mở",
   "licenseAuthor": "Tác giả: {author}",
   "@licenseAuthor": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       }
     }
   },
@@ -464,9 +464,9 @@
   "addTimetable": "Thêm thời khóa biểu",
   "addToTimetable": "Thêm vào {name}",
   "@addToTimetable": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -484,9 +484,9 @@
   "exportTimetable": "Xuất thời khóa biểu",
   "homeTimeBlock": "Khối {index}",
   "@homeTimeBlock": {
-    "placeholders": {
-      "index": {
-        "type": "String"
+   "placeholders": {
+     "index": {
+       "type": "String"
       }
     }
   },
@@ -519,41 +519,41 @@
   "notificationScheduleIncomplete": "Lịch chưa hoàn thành",
   "notificationStartsInFifteenMinutes": "Bắt đầu sau 15 phút · {time}",
   "@notificationStartsInFifteenMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "Bắt đầu sau 5 phút · {time}",
   "@notificationStartsInFiveMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "Bắt đầu sau 1 giờ · {time}",
   "@notificationStartsInOneHour": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsSoon": "Sắp bắt đầu · {time}",
   "@notificationStartsSoon": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationTomorrow": "Ngày mai · {time}",
   "@notificationTomorrow": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -566,9 +566,9 @@
   "separate": "Tách",
   "separatedTimetableName": "{name} (đã tách)",
   "@separatedTimetableName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -578,9 +578,9 @@
   "shiguangFileImportDescription": "Nhập tệp JSON thời khóa biểu Shiguang",
   "shiguangImportFailed": "Không thể nhập thời khóa biểu Shiguang: {error}",
   "@shiguangImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -596,9 +596,9 @@
   "starlinkImportDescription": "Nhập thời khóa biểu Starlink từ tệp JSON hoặc mã chia sẻ",
   "starlinkImportFailed": "Không thể nhập thời khóa biểu Starlink: {error}",
   "@starlinkImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -609,27 +609,27 @@
   "starlinkTimetableShareCode": "Mã chia sẻ thời khóa biểu Starlink",
   "timetableDetails": "Học kỳ: {term}\nĐã nhập: {importedAt}\nĐã cập nhật: {updatedAt}\nNguồn: {source}",
   "@timetableDetails": {
-    "placeholders": {
-      "term": {
-        "type": "String"
+   "placeholders": {
+     "term": {
+       "type": "String"
       },
-      "importedAt": {
-        "type": "String"
+     "importedAt": {
+       "type": "String"
       },
-      "updatedAt": {
-        "type": "String"
+     "updatedAt": {
+       "type": "String"
       },
-      "source": {
-        "type": "String"
+     "source": {
+       "type": "String"
       }
     }
   },
   "timetableExported": "Đã xuất thời khóa biểu.",
   "timetableImportFailed": "Không thể nhập thời khóa biểu: {error}",
   "@timetableImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -641,9 +641,9 @@
   "wakeupFileImportDescription": "Nhập CSV hoặc tệp thời khóa biểu Wakeup",
   "wakeupImportFailed": "Không thể nhập thời khóa biểu Wakeup: {error}",
   "@wakeupImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -654,9 +654,9 @@
   "webViewLoadingPage": "Đang tải trang...",
   "webViewPreparationFailed": "Chuẩn bị trang thất bại: {error}",
   "@webViewPreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -664,9 +664,9 @@
   "webViewRetry": "Thử lại",
   "licenseVersion": "Phiên bản: {version}",
   "@licenseVersion": {
-    "placeholders": {
-      "version": {
-        "type": "String"
+   "placeholders": {
+     "version": {
+       "type": "String"
       }
     }
   },
@@ -781,6 +781,14 @@
   "sportsRetry": "Thử lại",
   "sportsSelectDateFirst": "Hãy chọn ngày trước",
   "sportsSelectTimeSlot": "Chọn khung giờ",
+  "sportsReservableSlotsCount": "{count} khung giờ",
+  "@sportsReservableSlotsCount": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "sportsSelectVenue": "Chọn địa điểm",
   "startImport": "Bắt đầu nhập",
   "tapToSelect": "Chạm để chọn",
@@ -848,268 +856,268 @@
   "whuLoginWebViewLoading": "Đang tải…",
   "whuLoginWebViewTitle": "Đăng nhập WHU",
   "@editorDurationHourMinute": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
+   "placeholders": {
+     "classroom": {
+       "type": "String"
       },
-      "section": {
-        "type": "int"
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
+   "placeholders": {
+     "sections": {
+       "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
+   "placeholders": {
+     "expanded": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-    "placeholders": {
-      "floor": {
-        "type": "String"
+   "placeholders": {
+     "floor": {
+       "type": "String"
       },
-      "available": {
-        "type": "int"
+     "available": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-    "placeholders": {
-      "section": {
-        "type": "int"
+   "placeholders": {
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-    "placeholders": {
-      "day": {
-        "type": "String"
+   "placeholders": {
+     "day": {
+       "type": "String"
       },
-      "endDay": {
-        "type": "String"
+     "endDay": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
+   "placeholders": {
+     "month": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "term": {
-        "type": "String"
+     "term": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "month": {
-        "type": "String"
+     "month": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
+   "placeholders": {
+     "weekday": {
+       "type": "String"
       }
     }
   },
   "@hourH": {
-    "placeholders": {
-      "hour": {}
+   "placeholders": {
+     "hour": {}
     }
   },
   "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
+   "placeholders": {
+     "timeStr": {}
     }
   },
   "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@minuteMin": {
-    "placeholders": {
-      "minute": {}
+   "placeholders": {
+     "minute": {}
     }
   },
   "@semS": {
-    "placeholders": {
-      "s": {}
+   "placeholders": {
+     "s": {}
     }
   },
   "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusImported": "Xong: {count} mục, tuần này {currentWeek}.",
   "@courseImportStatusImported": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "currentWeek": {
-        "type": "int"
+     "currentWeek": {
+       "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "Đã nhập {count} mục vào “{tableName}”.",
   "@courseImportSnackSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "tableName": {
-        "type": "String"
+     "tableName": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusFailed": "Nhập thất bại: {error}",
   "@courseImportStatusFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "Năm học {year}-{next}",
   "@courseImportAcademicYearLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "next": {
-        "type": "int"
+     "next": {
+       "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "Học kỳ {semester}",
   "@courseImportSemesterLabel": {
-    "placeholders": {
-      "semester": {
-        "type": "int"
+   "placeholders": {
+     "semester": {
+       "type": "int"
       }
     }
   },
@@ -1120,9 +1128,9 @@
   "editorCourseNatureHint": "Tính chất học phần (bắt buộc/tự chọn)",
   "editorChangeScopeTitle": "Chỉ sửa mục này, hay mọi học phần tên “{title}”?",
   "@editorChangeScopeTitle": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1135,9 +1143,9 @@
   "aiMemo": "Ghi chú",
   "aiDraftReady": "Bản nháp sẵn sàng: {title}",
   "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1158,9 +1166,9 @@
   "aiClearConversationsWarning": "Tất cả hội thoại AI trên máy sẽ bị xóa.",
   "aiConfirmationBatchTitle": "Xác nhận {count} thao tác",
   "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1193,23 +1201,23 @@
   "scorePageBiometricAuthFailed": "Xác thực sinh trắc thất bại",
   "scorePageCourseInfo": "{type} · {credit} tín chỉ · {instructor}",
   "@scorePageCourseInfo": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       },
-      "instructor": {
-        "type": "String"
+     "instructor": {
+       "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "Điểm GPA: {gpa}",
   "@scorePageGpaDisplay": {
-    "placeholders": {
-      "gpa": {
-        "type": "String"
+   "placeholders": {
+     "gpa": {
+       "type": "String"
       }
     }
   },
@@ -1218,9 +1226,9 @@
   "settingsDevModeActivated": "Chế độ nhà phát triển đã bật. Bạn có thể dùng cài đặt nhà phát triển.",
   "settingsDevModeTapCount": "Chạm thêm {count} lần để bật chế độ nhà phát triển",
   "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1229,42 +1237,42 @@
   "hotUpdateTitle": "Quản lý cập nhật nóng",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "Cập nhật: {time}",
   "@hotUpdateUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "Chưa từng cập nhật (sử dụng mặc định nhúng)",
   "hotUpdateLocalVersion": "Cục bộ v{version}",
   "@hotUpdateLocalVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateRemoteVersion": "Từ xa v{version}",
   "@hotUpdateRemoteVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-    "placeholders": {
-      "checksum": {
-        "type": "String"
+   "placeholders": {
+     "checksum": {
+       "type": "String"
       }
     }
   },
@@ -1290,9 +1298,9 @@
   "hotUpdateVersionMissing": "Thiếu cục bộ · Từ xa v{remote}",
   "hotUpdateLastFailure": "Lỗi gần nhất: {reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1321,9 +1329,9 @@
   "settingsNotificationChannelNotCreated": "Chưa tạo",
   "settingsNotificationChannelCurrent": "Hiện tại: {level}",
   "@settingsNotificationChannelCurrent": {
-    "placeholders": {
-      "level": {
-        "type": "String"
+   "placeholders": {
+     "level": {
+       "type": "String"
       }
     }
   },
@@ -1342,9 +1350,9 @@
   "settingsClearCacheSubtitle": "Giải phóng tệp tạm và dữ liệu đệm",
   "settingsCacheCleared": "Đã xóa cache: giải phóng {size}",
   "@settingsCacheCleared": {
-    "placeholders": {
-      "size": {
-        "type": "String"
+   "placeholders": {
+     "size": {
+       "type": "String"
       }
     }
   },
@@ -1354,18 +1362,18 @@
   "settingsDevSaveSuccess": "Đã lưu: cập nhật URL máy chủ",
   "settingsDevScanSuccess": "Tìm thấy máy chủ: {ip}:6262",
   "@settingsDevScanSuccess": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "Không tìm thấy máy chủ API cổng 6262 trên LAN",
   "settingsDevScanError": "Quét thất bại: {error}",
   "@settingsDevScanError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1395,9 +1403,9 @@
   "whuLoginVerifying": "Đang xác minh đăng nhập…",
   "whuLoginVerificationFailed": "Xác minh trạng thái đăng nhập thất bại: {error}",
   "@whuLoginVerificationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1408,9 +1416,9 @@
   "libraryNoVenues": "Không có địa điểm mở",
   "libraryLoadFailed": "Tải thất bại: {error}",
   "@libraryLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1451,33 +1459,33 @@
   "settingsAiConnectionSuccess": "Kiểm tra kết nối AI thành công.",
   "settingsAiConnectionFailed": "Kết nối thất bại: {error}",
   "@settingsAiConnectionFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "Đang tải {name}…",
   "@luojiaEcardLoading": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "Đang chuẩn bị {name}…",
   "@luojiaEcardPreparing": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "pagePreparationFailed": "Chuẩn bị trang thất bại: {error}",
   "@pagePreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1489,9 +1497,9 @@
   "whuCasServiceAuthFailed": "Ủy quyền dịch vụ thất bại. Hãy đăng nhập lại CAS WHU.",
   "whuCasServiceRequestFailed": "Yêu cầu ủy quyền dịch vụ thất bại: {error}",
   "@whuCasServiceRequestFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1499,25 +1507,25 @@
   "whuCasSessionExpired": "Phiên học vụ hết hạn. Vui lòng đăng nhập lại.",
   "whuCasSessionVerifyFailed": "Xác minh phiên học vụ thất bại: {error}",
   "@whuCasSessionVerifyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "Lấy thông tin tài khoản học vụ thất bại (HTTP {code}).",
   "@whuCasFetchFailed": {
-    "placeholders": {
-      "code": {
-        "type": "int"
+   "placeholders": {
+     "code": {
+       "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "Đăng nhập học vụ thất bại: {reason}",
   "@whuCasLoginFailedReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -1538,28 +1546,28 @@
   "gradesReviewsNoResults": "Không tìm thấy học phần",
   "gradesReviewsSearchError": "Tìm kiếm thất bại: {error}",
   "@gradesReviewsSearchError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       },
-      "department": {
-        "type": "String"
+     "department": {
+       "type": "String"
       }
     }
   },
   "courseDetailTitle": "Chi tiết học phần: {uid}",
   "@courseDetailTitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       }
     }
   },
@@ -1569,33 +1577,33 @@
   "courseAuditPlaceholder": "Tính năng nghe lén lớp đang phát triển…",
   "gradesReviewsSearchFailMessage": "Tìm kiếm thất bại: {message}",
   "@gradesReviewsSearchFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "Không tải được phân bố điểm: {message}",
   "@gradesReviewsGradeStatsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "Không tải được đánh giá: {message}",
   "@gradesReviewsReviewsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "TKB {index}",
   "@courseTimetableDefaultName": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -1605,9 +1613,9 @@
   "sportsReservationDayAfterTomorrow": "Ngày kia",
   "sportsVenueCourtFormat": "Sân {areaNo}",
   "@sportsVenueCourtFormat": {
-    "placeholders": {
-      "areaNo": {
-        "type": "String"
+   "placeholders": {
+     "areaNo": {
+       "type": "String"
       }
     }
   },
@@ -1629,28 +1637,28 @@
   "sportsVenueFree": "Miễn phí",
   "sportsVenuePriceFormat": "{price} CNY",
   "@sportsVenuePriceFormat": {
-    "placeholders": {
-      "price": {
-        "type": "String"
+   "placeholders": {
+     "price": {
+       "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
   "@sportsVenuePriceRangeFormat": {
-    "placeholders": {
-      "lowPrice": {
-        "type": "String"
+   "placeholders": {
+     "lowPrice": {
+       "type": "String"
       },
-      "highPrice": {
-        "type": "String"
+     "highPrice": {
+       "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value} CNY",
   "@sportsOrderPriceWithUnitFormat": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
@@ -1680,58 +1688,58 @@
   "sportsFetchBulletins": "Lấy thông báo địa điểm",
   "sportsNetworkError": "{action} thất bại: lỗi mạng.",
   "@sportsNetworkError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiHttpError": "{action} thất bại (HTTP {statusCode}).",
   "@sportsApiHttpError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "statusCode": {
-        "type": "int"
+     "statusCode": {
+       "type": "int"
       }
     }
   },
   "sportsApiFormatError": "{action} thất bại: định dạng phản hồi lỗi.",
   "@sportsApiFormatError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiError": "{action} thất bại.",
   "@sportsApiError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "{action} thất bại: {message}",
   "@sportsApiErrorWithMessage": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "message": {
-        "type": "String"
+     "message": {
+       "type": "String"
       }
     }
   },
   "sportsApiJsonError": "{action} thất bại: phản hồi không phải JSON hợp lệ. {diagnostic}",
   "@sportsApiJsonError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "diagnostic": {
-        "type": "String"
+     "diagnostic": {
+       "type": "String"
       }
     }
   },
@@ -1742,9 +1750,9 @@
   "sportsApiDiagnosticNonJson": "Văn bản không phải JSON",
   "sportsApiDiagnosticResponseType": "Loại phản hồi: {kind}.",
   "@sportsApiDiagnosticResponseType": {
-    "placeholders": {
-      "kind": {
-        "type": "String"
+   "placeholders": {
+     "kind": {
+       "type": "String"
       }
     }
   },
@@ -1760,23 +1768,23 @@
   "scoreImportImportingCredential": "Đang tải xuống chứng chỉ đáng tin cậy và phân tích điểm trên máy…",
   "scoreImportSuccessWithCount": "{success}: {count} điểm đã cache trên máy.",
   "@scoreImportSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}: {error}",
   "@scoreImportFailedWithError": {
-    "placeholders": {
-      "failed": {
-        "type": "String"
+   "placeholders": {
+     "failed": {
+       "type": "String"
       },
-      "error": {
-        "type": "String"
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1784,43 +1792,43 @@
   "scoreImportNoStudentId": "Không tìm thấy mã sinh viên đăng nhập toàn cục",
   "scoreImportSpoilerSuccessWithCount": "{success}: lấy được {count} bản ghi điểm spoiler.",
   "@scoreImportSpoilerSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportLastImport": "Lần nhập cuối",
   "scoreImportTime": "Thời gian: {time}",
   "@scoreImportTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "scoreImportCount": "Số điểm: {count}",
   "@scoreImportCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportExample": "Ví dụ: {name} · {score} · {credit}",
   "@scoreImportExample": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       },
-      "score": {
-        "type": "String"
+     "score": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       }
     }
   },
@@ -1830,20 +1838,20 @@
   "seatReservationDraftTitle": "Đặt ghế thư viện",
   "seatReservationDraftDetails": "Nguồn: hệ thống đặt ghế thư viện WHU\nID ghế: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-    "placeholders": {
-      "seatId": {
-        "type": "String"
+   "placeholders": {
+     "seatId": {
+       "type": "String"
       },
-      "marker": {
-        "type": "String"
+     "marker": {
+       "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "ID đồng bộ đặt ghế: {sourceId}",
   "@seatReservationSourceMarker": {
-    "placeholders": {
-      "sourceId": {
-        "type": "String"
+   "placeholders": {
+     "sourceId": {
+       "type": "String"
       }
     }
   },
@@ -1861,9 +1869,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} tin nhắn",
   "@aiMessageCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1877,9 +1885,9 @@
   "aiHeaderRetryLater": "Dịch vụ AI tạm thời không khả dụng. Vui lòng thử lại sau.",
   "aiHeaderDraftCreated": "Đã tạo qua trang nháp: {title}",
   "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1903,12 +1911,12 @@
   "whuAccountFallbackName": "Tài khoản WHU",
   "homeWidgetDateLabel": "{month}/{day}",
   "@homeWidgetDateLabel": {
-    "placeholders": {
-      "month": {
-        "type": "int"
+   "placeholders": {
+     "month": {
+       "type": "int"
       },
-      "day": {
-        "type": "int"
+     "day": {
+       "type": "int"
       }
     }
   },
@@ -1921,17 +1929,17 @@
   "homeWidgetAllDay": "Cả ngày",
   "homeWidgetUpdatedAt": "Cập nhật {time}",
   "@homeWidgetUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "Tuần {week}",
   "@homeWidgetWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "int"
+   "placeholders": {
+     "week": {
+       "type": "int"
       }
     }
   },
@@ -1944,17 +1952,17 @@
   "weatherRainReminderTitle": "Nhắc mưa",
   "weatherBannerRainInMinutes": "Mưa khoảng {minutes} phút nữa — mang ô.",
   "@weatherBannerRainInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "Mưa khoảng {hours} giờ nữa — mang ô khi ra ngoài.",
   "@weatherBannerRainInHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
@@ -1962,31 +1970,31 @@
   "weatherBannerRainTomorrow": "Ngày mai có mưa — chuẩn bị ô nếu ra ngoài.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-    "placeholders": {
-      "condition": {
-        "type": "String"
+   "placeholders": {
+     "condition": {
+       "type": "String"
       },
-      "minTemp": {
-        "type": "String"
+     "minTemp": {
+       "type": "String"
       },
-      "maxTemp": {
-        "type": "String"
+     "maxTemp": {
+       "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "Đang tự xác minh (lần {attempt})…",
   "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
+   "placeholders": {
+     "attempt": {
+       "type": "int"
       }
     }
   },
@@ -2034,17 +2042,17 @@
   "campusBusTitle": "Xe buýt khuôn viên",
   "campusBusNearestStop": "Gần nhất: {stopName}",
   "@campusBusNearestStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
   "campusBusTargetStop": "Mục tiêu: {stopName}",
   "@campusBusTargetStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -2094,9 +2102,9 @@
   "settingsWeatherAqiStandard": "Chuẩn AQI",
   "libraryAuthFailed": "Ủy quyền thất bại: {error}",
   "@libraryAuthFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2107,18 +2115,18 @@
   "libraryCancelSuccess": "Đã hủy đặt chỗ",
   "libraryCancelFailed": "Hủy thất bại: {error}",
   "@libraryCancelFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "Đã check-out",
   "libraryCheckoutFailed": "Check-out thất bại: {error}",
   "@libraryCheckoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2127,40 +2135,40 @@
   "libraryNoRoomData": "Không có dữ liệu phòng đọc",
   "libraryFloor": "Tầng {floor}",
   "@libraryFloor": {
-    "placeholders": {
-      "floor": {
-        "type": "int"
+   "placeholders": {
+     "floor": {
+       "type": "int"
       }
     }
   },
   "libraryAvailable": "Trống {free}/{total}",
   "@libraryAvailable": {
-    "placeholders": {
-      "free": {
-        "type": "int"
+   "placeholders": {
+     "free": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-    "placeholders": {
-      "building": {
-        "type": "String"
+   "placeholders": {
+     "building": {
+       "type": "String"
       },
-      "room": {
-        "type": "String"
+     "room": {
+       "type": "String"
       }
     }
   },
   "libraryNoSeatData": "Không có dữ liệu ghế",
   "librarySeatLayoutFailed": "Tải sơ đồ ghế thất bại: {error}",
   "@librarySeatLayoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2174,17 +2182,17 @@
   "libraryCaptchaAutoVerifying": "Đang xác minh...",
   "libraryCaptchaRetrying": "Đang thử lại xác minh ({count})...",
   "@libraryCaptchaRetrying": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "libraryBookFailed": "Đặt chỗ thất bại: {error}",
   "@libraryBookFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2201,9 +2209,9 @@
   "libraryTomorrow": "Ngày mai",
   "emptyClassroomSelfStudyTitle": "Tự học {location}",
   "@emptyClassroomSelfStudyTitle": {
-    "placeholders": {
-      "location": {
-        "type": "String"
+   "placeholders": {
+     "location": {
+       "type": "String"
       }
     }
   },
@@ -2213,12 +2221,12 @@
   "addToAgendaConfirm": "Thêm",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "venue": {
-        "type": "String"
+     "venue": {
+       "type": "String"
       }
     }
   },
@@ -2248,9 +2256,9 @@
   "settingsAiFetchModels": "Lấy danh sách mô hình",
   "settingsAiFetchedCount": "Đã lấy {count} mô hình",
   "@settingsAiFetchedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2273,9 +2281,9 @@
   "ecardPaycodeRefreshNow": "Làm mới",
   "ecardPaycodeRefreshInSeconds": "Làm mới sau {seconds}s",
   "@ecardPaycodeRefreshInSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -2287,9 +2295,9 @@
   "waterControlCancelTitle": "Hủy kích hoạt mã này?",
   "waterControlCancelMessage": "Mã đang hoạt động tại {dormitory} sẽ mất hiệu lực ngay lập tức.",
   "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
+   "placeholders": {
+     "dormitory": {
+       "type": "String"
       }
     }
   },
@@ -2302,9 +2310,9 @@
   "waterControlAccountFallback": "Tài khoản thẻ trường",
   "waterControlUpdatedAt": "Cập nhật lúc {time}",
   "@waterControlUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2314,12 +2322,12 @@
   "waterControlExpiryUnknown": "Không có thông tin về thời điểm hết hạn của mã hiện tại",
   "waterControlExpiresIn": "Còn khoảng {hours} giờ {minutes} phút",
   "@waterControlExpiresIn": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -2341,9 +2349,9 @@
   "waterControlSearchDormitory": "Tìm theo tên ký túc xá hoặc ClassNo",
   "waterControlDormitoryCount": "{count} địa điểm",
   "@waterControlDormitoryCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2368,9 +2376,9 @@
   "studyStatusFetchFailed": "Lấy dữ liệu thất bại",
   "studyStatusStatsTime": "Thống kê tính đến {time}",
   "@studyStatusStatsTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2384,83 +2392,83 @@
   "studyStatusOutOfPlan": "Ngoài kế hoạch",
   "studyStatusTotalCourses": "{count} môn học",
   "@studyStatusTotalCourses": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "Đạt {count}",
   "@studyStatusPassedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "Không đạt {count}",
   "@studyStatusFailedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "Đang học {count}",
   "@studyStatusStudyingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "Yêu cầu {credits} tín chỉ",
   "@studyStatusRequiredCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "Đã tích lũy {credits} tín chỉ",
   "@studyStatusEarnedCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "Không có dữ liệu môn học",
   "studyStatusCredits": "{credit} tín chỉ",
   "@studyStatusCredits": {
-    "placeholders": {
-      "credit": {
-        "type": "String"
+   "placeholders": {
+     "credit": {
+       "type": "String"
       }
     }
   },
   "studyStatusRetake": "Học lại",
   "studyStatusScorePoints": "{score} điểm",
   "@studyStatusScorePoints": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "Gốc: {score} điểm",
   "@studyStatusOriginalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "Điểm GPA {point}",
   "@studyStatusGradePoint": {
-    "placeholders": {
-      "point": {
-        "type": "Object"
+   "placeholders": {
+     "point": {
+       "type": "Object"
       }
     }
   },
@@ -2509,9 +2517,9 @@
   "onboardingPermissionSkipTitle": "Bỏ qua yêu cầu quyền?",
   "onboardingPermissionSkipMessage": "Thiếu {permissions} thì một số tính năng sẽ không dùng được. Bạn vẫn có thể cấp sau.",
   "@onboardingPermissionSkipMessage": {
-    "placeholders": {
-      "permissions": {
-        "type": "String"
+   "placeholders": {
+     "permissions": {
+       "type": "String"
       }
     }
   },
@@ -2532,9 +2540,9 @@
   "settingsDevRestartOnboardingAction": "Bắt đầu lại",
   "onboardingPermissionRequestFailed": "Chưa được cấp quyền {permission}",
   "@onboardingPermissionRequestFailed": {
-    "placeholders": {
-      "permission": {
-        "type": "String"
+   "placeholders": {
+     "permission": {
+       "type": "String"
       }
     }
   },
@@ -2626,17 +2634,17 @@
   "scoreTranscriptNoTemplates": "Khong co mau bang diem nao cho tai khoan nay.",
   "scoreTranscriptLoadFailed": "Khong the tai loai bang diem: {error}",
   "@scoreTranscriptLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "Khong the lay chung chi dien tu da xac minh: {error}",
   "@scoreTranscriptFetchFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2665,9 +2673,9 @@
   "authMfaTitle": "Xác thực hai yếu tố",
   "authMfaEmailSent": "Mã đã được gửi đến {email}",
   "@authMfaEmailSent": {
-    "placeholders": {
-      "email": {
-        "type": "String"
+   "placeholders": {
+     "email": {
+       "type": "String"
       }
     }
   },
@@ -2684,9 +2692,9 @@
   "commonRetry": "Thử lại",
   "commonLoadFailed": "Không thể tải: {error}",
   "@commonLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2740,9 +2748,9 @@
   "authApiCredentialSaved": "Tôi đã lưu lại",
   "authApiCredentialCreateFailed": "Không thể tạo thông tin xác thực: {error}",
   "@authApiCredentialCreateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2750,12 +2758,12 @@
   "authApiCredentialUnnamed": "Không tên",
   "authApiCredentialStatus": "Trạng thái: {status} · Đã tạo {date}",
   "@authApiCredentialStatus": {
-    "placeholders": {
-      "status": {
-        "type": "String"
+   "placeholders": {
+     "status": {
+       "type": "String"
       },
-      "date": {
-        "type": "String"
+     "date": {
+       "type": "String"
       }
     }
   },
@@ -2764,9 +2772,9 @@
   "authApiCredentialRevoke": "Thu hồi",
   "authApiCredentialRevokeFailed": "Không thể thu hồi thông tin xác thực: {error}",
   "@authApiCredentialRevokeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2783,15 +2791,15 @@
   "authSessionsUnknown": "Không xác định",
   "authSessionsDetails": "IP: {ip}\nHoạt động gần nhất: {lastActive}\nĐăng nhập: {signedIn}",
   "@authSessionsDetails": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       },
-      "lastActive": {
-        "type": "String"
+     "lastActive": {
+       "type": "String"
       },
-      "signedIn": {
-        "type": "String"
+     "signedIn": {
+       "type": "String"
       }
     }
   },
@@ -2799,9 +2807,9 @@
   "authSessionsSignOutSucceeded": "Đã đăng xuất thiết bị",
   "authSessionsSignOutFailed": "Không thể đăng xuất thiết bị: {error}",
   "@authSessionsSignOutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2809,42 +2817,42 @@
   "authPasskeyDeviceName": "Tên thiết bị",
   "authPasskeyRegisterFailed": "Không thể đăng ký Passkey: {error}",
   "@authPasskeyRegisterFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasskeysDescription": "Đã đăng ký {count}. Passkey sử dụng xác thực sinh trắc học của hệ thống trên thiết bị của bạn.",
   "@authPasskeysDescription": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "Đăng ký khóa sinh trắc học trên thiết bị được hỗ trợ",
   "authPasskeyCreatedAt": "Đã tạo {date}",
   "@authPasskeyCreatedAt": {
-    "placeholders": {
-      "date": {
-        "type": "String"
+   "placeholders": {
+     "date": {
+       "type": "String"
       }
     }
   },
   "authPasskeyDeleteFailed": "Không thể xóa Passkey: {error}",
   "@authPasskeyDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authOperationFailed": "Thao tác thất bại: {error}",
   "@authOperationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2853,17 +2861,17 @@
   "authWhuBindingSucceeded": "Đã liên kết tài khoản",
   "authWhuBindingFailed": "Không thể liên kết tài khoản: {error}",
   "@authWhuBindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "Liên kết tài khoản Luotopia hiện tại ({studentId})",
   "@authWhuBindingCurrent": {
-    "placeholders": {
-      "studentId": {
-        "type": "String"
+   "placeholders": {
+     "studentId": {
+       "type": "String"
       }
     }
   },
@@ -2872,9 +2880,9 @@
   "authWhuUnbindingSucceeded": "Đã hủy liên kết tài khoản",
   "authWhuUnbindingFailed": "Không thể hủy liên kết tài khoản: {error}",
   "@authWhuUnbindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2886,9 +2894,9 @@
   "authDeleteAccountConfirm": "Xóa tài khoản",
   "authDeleteAccountFailed": "Không thể xóa tài khoản: {error}",
   "@authDeleteAccountFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2907,9 +2915,9 @@
   "authBio": "Giới thiệu",
   "authProfileUpdateFailed": "Không thể cập nhật hồ sơ: {error}",
   "@authProfileUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2918,9 +2926,9 @@
   "authPasswordChanged": "Đã đổi mật khẩu. Vui lòng đăng nhập lại.",
   "authPasswordChangeFailed": "Không thể đổi mật khẩu: {error}",
   "@authPasswordChangeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2929,9 +2937,9 @@
   "authRegistrationBindWhuAccount": "Liên kết tài khoản WHU",
   "authPasswordMinLength": "Mật khẩu phải có ít nhất {count} ký tự",
   "@authPasswordMinLength": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2953,16 +2961,16 @@
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "@courseGradeStatsSamples": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2970,9 +2978,9 @@
   "courseGradeStatsDistribution": "Phân bố điểm",
   "courseGradeStatsTotalScore": "Tổng điểm (0 - 100)",
   "@courseGradeStatsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2981,9 +2989,9 @@
   "courseReviewsWrite": "Viết đánh giá ẩn danh",
   "courseReviewsAnonymousStudent": "Sinh viên ẩn danh · {semester}",
   "@courseReviewsAnonymousStudent": {
-    "placeholders": {
-      "semester": {
-        "type": "String"
+   "placeholders": {
+     "semester": {
+       "type": "String"
       }
     }
   },
@@ -2992,9 +3000,9 @@
   "courseReviewsRating": "Xếp hạng",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-    "placeholders": {
-      "rating": {
-        "type": "String"
+   "placeholders": {
+     "rating": {
+       "type": "String"
       }
     }
   },
@@ -3002,25 +3010,25 @@
   "courseReviewsSubmitted": "Đã gửi đánh giá và sẽ được hiển thị sau khi phê duyệt.",
   "courseReviewsSubmitFailed": "Không thể gửi đánh giá: {error}",
   "@courseReviewsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "Đã đồng bộ {count} học phần đủ điều kiện.",
   "@courseReviewsSyncSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "Không thể đồng bộ: {error}",
   "@courseReviewsSyncFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3030,17 +3038,17 @@
   "forumSelectedBoardUnavailable": "Vui lòng chọn một diễn đàn khả dụng.",
   "forumBoardShelter": "Khu trú ẩn {name}",
   "@forumBoardShelter": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "forumBoardsLoadFailed": "Không thể tải diễn đàn: {error}",
   "@forumBoardsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3051,9 +3059,9 @@
   "forumSupportedAttachmentFormats": "Định dạng tệp đính kèm được hỗ trợ",
   "forumAttachmentUploadFailed": "Không thể tải lên tệp đính kèm: {error}",
   "@forumPostsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3062,9 +3070,9 @@
   "forumPublish": "Đăng",
   "forumPublishFailed": "Không thể đăng: {error}",
   "@forumPublishFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3072,15 +3080,15 @@
   "forumAnonymous": "Ẩn danh",
   "forumPostMetadata": "{author} · {comments} phản hồi · {upvotes} lượt ủng hộ",
   "@forumPostMetadata": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       },
-      "comments": {
-        "type": "int"
+     "comments": {
+       "type": "int"
       },
-      "upvotes": {
-        "type": "int"
+     "upvotes": {
+       "type": "int"
       }
     }
   },
@@ -3090,9 +3098,9 @@
   "forumReply": "Phản hồi",
   "forumRepliesLoadFailed": "Không thể tải phản hồi: {error}",
   "@forumRepliesLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3101,18 +3109,18 @@
   "forumSend": "Gửi",
   "forumReplyFailed": "Không thể phản hồi: {error}",
   "@forumReplyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasswordResetEmail": "Email",
   "authPasswordResetSendFailed": "Không thể gửi: {error}",
   "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3123,9 +3131,9 @@
   "courseReviewsStatusRejected": "Bị từ chối",
   "courseReviewsRejectionReason": "Ghi chú duyệt: {reason}",
   "@courseReviewsRejectionReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -3135,18 +3143,18 @@
   "courseReviewsDeleted": "Đã xóa đánh giá.",
   "courseReviewsDeleteFailed": "Không thể xóa đánh giá: {error}",
   "@courseReviewsDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "Đã cập nhật đánh giá và gửi lại để duyệt.",
   "courseReviewsUpdateFailed": "Không thể cập nhật đánh giá: {error}",
   "@courseReviewsUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3164,9 +3172,9 @@
   "forumShelterPrivacyDescription": "Bí danh của bạn chỉ được giữ nhất quán trong chủ đề này. Ảnh đại diện và hồ sơ sẽ không hiển thị, đồng thời bài viết này sẽ hết hạn sau 24 giờ.",
   "forumShelterExpiresIn": "Hết hạn sau {time}",
   "@forumShelterExpiresIn": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3180,107 +3188,107 @@
   "forumReportSubmitted": "Đã gửi báo cáo.",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaAuthorMeta": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelOnly": "Lv{level}",
   "@forumKarmaLevelOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       }
     }
   },
   "@forumKarmaAuthorMetaWithTitle": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaBudgetLine": {
-    "placeholders": {
-      "up": {
-        "type": "int"
+   "placeholders": {
+     "up": {
+       "type": "int"
       },
-      "down": {
-        "type": "int"
+     "down": {
+       "type": "int"
       }
     }
   },
   "@forumCheckinFixed": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       }
     }
   },
   "@forumCheckinSuccess": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       },
-      "streak": {
-        "type": "int"
+     "streak": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaNextLevel": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaStreakLine": {
-    "placeholders": {
-      "streak": {
-        "type": "int"
+   "placeholders": {
+     "streak": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaAdminSuccess": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumReportFailed": "Không thể gửi báo cáo: {error}",
   "@forumReportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3332,18 +3340,18 @@
   "campusLayoutDragHint": "Kéo ứng dụng để sắp xếp lại hoặc tạo thư mục",
   "campusLayoutColumns": "{count} mỗi hàng",
   "@campusLayoutColumns": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "Ghi đè các môn học đã chỉnh sửa?",
   "courseImportOverwriteModifiedMessage": "{count} môn học trong học kỳ này đã được chỉnh sửa thủ công. Tiếp tục nhập sẽ ghi đè các thay đổi đó.",
   "@courseImportOverwriteModifiedMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3352,9 +3360,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "Xem xét từng mục",
   "courseImportModifiedRecordMessage": "Lần học đã chỉnh sửa: {time}\nChọn cách xử lý bản ghi này.",
   "@courseImportModifiedRecordMessage": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3372,9 +3380,9 @@
   "detailStatusInactive": "Không theo dõi hoàn thành",
   "detailConflictWithItems": "Trùng thời gian với {items}. Bạn vẫn có thể lưu.",
   "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3384,9 +3392,9 @@
   "editorCompletionModeNone": "Chỉ hiển thị",
   "editorConflictWithItems": "Trùng thời gian với {items}. Bạn vẫn có thể lưu.",
   "@editorConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3394,9 +3402,9 @@
   "commonOk": "OK",
   "whuAccountEducationalYearsValue": "{years} năm",
   "@whuAccountEducationalYearsValue": {
-    "placeholders": {
-      "years": {
-        "type": "int"
+   "placeholders": {
+     "years": {
+       "type": "int"
       }
     }
   },
@@ -3475,9 +3483,9 @@
   "authRegisteredDevicesEmpty": "Không có thiết bị đã đăng ký.",
   "authRegisteredDeviceLastSeen": "Đăng ký gần nhất: {time}",
   "@authRegisteredDeviceLastSeen": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3542,40 +3550,40 @@
   "settingsCourseReminderUseDefault": "Dùng mặc định nhóm ({minutes} phút)",
   "settingsCourseReminderCustom": "Tùy chỉnh: {minutes} phút",
   "@listDeleteSelectedConfirmMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -3587,9 +3595,9 @@
   "campusBusArrivalStop": "Trạm",
   "campusBusArrivalUseNearest": "Dùng trạm gần nhất: {stopName}",
   "@campusBusArrivalUseNearest": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -3597,9 +3605,9 @@
   "campusBusArrivalReminder": "Nhắc nhở lượt đến",
   "campusBusArrivalEnabledTarget": "Đang nhắc: {targetText}",
   "@campusBusArrivalEnabledTarget": {
-    "placeholders": {
-      "targetText": {
-        "type": "String"
+   "placeholders": {
+     "targetText": {
+       "type": "String"
       }
     }
   },
@@ -3623,9 +3631,9 @@
   "medicalIdOther": "Khác",
   "medicalGreeting": "Xin chào, {name}",
   "@medicalGreeting": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3795,9 +3803,9 @@
   "adminStatusNoWorkers": "No workers online",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -3884,9 +3892,9 @@
   "adminForumConfigLogEmpty": "Chưa có thay đổi cấu hình nào được ghi nhận.",
   "adminForumConfigLogActor": "Người thao tác",
   "@adminUsersSetRole": {
-    "placeholders": {
-      "role": {
-        "type": "String"
+   "placeholders": {
+     "role": {
+       "type": "String"
       }
     }
   },
@@ -3936,12 +3944,12 @@
   "aiAutomationFullyAutomaticDescription": "Mọi thao tác được tự động xác nhận và lưu bản ghi đầy đủ.",
   "aiConfirmationAutoApproved": "Đã tự động xác nhận {count} thao tác ({mode})",
   "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "mode": {
-        "type": "String"
+     "mode": {
+       "type": "String"
       }
     }
   },
@@ -4105,9 +4113,9 @@
   "courseMatchingNoConflicts": "Không có trùng lịch",
   "courseMatchingConflictsCount": "{count} chỗ trùng lịch",
   "@courseMatchingConflictsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4127,9 +4135,9 @@
   "schoolNetCheckpointTooltip": "Ghi điểm kiểm tra mã nước",
   "schoolNetCheckpointDevicesLoaded": "Đã lấy {count} thiết bị đang online",
   "@schoolNetCheckpointDevicesLoaded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4150,9 +4158,9 @@
   "aiModelRequestCancelled": "Đã hủy yêu cầu AI",
   "aiModelHttpError": "Lỗi AI HTTP ({statusCode})",
   "@aiModelHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4171,33 +4179,33 @@
   "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "Tuần {range}",
   "@courseWeekRangeAll": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "Tuần {range} (Lẻ)",
   "@courseWeekRangeOdd": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "Tuần {range} (Chẵn)",
   "@courseWeekRangeEven": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "sportsAreaLabel": "Sân {no}",
   "@sportsAreaLabel": {
-    "placeholders": {
-      "no": {
-        "type": "Object"
+   "placeholders": {
+     "no": {
+       "type": "Object"
       }
     }
   },
@@ -4217,9 +4225,9 @@
   "whuSmartCampusAuthFailedCasRequired": "Xác thực Luojia Thông minh thất bại. Vui lòng đăng nhập lại qua WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Xác thực Luojia Thông minh thất bại (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4493,5 +4501,24 @@
   "waterElectricSnifferPaymentCompleted": "Thanh toán hoàn tất",
   "waterElectricSnifferPostPaymentVerified": "Xác minh sau thanh toán",
   "waterElectricNotificationTitle": "Cảnh báo số dư điện nước",
-  "waterElectricNotificationBody": "{room} · {meter}: {balance}{unit}, dưới ngưỡng {threshold}."
+  "waterElectricNotificationBody": "{room} · {meter}: {balance}{unit}, dưới ngưỡng {threshold}.",
+  "courseImportUnnamedCourse": "Môn học không tên",
+  "wakeupWeekSuffixOdd": "lẻ",
+  "wakeupWeekSuffixEven": "chẵn",
+  "notificationOpenAction": "Mở thông báo",
+  "aiAgentVerifyingResult": "Đang xác minh kết quả…",
+  "aiAgentResultUnverifiable": "Cuối cùng không thể xác minh, khuyến nghị xác minh thủ công",
+  "aiAgentFailureNotConfigured": "Vui lòng hoàn tất cấu hình AI trong Cài đặt trước.",
+  "aiAgentFailureFormatUnsupported": "Cấu hình dịch vụ AI hiện tại không hỗ trợ Agent.",
+  "aiAgentFailureAbnormalResponse": "Dịch vụ AI trả về phản hồi bất thường. Không có thao tác chưa xác nhận nào được thực thi. Vui lòng thử lại.",
+  "aiAgentFailureRetry": "Không thể hoàn tất yêu cầu này. Vui lòng thử lại sau.",
+  "whuEmailParserLabel": "Trình phân tích phản hồi email WHU",
+  "whuMessagesMarkReadFailed": "Đánh dấu đã đọc thất bại",
+  "whuMessagesRequestFailed": "Yêu cầu thất bại",
+  "whuScoreExamTypeNormal": "Kỳ thi bình thường",
+  "whuScoreMidtermWithdraw": "Rút môn học giữa kỳ",
+  "whuLibraryResultUnknown": "Kết quả thao tác thư viện không xác định. Vui lòng làm mới trạng thái trước khi quyết định có thử lại hay không.",
+  "sportsAuthFailedCasRequired": "Xác thực hệ thống thể thao thất bại. Vui lòng đăng nhập lại qua WHU CAS.",
+  "waterControlAccountExchangeFailed": "Trao đổi tài khoản nước thất bại.",
+  "courseTimetableLocalFileDefaultName": "Thời khóa biểu cục bộ"
 }

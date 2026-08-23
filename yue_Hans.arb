@@ -218,34 +218,34 @@
   "editorCoursePeriodEnd": "结束节次",
   "editorCoursePeriodN": "第 {n} 节",
   "@editorCoursePeriodN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "第 {n} 节\n{time}",
   "@editorCoursePeriodSingle": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "第 {from}–{to} 节\n{time}",
   "@editorCoursePeriodRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
+   "placeholders": {
+     "from": {
+       "type": "int"
       },
-      "to": {
-        "type": "int"
+     "to": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -253,9 +253,9 @@
   "editorCourseWeekEnd": "结束周",
   "editorCourseWeekN": "第 {n} 周",
   "@editorCourseWeekN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
@@ -453,17 +453,17 @@
   "settingsLicensesTitle": "开源许可证",
   "licenseAuthor": "作者: {author}",
   "@licenseAuthor": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       }
     }
   },
   "licenseVersion": "版本: {version}",
   "@licenseVersion": {
-    "placeholders": {
-      "version": {
-        "type": "String"
+   "placeholders": {
+     "version": {
+       "type": "String"
       }
     }
   },
@@ -578,6 +578,14 @@
   "sportsRetry": "再试",
   "sportsSelectDateFirst": "请先拣日期",
   "sportsSelectTimeSlot": "拣时段",
+  "sportsReservableSlotsCount": "可拣时段 {count}个",
+  "@sportsReservableSlotsCount": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "sportsSelectVenue": "拣场馆",
   "startImport": "开始汇入",
   "tapToSelect": "撳拣",
@@ -645,268 +653,268 @@
   "whuLoginWebViewLoading": "加载紧…",
   "whuLoginWebViewTitle": "WHU 登入",
   "@editorDurationHourMinute": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
+   "placeholders": {
+     "classroom": {
+       "type": "String"
       },
-      "section": {
-        "type": "int"
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
+   "placeholders": {
+     "sections": {
+       "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
+   "placeholders": {
+     "expanded": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-    "placeholders": {
-      "floor": {
-        "type": "String"
+   "placeholders": {
+     "floor": {
+       "type": "String"
       },
-      "available": {
-        "type": "int"
+     "available": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-    "placeholders": {
-      "section": {
-        "type": "int"
+   "placeholders": {
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-    "placeholders": {
-      "day": {
-        "type": "String"
+   "placeholders": {
+     "day": {
+       "type": "String"
       },
-      "endDay": {
-        "type": "String"
+     "endDay": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
+   "placeholders": {
+     "month": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "term": {
-        "type": "String"
+     "term": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "month": {
-        "type": "String"
+     "month": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
+   "placeholders": {
+     "weekday": {
+       "type": "String"
       }
     }
   },
   "@hourH": {
-    "placeholders": {
-      "hour": {}
+   "placeholders": {
+     "hour": {}
     }
   },
   "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
+   "placeholders": {
+     "timeStr": {}
     }
   },
   "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@minuteMin": {
-    "placeholders": {
-      "minute": {}
+   "placeholders": {
+     "minute": {}
     }
   },
   "@semS": {
-    "placeholders": {
-      "s": {}
+   "placeholders": {
+     "s": {}
     }
   },
   "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusImported": "汇入完成：新增 {count} 条，当前周 {currentWeek} 条。",
   "@courseImportStatusImported": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "currentWeek": {
-        "type": "int"
+     "currentWeek": {
+       "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "汇入完成：新增 {count} 条科目事项，科目表「{tableName}」。",
   "@courseImportSnackSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "tableName": {
-        "type": "String"
+     "tableName": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusFailed": "汇入失败：{error}",
   "@courseImportStatusFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "{year}-{next} 学年",
   "@courseImportAcademicYearLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "next": {
-        "type": "int"
+     "next": {
+       "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "第{semester}学期",
   "@courseImportSemesterLabel": {
-    "placeholders": {
-      "semester": {
-        "type": "int"
+   "placeholders": {
+     "semester": {
+       "type": "int"
       }
     }
   },
@@ -917,9 +925,9 @@
   "editorCourseNatureHint": "科目性质（如：必修/选修）",
   "editorChangeScopeTitle": "要只修改当前这一项，定係修改所有名称为「{title}」的科目？",
   "@editorChangeScopeTitle": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -932,9 +940,9 @@
   "aiMemo": "备忘",
   "aiDraftReady": "草稿已生成：{title}",
   "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -955,9 +963,9 @@
   "aiClearConversationsWarning": "所有本机 AI 倾偈纪录都会被清走。",
   "aiConfirmationBatchTitle": "确认 {count} 项操作",
   "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -990,23 +998,23 @@
   "scorePageBiometricAuthFailed": "生物认证失败",
   "scorePageCourseInfo": "{type} · {credit}学分 · {instructor}",
   "@scorePageCourseInfo": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       },
-      "instructor": {
-        "type": "String"
+     "instructor": {
+       "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "绩点: {gpa}",
   "@scorePageGpaDisplay": {
-    "placeholders": {
-      "gpa": {
-        "type": "String"
+   "placeholders": {
+     "gpa": {
+       "type": "String"
       }
     }
   },
@@ -1015,9 +1023,9 @@
   "settingsDevModeActivated": "开发者模式已经开咗：而家可以用开发者设定喇！",
   "settingsDevModeTapCount": "即将开启开发者模式：再撳 {count} 次开启开发者模式",
   "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1026,42 +1034,42 @@
   "hotUpdateTitle": "热更新管理",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "更新咗：{time}",
   "@hotUpdateUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "未更新过（用紧内建预设）",
   "hotUpdateLocalVersion": "本地 v{version}",
   "@hotUpdateLocalVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateRemoteVersion": "远端 v{version}",
   "@hotUpdateRemoteVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-    "placeholders": {
-      "checksum": {
-        "type": "String"
+   "placeholders": {
+     "checksum": {
+       "type": "String"
       }
     }
   },
@@ -1087,9 +1095,9 @@
   "hotUpdateVersionMissing": "本机缺失 · 远端 v{remote}",
   "hotUpdateLastFailure": "上次失败：{reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1118,9 +1126,9 @@
   "settingsNotificationChannelNotCreated": "未建立",
   "settingsNotificationChannelCurrent": "而家：{level}",
   "@settingsNotificationChannelCurrent": {
-    "placeholders": {
-      "level": {
-        "type": "String"
+   "placeholders": {
+     "level": {
+       "type": "String"
       }
     }
   },
@@ -1139,9 +1147,9 @@
   "settingsClearCacheSubtitle": "释放暂时档案同快取资料",
   "settingsCacheCleared": "缓存已清除：释放了 {size}",
   "@settingsCacheCleared": {
-    "placeholders": {
-      "size": {
-        "type": "String"
+   "placeholders": {
+     "size": {
+       "type": "String"
       }
     }
   },
@@ -1151,18 +1159,18 @@
   "settingsDevSaveSuccess": "储存成功：伺服器地址已经更新",
   "settingsDevScanSuccess": "成功发现伺服器: {ip}:6262",
   "@settingsDevScanSuccess": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "喺局域网络搵唔到开 6262 埠嘅 API 伺服器",
   "settingsDevScanError": "扫描失败: {error}",
   "@settingsDevScanError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1192,9 +1200,9 @@
   "whuLoginVerifying": "验证紧登入状态…",
   "whuLoginVerificationFailed": "登入状态验证失败：{error}",
   "@whuLoginVerificationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1205,9 +1213,9 @@
   "libraryNoVenues": "暂时冇开放场馆",
   "libraryLoadFailed": "加载失败：{error}",
   "@libraryLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1248,33 +1256,33 @@
   "settingsAiConnectionSuccess": "AI 连线测试成功。",
   "settingsAiConnectionFailed": "连接失败：{error}",
   "@settingsAiConnectionFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "加载{name}...",
   "@luojiaEcardLoading": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "准备{name}...",
   "@luojiaEcardPreparing": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "pagePreparationFailed": "页面准备失败：{error}",
   "@pagePreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1286,9 +1294,9 @@
   "whuCasServiceAuthFailed": "服务授权失败，请重新登入武大统一认证。",
   "whuCasServiceRequestFailed": "服务授权请求失败：{error}",
   "@whuCasServiceRequestFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1296,25 +1304,25 @@
   "whuCasSessionExpired": "教务系统会话已经失效，请重新登入。",
   "whuCasSessionVerifyFailed": "教务会话验证失败：{error}",
   "@whuCasSessionVerifyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "攞教务账户资讯失败（HTTP {code}）。",
   "@whuCasFetchFailed": {
-    "placeholders": {
-      "code": {
-        "type": "int"
+   "placeholders": {
+     "code": {
+       "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "教务系统登入失败：{reason}",
   "@whuCasLoginFailedReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -1335,28 +1343,28 @@
   "gradesReviewsNoResults": "搵唔到相关科目",
   "gradesReviewsSearchError": "搜寻失败：{error}",
   "@gradesReviewsSearchError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       },
-      "department": {
-        "type": "String"
+     "department": {
+       "type": "String"
       }
     }
   },
   "courseDetailTitle": "科目详情：{uid}",
   "@courseDetailTitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       }
     }
   },
@@ -1366,33 +1374,33 @@
   "courseAuditPlaceholder": "旁听功能仲开发紧…",
   "gradesReviewsSearchFailMessage": "搜寻失败：{message}",
   "@gradesReviewsSearchFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "攞畀分分布失败：{message}",
   "@gradesReviewsGradeStatsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "攞评价失败：{message}",
   "@gradesReviewsReviewsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "科目表{index}",
   "@courseTimetableDefaultName": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -1402,9 +1410,9 @@
   "sportsReservationDayAfterTomorrow": "后日",
   "sportsVenueCourtFormat": "{areaNo}号场",
   "@sportsVenueCourtFormat": {
-    "placeholders": {
-      "areaNo": {
-        "type": "String"
+   "placeholders": {
+     "areaNo": {
+       "type": "String"
       }
     }
   },
@@ -1426,28 +1434,28 @@
   "sportsVenueFree": "免费",
   "sportsVenuePriceFormat": "{price}元",
   "@sportsVenuePriceFormat": {
-    "placeholders": {
-      "price": {
-        "type": "String"
+   "placeholders": {
+     "price": {
+       "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice}元",
   "@sportsVenuePriceRangeFormat": {
-    "placeholders": {
-      "lowPrice": {
-        "type": "String"
+   "placeholders": {
+     "lowPrice": {
+       "type": "String"
       },
-      "highPrice": {
-        "type": "String"
+     "highPrice": {
+       "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value}元",
   "@sportsOrderPriceWithUnitFormat": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
@@ -1477,58 +1485,58 @@
   "sportsFetchBulletins": "攞场馆公告",
   "sportsNetworkError": "{action}失败：网络请求异常。",
   "@sportsNetworkError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiHttpError": "{action}失败（HTTP {statusCode}）。",
   "@sportsApiHttpError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "statusCode": {
-        "type": "int"
+     "statusCode": {
+       "type": "int"
       }
     }
   },
   "sportsApiFormatError": "{action}失败：响应格式异常。",
   "@sportsApiFormatError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiError": "{action}失败。",
   "@sportsApiError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "{action}失败：{message}",
   "@sportsApiErrorWithMessage": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "message": {
-        "type": "String"
+     "message": {
+       "type": "String"
       }
     }
   },
   "sportsApiJsonError": "{action}失败：响应唔係有效 JSON。{diagnostic}",
   "@sportsApiJsonError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "diagnostic": {
-        "type": "String"
+     "diagnostic": {
+       "type": "String"
       }
     }
   },
@@ -1539,9 +1547,9 @@
   "sportsApiDiagnosticNonJson": "非 JSON 文本",
   "sportsApiDiagnosticResponseType": "响应类型：{kind}。",
   "@sportsApiDiagnosticResponseType": {
-    "placeholders": {
-      "kind": {
-        "type": "String"
+   "placeholders": {
+     "kind": {
+       "type": "String"
       }
     }
   },
@@ -1557,23 +1565,23 @@
   "scoreImportImportingCredential": "获取紧可信电子凭证同喺本机解析成绩…",
   "scoreImportSuccessWithCount": "{success}：{count}条成绩已快取到本机。",
   "@scoreImportSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}：{error}",
   "@scoreImportFailedWithError": {
-    "placeholders": {
-      "failed": {
-        "type": "String"
+   "placeholders": {
+     "failed": {
+       "type": "String"
       },
-      "error": {
-        "type": "String"
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1581,43 +1589,43 @@
   "scoreImportNoStudentId": "搵唔到全域登入嘅学号资料",
   "scoreImportSpoilerSuccessWithCount": "{success}：攞到{count}条剧透成绩纪录。",
   "@scoreImportSpoilerSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportLastImport": "最近一次汇入",
   "scoreImportTime": "时间：{time}",
   "@scoreImportTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "scoreImportCount": "成绩条数：{count}",
   "@scoreImportCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportExample": "示例：{name} · {score}分 · {credit}",
   "@scoreImportExample": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       },
-      "score": {
-        "type": "String"
+     "score": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       }
     }
   },
@@ -1627,20 +1635,20 @@
   "seatReservationDraftTitle": "图书馆座位预约",
   "seatReservationDraftDetails": "嚟源：武汉大学图书馆座位预约系统\n座位ID：{seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-    "placeholders": {
-      "seatId": {
-        "type": "String"
+   "placeholders": {
+     "seatId": {
+       "type": "String"
       },
-      "marker": {
-        "type": "String"
+     "marker": {
+       "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "座位预约同步ID：{sourceId}",
   "@seatReservationSourceMarker": {
-    "placeholders": {
-      "sourceId": {
-        "type": "String"
+   "placeholders": {
+     "sourceId": {
+       "type": "String"
       }
     }
   },
@@ -1660,9 +1668,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count}条讯息",
   "@aiMessageCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1676,9 +1684,9 @@
   "aiHeaderRetryLater": "AI 服务暂时唔得，请迟啲再试。",
   "aiHeaderDraftCreated": "已通过草稿页创建事项：{title}",
   "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1702,12 +1710,12 @@
   "whuAccountFallbackName": "武大账户",
   "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
-    "placeholders": {
-      "month": {
-        "type": "int"
+   "placeholders": {
+     "month": {
+       "type": "int"
       },
-      "day": {
-        "type": "int"
+     "day": {
+       "type": "int"
       }
     }
   },
@@ -1720,17 +1728,17 @@
   "homeWidgetAllDay": "全日",
   "homeWidgetUpdatedAt": "更新于{time}",
   "@homeWidgetUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "第{week}周",
   "@homeWidgetWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "int"
+   "placeholders": {
+     "week": {
+       "type": "int"
       }
     }
   },
@@ -1743,17 +1751,17 @@
   "weatherRainReminderTitle": "落雨提醒",
   "weatherBannerRainInMinutes": "大概 {minutes} 分钟后落雨，记得带遮。",
   "@weatherBannerRainInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "大概 {hours} 个钟后落雨，出门可带遮。",
   "@weatherBannerRainInHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
@@ -1761,31 +1769,31 @@
   "weatherBannerRainTomorrow": "听日有雨，出门可准备雨具。",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-    "placeholders": {
-      "condition": {
-        "type": "String"
+   "placeholders": {
+     "condition": {
+       "type": "String"
       },
-      "minTemp": {
-        "type": "String"
+     "minTemp": {
+       "type": "String"
       },
-      "maxTemp": {
-        "type": "String"
+     "maxTemp": {
+       "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "自动验证紧（第{attempt}次尝试）...",
   "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
+   "placeholders": {
+     "attempt": {
+       "type": "int"
       }
     }
   },
@@ -1833,17 +1841,17 @@
   "campusBusTitle": "校巴",
   "campusBusNearestStop": "最近: {stopName}",
   "@campusBusNearestStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
   "campusBusTargetStop": "目标: {stopName}",
   "@campusBusTargetStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -1893,9 +1901,9 @@
   "settingsWeatherAqiStandard": "AQI 标准",
   "libraryAuthFailed": "授权失败：{error}",
   "@libraryAuthFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1906,18 +1914,18 @@
   "libraryCancelSuccess": "已经取消预约",
   "libraryCancelFailed": "取消失败：{error}",
   "@libraryCancelFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "已经签退",
   "libraryCheckoutFailed": "签退失败：{error}",
   "@libraryCheckoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1926,40 +1934,40 @@
   "libraryNoRoomData": "暂时冇阅览室资料",
   "libraryFloor": "{floor}楼",
   "@libraryFloor": {
-    "placeholders": {
-      "floor": {
-        "type": "int"
+   "placeholders": {
+     "floor": {
+       "type": "int"
       }
     }
   },
   "libraryAvailable": "可用 {free}/{total}",
   "@libraryAvailable": {
-    "placeholders": {
-      "free": {
-        "type": "int"
+   "placeholders": {
+     "free": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-    "placeholders": {
-      "building": {
-        "type": "String"
+   "placeholders": {
+     "building": {
+       "type": "String"
       },
-      "room": {
-        "type": "String"
+     "room": {
+       "type": "String"
       }
     }
   },
   "libraryNoSeatData": "暂时冇座位资料",
   "librarySeatLayoutFailed": "加载座位图失败：{error}",
   "@librarySeatLayoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1973,17 +1981,17 @@
   "libraryCaptchaAutoVerifying": "正在自动验证…",
   "libraryCaptchaRetrying": "自动验证重试（第 {count} 次）…",
   "@libraryCaptchaRetrying": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "libraryBookFailed": "预约失败：{error}",
   "@libraryBookFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2000,9 +2008,9 @@
   "libraryTomorrow": "听日",
   "emptyClassroomSelfStudyTitle": "{location} 温习",
   "@emptyClassroomSelfStudyTitle": {
-    "placeholders": {
-      "location": {
-        "type": "String"
+   "placeholders": {
+     "location": {
+       "type": "String"
       }
     }
   },
@@ -2012,12 +2020,12 @@
   "addToAgendaConfirm": "添加",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "venue": {
-        "type": "String"
+     "venue": {
+       "type": "String"
       }
     }
   },
@@ -2047,9 +2055,9 @@
   "settingsAiFetchModels": "攞模型",
   "settingsAiFetchedCount": "已攞 {count} 个模型",
   "@settingsAiFetchedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2072,9 +2080,9 @@
   "ecardPaycodeRefreshNow": "即刻刷新",
   "ecardPaycodeRefreshInSeconds": "{seconds} 秒后再刷新",
   "@ecardPaycodeRefreshInSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -2086,9 +2094,9 @@
   "waterControlCancelTitle": "停用呢个取水码？",
   "waterControlCancelMessage": "{dormitory} 而家嘅取水码会即刻失效。",
   "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
+   "placeholders": {
+     "dormitory": {
+       "type": "String"
       }
     }
   },
@@ -2101,9 +2109,9 @@
   "waterControlAccountFallback": "校园卡账户",
   "waterControlUpdatedAt": "更新时间：{time}",
   "@waterControlUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2113,12 +2121,12 @@
   "waterControlExpiryUnknown": "暂时查唔到而家个取水码几时到期",
   "waterControlExpiresIn": "预计仲有 {hours} 小时 {minutes} 分钟",
   "@waterControlExpiresIn": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -2140,9 +2148,9 @@
   "waterControlSearchDormitory": "搜寻宿舍名或 ClassNo",
   "waterControlDormitoryCount": "{count} 个地点",
   "@waterControlDormitoryCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2167,9 +2175,9 @@
   "studyStatusFetchFailed": "攞资料失败",
   "studyStatusStatsTime": "统计时间 {time}",
   "@studyStatusStatsTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2183,83 +2191,83 @@
   "studyStatusOutOfPlan": "计划外",
   "studyStatusTotalCourses": "共{count}门",
   "@studyStatusTotalCourses": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "通过{count}",
   "@studyStatusPassedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "未通过{count}",
   "@studyStatusFailedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "在读{count}",
   "@studyStatusStudyingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "要求{credits}学分",
   "@studyStatusRequiredCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "已获{credits}学分",
   "@studyStatusEarnedCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "暂无课程数据",
   "studyStatusCredits": "{credit}学分",
   "@studyStatusCredits": {
-    "placeholders": {
-      "credit": {
-        "type": "String"
+   "placeholders": {
+     "credit": {
+       "type": "String"
       }
     }
   },
   "studyStatusRetake": "重修",
   "studyStatusScorePoints": "{score}分",
   "@studyStatusScorePoints": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "原{score}分",
   "@studyStatusOriginalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "绩点{point}",
   "@studyStatusGradePoint": {
-    "placeholders": {
-      "point": {
-        "type": "Object"
+   "placeholders": {
+     "point": {
+       "type": "Object"
       }
     }
   },
@@ -2308,9 +2316,9 @@
   "onboardingPermissionSkipTitle": "跳过权限申请？",
   "onboardingPermissionSkipMessage": "缺少{permissions}嘅时候，部分功能会用唔到。你之后仍然可以授权。",
   "@onboardingPermissionSkipMessage": {
-    "placeholders": {
-      "permissions": {
-        "type": "String"
+   "placeholders": {
+     "permissions": {
+       "type": "String"
       }
     }
   },
@@ -2331,9 +2339,9 @@
   "settingsDevRestartOnboardingAction": "重新开始",
   "onboardingPermissionRequestFailed": "未能取得{permission}授权",
   "@onboardingPermissionRequestFailed": {
-    "placeholders": {
-      "permission": {
-        "type": "String"
+   "placeholders": {
+     "permission": {
+       "type": "String"
       }
     }
   },
@@ -2425,17 +2433,17 @@
   "scoreTranscriptNoTemplates": "该账户没有可用的成绩单模板。",
   "scoreTranscriptLoadFailed": "加载成绩单类型失败：{error}",
   "@scoreTranscriptLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "获取已验证电子凭证失败：{error}",
   "@scoreTranscriptFetchFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2464,9 +2472,9 @@
   "authMfaTitle": "两步验证",
   "authMfaEmailSent": "验证码已发送去 {email}",
   "@authMfaEmailSent": {
-    "placeholders": {
-      "email": {
-        "type": "String"
+   "placeholders": {
+     "email": {
+       "type": "String"
       }
     }
   },
@@ -2483,9 +2491,9 @@
   "commonRetry": "重试",
   "commonLoadFailed": "加载失败：{error}",
   "@commonLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2531,9 +2539,9 @@
   "authApiCredentialSaved": "我已经保存咗",
   "authApiCredentialCreateFailed": "创建凭证失败：{error}",
   "@authApiCredentialCreateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2541,12 +2549,12 @@
   "authApiCredentialUnnamed": "未命名",
   "authApiCredentialStatus": "状态：{status} · 创建于 {date}",
   "@authApiCredentialStatus": {
-    "placeholders": {
-      "status": {
-        "type": "String"
+   "placeholders": {
+     "status": {
+       "type": "String"
       },
-      "date": {
-        "type": "String"
+     "date": {
+       "type": "String"
       }
     }
   },
@@ -2555,9 +2563,9 @@
   "authApiCredentialRevoke": "撤销",
   "authApiCredentialRevokeFailed": "撤销凭证失败：{error}",
   "@authApiCredentialRevokeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2574,15 +2582,15 @@
   "authSessionsUnknown": "未知",
   "authSessionsDetails": "IP：{ip}\n上次活跃：{lastActive}\n登录时间：{signedIn}",
   "@authSessionsDetails": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       },
-      "lastActive": {
-        "type": "String"
+     "lastActive": {
+       "type": "String"
       },
-      "signedIn": {
-        "type": "String"
+     "signedIn": {
+       "type": "String"
       }
     }
   },
@@ -2590,9 +2598,9 @@
   "authSessionsSignOutSucceeded": "设备已登出",
   "authSessionsSignOutFailed": "设备登出失败：{error}",
   "@authSessionsSignOutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2600,42 +2608,42 @@
   "authPasskeyDeviceName": "设备名称",
   "authPasskeyRegisterFailed": "注册 Passkey 失败：{error}",
   "@authPasskeyRegisterFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasskeysDescription": "已注册 {count} 个。Passkey 会用你设备嘅系统生物识别验证。",
   "@authPasskeysDescription": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "喺支援嘅设备注册生物识别密钥",
   "authPasskeyCreatedAt": "创建于 {date}",
   "@authPasskeyCreatedAt": {
-    "placeholders": {
-      "date": {
-        "type": "String"
+   "placeholders": {
+     "date": {
+       "type": "String"
       }
     }
   },
   "authPasskeyDeleteFailed": "删除 Passkey 失败：{error}",
   "@authPasskeyDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authOperationFailed": "操作失败：{error}",
   "@authOperationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2644,17 +2652,17 @@
   "authWhuBindingSucceeded": "账号已绑定",
   "authWhuBindingFailed": "绑定账号失败：{error}",
   "@authWhuBindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "绑定而家嘅珞家账户（{studentId}）",
   "@authWhuBindingCurrent": {
-    "placeholders": {
-      "studentId": {
-        "type": "String"
+   "placeholders": {
+     "studentId": {
+       "type": "String"
       }
     }
   },
@@ -2663,9 +2671,9 @@
   "authWhuUnbindingSucceeded": "账号已解绑",
   "authWhuUnbindingFailed": "解绑账号失败：{error}",
   "@authWhuUnbindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2677,9 +2685,9 @@
   "authDeleteAccountConfirm": "删除账号",
   "authDeleteAccountFailed": "删除账号失败：{error}",
   "@authDeleteAccountFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2698,9 +2706,9 @@
   "authBio": "个人简介",
   "authProfileUpdateFailed": "更新个人资料失败：{error}",
   "@authProfileUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2709,9 +2717,9 @@
   "authPasswordChanged": "密码已修改。请重新登录。",
   "authPasswordChangeFailed": "修改密码失败：{error}",
   "@authPasswordChangeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2720,9 +2728,9 @@
   "authRegistrationBindWhuAccount": "绑定武大账号",
   "authPasswordMinLength": "密码最少要有 {count} 个字符",
   "@authPasswordMinLength": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2744,16 +2752,16 @@
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "@courseGradeStatsSamples": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2761,9 +2769,9 @@
   "courseGradeStatsDistribution": "成绩分布",
   "courseGradeStatsTotalScore": "总评（0 - 100）",
   "@courseGradeStatsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2772,9 +2780,9 @@
   "courseReviewsWrite": "写匿名评价",
   "courseReviewsAnonymousStudent": "匿名学生 · {semester}",
   "@courseReviewsAnonymousStudent": {
-    "placeholders": {
-      "semester": {
-        "type": "String"
+   "placeholders": {
+     "semester": {
+       "type": "String"
       }
     }
   },
@@ -2783,9 +2791,9 @@
   "courseReviewsRating": "评分",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-    "placeholders": {
-      "rating": {
-        "type": "String"
+   "placeholders": {
+     "rating": {
+       "type": "String"
       }
     }
   },
@@ -2793,25 +2801,25 @@
   "courseReviewsSubmitted": "评价已提交，审核通过后会显示。",
   "courseReviewsSubmitFailed": "提交评价失败：{error}",
   "@courseReviewsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "已同步 {count} 门合资格课程。",
   "@courseReviewsSyncSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "同步失败：{error}",
   "@courseReviewsSyncFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2821,17 +2829,17 @@
   "forumSelectedBoardUnavailable": "请选择可用嘅版面。",
   "forumBoardShelter": "防空洞 {name}",
   "@forumBoardShelter": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "forumBoardsLoadFailed": "加载版面失败：{error}",
   "@forumBoardsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2842,9 +2850,9 @@
   "forumSupportedAttachmentFormats": "支持嘅附件格式",
   "forumAttachmentUploadFailed": "上传附件失败：{error}",
   "@forumPostsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2853,9 +2861,9 @@
   "forumPublish": "发布",
   "forumPublishFailed": "发布失败：{error}",
   "@forumPublishFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2863,15 +2871,15 @@
   "forumAnonymous": "匿名",
   "forumPostMetadata": "{author} · {comments} 条回复 · {upvotes} 个赞",
   "@forumPostMetadata": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       },
-      "comments": {
-        "type": "int"
+     "comments": {
+       "type": "int"
       },
-      "upvotes": {
-        "type": "int"
+     "upvotes": {
+       "type": "int"
       }
     }
   },
@@ -2881,9 +2889,9 @@
   "forumReply": "回复",
   "forumRepliesLoadFailed": "加载回复失败：{error}",
   "@forumRepliesLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2892,18 +2900,18 @@
   "forumSend": "发送",
   "forumReplyFailed": "回复失败：{error}",
   "@forumReplyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasswordResetEmail": "邮箱",
   "authPasswordResetSendFailed": "发送失败：{error}",
   "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2914,9 +2922,9 @@
   "courseReviewsStatusRejected": "已拒绝",
   "courseReviewsRejectionReason": "审核备注：{reason}",
   "@courseReviewsRejectionReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -2926,18 +2934,18 @@
   "courseReviewsDeleted": "评价已删除。",
   "courseReviewsDeleteFailed": "删除评价失败：{error}",
   "@courseReviewsDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "评价已更新，重新提交审核。",
   "courseReviewsUpdateFailed": "更新评价失败：{error}",
   "@courseReviewsUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2956,9 +2964,9 @@
   "forumShelterPrivacyDescription": "你嘅匿名名只会喺呢个话题入面保持一致。唔会显示头像或者个人资料，而且呢个帖子会喺 24 个钟之后过期。",
   "forumShelterExpiresIn": "仲有 {time} 就过期",
   "@forumShelterExpiresIn": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2972,107 +2980,107 @@
   "forumReportSubmitted": "举报已提交。",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaAuthorMeta": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelOnly": "Lv{level}",
   "@forumKarmaLevelOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       }
     }
   },
   "@forumKarmaAuthorMetaWithTitle": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaBudgetLine": {
-    "placeholders": {
-      "up": {
-        "type": "int"
+   "placeholders": {
+     "up": {
+       "type": "int"
       },
-      "down": {
-        "type": "int"
+     "down": {
+       "type": "int"
       }
     }
   },
   "@forumCheckinFixed": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       }
     }
   },
   "@forumCheckinSuccess": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       },
-      "streak": {
-        "type": "int"
+     "streak": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaNextLevel": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaStreakLine": {
-    "placeholders": {
-      "streak": {
-        "type": "int"
+   "placeholders": {
+     "streak": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaAdminSuccess": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumReportFailed": "提交举报失败：{error}",
   "@forumReportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3123,18 +3131,18 @@
   "campusLayoutDragHint": "拖动 App 去重新排序或者创建文件夹",
   "campusLayoutColumns": "每行 {count} 个",
   "@campusLayoutColumns": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "覆盖已修改嘅课程？",
   "courseImportOverwriteModifiedMessage": "今个学期有 {count} 门课程曾经手动修改。继续导入会覆盖呢啲修改。",
   "@courseImportOverwriteModifiedMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3143,9 +3151,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "逐项检查",
   "courseImportModifiedRecordMessage": "已修改嘅课程记录：{time}\n请拣点样处理呢条记录。",
   "@courseImportModifiedRecordMessage": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3163,9 +3171,9 @@
   "detailStatusInactive": "唔追踪完成状态",
   "detailConflictWithItems": "同 {items} 时间重叠。你仍然可以保存。",
   "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3175,9 +3183,9 @@
   "editorCompletionModeNone": "只显示",
   "editorConflictWithItems": "同 {items} 时间重叠。你仍然可以保存。",
   "@editorConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3185,9 +3193,9 @@
   "commonOk": "确定",
   "whuAccountEducationalYearsValue": "{years} 年",
   "@whuAccountEducationalYearsValue": {
-    "placeholders": {
-      "years": {
-        "type": "int"
+   "placeholders": {
+     "years": {
+       "type": "int"
       }
     }
   },
@@ -3196,9 +3204,9 @@
   "addTimetable": "加时间表",
   "addToTimetable": "加到{name}",
   "@addToTimetable": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3216,9 +3224,9 @@
   "exportTimetable": "汇出时间表",
   "homeTimeBlock": "第{index}格",
   "@homeTimeBlock": {
-    "placeholders": {
-      "index": {
-        "type": "String"
+   "placeholders": {
+     "index": {
+       "type": "String"
       }
     }
   },
@@ -3251,41 +3259,41 @@
   "notificationScheduleIncomplete": "日程仲未完成",
   "notificationStartsInFifteenMinutes": "15 分钟后开始 · {time}",
   "@notificationStartsInFifteenMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "5 分钟后开始 · {time}",
   "@notificationStartsInFiveMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "1 个钟后开始 · {time}",
   "@notificationStartsInOneHour": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsSoon": "就快开始 · {time}",
   "@notificationStartsSoon": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationTomorrow": "听日 · {time}",
   "@notificationTomorrow": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3298,9 +3306,9 @@
   "separate": "拆开",
   "separatedTimetableName": "{name}（拆开）",
   "@separatedTimetableName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3310,9 +3318,9 @@
   "shiguangFileImportDescription": "汇入时光时间表 JSON 文件",
   "shiguangImportFailed": "汇入时光时间表失败：{error}",
   "@shiguangImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3328,9 +3336,9 @@
   "starlinkImportDescription": "用 JSON 文件或者分享码汇入 Starlink 时间表",
   "starlinkImportFailed": "汇入 Starlink 时间表失败：{error}",
   "@starlinkImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3341,27 +3349,27 @@
   "starlinkTimetableShareCode": "Starlink 时间表分享码",
   "timetableDetails": "学期：{term}\n汇入时间：{importedAt}\n更新时间：{updatedAt}\n嚟源：{source}",
   "@timetableDetails": {
-    "placeholders": {
-      "term": {
-        "type": "String"
+   "placeholders": {
+     "term": {
+       "type": "String"
       },
-      "importedAt": {
-        "type": "String"
+     "importedAt": {
+       "type": "String"
       },
-      "updatedAt": {
-        "type": "String"
+     "updatedAt": {
+       "type": "String"
       },
-      "source": {
-        "type": "String"
+     "source": {
+       "type": "String"
       }
     }
   },
   "timetableExported": "时间表已汇出。",
   "timetableImportFailed": "汇入时间表失败：{error}",
   "@timetableImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3373,9 +3381,9 @@
   "wakeupFileImportDescription": "汇入 Wakeup CSV 或者时间表文件",
   "wakeupImportFailed": "汇入 Wakeup 时间表失败：{error}",
   "@wakeupImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3386,9 +3394,9 @@
   "webViewLoadingPage": "加载紧页面...",
   "webViewPreparationFailed": "页面准备失败：{error}",
   "@webViewPreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3469,9 +3477,9 @@
   "authRegisteredDevicesEmpty": "冇已登记设备。",
   "authRegisteredDeviceLastSeen": "最近登记：{time}",
   "@authRegisteredDeviceLastSeen": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3536,40 +3544,40 @@
   "settingsCourseReminderUseDefault": "用分组预设（{minutes} 分钟）",
   "settingsCourseReminderCustom": "自订：{minutes} 分钟",
   "@listDeleteSelectedConfirmMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -3581,9 +3589,9 @@
   "campusBusArrivalStop": "站",
   "campusBusArrivalUseNearest": "用最近嘅站：{stopName}",
   "@campusBusArrivalUseNearest": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -3591,9 +3599,9 @@
   "campusBusArrivalReminder": "到站提醒",
   "campusBusArrivalEnabledTarget": "紧提紧：{targetText}",
   "@campusBusArrivalEnabledTarget": {
-    "placeholders": {
-      "targetText": {
-        "type": "String"
+   "placeholders": {
+     "targetText": {
+       "type": "String"
       }
     }
   },
@@ -3617,9 +3625,9 @@
   "medicalIdOther": "其他",
   "medicalGreeting": "你好，{name}",
   "@medicalGreeting": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3797,9 +3805,9 @@
   "adminStatusNoWorkers": "暂无在线 Worker",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -3886,9 +3894,9 @@
   "adminForumConfigLogEmpty": "暂时未有设定变更记录。",
   "adminForumConfigLogActor": "操作者",
   "@adminUsersSetRole": {
-    "placeholders": {
-      "role": {
-        "type": "String"
+   "placeholders": {
+     "role": {
+       "type": "String"
       }
     }
   },
@@ -3936,12 +3944,12 @@
   "aiAutomationFullyAutomaticDescription": "自动确认所有操作，并保留完整记录。",
   "aiConfirmationAutoApproved": "已自动确认 {count} 项操作（{mode}）",
   "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "mode": {
-        "type": "String"
+     "mode": {
+       "type": "String"
       }
     }
   },
@@ -4105,9 +4113,9 @@
   "courseMatchingNoConflicts": "無時間衝突",
   "courseMatchingConflictsCount": "{count} 處時間衝突",
   "@courseMatchingConflictsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4127,9 +4135,9 @@
   "schoolNetCheckpointTooltip": "記錄取水碼抓包檢查點",
   "schoolNetCheckpointDevicesLoaded": "已獲取 {count} 臺在線設備",
   "@schoolNetCheckpointDevicesLoaded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4150,9 +4158,9 @@
   "aiModelRequestCancelled": "AI 請求已取消",
   "aiModelHttpError": "AI HTTP 錯誤 ({statusCode})",
   "@aiModelHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4171,33 +4179,33 @@
   "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range}周",
   "@courseWeekRangeAll": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "{range}周(單)",
   "@courseWeekRangeOdd": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "{range}周(雙)",
   "@courseWeekRangeEven": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "sportsAreaLabel": "{no}號場",
   "@sportsAreaLabel": {
-    "placeholders": {
-      "no": {
-        "type": "Object"
+   "placeholders": {
+     "no": {
+       "type": "Object"
       }
     }
   },
@@ -4217,9 +4225,9 @@
   "whuSmartCampusAuthFailedCasRequired": "智慧珞珈授權失敗，請重新登錄武大統一認證。",
   "whuSmartCampusAuthFailedHttp": "智慧珞珈授權失敗（HTTP {statusCode}）。",
   "@whuSmartCampusAuthFailedHttp": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4493,5 +4501,24 @@
   "waterElectricSnifferPaymentCompleted": "支付已完成",
   "waterElectricSnifferPostPaymentVerified": "支付后重新验证",
   "waterElectricNotificationTitle": "水电余额提醒",
-  "waterElectricNotificationBody": "{room} · {meter}：余额 {balance}{unit}，已低于阈值 {threshold}。"
+  "waterElectricNotificationBody": "{room} · {meter}：余额 {balance}{unit}，已低于阈值 {threshold}。",
+  "courseImportUnnamedCourse": "冇名课程",
+  "wakeupWeekSuffixOdd": "单",
+  "wakeupWeekSuffixEven": "双",
+  "notificationOpenAction": "打开通知",
+  "aiAgentVerifyingResult": "核验紧结果…",
+  "aiAgentResultUnverifiable": "最终确认唔到，建议人手核验",
+  "aiAgentFailureNotConfigured": "请先喺设定度完成 AI 配置。",
+  "aiAgentFailureFormatUnsupported": "目前 AI 服务配置暂时唔支援 Agent。",
+  "aiAgentFailureAbnormalResponse": "AI 服务回传格式异常，今次冇执行未确认嘅操作，请重试。",
+  "aiAgentFailureRetry": "今次请求完成唔到，请稍后重试。",
+  "whuEmailParserLabel": "武大电邮回应解析器",
+  "whuMessagesMarkReadFailed": "标记已读失败",
+  "whuMessagesRequestFailed": "请求失败",
+  "whuScoreExamTypeNormal": "正常考试",
+  "whuScoreMidtermWithdraw": "中期退课",
+  "whuLibraryResultUnknown": "图书馆操作结果未知，请重新整理状态之后再决定系咪要重试",
+  "sportsAuthFailedCasRequired": "运动场馆系统授权失败，请重新登入武大统一认证。",
+  "waterControlAccountExchangeFailed": "水账户交换失败。",
+  "courseTimetableLocalFileDefaultName": "本地课程表"
 }

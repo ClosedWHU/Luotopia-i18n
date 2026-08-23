@@ -218,34 +218,34 @@
   "editorCoursePeriodEnd": "終了時限",
   "editorCoursePeriodN": "第{n}時限",
   "@editorCoursePeriodN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "第{n}時限\n{time}",
   "@editorCoursePeriodSingle": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "第{from}～{to}時限\n{time}",
   "@editorCoursePeriodRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
+   "placeholders": {
+     "from": {
+       "type": "int"
       },
-      "to": {
-        "type": "int"
+     "to": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -253,9 +253,9 @@
   "editorCourseWeekEnd": "終了週",
   "editorCourseWeekN": "第{n}週",
   "@editorCourseWeekN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
@@ -341,107 +341,107 @@
   "forumReportSubmitted": "報告を送信しました。",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaAuthorMeta": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelOnly": "Lv{level}",
   "@forumKarmaLevelOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       }
     }
   },
   "@forumKarmaAuthorMetaWithTitle": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaBudgetLine": {
-    "placeholders": {
-      "up": {
-        "type": "int"
+   "placeholders": {
+     "up": {
+       "type": "int"
       },
-      "down": {
-        "type": "int"
+     "down": {
+       "type": "int"
       }
     }
   },
   "@forumCheckinFixed": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       }
     }
   },
   "@forumCheckinSuccess": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       },
-      "streak": {
-        "type": "int"
+     "streak": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaNextLevel": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaStreakLine": {
-    "placeholders": {
-      "streak": {
-        "type": "int"
+   "placeholders": {
+     "streak": {
+       "type": "int"
       }
     }
   },
   "@forumKarmaAdminSuccess": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumReportFailed": "報告の送信に失敗しました: {error}",
   "@forumReportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -450,9 +450,9 @@
   "addTimetable": "時間割を追加",
   "addToTimetable": "{name} に追加",
   "@addToTimetable": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -470,9 +470,9 @@
   "exportTimetable": "時間割をエクスポート",
   "homeTimeBlock": "ブロック {index}",
   "@homeTimeBlock": {
-    "placeholders": {
-      "index": {
-        "type": "String"
+   "placeholders": {
+     "index": {
+       "type": "String"
       }
     }
   },
@@ -505,41 +505,41 @@
   "notificationScheduleIncomplete": "予定が未完了",
   "notificationStartsInFifteenMinutes": "15 分後に開始 · {time}",
   "@notificationStartsInFifteenMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "5 分後に開始 · {time}",
   "@notificationStartsInFiveMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "1 時間後に開始 · {time}",
   "@notificationStartsInOneHour": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsSoon": "まもなく開始 · {time}",
   "@notificationStartsSoon": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationTomorrow": "明日 · {time}",
   "@notificationTomorrow": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -552,9 +552,9 @@
   "separate": "分割",
   "separatedTimetableName": "{name}（分割）",
   "@separatedTimetableName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -564,9 +564,9 @@
   "shiguangFileImportDescription": "Shiguang の時間割 JSON ファイルをインポート",
   "shiguangImportFailed": "Shiguang の時間割のインポートに失敗: {error}",
   "@shiguangImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -582,9 +582,9 @@
   "starlinkImportDescription": "JSON ファイルまたは共有コードから Starlink の時間割をインポート",
   "starlinkImportFailed": "Starlink の時間割のインポートに失敗: {error}",
   "@starlinkImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -595,27 +595,27 @@
   "starlinkTimetableShareCode": "Starlink 時間割共有コード",
   "timetableDetails": "学期: {term}\nインポート: {importedAt}\n更新: {updatedAt}\nソース: {source}",
   "@timetableDetails": {
-    "placeholders": {
-      "term": {
-        "type": "String"
+   "placeholders": {
+     "term": {
+       "type": "String"
       },
-      "importedAt": {
-        "type": "String"
+     "importedAt": {
+       "type": "String"
       },
-      "updatedAt": {
-        "type": "String"
+     "updatedAt": {
+       "type": "String"
       },
-      "source": {
-        "type": "String"
+     "source": {
+       "type": "String"
       }
     }
   },
   "timetableExported": "時間割をエクスポートしました。",
   "timetableImportFailed": "時間割のインポートに失敗: {error}",
   "@timetableImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -627,9 +627,9 @@
   "wakeupFileImportDescription": "Wakeup CSV または時間割ファイルをインポート",
   "wakeupImportFailed": "Wakeup 時間割のインポートに失敗: {error}",
   "@wakeupImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -640,9 +640,9 @@
   "webViewLoadingPage": "ページを読み込み中...",
   "webViewPreparationFailed": "ページの準備に失敗: {error}",
   "@webViewPreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -770,17 +770,17 @@
   "settingsLicensesTitle": "オープンソースライセンス",
   "licenseAuthor": "作者: {author}",
   "@licenseAuthor": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       }
     }
   },
   "licenseVersion": "バージョン: {version}",
   "@licenseVersion": {
-    "placeholders": {
-      "version": {
-        "type": "String"
+   "placeholders": {
+     "version": {
+       "type": "String"
       }
     }
   },
@@ -895,6 +895,14 @@
   "sportsRetry": "再試行",
   "sportsSelectDateFirst": "日付を先に選択",
   "sportsSelectTimeSlot": "時間帯を選択",
+  "sportsReservableSlotsCount": "空き{count}枠",
+  "@sportsReservableSlotsCount": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "sportsSelectVenue": "施設を選択",
   "startImport": "インポート開始",
   "tapToSelect": "タップして選択",
@@ -962,268 +970,268 @@
   "whuLoginWebViewLoading": "読み込み中…",
   "whuLoginWebViewTitle": "WHU ログイン",
   "@editorDurationHourMinute": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
+   "placeholders": {
+     "classroom": {
+       "type": "String"
       },
-      "section": {
-        "type": "int"
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
+   "placeholders": {
+     "sections": {
+       "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
+   "placeholders": {
+     "expanded": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-    "placeholders": {
-      "floor": {
-        "type": "String"
+   "placeholders": {
+     "floor": {
+       "type": "String"
       },
-      "available": {
-        "type": "int"
+     "available": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-    "placeholders": {
-      "section": {
-        "type": "int"
+   "placeholders": {
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-    "placeholders": {
-      "day": {
-        "type": "String"
+   "placeholders": {
+     "day": {
+       "type": "String"
       },
-      "endDay": {
-        "type": "String"
+     "endDay": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
+   "placeholders": {
+     "month": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "term": {
-        "type": "String"
+     "term": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "month": {
-        "type": "String"
+     "month": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
+   "placeholders": {
+     "weekday": {
+       "type": "String"
       }
     }
   },
   "@hourH": {
-    "placeholders": {
-      "hour": {}
+   "placeholders": {
+     "hour": {}
     }
   },
   "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
+   "placeholders": {
+     "timeStr": {}
     }
   },
   "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@minuteMin": {
-    "placeholders": {
-      "minute": {}
+   "placeholders": {
+     "minute": {}
     }
   },
   "@semS": {
-    "placeholders": {
-      "s": {}
+   "placeholders": {
+     "s": {}
     }
   },
   "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusImported": "完了: {count} 件（今週 {currentWeek} 件）",
   "@courseImportStatusImported": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "currentWeek": {
-        "type": "int"
+     "currentWeek": {
+       "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "{count} 件を「{tableName}」にインポートしました。",
   "@courseImportSnackSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "tableName": {
-        "type": "String"
+     "tableName": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusFailed": "インポート失敗: {error}",
   "@courseImportStatusFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "{year}-{next} 年度",
   "@courseImportAcademicYearLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "next": {
-        "type": "int"
+     "next": {
+       "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "第{semester}学期",
   "@courseImportSemesterLabel": {
-    "placeholders": {
-      "semester": {
-        "type": "int"
+   "placeholders": {
+     "semester": {
+       "type": "int"
       }
     }
   },
@@ -1234,9 +1242,9 @@
   "editorCourseNatureHint": "授業の性質（例: 必修/選択）",
   "editorChangeScopeTitle": "この項目だけ変更しますか？それとも「{title}」という授業すべてですか？",
   "@editorChangeScopeTitle": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1249,9 +1257,9 @@
   "aiMemo": "メモ",
   "aiDraftReady": "下書きの準備完了：{title}",
   "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1272,9 +1280,9 @@
   "aiClearConversationsWarning": "端末に保存された AI 会話がすべて削除されます。",
   "aiConfirmationBatchTitle": "{count} 件の操作を確認",
   "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1307,23 +1315,23 @@
   "scorePageBiometricAuthFailed": "生体認証に失敗",
   "scorePageCourseInfo": "{type} · {credit} 単位 · {instructor}",
   "@scorePageCourseInfo": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       },
-      "instructor": {
-        "type": "String"
+     "instructor": {
+       "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "GPA: {gpa}",
   "@scorePageGpaDisplay": {
-    "placeholders": {
-      "gpa": {
-        "type": "String"
+   "placeholders": {
+     "gpa": {
+       "type": "String"
       }
     }
   },
@@ -1332,9 +1340,9 @@
   "settingsDevModeActivated": "開発者モードが有効になりました。開発者設定が使えます。",
   "settingsDevModeTapCount": "あと {count} 回タップで開発者モード",
   "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1343,42 +1351,42 @@
   "hotUpdateTitle": "ホットアップデート管理",
   "hotUpdateManifestVersion": "マニフェスト v{version}",
   "@hotUpdateManifestVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "更新日時: {time}",
   "@hotUpdateUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "未更新（組み込みデフォルトを使用）",
   "hotUpdateLocalVersion": "ローカル v{version}",
   "@hotUpdateLocalVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateRemoteVersion": "リモート v{version}",
   "@hotUpdateRemoteVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-    "placeholders": {
-      "checksum": {
-        "type": "String"
+   "placeholders": {
+     "checksum": {
+       "type": "String"
       }
     }
   },
@@ -1404,9 +1412,9 @@
   "hotUpdateVersionMissing": "ローカルなし · リモート v{remote}",
   "hotUpdateLastFailure": "前回の失敗：{reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1435,9 +1443,9 @@
   "settingsNotificationChannelNotCreated": "未作成",
   "settingsNotificationChannelCurrent": "現在：{level}",
   "@settingsNotificationChannelCurrent": {
-    "placeholders": {
-      "level": {
-        "type": "String"
+   "placeholders": {
+     "level": {
+       "type": "String"
       }
     }
   },
@@ -1456,9 +1464,9 @@
   "settingsClearCacheSubtitle": "一時ファイルとキャッシュデータを解放",
   "settingsCacheCleared": "キャッシュを消去しました: {size} を解放",
   "@settingsCacheCleared": {
-    "placeholders": {
-      "size": {
-        "type": "String"
+   "placeholders": {
+     "size": {
+       "type": "String"
       }
     }
   },
@@ -1468,18 +1476,18 @@
   "settingsDevSaveSuccess": "保存しました: サーバー URL を更新",
   "settingsDevScanSuccess": "サーバーを検出: {ip}:6262",
   "@settingsDevScanSuccess": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "LAN 上でポート 6262 の API サーバーが見つかりません",
   "settingsDevScanError": "スキャン失敗: {error}",
   "@settingsDevScanError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1509,9 +1517,9 @@
   "whuLoginVerifying": "ログイン状態を確認中…",
   "whuLoginVerificationFailed": "ログイン状態の検証に失敗: {error}",
   "@whuLoginVerificationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1522,9 +1530,9 @@
   "libraryNoVenues": "利用可能な館がありません",
   "libraryLoadFailed": "読み込み失敗: {error}",
   "@libraryLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1565,33 +1573,33 @@
   "settingsAiConnectionSuccess": "AI 接続テストに成功しました。",
   "settingsAiConnectionFailed": "接続失敗: {error}",
   "@settingsAiConnectionFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "{name} を読み込み中…",
   "@luojiaEcardLoading": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "{name} を準備中…",
   "@luojiaEcardPreparing": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "pagePreparationFailed": "ページの準備に失敗: {error}",
   "@pagePreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1603,9 +1611,9 @@
   "whuCasServiceAuthFailed": "サービス認可に失敗しました。武大統一認証に再ログインしてください。",
   "whuCasServiceRequestFailed": "サービス認可リクエストに失敗: {error}",
   "@whuCasServiceRequestFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1613,25 +1621,25 @@
   "whuCasSessionExpired": "教務セッションが無効です。再ログインしてください。",
   "whuCasSessionVerifyFailed": "教務セッションの検証に失敗: {error}",
   "@whuCasSessionVerifyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "教務アカウント情報の取得に失敗 (HTTP {code})。",
   "@whuCasFetchFailed": {
-    "placeholders": {
-      "code": {
-        "type": "int"
+   "placeholders": {
+     "code": {
+       "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "教務ログインに失敗: {reason}",
   "@whuCasLoginFailedReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -1652,28 +1660,28 @@
   "gradesReviewsNoResults": "該当する授業がありません",
   "gradesReviewsSearchError": "検索に失敗: {error}",
   "@gradesReviewsSearchError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       },
-      "department": {
-        "type": "String"
+     "department": {
+       "type": "String"
       }
     }
   },
   "courseDetailTitle": "授業詳細: {uid}",
   "@courseDetailTitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       }
     }
   },
@@ -1683,33 +1691,33 @@
   "courseAuditPlaceholder": "聴講（蹭課）機能は開発中です…",
   "gradesReviewsSearchFailMessage": "検索に失敗: {message}",
   "@gradesReviewsSearchFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "成績分布の取得に失敗: {message}",
   "@gradesReviewsGradeStatsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "評価の取得に失敗: {message}",
   "@gradesReviewsReviewsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "時間割{index}",
   "@courseTimetableDefaultName": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -1719,9 +1727,9 @@
   "sportsReservationDayAfterTomorrow": "明後日",
   "sportsVenueCourtFormat": "{areaNo} 番コート",
   "@sportsVenueCourtFormat": {
-    "placeholders": {
-      "areaNo": {
-        "type": "String"
+   "placeholders": {
+     "areaNo": {
+       "type": "String"
       }
     }
   },
@@ -1743,28 +1751,28 @@
   "sportsVenueFree": "無料",
   "sportsVenuePriceFormat": "{price} 元",
   "@sportsVenuePriceFormat": {
-    "placeholders": {
-      "price": {
-        "type": "String"
+   "placeholders": {
+     "price": {
+       "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} 元",
   "@sportsVenuePriceRangeFormat": {
-    "placeholders": {
-      "lowPrice": {
-        "type": "String"
+   "placeholders": {
+     "lowPrice": {
+       "type": "String"
       },
-      "highPrice": {
-        "type": "String"
+     "highPrice": {
+       "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value} 元",
   "@sportsOrderPriceWithUnitFormat": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
@@ -1794,58 +1802,58 @@
   "sportsFetchBulletins": "施設のお知らせを取得",
   "sportsNetworkError": "{action} に失敗: ネットワークエラー。",
   "@sportsNetworkError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiHttpError": "{action} に失敗 (HTTP {statusCode})。",
   "@sportsApiHttpError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "statusCode": {
-        "type": "int"
+     "statusCode": {
+       "type": "int"
       }
     }
   },
   "sportsApiFormatError": "{action} に失敗: 応答形式エラー。",
   "@sportsApiFormatError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiError": "{action} に失敗しました。",
   "@sportsApiError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "{action} に失敗: {message}",
   "@sportsApiErrorWithMessage": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "message": {
-        "type": "String"
+     "message": {
+       "type": "String"
       }
     }
   },
   "sportsApiJsonError": "{action} に失敗: 有効な JSON ではありません。{diagnostic}",
   "@sportsApiJsonError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "diagnostic": {
-        "type": "String"
+     "diagnostic": {
+       "type": "String"
       }
     }
   },
@@ -1856,9 +1864,9 @@
   "sportsApiDiagnosticNonJson": "JSON 以外のテキスト",
   "sportsApiDiagnosticResponseType": "応答種別: {kind}。",
   "@sportsApiDiagnosticResponseType": {
-    "placeholders": {
-      "kind": {
-        "type": "String"
+   "placeholders": {
+     "kind": {
+       "type": "String"
       }
     }
   },
@@ -1874,23 +1882,23 @@
   "scoreImportImportingCredential": "信頼できる資格情報をダウンロードし、ローカルで成績を解析中…",
   "scoreImportSuccessWithCount": "{success}: {count} 件を端末にキャッシュ。",
   "@scoreImportSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}：{error}",
   "@scoreImportFailedWithError": {
-    "placeholders": {
-      "failed": {
-        "type": "String"
+   "placeholders": {
+     "failed": {
+       "type": "String"
       },
-      "error": {
-        "type": "String"
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1898,43 +1906,43 @@
   "scoreImportNoStudentId": "グローバルログインの学籍番号が見つかりません",
   "scoreImportSpoilerSuccessWithCount": "{success}: スポイラー成績 {count} 件を取得。",
   "@scoreImportSpoilerSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportLastImport": "前回のインポート",
   "scoreImportTime": "時刻: {time}",
   "@scoreImportTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "scoreImportCount": "成績件数: {count}",
   "@scoreImportCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportExample": "例: {name} · {score} · {credit}",
   "@scoreImportExample": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       },
-      "score": {
-        "type": "String"
+     "score": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       }
     }
   },
@@ -1944,20 +1952,20 @@
   "seatReservationDraftTitle": "図書館座席予約",
   "seatReservationDraftDetails": "出典: 武大図書館座席予約システム\n座席ID: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-    "placeholders": {
-      "seatId": {
-        "type": "String"
+   "placeholders": {
+     "seatId": {
+       "type": "String"
       },
-      "marker": {
-        "type": "String"
+     "marker": {
+       "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "座席予約同期ID: {sourceId}",
   "@seatReservationSourceMarker": {
-    "placeholders": {
-      "sourceId": {
-        "type": "String"
+   "placeholders": {
+     "sourceId": {
+       "type": "String"
       }
     }
   },
@@ -1978,9 +1986,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} 件のメッセージ",
   "@aiMessageCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1994,9 +2002,9 @@
   "aiHeaderRetryLater": "AI サービスが一時的に利用できません。しばらくしてから再試行してください。",
   "aiHeaderDraftCreated": "下書きページから作成しました：{title}",
   "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -2020,12 +2028,12 @@
   "whuAccountFallbackName": "武大アカウント",
   "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
-    "placeholders": {
-      "month": {
-        "type": "int"
+   "placeholders": {
+     "month": {
+       "type": "int"
       },
-      "day": {
-        "type": "int"
+     "day": {
+       "type": "int"
       }
     }
   },
@@ -2038,17 +2046,17 @@
   "homeWidgetAllDay": "終日",
   "homeWidgetUpdatedAt": "更新: {time}",
   "@homeWidgetUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "第{week}週",
   "@homeWidgetWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "int"
+   "placeholders": {
+     "week": {
+       "type": "int"
       }
     }
   },
@@ -2061,17 +2069,17 @@
   "weatherRainReminderTitle": "降雨リマインダー",
   "weatherBannerRainInMinutes": "約{minutes}分後に雨。傘を。",
   "@weatherBannerRainInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "約{hours}時間後に雨。外出時は傘を。",
   "@weatherBannerRainInHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
@@ -2079,31 +2087,31 @@
   "weatherBannerRainTomorrow": "明日は雨の予報。外出時は傘を。",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-    "placeholders": {
-      "condition": {
-        "type": "String"
+   "placeholders": {
+     "condition": {
+       "type": "String"
       },
-      "minTemp": {
-        "type": "String"
+     "minTemp": {
+       "type": "String"
       },
-      "maxTemp": {
-        "type": "String"
+     "maxTemp": {
+       "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "自動検証中（試行 {attempt}）…",
   "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
+   "placeholders": {
+     "attempt": {
+       "type": "int"
       }
     }
   },
@@ -2151,17 +2159,17 @@
   "campusBusTitle": "キャンパスバス",
   "campusBusNearestStop": "最寄り: {stopName}",
   "@campusBusNearestStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
   "campusBusTargetStop": "指定: {stopName}",
   "@campusBusTargetStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -2211,9 +2219,9 @@
   "settingsWeatherAqiStandard": "AQI 基準",
   "libraryAuthFailed": "認証に失敗: {error}",
   "@libraryAuthFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2224,18 +2232,18 @@
   "libraryCancelSuccess": "予約をキャンセルしました",
   "libraryCancelFailed": "キャンセルに失敗: {error}",
   "@libraryCancelFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "退室しました",
   "libraryCheckoutFailed": "退室に失敗: {error}",
   "@libraryCheckoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2244,40 +2252,40 @@
   "libraryNoRoomData": "閲覧室データがありません",
   "libraryFloor": "{floor}階",
   "@libraryFloor": {
-    "placeholders": {
-      "floor": {
-        "type": "int"
+   "placeholders": {
+     "floor": {
+       "type": "int"
       }
     }
   },
   "libraryAvailable": "空席 {free}/{total}",
   "@libraryAvailable": {
-    "placeholders": {
-      "free": {
-        "type": "int"
+   "placeholders": {
+     "free": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-    "placeholders": {
-      "building": {
-        "type": "String"
+   "placeholders": {
+     "building": {
+       "type": "String"
       },
-      "room": {
-        "type": "String"
+     "room": {
+       "type": "String"
       }
     }
   },
   "libraryNoSeatData": "座席データがありません",
   "librarySeatLayoutFailed": "座席図の読み込み失敗: {error}",
   "@librarySeatLayoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2291,17 +2299,17 @@
   "libraryCaptchaAutoVerifying": "自動認証中…",
   "libraryCaptchaRetrying": "再試行中（{count}）…",
   "@libraryCaptchaRetrying": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "libraryBookFailed": "予約に失敗: {error}",
   "@libraryBookFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2318,9 +2326,9 @@
   "libraryTomorrow": "明日",
   "emptyClassroomSelfStudyTitle": "{location} 自習",
   "@emptyClassroomSelfStudyTitle": {
-    "placeholders": {
-      "location": {
-        "type": "String"
+   "placeholders": {
+     "location": {
+       "type": "String"
       }
     }
   },
@@ -2330,12 +2338,12 @@
   "addToAgendaConfirm": "追加",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "venue": {
-        "type": "String"
+     "venue": {
+       "type": "String"
       }
     }
   },
@@ -2365,9 +2373,9 @@
   "settingsAiFetchModels": "モデルを取得",
   "settingsAiFetchedCount": "{count} 件のモデルを取得",
   "@settingsAiFetchedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2390,9 +2398,9 @@
   "ecardPaycodeRefreshNow": "今すぐ更新",
   "ecardPaycodeRefreshInSeconds": "{seconds}秒後に更新",
   "@ecardPaycodeRefreshInSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -2404,9 +2412,9 @@
   "waterControlCancelTitle": "このコードを無効にしますか？",
   "waterControlCancelMessage": "{dormitory}の有効なコードはすぐに使えなくなります。",
   "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
+   "placeholders": {
+     "dormitory": {
+       "type": "String"
       }
     }
   },
@@ -2419,9 +2427,9 @@
   "waterControlAccountFallback": "キャンパスカードのアカウント",
   "waterControlUpdatedAt": "更新: {time}",
   "@waterControlUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2431,12 +2439,12 @@
   "waterControlExpiryUnknown": "このコードの有効期限は確認できません",
   "waterControlExpiresIn": "残り約{hours}時間{minutes}分",
   "@waterControlExpiresIn": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -2458,9 +2466,9 @@
   "waterControlSearchDormitory": "寮名またはClassNoで検索",
   "waterControlDormitoryCount": "{count}か所",
   "@waterControlDormitoryCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2485,9 +2493,9 @@
   "studyStatusFetchFailed": "取得失敗",
   "studyStatusStatsTime": "統計 {time}",
   "@studyStatusStatsTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2501,83 +2509,83 @@
   "studyStatusOutOfPlan": "計画外",
   "studyStatusTotalCourses": "{count}科目",
   "@studyStatusTotalCourses": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "合格{count}",
   "@studyStatusPassedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "不合格{count}",
   "@studyStatusFailedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "履修中{count}",
   "@studyStatusStudyingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "要{credits}単位",
   "@studyStatusRequiredCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "取得{credits}単位",
   "@studyStatusEarnedCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "科目データなし",
   "studyStatusCredits": "{credit}単位",
   "@studyStatusCredits": {
-    "placeholders": {
-      "credit": {
-        "type": "String"
+   "placeholders": {
+     "credit": {
+       "type": "String"
       }
     }
   },
   "studyStatusRetake": "再履修",
   "studyStatusScorePoints": "{score}点",
   "@studyStatusScorePoints": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "元{score}点",
   "@studyStatusOriginalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "GP {point}",
   "@studyStatusGradePoint": {
-    "placeholders": {
-      "point": {
-        "type": "Object"
+   "placeholders": {
+     "point": {
+       "type": "Object"
       }
     }
   },
@@ -2626,9 +2634,9 @@
   "onboardingPermissionSkipTitle": "権限をスキップしますか？",
   "onboardingPermissionSkipMessage": "{permissions}がないと、一部の機能が利用できません。後から許可できます。",
   "@onboardingPermissionSkipMessage": {
-    "placeholders": {
-      "permissions": {
-        "type": "String"
+   "placeholders": {
+     "permissions": {
+       "type": "String"
       }
     }
   },
@@ -2649,9 +2657,9 @@
   "settingsDevRestartOnboardingAction": "やり直す",
   "onboardingPermissionRequestFailed": "{permission}の許可を取得できませんでした",
   "@onboardingPermissionRequestFailed": {
-    "placeholders": {
-      "permission": {
-        "type": "String"
+   "placeholders": {
+     "permission": {
+       "type": "String"
       }
     }
   },
@@ -2743,17 +2751,17 @@
   "scoreTranscriptNoTemplates": "このアカウントで利用可能な成績証明書テンプレートはありません。",
   "scoreTranscriptLoadFailed": "成績証明書の種類を読み込めませんでした: {error}",
   "@scoreTranscriptLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "認証済み電子証明書を取得できませんでした: {error}",
   "@scoreTranscriptFetchFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2782,9 +2790,9 @@
   "authMfaTitle": "二段階認証",
   "authMfaEmailSent": "確認コードを {email} に送信しました",
   "@authMfaEmailSent": {
-    "placeholders": {
-      "email": {
-        "type": "String"
+   "placeholders": {
+     "email": {
+       "type": "String"
       }
     }
   },
@@ -2801,9 +2809,9 @@
   "commonRetry": "再試行",
   "commonLoadFailed": "読み込みに失敗しました: {error}",
   "@commonLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2857,9 +2865,9 @@
   "authApiCredentialSaved": "保存しました",
   "authApiCredentialCreateFailed": "認証情報の作成に失敗しました: {error}",
   "@authApiCredentialCreateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2867,12 +2875,12 @@
   "authApiCredentialUnnamed": "名前なし",
   "authApiCredentialStatus": "状態: {status} · 作成日: {date}",
   "@authApiCredentialStatus": {
-    "placeholders": {
-      "status": {
-        "type": "String"
+   "placeholders": {
+     "status": {
+       "type": "String"
       },
-      "date": {
-        "type": "String"
+     "date": {
+       "type": "String"
       }
     }
   },
@@ -2881,9 +2889,9 @@
   "authApiCredentialRevoke": "無効化",
   "authApiCredentialRevokeFailed": "認証情報の無効化に失敗しました: {error}",
   "@authApiCredentialRevokeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2900,15 +2908,15 @@
   "authSessionsUnknown": "不明",
   "authSessionsDetails": "IP: {ip}\n最終アクティブ: {lastActive}\nログイン日時: {signedIn}",
   "@authSessionsDetails": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       },
-      "lastActive": {
-        "type": "String"
+     "lastActive": {
+       "type": "String"
       },
-      "signedIn": {
-        "type": "String"
+     "signedIn": {
+       "type": "String"
       }
     }
   },
@@ -2916,9 +2924,9 @@
   "authSessionsSignOutSucceeded": "デバイスからログアウトしました",
   "authSessionsSignOutFailed": "デバイスからのログアウトに失敗しました: {error}",
   "@authSessionsSignOutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2926,42 +2934,42 @@
   "authPasskeyDeviceName": "デバイス名",
   "authPasskeyRegisterFailed": "Passkey の登録に失敗しました: {error}",
   "@authPasskeyRegisterFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasskeysDescription": "{count} 件登録済み。Passkey はデバイスのシステム生体認証を使用します。",
   "@authPasskeysDescription": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "対応デバイスで生体認証キーを登録",
   "authPasskeyCreatedAt": "作成日: {date}",
   "@authPasskeyCreatedAt": {
-    "placeholders": {
-      "date": {
-        "type": "String"
+   "placeholders": {
+     "date": {
+       "type": "String"
       }
     }
   },
   "authPasskeyDeleteFailed": "Passkey の削除に失敗しました: {error}",
   "@authPasskeyDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authOperationFailed": "操作に失敗しました: {error}",
   "@authOperationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2970,17 +2978,17 @@
   "authWhuBindingSucceeded": "アカウントを連携しました",
   "authWhuBindingFailed": "アカウントの連携に失敗しました: {error}",
   "@authWhuBindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "現在の珞家アカウントを連携（{studentId}）",
   "@authWhuBindingCurrent": {
-    "placeholders": {
-      "studentId": {
-        "type": "String"
+   "placeholders": {
+     "studentId": {
+       "type": "String"
       }
     }
   },
@@ -2989,9 +2997,9 @@
   "authWhuUnbindingSucceeded": "アカウントの連携を解除しました",
   "authWhuUnbindingFailed": "アカウントの連携解除に失敗しました: {error}",
   "@authWhuUnbindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3003,9 +3011,9 @@
   "authDeleteAccountConfirm": "アカウントを削除",
   "authDeleteAccountFailed": "アカウントの削除に失敗しました: {error}",
   "@authDeleteAccountFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3024,9 +3032,9 @@
   "authBio": "自己紹介",
   "authProfileUpdateFailed": "プロフィールの更新に失敗しました: {error}",
   "@authProfileUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3035,9 +3043,9 @@
   "authPasswordChanged": "パスワードを変更しました。もう一度ログインしてください。",
   "authPasswordChangeFailed": "パスワードの変更に失敗しました: {error}",
   "@authPasswordChangeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3046,9 +3054,9 @@
   "authRegistrationBindWhuAccount": "WHU アカウントを連携",
   "authPasswordMinLength": "パスワードは {count} 文字以上にしてください",
   "@authPasswordMinLength": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3070,16 +3078,16 @@
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "@courseGradeStatsSamples": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3087,9 +3095,9 @@
   "courseGradeStatsDistribution": "成績分布",
   "courseGradeStatsTotalScore": "総合点（0～100）",
   "@courseGradeStatsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3098,9 +3106,9 @@
   "courseReviewsWrite": "匿名レビューを書く",
   "courseReviewsAnonymousStudent": "匿名の学生 · {semester}",
   "@courseReviewsAnonymousStudent": {
-    "placeholders": {
-      "semester": {
-        "type": "String"
+   "placeholders": {
+     "semester": {
+       "type": "String"
       }
     }
   },
@@ -3109,9 +3117,9 @@
   "courseReviewsRating": "評価",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-    "placeholders": {
-      "rating": {
-        "type": "String"
+   "placeholders": {
+     "rating": {
+       "type": "String"
       }
     }
   },
@@ -3119,25 +3127,25 @@
   "courseReviewsSubmitted": "レビューを提出しました。承認後に表示されます。",
   "courseReviewsSubmitFailed": "レビューの投稿に失敗しました: {error}",
   "@courseReviewsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "対象の授業を {count} 件同期しました。",
   "@courseReviewsSyncSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "同期に失敗しました: {error}",
   "@courseReviewsSyncFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3147,17 +3155,17 @@
   "forumSelectedBoardUnavailable": "利用可能な掲示板を選択してください。",
   "forumBoardShelter": "シェルター {name}",
   "@forumBoardShelter": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "forumBoardsLoadFailed": "掲示板の読み込みに失敗しました: {error}",
   "@forumBoardsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3168,9 +3176,9 @@
   "forumSupportedAttachmentFormats": "対応ファイル形式",
   "forumAttachmentUploadFailed": "添付ファイルのアップロードに失敗しました: {error}",
   "@forumPostsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3179,9 +3187,9 @@
   "forumPublish": "公開",
   "forumPublishFailed": "公開に失敗しました: {error}",
   "@forumPublishFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3189,15 +3197,15 @@
   "forumAnonymous": "匿名",
   "forumPostMetadata": "{author} · 返信 {comments} 件 · 高評価 {upvotes} 件",
   "@forumPostMetadata": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       },
-      "comments": {
-        "type": "int"
+     "comments": {
+       "type": "int"
       },
-      "upvotes": {
-        "type": "int"
+     "upvotes": {
+       "type": "int"
       }
     }
   },
@@ -3207,9 +3215,9 @@
   "forumReply": "返信",
   "forumRepliesLoadFailed": "返信の読み込みに失敗しました: {error}",
   "@forumRepliesLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3218,9 +3226,9 @@
   "forumSend": "送信",
   "forumReplyFailed": "返信に失敗しました: {error}",
   "@forumReplyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3235,9 +3243,9 @@
   "forumShelterPrivacyDescription": "あなたの匿名名はこのトピック内でのみ一貫して表示されます。アバターやプロフィールは表示されず、この投稿は24時間後に期限切れになります。",
   "forumShelterExpiresIn": "期限切れまで {time}",
   "@forumShelterExpiresIn": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3247,9 +3255,9 @@
   "authPasswordResetEmail": "メールアドレス",
   "authPasswordResetSendFailed": "送信に失敗しました: {error}",
   "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3260,9 +3268,9 @@
   "courseReviewsStatusRejected": "却下されました",
   "courseReviewsRejectionReason": "審査コメント: {reason}",
   "@courseReviewsRejectionReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -3272,18 +3280,18 @@
   "courseReviewsDeleted": "レビューを削除しました。",
   "courseReviewsDeleteFailed": "レビューの削除に失敗しました: {error}",
   "@courseReviewsDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "レビューを更新し、再度審査に提出しました。",
   "courseReviewsUpdateFailed": "レビューの更新に失敗しました: {error}",
   "@courseReviewsUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3335,18 +3343,18 @@
   "campusLayoutDragHint": "アプリをドラッグして並べ替えるか、フォルダーを作成します",
   "campusLayoutColumns": "1 行に {count} 個",
   "@campusLayoutColumns": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "変更した授業を上書きしますか？",
   "courseImportOverwriteModifiedMessage": "この学期の {count} 件の授業が手動で変更されています。インポートを続行すると、これらの変更が上書きされます。",
   "@courseImportOverwriteModifiedMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3355,9 +3363,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "個別に確認",
   "courseImportModifiedRecordMessage": "変更された授業の予定: {time}\nこの記録の処理方法を選択してください。",
   "@courseImportModifiedRecordMessage": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3375,9 +3383,9 @@
   "detailStatusInactive": "完了を追跡しない",
   "detailConflictWithItems": "{items} と時間が重複しています。保存は可能です。",
   "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3387,9 +3395,9 @@
   "editorCompletionModeNone": "表示のみ",
   "editorConflictWithItems": "{items} と時間が重複しています。保存は可能です。",
   "@editorConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3397,9 +3405,9 @@
   "commonOk": "OK",
   "whuAccountEducationalYearsValue": "{years} 年",
   "@whuAccountEducationalYearsValue": {
-    "placeholders": {
-      "years": {
-        "type": "int"
+   "placeholders": {
+     "years": {
+       "type": "int"
       }
     }
   },
@@ -3478,9 +3486,9 @@
   "authRegisteredDevicesEmpty": "登録済みのデバイスはありません。",
   "authRegisteredDeviceLastSeen": "最終登録: {time}",
   "@authRegisteredDeviceLastSeen": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3545,40 +3553,40 @@
   "settingsCourseReminderUseDefault": "グループ既定を使用（{minutes} 分）",
   "settingsCourseReminderCustom": "カスタム：{minutes} 分",
   "@listDeleteSelectedConfirmMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -3590,9 +3598,9 @@
   "campusBusArrivalStop": "停留所",
   "campusBusArrivalUseNearest": "最寄りを使用：{stopName}",
   "@campusBusArrivalUseNearest": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -3600,9 +3608,9 @@
   "campusBusArrivalReminder": "到着リマインダー",
   "campusBusArrivalEnabledTarget": "リマインダー対象：{targetText}",
   "@campusBusArrivalEnabledTarget": {
-    "placeholders": {
-      "targetText": {
-        "type": "String"
+   "placeholders": {
+     "targetText": {
+       "type": "String"
       }
     }
   },
@@ -3626,9 +3634,9 @@
   "medicalIdOther": "その他",
   "medicalGreeting": "こんにちは、{name}さん",
   "@medicalGreeting": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3798,9 +3806,9 @@
   "adminStatusNoWorkers": "No workers online",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -3887,9 +3895,9 @@
   "adminForumConfigLogEmpty": "設定変更の記録はありません。",
   "adminForumConfigLogActor": "操作者",
   "@adminUsersSetRole": {
-    "placeholders": {
-      "role": {
-        "type": "String"
+   "placeholders": {
+     "role": {
+       "type": "String"
       }
     }
   },
@@ -3904,12 +3912,12 @@
   "scorePageTrendGpa": "学期GPAの推移",
   "scorePageSemesterLabel": "{year}年度 - 第{semester}学期",
   "@scorePageSemesterLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "semester": {
-        "type": "int"
+     "semester": {
+       "type": "int"
       }
     }
   },
@@ -3946,12 +3954,12 @@
   "aiAutomationFullyAutomaticDescription": "すべての操作を自動的に確認し、完全な記録を保持します。",
   "aiConfirmationAutoApproved": "{count} 件の操作を自動承認しました（{mode}）",
   "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "mode": {
-        "type": "String"
+     "mode": {
+       "type": "String"
       }
     }
   },
@@ -4115,9 +4123,9 @@
   "courseMatchingNoConflicts": "時間重複なし",
   "courseMatchingConflictsCount": "{count}件の時間重複",
   "@courseMatchingConflictsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4137,9 +4145,9 @@
   "schoolNetCheckpointTooltip": "取水コードのキャプチャチェックポイントを記録",
   "schoolNetCheckpointDevicesLoaded": "{count}台のオンラインデバイスを取得しました",
   "@schoolNetCheckpointDevicesLoaded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4160,9 +4168,9 @@
   "aiModelRequestCancelled": "AIリクエストがキャンセルされました",
   "aiModelHttpError": "AI HTTPエラー ({statusCode})",
   "@aiModelHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4181,33 +4189,33 @@
   "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range}週",
   "@courseWeekRangeAll": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "{range}週(単)",
   "@courseWeekRangeOdd": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "{range}週(複)",
   "@courseWeekRangeEven": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "sportsAreaLabel": "{no}番コート",
   "@sportsAreaLabel": {
-    "placeholders": {
-      "no": {
-        "type": "Object"
+   "placeholders": {
+     "no": {
+       "type": "Object"
       }
     }
   },
@@ -4227,9 +4235,9 @@
   "whuSmartCampusAuthFailedCasRequired": "スマート珞珈の認証に失敗しました。WHU CAS経由で再ログインしてください。",
   "whuSmartCampusAuthFailedHttp": "スマート珞珈の認証に失敗しました (HTTP {statusCode})。",
   "@whuSmartCampusAuthFailedHttp": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4503,5 +4511,24 @@
   "waterElectricSnifferPaymentCompleted": "支払い完了",
   "waterElectricSnifferPostPaymentVerified": "支払い後の確認",
   "waterElectricNotificationTitle": "水道・電気料金残高アラート",
-  "waterElectricNotificationBody": "{room} · {meter}: {balance}{unit}、{threshold} しきい値を下回ります。"
+  "waterElectricNotificationBody": "{room} · {meter}: {balance}{unit}、{threshold} しきい値を下回ります。",
+  "courseImportUnnamedCourse": "名前のないコース",
+  "wakeupWeekSuffixOdd": "奇数",
+  "wakeupWeekSuffixEven": "偶数",
+  "notificationOpenAction": "通知を開く",
+  "aiAgentVerifyingResult": "結果を検証中…",
+  "aiAgentResultUnverifiable": "最終的に検証できませんでした。手動検証をお勧めします",
+  "aiAgentFailureNotConfigured": "まず設定で AI の構成を完了してください。",
+  "aiAgentFailureFormatUnsupported": "現在の AI サービスの設定では Agent をサポートしていません。",
+  "aiAgentFailureAbnormalResponse": "AI サービスから異常な応答が返されました。未確認の操作は実行されませんでした。もう一度お試しください。",
+  "aiAgentFailureRetry": "このリクエストは完了できませんでした。後でもう一度お試しください。",
+  "whuEmailParserLabel": "WHU メール応答パーサー",
+  "whuMessagesMarkReadFailed": "既読にできませんでした",
+  "whuMessagesRequestFailed": "リクエストに失敗しました",
+  "whuScoreExamTypeNormal": "正規試験",
+  "whuScoreMidtermWithdraw": "中期履修取消",
+  "whuLibraryResultUnknown": "図書館の操作結果が不明です。再試行するかどうかを判断する前に、状態を更新してください。",
+  "sportsAuthFailedCasRequired": "運動施設システムの認証に失敗しました。WHU CAS 経由で再度ログインしてください。",
+  "waterControlAccountExchangeFailed": "水道アカウントの交換に失敗しました。",
+  "courseTimetableLocalFileDefaultName": "ローカル時間割"
 }

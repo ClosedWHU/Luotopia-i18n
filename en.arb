@@ -9,7 +9,7 @@
   "alwaysShow": "Always show",
   "appTitle": "Luotopia",
   "@appTitle": {
-    "description": "Product brand name. Use 珞家 in Chinese, Cantonese, and Japanese locales; use 뤄자 in Korean; use Luotopia in all other locales. Apply the same locale-specific brand spelling wherever the product is named."
+   "description": "Product brand name. Use 珞家 in Chinese, Cantonese, and Japanese locales; use 뤄자 in Korean; use Luotopia in all other locales. Apply the same locale-specific brand spelling wherever the product is named."
   },
   "baseColorForStaticTheme": "Base color for static theme",
   "badgeItemEmail": "{count, plural, one{{count} new email} other{{count} new emails}}",
@@ -17,30 +17,30 @@
   "badgeItemMessages": "{count, plural, one{{count} new message} other{{count} new messages}}",
   "badgeItemTasks": "{count, plural, one{{count} incomplete task} other{{count} incomplete tasks}}",
   "@badgeItemEmail": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@badgeItemForum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@badgeItemMessages": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@badgeItemTasks": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -53,12 +53,12 @@
   "busArrivalStatusNoInfo": "No bus info available",
   "busArrivalStatusStopsAway": "{busNum} · {stopsAway} {stopsAway, plural, one{stop away} other{stops away}}",
   "@busArrivalStatusStopsAway": {
-    "placeholders": {
-      "busNum": {
-        "type": "String"
+   "placeholders": {
+     "busNum": {
+       "type": "String"
       },
-      "stopsAway": {
-        "type": "int"
+     "stopsAway": {
+       "type": "int"
       }
     }
   },
@@ -115,9 +115,9 @@
   "schoolNetCancelSeamlessAuthTitle": "Disable seamless sign-in?",
   "schoolNetCancelSeamlessAuthMessage": "{device} will require authentication the next time it connects.",
   "@schoolNetCancelSeamlessAuthMessage": {
-    "placeholders": {
-      "device": {
-        "type": "String"
+   "placeholders": {
+     "device": {
+       "type": "String"
       }
     }
   },
@@ -126,9 +126,9 @@
   "schoolNetDisconnectDeviceTitle": "Disconnect this device?",
   "schoolNetDisconnectDeviceMessage": "{device} will immediately lose its current campus network connection.",
   "@schoolNetDisconnectDeviceMessage": {
-    "placeholders": {
-      "device": {
-        "type": "String"
+   "placeholders": {
+     "device": {
+       "type": "String"
       }
     }
   },
@@ -149,9 +149,9 @@
   "schoolNetPayConfirmTitle": "Create top-up order?",
   "schoolNetPayConfirmMessage": "Create an order for ¥{amount}? Do not submit another order after continuing.",
   "@schoolNetPayConfirmMessage": {
-    "placeholders": {
-      "amount": {
-        "type": "String"
+   "placeholders": {
+     "amount": {
+       "type": "String"
       }
     }
   },
@@ -164,9 +164,9 @@
   "schoolNetPaySuccessMessage": "Your network fee has been credited successfully.",
   "schoolNetPaySuccessAmount": "Your payment of ¥{amount} has been credited.",
   "@schoolNetPaySuccessAmount": {
-    "placeholders": {
-      "amount": {
-        "type": "String"
+   "placeholders": {
+     "amount": {
+       "type": "String"
       }
     }
   },
@@ -228,9 +228,9 @@
   "campusLayoutDragHint": "Drag apps to reorder or create folders",
   "campusLayoutColumns": "{count} per row",
   "@campusLayoutColumns": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -260,9 +260,9 @@
   "courseImportOverwriteModifiedTitle": "Overwrite modified courses?",
   "courseImportOverwriteModifiedMessage": "{count} courses in this term were manually modified. Continuing the import will overwrite those changes.",
   "@courseImportOverwriteModifiedMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -271,9 +271,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "Review individually",
   "courseImportModifiedRecordMessage": "Modified course occurrence: {time}\nChoose how to handle this record.",
   "@courseImportModifiedRecordMessage": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -294,9 +294,9 @@
   "listDeleteSelectedConfirmTitle": "Delete selected items?",
   "listDeleteSelectedConfirmMessage": "{count} items will be removed permanently.",
   "@listDeleteSelectedConfirmMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -311,9 +311,9 @@
   "detailStatusInactive": "Completion not tracked",
   "detailConflictWithItems": "Overlaps with {items}. You can still save.",
   "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -355,9 +355,9 @@
   "editorCompletionModeNone": "Display only",
   "editorConflictWithItems": "Overlaps with {items}. You can still save.",
   "@editorConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -387,34 +387,34 @@
   "editorCoursePeriodEnd": "End period",
   "editorCoursePeriodN": "Period {n}",
   "@editorCoursePeriodN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "Period {n}\n{time}",
   "@editorCoursePeriodSingle": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "Periods {from}-{to}\n{time}",
   "@editorCoursePeriodRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
+   "placeholders": {
+     "from": {
+       "type": "int"
       },
-      "to": {
-        "type": "int"
+     "to": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -422,9 +422,9 @@
   "editorCourseWeekEnd": "End week",
   "editorCourseWeekN": "Week {n}",
   "@editorCourseWeekN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
@@ -625,17 +625,17 @@
   "scoreTranscriptNoTemplates": "No transcript templates are available for this account.",
   "scoreTranscriptLoadFailed": "Failed to load transcript types: {error}",
   "@scoreTranscriptLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "Failed to get verified electronic credential: {error}",
   "@scoreTranscriptFetchFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -657,17 +657,17 @@
   "settingsLicensesTitle": "Open Source Licenses",
   "licenseAuthor": "Author: {author}",
   "@licenseAuthor": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       }
     }
   },
   "licenseVersion": "Version: {version}",
   "@licenseVersion": {
-    "placeholders": {
-      "version": {
-        "type": "String"
+   "placeholders": {
+     "version": {
+       "type": "String"
       }
     }
   },
@@ -783,6 +783,14 @@
   "sportsRetry": "Retry",
   "sportsSelectDateFirst": "Please select a date first",
   "sportsSelectTimeSlot": "Select Time Slot",
+  "sportsReservableSlotsCount": "{count} slots",
+  "@sportsReservableSlotsCount": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "sportsSelectVenue": "Select Venue",
   "startImport": "Start Import",
   "tapToSelect": "Tap to select",
@@ -825,17 +833,17 @@
   "whuAccountVerifyEmailFailed": "Unable to verify this email",
   "whuAccountVerifyEmailWaiting": "Wait {seconds}s",
   "@whuAccountVerifyEmailWaiting": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
   "whuAccountVerifyMobileWaiting": "Wait {seconds}s",
   "@whuAccountVerifyMobileWaiting": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -849,9 +857,9 @@
   "whuAccountEducationalYears": "Program length",
   "whuAccountEducationalYearsValue": "{years} years",
   "@whuAccountEducationalYearsValue": {
-    "placeholders": {
-      "years": {
-        "type": "int"
+   "placeholders": {
+     "years": {
+       "type": "int"
       }
     }
   },
@@ -888,274 +896,274 @@
   "whuLoginWebViewLoading": "Loading...",
   "whuLoginWebViewTitle": "WHU Login",
   "@editorDurationHourMinute": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
+   "placeholders": {
+     "classroom": {
+       "type": "String"
       },
-      "section": {
-        "type": "int"
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
+   "placeholders": {
+     "sections": {
+       "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
+   "placeholders": {
+     "expanded": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-    "placeholders": {
-      "floor": {
-        "type": "String"
+   "placeholders": {
+     "floor": {
+       "type": "String"
       },
-      "available": {
-        "type": "int"
+     "available": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-    "placeholders": {
-      "section": {
-        "type": "int"
+   "placeholders": {
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-    "placeholders": {
-      "day": {
-        "type": "String"
+   "placeholders": {
+     "day": {
+       "type": "String"
       },
-      "endDay": {
-        "type": "String"
+     "endDay": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
+   "placeholders": {
+     "month": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "term": {
-        "type": "String"
+     "term": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "month": {
-        "type": "String"
+     "month": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
+   "placeholders": {
+     "weekday": {
+       "type": "String"
       }
     }
   },
   "@hourH": {
-    "placeholders": {
-      "hour": {}
+   "placeholders": {
+     "hour": {}
     }
   },
   "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
+   "placeholders": {
+     "timeStr": {}
     }
   },
   "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@minuteMin": {
-    "placeholders": {
-      "minute": {}
+   "placeholders": {
+     "minute": {}
     }
   },
   "@semS": {
-    "placeholders": {
-      "s": {}
+   "placeholders": {
+     "s": {}
     }
   },
   "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "@yy1": {
-    "placeholders": {
-      "y": {},
-      "yPlus1": {}
+   "placeholders": {
+     "y": {},
+     "yPlus1": {}
     }
   },
   "courseImportStatusImported": "Import finished: {count} items, {currentWeek} in current week.",
   "@courseImportStatusImported": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "currentWeek": {
-        "type": "int"
+     "currentWeek": {
+       "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "Imported {count} items to \"{tableName}\".",
   "@courseImportSnackSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "tableName": {
-        "type": "String"
+     "tableName": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusFailed": "Import failed: {error}",
   "@courseImportStatusFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "{year}-{next}",
   "@courseImportAcademicYearLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "next": {
-        "type": "int"
+     "next": {
+       "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "Sem {semester}",
   "@courseImportSemesterLabel": {
-    "placeholders": {
-      "semester": {
-        "type": "int"
+   "placeholders": {
+     "semester": {
+       "type": "int"
       }
     }
   },
@@ -1166,9 +1174,9 @@
   "editorCourseNatureHint": "Course nature (e.g. Required/Elective)",
   "editorChangeScopeTitle": "Change only this item, or every course named \"{title}\"?",
   "@editorChangeScopeTitle": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1181,9 +1189,9 @@
   "aiMemo": "Memo",
   "aiDraftReady": "Draft ready: {title}",
   "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1205,9 +1213,9 @@
   "aiClearConversationsWarning": "All local AI conversations will be cleared.",
   "aiConfirmationBatchTitle": "Confirm {count} actions",
   "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1229,12 +1237,12 @@
   "aiAutomationFullyAutomaticDescription": "Every action is confirmed automatically, with a complete record kept.",
   "aiConfirmationAutoApproved": "Auto-confirmed {count} actions ({mode})",
   "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "mode": {
-        "type": "String"
+     "mode": {
+       "type": "String"
       }
     }
   },
@@ -1265,35 +1273,35 @@
   "scorePageTrendGpa": "Term GPA trend",
   "scorePageSemesterLabel": "{year} - Term {semester}",
   "@scorePageSemesterLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "semester": {
-        "type": "int"
+     "semester": {
+       "type": "int"
       }
     }
   },
   "scorePageBiometricAuthFailed": "Biometric authentication failed",
   "scorePageCourseInfo": "{type} · {credit} credits · {instructor}",
   "@scorePageCourseInfo": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       },
-      "instructor": {
-        "type": "String"
+     "instructor": {
+       "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "GPA: {gpa}",
   "@scorePageGpaDisplay": {
-    "placeholders": {
-      "gpa": {
-        "type": "String"
+   "placeholders": {
+     "gpa": {
+       "type": "String"
       }
     }
   },
@@ -1302,9 +1310,9 @@
   "settingsDevModeActivated": "Developer mode activated! You can now use developer settings.",
   "settingsDevModeTapCount": "Tap {count} more times to enable developer mode",
   "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1333,9 +1341,9 @@
   "settingsNotificationChannelNotCreated": "Not created yet",
   "settingsNotificationChannelCurrent": "Current: {level}",
   "@settingsNotificationChannelCurrent": {
-    "placeholders": {
-      "level": {
-        "type": "String"
+   "placeholders": {
+     "level": {
+       "type": "String"
       }
     }
   },
@@ -1354,9 +1362,9 @@
   "settingsClearCacheSubtitle": "Free temporary files and cached data",
   "settingsCacheCleared": "Cache cleared: freed {size}",
   "@settingsCacheCleared": {
-    "placeholders": {
-      "size": {
-        "type": "String"
+   "placeholders": {
+     "size": {
+       "type": "String"
       }
     }
   },
@@ -1366,18 +1374,18 @@
   "settingsDevSaveSuccess": "Saved: Server URL updated",
   "settingsDevScanSuccess": "Server found: {ip}:6262",
   "@settingsDevScanSuccess": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "No API server found on port 6262 on the local network",
   "settingsDevScanError": "Scan failed: {error}",
   "@settingsDevScanError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1407,9 +1415,9 @@
   "whuLoginVerifying": "Verifying login status...",
   "whuLoginVerificationFailed": "Login status verification failed: {error}",
   "@whuLoginVerificationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1420,9 +1428,9 @@
   "libraryNoVenues": "No venues available",
   "libraryLoadFailed": "Failed to load: {error}",
   "@libraryLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1434,24 +1442,24 @@
   "globalTimetableLocalImport": "Import to this device",
   "globalTimetableLocalImportMessage": "Download and save {year}-{nextYear}, term {term}, directly from the WHU education system on this device. The data and your education session will not be uploaded to Luotopia. Local data will be used before cloud data for search and filtering.",
   "@globalTimetableLocalImportMessage": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "nextYear": {
-        "type": "int"
+     "nextYear": {
+       "type": "int"
       },
-      "term": {
-        "type": "int"
+     "term": {
+       "type": "int"
       }
     }
   },
   "globalTimetableLocalImportStart": "Download and save",
   "globalTimetableLocalImportSuccess": "Saved {count} schedule entries on this device.",
   "@globalTimetableLocalImportSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1463,15 +1471,15 @@
   "globalTimetableContributionTitle": "Contribute the university-wide timetable",
   "globalTimetableContributionMessage": "Authorize Luotopia with a one-time WHU CAS ticket. The server worker will import {year}-{nextYear}, term {term}, directly from the WHU education system in the background. Your WHU identity must match the one bound to your Luotopia account.",
   "@globalTimetableContributionMessage": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "nextYear": {
-        "type": "int"
+     "nextYear": {
+       "type": "int"
       },
-      "term": {
-        "type": "int"
+     "term": {
+       "type": "int"
       }
     }
   },
@@ -1481,26 +1489,26 @@
   "globalTimetableContributionUnsupported": "Timetable contribution is not available on this platform.",
   "globalTimetableResults": "{count} results",
   "@globalTimetableResults": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "globalTimetableCachedData": "Cached data",
   "globalTimetableTerm": "Term {term}",
   "@globalTimetableTerm": {
-    "placeholders": {
-      "term": {
-        "type": "int"
+   "placeholders": {
+     "term": {
+       "type": "int"
       }
     }
   },
   "globalTimetableImportStatus": "Import: {phase}",
   "@globalTimetableImportStatus": {
-    "placeholders": {
-      "phase": {
-        "type": "String"
+   "placeholders": {
+     "phase": {
+       "type": "String"
       }
     }
   },
@@ -1515,45 +1523,45 @@
   "globalTimetablePhaseFailed": "Failed",
   "globalTimetableImportCounts": "Fetched {fetched}; stored {stored}",
   "@globalTimetableImportCounts": {
-    "placeholders": {
-      "fetched": {
-        "type": "int"
+   "placeholders": {
+     "fetched": {
+       "type": "int"
       },
-      "stored": {
-        "type": "int"
+     "stored": {
+       "type": "int"
       }
     }
   },
   "settingsAiConnectionSuccess": "AI connection test successful.",
   "settingsAiConnectionFailed": "Connection failed: {error}",
   "@settingsAiConnectionFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "Loading {name}...",
   "@luojiaEcardLoading": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "Preparing {name}...",
   "@luojiaEcardPreparing": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "pagePreparationFailed": "Page preparation failed: {error}",
   "@pagePreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1565,9 +1573,9 @@
   "whuCasServiceAuthFailed": "Service authorization failed. Please re-login to WHU CAS.",
   "whuCasServiceRequestFailed": "Service authorization request failed: {error}",
   "@whuCasServiceRequestFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1575,25 +1583,25 @@
   "whuCasSessionExpired": "Academic session expired, please re-login.",
   "whuCasSessionVerifyFailed": "Academic session verification failed: {error}",
   "@whuCasSessionVerifyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "Failed to fetch academic account info (HTTP {code}).",
   "@whuCasFetchFailed": {
-    "placeholders": {
-      "code": {
-        "type": "int"
+   "placeholders": {
+     "code": {
+       "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "Academic login failed: {reason}",
   "@whuCasLoginFailedReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -1614,28 +1622,28 @@
   "gradesReviewsNoResults": "No courses found",
   "gradesReviewsSearchError": "Search failed: {error}",
   "@gradesReviewsSearchError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       },
-      "department": {
-        "type": "String"
+     "department": {
+       "type": "String"
       }
     }
   },
   "courseDetailTitle": "Course Detail: {uid}",
   "@courseDetailTitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       }
     }
   },
@@ -1645,33 +1653,33 @@
   "courseAuditPlaceholder": "Audit courses feature is under development...",
   "gradesReviewsSearchFailMessage": "Search failed: {message}",
   "@gradesReviewsSearchFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "Failed to load grade distribution: {message}",
   "@gradesReviewsGradeStatsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "Failed to load reviews: {message}",
   "@gradesReviewsReviewsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "Timetable {index}",
   "@courseTimetableDefaultName": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -1709,9 +1717,9 @@
   "sportsReservationDayAfterTomorrow": "Day after tomorrow",
   "sportsVenueCourtFormat": "Court {areaNo}",
   "@sportsVenueCourtFormat": {
-    "placeholders": {
-      "areaNo": {
-        "type": "String"
+   "placeholders": {
+     "areaNo": {
+       "type": "String"
       }
     }
   },
@@ -1733,28 +1741,28 @@
   "sportsVenueFree": "Free",
   "sportsVenuePriceFormat": "{price} CNY",
   "@sportsVenuePriceFormat": {
-    "placeholders": {
-      "price": {
-        "type": "String"
+   "placeholders": {
+     "price": {
+       "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
   "@sportsVenuePriceRangeFormat": {
-    "placeholders": {
-      "lowPrice": {
-        "type": "String"
+   "placeholders": {
+     "lowPrice": {
+       "type": "String"
       },
-      "highPrice": {
-        "type": "String"
+     "highPrice": {
+       "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value} CNY",
   "@sportsOrderPriceWithUnitFormat": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
@@ -1784,58 +1792,58 @@
   "sportsFetchBulletins": "Fetch venue bulletins",
   "sportsNetworkError": "{action} failed: network error.",
   "@sportsNetworkError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiHttpError": "{action} failed (HTTP {statusCode}).",
   "@sportsApiHttpError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "statusCode": {
-        "type": "int"
+     "statusCode": {
+       "type": "int"
       }
     }
   },
   "sportsApiFormatError": "{action} failed: response format error.",
   "@sportsApiFormatError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiError": "{action} failed.",
   "@sportsApiError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "{action} failed: {message}",
   "@sportsApiErrorWithMessage": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "message": {
-        "type": "String"
+     "message": {
+       "type": "String"
       }
     }
   },
   "sportsApiJsonError": "{action} failed: response is not valid JSON. {diagnostic}",
   "@sportsApiJsonError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "diagnostic": {
-        "type": "String"
+     "diagnostic": {
+       "type": "String"
       }
     }
   },
@@ -1846,9 +1854,9 @@
   "sportsApiDiagnosticNonJson": "Non-JSON text",
   "sportsApiDiagnosticResponseType": "Response type: {kind}.",
   "@sportsApiDiagnosticResponseType": {
-    "placeholders": {
-      "kind": {
-        "type": "String"
+   "placeholders": {
+     "kind": {
+       "type": "String"
       }
     }
   },
@@ -1864,23 +1872,23 @@
   "scoreImportImportingCredential": "Downloading and parsing the trusted credential locally...",
   "scoreImportSuccessWithCount": "{success}: {count} scores cached locally.",
   "@scoreImportSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}: {error}",
   "@scoreImportFailedWithError": {
-    "placeholders": {
-      "failed": {
-        "type": "String"
+   "placeholders": {
+     "failed": {
+       "type": "String"
       },
-      "error": {
-        "type": "String"
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1888,21 +1896,21 @@
   "scoreImportNoStudentId": "No globally logged-in student ID found",
   "scoreImportSpoilerSuccessWithCount": "{success}: Fetched {count} spoiler score records.",
   "@scoreImportSpoilerSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportLastImport": "Last Import",
   "scoreImportTime": "Time: {time}",
   "@scoreImportTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -1940,24 +1948,24 @@
   "scoreImportParsedCountLabel": "Fetched scores",
   "scoreImportMergedCountLabel": "Merged scores",
   "@scoreImportCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportExample": "{name} · {score} · {credit}",
   "scoreImportExampleLabel": "Example",
   "@scoreImportExample": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       },
-      "score": {
-        "type": "String"
+     "score": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       }
     }
   },
@@ -1967,20 +1975,20 @@
   "seatReservationDraftTitle": "Library Seat Reservation",
   "seatReservationDraftDetails": "Source: WHU Library Seat Reservation System\nSeat ID: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-    "placeholders": {
-      "seatId": {
-        "type": "String"
+   "placeholders": {
+     "seatId": {
+       "type": "String"
       },
-      "marker": {
-        "type": "String"
+     "marker": {
+       "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "Seat reservation sync ID: {sourceId}",
   "@seatReservationSourceMarker": {
-    "placeholders": {
-      "sourceId": {
-        "type": "String"
+   "placeholders": {
+     "sourceId": {
+       "type": "String"
       }
     }
   },
@@ -2017,9 +2025,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} messages",
   "@aiMessageCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2033,15 +2041,15 @@
   "aiHeaderRetryLater": "AI service temporarily unavailable. Please try again later.",
   "aiHeaderDraftCreated": "Item created via draft page: {title}",
   "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
   "themeColorLuotopiaBlue": "Luotopia Blue",
   "@themeColorLuotopiaBlue": {
-    "description": "WHU's traditional Luojia Blue color name. 珞珈 is the correct proper noun here and must not be changed to the product brand 珞家."
+   "description": "WHU's traditional Luojia Blue color name. 珞珈 is the correct proper noun here and must not be changed to the product brand 珞家."
   },
   "themeColorMaterialRed": "Material Red",
   "themeColorMaterialPink": "Material Pink",
@@ -2062,12 +2070,12 @@
   "whuAccountFallbackName": "WHU Account",
   "homeWidgetDateLabel": "{month}/{day}",
   "@homeWidgetDateLabel": {
-    "placeholders": {
-      "month": {
-        "type": "int"
+   "placeholders": {
+     "month": {
+       "type": "int"
       },
-      "day": {
-        "type": "int"
+     "day": {
+       "type": "int"
       }
     }
   },
@@ -2080,17 +2088,17 @@
   "homeWidgetAllDay": "All day",
   "homeWidgetUpdatedAt": "Updated {time}",
   "@homeWidgetUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "Week {week}",
   "@homeWidgetWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "int"
+   "placeholders": {
+     "week": {
+       "type": "int"
       }
     }
   },
@@ -2103,17 +2111,17 @@
   "weatherRainReminderTitle": "Rain reminder",
   "weatherBannerRainInMinutes": "Rain in about {minutes} min — bring an umbrella.",
   "@weatherBannerRainInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "Rain in about {hours} h — bring an umbrella if heading out.",
   "@weatherBannerRainInHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
@@ -2121,31 +2129,31 @@
   "weatherBannerRainTomorrow": "Rain expected tomorrow — plan an umbrella if going out.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-    "placeholders": {
-      "condition": {
-        "type": "String"
+   "placeholders": {
+     "condition": {
+       "type": "String"
       },
-      "minTemp": {
-        "type": "String"
+     "minTemp": {
+       "type": "String"
       },
-      "maxTemp": {
-        "type": "String"
+     "maxTemp": {
+       "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
   "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
+   "placeholders": {
+     "attempt": {
+       "type": "int"
       }
     }
   },
@@ -2193,17 +2201,17 @@
   "campusBusTitle": "Campus Bus",
   "campusBusNearestStop": "Nearest: {stopName}",
   "@campusBusNearestStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
   "campusBusTargetStop": "Target: {stopName}",
   "@campusBusTargetStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -2256,9 +2264,9 @@
   "settingsWeatherAqiStandard": "AQI Standard",
   "libraryAuthFailed": "Authorization failed: {error}",
   "@libraryAuthFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2269,18 +2277,18 @@
   "libraryCancelSuccess": "Reservation cancelled",
   "libraryCancelFailed": "Cancel failed: {error}",
   "@libraryCancelFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "Checked out",
   "libraryCheckoutFailed": "Checkout failed: {error}",
   "@libraryCheckoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2289,40 +2297,40 @@
   "libraryNoRoomData": "No room data",
   "libraryFloor": "Floor {floor}",
   "@libraryFloor": {
-    "placeholders": {
-      "floor": {
-        "type": "int"
+   "placeholders": {
+     "floor": {
+       "type": "int"
       }
     }
   },
   "libraryAvailable": "Available {free}/{total}",
   "@libraryAvailable": {
-    "placeholders": {
-      "free": {
-        "type": "int"
+   "placeholders": {
+     "free": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-    "placeholders": {
-      "building": {
-        "type": "String"
+   "placeholders": {
+     "building": {
+       "type": "String"
       },
-      "room": {
-        "type": "String"
+     "room": {
+       "type": "String"
       }
     }
   },
   "libraryNoSeatData": "No seat data",
   "librarySeatLayoutFailed": "Failed to load seat layout: {error}",
   "@librarySeatLayoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2336,17 +2344,17 @@
   "libraryCaptchaAutoVerifying": "Verifying...",
   "libraryCaptchaRetrying": "Retrying verification ({count})...",
   "@libraryCaptchaRetrying": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "libraryBookFailed": "Reservation failed: {error}",
   "@libraryBookFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2363,9 +2371,9 @@
   "libraryTomorrow": "Tomorrow",
   "emptyClassroomSelfStudyTitle": "{location} Self Study",
   "@emptyClassroomSelfStudyTitle": {
-    "placeholders": {
-      "location": {
-        "type": "String"
+   "placeholders": {
+     "location": {
+       "type": "String"
       }
     }
   },
@@ -2375,12 +2383,12 @@
   "addToAgendaConfirm": "Add",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "venue": {
-        "type": "String"
+     "venue": {
+       "type": "String"
       }
     }
   },
@@ -2423,9 +2431,9 @@
   "settingsAiFetchModels": "Fetch models",
   "settingsAiFetchedCount": "Fetched {count} models",
   "@settingsAiFetchedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2448,9 +2456,9 @@
   "ecardPaycodeRefreshNow": "Refresh now",
   "ecardPaycodeRefreshInSeconds": "Refreshes in {seconds}s",
   "@ecardPaycodeRefreshInSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -2462,9 +2470,9 @@
   "waterControlCancelTitle": "Deactivate this code?",
   "waterControlCancelMessage": "The active code for {dormitory} will stop working immediately.",
   "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
+   "placeholders": {
+     "dormitory": {
+       "type": "String"
       }
     }
   },
@@ -2477,9 +2485,9 @@
   "waterControlAccountFallback": "Campus card account",
   "waterControlUpdatedAt": "Updated at {time}",
   "@waterControlUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2489,12 +2497,12 @@
   "waterControlExpiryUnknown": "The expiry time of this existing code is not available",
   "waterControlExpiresIn": "About {hours}h {minutes}m remaining",
   "@waterControlExpiresIn": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -2516,9 +2524,9 @@
   "waterControlSearchDormitory": "Search name or ClassNo",
   "waterControlDormitoryCount": "{count} locations",
   "@waterControlDormitoryCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2543,9 +2551,9 @@
   "studyStatusFetchFailed": "Failed to fetch data",
   "studyStatusStatsTime": "Stats as of {time}",
   "@studyStatusStatsTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2559,83 +2567,83 @@
   "studyStatusOutOfPlan": "Out of plan",
   "studyStatusTotalCourses": "{count} courses",
   "@studyStatusTotalCourses": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "Passed {count}",
   "@studyStatusPassedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "Failed {count}",
   "@studyStatusFailedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "In progress {count}",
   "@studyStatusStudyingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "Required {credits} credits",
   "@studyStatusRequiredCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "Earned {credits} credits",
   "@studyStatusEarnedCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "No course data",
   "studyStatusCredits": "{credit} credits",
   "@studyStatusCredits": {
-    "placeholders": {
-      "credit": {
-        "type": "String"
+   "placeholders": {
+     "credit": {
+       "type": "String"
       }
     }
   },
   "studyStatusRetake": "Retake",
   "studyStatusScorePoints": "{score} pts",
   "@studyStatusScorePoints": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "Orig. {score} pts",
   "@studyStatusOriginalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "GPA {point}",
   "@studyStatusGradePoint": {
-    "placeholders": {
-      "point": {
-        "type": "Object"
+   "placeholders": {
+     "point": {
+       "type": "Object"
       }
     }
   },
@@ -2665,9 +2673,9 @@
   "onboardingLegalRequired": "Please accept the terms and privacy policy first.",
   "onboardingLegalLastUpdated": "Updated: {date}",
   "@onboardingLegalLastUpdated": {
-    "placeholders": {
-      "date": {
-        "type": "String"
+   "placeholders": {
+     "date": {
+       "type": "String"
       }
     }
   },
@@ -2691,9 +2699,9 @@
   "onboardingPermissionSkipTitle": "Skip permissions?",
   "onboardingPermissionSkipMessage": "Without {permissions}, some features will be unavailable. You can grant them later.",
   "@onboardingPermissionSkipMessage": {
-    "placeholders": {
-      "permissions": {
-        "type": "String"
+   "placeholders": {
+     "permissions": {
+       "type": "String"
       }
     }
   },
@@ -2714,9 +2722,9 @@
   "settingsDevRestartOnboardingAction": "Restart",
   "onboardingPermissionRequestFailed": "{permission} was not granted",
   "@onboardingPermissionRequestFailed": {
-    "placeholders": {
-      "permission": {
-        "type": "String"
+   "placeholders": {
+     "permission": {
+       "type": "String"
       }
     }
   },
@@ -2761,42 +2769,42 @@
   "hotUpdateTitle": "Hot Update Management",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "Updated: {time}",
   "@hotUpdateUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "Never updated (using embedded default)",
   "hotUpdateLocalVersion": "Local v{version}",
   "@hotUpdateLocalVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateRemoteVersion": "Remote v{version}",
   "@hotUpdateRemoteVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-    "placeholders": {
-      "checksum": {
-        "type": "String"
+   "placeholders": {
+     "checksum": {
+       "type": "String"
       }
     }
   },
@@ -2807,23 +2815,23 @@
   "hotUpdateChecking": "Checking for hot updates...",
   "hotUpdateCheckComplete": "Hot update check complete: {count} script(s) updated",
   "@hotUpdateCheckComplete": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "hotUpdateCheckCompleteDetail": "Updated {applied}, failed {failed} (of {pending} candidate(s))",
   "@hotUpdateCheckCompleteDetail": {
-    "placeholders": {
-      "applied": {
-        "type": "int"
+   "placeholders": {
+     "applied": {
+       "type": "int"
       },
-      "failed": {
-        "type": "int"
+     "failed": {
+       "type": "int"
       },
-      "pending": {
-        "type": "int"
+     "pending": {
+       "type": "int"
       }
     }
   },
@@ -2833,12 +2841,12 @@
   "hotUpdateStatusUpdateAvailable": "Update available",
   "hotUpdateStatusBehind": "Behind remote (local v{local} / remote v{remote})",
   "@hotUpdateStatusBehind": {
-    "placeholders": {
-      "local": {
-        "type": "int"
+   "placeholders": {
+     "local": {
+       "type": "int"
       },
-      "remote": {
-        "type": "int"
+     "remote": {
+       "type": "int"
       }
     }
   },
@@ -2851,27 +2859,27 @@
   "hotUpdateVersionCompare": "Local v{local} · Remote v{remote}",
   "hotUpdateVersionMissing": "Local missing · Remote v{remote}",
   "@hotUpdateVersionCompare": {
-    "placeholders": {
-      "local": {
-        "type": "int"
+   "placeholders": {
+     "local": {
+       "type": "int"
       },
-      "remote": {
-        "type": "int"
+     "remote": {
+       "type": "int"
       }
     }
   },
   "@hotUpdateVersionMissing": {
-    "placeholders": {
-      "remote": {
-        "type": "int"
+   "placeholders": {
+     "remote": {
+       "type": "int"
       }
     }
   },
   "hotUpdateLastFailure": "Last failure: {reason}",
   "@hotUpdateLastFailure": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -2902,9 +2910,9 @@
   "debuggerExportFiltered": "Export filtered",
   "debuggerExportSuccess": "Exported {count} request(s)",
   "@debuggerExportSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2912,9 +2920,9 @@
   "debuggerPaused": "Paused",
   "loginRequiredToUse": "Log in to use {feature}",
   "@loginRequiredToUse": {
-    "placeholders": {
-      "feature": {
-        "type": "String"
+   "placeholders": {
+     "feature": {
+       "type": "String"
       }
     }
   },
@@ -2940,18 +2948,18 @@
   "authVerificationEmailSent": "If the account exists and still needs verification, a verification email has been sent.",
   "authVerificationEmailSendFailed": "Unable to send verification email: {error}",
   "@authVerificationEmailSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authMfaTitle": "Two-factor authentication",
   "authMfaEmailSent": "A verification code was sent to {email}",
   "@authMfaEmailSent": {
-    "placeholders": {
-      "email": {
-        "type": "String"
+   "placeholders": {
+     "email": {
+       "type": "String"
       }
     }
   },
@@ -2968,9 +2976,9 @@
   "commonRetry": "Retry",
   "commonLoadFailed": "Failed to load: {error}",
   "@commonLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3000,9 +3008,9 @@
   "authApiCredentialSaved": "I have saved it",
   "authApiCredentialCreateFailed": "Failed to create credential: {error}",
   "@authApiCredentialCreateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3010,12 +3018,12 @@
   "authApiCredentialUnnamed": "Unnamed",
   "authApiCredentialStatus": "Status: {status} · Created {date}",
   "@authApiCredentialStatus": {
-    "placeholders": {
-      "status": {
-        "type": "String"
+   "placeholders": {
+     "status": {
+       "type": "String"
       },
-      "date": {
-        "type": "String"
+     "date": {
+       "type": "String"
       }
     }
   },
@@ -3024,9 +3032,9 @@
   "authApiCredentialRevoke": "Revoke",
   "authApiCredentialRevokeFailed": "Failed to revoke credential: {error}",
   "@authApiCredentialRevokeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3043,15 +3051,15 @@
   "authSessionsUnknown": "Unknown",
   "authSessionsDetails": "IP: {ip}\nLast active: {lastActive}\nSigned in: {signedIn}",
   "@authSessionsDetails": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       },
-      "lastActive": {
-        "type": "String"
+     "lastActive": {
+       "type": "String"
       },
-      "signedIn": {
-        "type": "String"
+     "signedIn": {
+       "type": "String"
       }
     }
   },
@@ -3059,9 +3067,9 @@
   "authSessionsSignOutSucceeded": "Device signed out",
   "authSessionsSignOutFailed": "Failed to sign out device: {error}",
   "@authSessionsSignOutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3069,42 +3077,42 @@
   "authPasskeyDeviceName": "Device name",
   "authPasskeyRegisterFailed": "Failed to register Passkey: {error}",
   "@authPasskeyRegisterFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasskeysDescription": "{count} registered. Passkeys use your device's system biometric authentication.",
   "@authPasskeysDescription": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "Register a biometric key on a supported device",
   "authPasskeyCreatedAt": "Created {date}",
   "@authPasskeyCreatedAt": {
-    "placeholders": {
-      "date": {
-        "type": "String"
+   "placeholders": {
+     "date": {
+       "type": "String"
       }
     }
   },
   "authPasskeyDeleteFailed": "Failed to delete Passkey: {error}",
   "@authPasskeyDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authOperationFailed": "Operation failed: {error}",
   "@authOperationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3114,17 +3122,17 @@
   "authWhuBindingAlreadyExists": "Already linked. Please do not link it again.",
   "authWhuBindingFailed": "Failed to link account: {error}",
   "@authWhuBindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "Link current Luotopia account ({studentId})",
   "@authWhuBindingCurrent": {
-    "placeholders": {
-      "studentId": {
-        "type": "String"
+   "placeholders": {
+     "studentId": {
+       "type": "String"
       }
     }
   },
@@ -3133,9 +3141,9 @@
   "authWhuUnbindingSucceeded": "Account unlinked",
   "authWhuUnbindingFailed": "Failed to unlink account: {error}",
   "@authWhuUnbindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3147,9 +3155,9 @@
   "authDeleteAccountConfirm": "Delete account",
   "authDeleteAccountFailed": "Failed to delete account: {error}",
   "@authDeleteAccountFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3168,9 +3176,9 @@
   "authBio": "Bio",
   "authProfileUpdateFailed": "Failed to update profile: {error}",
   "@authProfileUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3179,9 +3187,9 @@
   "authPasswordChanged": "Password changed. Please sign in again.",
   "authPasswordChangeFailed": "Failed to change password: {error}",
   "@authPasswordChangeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3190,9 +3198,9 @@
   "authErrorEmailNotAllowed": "This email domain is not allowed.",
   "authErrorEmailNotAllowedWithDomains": "Use an allowed email address: {domains}.",
   "@authErrorEmailNotAllowedWithDomains": {
-    "placeholders": {
-      "domains": {
-        "type": "String"
+   "placeholders": {
+     "domains": {
+       "type": "String"
       }
     }
   },
@@ -3248,9 +3256,9 @@
   "authRegistrationBindWhuAccount": "Link a WHU account",
   "authPasswordMinLength": "Password must be at least {count} characters",
   "@authPasswordMinLength": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3261,20 +3269,20 @@
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
+   "placeholders": {
+     "from": {
+       "type": "int"
       },
-      "to": {
-        "type": "int"
+     "to": {
+       "type": "int"
       }
     }
   },
   "courseGradeStatsLoadFailed": "Failed to load grade distribution: {error}",
   "@courseGradeStatsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3283,9 +3291,9 @@
   "courseGradeStatsPrivacyThreshold": "At least 5 samples are required to protect privacy.",
   "courseGradeStatsSamples": "{count} anonymous samples",
   "@courseGradeStatsSamples": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3301,9 +3309,9 @@
   "courseGradeStatsSubmitted": "Anonymous grade submitted.",
   "courseGradeStatsSubmitFailed": "Failed to submit grade: {error}",
   "@courseGradeStatsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3321,9 +3329,9 @@
   "courseReviewsWrite": "Write anonymous review",
   "courseReviewsAnonymousStudent": "Anonymous student · {semester}",
   "@courseReviewsAnonymousStudent": {
-    "placeholders": {
-      "semester": {
-        "type": "String"
+   "placeholders": {
+     "semester": {
+       "type": "String"
       }
     }
   },
@@ -3332,9 +3340,9 @@
   "courseReviewsRating": "Rating",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-    "placeholders": {
-      "rating": {
-        "type": "String"
+   "placeholders": {
+     "rating": {
+       "type": "String"
       }
     }
   },
@@ -3342,25 +3350,25 @@
   "courseReviewsSubmitted": "Review submitted and will be shown after approval.",
   "courseReviewsSubmitFailed": "Failed to submit review: {error}",
   "@courseReviewsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "Synced {count} eligible courses.",
   "@courseReviewsSyncSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "Failed to sync: {error}",
   "@courseReviewsSyncFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3379,17 +3387,17 @@
   "forumSelectedBoardUnavailable": "Please select an available board.",
   "forumBoardShelter": "Shelter {name}",
   "@forumBoardShelter": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "forumBoardsLoadFailed": "Failed to load boards: {error}",
   "@forumBoardsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3403,9 +3411,9 @@
   "forumImagePresetHighQuality": "High quality",
   "forumAttachmentUploadFailed": "Failed to upload attachment: {error}",
   "@forumPostsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3414,9 +3422,9 @@
   "forumPublish": "Publish",
   "forumPublishFailed": "Failed to publish: {error}",
   "@forumPublishFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3424,15 +3432,15 @@
   "forumAnonymous": "Anonymous",
   "forumPostMetadata": "{author} · {comments} replies · {upvotes} upvotes",
   "@forumPostMetadata": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       },
-      "comments": {
-        "type": "int"
+     "comments": {
+       "type": "int"
       },
-      "upvotes": {
-        "type": "int"
+     "upvotes": {
+       "type": "int"
       }
     }
   },
@@ -3442,9 +3450,9 @@
   "forumReply": "Reply",
   "forumRepliesLoadFailed": "Failed to load replies: {error}",
   "@forumRepliesLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3453,18 +3461,18 @@
   "forumSend": "Send",
   "forumReplyFailed": "Failed to reply: {error}",
   "@forumReplyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasswordResetEmail": "Email",
   "authPasswordResetSendFailed": "Failed to send: {error}",
   "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3475,9 +3483,9 @@
   "courseReviewsStatusRejected": "Rejected",
   "courseReviewsRejectionReason": "Review note: {reason}",
   "@courseReviewsRejectionReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -3487,18 +3495,18 @@
   "courseReviewsDeleted": "Review deleted.",
   "courseReviewsDeleteFailed": "Failed to delete review: {error}",
   "@courseReviewsDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "Review updated and submitted for review again.",
   "courseReviewsUpdateFailed": "Failed to update review: {error}",
   "@courseReviewsUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3517,9 +3525,9 @@
   "forumShelterPrivacyDescription": "Your alias stays consistent only within this topic. No avatar or profile is shown, and this post expires after 24 hours.",
   "forumShelterExpiresIn": "Expires in {time}",
   "@forumShelterExpiresIn": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3534,37 +3542,37 @@
   "forumReportSubmittedFlavor": "Recorded; awaiting response.",
   "forumReportFailed": "Failed to submit report: {error}",
   "@forumReportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelOnly": "Lv{level}",
   "@forumKarmaLevelOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
@@ -3581,26 +3589,26 @@
   "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       }
     }
   },
   "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
@@ -3611,12 +3619,12 @@
   "forumKarmaDailyBudget": "Daily allotment",
   "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
-    "placeholders": {
-      "up": {
-        "type": "int"
+   "placeholders": {
+     "up": {
+       "type": "int"
       },
-      "down": {
-        "type": "int"
+     "down": {
+       "type": "int"
       }
     }
   },
@@ -3626,9 +3634,9 @@
   "forumCheckinTitle": "Daily check-in",
   "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       }
     }
   },
@@ -3637,12 +3645,12 @@
   "forumCheckinDone": "Already checked in today",
   "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       },
-      "streak": {
-        "type": "int"
+     "streak": {
+       "type": "int"
       }
     }
   },
@@ -3659,17 +3667,17 @@
   "forumKarmaLedgerAdmin": "Admin adjustment",
   "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
-    "placeholders": {
-      "streak": {
-        "type": "int"
+   "placeholders": {
+     "streak": {
+       "type": "int"
       }
     }
   },
@@ -3679,9 +3687,9 @@
   "forumKarmaAdminReason": "Reason",
   "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
@@ -3751,9 +3759,9 @@
   "addTimetable": "Add timetable",
   "addToTimetable": "Add to {name}",
   "@addToTimetable": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3771,9 +3779,9 @@
   "exportTimetable": "Export timetable",
   "homeTimeBlock": "Block {index}",
   "@homeTimeBlock": {
-    "placeholders": {
-      "index": {
-        "type": "String"
+   "placeholders": {
+     "index": {
+       "type": "String"
       }
     }
   },
@@ -3806,20 +3814,20 @@
   "notificationScheduleIncomplete": "Schedule incomplete",
   "notificationStartsInFifteenMinutes": "Starts in 15 minutes · {time}",
   "@notificationStartsInFifteenMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInMinutes": "Starts in {minutes} minutes · {time}",
   "@notificationStartsInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3827,9 +3835,9 @@
   "settingsDefaultCourseReminderSubtitle": "Lead time for the default timetable group (0 = off). Other groups default to off and can be set per group below. Step 5, max 100.",
   "settingsDefaultCourseReminderValue": "{minutes} min before",
   "@settingsDefaultCourseReminderValue": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -3841,49 +3849,49 @@
   "settingsCourseReminderOverridesHint": "Same course name (or source id) shares one lead time and overrides group defaults.",
   "settingsCourseReminderUseDefault": "Use group default ({minutes} min)",
   "@settingsCourseReminderUseDefault": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "settingsCourseReminderCustom": "Custom: {minutes} min",
   "@settingsCourseReminderCustom": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "notificationStartsInFiveMinutes": "Starts in 5 minutes · {time}",
   "@notificationStartsInFiveMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "Starts in 1 hour · {time}",
   "@notificationStartsInOneHour": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsSoon": "Starting soon · {time}",
   "@notificationStartsSoon": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationTomorrow": "Tomorrow · {time}",
   "@notificationTomorrow": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3896,9 +3904,9 @@
   "separate": "Separate",
   "separatedTimetableName": "{name} (separated)",
   "@separatedTimetableName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3908,9 +3916,9 @@
   "shiguangFileImportDescription": "Import a Shiguang timetable JSON file",
   "shiguangImportFailed": "Failed to import Shiguang timetable: {error}",
   "@shiguangImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3926,9 +3934,9 @@
   "starlinkImportDescription": "Import a Starlink timetable from a JSON file or share code",
   "starlinkImportFailed": "Failed to import Starlink timetable: {error}",
   "@starlinkImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3939,27 +3947,27 @@
   "starlinkTimetableShareCode": "Starlink timetable share code",
   "timetableDetails": "Term: {term}\nImported: {importedAt}\nUpdated: {updatedAt}\nSource: {source}",
   "@timetableDetails": {
-    "placeholders": {
-      "term": {
-        "type": "String"
+   "placeholders": {
+     "term": {
+       "type": "String"
       },
-      "importedAt": {
-        "type": "String"
+     "importedAt": {
+       "type": "String"
       },
-      "updatedAt": {
-        "type": "String"
+     "updatedAt": {
+       "type": "String"
       },
-      "source": {
-        "type": "String"
+     "source": {
+       "type": "String"
       }
     }
   },
   "timetableExported": "Timetable exported.",
   "timetableImportFailed": "Failed to import timetable: {error}",
   "@timetableImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3971,9 +3979,9 @@
   "wakeupFileImportDescription": "Import a Wakeup CSV or schedule file",
   "wakeupImportFailed": "Failed to import Wakeup timetable: {error}",
   "@wakeupImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3984,9 +3992,9 @@
   "webViewLoadingPage": "Loading page...",
   "webViewPreparationFailed": "Page preparation failed: {error}",
   "@webViewPreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -4030,11 +4038,11 @@
   "whuNativeLoginSubmit": "Sign in",
   "whuNativeLoginUseWeb": "Use web login",
   "@whuNativeLoginUseWeb": {
-    "description": "Overflow menu item to switch from native CAS login to WebView method selection."
+   "description": "Overflow menu item to switch from native CAS login to WebView method selection."
   },
   "whuNativeLoginUseWebSubtitle": "If native login fails, switch to the backup",
   "@whuNativeLoginUseWebSubtitle": {
-    "description": "Subtitle for the 'use web login' overflow menu item."
+   "description": "Subtitle for the 'use web login' overflow menu item."
   },
   "forumModerationReports": "Reports",
   "forumModerationAppeals": "Appeals",
@@ -4044,17 +4052,17 @@
   "luotopiaRegisterSuccess": "Registration successful. You can now sign in.",
   "luotopiaRegisterEmailCodeSent": "A verification code was sent to {email}.",
   "@luotopiaRegisterEmailCodeSent": {
-    "placeholders": {
-      "email": {
-        "type": "String"
+   "placeholders": {
+     "email": {
+       "type": "String"
       }
     }
   },
   "luotopiaRegisterEmailCodeRetryAfter": "Resend available in {seconds}s",
   "@luotopiaRegisterEmailCodeRetryAfter": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -4067,9 +4075,9 @@
   "luotopiaRegisterEmailCodeHint": "Enter the 6-digit code",
   "luotopiaRegisterEmailCodeExpires": "Code expires in about {minutes} minutes.",
   "@luotopiaRegisterEmailCodeExpires": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -4098,9 +4106,9 @@
   "forumImageFiles": "Forum images",
   "forumAttachmentFiles": "Forum attachments",
   "@waterControlClassNo": {
-    "placeholders": {
-      "classNo": {
-        "type": "String"
+   "placeholders": {
+     "classNo": {
+       "type": "String"
       }
     }
   },
@@ -4109,9 +4117,9 @@
   "authRegisteredDevicesEmpty": "No registered devices.",
   "authRegisteredDeviceLastSeen": "Last registered: {time}",
   "@authRegisteredDeviceLastSeen": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -4122,37 +4130,37 @@
   "campusFacultyMedicine": "Faculty of Medicine",
   "campusBuildingNumbered": "Building {number}",
   "@campusBuildingNumbered": {
-    "placeholders": {
-      "number": {
-        "type": "String"
+   "placeholders": {
+     "number": {
+       "type": "String"
       }
     }
   },
   "campusBuildingNamed": "{name} Building",
   "@campusBuildingNamed": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "campusLocationFormatted": "{faculty} {building} Floor {floor} Room {room}\n({raw})",
   "@campusLocationFormatted": {
-    "placeholders": {
-      "faculty": {
-        "type": "String"
+   "placeholders": {
+     "faculty": {
+       "type": "String"
       },
-      "building": {
-        "type": "String"
+     "building": {
+       "type": "String"
       },
-      "floor": {
-        "type": "String"
+     "floor": {
+       "type": "String"
       },
-      "room": {
-        "type": "String"
+     "room": {
+       "type": "String"
       },
-      "raw": {
-        "type": "String"
+     "raw": {
+       "type": "String"
       }
     }
   },
@@ -4172,9 +4180,9 @@
   "campusBusArrivalStop": "Stop",
   "campusBusArrivalUseNearest": "Use nearest: {stopName}",
   "@campusBusArrivalUseNearest": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -4182,9 +4190,9 @@
   "campusBusArrivalReminder": "Arrival Reminder",
   "campusBusArrivalEnabledTarget": "Reminding for: {targetText}",
   "@campusBusArrivalEnabledTarget": {
-    "placeholders": {
-      "targetText": {
-        "type": "String"
+   "placeholders": {
+     "targetText": {
+       "type": "String"
       }
     }
   },
@@ -4208,9 +4216,9 @@
   "medicalIdOther": "Other",
   "medicalGreeting": "Hello, {name}",
   "@medicalGreeting": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -4250,6 +4258,124 @@
   "medicalReportItems": "Items",
   "medicalReportTime": "Reported at",
   "medicalLabAxisToggle": "Result axis",
+  "medicalCardQueryTitle": "Patient Cards",
+  "medicalCardQueryEmpty": "You have no bound patient cards",
+  "medicalCardQueryEmptyHint": "Tap the create button in the top right to create a new card, or use the search below to bind an existing card",
+  "medicalCardAddTitle": "Add Patient Card",
+  "medicalCardSearchBind": "Search and Bind Existing Card",
+  "medicalCardSearchBindDesc": "Enter your information to search and bind an existing patient card",
+  "medicalCardCreateNew": "Create New Card",
+  "medicalCardCreateNewDesc": "Create a brand new patient card",
+  "medicalCreateCard": "Create Card",
+  "medicalBindCard": "Bind",
+  "medicalBindCardTitle": "Bind Patient Card",
+  "medicalSendCode": "Send Code",
+  "medicalResendCode": "Resend",
+  "medicalCodeResent": "Verification code sent",
+  "medicalResendCountdown": "Resend in {seconds}s",
+  "@medicalResendCountdown": {
+   "placeholders": {
+     "seconds": {
+       "type": "int"
+      }
+    }
+  },
+  "medicalAuthCode": "Auth Code",
+  "medicalAuthCodeHint": "Enter the SMS verification code",
+  "medicalCity": "City",
+  "medicalCityHint": "Select city",
+  "medicalAddress": "Address",
+  "medicalAddressHint": "Enter detailed address",
+  "medicalBindSuccess": "Bound successfully",
+  "medicalBindFailed": "Failed to bind",
+  "medicalCreateSuccess": "Created successfully",
+  "medicalCreateFailed": "Failed to create",
+  "medicalSetDefault": "Set as default",
+  "medicalSetDefaultSuccess": "Set as default card",
+  "medicalSetDefaultFailed": "Failed to set default card",
+  "medicalCardDetail": "Card Details",
+  "medicalInvoiceTotal": "Total",
+  "medicalInvoiceQuantity": "Qty {value}",
+  "@medicalInvoiceQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoicePackageCount": "{value} boxes",
+  "@medicalInvoicePackageCount": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "medicalInvoiceTotalQuantity": "Total {value}",
+  "@medicalInvoiceTotalQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceSpecification": "Spec {value}",
+  "@medicalInvoiceSpecification": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalInvoiceUnitPrice": "Unit {value}",
+  "@medicalInvoiceUnitPrice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalCardRealName": "Full Name",
+  "medicalCardIdNumber": "ID Number",
+  "medicalCardPhoneNumber": "Phone Number",
+  "medicalCardNumber": "Default Card",
+  "medicalRegistrationNumber": "Registration No.",
+  "medicalRegistrationQrLabel": "Registration QR Code",
+  "medicalOutpatientSection": "Outpatient Services",
+  "medicalInpatientSection": "Inpatient Services",
+  "medicalCardUnbind": "Unbind",
+  "medicalCardUnbindConfirm": "Unbind this card?",
+  "medicalCardUnbindSuccess": "Card unbound successfully",
+  "medicalCardUnbindFailed": "Failed to unbind card",
+  "medicalCardSwitchPatient": "Switch Patient",
+  "medicalCardSwitchPatientDesc": "Switch to {name} ({card})?",
+  "@medicalCardSwitchPatientDesc": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      },
+     "card": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalSelectCard": "Select card",
+  "medicalCardType": "Card type",
+  "medicalCardNumber": "Card number",
+  "medicalSearchCardHint": "Search for an existing card to bind",
+  "medicalConfirmBind": "Confirm Bind",
+  "medicalConfirmCreate": "Confirm Create",
+  "medicalCardBound": "This card is already bound",
+  "medicalMaskedPhone": "Verification code will be sent to {phone}",
+  "@medicalMaskedPhone": {
+   "placeholders": {
+     "phone": {
+       "type": "String"
+      }
+    }
+  },
+  "medicalCardQuerySearchSection": "Search Card",
+  "medicalCardQuerySearchDescription": "Enter your information to search and bind an existing patient card",
   "campusBusRouteViewVertical": "Vertical route view",
   "campusBusRouteViewHorizontal": "Horizontal route view",
   "adminConsoleTitle": "Admin console",
@@ -4276,9 +4402,9 @@
   "adminStatusNoWorkers": "No workers online",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -4310,9 +4436,9 @@
   "adminUsersDisable": "Disable",
   "adminUsersSetRole": "Set {role}",
   "@adminUsersSetRole": {
-    "placeholders": {
-      "role": {
-        "type": "String"
+   "placeholders": {
+     "role": {
+       "type": "String"
       }
     }
   },
@@ -4338,9 +4464,9 @@
   "adminUserContentCommentsEmpty": "No comments",
   "adminUserContentPostLabel": "Post: {postId}",
   "@adminUserContentPostLabel": {
-    "placeholders": {
-      "postId": {
-        "type": "String"
+   "placeholders": {
+     "postId": {
+       "type": "String"
       }
     }
   },
@@ -4386,17 +4512,17 @@
   "forumCommentDeleted": "This comment was deleted",
   "forumRepliesExpand": "Show {count} more replies",
   "@forumRepliesExpand": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "forumReplyTo": "Reply to @{name}",
   "@forumReplyTo": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -4406,9 +4532,9 @@
   "settingsAiWorkspaceUsageTitle": "Workspace usage",
   "settingsAiWorkspaceUsageFiles": "{count} files",
   "@settingsAiWorkspaceUsageFiles": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4434,47 +4560,47 @@
   "aiLiveProcessingDescription": "Preparing the next step",
   "aiToolTraceMoreTools": "{visibleTools} and {count} tools total",
   "@aiToolTraceMoreTools": {
-    "placeholders": {
-      "visibleTools": {
-        "type": "String"
+   "placeholders": {
+     "visibleTools": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "aiToolTraceSucceeded": "{count} succeeded",
   "@aiToolTraceSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "aiToolTraceFailed": "{count} failed",
   "@aiToolTraceFailed": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "aiToolTraceCancelled": "{count} incomplete",
   "@aiToolTraceCancelled": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "aiToolTraceSummary": "Tool calls: {tools} · {statuses}",
   "@aiToolTraceSummary": {
-    "placeholders": {
-      "tools": {
-        "type": "String"
+   "placeholders": {
+     "tools": {
+       "type": "String"
       },
-      "statuses": {
-        "type": "String"
+     "statuses": {
+       "type": "String"
       }
     }
   },
@@ -4500,9 +4626,9 @@
   "courseMatchingNoConflicts": "No conflicts",
   "courseMatchingConflictsCount": "{count} conflicts",
   "@courseMatchingConflictsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4519,17 +4645,17 @@
   "luotopiaAccountChangeAvatar": "Change avatar",
   "luotopiaRegisterDebugCode": "Dev debug code: {code}",
   "@luotopiaRegisterDebugCode": {
-    "placeholders": {
-      "code": {
-        "type": "String"
+   "placeholders": {
+     "code": {
+       "type": "String"
       }
     }
   },
   "schoolNetCheckpointRecorded": "Checkpoint recorded: {checkpoint}",
   "@schoolNetCheckpointRecorded": {
-    "placeholders": {
-      "checkpoint": {
-        "type": "String"
+   "placeholders": {
+     "checkpoint": {
+       "type": "String"
       }
     }
   },
@@ -4552,9 +4678,9 @@
   "aiModelRequestCancelled": "Request cancelled.",
   "aiModelHttpError": "AI service returned HTTP {statusCode}.",
   "@aiModelHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4573,33 +4699,33 @@
   "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range} wks",
   "@courseWeekRangeAll": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "{range} wks (Odd)",
   "@courseWeekRangeOdd": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "{range} wks (Even)",
   "@courseWeekRangeEven": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "sportsAreaLabel": "Court {no}",
   "@sportsAreaLabel": {
-    "placeholders": {
-      "no": {
-        "type": "Object"
+   "placeholders": {
+     "no": {
+       "type": "Object"
       }
     }
   },
@@ -4619,9 +4745,9 @@
   "whuSmartCampusAuthFailedCasRequired": "Smart Luojia authorization failed. Please log in again via WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Smart Luojia authorization failed (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4881,7 +5007,7 @@
   "waterElectricDiagnosticsTooltip": "Open protocol diagnostics WebView",
   "waterElectricSnifferCheckpointRecorded": "Checkpoint recorded: {checkpoint}",
   "@waterElectricSnifferCheckpointRecorded": {
-    "placeholders": {"checkpoint": {"type": "String"}}
+   "placeholders": {"checkpoint": {"type": "String"}}
   },
   "waterElectricSnifferReturnPortal": "Return to the utility portal",
   "waterElectricSnifferRecordCheckpoint": "Record a capture checkpoint",
@@ -4900,12 +5026,30 @@
   "waterElectricNotificationTitle": "Utility balance alert",
   "waterElectricNotificationBody": "{room} · {meter}: {balance}{unit}, below the {threshold} threshold.",
   "@waterElectricNotificationBody": {
-    "placeholders": {
-      "room": {"type": "String"},
-      "meter": {"type": "String"},
-      "balance": {"type": "String"},
-      "unit": {"type": "String"},
-      "threshold": {"type": "String"}
+   "placeholders": {
+     "room": {"type": "String"},
+     "meter": {"type": "String"},
+     "balance": {"type": "String"},
+     "unit": {"type": "String"},
+     "threshold": {"type": "String"}
     }
-  }
+  },  "courseImportUnnamedCourse": "Unnamed course",
+  "wakeupWeekSuffixOdd": "Odd",
+  "wakeupWeekSuffixEven": "Even",
+  "notificationOpenAction": "Open notification",
+  "aiAgentVerifyingResult": "Verifying result…",
+  "aiAgentResultUnverifiable": "Ultimately unverifiable; suggest manual verification",
+  "aiAgentFailureNotConfigured": "Please complete AI configuration in Settings first.",
+  "aiAgentFailureFormatUnsupported": "Current AI service configuration does not support Agent mode.",
+  "aiAgentFailureAbnormalResponse": "AI service returned an abnormal response. No unconfirmed operations were executed. Please try again.",
+  "aiAgentFailureRetry": "This request could not be completed. Please try again later.",
+  "whuEmailParserLabel": "WHU Email Response Parser",
+  "whuMessagesMarkReadFailed": "Mark read failed",
+  "whuMessagesRequestFailed": "Request failed",
+  "whuScoreExamTypeNormal": "Normal exam",
+  "whuScoreMidtermWithdraw": "Mid-term withdrawal",
+  "whuLibraryResultUnknown": "Library operation result unknown. Please refresh status before deciding whether to retry.",
+  "sportsAuthFailedCasRequired": "Sports venue system authorization failed. Please log in again via WHU CAS.",
+  "waterControlAccountExchangeFailed": "Water account exchange failed.",
+  "courseTimetableLocalFileDefaultName": "Local timetable"
 }

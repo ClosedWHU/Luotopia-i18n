@@ -218,34 +218,34 @@
   "editorCoursePeriodEnd": "結束節次",
   "editorCoursePeriodN": "第 {n} 節",
   "@editorCoursePeriodN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "第 {n} 節\n{time}",
   "@editorCoursePeriodSingle": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "第 {from}–{to} 節\n{time}",
   "@editorCoursePeriodRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
+   "placeholders": {
+     "from": {
+       "type": "int"
       },
-      "to": {
-        "type": "int"
+     "to": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -253,9 +253,9 @@
   "editorCourseWeekEnd": "結束周",
   "editorCourseWeekN": "第 {n} 周",
   "@editorCourseWeekN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
@@ -444,17 +444,17 @@
   "scoreTranscriptNoTemplates": "目前帳號沒有可用的成績單範本",
   "scoreTranscriptLoadFailed": "載入成績單類型失敗：{error}",
   "@scoreTranscriptLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "取得可信電子憑證失敗：{error}",
   "@scoreTranscriptFetchFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -476,17 +476,17 @@
   "settingsLicensesTitle": "開源許可證",
   "licenseAuthor": "作者: {author}",
   "@licenseAuthor": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       }
     }
   },
   "licenseVersion": "版本: {version}",
   "@licenseVersion": {
-    "placeholders": {
-      "version": {
-        "type": "String"
+   "placeholders": {
+     "version": {
+       "type": "String"
       }
     }
   },
@@ -601,6 +601,14 @@
   "sportsRetry": "重試",
   "sportsSelectDateFirst": "請先選擇日期",
   "sportsSelectTimeSlot": "選擇時段",
+  "sportsReservableSlotsCount": "可選時段 {count}個",
+  "@sportsReservableSlotsCount": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "sportsSelectVenue": "選擇場館",
   "startImport": "开始导入",
   "tapToSelect": "点击选择",
@@ -668,268 +676,268 @@
   "whuLoginWebViewLoading": "正在加載...",
   "whuLoginWebViewTitle": "WHU 登錄",
   "@editorDurationHourMinute": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
+   "placeholders": {
+     "classroom": {
+       "type": "String"
       },
-      "section": {
-        "type": "int"
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
+   "placeholders": {
+     "sections": {
+       "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
+   "placeholders": {
+     "expanded": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-    "placeholders": {
-      "floor": {
-        "type": "String"
+   "placeholders": {
+     "floor": {
+       "type": "String"
       },
-      "available": {
-        "type": "int"
+     "available": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-    "placeholders": {
-      "section": {
-        "type": "int"
+   "placeholders": {
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-    "placeholders": {
-      "day": {
-        "type": "String"
+   "placeholders": {
+     "day": {
+       "type": "String"
       },
-      "endDay": {
-        "type": "String"
+     "endDay": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
+   "placeholders": {
+     "month": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "term": {
-        "type": "String"
+     "term": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "month": {
-        "type": "String"
+     "month": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
+   "placeholders": {
+     "weekday": {
+       "type": "String"
       }
     }
   },
   "@hourH": {
-    "placeholders": {
-      "hour": {}
+   "placeholders": {
+     "hour": {}
     }
   },
   "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
+   "placeholders": {
+     "timeStr": {}
     }
   },
   "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@minuteMin": {
-    "placeholders": {
-      "minute": {}
+   "placeholders": {
+     "minute": {}
     }
   },
   "@semS": {
-    "placeholders": {
-      "s": {}
+   "placeholders": {
+     "s": {}
     }
   },
   "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusImported": "導入完成：新增 {count} 條，當前周 {currentWeek} 條。",
   "@courseImportStatusImported": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "currentWeek": {
-        "type": "int"
+     "currentWeek": {
+       "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "導入完成：新增 {count} 條課程事項，課程表「{tableName}」。",
   "@courseImportSnackSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "tableName": {
-        "type": "String"
+     "tableName": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusFailed": "導入失敗：{error}",
   "@courseImportStatusFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "{year}-{next} 學年",
   "@courseImportAcademicYearLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "next": {
-        "type": "int"
+     "next": {
+       "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "第{semester}學期",
   "@courseImportSemesterLabel": {
-    "placeholders": {
-      "semester": {
-        "type": "int"
+   "placeholders": {
+     "semester": {
+       "type": "int"
       }
     }
   },
@@ -940,9 +948,9 @@
   "editorCourseNatureHint": "課程性質（如：必修/選修）",
   "editorChangeScopeTitle": "要只修改當前這一項，還是修改所有名稱爲「{title}」的課程？",
   "@editorChangeScopeTitle": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -955,9 +963,9 @@
   "aiMemo": "備忘",
   "aiDraftReady": "草稿已生成：{title}",
   "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -978,9 +986,9 @@
   "aiClearConversationsWarning": "所有本地 AI 對話記錄將被清空。",
   "aiConfirmationBatchTitle": "確認 {count} 項操作",
   "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1013,23 +1021,23 @@
   "scorePageBiometricAuthFailed": "生物認證失敗",
   "scorePageCourseInfo": "{type} · {credit}學分 · {instructor}",
   "@scorePageCourseInfo": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       },
-      "instructor": {
-        "type": "String"
+     "instructor": {
+       "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "績點: {gpa}",
   "@scorePageGpaDisplay": {
-    "placeholders": {
-      "gpa": {
-        "type": "String"
+   "placeholders": {
+     "gpa": {
+       "type": "String"
       }
     }
   },
@@ -1038,9 +1046,9 @@
   "settingsDevModeActivated": "開發者模式已開啓：您現在可以使用開發者設置了！",
   "settingsDevModeTapCount": "即將開啓開發者模式：再點擊 {count} 次開啓開發者模式",
   "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1049,42 +1057,42 @@
   "hotUpdateTitle": "熱更新管理",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "更新於：{time}",
   "@hotUpdateUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "從未更新（使用內建預設）",
   "hotUpdateLocalVersion": "本地 v{version}",
   "@hotUpdateLocalVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateRemoteVersion": "遠端 v{version}",
   "@hotUpdateRemoteVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-    "placeholders": {
-      "checksum": {
-        "type": "String"
+   "placeholders": {
+     "checksum": {
+       "type": "String"
       }
     }
   },
@@ -1110,9 +1118,9 @@
   "hotUpdateVersionMissing": "本地缺失 · 遠端 v{remote}",
   "hotUpdateLastFailure": "上次失敗：{reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1141,9 +1149,9 @@
   "settingsNotificationChannelNotCreated": "尚未建立",
   "settingsNotificationChannelCurrent": "目前：{level}",
   "@settingsNotificationChannelCurrent": {
-    "placeholders": {
-      "level": {
-        "type": "String"
+   "placeholders": {
+     "level": {
+       "type": "String"
       }
     }
   },
@@ -1162,9 +1170,9 @@
   "settingsClearCacheSubtitle": "釋放暫存檔和快取資料",
   "settingsCacheCleared": "緩存已清除：釋放了 {size}",
   "@settingsCacheCleared": {
-    "placeholders": {
-      "size": {
-        "type": "String"
+   "placeholders": {
+     "size": {
+       "type": "String"
       }
     }
   },
@@ -1174,18 +1182,18 @@
   "settingsDevSaveSuccess": "保存成功: 服務器地址已更新",
   "settingsDevScanSuccess": "成功發現服務器: {ip}:6262",
   "@settingsDevScanSuccess": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "未能在局域網中發現開放 6262 端口的 API 服務器",
   "settingsDevScanError": "掃描失敗: {error}",
   "@settingsDevScanError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1215,9 +1223,9 @@
   "whuLoginVerifying": "正在驗證登錄狀態...",
   "whuLoginVerificationFailed": "登錄狀態驗證失敗：{error}",
   "@whuLoginVerificationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1228,9 +1236,9 @@
   "libraryNoVenues": "暫無開放場館",
   "libraryLoadFailed": "加載失敗：{error}",
   "@libraryLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1271,33 +1279,33 @@
   "settingsAiConnectionSuccess": "AI 連接測試成功。",
   "settingsAiConnectionFailed": "連接失敗：{error}",
   "@settingsAiConnectionFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "正在加載{name}...",
   "@luojiaEcardLoading": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "正在準備{name}...",
   "@luojiaEcardPreparing": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "pagePreparationFailed": "頁面準備失敗：{error}",
   "@pagePreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1309,9 +1317,9 @@
   "whuCasServiceAuthFailed": "服務授權失敗，請重新登錄武大統一認證。",
   "whuCasServiceRequestFailed": "服務授權請求失敗：{error}",
   "@whuCasServiceRequestFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1319,25 +1327,25 @@
   "whuCasSessionExpired": "教務系統會話已失效，請重新登錄。",
   "whuCasSessionVerifyFailed": "教務會話驗證失敗：{error}",
   "@whuCasSessionVerifyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "獲取教務賬戶信息失敗（HTTP {code}）。",
   "@whuCasFetchFailed": {
-    "placeholders": {
-      "code": {
-        "type": "int"
+   "placeholders": {
+     "code": {
+       "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "教務系統登錄失敗：{reason}",
   "@whuCasLoginFailedReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -1358,28 +1366,28 @@
   "gradesReviewsNoResults": "沒有找到相關課程",
   "gradesReviewsSearchError": "搜索失敗：{error}",
   "@gradesReviewsSearchError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       },
-      "department": {
-        "type": "String"
+     "department": {
+       "type": "String"
       }
     }
   },
   "courseDetailTitle": "課程詳情：{uid}",
   "@courseDetailTitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       }
     }
   },
@@ -1389,33 +1397,33 @@
   "courseAuditPlaceholder": "蹭課功能正在開發中...",
   "gradesReviewsSearchFailMessage": "搜索失敗：{message}",
   "@gradesReviewsSearchFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "獲取給分分佈失敗：{message}",
   "@gradesReviewsGradeStatsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "獲取評價失敗：{message}",
   "@gradesReviewsReviewsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "課程表{index}",
   "@courseTimetableDefaultName": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -1425,9 +1433,9 @@
   "sportsReservationDayAfterTomorrow": "後天",
   "sportsVenueCourtFormat": "{areaNo}號場",
   "@sportsVenueCourtFormat": {
-    "placeholders": {
-      "areaNo": {
-        "type": "String"
+   "placeholders": {
+     "areaNo": {
+       "type": "String"
       }
     }
   },
@@ -1449,28 +1457,28 @@
   "sportsVenueFree": "免費",
   "sportsVenuePriceFormat": "{price}元",
   "@sportsVenuePriceFormat": {
-    "placeholders": {
-      "price": {
-        "type": "String"
+   "placeholders": {
+     "price": {
+       "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice}元",
   "@sportsVenuePriceRangeFormat": {
-    "placeholders": {
-      "lowPrice": {
-        "type": "String"
+   "placeholders": {
+     "lowPrice": {
+       "type": "String"
       },
-      "highPrice": {
-        "type": "String"
+     "highPrice": {
+       "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value}元",
   "@sportsOrderPriceWithUnitFormat": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
@@ -1500,58 +1508,58 @@
   "sportsFetchBulletins": "獲取場館公告",
   "sportsNetworkError": "{action}失敗：網絡請求異常。",
   "@sportsNetworkError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiHttpError": "{action}失敗（HTTP {statusCode}）。",
   "@sportsApiHttpError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "statusCode": {
-        "type": "int"
+     "statusCode": {
+       "type": "int"
       }
     }
   },
   "sportsApiFormatError": "{action}失敗：響應格式異常。",
   "@sportsApiFormatError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiError": "{action}失敗。",
   "@sportsApiError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "{action}失敗：{message}",
   "@sportsApiErrorWithMessage": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "message": {
-        "type": "String"
+     "message": {
+       "type": "String"
       }
     }
   },
   "sportsApiJsonError": "{action}失敗：響應不是有效 JSON。{diagnostic}",
   "@sportsApiJsonError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "diagnostic": {
-        "type": "String"
+     "diagnostic": {
+       "type": "String"
       }
     }
   },
@@ -1562,9 +1570,9 @@
   "sportsApiDiagnosticNonJson": "非 JSON 文本",
   "sportsApiDiagnosticResponseType": "響應類型：{kind}。",
   "@sportsApiDiagnosticResponseType": {
-    "placeholders": {
-      "kind": {
-        "type": "String"
+   "placeholders": {
+     "kind": {
+       "type": "String"
       }
     }
   },
@@ -1580,23 +1588,23 @@
   "scoreImportImportingCredential": "正在獲取可信電子憑證並在本機解析成績…",
   "scoreImportSuccessWithCount": "{success}：{count}條成績已緩存到本機。",
   "@scoreImportSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}：{error}",
   "@scoreImportFailedWithError": {
-    "placeholders": {
-      "failed": {
-        "type": "String"
+   "placeholders": {
+     "failed": {
+       "type": "String"
       },
-      "error": {
-        "type": "String"
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1604,21 +1612,21 @@
   "scoreImportNoStudentId": "未找到全局登錄的學號信息",
   "scoreImportSpoilerSuccessWithCount": "{success}：獲取到{count}條劇透成績記錄。",
   "@scoreImportSpoilerSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportLastImport": "最近一次導入",
   "scoreImportTime": "時間：{time}",
   "@scoreImportTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -1672,24 +1680,24 @@
   "scoreImportParsedCountLabel": "本次取得解析到的數量",
   "scoreImportMergedCountLabel": "合併後成績數",
   "@scoreImportCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportExample": "{name} · {score}分 · {credit}",
   "scoreImportExampleLabel": "示例",
   "@scoreImportExample": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       },
-      "score": {
-        "type": "String"
+     "score": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       }
     }
   },
@@ -1699,20 +1707,20 @@
   "seatReservationDraftTitle": "圖書館座位預約",
   "seatReservationDraftDetails": "來源：武漢大學圖書館座位預約系統\n座位ID：{seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-    "placeholders": {
-      "seatId": {
-        "type": "String"
+   "placeholders": {
+     "seatId": {
+       "type": "String"
       },
-      "marker": {
-        "type": "String"
+     "marker": {
+       "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "座位預約同步ID：{sourceId}",
   "@seatReservationSourceMarker": {
-    "placeholders": {
-      "sourceId": {
-        "type": "String"
+   "placeholders": {
+     "sourceId": {
+       "type": "String"
       }
     }
   },
@@ -1737,9 +1745,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count}條消息",
   "@aiMessageCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1753,9 +1761,9 @@
   "aiHeaderRetryLater": "AI 服務暫不可用，請稍後重試。",
   "aiHeaderDraftCreated": "已通過草稿頁創建事項：{title}",
   "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1779,12 +1787,12 @@
   "whuAccountFallbackName": "武大賬戶",
   "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
-    "placeholders": {
-      "month": {
-        "type": "int"
+   "placeholders": {
+     "month": {
+       "type": "int"
       },
-      "day": {
-        "type": "int"
+     "day": {
+       "type": "int"
       }
     }
   },
@@ -1797,17 +1805,17 @@
   "homeWidgetAllDay": "全天",
   "homeWidgetUpdatedAt": "更新於{time}",
   "@homeWidgetUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "第{week}周",
   "@homeWidgetWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "int"
+   "placeholders": {
+     "week": {
+       "type": "int"
       }
     }
   },
@@ -1820,17 +1828,17 @@
   "weatherRainReminderTitle": "降雨提醒",
   "weatherBannerRainInMinutes": "約 {minutes} 分鐘後有雨，記得帶傘。",
   "@weatherBannerRainInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "約 {hours} 小時後有雨，出門可帶傘。",
   "@weatherBannerRainInHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
@@ -1838,31 +1846,31 @@
   "weatherBannerRainTomorrow": "明天有雨，出門可準備雨具。",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-    "placeholders": {
-      "condition": {
-        "type": "String"
+   "placeholders": {
+     "condition": {
+       "type": "String"
       },
-      "minTemp": {
-        "type": "String"
+     "minTemp": {
+       "type": "String"
       },
-      "maxTemp": {
-        "type": "String"
+     "maxTemp": {
+       "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "自動驗證中（第{attempt}次嘗試）...",
   "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
+   "placeholders": {
+     "attempt": {
+       "type": "int"
       }
     }
   },
@@ -1910,17 +1918,17 @@
   "campusBusTitle": "校巴",
   "campusBusNearestStop": "最近: {stopName}",
   "@campusBusNearestStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
   "campusBusTargetStop": "目標: {stopName}",
   "@campusBusTargetStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -1970,9 +1978,9 @@
   "settingsWeatherAqiStandard": "AQI 標準",
   "libraryAuthFailed": "授權失敗：{error}",
   "@libraryAuthFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1983,18 +1991,18 @@
   "libraryCancelSuccess": "已取消預約",
   "libraryCancelFailed": "取消失敗：{error}",
   "@libraryCancelFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "已簽退",
   "libraryCheckoutFailed": "簽退失敗：{error}",
   "@libraryCheckoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2003,40 +2011,40 @@
   "libraryNoRoomData": "暫無閱覽室數據",
   "libraryFloor": "{floor}樓",
   "@libraryFloor": {
-    "placeholders": {
-      "floor": {
-        "type": "int"
+   "placeholders": {
+     "floor": {
+       "type": "int"
       }
     }
   },
   "libraryAvailable": "可用 {free}/{total}",
   "@libraryAvailable": {
-    "placeholders": {
-      "free": {
-        "type": "int"
+   "placeholders": {
+     "free": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-    "placeholders": {
-      "building": {
-        "type": "String"
+   "placeholders": {
+     "building": {
+       "type": "String"
       },
-      "room": {
-        "type": "String"
+     "room": {
+       "type": "String"
       }
     }
   },
   "libraryNoSeatData": "暫無座位數據",
   "librarySeatLayoutFailed": "加載座位圖失敗：{error}",
   "@librarySeatLayoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2050,17 +2058,17 @@
   "libraryCaptchaAutoVerifying": "正在自動驗證…",
   "libraryCaptchaRetrying": "自動驗證重試（第 {count} 次）…",
   "@libraryCaptchaRetrying": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "libraryBookFailed": "預約失敗：{error}",
   "@libraryBookFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2077,9 +2085,9 @@
   "libraryTomorrow": "明天",
   "emptyClassroomSelfStudyTitle": "{location} 自習",
   "@emptyClassroomSelfStudyTitle": {
-    "placeholders": {
-      "location": {
-        "type": "String"
+   "placeholders": {
+     "location": {
+       "type": "String"
       }
     }
   },
@@ -2089,12 +2097,12 @@
   "addToAgendaConfirm": "添加",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "venue": {
-        "type": "String"
+     "venue": {
+       "type": "String"
       }
     }
   },
@@ -2124,9 +2132,9 @@
   "settingsAiFetchModels": "获取模型",
   "settingsAiFetchedCount": "已获取 {count} 个模型",
   "@settingsAiFetchedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2149,9 +2157,9 @@
   "ecardPaycodeRefreshNow": "立即重新整理",
   "ecardPaycodeRefreshInSeconds": "{seconds} 秒後重新整理",
   "@ecardPaycodeRefreshInSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -2163,9 +2171,9 @@
   "waterControlCancelTitle": "停用此取水碼？",
   "waterControlCancelMessage": "{dormitory} 目前的取水碼將立即失效。",
   "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
+   "placeholders": {
+     "dormitory": {
+       "type": "String"
       }
     }
   },
@@ -2178,9 +2186,9 @@
   "waterControlAccountFallback": "校園卡帳戶",
   "waterControlUpdatedAt": "更新於 {time}",
   "@waterControlUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2190,12 +2198,12 @@
   "waterControlExpiryUnknown": "目前無法查詢此取水碼的到期時間",
   "waterControlExpiresIn": "預計剩餘 {hours} 小時 {minutes} 分鐘",
   "@waterControlExpiresIn": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -2217,9 +2225,9 @@
   "waterControlSearchDormitory": "搜尋宿舍名稱或 ClassNo",
   "waterControlDormitoryCount": "{count} 個地點",
   "@waterControlDormitoryCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2244,9 +2252,9 @@
   "studyStatusFetchFailed": "取得資料失敗",
   "studyStatusStatsTime": "統計時間 {time}",
   "@studyStatusStatsTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2260,83 +2268,83 @@
   "studyStatusOutOfPlan": "計畫外",
   "studyStatusTotalCourses": "共{count}門",
   "@studyStatusTotalCourses": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "通過{count}",
   "@studyStatusPassedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "未通過{count}",
   "@studyStatusFailedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "在讀{count}",
   "@studyStatusStudyingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "要求{credits}學分",
   "@studyStatusRequiredCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "已獲{credits}學分",
   "@studyStatusEarnedCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "暫無課程資料",
   "studyStatusCredits": "{credit}學分",
   "@studyStatusCredits": {
-    "placeholders": {
-      "credit": {
-        "type": "String"
+   "placeholders": {
+     "credit": {
+       "type": "String"
       }
     }
   },
   "studyStatusRetake": "重修",
   "studyStatusScorePoints": "{score}分",
   "@studyStatusScorePoints": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "原{score}分",
   "@studyStatusOriginalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "績點{point}",
   "@studyStatusGradePoint": {
-    "placeholders": {
-      "point": {
-        "type": "Object"
+   "placeholders": {
+     "point": {
+       "type": "Object"
       }
     }
   },
@@ -2385,9 +2393,9 @@
   "onboardingPermissionSkipTitle": "略過權限申請？",
   "onboardingPermissionSkipMessage": "缺少{permissions}時，部分功能將無法使用。你之後仍可授權。",
   "@onboardingPermissionSkipMessage": {
-    "placeholders": {
-      "permissions": {
-        "type": "String"
+   "placeholders": {
+     "permissions": {
+       "type": "String"
       }
     }
   },
@@ -2408,9 +2416,9 @@
   "settingsDevRestartOnboardingAction": "重新開始",
   "onboardingPermissionRequestFailed": "未能取得{permission}授權",
   "@onboardingPermissionRequestFailed": {
-    "placeholders": {
-      "permission": {
-        "type": "String"
+   "placeholders": {
+     "permission": {
+       "type": "String"
       }
     }
   },
@@ -2518,9 +2526,9 @@
   "authMfaTitle": "兩步驗證",
   "authMfaEmailSent": "驗證碼已傳送至 {email}",
   "@authMfaEmailSent": {
-    "placeholders": {
-      "email": {
-        "type": "String"
+   "placeholders": {
+     "email": {
+       "type": "String"
       }
     }
   },
@@ -2537,9 +2545,9 @@
   "commonRetry": "重試",
   "commonLoadFailed": "載入失敗：{error}",
   "@commonLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2585,9 +2593,9 @@
   "authApiCredentialSaved": "我已儲存",
   "authApiCredentialCreateFailed": "建立憑證失敗：{error}",
   "@authApiCredentialCreateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2595,12 +2603,12 @@
   "authApiCredentialUnnamed": "未命名",
   "authApiCredentialStatus": "狀態：{status} · 建立於 {date}",
   "@authApiCredentialStatus": {
-    "placeholders": {
-      "status": {
-        "type": "String"
+   "placeholders": {
+     "status": {
+       "type": "String"
       },
-      "date": {
-        "type": "String"
+     "date": {
+       "type": "String"
       }
     }
   },
@@ -2609,9 +2617,9 @@
   "authApiCredentialRevoke": "撤銷",
   "authApiCredentialRevokeFailed": "撤銷憑證失敗：{error}",
   "@authApiCredentialRevokeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2628,15 +2636,15 @@
   "authSessionsUnknown": "未知",
   "authSessionsDetails": "IP：{ip}\n上次活動：{lastActive}\n登入時間：{signedIn}",
   "@authSessionsDetails": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       },
-      "lastActive": {
-        "type": "String"
+     "lastActive": {
+       "type": "String"
       },
-      "signedIn": {
-        "type": "String"
+     "signedIn": {
+       "type": "String"
       }
     }
   },
@@ -2644,9 +2652,9 @@
   "authSessionsSignOutSucceeded": "裝置已登出",
   "authSessionsSignOutFailed": "登出裝置失敗：{error}",
   "@authSessionsSignOutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2654,42 +2662,42 @@
   "authPasskeyDeviceName": "裝置名稱",
   "authPasskeyRegisterFailed": "註冊 Passkey 失敗：{error}",
   "@authPasskeyRegisterFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasskeysDescription": "已註冊 {count} 個。Passkey 使用裝置的系統生物辨識驗證。",
   "@authPasskeysDescription": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "請在支援的裝置上註冊生物辨識金鑰",
   "authPasskeyCreatedAt": "建立於 {date}",
   "@authPasskeyCreatedAt": {
-    "placeholders": {
-      "date": {
-        "type": "String"
+   "placeholders": {
+     "date": {
+       "type": "String"
       }
     }
   },
   "authPasskeyDeleteFailed": "刪除 Passkey 失敗：{error}",
   "@authPasskeyDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authOperationFailed": "操作失敗：{error}",
   "@authOperationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2698,17 +2706,17 @@
   "authWhuBindingSucceeded": "帳號已連結",
   "authWhuBindingFailed": "連結帳號失敗：{error}",
   "@authWhuBindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "連結目前的珞家帳戶（{studentId}）",
   "@authWhuBindingCurrent": {
-    "placeholders": {
-      "studentId": {
-        "type": "String"
+   "placeholders": {
+     "studentId": {
+       "type": "String"
       }
     }
   },
@@ -2717,9 +2725,9 @@
   "authWhuUnbindingSucceeded": "帳號已解除連結",
   "authWhuUnbindingFailed": "解除連結帳號失敗：{error}",
   "@authWhuUnbindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2731,9 +2739,9 @@
   "authDeleteAccountConfirm": "刪除帳號",
   "authDeleteAccountFailed": "刪除帳號失敗：{error}",
   "@authDeleteAccountFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2752,9 +2760,9 @@
   "authBio": "個人簡介",
   "authProfileUpdateFailed": "更新個人資料失敗：{error}",
   "@authProfileUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2763,9 +2771,9 @@
   "authPasswordChanged": "密碼已變更，請重新登入。",
   "authPasswordChangeFailed": "變更密碼失敗：{error}",
   "@authPasswordChangeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2774,9 +2782,9 @@
   "authRegistrationBindWhuAccount": "連結武大帳號",
   "authPasswordMinLength": "密碼長度至少須為 {count} 個字元",
   "@authPasswordMinLength": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2802,9 +2810,9 @@
   "courseGradeStatsRange": "{from} - {to}",
   "courseGradeStatsLoadFailed": "載入成績分布失敗：{error}",
   "@courseGradeStatsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2813,9 +2821,9 @@
   "courseGradeStatsPrivacyThreshold": "為保護隱私，至少需要 5 筆樣本。",
   "courseGradeStatsSamples": "{count} 筆匿名樣本",
   "@courseGradeStatsSamples": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2829,9 +2837,9 @@
   "courseGradeStatsSubmitted": "匿名成績已提交。",
   "courseGradeStatsSubmitFailed": "提交成績失敗：{error}",
   "@courseGradeStatsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2840,9 +2848,9 @@
   "courseReviewsWrite": "撰寫匿名評價",
   "courseReviewsAnonymousStudent": "匿名學生 · {semester}",
   "@courseReviewsAnonymousStudent": {
-    "placeholders": {
-      "semester": {
-        "type": "String"
+   "placeholders": {
+     "semester": {
+       "type": "String"
       }
     }
   },
@@ -2851,9 +2859,9 @@
   "courseReviewsRating": "評分",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-    "placeholders": {
-      "rating": {
-        "type": "String"
+   "placeholders": {
+     "rating": {
+       "type": "String"
       }
     }
   },
@@ -2861,25 +2869,25 @@
   "courseReviewsSubmitted": "評價已提交，審核通過後將顯示。",
   "courseReviewsSubmitFailed": "提交評價失敗：{error}",
   "@courseReviewsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "已同步 {count} 門符合資格的課程。",
   "@courseReviewsSyncSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "同步失敗：{error}",
   "@courseReviewsSyncFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2889,17 +2897,17 @@
   "forumSelectedBoardUnavailable": "請選擇可用的版面。",
   "forumBoardShelter": "避難所 {name}",
   "@forumBoardShelter": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "forumBoardsLoadFailed": "載入版面失敗：{error}",
   "@forumBoardsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2910,9 +2918,9 @@
   "forumSupportedAttachmentFormats": "支援的附件格式",
   "forumAttachmentUploadFailed": "上傳附件失敗：{error}",
   "@forumPostsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2921,9 +2929,9 @@
   "forumPublish": "發布",
   "forumPublishFailed": "發布失敗：{error}",
   "@forumPublishFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2931,15 +2939,15 @@
   "forumAnonymous": "匿名",
   "forumPostMetadata": "{author} · {comments} 則回覆 · {upvotes} 個讚",
   "@forumPostMetadata": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       },
-      "comments": {
-        "type": "int"
+     "comments": {
+       "type": "int"
       },
-      "upvotes": {
-        "type": "int"
+     "upvotes": {
+       "type": "int"
       }
     }
   },
@@ -2949,9 +2957,9 @@
   "forumReply": "回覆",
   "forumRepliesLoadFailed": "載入回覆失敗：{error}",
   "@forumRepliesLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2960,18 +2968,18 @@
   "forumSend": "傳送",
   "forumReplyFailed": "回覆失敗：{error}",
   "@forumReplyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasswordResetEmail": "電郵",
   "authPasswordResetSendFailed": "傳送失敗：{error}",
   "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2982,9 +2990,9 @@
   "courseReviewsStatusRejected": "已拒絕",
   "courseReviewsRejectionReason": "審核備註：{reason}",
   "@courseReviewsRejectionReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -2994,18 +3002,18 @@
   "courseReviewsDeleted": "評價已刪除。",
   "courseReviewsDeleteFailed": "刪除評價失敗：{error}",
   "@courseReviewsDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "評價已更新，並再次提交審核。",
   "courseReviewsUpdateFailed": "更新評價失敗：{error}",
   "@courseReviewsUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3024,9 +3032,9 @@
   "forumShelterPrivacyDescription": "你的匿名名稱僅會在此主題中保持一致。不會顯示頭像或個人資料，且此貼文將於 24 小時後過期。",
   "forumShelterExpiresIn": "將於 {time} 後過期",
   "@forumShelterExpiresIn": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3041,37 +3049,37 @@
   "forumReportSubmittedFlavor": "已呈報因果，靜待迴響。",
   "forumReportFailed": "提交檢舉失敗：{error}",
   "@forumReportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "forumKarma": "業力",
   "forumKarmaLevel": "等級{level}",
   "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "forumKarmaAuthorMeta": "Lv{level} · 業力 {karma}",
   "@forumKarmaAuthorMeta": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelOnly": "Lv{level}",
   "@forumKarmaLevelOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
@@ -3088,26 +3096,26 @@
   "forumKarmaLevelTitle10": "神話",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       }
     }
   },
   "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · 業力 {karma}",
   "@forumKarmaAuthorMetaWithTitle": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
@@ -3118,12 +3126,12 @@
   "forumKarmaDailyBudget": "今日業力額度",
   "forumKarmaBudgetLine": "讚 {up} · 踩 {down}",
   "@forumKarmaBudgetLine": {
-    "placeholders": {
-      "up": {
-        "type": "int"
+   "placeholders": {
+     "up": {
+       "type": "int"
       },
-      "down": {
-        "type": "int"
+     "down": {
+       "type": "int"
       }
     }
   },
@@ -3133,9 +3141,9 @@
   "forumCheckinTitle": "每日簽到",
   "forumCheckinFixed": "穩健之路（+{amount}）",
   "@forumCheckinFixed": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       }
     }
   },
@@ -3144,12 +3152,12 @@
   "forumCheckinDone": "今日已簽到",
   "forumCheckinSuccess": "+{amount} 業力（連續 {streak} 天）",
   "@forumCheckinSuccess": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       },
-      "streak": {
-        "type": "int"
+     "streak": {
+       "type": "int"
       }
     }
   },
@@ -3166,17 +3174,17 @@
   "forumKarmaLedgerAdmin": "管理調整",
   "forumKarmaNextLevel": "下一級需 {karma}",
   "@forumKarmaNextLevel": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaStreakLine": "連續簽到：{streak} 天",
   "@forumKarmaStreakLine": {
-    "placeholders": {
-      "streak": {
-        "type": "int"
+   "placeholders": {
+     "streak": {
+       "type": "int"
       }
     }
   },
@@ -3186,9 +3194,9 @@
   "forumKarmaAdminReason": "原因",
   "forumKarmaAdminSuccess": "業力已更新為 {karma}",
   "@forumKarmaAdminSuccess": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
@@ -3278,18 +3286,18 @@
   "campusLayoutDragHint": "拖曳應用程式以重新排序或建立資料夾",
   "campusLayoutColumns": "每列 {count} 個",
   "@campusLayoutColumns": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "覆寫已修改的課程？",
   "courseImportOverwriteModifiedMessage": "本學期有 {count} 門課程曾被手動修改。繼續匯入將覆寫這些修改。",
   "@courseImportOverwriteModifiedMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3298,9 +3306,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "逐項檢查",
   "courseImportModifiedRecordMessage": "已修改的課程記錄：{time}\n請選擇如何處理此記錄。",
   "@courseImportModifiedRecordMessage": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3318,9 +3326,9 @@
   "detailStatusInactive": "不追蹤完成狀態",
   "detailConflictWithItems": "與 {items} 時間重疊。仍可儲存。",
   "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3330,9 +3338,9 @@
   "editorCompletionModeNone": "僅顯示",
   "editorConflictWithItems": "與 {items} 時間重疊。仍可儲存。",
   "@editorConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3340,9 +3348,9 @@
   "commonOk": "確定",
   "whuAccountEducationalYearsValue": "{years} 年",
   "@whuAccountEducationalYearsValue": {
-    "placeholders": {
-      "years": {
-        "type": "int"
+   "placeholders": {
+     "years": {
+       "type": "int"
       }
     }
   },
@@ -3351,9 +3359,9 @@
   "addTimetable": "新增課程表",
   "addToTimetable": "新增到{name}",
   "@addToTimetable": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3371,9 +3379,9 @@
   "exportTimetable": "匯出課程表",
   "homeTimeBlock": "第{index}區塊",
   "@homeTimeBlock": {
-    "placeholders": {
-      "index": {
-        "type": "String"
+   "placeholders": {
+     "index": {
+       "type": "String"
       }
     }
   },
@@ -3406,41 +3414,41 @@
   "notificationScheduleIncomplete": "行程尚未完成",
   "notificationStartsInFifteenMinutes": "15 分鐘後開始 · {time}",
   "@notificationStartsInFifteenMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "5 分鐘後開始 · {time}",
   "@notificationStartsInFiveMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "1 小時後開始 · {time}",
   "@notificationStartsInOneHour": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsSoon": "即將開始 · {time}",
   "@notificationStartsSoon": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationTomorrow": "明天 · {time}",
   "@notificationTomorrow": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3453,9 +3461,9 @@
   "separate": "拆分",
   "separatedTimetableName": "{name}（拆分）",
   "@separatedTimetableName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3465,9 +3473,9 @@
   "shiguangFileImportDescription": "匯入時光課程表 JSON 檔案",
   "shiguangImportFailed": "匯入時光課程表失敗：{error}",
   "@shiguangImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3483,9 +3491,9 @@
   "starlinkImportDescription": "透過 JSON 檔案或分享碼匯入 Starlink 課程表",
   "starlinkImportFailed": "匯入 Starlink 課程表失敗：{error}",
   "@starlinkImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3496,27 +3504,27 @@
   "starlinkTimetableShareCode": "Starlink 課程表分享碼",
   "timetableDetails": "學期：{term}\n匯入時間：{importedAt}\n更新時間：{updatedAt}\n來源：{source}",
   "@timetableDetails": {
-    "placeholders": {
-      "term": {
-        "type": "String"
+   "placeholders": {
+     "term": {
+       "type": "String"
       },
-      "importedAt": {
-        "type": "String"
+     "importedAt": {
+       "type": "String"
       },
-      "updatedAt": {
-        "type": "String"
+     "updatedAt": {
+       "type": "String"
       },
-      "source": {
-        "type": "String"
+     "source": {
+       "type": "String"
       }
     }
   },
   "timetableExported": "課程表已匯出。",
   "timetableImportFailed": "匯入課程表失敗：{error}",
   "@timetableImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3528,9 +3536,9 @@
   "wakeupFileImportDescription": "匯入 Wakeup CSV 或課程表檔案",
   "wakeupImportFailed": "匯入 Wakeup 課程表失敗：{error}",
   "@wakeupImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3541,9 +3549,9 @@
   "webViewLoadingPage": "正在載入頁面...",
   "webViewPreparationFailed": "頁面準備失敗：{error}",
   "@webViewPreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3605,9 +3613,9 @@
   "authRegisteredDevicesEmpty": "沒有已註冊裝置。",
   "authRegisteredDeviceLastSeen": "最近註冊：{time}",
   "@authRegisteredDeviceLastSeen": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3672,40 +3680,40 @@
   "settingsCourseReminderUseDefault": "使用分組預設（{minutes} 分鐘）",
   "settingsCourseReminderCustom": "自訂：{minutes} 分鐘",
   "@listDeleteSelectedConfirmMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -3717,9 +3725,9 @@
   "campusBusArrivalStop": "站點",
   "campusBusArrivalUseNearest": "使用最近站點：{stopName}",
   "@campusBusArrivalUseNearest": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -3727,9 +3735,9 @@
   "campusBusArrivalReminder": "到站提醒",
   "campusBusArrivalEnabledTarget": "正在提醒：{targetText}",
   "@campusBusArrivalEnabledTarget": {
-    "placeholders": {
-      "targetText": {
-        "type": "String"
+   "placeholders": {
+     "targetText": {
+       "type": "String"
       }
     }
   },
@@ -3753,9 +3761,9 @@
   "medicalIdOther": "其他",
   "medicalGreeting": "你好，{name}",
   "@medicalGreeting": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3903,9 +3911,9 @@
   "adminStatusNoWorkers": "暫無在線 Worker",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -3992,9 +4000,9 @@
   "adminForumConfigLogEmpty": "尚無設定變更記錄。",
   "adminForumConfigLogActor": "操作者",
   "@adminUsersSetRole": {
-    "placeholders": {
-      "role": {
-        "type": "String"
+   "placeholders": {
+     "role": {
+       "type": "String"
       }
     }
   },
@@ -4042,12 +4050,12 @@
   "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
   "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
   "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "mode": {
-        "type": "String"
+     "mode": {
+       "type": "String"
       }
     }
   },
@@ -4102,9 +4110,9 @@
   "courseMatchingNoConflicts": "無時間衝突",
   "courseMatchingConflictsCount": "{count} 處時間衝突",
   "@courseMatchingConflictsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4124,9 +4132,9 @@
   "schoolNetCheckpointTooltip": "記錄取水碼抓包檢查點",
   "schoolNetCheckpointDevicesLoaded": "已獲取 {count} 臺在線設備",
   "@schoolNetCheckpointDevicesLoaded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4147,9 +4155,9 @@
   "aiModelRequestCancelled": "AI 請求已取消",
   "aiModelHttpError": "AI HTTP 錯誤 ({statusCode})",
   "@aiModelHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4458,5 +4466,24 @@
   "waterElectricSnifferPaymentCompleted": "支付已完成",
   "waterElectricSnifferPostPaymentVerified": "支付後重新驗證",
   "waterElectricNotificationTitle": "水電餘額提醒",
-  "waterElectricNotificationBody": "{room} · {meter}：餘額 {balance}{unit}，已低於閾值 {threshold}。"
+  "waterElectricNotificationBody": "{room} · {meter}：餘額 {balance}{unit}，已低於閾值 {threshold}。",
+  "courseImportUnnamedCourse": "未命名課程",
+  "wakeupWeekSuffixOdd": "單",
+  "wakeupWeekSuffixEven": "雙",
+  "notificationOpenAction": "開啟通知",
+  "aiAgentVerifyingResult": "正在核驗結果…",
+  "aiAgentResultUnverifiable": "最終無法確認，建議人工核驗",
+  "aiAgentFailureNotConfigured": "請先在設定中完成 AI 配置。",
+  "aiAgentFailureFormatUnsupported": "目前 AI 服務配置暫不支援 Agent。",
+  "aiAgentFailureAbnormalResponse": "AI 服務傳回格式異常，本次未執行未確認的操作，請重試。",
+  "aiAgentFailureRetry": "這次請求未能完成，請稍後重試。",
+  "whuEmailParserLabel": "武大郵箱回應解析器",
+  "whuMessagesMarkReadFailed": "標記已讀失敗",
+  "whuMessagesRequestFailed": "請求失敗",
+  "whuScoreExamTypeNormal": "正常考試",
+  "whuScoreMidtermWithdraw": "中期退課",
+  "whuLibraryResultUnknown": "圖書館操作結果未知，請重新整理狀態後再決定是否重試",
+  "sportsAuthFailedCasRequired": "運動場館系統授權失敗，請重新登入武大統一認證。",
+  "waterControlAccountExchangeFailed": "水帳戶交換失敗。",
+  "courseTimetableLocalFileDefaultName": "本地課程表"
 }

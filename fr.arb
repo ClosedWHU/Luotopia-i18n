@@ -218,34 +218,34 @@
   "editorCoursePeriodEnd": "Créneau de fin",
   "editorCoursePeriodN": "Créneau {n}",
   "@editorCoursePeriodN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "Créneau {n}\n{time}",
   "@editorCoursePeriodSingle": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "Créneaux {from}-{to}\n{time}",
   "@editorCoursePeriodRange": {
-    "placeholders": {
-      "from": {
-        "type": "int"
+   "placeholders": {
+     "from": {
+       "type": "int"
       },
-      "to": {
-        "type": "int"
+     "to": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -253,9 +253,9 @@
   "editorCourseWeekEnd": "Semaine de fin",
   "editorCourseWeekN": "Semaine {n}",
   "@editorCourseWeekN": {
-    "placeholders": {
-      "n": {
-        "type": "int"
+   "placeholders": {
+     "n": {
+       "type": "int"
       }
     }
   },
@@ -453,17 +453,17 @@
   "settingsLicensesTitle": "Licences open source",
   "licenseAuthor": "Auteur : {author}",
   "@licenseAuthor": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       }
     }
   },
   "licenseVersion": "Version : {version}",
   "@licenseVersion": {
-    "placeholders": {
-      "version": {
-        "type": "String"
+   "placeholders": {
+     "version": {
+       "type": "String"
       }
     }
   },
@@ -578,6 +578,14 @@
   "sportsRetry": "Réessayer",
   "sportsSelectDateFirst": "Choisissez d’abord la date",
   "sportsSelectTimeSlot": "Choisir un créneau",
+  "sportsReservableSlotsCount": "{count} créneaux",
+  "@sportsReservableSlotsCount": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "sportsSelectVenue": "Choisir un lieu",
   "startImport": "Démarrer l'importation",
   "tapToSelect": "Appuyez pour sélectionner",
@@ -645,268 +653,268 @@
   "whuLoginWebViewLoading": "Chargement…",
   "whuLoginWebViewTitle": "Connexion WHU",
   "@editorDurationHourMinute": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-    "placeholders": {
-      "classroom": {
-        "type": "String"
+   "placeholders": {
+     "classroom": {
+       "type": "String"
       },
-      "section": {
-        "type": "int"
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-    "placeholders": {
-      "sections": {
-        "type": "String"
+   "placeholders": {
+     "sections": {
+       "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-    "placeholders": {
-      "expanded": {
-        "type": "int"
+   "placeholders": {
+     "expanded": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-    "placeholders": {
-      "floor": {
-        "type": "String"
+   "placeholders": {
+     "floor": {
+       "type": "String"
       },
-      "available": {
-        "type": "int"
+     "available": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-    "placeholders": {
-      "section": {
-        "type": "int"
+   "placeholders": {
+     "section": {
+       "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-    "placeholders": {
-      "week": {
-        "type": "String"
+   "placeholders": {
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-    "placeholders": {
-      "day": {
-        "type": "String"
+   "placeholders": {
+     "day": {
+       "type": "String"
       },
-      "endDay": {
-        "type": "String"
+     "endDay": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-    "placeholders": {
-      "month": {
-        "type": "String"
+   "placeholders": {
+     "month": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabel": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "term": {
-        "type": "String"
+     "term": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "month": {
-        "type": "String"
+     "month": {
+       "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-    "placeholders": {
-      "year": {
-        "type": "String"
+   "placeholders": {
+     "year": {
+       "type": "String"
       },
-      "week": {
-        "type": "String"
+     "week": {
+       "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-    "placeholders": {
-      "start": {
-        "type": "String"
+   "placeholders": {
+     "start": {
+       "type": "String"
       },
-      "end": {
-        "type": "String"
+     "end": {
+       "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-    "placeholders": {
-      "weekday": {
-        "type": "String"
+   "placeholders": {
+     "weekday": {
+       "type": "String"
       }
     }
   },
   "@hourH": {
-    "placeholders": {
-      "hour": {}
+   "placeholders": {
+     "hour": {}
     }
   },
   "@importedTimestr": {
-    "placeholders": {
-      "timeStr": {}
+   "placeholders": {
+     "timeStr": {}
     }
   },
   "@listCompletedSection": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@minuteMin": {
-    "placeholders": {
-      "minute": {}
+   "placeholders": {
+     "minute": {}
     }
   },
   "@semS": {
-    "placeholders": {
-      "s": {}
+   "placeholders": {
+     "s": {}
     }
   },
   "@settingsMinutesValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-    "placeholders": {
-      "value": {
-        "type": "int"
+   "placeholders": {
+     "value": {
+       "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusImported": "Terminé : {count} éléments, {currentWeek} cette semaine.",
   "@courseImportStatusImported": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "currentWeek": {
-        "type": "int"
+     "currentWeek": {
+       "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "Importé {count} éléments dans « {tableName} ».",
   "@courseImportSnackSuccess": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "tableName": {
-        "type": "String"
+     "tableName": {
+       "type": "String"
       }
     }
   },
   "courseImportStatusFailed": "Échec de l’import : {error}",
   "@courseImportStatusFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "Année {year}-{next}",
   "@courseImportAcademicYearLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "next": {
-        "type": "int"
+     "next": {
+       "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "Sem. {semester}",
   "@courseImportSemesterLabel": {
-    "placeholders": {
-      "semester": {
-        "type": "int"
+   "placeholders": {
+     "semester": {
+       "type": "int"
       }
     }
   },
@@ -917,9 +925,9 @@
   "editorCourseNatureHint": "Nature du cours (ex. obligatoire/optionnel)",
   "editorChangeScopeTitle": "Modifier seulement cet élément, ou tous les cours « {title} » ?",
   "@editorChangeScopeTitle": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -932,9 +940,9 @@
   "aiMemo": "Mémo",
   "aiDraftReady": "Brouillon prêt : {title}",
   "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -955,9 +963,9 @@
   "aiClearConversationsWarning": "Toutes les conversations IA locales seront effacées.",
   "aiConfirmationBatchTitle": "Confirmer {count} actions",
   "@aiConfirmationBatchTitle": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -997,35 +1005,35 @@
   "scorePageTrendGpa": "Évolution du GPA par semestre",
   "scorePageSemesterLabel": "{year} - Semestre {semester}",
   "@scorePageSemesterLabel": {
-    "placeholders": {
-      "year": {
-        "type": "int"
+   "placeholders": {
+     "year": {
+       "type": "int"
       },
-      "semester": {
-        "type": "int"
+     "semester": {
+       "type": "int"
       }
     }
   },
   "scorePageBiometricAuthFailed": "Échec de l’authentification biométrique",
   "scorePageCourseInfo": "{type} · {credit} crédits · {instructor}",
   "@scorePageCourseInfo": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       },
-      "instructor": {
-        "type": "String"
+     "instructor": {
+       "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "GPA : {gpa}",
   "@scorePageGpaDisplay": {
-    "placeholders": {
-      "gpa": {
-        "type": "String"
+   "placeholders": {
+     "gpa": {
+       "type": "String"
       }
     }
   },
@@ -1034,9 +1042,9 @@
   "settingsDevModeActivated": "Mode développeur activé ! Les paramètres développeur sont disponibles.",
   "settingsDevModeTapCount": "Encore {count} appuis pour activer le mode développeur",
   "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1045,42 +1053,42 @@
   "hotUpdateTitle": "Gestion des mises à jour à chaud",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "Mis à jour : {time}",
   "@hotUpdateUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "Jamais mis à jour (utilise l'intégr par défaut)",
   "hotUpdateLocalVersion": "Local v{version}",
   "@hotUpdateLocalVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateRemoteVersion": " distant v{version}",
   "@hotUpdateRemoteVersion": {
-    "placeholders": {
-      "version": {
-        "type": "int"
+   "placeholders": {
+     "version": {
+       "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256 : {checksum}",
   "@hotUpdateChecksum": {
-    "placeholders": {
-      "checksum": {
-        "type": "String"
+   "placeholders": {
+     "checksum": {
+       "type": "String"
       }
     }
   },
@@ -1106,9 +1114,9 @@
   "hotUpdateVersionMissing": "Absent en local · Distant v{remote}",
   "hotUpdateLastFailure": "Dernier échec : {reason}",
   "@hotUpdateCheckComplete": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1137,9 +1145,9 @@
   "settingsNotificationChannelNotCreated": "Pas encore créé",
   "settingsNotificationChannelCurrent": "Actuel : {level}",
   "@settingsNotificationChannelCurrent": {
-    "placeholders": {
-      "level": {
-        "type": "String"
+   "placeholders": {
+     "level": {
+       "type": "String"
       }
     }
   },
@@ -1158,9 +1166,9 @@
   "settingsClearCacheSubtitle": "Libérer les fichiers temporaires et le cache",
   "settingsCacheCleared": "Cache effacé : {size} libérés",
   "@settingsCacheCleared": {
-    "placeholders": {
-      "size": {
-        "type": "String"
+   "placeholders": {
+     "size": {
+       "type": "String"
       }
     }
   },
@@ -1170,18 +1178,18 @@
   "settingsDevSaveSuccess": "Enregistré : URL du serveur mise à jour",
   "settingsDevScanSuccess": "Serveur trouvé : {ip}:6262",
   "@settingsDevScanSuccess": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "Aucun serveur API sur le port 6262 sur le réseau local",
   "settingsDevScanError": "Échec de l’analyse : {error}",
   "@settingsDevScanError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1211,9 +1219,9 @@
   "whuLoginVerifying": "Vérification de la connexion…",
   "whuLoginVerificationFailed": "Échec de la vérification de connexion : {error}",
   "@whuLoginVerificationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1224,9 +1232,9 @@
   "libraryNoVenues": "Aucun lieu disponible",
   "libraryLoadFailed": "Échec du chargement : {error}",
   "@libraryLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1267,33 +1275,33 @@
   "settingsAiConnectionSuccess": "Test de connexion IA réussi.",
   "settingsAiConnectionFailed": "Échec de la connexion : {error}",
   "@settingsAiConnectionFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "Chargement de {name}…",
   "@luojiaEcardLoading": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "Préparation de {name}…",
   "@luojiaEcardPreparing": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "pagePreparationFailed": "Échec de la préparation de la page : {error}",
   "@pagePreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1305,9 +1313,9 @@
   "whuCasServiceAuthFailed": "Échec de l’autorisation de service. Reconnectez-vous au CAS WHU.",
   "whuCasServiceRequestFailed": "Échec de la requête d’autorisation de service : {error}",
   "@whuCasServiceRequestFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1315,25 +1323,25 @@
   "whuCasSessionExpired": "La session académique a expiré. Reconnectez-vous.",
   "whuCasSessionVerifyFailed": "Échec de la vérification de session académique : {error}",
   "@whuCasSessionVerifyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "Échec de la récupération du compte académique (HTTP {code}).",
   "@whuCasFetchFailed": {
-    "placeholders": {
-      "code": {
-        "type": "int"
+   "placeholders": {
+     "code": {
+       "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "Échec de la connexion académique : {reason}",
   "@whuCasLoginFailedReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -1354,28 +1362,28 @@
   "gradesReviewsNoResults": "Aucun cours trouvé",
   "gradesReviewsSearchError": "Échec de la recherche : {error}",
   "@gradesReviewsSearchError": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       },
-      "department": {
-        "type": "String"
+     "department": {
+       "type": "String"
       }
     }
   },
   "courseDetailTitle": "Détail du cours : {uid}",
   "@courseDetailTitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
+   "placeholders": {
+     "uid": {
+       "type": "String"
       }
     }
   },
@@ -1385,33 +1393,33 @@
   "courseAuditPlaceholder": "La fonction d’audition de cours est en cours de développement…",
   "gradesReviewsSearchFailMessage": "Échec de la recherche : {message}",
   "@gradesReviewsSearchFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "Échec du chargement de la répartition : {message}",
   "@gradesReviewsGradeStatsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "Échec du chargement des avis : {message}",
   "@gradesReviewsReviewsFailMessage": {
-    "placeholders": {
-      "message": {
-        "type": "String"
+   "placeholders": {
+     "message": {
+       "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "Emploi du temps {index}",
   "@courseTimetableDefaultName": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -1421,9 +1429,9 @@
   "sportsReservationDayAfterTomorrow": "Après-demain",
   "sportsVenueCourtFormat": "Terrain {areaNo}",
   "@sportsVenueCourtFormat": {
-    "placeholders": {
-      "areaNo": {
-        "type": "String"
+   "placeholders": {
+     "areaNo": {
+       "type": "String"
       }
     }
   },
@@ -1445,28 +1453,28 @@
   "sportsVenueFree": "Gratuit",
   "sportsVenuePriceFormat": "{price} ¥",
   "@sportsVenuePriceFormat": {
-    "placeholders": {
-      "price": {
-        "type": "String"
+   "placeholders": {
+     "price": {
+       "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} ¥",
   "@sportsVenuePriceRangeFormat": {
-    "placeholders": {
-      "lowPrice": {
-        "type": "String"
+   "placeholders": {
+     "lowPrice": {
+       "type": "String"
       },
-      "highPrice": {
-        "type": "String"
+     "highPrice": {
+       "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value} ¥",
   "@sportsOrderPriceWithUnitFormat": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
@@ -1496,58 +1504,58 @@
   "sportsFetchBulletins": "Récupérer les annonces des lieux",
   "sportsNetworkError": "Échec de {action} : erreur réseau.",
   "@sportsNetworkError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiHttpError": "Échec de {action} (HTTP {statusCode}).",
   "@sportsApiHttpError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "statusCode": {
-        "type": "int"
+     "statusCode": {
+       "type": "int"
       }
     }
   },
   "sportsApiFormatError": "Échec de {action} : format de réponse incorrect.",
   "@sportsApiFormatError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiError": "Échec de {action}.",
   "@sportsApiError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "Échec de {action} : {message}",
   "@sportsApiErrorWithMessage": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "message": {
-        "type": "String"
+     "message": {
+       "type": "String"
       }
     }
   },
   "sportsApiJsonError": "Échec de {action} : JSON invalide. {diagnostic}",
   "@sportsApiJsonError": {
-    "placeholders": {
-      "action": {
-        "type": "String"
+   "placeholders": {
+     "action": {
+       "type": "String"
       },
-      "diagnostic": {
-        "type": "String"
+     "diagnostic": {
+       "type": "String"
       }
     }
   },
@@ -1558,9 +1566,9 @@
   "sportsApiDiagnosticNonJson": "Texte non JSON",
   "sportsApiDiagnosticResponseType": "Type de réponse : {kind}.",
   "@sportsApiDiagnosticResponseType": {
-    "placeholders": {
-      "kind": {
-        "type": "String"
+   "placeholders": {
+     "kind": {
+       "type": "String"
       }
     }
   },
@@ -1576,23 +1584,23 @@
   "scoreImportImportingCredential": "Téléchargement et analyse locale du justificatif de confiance…",
   "scoreImportSuccessWithCount": "{success} : {count} notes en cache local.",
   "@scoreImportSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed} : {error}",
   "@scoreImportFailedWithError": {
-    "placeholders": {
-      "failed": {
-        "type": "String"
+   "placeholders": {
+     "failed": {
+       "type": "String"
       },
-      "error": {
-        "type": "String"
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1600,43 +1608,43 @@
   "scoreImportNoStudentId": "Aucun numéro d’étudiant de session globale",
   "scoreImportSpoilerSuccessWithCount": "{success} : {count} notes « spoiler » récupérées.",
   "@scoreImportSpoilerSuccessWithCount": {
-    "placeholders": {
-      "success": {
-        "type": "String"
+   "placeholders": {
+     "success": {
+       "type": "String"
       },
-      "count": {
-        "type": "int"
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportLastImport": "Dernière importation",
   "scoreImportTime": "Heure : {time}",
   "@scoreImportTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "scoreImportCount": "Nombre de notes : {count}",
   "@scoreImportCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "scoreImportExample": "Exemple : {name} · {score} · {credit}",
   "@scoreImportExample": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       },
-      "score": {
-        "type": "String"
+     "score": {
+       "type": "String"
       },
-      "credit": {
-        "type": "String"
+     "credit": {
+       "type": "String"
       }
     }
   },
@@ -1646,20 +1654,20 @@
   "seatReservationDraftTitle": "Réservation de place (bibliothèque)",
   "seatReservationDraftDetails": "Source : réservation de places bibliothèque WHU\nID place : {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-    "placeholders": {
-      "seatId": {
-        "type": "String"
+   "placeholders": {
+     "seatId": {
+       "type": "String"
       },
-      "marker": {
-        "type": "String"
+     "marker": {
+       "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "ID de sync réservation : {sourceId}",
   "@seatReservationSourceMarker": {
-    "placeholders": {
-      "sourceId": {
-        "type": "String"
+   "placeholders": {
+     "sourceId": {
+       "type": "String"
       }
     }
   },
@@ -1696,9 +1704,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} messages",
   "@aiMessageCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -1712,9 +1720,9 @@
   "aiHeaderRetryLater": "Service IA temporairement indisponible. Réessayez plus tard.",
   "aiHeaderDraftCreated": "Élément créé via le brouillon : {title}",
   "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
+   "placeholders": {
+     "title": {
+       "type": "String"
       }
     }
   },
@@ -1738,12 +1746,12 @@
   "whuAccountFallbackName": "Compte WHU",
   "homeWidgetDateLabel": "{month}/{day}",
   "@homeWidgetDateLabel": {
-    "placeholders": {
-      "month": {
-        "type": "int"
+   "placeholders": {
+     "month": {
+       "type": "int"
       },
-      "day": {
-        "type": "int"
+     "day": {
+       "type": "int"
       }
     }
   },
@@ -1756,17 +1764,17 @@
   "homeWidgetAllDay": "Journée entière",
   "homeWidgetUpdatedAt": "Mis à jour {time}",
   "@homeWidgetUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "Semaine {week}",
   "@homeWidgetWeekLabel": {
-    "placeholders": {
-      "week": {
-        "type": "int"
+   "placeholders": {
+     "week": {
+       "type": "int"
       }
     }
   },
@@ -1779,17 +1787,17 @@
   "weatherRainReminderTitle": "Alerte pluie",
   "weatherBannerRainInMinutes": "Pluie dans environ {minutes} min — prenez un parapluie.",
   "@weatherBannerRainInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "Pluie dans environ {hours} h — parapluie conseillé.",
   "@weatherBannerRainInHours": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       }
     }
   },
@@ -1797,31 +1805,31 @@
   "weatherBannerRainTomorrow": "Pluie demain — prévoyez un parapluie si vous sortez.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-    "placeholders": {
-      "value": {
-        "type": "String"
+   "placeholders": {
+     "value": {
+       "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-    "placeholders": {
-      "condition": {
-        "type": "String"
+   "placeholders": {
+     "condition": {
+       "type": "String"
       },
-      "minTemp": {
-        "type": "String"
+     "minTemp": {
+       "type": "String"
       },
-      "maxTemp": {
-        "type": "String"
+     "maxTemp": {
+       "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "Vérification auto (tentative {attempt})…",
   "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
+   "placeholders": {
+     "attempt": {
+       "type": "int"
       }
     }
   },
@@ -1869,17 +1877,17 @@
   "campusBusTitle": "Bus du campus",
   "campusBusNearestStop": "Plus proche : {stopName}",
   "@campusBusNearestStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
   "campusBusTargetStop": "Cible : {stopName}",
   "@campusBusTargetStop": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -1929,9 +1937,9 @@
   "settingsWeatherAqiStandard": "Norme AQI",
   "libraryAuthFailed": "Échec d’autorisation : {error}",
   "@libraryAuthFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1942,18 +1950,18 @@
   "libraryCancelSuccess": "Réservation annulée",
   "libraryCancelFailed": "Échec de l’annulation : {error}",
   "@libraryCancelFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "Départ enregistré",
   "libraryCheckoutFailed": "Échec du départ : {error}",
   "@libraryCheckoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -1962,40 +1970,40 @@
   "libraryNoRoomData": "Aucune donnée de salle",
   "libraryFloor": "Étage {floor}",
   "@libraryFloor": {
-    "placeholders": {
-      "floor": {
-        "type": "int"
+   "placeholders": {
+     "floor": {
+       "type": "int"
       }
     }
   },
   "libraryAvailable": "Disponible {free}/{total}",
   "@libraryAvailable": {
-    "placeholders": {
-      "free": {
-        "type": "int"
+   "placeholders": {
+     "free": {
+       "type": "int"
       },
-      "total": {
-        "type": "int"
+     "total": {
+       "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-    "placeholders": {
-      "building": {
-        "type": "String"
+   "placeholders": {
+     "building": {
+       "type": "String"
       },
-      "room": {
-        "type": "String"
+     "room": {
+       "type": "String"
       }
     }
   },
   "libraryNoSeatData": "Aucune donnée de place",
   "librarySeatLayoutFailed": "Échec du plan des places : {error}",
   "@librarySeatLayoutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2009,17 +2017,17 @@
   "libraryCaptchaAutoVerifying": "Vérification en cours...",
   "libraryCaptchaRetrying": "Nouvel essai de vérification ({count})...",
   "@libraryCaptchaRetrying": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "libraryBookFailed": "Échec de la réservation : {error}",
   "@libraryBookFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2036,9 +2044,9 @@
   "libraryTomorrow": "Demain",
   "emptyClassroomSelfStudyTitle": "Étude libre · {location}",
   "@emptyClassroomSelfStudyTitle": {
-    "placeholders": {
-      "location": {
-        "type": "String"
+   "placeholders": {
+     "location": {
+       "type": "String"
       }
     }
   },
@@ -2048,12 +2056,12 @@
   "addToAgendaConfirm": "Ajouter",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-    "placeholders": {
-      "type": {
-        "type": "String"
+   "placeholders": {
+     "type": {
+       "type": "String"
       },
-      "venue": {
-        "type": "String"
+     "venue": {
+       "type": "String"
       }
     }
   },
@@ -2083,9 +2091,9 @@
   "settingsAiFetchModels": "Récupérer les modèles",
   "settingsAiFetchedCount": "{count} modèles récupérés",
   "@settingsAiFetchedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2108,9 +2116,9 @@
   "ecardPaycodeRefreshNow": "Actualiser",
   "ecardPaycodeRefreshInSeconds": "Actualisation dans {seconds}s",
   "@ecardPaycodeRefreshInSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
+   "placeholders": {
+     "seconds": {
+       "type": "int"
       }
     }
   },
@@ -2122,9 +2130,9 @@
   "waterControlCancelTitle": "Désactiver ce code ?",
   "waterControlCancelMessage": "Le code actif de {dormitory} cessera immédiatement de fonctionner.",
   "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
+   "placeholders": {
+     "dormitory": {
+       "type": "String"
       }
     }
   },
@@ -2137,9 +2145,9 @@
   "waterControlAccountFallback": "Compte de la carte du campus",
   "waterControlUpdatedAt": "Mis à jour à {time}",
   "@waterControlUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2149,12 +2157,12 @@
   "waterControlExpiryUnknown": "L’heure d’expiration de ce code actif n’est pas disponible",
   "waterControlExpiresIn": "Encore environ {hours} h {minutes} min",
   "@waterControlExpiresIn": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
+   "placeholders": {
+     "hours": {
+       "type": "int"
       },
-      "minutes": {
-        "type": "int"
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -2176,9 +2184,9 @@
   "waterControlSearchDormitory": "Rechercher par nom ou ClassNo",
   "waterControlDormitoryCount": "{count} emplacements",
   "@waterControlDormitoryCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2203,9 +2211,9 @@
   "studyStatusFetchFailed": "Échec de la récupération des données",
   "studyStatusStatsTime": "Données au {time}",
   "@studyStatusStatsTime": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -2219,83 +2227,83 @@
   "studyStatusOutOfPlan": "Hors plan",
   "studyStatusTotalCourses": "{count} cours",
   "@studyStatusTotalCourses": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "Réussi {count}",
   "@studyStatusPassedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "Échoué {count}",
   "@studyStatusFailedCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "En cours {count}",
   "@studyStatusStudyingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "{credits} crédits requis",
   "@studyStatusRequiredCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "{credits} crédits obtenus",
   "@studyStatusEarnedCredits": {
-    "placeholders": {
-      "credits": {
-        "type": "String"
+   "placeholders": {
+     "credits": {
+       "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "Aucune donnée de cours",
   "studyStatusCredits": "{credit} crédits",
   "@studyStatusCredits": {
-    "placeholders": {
-      "credit": {
-        "type": "String"
+   "placeholders": {
+     "credit": {
+       "type": "String"
       }
     }
   },
   "studyStatusRetake": "À reprendre",
   "studyStatusScorePoints": "{score} points",
   "@studyStatusScorePoints": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "Score orig. {score} pts",
   "@studyStatusOriginalScore": {
-    "placeholders": {
-      "score": {
-        "type": "Object"
+   "placeholders": {
+     "score": {
+       "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "Moyenne {point}",
   "@studyStatusGradePoint": {
-    "placeholders": {
-      "point": {
-        "type": "Object"
+   "placeholders": {
+     "point": {
+       "type": "Object"
       }
     }
   },
@@ -2344,9 +2352,9 @@
   "onboardingPermissionSkipTitle": "Ignorer les autorisations ?",
   "onboardingPermissionSkipMessage": "Sans {permissions}, certaines fonctions seront indisponibles. Vous pourrez les accorder plus tard.",
   "@onboardingPermissionSkipMessage": {
-    "placeholders": {
-      "permissions": {
-        "type": "String"
+   "placeholders": {
+     "permissions": {
+       "type": "String"
       }
     }
   },
@@ -2367,9 +2375,9 @@
   "settingsDevRestartOnboardingAction": "Relancer",
   "onboardingPermissionRequestFailed": "Autorisation « {permission} » non accordée",
   "@onboardingPermissionRequestFailed": {
-    "placeholders": {
-      "permission": {
-        "type": "String"
+   "placeholders": {
+     "permission": {
+       "type": "String"
       }
     }
   },
@@ -2461,17 +2469,17 @@
   "scoreTranscriptNoTemplates": "Aucun modele de releve de notes n est disponible pour ce compte.",
   "scoreTranscriptLoadFailed": "Impossible de charger les types de releve de notes : {error}",
   "@scoreTranscriptLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "Impossible d obtenir le justificatif electronique verifie : {error}",
   "@scoreTranscriptFetchFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2500,9 +2508,9 @@
   "authMfaTitle": "Double authentification",
   "authMfaEmailSent": "Un code a été envoyé à {email}",
   "@authMfaEmailSent": {
-    "placeholders": {
-      "email": {
-        "type": "String"
+   "placeholders": {
+     "email": {
+       "type": "String"
       }
     }
   },
@@ -2519,9 +2527,9 @@
   "commonRetry": "Réessayer",
   "commonLoadFailed": "Échec du chargement : {error}",
   "@commonLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2575,9 +2583,9 @@
   "authApiCredentialSaved": "Je l’ai enregistré",
   "authApiCredentialCreateFailed": "Échec de la création de l’identifiant : {error}",
   "@authApiCredentialCreateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2585,12 +2593,12 @@
   "authApiCredentialUnnamed": "Sans nom",
   "authApiCredentialStatus": "Statut : {status} · Créé le {date}",
   "@authApiCredentialStatus": {
-    "placeholders": {
-      "status": {
-        "type": "String"
+   "placeholders": {
+     "status": {
+       "type": "String"
       },
-      "date": {
-        "type": "String"
+     "date": {
+       "type": "String"
       }
     }
   },
@@ -2599,9 +2607,9 @@
   "authApiCredentialRevoke": "Révoquer",
   "authApiCredentialRevokeFailed": "Échec de la révocation de l’identifiant : {error}",
   "@authApiCredentialRevokeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2618,15 +2626,15 @@
   "authSessionsUnknown": "Inconnu",
   "authSessionsDetails": "IP : {ip}\nDernière activité : {lastActive}\nConnecté le : {signedIn}",
   "@authSessionsDetails": {
-    "placeholders": {
-      "ip": {
-        "type": "String"
+   "placeholders": {
+     "ip": {
+       "type": "String"
       },
-      "lastActive": {
-        "type": "String"
+     "lastActive": {
+       "type": "String"
       },
-      "signedIn": {
-        "type": "String"
+     "signedIn": {
+       "type": "String"
       }
     }
   },
@@ -2634,9 +2642,9 @@
   "authSessionsSignOutSucceeded": "Appareil déconnecté",
   "authSessionsSignOutFailed": "Échec de la déconnexion de l’appareil : {error}",
   "@authSessionsSignOutFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2644,42 +2652,42 @@
   "authPasskeyDeviceName": "Nom de l’appareil",
   "authPasskeyRegisterFailed": "Échec de l’enregistrement de la Passkey : {error}",
   "@authPasskeyRegisterFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasskeysDescription": "{count} Passkey(s) enregistrée(s). Les Passkeys utilisent l’authentification biométrique du système de votre appareil.",
   "@authPasskeysDescription": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "Enregistrez une clé biométrique sur un appareil compatible",
   "authPasskeyCreatedAt": "Créée le {date}",
   "@authPasskeyCreatedAt": {
-    "placeholders": {
-      "date": {
-        "type": "String"
+   "placeholders": {
+     "date": {
+       "type": "String"
       }
     }
   },
   "authPasskeyDeleteFailed": "Échec de la suppression de la Passkey : {error}",
   "@authPasskeyDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authOperationFailed": "Échec de l’opération : {error}",
   "@authOperationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2688,17 +2696,17 @@
   "authWhuBindingSucceeded": "Compte associé",
   "authWhuBindingFailed": "Échec de l’association du compte : {error}",
   "@authWhuBindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "Associer le compte Luotopia actuel ({studentId})",
   "@authWhuBindingCurrent": {
-    "placeholders": {
-      "studentId": {
-        "type": "String"
+   "placeholders": {
+     "studentId": {
+       "type": "String"
       }
     }
   },
@@ -2707,9 +2715,9 @@
   "authWhuUnbindingSucceeded": "Compte dissocié",
   "authWhuUnbindingFailed": "Échec de la dissociation du compte : {error}",
   "@authWhuUnbindingFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2721,9 +2729,9 @@
   "authDeleteAccountConfirm": "Supprimer le compte",
   "authDeleteAccountFailed": "Échec de la suppression du compte : {error}",
   "@authDeleteAccountFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2742,9 +2750,9 @@
   "authBio": "Biographie",
   "authProfileUpdateFailed": "Échec de la mise à jour du profil : {error}",
   "@authProfileUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2753,9 +2761,9 @@
   "authPasswordChanged": "Mot de passe modifié. Veuillez vous reconnecter.",
   "authPasswordChangeFailed": "Échec de la modification du mot de passe : {error}",
   "@authPasswordChangeFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2764,9 +2772,9 @@
   "authRegistrationBindWhuAccount": "Associer un compte WHU",
   "authPasswordMinLength": "Le mot de passe doit contenir au moins {count} caractères",
   "@authPasswordMinLength": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2792,9 +2800,9 @@
   "courseGradeStatsRange": "{from} - {to}",
   "courseGradeStatsLoadFailed": "Échec du chargement de la répartition des notes : {error}",
   "@courseGradeStatsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2803,9 +2811,9 @@
   "courseGradeStatsPrivacyThreshold": "Au moins 5 échantillons sont nécessaires pour protéger la confidentialité.",
   "courseGradeStatsSamples": "{count} échantillon(s) anonyme(s)",
   "@courseGradeStatsSamples": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -2819,9 +2827,9 @@
   "courseGradeStatsSubmitted": "Note anonyme envoyée.",
   "courseGradeStatsSubmitFailed": "Échec de l’envoi de la note : {error}",
   "@courseGradeStatsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2841,9 +2849,9 @@
   "courseReviewsWrite": "Rédiger un avis anonyme",
   "courseReviewsAnonymousStudent": "Étudiant anonyme · {semester}",
   "@courseReviewsAnonymousStudent": {
-    "placeholders": {
-      "semester": {
-        "type": "String"
+   "placeholders": {
+     "semester": {
+       "type": "String"
       }
     }
   },
@@ -2852,9 +2860,9 @@
   "courseReviewsRating": "Évaluation",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-    "placeholders": {
-      "rating": {
-        "type": "String"
+   "placeholders": {
+     "rating": {
+       "type": "String"
       }
     }
   },
@@ -2862,25 +2870,25 @@
   "courseReviewsSubmitted": "Avis envoyé ; il sera affiché après approbation.",
   "courseReviewsSubmitFailed": "Échec de l’envoi de l’avis : {error}",
   "@courseReviewsSubmitFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "{count} cours éligible(s) synchronisé(s).",
   "@courseReviewsSyncSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "Échec de la synchronisation : {error}",
   "@courseReviewsSyncFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2890,17 +2898,17 @@
   "forumSelectedBoardUnavailable": "Veuillez sélectionner un forum disponible.",
   "forumBoardShelter": "Forum {name}",
   "@forumBoardShelter": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
   "forumBoardsLoadFailed": "Échec du chargement des forums : {error}",
   "@forumBoardsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2911,9 +2919,9 @@
   "forumSupportedAttachmentFormats": "Formats de fichier pris en charge",
   "forumAttachmentUploadFailed": "Échec de l’envoi de la pièce jointe : {error}",
   "@forumPostsLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2922,9 +2930,9 @@
   "forumPublish": "Publier",
   "forumPublishFailed": "Échec de la publication : {error}",
   "@forumPublishFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2932,15 +2940,15 @@
   "forumAnonymous": "Anonyme",
   "forumPostMetadata": "{author} · {comments} réponse(s) · {upvotes} vote(s) positif(s)",
   "@forumPostMetadata": {
-    "placeholders": {
-      "author": {
-        "type": "String"
+   "placeholders": {
+     "author": {
+       "type": "String"
       },
-      "comments": {
-        "type": "int"
+     "comments": {
+       "type": "int"
       },
-      "upvotes": {
-        "type": "int"
+     "upvotes": {
+       "type": "int"
       }
     }
   },
@@ -2950,9 +2958,9 @@
   "forumReply": "Répondre",
   "forumRepliesLoadFailed": "Échec du chargement des réponses : {error}",
   "@forumRepliesLoadFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2961,18 +2969,18 @@
   "forumSend": "Envoyer",
   "forumReplyFailed": "Échec de l’envoi de la réponse : {error}",
   "@forumReplyFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "authPasswordResetEmail": "E-mail",
   "authPasswordResetSendFailed": "Échec de l’envoi : {error}",
   "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -2983,9 +2991,9 @@
   "courseReviewsStatusRejected": "Rejeté",
   "courseReviewsRejectionReason": "Note d’examen : {reason}",
   "@courseReviewsRejectionReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
+   "placeholders": {
+     "reason": {
+       "type": "String"
       }
     }
   },
@@ -2995,18 +3003,18 @@
   "courseReviewsDeleted": "Avis supprimé.",
   "courseReviewsDeleteFailed": "Échec de la suppression de l’avis : {error}",
   "@courseReviewsDeleteFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "Avis modifié et de nouveau soumis pour examen.",
   "courseReviewsUpdateFailed": "Échec de la modification de l’avis : {error}",
   "@courseReviewsUpdateFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3025,9 +3033,9 @@
   "forumShelterPrivacyDescription": "Votre pseudonyme reste cohérent uniquement dans ce sujet. Aucun avatar ni profil n’est affiché, et cette publication expire après 24 heures.",
   "forumShelterExpiresIn": "Expire dans {time}",
   "@forumShelterExpiresIn": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3043,28 +3051,28 @@
   "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
   "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaLevelOnly": "Lv{level}",
   "@forumKarmaLevelOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       }
     }
   },
@@ -3081,26 +3089,26 @@
   "forumKarmaLevelTitle10": "Myth",
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       }
     }
   },
   "forumKarmaAuthorMetaWithTitle": "Lv{level} · {title} · {karma} Karma",
   "@forumKarmaAuthorMetaWithTitle": {
-    "placeholders": {
-      "level": {
-        "type": "int"
+   "placeholders": {
+     "level": {
+       "type": "int"
       },
-      "title": {
-        "type": "String"
+     "title": {
+       "type": "String"
       },
-      "karma": {
-        "type": "int"
+     "karma": {
+       "type": "int"
       }
     }
   },
@@ -3111,12 +3119,12 @@
   "forumKarmaDailyBudget": "Daily allotment",
   "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
-    "placeholders": {
-      "up": {
-        "type": "int"
+   "placeholders": {
+     "up": {
+       "type": "int"
       },
-      "down": {
-        "type": "int"
+     "down": {
+       "type": "int"
       }
     }
   },
@@ -3126,9 +3134,9 @@
   "forumCheckinTitle": "Daily check-in",
   "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       }
     }
   },
@@ -3137,12 +3145,12 @@
   "forumCheckinDone": "Already checked in today",
   "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
-    "placeholders": {
-      "amount": {
-        "type": "int"
+   "placeholders": {
+     "amount": {
+       "type": "int"
       },
-      "streak": {
-        "type": "int"
+     "streak": {
+       "type": "int"
       }
     }
   },
@@ -3159,17 +3167,17 @@
   "forumKarmaLedgerAdmin": "Admin adjustment",
   "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
   "forumKarmaStreakLine": "Check-in streak: {streak}",
   "@forumKarmaStreakLine": {
-    "placeholders": {
-      "streak": {
-        "type": "int"
+   "placeholders": {
+     "streak": {
+       "type": "int"
       }
     }
   },
@@ -3179,9 +3187,9 @@
   "forumKarmaAdminReason": "Reason",
   "forumKarmaAdminSuccess": "Karma updated to {karma}",
   "@forumKarmaAdminSuccess": {
-    "placeholders": {
-      "karma": {
-        "type": "int"
+   "placeholders": {
+     "karma": {
+       "type": "int"
       }
     }
   },
@@ -3208,9 +3216,9 @@
   "forumAdminLogActionApprove": "Approve post",
   "forumReportFailed": "Échec de l’envoi du signalement : {error}",
   "@forumReportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3279,18 +3287,18 @@
   "campusLayoutDragHint": "Faites glisser les applications pour les réorganiser ou créer des dossiers",
   "campusLayoutColumns": "{count} par ligne",
   "@campusLayoutColumns": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "Écraser les cours modifiés ?",
   "courseImportOverwriteModifiedMessage": "{count} cours de ce semestre ont été modifiés manuellement. Poursuivre l’importation écrasera ces modifications.",
   "@courseImportOverwriteModifiedMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -3299,9 +3307,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "Examiner individuellement",
   "courseImportModifiedRecordMessage": "Occurrence de cours modifiée : {time}\nChoisissez comment traiter cet enregistrement.",
   "@courseImportModifiedRecordMessage": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3319,9 +3327,9 @@
   "detailStatusInactive": "Finalisation non suivie",
   "detailConflictWithItems": "Chevauche {items}. Vous pouvez quand même enregistrer.",
   "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3331,9 +3339,9 @@
   "editorCompletionModeNone": "Affichage seulement",
   "editorConflictWithItems": "Chevauche {items}. Vous pouvez quand même enregistrer.",
   "@editorConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
+   "placeholders": {
+     "items": {
+       "type": "String"
       }
     }
   },
@@ -3341,9 +3349,9 @@
   "commonOk": "OK",
   "whuAccountEducationalYearsValue": "{years} ans",
   "@whuAccountEducationalYearsValue": {
-    "placeholders": {
-      "years": {
-        "type": "int"
+   "placeholders": {
+     "years": {
+       "type": "int"
       }
     }
   },
@@ -3352,9 +3360,9 @@
   "addTimetable": "Ajouter un emploi du temps",
   "addToTimetable": "Ajouter à {name}",
   "@addToTimetable": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3372,9 +3380,9 @@
   "exportTimetable": "Exporter l’emploi du temps",
   "homeTimeBlock": "Bloc {index}",
   "@homeTimeBlock": {
-    "placeholders": {
-      "index": {
-        "type": "String"
+   "placeholders": {
+     "index": {
+       "type": "String"
       }
     }
   },
@@ -3407,41 +3415,41 @@
   "notificationScheduleIncomplete": "Emploi du temps non terminé",
   "notificationStartsInFifteenMinutes": "Commence dans 15 minutes · {time}",
   "@notificationStartsInFifteenMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "Commence dans 5 minutes · {time}",
   "@notificationStartsInFiveMinutes": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "Commence dans 1 heure · {time}",
   "@notificationStartsInOneHour": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationStartsSoon": "Commence bientôt · {time}",
   "@notificationStartsSoon": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
   "notificationTomorrow": "Demain · {time}",
   "@notificationTomorrow": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3454,9 +3462,9 @@
   "separate": "Séparer",
   "separatedTimetableName": "{name} (séparé)",
   "@separatedTimetableName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3466,9 +3474,9 @@
   "shiguangFileImportDescription": "Importez un fichier JSON d’emploi du temps Shiguang",
   "shiguangImportFailed": "Échec de l’importation de l’emploi du temps Shiguang : {error}",
   "@shiguangImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3484,9 +3492,9 @@
   "starlinkImportDescription": "Importez un emploi du temps Starlink depuis un fichier JSON ou un code de partage",
   "starlinkImportFailed": "Échec de l’importation de l’emploi du temps Starlink : {error}",
   "@starlinkImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3497,27 +3505,27 @@
   "starlinkTimetableShareCode": "Code de partage d’emploi du temps Starlink",
   "timetableDetails": "Semestre : {term}\nImporté : {importedAt}\nMis à jour : {updatedAt}\nSource : {source}",
   "@timetableDetails": {
-    "placeholders": {
-      "term": {
-        "type": "String"
+   "placeholders": {
+     "term": {
+       "type": "String"
       },
-      "importedAt": {
-        "type": "String"
+     "importedAt": {
+       "type": "String"
       },
-      "updatedAt": {
-        "type": "String"
+     "updatedAt": {
+       "type": "String"
       },
-      "source": {
-        "type": "String"
+     "source": {
+       "type": "String"
       }
     }
   },
   "timetableExported": "Emploi du temps exporté.",
   "timetableImportFailed": "Échec de l’importation de l’emploi du temps : {error}",
   "@timetableImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3529,9 +3537,9 @@
   "wakeupFileImportDescription": "Importez un fichier CSV ou d’emploi du temps Wakeup",
   "wakeupImportFailed": "Échec de l’importation de l’emploi du temps Wakeup : {error}",
   "@wakeupImportFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3542,9 +3550,9 @@
   "webViewLoadingPage": "Chargement de la page...",
   "webViewPreparationFailed": "Échec de la préparation de la page : {error}",
   "@webViewPreparationFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
+   "placeholders": {
+     "error": {
+       "type": "String"
       }
     }
   },
@@ -3625,9 +3633,9 @@
   "authRegisteredDevicesEmpty": "Aucun appareil enregistré.",
   "authRegisteredDeviceLastSeen": "Dernier enregistrement : {time}",
   "@authRegisteredDeviceLastSeen": {
-    "placeholders": {
-      "time": {
-        "type": "String"
+   "placeholders": {
+     "time": {
+       "type": "String"
       }
     }
   },
@@ -3693,40 +3701,40 @@
   "settingsCourseReminderUseDefault": "Utiliser la valeur du groupe ({minutes} min)",
   "settingsCourseReminderCustom": "Personnalisé : {minutes} min",
   "@listDeleteSelectedConfirmMessage": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       },
-      "time": {
-        "type": "String"
+     "time": {
+       "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
+   "placeholders": {
+     "minutes": {
+       "type": "int"
       }
     }
   },
@@ -3738,9 +3746,9 @@
   "campusBusArrivalStop": "Arrêt",
   "campusBusArrivalUseNearest": "Utiliser le plus proche : {stopName}",
   "@campusBusArrivalUseNearest": {
-    "placeholders": {
-      "stopName": {
-        "type": "String"
+   "placeholders": {
+     "stopName": {
+       "type": "String"
       }
     }
   },
@@ -3748,9 +3756,9 @@
   "campusBusArrivalReminder": "Rappel d'arrivée",
   "campusBusArrivalEnabledTarget": "Rappel pour : {targetText}",
   "@campusBusArrivalEnabledTarget": {
-    "placeholders": {
-      "targetText": {
-        "type": "String"
+   "placeholders": {
+     "targetText": {
+       "type": "String"
       }
     }
   },
@@ -3774,9 +3782,9 @@
   "medicalIdOther": "Autre",
   "medicalGreeting": "Bonjour, {name}",
   "@medicalGreeting": {
-    "placeholders": {
-      "name": {
-        "type": "String"
+   "placeholders": {
+     "name": {
+       "type": "String"
       }
     }
   },
@@ -3946,9 +3954,9 @@
   "adminStatusNoWorkers": "No workers online",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-    "placeholders": {
-      "index": {
-        "type": "int"
+   "placeholders": {
+     "index": {
+       "type": "int"
       }
     }
   },
@@ -4035,9 +4043,9 @@
   "adminForumConfigLogEmpty": "Aucune modification de configuration enregistrée.",
   "adminForumConfigLogActor": "Auteur",
   "@adminUsersSetRole": {
-    "placeholders": {
-      "role": {
-        "type": "String"
+   "placeholders": {
+     "role": {
+       "type": "String"
       }
     }
   },
@@ -4052,12 +4060,12 @@
   "aiAutomationFullyAutomaticDescription": "Chaque action est confirmée automatiquement, avec un historique complet.",
   "aiConfirmationAutoApproved": "{count} actions confirmées automatiquement ({mode})",
   "@aiConfirmationAutoApproved": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       },
-      "mode": {
-        "type": "String"
+     "mode": {
+       "type": "String"
       }
     }
   },
@@ -4115,9 +4123,9 @@
   "courseMatchingNoConflicts": "Aucun conflit de temps",
   "courseMatchingConflictsCount": "{count} conflits d'emploi du temps",
   "@courseMatchingConflictsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4137,9 +4145,9 @@
   "schoolNetCheckpointTooltip": "Enregistrer le point de contrôle du code d'eau",
   "schoolNetCheckpointDevicesLoaded": "{count} appareils en ligne chargés",
   "@schoolNetCheckpointDevicesLoaded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
+   "placeholders": {
+     "count": {
+       "type": "int"
       }
     }
   },
@@ -4160,9 +4168,9 @@
   "aiModelRequestCancelled": "Demande IA annulée",
   "aiModelHttpError": "Erreur HTTP IA ({statusCode})",
   "@aiModelHttpError": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4181,33 +4189,33 @@
   "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "Semaines {range}",
   "@courseWeekRangeAll": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "Semaines {range} (Impair)",
   "@courseWeekRangeOdd": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "Semaines {range} (Pair)",
   "@courseWeekRangeEven": {
-    "placeholders": {
-      "range": {
-        "type": "String"
+   "placeholders": {
+     "range": {
+       "type": "String"
       }
     }
   },
   "sportsAreaLabel": "Terrain {no}",
   "@sportsAreaLabel": {
-    "placeholders": {
-      "no": {
-        "type": "Object"
+   "placeholders": {
+     "no": {
+       "type": "Object"
       }
     }
   },
@@ -4227,9 +4235,9 @@
   "whuSmartCampusAuthFailedCasRequired": "Échec de l'autorisation Smart Luojia. Veuillez vous reconnecter via WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Échec de l'autorisation Smart Luojia (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
-    "placeholders": {
-      "statusCode": {
-        "type": "int"
+   "placeholders": {
+     "statusCode": {
+       "type": "int"
       }
     }
   },
@@ -4503,5 +4511,24 @@
   "waterElectricSnifferPaymentCompleted": "Paiement effectué",
   "waterElectricSnifferPostPaymentVerified": "Vérification après paiement",
   "waterElectricNotificationTitle": "Alerte de solde d’eau et d’électricité",
-  "waterElectricNotificationBody": "{room} · {meter} : {balance}{unit}, en dessous du seuil {threshold}."
+  "waterElectricNotificationBody": "{room} · {meter} : {balance}{unit}, en dessous du seuil {threshold}.",
+  "courseImportUnnamedCourse": "Cours sans nom",
+  "wakeupWeekSuffixOdd": "Impair",
+  "wakeupWeekSuffixEven": "Pair",
+  "notificationOpenAction": "Ouvrir la notification",
+  "aiAgentVerifyingResult": "Vérification du résultat…",
+  "aiAgentResultUnverifiable": "Non vérifiable en dernier ressort ; vérification manuelle suggérée",
+  "aiAgentFailureNotConfigured": "Veuillez d’abord configurer l’IA dans les Paramètres.",
+  "aiAgentFailureFormatUnsupported": "La configuration actuelle du service d’IA ne prend pas en charge le mode Agent.",
+  "aiAgentFailureAbnormalResponse": "Le service d’IA a renvoyé une réponse anormale. Aucune opération non confirmée n’a été exécutée. Veuillez réessayer.",
+  "aiAgentFailureRetry": "Cette demande n’a pas pu être effectuée. Veuillez réessayer plus tard.",
+  "whuEmailParserLabel": "Analyseur de réponses e-mail de WHU",
+  "whuMessagesMarkReadFailed": "Échec du marquage comme lu",
+  "whuMessagesRequestFailed": "Échec de la demande",
+  "whuScoreExamTypeNormal": "Examen normal",
+  "whuScoreMidtermWithdraw": "Désistement à mi-parcours",
+  "whuLibraryResultUnknown": "Résultat inconnu de l’opération de la bibliothèque. Veuillez actualiser l’état avant de décider s’il faut réessayer.",
+  "sportsAuthFailedCasRequired": "Échec de l’autorisation du système d’installations sportives. Veuillez vous reconnecter via WHU CAS.",
+  "waterControlAccountExchangeFailed": "Échec de l’échange de compte d’eau.",
+  "courseTimetableLocalFileDefaultName": "Emploi du temps local"
 }
