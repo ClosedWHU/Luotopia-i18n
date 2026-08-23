@@ -1,2 +1,5 @@
 # ARB catalogs are JSON and must remain LF-only in every checkout.
 * text=auto eol=lf
+
+# GitHub linguist: classify .arb as JSON
+*.arb linguist-language=JSON
