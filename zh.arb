@@ -497,6 +497,7 @@
   "settingsAboutDevTeam": "开发团队",
   "settingsAboutTranslation": "翻译平台",
   "settingsLicensesTitle": "开源许可证",
+  "settingsLicensesSearchHint": "搜索许可证",
   "licenseAuthor": "作者: {author}",
   "@licenseAuthor": {
    "placeholders": {
@@ -4634,5 +4635,23 @@
   "whuLibraryResultUnknown": "图书馆操作结果未知，请刷新状态后再决定是否重试",
   "sportsAuthFailedCasRequired": "运动场馆系统授权失败，请重新登录武大统一认证。",
   "waterControlAccountExchangeFailed": "水账户交换失败。",
-  "courseTimetableLocalFileDefaultName": "本地课程表"
+  "courseTimetableLocalFileDefaultName": "本地课程表",
+  "settingsAiWorkspaceExportTitle": "导出 Agent 数据",
+  "settingsAiWorkspaceExportSubtitle": "将笔记、草稿与配置打包为 notes/ 下的 JSON 文件。bundle 不包含聊天会话文件与受控 Tool Result 字节。",
+  "settingsAiWorkspaceExportConfirmTitle": "导出 Agent 数据？",
+  "settingsAiWorkspaceExportConfirmMessage": "bundle 将写入到工作区，包含当前账号的笔记、草稿与配置。不包含聊天会话文件与 Tool Result 字节。导出不会删除或修改本地数据。",
+  "settingsAiWorkspaceExportConfirmAction": "导出 bundle",
+  "settingsAiWorkspaceExported": "已导出 {count} 个文件到 {path}。",
+  "@settingsAiWorkspaceExported": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "path": {"type": "String"}
+    }
+  },
+  "settingsAiWorkspaceExportFailed": "导出 Agent 工作区失败：{error}",
+  "@settingsAiWorkspaceExportFailed": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  }
 }
