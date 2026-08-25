@@ -1210,6 +1210,24 @@
   "aiClose": "Close",
   "aiExport": "Export",
   "aiShare": "Share",
+  "aiCompressContext": "Compress context",
+  "aiCompressContextDescription": "Remove older messages to reduce token usage. {count} messages in conversation.",
+  "@aiCompressContextDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiCompressKeepRecent": "Keep {count} recent messages",
+  "@aiCompressKeepRecent": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiCompress": "Compress",
   "aiServiceError": "AI service error",
   "aiUntitledItem": "Untitled item",
   "aiMemo": "Memo",
