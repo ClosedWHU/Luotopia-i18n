@@ -4660,4 +4660,82 @@
   "sportsAuthFailedCasRequired": "체육 시설 시스템 인증에 실패했어요. WHU CAS로 다시 로그인해 주세요.",
   "waterControlAccountExchangeFailed": "수도 계정 교환에 실패했어요.",
   "courseTimetableLocalFileDefaultName": "로컬 시간표"
+,  "aiAssistantDefault": "기본",
+  "aiAssistantDeleteConfirm": "이 어시스턴트를 삭제하시겠습니까?",
+  "aiAssistantEmpty": "어시스턴트가 없습니다",
+  "aiAssistantManage": "어시스턴트 관리",
+  "aiAssistantName": "이름",
+  "aiAssistantNew": "새 어시스턴트",
+  "aiAssistantSystemPrompt": "시스템 프롬프트",
+  "aiAssistantUseGlobal": "전역 사용",
+  "aiClose": "닫기",
+  "aiCodeCollapse": "접기",
+  "aiCodeCopied": "복사됨",
+  "aiCodeExpand": "펼치기",
+  "aiCodeToggleLineNumbers": "줄 번호 표시 전환",
+  "aiCompress": "압축",
+  "aiCompressContext": "컨텍스트 압축",
+  "aiDeleteSessionConfirm": "이 세션을 삭제하시겠습니까?",
+  "aiEditingMessage": "메시지 편집 중...",
+  "aiExport": "내보내기",
+  "aiForkFromHere": "여기서 분기",
+  "aiMcp": "MCP",
+  "aiMcpAddServer": "서버 추가",
+  "aiMcpEmpty": "MCP 서버가 구성되지 않았습니다",
+  "aiPin": "고정",
+  "aiPinned": "고정됨",
+  "aiProviderBuiltin": "내장",
+  "aiSearchNoResults": "일치하는 세션이 없습니다",
+  "aiSearchSessions": "세션 검색",
+  "aiShare": "공유",
+  "aiSkills": "스킬",
+  "aiSkillsEmpty": "사용 가능한 스킬이 없습니다",
+  "aiToday": "오늘",
+  "aiUnpin": "고정 해제",
+  "aiYesterday": "어제",
+  "settingsAiMaxTokens": "최대 토큰 수",
+  "settingsAiModelParamsTitle": "모델 매개변수",
+  "settingsAiParamDefault": "기본값",
+  "settingsAiTemperature": "Temperature",
+  "settingsAiTopP": "Top P",
+  "aiCodeShowMoreLines": "{count, plural, other{추가 {count}줄 표시}}",
+  "@aiCodeShowMoreLines": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressKeepRecent": "{count, plural, other{최근 {count}개 유지}}",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiMcpEnabled": "{count, plural, other{서버 {count}개}}",
+  "@aiMcpEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiSkillsEnabled": "{count, plural, other{{count}개 스킬}}",
+  "@aiSkillsEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressContextDescription": "{messageCount}개의 메시지를 압축하여 토큰을 절약합니다.",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  }
 }

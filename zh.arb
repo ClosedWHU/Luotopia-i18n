@@ -4654,4 +4654,82 @@
       "error": {"type": "String"}
     }
   }
+,  "aiAssistantDefault": "默认",
+  "aiAssistantDeleteConfirm": "删除此助手？",
+  "aiAssistantEmpty": "暂无助手",
+  "aiAssistantManage": "管理助手",
+  "aiAssistantName": "名称",
+  "aiAssistantNew": "新建助手",
+  "aiAssistantSystemPrompt": "系统提示词",
+  "aiAssistantUseGlobal": "使用全局助手",
+  "aiClose": "关闭",
+  "aiCodeCollapse": "折叠",
+  "aiCodeCopied": "已复制",
+  "aiCodeExpand": "展开",
+  "aiCodeToggleLineNumbers": "切换行号",
+  "aiCompress": "压缩",
+  "aiCompressContext": "压缩上下文",
+  "aiDeleteSessionConfirm": "删除此会话？",
+  "aiEditingMessage": "正在编辑消息...",
+  "aiExport": "导出",
+  "aiForkFromHere": "从此处分叉",
+  "aiMcp": "MCP",
+  "aiMcpAddServer": "添加服务器",
+  "aiMcpEmpty": "未配置 MCP 服务器",
+  "aiPin": "置顶",
+  "aiPinned": "已置顶",
+  "aiProviderBuiltin": "内置",
+  "aiSearchNoResults": "无匹配会话",
+  "aiSearchSessions": "搜索会话",
+  "aiShare": "分享",
+  "aiSkills": "技能",
+  "aiSkillsEmpty": "暂无可用技能",
+  "aiToday": "今天",
+  "aiUnpin": "取消置顶",
+  "aiYesterday": "昨天",
+  "settingsAiMaxTokens": "最大 token 数",
+  "settingsAiModelParamsTitle": "模型参数",
+  "settingsAiParamDefault": "默认",
+  "settingsAiTemperature": "温度",
+  "settingsAiTopP": "Top P",
+  "aiCodeShowMoreLines": "{count, plural, other{显示 {count} 行}}",
+  "@aiCodeShowMoreLines": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressKeepRecent": "{count, plural, other{保留最近 {count} 条}}",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiMcpEnabled": "{count, plural, other{{count} 个服务器}}",
+  "@aiMcpEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiSkillsEnabled": "{count, plural, other{{count} 个技能}}",
+  "@aiSkillsEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressContextDescription": "将 {messageCount} 条消息压缩为更短的上下文以节省 token。",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  }
 }

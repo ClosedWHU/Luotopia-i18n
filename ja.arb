@@ -4653,4 +4653,82 @@
   "sportsAuthFailedCasRequired": "運動施設システムの認証に失敗しました。WHU CAS 経由で再度ログインしてください。",
   "waterControlAccountExchangeFailed": "水道アカウントの交換に失敗しました。",
   "courseTimetableLocalFileDefaultName": "ローカル時間割"
+,  "aiAssistantDefault": "デフォルト",
+  "aiAssistantDeleteConfirm": "このアシスタントを削除しますか？",
+  "aiAssistantEmpty": "アシスタントがありません",
+  "aiAssistantManage": "アシスタントを管理",
+  "aiAssistantName": "名前",
+  "aiAssistantNew": "新しいアシスタント",
+  "aiAssistantSystemPrompt": "システムプロンプト",
+  "aiAssistantUseGlobal": "グローバルを使用",
+  "aiClose": "閉じる",
+  "aiCodeCollapse": "折りたたむ",
+  "aiCodeCopied": "コピーしました",
+  "aiCodeExpand": "展開",
+  "aiCodeToggleLineNumbers": "行番号の表示切替",
+  "aiCompress": "圧縮",
+  "aiCompressContext": "コンテキストを圧縮",
+  "aiDeleteSessionConfirm": "このセッションを削除しますか？",
+  "aiEditingMessage": "メッセージを編集中...",
+  "aiExport": "エクスポート",
+  "aiForkFromHere": "ここからフォーク",
+  "aiMcp": "MCP",
+  "aiMcpAddServer": "サーバーを追加",
+  "aiMcpEmpty": "MCP サーバーが設定されていません",
+  "aiPin": "ピン留め",
+  "aiPinned": "ピン留め済み",
+  "aiProviderBuiltin": "内蔵",
+  "aiSearchNoResults": "一致するセッションがありません",
+  "aiSearchSessions": "セッションを検索",
+  "aiShare": "共有",
+  "aiSkills": "スキル",
+  "aiSkillsEmpty": "利用可能なスキルがありません",
+  "aiToday": "今日",
+  "aiUnpin": "ピン留めを解除",
+  "aiYesterday": "昨日",
+  "settingsAiMaxTokens": "最大トークン数",
+  "settingsAiModelParamsTitle": "モデルパラメータ",
+  "settingsAiParamDefault": "デフォルト",
+  "settingsAiTemperature": "Temperature",
+  "settingsAiTopP": "Top P",
+  "aiCodeShowMoreLines": "{count, plural, other{残り{count}行を表示}}",
+  "@aiCodeShowMoreLines": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressKeepRecent": "{count, plural, other{直近{count}件を保持}}",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiMcpEnabled": "{count, plural, other{{count} サーバー}}",
+  "@aiMcpEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiSkillsEnabled": "{count, plural, other{{count} スキル}}",
+  "@aiSkillsEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressContextDescription": "{messageCount} 件のメッセージを圧縮してトークンを節約します。",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  }
 }

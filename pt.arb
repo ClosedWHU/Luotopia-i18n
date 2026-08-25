@@ -4594,4 +4594,82 @@
   "sportsAuthFailedCasRequired": "Falha na autorização do sistema de instalações esportivas. Faça login novamente via WHU CAS.",
   "waterControlAccountExchangeFailed": "Falha na troca de conta de água.",
   "courseTimetableLocalFileDefaultName": "Horário local"
+,  "aiAssistantDefault": "Padrão",
+  "aiAssistantDeleteConfirm": "Excluir este assistente?",
+  "aiAssistantEmpty": "Nenhum assistente ainda",
+  "aiAssistantManage": "Gerenciar assistentes",
+  "aiAssistantName": "Nome",
+  "aiAssistantNew": "Novo assistente",
+  "aiAssistantSystemPrompt": "Prompt do sistema",
+  "aiAssistantUseGlobal": "Usar assistente global",
+  "aiClose": "Fechar",
+  "aiCodeCollapse": "Recolher",
+  "aiCodeCopied": "Copiado",
+  "aiCodeExpand": "Expandir",
+  "aiCodeToggleLineNumbers": "Alternar números de linha",
+  "aiCompress": "Comprimir",
+  "aiCompressContext": "Comprimir contexto",
+  "aiDeleteSessionConfirm": "Excluir esta sessão?",
+  "aiEditingMessage": "Editando mensagem...",
+  "aiExport": "Exportar",
+  "aiForkFromHere": "Bifurcar daqui",
+  "aiMcp": "MCP",
+  "aiMcpAddServer": "Adicionar servidor",
+  "aiMcpEmpty": "Nenhum servidor MCP configurado",
+  "aiPin": "Fixar",
+  "aiPinned": "Fixado",
+  "aiProviderBuiltin": "Integrado",
+  "aiSearchNoResults": "Nenhuma sessão correspondente",
+  "aiSearchSessions": "Pesquisar sessões",
+  "aiShare": "Compartilhar",
+  "aiSkills": "Habilidades",
+  "aiSkillsEmpty": "Nenhuma habilidade disponível",
+  "aiToday": "Hoje",
+  "aiUnpin": "Desafixar",
+  "aiYesterday": "Ontem",
+  "settingsAiMaxTokens": "Tokens máx.",
+  "settingsAiModelParamsTitle": "Parâmetros do modelo",
+  "settingsAiParamDefault": "Padrão",
+  "settingsAiTemperature": "Temperatura",
+  "settingsAiTopP": "Top P",
+  "aiCodeShowMoreLines": "{count, plural, one{Mostrar 1 linha a mais} other{Mostrar {count} linhas a mais}}",
+  "@aiCodeShowMoreLines": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressKeepRecent": "{count, plural, one{Manter 1 recente} other{Manter {count} recentes}}",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiMcpEnabled": "{count, plural, one{1 servidor} other{{count} servidores}}",
+  "@aiMcpEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiSkillsEnabled": "{count, plural, one{1 habilidade} other{{count} habilidades}}",
+  "@aiSkillsEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressContextDescription": "Comprime {messageCount} mensagens em um contexto mais curto para economizar tokens.",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  }
 }

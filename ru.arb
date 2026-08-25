@@ -4643,4 +4643,82 @@
   "sportsAuthFailedCasRequired": "Авторизация в системе спортивных площадок не удалась. Повторно войдите через WHU CAS.",
   "waterControlAccountExchangeFailed": "Не удалось выполнить обмен учётной записи воды.",
   "courseTimetableLocalFileDefaultName": "Локальное расписание"
+,  "aiAssistantDefault": "По умолчанию",
+  "aiAssistantDeleteConfirm": "Удалить этого ассистента?",
+  "aiAssistantEmpty": "Ассистентов пока нет",
+  "aiAssistantManage": "Управление ассистентами",
+  "aiAssistantName": "Имя",
+  "aiAssistantNew": "Новый ассистент",
+  "aiAssistantSystemPrompt": "Системный промпт",
+  "aiAssistantUseGlobal": "Использовать глобального",
+  "aiClose": "Закрыть",
+  "aiCodeCollapse": "Свернуть",
+  "aiCodeCopied": "Скопировано",
+  "aiCodeExpand": "Развернуть",
+  "aiCodeToggleLineNumbers": "Показать номера строк",
+  "aiCompress": "Сжать",
+  "aiCompressContext": "Сжать контекст",
+  "aiDeleteSessionConfirm": "Удалить эту сессию?",
+  "aiEditingMessage": "Редактирование сообщения...",
+  "aiExport": "Экспорт",
+  "aiForkFromHere": "Форкнуть отсюда",
+  "aiMcp": "MCP",
+  "aiMcpAddServer": "Добавить сервер",
+  "aiMcpEmpty": "Серверы MCP не настроены",
+  "aiPin": "Закрепить",
+  "aiPinned": "Закреплено",
+  "aiProviderBuiltin": "Встроенный",
+  "aiSearchNoResults": "Совпадений не найдено",
+  "aiSearchSessions": "Поиск сессий",
+  "aiShare": "Поделиться",
+  "aiSkills": "Навыки",
+  "aiSkillsEmpty": "Навыки недоступны",
+  "aiToday": "Сегодня",
+  "aiUnpin": "Открепить",
+  "aiYesterday": "Вчера",
+  "settingsAiMaxTokens": "Макс. токенов",
+  "settingsAiModelParamsTitle": "Параметры модели",
+  "settingsAiParamDefault": "По умолчанию",
+  "settingsAiTemperature": "Temperature",
+  "settingsAiTopP": "Top P",
+  "aiCodeShowMoreLines": "{count, plural, one{Показать ещё 1 строку} other{Показать ещё {count} строк}}",
+  "@aiCodeShowMoreLines": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressKeepRecent": "{count, plural, one{Сохранить 1 последнее} other{Сохранить {count} последних}}",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiMcpEnabled": "{count, plural, one{1 сервер} other{{count} серверов}}",
+  "@aiMcpEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiSkillsEnabled": "{count, plural, one{1 навык} other{{count} навыков}}",
+  "@aiSkillsEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressContextDescription": "Сжать {messageCount} сообщений в более короткий контекст для экономии токенов.",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  }
 }

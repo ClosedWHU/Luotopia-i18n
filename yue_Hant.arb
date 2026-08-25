@@ -4584,4 +4584,82 @@
   "sportsAuthFailedCasRequired": "運動場館系統授權失敗，請重新登入武大統一認證。",
   "waterControlAccountExchangeFailed": "水帳戶交換失敗。",
   "courseTimetableLocalFileDefaultName": "本地課程表"
+,  "aiAssistantDefault": "預設",
+  "aiAssistantDeleteConfirm": "刪除呢個助手？",
+  "aiAssistantEmpty": "暫無助手",
+  "aiAssistantManage": "管理助手",
+  "aiAssistantName": "名稱",
+  "aiAssistantNew": "新增助手",
+  "aiAssistantSystemPrompt": "系統提示詞",
+  "aiAssistantUseGlobal": "用全域助手",
+  "aiClose": "關閉",
+  "aiCodeCollapse": "摺埋",
+  "aiCodeCopied": "已複製",
+  "aiCodeExpand": "展開",
+  "aiCodeToggleLineNumbers": "切換行號",
+  "aiCompress": "壓縮",
+  "aiCompressContext": "壓縮上下文",
+  "aiDeleteSessionConfirm": "刪除呢個工作階段？",
+  "aiEditingMessage": "而家編緊訊息...",
+  "aiExport": "匯出",
+  "aiForkFromHere": "由呢度分叉",
+  "aiMcp": "MCP",
+  "aiMcpAddServer": "加伺服器",
+  "aiMcpEmpty": "未設定 MCP 伺服器",
+  "aiPin": "釘喺頂",
+  "aiPinned": "已釘喺頂",
+  "aiProviderBuiltin": "內建",
+  "aiSearchNoResults": "搵唔到啱嘅工作階段",
+  "aiSearchSessions": "搵工作階段",
+  "aiShare": "分享",
+  "aiSkills": "技能",
+  "aiSkillsEmpty": "冇可用嘅技能",
+  "aiToday": "今日",
+  "aiUnpin": "取消釘喺頂",
+  "aiYesterday": "尋日",
+  "settingsAiMaxTokens": "最大 token 數",
+  "settingsAiModelParamsTitle": "模型參數",
+  "settingsAiParamDefault": "預設",
+  "settingsAiTemperature": "溫度",
+  "settingsAiTopP": "Top P",
+  "aiCodeShowMoreLines": "{count, plural, other{顯示多 {count} 行}}",
+  "@aiCodeShowMoreLines": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressKeepRecent": "{count, plural, other{保留最近 {count} 條}}",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiMcpEnabled": "{count, plural, other{{count} 個伺服器}}",
+  "@aiMcpEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiSkillsEnabled": "{count, plural, other{{count} 個技能}}",
+  "@aiSkillsEnabled": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
+  "aiCompressContextDescription": "將 {messageCount} 條訊息壓縮做短啲嘅上下文，等慳返啲 token。",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  }
 }
