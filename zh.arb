@@ -10,6 +10,34 @@
   "aiAssistant": "AI 助手",
   "aiInputHint": "关于日程的任何问题...",
   "aiTitle": "标题",
+  "aiImageGeneration": "图像生成",
+  "aiImageGenerationHint": "描述你想创建的图像",
+  "aiImageGenerationEmpty": "生成的图像将显示在这里。",
+  "aiImageGenerationSize": "尺寸",
+  "aiImageGenerationCount": "数量",
+  "aiImageGenerationReference": "参考图片",
+  "aiImageGenerationDelete": "删除",
+  "aiImageGenerationSave": "保存图片",
+  "aiImageGenerationShare": "分享图片",
+  "aiSpeechTitle": "AI 朗读",
+  "aiSpeechRecognitionService": "语音识别服务",
+  "aiSpeechSpeechToText": "speech_to_text（系统）",
+  "aiSpeechStts": "stts",
+  "aiSpeechWhisper": "Whisper 离线转写",
+  "aiSpeechWhisperModel": "Whisper 模型",
+  "aiDownload": "下载",
+  "aiSpeechEngine": "朗读引擎",
+  "aiSpeechEdge": "Edge 在线音色",
+  "aiSpeechSttsVoice": "stts 系统音色",
+  "aiSpeechVoiceLoadFailed": "无法加载在线音色，将使用当前音色。",
+  "aiSpeechVoice": "音色",
+  "aiSpeechRate": "语速",
+  "aiSpeechPitch": "音调",
+  "aiSpeechVolume": "音量",
+  "aiSpeechPreviewText": "你好，这是当前选择的 AI 音色。",
+  "aiSpeechPreview": "试听当前音色",
+  "aiMcpImportFailed": "无法导入 MCP 服务器配置",
+  "settingsAiCapabilityImageGeneration": "图像生成",
   "allCourseItemsInThisTimetableW": "会同时删除该课程表下的所有课程事项。",
   "alwaysHide": "始终隐藏",
   "alwaysShow": "始终显示",
@@ -78,7 +106,6 @@
   "schoolNetDisconnectDeviceMessage": "{device} 将立即断开当前校园网连接。",
   "schoolNetDisconnectDeviceSuccess": "设备已下线",
   "schoolNetPaymentTitle": "充值网费",
-  "schoolNetPaymentDescription": "前往学校收银台付款，返回后自动核验上账结果。",
   "schoolNetPayBalance": "网费余额",
   "schoolNetPayAccount": "账号",
   "schoolNetPayName": "姓名",
@@ -93,17 +120,12 @@
   "schoolNetPayConfirmTitle": "创建充值订单？",
   "schoolNetPayConfirmMessage": "将创建 ¥{amount} 的充值订单。继续后请勿重复提交订单。",
   "schoolNetPayConfirmAction": "前往收银台",
-  "schoolNetPayWaitingTitle": "请在支付应用中完成付款",
-  "schoolNetPayWaitingMessage": "付款后返回此处，应用会自动核验网费是否上账。",
   "schoolNetPayCheckingTitle": "正在核验支付结果",
   "schoolNetPayCheckingMessage": "正在向学校平台确认，请勿重复发起付款。",
   "schoolNetPaySuccessTitle": "网费已上账",
-  "schoolNetPaySuccessMessage": "本次网费已成功上账。",
   "schoolNetPaySuccessAmount": "¥{amount} 已成功上账。",
   "schoolNetPayPendingTitle": "暂未确认支付",
   "schoolNetPayPendingMessage": "如已付款，请稍候再核验，请勿重复创建订单。",
-  "schoolNetPayCheckFailedTitle": "暂时无法核验",
-  "schoolNetPayCheckFailedMessage": "未能获取订单结果，可安全地再次核验当前订单。",
   "schoolNetPayCheckAgain": "再次核验",
   "campusAppEmptyClassroom": "空闲教室",
   "campusAppFileSharing": "学习资料共享",
@@ -131,7 +153,6 @@
   "campusTitle": "校园",
   "cancel": "取消",
   "changeColorVariantGenerationAlgorithm": "改变颜色变体生成算法",
-  "chooseBetweenForumOrAi": "导航栏中间位置显示论坛或 AI 助手（默认论坛）",
   "chooseDuration": "选择时长",
   "colorsAppearance": "色彩与外观",
   "commonBack": "返回",
@@ -175,10 +196,6 @@
   "detailMissing": "没有找到这个事项，可能已经被删除。",
   "detailTitle": "事项详情",
   "done": "确定",
-  "dynamicColorMonet": "动态取色",
-  "dynamicColorSourceAccent": "使用系统强调色",
-  "dynamicColorSourceGtk": "使用 GTK 主题色",
-  "dynamicColorSourceWallpaper": "根据系统壁纸提取主色调",
   "themeColorSource": "颜色来源",
   "themeColorSourceSystemScheme": "系统动态配色",
   "themeColorSourceSystemSchemeDescription": "完整使用系统提供的动态颜色方案。",
@@ -292,8 +309,6 @@
   "editorRepeatDaily": "每天",
   "editorRepeatMonthly": "每月",
   "editorRepeatNone": "不重复",
-  "editorRepeatPagePlaceholder": "复杂重复规则后续继续扩展。",
-  "editorRepeatPageTitle": "重复设置",
   "editorRepeatWeekdays": "工作日",
   "editorRepeatWeekly": "每周",
   "editorRepeatYearly": "每年",
@@ -349,7 +364,6 @@
   "homeCalendarMonthDayRange": "{day} - {endDay}日",
   "homeCalendarMonthWeek": "{month}月第{month}周",
   "homeCalendarSummerBreak": "暑假",
-  "homeCalendarTopLabel": "{year}学年 {term}",
   "homeCalendarTopLabelYearOnly": "{year}学年",
   "homeCalendarWinterBreak": "寒假",
   "homeCalendarYearMonth": "{year}年{year}月",
@@ -361,12 +375,9 @@
   "homeGridModeCourse": "课程方格",
   "homeGridModeTime": "时间方格",
   "homePeriodRange": "{start} - {end}",
-  "homeScopeMonth": "月",
-  "homeScopeWeek": "周",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} 小时",
   "importedTimestr": "导入于 {timeStr}",
-  "importSources": "导入来源",
   "importViaEmbeddedWebLogin": "通过内嵌网页登录并导入课程",
   "k1Hour": "1 小时",
   "k30Minutes": "30 分钟",
@@ -395,14 +406,8 @@
   "luotopiaAlreadyHaveAccount": "已有账户？",
   "luotopiaConfirmLogout": "确认退出",
   "luotopiaConfirmPassword": "确认密码",
-  "luotopiaCreateAccount": "创建珞家账户",
   "luotopiaEmailHint": "用于找回密码",
-  "luotopiaEmailOptional": "邮箱（可选）",
-  "luotopiaLoggingIn": "登录中...",
   "luotopiaLoginTitle": "登录珞家",
-  "luotopiaLoginIdentifierLabel": "邮箱、用户名或 WHU 学号",
-  "luotopiaLoginIdentifierHint": "使用已绑定到此账号的任一标识",
-  "luotopiaLoginIdentifierRequired": "请填写邮箱、用户名或 WHU 学号",
   "luotopiaLoginEmailHint": "账号绑定的邮箱地址",
   "luotopiaLoginUsernameHint": "你的珞家用户名",
   "luotopiaLoginUsernameRequired": "请填写珞家用户名",
@@ -416,7 +421,6 @@
   "luotopiaNotLoggedIn": "未登录",
   "luotopiaPasswordHint": "至少 6 个字符",
   "luotopiaPasswordsDoNotMatch": "两次输入的密码不一致",
-  "luotopiaPleaseFillFields": "请填写用户名和密码",
   "luotopiaEmailRequired": "请填写邮箱",
   "luotopiaEmailInvalid": "请输入格式正确的邮箱",
   "luotopiaPasswordRequired": "请填写密码",
@@ -425,13 +429,10 @@
   "luotopiaPasswordRequireLowercase": "包含小写字母",
   "luotopiaPasswordRequireUppercase": "包含大写字母",
   "luotopiaPasswordRequireSpecial": "包含特殊字符",
-  "luotopiaRegistering": "注册中...",
-  "luotopiaRegisterTitle": "注册珞家",
   "luotopiaUsername": "用户名",
   "luotopiaUsernameMinHint": "至少 3 个字符",
   "luotopiaUsernameTooShort": "用户名至少 3 个字符",
   "luotopiaWelcomeBack": "欢迎回来",
-  "middleTab": "中间标签页",
   "minuteMin": "{minute} 分钟",
   "navAi": "AI",
   "navCampus": "校园",
@@ -454,11 +455,6 @@
   "scoreImportTitle": "成绩导入",
   "scoreImportUndergraduateTitle": "从本科教务导入",
   "scoreImportUndergraduateSubtitle": "导入精确的成绩但是可能更新较慢",
-  "scorePageGradeRange60": "60-69分",
-  "scorePageGradeRange70": "70-79分",
-  "scorePageGradeRange80": "80-89分",
-  "scorePageGradeRange90": "90-100分",
-  "scorePageGradeRangeFail": "不及格",
   "scorePageRetry": "重试",
   "scorePageTitle": "成绩查询",
   "scoreTranscriptCredential": "可信电子凭证",
@@ -527,6 +523,11 @@
   "settingsAiSectionTitle": "AI 设置",
   "settingsAiSystemPromptLabel": "系统提示词",
   "settingsAiModelParamsTitle": "模型参数",
+  "settingsAiModelCapabilities": "模型能力",
+  "settingsAiCapabilityVision": "图片",
+  "settingsAiCapabilityDocument": "文档",
+  "settingsAiCapabilityAudio": "音频",
+  "settingsAiCapabilityVideo": "视频",
   "settingsAiTemperature": "温度",
   "settingsAiTopP": "Top P",
   "settingsAiMaxTokens": "最大 token 数",
@@ -559,7 +560,6 @@
   "settingsHomeItemOpacity": "主页事项方块不透明度",
   "settingsHomeSectionTitle": "主页设置",
   "settingsHomeTimeGridSettings": "时间方格模式设置",
-  "settingsHomeWideLayout": "超宽屏默认范围",
   "settingsLicenses": "开源许可证",
   "settingsMinutesValue": "{value} 分钟",
   "settingsNavigationEntrySubtitle": "入口显示、排序与标签",
@@ -587,7 +587,6 @@
   "settingsTermsOfService": "服务条款",
   "settingsCrossBorderDataTransfer": "跨境数据传输说明",
   "settingsTheme": "主题",
-  "settingsTitle": "设置",
   "settingsVersion": "版本",
   "settingsFriendLinksTitle": "友情链接",
   "settingsFriendLinksSubtitle": "合作伙伴、社区与相关项目",
@@ -825,16 +824,6 @@
       }
     }
   },
-  "@homeCalendarTopLabel": {
-   "placeholders": {
-     "year": {
-       "type": "String"
-      },
-     "term": {
-       "type": "String"
-      }
-    }
-  },
   "@homeCalendarTopLabelYearOnly": {
    "placeholders": {
      "year": {
@@ -1047,7 +1036,6 @@
     }
   },
   "aiOpenDraftPage": "打开草稿二级页",
-  "aiSending": "发送中",
   "aiSend": "发送",
   "aiStop": "停止",
   "aiClearHistory": "清空历史",
@@ -1066,6 +1054,22 @@
   "aiSkills": "技能",
   "aiSkillsEmpty": "尚未安装技能",
   "aiSkillsManage": "管理技能",
+  "aiSkillNew": "新建技能",
+  "aiSkillName": "技能名称",
+  "aiSkillNameHint": "小写名称",
+  "aiSkillDescription": "说明",
+  "aiSkillInstructions": "指令",
+  "aiTranslate": "翻译",
+  "aiTranslateTo": "翻译为",
+  "aiAddFavorite": "加入收藏",
+  "aiRemoveFavorite": "取消收藏",
+  "aiAddAttachment": "添加附件",
+  "aiPickImages": "选择图片",
+  "aiTakePhoto": "拍照",
+  "aiPickFiles": "选择文件",
+  "aiAttachmentUnsupported": "当前模型不支持所选附件类型。",
+  "aiSpeak": "朗读",
+  "aiVoiceInput": "语音输入",
   "aiSkillsEnabled": "已启用 {count} 个",
   "aiMcp": "MCP",
   "aiMcpEmpty": "尚未配置 MCP 服务器",
@@ -1456,8 +1460,6 @@
   },
   "courseDetailGradesTab": "课程给分",
   "courseDetailReviewsTab": "课程评价",
-  "courseAuditTitle": "蹭课",
-  "courseAuditPlaceholder": "蹭课功能正在开发中...",
   "gradesReviewsSearchFailMessage": "搜索失败：{message}",
   "@gradesReviewsSearchFailMessage": {
    "placeholders": {
@@ -1576,7 +1578,6 @@
   "sportsReservationSelectVenueTimeHint": "请先选择可预约的场馆和时段。",
   "sportsReservationVenueTimeUnavailable": "当前场地或时段不可预约，请重新选择。",
   "sportsReservationSessionExpired": "运动场馆系统登录已失效。",
-  "sportsReservationAuthRequired": "请先授权运动场馆系统。",
   "sportsReservationWhuLoginRequired": "请先登录武大统一认证。",
   "sportsFetchSportsTypes": "获取运动项目列表",
   "sportsFetchOftenVenues": "获取常用场馆",
@@ -1713,16 +1714,6 @@
     }
   },
   "scoreImportLastImport": "最近一次导入",
-  "scoreImportTime": "时间：{time}",
-  "@scoreImportTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-      }
-    }
-  },
-  "scoreImportCount": "成绩条数：{count}",
-  "scoreImportCountLabel": "成绩条数",
   "campusAppMajorInfo": "学校专业信息",
   "majorInfoTitle": "学校专业信息",
   "majorInfoDescription": "浏览各学部、学院和专业，并查看培养信息与就业情况。",
@@ -1750,17 +1741,9 @@
   "majorInfoTrainingPlan": "学院培养方案",
   "majorInfoOpenTrainingPlan": "打开培养方案预览",
   "majorInfoTrainingPlanSubtitle": "在应用内打开超星官方文档预览",
-  "majorInfoTrainingPlanLoading": "正在加载培养方案…",
   "majorInfoTrainingPlanUnavailable": "培养方案预览暂不可用。",
   "scoreImportParsedCountLabel": "本次获取解析到的数量",
   "scoreImportMergedCountLabel": "合并后成绩数",
-  "@scoreImportCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "scoreImportExample": "{name} · {score}分 · {credit}",
   "scoreImportExampleLabel": "示例",
   "@scoreImportExample": {
@@ -1800,14 +1783,8 @@
     }
   },
   "itemDetailDateRangeTo": "至",
-  "itemDetailSectionGrading": "课程给分",
-  "itemDetailScoreOverall": "总评",
-  "itemDetailScoreContinuous": "平时",
-  "itemDetailScoreFinal": "期末",
-  "itemDetailSectionDistribution": "成绩分布",
   "itemDetailSectionReviews": "课程评价",
   "itemDetailCourseInsightsTitle": "真实课程给分与评价",
-  "itemDetailCourseInsightsDescription": "查看珞家统计、Ham 给分数据和同学评价。课表课程将按课程名称匹配。",
   "itemDetailCourseInsightsMatching": "正在匹配这门课表课程...",
   "itemDetailCourseInsightsOpen": "查看更多给分与评价",
   "itemDetailCourseInsightsSearch": "选择对应课程",
@@ -1825,10 +1802,6 @@
   "courseGradeStatsTeacherClear": "清除教师",
   "courseGradeStatsTeacherSearch": "查询教师",
   "courseGradeStatsAllTeachersPrepared": "已准备好所有教师的给分数据，请选择教师查看详情。",
-  "itemDetailMockReview1": "老师讲得很清楚，课件制作精良，给分也不错。每节课都有课堂练习，对理解概念帮助很大。",
-  "itemDetailMockReview2": "课程内容比较充实，但期末考试有一定难度。平时作业量适中，建议提前复习。",
-  "itemDetailMockReview3": "强烈推荐！这门课让我对专业方向有了更清晰的认识，实验环节设计得很好。",
-  "itemDetailMockReviewer": "匿名同学",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count}条消息",
   "@aiMessageCount": {
@@ -1910,7 +1883,6 @@
   "weatherAqiGood": "良",
   "weatherAqiModerate": "轻度污染",
   "weatherAqiPoor": "中度污染",
-  "weatherBannerRainSoon": "快要下雨了，出门记得带伞！",
   "weatherBannerRainImminent": "很快要下雨了，记得带伞！",
   "weatherRainReminderTitle": "降雨提醒",
   "weatherBannerRainInMinutes": "约 {minutes} 分钟后有雨，记得带伞。",
@@ -2222,11 +2194,6 @@
   "wallpaperTargetCampus": "校园",
   "wallpaperTargetSettings": "设置",
   "wallpaperTargetTaskList": "任务列表",
-  "wallpaperTargetListMyDay": "列表 · 我的一天",
-  "wallpaperTargetListAllItems": "列表 · 全部事项",
-  "wallpaperTargetListTasks": "列表 · 任务",
-  "wallpaperTargetListSchedules": "列表 · 日程",
-  "wallpaperTargetListMemos": "列表 · 备忘",
   "wallpaperTargetForum": "论坛",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "图书借阅功能正在开发中…",
@@ -2499,6 +2466,8 @@
   "onboardingPermissionNotificationsDescription": "用于日程提醒与重要校园消息。",
   "onboardingPermissionPhotosTitle": "相册",
   "onboardingPermissionPhotosDescription": "用于设置壁纸与为备忘添加图片。",
+  "onboardingPermissionMicrophoneTitle": "麦克风",
+  "onboardingPermissionMicrophoneDescription": "用于 AI 对话中的语音输入（语音转文字）。",
   "onboardingPermissionBiometricTitle": "生物识别",
   "onboardingPermissionBiometricDescription": "用于保护成绩等隐私内容。",
   "onboardingPermissionSkipTitle": "跳过权限申请？",
@@ -2596,12 +2565,20 @@
   "hotUpdateStatusMissing": "本地缺失，下拉刷新可下载",
   "hotUpdateStatusEmbedded": "使用内置默认版本",
   "hotUpdateStatusCached": "使用已缓存的云端版本",
+  "hotUpdateStatusUnknown": "未知脚本——更新应用以启用",
   "hotUpdateStatusTestFailed": "上次更新：沙箱测试未通过",
   "hotUpdateStatusDownloadFailed": "上次更新：下载失败",
   "hotUpdateStatusCommitFailed": "上次更新：写入缓存失败",
   "hotUpdateVersionCompare": "本地 v{local} · 云端 v{remote}",
   "hotUpdateVersionMissing": "本地缺失 · 云端 v{remote}",
   "hotUpdateLastFailure": "上次失败：{reason}",
+  "hotUpdateEditScript": "编辑脚本",
+  "hotUpdateSaveScript": "保存",
+  "hotUpdateResetScript": "恢复为远程/默认",
+  "hotUpdateTestFailed": "沙箱测试未通过，未保存",
+  "hotUpdateSaveSuccess": "脚本已通过测试并保存",
+  "hotUpdateUserEdited": "已本地编辑（暂停远程更新）",
+  "hotUpdateResetConfirm": "确定丢弃你的修改并恢复为远程或默认脚本？",
   "debuggerTitle": "网络调试器",
   "debuggerPause": "暂停",
   "debuggerResume": "继续",
@@ -2672,7 +2649,6 @@
   "authUsePasskey": "使用 Passkey 验证",
   "authResendCode": "重新发送验证码",
   "authBackToPasswordLogin": "返回密码登录",
-  "authLoginRequired": "请先登录",
   "commonConfirm": "确认",
   "commonContinue": "继续",
   "commonCopy": "复制",
@@ -2874,8 +2850,6 @@
   "authGenderFemale": "女",
   "authGenderNonBinary": "非二元性别",
   "authGenderPreferNotToSay": "不愿透露",
-  "authGenderOther": "其他",
-  "authCustomGender": "描述你的性别",
   "authBirthday": "生日",
   "authBio": "个人简介",
   "authProfileUpdateFailed": "更新个人资料失败：{error}",
@@ -2899,7 +2873,6 @@
   },
   "authPasswordChangeConfirm": "修改密码",
   "authErrorInvalidCredentials": "登录标识或密码错误",
-  "authErrorEmailNotAllowed": "该邮箱域名不被允许",
   "authErrorEmailNotAllowedWithDomains": "请使用允许的邮箱地址：{domains}",
   "@authErrorEmailNotAllowedWithDomains": {
    "placeholders": {
@@ -2916,7 +2889,6 @@
   "authErrorWhuAlreadyBound": "该武汉大学账号已绑定到其他珞家账户",
   "authErrorVerificationFailed": "人机验证失败或已过期，请重试",
   "authErrorRateLimited": "请求过于频繁，请稍后再试",
-  "authErrorRequestFailed": "请求失败，请稍后重试",
   "apiErrorUnauthorized": "需要登录后继续",
   "apiErrorInvalidToken": "登录已失效，请重新登录",
   "apiErrorTokenExpired": "登录已过期，请重新登录",
@@ -2966,8 +2938,6 @@
       }
     }
   },
-  "courseGradeStatsSourceHam": "来源：Ham",
-  "courseGradeStatsSourceLuotopia": "来源：Luotopia",
   "courseGradeStatsSourceHint": "选择给分数据来源",
   "courseGradeStatsSourceLuotopiaShort": "珞家",
   "courseGradeStatsSourceHamShort": "Ham",
@@ -2980,8 +2950,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "提交匿名成绩",
-  "courseGradeStatsNoTeachers": "该课程暂无教师信息，无法提交成绩。",
   "courseGradeStatsPrivacyThreshold": "为保护隐私，至少需要 5 个样本。",
   "courseGradeStatsSamples": "{count} 个匿名样本",
   "@courseGradeStatsSamples": {
@@ -2998,28 +2966,12 @@
   "courseGradeStatsDistribution": "成绩分布",
   "courseGradeStatsScore": "分数",
   "courseGradeStatsWhuGpa": "武大绩点",
-  "courseGradeStatsFail": "不及格",
-  "courseGradeStatsTotalScore": "总评成绩（0 - 100）",
-  "courseGradeStatsSubmitted": "匿名成绩已提交。",
-  "courseGradeStatsSubmitFailed": "提交成绩失败：{error}",
-  "@courseGradeStatsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "courseReviewsLoginRequired": "登录后可查看匿名课程评价。",
   "settingsPrivacyCourseDataTitle": "课程给分与评价",
   "settingsPrivacyCourseDataDescription": "不注册或不登录珞家账号时，你仍可仅登录武汉大学账号并使用本地教务功能。登录珞家账号并使用课程给分、课程评价功能，即表示你同意将经核验的课程成绩以去标识化方式用于匿名统计。",
   "settingsPrivacyCourseDataAggregationTitle": "匿名成绩统计",
   "settingsPrivacyCourseDataAggregationSubtitle": "仅在满足最小样本量后展示聚合分布和均值；不公开个人成绩、身份、武汉大学密码或教务 Cookie。",
   "courseReviewsSyncEligibility": "同步已完成课程",
-  "scoreContributionAutoSyncTitle": "自动同步并贡献成绩",
-  "scoreContributionAutoSyncDescription": "本科教务成绩获取成功后，自动同步修读资格，并将精确数值成绩贡献到珞家匿名聚合。",
-  "scoreContributionLoginRequired": "请先登录珞家账号，再启用成绩自动贡献。",
-  "scoreContributionConsentTitle": "授权自动贡献成绩",
-  "scoreContributionConsentMessage": "此后每次成功获取本科教务成绩，珞家都会使用一次性武大 CAS ticket 在服务端核验成绩。已完成课程将作为私有资格记录保存；能够匹配课程和教师的精确数值成绩会计入匿名聚合。武大密码和教务 Cookie 不会上传。你可以随时关闭后续自动同步。",
   "courseReviewsWrite": "撰写匿名评价",
   "courseReviewsAnonymousStudent": "匿名学生 · {semester}",
   "@courseReviewsAnonymousStudent": {
@@ -3078,19 +3030,8 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "加载版块失败：{error}",
-  "@forumBoardsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
-  "forumPostsLoadFailed": "加载帖子失败：{error}",
   "forumAttachmentAdd": "添加附件",
   "forumImageAdd": "添加图片",
-  "forumSupportedImageFormats": "支持的图片格式",
-  "forumSupportedAttachmentFormats": "支持的附件格式",
   "forumImagePresetDataSaver": "省流",
   "forumImagePresetRecommended": "推荐",
   "forumImagePresetHighQuality": "高清",
@@ -3103,14 +3044,6 @@
   "forumSortLatest": "最新",
   "forumSortHottest": "最热",
   "forumSortMostCommented": "评论最多",
-  "forumAttachmentUploadFailed": "上传附件失败：{error}",
-  "@forumPostsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumPostTitle": "标题",
   "forumPostContent": "内容",
   "forumPublish": "发布",
@@ -3124,43 +3057,13 @@
   },
   "forumEmpty": "还没有帖子，来发布第一篇吧。",
   "forumAnonymous": "匿名",
-  "forumPostMetadata": "{author} · {comments} 条回复 · {upvotes} 个赞",
-  "@forumPostMetadata": {
-   "placeholders": {
-     "author": {
-       "type": "String"
-      },
-     "comments": {
-       "type": "int"
-      },
-     "upvotes": {
-       "type": "int"
-      }
-    }
-  },
   "forumPostDetails": "帖子详情",
   "forumReplies": "回复",
   "forumRepliesEmpty": "暂时没有回复。",
   "forumReply": "回复",
-  "forumRepliesLoadFailed": "加载回复失败：{error}",
-  "@forumRepliesLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumReplyPost": "回复帖子",
   "forumReplyHint": "请友善交流，勿分享个人信息。",
   "forumSend": "发送",
-  "forumReplyFailed": "回复失败：{error}",
-  "@forumReplyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "authPasswordResetEmail": "邮箱",
   "authPasswordResetSendFailed": "发送失败：{error}",
   "@authPasswordResetSendFailed": {
@@ -3229,19 +3132,10 @@
   "forumDislike": "点踩",
   "forumSave": "收藏",
   "forumEdit": "编辑",
-  "forumDownload": "下载",
   "forumReport": "举报",
   "forumReportReason": "因由",
   "forumReportSubmitted": "举报已提交。",
   "forumReportSubmittedFlavor": "已呈报因果，静待回响。",
-  "forumReportFailed": "提交举报失败：{error}",
-  "@forumReportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumKarma": "业力",
   "forumKarmaLevel": "等级{level}",
   "@forumKarmaLevel": {
@@ -3258,14 +3152,6 @@
        "type": "int"
       },
      "karma": {
-       "type": "int"
-      }
-    }
-  },
-  "forumKarmaLevelOnly": "Lv{level}",
-  "@forumKarmaLevelOnly": {
-   "placeholders": {
-     "level": {
        "type": "int"
       }
     }
@@ -3348,7 +3234,6 @@
       }
     }
   },
-  "forumAppealFlavor": "复议",
   "forumModerationFlavorPending": "衡鉴中",
   "forumKarmaLedgerTitle": "业力流水",
   "forumKarmaLedgerContentUp": "内容获赞",
@@ -3809,9 +3694,6 @@
   "whuLoginMethodNotRecommended": "不推荐",
   "whuLoginMethodApiError": "接口异常",
   "whuLoginMethodUndergraduateOnly": "仅限本科",
-  "whuLoginImplementationTitle": "使用原生登录",
-  "whuLoginImplementationNative": "已开启：使用原生表单，仅在需要验证码时打开 WebView",
-  "whuLoginImplementationWebView": "已关闭：全程在武大登录 WebView 中完成",
   "whuNativeLoginTitle": "武大统一认证",
   "whuNativeLoginHeading": "登录武大统一身份认证",
   "whuNativeLoginPrivacy": "账号凭据仅从本机直连武大，不会上传至珞家服务端。",
@@ -3829,7 +3711,6 @@
   "forumModerationAppeals": "申诉",
   "settingsBuildInfoArchitecture": "架构",
   "settingsBuildInfoBuildTime": "构建时间",
-  "luotopiaRegisterVerifyEmail": "注册成功，请前往邮箱完成验证后再登录。",
   "luotopiaRegisterSuccess": "注册成功，现在可以登录。",
   "luotopiaRegisterEmailCodeSent": "验证码已发送至 {email}",
   "@luotopiaRegisterEmailCodeSent": {
@@ -3879,7 +3760,6 @@
   "luotopiaRegisterStepProfileSubtitle": "设置唯一的珞家用户名，以及用于珞家账户的邮箱。",
   "luotopiaRegisterEmailVerifiedHint": "该邮箱已在武大账号完成验证并已自动填入，仍可修改。",
   "luotopiaRegisterEmailUnverifiedHint": "若这是你的武大邮箱，建议先到武大账号页完成验证，以便自动填入。",
-  "luotopiaRegisterGoVerifyEmail": "去武大账号验证",
   "luotopiaRegisterStepPasswordTitle": "设置密码",
   "luotopiaRegisterStepPasswordSubtitle": "至少 10 个字符。登录时需要使用此密码。",
   "courseImportSemesterAlreadyAdded": "该学期已添加，请在课程表菜单中选择“更新课程表”。",
@@ -3944,8 +3824,6 @@
   "campusBusArrivalDisabled": "提醒已关闭",
   "campusBusArrivalTarget": "提醒目标",
   "campusBusArrivalAutoDisableHint": "公交到站后自动关闭",
-  "medicalCardSearchTitle": "就诊卡查询",
-  "medicalCardSearchDescription": "搜索您的就诊卡以查看记录",
   "medicalPatientName": "患者姓名",
   "medicalRequiredField": "此项为必填",
   "medicalIdType": "证件类型",
@@ -3959,15 +3837,6 @@
   "medicalIdPassport": "护照",
   "medicalIdMainlandTravelPermit": "港澳通行证",
   "medicalIdOther": "其他",
-  "medicalGreeting": "你好，{name}",
-  "@medicalGreeting": {
-   "placeholders": {
-     "name": {
-       "type": "String"
-      }
-    }
-  },
-  "medicalHospitalName": "武汉大学校医院",
   "medicalSessionExpired": "会话已过期，请重新登录",
   "medicalSearchFailed": "搜索失败，请重试",
   "medicalSearchComplete": "搜索完成",
@@ -3979,7 +3848,6 @@
   "medicalPaidInvoices": "缴费记录",
   "medicalPatientCards": "就诊卡",
   "medicalQueue": "排队状态",
-  "medicalInpatient": "住院",
   "medicalInpatientDeposit": "住院预交金",
   "medicalInpatientDailyList": "住院日清单",
   "medicalInvoiceDetail": "缴费详情",
@@ -4007,15 +3875,12 @@
   "medicalLabAxisToggle": "结果数轴",
   "medicalCardQueryTitle": "就诊卡",
   "medicalCardQueryEmpty": "您还没有绑定的就诊卡",
-  "medicalCardQueryEmptyHint": "点击右上角的创建按钮新建就诊卡，或使用下方搜索绑定已有就诊卡",
   "medicalCardAddTitle": "新增就诊卡",
   "medicalCardSearchBind": "搜索绑定已有就诊卡",
   "medicalCardSearchBindDesc": "输入信息搜索并绑定已有的就诊卡",
   "medicalCardCreateNew": "新建就诊卡",
   "medicalCardCreateNewDesc": "创建全新的就诊卡",
-  "medicalCreateCard": "创建就诊卡",
   "medicalBindCard": "绑定",
-  "medicalBindCardTitle": "绑定就诊卡",
   "medicalSendCode": "发送验证码",
   "medicalResendCode": "重新发送",
   "medicalCodeResent": "验证码已发送",
@@ -4028,36 +3893,14 @@
     }
   },
   "medicalAuthCode": "验证码",
-  "medicalAuthCodeHint": "请输入收到的短信验证码",
   "medicalCity": "所在城市",
-  "medicalCityHint": "请选择城市",
   "medicalAddress": "详细地址",
-  "medicalAddressHint": "请输入详细地址",
   "medicalBindSuccess": "绑定成功",
-  "medicalBindFailed": "绑定失败",
   "medicalCreateSuccess": "创建成功",
   "medicalCreateFailed": "创建失败",
-  "medicalSetDefault": "设为默认卡",
   "medicalSetDefaultSuccess": "已设为默认卡",
-  "medicalSetDefaultFailed": "设置默认卡失败",
   "medicalCardDetail": "就诊卡详情",
   "medicalInvoiceTotal": "总计",
-  "medicalInvoiceQuantity": "数量 {value}",
-  "@medicalInvoiceQuantity": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoicePackageCount": "{value}盒",
-  "@medicalInvoicePackageCount": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
   "medicalInvoiceTotalQuantity": "总数 {value}",
   "@medicalInvoiceTotalQuantity": {
     "placeholders": {
@@ -4068,14 +3911,6 @@
   },
   "medicalInvoiceSpecification": "规格 {value}",
   "@medicalInvoiceSpecification": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoiceUnitPrice": "单价 {value}",
-  "@medicalInvoiceUnitPrice": {
     "placeholders": {
       "value": {
         "type": "String"
@@ -4107,12 +3942,9 @@
     }
   },
   "medicalSelectCard": "选择就诊卡",
-  "medicalCardType": "卡类型",
   "medicalCardNumber": "卡号",
-  "medicalSearchCardHint": "搜索已有的就诊卡进行绑定",
   "medicalConfirmBind": "确认绑定",
   "medicalConfirmCreate": "确认创建",
-  "medicalCardBound": "该卡已绑定",
   "medicalMaskedPhone": "验证码将发送至 {phone}",
   "@medicalMaskedPhone": {
    "placeholders": {
@@ -4121,8 +3953,6 @@
       }
     }
   },
-  "medicalCardQuerySearchSection": "搜索就诊卡",
-  "medicalCardQuerySearchDescription": "输入信息搜索并绑定已有就诊卡",
   "campusBusRouteViewVertical": "纵向路线视图",
   "campusBusRouteViewHorizontal": "横向路线视图",
   "adminConsoleTitle": "管理控制台",
@@ -4293,21 +4123,11 @@
   "aiToolUnknown": "未知工具",
   "aiRequestCancelled": "请求已取消。",
   "majorInfoLegendOver10": "10%以上",
-  "majorInfoLegend5To10": "5%-10%",
-  "majorInfoLegend1To5": "1%-5%",
-  "majorInfoLegend0To1": "0-1%",
-  "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range}周",
   "courseWeekRangeOdd": "{range}周(单)",
   "courseWeekRangeEven": "{range}周(双)",
-  "sportsAreaLabel": "{no}号场",
-  "courseUnnamed": "未命名课程",
-  "courseTimetableWakeupDefaultName": "WakeUp 课程表",
-  "courseTimetableShiguangDefaultName": "拾光课程表",
-  "courseTimetableXinglianDefaultName": "星链课程表",
   "courseTimetableLocalFileDefaultName": "本地课程表",
   "studyStatusOutOfPlanSectionTitle": "其他课程",
-  "schoolNetDefaultDeviceName": "我的设备",
   "forumFreeUpvote": "免费点赞",
   "forumFreeDownvote": "免费点踩",
   "whuAuthSmsSendFailed": "验证码发送失败，请检查手机号后重试",
@@ -4353,42 +4173,6 @@
   "adminSystemQueues": "系统任务队列",
   "luotopiaAccountViewLargeAvatar": "查看大头像",
   "luotopiaAccountChangeAvatar": "更换头像",
-  "luotopiaRegisterDebugCode": "调试验证码",
-  "schoolNetCheckpointRecorded": "已记录抓包检查点",
-  "schoolNetCheckpointTooltip": "记录取水码抓包检查点",
-  "schoolNetCheckpointDevicesLoaded": "已获取 {count} 台在线设备",
-  "@schoolNetCheckpointDevicesLoaded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
-  "schoolNetCheckpointBeforeSeamlessAuthCancel": "无感认证取消前",
-  "schoolNetCheckpointAfterSeamlessAuthCancel": "无感认证取消后",
-  "schoolNetCheckpointBeforeDeviceDisconnect": "设备下线前",
-  "schoolNetCheckpointAfterDeviceDisconnect": "设备下线后",
-  "schoolNetAuthEmptyCredentials": "账号或密码不能为空",
-  "schoolNetAuthPortalNotDetected": "未检测到校园网登录页面",
-  "schoolNetAuthServiceUnavailable": "校园网服务暂不可用",
-  "schoolNetAuthRejected": "校园网登录被拒绝",
-  "schoolNetAuthSubmittedNotOnline": "认证已提交但未显示在线",
-  "schoolNetAuthTimeout": "校园网登录超时",
-  "schoolNetAuthConnectionFailed": "校园网连接失败",
-  "whuCasCodeSendFailed": "验证码发送失败",
-  "whuCasFormErrorFallback": "统一认证表单提交错误",
-  "aiModelFormatUnsupported": "不支持的 AI 模型格式",
-  "aiModelRequestCancelled": "AI 请求已取消",
-  "aiModelHttpError": "AI HTTP 错误 ({statusCode})",
-  "@aiModelHttpError": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
-      }
-    }
-  },
-  "aiModelDuplicateToolCallId": "重复的工具调用 ID",
-  "aiModelEmptyResponse": "AI 返回了空响应",
   "aiDebugNoExportableSession": "无可以导出的 AI 会话。",
   "aiDebugExportSubject": "Agent Debug Export",
   "aiDebugExported": "已导出至 {fileName}",
@@ -4550,10 +4334,8 @@
   "toolkitVerifyConfirmRecordTitle": "生成测试记录卡片",
   "toolkitVerifyConfirmRecordMessage": "{id} 包含写操作，请确认测试记录",
   "toolkitVerifyConfirmRecordConfirm": "生成记录",
-  "toolkitVerifyNotifWriteTitle": "测试写通知",
   "toolkitVerifyNotifAgendaTitle": "测试日程提醒通知",
   "toolkitVerifyNotifAgendaUpdated": "测试日程已更新",
-  "toolkitVerifyNotifReminder": "测试日程提醒已发送",
   "toolkitVerifyAuthPrerequisite": "认证前置条件",
   "toolkitVerifyWhuCas": "武大 CAS 认证",
   "toolkitVerifyAuthenticated": "已认证 · {subject}",
@@ -4581,7 +4363,6 @@
   "waterElectricRoom": "房间",
   "waterElectricSaveAndQuery": "保存并查询",
   "waterElectricDirectoryLoadFailed": "房间目录加载失败。",
-  "waterElectricChooseFirst": "先选择水电房间",
   "waterElectricChooseFirstDescription": "选择只保存在本机，可随时切换，不会修改学校平台的数据。",
   "waterElectricChooseRoom": "选择房间",
   "waterElectricRefresh": "刷新",
@@ -4682,8 +4463,6 @@
   "whuEmailParserLabel": "武大邮箱响应解析器",
   "whuMessagesMarkReadFailed": "标记已读失败",
   "whuMessagesRequestFailed": "请求失败",
-  "whuScoreExamTypeNormal": "正常考试",
-  "whuScoreMidtermWithdraw": "中期退课",
   "whuLibraryResultUnknown": "图书馆操作结果未知，请刷新状态后再决定是否重试",
   "sportsAuthFailedCasRequired": "运动场馆系统授权失败，请重新登录武大统一认证。",
   "waterControlAccountExchangeFailed": "水账户交换失败。",

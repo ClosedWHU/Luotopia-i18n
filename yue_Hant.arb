@@ -17,9 +17,6 @@
   "settingsDevThemeLabTitle": "主題實驗室",
   "settingsDevThemeLabSubtitle": "並排預覽核心元件喺淺色同深色主題下嘅效果。",
   "whuNativeLoginRememberMobile": "記住手機號碼",
-  "whuLoginImplementationTitle": "使用原生登入",
-  "whuLoginImplementationNative": "已開：用原生表單，淨係喺需要驗證碼嗰陣先開 WebView",
-  "whuLoginImplementationWebView": "已關：全程喺武大登入 WebView 入面完成",
   "whuNativeLoginTitle": "武大統一認證",
   "whuNativeLoginHeading": "登入武大統一身份認證",
   "whuNativeLoginPrivacy": "你嘅登入資料只會由呢部裝置直接傳送去武大，唔會上傳到珞家伺服器。",
@@ -94,7 +91,6 @@
   "schoolNetDisconnectDeviceMessage": "{device} 會即刻斷開校園網連線。",
   "schoolNetDisconnectDeviceSuccess": "裝置已下線",
   "schoolNetPaymentTitle": "增值網費",
-  "schoolNetPaymentDescription": "去學校收銀台付款，返嚟之後自動核實入帳結果。",
   "schoolNetPayBalance": "網費餘額",
   "schoolNetPayAccount": "帳號",
   "schoolNetPayName": "姓名",
@@ -109,17 +105,12 @@
   "schoolNetPayConfirmTitle": "建立增值訂單？",
   "schoolNetPayConfirmMessage": "會建立 ¥{amount} 嘅增值訂單。繼續之後唔好重複提交。",
   "schoolNetPayConfirmAction": "去收銀台",
-  "schoolNetPayWaitingTitle": "請喺付款 App 完成付款",
-  "schoolNetPayWaitingMessage": "付完款返嚟呢度，應用會自動核實網費有冇入帳。",
   "schoolNetPayCheckingTitle": "核實緊付款結果",
   "schoolNetPayCheckingMessage": "正向學校平台確認，請勿重複付款。",
   "schoolNetPaySuccessTitle": "網費已入帳",
-  "schoolNetPaySuccessMessage": "今次網費已成功入帳。",
   "schoolNetPaySuccessAmount": "¥{amount} 已成功入帳。",
   "schoolNetPayPendingTitle": "暫時未確認付款",
   "schoolNetPayPendingMessage": "如果已經付款，請等一陣再核實，唔好重複開新訂單。",
-  "schoolNetPayCheckFailedTitle": "暫時核實唔到",
-  "schoolNetPayCheckFailedMessage": "攞唔到訂單結果，可以安全噉再次核實目前訂單。",
   "schoolNetPayCheckAgain": "再次核實",
   "campusAppEmptyClassroom": "空置課室",
   "campusAppFileSharing": "學習資料分享",
@@ -131,7 +122,6 @@
   "campusTitle": "校園",
   "cancel": "取消",
   "changeColorVariantGenerationAlgorithm": "改變顏色變體生成演算法",
-  "chooseBetweenForumOrAi": "導航欄中間位置顯示論壇或 AI 助手（預設論壇）",
   "chooseDuration": "揀時長",
   "colorsAppearance": "色彩同外觀",
   "commonBack": "返去",
@@ -163,10 +153,6 @@
   "detailMissing": "冇揾到呢個事項，可能已經被刪除。",
   "detailTitle": "事項詳情",
   "done": "確定",
-  "dynamicColorMonet": "動態取色",
-  "dynamicColorSourceAccent": "使用系統強調色",
-  "dynamicColorSourceGtk": "使用 GTK 主題色",
-  "dynamicColorSourceWallpaper": "根據系統桌布提取主色調",
   "themeColorSource": "顏色來源",
   "themeColorSourceSystemScheme": "系統動態配色",
   "themeColorSourceSystemSchemeDescription": "完整使用系統提供嘅動態顏色方案。",
@@ -280,8 +266,6 @@
   "editorRepeatDaily": "每天",
   "editorRepeatMonthly": "每月",
   "editorRepeatNone": "不重複",
-  "editorRepeatPagePlaceholder": "複雜重複規則後續繼續擴展。",
-  "editorRepeatPageTitle": "重複設定",
   "editorRepeatWeekdays": "工作日",
   "editorRepeatWeekly": "每週",
   "editorRepeatYearly": "每年",
@@ -337,7 +321,6 @@
   "homeCalendarMonthDayRange": "{day} - {endDay}日",
   "homeCalendarMonthWeek": "{month}月第{month}周",
   "homeCalendarSummerBreak": "暑假",
-  "homeCalendarTopLabel": "{year}學年 {term}",
   "homeCalendarTopLabelYearOnly": "{year}學年",
   "homeCalendarWinterBreak": "寒假",
   "homeCalendarYearMonth": "{year}年{year}月",
@@ -349,12 +332,9 @@
   "homeGridModeCourse": "科目方格",
   "homeGridModeTime": "時間方格",
   "homePeriodRange": "{start} - {end}",
-  "homeScopeMonth": "月",
-  "homeScopeWeek": "周",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} 小時",
   "importedTimestr": "匯入於 {timeStr}",
-  "importSources": "匯入嚟源",
   "importViaEmbeddedWebLogin": "通過內嵌網頁登入並匯入科目",
   "k1Hour": "1 小時",
   "k30Minutes": "30 分鐘",
@@ -383,17 +363,13 @@
   "luotopiaAlreadyHaveAccount": "已經有賬户？",
   "luotopiaConfirmLogout": "確認登出",
   "luotopiaConfirmPassword": "確認密碼",
-  "luotopiaCreateAccount": "開珞家賬户",
   "luotopiaEmailHint": "用嚟揾返密碼",
-  "luotopiaEmailOptional": "電郵（可選）",
-  "luotopiaLoggingIn": "登入緊…",
   "luotopiaLoginTitle": "登入珞家",
   "luotopiaLogoutWarning": "登出之後要重新登入先用到論壇等功能。",
   "luotopiaNoAccountYet": "仲未有賬户？",
   "luotopiaNotLoggedIn": "未登入",
   "luotopiaPasswordHint": "起碼 6 個字元",
   "luotopiaPasswordsDoNotMatch": "兩次入嘅密碼唔一致",
-  "luotopiaPleaseFillFields": "請填用户名同密碼",
   "luotopiaEmailRequired": "請填電郵地址",
   "luotopiaEmailInvalid": "請輸入正確格式嘅電郵地址",
   "luotopiaPasswordRequired": "請填密碼",
@@ -402,13 +378,10 @@
   "luotopiaPasswordRequireLowercase": "包含小寫字母",
   "luotopiaPasswordRequireUppercase": "包含大寫字母",
   "luotopiaPasswordRequireSpecial": "包含特殊字元",
-  "luotopiaRegistering": "註冊緊…",
-  "luotopiaRegisterTitle": "註冊珞家",
   "luotopiaUsername": "用户名",
   "luotopiaUsernameMinHint": "起碼 3 個字元",
   "luotopiaUsernameTooShort": "用户名起碼要 3 個字元",
   "luotopiaWelcomeBack": "歡迎返嚟",
-  "middleTab": "中間分頁",
   "minuteMin": "{minute} 分鐘",
   "navAi": "AI",
   "navCampus": "校園",
@@ -431,11 +404,6 @@
   "scoreImportSpoilerSubtitle": "淨係攞到積點，但系通常快過本科教務",
   "scoreImportSuccess": "匯入成功",
   "scoreImportTitle": "成績匯入",
-  "scorePageGradeRange60": "60-69分",
-  "scorePageGradeRange70": "70-79分",
-  "scorePageGradeRange80": "80-89分",
-  "scorePageGradeRange90": "90-100分",
-  "scorePageGradeRangeFail": "不及格",
   "scorePageRetry": "再試",
   "scorePageTitle": "成績查詢",
   "seatReservationTitle": "温習預約",
@@ -508,7 +476,6 @@
   "settingsHomeItemOpacity": "主頁事項方塊不透明度",
   "settingsHomeSectionTitle": "主頁設定",
   "settingsHomeTimeGridSettings": "時間方格模式設定",
-  "settingsHomeWideLayout": "超寬屏預設範圍",
   "settingsLicenses": "開源許可證",
   "settingsMinutesValue": "{value} 分鐘",
   "settingsNavigationEntrySubtitle": "入口顯示、排序同標籤",
@@ -536,7 +503,6 @@
   "settingsTermsOfService": "服務條款",
   "settingsCrossBorderDataTransfer": "跨境數據傳輸說明",
   "settingsTheme": "主題",
-  "settingsTitle": "設定",
   "settingsVersion": "版本",
   "settingsFriendLinksTitle": "友情連結",
   "settingsFriendLinksSubtitle": "合作夥伴、社群同相關項目",
@@ -758,16 +724,6 @@
       }
     }
   },
-  "@homeCalendarTopLabel": {
-   "placeholders": {
-     "year": {
-       "type": "String"
-      },
-     "term": {
-       "type": "String"
-      }
-    }
-  },
   "@homeCalendarTopLabelYearOnly": {
    "placeholders": {
      "year": {
@@ -948,7 +904,6 @@
     }
   },
   "aiOpenDraftPage": "打開草稿頁面",
-  "aiSending": "傳送緊",
   "aiSend": "傳送",
   "aiClearHistory": "清走紀錄",
   "aiRename": "改名",
@@ -1089,6 +1044,7 @@
   "hotUpdateStatusMissing": "本機缺失，下拉刷新可下載",
   "hotUpdateStatusEmbedded": "用緊內置預設版本",
   "hotUpdateStatusCached": "用緊已快取嘅遠端版本",
+  "hotUpdateStatusUnknown": "未知腳本——更新應用以啟用",
   "hotUpdateStatusTestFailed": "上次更新：沙盒測試失敗",
   "hotUpdateStatusDownloadFailed": "上次更新：下載失敗",
   "hotUpdateStatusCommitFailed": "上次更新：提交失敗",
@@ -1371,8 +1327,6 @@
   },
   "courseDetailGradesTab": "科目給分",
   "courseDetailReviewsTab": "科目評價",
-  "courseAuditTitle": "旁聽",
-  "courseAuditPlaceholder": "旁聽功能仲開發緊…",
   "gradesReviewsSearchFailMessage": "搜尋失敗：{message}",
   "@gradesReviewsSearchFailMessage": {
    "placeholders": {
@@ -1463,7 +1417,6 @@
   "sportsReservationSelectVenueTimeHint": "請先揀可以預約嘅場館同時段。",
   "sportsReservationVenueTimeUnavailable": "而家個場地或者時段預約唔到，請重新揀。",
   "sportsReservationSessionExpired": "運動場館系統登入已經失效。",
-  "sportsReservationAuthRequired": "請先授權運動場館系統。",
   "sportsReservationWhuLoginRequired": "請先登入武大統一認證。",
   "sportsFetchSportsTypes": "攞運動項目清單",
   "sportsFetchOftenVenues": "攞常用場館",
@@ -1600,22 +1553,6 @@
     }
   },
   "scoreImportLastImport": "最近一次匯入",
-  "scoreImportTime": "時間：{time}",
-  "@scoreImportTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-      }
-    }
-  },
-  "scoreImportCount": "成績條數：{count}",
-  "@scoreImportCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "scoreImportExample": "示例：{name} · {score}分 · {credit}",
   "@scoreImportExample": {
    "placeholders": {
@@ -1654,18 +1591,8 @@
     }
   },
   "itemDetailDateRangeTo": "至",
-  "itemDetailSectionGrading": "科目給分",
-  "itemDetailScoreOverall": "總評",
-  "itemDetailScoreContinuous": "平時",
-  "itemDetailScoreFinal": "期末",
-  "itemDetailSectionDistribution": "成績分佈",
   "itemDetailSectionReviews": "科目評價",
-  "itemDetailCourseInsightsDescription": "查看珞家統計、Ham 畀分資料同同學評價。課表科目會按科目名稱配對。",
   "itemDetailCourseInsightsAmbiguous": "珞家入面有幾科同名科目，請手動選擇，避免配對錯誤資料。",
-  "itemDetailMockReview1": "老師講得好清楚，課件做得好，畀分都唔錯。每堂都有堂上練習，對明概念好有幫助。",
-  "itemDetailMockReview2": "科目內容比較充實，但期末試有啲難度。平時功課量適中，建議早啲温書。",
-  "itemDetailMockReview3": "好推薦！呢科令我對主修方向清晰咗，實驗環節設計得好。",
-  "itemDetailMockReviewer": "匿名同學",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count}條訊息",
   "@aiMessageCount": {
@@ -1747,7 +1674,6 @@
   "weatherAqiGood": "良",
   "weatherAqiModerate": "輕度污染",
   "weatherAqiPoor": "中度污染",
-  "weatherBannerRainSoon": "就嚟落雨喇，出門記得帶遮！",
   "weatherBannerRainImminent": "好快落雨喇，記得帶遮！",
   "weatherRainReminderTitle": "落雨提醒",
   "weatherBannerRainInMinutes": "大概 {minutes} 分鐘後落雨，記得帶遮。",
@@ -2043,11 +1969,6 @@
   "wallpaperTargetCampus": "校園",
   "wallpaperTargetSettings": "設定",
   "wallpaperTargetTaskList": "工作清單",
-  "wallpaperTargetListMyDay": "清單 · 我嘅一日",
-  "wallpaperTargetListAllItems": "清單 · 全部事項",
-  "wallpaperTargetListTasks": "清單 · 工作",
-  "wallpaperTargetListSchedules": "清單 · 日程",
-  "wallpaperTargetListMemos": "清單 · 備忘",
   "wallpaperTargetForum": "論壇",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "圖書借閲功能仲開發緊…",
@@ -2487,7 +2408,6 @@
   "authUsePasskey": "用 Passkey 驗證",
   "authResendCode": "重新傳送驗證碼",
   "authBackToPasswordLogin": "返去密碼登入",
-  "authLoginRequired": "請先登入",
   "commonConfirm": "確認",
   "commonContinue": "繼續",
   "commonCopy": "複製",
@@ -2704,8 +2624,6 @@
   "authGenderFemale": "女",
   "authGenderNonBinary": "非二元性別",
   "authGenderPreferNotToSay": "唔想講",
-  "authGenderOther": "其他",
-  "authCustomGender": "描述你嘅性別",
   "authBirthday": "生日",
   "authBio": "個人簡介",
   "authProfileUpdateFailed": "更新個人資料失敗：{error}",
@@ -2771,14 +2689,6 @@
   },
   "courseGradeStatsMedian": "中位數",
   "courseGradeStatsDistribution": "成績分佈",
-  "courseGradeStatsTotalScore": "總成績（0 - 100）",
-  "@courseGradeStatsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "courseReviewsLoginRequired": "登入後先可以睇匿名課程評價。",
   "courseReviewsSyncEligibility": "同步已完成嘅課程",
   "courseReviewsWrite": "寫匿名評價",
@@ -2873,27 +2783,8 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "載入版面失敗：{error}",
-  "@forumBoardsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
-  "forumPostsLoadFailed": "載入帖子失敗：{error}",
   "forumAttachmentAdd": "新增附件",
   "forumImageAdd": "新增圖片",
-  "forumSupportedImageFormats": "支援嘅圖片格式",
-  "forumSupportedAttachmentFormats": "支援嘅附件格式",
-  "forumAttachmentUploadFailed": "上傳附件失敗：{error}",
-  "@forumPostsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumPostTitle": "標題",
   "forumPostContent": "內容",
   "forumPublish": "發佈",
@@ -2907,43 +2798,13 @@
   },
   "forumEmpty": "仲未有帖子。嚟做第一個發帖嘅人啦。",
   "forumAnonymous": "匿名",
-  "forumPostMetadata": "{author} · {comments} 個回覆 · {upvotes} 個讚",
-  "@forumPostMetadata": {
-   "placeholders": {
-     "author": {
-       "type": "String"
-      },
-     "comments": {
-       "type": "int"
-      },
-     "upvotes": {
-       "type": "int"
-      }
-    }
-  },
   "forumPostDetails": "帖子詳情",
   "forumReplies": "回覆",
   "forumRepliesEmpty": "暫時未有回覆。",
   "forumReply": "回覆",
-  "forumRepliesLoadFailed": "載入回覆失敗：{error}",
-  "@forumRepliesLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumReplyPost": "回覆帖子",
   "forumReplyHint": "請友善交流，唔好分享個人資料。",
   "forumSend": "傳送",
-  "forumReplyFailed": "回覆失敗：{error}",
-  "@forumReplyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "authPasswordResetEmail": "電郵",
   "authPasswordResetSendFailed": "傳送失敗：{error}",
   "@authPasswordResetSendFailed": {
@@ -2996,7 +2857,6 @@
   "forumDislike": "唔讚好",
   "forumSave": "收藏",
   "forumEdit": "編輯",
-  "forumDownload": "下載",
   "forumReport": "舉報",
   "forumReportReason": "舉報原因",
   "forumReportSubmitted": "舉報已提交。",
@@ -3014,14 +2874,6 @@
        "type": "int"
       },
      "karma": {
-       "type": "int"
-      }
-    }
-  },
-  "forumKarmaLevelOnly": "Lv{level}",
-  "@forumKarmaLevelOnly": {
-   "placeholders": {
-     "level": {
        "type": "int"
       }
     }
@@ -3095,14 +2947,6 @@
    "placeholders": {
      "karma": {
        "type": "int"
-      }
-    }
-  },
-  "forumReportFailed": "提交舉報失敗：{error}",
-  "@forumReportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
       }
     }
   },
@@ -3444,7 +3288,6 @@
   "forumModerationAppeals": "申訴",
   "settingsBuildInfoArchitecture": "架構",
   "settingsBuildInfoBuildTime": "建構時間",
-  "luotopiaRegisterVerifyEmail": "註冊成功，請去信箱完成驗證再登入。",
   "courseImportSemesterAlreadyAdded": "呢個學期已經加咗，請喺課程表選單揀「更新課程表」。",
   "waterControlClassNo": "班號 {classNo}",
   "forumImageFiles": "論壇圖片",
@@ -3612,8 +3455,6 @@
   "campusBusArrivalDisabled": "提醒已關",
   "campusBusArrivalTarget": "提醒目標",
   "campusBusArrivalAutoDisableHint": "巴士到咗之後自動關閉",
-  "medicalCardSearchTitle": "就診卡查詢",
-  "medicalCardSearchDescription": "搵你嘅就診卡睇紀錄",
   "medicalPatientName": "病人姓名",
   "medicalRequiredField": "呢欄要填",
   "medicalIdType": "證件類型",
@@ -3627,15 +3468,6 @@
   "medicalIdPassport": "護照",
   "medicalIdMainlandTravelPermit": "港澳通行證",
   "medicalIdOther": "其他",
-  "medicalGreeting": "你好，{name}",
-  "@medicalGreeting": {
-   "placeholders": {
-     "name": {
-       "type": "String"
-      }
-    }
-  },
-  "medicalHospitalName": "武漢大學校醫院",
   "medicalSessionExpired": "工作階段過咗期，請重新登入",
   "medicalSearchFailed": "搜尋失敗，請再試",
   "medicalSearchComplete": "搜尋完成",
@@ -3647,7 +3479,6 @@
   "medicalPaidInvoices": "繳費紀錄",
   "medicalPatientCards": "就診卡",
   "medicalQueue": "排隊狀態",
-  "medicalInpatient": "住院",
   "medicalInpatientDeposit": "住院預交金",
   "medicalInpatientDailyList": "住院日清單",
   "medicalInvoiceDetail": "繳費詳情",
@@ -3675,39 +3506,27 @@
   "medicalLabAxisToggle": "結果數軸",
   "medicalCardQueryTitle": "就診卡",
   "medicalCardQueryEmpty": "你冇綁定任何就診卡",
-  "medicalCardQueryEmptyHint": "撳右上角嘅建立掣建立新卡，或者用下面嘅搜尋功能綁定已有就診卡",
   "medicalCardAddTitle": "新增就診卡",
   "medicalCardSearchBind": "搜尋並綁定已有就診卡",
   "medicalCardSearchBindDesc": "輸入你嘅資料，搜尋並綁定已有就診卡",
   "medicalCardCreateNew": "建立新卡",
   "medicalCardCreateNewDesc": "建立一張全新嘅就診卡",
-  "medicalCreateCard": "建立卡",
   "medicalBindCard": "綁定",
-  "medicalBindCardTitle": "綁定就診卡",
   "medicalSendCode": "發送驗證碼",
   "medicalResendCode": "重新發送",
   "medicalCodeResent": "驗證碼已發送",
   "medicalResendCountdown": "{seconds} 秒後重新發送",
   "medicalAuthCode": "驗證碼",
-  "medicalAuthCodeHint": "輸入短訊驗證碼",
   "medicalCity": "城市",
-  "medicalCityHint": "選擇城市",
   "medicalAddress": "地址",
-  "medicalAddressHint": "輸入詳細地址",
   "medicalBindSuccess": "綁定成功",
-  "medicalBindFailed": "綁定失敗",
   "medicalCreateSuccess": "建立成功",
   "medicalCreateFailed": "建立失敗",
-  "medicalSetDefault": "設為預設",
   "medicalSetDefaultSuccess": "已設為預設卡",
-  "medicalSetDefaultFailed": "設定預設卡失敗",
   "medicalCardDetail": "卡片詳情",
   "medicalInvoiceTotal": "總計",
-  "medicalInvoiceQuantity": "數量 {value}",
-  "medicalInvoicePackageCount": "{value} 盒",
   "medicalInvoiceTotalQuantity": "總數 {value}",
   "medicalInvoiceSpecification": "規格 {value}",
-  "medicalInvoiceUnitPrice": "單價 {value}",
   "medicalCardRealName": "姓名",
   "medicalCardIdNumber": "證件號碼",
   "medicalCardPhoneNumber": "電話號碼",
@@ -3723,22 +3542,14 @@
   "medicalCardSwitchPatient": "切換病人",
   "medicalCardSwitchPatientDesc": "切換到 {name}（{card}）？",
   "medicalSelectCard": "選擇卡片",
-  "medicalCardType": "卡片類型",
-  "medicalSearchCardHint": "搜尋要綁定嘅已有卡片",
   "medicalConfirmBind": "確認綁定",
   "medicalConfirmCreate": "確認建立",
-  "medicalCardBound": "呢張卡已經綁定",
   "medicalMaskedPhone": "驗證碼會發送到 {phone}",
-  "medicalCardQuerySearchSection": "搜尋就診卡",
-  "medicalCardQuerySearchDescription": "輸入你嘅資料，搜尋並綁定已有就診卡",
   "campusBusRouteViewVertical": "縱向路線檢視",
   "campusBusOutsideServiceRange": "唔喺營運時間",
   "campusBusNoReachableBus": "而家冇車可以去到呢個站，請另選站點或喺營運時間再試。",
   "campusBusArrivalUseNearestToggle": "用呢條線最近嘅站",
   "campusBusRouteViewHorizontal": "橫向路線檢視",
-  "luotopiaLoginIdentifierLabel": "電郵、使用者名稱或 WHU 學生編號",
-  "luotopiaLoginIdentifierHint": "使用任何與此帳戶綁定的識別資料",
-  "luotopiaLoginIdentifierRequired": "輸入電郵、使用者名稱或 WHU 學生編號",
   "luotopiaLoginEmailHint": "帳戶綁定嘅電郵地址",
   "luotopiaLoginUsernameHint": "你嘅珞家使用者名稱",
   "luotopiaLoginUsernameRequired": "輸入珞家使用者名稱",
@@ -3748,7 +3559,6 @@
   "luotopiaLoginWhuStudentIdRequired": "輸入 WHU 學生編號",
   "luotopiaLoginWhuStudentIdInvalid": "輸入 13 位純數字 WHU 學生編號",
   "authErrorInvalidCredentials": "登入識別資料或者密碼唔啱。",
-  "authErrorEmailNotAllowed": "請使用 WHU 電郵地址（@whu.edu.cn 或 @alumni.whu.edu.cn）。",
   "authErrorEmailExists": "呢個電郵已經註冊，請直接登入或者重設密碼。",
   "authErrorEmailUnverified": "請先驗證電郵再登入。",
   "authErrorUserDisabled": "呢個帳戶已被停用。",
@@ -3757,7 +3567,6 @@
   "authErrorWhuAlreadyBound": "呢個 WHU 帳戶已經綁定去另一個珞家帳戶。",
   "authErrorVerificationFailed": "驗證失敗或者已過期，請再試一次。",
   "authErrorRateLimited": "請求太頻密，請遲啲再試。",
-  "authErrorRequestFailed": "請求失敗，請再試一次。",
   "apiErrorUnauthorized": "需要驗證身份。",
   "apiErrorInvalidToken": "工作階段已過期，請重新登入。",
   "apiErrorTokenExpired": "工作階段已過期，請重新登入。",
@@ -3812,10 +3621,8 @@
   "luotopiaRegisterStepProfileSubtitle": "揀一個唯一嘅珞家使用者名稱同帳戶電郵。",
   "luotopiaRegisterEmailVerifiedHint": "呢個電郵已喺 WHU 帳戶驗證並自動填入，你仍然可以修改。",
   "luotopiaRegisterEmailUnverifiedHint": "如果呢個係你嘅 WHU 電郵，請先喺 WHU 帳戶頁面驗證，方便我哋自動填入。",
-  "luotopiaRegisterGoVerifyEmail": "喺 WHU 帳戶驗證",
   "luotopiaRegisterStepPasswordTitle": "設定密碼",
   "luotopiaRegisterStepPasswordSubtitle": "使用至少 10 個字元。登入時會用到呢個密碼。",
-  "scoreImportCountLabel": "分數數量",
   "campusAppMajorInfo": "學院同主修資料",
   "majorInfoTitle": "學院同主修資料",
   "majorInfoDescription": "瀏覽學術部門、學院、主修、教學計劃同就業數據。",
@@ -3840,7 +3647,6 @@
   "majorInfoTrainingPlan": "學院培養計劃",
   "majorInfoOpenTrainingPlan": "開啟培養計劃預覽",
   "majorInfoTrainingPlanSubtitle": "開啟超星官方文件預覽",
-  "majorInfoTrainingPlanLoading": "載入培養計劃中…",
   "majorInfoTrainingPlanUnavailable": "培養計劃預覽暫時無法使用。",
   "scoreImportParsedCountLabel": "已擷取分數",
   "scoreImportMergedCountLabel": "已合併分數",
@@ -3993,11 +3799,6 @@
   "settingsPrivacyCourseDataDescription": "你可以淨係用武大帳戶使用本機校園功能，而唔使註冊珞家。登入珞家並使用科目給分或評價，即代表你同意將已核實嘅科目成績去識別化，用作匿名統計。",
   "settingsPrivacyCourseDataAggregationTitle": "匿名成績統計",
   "settingsPrivacyCourseDataAggregationSubtitle": "分佈同平均分只會喺達到最低樣本數之後顯示。個別成績、身份、武大密碼同教務 Cookie 都唔會公開。",
-  "scoreContributionAutoSyncTitle": "自動同步並貢獻成績",
-  "scoreContributionAutoSyncDescription": "攞到本科成績之後，會同步已修讀完嘅科目資格，並將精確數字成績貢獻到珞家嘅匿名統計。",
-  "scoreContributionLoginRequired": "請登入珞家，先可以開啟自動貢獻成績。",
-  "scoreContributionConsentTitle": "授權自動貢獻成績",
-  "scoreContributionConsentMessage": "每次成功攞到本科成績之後，珞家會用一次性 WHU CAS 票據喺伺服器核實你嘅成績單。已修讀完嘅科目會私下保存，用嚟判斷貢獻資格；相符科目同講師嘅精確數字成績就會加入匿名統計。你嘅武大密碼同教務 Cookie 絕對唔會上傳。你可以隨時關閉之後嘅同步。",
   "aiStop": "停止",
   "aiAutomation": "自動化程度",
   "aiAutomationManual": "全手動",
@@ -4063,7 +3864,6 @@
   "forumAdminLogLoadMore": "載多啲",
   "forumAdminLogSearchHint": "搜尋摘要或詳情",
   "forumAdminLogTitle": "管理員公告",
-  "forumAppealFlavor": "要求覆核",
   "forumCheckinDone": "今日經已簽到",
   "forumCheckinFixed": "穩陣路徑（+{amount}）",
   "forumCheckinRandom": "博一鋪",
@@ -4128,17 +3928,10 @@
   "forumReportSubmittedFlavor": "已記錄；等緊回應。",
   "courseGradeStatsAllTeachersPrepared": "全部老師數據已就緒。揀個老師去睇成績數據。",
   "courseGradeStatsExamAverage": "平均考試分",
-  "courseGradeStatsFail": "唔合格",
   "courseGradeStatsLoadFailed": "載入成績分佈失敗: {error}",
-  "courseGradeStatsNoTeachers": "呢科無老師，提交唔到成績。",
   "courseGradeStatsPrivacyThreshold": "為咗保障私隱，最少要 5 個樣本。",
   "courseGradeStatsSamples": "{count} 個匿名樣本",
-  "courseGradeStatsSourceHam": "來源: Ham",
   "courseGradeStatsSourceHint": "揀個數據來源",
-  "courseGradeStatsSourceLuotopia": "來源: Luotopia",
-  "courseGradeStatsSubmit": "匿名提交成績",
-  "courseGradeStatsSubmitFailed": "提交成績失敗: {error}",
-  "courseGradeStatsSubmitted": "已匿名提交成績。",
   "courseGradeStatsTeacherClear": "清除老師",
   "courseGradeStatsTeacherHint": "揀個老師去睇對應嘅成績數據。",
   "courseGradeStatsTeacherInputHint": "搜尋老師，或者留空睇全部",
@@ -4194,42 +3987,6 @@
   "adminSystemQueues": "系統任務隊列",
   "luotopiaAccountViewLargeAvatar": "查看大頭像",
   "luotopiaAccountChangeAvatar": "更換頭像",
-  "luotopiaRegisterDebugCode": "調試驗證碼",
-  "schoolNetCheckpointRecorded": "已記錄抓包檢查點",
-  "schoolNetCheckpointTooltip": "記錄取水碼抓包檢查點",
-  "schoolNetCheckpointDevicesLoaded": "已獲取 {count} 臺在線設備",
-  "@schoolNetCheckpointDevicesLoaded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
-  "schoolNetCheckpointBeforeSeamlessAuthCancel": "無感認證取消前",
-  "schoolNetCheckpointAfterSeamlessAuthCancel": "無感認證取消後",
-  "schoolNetCheckpointBeforeDeviceDisconnect": "設備下線前",
-  "schoolNetCheckpointAfterDeviceDisconnect": "設備下線後",
-  "schoolNetAuthEmptyCredentials": "帳號或密碼不能爲空",
-  "schoolNetAuthPortalNotDetected": "未檢測到校園網登錄頁面",
-  "schoolNetAuthServiceUnavailable": "校園網服務暫不可用",
-  "schoolNetAuthRejected": "校園網登錄被拒絕",
-  "schoolNetAuthSubmittedNotOnline": "認證已提交但未顯示在線",
-  "schoolNetAuthTimeout": "校園網登錄超時",
-  "schoolNetAuthConnectionFailed": "校園網連接失敗",
-  "whuCasCodeSendFailed": "驗證碼發送失敗",
-  "whuCasFormErrorFallback": "統一認證表單提交錯誤",
-  "aiModelFormatUnsupported": "不支持的 AI 模型格式",
-  "aiModelRequestCancelled": "AI 請求已取消",
-  "aiModelHttpError": "AI HTTP 錯誤 ({statusCode})",
-  "@aiModelHttpError": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
-      }
-    }
-  },
-  "aiModelDuplicateToolCallId": "重複的工具調用 ID",
-  "aiModelEmptyResponse": "AI 返回了空響應",
   "aiToolStatusRunning": "正在執行工具...",
   "aiToolStatusWaiting": "等待用戶操作...",
   "aiToolStatusCompleted": "工具執行完成",
@@ -4237,10 +3994,6 @@
   "aiToolUnknown": "未知工具",
   "aiRequestCancelled": "請求已取消。",
   "majorInfoLegendOver10": "10%以上",
-  "majorInfoLegend5To10": "5%-10%",
-  "majorInfoLegend1To5": "1%-5%",
-  "majorInfoLegend0To1": "0-1%",
-  "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range}週",
   "@courseWeekRangeAll": {
    "placeholders": {
@@ -4265,21 +4018,8 @@
       }
     }
   },
-  "sportsAreaLabel": "{no}號場",
-  "@sportsAreaLabel": {
-   "placeholders": {
-     "no": {
-       "type": "Object"
-      }
-    }
-  },
-  "courseUnnamed": "未命名課程",
-  "courseTimetableWakeupDefaultName": "WakeUp 課程表",
-  "courseTimetableShiguangDefaultName": "拾光課程表",
-  "courseTimetableXinglianDefaultName": "星鏈課程表",
   "courseTimetableLocalFileDefaultName": "本地課程表",
   "studyStatusOutOfPlanSectionTitle": "其他課程",
-  "schoolNetDefaultDeviceName": "我的設備",
   "forumFreeUpvote": "免費點贊",
   "forumFreeDownvote": "免費點踩",
   "whuAuthSmsSendFailed": "驗證碼發送失敗，請檢查手機號後重試",
@@ -4447,8 +4187,6 @@
   "toolkitVerifyNotAuthenticated": "未認證",
   "toolkitVerifyNotifAgendaTitle": "測試日程提醒通知",
   "toolkitVerifyNotifAgendaUpdated": "測試日程已更新",
-  "toolkitVerifyNotifReminder": "測試日程提醒已發送",
-  "toolkitVerifyNotifWriteTitle": "測試寫通知",
   "toolkitVerifyOpenAuth": "去登入認證",
   "toolkitVerifyPipelineButton": "跑全量流水線",
   "toolkitVerifyPipelineMessage": "步驟 {step}/{total}: {msg}",
@@ -4489,7 +4227,6 @@
   "waterElectricRoom": "房間",
   "waterElectricSaveAndQuery": "儲存並查詢",
   "waterElectricDirectoryLoadFailed": "房間目錄載入失敗。",
-  "waterElectricChooseFirst": "先選擇水電房間",
   "waterElectricChooseFirstDescription": "選擇只儲存在本機，可隨時切換，不會修改學校平臺的資料。",
   "waterElectricChooseRoom": "選擇房間",
   "waterElectricRefresh": "重新整理",
@@ -4579,90 +4316,106 @@
   "whuEmailParserLabel": "武大電郵回應解析器",
   "whuMessagesMarkReadFailed": "標記已讀失敗",
   "whuMessagesRequestFailed": "請求失敗",
-  "whuScoreExamTypeNormal": "正常考試",
-  "whuScoreMidtermWithdraw": "中期退課",
   "whuLibraryResultUnknown": "圖書館操作結果未知，請重新整理狀態之後再決定係咪要重試",
   "sportsAuthFailedCasRequired": "運動場館系統授權失敗，請重新登入武大統一認證。",
   "waterControlAccountExchangeFailed": "水帳戶交換失敗。",
-  "courseTimetableLocalFileDefaultName": "本地課程表"
-,  "aiAssistantDefault": "預設",
-  "aiAssistantDeleteConfirm": "刪除呢個助手？",
-  "aiAssistantEmpty": "暫無助手",
-  "aiAssistantManage": "管理助手",
-  "aiAssistantName": "名稱",
-  "aiAssistantNew": "新增助手",
-  "aiAssistantSystemPrompt": "系統提示詞",
-  "aiAssistantUseGlobal": "用全域助手",
-  "aiClose": "關閉",
-  "aiCodeCollapse": "摺埋",
-  "aiCodeCopied": "已複製",
-  "aiCodeExpand": "展開",
-  "aiCodeToggleLineNumbers": "切換行號",
-  "aiCompress": "壓縮",
-  "aiCompressContext": "壓縮上下文",
-  "aiDeleteSessionConfirm": "刪除呢個工作階段？",
-  "aiEditingMessage": "而家編緊訊息...",
-  "aiExport": "匯出",
-  "aiForkFromHere": "由呢度分叉",
-  "aiMcp": "MCP",
-  "aiMcpAddServer": "加伺服器",
-  "aiMcpEmpty": "未設定 MCP 伺服器",
-  "aiPin": "釘喺頂",
-  "aiPinned": "已釘喺頂",
-  "aiProviderBuiltin": "內建",
-  "aiSearchNoResults": "搵唔到啱嘅工作階段",
-  "aiSearchSessions": "搵工作階段",
-  "aiShare": "分享",
-  "aiSkills": "技能",
-  "aiSkillsEmpty": "冇可用嘅技能",
-  "aiToday": "今日",
-  "aiUnpin": "取消釘喺頂",
-  "aiYesterday": "尋日",
-  "settingsAiMaxTokens": "最大 token 數",
+  "courseTimetableLocalFileDefaultName": "本地課程表",
+  "aiImageGeneration": "產生圖片",
+  "aiImageGenerationHint": "描述你想生成嘅圖片",
+  "aiImageGenerationEmpty": "你生成嘅圖片會喺呢度顯示。",
   "settingsAiModelParamsTitle": "模型參數",
-  "settingsAiParamDefault": "預設",
+  "settingsAiModelCapabilities": "模型能力",
+  "settingsAiCapabilityVision": "圖片",
+  "settingsAiCapabilityDocument": "文件",
+  "settingsAiCapabilityAudio": "音訊",
+  "settingsAiCapabilityVideo": "影片",
   "settingsAiTemperature": "溫度",
   "settingsAiTopP": "Top P",
-  "aiCodeShowMoreLines": "{count, plural, other{顯示多 {count} 行}}",
-  "@aiCodeShowMoreLines": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressKeepRecent": "{count, plural, other{保留最近 {count} 條}}",
-  "@aiCompressKeepRecent": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiMcpEnabled": "{count, plural, other{{count} 個伺服器}}",
-  "@aiMcpEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiSkillsEnabled": "{count, plural, other{{count} 個技能}}",
-  "@aiSkillsEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressContextDescription": "將 {messageCount} 條訊息壓縮做短啲嘅上下文，等慳返啲 token。",
-  "@aiCompressContextDescription": {
-   "placeholders": {
-    "messageCount": {
-     "type": "int"
-    }
-   }
-  }
-,  "aiMcpImport": "匯入",
-  "aiMcpImportJson": "由 JSON 匯入"
+  "settingsAiMaxTokens": "最大 Token 數",
+  "settingsAiParamDefault": "供應商預設值",
+  "aiSearchSessions": "搜尋對話",
+  "aiSearchNoResults": "冇符合嘅對話",
+  "aiPinned": "已置頂",
+  "aiToday": "今日",
+  "aiYesterday": "尋日",
+  "aiPin": "置頂",
+  "aiUnpin": "取消置頂",
+  "aiDeleteSessionConfirm": "刪除呢段對話？",
+  "aiAssistantDefault": "預設",
+  "aiAssistantManage": "管理助手",
+  "aiAssistantNew": "新增助手",
+  "aiAssistantName": "助手名稱",
+  "aiAssistantSystemPrompt": "系統提示",
+  "aiAssistantEmpty": "仲未建立助手",
+  "aiAssistantUseGlobal": "使用全域設定",
+  "aiAssistantDeleteConfirm": "刪除呢個助手？",
+  "aiClose": "關閉",
+  "aiExport": "匯出",
+  "aiShare": "分享",
+  "aiCompressContext": "壓縮上下文",
+  "aiCompressContextDescription": "移除較早嘅訊息，減少 Token 用量。呢段對話有 {count} 條訊息。",
+  "aiCompressKeepRecent": "保留最近 {count} 條訊息",
+  "aiCompress": "壓縮",
+  "aiMcpImportJson": "匯入 JSON",
+  "aiMcpImport": "匯入",
+  "aiEditingMessage": "編輯緊訊息",
+  "aiForkFromHere": "由呢度開始新對話",
+  "aiSkills": "技能",
+  "aiSkillsEmpty": "仲未安裝技能",
+  "aiSkillsManage": "管理技能",
+  "aiSkillNew": "新增技能",
+  "aiSkillName": "技能名稱",
+  "aiSkillNameHint": "小寫名稱",
+  "aiSkillDescription": "描述",
+  "aiSkillInstructions": "指示",
+  "aiTranslate": "翻譯",
+  "aiTranslateTo": "翻譯成",
+  "aiAddFavorite": "加入最愛",
+  "aiRemoveFavorite": "移除最愛",
+  "aiAddAttachment": "加入附件",
+  "aiPickImages": "揀圖片",
+  "aiTakePhoto": "影相",
+  "aiPickFiles": "揀檔案",
+  "aiAttachmentUnsupported": "呢個模型唔支援所揀嘅附件類型。",
+  "aiSpeak": "朗讀",
+  "aiVoiceInput": "語音輸入",
+  "aiSkillsEnabled": "已啟用 {count} 項技能",
+  "aiMcp": "MCP",
+  "aiMcpEmpty": "仲未設定 MCP 伺服器",
+  "aiMcpEnabled": "已連接 {count} 個 MCP 伺服器",
+  "aiMcpAddServer": "新增伺服器",
+  "aiMcpServerName": "伺服器名稱",
+  "aiMcpServerUrl": "伺服器 URL",
+  "aiMcpTransportType": "傳輸方式",
+  "aiMcpTransportSse": "SSE",
+  "aiMcpTransportStreamableHttp": "Streamable HTTP",
+  "aiCodeCopied": "已複製",
+  "aiCodeExpand": "展開",
+  "aiCodeCollapse": "收起",
+  "aiCodeToggleLineNumbers": "顯示/隱藏行號",
+  "aiCodeShowMoreLines": "顯示另外 {count} 行",
+  "onboardingPermissionMicrophoneTitle": "麥克風",
+  "onboardingPermissionMicrophoneDescription": "用於 AI 對話嘅語音輸入（語音轉文字）。",
+  "hotUpdateEditScript": "編輯指令碼",
+  "hotUpdateSaveScript": "儲存",
+  "hotUpdateResetScript": "重設為遠端或預設版本",
+  "hotUpdateTestFailed": "沙盒測試失敗，指令碼未有儲存",
+  "hotUpdateSaveSuccess": "指令碼已儲存並測試成功",
+  "hotUpdateUserEdited": "已喺本機編輯（更新已暫停）",
+  "hotUpdateResetConfirm": "放棄你嘅修改，還原遠端或預設指令碼？",
+  "settingsAiWorkspaceExportTitle": "匯出 Agent 資料",
+  "settingsAiWorkspaceExportSubtitle": "將你嘅備註、草稿同設定打包成 notes/ 入面嘅 JSON 檔案。打包內容唔包括對話工作階段檔案同受保護嘅 Tool Result 位元組資料。",
+  "settingsAiWorkspaceExportConfirmTitle": "匯出 Agent 資料？",
+  "settingsAiWorkspaceExportConfirmMessage": "打包檔會寫入你嘅工作區，包含目前嘅擁有者備註、草稿同設定，但唔包括對話工作階段檔案或 Tool Result 位元組資料。匯出唔會刪除或修改本機資料。",
+  "settingsAiWorkspaceExportConfirmAction": "匯出打包檔",
+  "settingsAiWorkspaceExported": "已將 {count} 個檔案匯出到 {path}。",
+  "settingsAiWorkspaceExportFailed": "匯出 Agent 工作區失敗：{error}",
+  "aiImageGenerationSize": "尺寸",
+  "aiImageGenerationCount": "圖片數量",
+  "aiImageGenerationReference": "參考圖片",
+  "aiImageGenerationDelete": "刪除",
+  "aiImageGenerationSave": "儲存圖片",
+  "aiImageGenerationShare": "分享圖片",
+  "settingsAiCapabilityImageGeneration": "圖片產生",
+  "aiSpeechTitle": "AI 語音", "aiSpeechRecognitionService": "語音辨識服務", "aiSpeechSpeechToText": "speech_to_text（系統）", "aiSpeechStts": "stts", "aiSpeechWhisper": "Whisper 離線轉錄", "aiSpeechWhisperModel": "Whisper 模型", "aiDownload": "下載", "aiSpeechEngine": "語音引擎", "aiSpeechEdge": "Edge 線上語音", "aiSpeechSttsVoice": "stts 系統語音", "aiSpeechVoiceLoadFailed": "無法載入線上語音，將使用目前語音。", "aiSpeechVoice": "語音", "aiSpeechRate": "速度", "aiSpeechPitch": "音調", "aiSpeechVolume": "音量", "aiSpeechPreviewText": "你好，呢把係你揀嘅 AI 語音。", "aiSpeechPreview": "試聽目前語音", "aiMcpImportFailed": "無法匯入 MCP 伺服器設定"
 }

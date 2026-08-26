@@ -17,9 +17,6 @@
   "settingsDevThemeLabTitle": "테마 실험실",
   "settingsDevThemeLabSubtitle": "라이트 및 다크 테마에서 핵심 구성요소를 나란히 미리 봅니다.",
   "whuNativeLoginRememberMobile": "휴대전화 번호 기억",
-  "whuLoginImplementationTitle": "네이티브 로그인 사용",
-  "whuLoginImplementationNative": "켬: 네이티브 양식을 사용하고 CAPTCHA가 필요할 때만 WebView 표시",
-  "whuLoginImplementationWebView": "끔: 우한대학교 로그인 WebView에서 전체 로그인 진행",
   "whuNativeLoginTitle": "우한대학교 통합 인증",
   "whuNativeLoginHeading": "우한대학교 통합 인증 로그인",
   "whuNativeLoginPrivacy": "계정 인증 정보는 우한대학교로 직접 전송되며 뤄자 서버에는 업로드되지 않습니다.",
@@ -94,7 +91,6 @@
   "schoolNetDisconnectDeviceMessage": "{device}의 현재 캠퍼스 네트워크 연결이 즉시 끊어집니다.",
   "schoolNetDisconnectDeviceSuccess": "기기 연결이 해제되었습니다",
   "schoolNetPaymentTitle": "네트워크 요금 충전",
-  "schoolNetPaymentDescription": "학교 결제 화면에서 결제하고 요금 반영 결과를 자동으로 확인합니다.",
   "schoolNetPayBalance": "네트워크 요금 잔액",
   "schoolNetPayAccount": "계정",
   "schoolNetPayName": "이름",
@@ -109,17 +105,12 @@
   "schoolNetPayConfirmTitle": "충전 주문을 생성할까요?",
   "schoolNetPayConfirmMessage": "¥{amount} 주문을 생성합니다. 계속한 뒤에는 중복 제출하지 마세요.",
   "schoolNetPayConfirmAction": "결제로 이동",
-  "schoolNetPayWaitingTitle": "결제 앱에서 결제를 완료하세요",
-  "schoolNetPayWaitingMessage": "결제 후 여기로 돌아오면 요금 반영 여부를 자동으로 확인합니다.",
   "schoolNetPayCheckingTitle": "결제 확인 중",
   "schoolNetPayCheckingMessage": "학교 시스템에서 결과를 확인하고 있습니다. 중복 결제하지 마세요.",
   "schoolNetPaySuccessTitle": "요금 반영 완료",
-  "schoolNetPaySuccessMessage": "네트워크 요금이 정상적으로 반영되었습니다.",
   "schoolNetPaySuccessAmount": "¥{amount} 결제가 반영되었습니다.",
   "schoolNetPayPendingTitle": "결제 확인 대기 중",
   "schoolNetPayPendingMessage": "이미 결제했다면 잠시 후 다시 확인하세요. 새 주문을 만들지 마세요.",
-  "schoolNetPayCheckFailedTitle": "결제를 확인할 수 없음",
-  "schoolNetPayCheckFailedMessage": "주문 결과를 가져오지 못했습니다. 현재 주문은 안전하게 다시 확인할 수 있습니다.",
   "schoolNetPayCheckAgain": "다시 확인",
   "campusAppEmptyClassroom": "빈 강의실",
   "campusAppFileSharing": "자료 공유",
@@ -131,7 +122,6 @@
   "campusTitle": "캠퍼스",
   "cancel": "취소",
   "changeColorVariantGenerationAlgorithm": "색상 변형 생성 알고리즘 변경",
-  "chooseBetweenForumOrAi": "포럼 또는 AI 도우미는 탐색 표시줄 중앙에 표시됩니다(기본 포럼).",
   "chooseDuration": "기간 선택",
   "colorsAppearance": "색상 및 외관",
   "commonBack": "반환",
@@ -163,10 +153,6 @@
   "detailMissing": "이 항목을 찾을 수 없습니다. 삭제되었을 수도 있습니다.",
   "detailTitle": "사항 내용",
   "done": "완료",
-  "dynamicColorMonet": "다이내믹 컬러",
-  "dynamicColorSourceAccent": "시스템 강조 색 사용",
-  "dynamicColorSourceGtk": "GTK 테마 색 사용",
-  "dynamicColorSourceWallpaper": "시스템 배경화면에서 추출",
   "themeColorSource": "색상 소스",
   "themeColorSourceSystemScheme": "시스템 동적 색상",
   "themeColorSourceSystemSchemeDescription": "시스템에서 제공하는 전체 색상 구성표를 사용합니다.",
@@ -280,8 +266,6 @@
   "editorRepeatDaily": "매일",
   "editorRepeatMonthly": "매달",
   "editorRepeatNone": "반복되지 않음",
-  "editorRepeatPagePlaceholder": "복잡한 반복 규칙은 나중에 계속 확장될 예정입니다.",
-  "editorRepeatPageTitle": "반복 설정",
   "editorRepeatWeekdays": "근무일",
   "editorRepeatWeekly": "매주",
   "editorRepeatYearly": "매년",
@@ -340,7 +324,6 @@
   "homeCalendarMonthDayRange": "{day} - {endDay}",
   "homeCalendarMonthWeek": "{month} 제{month}주",
   "homeCalendarSummerBreak": "여름방학",
-  "homeCalendarTopLabel": "{year} {term}",
   "homeCalendarTopLabelYearOnly": "{year}",
   "homeCalendarWinterBreak": "겨울방학",
   "homeCalendarYearMonth": "{year}년 {year}",
@@ -352,12 +335,9 @@
   "homeGridModeCourse": "커리큘럼 그리드",
   "homeGridModeTime": "시간 그리드",
   "homePeriodRange": "{start} - {end}",
-  "homeScopeMonth": "달",
-  "homeScopeWeek": "주",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} 시간",
   "importedTimestr": "가져옴 {timeStr}",
-  "importSources": "가져오기 출처",
   "importViaEmbeddedWebLogin": "내장 웹 로그인을 통해 가져오기",
   "k1Hour": "1시간",
   "k30Minutes": "30분",
@@ -386,17 +366,13 @@
   "luotopiaAlreadyHaveAccount": "계정 있음?",
   "luotopiaConfirmLogout": "로그아웃 확인",
   "luotopiaConfirmPassword": "비밀번호 확인",
-  "luotopiaCreateAccount": "뤄자 계정 만들기",
   "luotopiaEmailHint": "비밀번호 복구용",
-  "luotopiaEmailOptional": "이메일(선택)",
-  "luotopiaLoggingIn": "로그인 중…",
   "luotopiaLoginTitle": "뤄자 로그인",
   "luotopiaLogoutWarning": "로그아웃 후 포럼 등을 쓰려면 다시 로그인해야 합니다.",
   "luotopiaNoAccountYet": "계정 없음?",
   "luotopiaNotLoggedIn": "로그인 안 됨",
   "luotopiaPasswordHint": "6자 이상",
   "luotopiaPasswordsDoNotMatch": "비밀번호가 일치하지 않습니다",
-  "luotopiaPleaseFillFields": "사용자 이름과 비밀번호를 입력하세요",
   "luotopiaEmailRequired": "이메일 주소를 입력하세요",
   "luotopiaEmailInvalid": "올바른 이메일 주소를 입력하세요",
   "luotopiaPasswordRequired": "비밀번호를 입력하세요",
@@ -405,13 +381,10 @@
   "luotopiaPasswordRequireLowercase": "소문자 포함",
   "luotopiaPasswordRequireUppercase": "대문자 포함",
   "luotopiaPasswordRequireSpecial": "특수 문자 포함",
-  "luotopiaRegistering": "가입 중…",
-  "luotopiaRegisterTitle": "뤄자 가입",
   "luotopiaUsername": "사용자 이름",
   "luotopiaUsernameMinHint": "3자 이상",
   "luotopiaUsernameTooShort": "사용자 이름은 3자 이상이어야 합니다",
   "luotopiaWelcomeBack": "다시 오신 것을 환영합니다",
-  "middleTab": "중간 탭",
   "minuteMin": "{minute} 분",
   "navAi": "AI",
   "navCampus": "캠퍼스",
@@ -434,11 +407,6 @@
   "scoreImportSpoilerSubtitle": "평점만 받지만 학부 교무보다 빠를 수 있음",
   "scoreImportSuccess": "가져오기 성공",
   "scoreImportTitle": "성적 가져오기",
-  "scorePageGradeRange60": "60~69점",
-  "scorePageGradeRange70": "70~79점",
-  "scorePageGradeRange80": "80-89점",
-  "scorePageGradeRange90": "90~100점",
-  "scorePageGradeRangeFail": "실패했다",
   "scorePageRetry": "재시도",
   "scorePageTitle": "성적",
   "seatReservationTitle": "좌석 예약",
@@ -714,7 +682,6 @@
   "settingsHomeItemOpacity": "일정 블록 불투명도",
   "settingsHomeSectionTitle": "홈페이지 설정",
   "settingsHomeTimeGridSettings": "타임 그리드 모드 설정",
-  "settingsHomeWideLayout": "울트라와이드 기본 범위",
   "settingsLicenses": "오픈소스 라이선스",
   "settingsMinutesValue": "{value}분",
   "settingsNavigationEntrySubtitle": "탭 표시·순서·라벨",
@@ -742,7 +709,6 @@
   "settingsTermsOfService": "이용약관",
   "settingsCrossBorderDataTransfer": "국외 이전 안내",
   "settingsTheme": "테마",
-  "settingsTitle": "설정",
   "settingsVersion": "버전",
   "settingsFriendLinksTitle": "친구 링크",
   "settingsFriendLinksSubtitle": "파트너, 커뮤니티 및 관련 프로젝트",
@@ -964,16 +930,6 @@
       }
     }
   },
-  "@homeCalendarTopLabel": {
-   "placeholders": {
-     "year": {
-       "type": "String"
-      },
-     "term": {
-       "type": "String"
-      }
-    }
-  },
   "@homeCalendarTopLabelYearOnly": {
    "placeholders": {
      "year": {
@@ -1154,7 +1110,6 @@
     }
   },
   "aiOpenDraftPage": "초안 페이지 열기",
-  "aiSending": "보내는 중",
   "aiSend": "보내기",
   "aiClearHistory": "기록 삭제",
   "aiRename": "이름 바꾸기",
@@ -1295,6 +1250,7 @@
   "hotUpdateStatusMissing": "로컬 없음 — 당겨서 다운로드",
   "hotUpdateStatusEmbedded": "내장 기본값 사용 중",
   "hotUpdateStatusCached": "캐시된 원격 버전 사용 중",
+  "hotUpdateStatusUnknown": "알 수 없는 스크립트 — 활성화하려면 앱을 업데이트하세요",
   "hotUpdateStatusTestFailed": "마지막 업데이트: 샌드박스 테스트 실패",
   "hotUpdateStatusDownloadFailed": "마지막 업데이트: 다운로드 실패",
   "hotUpdateStatusCommitFailed": "마지막 업데이트: 커밋 실패",
@@ -1577,8 +1533,6 @@
   },
   "courseDetailGradesTab": "성적 분포",
   "courseDetailReviewsTab": "수강 후기",
-  "courseAuditTitle": "청강",
-  "courseAuditPlaceholder": "청강 기능은 개발 중입니다…",
   "gradesReviewsSearchFailMessage": "검색 실패: {message}",
   "@gradesReviewsSearchFailMessage": {
    "placeholders": {
@@ -1669,7 +1623,6 @@
   "sportsReservationSelectVenueTimeHint": "먼저 예약 가능한 시설과 시간대를 선택하세요.",
   "sportsReservationVenueTimeUnavailable": "선택한 시설 또는 시간대는 예약할 수 없습니다. 다시 선택하세요.",
   "sportsReservationSessionExpired": "운동 시설 시스템 로그인이 만료됨.",
-  "sportsReservationAuthRequired": "먼저 운동 시설 시스템을 승인하세요.",
   "sportsReservationWhuLoginRequired": "먼저 우한대 통합 인증에 로그인하세요.",
   "sportsFetchSportsTypes": "종목 목록 가져오기",
   "sportsFetchOftenVenues": "자주 쓰는 시설 가져오기",
@@ -1806,22 +1759,6 @@
     }
   },
   "scoreImportLastImport": "마지막 가져오기",
-  "scoreImportTime": "시각：{time}",
-  "@scoreImportTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-      }
-    }
-  },
-  "scoreImportCount": "성적 항목：{count}건",
-  "@scoreImportCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "scoreImportExample": "예시：{name} · {score}점 · {credit}학점",
   "@scoreImportExample": {
    "placeholders": {
@@ -1860,19 +1797,9 @@
     }
   },
   "itemDetailDateRangeTo": " ~ ",
-  "itemDetailSectionGrading": "채점",
-  "itemDetailScoreOverall": "총평",
-  "itemDetailScoreContinuous": "평소",
-  "itemDetailScoreFinal": "기말고사",
-  "itemDetailSectionDistribution": "성적 분포",
   "itemDetailSectionReviews": "수강 후기",
   "itemDetailCourseInsightsTitle": "실제 과목 성적 및 후기",
-  "itemDetailCourseInsightsDescription": "뤄자 통계, Ham 성적 데이터와 학생 후기를 확인할 수 있습니다. 시간표 과목은 과목명으로 매칭됩니다.",
   "itemDetailCourseInsightsAmbiguous": "뤄자에 같은 이름의 과목이 여러 개 있습니다. 잘못된 데이터를 사용하지 않도록 올바른 과목을 선택하세요.",
-  "itemDetailMockReview1": "교수님 설명이 명확하고 교안이 좋으며 채점도 합리적입니다. 매 수업 연습이 개념 이해에 큰 도움이 됩니다.",
-  "itemDetailMockReview2": "내용이 알차지만 기말이 어렵습니다. 과제는 보통. 미리 복습을 권장합니다.",
-  "itemDetailMockReview3": "강력 추천. 전공 방향이 분명해졌고 실험도 잘 설계되어 있습니다.",
-  "itemDetailMockReviewer": "익명 학생",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count}개 메시지",
   "@aiMessageCount": {
@@ -1954,7 +1881,6 @@
   "weatherAqiGood": "보통",
   "weatherAqiModerate": "나쁨",
   "weatherAqiPoor": "나쁨+",
-  "weatherBannerRainSoon": "곧 비가 옵니다. 우산을 챙기세요!",
   "weatherBannerRainImminent": "곧 비가 옵니다. 우산을 챙기세요!",
   "weatherRainReminderTitle": "강우 알림",
   "weatherBannerRainInMinutes": "약 {minutes}분 후 비 — 우산을 챙기세요.",
@@ -2250,11 +2176,6 @@
   "wallpaperTargetCampus": "캠퍼스",
   "wallpaperTargetSettings": "설정",
   "wallpaperTargetTaskList": "작업 목록",
-  "wallpaperTargetListMyDay": "목록 · 나의 하루",
-  "wallpaperTargetListAllItems": "목록 · 전체",
-  "wallpaperTargetListTasks": "목록 · 할 일",
-  "wallpaperTargetListSchedules": "목록 · 일정",
-  "wallpaperTargetListMemos": "목록 · 메모",
   "wallpaperTargetForum": "포럼",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "도서 대출 기능은 개발 중입니다…",
@@ -2701,7 +2622,6 @@
   "authUsePasskey": "Passkey 사용",
   "authResendCode": "코드 다시 보내기",
   "authBackToPasswordLogin": "비밀번호 로그인으로 돌아가기",
-  "authLoginRequired": "먼저 로그인하세요",
   "commonConfirm": "확인",
   "commonContinue": "계속",
   "commonCopy": "복사",
@@ -2926,8 +2846,6 @@
   "authGenderFemale": "여성",
   "authGenderNonBinary": "논바이너리",
   "authGenderPreferNotToSay": "답변하지 않음",
-  "authGenderOther": "기타",
-  "authCustomGender": "성별을 설명하세요",
   "authBirthday": "생일",
   "authBio": "소개",
   "authProfileUpdateFailed": "프로필을 업데이트하지 못했습니다: {error}",
@@ -2993,14 +2911,6 @@
   },
   "courseGradeStatsMedian": "Median score",
   "courseGradeStatsDistribution": "점수 분포",
-  "courseGradeStatsTotalScore": "총점(0~100)",
-  "@courseGradeStatsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "courseReviewsLoginRequired": "익명 강의 후기를 보려면 로그인하세요.",
   "courseReviewsSyncEligibility": "이수한 과목 동기화",
   "courseReviewsWrite": "익명 후기 작성",
@@ -3061,27 +2971,8 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "게시판을 불러오지 못했습니다: {error}",
-  "@forumBoardsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
-  "forumPostsLoadFailed": "게시글을 불러오지 못했습니다: {error}",
   "forumAttachmentAdd": "첨부 파일 추가",
   "forumImageAdd": "이미지 추가",
-  "forumSupportedImageFormats": "지원하는 이미지 형식",
-  "forumSupportedAttachmentFormats": "지원하는 첨부 파일 형식",
-  "forumAttachmentUploadFailed": "첨부 파일 업로드에 실패했습니다: {error}",
-  "@forumPostsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumPostTitle": "제목",
   "forumPostContent": "내용",
   "forumPublish": "게시",
@@ -3095,43 +2986,13 @@
   },
   "forumEmpty": "아직 게시글이 없습니다. 첫 게시글을 작성해 보세요.",
   "forumAnonymous": "익명",
-  "forumPostMetadata": "{author} · 답글 {comments}개 · 추천 {upvotes}개",
-  "@forumPostMetadata": {
-   "placeholders": {
-     "author": {
-       "type": "String"
-      },
-     "comments": {
-       "type": "int"
-      },
-     "upvotes": {
-       "type": "int"
-      }
-    }
-  },
   "forumPostDetails": "게시글 상세",
   "forumReplies": "답글",
   "forumRepliesEmpty": "아직 답글이 없습니다.",
   "forumReply": "답글",
-  "forumRepliesLoadFailed": "답글을 불러오지 못했습니다: {error}",
-  "@forumRepliesLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumReplyPost": "게시글에 답글 달기",
   "forumReplyHint": "친절하게 작성하고 개인정보를 공유하지 마세요.",
   "forumSend": "보내기",
-  "forumReplyFailed": "답글을 작성하지 못했습니다: {error}",
-  "@forumReplyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "authPasswordResetEmail": "이메일",
   "authPasswordResetSendFailed": "전송하지 못했습니다: {error}",
   "@authPasswordResetSendFailed": {
@@ -3199,7 +3060,6 @@
   "forumDislike": "싫어요",
   "forumSave": "저장",
   "forumEdit": "수정",
-  "forumDownload": "다운로드",
   "forumReport": "신고",
   "forumReportReason": "사유",
   "forumReportSubmitted": "신고가 접수되었습니다.",
@@ -3217,14 +3077,6 @@
        "type": "int"
       },
      "karma": {
-       "type": "int"
-      }
-    }
-  },
-  "forumKarmaLevelOnly": "Lv{level}",
-  "@forumKarmaLevelOnly": {
-   "placeholders": {
-     "level": {
        "type": "int"
       }
     }
@@ -3298,14 +3150,6 @@
    "placeholders": {
      "karma": {
        "type": "int"
-      }
-    }
-  },
-  "forumReportFailed": "신고를 제출하지 못했습니다: {error}",
-  "@forumReportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
       }
     }
   },
@@ -3460,7 +3304,6 @@
   "forumModerationAppeals": "이의제기",
   "settingsBuildInfoArchitecture": "아키텍처",
   "settingsBuildInfoBuildTime": "빌드 시간",
-  "luotopiaRegisterVerifyEmail": "가입이 완료되었습니다. 이메일 인증 후 로그인해 주세요.",
   "courseImportSemesterAlreadyAdded": "이 학기는 이미 추가되었습니다. 시간표 메뉴에서 “시간표 업데이트”를 선택하세요.",
   "waterControlClassNo": "수업 번호 {classNo}",
   "forumImageFiles": "포럼 이미지",
@@ -3628,8 +3471,6 @@
   "campusBusArrivalDisabled": "알림 꺼짐",
   "campusBusArrivalTarget": "알림 대상",
   "campusBusArrivalAutoDisableHint": "버스 도착 후 자동으로 비활성화",
-  "medicalCardSearchTitle": "진료카드 조회",
-  "medicalCardSearchDescription": "진료카드를 검색하여 기록을 확인하세요",
   "medicalPatientName": "환자 이름",
   "medicalRequiredField": "필수 항목입니다",
   "medicalIdType": "증명서 유형",
@@ -3643,15 +3484,6 @@
   "medicalIdPassport": "여권",
   "medicalIdMainlandTravelPermit": "본토 여행 허가증",
   "medicalIdOther": "기타",
-  "medicalGreeting": "안녕하세요, {name}님",
-  "@medicalGreeting": {
-   "placeholders": {
-     "name": {
-       "type": "String"
-      }
-    }
-  },
-  "medicalHospitalName": "우한대학교 교내 병원",
   "medicalSessionExpired": "세션이 만료되었습니다. 다시 로그인해 주세요",
   "medicalSearchFailed": "검색에 실패했습니다. 다시 시도해 주세요",
   "medicalSearchComplete": "검색 완료",
@@ -3663,7 +3495,6 @@
   "medicalPaidInvoices": "납부 내역",
   "medicalPatientCards": "진료카드",
   "medicalQueue": "대기 현황",
-  "medicalInpatient": "입원",
   "medicalInpatientDeposit": "입원 예치금",
   "medicalInpatientDailyList": "입원 일일 명세서",
   "medicalInvoiceDetail": "납부 상세",
@@ -3691,15 +3522,12 @@
   "medicalLabAxisToggle": "결과 축",
   "medicalCardQueryTitle": "진료카드",
   "medicalCardQueryEmpty": "연결된 진료카드가 없습니다",
-  "medicalCardQueryEmptyHint": "오른쪽 상단의 생성 버튼을 눌러 새 카드를 만들거나, 아래에서 검색하여 기존 카드를 연결하세요",
   "medicalCardAddTitle": "진료카드 추가",
   "medicalCardSearchBind": "기존 진료카드 검색 및 연결",
   "medicalCardSearchBindDesc": "정보를 입력하여 기존 진료카드를 검색하고 연결하세요",
   "medicalCardCreateNew": "새 진료카드 만들기",
   "medicalCardCreateNewDesc": "새 진료카드를 만드세요",
-  "medicalCreateCard": "카드 만들기",
   "medicalBindCard": "연결",
-  "medicalBindCardTitle": "진료카드 연결",
   "medicalSendCode": "인증번호 전송",
   "medicalResendCode": "다시 보내기",
   "medicalCodeResent": "인증번호를 전송했습니다",
@@ -3712,36 +3540,14 @@
     }
   },
   "medicalAuthCode": "인증 코드",
-  "medicalAuthCodeHint": "SMS 인증번호를 입력하세요",
   "medicalCity": "도시",
-  "medicalCityHint": "도시를 선택하세요",
   "medicalAddress": "주소",
-  "medicalAddressHint": "상세 주소를 입력하세요",
   "medicalBindSuccess": "연결되었습니다",
-  "medicalBindFailed": "연결하지 못했습니다",
   "medicalCreateSuccess": "생성되었습니다",
   "medicalCreateFailed": "생성하지 못했습니다",
-  "medicalSetDefault": "기본 카드로 설정",
   "medicalSetDefaultSuccess": "기본 카드로 설정했습니다",
-  "medicalSetDefaultFailed": "기본 카드로 설정하지 못했습니다",
   "medicalCardDetail": "진료카드 상세 정보",
   "medicalInvoiceTotal": "합계",
-  "medicalInvoiceQuantity": "수량 {value}",
-  "@medicalInvoiceQuantity": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoicePackageCount": "{value}상자",
-  "@medicalInvoicePackageCount": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
   "medicalInvoiceTotalQuantity": "총 {value}",
   "@medicalInvoiceTotalQuantity": {
     "placeholders": {
@@ -3752,14 +3558,6 @@
   },
   "medicalInvoiceSpecification": "규격 {value}",
   "@medicalInvoiceSpecification": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoiceUnitPrice": "단가 {value}",
-  "@medicalInvoiceUnitPrice": {
     "placeholders": {
       "value": {
         "type": "String"
@@ -3791,11 +3589,8 @@
     }
   },
   "medicalSelectCard": "카드 선택",
-  "medicalCardType": "카드 유형",
-  "medicalSearchCardHint": "기존 진료카드를 검색하여 연결하세요",
   "medicalConfirmBind": "연결 확인",
   "medicalConfirmCreate": "생성 확인",
-  "medicalCardBound": "이 진료카드는 이미 연결되어 있습니다",
   "medicalMaskedPhone": "인증번호를 {phone}(으)로 전송합니다",
   "@medicalMaskedPhone": {
    "placeholders": {
@@ -3804,18 +3599,12 @@
       }
     }
   },
-  "medicalCardQuerySearchSection": "진료카드 검색",
-  "medicalCardQuerySearchDescription": "정보를 입력하여 기존 진료카드를 검색하고 연결하세요",
   "campusBusRouteViewVertical": "세로 경로 보기",
   "campusBusOutsideServiceRange": "운행 시간 외",
   "campusBusNoReachableBus": "이 정류장에 도착할 수 있는 버스가 없습니다. 다른 정류장을 선택하거나 운행 시간에 다시 시도하세요.",
   "campusBusArrivalUseNearestToggle": "이 노선의 가장 가까운 정류장 사용",
   "campusBusRouteViewHorizontal": "가로 경로 보기",
-  "luotopiaLoginIdentifierLabel": "이메일, 사용자 이름 또는 WHU 학번",
-  "luotopiaLoginIdentifierHint": "이 계정에 연결된 식별자를 사용하세요",
-  "luotopiaLoginIdentifierRequired": "이메일, 사용자 이름 또는 WHU 학번을 입력하세요",
   "authErrorInvalidCredentials": "이메일 또는 비밀번호가 올바르지 않습니다.",
-  "authErrorEmailNotAllowed": "WHU 이메일 주소(@whu.edu.cn 또는 @alumni.whu.edu.cn)를 사용하세요.",
   "authErrorEmailExists": "이 이메일은 이미 등록되어 있습니다. 로그인하거나 비밀번호를 재설정하세요.",
   "authErrorEmailUnverified": "로그인하기 전에 이메일을 인증하세요.",
   "authErrorUserDisabled": "이 계정은 비활성화되었습니다.",
@@ -3824,7 +3613,6 @@
   "authErrorWhuAlreadyBound": "이 WHU 계정은 이미 다른 뤄자 계정에 연결되어 있습니다.",
   "authErrorVerificationFailed": "인증에 실패했거나 만료되었습니다. 다시 시도하세요.",
   "authErrorRateLimited": "요청이 너무 많습니다. 나중에 다시 시도하세요.",
-  "authErrorRequestFailed": "요청에 실패했습니다. 다시 시도하세요.",
   "apiErrorUnauthorized": "인증이 필요합니다.",
   "apiErrorInvalidToken": "세션이 만료되었습니다. 다시 로그인하세요.",
   "apiErrorTokenExpired": "세션이 만료되었습니다. 다시 로그인하세요.",
@@ -3879,10 +3667,8 @@
   "luotopiaRegisterStepProfileSubtitle": "표시 이름과 뤄자 계정에 사용할 이메일을 선택하세요.",
   "luotopiaRegisterEmailVerifiedHint": "이 이메일은 WHU 계정에서 인증되어 자동으로 입력되었습니다. 변경할 수도 있습니다.",
   "luotopiaRegisterEmailUnverifiedHint": "WHU 이메일이라면 먼저 WHU 계정 페이지에서 인증하면 자동으로 입력할 수 있습니다.",
-  "luotopiaRegisterGoVerifyEmail": "WHU 계정에서 인증",
   "luotopiaRegisterStepPasswordTitle": "비밀번호 설정",
   "luotopiaRegisterStepPasswordSubtitle": "10자 이상을 사용하세요. 로그인할 때 이 비밀번호가 필요합니다.",
-  "scoreImportCountLabel": "성적 수",
   "campusAppMajorInfo": "단과대학 및 전공 정보",
   "majorInfoTitle": "단과대학 및 전공 정보",
   "majorInfoDescription": "학술 부문, 단과대학, 전공, 교육 계획 및 취업 데이터를 살펴보세요.",
@@ -3907,7 +3693,6 @@
   "majorInfoTrainingPlan": "단과대학 교육 계획",
   "majorInfoOpenTrainingPlan": "교육 계획 미리보기 열기",
   "majorInfoTrainingPlanSubtitle": "Chaoxing 공식 문서 미리보기를 엽니다",
-  "majorInfoTrainingPlanLoading": "교육 계획을 불러오는 중…",
   "majorInfoTrainingPlanUnavailable": "교육 계획 미리보기를 사용할 수 없습니다.",
   "scoreImportParsedCountLabel": "가져온 성적",
   "scoreImportMergedCountLabel": "병합된 성적",
@@ -4068,11 +3853,6 @@
   "settingsPrivacyCourseDataDescription": "WHU 계정만으로 뤄자에 가입하지 않고도 학교 내 서비스를 이용할 수 있습니다. 뤄자에 로그인하여 과목 성적이나 후기를 이용하면, 확인된 과목 성적을 익명 통계로 활용하기 위해 개인 식별 정보를 제거하는 데 동의하는 것으로 간주됩니다.",
   "settingsPrivacyCourseDataAggregationTitle": "익명 성적 통계",
   "settingsPrivacyCourseDataAggregationSubtitle": "분포와 평균은 최소 표본 기준을 충족한 경우에만 표시됩니다. 개별 성적, 신원 정보, WHU 비밀번호와 교육 시스템 쿠키는 공개되지 않습니다.",
-  "scoreContributionAutoSyncTitle": "성적 자동 동기화 및 제공",
-  "scoreContributionAutoSyncDescription": "학부 성적을 가져온 후 이수 과목 제공 대상 여부를 동기화하고, 정확한 수치 성적을 뤄자의 익명 집계에 제공합니다.",
-  "scoreContributionLoginRequired": "성적 자동 제공을 사용하려면 뤄자에 로그인하세요.",
-  "scoreContributionConsentTitle": "성적 자동 제공 허용",
-  "scoreContributionConsentMessage": "학부 성적을 성공적으로 가져올 때마다 뤄자는 일회용 WHU CAS 티켓을 사용하여 서버에서 성적표를 확인합니다. 이수 과목은 제공 대상 확인을 위해 비공개로 저장되며, 과목과 담당 교수가 일치하는 정확한 수치 성적은 익명 집계에 추가됩니다. WHU 비밀번호와 교육 시스템 쿠키는 절대 업로드되지 않습니다. 이후 동기화는 언제든지 끌 수 있습니다.",
   "forumReplyDepthLimit": "더 이상 답글을 달 수 없습니다",
   "aiStop": "중지",
   "aiAutomation": "자동화 수준",
@@ -4139,7 +3919,6 @@
   "forumAdminLogLoadMore": "더 보기",
   "forumAdminLogSearchHint": "요약 또는 세부정보 검색",
   "forumAdminLogTitle": "중재 알림",
-  "forumAppealFlavor": "재심사 요청",
   "forumCheckinDone": "오늘 체크인 완료",
   "forumCheckinFixed": "고정 경로 (+{amount})",
   "forumCheckinRandom": "확률 시도",
@@ -4204,17 +3983,10 @@
   "forumReportSubmittedFlavor": "기록됨; 응답 대기 중.",
   "courseGradeStatsAllTeachersPrepared": "모든 교사 데이터가 준비됐습니다. 교사를 선택해 성적 데이터를 보세요.",
   "courseGradeStatsExamAverage": "평균 시험 점수",
-  "courseGradeStatsFail": "낙제",
   "courseGradeStatsLoadFailed": "성적 분포를 불러오지 못했습니다: {error}",
-  "courseGradeStatsNoTeachers": "이 과목에는 교사가 없어 성적을 제출할 수 없습니다.",
   "courseGradeStatsPrivacyThreshold": "프라이버시 보호를 위해 최소 5개 샘플이 필요합니다.",
   "courseGradeStatsSamples": "{count}개 익명 샘플",
-  "courseGradeStatsSourceHam": "출처: Ham",
   "courseGradeStatsSourceHint": "데이터 소스 선택",
-  "courseGradeStatsSourceLuotopia": "출처: Luotopia",
-  "courseGradeStatsSubmit": "익명 성적 제출",
-  "courseGradeStatsSubmitFailed": "성적 제출 실패: {error}",
-  "courseGradeStatsSubmitted": "익명 성적을 제출했습니다.",
   "courseGradeStatsTeacherClear": "교사 지우기",
   "courseGradeStatsTeacherHint": "해당 성적 데이터를 볼 교사를 선택하세요.",
   "courseGradeStatsTeacherInputHint": "교사 검색, 또는 비워두면 모두 표시",
@@ -4270,42 +4042,6 @@
   "adminSystemQueues": "시스템 작업 큐",
   "luotopiaAccountViewLargeAvatar": "아바타 크게 보기",
   "luotopiaAccountChangeAvatar": "아바타 변경",
-  "luotopiaRegisterDebugCode": "디버그 인증 코드",
-  "schoolNetCheckpointRecorded": "패킷 캡처 체크포인트가 기록되었습니다",
-  "schoolNetCheckpointTooltip": "취수 코드 패킷 캡처 체크포인트 기록",
-  "schoolNetCheckpointDevicesLoaded": "온라인 기기 {count}대를 가져왔습니다",
-  "@schoolNetCheckpointDevicesLoaded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
-  "schoolNetCheckpointBeforeSeamlessAuthCancel": "무감각 인증 취소 전",
-  "schoolNetCheckpointAfterSeamlessAuthCancel": "무감각 인증 취소 후",
-  "schoolNetCheckpointBeforeDeviceDisconnect": "기기 오프라인 전환 전",
-  "schoolNetCheckpointAfterDeviceDisconnect": "기기 오프라인 전환 후",
-  "schoolNetAuthEmptyCredentials": "아이디 또는 비밀번호는 비워 둘 수 없습니다",
-  "schoolNetAuthPortalNotDetected": "교내망 로그인 페이지를 찾을 수 없습니다",
-  "schoolNetAuthServiceUnavailable": "교내망 서비스를 일시적으로 사용할 수 없습니다",
-  "schoolNetAuthRejected": "교내망 로그인이 거부되었습니다",
-  "schoolNetAuthSubmittedNotOnline": "인증 정보는 제출되었으나 온라인으로 표시되지 않습니다",
-  "schoolNetAuthTimeout": "교내망 로그인 요청 시간이 초과되었습니다",
-  "schoolNetAuthConnectionFailed": "교내망 연결에 실패했습니다",
-  "whuCasCodeSendFailed": "인증 코드 전송 실패",
-  "whuCasFormErrorFallback": "CAS 폼 제출 오류",
-  "aiModelFormatUnsupported": "지원되지 않는 AI 모델 형식",
-  "aiModelRequestCancelled": "AI 요청이 취소되었습니다",
-  "aiModelHttpError": "AI HTTP 오류 ({statusCode})",
-  "@aiModelHttpError": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
-      }
-    }
-  },
-  "aiModelDuplicateToolCallId": "중복된 도구 호출 ID",
-  "aiModelEmptyResponse": "AI가 빈 응답을 반환했습니다",
   "aiToolStatusRunning": "도구 실행 중...",
   "aiToolStatusWaiting": "사용자 작업 대기 중...",
   "aiToolStatusCompleted": "도구 실행 완료",
@@ -4313,10 +4049,6 @@
   "aiToolUnknown": "알 수 없는 도구",
   "aiRequestCancelled": "요청이 취소되었습니다.",
   "majorInfoLegendOver10": "10% 이상",
-  "majorInfoLegend5To10": "5%-10%",
-  "majorInfoLegend1To5": "1%-5%",
-  "majorInfoLegend0To1": "0-1%",
-  "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range}주",
   "@courseWeekRangeAll": {
    "placeholders": {
@@ -4341,21 +4073,8 @@
       }
     }
   },
-  "sportsAreaLabel": "{no}번 코트",
-  "@sportsAreaLabel": {
-   "placeholders": {
-     "no": {
-       "type": "Object"
-      }
-    }
-  },
-  "courseUnnamed": "이름 없는 과목",
-  "courseTimetableWakeupDefaultName": "WakeUp 시간표",
-  "courseTimetableShiguangDefaultName": "Shiguang 시간표",
-  "courseTimetableXinglianDefaultName": "Xinglian 시간표",
   "courseTimetableLocalFileDefaultName": "로컬 시간표",
   "studyStatusOutOfPlanSectionTitle": "기타 과목",
-  "schoolNetDefaultDeviceName": "내 기기",
   "forumFreeUpvote": "무료 좋아요",
   "forumFreeDownvote": "무료 싫어요",
   "whuAuthSmsSendFailed": "인증 코드 전송 실패. 전화번호를 확인하고 다시 시도하세요.",
@@ -4534,10 +4253,8 @@
   "toolkitVerifyConfirmRecordTitle": "테스트 기록 카드 생성",
   "toolkitVerifyConfirmRecordMessage": "{id}에 쓰기 작업이 포함돼요. 테스트 기록을 확인해 주세요.",
   "toolkitVerifyConfirmRecordConfirm": "기록 생성",
-  "toolkitVerifyNotifWriteTitle": "테스트 쓰기 알림",
   "toolkitVerifyNotifAgendaTitle": "테스트 일정 알림 알림",
   "toolkitVerifyNotifAgendaUpdated": "테스트 일정이 업데이트됐어요",
-  "toolkitVerifyNotifReminder": "테스트 일정 알림을 보냈어요",
   "toolkitVerifyAuthPrerequisite": "인증 전제 조건",
   "toolkitVerifyWhuCas": "WHU CAS 인증",
   "toolkitVerifyAuthenticated": "인증됨 · {subject}",
@@ -4565,7 +4282,6 @@
   "waterElectricRoom": "방",
   "waterElectricSaveAndQuery": "저장 및 쿼리",
   "waterElectricDirectoryLoadFailed": "회의실 디렉터리를 로드할 수 없습니다.",
-  "waterElectricChooseFirst": "먼저 수도·전기 요금 방을 선택하세요",
   "waterElectricChooseFirstDescription": "언제든지 변경할 수 있습니다. 이는 학교 포털의 데이터를 수정하지 않습니다.",
   "waterElectricChooseRoom": "객실 선택",
   "waterElectricRefresh": "새로고침",
@@ -4655,90 +4371,106 @@
   "whuEmailParserLabel": "WHU 이메일 응답 파서",
   "whuMessagesMarkReadFailed": "읽음 표시 실패",
   "whuMessagesRequestFailed": "요청 실패",
-  "whuScoreExamTypeNormal": "일반 시험",
-  "whuScoreMidtermWithdraw": "중간 수강철회",
   "whuLibraryResultUnknown": "도서관 작업 결과를 알 수 없어요. 다시 시도할지 결정하기 전에 상태를 새로고침해 주세요.",
   "sportsAuthFailedCasRequired": "체육 시설 시스템 인증에 실패했어요. WHU CAS로 다시 로그인해 주세요.",
   "waterControlAccountExchangeFailed": "수도 계정 교환에 실패했어요.",
-  "courseTimetableLocalFileDefaultName": "로컬 시간표"
-,  "aiAssistantDefault": "기본",
-  "aiAssistantDeleteConfirm": "이 어시스턴트를 삭제하시겠습니까?",
-  "aiAssistantEmpty": "어시스턴트가 없습니다",
-  "aiAssistantManage": "어시스턴트 관리",
-  "aiAssistantName": "이름",
-  "aiAssistantNew": "새 어시스턴트",
+  "courseTimetableLocalFileDefaultName": "로컬 시간표",
+  "aiImageGeneration": "이미지 생성",
+  "aiImageGenerationHint": "만들고 싶은 이미지를 설명하세요",
+  "aiImageGenerationEmpty": "생성한 이미지가 여기에 표시됩니다.",
+  "settingsAiModelParamsTitle": "모델 매개변수",
+  "settingsAiModelCapabilities": "모델 기능",
+  "settingsAiCapabilityVision": "이미지",
+  "settingsAiCapabilityDocument": "문서",
+  "settingsAiCapabilityAudio": "오디오",
+  "settingsAiCapabilityVideo": "동영상",
+  "settingsAiTemperature": "온도",
+  "settingsAiTopP": "Top P(누적 확률)",
+  "settingsAiMaxTokens": "최대 토큰 수",
+  "settingsAiParamDefault": "제공업체 기본값",
+  "aiSearchSessions": "대화 검색",
+  "aiSearchNoResults": "일치하는 대화가 없습니다",
+  "aiPinned": "고정됨",
+  "aiToday": "오늘",
+  "aiYesterday": "어제",
+  "aiPin": "고정",
+  "aiUnpin": "고정 해제",
+  "aiDeleteSessionConfirm": "이 대화를 삭제할까요?",
+  "aiAssistantDefault": "기본값",
+  "aiAssistantManage": "비서 관리",
+  "aiAssistantNew": "새 비서",
+  "aiAssistantName": "비서 이름",
   "aiAssistantSystemPrompt": "시스템 프롬프트",
-  "aiAssistantUseGlobal": "전역 사용",
+  "aiAssistantEmpty": "생성된 비서가 없습니다",
+  "aiAssistantUseGlobal": "전역 설정 사용",
+  "aiAssistantDeleteConfirm": "이 비서를 삭제할까요?",
   "aiClose": "닫기",
-  "aiCodeCollapse": "접기",
+  "aiExport": "내보내기",
+  "aiShare": "공유",
+  "aiCompressContext": "컨텍스트 압축",
+  "aiCompressContextDescription": "오래된 메시지를 삭제하여 토큰 사용량을 줄입니다. 현재 대화에 메시지 {count}개가 있습니다.",
+  "aiCompressKeepRecent": "최근 메시지 {count}개 유지",
+  "aiCompress": "압축",
+  "aiMcpImportJson": "JSON 가져오기",
+  "aiMcpImport": "가져오기",
+  "aiEditingMessage": "메시지 편집 중",
+  "aiForkFromHere": "여기서 새 대화 시작",
+  "aiSkills": "스킬",
+  "aiSkillsEmpty": "설치된 스킬이 없습니다",
+  "aiSkillsManage": "스킬 관리",
+  "aiSkillNew": "새 스킬",
+  "aiSkillName": "스킬 이름",
+  "aiSkillNameHint": "소문자 이름",
+  "aiSkillDescription": "설명",
+  "aiSkillInstructions": "지침",
+  "aiTranslate": "번역",
+  "aiTranslateTo": "번역할 언어",
+  "aiAddFavorite": "즐겨찾기에 추가",
+  "aiRemoveFavorite": "즐겨찾기에서 제거",
+  "aiAddAttachment": "첨부파일 추가",
+  "aiPickImages": "이미지 선택",
+  "aiTakePhoto": "사진 촬영",
+  "aiPickFiles": "파일 선택",
+  "aiAttachmentUnsupported": "이 모델은 선택한 첨부파일 형식을 지원하지 않습니다.",
+  "aiSpeak": "소리 내어 읽기",
+  "aiVoiceInput": "음성 입력",
+  "aiSkillsEnabled": "사용 중인 스킬 {count}개",
+  "aiMcp": "MCP",
+  "aiMcpEmpty": "설정된 MCP 서버가 없습니다",
+  "aiMcpEnabled": "연결된 MCP 서버 {count}개",
+  "aiMcpAddServer": "서버 추가",
+  "aiMcpServerName": "서버 이름",
+  "aiMcpServerUrl": "서버 URL",
+  "aiMcpTransportType": "전송 방식",
+  "aiMcpTransportSse": "SSE",
+  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "복사됨",
   "aiCodeExpand": "펼치기",
+  "aiCodeCollapse": "접기",
   "aiCodeToggleLineNumbers": "줄 번호 표시 전환",
-  "aiCompress": "압축",
-  "aiCompressContext": "컨텍스트 압축",
-  "aiDeleteSessionConfirm": "이 세션을 삭제하시겠습니까?",
-  "aiEditingMessage": "메시지 편집 중...",
-  "aiExport": "내보내기",
-  "aiForkFromHere": "여기서 분기",
-  "aiMcp": "MCP",
-  "aiMcpAddServer": "서버 추가",
-  "aiMcpEmpty": "MCP 서버가 구성되지 않았습니다",
-  "aiPin": "고정",
-  "aiPinned": "고정됨",
-  "aiProviderBuiltin": "내장",
-  "aiSearchNoResults": "일치하는 세션이 없습니다",
-  "aiSearchSessions": "세션 검색",
-  "aiShare": "공유",
-  "aiSkills": "스킬",
-  "aiSkillsEmpty": "사용 가능한 스킬이 없습니다",
-  "aiToday": "오늘",
-  "aiUnpin": "고정 해제",
-  "aiYesterday": "어제",
-  "settingsAiMaxTokens": "최대 토큰 수",
-  "settingsAiModelParamsTitle": "모델 매개변수",
-  "settingsAiParamDefault": "기본값",
-  "settingsAiTemperature": "Temperature",
-  "settingsAiTopP": "Top P",
-  "aiCodeShowMoreLines": "{count, plural, other{추가 {count}줄 표시}}",
-  "@aiCodeShowMoreLines": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressKeepRecent": "{count, plural, other{최근 {count}개 유지}}",
-  "@aiCompressKeepRecent": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiMcpEnabled": "{count, plural, other{서버 {count}개}}",
-  "@aiMcpEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiSkillsEnabled": "{count, plural, other{{count}개 스킬}}",
-  "@aiSkillsEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressContextDescription": "{messageCount}개의 메시지를 압축하여 토큰을 절약합니다.",
-  "@aiCompressContextDescription": {
-   "placeholders": {
-    "messageCount": {
-     "type": "int"
-    }
-   }
-  }
-,  "aiMcpImport": "가져오기",
-  "aiMcpImportJson": "JSON에서 가져오기"
+  "aiCodeShowMoreLines": "줄 {count}개 더 표시",
+  "onboardingPermissionMicrophoneTitle": "마이크",
+  "onboardingPermissionMicrophoneDescription": "AI 대화의 음성 입력(음성 텍스트 변환)에 사용됩니다.",
+  "hotUpdateEditScript": "스크립트 편집",
+  "hotUpdateSaveScript": "저장",
+  "hotUpdateResetScript": "원격 또는 기본 스크립트로 복원",
+  "hotUpdateTestFailed": "샌드박스 테스트에 실패하여 스크립트를 저장하지 않았습니다",
+  "hotUpdateSaveSuccess": "스크립트를 저장하고 테스트했습니다",
+  "hotUpdateUserEdited": "로컬에서 편집됨(업데이트 일시 중지)",
+  "hotUpdateResetConfirm": "편집 내용을 버리고 원격 또는 기본 스크립트로 복원할까요?",
+  "settingsAiWorkspaceExportTitle": "Agent 데이터 내보내기",
+  "settingsAiWorkspaceExportSubtitle": "메모, 초안, 설정을 notes/ 아래 JSON 파일로 묶습니다. 채팅 세션 파일과 보호된 Tool Result 바이트는 제외됩니다.",
+  "settingsAiWorkspaceExportConfirmTitle": "Agent 데이터를 내보낼까요?",
+  "settingsAiWorkspaceExportConfirmMessage": "현재 소유자의 메모, 초안, 설정이 포함된 묶음이 작업공간에 저장됩니다. 채팅 세션 파일과 Tool Result 바이트는 포함되지 않습니다. 내보내기는 로컬 데이터를 삭제하거나 변경하지 않습니다.",
+  "settingsAiWorkspaceExportConfirmAction": "묶음 내보내기",
+  "settingsAiWorkspaceExported": "{path}에 파일 {count}개를 내보냈습니다.",
+  "settingsAiWorkspaceExportFailed": "Agent 작업공간을 내보내지 못했습니다: {error}",
+  "aiImageGenerationSize": "크기",
+  "aiImageGenerationCount": "이미지 수",
+  "aiImageGenerationReference": "참고 이미지",
+  "aiImageGenerationDelete": "삭제",
+  "aiImageGenerationSave": "이미지 저장",
+  "aiImageGenerationShare": "이미지 공유",
+  "settingsAiCapabilityImageGeneration": "이미지 생성",
+  "aiSpeechTitle": "AI 음성", "aiSpeechRecognitionService": "음성 인식 서비스", "aiSpeechSpeechToText": "speech_to_text (시스템)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Whisper 오프라인 전사", "aiSpeechWhisperModel": "Whisper 모델", "aiDownload": "다운로드", "aiSpeechEngine": "음성 엔진", "aiSpeechEdge": "Edge 온라인 음성", "aiSpeechSttsVoice": "stts 시스템 음성", "aiSpeechVoiceLoadFailed": "온라인 음성을 불러올 수 없어 현재 음성을 사용합니다.", "aiSpeechVoice": "음성", "aiSpeechRate": "속도", "aiSpeechPitch": "음높이", "aiSpeechVolume": "음량", "aiSpeechPreviewText": "안녕하세요. 선택한 AI 음성입니다.", "aiSpeechPreview": "현재 음성 미리 듣기", "aiMcpImportFailed": "MCP 서버 설정을 가져오지 못했습니다"
 }

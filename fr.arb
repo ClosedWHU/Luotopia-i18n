@@ -17,9 +17,6 @@
   "settingsDevThemeLabTitle": "Laboratoire de thèmes",
   "settingsDevThemeLabSubtitle": "Prévisualisez les principaux composants avec les thèmes clair et sombre.",
   "whuNativeLoginRememberMobile": "Mémoriser le numéro de téléphone",
-  "whuLoginImplementationTitle": "Connexion native",
-  "whuLoginImplementationNative": "Activée : utilise le formulaire natif et n’affiche la WebView que lorsqu’un CAPTCHA est requis",
-  "whuLoginImplementationWebView": "Désactivée : effectue toute la connexion dans la WebView de WHU",
   "whuNativeLoginTitle": "Connexion à WHU",
   "whuNativeLoginHeading": "Connectez-vous au système d’authentification unifiée de WHU",
   "whuNativeLoginPrivacy": "Vos identifiants sont envoyés directement à WHU et ne sont jamais transmis aux serveurs de Luotopia.",
@@ -94,7 +91,6 @@
   "schoolNetDisconnectDeviceMessage": "{device} perdra immédiatement sa connexion actuelle.",
   "schoolNetDisconnectDeviceSuccess": "Appareil déconnecté",
   "schoolNetPaymentTitle": "Recharger les frais réseau",
-  "schoolNetPaymentDescription": "Payez via la caisse WHU et vérifiez automatiquement le crédit.",
   "schoolNetPayBalance": "Solde réseau",
   "schoolNetPayAccount": "Compte",
   "schoolNetPayName": "Nom",
@@ -109,17 +105,12 @@
   "schoolNetPayConfirmTitle": "Créer la commande ?",
   "schoolNetPayConfirmMessage": "Créer une commande de ¥{amount} ? Ne la soumettez pas deux fois.",
   "schoolNetPayConfirmAction": "Passer au paiement",
-  "schoolNetPayWaitingTitle": "Terminez le paiement dans l’application",
-  "schoolNetPayWaitingMessage": "Revenez ici après le paiement. Le crédit sera vérifié automatiquement.",
   "schoolNetPayCheckingTitle": "Vérification du paiement",
   "schoolNetPayCheckingMessage": "Confirmation auprès de l’université. N’effectuez pas un second paiement.",
   "schoolNetPaySuccessTitle": "Frais crédités",
-  "schoolNetPaySuccessMessage": "Vos frais réseau ont bien été crédités.",
   "schoolNetPaySuccessAmount": "Votre paiement de ¥{amount} a été crédité.",
   "schoolNetPayPendingTitle": "Paiement non confirmé",
   "schoolNetPayPendingMessage": "Si vous avez payé, patientez puis vérifiez à nouveau. Ne créez pas une autre commande.",
-  "schoolNetPayCheckFailedTitle": "Vérification impossible",
-  "schoolNetPayCheckFailedMessage": "Le résultat est indisponible. Vous pouvez vérifier cette commande à nouveau sans risque.",
   "schoolNetPayCheckAgain": "Vérifier à nouveau",
   "campusAppEmptyClassroom": "Salles libres",
   "campusAppFileSharing": "Fichiers",
@@ -131,7 +122,6 @@
   "campusTitle": "campus",
   "cancel": "Annuler",
   "changeColorVariantGenerationAlgorithm": "Modifier l'algorithme de génération de variantes de couleur",
-  "chooseBetweenForumOrAi": "Le forum ou l'assistant IA s'affiche au milieu de la barre de navigation (forum par défaut)",
   "chooseDuration": "Choisir la durée",
   "colorsAppearance": "Couleur et apparence",
   "commonBack": "Retour",
@@ -163,10 +153,6 @@
   "detailMissing": "Cet élément n'a pas été trouvé. Il a peut-être été supprimé.",
   "detailTitle": "Détails du sujet",
   "done": "Terminé",
-  "dynamicColorMonet": "Couleur dynamique",
-  "dynamicColorSourceAccent": "Utiliser la couleur d’accent système",
-  "dynamicColorSourceGtk": "Utiliser la couleur du thème GTK",
-  "dynamicColorSourceWallpaper": "Extraire du fond d’écran système",
   "themeColorSource": "Source des couleurs",
   "themeColorSourceSystemScheme": "Couleurs dynamiques du système",
   "themeColorSourceSystemSchemeDescription": "Utiliser la palette de couleurs complète fournie par le système.",
@@ -280,8 +266,6 @@
   "editorRepeatDaily": "tous les jours",
   "editorRepeatMonthly": "mensuellement",
   "editorRepeatNone": "Pas répété",
-  "editorRepeatPagePlaceholder": "Les règles de répétition complexes continueront à être étendues ultérieurement.",
-  "editorRepeatPageTitle": "Répéter les paramètres",
   "editorRepeatWeekdays": "jours ouvrables",
   "editorRepeatWeekly": "hebdomadaire",
   "editorRepeatYearly": "chaque année",
@@ -337,7 +321,6 @@
   "homeCalendarMonthDayRange": "{day} - {endDay}",
   "homeCalendarMonthWeek": "Semaine {week} de {month}",
   "homeCalendarSummerBreak": "Été",
-  "homeCalendarTopLabel": "{year} {term}",
   "homeCalendarTopLabelYearOnly": "{year}",
   "homeCalendarWinterBreak": "Hiver",
   "homeCalendarYearMonth": "{month} {year}",
@@ -349,12 +332,9 @@
   "homeGridModeCourse": "Grille du programme",
   "homeGridModeTime": "grille horaire",
   "homePeriodRange": "{start} - {end}",
-  "homeScopeMonth": "mois",
-  "homeScopeWeek": "semaine",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} h",
   "importedTimestr": "Importé {timeStr}",
-  "importSources": "Sources d'importation",
   "importViaEmbeddedWebLogin": "Importer via le web",
   "k1Hour": "1 heure",
   "k30Minutes": "30 minutes",
@@ -383,17 +363,13 @@
   "luotopiaAlreadyHaveAccount": "Déjà un compte ?",
   "luotopiaConfirmLogout": "Confirmer la déconnexion",
   "luotopiaConfirmPassword": "Confirmer le mot de passe",
-  "luotopiaCreateAccount": "Créer un compte Luotopia",
   "luotopiaEmailHint": "Pour la récupération du mot de passe",
-  "luotopiaEmailOptional": "E-mail (facultatif)",
-  "luotopiaLoggingIn": "Connexion…",
   "luotopiaLoginTitle": "Connexion à Luotopia",
   "luotopiaLogoutWarning": "Après déconnexion, reconnectez-vous pour le forum et d’autres fonctions.",
   "luotopiaNoAccountYet": "Pas de compte ?",
   "luotopiaNotLoggedIn": "Non connecté",
   "luotopiaPasswordHint": "Au moins 6 caractères",
   "luotopiaPasswordsDoNotMatch": "Les mots de passe ne correspondent pas",
-  "luotopiaPleaseFillFields": "Saisissez le nom d’utilisateur et le mot de passe",
   "luotopiaEmailRequired": "Saisissez une adresse e-mail",
   "luotopiaEmailInvalid": "Saisissez une adresse e-mail valide",
   "luotopiaPasswordRequired": "Saisissez un mot de passe",
@@ -402,13 +378,10 @@
   "luotopiaPasswordRequireLowercase": "Inclure une lettre minuscule",
   "luotopiaPasswordRequireUppercase": "Inclure une lettre majuscule",
   "luotopiaPasswordRequireSpecial": "Inclure un caractère spécial",
-  "luotopiaRegistering": "Inscription…",
-  "luotopiaRegisterTitle": "Inscription Luotopia",
   "luotopiaUsername": "Nom d’utilisateur",
   "luotopiaUsernameMinHint": "Au moins 3 caractères",
   "luotopiaUsernameTooShort": "Le nom d’utilisateur doit contenir au moins 3 caractères",
   "luotopiaWelcomeBack": "Bon retour",
-  "middleTab": "Onglet central",
   "minuteMin": "{minute} min",
   "navAi": "IA",
   "navCampus": "Campus",
@@ -431,11 +404,6 @@
   "scoreImportSpoilerSubtitle": "GPA seulement, souvent plus tôt que le système licence",
   "scoreImportSuccess": "Import réussi",
   "scoreImportTitle": "Import des notes",
-  "scorePageGradeRange60": "60-69 points",
-  "scorePageGradeRange70": "70-79 points",
-  "scorePageGradeRange80": "80-89 points",
-  "scorePageGradeRange90": "90-100 points",
-  "scorePageGradeRangeFail": "échoué",
   "scorePageRetry": "Réessayer",
   "scorePageTitle": "Notes",
   "seatReservationTitle": "Places",
@@ -508,7 +476,6 @@
   "settingsHomeItemOpacity": "Opacité des blocs",
   "settingsHomeSectionTitle": "Paramètres de la page d'accueil",
   "settingsHomeTimeGridSettings": "Paramètres du mode grille horaire",
-  "settingsHomeWideLayout": "Plage par défaut ultra large",
   "settingsLicenses": "Licences open source",
   "settingsMinutesValue": "{value} minutes",
   "settingsNavigationEntrySubtitle": "Onglets, ordre et libellés",
@@ -536,7 +503,6 @@
   "settingsTermsOfService": "Conditions d'utilisation",
   "settingsCrossBorderDataTransfer": "Avis de transfert transfrontalier de données",
   "settingsTheme": "Thème",
-  "settingsTitle": "paramètres",
   "settingsVersion": "Version",
   "settingsFriendLinksTitle": "Liens amis",
   "settingsFriendLinksSubtitle": "Partenaires, communauté et projets associés",
@@ -758,16 +724,6 @@
       }
     }
   },
-  "@homeCalendarTopLabel": {
-   "placeholders": {
-     "year": {
-       "type": "String"
-      },
-     "term": {
-       "type": "String"
-      }
-    }
-  },
   "@homeCalendarTopLabelYearOnly": {
    "placeholders": {
      "year": {
@@ -948,7 +904,6 @@
     }
   },
   "aiOpenDraftPage": "Ouvrir le brouillon",
-  "aiSending": "Envoi…",
   "aiSend": "Envoyer",
   "aiClearHistory": "Effacer l’historique",
   "aiRename": "Renommer",
@@ -1108,6 +1063,7 @@
   "hotUpdateStatusMissing": "Absent en local — tirez pour télécharger",
   "hotUpdateStatusEmbedded": "Version par défaut intégrée utilisée",
   "hotUpdateStatusCached": "Version distante mise en cache utilisée",
+  "hotUpdateStatusUnknown": "Script inconnu — mettez à jour l'app pour activer",
   "hotUpdateStatusTestFailed": "Dernière mise à jour : échec du test isolé",
   "hotUpdateStatusDownloadFailed": "Dernière mise à jour : échec du téléchargement",
   "hotUpdateStatusCommitFailed": "Dernière mise à jour : échec de validation",
@@ -1390,8 +1346,6 @@
   },
   "courseDetailGradesTab": "Notes",
   "courseDetailReviewsTab": "Avis",
-  "courseAuditTitle": "Audition de cours",
-  "courseAuditPlaceholder": "La fonction d’audition de cours est en cours de développement…",
   "gradesReviewsSearchFailMessage": "Échec de la recherche : {message}",
   "@gradesReviewsSearchFailMessage": {
    "placeholders": {
@@ -1482,7 +1436,6 @@
   "sportsReservationSelectVenueTimeHint": "Sélectionnez d’abord un lieu et un créneau disponibles.",
   "sportsReservationVenueTimeUnavailable": "Le lieu ou le créneau sélectionné n’est plus disponible. Resélectionnez.",
   "sportsReservationSessionExpired": "La session du système sportif a expiré.",
-  "sportsReservationAuthRequired": "Autorisez d’abord le système sportif.",
   "sportsReservationWhuLoginRequired": "Connectez-vous d’abord à l’authentification unifiée WHU.",
   "sportsFetchSportsTypes": "Récupérer les types de sport",
   "sportsFetchOftenVenues": "Récupérer les lieux fréquents",
@@ -1619,22 +1572,6 @@
     }
   },
   "scoreImportLastImport": "Dernière importation",
-  "scoreImportTime": "Heure : {time}",
-  "@scoreImportTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-      }
-    }
-  },
-  "scoreImportCount": "Nombre de notes : {count}",
-  "@scoreImportCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "scoreImportExample": "Exemple : {name} · {score} · {credit}",
   "@scoreImportExample": {
    "placeholders": {
@@ -1673,11 +1610,6 @@
     }
   },
   "itemDetailDateRangeTo": " au ",
-  "itemDetailSectionGrading": "Notation",
-  "itemDetailScoreOverall": "Note finale",
-  "itemDetailScoreContinuous": "Contrôle continu",
-  "itemDetailScoreFinal": "Examen final",
-  "itemDetailSectionDistribution": "Répartition des notes",
   "itemDetailSectionReviews": "Avis",
   "courseGradeStatsTeacherHint": "Choisissez un enseignant pour afficher les données de notes correspondantes.",
   "courseGradeStatsTeacherInputHint": "Recherchez un enseignant ou laissez vide pour tous les enseignants",
@@ -1685,7 +1617,6 @@
   "courseGradeStatsTeacherSearch": "Rechercher un enseignant",
   "courseGradeStatsAllTeachersPrepared": "Les données de tous les enseignants sont prêtes. Choisissez-en un pour voir ses notes.",
   "itemDetailCourseInsightsTitle": "Notes et avis réels sur le cours",
-  "itemDetailCourseInsightsDescription": "Consultez les statistiques de Luotopia, les données de notes de Ham et les avis des étudiants. Les cours de l’emploi du temps sont associés par leur nom.",
   "itemDetailCourseInsightsMatching": "Association de ce cours de l’emploi du temps...",
   "itemDetailCourseInsightsOpen": "Voir plus de notes et d’avis",
   "itemDetailCourseInsightsSearch": "Choisir le cours correspondant",
@@ -1698,10 +1629,6 @@
   "itemDetailCourseInsightsSamplesLabel": "Échantillons",
   "itemDetailCourseInsightsOpenReviews": "Voir plus d’avis",
   "itemDetailCourseInsightsNoReviews": "Aucun avis public pour le moment.",
-  "itemDetailMockReview1": "L’enseignant explique clairement, les supports sont soignés et la notation est juste. Les exercices en cours aident beaucoup.",
-  "itemDetailMockReview2": "Contenu dense, examen final exigeant. Charge de travail moyenne ; réviser tôt.",
-  "itemDetailMockReview3": "Vivement recommandé ! Ce cours clarifie la filière et les TP sont bien conçus.",
-  "itemDetailMockReviewer": "Étudiant anonyme",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} messages",
   "@aiMessageCount": {
@@ -1783,7 +1710,6 @@
   "weatherAqiGood": "Bon",
   "weatherAqiModerate": "Modéré",
   "weatherAqiPoor": "Médiocre",
-  "weatherBannerRainSoon": "Pluie imminente, n’oubliez pas le parapluie !",
   "weatherBannerRainImminent": "Pluie imminente — prenez un parapluie !",
   "weatherRainReminderTitle": "Alerte pluie",
   "weatherBannerRainInMinutes": "Pluie dans environ {minutes} min — prenez un parapluie.",
@@ -2079,11 +2005,6 @@
   "wallpaperTargetCampus": "Campus",
   "wallpaperTargetSettings": "Paramètres",
   "wallpaperTargetTaskList": "Liste de tâches",
-  "wallpaperTargetListMyDay": "Liste · Ma journée",
-  "wallpaperTargetListAllItems": "Liste · Tout",
-  "wallpaperTargetListTasks": "Liste · Tâches",
-  "wallpaperTargetListSchedules": "Liste · Planning",
-  "wallpaperTargetListMemos": "Liste · Mémos",
   "wallpaperTargetForum": "Forum",
   "wallpaperTargetAi": "IA",
   "libraryBorrowingPlaceholder": "Le prêt de livres est en cours de développement…",
@@ -2523,7 +2444,6 @@
   "authUsePasskey": "Utiliser une Passkey",
   "authResendCode": "Renvoyer le code",
   "authBackToPasswordLogin": "Retour à la connexion par mot de passe",
-  "authLoginRequired": "Connectez-vous d’abord",
   "commonConfirm": "Confirmer",
   "commonContinue": "Continuer",
   "commonCopy": "Copier",
@@ -2748,8 +2668,6 @@
   "authGenderFemale": "Femme",
   "authGenderNonBinary": "Non binaire",
   "authGenderPreferNotToSay": "Préfère ne pas répondre",
-  "authGenderOther": "Autre",
-  "authCustomGender": "Décrivez votre genre",
   "authBirthday": "Date de naissance",
   "authBio": "Biographie",
   "authProfileUpdateFailed": "Échec de la mise à jour du profil : {error}",
@@ -2796,8 +2714,6 @@
   "settingsDevCampusDiagnosticsSubtitle": "Suivi des sessions de boîte aux lettres et de messagerie, des requêtes et des analyseurs",
   "settingsDevLifecycleDiagnostics": "Diagnostic du cycle de vie de l’application",
   "settingsDevLifecycleDiagnosticsSubtitle": "Suivi des mises à jour à chaud, de l’actualisation de la localisation et du flux de contrôle du cycle de vie",
-  "courseGradeStatsSourceHam": "Source : Ham",
-  "courseGradeStatsSourceLuotopia": "Source : Luotopia",
   "courseGradeStatsSourceHint": "Choisissez la source des données",
   "courseGradeStatsSourceLuotopiaShort": "Luotopia",
   "courseGradeStatsSourceHamShort": "Ham",
@@ -2810,8 +2726,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "Envoyer une note anonyme",
-  "courseGradeStatsNoTeachers": "Aucun enseignant n’est disponible pour ce cours ; les notes ne peuvent pas être envoyées.",
   "courseGradeStatsPrivacyThreshold": "Au moins 5 échantillons sont nécessaires pour protéger la confidentialité.",
   "courseGradeStatsSamples": "{count} échantillon(s) anonyme(s)",
   "@courseGradeStatsSamples": {
@@ -2826,17 +2740,6 @@
   "courseGradeStatsUsualAverage": "Moyenne du contrôle continu",
   "courseGradeStatsExamAverage": "Moyenne d’examen",
   "courseGradeStatsDistribution": "Répartition des notes",
-  "courseGradeStatsFail": "Échec",
-  "courseGradeStatsTotalScore": "Note totale (0 - 100)",
-  "courseGradeStatsSubmitted": "Note anonyme envoyée.",
-  "courseGradeStatsSubmitFailed": "Échec de l’envoi de la note : {error}",
-  "@courseGradeStatsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "courseReviewsLoginRequired": "Connectez-vous pour consulter les avis anonymes sur les cours.",
   "courseReviewsSyncEligibility": "Synchroniser les cours terminés",
   "courseGradeStatsScore": "Note",
@@ -2845,11 +2748,6 @@
   "settingsPrivacyCourseDataDescription": "Vous pouvez utiliser les fonctionnalités universitaires locales avec seulement un compte WHU, sans vous inscrire à Luotopia. En vous connectant à Luotopia et en utilisant les notes ou les avis sur les cours, vous acceptez que les notes vérifiées puissent être désidentifiées pour produire des statistiques anonymes.",
   "settingsPrivacyCourseDataAggregationTitle": "Statistiques anonymes des notes",
   "settingsPrivacyCourseDataAggregationSubtitle": "Les répartitions et les moyennes ne sont affichées qu’après avoir atteint le nombre minimal d’échantillons. Les notes individuelles, les identités, les mots de passe WHU et les cookies universitaires ne sont pas publics.",
-  "scoreContributionAutoSyncTitle": "Synchroniser et contribuer automatiquement aux notes",
-  "scoreContributionAutoSyncDescription": "Après la récupération des notes de premier cycle, synchronisez l’éligibilité des cours terminés et contribuez les notes numériques exactes à l’agrégat anonyme de Luotopia.",
-  "scoreContributionLoginRequired": "Connectez-vous à Luotopia pour activer la contribution automatique des notes.",
-  "scoreContributionConsentTitle": "Autoriser la contribution automatique des notes",
-  "scoreContributionConsentMessage": "Après chaque récupération réussie des notes de premier cycle, Luotopia utilisera un ticket WHU CAS à usage unique pour vérifier votre relevé sur le serveur. Les cours terminés sont enregistrés de manière privée pour vérifier l’éligibilité, tandis que les notes numériques exactes associées à un cours et à un enseignant sont ajoutées à des agrégats anonymes. Votre mot de passe WHU et vos cookies universitaires ne sont jamais envoyés. Vous pouvez désactiver les futures synchronisations à tout moment.",
   "courseReviewsWrite": "Rédiger un avis anonyme",
   "courseReviewsAnonymousStudent": "Étudiant anonyme · {semester}",
   "@courseReviewsAnonymousStudent": {
@@ -2908,27 +2806,8 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "Échec du chargement des forums : {error}",
-  "@forumBoardsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
-  "forumPostsLoadFailed": "Échec du chargement des publications : {error}",
   "forumAttachmentAdd": "Ajouter une pièce jointe",
   "forumImageAdd": "Ajouter une image",
-  "forumSupportedImageFormats": "Formats d'image pris en charge",
-  "forumSupportedAttachmentFormats": "Formats de fichier pris en charge",
-  "forumAttachmentUploadFailed": "Échec de l’envoi de la pièce jointe : {error}",
-  "@forumPostsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumPostTitle": "Titre",
   "forumPostContent": "Contenu",
   "forumPublish": "Publier",
@@ -2942,43 +2821,13 @@
   },
   "forumEmpty": "Aucune publication pour le moment. Soyez le premier à publier.",
   "forumAnonymous": "Anonyme",
-  "forumPostMetadata": "{author} · {comments} réponse(s) · {upvotes} vote(s) positif(s)",
-  "@forumPostMetadata": {
-   "placeholders": {
-     "author": {
-       "type": "String"
-      },
-     "comments": {
-       "type": "int"
-      },
-     "upvotes": {
-       "type": "int"
-      }
-    }
-  },
   "forumPostDetails": "Détails de la publication",
   "forumReplies": "Réponses",
   "forumRepliesEmpty": "Aucune réponse pour le moment.",
   "forumReply": "Répondre",
-  "forumRepliesLoadFailed": "Échec du chargement des réponses : {error}",
-  "@forumRepliesLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumReplyPost": "Répondre à la publication",
   "forumReplyHint": "Soyez courtois et ne partagez pas d’informations personnelles.",
   "forumSend": "Envoyer",
-  "forumReplyFailed": "Échec de l’envoi de la réponse : {error}",
-  "@forumReplyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "authPasswordResetEmail": "E-mail",
   "authPasswordResetSendFailed": "Échec de l’envoi : {error}",
   "@authPasswordResetSendFailed": {
@@ -3047,7 +2896,6 @@
   "forumDislike": "Je n’aime pas",
   "forumSave": "Enregistrer",
   "forumEdit": "Modifier",
-  "forumDownload": "Télécharger",
   "forumReport": "Signaler",
   "forumReportReason": "Motif",
   "forumReportSubmitted": "Signalement envoyé.",
@@ -3068,14 +2916,6 @@
        "type": "int"
       },
      "karma": {
-       "type": "int"
-      }
-    }
-  },
-  "forumKarmaLevelOnly": "Lv{level}",
-  "@forumKarmaLevelOnly": {
-   "placeholders": {
-     "level": {
        "type": "int"
       }
     }
@@ -3158,7 +2998,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
   "forumModerationFlavorPending": "Pending review",
   "forumKarmaLedgerTitle": "Ledger",
   "forumKarmaLedgerContentUp": "Received upvote",
@@ -3218,14 +3057,6 @@
   "forumAdminLogActionDelete": "Delete post",
   "forumAdminLogActionRestore": "Restore post",
   "forumAdminLogActionApprove": "Approve post",
-  "forumReportFailed": "Échec de l’envoi du signalement : {error}",
-  "@forumReportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumNotificationsTitle": "Notifications du forum",
   "forumNotificationsEmpty": "Vous n’avez aucune notification du forum.",
   "forumNotificationsMarkAllRead": "Tout marquer comme lu",
@@ -3600,7 +3431,6 @@
   "forumModerationAppeals": "Contestations",
   "settingsBuildInfoArchitecture": "Architecture",
   "settingsBuildInfoBuildTime": "Heure de build",
-  "luotopiaRegisterVerifyEmail": "Inscription réussie. Vérifiez votre e-mail avant de vous connecter.",
   "courseImportSemesterAlreadyAdded": "Ce semestre est déjà ajouté. Choisissez « Mettre à jour l’emploi du temps » dans le menu.",
   "waterControlClassNo": "Numéro de classe {classNo}",
   "forumImageFiles": "Images du forum",
@@ -3769,8 +3599,6 @@
   "campusBusArrivalDisabled": "Rappel désactivé",
   "campusBusArrivalTarget": "Cible du rappel",
   "campusBusArrivalAutoDisableHint": "Désactivé automatiquement après l'arrivée du bus",
-  "medicalCardSearchTitle": "Recherche de carte patient",
-  "medicalCardSearchDescription": "Recherchez votre carte patient pour consulter les dossiers",
   "medicalPatientName": "Nom du patient",
   "medicalRequiredField": "Ce champ est obligatoire",
   "medicalIdType": "Type de pièce d'identité",
@@ -3784,15 +3612,6 @@
   "medicalIdPassport": "Passeport",
   "medicalIdMainlandTravelPermit": "Permis de voyage",
   "medicalIdOther": "Autre",
-  "medicalGreeting": "Bonjour, {name}",
-  "@medicalGreeting": {
-   "placeholders": {
-     "name": {
-       "type": "String"
-      }
-    }
-  },
-  "medicalHospitalName": "Hôpital universitaire de Wuhan",
   "medicalSessionExpired": "Session expirée, veuillez vous reconnecter",
   "medicalSearchFailed": "Échec de la recherche, veuillez réessayer",
   "medicalSearchComplete": "Recherche terminée",
@@ -3804,7 +3623,6 @@
   "medicalPaidInvoices": "Factures payées",
   "medicalPatientCards": "Cartes patient",
   "medicalQueue": "État de la file d'attente",
-  "medicalInpatient": "Hospitalisation",
   "medicalInpatientDeposit": "Acompte d'hospitalisation",
   "medicalInpatientDailyList": "Relevé journalier d'hospitalisation",
   "medicalInvoiceDetail": "Détail de la facture",
@@ -3832,39 +3650,27 @@
   "medicalLabAxisToggle": "Axe des résultats",
   "medicalCardQueryTitle": "Cartes patient",
   "medicalCardQueryEmpty": "Vous n’avez aucune carte patient associée",
-  "medicalCardQueryEmptyHint": "Appuyez sur le bouton de création en haut à droite pour créer une nouvelle carte, ou utilisez la recherche ci-dessous pour associer une carte existante",
   "medicalCardAddTitle": "Ajouter une carte patient",
   "medicalCardSearchBind": "Rechercher et associer une carte existante",
   "medicalCardSearchBindDesc": "Saisissez vos informations pour rechercher et associer une carte patient existante",
   "medicalCardCreateNew": "Créer une nouvelle carte",
   "medicalCardCreateNewDesc": "Créer une toute nouvelle carte patient",
-  "medicalCreateCard": "Créer la carte",
   "medicalBindCard": "Associer",
-  "medicalBindCardTitle": "Associer une carte patient",
   "medicalSendCode": "Envoyer le code",
   "medicalResendCode": "Renvoyer",
   "medicalCodeResent": "Code de vérification envoyé",
   "medicalResendCountdown": "Renvoyer dans {seconds} s",
   "medicalAuthCode": "Code d’authentification",
-  "medicalAuthCodeHint": "Saisissez le code de vérification reçu par SMS",
   "medicalCity": "Ville",
-  "medicalCityHint": "Sélectionnez une ville",
   "medicalAddress": "Adresse",
-  "medicalAddressHint": "Saisissez l’adresse complète",
   "medicalBindSuccess": "Association réussie",
-  "medicalBindFailed": "Échec de l’association",
   "medicalCreateSuccess": "Création réussie",
   "medicalCreateFailed": "Échec de la création",
-  "medicalSetDefault": "Définir par défaut",
   "medicalSetDefaultSuccess": "Carte définie par défaut",
-  "medicalSetDefaultFailed": "Échec de la définition de la carte par défaut",
   "medicalCardDetail": "Détails de la carte",
   "medicalInvoiceTotal": "Total",
-  "medicalInvoiceQuantity": "Qté {value}",
-  "medicalInvoicePackageCount": "{value} boîtes",
   "medicalInvoiceTotalQuantity": "Total {value}",
   "medicalInvoiceSpecification": "Spécification : {value}",
-  "medicalInvoiceUnitPrice": "Prix unitaire : {value}",
   "medicalCardRealName": "Nom complet",
   "medicalCardIdNumber": "Numéro d’identification",
   "medicalCardPhoneNumber": "Numéro de téléphone",
@@ -3880,31 +3686,12 @@
   "medicalCardSwitchPatient": "Changer de patient",
   "medicalCardSwitchPatientDesc": "Passer à {name} ({card}) ?",
   "medicalSelectCard": "Sélectionner une carte",
-  "medicalCardType": "Type de carte",
-  "medicalSearchCardHint": "Rechercher une carte existante à associer",
   "medicalConfirmBind": "Confirmer l’association",
   "medicalConfirmCreate": "Confirmer la création",
-  "medicalCardBound": "Cette carte est déjà associée",
   "medicalMaskedPhone": "Le code de vérification sera envoyé au {phone}",
-  "medicalCardQuerySearchSection": "Rechercher une carte",
-  "medicalCardQuerySearchDescription": "Saisissez vos informations pour rechercher et associer une carte patient existante",
   "@medicalResendCountdown": {
    "placeholders": {
      "seconds": {
-       "type": "int"
-      }
-    }
-  },
-  "@medicalInvoiceQuantity": {
-   "placeholders": {
-     "value": {
-       "type": "String"
-      }
-    }
-  },
-  "@medicalInvoicePackageCount": {
-   "placeholders": {
-     "value": {
        "type": "int"
       }
     }
@@ -3917,13 +3704,6 @@
     }
   },
   "@medicalInvoiceSpecification": {
-   "placeholders": {
-     "value": {
-       "type": "String"
-      }
-    }
-  },
-  "@medicalInvoiceUnitPrice": {
    "placeholders": {
      "value": {
        "type": "String"
@@ -3953,7 +3733,6 @@
   "campusBusArrivalUseNearestToggle": "Utiliser l'arrêt le plus proche de cette ligne",
   "campusBusRouteViewHorizontal": "Vue horizontale de l'itinéraire",
   "authErrorInvalidCredentials": "Incorrect email or password.",
-  "authErrorEmailNotAllowed": "Use a WHU email address (@whu.edu.cn or @alumni.whu.edu.cn).",
   "authErrorEmailExists": "Cette adresse e-mail est déjà enregistrée. Connectez-vous ou réinitialisez votre mot de passe.",
   "authErrorEmailUnverified": "Vérifiez votre adresse e-mail avant de vous connecter.",
   "authErrorUserDisabled": "Ce compte a été désactivé.",
@@ -3962,7 +3741,6 @@
   "authErrorWhuAlreadyBound": "Ce compte WHU est déjà lié à un autre compte Luotopia.",
   "authErrorVerificationFailed": "La vérification a échoué ou a expiré. Veuillez réessayer.",
   "authErrorRateLimited": "Trop de demandes. Veuillez réessayer plus tard.",
-  "authErrorRequestFailed": "La demande a échoué. Veuillez réessayer.",
   "apiErrorUnauthorized": "Authentification requise.",
   "apiErrorInvalidToken": "La session a expiré. Veuillez vous reconnecter.",
   "apiErrorTokenExpired": "La session a expiré. Veuillez vous reconnecter.",
@@ -4017,13 +3795,8 @@
   "luotopiaRegisterStepProfileSubtitle": "Choose a display name and the email for your Luotopia account.",
   "luotopiaRegisterEmailVerifiedHint": "This email was verified on your WHU account and filled in automatically. You can still change it.",
   "luotopiaRegisterEmailUnverifiedHint": "If this is your WHU email, verify it on the WHU account page first so we can fill it in for you.",
-  "luotopiaRegisterGoVerifyEmail": "Verify on WHU account",
   "luotopiaRegisterStepPasswordTitle": "Set password",
   "luotopiaRegisterStepPasswordSubtitle": "Use at least 10 characters. You will need this password to sign in.",
-  "luotopiaLoginIdentifierLabel": "E-mail, nom d’utilisateur ou numéro étudiant WHU",
-  "luotopiaLoginIdentifierHint": "Utilisez n’importe quel identifiant associé à ce compte",
-  "luotopiaLoginIdentifierRequired": "Saisissez un e-mail, un nom d’utilisateur ou un numéro étudiant WHU",
-  "scoreImportCountLabel": "Nombre de notes",
   "campusAppMajorInfo": "Informations sur l'établissement et la filière",
   "majorInfoTitle": "Informations sur l'établissement et la filière",
   "majorInfoDescription": "Parcourez les divisions académiques, les facultés, les filières, les programmes d'enseignement et les données sur l'emploi.",
@@ -4048,7 +3821,6 @@
   "majorInfoTrainingPlan": "Programme de formation de la faculté",
   "majorInfoOpenTrainingPlan": "Ouvrir l'aperçu du programme de formation",
   "majorInfoTrainingPlanSubtitle": "Ouvre l'aperçu officiel du document Chaoxing",
-  "majorInfoTrainingPlanLoading": "Chargement du programme de formation…",
   "majorInfoTrainingPlanUnavailable": "L'aperçu du programme de formation n'est pas disponible.",
   "scoreImportParsedCountLabel": "Notes récupérées",
   "scoreImportMergedCountLabel": "Notes fusionnées",
@@ -4263,42 +4035,6 @@
   "adminSystemQueues": "Files système",
   "luotopiaAccountViewLargeAvatar": "Voir l'avatar en grand",
   "luotopiaAccountChangeAvatar": "Changer l'avatar",
-  "luotopiaRegisterDebugCode": "Code de vérification de débogage",
-  "schoolNetCheckpointRecorded": "Point de contrôle d'analyse enregistré",
-  "schoolNetCheckpointTooltip": "Enregistrer le point de contrôle du code d'eau",
-  "schoolNetCheckpointDevicesLoaded": "{count} appareils en ligne chargés",
-  "@schoolNetCheckpointDevicesLoaded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
-  "schoolNetCheckpointBeforeSeamlessAuthCancel": "Avant l'annulation de l'authentification transparente",
-  "schoolNetCheckpointAfterSeamlessAuthCancel": "Après l'annulation de l'authentification transparente",
-  "schoolNetCheckpointBeforeDeviceDisconnect": "Avant la déconnexion de l'appareil",
-  "schoolNetCheckpointAfterDeviceDisconnect": "Après la déconnexion de l'appareil",
-  "schoolNetAuthEmptyCredentials": "Le nom d'utilisateur ou le mot de passe ne puede être vide",
-  "schoolNetAuthPortalNotDetected": "Page de connexion réseau du campus non détectée",
-  "schoolNetAuthServiceUnavailable": "Service réseau du campus indisponible",
-  "schoolNetAuthRejected": "Connexion au réseau du campus refusée",
-  "schoolNetAuthSubmittedNotOnline": "Identifiants soumis mais l'appareil n'est pas en ligne",
-  "schoolNetAuthTimeout": "Délai de connexion réseau du campus dépassé",
-  "schoolNetAuthConnectionFailed": "Échec de la connexion au réseau du campus",
-  "whuCasCodeSendFailed": "Échec de l'envoi du code de vérification",
-  "whuCasFormErrorFallback": "Erreur de soumission du formulaire CAS",
-  "aiModelFormatUnsupported": "Format de modèle IA non pris en charge",
-  "aiModelRequestCancelled": "Demande IA annulée",
-  "aiModelHttpError": "Erreur HTTP IA ({statusCode})",
-  "@aiModelHttpError": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
-      }
-    }
-  },
-  "aiModelDuplicateToolCallId": "ID d'appel d'outil en double",
-  "aiModelEmptyResponse": "L'IA a renvoyé une réponse vide",
   "aiToolStatusRunning": "Exécution de l'outil...",
   "aiToolStatusWaiting": "En attente de l'utilisateur...",
   "aiToolStatusCompleted": "Outil terminé",
@@ -4306,10 +4042,6 @@
   "aiToolUnknown": "Outil inconnu",
   "aiRequestCancelled": "Demande annulée.",
   "majorInfoLegendOver10": "Plus de 10%",
-  "majorInfoLegend5To10": "5%-10%",
-  "majorInfoLegend1To5": "1%-5%",
-  "majorInfoLegend0To1": "0-1%",
-  "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "Semaines {range}",
   "@courseWeekRangeAll": {
    "placeholders": {
@@ -4334,21 +4066,8 @@
       }
     }
   },
-  "sportsAreaLabel": "Terrain {no}",
-  "@sportsAreaLabel": {
-   "placeholders": {
-     "no": {
-       "type": "Object"
-      }
-    }
-  },
-  "courseUnnamed": "Cours sans nom",
-  "courseTimetableWakeupDefaultName": "Emploi du temps WakeUp",
-  "courseTimetableShiguangDefaultName": "Emploi du temps Shiguang",
-  "courseTimetableXinglianDefaultName": "Emploi du temps Xinglian",
   "courseTimetableLocalFileDefaultName": "Emploi du temps local",
   "studyStatusOutOfPlanSectionTitle": "Cours hors programme",
-  "schoolNetDefaultDeviceName": "Mon appareil",
   "forumFreeUpvote": "Vote positif gratuit",
   "forumFreeDownvote": "Vote négatif gratuit",
   "whuAuthSmsSendFailed": "Échec de l'envoi du code. Veuillez vérifier votre numéro et réessayer.",
@@ -4527,10 +4246,8 @@
   "toolkitVerifyConfirmRecordTitle": "Générer la carte d'enregistrement de test",
   "toolkitVerifyConfirmRecordMessage": "{id} contient des opérations d'écriture. Veuillez confirmer l'enregistrement de test.",
   "toolkitVerifyConfirmRecordConfirm": "Générer l'enregistrement",
-  "toolkitVerifyNotifWriteTitle": "Notification d'écriture de test",
   "toolkitVerifyNotifAgendaTitle": "Notification de rappel d'agenda de test",
   "toolkitVerifyNotifAgendaUpdated": "Agenda de test mis à jour",
-  "toolkitVerifyNotifReminder": "Rappel d'agenda de test envoyé",
   "toolkitVerifyAuthPrerequisite": "Prérequis d'authentification",
   "toolkitVerifyWhuCas": "Authentification CAS WHU",
   "toolkitVerifyAuthenticated": "Authentifié · {subject}",
@@ -4558,7 +4275,6 @@
   "waterElectricRoom": "Chambre",
   "waterElectricSaveAndQuery": "Enregistrer et interroger",
   "waterElectricDirectoryLoadFailed": "Le répertoire de la salle n'a pas pu être chargé.",
-  "waterElectricChooseFirst": "Sélectionnez d’abord une chambre pour l’eau et l’électricité",
   "waterElectricChooseFirstDescription": "Vous pouvez le modifier à tout moment. Cela ne modifie pas les données sur le portail de l'école.",
   "waterElectricChooseRoom": "Sélectionner une chambre",
   "waterElectricRefresh": "Actualiser",
@@ -4648,90 +4364,106 @@
   "whuEmailParserLabel": "Analyseur de réponses e-mail de WHU",
   "whuMessagesMarkReadFailed": "Échec du marquage comme lu",
   "whuMessagesRequestFailed": "Échec de la demande",
-  "whuScoreExamTypeNormal": "Examen normal",
-  "whuScoreMidtermWithdraw": "Désistement à mi-parcours",
   "whuLibraryResultUnknown": "Résultat inconnu de l’opération de la bibliothèque. Veuillez actualiser l’état avant de décider s’il faut réessayer.",
   "sportsAuthFailedCasRequired": "Échec de l’autorisation du système d’installations sportives. Veuillez vous reconnecter via WHU CAS.",
   "waterControlAccountExchangeFailed": "Échec de l’échange de compte d’eau.",
-  "courseTimetableLocalFileDefaultName": "Emploi du temps local"
-,  "aiAssistantDefault": "Par défaut",
-  "aiAssistantDeleteConfirm": "Supprimer cet assistant ?",
-  "aiAssistantEmpty": "Aucun assistant pour l'instant",
-  "aiAssistantManage": "Gérer les assistants",
-  "aiAssistantName": "Nom",
-  "aiAssistantNew": "Nouvel assistant",
-  "aiAssistantSystemPrompt": "Prompt système",
-  "aiAssistantUseGlobal": "Utiliser l'assistant global",
-  "aiClose": "Fermer",
-  "aiCodeCollapse": "Réduire",
-  "aiCodeCopied": "Copié",
-  "aiCodeExpand": "Développer",
-  "aiCodeToggleLineNumbers": "Afficher les numéros de ligne",
-  "aiCompress": "Compresser",
-  "aiCompressContext": "Compresser le contexte",
-  "aiDeleteSessionConfirm": "Supprimer cette session ?",
-  "aiEditingMessage": "Modification du message...",
-  "aiExport": "Exporter",
-  "aiForkFromHere": "Fork à partir d'ici",
-  "aiMcp": "MCP",
-  "aiMcpAddServer": "Ajouter un serveur",
-  "aiMcpEmpty": "Aucun serveur MCP configuré",
-  "aiPin": "Épingler",
-  "aiPinned": "Épinglé",
-  "aiProviderBuiltin": "Intégré",
-  "aiSearchNoResults": "Aucune session correspondante",
-  "aiSearchSessions": "Rechercher des sessions",
-  "aiShare": "Partager",
-  "aiSkills": "Compétences",
-  "aiSkillsEmpty": "Aucune compétence disponible",
-  "aiToday": "Aujourd'hui",
-  "aiUnpin": "Détacher",
-  "aiYesterday": "Hier",
-  "settingsAiMaxTokens": "Tokens max",
+  "courseTimetableLocalFileDefaultName": "Emploi du temps local",
+  "aiImageGeneration": "Générer une image",
+  "aiImageGenerationHint": "Décrivez l’image que vous souhaitez créer",
+  "aiImageGenerationEmpty": "Vos images générées apparaîtront ici.",
+  "aiImageGenerationSize": "Taille",
+  "aiImageGenerationCount": "Images",
+  "aiImageGenerationReference": "Image de référence",
+  "aiImageGenerationDelete": "Supprimer",
+  "aiImageGenerationSave": "Enregistrer l’image",
+  "aiImageGenerationShare": "Partager l’image",
+  "settingsAiCapabilityImageGeneration": "Génération d’images",
   "settingsAiModelParamsTitle": "Paramètres du modèle",
-  "settingsAiParamDefault": "Par défaut",
+  "settingsAiModelCapabilities": "Capacités du modèle",
+  "settingsAiCapabilityVision": "Images",
+  "settingsAiCapabilityDocument": "Documents",
+  "settingsAiCapabilityAudio": "Audio",
+  "settingsAiCapabilityVideo": "Vidéo",
   "settingsAiTemperature": "Température",
   "settingsAiTopP": "Top P",
-  "aiCodeShowMoreLines": "{count, plural, one{Afficher 1 ligne de plus} other{Afficher {count} lignes de plus}}",
-  "@aiCodeShowMoreLines": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressKeepRecent": "{count, plural, one{conserver 1 récent} other{conserver {count} récents}}",
-  "@aiCompressKeepRecent": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiMcpEnabled": "{count, plural, one{1 serveur} other{{count} serveurs}}",
-  "@aiMcpEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiSkillsEnabled": "{count, plural, one{1 compétence} other{{count} compétences}}",
-  "@aiSkillsEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressContextDescription": "Compresser {messageCount} messages en un contexte plus court pour économiser des tokens.",
-  "@aiCompressContextDescription": {
-   "placeholders": {
-    "messageCount": {
-     "type": "int"
-    }
-   }
-  }
-,  "aiMcpImport": "Importer",
-  "aiMcpImportJson": "Importer depuis JSON"
+  "settingsAiMaxTokens": "Nombre maximal de tokens",
+  "settingsAiParamDefault": "Valeur par défaut du fournisseur",
+  "aiSearchSessions": "Rechercher des conversations",
+  "aiSearchNoResults": "Aucune conversation correspondante",
+  "aiPinned": "Épinglées",
+  "aiToday": "Aujourd’hui",
+  "aiYesterday": "Hier",
+  "aiPin": "Épingler",
+  "aiUnpin": "Désépingler",
+  "aiDeleteSessionConfirm": "Supprimer cette conversation ?",
+  "aiAssistantDefault": "Par défaut",
+  "aiAssistantManage": "Gérer les assistants",
+  "aiAssistantNew": "Nouvel assistant",
+  "aiAssistantName": "Nom de l’assistant",
+  "aiAssistantSystemPrompt": "Prompt système",
+  "aiAssistantEmpty": "Aucun assistant créé",
+  "aiAssistantUseGlobal": "Utiliser les paramètres globaux",
+  "aiAssistantDeleteConfirm": "Supprimer cet assistant ?",
+  "aiClose": "Fermer",
+  "aiExport": "Exporter",
+  "aiShare": "Partager",
+  "aiCompressContext": "Compresser le contexte",
+  "aiCompressContextDescription": "Supprimez les anciens messages pour réduire l’utilisation de tokens. La conversation contient {count} messages.",
+  "aiCompressKeepRecent": "Conserver les {count} messages récents",
+  "aiCompress": "Compresser",
+  "aiMcpImportJson": "Importer un JSON",
+  "aiMcpImport": "Importer",
+  "aiEditingMessage": "Modification du message",
+  "aiForkFromHere": "Nouvelle conversation à partir d’ici",
+  "aiSkills": "Compétences",
+  "aiSkillsEmpty": "Aucune compétence installée",
+  "aiSkillsManage": "Gérer les compétences",
+  "aiSkillNew": "Nouvelle compétence",
+  "aiSkillName": "Nom de la compétence",
+  "aiSkillNameHint": "nom-en-minuscules",
+  "aiSkillDescription": "Description",
+  "aiSkillInstructions": "Instructions",
+  "aiTranslate": "Traduire",
+  "aiTranslateTo": "Traduire vers",
+  "aiAddFavorite": "Ajouter aux favoris",
+  "aiRemoveFavorite": "Retirer des favoris",
+  "aiAddAttachment": "Ajouter une pièce jointe",
+  "aiPickImages": "Choisir des images",
+  "aiTakePhoto": "Prendre une photo",
+  "aiPickFiles": "Choisir des fichiers",
+  "aiAttachmentUnsupported": "Ce modèle ne prend pas en charge le type de pièce jointe sélectionné.",
+  "aiSpeak": "Lire à voix haute",
+  "aiVoiceInput": "Saisie vocale",
+  "aiSkillsEnabled": "{count} compétences activées",
+  "aiMcp": "MCP",
+  "aiMcpEmpty": "Aucun serveur MCP configuré",
+  "aiMcpEnabled": "{count} serveurs MCP connectés",
+  "aiMcpAddServer": "Ajouter un serveur",
+  "aiMcpServerName": "Nom du serveur",
+  "aiMcpServerUrl": "URL du serveur",
+  "aiMcpTransportType": "Transport",
+  "aiMcpTransportSse": "SSE",
+  "aiMcpTransportStreamableHttp": "HTTP avec streaming",
+  "aiCodeCopied": "Copié",
+  "aiCodeExpand": "Développer",
+  "aiCodeCollapse": "Réduire",
+  "aiCodeToggleLineNumbers": "Afficher ou masquer les numéros de ligne",
+  "aiCodeShowMoreLines": "Afficher {count} lignes supplémentaires",
+  "onboardingPermissionMicrophoneTitle": "Microphone",
+  "onboardingPermissionMicrophoneDescription": "Utilisé pour la saisie vocale dans les conversations IA (conversion parole-texte).",
+  "hotUpdateEditScript": "Modifier le script",
+  "hotUpdateSaveScript": "Enregistrer",
+  "hotUpdateResetScript": "Rétablir la version distante ou par défaut",
+  "hotUpdateTestFailed": "Échec du test en environnement isolé : script non enregistré",
+  "hotUpdateSaveSuccess": "Script enregistré et testé avec succès",
+  "hotUpdateUserEdited": "Modifié localement (mises à jour suspendues)",
+  "hotUpdateResetConfirm": "Ignorer vos modifications et restaurer le script distant ou par défaut ?",
+  "settingsAiWorkspaceExportTitle": "Exporter les données de l’Agent",
+  "settingsAiWorkspaceExportSubtitle": "Regroupez vos notes, brouillons et paramètres dans un fichier JSON sous notes/. Le paquet exclut les fichiers de sessions de chat et les octets protégés des résultats d’outils.",
+  "settingsAiWorkspaceExportConfirmTitle": "Exporter les données de l’Agent ?",
+  "settingsAiWorkspaceExportConfirmMessage": "Le paquet sera écrit dans votre espace de travail et contiendra vos notes, brouillons et paramètres actuels. Il n’inclut ni les fichiers de sessions de chat ni les octets des résultats d’outils. L’exportation ne supprime ni ne modifie les données locales.",
+  "settingsAiWorkspaceExportConfirmAction": "Exporter le paquet",
+  "settingsAiWorkspaceExported": "{count} fichiers exportés vers {path}.",
+  "settingsAiWorkspaceExportFailed": "Échec de l’exportation de l’espace de travail de l’Agent : {error}",
+  "aiSpeechTitle": "Synthèse vocale IA", "aiSpeechRecognitionService": "Service de reconnaissance vocale", "aiSpeechSpeechToText": "speech_to_text (système)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Transcription hors ligne avec Whisper", "aiSpeechWhisperModel": "Modèle Whisper", "aiDownload": "Télécharger", "aiSpeechEngine": "Moteur vocal", "aiSpeechEdge": "Voix en ligne Edge", "aiSpeechSttsVoice": "Voix système stts", "aiSpeechVoiceLoadFailed": "Impossible de charger les voix en ligne ; la voix actuelle sera utilisée.", "aiSpeechVoice": "Voix", "aiSpeechRate": "Vitesse", "aiSpeechPitch": "Tonalité", "aiSpeechVolume": "Volume", "aiSpeechPreviewText": "Bonjour. Voici la voix IA sélectionnée.", "aiSpeechPreview": "Prévisualiser la voix actuelle", "aiMcpImportFailed": "Impossible d’importer la configuration du serveur MCP"
 }

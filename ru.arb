@@ -17,9 +17,6 @@
   "settingsDevThemeLabTitle": "Лаборатория тем",
   "settingsDevThemeLabSubtitle": "Предпросмотр основных компонентов в светлой и тёмной темах.",
   "whuNativeLoginRememberMobile": "Запомнить номер телефона",
-  "whuLoginImplementationTitle": "Вход через встроенную форму",
-  "whuLoginImplementationNative": "Включено: используется встроенная форма, а WebView открывается только при запросе капчи",
-  "whuLoginImplementationWebView": "Выключено: весь процесс входа выполняется в WHU WebView",
   "whuNativeLoginTitle": "Вход в WHU",
   "whuNativeLoginHeading": "Вход через единую систему аутентификации WHU",
   "whuNativeLoginPrivacy": "Ваши учётные данные передаются с этого устройства напрямую в WHU и не загружаются на серверы Luotopia.",
@@ -94,7 +91,6 @@
   "schoolNetDisconnectDeviceMessage": "Текущее подключение {device} будет немедленно разорвано.",
   "schoolNetDisconnectDeviceSuccess": "Устройство отключено",
   "schoolNetPaymentTitle": "Пополнить оплату сети",
-  "schoolNetPaymentDescription": "Оплатите через кассу WHU, зачисление будет проверено автоматически.",
   "schoolNetPayBalance": "Баланс сети",
   "schoolNetPayAccount": "Учётная запись",
   "schoolNetPayName": "Имя",
@@ -109,17 +105,12 @@
   "schoolNetPayConfirmTitle": "Создать заказ?",
   "schoolNetPayConfirmMessage": "Будет создан заказ на ¥{amount}. Не отправляйте его повторно.",
   "schoolNetPayConfirmAction": "Перейти к оплате",
-  "schoolNetPayWaitingTitle": "Завершите оплату в платёжном приложении",
-  "schoolNetPayWaitingMessage": "Вернитесь сюда после оплаты. Зачисление будет проверено автоматически.",
   "schoolNetPayCheckingTitle": "Проверка платежа",
   "schoolNetPayCheckingMessage": "Подтверждаем результат в системе университета. Не оплачивайте повторно.",
   "schoolNetPaySuccessTitle": "Средства зачислены",
-  "schoolNetPaySuccessMessage": "Оплата сети успешно зачислена.",
   "schoolNetPaySuccessAmount": "Платёж ¥{amount} успешно зачислен.",
   "schoolNetPayPendingTitle": "Платёж не подтверждён",
   "schoolNetPayPendingMessage": "Если вы уже оплатили, подождите и проверьте снова. Не создавайте новый заказ.",
-  "schoolNetPayCheckFailedTitle": "Не удалось проверить платёж",
-  "schoolNetPayCheckFailedMessage": "Результат заказа недоступен. Этот заказ можно безопасно проверить снова.",
   "schoolNetPayCheckAgain": "Проверить снова",
   "campusAppEmptyClassroom": "Своб. аудитории",
   "campusAppFileSharing": "Файлы",
@@ -131,7 +122,6 @@
   "campusTitle": "кампус",
   "cancel": "Отмена",
   "changeColorVariantGenerationAlgorithm": "Изменить алгоритм генерации цветовых вариантов",
-  "chooseBetweenForumOrAi": "Форум или AI-помощник отображаются в центре панели навигации (форум по умолчанию).",
   "chooseDuration": "Выберите продолжительность",
   "colorsAppearance": "Цвет и внешний вид",
   "commonBack": "Возврат",
@@ -163,10 +153,6 @@
   "detailMissing": "Этот элемент не найден. Возможно, оно было удалено.",
   "detailTitle": "Подробности дела",
   "done": "Готово",
-  "dynamicColorMonet": "Динамический цвет",
-  "dynamicColorSourceAccent": "Использовать системный акцентный цвет",
-  "dynamicColorSourceGtk": "Использовать цвет темы GTK",
-  "dynamicColorSourceWallpaper": "Извлекать из системных обоев",
   "themeColorSource": "Источник цветов",
   "themeColorSourceSystemScheme": "Системные динамические цвета",
   "themeColorSourceSystemSchemeDescription": "Использовать полную цветовую схему, предоставленную системой.",
@@ -280,8 +266,6 @@
   "editorRepeatDaily": "каждый день",
   "editorRepeatMonthly": "ежемесячно",
   "editorRepeatNone": "Не повторяется",
-  "editorRepeatPagePlaceholder": "Правила сложного повторения будут расширяться позже.",
-  "editorRepeatPageTitle": "Повторить настройки",
   "editorRepeatWeekdays": "рабочие дни",
   "editorRepeatWeekly": "еженедельно",
   "editorRepeatYearly": "каждый год",
@@ -337,7 +321,6 @@
   "homeCalendarMonthDayRange": "{day} - {endDay}",
   "homeCalendarMonthWeek": "Неделя {week} ({month})",
   "homeCalendarSummerBreak": "Лето",
-  "homeCalendarTopLabel": "{year} {term}",
   "homeCalendarTopLabelYearOnly": "{year}",
   "homeCalendarWinterBreak": "Зима",
   "homeCalendarYearMonth": "{month} {year}",
@@ -349,12 +332,9 @@
   "homeGridModeCourse": "Сетка учебной программы",
   "homeGridModeTime": "временная сетка",
   "homePeriodRange": "{start} - {end}",
-  "homeScopeMonth": "месяц",
-  "homeScopeWeek": "неделя",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} ч",
   "importedTimestr": "Импортировано {timeStr}",
-  "importSources": "Источники импорта",
   "importViaEmbeddedWebLogin": "Импорт через веб-вход",
   "k1Hour": "1 час",
   "k30Minutes": "30 минут",
@@ -383,17 +363,13 @@
   "luotopiaAlreadyHaveAccount": "Уже есть аккаунт?",
   "luotopiaConfirmLogout": "Подтвердить выход",
   "luotopiaConfirmPassword": "Подтвердите пароль",
-  "luotopiaCreateAccount": "Создать аккаунт Luotopia",
   "luotopiaEmailHint": "Для восстановления пароля",
-  "luotopiaEmailOptional": "Эл. почта (необяз.)",
-  "luotopiaLoggingIn": "Вход…",
   "luotopiaLoginTitle": "Вход в Luotopia",
   "luotopiaLogoutWarning": "После выхода потребуется снова войти для форума и других функций.",
   "luotopiaNoAccountYet": "Нет аккаунта?",
   "luotopiaNotLoggedIn": "Не выполнен вход",
   "luotopiaPasswordHint": "Не менее 6 символов",
   "luotopiaPasswordsDoNotMatch": "Пароли не совпадают",
-  "luotopiaPleaseFillFields": "Введите имя пользователя и пароль",
   "luotopiaEmailRequired": "Введите адрес электронной почты",
   "luotopiaEmailInvalid": "Введите корректный адрес электронной почты",
   "luotopiaPasswordRequired": "Введите пароль",
@@ -402,13 +378,10 @@
   "luotopiaPasswordRequireLowercase": "Содержит строчную букву",
   "luotopiaPasswordRequireUppercase": "Содержит прописную букву",
   "luotopiaPasswordRequireSpecial": "Содержит специальный символ",
-  "luotopiaRegistering": "Регистрация…",
-  "luotopiaRegisterTitle": "Регистрация Luotopia",
   "luotopiaUsername": "Имя пользователя",
   "luotopiaUsernameMinHint": "Не менее 3 символов",
   "luotopiaUsernameTooShort": "Имя должно быть не короче 3 символов",
   "luotopiaWelcomeBack": "С возвращением",
-  "middleTab": "Средняя вкладка",
   "minuteMin": "{minute} мин",
   "navAi": "ИИ",
   "navCampus": "Кампус",
@@ -429,11 +402,6 @@
   "scoreImportSpoilerSubtitle": "Только баллы GPA, но часто раньше бакалавриата",
   "scoreImportSuccess": "Импорт выполнен",
   "scoreImportTitle": "Импорт оценок",
-  "scorePageGradeRange60": "60-69 баллов",
-  "scorePageGradeRange70": "70-79 баллов",
-  "scorePageGradeRange80": "80-89 баллов",
-  "scorePageGradeRange90": "90-100 баллов",
-  "scorePageGradeRangeFail": "не удалось",
   "scorePageRetry": "Повтор",
   "scorePageTitle": "Оценки",
   "seatReservationTitle": "Места",
@@ -506,7 +474,6 @@
   "settingsHomeItemOpacity": "Непрозрачность блоков",
   "settingsHomeSectionTitle": "Настройки главной страницы",
   "settingsHomeTimeGridSettings": "Настройки режима временной сетки",
-  "settingsHomeWideLayout": "Сверхширокий диапазон по умолчанию",
   "settingsLicenses": "Лицензии open source",
   "settingsMinutesValue": "{value} минут",
   "settingsNavigationEntrySubtitle": "Вкладки, порядок и подписи",
@@ -534,7 +501,6 @@
   "settingsTermsOfService": "Условия использования",
   "settingsCrossBorderDataTransfer": "Уведомление о трансграничной передаче данных",
   "settingsTheme": "Тема",
-  "settingsTitle": "настройки",
   "settingsVersion": "Версия",
   "settingsFriendLinksTitle": "Дружественные ссылки",
   "settingsFriendLinksSubtitle": "Партнёры, сообщество и связанные проекты",
@@ -756,16 +722,6 @@
       }
     }
   },
-  "@homeCalendarTopLabel": {
-   "placeholders": {
-     "year": {
-       "type": "String"
-      },
-     "term": {
-       "type": "String"
-      }
-    }
-  },
   "@homeCalendarTopLabelYearOnly": {
    "placeholders": {
      "year": {
@@ -946,7 +902,6 @@
     }
   },
   "aiOpenDraftPage": "Открыть черновик",
-  "aiSending": "Отправка…",
   "aiSend": "Отправить",
   "aiClearHistory": "Очистить историю",
   "aiRename": "Переименовать",
@@ -1087,6 +1042,7 @@
   "hotUpdateStatusMissing": "Локально отсутствует — потяните для загрузки",
   "hotUpdateStatusEmbedded": "Используется встроенная версия по умолчанию",
   "hotUpdateStatusCached": "Используется кэшированная удаленная версия",
+  "hotUpdateStatusUnknown": "Неизвестный скрипт — обновите приложение, чтобы включить",
   "hotUpdateStatusTestFailed": "Последнее обновление: не пройден тест в песочнице",
   "hotUpdateStatusDownloadFailed": "Последнее обновление: ошибка загрузки",
   "hotUpdateStatusCommitFailed": "Последнее обновление: ошибка фиксации",
@@ -1365,8 +1321,6 @@
   },
   "courseDetailGradesTab": "Оценки",
   "courseDetailReviewsTab": "Отзывы",
-  "courseAuditTitle": "Свободное посещение",
-  "courseAuditPlaceholder": "Функция «свободное посещение» в разработке…",
   "gradesReviewsSearchFailMessage": "Ошибка поиска: {message}",
   "@gradesReviewsSearchFailMessage": {
    "placeholders": {
@@ -1457,7 +1411,6 @@
   "sportsReservationSelectVenueTimeHint": "Сначала выберите доступную площадку и слот.",
   "sportsReservationVenueTimeUnavailable": "Выбранные площадка или слот недоступны. Выберите снова.",
   "sportsReservationSessionExpired": "Сессия системы спортплощадок истекла.",
-  "sportsReservationAuthRequired": "Сначала авторизуйте систему спортплощадок.",
   "sportsReservationWhuLoginRequired": "Сначала войдите в единый вход WHU.",
   "sportsFetchSportsTypes": "Получить виды спорта",
   "sportsFetchOftenVenues": "Получить частые площадки",
@@ -1593,22 +1546,6 @@
     }
   },
   "scoreImportLastImport": "Последний импорт",
-  "scoreImportTime": "Время: {time}",
-  "@scoreImportTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-      }
-    }
-  },
-  "scoreImportCount": "Количество оценок: {count}",
-  "@scoreImportCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "scoreImportExample": "Пример: {name} · {score} · {credit}",
   "@scoreImportExample": {
    "placeholders": {
@@ -1647,16 +1584,7 @@
     }
   },
   "itemDetailDateRangeTo": " — ",
-  "itemDetailSectionGrading": "Оценивание",
-  "itemDetailScoreOverall": "Итоговая",
-  "itemDetailScoreContinuous": "Текущие",
-  "itemDetailScoreFinal": "Экзамен",
-  "itemDetailSectionDistribution": "Распределение оценок",
   "itemDetailSectionReviews": "Отзывы",
-  "itemDetailMockReview1": "Преподаватель объясняет ясно, материалы хорошие, оценки справедливые. Упражнения на занятиях очень помогают.",
-  "itemDetailMockReview2": "Содержание плотное, экзамен сложный. Домашние задания умеренные — лучше готовиться заранее.",
-  "itemDetailMockReview3": "Очень рекомендую! Курс прояснил направление специальности, лаборатории удачные.",
-  "itemDetailMockReviewer": "Анонимный студент",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} сообщ.",
   "@aiMessageCount": {
@@ -1738,7 +1666,6 @@
   "weatherAqiGood": "Хорошо",
   "weatherAqiModerate": "Умеренно",
   "weatherAqiPoor": "Плохо",
-  "weatherBannerRainSoon": "Скоро дождь — не забудьте зонт!",
   "weatherBannerRainImminent": "Скоро дождь — не забудьте зонт!",
   "weatherRainReminderTitle": "Напоминание о дожде",
   "weatherBannerRainInMinutes": "Дождь примерно через {minutes} мин — возьмите зонт.",
@@ -2034,11 +1961,6 @@
   "wallpaperTargetCampus": "Кампус",
   "wallpaperTargetSettings": "Настройки",
   "wallpaperTargetTaskList": "Список задач",
-  "wallpaperTargetListMyDay": "Список · Мой день",
-  "wallpaperTargetListAllItems": "Список · Все",
-  "wallpaperTargetListTasks": "Список · Задачи",
-  "wallpaperTargetListSchedules": "Список · Расписание",
-  "wallpaperTargetListMemos": "Список · Заметки",
   "wallpaperTargetForum": "Форум",
   "wallpaperTargetAi": "ИИ",
   "libraryBorrowingPlaceholder": "Выдача книг в разработке…",
@@ -2478,7 +2400,6 @@
   "authUsePasskey": "Использовать Passkey",
   "authResendCode": "Отправить код снова",
   "authBackToPasswordLogin": "Вернуться ко входу по паролю",
-  "authLoginRequired": "Сначала войдите",
   "commonConfirm": "Подтвердить",
   "commonContinue": "Продолжить",
   "commonCopy": "Копировать",
@@ -2703,8 +2624,6 @@
   "authGenderFemale": "Женский",
   "authGenderNonBinary": "Небинарный",
   "authGenderPreferNotToSay": "Предпочитаю не указывать",
-  "authGenderOther": "Другое",
-  "authCustomGender": "Опишите свой гендер",
   "authBirthday": "Дата рождения",
   "authBio": "О себе",
   "authProfileUpdateFailed": "Не удалось обновить профиль: {error}",
@@ -2770,14 +2689,6 @@
   },
   "courseGradeStatsMedian": "Median score",
   "courseGradeStatsDistribution": "Распределение оценок",
-  "courseGradeStatsTotalScore": "Итоговый балл (0 - 100)",
-  "@courseGradeStatsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "courseReviewsLoginRequired": "Войдите, чтобы просматривать анонимные отзывы о курсах.",
   "courseReviewsSyncEligibility": "Синхронизировать завершённые курсы",
   "courseReviewsWrite": "Написать анонимный отзыв",
@@ -2872,27 +2783,8 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "Не удалось загрузить разделы: {error}",
-  "@forumBoardsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
-  "forumPostsLoadFailed": "Не удалось загрузить публикации: {error}",
   "forumAttachmentAdd": "Добавить вложение",
   "forumImageAdd": "Добавить изображение",
-  "forumSupportedImageFormats": "Поддерживаемые форматы изображений",
-  "forumSupportedAttachmentFormats": "Поддерживаемые форматы вложений",
-  "forumAttachmentUploadFailed": "Не удалось загрузить вложение: {error}",
-  "@forumPostsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumPostTitle": "Заголовок",
   "forumPostContent": "Содержание",
   "forumPublish": "Опубликовать",
@@ -2906,43 +2798,13 @@
   },
   "forumEmpty": "Публикаций пока нет. Станьте первым, кто опубликует запись.",
   "forumAnonymous": "Аноним",
-  "forumPostMetadata": "{author} · ответов: {comments} · отметок «нравится»: {upvotes}",
-  "@forumPostMetadata": {
-   "placeholders": {
-     "author": {
-       "type": "String"
-      },
-     "comments": {
-       "type": "int"
-      },
-     "upvotes": {
-       "type": "int"
-      }
-    }
-  },
   "forumPostDetails": "Сведения о публикации",
   "forumReplies": "Ответы",
   "forumRepliesEmpty": "Ответов пока нет.",
   "forumReply": "Ответить",
-  "forumRepliesLoadFailed": "Не удалось загрузить ответы: {error}",
-  "@forumRepliesLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumReplyPost": "Ответить на публикацию",
   "forumReplyHint": "Будьте вежливы и не раскрывайте личную информацию.",
   "forumSend": "Отправить",
-  "forumReplyFailed": "Не удалось отправить ответ: {error}",
-  "@forumReplyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "authPasswordResetEmail": "Электронная почта",
   "authPasswordResetSendFailed": "Не удалось отправить: {error}",
   "@authPasswordResetSendFailed": {
@@ -2976,7 +2838,6 @@
   "forumDislike": "Не нравится",
   "forumSave": "Сохранить",
   "forumEdit": "Редактировать",
-  "forumDownload": "Скачать",
   "forumReport": "Пожаловаться",
   "forumReportReason": "Причина",
   "forumReportSubmitted": "Жалоба отправлена.",
@@ -2994,14 +2855,6 @@
        "type": "int"
       },
      "karma": {
-       "type": "int"
-      }
-    }
-  },
-  "forumKarmaLevelOnly": "Lv{level}",
-  "@forumKarmaLevelOnly": {
-   "placeholders": {
-     "level": {
        "type": "int"
       }
     }
@@ -3075,14 +2928,6 @@
    "placeholders": {
      "karma": {
        "type": "int"
-      }
-    }
-  },
-  "forumReportFailed": "Не удалось отправить жалобу: {error}",
-  "@forumReportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
       }
     }
   },
@@ -3450,7 +3295,6 @@
   "forumModerationAppeals": "Обжалования",
   "settingsBuildInfoArchitecture": "Архитектура",
   "settingsBuildInfoBuildTime": "Время сборки",
-  "luotopiaRegisterVerifyEmail": "Регистрация успешна. Подтвердите email перед входом.",
   "courseImportSemesterAlreadyAdded": "Этот семестр уже добавлен. Выберите «Обновить расписание» в меню.",
   "waterControlClassNo": "Номер занятия {classNo}",
   "forumImageFiles": "Изображения форума",
@@ -3618,8 +3462,6 @@
   "campusBusArrivalDisabled": "Напоминание отключено",
   "campusBusArrivalTarget": "Цель напоминания",
   "campusBusArrivalAutoDisableHint": "Автоматически отключается после прибытия автобуса",
-  "medicalCardSearchTitle": "Поиск карты пациента",
-  "medicalCardSearchDescription": "Найдите свою карту пациента для просмотра записей",
   "medicalPatientName": "Имя пациента",
   "medicalRequiredField": "Обязательное поле",
   "medicalIdType": "Тип документа",
@@ -3633,15 +3475,6 @@
   "medicalIdPassport": "Загранпаспорт",
   "medicalIdMainlandTravelPermit": "Разрешение на поездку",
   "medicalIdOther": "Другое",
-  "medicalGreeting": "Здравствуйте, {name}",
-  "@medicalGreeting": {
-   "placeholders": {
-     "name": {
-       "type": "String"
-      }
-    }
-  },
-  "medicalHospitalName": "Университетская больница Уханьского университета",
   "medicalSessionExpired": "Сеанс истёк, войдите снова",
   "medicalSearchFailed": "Поиск не удался, попробуйте снова",
   "medicalSearchComplete": "Поиск завершён",
@@ -3653,7 +3486,6 @@
   "medicalPaidInvoices": "Оплаченные счета",
   "medicalPatientCards": "Карты пациента",
   "medicalQueue": "Статус очереди",
-  "medicalInpatient": "Стационар",
   "medicalInpatientDeposit": "Предоплата за стационар",
   "medicalInpatientDailyList": "Ежедневная выписка стационара",
   "medicalInvoiceDetail": "Детали счёта",
@@ -3681,15 +3513,12 @@
   "medicalLabAxisToggle": "Ось результатов",
   "medicalCardQueryTitle": "Карты пациентов",
   "medicalCardQueryEmpty": "У вас нет привязанных карт пациентов",
-  "medicalCardQueryEmptyHint": "Нажмите кнопку создания в правом верхнем углу, чтобы создать новую карту, или воспользуйтесь поиском ниже, чтобы привязать существующую карту",
   "medicalCardAddTitle": "Добавить карту пациента",
   "medicalCardSearchBind": "Найти и привязать существующую карту",
   "medicalCardSearchBindDesc": "Введите свои данные, чтобы найти и привязать существующую карту пациента",
   "medicalCardCreateNew": "Создать новую карту",
   "medicalCardCreateNewDesc": "Создать совершенно новую карту пациента",
-  "medicalCreateCard": "Создать карту",
   "medicalBindCard": "Привязать",
-  "medicalBindCardTitle": "Привязать карту пациента",
   "medicalSendCode": "Отправить код",
   "medicalResendCode": "Отправить повторно",
   "medicalCodeResent": "Код подтверждения отправлен",
@@ -3702,36 +3531,14 @@
     }
   },
   "medicalAuthCode": "Код подтверждения",
-  "medicalAuthCodeHint": "Введите код подтверждения из SMS",
   "medicalCity": "Город",
-  "medicalCityHint": "Выберите город",
   "medicalAddress": "Адрес",
-  "medicalAddressHint": "Введите полный адрес",
   "medicalBindSuccess": "Карта успешно привязана",
-  "medicalBindFailed": "Не удалось привязать карту",
   "medicalCreateSuccess": "Карта успешно создана",
   "medicalCreateFailed": "Не удалось создать карту",
-  "medicalSetDefault": "Сделать основной",
   "medicalSetDefaultSuccess": "Карта назначена основной",
-  "medicalSetDefaultFailed": "Не удалось назначить карту основной",
   "medicalCardDetail": "Данные карты",
   "medicalInvoiceTotal": "Итого",
-  "medicalInvoiceQuantity": "Количество: {value}",
-  "@medicalInvoiceQuantity": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoicePackageCount": "{value} уп.",
-  "@medicalInvoicePackageCount": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
   "medicalInvoiceTotalQuantity": "Всего: {value}",
   "@medicalInvoiceTotalQuantity": {
     "placeholders": {
@@ -3742,14 +3549,6 @@
   },
   "medicalInvoiceSpecification": "Спецификация: {value}",
   "@medicalInvoiceSpecification": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoiceUnitPrice": "Цена за единицу: {value}",
-  "@medicalInvoiceUnitPrice": {
     "placeholders": {
       "value": {
         "type": "String"
@@ -3781,11 +3580,8 @@
     }
   },
   "medicalSelectCard": "Выберите карту",
-  "medicalCardType": "Тип карты",
-  "medicalSearchCardHint": "Найдите существующую карту, чтобы привязать её",
   "medicalConfirmBind": "Подтвердить привязку",
   "medicalConfirmCreate": "Подтвердить создание",
-  "medicalCardBound": "Эта карта уже привязана",
   "medicalMaskedPhone": "Код подтверждения будет отправлен на номер {phone}",
   "@medicalMaskedPhone": {
    "placeholders": {
@@ -3794,18 +3590,12 @@
       }
     }
   },
-  "medicalCardQuerySearchSection": "Поиск карты",
-  "medicalCardQuerySearchDescription": "Введите свои данные, чтобы найти и привязать существующую карту пациента",
   "campusBusRouteViewVertical": "Вертикальный вид маршрута",
   "campusBusOutsideServiceRange": "Вне часов работы",
   "campusBusNoReachableBus": "Ни один автобус больше не может доехать до этой остановки. Выберите другую или попробуйте в часы работы.",
   "campusBusArrivalUseNearestToggle": "Использовать ближайшую остановку на этом маршруте",
   "campusBusRouteViewHorizontal": "Горизонтальный вид маршрута",
-  "luotopiaLoginIdentifierLabel": "Электронная почта, имя пользователя или номер студента WHU",
-  "luotopiaLoginIdentifierHint": "Используйте любой идентификатор, связанный с этим аккаунтом",
-  "luotopiaLoginIdentifierRequired": "Введите электронную почту, имя пользователя или номер студента WHU",
   "authErrorInvalidCredentials": "Неверный адрес электронной почты или пароль.",
-  "authErrorEmailNotAllowed": "Используйте адрес WHU (@whu.edu.cn или @alumni.whu.edu.cn).",
   "authErrorEmailExists": "Этот адрес уже зарегистрирован. Войдите или сбросьте пароль.",
   "authErrorEmailUnverified": "Подтвердите электронную почту перед входом.",
   "authErrorUserDisabled": "Эта учётная запись отключена.",
@@ -3814,7 +3604,6 @@
   "authErrorWhuAlreadyBound": "Этот аккаунт WHU уже связан с другой учётной записью Luotopia.",
   "authErrorVerificationFailed": "Проверка не удалась или истекла. Повторите попытку.",
   "authErrorRateLimited": "Слишком много запросов. Повторите позже.",
-  "authErrorRequestFailed": "Запрос не выполнен. Повторите попытку.",
   "apiErrorUnauthorized": "Требуется аутентификация.",
   "apiErrorInvalidToken": "Срок действия сеанса истёк. Войдите снова.",
   "apiErrorTokenExpired": "Срок действия сеанса истёк. Войдите снова.",
@@ -3869,10 +3658,8 @@
   "luotopiaRegisterStepProfileSubtitle": "Выберите отображаемое имя и почту для аккаунта Luotopia.",
   "luotopiaRegisterEmailVerifiedHint": "Эта почта подтверждена в аккаунте WHU и заполнена автоматически. Вы всё ещё можете её изменить.",
   "luotopiaRegisterEmailUnverifiedHint": "Если это ваша почта WHU, сначала подтвердите её на странице аккаунта WHU, чтобы мы могли заполнить её автоматически.",
-  "luotopiaRegisterGoVerifyEmail": "Подтвердить в аккаунте WHU",
   "luotopiaRegisterStepPasswordTitle": "Задайте пароль",
   "luotopiaRegisterStepPasswordSubtitle": "Используйте не менее 10 символов. Этот пароль потребуется для входа.",
-  "scoreImportCountLabel": "Количество оценок",
   "campusAppMajorInfo": "Информация о факультете и специальности",
   "majorInfoTitle": "Информация о факультете и специальности",
   "majorInfoDescription": "Просматривайте учебные подразделения, факультеты, специальности, учебные планы и данные о трудоустройстве.",
@@ -3897,7 +3684,6 @@
   "majorInfoTrainingPlan": "План подготовки факультета",
   "majorInfoOpenTrainingPlan": "Открыть предварительный просмотр плана подготовки",
   "majorInfoTrainingPlanSubtitle": "Открывает официальный предварительный просмотр документа Chaoxing",
-  "majorInfoTrainingPlanLoading": "Загрузка плана подготовки…",
   "majorInfoTrainingPlanUnavailable": "Предварительный просмотр плана подготовки недоступен.",
   "scoreImportParsedCountLabel": "Полученные оценки",
   "scoreImportMergedCountLabel": "Объединённые оценки",
@@ -4033,7 +3819,6 @@
   "scorePageTrendGpa": "Динамика GPA по семестрам",
   "scorePageSemesterLabel": "{year} — семестр {semester}",
   "itemDetailCourseInsightsTitle": "Реальные оценки и отзывы по курсу",
-  "itemDetailCourseInsightsDescription": "Просматривайте статистику Luotopia, данные о баллах Ham и отзывы студентов. Курсы из расписания сопоставляются по названию.",
   "itemDetailCourseInsightsMatching": "Сопоставление курса из расписания…",
   "itemDetailCourseInsightsOpen": "Показать больше оценок и отзывов",
   "itemDetailCourseInsightsSearch": "Выбрать подходящий курс",
@@ -4052,11 +3837,6 @@
   "settingsPrivacyCourseDataDescription": "Локальными функциями университета можно пользоваться только с аккаунтом WHU, без регистрации в Luotopia. Войдя в Luotopia и используя оценки или отзывы по курсам, вы соглашаетесь, что подтверждённые оценки могут быть обезличены для анонимной статистики.",
   "settingsPrivacyCourseDataAggregationTitle": "Анонимная статистика оценок",
   "settingsPrivacyCourseDataAggregationSubtitle": "Распределения и средние значения показываются только после достижения минимального размера выборки. Отдельные оценки, личности, пароли WHU и cookies учебной системы не публикуются.",
-  "scoreContributionAutoSyncTitle": "Автоматически синхронизировать и добавлять оценки",
-  "scoreContributionAutoSyncDescription": "После получения оценок бакалавриата синхронизируются завершённые курсы, а точные числовые оценки добавляются в анонимную сводную статистику Luotopia.",
-  "scoreContributionLoginRequired": "Войдите в Luotopia, чтобы включить автоматическое добавление оценок.",
-  "scoreContributionConsentTitle": "Разрешить автоматическое добавление оценок",
-  "scoreContributionConsentMessage": "После каждого успешного получения оценок бакалавриата Luotopia использует одноразовый билет WHU CAS для проверки вашей ведомости на сервере. Завершённые курсы сохраняются конфиденциально для проверки возможности участия, а точные числовые оценки с найденными курсом и преподавателем добавляются в анонимную статистику. Пароль WHU и cookies учебной системы никогда не загружаются. Вы можете в любой момент отключить дальнейшую синхронизацию.",
   "aiStop": "Стоп",
   "aiAutomation": "Автоматизация",
   "aiAutomationManual": "Вручную",
@@ -4122,7 +3902,6 @@
   "forumAdminLogLoadMore": "Загрузить ещё",
   "forumAdminLogSearchHint": "Поиск по сводкам или деталям",
   "forumAdminLogTitle": "Уведомления модерации",
-  "forumAppealFlavor": "Запросить пересмотр",
   "forumCheckinDone": "Сегодня уже отметились",
   "forumCheckinFixed": "Стабильный путь (+{amount})",
   "forumCheckinRandom": "Испытать удачу",
@@ -4187,17 +3966,10 @@
   "forumReportSubmittedFlavor": "Записано; ожидание ответа.",
   "courseGradeStatsAllTeachersPrepared": "Данные всех преподавателей готовы. Выберите преподавателя для просмотра оценок.",
   "courseGradeStatsExamAverage": "Средний балл за экзамен",
-  "courseGradeStatsFail": "Незачёт",
   "courseGradeStatsLoadFailed": "Не удалось загрузить распределение оценок: {error}",
-  "courseGradeStatsNoTeachers": "Для этого курса нет преподавателей, поэтому оценки отправить нельзя.",
   "courseGradeStatsPrivacyThreshold": "Для защиты приватности требуется минимум 5 образцов.",
   "courseGradeStatsSamples": "{count} анонимных образцов",
-  "courseGradeStatsSourceHam": "Источник: Ham",
   "courseGradeStatsSourceHint": "Выберите источник данных",
-  "courseGradeStatsSourceLuotopia": "Источник: Luotopia",
-  "courseGradeStatsSubmit": "Отправить анонимную оценку",
-  "courseGradeStatsSubmitFailed": "Не удалось отправить оценку: {error}",
-  "courseGradeStatsSubmitted": "Анонимная оценка отправлена.",
   "courseGradeStatsTeacherClear": "Очистить преподавателя",
   "courseGradeStatsTeacherHint": "Выберите преподавателя для просмотра соответствующих данных об оценках.",
   "courseGradeStatsTeacherInputHint": "Поиск преподавателей, или оставьте пустым для показа всех",
@@ -4253,42 +4025,6 @@
   "adminSystemQueues": "Системные очереди",
   "luotopiaAccountViewLargeAvatar": "Просмотреть аватар",
   "luotopiaAccountChangeAvatar": "Сменить аватар",
-  "luotopiaRegisterDebugCode": "Отладочный код проверки",
-  "schoolNetCheckpointRecorded": "Контрольная точка захвата записана",
-  "schoolNetCheckpointTooltip": "Записать контрольную точку кода воды",
-  "schoolNetCheckpointDevicesLoaded": "Загружено онлайн-устройств: {count}",
-  "@schoolNetCheckpointDevicesLoaded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
-  "schoolNetCheckpointBeforeSeamlessAuthCancel": "До отмены бесшовной аутентификации",
-  "schoolNetCheckpointAfterSeamlessAuthCancel": "После отмены бесшовной аутентификации",
-  "schoolNetCheckpointBeforeDeviceDisconnect": "До отключения устройства",
-  "schoolNetCheckpointAfterDeviceDisconnect": "После отключения устройства",
-  "schoolNetAuthEmptyCredentials": "Имя пользователя или пароль не могут быть пустыми",
-  "schoolNetAuthPortalNotDetected": "Страница входа в сеть кампуса не обнаружена",
-  "schoolNetAuthServiceUnavailable": "Служба сети кампуса временно недоступна",
-  "schoolNetAuthRejected": "Вход в сеть кампуса отклонен",
-  "schoolNetAuthSubmittedNotOnline": "Учетные данные отправлены, но устройство не в сети",
-  "schoolNetAuthTimeout": "Превышено время ожидания входа в сеть кампуса",
-  "schoolNetAuthConnectionFailed": "Сбой подключения к сети кампуса",
-  "whuCasCodeSendFailed": "Сбой отправки кода проверки",
-  "whuCasFormErrorFallback": "Ошибка отправки формы CAS",
-  "aiModelFormatUnsupported": "Неподдерживаемый формат модели ИИ",
-  "aiModelRequestCancelled": "Запрос ИИ отменен",
-  "aiModelHttpError": "Ошибка HTTP ИИ ({statusCode})",
-  "@aiModelHttpError": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
-      }
-    }
-  },
-  "aiModelDuplicateToolCallId": "Дублирующийся ID вызова инструмента",
-  "aiModelEmptyResponse": "ИИ вернул пустой ответ",
   "aiToolStatusRunning": "Выполнение инструмента...",
   "aiToolStatusWaiting": "Ожидание действия пользователя...",
   "aiToolStatusCompleted": "Инструмент выполнен",
@@ -4296,10 +4032,6 @@
   "aiToolUnknown": "Неизвестный инструмент",
   "aiRequestCancelled": "Запрос отменен.",
   "majorInfoLegendOver10": "Более 10%",
-  "majorInfoLegend5To10": "5%-10%",
-  "majorInfoLegend1To5": "1%-5%",
-  "majorInfoLegend0To1": "0-1%",
-  "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "Недели {range}",
   "@courseWeekRangeAll": {
    "placeholders": {
@@ -4324,21 +4056,8 @@
       }
     }
   },
-  "sportsAreaLabel": "Корт №{no}",
-  "@sportsAreaLabel": {
-   "placeholders": {
-     "no": {
-       "type": "Object"
-      }
-    }
-  },
-  "courseUnnamed": "Безымянный курс",
-  "courseTimetableWakeupDefaultName": "Расписание WakeUp",
-  "courseTimetableShiguangDefaultName": "Расписание Shiguang",
-  "courseTimetableXinglianDefaultName": "Расписание Xinglian",
   "courseTimetableLocalFileDefaultName": "Локальное расписание",
   "studyStatusOutOfPlanSectionTitle": "Внеучебные курсы",
-  "schoolNetDefaultDeviceName": "Мое устройство",
   "forumFreeUpvote": "Бесплатный лайк",
   "forumFreeDownvote": "Бесплатный дизлайк",
   "whuAuthSmsSendFailed": "Сбой отправки кода. Проверьте номер телефона и повторите попытку.",
@@ -4517,10 +4236,8 @@
   "toolkitVerifyConfirmRecordTitle": "Создать карточку записи теста",
   "toolkitVerifyConfirmRecordMessage": "{id} содержит операции записи. Подтвердите запись теста.",
   "toolkitVerifyConfirmRecordConfirm": "Создать запись",
-  "toolkitVerifyNotifWriteTitle": "Уведомление о записи теста",
   "toolkitVerifyNotifAgendaTitle": "Уведомление о напоминании повестки теста",
   "toolkitVerifyNotifAgendaUpdated": "Тестовая повестка обновлена",
-  "toolkitVerifyNotifReminder": "Напоминание тестовой повестки отправлено",
   "toolkitVerifyAuthPrerequisite": "Предварительное условие аутентификации",
   "toolkitVerifyWhuCas": "Аутентификация CAS WHU",
   "toolkitVerifyAuthenticated": "Авторизован · {subject}",
@@ -4548,7 +4265,6 @@
   "waterElectricRoom": "Комната",
   "waterElectricSaveAndQuery": "Сохранить и запросить",
   "waterElectricDirectoryLoadFailed": "Не удалось загрузить каталог помещений.",
-  "waterElectricChooseFirst": "Сначала выберите комнату для оплаты воды и электричества",
   "waterElectricChooseFirstDescription": "Вы можете изменить его в любое время. Это не изменяет данные на школьном портале.",
   "waterElectricChooseRoom": "Выбрать номер",
   "waterElectricRefresh": "Обновить",
@@ -4638,90 +4354,106 @@
   "whuEmailParserLabel": "Парсер ответов электронной почты WHU",
   "whuMessagesMarkReadFailed": "Не удалось отметить как прочитанное",
   "whuMessagesRequestFailed": "Ошибка запроса",
-  "whuScoreExamTypeNormal": "Обычный экзамен",
-  "whuScoreMidtermWithdraw": "Промежуточное выбытие",
   "whuLibraryResultUnknown": "Результат операции библиотеки неизвестен. Обновите статус, прежде чем решать, стоит ли повторять попытку.",
   "sportsAuthFailedCasRequired": "Авторизация в системе спортивных площадок не удалась. Повторно войдите через WHU CAS.",
   "waterControlAccountExchangeFailed": "Не удалось выполнить обмен учётной записи воды.",
-  "courseTimetableLocalFileDefaultName": "Локальное расписание"
-,  "aiAssistantDefault": "По умолчанию",
-  "aiAssistantDeleteConfirm": "Удалить этого ассистента?",
-  "aiAssistantEmpty": "Ассистентов пока нет",
+  "courseTimetableLocalFileDefaultName": "Локальное расписание",
+  "aiImageGeneration": "Создать изображение",
+  "aiImageGenerationHint": "Опишите изображение, которое хотите создать",
+  "aiImageGenerationEmpty": "Созданные изображения появятся здесь.",
+  "aiImageGenerationSize": "Размер",
+  "aiImageGenerationCount": "Изображения",
+  "aiImageGenerationReference": "Эталонное изображение",
+  "aiImageGenerationDelete": "Удалить",
+  "aiImageGenerationSave": "Сохранить изображение",
+  "aiImageGenerationShare": "Поделиться изображением",
+  "settingsAiCapabilityImageGeneration": "Генерация изображений",
+  "settingsAiModelParamsTitle": "Параметры модели",
+  "settingsAiModelCapabilities": "Возможности модели",
+  "settingsAiCapabilityVision": "Изображения",
+  "settingsAiCapabilityDocument": "Документы",
+  "settingsAiCapabilityAudio": "Аудио",
+  "settingsAiCapabilityVideo": "Видео",
+  "settingsAiTemperature": "Температура",
+  "settingsAiTopP": "Top P",
+  "settingsAiMaxTokens": "Максимум токенов",
+  "settingsAiParamDefault": "Значение по умолчанию у провайдера",
+  "aiSearchSessions": "Поиск бесед",
+  "aiSearchNoResults": "Подходящих бесед не найдено",
+  "aiPinned": "Закреплённые",
+  "aiToday": "Сегодня",
+  "aiYesterday": "Вчера",
+  "aiPin": "Закрепить",
+  "aiUnpin": "Открепить",
+  "aiDeleteSessionConfirm": "Удалить эту беседу?",
+  "aiAssistantDefault": "По умолчанию",
   "aiAssistantManage": "Управление ассистентами",
-  "aiAssistantName": "Имя",
   "aiAssistantNew": "Новый ассистент",
+  "aiAssistantName": "Имя ассистента",
   "aiAssistantSystemPrompt": "Системный промпт",
-  "aiAssistantUseGlobal": "Использовать глобального",
+  "aiAssistantEmpty": "Ассистенты ещё не созданы",
+  "aiAssistantUseGlobal": "Использовать глобальные настройки",
+  "aiAssistantDeleteConfirm": "Удалить этого ассистента?",
   "aiClose": "Закрыть",
-  "aiCodeCollapse": "Свернуть",
+  "aiExport": "Экспортировать",
+  "aiShare": "Поделиться",
+  "aiCompressContext": "Сжать контекст",
+  "aiCompressContextDescription": "Удалите старые сообщения, чтобы сократить расход токенов. В беседе {count} сообщений.",
+  "aiCompressKeepRecent": "Оставить последние {count} сообщений",
+  "aiCompress": "Сжать",
+  "aiMcpImportJson": "Импортировать JSON",
+  "aiMcpImport": "Импортировать",
+  "aiEditingMessage": "Редактирование сообщения",
+  "aiForkFromHere": "Начать новую беседу отсюда",
+  "aiSkills": "Навыки",
+  "aiSkillsEmpty": "Навыки ещё не установлены",
+  "aiSkillsManage": "Управление навыками",
+  "aiSkillNew": "Новый навык",
+  "aiSkillName": "Название навыка",
+  "aiSkillNameHint": "имя-в-нижнем-регистре",
+  "aiSkillDescription": "Описание",
+  "aiSkillInstructions": "Инструкции",
+  "aiTranslate": "Перевести",
+  "aiTranslateTo": "Перевести на",
+  "aiAddFavorite": "Добавить в избранное",
+  "aiRemoveFavorite": "Удалить из избранного",
+  "aiAddAttachment": "Добавить вложение",
+  "aiPickImages": "Выбрать изображения",
+  "aiTakePhoto": "Сделать фото",
+  "aiPickFiles": "Выбрать файлы",
+  "aiAttachmentUnsupported": "Эта модель не поддерживает выбранный тип вложения.",
+  "aiSpeak": "Прочитать вслух",
+  "aiVoiceInput": "Голосовой ввод",
+  "aiSkillsEnabled": "Включено: {count}",
+  "aiMcp": "MCP",
+  "aiMcpEmpty": "Серверы MCP не настроены",
+  "aiMcpEnabled": "Подключено: {count}",
+  "aiMcpAddServer": "Добавить сервер",
+  "aiMcpServerName": "Имя сервера",
+  "aiMcpServerUrl": "URL сервера",
+  "aiMcpTransportType": "Транспорт",
+  "aiMcpTransportSse": "SSE",
+  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "Скопировано",
   "aiCodeExpand": "Развернуть",
-  "aiCodeToggleLineNumbers": "Показать номера строк",
-  "aiCompress": "Сжать",
-  "aiCompressContext": "Сжать контекст",
-  "aiDeleteSessionConfirm": "Удалить эту сессию?",
-  "aiEditingMessage": "Редактирование сообщения...",
-  "aiExport": "Экспорт",
-  "aiForkFromHere": "Форкнуть отсюда",
-  "aiMcp": "MCP",
-  "aiMcpAddServer": "Добавить сервер",
-  "aiMcpEmpty": "Серверы MCP не настроены",
-  "aiPin": "Закрепить",
-  "aiPinned": "Закреплено",
-  "aiProviderBuiltin": "Встроенный",
-  "aiSearchNoResults": "Совпадений не найдено",
-  "aiSearchSessions": "Поиск сессий",
-  "aiShare": "Поделиться",
-  "aiSkills": "Навыки",
-  "aiSkillsEmpty": "Навыки недоступны",
-  "aiToday": "Сегодня",
-  "aiUnpin": "Открепить",
-  "aiYesterday": "Вчера",
-  "settingsAiMaxTokens": "Макс. токенов",
-  "settingsAiModelParamsTitle": "Параметры модели",
-  "settingsAiParamDefault": "По умолчанию",
-  "settingsAiTemperature": "Temperature",
-  "settingsAiTopP": "Top P",
-  "aiCodeShowMoreLines": "{count, plural, one{Показать ещё 1 строку} other{Показать ещё {count} строк}}",
-  "@aiCodeShowMoreLines": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressKeepRecent": "{count, plural, one{Сохранить 1 последнее} other{Сохранить {count} последних}}",
-  "@aiCompressKeepRecent": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiMcpEnabled": "{count, plural, one{1 сервер} other{{count} серверов}}",
-  "@aiMcpEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiSkillsEnabled": "{count, plural, one{1 навык} other{{count} навыков}}",
-  "@aiSkillsEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressContextDescription": "Сжать {messageCount} сообщений в более короткий контекст для экономии токенов.",
-  "@aiCompressContextDescription": {
-   "placeholders": {
-    "messageCount": {
-     "type": "int"
-    }
-   }
-  }
-,  "aiMcpImport": "Импорт",
-  "aiMcpImportJson": "Импорт из JSON"
+  "aiCodeCollapse": "Свернуть",
+  "aiCodeToggleLineNumbers": "Показывать номера строк",
+  "aiCodeShowMoreLines": "Показать ещё {count} строк",
+  "onboardingPermissionMicrophoneTitle": "Разрешить доступ к микрофону",
+  "onboardingPermissionMicrophoneDescription": "Используется для голосового ввода в беседах с ИИ (преобразование речи в текст).",
+  "hotUpdateEditScript": "Изменить скрипт",
+  "hotUpdateSaveScript": "Сохранить скрипт",
+  "hotUpdateResetScript": "Сбросить скрипт",
+  "hotUpdateTestFailed": "Тест не пройден",
+  "hotUpdateSaveSuccess": "Успешно сохранено",
+  "hotUpdateUserEdited": "Изменено пользователем",
+  "hotUpdateResetConfirm": "Сбросить этот скрипт к значению по умолчанию?",
+  "settingsAiWorkspaceExportTitle": "Экспортировать данные Agent",
+  "settingsAiWorkspaceExportSubtitle": "Объединить ваши заметки, черновики и конфигурацию в JSON-файл в notes/. Пакет не включает файлы сеансов чата и защищённые байты Tool Result.",
+  "settingsAiWorkspaceExportConfirmTitle": "Экспортировать данные Agent?",
+  "settingsAiWorkspaceExportConfirmMessage": "Пакет будет записан в рабочее пространство и будет содержать текущие заметки, черновики и конфигурацию. Он не включает файлы сеансов чата и байты Tool Result. Экспорт не удаляет и не изменяет локальные данные.",
+  "settingsAiWorkspaceExportConfirmAction": "Экспортировать пакет",
+  "settingsAiWorkspaceExported": "Экспортировано файлов: {count}; путь: {path}.",
+  "settingsAiWorkspaceExportFailed": "Не удалось экспортировать рабочее пространство Agent: {error}",
+  "aiSpeechTitle": "Речь ИИ", "aiSpeechRecognitionService": "Сервис распознавания речи", "aiSpeechSpeechToText": "speech_to_text (система)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Офлайн-транскрибация Whisper", "aiSpeechWhisperModel": "Модель Whisper", "aiDownload": "Скачать", "aiSpeechEngine": "Движок речи", "aiSpeechEdge": "Онлайн-голос Edge", "aiSpeechSttsVoice": "Системный голос stts", "aiSpeechVoiceLoadFailed": "Не удалось загрузить онлайн-голоса; используется текущий голос.", "aiSpeechVoice": "Голос", "aiSpeechRate": "Скорость", "aiSpeechPitch": "Высота тона", "aiSpeechVolume": "Громкость", "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос ИИ.", "aiSpeechPreview": "Прослушать текущий голос", "aiMcpImportFailed": "Не удалось импортировать конфигурацию MCP-сервера"
 }

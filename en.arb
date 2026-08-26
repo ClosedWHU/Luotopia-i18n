@@ -4,6 +4,34 @@
   "aiAssistant": "AI Assistant",
   "aiInputHint": "Ask me anything about your schedule...",
   "aiTitle": "Title",
+  "aiImageGeneration": "Generate image",
+  "aiImageGenerationHint": "Describe the image you want to create",
+  "aiImageGenerationEmpty": "Your generated images will appear here.",
+  "aiImageGenerationSize": "Size",
+  "aiImageGenerationCount": "Images",
+  "aiImageGenerationReference": "Reference image",
+  "aiImageGenerationDelete": "Delete",
+  "aiImageGenerationSave": "Save image",
+  "aiImageGenerationShare": "Share image",
+  "aiSpeechTitle": "AI speech",
+  "aiSpeechRecognitionService": "Speech recognition service",
+  "aiSpeechSpeechToText": "speech_to_text (system)",
+  "aiSpeechStts": "stts",
+  "aiSpeechWhisper": "Whisper offline transcription",
+  "aiSpeechWhisperModel": "Whisper model",
+  "aiDownload": "Download",
+  "aiSpeechEngine": "Speech engine",
+  "aiSpeechEdge": "Edge online voice",
+  "aiSpeechSttsVoice": "stts system voice",
+  "aiSpeechVoiceLoadFailed": "Unable to load online voices; using the current voice.",
+  "aiSpeechVoice": "Voice",
+  "aiSpeechRate": "Rate",
+  "aiSpeechPitch": "Pitch",
+  "aiSpeechVolume": "Volume",
+  "aiSpeechPreviewText": "Hello. This is your selected AI voice.",
+  "aiSpeechPreview": "Preview current voice",
+  "aiMcpImportFailed": "Unable to import MCP server configuration",
+  "settingsAiCapabilityImageGeneration": "Image generation",
   "allCourseItemsInThisTimetableW": "All course items in this timetable will be deleted.",
   "alwaysHide": "Always hide",
   "alwaysShow": "Always show",
@@ -134,7 +162,6 @@
   },
   "schoolNetDisconnectDeviceSuccess": "Device disconnected",
   "schoolNetPaymentTitle": "Top up network fee",
-  "schoolNetPaymentDescription": "Pay through WHU checkout and verify the credit automatically.",
   "schoolNetPayBalance": "Network balance",
   "schoolNetPayAccount": "Account",
   "schoolNetPayName": "Name",
@@ -156,12 +183,9 @@
     }
   },
   "schoolNetPayConfirmAction": "Continue to checkout",
-  "schoolNetPayWaitingTitle": "Complete payment in the payment app",
-  "schoolNetPayWaitingMessage": "Return here after paying. We will verify that the fee was credited automatically.",
   "schoolNetPayCheckingTitle": "Checking payment",
   "schoolNetPayCheckingMessage": "Confirming the result with WHU. Do not submit another payment.",
   "schoolNetPaySuccessTitle": "Fee credited",
-  "schoolNetPaySuccessMessage": "Your network fee has been credited successfully.",
   "schoolNetPaySuccessAmount": "Your payment of ¥{amount} has been credited.",
   "@schoolNetPaySuccessAmount": {
    "placeholders": {
@@ -172,8 +196,6 @@
   },
   "schoolNetPayPendingTitle": "Payment not confirmed",
   "schoolNetPayPendingMessage": "If you have paid, wait a moment and check again. Do not create another order.",
-  "schoolNetPayCheckFailedTitle": "Unable to check payment",
-  "schoolNetPayCheckFailedMessage": "The order result could not be retrieved. You can check this order again safely.",
   "schoolNetPayCheckAgain": "Check again",
   "campusAppEmptyClassroom": "Empty Classrooms",
   "campusAppFileSharing": "File Sharing",
@@ -236,7 +258,6 @@
   },
   "cancel": "Cancel",
   "changeColorVariantGenerationAlgorithm": "Change color variant generation algorithm",
-  "chooseBetweenForumOrAi": "Choose between Forum or AI for the middle tab (default Forum).",
   "chooseDuration": "Choose duration",
   "colorsAppearance": "Colors & Appearance",
   "commonBack": "Back",
@@ -320,10 +341,6 @@
   "detailMissing": "This item could not be found. It may have been deleted.",
   "detailTitle": "Item Detail",
   "done": "Done",
-  "dynamicColorMonet": "Dynamic Color",
-  "dynamicColorSourceAccent": "Use system accent color",
-  "dynamicColorSourceGtk": "Use GTK theme color",
-  "dynamicColorSourceWallpaper": "Extract from system wallpaper",
   "themeColorSource": "Color source",
   "themeColorSourceSystemScheme": "System dynamic colors",
   "themeColorSourceSystemSchemeDescription": "Use the complete color scheme provided by the system.",
@@ -449,8 +466,6 @@
   "editorRepeatDaily": "Every day",
   "editorRepeatMonthly": "Every month",
   "editorRepeatNone": "Does not repeat",
-  "editorRepeatPagePlaceholder": "Advanced repeat rules will be expanded later.",
-  "editorRepeatPageTitle": "Repeat settings",
   "editorRepeatWeekdays": "Weekdays",
   "editorRepeatWeekly": "Every week",
   "editorRepeatYearly": "Every year",
@@ -506,7 +521,6 @@
   "homeCalendarMonthDayRange": "{day} - {endDay}",
   "homeCalendarMonthWeek": "Week {week} of {month}",
   "homeCalendarSummerBreak": "Summer",
-  "homeCalendarTopLabel": "{year} {term}",
   "homeCalendarTopLabelYearOnly": "{year}",
   "homeCalendarWinterBreak": "Winter",
   "homeCalendarYearMonth": "{month} {year}",
@@ -518,12 +532,9 @@
   "homeGridModeCourse": "Course grid",
   "homeGridModeTime": "Time grid",
   "homePeriodRange": "{start} - {end}",
-  "homeScopeMonth": "Month",
-  "homeScopeWeek": "Week",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} h",
   "importedTimestr": "Imported {timeStr}",
-  "importSources": "Import Sources",
   "importViaEmbeddedWebLogin": "Import via embedded web login",
   "k1Hour": "1 hour",
   "k30Minutes": "30 minutes",
@@ -553,14 +564,8 @@
   "luotopiaAlreadyHaveAccount": "Already have an account?",
   "luotopiaConfirmLogout": "Confirm logout",
   "luotopiaConfirmPassword": "Confirm password",
-  "luotopiaCreateAccount": "Create Luotopia Account",
   "luotopiaEmailHint": "For password recovery",
-  "luotopiaEmailOptional": "Email (optional)",
-  "luotopiaLoggingIn": "Logging in...",
   "luotopiaLoginTitle": "Log in to Luotopia",
-  "luotopiaLoginIdentifierLabel": "Email, username, or WHU student ID",
-  "luotopiaLoginIdentifierHint": "Use any identifier bound to this account",
-  "luotopiaLoginIdentifierRequired": "Enter an email, username, or WHU student ID",
   "luotopiaLoginEmailHint": "Your account email address",
   "luotopiaLoginUsernameHint": "Your Luotopia username",
   "luotopiaLoginUsernameRequired": "Enter your Luotopia username",
@@ -574,7 +579,6 @@
   "luotopiaNotLoggedIn": "Not logged in",
   "luotopiaPasswordHint": "At least 6 characters",
   "luotopiaPasswordsDoNotMatch": "Passwords do not match",
-  "luotopiaPleaseFillFields": "Please enter username and password",
   "luotopiaEmailRequired": "Enter an email address",
   "luotopiaEmailInvalid": "Enter a valid email address",
   "luotopiaPasswordRequired": "Enter a password",
@@ -583,13 +587,10 @@
   "luotopiaPasswordRequireLowercase": "Include a lowercase letter",
   "luotopiaPasswordRequireUppercase": "Include an uppercase letter",
   "luotopiaPasswordRequireSpecial": "Include a special character",
-  "luotopiaRegistering": "Registering...",
-  "luotopiaRegisterTitle": "Register Luotopia",
   "luotopiaUsername": "Username",
   "luotopiaUsernameMinHint": "At least 3 characters",
   "luotopiaUsernameTooShort": "Username must be at least 3 characters",
   "luotopiaWelcomeBack": "Welcome back",
-  "middleTab": "Middle tab",
   "minuteMin": "{minute} min",
   "navAi": "AI",
   "navCampus": "Campus",
@@ -612,11 +613,6 @@
   "scoreImportSpoilerSubtitle": "Can only get grade points, but faster than undergraduate system",
   "scoreImportSuccess": "Import successful",
   "scoreImportTitle": "Grade Import",
-  "scorePageGradeRange60": "60-69",
-  "scorePageGradeRange70": "70-79",
-  "scorePageGradeRange80": "80-89",
-  "scorePageGradeRange90": "90-100",
-  "scorePageGradeRangeFail": "<60",
   "scorePageRetry": "Retry",
   "scorePageTitle": "Score Query",
   "scoreTranscriptCredential": "Verified Electronic Credential",
@@ -686,6 +682,11 @@
   "settingsAiSectionTitle": "AI settings",
   "settingsAiSystemPromptLabel": "System prompt",
   "settingsAiModelParamsTitle": "Model parameters",
+  "settingsAiModelCapabilities": "Model capabilities",
+  "settingsAiCapabilityVision": "Images",
+  "settingsAiCapabilityDocument": "Documents",
+  "settingsAiCapabilityAudio": "Audio",
+  "settingsAiCapabilityVideo": "Video",
   "settingsAiTemperature": "Temperature",
   "settingsAiTopP": "Top P",
   "settingsAiMaxTokens": "Max tokens",
@@ -718,7 +719,6 @@
   "settingsHomeItemOpacity": "Home item block opacity",
   "settingsHomeSectionTitle": "Home settings",
   "settingsHomeTimeGridSettings": "Time Grid Settings",
-  "settingsHomeWideLayout": "Ultra-wide default range",
   "settingsLicenses": "Open Source Licenses",
   "settingsMinutesValue": "{value} min",
   "settingsNavigationEntrySubtitle": "Tabs, order, and labels",
@@ -746,7 +746,6 @@
   "settingsTermsOfService": "Terms of Service",
   "settingsCrossBorderDataTransfer": "Cross-Border Data Transfer Notice",
   "settingsTheme": "Theme",
-  "settingsTitle": "Settings",
   "settingsVersion": "Version",
   "settingsFriendLinksTitle": "Friend links",
   "settingsFriendLinksSubtitle": "Partners, community and related projects",
@@ -1006,16 +1005,6 @@
       }
     }
   },
-  "@homeCalendarTopLabel": {
-   "placeholders": {
-     "year": {
-       "type": "String"
-      },
-     "term": {
-       "type": "String"
-      }
-    }
-  },
   "@homeCalendarTopLabelYearOnly": {
    "placeholders": {
      "year": {
@@ -1242,7 +1231,6 @@
     }
   },
   "aiOpenDraftPage": "Open Draft Page",
-  "aiSending": "Sending",
   "aiSend": "Send",
   "aiStop": "Stop",
   "aiClearHistory": "Clear history",
@@ -1261,6 +1249,22 @@
   "aiSkills": "Skills",
   "aiSkillsEmpty": "No skills installed",
   "aiSkillsManage": "Manage skills",
+  "aiSkillNew": "New skill",
+  "aiSkillName": "Skill name",
+  "aiSkillNameHint": "lowercase-name",
+  "aiSkillDescription": "Description",
+  "aiSkillInstructions": "Instructions",
+  "aiTranslate": "Translate",
+  "aiTranslateTo": "Translate to",
+  "aiAddFavorite": "Add to favorites",
+  "aiRemoveFavorite": "Remove from favorites",
+  "aiAddAttachment": "Add attachment",
+  "aiPickImages": "Choose images",
+  "aiTakePhoto": "Take photo",
+  "aiPickFiles": "Choose files",
+  "aiAttachmentUnsupported": "This model does not support the selected attachment type.",
+  "aiSpeak": "Read aloud",
+  "aiVoiceInput": "Voice input",
   "aiSkillsEnabled": "{count} enabled",
   "aiMcp": "MCP",
   "aiMcpEmpty": "No MCP servers configured",
@@ -1722,8 +1726,6 @@
   },
   "courseDetailGradesTab": "Grades",
   "courseDetailReviewsTab": "Reviews",
-  "courseAuditTitle": "Audit Courses",
-  "courseAuditPlaceholder": "Audit courses feature is under development...",
   "gradesReviewsSearchFailMessage": "Search failed: {message}",
   "@gradesReviewsSearchFailMessage": {
    "placeholders": {
@@ -1842,7 +1844,6 @@
   "sportsReservationSelectVenueTimeHint": "Please select an available venue and time slot first.",
   "sportsReservationVenueTimeUnavailable": "The selected venue or time slot is no longer available. Please select again.",
   "sportsReservationSessionExpired": "Sports venue system login has expired.",
-  "sportsReservationAuthRequired": "Please authorize the sports venue system first.",
   "sportsReservationWhuLoginRequired": "Please log in to WHU Unified Authentication first.",
   "sportsFetchSportsTypes": "Fetch sports types",
   "sportsFetchOftenVenues": "Fetch commonly used venues",
@@ -1979,16 +1980,6 @@
     }
   },
   "scoreImportLastImport": "Last Import",
-  "scoreImportTime": "Time: {time}",
-  "@scoreImportTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-      }
-    }
-  },
-  "scoreImportCount": "Score count: {count}",
-  "scoreImportCountLabel": "Score count",
   "campusAppMajorInfo": "School & Major Info",
   "majorInfoTitle": "School & Major Information",
   "majorInfoDescription": "Browse academic divisions, colleges, majors, teaching plans, and employment data.",
@@ -2016,17 +2007,9 @@
   "majorInfoTrainingPlan": "College training plan",
   "majorInfoOpenTrainingPlan": "Open training-plan preview",
   "majorInfoTrainingPlanSubtitle": "Opens the official Chaoxing document preview",
-  "majorInfoTrainingPlanLoading": "Loading training plan…",
   "majorInfoTrainingPlanUnavailable": "Training-plan preview is unavailable.",
   "scoreImportParsedCountLabel": "Fetched scores",
   "scoreImportMergedCountLabel": "Merged scores",
-  "@scoreImportCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "scoreImportExample": "{name} · {score} · {credit}",
   "scoreImportExampleLabel": "Example",
   "@scoreImportExample": {
@@ -2066,14 +2049,8 @@
     }
   },
   "itemDetailDateRangeTo": " to ",
-  "itemDetailSectionGrading": "Course Grading",
-  "itemDetailScoreOverall": "Overall",
-  "itemDetailScoreContinuous": "Continuous",
-  "itemDetailScoreFinal": "Final",
-  "itemDetailSectionDistribution": "Score Distribution",
   "itemDetailSectionReviews": "Course Reviews",
   "itemDetailCourseInsightsTitle": "Real course grades & reviews",
-  "itemDetailCourseInsightsDescription": "View Luotopia statistics, Ham grade data, and student reviews. Timetable courses are matched by course name.",
   "itemDetailCourseInsightsMatching": "Matching this timetable course...",
   "itemDetailCourseInsightsOpen": "View more grades & reviews",
   "itemDetailCourseInsightsSearch": "Choose matching course",
@@ -2091,10 +2068,6 @@
   "courseGradeStatsTeacherClear": "Clear teacher",
   "courseGradeStatsTeacherSearch": "Search teacher",
   "courseGradeStatsAllTeachersPrepared": "All teacher data is ready. Choose a teacher to view its grade data.",
-  "itemDetailMockReview1": "The teacher explains clearly, the courseware is well-made, and the grading is reasonable. Every class has in-class exercises that help greatly with understanding concepts.",
-  "itemDetailMockReview2": "The course content is substantial, but the final exam is quite challenging. The usual workload is moderate; I recommend starting review early.",
-  "itemDetailMockReview3": "Highly recommended! This course gave me a clearer direction for my major, and the lab sessions are well-designed.",
-  "itemDetailMockReviewer": "Anonymous Student",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} messages",
   "@aiMessageCount": {
@@ -2179,7 +2152,6 @@
   "weatherAqiGood": "Good",
   "weatherAqiModerate": "Moderate",
   "weatherAqiPoor": "Poor",
-  "weatherBannerRainSoon": "Rain expected soon, don't forget your umbrella!",
   "weatherBannerRainImminent": "Rain starting soon — grab an umbrella!",
   "weatherRainReminderTitle": "Rain reminder",
   "weatherBannerRainInMinutes": "Rain in about {minutes} min — bring an umbrella.",
@@ -2491,11 +2463,6 @@
   "wallpaperTargetCampus": "Campus",
   "wallpaperTargetSettings": "Settings",
   "wallpaperTargetTaskList": "Task list",
-  "wallpaperTargetListMyDay": "List · My Day",
-  "wallpaperTargetListAllItems": "List · All Items",
-  "wallpaperTargetListTasks": "List · Tasks",
-  "wallpaperTargetListSchedules": "List · Schedules",
-  "wallpaperTargetListMemos": "List · Memos",
   "wallpaperTargetForum": "Forum",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "Library borrowing is under development…",
@@ -2768,6 +2735,8 @@
   "onboardingPermissionNotificationsDescription": "Used for schedule reminders and important campus messages.",
   "onboardingPermissionPhotosTitle": "Photos",
   "onboardingPermissionPhotosDescription": "Used to set wallpapers and attach images to memos.",
+  "onboardingPermissionMicrophoneTitle": "Microphone",
+  "onboardingPermissionMicrophoneDescription": "Used for voice input in AI conversations (speech-to-text).",
   "onboardingPermissionBiometricTitle": "Biometrics",
   "onboardingPermissionBiometricDescription": "Used to protect private content such as academic scores.",
   "onboardingPermissionSkipTitle": "Skip permissions?",
@@ -2929,6 +2898,7 @@
   "hotUpdateStatusMissing": "Local missing — pull to download",
   "hotUpdateStatusEmbedded": "Using embedded default",
   "hotUpdateStatusCached": "Using cached remote",
+  "hotUpdateStatusUnknown": "Unknown script — update app to enable",
   "hotUpdateStatusTestFailed": "Last update: sandbox test failed",
   "hotUpdateStatusDownloadFailed": "Last update: download failed",
   "hotUpdateStatusCommitFailed": "Last update: commit failed",
@@ -2954,11 +2924,18 @@
   "hotUpdateLastFailure": "Last failure: {reason}",
   "@hotUpdateLastFailure": {
    "placeholders": {
-     "reason": {
-       "type": "String"
-      }
+      "reason": {
+        "type": "String"
+       }
     }
   },
+  "hotUpdateEditScript": "Edit script",
+  "hotUpdateSaveScript": "Save",
+  "hotUpdateResetScript": "Reset to remote/default",
+  "hotUpdateTestFailed": "Sandbox test failed — script not saved",
+  "hotUpdateSaveSuccess": "Script saved and tested successfully",
+  "hotUpdateUserEdited": "Locally edited (updates paused)",
+  "hotUpdateResetConfirm": "Discard your edits and restore the remote or default script?",
   "debuggerTitle": "Network debugger",
   "debuggerPause": "Pause",
   "debuggerResume": "Resume",
@@ -3044,7 +3021,6 @@
   "authUsePasskey": "Use Passkey",
   "authResendCode": "Resend code",
   "authBackToPasswordLogin": "Back to password sign-in",
-  "authLoginRequired": "Please sign in first",
   "commonConfirm": "Confirm",
   "commonContinue": "Continue",
   "commonCopy": "Copy",
@@ -3246,8 +3222,6 @@
   "authGenderFemale": "Female",
   "authGenderNonBinary": "Non-binary",
   "authGenderPreferNotToSay": "Prefer not to say",
-  "authGenderOther": "Other",
-  "authCustomGender": "Describe your gender",
   "authBirthday": "Birthday",
   "authBio": "Bio",
   "authProfileUpdateFailed": "Failed to update profile: {error}",
@@ -3271,7 +3245,6 @@
   },
   "authPasswordChangeConfirm": "Change password",
   "authErrorInvalidCredentials": "Incorrect sign-in identifier or password.",
-  "authErrorEmailNotAllowed": "This email domain is not allowed.",
   "authErrorEmailNotAllowedWithDomains": "Use an allowed email address: {domains}.",
   "@authErrorEmailNotAllowedWithDomains": {
    "placeholders": {
@@ -3288,7 +3261,6 @@
   "authErrorWhuAlreadyBound": "This WHU account is already linked to another Luotopia account.",
   "authErrorVerificationFailed": "Verification failed or expired. Please try again.",
   "authErrorRateLimited": "Too many requests. Please try again later.",
-  "authErrorRequestFailed": "Request failed. Please try again.",
   "apiErrorUnauthorized": "Authentication required.",
   "apiErrorInvalidToken": "Session expired. Please sign in again.",
   "apiErrorTokenExpired": "Session expired. Please sign in again.",
@@ -3338,8 +3310,6 @@
       }
     }
   },
-  "courseGradeStatsSourceHam": "Source: Ham",
-  "courseGradeStatsSourceLuotopia": "Source: Luotopia",
   "courseGradeStatsSourceHint": "Choose a data source",
   "courseGradeStatsSourceLuotopiaShort": "Luotopia",
   "courseGradeStatsSourceHamShort": "Ham",
@@ -3362,8 +3332,6 @@
       }
     }
   },
-  "courseGradeStatsSubmit": "Submit anonymous grade",
-  "courseGradeStatsNoTeachers": "No teachers are available for this course, so grades cannot be submitted.",
   "courseGradeStatsPrivacyThreshold": "At least 5 samples are required to protect privacy.",
   "courseGradeStatsSamples": "{count} anonymous samples",
   "@courseGradeStatsSamples": {
@@ -3380,28 +3348,12 @@
   "courseGradeStatsDistribution": "Score distribution",
   "courseGradeStatsScore": "Score",
   "courseGradeStatsWhuGpa": "WHU GPA",
-  "courseGradeStatsFail": "Failing",
-  "courseGradeStatsTotalScore": "Total score (0 - 100)",
-  "courseGradeStatsSubmitted": "Anonymous grade submitted.",
-  "courseGradeStatsSubmitFailed": "Failed to submit grade: {error}",
-  "@courseGradeStatsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "courseReviewsLoginRequired": "Sign in to view anonymous course reviews.",
   "settingsPrivacyCourseDataTitle": "Course grades and reviews",
   "settingsPrivacyCourseDataDescription": "You may use local university features with only a WHU account and without registering for Luotopia. By signing in to Luotopia and using course grades or reviews, you agree that verified course grades may be de-identified for anonymous statistics.",
   "settingsPrivacyCourseDataAggregationTitle": "Anonymous grade statistics",
   "settingsPrivacyCourseDataAggregationSubtitle": "Distributions and averages are shown only after the minimum sample threshold. Individual grades, identities, WHU passwords, and education cookies are not public.",
   "courseReviewsSyncEligibility": "Sync completed courses",
-  "scoreContributionAutoSyncTitle": "Automatically sync and contribute grades",
-  "scoreContributionAutoSyncDescription": "After undergraduate grades are fetched, sync completed-course eligibility and contribute exact numeric grades to Luotopia's anonymous aggregate.",
-  "scoreContributionLoginRequired": "Sign in to Luotopia to enable automatic grade contribution.",
-  "scoreContributionConsentTitle": "Authorize automatic grade contribution",
-  "scoreContributionConsentMessage": "After each successful undergraduate grade fetch, Luotopia will use a one-time WHU CAS ticket to verify your transcript on the server. Completed courses are saved privately for eligibility, while exact numeric grades with a matched course and teacher are added to anonymous aggregates. Your WHU password and education cookies are never uploaded. You can disable future synchronization at any time.",
   "courseReviewsWrite": "Write anonymous review",
   "courseReviewsAnonymousStudent": "Anonymous student · {semester}",
   "@courseReviewsAnonymousStudent": {
@@ -3469,30 +3421,11 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "Failed to load boards: {error}",
-  "@forumBoardsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
-  "forumPostsLoadFailed": "Failed to load posts: {error}",
   "forumAttachmentAdd": "Add attachment",
   "forumImageAdd": "Add image",
-  "forumSupportedImageFormats": "Supported image formats",
-  "forumSupportedAttachmentFormats": "Supported attachment formats",
   "forumImagePresetDataSaver": "Data saver",
   "forumImagePresetRecommended": "Recommended",
   "forumImagePresetHighQuality": "High quality",
-  "forumAttachmentUploadFailed": "Failed to upload attachment: {error}",
-  "@forumPostsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumPostTitle": "Title",
   "forumPostContent": "Content",
   "forumPublish": "Publish",
@@ -3506,43 +3439,13 @@
   },
   "forumEmpty": "There are no posts yet. Be the first to post.",
   "forumAnonymous": "Anonymous",
-  "forumPostMetadata": "{author} · {comments} replies · {upvotes} upvotes",
-  "@forumPostMetadata": {
-   "placeholders": {
-     "author": {
-       "type": "String"
-      },
-     "comments": {
-       "type": "int"
-      },
-     "upvotes": {
-       "type": "int"
-      }
-    }
-  },
   "forumPostDetails": "Post details",
   "forumReplies": "Replies",
   "forumRepliesEmpty": "No replies yet.",
   "forumReply": "Reply",
-  "forumRepliesLoadFailed": "Failed to load replies: {error}",
-  "@forumRepliesLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumReplyPost": "Reply to post",
   "forumReplyHint": "Be kind and do not share personal information.",
   "forumSend": "Send",
-  "forumReplyFailed": "Failed to reply: {error}",
-  "@forumReplyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "authPasswordResetEmail": "Email",
   "authPasswordResetSendFailed": "Failed to send: {error}",
   "@authPasswordResetSendFailed": {
@@ -3611,19 +3514,10 @@
   "forumDislike": "Dislike",
   "forumSave": "Save",
   "forumEdit": "Edit",
-  "forumDownload": "Download",
   "forumReport": "Report",
   "forumReportReason": "Reason",
   "forumReportSubmitted": "Report submitted.",
   "forumReportSubmittedFlavor": "Recorded; awaiting response.",
-  "forumReportFailed": "Failed to submit report: {error}",
-  "@forumReportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumKarma": "Karma",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
@@ -3640,14 +3534,6 @@
        "type": "int"
       },
      "karma": {
-       "type": "int"
-      }
-    }
-  },
-  "forumKarmaLevelOnly": "Lv{level}",
-  "@forumKarmaLevelOnly": {
-   "placeholders": {
-     "level": {
        "type": "int"
       }
     }
@@ -3730,7 +3616,6 @@
       }
     }
   },
-  "forumAppealFlavor": "Request reconsideration",
   "forumModerationFlavorPending": "Pending review",
   "forumKarmaLedgerTitle": "Ledger",
   "forumKarmaLedgerContentUp": "Received upvote",
@@ -4098,9 +3983,6 @@
   "whuLoginMethodNotRecommended": "Not recommended",
   "whuLoginMethodApiError": "Service unavailable",
   "whuLoginMethodUndergraduateOnly": "Undergraduate only",
-  "whuLoginImplementationTitle": "Native login",
-  "whuLoginImplementationNative": "On: use the native form and show WebView only for a CAPTCHA",
-  "whuLoginImplementationWebView": "Off: complete the entire login in the WHU WebView",
   "whuNativeLoginTitle": "WHU Login",
   "whuNativeLoginHeading": "Sign in to WHU CAS",
   "whuNativeLoginPrivacy": "Your credentials are sent directly to WHU and are never uploaded to Luotopia servers.",
@@ -4124,7 +4006,6 @@
   "forumModerationAppeals": "Appeals",
   "settingsBuildInfoArchitecture": "Architecture",
   "settingsBuildInfoBuildTime": "Build Time",
-  "luotopiaRegisterVerifyEmail": "Registration successful. Please verify your email before signing in.",
   "luotopiaRegisterSuccess": "Registration successful. You can now sign in.",
   "luotopiaRegisterEmailCodeSent": "A verification code was sent to {email}.",
   "@luotopiaRegisterEmailCodeSent": {
@@ -4174,7 +4055,6 @@
   "luotopiaRegisterStepProfileSubtitle": "Choose a unique username and the email for your Luotopia account.",
   "luotopiaRegisterEmailVerifiedHint": "This email was verified on your WHU account and filled in automatically. You can still change it.",
   "luotopiaRegisterEmailUnverifiedHint": "If this is your WHU email, verify it on the WHU account page first so we can fill it in for you.",
-  "luotopiaRegisterGoVerifyEmail": "Verify on WHU account",
   "luotopiaRegisterStepPasswordTitle": "Set password",
   "luotopiaRegisterStepPasswordSubtitle": "Use at least 10 characters. You will need this password to sign in.",
   "courseImportSemesterAlreadyAdded": "This semester is already added. Choose “Update timetable” from the timetable menu.",
@@ -4275,8 +4155,6 @@
   "campusBusArrivalDisabled": "Reminder off",
   "campusBusArrivalTarget": "Reminder Target",
   "campusBusArrivalAutoDisableHint": "Automatically disabled after the bus arrives",
-  "medicalCardSearchTitle": "Patient Card Lookup",
-  "medicalCardSearchDescription": "Search for your patient card to view records",
   "medicalPatientName": "Patient Name",
   "medicalRequiredField": "This field is required",
   "medicalIdType": "ID Type",
@@ -4290,15 +4168,6 @@
   "medicalIdPassport": "Passport",
   "medicalIdMainlandTravelPermit": "Mainland Travel Permit",
   "medicalIdOther": "Other",
-  "medicalGreeting": "Hello, {name}",
-  "@medicalGreeting": {
-   "placeholders": {
-     "name": {
-       "type": "String"
-      }
-    }
-  },
-  "medicalHospitalName": "Wuhan University Hospital",
   "medicalSessionExpired": "Session expired, please log in again",
   "medicalSearchFailed": "Search failed, please try again",
   "medicalSearchComplete": "Search complete",
@@ -4310,7 +4179,6 @@
   "medicalPaidInvoices": "Paid Invoices",
   "medicalPatientCards": "Patient Cards",
   "medicalQueue": "Queue Status",
-  "medicalInpatient": "Inpatient",
   "medicalInpatientDeposit": "Inpatient Deposit",
   "medicalInpatientDailyList": "Inpatient Daily Statement",
   "medicalInvoiceDetail": "Invoice Detail",
@@ -4338,15 +4206,12 @@
   "medicalLabAxisToggle": "Result axis",
   "medicalCardQueryTitle": "Patient Cards",
   "medicalCardQueryEmpty": "You have no bound patient cards",
-  "medicalCardQueryEmptyHint": "Tap the create button in the top right to create a new card, or use the search below to bind an existing card",
   "medicalCardAddTitle": "Add Patient Card",
   "medicalCardSearchBind": "Search and Bind Existing Card",
   "medicalCardSearchBindDesc": "Enter your information to search and bind an existing patient card",
   "medicalCardCreateNew": "Create New Card",
   "medicalCardCreateNewDesc": "Create a brand new patient card",
-  "medicalCreateCard": "Create Card",
   "medicalBindCard": "Bind",
-  "medicalBindCardTitle": "Bind Patient Card",
   "medicalSendCode": "Send Code",
   "medicalResendCode": "Resend",
   "medicalCodeResent": "Verification code sent",
@@ -4359,36 +4224,14 @@
     }
   },
   "medicalAuthCode": "Auth Code",
-  "medicalAuthCodeHint": "Enter the SMS verification code",
   "medicalCity": "City",
-  "medicalCityHint": "Select city",
   "medicalAddress": "Address",
-  "medicalAddressHint": "Enter detailed address",
   "medicalBindSuccess": "Bound successfully",
-  "medicalBindFailed": "Failed to bind",
   "medicalCreateSuccess": "Created successfully",
   "medicalCreateFailed": "Failed to create",
-  "medicalSetDefault": "Set as default",
   "medicalSetDefaultSuccess": "Set as default card",
-  "medicalSetDefaultFailed": "Failed to set default card",
   "medicalCardDetail": "Card Details",
   "medicalInvoiceTotal": "Total",
-  "medicalInvoiceQuantity": "Qty {value}",
-  "@medicalInvoiceQuantity": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoicePackageCount": "{value} boxes",
-  "@medicalInvoicePackageCount": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
   "medicalInvoiceTotalQuantity": "Total {value}",
   "@medicalInvoiceTotalQuantity": {
     "placeholders": {
@@ -4399,14 +4242,6 @@
   },
   "medicalInvoiceSpecification": "Spec {value}",
   "@medicalInvoiceSpecification": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoiceUnitPrice": "Unit {value}",
-  "@medicalInvoiceUnitPrice": {
     "placeholders": {
       "value": {
         "type": "String"
@@ -4438,12 +4273,9 @@
     }
   },
   "medicalSelectCard": "Select card",
-  "medicalCardType": "Card type",
   "medicalCardNumber": "Card number",
-  "medicalSearchCardHint": "Search for an existing card to bind",
   "medicalConfirmBind": "Confirm Bind",
   "medicalConfirmCreate": "Confirm Create",
-  "medicalCardBound": "This card is already bound",
   "medicalMaskedPhone": "Verification code will be sent to {phone}",
   "@medicalMaskedPhone": {
    "placeholders": {
@@ -4452,8 +4284,6 @@
       }
     }
   },
-  "medicalCardQuerySearchSection": "Search Card",
-  "medicalCardQuerySearchDescription": "Enter your information to search and bind an existing patient card",
   "campusBusRouteViewVertical": "Vertical route view",
   "campusBusRouteViewHorizontal": "Horizontal route view",
   "adminConsoleTitle": "Admin console",
@@ -4721,49 +4551,6 @@
   "adminSystemQueues": "System queues",
   "luotopiaAccountViewLargeAvatar": "View large image",
   "luotopiaAccountChangeAvatar": "Change avatar",
-  "luotopiaRegisterDebugCode": "Dev debug code: {code}",
-  "@luotopiaRegisterDebugCode": {
-   "placeholders": {
-     "code": {
-       "type": "String"
-      }
-    }
-  },
-  "schoolNetCheckpointRecorded": "Checkpoint recorded: {checkpoint}",
-  "@schoolNetCheckpointRecorded": {
-   "placeholders": {
-     "checkpoint": {
-       "type": "String"
-      }
-    }
-  },
-  "schoolNetCheckpointTooltip": "Record personal network capture checkpoint",
-  "schoolNetCheckpointDevicesLoaded": "Devices loaded",
-  "schoolNetCheckpointBeforeSeamlessAuthCancel": "Before canceling seamless auth",
-  "schoolNetCheckpointAfterSeamlessAuthCancel": "After canceling seamless auth",
-  "schoolNetCheckpointBeforeDeviceDisconnect": "Before device disconnect",
-  "schoolNetCheckpointAfterDeviceDisconnect": "After device disconnect",
-  "schoolNetAuthEmptyCredentials": "Username or password cannot be empty",
-  "schoolNetAuthPortalNotDetected": "Campus network authentication page not detected. Please connect to the campus network and try again.",
-  "schoolNetAuthServiceUnavailable": "Campus network authentication service is temporarily unavailable. Please try again later.",
-  "schoolNetAuthRejected": "Campus network authentication was rejected. Please check your account, password, and plan status.",
-  "schoolNetAuthSubmittedNotOnline": "Authentication request submitted, but the device is not yet online. Please try again later.",
-  "schoolNetAuthTimeout": "Campus network authentication request timed out. Please try again later.",
-  "schoolNetAuthConnectionFailed": "Unable to connect to campus network authentication service. Please confirm you are connected to the campus network.",
-  "whuCasCodeSendFailed": "Verification code failed to send",
-  "whuCasFormErrorFallback": "Account, password, or dynamic code is incorrect",
-  "aiModelFormatUnsupported": "The current Agent Harness only supports OpenAI Completion compatible interfaces.",
-  "aiModelRequestCancelled": "Request cancelled.",
-  "aiModelHttpError": "AI service returned HTTP {statusCode}.",
-  "@aiModelHttpError": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
-      }
-    }
-  },
-  "aiModelDuplicateToolCallId": "AI service returned duplicate tool call identifiers.",
-  "aiModelEmptyResponse": "AI service returned no usable content.",
   "aiToolStatusRunning": "Executing",
   "aiToolStatusWaiting": "Awaiting Confirmation",
   "aiToolStatusCompleted": "Tool Completed",
@@ -4771,10 +4558,6 @@
   "aiToolUnknown": "Unknown Tool",
   "aiRequestCancelled": "Request cancelled.",
   "majorInfoLegendOver10": "Over 10%",
-  "majorInfoLegend5To10": "5%-10%",
-  "majorInfoLegend1To5": "1%-5%",
-  "majorInfoLegend0To1": "0-1%",
-  "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range} wks",
   "@courseWeekRangeAll": {
    "placeholders": {
@@ -4799,21 +4582,8 @@
       }
     }
   },
-  "sportsAreaLabel": "Court {no}",
-  "@sportsAreaLabel": {
-   "placeholders": {
-     "no": {
-       "type": "Object"
-      }
-    }
-  },
-  "courseUnnamed": "Unnamed Course",
-  "courseTimetableWakeupDefaultName": "WakeUp Schedule",
-  "courseTimetableShiguangDefaultName": "Shiguang Schedule",
-  "courseTimetableXinglianDefaultName": "Xinglian Schedule",
   "courseTimetableLocalFileDefaultName": "Local Schedule",
   "studyStatusOutOfPlanSectionTitle": "Out-of-plan Courses",
-  "schoolNetDefaultDeviceName": "My Device",
   "forumFreeUpvote": "Free Upvote",
   "forumFreeDownvote": "Free Downvote",
   "whuAuthSmsSendFailed": "Failed to send verification code. Please check your phone number and try again.",
@@ -4992,10 +4762,8 @@
   "toolkitVerifyConfirmRecordTitle": "Generate Test Record Card",
   "toolkitVerifyConfirmRecordMessage": "{id} contains write operations. Please confirm the test record.",
   "toolkitVerifyConfirmRecordConfirm": "Generate Record",
-  "toolkitVerifyNotifWriteTitle": "Test Write Notification",
   "toolkitVerifyNotifAgendaTitle": "Test Agenda Reminder Notification",
   "toolkitVerifyNotifAgendaUpdated": "Test agenda updated",
-  "toolkitVerifyNotifReminder": "Test agenda Reminder Sent",
   "toolkitVerifyAuthPrerequisite": "Authentication Prerequisite",
   "toolkitVerifyWhuCas": "WHU CAS Authentication",
   "toolkitVerifyAuthenticated": "Authenticated · {subject}",
@@ -5023,7 +4791,6 @@
   "waterElectricRoom": "Room",
   "waterElectricSaveAndQuery": "Save and query",
   "waterElectricDirectoryLoadFailed": "The room directory could not be loaded.",
-  "waterElectricChooseFirst": "Select a utility room first",
   "waterElectricChooseFirstDescription": "You can change it at any time. This does not modify data on the school portal.",
   "waterElectricChooseRoom": "Select room",
   "waterElectricRefresh": "Refresh",
@@ -5124,8 +4891,6 @@
   "whuEmailParserLabel": "WHU Email Response Parser",
   "whuMessagesMarkReadFailed": "Mark read failed",
   "whuMessagesRequestFailed": "Request failed",
-  "whuScoreExamTypeNormal": "Normal exam",
-  "whuScoreMidtermWithdraw": "Mid-term withdrawal",
   "whuLibraryResultUnknown": "Library operation result unknown. Please refresh status before deciding whether to retry.",
   "sportsAuthFailedCasRequired": "Sports venue system authorization failed. Please log in again via WHU CAS.",
   "waterControlAccountExchangeFailed": "Water account exchange failed.",

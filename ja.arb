@@ -17,9 +17,6 @@
   "settingsDevThemeLabTitle": "テーマラボ",
   "settingsDevThemeLabSubtitle": "ライトテーマとダークテーマで主要コンポーネントを並べてプレビューします。",
   "whuNativeLoginRememberMobile": "携帯電話番号を記憶",
-  "whuLoginImplementationTitle": "ネイティブログインを使用",
-  "whuLoginImplementationNative": "オン：ネイティブフォームを使用し、CAPTCHA が必要な場合のみ WebView を表示",
-  "whuLoginImplementationWebView": "オフ：武漢大学のログイン WebView ですべてのログイン操作を完了",
   "whuNativeLoginTitle": "武漢大学統一認証",
   "whuNativeLoginHeading": "武漢大学統一認証にログイン",
   "whuNativeLoginPrivacy": "認証情報は武漢大学に直接送信され、珞家のサーバーにアップロードされることはありません。",
@@ -94,7 +91,6 @@
   "schoolNetDisconnectDeviceMessage": "{device} の現在の接続が直ちに切断されます。",
   "schoolNetDisconnectDeviceSuccess": "デバイスを切断しました",
   "schoolNetPaymentTitle": "ネットワーク料金をチャージ",
-  "schoolNetPaymentDescription": "大学の決済画面で支払い、入金結果を自動確認します。",
   "schoolNetPayBalance": "ネット料金残高",
   "schoolNetPayAccount": "アカウント",
   "schoolNetPayName": "氏名",
@@ -109,17 +105,12 @@
   "schoolNetPayConfirmTitle": "チャージ注文を作成しますか？",
   "schoolNetPayConfirmMessage": "¥{amount} の注文を作成します。続行後は重複して送信しないでください。",
   "schoolNetPayConfirmAction": "決済へ進む",
-  "schoolNetPayWaitingTitle": "決済アプリで支払いを完了してください",
-  "schoolNetPayWaitingMessage": "支払い後にここへ戻ると、入金状況を自動的に確認します。",
   "schoolNetPayCheckingTitle": "支払いを確認中",
   "schoolNetPayCheckingMessage": "大学のシステムで確認しています。重複して支払わないでください。",
   "schoolNetPaySuccessTitle": "入金完了",
-  "schoolNetPaySuccessMessage": "ネットワーク料金が正常に入金されました。",
   "schoolNetPaySuccessAmount": "¥{amount} の支払いが入金されました。",
   "schoolNetPayPendingTitle": "支払いを確認できません",
   "schoolNetPayPendingMessage": "支払い済みの場合は、しばらく待ってから再確認してください。新しい注文を作成しないでください。",
-  "schoolNetPayCheckFailedTitle": "支払いを確認できません",
-  "schoolNetPayCheckFailedMessage": "注文結果を取得できませんでした。この注文は安全に再確認できます。",
   "schoolNetPayCheckAgain": "再確認",
   "campusAppEmptyClassroom": "空き教室",
   "campusAppFileSharing": "資料共有",
@@ -131,7 +122,6 @@
   "campusTitle": "キャンパス",
   "cancel": "キャンセル",
   "changeColorVariantGenerationAlgorithm": "カラーバリエーション生成アルゴリズムの変更",
-  "chooseBetweenForumOrAi": "フォーラムまたは AI アシスタントはナビゲーション バーの中央に表示されます (デフォルトのフォーラム)",
   "chooseDuration": "期間を選択",
   "colorsAppearance": "色と外観",
   "commonBack": "戻る",
@@ -163,10 +153,6 @@
   "detailMissing": "この項目は見つかりませんでした。削除された可能性があります。",
   "detailTitle": "事項詳細",
   "done": "完了",
-  "dynamicColorMonet": "ダイナミックカラー",
-  "dynamicColorSourceAccent": "システムのアクセントカラーを使用",
-  "dynamicColorSourceGtk": "GTK テーマの色を使用",
-  "dynamicColorSourceWallpaper": "システム壁紙から抽出",
   "themeColorSource": "カラーソース",
   "themeColorSourceSystemScheme": "システムのダイナミックカラー",
   "themeColorSourceSystemSchemeDescription": "システムが提供する完全なカラースキームを使用します。",
@@ -280,8 +266,6 @@
   "editorRepeatDaily": "毎日",
   "editorRepeatMonthly": "毎月",
   "editorRepeatNone": "繰り返されない",
-  "editorRepeatPagePlaceholder": "複雑な繰り返しルールは今後も拡張されていく予定です。",
-  "editorRepeatPageTitle": "リピート設定",
   "editorRepeatWeekdays": "営業日",
   "editorRepeatWeekly": "毎週",
   "editorRepeatYearly": "毎年",
@@ -335,7 +319,6 @@
   "forumDislike": "よくないね",
   "forumSave": "保存",
   "forumEdit": "編集",
-  "forumDownload": "ダウンロード",
   "forumReport": "報告",
   "forumReportReason": "理由",
   "forumReportSubmitted": "報告を送信しました。",
@@ -353,14 +336,6 @@
        "type": "int"
       },
      "karma": {
-       "type": "int"
-      }
-    }
-  },
-  "forumKarmaLevelOnly": "Lv{level}",
-  "@forumKarmaLevelOnly": {
-   "placeholders": {
-     "level": {
        "type": "int"
       }
     }
@@ -434,14 +409,6 @@
    "placeholders": {
      "karma": {
        "type": "int"
-      }
-    }
-  },
-  "forumReportFailed": "報告の送信に失敗しました: {error}",
-  "@forumReportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
       }
     }
   },
@@ -654,7 +621,6 @@
   "homeCalendarMonthDayRange": "{day}日 - {endDay}日",
   "homeCalendarMonthWeek": "{month} 第{month}週",
   "homeCalendarSummerBreak": "夏休",
-  "homeCalendarTopLabel": "{year}年度 {term}",
   "homeCalendarTopLabelYearOnly": "{year}年度",
   "homeCalendarWinterBreak": "冬休",
   "homeCalendarYearMonth": "{year}年 {year}",
@@ -666,12 +632,9 @@
   "homeGridModeCourse": "カリキュラムグリッド",
   "homeGridModeTime": "タイムグリッド",
   "homePeriodRange": "{start} - {end}",
-  "homeScopeMonth": "月",
-  "homeScopeWeek": "週",
   "homeWeekdayLabel": "{weekday}",
   "hourH": "{hour} 時間",
   "importedTimestr": "インポート済み {timeStr}",
-  "importSources": "インポート元",
   "importViaEmbeddedWebLogin": "埋め込みWebログイン経由でインポート",
   "k1Hour": "1時間",
   "k30Minutes": "30分",
@@ -700,17 +663,13 @@
   "luotopiaAlreadyHaveAccount": "アカウントあり？",
   "luotopiaConfirmLogout": "ログアウトを確認",
   "luotopiaConfirmPassword": "パスワード確認",
-  "luotopiaCreateAccount": "珞家アカウントを作成",
   "luotopiaEmailHint": "パスワード復旧用",
-  "luotopiaEmailOptional": "メール（任意）",
-  "luotopiaLoggingIn": "ログイン中…",
   "luotopiaLoginTitle": "珞家にログイン",
   "luotopiaLogoutWarning": "ログアウト後、フォーラムなどの機能を使うには再ログインが必要です。",
   "luotopiaNoAccountYet": "アカウントなし？",
   "luotopiaNotLoggedIn": "未ログイン",
   "luotopiaPasswordHint": "6 文字以上",
   "luotopiaPasswordsDoNotMatch": "パスワードが一致しません",
-  "luotopiaPleaseFillFields": "ユーザー名とパスワードを入力してください",
   "luotopiaEmailRequired": "メールアドレスを入力してください",
   "luotopiaEmailInvalid": "有効なメールアドレスを入力してください",
   "luotopiaPasswordRequired": "パスワードを入力してください",
@@ -719,13 +678,10 @@
   "luotopiaPasswordRequireLowercase": "小文字を含める",
   "luotopiaPasswordRequireUppercase": "大文字を含める",
   "luotopiaPasswordRequireSpecial": "特殊文字を含める",
-  "luotopiaRegistering": "登録中…",
-  "luotopiaRegisterTitle": "珞家登録",
   "luotopiaUsername": "ユーザー名",
   "luotopiaUsernameMinHint": "3 文字以上",
   "luotopiaUsernameTooShort": "ユーザー名は 3 文字以上にしてください",
   "luotopiaWelcomeBack": "おかえりなさい",
-  "middleTab": "中央のタブ",
   "minuteMin": "{minute} 分",
   "navAi": "AI",
   "navCampus": "キャンパス",
@@ -748,11 +704,6 @@
   "scoreImportSpoilerSubtitle": "GPA のみ取得可能だが、学部教務より早く出る場合あり",
   "scoreImportSuccess": "インポート成功",
   "scoreImportTitle": "成績インポート",
-  "scorePageGradeRange60": "60～69点",
-  "scorePageGradeRange70": "70～79点",
-  "scorePageGradeRange80": "80～89点",
-  "scorePageGradeRange90": "90～100点",
-  "scorePageGradeRangeFail": "失敗しました",
   "scorePageRetry": "再試行",
   "scorePageTitle": "成績",
   "seatReservationTitle": "座席予約",
@@ -825,7 +776,6 @@
   "settingsHomeItemOpacity": "予定ブロックの不透明度",
   "settingsHomeSectionTitle": "ホームページの設定",
   "settingsHomeTimeGridSettings": "タイムグリッドモードの設定",
-  "settingsHomeWideLayout": "超広範なデフォルト範囲",
   "settingsLicenses": "オープンソースライセンス",
   "settingsMinutesValue": "{value}分",
   "settingsNavigationEntrySubtitle": "タブの表示・順序・ラベル",
@@ -853,7 +803,6 @@
   "settingsTermsOfService": "利用規約",
   "settingsCrossBorderDataTransfer": "国境を越えるデータ移転に関する通知",
   "settingsTheme": "テーマ",
-  "settingsTitle": "設定",
   "settingsVersion": "バージョン",
   "settingsFriendLinksTitle": "フレンドリンク",
   "settingsFriendLinksSubtitle": "パートナー、コミュニティ、関連プロジェクト",
@@ -1075,16 +1024,6 @@
       }
     }
   },
-  "@homeCalendarTopLabel": {
-   "placeholders": {
-     "year": {
-       "type": "String"
-      },
-     "term": {
-       "type": "String"
-      }
-    }
-  },
   "@homeCalendarTopLabelYearOnly": {
    "placeholders": {
      "year": {
@@ -1265,7 +1204,6 @@
     }
   },
   "aiOpenDraftPage": "下書きページを開く",
-  "aiSending": "送信中",
   "aiSend": "送信",
   "aiClearHistory": "履歴消去",
   "aiRename": "名前を変更",
@@ -1406,6 +1344,7 @@
   "hotUpdateStatusMissing": "ローカルにありません — 下に引いてダウンロード",
   "hotUpdateStatusEmbedded": "内蔵の既定値を使用中",
   "hotUpdateStatusCached": "キャッシュ済みのリモート版を使用中",
+  "hotUpdateStatusUnknown": "不明なスクリプト — 有効にするにはアプリを更新してください",
   "hotUpdateStatusTestFailed": "前回の更新：サンドボックステストに失敗",
   "hotUpdateStatusDownloadFailed": "前回の更新：ダウンロードに失敗",
   "hotUpdateStatusCommitFailed": "前回の更新：コミットに失敗",
@@ -1688,8 +1627,6 @@
   },
   "courseDetailGradesTab": "成績分布",
   "courseDetailReviewsTab": "授業評価",
-  "courseAuditTitle": "聴講",
-  "courseAuditPlaceholder": "聴講（蹭課）機能は開発中です…",
   "gradesReviewsSearchFailMessage": "検索に失敗: {message}",
   "@gradesReviewsSearchFailMessage": {
    "placeholders": {
@@ -1780,7 +1717,6 @@
   "sportsReservationSelectVenueTimeHint": "先に予約可能な施設と時間帯を選んでください。",
   "sportsReservationVenueTimeUnavailable": "選択した施設または時間帯は予約できません。選び直してください。",
   "sportsReservationSessionExpired": "スポーツ施設システムのログインが無効です。",
-  "sportsReservationAuthRequired": "先にスポーツ施設システムを認可してください。",
   "sportsReservationWhuLoginRequired": "先に武大統一認証にログインしてください。",
   "sportsFetchSportsTypes": "競技種目を取得",
   "sportsFetchOftenVenues": "よく使う施設を取得",
@@ -1917,22 +1853,6 @@
     }
   },
   "scoreImportLastImport": "前回のインポート",
-  "scoreImportTime": "時刻: {time}",
-  "@scoreImportTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-      }
-    }
-  },
-  "scoreImportCount": "成績件数: {count}",
-  "@scoreImportCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "scoreImportExample": "例: {name} · {score} · {credit}",
   "@scoreImportExample": {
    "placeholders": {
@@ -1971,19 +1891,9 @@
     }
   },
   "itemDetailDateRangeTo": " ～ ",
-  "itemDetailSectionGrading": "採点",
-  "itemDetailScoreOverall": "総合",
-  "itemDetailScoreContinuous": "平常点",
-  "itemDetailScoreFinal": "期末",
-  "itemDetailSectionDistribution": "成績分布",
   "itemDetailSectionReviews": "授業評価",
   "itemDetailCourseInsightsTitle": "実際の科目成績とレビュー",
-  "itemDetailCourseInsightsDescription": "珞家の統計、Hamの成績データ、学生のレビューを確認できます。時間割の科目は科目名で照合されます。",
   "itemDetailCourseInsightsAmbiguous": "珞家には同名の科目が複数あります。誤ったデータを使用しないよう、正しい科目を選択してください。",
-  "itemDetailMockReview1": "先生の説明が分かりやすく、教材もよく、採点も妥当です。毎回の演習が理解に役立ちます。",
-  "itemDetailMockReview2": "内容は充実しているが期末は難しい。課題量は普通。早めの復習を推奨。",
-  "itemDetailMockReview3": "強くおすすめ。専攻の方向が明確になり、実験もよく設計されています。",
-  "itemDetailMockReviewer": "匿名の学生",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} 件のメッセージ",
   "@aiMessageCount": {
@@ -2065,7 +1975,6 @@
   "weatherAqiGood": "良",
   "weatherAqiModerate": "軽度汚染",
   "weatherAqiPoor": "中度汚染",
-  "weatherBannerRainSoon": "まもなく雨。傘を忘れずに！",
   "weatherBannerRainImminent": "まもなく雨。傘を忘れずに！",
   "weatherRainReminderTitle": "降雨リマインダー",
   "weatherBannerRainInMinutes": "約{minutes}分後に雨。傘を。",
@@ -2361,11 +2270,6 @@
   "wallpaperTargetCampus": "キャンパス",
   "wallpaperTargetSettings": "設定",
   "wallpaperTargetTaskList": "タスクリスト",
-  "wallpaperTargetListMyDay": "リスト · 今日",
-  "wallpaperTargetListAllItems": "リスト · すべて",
-  "wallpaperTargetListTasks": "リスト · タスク",
-  "wallpaperTargetListSchedules": "リスト · 予定",
-  "wallpaperTargetListMemos": "リスト · メモ",
   "wallpaperTargetForum": "フォーラム",
   "wallpaperTargetAi": "AI",
   "libraryBorrowingPlaceholder": "図書貸出機能は開発中です…",
@@ -2805,7 +2709,6 @@
   "authUsePasskey": "Passkeyを使用",
   "authResendCode": "コードを再送信",
   "authBackToPasswordLogin": "パスワードログインに戻る",
-  "authLoginRequired": "先にログインしてください",
   "commonConfirm": "確認",
   "commonContinue": "続ける",
   "commonCopy": "コピー",
@@ -3030,8 +2933,6 @@
   "authGenderFemale": "女性",
   "authGenderNonBinary": "ノンバイナリー",
   "authGenderPreferNotToSay": "回答しない",
-  "authGenderOther": "その他",
-  "authCustomGender": "性別を説明してください",
   "authBirthday": "誕生日",
   "authBio": "自己紹介",
   "authProfileUpdateFailed": "プロフィールの更新に失敗しました: {error}",
@@ -3097,14 +2998,6 @@
   },
   "courseGradeStatsMedian": "Median score",
   "courseGradeStatsDistribution": "成績分布",
-  "courseGradeStatsTotalScore": "総合点（0～100）",
-  "@courseGradeStatsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "courseReviewsLoginRequired": "匿名の授業レビューを見るにはログインしてください。",
   "courseReviewsSyncEligibility": "修了した授業を同期",
   "courseReviewsWrite": "匿名レビューを書く",
@@ -3165,27 +3058,8 @@
       }
     }
   },
-  "forumBoardsLoadFailed": "掲示板の読み込みに失敗しました: {error}",
-  "@forumBoardsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
-  "forumPostsLoadFailed": "投稿の読み込みに失敗しました: {error}",
   "forumAttachmentAdd": "添付ファイルを追加",
   "forumImageAdd": "画像を追加",
-  "forumSupportedImageFormats": "対応画像形式",
-  "forumSupportedAttachmentFormats": "対応ファイル形式",
-  "forumAttachmentUploadFailed": "添付ファイルのアップロードに失敗しました: {error}",
-  "@forumPostsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumPostTitle": "タイトル",
   "forumPostContent": "内容",
   "forumPublish": "公開",
@@ -3199,43 +3073,13 @@
   },
   "forumEmpty": "まだ投稿がありません。最初の投稿をしてみましょう。",
   "forumAnonymous": "匿名",
-  "forumPostMetadata": "{author} · 返信 {comments} 件 · 高評価 {upvotes} 件",
-  "@forumPostMetadata": {
-   "placeholders": {
-     "author": {
-       "type": "String"
-      },
-     "comments": {
-       "type": "int"
-      },
-     "upvotes": {
-       "type": "int"
-      }
-    }
-  },
   "forumPostDetails": "投稿の詳細",
   "forumReplies": "返信",
   "forumRepliesEmpty": "まだ返信はありません。",
   "forumReply": "返信",
-  "forumRepliesLoadFailed": "返信の読み込みに失敗しました: {error}",
-  "@forumRepliesLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumReplyPost": "投稿に返信",
   "forumReplyHint": "礼儀を守り、個人情報は共有しないでください。",
   "forumSend": "送信",
-  "forumReplyFailed": "返信に失敗しました: {error}",
-  "@forumReplyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-      }
-    }
-  },
   "forumMyPosts": "自分の投稿",
   "forumLikedPosts": "高く評価した投稿",
   "forumFavoritePosts": "保存した投稿",
@@ -3453,7 +3297,6 @@
   "forumModerationAppeals": "異議申立て",
   "settingsBuildInfoArchitecture": "アーキテクチャ",
   "settingsBuildInfoBuildTime": "ビルド時刻",
-  "luotopiaRegisterVerifyEmail": "登録が完了しました。メール認証後にログインしてください。",
   "courseImportSemesterAlreadyAdded": "この学期は既に追加されています。時間割メニューから「時間割を更新」を選んでください。",
   "waterControlClassNo": "クラス番号 {classNo}",
   "forumImageFiles": "フォーラム画像",
@@ -3621,8 +3464,6 @@
   "campusBusArrivalDisabled": "リマインダーOFF",
   "campusBusArrivalTarget": "リマインダー対象",
   "campusBusArrivalAutoDisableHint": "バス到着後に自動で無効化",
-  "medicalCardSearchTitle": "診察カード検索",
-  "medicalCardSearchDescription": "診察カードを検索して記録を確認",
   "medicalPatientName": "患者名",
   "medicalRequiredField": "必須項目です",
   "medicalIdType": "本人確認書類",
@@ -3636,15 +3477,6 @@
   "medicalIdPassport": "パスポート",
   "medicalIdMainlandTravelPermit": "渡航許可証",
   "medicalIdOther": "その他",
-  "medicalGreeting": "こんにちは、{name}さん",
-  "@medicalGreeting": {
-   "placeholders": {
-     "name": {
-       "type": "String"
-      }
-    }
-  },
-  "medicalHospitalName": "武漢大学校医院",
   "medicalSessionExpired": "セッションが期限切れです。再度ログインしてください",
   "medicalSearchFailed": "検索に失敗しました。もう一度お試しください",
   "medicalSearchComplete": "検索完了",
@@ -3656,7 +3488,6 @@
   "medicalPaidInvoices": "支払い済み明細",
   "medicalPatientCards": "診察カード",
   "medicalQueue": "順番待ち状況",
-  "medicalInpatient": "入院",
   "medicalInpatientDeposit": "入院前払金",
   "medicalInpatientDailyList": "入院日別明細",
   "medicalInvoiceDetail": "明細詳細",
@@ -3684,15 +3515,12 @@
   "medicalLabAxisToggle": "結果軸",
   "medicalCardQueryTitle": "診察カード",
   "medicalCardQueryEmpty": "連携済みの診察カードはありません",
-  "medicalCardQueryEmptyHint": "右上の作成ボタンをタップして新しいカードを作成するか、下の検索から既存のカードを連携してください",
   "medicalCardAddTitle": "診察カードを追加",
   "medicalCardSearchBind": "既存のカードを検索して連携",
   "medicalCardSearchBindDesc": "情報を入力して既存の診察カードを検索・連携します",
   "medicalCardCreateNew": "新しいカードを作成",
   "medicalCardCreateNewDesc": "新しい診察カードを作成します",
-  "medicalCreateCard": "カードを作成",
   "medicalBindCard": "連携",
-  "medicalBindCardTitle": "診察カードを連携",
   "medicalSendCode": "認証コードを送信",
   "medicalResendCode": "再送信",
   "medicalCodeResent": "認証コードを送信しました",
@@ -3705,36 +3533,14 @@
     }
   },
   "medicalAuthCode": "認証コード",
-  "medicalAuthCodeHint": "SMSで届いた認証コードを入力",
   "medicalCity": "市区町村",
-  "medicalCityHint": "市区町村を選択",
   "medicalAddress": "住所",
-  "medicalAddressHint": "詳しい住所を入力",
   "medicalBindSuccess": "連携しました",
-  "medicalBindFailed": "連携に失敗しました",
   "medicalCreateSuccess": "作成しました",
   "medicalCreateFailed": "作成に失敗しました",
-  "medicalSetDefault": "デフォルトに設定",
   "medicalSetDefaultSuccess": "デフォルトカードに設定しました",
-  "medicalSetDefaultFailed": "デフォルトカードの設定に失敗しました",
   "medicalCardDetail": "カード詳細",
   "medicalInvoiceTotal": "合計",
-  "medicalInvoiceQuantity": "数量 {value}",
-  "@medicalInvoiceQuantity": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoicePackageCount": "{value}箱",
-  "@medicalInvoicePackageCount": {
-    "placeholders": {
-      "value": {
-        "type": "int"
-      }
-    }
-  },
   "medicalInvoiceTotalQuantity": "合計 {value}",
   "@medicalInvoiceTotalQuantity": {
     "placeholders": {
@@ -3745,14 +3551,6 @@
   },
   "medicalInvoiceSpecification": "規格 {value}",
   "@medicalInvoiceSpecification": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "medicalInvoiceUnitPrice": "単価 {value}",
-  "@medicalInvoiceUnitPrice": {
     "placeholders": {
       "value": {
         "type": "String"
@@ -3784,11 +3582,8 @@
     }
   },
   "medicalSelectCard": "カードを選択",
-  "medicalCardType": "カード種別",
-  "medicalSearchCardHint": "連携する既存のカードを検索",
   "medicalConfirmBind": "連携を確認",
   "medicalConfirmCreate": "作成を確認",
-  "medicalCardBound": "このカードはすでに連携されています",
   "medicalMaskedPhone": "確認コードを{phone}に送信します",
   "@medicalMaskedPhone": {
    "placeholders": {
@@ -3797,18 +3592,12 @@
       }
     }
   },
-  "medicalCardQuerySearchSection": "診察カードを検索",
-  "medicalCardQuerySearchDescription": "情報を入力して既存の診察カードを検索・連携します",
   "campusBusRouteViewVertical": "縦型ルート表示",
   "campusBusOutsideServiceRange": "運行時間外です",
   "campusBusNoReachableBus": "この停留所に到着できるバスがありません。別の停留所を選ぶか、運行時間内に再試行してください。",
   "campusBusArrivalUseNearestToggle": "この路線の最寄り停留所を使う",
   "campusBusRouteViewHorizontal": "横型ルート表示",
-  "luotopiaLoginIdentifierLabel": "メールアドレス、ユーザー名、またはWHU学生番号",
-  "luotopiaLoginIdentifierHint": "このアカウントに紐付いた識別情報を使用してください",
-  "luotopiaLoginIdentifierRequired": "メールアドレス、ユーザー名、またはWHU学生番号を入力してください",
   "authErrorInvalidCredentials": "メールアドレスまたはパスワードが正しくありません。",
-  "authErrorEmailNotAllowed": "WHUのメールアドレス（@whu.edu.cn または @alumni.whu.edu.cn）を使用してください。",
   "authErrorEmailExists": "このメールアドレスは登録済みです。ログインするか、パスワードをリセットしてください。",
   "authErrorEmailUnverified": "ログインする前にメールアドレスを確認してください。",
   "authErrorUserDisabled": "このアカウントは無効になっています。",
@@ -3817,7 +3606,6 @@
   "authErrorWhuAlreadyBound": "このWHUアカウントはすでに別の珞家アカウントに連携されています。",
   "authErrorVerificationFailed": "確認に失敗したか、有効期限が切れています。もう一度お試しください。",
   "authErrorRateLimited": "リクエストが多すぎます。しばらくしてからお試しください。",
-  "authErrorRequestFailed": "リクエストに失敗しました。もう一度お試しください。",
   "apiErrorUnauthorized": "認証が必要です。",
   "apiErrorInvalidToken": "セッションの有効期限が切れました。もう一度ログインしてください。",
   "apiErrorTokenExpired": "セッションの有効期限が切れました。もう一度ログインしてください。",
@@ -3872,10 +3660,8 @@
   "luotopiaRegisterStepProfileSubtitle": "表示名と珞家アカウントのメールアドレスを選択してください。",
   "luotopiaRegisterEmailVerifiedHint": "このメールアドレスはWHUアカウントで確認済みのため自動入力されました。変更することもできます。",
   "luotopiaRegisterEmailUnverifiedHint": "WHUのメールアドレスである場合は、先にWHUアカウントページで確認すると自動入力できます。",
-  "luotopiaRegisterGoVerifyEmail": "WHUアカウントで確認",
   "luotopiaRegisterStepPasswordTitle": "パスワードを設定",
   "luotopiaRegisterStepPasswordSubtitle": "10文字以上を使用してください。ログイン時にこのパスワードが必要です。",
-  "scoreImportCountLabel": "成績数",
   "campusAppMajorInfo": "学部・専攻情報",
   "majorInfoTitle": "学部・専攻情報",
   "majorInfoDescription": "学術部門、学部、専攻、教育計画、就職データを閲覧できます。",
@@ -3900,7 +3686,6 @@
   "majorInfoTrainingPlan": "学部の育成計画",
   "majorInfoOpenTrainingPlan": "育成計画のプレビューを開く",
   "majorInfoTrainingPlanSubtitle": "Chaoxingの公式文書プレビューを開きます",
-  "majorInfoTrainingPlanLoading": "育成計画を読み込んでいます…",
   "majorInfoTrainingPlanUnavailable": "育成計画のプレビューは利用できません。",
   "scoreImportParsedCountLabel": "取得した成績",
   "scoreImportMergedCountLabel": "統合した成績",
@@ -4061,11 +3846,6 @@
   "settingsPrivacyCourseDataDescription": "WHUアカウントだけで、Luotopiaに登録せずに学内サービスを利用できます。Luotopiaにログインして科目の成績やレビューを利用すると、確認済みの成績を匿名統計用に個人が特定できない形で利用することに同意したものとみなされます。",
   "settingsPrivacyCourseDataAggregationTitle": "匿名の成績統計",
   "settingsPrivacyCourseDataAggregationSubtitle": "分布と平均は、サンプル数が最低基準に達した場合にのみ表示されます。個別の成績、身元情報、WHUのパスワード、教育システムのCookieが公開されることはありません。",
-  "scoreContributionAutoSyncTitle": "成績を自動同期して共有",
-  "scoreContributionAutoSyncDescription": "学部成績の取得後、修了科目の対象判定を同期し、正確な数値成績を珞家の匿名集計に提供します。",
-  "scoreContributionLoginRequired": "成績の自動共有を有効にするには、珞家にログインしてください。",
-  "scoreContributionConsentTitle": "成績の自動共有を許可",
-  "scoreContributionConsentMessage": "学部成績の取得に成功するたびに、珞家は1回限りのWHU CASチケットを使って、サーバー上で成績表を確認します。修了科目は対象判定のため非公開で保存され、科目と担当教員が一致した正確な数値成績は匿名集計に追加されます。WHUのパスワードと教育システムのCookieがアップロードされることはありません。今後の同期はいつでも無効にできます。",
   "forumReplyDepthLimit": "これ以上返信できません",
   "aiStop": "停止",
   "aiAutomation": "自動化レベル",
@@ -4132,7 +3912,6 @@
   "forumAdminLogLoadMore": "もっと見る",
   "forumAdminLogSearchHint": "要約または詳細を検索",
   "forumAdminLogTitle": "モデレーション通知",
-  "forumAppealFlavor": "再審査をリクエスト",
   "forumCheckinDone": "今日はチェックイン済みです",
   "forumCheckinFixed": "固定路線（+{amount}）",
   "forumCheckinRandom": "一撃の抽選",
@@ -4197,17 +3976,10 @@
   "forumReportSubmittedFlavor": "記録しました。回答待ちです。",
   "courseGradeStatsAllTeachersPrepared": "全教師のデータが準備完了です。教師を選んで成績データを表示してください。",
   "courseGradeStatsExamAverage": "平均試験成績",
-  "courseGradeStatsFail": "不合格",
   "courseGradeStatsLoadFailed": "成績分布の読み込みに失敗しました: {error}",
-  "courseGradeStatsNoTeachers": "この科目には教師がいないため、成績を提出できません。",
   "courseGradeStatsPrivacyThreshold": "プライバシー保護のため最低 5 件のサンプルが必要です。",
   "courseGradeStatsSamples": "{count} 件の匿名サンプル",
-  "courseGradeStatsSourceHam": "出典: Ham",
   "courseGradeStatsSourceHint": "データソースを選択",
-  "courseGradeStatsSourceLuotopia": "出典: Luotopia",
-  "courseGradeStatsSubmit": "匿名で成績を提出",
-  "courseGradeStatsSubmitFailed": "成績の提出に失敗しました: {error}",
-  "courseGradeStatsSubmitted": "匿名成績を提出しました。",
   "courseGradeStatsTeacherClear": "教師をクリア",
   "courseGradeStatsTeacherHint": "対応する成績データを表示する教師を選択してください。",
   "courseGradeStatsTeacherInputHint": "教師を検索、または空のままですべて表示",
@@ -4263,42 +4035,6 @@
   "adminSystemQueues": "システムタスクキュー",
   "luotopiaAccountViewLargeAvatar": "アバターを拡大表示",
   "luotopiaAccountChangeAvatar": "アバターを変更",
-  "luotopiaRegisterDebugCode": "デバッグ検証コード",
-  "schoolNetCheckpointRecorded": "キャプチャチェックポイントが記録されました",
-  "schoolNetCheckpointTooltip": "取水コードのキャプチャチェックポイントを記録",
-  "schoolNetCheckpointDevicesLoaded": "{count}台のオンラインデバイスを取得しました",
-  "@schoolNetCheckpointDevicesLoaded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
-  "schoolNetCheckpointBeforeSeamlessAuthCancel": "シームレス認証キャンセル前",
-  "schoolNetCheckpointAfterSeamlessAuthCancel": "シームレス認証キャンセル後",
-  "schoolNetCheckpointBeforeDeviceDisconnect": "デバイス切断前",
-  "schoolNetCheckpointAfterDeviceDisconnect": "デバイス切断後",
-  "schoolNetAuthEmptyCredentials": "ユーザー名またはパスワードを空にすることはできません",
-  "schoolNetAuthPortalNotDetected": "キャンパスネットワークのログインページが検出されません",
-  "schoolNetAuthServiceUnavailable": "キャンパスネットワークサービスは一時的に利用できません",
-  "schoolNetAuthRejected": "キャンパスネットワークログインが拒否されました",
-  "schoolNetAuthSubmittedNotOnline": "認証情報は送信されましたがオンラインと表示されません",
-  "schoolNetAuthTimeout": "キャンパスネットワークログインがタイムアウトしました",
-  "schoolNetAuthConnectionFailed": "キャンパスネットワークへの接続に失敗しました",
-  "whuCasCodeSendFailed": "検証コードの送信に失敗しました",
-  "whuCasFormErrorFallback": "CASフォーム送信エラー",
-  "aiModelFormatUnsupported": "未対応のAIモデルフォーマット",
-  "aiModelRequestCancelled": "AIリクエストがキャンセルされました",
-  "aiModelHttpError": "AI HTTPエラー ({statusCode})",
-  "@aiModelHttpError": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
-      }
-    }
-  },
-  "aiModelDuplicateToolCallId": "重複したツール呼び出しID",
-  "aiModelEmptyResponse": "AIが空の応答を返しました",
   "aiToolStatusRunning": "ツールを実行中...",
   "aiToolStatusWaiting": "ユーザーの操作を待機中...",
   "aiToolStatusCompleted": "ツール実行完了",
@@ -4306,10 +4042,6 @@
   "aiToolUnknown": "不明なツール",
   "aiRequestCancelled": "リクエストがキャンセルされました。",
   "majorInfoLegendOver10": "10%以上",
-  "majorInfoLegend5To10": "5%-10%",
-  "majorInfoLegend1To5": "1%-5%",
-  "majorInfoLegend0To1": "0-1%",
-  "majorInfoLegend0": "0%",
   "courseWeekRangeAll": "{range}週",
   "@courseWeekRangeAll": {
    "placeholders": {
@@ -4334,21 +4066,8 @@
       }
     }
   },
-  "sportsAreaLabel": "{no}番コート",
-  "@sportsAreaLabel": {
-   "placeholders": {
-     "no": {
-       "type": "Object"
-      }
-    }
-  },
-  "courseUnnamed": "無題のコース",
-  "courseTimetableWakeupDefaultName": "WakeUp 時間割",
-  "courseTimetableShiguangDefaultName": "拾光 時間割",
-  "courseTimetableXinglianDefaultName": "星連 時間割",
   "courseTimetableLocalFileDefaultName": "ローカル時間割",
   "studyStatusOutOfPlanSectionTitle": "計画外コース",
-  "schoolNetDefaultDeviceName": "マイデバイス",
   "forumFreeUpvote": "無料高評価",
   "forumFreeDownvote": "無料低評価",
   "whuAuthSmsSendFailed": "検証コードの送信に失敗しました。電話番号を確認してやり直してください。",
@@ -4527,10 +4246,8 @@
   "toolkitVerifyConfirmRecordTitle": "テスト記録カードを生成",
   "toolkitVerifyConfirmRecordMessage": "{id} には書き込み操作が含まれます。テスト記録を確認してください。",
   "toolkitVerifyConfirmRecordConfirm": "記録を生成",
-  "toolkitVerifyNotifWriteTitle": "テスト書き込み通知",
   "toolkitVerifyNotifAgendaTitle": "テスト日程リマインダー通知",
   "toolkitVerifyNotifAgendaUpdated": "テスト日程が更新されました",
-  "toolkitVerifyNotifReminder": "テスト日程リマインダーを送信しました",
   "toolkitVerifyAuthPrerequisite": "認証の前提条件",
   "toolkitVerifyWhuCas": "WHU CAS 認証",
   "toolkitVerifyAuthenticated": "認証済み · {subject}",
@@ -4558,7 +4275,6 @@
   "waterElectricRoom": "部屋",
   "waterElectricSaveAndQuery": "保存してクエリする",
   "waterElectricDirectoryLoadFailed": "ルームディレクトリをロードできませんでした。",
-  "waterElectricChooseFirst": "最初に水道・電気料金の部屋を選択してください",
   "waterElectricChooseFirstDescription": "いつでも変更できます。これによって学校ポータルのデータが変更されることはありません。",
   "waterElectricChooseRoom": "部屋を選択してください",
   "waterElectricRefresh": "リフレッシュ",
@@ -4648,90 +4364,106 @@
   "whuEmailParserLabel": "WHU メール応答パーサー",
   "whuMessagesMarkReadFailed": "既読にできませんでした",
   "whuMessagesRequestFailed": "リクエストに失敗しました",
-  "whuScoreExamTypeNormal": "正規試験",
-  "whuScoreMidtermWithdraw": "中期履修取消",
   "whuLibraryResultUnknown": "図書館の操作結果が不明です。再試行するかどうかを判断する前に、状態を更新してください。",
   "sportsAuthFailedCasRequired": "運動施設システムの認証に失敗しました。WHU CAS 経由で再度ログインしてください。",
   "waterControlAccountExchangeFailed": "水道アカウントの交換に失敗しました。",
-  "courseTimetableLocalFileDefaultName": "ローカル時間割"
-,  "aiAssistantDefault": "デフォルト",
-  "aiAssistantDeleteConfirm": "このアシスタントを削除しますか？",
-  "aiAssistantEmpty": "アシスタントがありません",
+  "courseTimetableLocalFileDefaultName": "ローカル時間割",
+  "aiImageGeneration": "画像を生成",
+  "aiImageGenerationHint": "作成したい画像を説明してください",
+  "aiImageGenerationEmpty": "生成した画像がここに表示されます。",
+  "settingsAiModelParamsTitle": "モデルパラメータ",
+  "settingsAiModelCapabilities": "モデルの機能",
+  "settingsAiCapabilityVision": "画像",
+  "settingsAiCapabilityDocument": "ドキュメント",
+  "settingsAiCapabilityAudio": "音声",
+  "settingsAiCapabilityVideo": "動画",
+  "settingsAiTemperature": "温度",
+  "settingsAiTopP": "Top P（累積確率）",
+  "settingsAiMaxTokens": "最大トークン数",
+  "settingsAiParamDefault": "プロバイダーのデフォルト",
+  "aiSearchSessions": "会話を検索",
+  "aiSearchNoResults": "一致する会話はありません",
+  "aiPinned": "ピン留め済み",
+  "aiToday": "今日",
+  "aiYesterday": "昨日",
+  "aiPin": "ピン留め",
+  "aiUnpin": "ピン留めを解除",
+  "aiDeleteSessionConfirm": "この会話を削除しますか？",
+  "aiAssistantDefault": "デフォルト",
   "aiAssistantManage": "アシスタントを管理",
-  "aiAssistantName": "名前",
   "aiAssistantNew": "新しいアシスタント",
+  "aiAssistantName": "アシスタント名",
   "aiAssistantSystemPrompt": "システムプロンプト",
-  "aiAssistantUseGlobal": "グローバルを使用",
+  "aiAssistantEmpty": "アシスタントはまだ作成されていません",
+  "aiAssistantUseGlobal": "グローバル設定を使用",
+  "aiAssistantDeleteConfirm": "このアシスタントを削除しますか？",
   "aiClose": "閉じる",
-  "aiCodeCollapse": "折りたたむ",
+  "aiExport": "エクスポート",
+  "aiShare": "共有",
+  "aiCompressContext": "コンテキストを圧縮",
+  "aiCompressContextDescription": "古いメッセージを削除してトークン使用量を減らします。現在の会話には {count} 件のメッセージがあります。",
+  "aiCompressKeepRecent": "最新のメッセージを {count} 件残す",
+  "aiCompress": "圧縮",
+  "aiMcpImportJson": "JSON をインポート",
+  "aiMcpImport": "インポート",
+  "aiEditingMessage": "メッセージを編集中",
+  "aiForkFromHere": "ここから新しい会話を開始",
+  "aiSkills": "スキル",
+  "aiSkillsEmpty": "インストールされているスキルはありません",
+  "aiSkillsManage": "スキルを管理",
+  "aiSkillNew": "新しいスキル",
+  "aiSkillName": "スキル名",
+  "aiSkillNameHint": "小文字の名前",
+  "aiSkillDescription": "説明",
+  "aiSkillInstructions": "指示",
+  "aiTranslate": "翻訳",
+  "aiTranslateTo": "翻訳先",
+  "aiAddFavorite": "お気に入りに追加",
+  "aiRemoveFavorite": "お気に入りから削除",
+  "aiAddAttachment": "添付ファイルを追加",
+  "aiPickImages": "画像を選択",
+  "aiTakePhoto": "写真を撮る",
+  "aiPickFiles": "ファイルを選択",
+  "aiAttachmentUnsupported": "このモデルは選択した添付ファイル形式に対応していません。",
+  "aiSpeak": "読み上げる",
+  "aiVoiceInput": "音声入力",
+  "aiSkillsEnabled": "有効なスキル: {count} 件",
+  "aiMcp": "MCP",
+  "aiMcpEmpty": "MCP サーバーが設定されていません",
+  "aiMcpEnabled": "接続済みの MCP サーバー: {count} 件",
+  "aiMcpAddServer": "サーバーを追加",
+  "aiMcpServerName": "サーバー名",
+  "aiMcpServerUrl": "サーバー URL",
+  "aiMcpTransportType": "トランスポート",
+  "aiMcpTransportSse": "SSE",
+  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "コピーしました",
   "aiCodeExpand": "展開",
-  "aiCodeToggleLineNumbers": "行番号の表示切替",
-  "aiCompress": "圧縮",
-  "aiCompressContext": "コンテキストを圧縮",
-  "aiDeleteSessionConfirm": "このセッションを削除しますか？",
-  "aiEditingMessage": "メッセージを編集中...",
-  "aiExport": "エクスポート",
-  "aiForkFromHere": "ここからフォーク",
-  "aiMcp": "MCP",
-  "aiMcpAddServer": "サーバーを追加",
-  "aiMcpEmpty": "MCP サーバーが設定されていません",
-  "aiPin": "ピン留め",
-  "aiPinned": "ピン留め済み",
-  "aiProviderBuiltin": "内蔵",
-  "aiSearchNoResults": "一致するセッションがありません",
-  "aiSearchSessions": "セッションを検索",
-  "aiShare": "共有",
-  "aiSkills": "スキル",
-  "aiSkillsEmpty": "利用可能なスキルがありません",
-  "aiToday": "今日",
-  "aiUnpin": "ピン留めを解除",
-  "aiYesterday": "昨日",
-  "settingsAiMaxTokens": "最大トークン数",
-  "settingsAiModelParamsTitle": "モデルパラメータ",
-  "settingsAiParamDefault": "デフォルト",
-  "settingsAiTemperature": "Temperature",
-  "settingsAiTopP": "Top P",
-  "aiCodeShowMoreLines": "{count, plural, other{残り{count}行を表示}}",
-  "@aiCodeShowMoreLines": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressKeepRecent": "{count, plural, other{直近{count}件を保持}}",
-  "@aiCompressKeepRecent": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiMcpEnabled": "{count, plural, other{{count} サーバー}}",
-  "@aiMcpEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiSkillsEnabled": "{count, plural, other{{count} スキル}}",
-  "@aiSkillsEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressContextDescription": "{messageCount} 件のメッセージを圧縮してトークンを節約します。",
-  "@aiCompressContextDescription": {
-   "placeholders": {
-    "messageCount": {
-     "type": "int"
-    }
-   }
-  }
-,  "aiMcpImport": "インポート",
-  "aiMcpImportJson": "JSON からインポート"
+  "aiCodeCollapse": "折りたたむ",
+  "aiCodeToggleLineNumbers": "行番号を切り替え",
+  "aiCodeShowMoreLines": "さらに {count} 行表示",
+  "onboardingPermissionMicrophoneTitle": "マイク",
+  "onboardingPermissionMicrophoneDescription": "AI 会話での音声入力（音声認識）に使用します。",
+  "hotUpdateEditScript": "スクリプトを編集",
+  "hotUpdateSaveScript": "保存",
+  "hotUpdateResetScript": "リモート版またはデフォルトに戻す",
+  "hotUpdateTestFailed": "サンドボックステストに失敗したため、スクリプトは保存されませんでした",
+  "hotUpdateSaveSuccess": "スクリプトを保存し、テストしました",
+  "hotUpdateUserEdited": "ローカルで編集済み（更新を一時停止中）",
+  "hotUpdateResetConfirm": "編集内容を破棄して、リモート版またはデフォルトのスクリプトに戻しますか？",
+  "settingsAiWorkspaceExportTitle": "Agent データをエクスポート",
+  "settingsAiWorkspaceExportSubtitle": "メモ、下書き、設定を notes/ 配下の JSON ファイルにまとめます。チャットセッションファイルと保護された Tool Result のバイト列は含まれません。",
+  "settingsAiWorkspaceExportConfirmTitle": "Agent データをエクスポートしますか？",
+  "settingsAiWorkspaceExportConfirmMessage": "現在の所有者メモ、下書き、設定を含むデータがワークスペースに書き込まれます。チャットセッションファイルと Tool Result のバイト列は含まれません。エクスポートによってローカルデータが削除・変更されることはありません。",
+  "settingsAiWorkspaceExportConfirmAction": "エクスポートする",
+  "settingsAiWorkspaceExported": "{path} に {count} 件のファイルをエクスポートしました。",
+  "settingsAiWorkspaceExportFailed": "Agent ワークスペースのエクスポートに失敗しました: {error}",
+  "aiImageGenerationSize": "サイズ",
+  "aiImageGenerationCount": "画像数",
+  "aiImageGenerationReference": "参照画像",
+  "aiImageGenerationDelete": "削除",
+  "aiImageGenerationSave": "画像を保存",
+  "aiImageGenerationShare": "画像を共有",
+  "settingsAiCapabilityImageGeneration": "画像生成",
+  "aiSpeechTitle": "AI 音声", "aiSpeechRecognitionService": "音声認識サービス", "aiSpeechSpeechToText": "speech_to_text（システム）", "aiSpeechStts": "stts", "aiSpeechWhisper": "Whisper オフライン文字起こし", "aiSpeechWhisperModel": "Whisper モデル", "aiDownload": "ダウンロード", "aiSpeechEngine": "音声エンジン", "aiSpeechEdge": "Edge オンライン音声", "aiSpeechSttsVoice": "stts システム音声", "aiSpeechVoiceLoadFailed": "オンライン音声を読み込めません。現在の音声を使用します。", "aiSpeechVoice": "音声", "aiSpeechRate": "速度", "aiSpeechPitch": "ピッチ", "aiSpeechVolume": "音量", "aiSpeechPreviewText": "こんにちは。選択した AI 音声です。", "aiSpeechPreview": "現在の音声を試聴", "aiMcpImportFailed": "MCP サーバー設定をインポートできませんでした"
 }
