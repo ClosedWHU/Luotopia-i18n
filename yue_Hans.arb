@@ -3811,6 +3811,16 @@
   "aiAutomationManualDescription": "每项操作都要你确认咗先执行。",
   "aiAutomationSemiAutomaticDescription": "Agent 发起嘅写入操作仲要你确认，其他确认自动通过。",
   "aiAutomationFullyAutomaticDescription": "自动确认所有操作，并保留完整记录。",
+  "aiWebAccess": "开放网络访问",
+  "aiWebAccessDescription": "允许助手搜索开放网络，并将网页正文读入工作区。校园数据始终来自校园工具；网页正文作为唔可信内容存储，绝唔进入对话。",
+  "aiWebSearchProvider": "搜索提供方",
+  "aiWebSearchProviderBundled": "内置（限量）",
+  "aiWebSearchProviderBrave": "Brave Search（自备密钥）",
+  "aiWebSearchProviderTavily": "Tavily（自备密钥）",
+  "aiWebSearchApiKey": "提供方 API 密钥",
+  "aiWebSearchApiKeyHint": "所选提供方需要填写",
+  "aiConfirmationInputLabel": "信息来源（唔可信网页）：",
+  "aiConfirmationInputSource": "信息来源（唔可信网页）：{source}",
   "aiConfirmationAutoApproved": "已自动确认 {count} 项操作（{mode}）",
   "@aiConfirmationAutoApproved": {
    "placeholders": {

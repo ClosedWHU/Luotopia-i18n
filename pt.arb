@@ -3821,6 +3821,16 @@
   "aiAutomationManualDescription": "Cada ação aguarda sua confirmação antes de ser executada.",
   "aiAutomationSemiAutomaticDescription": "As ações de escrita do Agent ainda aguardam sua confirmação; as demais são confirmadas automaticamente.",
   "aiAutomationFullyAutomaticDescription": "Cada ação é confirmada automaticamente, com registro completo.",
+  "aiWebAccess": "Acesso à web aberta",
+  "aiWebAccessDescription": "Permite que o assistente pesquise na web aberta e leia páginas no espaço de trabalho. Os dados do campus sempre vêm das ferramentas do campus; o corpo das páginas é armazenado como conteúdo não confiável e nunca entra na conversa.",
+  "aiWebSearchProvider": "Provedor de pesquisa",
+  "aiWebSearchProviderBundled": "Integrado (com limite)",
+  "aiWebSearchProviderBrave": "Brave Search (chave própria)",
+  "aiWebSearchProviderTavily": "Tavily (chave própria)",
+  "aiWebSearchApiKey": "Chave de API do provedor",
+  "aiWebSearchApiKeyHint": "Obrigatória para o provedor selecionado",
+  "aiConfirmationInputLabel": "Origem da informação (web não confiável): ",
+  "aiConfirmationInputSource": "Origem da informação (web não confiável): {source}",
   "aiConfirmationAutoApproved": "{count} ações confirmadas automaticamente ({mode})",
   "@aiConfirmationAutoApproved": {
    "placeholders": {

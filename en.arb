@@ -1315,6 +1315,23 @@
   "aiAutomationManualDescription": "Every action waits for your confirmation before it runs.",
   "aiAutomationSemiAutomaticDescription": "Write actions from the Agent still wait for your confirmation; other confirmations run automatically.",
   "aiAutomationFullyAutomaticDescription": "Every action is confirmed automatically, with a complete record kept.",
+  "aiWebAccess": "Open-web access",
+  "aiWebAccessDescription": "Let the assistant search the open web and read pages into its workspace. Campus data always comes from campus tools; page bodies are stored as untrusted content and never enter the conversation.",
+  "aiWebSearchProvider": "Search provider",
+  "aiWebSearchProviderBundled": "Built-in (metered)",
+  "aiWebSearchProviderBrave": "Brave Search (own key)",
+  "aiWebSearchProviderTavily": "Tavily (own key)",
+  "aiWebSearchApiKey": "Provider API key",
+  "aiWebSearchApiKeyHint": "Required for the selected provider",
+  "aiConfirmationInputLabel": "Input source (untrusted web): ",
+  "aiConfirmationInputSource": "Input source (untrusted web): {source}",
+  "@aiConfirmationInputSource": {
+   "placeholders": {
+     "source": {
+       "type": "String"
+      }
+    }
+  },
   "aiConfirmationAutoApproved": "Auto-confirmed {count} actions ({mode})",
   "@aiConfirmationAutoApproved": {
    "placeholders": {

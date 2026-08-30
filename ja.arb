@@ -3859,6 +3859,16 @@
   "aiAutomationManualDescription": "すべての操作は確認後に実行されます。",
   "aiAutomationSemiAutomaticDescription": "Agent による書き込み操作は引き続き確認が必要で、その他の確認は自動的に承認されます。",
   "aiAutomationFullyAutomaticDescription": "すべての操作を自動的に確認し、完全な記録を保持します。",
+  "aiWebAccess": "ウェブ検索アクセス",
+  "aiWebAccessDescription": "アシスタントがウェブを検索し、ページ本文をワークスペースに読み込めるようにします。キャンパスのデータは常にキャンパスツールから取得され、ページ本文は信頼できないコンテンツとして保存され、会話には入りません。",
+  "aiWebSearchProvider": "検索プロバイダー",
+  "aiWebSearchProviderBundled": "内蔵（回数制限あり）",
+  "aiWebSearchProviderBrave": "Brave Search（自分のキー）",
+  "aiWebSearchProviderTavily": "Tavily（自分のキー）",
+  "aiWebSearchApiKey": "プロバイダー API キー",
+  "aiWebSearchApiKeyHint": "選択したプロバイダーには必須です",
+  "aiConfirmationInputLabel": "入力ソース（信頼できないウェブ）：",
+  "aiConfirmationInputSource": "入力ソース（信頼できないウェブ）：{source}",
   "aiConfirmationAutoApproved": "{count} 件の操作を自動承認しました（{mode}）",
   "@aiConfirmationAutoApproved": {
    "placeholders": {

@@ -3866,6 +3866,16 @@
   "aiAutomationManualDescription": "모든 작업은 확인 후에 실행됩니다.",
   "aiAutomationSemiAutomaticDescription": "Agent의 쓰기 작업은 계속 확인이 필요하며, 나머지 확인은 자동으로 승인됩니다.",
   "aiAutomationFullyAutomaticDescription": "모든 작업을 자동으로 확인하고 전체 기록을 유지합니다.",
+  "aiWebAccess": "웹 검색 접근",
+  "aiWebAccessDescription": "어시스턴트가 웹을 검색하고 페이지 본문을 작업 공간으로 읽어올 수 있습니다. 캠퍼스 데이터는 항상 캠퍼스 도구에서 제공되며, 페이지 본문은 신뢰할 수 없는 콘텐츠로 저장되고 대화에는 노출되지 않습니다.",
+  "aiWebSearchProvider": "검색 제공자",
+  "aiWebSearchProviderBundled": "내장(횟수 제한)",
+  "aiWebSearchProviderBrave": "Brave Search(직접 키)",
+  "aiWebSearchProviderTavily": "Tavily(직접 키)",
+  "aiWebSearchApiKey": "제공자 API 키",
+  "aiWebSearchApiKeyHint": "선택한 제공자에 필요합니다",
+  "aiConfirmationInputLabel": "입력 출처(신뢰할 수 없는 웹): ",
+  "aiConfirmationInputSource": "입력 출처(신뢰할 수 없는 웹): {source}",
   "aiConfirmationAutoApproved": "{count}개의 작업을 자동 승인했습니다({mode})",
   "@aiConfirmationAutoApproved": {
    "placeholders": {

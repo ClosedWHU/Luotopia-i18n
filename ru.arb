@@ -3849,6 +3849,16 @@
   "aiAutomationManualDescription": "Каждое действие выполняется после вашего подтверждения.",
   "aiAutomationSemiAutomaticDescription": "Операции записи агента по-прежнему требуют вашего подтверждения; остальные подтверждаются автоматически.",
   "aiAutomationFullyAutomaticDescription": "Все действия подтверждаются автоматически, полная история сохраняется.",
+  "aiWebAccess": "Доступ к открытому вебу",
+  "aiWebAccessDescription": "Позволяет помощнику искать в открытом вебе и читать страницы в рабочее пространство. Данные кампуса всегда берутся из кампусных инструментов; тело страниц сохраняется как недоверенный контент и никогда не попадает в диалог.",
+  "aiWebSearchProvider": "Поисковый провайдер",
+  "aiWebSearchProviderBundled": "Встроенный (с лимитом)",
+  "aiWebSearchProviderBrave": "Brave Search (свой ключ)",
+  "aiWebSearchProviderTavily": "Tavily (свой ключ)",
+  "aiWebSearchApiKey": "API-ключ провайдера",
+  "aiWebSearchApiKeyHint": "Обязателен для выбранного провайдера",
+  "aiConfirmationInputLabel": "Источник данных (недоверенный веб): ",
+  "aiConfirmationInputSource": "Источник данных (недоверенный веб): {source}",
   "aiConfirmationAutoApproved": "Автоматически подтверждено действий: {count} ({mode})",
   "@aiConfirmationAutoApproved": {
    "placeholders": {

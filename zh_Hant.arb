@@ -3868,6 +3868,16 @@
   "aiAutomationManualDescription": "每項操作都需要你確認後執行。",
   "aiAutomationSemiAutomaticDescription": "Agent 發起的寫入操作仍需你確認，其餘確認自動通過。",
   "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
+  "aiWebAccess": "開放網路存取",
+  "aiWebAccessDescription": "允許助手搜尋開放網路，並把網頁正文讀入工作區。校園資料始終來自校園工具；網頁正文會作為不可信內容儲存，絕不進入對話。",
+  "aiWebSearchProvider": "搜尋提供者",
+  "aiWebSearchProviderBundled": "內建（限量）",
+  "aiWebSearchProviderBrave": "Brave Search（自備金鑰）",
+  "aiWebSearchProviderTavily": "Tavily（自備金鑰）",
+  "aiWebSearchApiKey": "提供者 API 金鑰",
+  "aiWebSearchApiKeyHint": "所選提供者需要填寫",
+  "aiConfirmationInputLabel": "資訊來源（不可信網頁）：",
+  "aiConfirmationInputSource": "資訊來源（不可信網頁）：{source}",
   "aiConfirmationAutoApproved": "已自動確認 {count} 項操作（{mode}）",
   "@aiConfirmationAutoApproved": {
    "placeholders": {
