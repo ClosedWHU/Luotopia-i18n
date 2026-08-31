@@ -824,7 +824,7 @@
   "settingsFeaturesEntryTitle": "機能設定",
   "settingsFeaturesEntrySubtitle": "ウィジェット、ホーム、AI、天気",
   "settingsGeneral": "一般",
-  "settingsGeneralEntrySubtitle": "言語とナビゲーション",
+  "settingsGeneralEntrySubtitle": "言語、ナビゲーション、キャッシュ",
   "settingsGeneralEntryTitle": "一般",
   "settingsHomeBlockCount": "計画ブロックの数",
   "settingsHomeBlockDuration": "コマの長さ",
@@ -934,7 +934,7 @@
   "verifyingAndEstablishingEducationSession": "学術セッションを確認および確立しています...",
   "wakeupImport": "Wakeupインポート",
   "wakeupShareLinkCode": "Wakeup共有リンク/コード",
-  "weatherLoadFailedWithError": "天気の読み込みに失敗しました:{error}",
+  "weatherLoadFailedWithError": "天気の読み込みに失敗しました: {error}",
   "weatherNoHourlyForecast": "時間ごとの予報はありません",
   "weatherRetry": "リトライ",
   "week1Monday": "第1週の月曜日",
@@ -1290,7 +1290,7 @@
       }
     }
   },
-  "aiConfirmationBatchDescription": "Luotopia がこの会話を続ける前に、各操作を確認してください。",
+  "aiConfirmationBatchDescription": "珞家がこの会話を続ける前に、各操作を確認してください。",
   "aiConfirmationApproveAll": "すべて許可",
   "aiConfirmationCancelAll": "すべてキャンセル",
   "aiConfirmationReview": "個別に確認",
@@ -3063,7 +3063,7 @@
       }
     }
   },
-  "courseGradeStatsMedian": "Median score",
+  "courseGradeStatsMedian": "中央値",
   "courseGradeStatsDistribution": "成績分布",
   "courseReviewsLoginRequired": "匿名の授業レビューを見るにはログインしてください。",
   "courseReviewsSyncEligibility": "修了した授業を同期",
@@ -4449,7 +4449,6 @@
   "whuLibraryResultUnknown": "図書館の操作結果が不明です。再試行するかどうかを判断する前に、状態を更新してください。",
   "sportsAuthFailedCasRequired": "運動施設システムの認証に失敗しました。WHU CAS 経由で再度ログインしてください。",
   "waterControlAccountExchangeFailed": "水道アカウントの交換に失敗しました。",
-  "courseTimetableLocalFileDefaultName": "ローカル時間割",
   "aiImageGeneration": "画像を生成",
   "aiImageGenerationHint": "作成したい画像を説明してください",
   "aiImageGenerationEmpty": "生成した画像がここに表示されます。",
@@ -4484,7 +4483,21 @@
   "aiShare": "共有",
   "aiCompressContext": "コンテキストを圧縮",
   "aiCompressContextDescription": "古いメッセージを削除してトークン使用量を減らします。現在の会話には {messageCount} 件のメッセージがあります。",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  },
   "aiCompressKeepRecent": "最新のメッセージを {count} 件残す",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
   "aiCompress": "圧縮",
   "aiMcpImportJson": "JSON をインポート",
   "aiMcpImport": "インポート",

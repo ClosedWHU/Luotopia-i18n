@@ -211,7 +211,7 @@
   "detailDeadlineLabel": "thời hạn",
   "detailDelete": "Xóa các mục",
   "detailMarkComplete": "Đánh dấu xong",
-  "detailMarkIncomplete": "Khôi phục chưa hoàn tất",
+  "detailMarkIncomplete": "Đánh dấu chưa hoàn thành",
   "detailMissing": "Mục này không được tìm thấy. Nó có thể đã bị xóa.",
   "detailTitle": "Chi tiết vấn đề",
   "done": "Xong",
@@ -244,7 +244,7 @@
   "editorDurationHourMinute": "{hours} giờ {minutes} phút",
   "editorDurationHours": "{hours} giờ",
   "editorDurationMinutes": "{minutes} phút",
-  "editorEditMemo": "Ghi chú của biên tập viên",
+  "editorEditMemo": "Chỉnh sửa ghi chú",
   "editorEditSchedule": "Chỉnh sửa lịch trình",
   "editorEditTask": "Chỉnh sửa tác vụ",
   "editorErrorDeadlineBeforeStart": "Thời hạn không thể sớm hơn thời gian bắt đầu.",
@@ -337,7 +337,7 @@
   "editorSubmitSuccess": "Mục đã được lưu.",
   "editorTeacher": "Giảng viên",
   "editorTypeMemo": "bản ghi nhớ",
-  "editorTypePickerTitle": "Chuyển đổi loại vấn đề",
+  "editorTypePickerTitle": "Chuyển đổi loại mục",
   "editorTypeSchedule": "lịch trình",
   "editorTypeTask": "Nhiệm vụ",
   "emptyClassroomAddedSingle": "Đã thêm tiết {section} tại {classroom}",
@@ -413,9 +413,9 @@
   "listSortCreatedDate": "Ngày tạo",
   "listSortDueDate": "ngày hết hạn",
   "listSortManual": "Sắp xếp thủ công",
-  "listSortTodayFocus": "Người thi hành hôm nay",
+  "listSortTodayFocus": "Ưu tiên hôm nay",
   "listTabAllItems": "Mọi vấn đề",
-  "listTabMemos": "Danh sách gian lận",
+  "listTabMemos": "Danh sách ghi chú",
   "listTabMyDay": "ngày của tôi",
   "listTabSchedules": "danh sách lịch trình",
   "listTabTasks": "danh sách nhiệm vụ",
@@ -727,7 +727,7 @@
   "settingsFeaturesEntryTitle": "Tính năng",
   "settingsFeaturesEntrySubtitle": "Widget, trang chủ, AI và thời tiết",
   "settingsGeneral": "Chung",
-  "settingsGeneralEntrySubtitle": "Ngôn ngữ và điều hướng",
+  "settingsGeneralEntrySubtitle": "Ngôn ngữ, điều hướng và bộ nhớ đệm",
   "settingsGeneralEntryTitle": "Chung",
   "settingsHomeBlockCount": "Số khối quy hoạch",
   "settingsHomeBlockDuration": "Độ dài khối",
@@ -837,7 +837,7 @@
   "verifyingAndEstablishingEducationSession": "Xác minh và thiết lập phiên học...",
   "wakeupImport": "Nhập từ Wakeup",
   "wakeupShareLinkCode": "Mã / Liên kết Wakeup",
-  "weatherLoadFailedWithError": "Không tải được thời tiết:{error}",
+  "weatherLoadFailedWithError": "Không thể tải thời tiết: {error}",
   "weatherNoHourlyForecast": "Không có dự báo hàng giờ",
   "weatherRetry": "Thử lại",
   "week1Monday": "Thứ Hai Tuần 1",
@@ -4439,7 +4439,6 @@
   "whuLibraryResultUnknown": "Kết quả thao tác thư viện không xác định. Vui lòng làm mới trạng thái trước khi quyết định có thử lại hay không.",
   "sportsAuthFailedCasRequired": "Xác thực hệ thống thể thao thất bại. Vui lòng đăng nhập lại qua WHU CAS.",
   "waterControlAccountExchangeFailed": "Trao đổi tài khoản nước thất bại.",
-  "courseTimetableLocalFileDefaultName": "Thời khóa biểu cục bộ",
   "aiImageGeneration": "Tạo hình ảnh",
   "aiImageGenerationHint": "Mô tả hình ảnh bạn muốn tạo",
   "aiImageGenerationEmpty": "Hình ảnh bạn tạo sẽ xuất hiện tại đây.",
@@ -4474,7 +4473,21 @@
   "aiShare": "Chia sẻ",
   "aiCompressContext": "Nén ngữ cảnh",
   "aiCompressContextDescription": "Xóa các tin nhắn cũ để giảm lượng token sử dụng. Hội thoại có {messageCount} tin nhắn.",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  },
   "aiCompressKeepRecent": "Giữ lại {count} tin nhắn gần đây",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
   "aiCompress": "Nén",
   "aiMcpImportJson": "Nhập JSON",
   "aiMcpImport": "Nhập",

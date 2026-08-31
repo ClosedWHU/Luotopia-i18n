@@ -509,7 +509,7 @@
   "settingsAiModelLabel": "modelo",
   "settingsAiSaveButton": "Guardar configuración de IA",
   "settingsAiSectionTitle": "Configuración de IA",
-  "settingsAiSystemPromptLabel": "Prompt del sistema",
+  "settingsAiSystemPromptLabel": "Instrucciones del sistema",
   "settingsAiTestButton": "conexión de prueba",
   "settingsAiTestingButton": "Probando...",
   "settingsAppearance": "Interfaz e interacción",
@@ -1074,7 +1074,7 @@
   "settingsDevDeviceTrustTitle": "Confianza del dispositivo",
   "settingsDevDeviceTrustSubtitle": "Inspeccionar la integridad del dispositivo y las señales de seguridad",
   "hotUpdateTitle": "Gestión de actualización en caliente",
-  "hotUpdateManifestVersion": "Manifest v{version}",
+  "hotUpdateManifestVersion": "Manifiesto v{version}",
   "@hotUpdateManifestVersion": {
    "placeholders": {
      "version": {
@@ -1091,7 +1091,7 @@
     }
   },
   "hotUpdateNeverUpdated": "Nunca actualizado (usando el predeterminado integrado)",
-  "hotUpdateLocalVersion": "Local v{version}",
+  "hotUpdateLocalVersion": "Versión local v{version}",
   "@hotUpdateLocalVersion": {
    "placeholders": {
      "version": {
@@ -1099,7 +1099,7 @@
       }
     }
   },
-  "hotUpdateRemoteVersion": "Remoto v{version}",
+  "hotUpdateRemoteVersion": "Versión remota v{version}",
   "@hotUpdateRemoteVersion": {
    "placeholders": {
      "version": {
@@ -1116,15 +1116,15 @@
     }
   },
   "hotUpdateViewCode": "Ver código JS",
-  "hotUpdateLoading": "Cargando manifest...",
-  "hotUpdateLoadFailed": "Error al cargar el manifest",
+  "hotUpdateLoading": "Cargando manifiesto...",
+  "hotUpdateLoadFailed": "Error al cargar el manifiesto",
   "hotUpdateCheckNow": "Buscar actualizaciones",
   "hotUpdateChecking": "Buscando actualizaciones en caliente...",
   "hotUpdateCheckComplete": "Comprobación completada: {count} scripts actualizados",
   "hotUpdateCheckCompleteDetail": "Actualizados {applied}, fallidos {failed} (de {pending} candidatos)",
   "hotUpdateCheckNoChanges": "Ya está actualizado; no es necesario actualizar scripts",
   "hotUpdateCheckEngineUnavailable": "El motor de actualización en caliente no está disponible; se usan analizadores integrados",
-  "hotUpdateStatusCurrent": "Actualizado",
+  "hotUpdateStatusCurrent": "Al día",
   "hotUpdateStatusUpdateAvailable": "Actualización disponible",
   "hotUpdateStatusBehind": "Por detrás del remoto (local v{local} / remoto v{remote})",
   "hotUpdateStatusMissing": "Falta local — desliza para descargar",
@@ -1196,7 +1196,7 @@
       }
     }
   },
-  "settingsAiEntrySubtitle": "Modelo, claves API y prompt del sistema",
+  "settingsAiEntrySubtitle": "Modelo, claves API e instrucciones del sistema",
   "settingsDeveloperTitle": "Ajustes de desarrollador",
   "settingsDeveloperSubtitle": "Dirección del servidor y opciones de prueba",
   "settingsDevSaveSuccess": "Guardado: URL del servidor actualizada",
@@ -1721,7 +1721,7 @@
       }
     }
   },
-  "themeColorLuotopiaBlue": "Luojia Blue",
+  "themeColorLuotopiaBlue": "Azul Luojia",
   "themeColorMaterialRed": "Rojo Material",
   "themeColorMaterialPink": "Rosa Material",
   "themeColorMaterialPurple": "Morado Material",
@@ -2876,7 +2876,7 @@
   "forumKarmaSettingCommentDown": "Karma perdido por votos negativos en comentarios",
   "forumKarmaSettingVoteCostUp": "Coste del voto positivo",
   "forumKarmaSettingVoteCostDown": "Coste del voto negativo",
-  "forumKarmaSettingCheckinFixed": "Check-in fijo",
+  "forumKarmaSettingCheckinFixed": "Registro fijo",
   "forumKarmaSettingMutualThreshold": "Umbral de votos positivos mutuos",
   "forumKarmaSettingMutualWindowHours": "Periodo de votos positivos mutuos (horas)",
   "forumKarmaSettingCreatePostReward": "Recompensa por crear una publicación",
@@ -3077,8 +3077,8 @@
   },
   "forumKarmaInsufficient": "Karma insuficiente",
   "forumKarmaBudgetExhausted": "Asignación diaria agotada",
-  "forumCheckinTodo": "Hacer check-in",
-  "forumCheckinTitle": "Check-in diario",
+  "forumCheckinTodo": "Registrarse",
+  "forumCheckinTitle": "Registro diario",
   "forumCheckinFixed": "Ruta estable (+{amount})",
   "@forumCheckinFixed": {
    "placeholders": {
@@ -3089,8 +3089,8 @@
   },
   "forumCheckinRandom": "Prueba del azar",
   "forumCheckinRandomHint": "El promedio a largo plazo es ligeramente inferior al de la ruta estable",
-  "forumCheckinDone": "Ya has hecho check-in hoy",
-  "forumCheckinSuccess": "+{amount} de karma (racha {streak})",
+  "forumCheckinDone": "Ya te has registrado hoy",
+  "forumCheckinSuccess": "+{amount} de karma (racha de {streak})",
   "@forumCheckinSuccess": {
    "placeholders": {
      "amount": {
@@ -3119,7 +3119,7 @@
       }
     }
   },
-  "forumKarmaStreakLine": "Racha de check-in: {streak}",
+  "forumKarmaStreakLine": "Racha de registros: {streak}",
   "@forumKarmaStreakLine": {
    "placeholders": {
      "streak": {
@@ -4092,7 +4092,7 @@
   "forumModerationRemoveBan": "Desbanear cuenta",
   "forumModerationAccountActionApplied": "Acción de cuenta aplicada correctamente",
   "forumModerationMovePost": "Mover publicación",
-  "forumModerationKeepBoard": "Mantener tablero actual",
+  "forumModerationKeepBoard": "Mantener el tablero actual",
   "forumModerationKarmaReason": "Razón de auditoría de Karma",
   "courseMatchingTargetTimetable": "Horario de destino",
   "courseMatchingCreateNewTimetable": "Crear nuevo horario",
@@ -4449,7 +4449,6 @@
   "whuLibraryResultUnknown": "Resultado desconocido de la operación de la biblioteca. Actualiza el estado antes de decidir si volver a intentarlo.",
   "sportsAuthFailedCasRequired": "Error en la autorización del sistema de instalaciones deportivas. Inicia sesión de nuevo a través de WHU CAS.",
   "waterControlAccountExchangeFailed": "Error en el intercambio de cuenta de agua.",
-  "courseTimetableLocalFileDefaultName": "Horario local",
   "aiImageGeneration": "Generar imagen",
   "aiImageGenerationHint": "Describe la imagen que quieres crear",
   "aiImageGenerationEmpty": "Las imágenes generadas aparecerán aquí.",
@@ -4482,7 +4481,7 @@
   "aiAssistantManage": "Gestionar asistentes",
   "aiAssistantNew": "Nuevo asistente",
   "aiAssistantName": "Nombre del asistente",
-  "aiAssistantSystemPrompt": "Prompt del sistema",
+  "aiAssistantSystemPrompt": "Instrucciones del sistema",
   "aiAssistantEmpty": "No hay asistentes creados",
   "aiAssistantUseGlobal": "Usar ajustes globales",
   "aiAssistantDeleteConfirm": "¿Eliminar este asistente?",

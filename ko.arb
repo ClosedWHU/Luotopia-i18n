@@ -730,7 +730,7 @@
   "settingsFeaturesEntryTitle": "기능 설정",
   "settingsFeaturesEntrySubtitle": "위젯, 홈, AI, 날씨",
   "settingsGeneral": "일반",
-  "settingsGeneralEntrySubtitle": "언어 및 탐색",
+  "settingsGeneralEntrySubtitle": "언어, 탐색 및 캐시",
   "settingsGeneralEntryTitle": "일반",
   "settingsHomeBlockCount": "계획 블록 수",
   "settingsHomeBlockDuration": "블록 길이",
@@ -840,7 +840,7 @@
   "verifyingAndEstablishingEducationSession": "학술세션 확인 및 설정 중...",
   "wakeupImport": "Wakeup 가져오기",
   "wakeupShareLinkCode": "Wakeup 공유 링크/코드",
-  "weatherLoadFailedWithError": "날씨를 로드하지 못했습니다:{error}",
+  "weatherLoadFailedWithError": "날씨를 불러오지 못했습니다: {error}",
   "weatherNoHourlyForecast": "시간별 예측이 없습니다.",
   "weatherRetry": "다시 해 보다",
   "week1Monday": "1주차 월요일",
@@ -1196,7 +1196,7 @@
       }
     }
   },
-  "aiConfirmationBatchDescription": "Luotopia가 이 대화를 계속하기 전에 각 작업을 확인하세요.",
+  "aiConfirmationBatchDescription": "뤄자가 이 대화를 계속하기 전에 각 작업을 확인하세요.",
   "aiConfirmationApproveAll": "모두 허용",
   "aiConfirmationCancelAll": "모두 취소",
   "aiConfirmationReview": "하나씩 확인",
@@ -2976,7 +2976,7 @@
       }
     }
   },
-  "courseGradeStatsMedian": "Median score",
+  "courseGradeStatsMedian": "중앙값",
   "courseGradeStatsDistribution": "점수 분포",
   "courseReviewsLoginRequired": "익명 강의 후기를 보려면 로그인하세요.",
   "courseReviewsSyncEligibility": "이수한 과목 동기화",
@@ -4456,7 +4456,6 @@
   "whuLibraryResultUnknown": "도서관 작업 결과를 알 수 없어요. 다시 시도할지 결정하기 전에 상태를 새로고침해 주세요.",
   "sportsAuthFailedCasRequired": "체육 시설 시스템 인증에 실패했어요. WHU CAS로 다시 로그인해 주세요.",
   "waterControlAccountExchangeFailed": "수도 계정 교환에 실패했어요.",
-  "courseTimetableLocalFileDefaultName": "로컬 시간표",
   "aiImageGeneration": "이미지 생성",
   "aiImageGenerationHint": "만들고 싶은 이미지를 설명하세요",
   "aiImageGenerationEmpty": "생성한 이미지가 여기에 표시됩니다.",
@@ -4491,7 +4490,21 @@
   "aiShare": "공유",
   "aiCompressContext": "컨텍스트 압축",
   "aiCompressContextDescription": "오래된 메시지를 삭제하여 토큰 사용량을 줄입니다. 현재 대화에 메시지 {messageCount}개가 있습니다.",
+  "@aiCompressContextDescription": {
+   "placeholders": {
+    "messageCount": {
+     "type": "int"
+    }
+   }
+  },
   "aiCompressKeepRecent": "최근 메시지 {count}개 유지",
+  "@aiCompressKeepRecent": {
+   "placeholders": {
+    "count": {
+     "type": "int"
+    }
+   }
+  },
   "aiCompress": "압축",
   "aiMcpImportJson": "JSON 가져오기",
   "aiMcpImport": "가져오기",
