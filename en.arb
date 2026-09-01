@@ -5045,11 +5045,11 @@
   "sportsAuthFailedCasRequired": "Sports venue system authorization failed. Please log in again via WHU CAS.",
   "waterControlAccountExchangeFailed": "Water account exchange failed.",
   "settingsAiWorkspaceExportTitle": "Export Agent data",
-  "settingsAiWorkspaceExportSubtitle": "Bundle your notes, drafts, and config into a JSON file under notes/. The bundle skips chat session files and protected Tool Result bytes.",
+  "settingsAiWorkspaceExportSubtitle": "Bundle your notes, drafts, and config into a JSON file to share or save. The bundle skips chat sessions, Tool Result bytes, and untrusted web content.",
   "settingsAiWorkspaceExportConfirmTitle": "Export Agent data?",
-  "settingsAiWorkspaceExportConfirmMessage": "The bundle will be written to your workspace and contains your current owner notes, drafts, and config. It does not include chat session files or Tool Result bytes. Exporting does not delete or change local data.",
+  "settingsAiWorkspaceExportConfirmMessage": "The bundle contains your current notes, drafts, and config and will be handed to the system share or save dialog. It excludes chat sessions, Tool Result bytes, and untrusted web content. It is not written back to the workspace and does not change local data.",
   "settingsAiWorkspaceExportConfirmAction": "Export bundle",
-  "settingsAiWorkspaceExported": "Exported {count} files to {path}.",
+  "settingsAiWorkspaceExported": "Prepared an export of {count} files: {path}.",
   "@settingsAiWorkspaceExported": {
     "placeholders": {
       "count": {"type": "int"},

@@ -4612,11 +4612,11 @@
   "hotUpdateUserEdited": "Modifié localement (mises à jour suspendues)",
   "hotUpdateResetConfirm": "Ignorer vos modifications et restaurer le script distant ou par défaut ?",
   "settingsAiWorkspaceExportTitle": "Exporter les données de l’Agent",
-  "settingsAiWorkspaceExportSubtitle": "Regroupez vos notes, brouillons et paramètres dans un fichier JSON sous notes/. Le paquet exclut les fichiers de sessions de chat et les octets protégés des résultats d’outils.",
+  "settingsAiWorkspaceExportSubtitle": "Regroupez vos notes, brouillons et paramètres dans un fichier JSON à partager ou enregistrer. Le paquet exclut les sessions de chat, les octets Tool Result et le contenu Web non fiable.",
   "settingsAiWorkspaceExportConfirmTitle": "Exporter les données de l’Agent ?",
-  "settingsAiWorkspaceExportConfirmMessage": "Le paquet sera écrit dans votre espace de travail et contiendra vos notes, brouillons et paramètres actuels. Il n’inclut ni les fichiers de sessions de chat ni les octets des résultats d’outils. L’exportation ne supprime ni ne modifie les données locales.",
+  "settingsAiWorkspaceExportConfirmMessage": "Le paquet contient vos notes, brouillons et paramètres actuels et sera transmis au dialogue système de partage ou d’enregistrement. Il exclut les sessions de chat, les octets Tool Result et le contenu Web non fiable. Il n’est pas réécrit dans l’espace de travail et ne modifie pas les données locales.",
   "settingsAiWorkspaceExportConfirmAction": "Exporter le paquet",
-  "settingsAiWorkspaceExported": "{count} fichiers exportés vers {path}.",
+  "settingsAiWorkspaceExported": "Export de {count} fichiers préparé : {path}.",
   "settingsAiWorkspaceExportFailed": "Échec de l’exportation de l’espace de travail de l’Agent : {error}",
   "aiSpeechTitle": "Synthèse vocale IA", "aiSpeechRecognitionService": "Service de reconnaissance vocale", "aiSpeechSpeechToText": "speech_to_text (système)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Transcription hors ligne avec Whisper", "aiSpeechWhisperModel": "Modèle Whisper", "aiDownload": "Télécharger", "aiSpeechEngine": "Moteur vocal", "aiSpeechEdge": "Voix en ligne Edge", "aiSpeechSttsVoice": "Voix système stts", "aiSpeechVoiceLoadFailed": "Impossible de charger les voix en ligne ; la voix actuelle sera utilisée.", "aiSpeechVoice": "Voix", "aiSpeechRate": "Vitesse", "aiSpeechPitch": "Tonalité", "aiSpeechVolume": "Volume", "aiSpeechPreviewText": "Bonjour. Voici la voix IA sélectionnée.", "aiSpeechPreview": "Prévisualiser la voix actuelle", "aiMcpImportFailed": "Impossible d’importer la configuration du serveur MCP"
 }

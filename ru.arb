@@ -4602,11 +4602,11 @@
   "hotUpdateUserEdited": "Изменено пользователем",
   "hotUpdateResetConfirm": "Сбросить этот скрипт к значению по умолчанию?",
   "settingsAiWorkspaceExportTitle": "Экспортировать данные Agent",
-  "settingsAiWorkspaceExportSubtitle": "Объединить ваши заметки, черновики и конфигурацию в JSON-файл в notes/. Пакет не включает файлы сеансов чата и защищённые байты Tool Result.",
+  "settingsAiWorkspaceExportSubtitle": "Объединить заметки, черновики и конфигурацию в JSON-файл для отправки или сохранения. Пакет не включает сеансы чата, байты Tool Result и ненадёжное веб-содержимое.",
   "settingsAiWorkspaceExportConfirmTitle": "Экспортировать данные Agent?",
-  "settingsAiWorkspaceExportConfirmMessage": "Пакет будет записан в рабочее пространство и будет содержать текущие заметки, черновики и конфигурацию. Он не включает файлы сеансов чата и байты Tool Result. Экспорт не удаляет и не изменяет локальные данные.",
+  "settingsAiWorkspaceExportConfirmMessage": "Пакет содержит текущие заметки, черновики и конфигурацию и будет передан системному окну отправки или сохранения. Он исключает сеансы чата, байты Tool Result и ненадёжное веб-содержимое. Пакет не записывается обратно в рабочее пространство и не изменяет локальные данные.",
   "settingsAiWorkspaceExportConfirmAction": "Экспортировать пакет",
-  "settingsAiWorkspaceExported": "Экспортировано файлов: {count}; путь: {path}.",
+  "settingsAiWorkspaceExported": "Подготовлен экспорт файлов ({count}): {path}.",
   "settingsAiWorkspaceExportFailed": "Не удалось экспортировать рабочее пространство Agent: {error}",
   "aiSpeechTitle": "Речь ИИ", "aiSpeechRecognitionService": "Сервис распознавания речи", "aiSpeechSpeechToText": "speech_to_text (система)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Офлайн-транскрибация Whisper", "aiSpeechWhisperModel": "Модель Whisper", "aiDownload": "Скачать", "aiSpeechEngine": "Движок речи", "aiSpeechEdge": "Онлайн-голос Edge", "aiSpeechSttsVoice": "Системный голос stts", "aiSpeechVoiceLoadFailed": "Не удалось загрузить онлайн-голоса; используется текущий голос.", "aiSpeechVoice": "Голос", "aiSpeechRate": "Скорость", "aiSpeechPitch": "Высота тона", "aiSpeechVolume": "Громкость", "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос ИИ.", "aiSpeechPreview": "Прослушать текущий голос", "aiMcpImportFailed": "Не удалось импортировать конфигурацию MCP-сервера"
 }
