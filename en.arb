@@ -1,7 +1,7 @@
 {
   "@@locale": "en",
-  "@@keep-english": "Keys intentionally left as English in every locale (do NOT translate — a non-English ARB matching the English value here is expected, not a gap): (1) format strings with {placeholders} such as homePeriodRange, weatherAQIValue, weatherConditionFormat, itemDetailTimeRangeSeparator, citationCardTimeSeparator, courseGradeStatsRange '{from} - {to}', forumKarmaLevel 'Lv{level}', forumKarmaAuthorMeta; (2) brand/proper nouns such as appTitle 'Luotopia', starlink, shiguang, aiProvider* (Zhipu/Baidu/Alipay/Tencent/Yi/Baichuan/Moonshot), schoolNetProvider*/schoolNetPay* (Cernet/Telecom/Unicom/Mobile/Alipay/Wechat/UnionPay), campusAppZhihuiLuojia, waterControlCategory*Garden, fontFamilyGoogleNotoSans, adminStatusRedis*; (3) universal units/abbreviations/OS names such as weatherAirQualityPm25/Pm10/O3/No2/So2/Co and weatherAirQualityUnit, schoolNetDeviceIp/Mac, commonId, ok/commonOk, navAi 'AI', semS, hourH, minuteMin, authSessionsDeviceWindows/Macos/Linux, settingsBuildChannelAlpha/Beta/Stable, wakeupCsv; (4) admin/dev-only labels such as adminStatus* (worker/queue/heartbeat/redis...) seen only by admins. Translate everything else.",
-  "aiAssistant": "AI Assistant",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "aiAssistant": "Assistant",
   "aiInputHint": "Ask me anything about your schedule...",
   "aiTitle": "Title",
   "aiImageGeneration": "Generate image",
@@ -100,7 +100,7 @@
   "campusAppSchoolNet": "Campus Network",
   "campusAppVpn": "VPN",
   "vpnSettings": "VPN settings",
-  "vpnSettingsAppliesNextConnect": "Changes take effect from the next connection.",
+  "vpnSettingsAppliesNextConnect": "Changes apply immediately; switching the mode or routing policy reconnects the VPN.",
   "vpnLoginTitle": "Sign in to WHU VPN",
   "vpnLoginDescription": "Access campus services off-campus through the WHU aTrust VPN.",
   "vpnServerLabel": "Server",
@@ -122,6 +122,7 @@
   "vpnChallengeSubmit": "Submit",
   "vpnChallengeExpired": "This verification has already finished.",
   "vpnConnectedTitle": "Connected",
+  "vpnNotConnected": "Not connected",
   "vpnDisconnectedTitle": "VPN ready",
   "vpnDisconnectedDescription": "Sign in to reach campus services from off-campus.",
   "vpnVirtualAddress": "Virtual address",
@@ -131,7 +132,7 @@
   "vpnModeInApp": "In-app proxy",
   "vpnModeSystem": "System VPN (experimental)",
   "vpnInAppModeDescription": "Only this app's traffic goes through the VPN; no extra permissions needed.",
-  "vpnSystemModeDescription": "Routes the whole system through the VPN. Windows only; requires an elevated app and wintun.dll beside the executable.",
+  "vpnSystemModeDescription": "Routes the whole system through the VPN. Windows needs an elevated app and wintun.dll; Android and iOS ask for the system VPN permission.",
   "vpnRoutePolicyLabel": "Routed hosts",
   "vpnRoutePolicyFollowServer": "Follow server list",
   "vpnRoutePolicyFollowServerDescription": "Tunnel exactly the resources the VPN server publishes.",
@@ -146,19 +147,32 @@
   "vpnDisconnectAction": "Disconnect",
   "vpnRetryAction": "Retry",
   "vpnBackToFormAction": "Back",
+  "vpnEditCredentialsAction": "Edit login credentials",
   "vpnForgetCredentials": "Forget saved account",
   "vpnErrorTitle": "Connection failed",
   "vpnErrorInvalidServer": "The VPN server address is invalid.",
   "vpnErrorWintunMissing": "wintun.dll was not found. Download it from wintun.net and place it beside the app, or switch to in-app mode.",
   "vpnErrorElevationRequired": "System mode needs an elevated app. Run Luotopia as administrator or switch to in-app mode.",
-  "vpnErrorSystemModeUnsupported": "System VPN mode is only available on Windows.",
+  "vpnErrorSystemModeUnsupported": "System VPN mode is not supported on this platform.",
+  "vpnErrorPermissionDenied": "The VPN permission was not granted. Allow it in the system dialog and try again.",
   "vpnErrorSessionExpired": "Your VPN session has expired; sign in again.",
+  "vpnErrorSessionReplaced": "This VPN session was disconnected, possibly because the account connected on another device. Connect again to continue.",
   "vpnErrorTunnel": "The VPN tunnel could not be established.",
   "vpnErrorUnsupportedChallenge": "The VPN server requested an authentication method this app does not support.",
   "vpnErrorLoginDomain": "The selected auth domain does not allow password login; check the auth domain field.",
   "vpnErrorNetwork": "Could not reach the VPN server. Check your internet connection.",
   "vpnErrorGeneric": "The VPN connection failed. See the details below.",
   "vpnInAppModeNote": "Only this app's traffic is tunneled; other apps on this device connect directly.",
+  "vpnSystemModeNote": "The whole system is routed through the VPN, including this app's own traffic.",
+  "vpnReloginAction": "Sign in again",
+  "vpnTestConnection": "Test connection",
+  "vpnTestRunning": "Testing…",
+  "vpnTestSuccess": "Reachable",
+  "vpnTestFailed": "Unreachable: {error}",
+  "vpnTestTarget": "https://ca.whu.edu.cn/index.html",
+  "vpnWebTestAction": "Open web test",
+  "vpnWebTestTitle": "Web connectivity test",
+  "vpnStatusLabel": "Current status",
   "campusAppSchoolNetPay": "Network Fee",
   "schoolNetRefresh": "Refresh campus network status",
   "schoolNetLoading": "Loading your campus network plan…",
@@ -939,6 +953,63 @@
   "whuAccountSectionPersonal": "Personal",
   "whuAccountSectionAcademic": "Academic",
   "whuAccountSectionSession": "Session",
+  "whuTotpSectionTitle": "Authenticator code",
+  "whuTotpCodeTitle": "Current verification code",
+  "whuTotpCodeSubtitle": "Refreshes in {seconds}s · Tap to copy",
+  "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
+  "whuTotpEnable": "Enable authenticator code",
+  "whuTotpEnableSubtitle": "Verify by mobile or email and save the key securely on this device",
+  "whuTotpImport": "Enter an existing key",
+  "whuTotpImportSubtitle": "For TOTP already enabled on the WHU website",
+  "whuTotpRemove": "Remove local key",
+  "whuTotpRemoveSubtitle": "This does not disable TOTP on the WHU website",
+  "whuTotpEdit": "Edit local key",
+  "whuTotpEditSubtitle": "Update the account or Base32 secret stored on this device",
+  "whuTotpLocked": "Authenticator code locked",
+  "whuTotpBiometricReason": "Unlock your WHU authenticator code with biometrics or device credentials",
+  "whuTotpShowCode": "Show verification code",
+  "whuTotpHideCode": "Hide verification code",
+  "whuTotpAccount": "Account",
+  "whuTotpSecret": "Secret key",
+  "whuTotpVerificationMethod": "Verification method",
+  "whuTotpVerifyMobile": "Mobile verification code",
+  "whuTotpVerifyEmail": "Email verification code",
+  "whuTotpVerifyTotp": "Authenticator verification code",
+  "whuTotpEnterVerificationCode": "Enter the 6-digit verification code",
+  "whuTotpSendCode": "Send code",
+  "whuTotpEnabled": "Authenticator code enabled and saved securely",
+  "whuTotpImported": "Authenticator key saved securely",
+  "whuTotpRemoved": "Local authenticator key removed",
+  "whuTotpCopied": "Verification code copied",
+  "whuTotpInvalidSecret": "Enter a valid Base32 secret key",
+  "whuTotpFailed": "Unable to complete authenticator setup: {message}",
+  "@whuTotpFailed": {"placeholders": {"message": {"type": "String"}}},
+  "whuTotpWebsiteEnabled": "Enabled on WHU, but no key is saved on this device",
+  "whuTotpWebsiteDisabled": "Not enabled on WHU",
+  "whuTotpLocallySavedButUnbound": "TOTP is no longer bound on WHU. The locally saved code may be invalid; re-enable it or remove the local key.",
+  "whuTotpReenable": "Re-enable authenticator code",
+  "whuTotpUnbind": "Unbind on WHU",
+  "whuTotpUnbindSubtitle": "Disable TOTP on WHU; the local key is kept separately",
+  "whuTotpUnbindWarning": "This disables TOTP for your WHU account. You must complete a separate WHU verification. The local key will not be deleted automatically.",
+  "whuTotpUnbindVerificationDescription": "Choose mobile, email, or the current authenticator code",
+  "whuTotpUseSavedCode": "The current code can be filled from the locally saved key",
+  "whuTotpUnbound": "TOTP has been unbound on WHU; the local key was retained",
+  "whuTotpChecking": "Checking authenticator status...",
+  "whuTrustedDevicesTitle": "Trusted devices",
+  "whuTrustedDevicesManage": "Manage trusted browsers",
+  "whuTrustedDevicesSubtitle": "Review and remove browsers that can skip some WHU multi-factor checks",
+  "whuTrustedDevicesEmpty": "No trusted browsers",
+  "whuTrustedDevicesCurrent": "Current login",
+  "whuTrustedDevicesLoginTime": "Last login: {time}",
+  "@whuTrustedDevicesLoginTime": {"placeholders": {"time": {"type": "String"}}},
+  "whuTrustedDevicesLimit": "Up to {count} trusted browsers",
+  "@whuTrustedDevicesLimit": {"placeholders": {"count": {"type": "int"}}},
+  "whuTrustedDevicesValidity": "Removed automatically after {days} inactive days",
+  "@whuTrustedDevicesValidity": {"placeholders": {"days": {"type": "int"}}},
+  "whuTrustedDevicesDelete": "Delete device",
+  "whuTrustedDevicesDeleteConfirm": "Delete trusted browser “{name}”? It may require multi-factor verification the next time it signs in.",
+  "@whuTrustedDevicesDeleteConfirm": {"placeholders": {"name": {"type": "String"}}},
+  "whuTrustedDevicesDeleted": "Trusted browser deleted",
   "whuAccountRecentLogin": "Recent Login",
   "whuAccountRecentVerification": "Recent Verification",
   "whuCookieExportTitle": "Export cookies",
@@ -1251,7 +1322,6 @@
   "aiPin": "Pin",
   "aiUnpin": "Unpin",
   "aiDeleteSessionConfirm": "Delete this conversation?",
-  "aiAssistant": "Assistant",
   "aiAssistantDefault": "Default",
   "aiAssistantManage": "Manage assistants",
   "aiAssistantNew": "New assistant",
@@ -1264,14 +1334,6 @@
   "aiExport": "Export",
   "aiShare": "Share",
   "aiCompressContext": "Compress context",
-  "aiCompressContextDescription": "Remove older messages to reduce token usage. {count} messages in conversation.",
-  "@aiCompressContextDescription": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "aiCompressKeepRecent": "Keep {count} recent messages",
   "@aiCompressKeepRecent": {
     "placeholders": {
@@ -1302,6 +1364,10 @@
   "aiDelete": "Delete",
   "aiNoMessages": "No messages",
   "aiClearConversations": "Clear conversations",
+  "aiAccountSwitchTitle": "Different account detected",
+  "aiAccountSwitchBody": "The account signed in just now is different from the one that started this request. Rerun it with the new account?",
+  "aiAccountSwitchConfirm": "Resend",
+  "aiAccountSwitchDismiss": "Not now",
   "aiCancel": "Cancel",
   "aiClear": "Clear",
   "aiRenameConversation": "Rename conversation",
@@ -1376,14 +1442,40 @@
   "aiAutomationManualDescription": "Every action waits for your confirmation before it runs.",
   "aiAutomationSemiAutomaticDescription": "Write actions from the Agent still wait for your confirmation; other confirmations run automatically.",
   "aiAutomationFullyAutomaticDescription": "Every action is confirmed automatically, with a complete record kept.",
+  "aiMedicalAccess": "Health data access",
+  "aiMedicalAccessDescription": "Let the assistant read your hospital records: patient cards, registrations, waiting queue, invoices and lab or examination reports. Clinic opening hours stay available either way.",
+  "aiMedicalAccessNoticeTitle": "Before you turn this on",
+  "aiMedicalAccessNoticeBody": "Test results, diagnoses, departments, doctors and invoice line items become tool results. They are sent to the model endpoint you configured and are kept in this device's encrypted operation records. Identity fields — ID number, phone number, card and registration numbers — are always masked. You can turn this off at any time.",
+  "aiMedicalAccessNoticeEnable": "Turn on",
   "aiWebAccess": "Open-web access",
   "aiWebAccessDescription": "Let the assistant search the open web and read pages into its workspace. Campus data always comes from campus tools; page bodies are stored as untrusted content and never enter the conversation.",
   "aiWebSearchProvider": "Search provider",
-  "aiWebSearchProviderBundled": "Built-in (metered)",
+  "aiWebSearchTierABuiltin": "Built-in",
+  "aiWebSearchTierBBringYourOwn": "Bring your own key",
+  "aiWebSearchProviderTinyfish": "TinyFish",
+  "aiWebSearchProviderBocha": "Bocha Search",
+  "aiWebSearchOptionalKeyHint": "Optional: your own key raises the quota",
   "aiWebSearchProviderBrave": "Brave Search (own key)",
   "aiWebSearchProviderTavily": "Tavily (own key)",
   "aiWebSearchApiKey": "Provider API key",
   "aiWebSearchApiKeyHint": "Required for the selected provider",
+  "aiConfirmationFieldTitle": "Title",
+  "aiConfirmationFieldTime": "Time",
+  "aiConfirmationFieldLocation": "Location",
+  "aiConfirmationFieldStatus": "Status",
+  "aiConfirmationFieldVenue": "Venue",
+  "aiConfirmationFieldSeat": "Seat",
+  "aiConfirmationFieldDate": "Date",
+  "aiConfirmationFieldAmount": "Amount",
+  "aiConfirmationFieldDoctor": "Doctor",
+  "aiConfirmationFieldDepartment": "Department",
+  "aiConfirmationFieldPatient": "Patient",
+  "aiConfirmationFieldCard": "Patient card",
+  "aiConfirmationFieldFee": "Fee",
+  "aiConfirmationVerified": "Verified on this device",
+  "aiConfirmationUnverified": "Could not verify this action's target",
+  "aiConfirmationUnverifiedHint": "Luotopia could not find the item this action refers to, so it must be reviewed one by one.",
+  "aiConfirmationReviewRequired": "Batch approval is unavailable: review each action.",
   "aiConfirmationInputLabel": "Input source (untrusted web): ",
   "aiConfirmationInputSource": "Input source (untrusted web): {source}",
   "@aiConfirmationInputSource": {
@@ -2049,7 +2141,7 @@
   },
   "scoreImportSpoilerImporting": "Importing scores from the Professional Development System...",
   "scoreImportNoStudentId": "No globally logged-in student ID found",
-  "scoreImportSpoilerSuccessWithCount": "{success}: Fetched {count} spoiler score records.",
+  "scoreImportSpoilerSuccessWithCount": "{success}: Fetched {count} score records from the Professional Development System.",
   "@scoreImportSpoilerSuccessWithCount": {
    "placeholders": {
      "success": {
@@ -4335,7 +4427,6 @@
   "medicalCardRealName": "Full Name",
   "medicalCardIdNumber": "ID Number",
   "medicalCardPhoneNumber": "Phone Number",
-  "medicalCardNumber": "Default Card",
   "medicalRegistrationNumber": "Registration No.",
   "medicalRegistrationQrLabel": "Registration QR Code",
   "medicalOutpatientSection": "Outpatient Services",
@@ -5057,13 +5148,12 @@
   "whuLibraryResultUnknown": "Library operation result unknown. Please refresh status before deciding whether to retry.",
   "sportsAuthFailedCasRequired": "Sports venue system authorization failed. Please log in again via WHU CAS.",
   "waterControlAccountExchangeFailed": "Water account exchange failed.",
-  "courseTimetableLocalFileDefaultName": "Local timetable",
   "settingsAiWorkspaceExportTitle": "Export Agent data",
-  "settingsAiWorkspaceExportSubtitle": "Bundle your notes, drafts, and config into a JSON file under notes/. The bundle skips chat session files and protected Tool Result bytes.",
+  "settingsAiWorkspaceExportSubtitle": "Bundle your notes, drafts, and config into a JSON file to share or save. The bundle skips chat sessions, Tool Result bytes, and untrusted web content.",
   "settingsAiWorkspaceExportConfirmTitle": "Export Agent data?",
-  "settingsAiWorkspaceExportConfirmMessage": "The bundle will be written to your workspace and contains your current owner notes, drafts, and config. It does not include chat session files or Tool Result bytes. Exporting does not delete or change local data.",
+  "settingsAiWorkspaceExportConfirmMessage": "The bundle contains your current notes, drafts, and config and will be handed to the system share or save dialog. It excludes chat sessions, Tool Result bytes, and untrusted web content. It is not written back to the workspace and does not change local data.",
   "settingsAiWorkspaceExportConfirmAction": "Export bundle",
-  "settingsAiWorkspaceExported": "Exported {count} files to {path}.",
+  "settingsAiWorkspaceExported": "Prepared an export of {count} files: {path}.",
   "@settingsAiWorkspaceExported": {
     "placeholders": {
       "count": {"type": "int"},
@@ -5075,77 +5165,7 @@
     "placeholders": {
       "error": {"type": "String"}
     }
-  }
-,  "aiAssistantDefault": "Default",
-  "aiAssistantDeleteConfirm": "Delete this assistant?",
-  "aiAssistantEmpty": "No assistants yet",
-  "aiAssistantManage": "Manage assistants",
-  "aiAssistantName": "Name",
-  "aiAssistantNew": "New assistant",
-  "aiAssistantSystemPrompt": "System prompt",
-  "aiAssistantUseGlobal": "Use global assistant",
-  "aiClose": "Close",
-  "aiCodeCollapse": "Collapse",
-  "aiCodeCopied": "Copied",
-  "aiCodeExpand": "Expand",
-  "aiCodeToggleLineNumbers": "Toggle line numbers",
-  "aiCompress": "Compress",
-  "aiCompressContext": "Compress context",
-  "aiDeleteSessionConfirm": "Delete this session?",
-  "aiEditingMessage": "Editing message...",
-  "aiExport": "Export",
-  "aiForkFromHere": "Fork from here",
-  "aiMcp": "MCP",
-  "aiMcpAddServer": "Add server",
-  "aiMcpEmpty": "No MCP servers configured",
-  "aiPin": "Pin",
-  "aiPinned": "Pinned",
-  "aiProviderBuiltin": "Built-in",
-  "aiSearchNoResults": "No matching sessions",
-  "aiSearchSessions": "Search sessions",
-  "aiShare": "Share",
-  "aiSkills": "Skills",
-  "aiSkillsEmpty": "No skills available",
-  "aiToday": "Today",
-  "aiUnpin": "Unpin",
-  "aiYesterday": "Yesterday",
-  "settingsAiMaxTokens": "Max tokens",
-  "settingsAiModelParamsTitle": "Model parameters",
-  "settingsAiParamDefault": "Default",
-  "settingsAiTemperature": "Temperature",
-  "settingsAiTopP": "Top P",
-  "aiCodeShowMoreLines": "{count, plural, one{Show 1 more line} other{Show {count} more lines}}",
-  "@aiCodeShowMoreLines": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiCompressKeepRecent": "{count, plural, one{Keep 1 recent message} other{Keep {count} recent messages}}",
-  "@aiCompressKeepRecent": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiMcpEnabled": "{count, plural, one{1 server} other{{count} servers}}",
-  "@aiMcpEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
-  "aiSkillsEnabled": "{count, plural, one{1 skill} other{{count} skills}}",
-  "@aiSkillsEnabled": {
-   "placeholders": {
-    "count": {
-     "type": "int"
-    }
-   }
-  },
+   },
   "aiCompressContextDescription": "Compress {messageCount} messages into a shorter context to save tokens.",
   "@aiCompressContextDescription": {
    "placeholders": {
@@ -5153,7 +5173,216 @@
      "type": "int"
     }
    }
-  }
-,  "aiMcpImport": "Import",
-  "aiMcpImportJson": "Import from JSON"
+   },
+  "campusAppCampusMap": "Campus Map",
+  "campusMapBaseVector": "Vector",
+  "campusMapBaseSatellite": "Satellite",
+  "campusMapCategories": "Categories",
+  "campusMapAllCategories": "All places",
+  "campusMapLoading": "Loading campus places...",
+  "campusMapLoadFailed": "Unable to load campus places",
+  "campusMapSearchTitle": "Search Campus",
+  "campusMapSearchHint": "Search buildings, canteens, bus stops...",
+  "campusMapSearchEmpty": "Enter a place name to search",
+  "campusMapSearchNoResults": "No matching campus places",
+  "campusMapSearchFailed": "Search failed. Please try again.",
+  "campusMapDetails": "Place details",
+  "campusMapDistrict": "Campus",
+  "campusMapOldName": "Former name",
+  "campusMapManageDept": "Managed by",
+  "campusMapMaintenanceUnit": "Maintained by",
+  "campusMapCoordinates": "Coordinates",
+  "campusMapCopyCoordinates": "Copy coordinates",
+  "campusMapCoordinatesCopied": "Coordinates copied",
+  "campusMapOpenNavigation": "Navigate",
+  "campusMapNoNavigationApp": "No map app can open this location",
+  "campusMapDetailFailed": "Unable to load details",
+  "campusMapLayers": "Map layers",
+  "campusMapLayerToponyms": "Campus places",
+  "campusMapLayerParking": "Parking lots",
+  "campusMapLayerEntrances": "Entrances",
+  "campusMapLayerAed": "AED devices",
+  "campusMapLayerFacilities": "Campus facilities",
+  "campusMapLayerBusStops": "Shuttle stops",
+  "campusMapLayerBusLines": "Shuttle routes",
+  "campusMapOpenBus": "View shuttle schedule",
+  "campusMapMyLocation": "My location",
+  "campusMapLocating": "Locating...",
+  "campusMapLocationDenied": "Location permission is required",
+  "campusMapLocationOutside": "Your location is outside the campus map area",
+  "campusMapLocationUnavailable": "Current location is unavailable",
+  "campusMapOpenSettings": "Open settings",
+  "campusMapDistance": "Distance",
+  "campusMapFavorites": "Favorites",
+  "campusMapAddFavorite": "Add to favorites",
+  "campusMapRemoveFavorite": "Remove favorite",
+  "campusMapFavoriteAdded": "Added to favorites",
+  "campusMapFavoriteRemoved": "Removed from favorites",
+  "campusMapLayerPmtilesLabels": "Detailed map labels",
+  "campusMapCategoryTransport": "Transport",
+  "campusMapCategoryRoad": "Roads",
+  "campusMapCategoryBusStop": "Shuttle stops",
+  "campusMapCategoryAcademics": "Academics",
+  "campusMapCategoryTeachingBuilding": "Teaching buildings",
+  "campusMapCategoryCollege": "Colleges",
+  "campusMapCategoryLibrary": "Libraries",
+  "campusMapCategoryResearchLab": "Research labs",
+  "campusMapCategoryLife": "Daily life",
+  "campusMapCategoryGeneralService": "General services",
+  "campusMapCategoryCanteen": "Canteens",
+  "campusMapCategoryDormitory": "Dormitories",
+  "campusMapCategorySharedEv": "Shared e-bikes",
+  "campusMapCategoryRestroom": "Restrooms",
+  "campusMapCategorySports": "Sports and culture",
+  "campusMapCategoryHealth": "Health services",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "Administration",
+  "campusMapCategoryScenery": "Scenic spots",
+  "campusMapCategoryParking": "Parking lots",
+  "campusMapCategoryEntrance": "Entrances",
+  "campusMapCategoryBusLine": "Shuttle routes",
+  "campusMapZoomIn": "Zoom in",
+  "campusMapZoomOut": "Zoom out",
+  "campusMapResetView": "Reset map view",
+  "campusMapControls": "Map controls",
+  "campusMapControlMouse": "Drag to pan; use the mouse wheel or trackpad to zoom.",
+  "campusMapControlKeyboard": "Arrow keys or WASD pan the map. R/F and +/− control zoom.",
+  "campusMapControlReset": "Press 0 to return to the default campus view.",
+  "campusMapNearbyPlaces": "Places at this location",
+  "medicalWorkingHours": "Working Hours",
+  "medicalInvoicesUnpaid": "Unpaid",
+  "medicalInvoicesPaid": "Paid",
+  "medicalCancelRegistration": "Cancel registration",
+  "medicalCancelRegistrationInProgress": "Cancelling...",
+  "medicalCancelRegistrationConfirmTitle": "Cancel registration",
+  "medicalCancelRegistrationConfirmMessage": "Are you sure you want to cancel this registration?",
+  "medicalCancelRegistrationDone": "Registration cancelled",
+  "medicalQueueStatusInProgress": "In queue",
+  "medicalQueuePeopleAheadLabel": "Ahead of you",
+  "medicalQueuePeopleAheadCount": "{count} people",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "Your number",
+  "medicalQueueNumberValue": "No. {number}",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue}: None",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "Mailbox",
+  "coremailOperationFailed": "Operation failed: {error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "Newest first, tap to switch to oldest first",
+  "coremailSortOldestFirstHint": "Oldest first, tap to switch to newest first",
+  "coremailNewFolder": "New folder",
+  "coremailFolderName": "Folder name",
+  "coremailFolderNameRequired": "Enter a folder name.",
+  "coremailCreate": "Create",
+  "coremailSwitchFolder": "Switch folder",
+  "coremailLoadingMailbox": "Loading mailbox...",
+  "coremailConnectionFailed": "Mailbox connection failed: {error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "No emails in this folder",
+  "coremailCompose": "Compose",
+  "coremailNoSubject": "(No subject)",
+  "coremailUnknownSender": "Unknown sender",
+  "coremailMessageDetail": "Message detail",
+  "coremailMarkUnread": "Mark as unread",
+  "coremailMoveToFolder": "Move to folder",
+  "coremailDeleteMessageTitle": "Delete email",
+  "coremailDeleteMessageConfirm": "Delete \"{subject}\"?",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "Time",
+  "coremailNoDisplayableContent": "This message has no displayable content.",
+  "coremailOpeningLink": "Opening link...",
+  "coremailLoading": "Loading...",
+  "coremailLoadFailed": "Failed to load",
+  "coremailRecipientRequired": "Enter at least one valid recipient.",
+  "coremailSendFailed": "Send failed: {error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "Send",
+  "coremailRecipientsLabel": "To",
+  "coremailRecipientsHint": "Separate multiple addresses with commas",
+  "coremailSubjectLabel": "Subject",
+  "coremailBodyLabel": "Body",
+  "coremailSendFrom": "From: {address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "Automatic sign-in failed. Check your password or sign in again.",
+  "coremailEnterAccountAndPassword": "Enter your full email account and password.",
+  "coremailSignInFailed": "Sign-in failed. Check the email account, password, or app-specific password.",
+  "coremailMailboxEnabled": "Mailbox enabled",
+  "coremailEnterAccountFirst": "Enter your full email account first.",
+  "coremailHeadlessSsoFailed": "Automatic SSO did not succeed (you may need to finish it manually in a browser).",
+  "coremailGenerateAppPasswordTitle": "Generate app-specific password",
+  "coremailPasswordNameLabel": "Password name",
+  "coremailPasswordNameRequired": "Enter a password name.",
+  "coremailGenerate": "Generate",
+  "coremailSaveAppPasswordTitle": "Save your app-specific password",
+  "coremailAppPasswordShownOnce": "This password is shown only once. Copy it or save it somewhere trusted, then confirm.",
+  "coremailAppPassword": "App-specific password",
+  "coremailAppPasswordSavedAck": "I have safely stored this password",
+  "coremailContinueAndSave": "Continue and save on this device",
+  "coremailAppPasswordSavedHint": "App-specific password saved. Tap \"Verify and enable mailbox\".",
+  "coremailGenerateAppPasswordFailed": "Failed to generate the app-specific password. Complete mailbox SSO sign-in again.",
+  "coremailAutoSigningIn": "Signing in to mailbox automatically...",
+  "coremailSetupDescription": "Sign in with your WHU email account and web sign-in master password or an app-specific password. Email credentials are stored encrypted, separately from unified authentication credentials.",
+  "coremailAccountLabel": "Email account",
+  "coremailPasswordLabel": "Email password or app-specific password",
+  "coremailHidePassword": "Hide password",
+  "coremailShowPassword": "Show password",
+  "coremailRememberCredentials": "Securely save email account and password",
+  "coremailVerifyAndEnable": "Verify and enable mailbox",
+  "coremailAppPasswordSectionDescription": "No need to sign in to mailbox web manually: uses the saved unified authentication session to complete mailbox SSO and generate a password used only for mail clients.",
+  "coremailGenerateViaCas": "Generate app-specific password via CAS",
+  "coremailGenerateViaCasSubtitle": "Completes mailbox single sign-on without a UI",
+  "coremailGenerateViaBrowser": "Finish SSO manually in a browser (fallback)",
+  "coremailGenerateViaBrowserSubtitle": "Use when automatic SSO did not succeed",
+  "coremailServers": "Servers",
+  "coremailSsoSignInTitle": "Mailbox sign-in",
+  "coremailSsoLoading": "Completing mailbox single sign-on..."
 }
