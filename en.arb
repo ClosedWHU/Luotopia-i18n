@@ -5094,5 +5094,216 @@
      "type": "int"
     }
    }
-   }
+   },
+  "campusAppCampusMap": "Campus Map",
+  "campusMapBaseVector": "Vector",
+  "campusMapBaseSatellite": "Satellite",
+  "campusMapCategories": "Categories",
+  "campusMapAllCategories": "All places",
+  "campusMapLoading": "Loading campus places...",
+  "campusMapLoadFailed": "Unable to load campus places",
+  "campusMapSearchTitle": "Search Campus",
+  "campusMapSearchHint": "Search buildings, canteens, bus stops...",
+  "campusMapSearchEmpty": "Enter a place name to search",
+  "campusMapSearchNoResults": "No matching campus places",
+  "campusMapSearchFailed": "Search failed. Please try again.",
+  "campusMapDetails": "Place details",
+  "campusMapDistrict": "Campus",
+  "campusMapOldName": "Former name",
+  "campusMapManageDept": "Managed by",
+  "campusMapMaintenanceUnit": "Maintained by",
+  "campusMapCoordinates": "Coordinates",
+  "campusMapCopyCoordinates": "Copy coordinates",
+  "campusMapCoordinatesCopied": "Coordinates copied",
+  "campusMapOpenNavigation": "Navigate",
+  "campusMapNoNavigationApp": "No map app can open this location",
+  "campusMapDetailFailed": "Unable to load details",
+  "campusMapLayers": "Map layers",
+  "campusMapLayerToponyms": "Campus places",
+  "campusMapLayerParking": "Parking lots",
+  "campusMapLayerEntrances": "Entrances",
+  "campusMapLayerAed": "AED devices",
+  "campusMapLayerFacilities": "Campus facilities",
+  "campusMapLayerBusStops": "Shuttle stops",
+  "campusMapLayerBusLines": "Shuttle routes",
+  "campusMapOpenBus": "View shuttle schedule",
+  "campusMapMyLocation": "My location",
+  "campusMapLocating": "Locating...",
+  "campusMapLocationDenied": "Location permission is required",
+  "campusMapLocationOutside": "Your location is outside the campus map area",
+  "campusMapLocationUnavailable": "Current location is unavailable",
+  "campusMapOpenSettings": "Open settings",
+  "campusMapDistance": "Distance",
+  "campusMapFavorites": "Favorites",
+  "campusMapAddFavorite": "Add to favorites",
+  "campusMapRemoveFavorite": "Remove favorite",
+  "campusMapFavoriteAdded": "Added to favorites",
+  "campusMapFavoriteRemoved": "Removed from favorites",
+  "campusMapLayerPmtilesLabels": "Detailed map labels",
+  "campusMapCategoryTransport": "Transport",
+  "campusMapCategoryRoad": "Roads",
+  "campusMapCategoryBusStop": "Shuttle stops",
+  "campusMapCategoryAcademics": "Academics",
+  "campusMapCategoryTeachingBuilding": "Teaching buildings",
+  "campusMapCategoryCollege": "Colleges",
+  "campusMapCategoryLibrary": "Libraries",
+  "campusMapCategoryResearchLab": "Research labs",
+  "campusMapCategoryLife": "Daily life",
+  "campusMapCategoryGeneralService": "General services",
+  "campusMapCategoryCanteen": "Canteens",
+  "campusMapCategoryDormitory": "Dormitories",
+  "campusMapCategorySharedEv": "Shared e-bikes",
+  "campusMapCategoryRestroom": "Restrooms",
+  "campusMapCategorySports": "Sports and culture",
+  "campusMapCategoryHealth": "Health services",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "Administration",
+  "campusMapCategoryScenery": "Scenic spots",
+  "campusMapCategoryParking": "Parking lots",
+  "campusMapCategoryEntrance": "Entrances",
+  "campusMapCategoryBusLine": "Shuttle routes",
+  "campusMapZoomIn": "Zoom in",
+  "campusMapZoomOut": "Zoom out",
+  "campusMapResetView": "Reset map view",
+  "campusMapControls": "Map controls",
+  "campusMapControlMouse": "Drag to pan; use the mouse wheel or trackpad to zoom.",
+  "campusMapControlKeyboard": "Arrow keys or WASD pan the map. R/F and +/− control zoom.",
+  "campusMapControlReset": "Press 0 to return to the default campus view.",
+  "campusMapNearbyPlaces": "Places at this location",
+  "medicalWorkingHours": "Working Hours",
+  "medicalInvoicesUnpaid": "Unpaid",
+  "medicalInvoicesPaid": "Paid",
+  "medicalCancelRegistration": "Cancel registration",
+  "medicalCancelRegistrationInProgress": "Cancelling...",
+  "medicalCancelRegistrationConfirmTitle": "Cancel registration",
+  "medicalCancelRegistrationConfirmMessage": "Are you sure you want to cancel this registration?",
+  "medicalCancelRegistrationDone": "Registration cancelled",
+  "medicalQueueStatusInProgress": "In queue",
+  "medicalQueuePeopleAheadLabel": "Ahead of you",
+  "medicalQueuePeopleAheadCount": "{count} people",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "Your number",
+  "medicalQueueNumberValue": "No. {number}",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue}: None",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "Mailbox",
+  "coremailOperationFailed": "Operation failed: {error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "Newest first, tap to switch to oldest first",
+  "coremailSortOldestFirstHint": "Oldest first, tap to switch to newest first",
+  "coremailNewFolder": "New folder",
+  "coremailFolderName": "Folder name",
+  "coremailFolderNameRequired": "Enter a folder name.",
+  "coremailCreate": "Create",
+  "coremailSwitchFolder": "Switch folder",
+  "coremailLoadingMailbox": "Loading mailbox...",
+  "coremailConnectionFailed": "Mailbox connection failed: {error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "No emails in this folder",
+  "coremailCompose": "Compose",
+  "coremailNoSubject": "(No subject)",
+  "coremailUnknownSender": "Unknown sender",
+  "coremailMessageDetail": "Message detail",
+  "coremailMarkUnread": "Mark as unread",
+  "coremailMoveToFolder": "Move to folder",
+  "coremailDeleteMessageTitle": "Delete email",
+  "coremailDeleteMessageConfirm": "Delete \"{subject}\"?",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "Time",
+  "coremailNoDisplayableContent": "This message has no displayable content.",
+  "coremailOpeningLink": "Opening link...",
+  "coremailLoading": "Loading...",
+  "coremailLoadFailed": "Failed to load",
+  "coremailRecipientRequired": "Enter at least one valid recipient.",
+  "coremailSendFailed": "Send failed: {error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "Send",
+  "coremailRecipientsLabel": "To",
+  "coremailRecipientsHint": "Separate multiple addresses with commas",
+  "coremailSubjectLabel": "Subject",
+  "coremailBodyLabel": "Body",
+  "coremailSendFrom": "From: {address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "Automatic sign-in failed. Check your password or sign in again.",
+  "coremailEnterAccountAndPassword": "Enter your full email account and password.",
+  "coremailSignInFailed": "Sign-in failed. Check the email account, password, or app-specific password.",
+  "coremailMailboxEnabled": "Mailbox enabled",
+  "coremailEnterAccountFirst": "Enter your full email account first.",
+  "coremailHeadlessSsoFailed": "Automatic SSO did not succeed (you may need to finish it manually in a browser).",
+  "coremailGenerateAppPasswordTitle": "Generate app-specific password",
+  "coremailPasswordNameLabel": "Password name",
+  "coremailPasswordNameRequired": "Enter a password name.",
+  "coremailGenerate": "Generate",
+  "coremailSaveAppPasswordTitle": "Save your app-specific password",
+  "coremailAppPasswordShownOnce": "This password is shown only once. Copy it or save it somewhere trusted, then confirm.",
+  "coremailAppPassword": "App-specific password",
+  "coremailAppPasswordSavedAck": "I have safely stored this password",
+  "coremailContinueAndSave": "Continue and save on this device",
+  "coremailAppPasswordSavedHint": "App-specific password saved. Tap \"Verify and enable mailbox\".",
+  "coremailGenerateAppPasswordFailed": "Failed to generate the app-specific password. Complete mailbox SSO sign-in again.",
+  "coremailAutoSigningIn": "Signing in to mailbox automatically...",
+  "coremailSetupDescription": "Sign in with your WHU email account and web sign-in master password or an app-specific password. Email credentials are stored encrypted, separately from unified authentication credentials.",
+  "coremailAccountLabel": "Email account",
+  "coremailPasswordLabel": "Email password or app-specific password",
+  "coremailHidePassword": "Hide password",
+  "coremailShowPassword": "Show password",
+  "coremailRememberCredentials": "Securely save email account and password",
+  "coremailVerifyAndEnable": "Verify and enable mailbox",
+  "coremailAppPasswordSectionDescription": "No need to sign in to mailbox web manually: uses the saved unified authentication session to complete mailbox SSO and generate a password used only for mail clients.",
+  "coremailGenerateViaCas": "Generate app-specific password via CAS",
+  "coremailGenerateViaCasSubtitle": "Completes mailbox single sign-on without a UI",
+  "coremailGenerateViaBrowser": "Finish SSO manually in a browser (fallback)",
+  "coremailGenerateViaBrowserSubtitle": "Use when automatic SSO did not succeed",
+  "coremailServers": "Servers",
+  "coremailSsoSignInTitle": "Mailbox sign-in",
+  "coremailSsoLoading": "Completing mailbox single sign-on..."
 }

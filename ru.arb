@@ -73,6 +73,7 @@
   "vpnChallengeSubmit": "Отправить",
   "vpnChallengeExpired": "Это подтверждение уже завершено.",
   "vpnConnectedTitle": "Подключено",
+  "vpnNotConnected": "Не подключено",
   "vpnDisconnectedTitle": "VPN готов",
   "vpnDisconnectedDescription": "Войдите, чтобы получить доступ к сервисам кампуса из-за пределов кампуса.",
   "vpnVirtualAddress": "Виртуальный адрес",
@@ -97,6 +98,7 @@
   "vpnDisconnectAction": "Отключить",
   "vpnRetryAction": "Повторить",
   "vpnBackToFormAction": "Назад",
+  "vpnEditCredentialsAction": "Изменить учётные данные для входа",
   "vpnForgetCredentials": "Забыть сохранённый аккаунт",
   "vpnErrorTitle": "Не удалось подключиться",
   "vpnErrorInvalidServer": "Адрес VPN-сервера недействителен.",
@@ -105,6 +107,7 @@
   "vpnErrorSystemModeUnsupported": "Режим системного VPN не поддерживается на этой платформе.",
   "vpnErrorPermissionDenied": "Разрешение VPN не выдано. Разрешите его в системном диалоге и повторите попытку.",
   "vpnErrorSessionExpired": "Срок действия сеанса VPN истёк. Войдите снова.",
+  "vpnErrorSessionReplaced": "Этот сеанс VPN был отключён — возможно, аккаунт подключился на другом устройстве. Подключитесь снова, чтобы продолжить.",
   "vpnErrorTunnel": "Не удалось установить VPN-туннель.",
   "vpnErrorUnsupportedChallenge": "VPN-сервер запросил способ аутентификации, который это приложение не поддерживает.",
   "vpnErrorLoginDomain": "Выбранный домен аутентификации не разрешает вход по паролю. Проверьте поле домена аутентификации.",
@@ -4630,5 +4633,216 @@
   "settingsAiWorkspaceExportConfirmAction": "Экспортировать пакет",
   "settingsAiWorkspaceExported": "Подготовлен экспорт файлов ({count}): {path}.",
   "settingsAiWorkspaceExportFailed": "Не удалось экспортировать рабочее пространство Agent: {error}",
-  "aiSpeechTitle": "Речь ИИ", "aiSpeechRecognitionService": "Сервис распознавания речи", "aiSpeechSpeechToText": "speech_to_text (система)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Офлайн-транскрибация Whisper", "aiSpeechWhisperModel": "Модель Whisper", "aiDownload": "Скачать", "aiSpeechEngine": "Движок речи", "aiSpeechEdge": "Онлайн-голос Edge", "aiSpeechSttsVoice": "Системный голос stts", "aiSpeechVoiceLoadFailed": "Не удалось загрузить онлайн-голоса; используется текущий голос.", "aiSpeechVoice": "Голос", "aiSpeechRate": "Скорость", "aiSpeechPitch": "Высота тона", "aiSpeechVolume": "Громкость", "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос ИИ.", "aiSpeechPreview": "Прослушать текущий голос", "aiMcpImportFailed": "Не удалось импортировать конфигурацию MCP-сервера"
+  "aiSpeechTitle": "Речь ИИ", "aiSpeechRecognitionService": "Сервис распознавания речи", "aiSpeechSpeechToText": "speech_to_text (система)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Офлайн-транскрибация Whisper", "aiSpeechWhisperModel": "Модель Whisper", "aiDownload": "Скачать", "aiSpeechEngine": "Движок речи", "aiSpeechEdge": "Онлайн-голос Edge", "aiSpeechSttsVoice": "Системный голос stts", "aiSpeechVoiceLoadFailed": "Не удалось загрузить онлайн-голоса; используется текущий голос.", "aiSpeechVoice": "Голос", "aiSpeechRate": "Скорость", "aiSpeechPitch": "Высота тона", "aiSpeechVolume": "Громкость", "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос ИИ.", "aiSpeechPreview": "Прослушать текущий голос", "aiMcpImportFailed": "Не удалось импортировать конфигурацию MCP-сервера",
+  "campusAppCampusMap": "Карта кампуса",
+  "campusMapBaseVector": "Вектор",
+  "campusMapBaseSatellite": "Спутник",
+  "campusMapCategories": "Categories",
+  "campusMapAllCategories": "All places",
+  "campusMapLoading": "Loading campus places...",
+  "campusMapLoadFailed": "Unable to load campus places",
+  "campusMapSearchTitle": "Search Campus",
+  "campusMapSearchHint": "Search buildings, canteens, bus stops...",
+  "campusMapSearchEmpty": "Enter a place name to search",
+  "campusMapSearchNoResults": "No matching campus places",
+  "campusMapSearchFailed": "Search failed. Please try again.",
+  "campusMapDetails": "Place details",
+  "campusMapDistrict": "Campus",
+  "campusMapOldName": "Former name",
+  "campusMapManageDept": "Managed by",
+  "campusMapMaintenanceUnit": "Maintained by",
+  "campusMapCoordinates": "Coordinates",
+  "campusMapCopyCoordinates": "Copy coordinates",
+  "campusMapCoordinatesCopied": "Coordinates copied",
+  "campusMapOpenNavigation": "Navigate",
+  "campusMapNoNavigationApp": "No map app can open this location",
+  "campusMapDetailFailed": "Unable to load details",
+  "campusMapLayers": "Map layers",
+  "campusMapLayerToponyms": "Campus places",
+  "campusMapLayerParking": "Parking lots",
+  "campusMapLayerEntrances": "Entrances",
+  "campusMapLayerAed": "AED devices",
+  "campusMapLayerFacilities": "Campus facilities",
+  "campusMapLayerBusStops": "Shuttle stops",
+  "campusMapLayerBusLines": "Shuttle routes",
+  "campusMapOpenBus": "View shuttle schedule",
+  "campusMapMyLocation": "My location",
+  "campusMapLocating": "Locating...",
+  "campusMapLocationDenied": "Location permission is required",
+  "campusMapLocationOutside": "Вы находитесь за пределами карты кампуса",
+  "campusMapLocationUnavailable": "Current location is unavailable",
+  "campusMapOpenSettings": "Open settings",
+  "campusMapDistance": "Distance",
+  "campusMapFavorites": "Favorites",
+  "campusMapAddFavorite": "Add to favorites",
+  "campusMapRemoveFavorite": "Remove favorite",
+  "campusMapFavoriteAdded": "Added to favorites",
+  "campusMapFavoriteRemoved": "Removed from favorites",
+  "campusMapLayerPmtilesLabels": "Detailed map labels",
+  "campusMapCategoryTransport": "Transport",
+  "campusMapCategoryRoad": "Roads",
+  "campusMapCategoryBusStop": "Shuttle stops",
+  "campusMapCategoryAcademics": "Academics",
+  "campusMapCategoryTeachingBuilding": "Teaching buildings",
+  "campusMapCategoryCollege": "Colleges",
+  "campusMapCategoryLibrary": "Libraries",
+  "campusMapCategoryResearchLab": "Research labs",
+  "campusMapCategoryLife": "Daily life",
+  "campusMapCategoryGeneralService": "General services",
+  "campusMapCategoryCanteen": "Canteens",
+  "campusMapCategoryDormitory": "Dormitories",
+  "campusMapCategorySharedEv": "Shared e-bikes",
+  "campusMapCategoryRestroom": "Restrooms",
+  "campusMapCategorySports": "Sports and culture",
+  "campusMapCategoryHealth": "Health services",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "Administration",
+  "campusMapCategoryScenery": "Scenic spots",
+  "campusMapCategoryParking": "Parking lots",
+  "campusMapCategoryEntrance": "Entrances",
+  "campusMapCategoryBusLine": "Shuttle routes",
+  "campusMapZoomIn": "Zoom in",
+  "campusMapZoomOut": "Zoom out",
+  "campusMapResetView": "Reset map view",
+  "campusMapControls": "Map controls",
+  "campusMapControlMouse": "Drag to pan; use the mouse wheel or trackpad to zoom.",
+  "campusMapControlKeyboard": "Arrow keys or WASD pan the map. R/F and +/− control zoom.",
+  "campusMapControlReset": "Press 0 to return to the default campus view.",
+  "campusMapNearbyPlaces": "Places at this location",
+  "medicalWorkingHours": "Часы работы",
+  "medicalInvoicesUnpaid": "Не оплачено",
+  "medicalInvoicesPaid": "Оплачено",
+  "medicalCancelRegistration": "Отменить запись",
+  "medicalCancelRegistrationInProgress": "Отмена...",
+  "medicalCancelRegistrationConfirmTitle": "Отмена записи",
+  "medicalCancelRegistrationConfirmMessage": "Отменить эту запись?",
+  "medicalCancelRegistrationDone": "Запись отменена",
+  "medicalQueueStatusInProgress": "В очереди",
+  "medicalQueuePeopleAheadLabel": "Перед вами",
+  "medicalQueuePeopleAheadCount": "{count} чел.",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "Ваш номер",
+  "medicalQueueNumberValue": "№ {number}",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue}: нет",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "Почта",
+  "coremailOperationFailed": "Ошибка операции: {error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "Сначала новые; нажмите, чтобы переключить на старые",
+  "coremailSortOldestFirstHint": "Сначала старые; нажмите, чтобы переключить на новые",
+  "coremailNewFolder": "Новая папка",
+  "coremailFolderName": "Имя папки",
+  "coremailFolderNameRequired": "Введите имя папки.",
+  "coremailCreate": "Создать",
+  "coremailSwitchFolder": "Сменить папку",
+  "coremailLoadingMailbox": "Загрузка почты…",
+  "coremailConnectionFailed": "Ошибка подключения к почте: {error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "В этой папке нет писем",
+  "coremailCompose": "Написать",
+  "coremailNoSubject": "(Без темы)",
+  "coremailUnknownSender": "Неизвестный отправитель",
+  "coremailMessageDetail": "Сведения о письме",
+  "coremailMarkUnread": "Отметить как непрочитанное",
+  "coremailMoveToFolder": "Переместить в папку",
+  "coremailDeleteMessageTitle": "Удалить письмо",
+  "coremailDeleteMessageConfirm": "Удалить «{subject}»?",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "Время",
+  "coremailNoDisplayableContent": "В этом письме нет отображаемого содержимого.",
+  "coremailOpeningLink": "Открытие ссылки…",
+  "coremailLoading": "Загрузка…",
+  "coremailLoadFailed": "Не удалось загрузить",
+  "coremailRecipientRequired": "Укажите хотя бы одного действительного получателя.",
+  "coremailSendFailed": "Ошибка отправки: {error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "Отправить",
+  "coremailRecipientsLabel": "Кому",
+  "coremailRecipientsHint": "Разделяйте адреса запятыми",
+  "coremailSubjectLabel": "Тема",
+  "coremailBodyLabel": "Текст",
+  "coremailSendFrom": "От: {address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "Не удалось войти автоматически. Проверьте пароль или войдите снова.",
+  "coremailEnterAccountAndPassword": "Введите полный почтовый аккаунт и пароль.",
+  "coremailSignInFailed": "Не удалось войти. Проверьте почтовый аккаунт, пароль или пароль приложения.",
+  "coremailMailboxEnabled": "Почта включена",
+  "coremailEnterAccountFirst": "Сначала введите полный почтовый аккаунт.",
+  "coremailHeadlessSsoFailed": "Автоматический SSO не выполнен (возможно, потребуется завершить его вручную в браузере).",
+  "coremailGenerateAppPasswordTitle": "Создать пароль приложения",
+  "coremailPasswordNameLabel": "Название пароля",
+  "coremailPasswordNameRequired": "Введите название пароля.",
+  "coremailGenerate": "Создать",
+  "coremailSaveAppPasswordTitle": "Сохраните пароль приложения",
+  "coremailAppPasswordShownOnce": "Этот пароль показывается только один раз. Скопируйте его или сохраните в надёжном месте, затем подтвердите.",
+  "coremailAppPassword": "Пароль приложения",
+  "coremailAppPasswordSavedAck": "Я надёжно сохранил(а) этот пароль",
+  "coremailContinueAndSave": "Продолжить и сохранить на устройстве",
+  "coremailAppPasswordSavedHint": "Пароль приложения сохранён. Нажмите «Проверить и включить почту».",
+  "coremailGenerateAppPasswordFailed": "Не удалось создать пароль приложения. Завершите SSO-вход в почту ещё раз.",
+  "coremailAutoSigningIn": "Автоматический вход в почту…",
+  "coremailSetupDescription": "Войдите с аккаунтом почты WHU и мастер-паролем веб-входа или паролем приложения. Учётные данные почты хранятся в зашифрованном виде отдельно от данных единой аутентификации.",
+  "coremailAccountLabel": "Почтовый аккаунт",
+  "coremailPasswordLabel": "Пароль почты или пароль приложения",
+  "coremailHidePassword": "Скрыть пароль",
+  "coremailShowPassword": "Показать пароль",
+  "coremailRememberCredentials": "Безопасно сохранить аккаунт и пароль",
+  "coremailVerifyAndEnable": "Проверить и включить почту",
+  "coremailAppPasswordSectionDescription": "Не нужно входить в веб-версию почты вручную: используется сохранённый сеанс единой аутентификации, чтобы завершить SSO почты и создать пароль только для почтовых клиентов.",
+  "coremailGenerateViaCas": "Создать пароль приложения через CAS",
+  "coremailGenerateViaCasSubtitle": "Завершает единый вход в почту без интерфейса",
+  "coremailGenerateViaBrowser": "Завершить SSO вручную в браузере (запасной вариант)",
+  "coremailGenerateViaBrowserSubtitle": "Используйте, если автоматический SSO не сработал",
+  "coremailServers": "Серверы",
+  "coremailSsoSignInTitle": "Вход в почту",
+  "coremailSsoLoading": "Завершение единого входа в почту…"
 }

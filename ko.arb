@@ -73,6 +73,7 @@
   "vpnChallengeSubmit": "제출",
   "vpnChallengeExpired": "이 인증 절차는 이미 종료되었습니다.",
   "vpnConnectedTitle": "연결됨",
+  "vpnNotConnected": "연결되지 않음",
   "vpnDisconnectedTitle": "VPN 사용 준비 완료",
   "vpnDisconnectedDescription": "교외에서 캠퍼스 서비스를 이용하려면 로그인하세요.",
   "vpnVirtualAddress": "가상 주소",
@@ -97,6 +98,7 @@
   "vpnDisconnectAction": "연결 해제",
   "vpnRetryAction": "다시 시도",
   "vpnBackToFormAction": "뒤로",
+  "vpnEditCredentialsAction": "로그인 자격 증명 수정",
   "vpnForgetCredentials": "저장된 계정 정보 삭제",
   "vpnErrorTitle": "연결 실패",
   "vpnErrorInvalidServer": "VPN 서버 주소가 올바르지 않습니다.",
@@ -105,6 +107,7 @@
   "vpnErrorSystemModeUnsupported": "이 플랫폼에서는 시스템 VPN 모드가 지원되지 않습니다.",
   "vpnErrorPermissionDenied": "VPN 권한이 승인되지 않았습니다. 시스템 대화상자에서 허용한 후 다시 시도하세요.",
   "vpnErrorSessionExpired": "VPN 세션이 만료되었습니다. 다시 로그인하세요.",
+  "vpnErrorSessionReplaced": "이 VPN 세션이 종료되었습니다. 다른 기기에서 같은 계정으로 연결했을 수 있습니다. 계속하려면 다시 연결하세요.",
   "vpnErrorTunnel": "VPN 터널을 설정하지 못했습니다.",
   "vpnErrorUnsupportedChallenge": "VPN 서버가 이 앱에서 지원하지 않는 인증 방식을 요청했습니다.",
   "vpnErrorLoginDomain": "선택한 인증 도메인에서는 비밀번호 로그인을 허용하지 않습니다. 인증 도메인 입력란을 확인하세요.",
@@ -4661,5 +4664,216 @@
   "aiImageGenerationSave": "이미지 저장",
   "aiImageGenerationShare": "이미지 공유",
   "settingsAiCapabilityImageGeneration": "이미지 생성",
-  "aiSpeechTitle": "AI 음성", "aiSpeechRecognitionService": "음성 인식 서비스", "aiSpeechSpeechToText": "speech_to_text (시스템)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Whisper 오프라인 전사", "aiSpeechWhisperModel": "Whisper 모델", "aiDownload": "다운로드", "aiSpeechEngine": "음성 엔진", "aiSpeechEdge": "Edge 온라인 음성", "aiSpeechSttsVoice": "stts 시스템 음성", "aiSpeechVoiceLoadFailed": "온라인 음성을 불러올 수 없어 현재 음성을 사용합니다.", "aiSpeechVoice": "음성", "aiSpeechRate": "속도", "aiSpeechPitch": "음높이", "aiSpeechVolume": "음량", "aiSpeechPreviewText": "안녕하세요. 선택한 AI 음성입니다.", "aiSpeechPreview": "현재 음성 미리 듣기", "aiMcpImportFailed": "MCP 서버 설정을 가져오지 못했습니다"
+  "aiSpeechTitle": "AI 음성", "aiSpeechRecognitionService": "음성 인식 서비스", "aiSpeechSpeechToText": "speech_to_text (시스템)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Whisper 오프라인 전사", "aiSpeechWhisperModel": "Whisper 모델", "aiDownload": "다운로드", "aiSpeechEngine": "음성 엔진", "aiSpeechEdge": "Edge 온라인 음성", "aiSpeechSttsVoice": "stts 시스템 음성", "aiSpeechVoiceLoadFailed": "온라인 음성을 불러올 수 없어 현재 음성을 사용합니다.", "aiSpeechVoice": "음성", "aiSpeechRate": "속도", "aiSpeechPitch": "음높이", "aiSpeechVolume": "음량", "aiSpeechPreviewText": "안녕하세요. 선택한 AI 음성입니다.", "aiSpeechPreview": "현재 음성 미리 듣기", "aiMcpImportFailed": "MCP 서버 설정을 가져오지 못했습니다",
+  "campusAppCampusMap": "캠퍼스 지도",
+  "campusMapBaseVector": "벡터",
+  "campusMapBaseSatellite": "위성",
+  "campusMapCategories": "Categories",
+  "campusMapAllCategories": "All places",
+  "campusMapLoading": "Loading campus places...",
+  "campusMapLoadFailed": "Unable to load campus places",
+  "campusMapSearchTitle": "Search Campus",
+  "campusMapSearchHint": "Search buildings, canteens, bus stops...",
+  "campusMapSearchEmpty": "Enter a place name to search",
+  "campusMapSearchNoResults": "No matching campus places",
+  "campusMapSearchFailed": "Search failed. Please try again.",
+  "campusMapDetails": "Place details",
+  "campusMapDistrict": "Campus",
+  "campusMapOldName": "Former name",
+  "campusMapManageDept": "Managed by",
+  "campusMapMaintenanceUnit": "Maintained by",
+  "campusMapCoordinates": "Coordinates",
+  "campusMapCopyCoordinates": "Copy coordinates",
+  "campusMapCoordinatesCopied": "Coordinates copied",
+  "campusMapOpenNavigation": "Navigate",
+  "campusMapNoNavigationApp": "No map app can open this location",
+  "campusMapDetailFailed": "Unable to load details",
+  "campusMapLayers": "Map layers",
+  "campusMapLayerToponyms": "Campus places",
+  "campusMapLayerParking": "Parking lots",
+  "campusMapLayerEntrances": "Entrances",
+  "campusMapLayerAed": "AED devices",
+  "campusMapLayerFacilities": "Campus facilities",
+  "campusMapLayerBusStops": "Shuttle stops",
+  "campusMapLayerBusLines": "Shuttle routes",
+  "campusMapOpenBus": "View shuttle schedule",
+  "campusMapMyLocation": "My location",
+  "campusMapLocating": "Locating...",
+  "campusMapLocationDenied": "Location permission is required",
+  "campusMapLocationOutside": "현재 위치가 캠퍼스 지도 범위 밖에 있습니다",
+  "campusMapLocationUnavailable": "Current location is unavailable",
+  "campusMapOpenSettings": "Open settings",
+  "campusMapDistance": "Distance",
+  "campusMapFavorites": "Favorites",
+  "campusMapAddFavorite": "Add to favorites",
+  "campusMapRemoveFavorite": "Remove favorite",
+  "campusMapFavoriteAdded": "Added to favorites",
+  "campusMapFavoriteRemoved": "Removed from favorites",
+  "campusMapLayerPmtilesLabels": "Detailed map labels",
+  "campusMapCategoryTransport": "Transport",
+  "campusMapCategoryRoad": "Roads",
+  "campusMapCategoryBusStop": "Shuttle stops",
+  "campusMapCategoryAcademics": "Academics",
+  "campusMapCategoryTeachingBuilding": "Teaching buildings",
+  "campusMapCategoryCollege": "Colleges",
+  "campusMapCategoryLibrary": "Libraries",
+  "campusMapCategoryResearchLab": "Research labs",
+  "campusMapCategoryLife": "Daily life",
+  "campusMapCategoryGeneralService": "General services",
+  "campusMapCategoryCanteen": "Canteens",
+  "campusMapCategoryDormitory": "Dormitories",
+  "campusMapCategorySharedEv": "Shared e-bikes",
+  "campusMapCategoryRestroom": "Restrooms",
+  "campusMapCategorySports": "Sports and culture",
+  "campusMapCategoryHealth": "Health services",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "Administration",
+  "campusMapCategoryScenery": "Scenic spots",
+  "campusMapCategoryParking": "Parking lots",
+  "campusMapCategoryEntrance": "Entrances",
+  "campusMapCategoryBusLine": "Shuttle routes",
+  "campusMapZoomIn": "Zoom in",
+  "campusMapZoomOut": "Zoom out",
+  "campusMapResetView": "Reset map view",
+  "campusMapControls": "Map controls",
+  "campusMapControlMouse": "Drag to pan; use the mouse wheel or trackpad to zoom.",
+  "campusMapControlKeyboard": "Arrow keys or WASD pan the map. R/F and +/− control zoom.",
+  "campusMapControlReset": "Press 0 to return to the default campus view.",
+  "campusMapNearbyPlaces": "Places at this location",
+  "medicalWorkingHours": "진료 시간",
+  "medicalInvoicesUnpaid": "미납",
+  "medicalInvoicesPaid": "납부 완료",
+  "medicalCancelRegistration": "예약 취소",
+  "medicalCancelRegistrationInProgress": "취소 중...",
+  "medicalCancelRegistrationConfirmTitle": "예약 취소 확인",
+  "medicalCancelRegistrationConfirmMessage": "이 진료를 취소할까요?",
+  "medicalCancelRegistrationDone": "예약이 취소되었습니다",
+  "medicalQueueStatusInProgress": "대기 중",
+  "medicalQueuePeopleAheadLabel": "앞 대기 인원",
+  "medicalQueuePeopleAheadCount": "{count}명",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "내 번호",
+  "medicalQueueNumberValue": "{number}번",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue}: 없음",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "메일",
+  "coremailOperationFailed": "작업 실패: {error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "현재 최신순, 탭하여 오래된순으로 전환",
+  "coremailSortOldestFirstHint": "현재 오래된순, 탭하여 최신순으로 전환",
+  "coremailNewFolder": "새 폴더",
+  "coremailFolderName": "폴더 이름",
+  "coremailFolderNameRequired": "폴더 이름을 입력하세요.",
+  "coremailCreate": "만들기",
+  "coremailSwitchFolder": "폴더 전환",
+  "coremailLoadingMailbox": "메일함 불러오는 중…",
+  "coremailConnectionFailed": "메일 연결 실패: {error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "이 폴더에 메일이 없습니다",
+  "coremailCompose": "메일 쓰기",
+  "coremailNoSubject": "(제목 없음)",
+  "coremailUnknownSender": "알 수 없는 발신자",
+  "coremailMessageDetail": "메일 상세",
+  "coremailMarkUnread": "읽지 않음으로 표시",
+  "coremailMoveToFolder": "폴더로 이동",
+  "coremailDeleteMessageTitle": "메일 삭제",
+  "coremailDeleteMessageConfirm": "\"{subject}\"을(를) 삭제할까요?",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "시간",
+  "coremailNoDisplayableContent": "이 메일에는 표시할 수 있는 내용이 없습니다.",
+  "coremailOpeningLink": "링크를 여는 중…",
+  "coremailLoading": "불러오는 중…",
+  "coremailLoadFailed": "불러오기 실패",
+  "coremailRecipientRequired": "유효한 수신자를 한 명 이상 입력하세요.",
+  "coremailSendFailed": "전송 실패: {error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "전송",
+  "coremailRecipientsLabel": "받는 사람",
+  "coremailRecipientsHint": "여러 주소는 쉼표로 구분",
+  "coremailSubjectLabel": "제목",
+  "coremailBodyLabel": "본문",
+  "coremailSendFrom": "보내는 주소: {address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "자동 로그인에 실패했습니다. 비밀번호를 확인하거나 다시 로그인하세요.",
+  "coremailEnterAccountAndPassword": "전체 메일 계정과 비밀번호를 입력하세요.",
+  "coremailSignInFailed": "로그인에 실패했습니다. 메일 계정, 비밀번호 또는 앱 전용 비밀번호를 확인하세요.",
+  "coremailMailboxEnabled": "메일이 활성화되었습니다",
+  "coremailEnterAccountFirst": "먼저 전체 메일 계정을 입력하세요.",
+  "coremailHeadlessSsoFailed": "자동 SSO가 성공하지 못했습니다(브라우저에서 수동으로 완료해야 할 수 있습니다).",
+  "coremailGenerateAppPasswordTitle": "앱 전용 비밀번호 생성",
+  "coremailPasswordNameLabel": "비밀번호 이름",
+  "coremailPasswordNameRequired": "비밀번호 이름을 입력하세요.",
+  "coremailGenerate": "생성",
+  "coremailSaveAppPasswordTitle": "앱 전용 비밀번호를 저장하세요",
+  "coremailAppPasswordShownOnce": "이 비밀번호는 한 번만 표시됩니다. 복사하거나 신뢰할 수 있는 곳에 저장한 후 확인하세요.",
+  "coremailAppPassword": "앱 전용 비밀번호",
+  "coremailAppPasswordSavedAck": "이 비밀번호를 안전하게 저장했습니다",
+  "coremailContinueAndSave": "계속하고 이 기기에 저장",
+  "coremailAppPasswordSavedHint": "앱 전용 비밀번호가 저장되었습니다. \"확인하고 메일 활성화\"를 탭하세요.",
+  "coremailGenerateAppPasswordFailed": "앱 전용 비밀번호 생성에 실패했습니다. 메일 SSO 로그인을 다시 완료하세요.",
+  "coremailAutoSigningIn": "메일에 자동 로그인하는 중…",
+  "coremailSetupDescription": "WHU 메일 계정과 웹 로그인 마스터 비밀번호 또는 앱 전용 비밀번호로 로그인하세요. 메일 자격 증명은 통합 인증 자격 증명과 별도로 암호화되어 저장됩니다.",
+  "coremailAccountLabel": "메일 계정",
+  "coremailPasswordLabel": "메일 비밀번호 또는 앱 전용 비밀번호",
+  "coremailHidePassword": "비밀번호 숨기기",
+  "coremailShowPassword": "비밀번호 표시",
+  "coremailRememberCredentials": "메일 계정과 비밀번호를 안전하게 저장",
+  "coremailVerifyAndEnable": "확인하고 메일 활성화",
+  "coremailAppPasswordSectionDescription": "메일 웹에 수동으로 로그인할 필요가 없습니다. 저장된 통합 인증 세션을 사용해 메일 SSO를 자동으로 완료하고 메일 클라이언트 전용 비밀번호를 생성합니다.",
+  "coremailGenerateViaCas": "CAS로 앱 전용 비밀번호 생성",
+  "coremailGenerateViaCasSubtitle": "화면 없이 메일 싱글 사인온을 완료합니다",
+  "coremailGenerateViaBrowser": "브라우저에서 수동으로 SSO 완료(폴백)",
+  "coremailGenerateViaBrowserSubtitle": "자동 SSO가 성공하지 못할 때 사용",
+  "coremailServers": "서버",
+  "coremailSsoSignInTitle": "메일 로그인",
+  "coremailSsoLoading": "메일 싱글 사인온을 완료하는 중…"
 }

@@ -73,6 +73,7 @@
   "vpnChallengeSubmit": "Envoyer",
   "vpnChallengeExpired": "Cette vérification est déjà terminée.",
   "vpnConnectedTitle": "Connecté",
+  "vpnNotConnected": "Non connecté",
   "vpnDisconnectedTitle": "VPN prêt",
   "vpnDisconnectedDescription": "Connectez-vous pour accéder aux services du campus depuis l’extérieur du campus.",
   "vpnVirtualAddress": "Adresse virtuelle",
@@ -97,6 +98,7 @@
   "vpnDisconnectAction": "Se déconnecter",
   "vpnRetryAction": "Réessayer",
   "vpnBackToFormAction": "Retour",
+  "vpnEditCredentialsAction": "Modifier les identifiants de connexion",
   "vpnForgetCredentials": "Oublier le compte enregistré",
   "vpnErrorTitle": "Échec de la connexion",
   "vpnErrorInvalidServer": "L’adresse du serveur VPN est invalide.",
@@ -104,7 +106,8 @@
   "vpnErrorElevationRequired": "Le mode système nécessite une application exécutée avec élévation. Lancez Luotopia en tant qu’administrateur ou passez au mode intégré à l’application.",
   "vpnErrorSystemModeUnsupported": "Le mode VPN système n'est pas pris en charge sur cette plateforme.",
   "vpnErrorPermissionDenied": "L'autorisation VPN n'a pas été accordée. Autorisez-la dans la boîte de dialogue système puis réessayez.",
-  "vpnErrorSessionExpired": "Votre session VPN a expiré ; reconnectez-vous.",
+  "vpnErrorSessionExpired": "Votre session VPN a expiré ; reconnectez-vous.",
+  "vpnErrorSessionReplaced": "Cette session VPN a été déconnectée, peut-être parce que le compte s'est connecté sur un autre appareil. Reconnectez-vous pour continuer.",
   "vpnErrorTunnel": "Impossible d’établir le tunnel VPN.",
   "vpnErrorUnsupportedChallenge": "Le serveur VPN a demandé une méthode d’authentification non prise en charge par cette application.",
   "vpnErrorLoginDomain": "Le domaine d’authentification sélectionné n’autorise pas la connexion par mot de passe ; vérifiez le champ du domaine d’authentification.",
@@ -4640,5 +4643,216 @@
   "settingsAiWorkspaceExportConfirmAction": "Exporter le paquet",
   "settingsAiWorkspaceExported": "Export de {count} fichiers préparé : {path}.",
   "settingsAiWorkspaceExportFailed": "Échec de l’exportation de l’espace de travail de l’Agent : {error}",
-  "aiSpeechTitle": "Synthèse vocale IA", "aiSpeechRecognitionService": "Service de reconnaissance vocale", "aiSpeechSpeechToText": "speech_to_text (système)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Transcription hors ligne avec Whisper", "aiSpeechWhisperModel": "Modèle Whisper", "aiDownload": "Télécharger", "aiSpeechEngine": "Moteur vocal", "aiSpeechEdge": "Voix en ligne Edge", "aiSpeechSttsVoice": "Voix système stts", "aiSpeechVoiceLoadFailed": "Impossible de charger les voix en ligne ; la voix actuelle sera utilisée.", "aiSpeechVoice": "Voix", "aiSpeechRate": "Vitesse", "aiSpeechPitch": "Tonalité", "aiSpeechVolume": "Volume", "aiSpeechPreviewText": "Bonjour. Voici la voix IA sélectionnée.", "aiSpeechPreview": "Prévisualiser la voix actuelle", "aiMcpImportFailed": "Impossible d’importer la configuration du serveur MCP"
+  "aiSpeechTitle": "Synthèse vocale IA", "aiSpeechRecognitionService": "Service de reconnaissance vocale", "aiSpeechSpeechToText": "speech_to_text (système)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Transcription hors ligne avec Whisper", "aiSpeechWhisperModel": "Modèle Whisper", "aiDownload": "Télécharger", "aiSpeechEngine": "Moteur vocal", "aiSpeechEdge": "Voix en ligne Edge", "aiSpeechSttsVoice": "Voix système stts", "aiSpeechVoiceLoadFailed": "Impossible de charger les voix en ligne ; la voix actuelle sera utilisée.", "aiSpeechVoice": "Voix", "aiSpeechRate": "Vitesse", "aiSpeechPitch": "Tonalité", "aiSpeechVolume": "Volume", "aiSpeechPreviewText": "Bonjour. Voici la voix IA sélectionnée.", "aiSpeechPreview": "Prévisualiser la voix actuelle", "aiMcpImportFailed": "Impossible d’importer la configuration du serveur MCP",
+  "campusAppCampusMap": "Plan du campus",
+  "campusMapBaseVector": "Vectoriel",
+  "campusMapBaseSatellite": "Satellite",
+  "campusMapCategories": "Categories",
+  "campusMapAllCategories": "All places",
+  "campusMapLoading": "Loading campus places...",
+  "campusMapLoadFailed": "Unable to load campus places",
+  "campusMapSearchTitle": "Search Campus",
+  "campusMapSearchHint": "Search buildings, canteens, bus stops...",
+  "campusMapSearchEmpty": "Enter a place name to search",
+  "campusMapSearchNoResults": "No matching campus places",
+  "campusMapSearchFailed": "Search failed. Please try again.",
+  "campusMapDetails": "Place details",
+  "campusMapDistrict": "Campus",
+  "campusMapOldName": "Former name",
+  "campusMapManageDept": "Managed by",
+  "campusMapMaintenanceUnit": "Maintained by",
+  "campusMapCoordinates": "Coordinates",
+  "campusMapCopyCoordinates": "Copy coordinates",
+  "campusMapCoordinatesCopied": "Coordinates copied",
+  "campusMapOpenNavigation": "Navigate",
+  "campusMapNoNavigationApp": "No map app can open this location",
+  "campusMapDetailFailed": "Unable to load details",
+  "campusMapLayers": "Map layers",
+  "campusMapLayerToponyms": "Campus places",
+  "campusMapLayerParking": "Parking lots",
+  "campusMapLayerEntrances": "Entrances",
+  "campusMapLayerAed": "AED devices",
+  "campusMapLayerFacilities": "Campus facilities",
+  "campusMapLayerBusStops": "Shuttle stops",
+  "campusMapLayerBusLines": "Shuttle routes",
+  "campusMapOpenBus": "View shuttle schedule",
+  "campusMapMyLocation": "My location",
+  "campusMapLocating": "Locating...",
+  "campusMapLocationDenied": "Location permission is required",
+  "campusMapLocationOutside": "Votre position se trouve en dehors de la zone de la carte du campus",
+  "campusMapLocationUnavailable": "Current location is unavailable",
+  "campusMapOpenSettings": "Open settings",
+  "campusMapDistance": "Distance",
+  "campusMapFavorites": "Favorites",
+  "campusMapAddFavorite": "Add to favorites",
+  "campusMapRemoveFavorite": "Remove favorite",
+  "campusMapFavoriteAdded": "Added to favorites",
+  "campusMapFavoriteRemoved": "Removed from favorites",
+  "campusMapLayerPmtilesLabels": "Detailed map labels",
+  "campusMapCategoryTransport": "Transport",
+  "campusMapCategoryRoad": "Roads",
+  "campusMapCategoryBusStop": "Shuttle stops",
+  "campusMapCategoryAcademics": "Academics",
+  "campusMapCategoryTeachingBuilding": "Teaching buildings",
+  "campusMapCategoryCollege": "Colleges",
+  "campusMapCategoryLibrary": "Libraries",
+  "campusMapCategoryResearchLab": "Research labs",
+  "campusMapCategoryLife": "Daily life",
+  "campusMapCategoryGeneralService": "General services",
+  "campusMapCategoryCanteen": "Canteens",
+  "campusMapCategoryDormitory": "Dormitories",
+  "campusMapCategorySharedEv": "Shared e-bikes",
+  "campusMapCategoryRestroom": "Restrooms",
+  "campusMapCategorySports": "Sports and culture",
+  "campusMapCategoryHealth": "Health services",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "Administration",
+  "campusMapCategoryScenery": "Scenic spots",
+  "campusMapCategoryParking": "Parking lots",
+  "campusMapCategoryEntrance": "Entrances",
+  "campusMapCategoryBusLine": "Shuttle routes",
+  "campusMapZoomIn": "Zoom in",
+  "campusMapZoomOut": "Zoom out",
+  "campusMapResetView": "Reset map view",
+  "campusMapControls": "Map controls",
+  "campusMapControlMouse": "Drag to pan; use the mouse wheel or trackpad to zoom.",
+  "campusMapControlKeyboard": "Arrow keys or WASD pan the map. R/F and +/− control zoom.",
+  "campusMapControlReset": "Press 0 to return to the default campus view.",
+  "campusMapNearbyPlaces": "Places at this location",
+  "medicalWorkingHours": "Horaires de consultation",
+  "medicalInvoicesUnpaid": "Non payé",
+  "medicalInvoicesPaid": "Payé",
+  "medicalCancelRegistration": "Annuler le rendez-vous",
+  "medicalCancelRegistrationInProgress": "Annulation...",
+  "medicalCancelRegistrationConfirmTitle": "Annuler le rendez-vous",
+  "medicalCancelRegistrationConfirmMessage": "Voulez-vous vraiment annuler ce rendez-vous ?",
+  "medicalCancelRegistrationDone": "Rendez-vous annulé",
+  "medicalQueueStatusInProgress": "En file d'attente",
+  "medicalQueuePeopleAheadLabel": "Devant vous",
+  "medicalQueuePeopleAheadCount": "{count} personnes",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "Votre numéro",
+  "medicalQueueNumberValue": "N° {number}",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue} : aucun",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "Messagerie",
+  "coremailOperationFailed": "Échec de l'opération : {error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "Du plus récent au plus ancien ; appuyez pour inverser",
+  "coremailSortOldestFirstHint": "Du plus ancien au plus récent ; appuyez pour inverser",
+  "coremailNewFolder": "Nouveau dossier",
+  "coremailFolderName": "Nom du dossier",
+  "coremailFolderNameRequired": "Saisissez un nom de dossier.",
+  "coremailCreate": "Créer",
+  "coremailSwitchFolder": "Changer de dossier",
+  "coremailLoadingMailbox": "Chargement de la messagerie…",
+  "coremailConnectionFailed": "Échec de la connexion à la messagerie : {error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "Aucun e-mail dans ce dossier",
+  "coremailCompose": "Écrire",
+  "coremailNoSubject": "(Sans objet)",
+  "coremailUnknownSender": "Expéditeur inconnu",
+  "coremailMessageDetail": "Détail du message",
+  "coremailMarkUnread": "Marquer comme non lu",
+  "coremailMoveToFolder": "Déplacer vers un dossier",
+  "coremailDeleteMessageTitle": "Supprimer l'e-mail",
+  "coremailDeleteMessageConfirm": "Supprimer « {subject} » ?",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "Heure",
+  "coremailNoDisplayableContent": "Ce message ne contient aucun contenu affichable.",
+  "coremailOpeningLink": "Ouverture du lien…",
+  "coremailLoading": "Chargement…",
+  "coremailLoadFailed": "Échec du chargement",
+  "coremailRecipientRequired": "Saisissez au moins un destinataire valide.",
+  "coremailSendFailed": "Échec de l'envoi : {error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "Envoyer",
+  "coremailRecipientsLabel": "À",
+  "coremailRecipientsHint": "Séparez plusieurs adresses par des virgules",
+  "coremailSubjectLabel": "Objet",
+  "coremailBodyLabel": "Corps",
+  "coremailSendFrom": "De : {address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "Échec de la connexion automatique. Vérifiez votre mot de passe ou reconnectez-vous.",
+  "coremailEnterAccountAndPassword": "Saisissez le compte e-mail complet et le mot de passe.",
+  "coremailSignInFailed": "Échec de la connexion. Vérifiez le compte e-mail, le mot de passe ou le mot de passe spécifique à l'application.",
+  "coremailMailboxEnabled": "Messagerie activée",
+  "coremailEnterAccountFirst": "Saisissez d'abord le compte e-mail complet.",
+  "coremailHeadlessSsoFailed": "Le SSO automatique n'a pas abouti (vous devrez peut-être le terminer manuellement dans un navigateur).",
+  "coremailGenerateAppPasswordTitle": "Générer un mot de passe spécifique à l'application",
+  "coremailPasswordNameLabel": "Nom du mot de passe",
+  "coremailPasswordNameRequired": "Saisissez un nom de mot de passe.",
+  "coremailGenerate": "Générer",
+  "coremailSaveAppPasswordTitle": "Enregistrez votre mot de passe spécifique",
+  "coremailAppPasswordShownOnce": "Ce mot de passe n'est affiché qu'une seule fois. Copiez-le ou enregistrez-le dans un endroit sûr, puis confirmez.",
+  "coremailAppPassword": "Mot de passe spécifique à l'application",
+  "coremailAppPasswordSavedAck": "J'ai enregistré ce mot de passe en toute sécurité",
+  "coremailContinueAndSave": "Continuer et enregistrer sur cet appareil",
+  "coremailAppPasswordSavedHint": "Mot de passe spécifique enregistré. Appuyez sur « Vérifier et activer la messagerie ».",
+  "coremailGenerateAppPasswordFailed": "Échec de la génération du mot de passe spécifique. Terminez à nouveau la connexion SSO de la messagerie.",
+  "coremailAutoSigningIn": "Connexion automatique à la messagerie…",
+  "coremailSetupDescription": "Connectez-vous avec votre compte e-mail WHU et le mot de passe principal de connexion web ou un mot de passe spécifique à l'application. Les identifiants de la messagerie sont chiffrés et stockés séparément des identifiants d'authentification unifiée.",
+  "coremailAccountLabel": "Compte e-mail",
+  "coremailPasswordLabel": "Mot de passe e-mail ou mot de passe spécifique",
+  "coremailHidePassword": "Masquer le mot de passe",
+  "coremailShowPassword": "Afficher le mot de passe",
+  "coremailRememberCredentials": "Enregistrer en toute sécurité le compte et le mot de passe",
+  "coremailVerifyAndEnable": "Vérifier et activer la messagerie",
+  "coremailAppPasswordSectionDescription": "Pas besoin de vous connecter manuellement au webmail : utilise la session d'authentification unifiée enregistrée pour terminer le SSO de la messagerie et générer un mot de passe réservé aux clients de messagerie.",
+  "coremailGenerateViaCas": "Générer un mot de passe spécifique via CAS",
+  "coremailGenerateViaCasSubtitle": "Termine l'authentification unique de la messagerie sans interface",
+  "coremailGenerateViaBrowser": "Terminer le SSO manuellement dans un navigateur (secours)",
+  "coremailGenerateViaBrowserSubtitle": "À utiliser quand le SSO automatique échoue",
+  "coremailServers": "Serveurs",
+  "coremailSsoSignInTitle": "Connexion à la messagerie",
+  "coremailSsoLoading": "Finalisation de l'authentification unique de la messagerie…"
 }

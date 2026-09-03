@@ -74,6 +74,7 @@
   "vpnChallengeSubmit": "Gửi",
   "vpnChallengeExpired": "Lần xác minh này đã kết thúc.",
   "vpnConnectedTitle": "Đã kết nối",
+  "vpnNotConnected": "Chưa kết nối",
   "vpnDisconnectedTitle": "VPN sẵn sàng",
   "vpnDisconnectedDescription": "Đăng nhập để truy cập các dịch vụ trong khuôn viên trường từ bên ngoài.",
   "vpnVirtualAddress": "Địa chỉ ảo",
@@ -98,6 +99,7 @@
   "vpnDisconnectAction": "Ngắt kết nối",
   "vpnRetryAction": "Thử lại",
   "vpnBackToFormAction": "Quay lại",
+  "vpnEditCredentialsAction": "Sửa thông tin đăng nhập",
   "vpnForgetCredentials": "Quên tài khoản đã lưu",
   "vpnErrorTitle": "Kết nối thất bại",
   "vpnErrorInvalidServer": "Địa chỉ máy chủ VPN không hợp lệ.",
@@ -106,6 +108,7 @@
   "vpnErrorSystemModeUnsupported": "Chế độ VPN hệ thống không được hỗ trợ trên nền tảng này.",
   "vpnErrorPermissionDenied": "Chưa được cấp quyền VPN. Hãy cho phép trong hộp thoại hệ thống rồi thử lại.",
   "vpnErrorSessionExpired": "Phiên VPN đã hết hạn; hãy đăng nhập lại.",
+  "vpnErrorSessionReplaced": "Phiên VPN này đã bị ngắt kết nối, có thể do tài khoản đã kết nối trên thiết bị khác. Hãy kết nối lại để tiếp tục.",
   "vpnErrorTunnel": "Không thể thiết lập đường hầm VPN.",
   "vpnErrorUnsupportedChallenge": "Máy chủ VPN yêu cầu phương thức xác thực mà ứng dụng này không hỗ trợ.",
   "vpnErrorLoginDomain": "Miền xác thực đã chọn không cho phép đăng nhập bằng mật khẩu; hãy kiểm tra trường miền xác thực.",
@@ -4644,5 +4647,216 @@
   "whuTrustedDevicesDelete": "Xóa thiết bị",
   "whuTrustedDevicesDeleteConfirm": "Xóa trình duyệt đáng tin cậy “{name}”? Lần đăng nhập tiếp theo có thể sẽ yêu cầu xác minh đa yếu tố.",
   "@whuTrustedDevicesDeleteConfirm": {"placeholders": {"name": {"type": "String"}}},
-  "whuTrustedDevicesDeleted": "Đã xóa trình duyệt đáng tin cậy"
+  "whuTrustedDevicesDeleted": "Đã xóa trình duyệt đáng tin cậy",
+  "campusAppCampusMap": "Ban do truong",
+  "campusMapBaseVector": "Vector",
+  "campusMapBaseSatellite": "Ve tinh",
+  "campusMapCategories": "Categories",
+  "campusMapAllCategories": "All places",
+  "campusMapLoading": "Loading campus places...",
+  "campusMapLoadFailed": "Unable to load campus places",
+  "campusMapSearchTitle": "Search Campus",
+  "campusMapSearchHint": "Search buildings, canteens, bus stops...",
+  "campusMapSearchEmpty": "Enter a place name to search",
+  "campusMapSearchNoResults": "No matching campus places",
+  "campusMapSearchFailed": "Search failed. Please try again.",
+  "campusMapDetails": "Place details",
+  "campusMapDistrict": "Campus",
+  "campusMapOldName": "Former name",
+  "campusMapManageDept": "Managed by",
+  "campusMapMaintenanceUnit": "Maintained by",
+  "campusMapCoordinates": "Coordinates",
+  "campusMapCopyCoordinates": "Copy coordinates",
+  "campusMapCoordinatesCopied": "Coordinates copied",
+  "campusMapOpenNavigation": "Navigate",
+  "campusMapNoNavigationApp": "No map app can open this location",
+  "campusMapDetailFailed": "Unable to load details",
+  "campusMapLayers": "Map layers",
+  "campusMapLayerToponyms": "Campus places",
+  "campusMapLayerParking": "Parking lots",
+  "campusMapLayerEntrances": "Entrances",
+  "campusMapLayerAed": "AED devices",
+  "campusMapLayerFacilities": "Campus facilities",
+  "campusMapLayerBusStops": "Shuttle stops",
+  "campusMapLayerBusLines": "Shuttle routes",
+  "campusMapOpenBus": "View shuttle schedule",
+  "campusMapMyLocation": "My location",
+  "campusMapLocating": "Locating...",
+  "campusMapLocationDenied": "Location permission is required",
+  "campusMapLocationOutside": "Vị trí của bạn nằm ngoài khu vực bản đồ trường",
+  "campusMapLocationUnavailable": "Current location is unavailable",
+  "campusMapOpenSettings": "Open settings",
+  "campusMapDistance": "Distance",
+  "campusMapFavorites": "Favorites",
+  "campusMapAddFavorite": "Add to favorites",
+  "campusMapRemoveFavorite": "Remove favorite",
+  "campusMapFavoriteAdded": "Added to favorites",
+  "campusMapFavoriteRemoved": "Removed from favorites",
+  "campusMapLayerPmtilesLabels": "Detailed map labels",
+  "campusMapCategoryTransport": "Transport",
+  "campusMapCategoryRoad": "Roads",
+  "campusMapCategoryBusStop": "Shuttle stops",
+  "campusMapCategoryAcademics": "Academics",
+  "campusMapCategoryTeachingBuilding": "Teaching buildings",
+  "campusMapCategoryCollege": "Colleges",
+  "campusMapCategoryLibrary": "Libraries",
+  "campusMapCategoryResearchLab": "Research labs",
+  "campusMapCategoryLife": "Daily life",
+  "campusMapCategoryGeneralService": "General services",
+  "campusMapCategoryCanteen": "Canteens",
+  "campusMapCategoryDormitory": "Dormitories",
+  "campusMapCategorySharedEv": "Shared e-bikes",
+  "campusMapCategoryRestroom": "Restrooms",
+  "campusMapCategorySports": "Sports and culture",
+  "campusMapCategoryHealth": "Health services",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "Administration",
+  "campusMapCategoryScenery": "Scenic spots",
+  "campusMapCategoryParking": "Parking lots",
+  "campusMapCategoryEntrance": "Entrances",
+  "campusMapCategoryBusLine": "Shuttle routes",
+  "campusMapZoomIn": "Zoom in",
+  "campusMapZoomOut": "Zoom out",
+  "campusMapResetView": "Reset map view",
+  "campusMapControls": "Map controls",
+  "campusMapControlMouse": "Drag to pan; use the mouse wheel or trackpad to zoom.",
+  "campusMapControlKeyboard": "Arrow keys or WASD pan the map. R/F and +/− control zoom.",
+  "campusMapControlReset": "Press 0 to return to the default campus view.",
+  "campusMapNearbyPlaces": "Places at this location",
+  "medicalWorkingHours": "Giờ làm việc",
+  "medicalInvoicesUnpaid": "Chưa thanh toán",
+  "medicalInvoicesPaid": "Đã thanh toán",
+  "medicalCancelRegistration": "Hủy đăng ký khám",
+  "medicalCancelRegistrationInProgress": "Đang hủy...",
+  "medicalCancelRegistrationConfirmTitle": "Hủy đăng ký khám",
+  "medicalCancelRegistrationConfirmMessage": "Bạn có chắc muốn hủy đăng ký khám này không?",
+  "medicalCancelRegistrationDone": "Đã hủy đăng ký khám",
+  "medicalQueueStatusInProgress": "Đang xếp hàng",
+  "medicalQueuePeopleAheadLabel": "Phía trước bạn",
+  "medicalQueuePeopleAheadCount": "{count} người",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "Số của bạn",
+  "medicalQueueNumberValue": "Số {number}",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue}: Không có",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "Hộp thư",
+  "coremailOperationFailed": "Thao tác thất bại: {error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "Mới nhất trước, chạm để chuyển sang cũ nhất trước",
+  "coremailSortOldestFirstHint": "Cũ nhất trước, chạm để chuyển sang mới nhất trước",
+  "coremailNewFolder": "Thư mục mới",
+  "coremailFolderName": "Tên thư mục",
+  "coremailFolderNameRequired": "Vui lòng nhập tên thư mục.",
+  "coremailCreate": "Tạo",
+  "coremailSwitchFolder": "Chuyển thư mục",
+  "coremailLoadingMailbox": "Đang tải hộp thư…",
+  "coremailConnectionFailed": "Kết nối hộp thư thất bại: {error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "Không có thư trong thư mục này",
+  "coremailCompose": "Soạn thư",
+  "coremailNoSubject": "(Không có chủ đề)",
+  "coremailUnknownSender": "Người gửi không xác định",
+  "coremailMessageDetail": "Chi tiết thư",
+  "coremailMarkUnread": "Đánh dấu là chưa đọc",
+  "coremailMoveToFolder": "Chuyển vào thư mục",
+  "coremailDeleteMessageTitle": "Xóa thư",
+  "coremailDeleteMessageConfirm": "Xóa \"{subject}\"?",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "Thời gian",
+  "coremailNoDisplayableContent": "Thư này không có nội dung hiển thị được.",
+  "coremailOpeningLink": "Đang mở liên kết…",
+  "coremailLoading": "Đang tải…",
+  "coremailLoadFailed": "Tải thất bại",
+  "coremailRecipientRequired": "Vui lòng nhập ít nhất một người nhận hợp lệ.",
+  "coremailSendFailed": "Gửi thất bại: {error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "Gửi",
+  "coremailRecipientsLabel": "Người nhận",
+  "coremailRecipientsHint": "Phân tách nhiều địa chỉ bằng dấu phẩy",
+  "coremailSubjectLabel": "Chủ đề",
+  "coremailBodyLabel": "Nội dung",
+  "coremailSendFrom": "Địa chỉ gửi: {address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "Đăng nhập tự động thất bại. Vui lòng kiểm tra mật khẩu hoặc đăng nhập lại.",
+  "coremailEnterAccountAndPassword": "Vui lòng nhập đầy đủ tài khoản email và mật khẩu.",
+  "coremailSignInFailed": "Đăng nhập thất bại. Vui lòng kiểm tra tài khoản email, mật khẩu hoặc mật khẩu dành riêng cho ứng dụng.",
+  "coremailMailboxEnabled": "Đã bật hộp thư",
+  "coremailEnterAccountFirst": "Vui lòng nhập đầy đủ tài khoản email trước.",
+  "coremailHeadlessSsoFailed": "SSO tự động không thành công (có thể cần hoàn tất thủ công trong trình duyệt).",
+  "coremailGenerateAppPasswordTitle": "Tạo mật khẩu dành riêng cho ứng dụng",
+  "coremailPasswordNameLabel": "Tên mật khẩu",
+  "coremailPasswordNameRequired": "Vui lòng nhập tên mật khẩu.",
+  "coremailGenerate": "Tạo",
+  "coremailSaveAppPasswordTitle": "Hãy lưu mật khẩu dành riêng cho ứng dụng",
+  "coremailAppPasswordShownOnce": "Mật khẩu này chỉ hiển thị một lần. Hãy sao chép hoặc lưu vào nơi đáng tin cậy rồi xác nhận.",
+  "coremailAppPassword": "Mật khẩu dành riêng cho ứng dụng",
+  "coremailAppPasswordSavedAck": "Tôi đã lưu mật khẩu này an toàn",
+  "coremailContinueAndSave": "Tiếp tục và lưu trên thiết bị này",
+  "coremailAppPasswordSavedHint": "Đã lưu mật khẩu dành riêng cho ứng dụng. Hãy chạm \"Xác minh và bật hộp thư\".",
+  "coremailGenerateAppPasswordFailed": "Tạo mật khẩu dành riêng cho ứng dụng thất bại. Vui lòng hoàn tất lại đăng nhập SSO hộp thư.",
+  "coremailAutoSigningIn": "Đang tự động đăng nhập hộp thư…",
+  "coremailSetupDescription": "Đăng nhập bằng tài khoản email WHU và mật khẩu chính đăng nhập web hoặc mật khẩu dành riêng cho ứng dụng. Thông tin đăng nhập email được mã hóa và lưu riêng với thông tin xác thực thống nhất.",
+  "coremailAccountLabel": "Tài khoản email",
+  "coremailPasswordLabel": "Mật khẩu email hoặc mật khẩu dành riêng cho ứng dụng",
+  "coremailHidePassword": "Ẩn mật khẩu",
+  "coremailShowPassword": "Hiện mật khẩu",
+  "coremailRememberCredentials": "Lưu an toàn tài khoản và mật khẩu email",
+  "coremailVerifyAndEnable": "Xác minh và bật hộp thư",
+  "coremailAppPasswordSectionDescription": "Không cần đăng nhập thủ công vào webmail: dùng phiên xác thực thống nhất đã lưu để hoàn tất SSO hộp thư và tạo mật khẩu chỉ dùng cho ứng dụng email.",
+  "coremailGenerateViaCas": "Tạo mật khẩu dành riêng cho ứng dụng qua CAS",
+  "coremailGenerateViaCasSubtitle": "Hoàn tất đăng nhập một lần hộp thư không cần giao diện",
+  "coremailGenerateViaBrowser": "Hoàn tất SSO thủ công trong trình duyệt (dự phòng)",
+  "coremailGenerateViaBrowserSubtitle": "Dùng khi SSO tự động không thành công",
+  "coremailServers": "Máy chủ",
+  "coremailSsoSignInTitle": "Đăng nhập hộp thư",
+  "coremailSsoLoading": "Đang hoàn tất đăng nhập một lần hộp thư…"
 }

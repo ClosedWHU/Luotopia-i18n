@@ -4408,6 +4408,7 @@
    "vpnChallengeSubmit": "送出",
    "vpnChallengeExpired": "此驗證已經完成。",
    "vpnConnectedTitle": "已連線",
+  "vpnNotConnected": "未連線",
    "vpnDisconnectedTitle": "VPN 已就緒",
    "vpnDisconnectedDescription": "登入後即可從校外存取校園服務。",
    "vpnVirtualAddress": "虛擬位址",
@@ -4432,6 +4433,7 @@
    "vpnDisconnectAction": "中斷連線",
    "vpnRetryAction": "重試",
    "vpnBackToFormAction": "返回",
+  "vpnEditCredentialsAction": "編輯登入憑證",
    "vpnForgetCredentials": "忘記已儲存的帳號",
    "vpnErrorTitle": "連線失敗",
    "vpnErrorInvalidServer": "VPN 伺服器位址無效。",
@@ -4440,6 +4442,7 @@
    "vpnErrorSystemModeUnsupported": "此平台暫不支援系統級 VPN 模式。",
    "vpnErrorPermissionDenied": "未取得 VPN 權限，請在系統彈出視窗允許後重試。",
    "vpnErrorSessionExpired": "VPN 工作階段已過期，請重新登入。",
+  "vpnErrorSessionReplaced": "VPN 工作階段已中斷，可能是該帳號在其他裝置連線後被擠下線。請重新連線。",
    "vpnErrorTunnel": "無法建立 VPN 通道。",
    "vpnErrorUnsupportedChallenge": "VPN 伺服器要求的驗證方式不受此 App 支援。",
    "vpnErrorLoginDomain": "選取的驗證網域不允許使用密碼登入，請檢查驗證網域欄位。",
@@ -4663,5 +4666,216 @@
    "whuTrustedDevicesDelete": "刪除裝置",
    "whuTrustedDevicesDeleteConfirm": "刪除受信任的瀏覽器「{name}」？下次登入時可能需要重新進行多重要素驗證。",
    "@whuTrustedDevicesDeleteConfirm": {"placeholders": {"name": {"type": "String"}}},
-   "whuTrustedDevicesDeleted": "受信任的瀏覽器已刪除"
- }
+   "whuTrustedDevicesDeleted": "受信任的瀏覽器已刪除",
+  "campusAppCampusMap": "校園地圖",
+  "campusMapBaseVector": "向量",
+  "campusMapBaseSatellite": "衛星",
+  "campusMapCategories": "分類篩選",
+  "campusMapAllCategories": "全部地點",
+  "campusMapLoading": "正在載入校園地點…",
+  "campusMapLoadFailed": "校園地點載入失敗",
+  "campusMapSearchTitle": "搜尋校園地點",
+  "campusMapSearchHint": "搜尋教學樓、食堂、校車站點…",
+  "campusMapSearchEmpty": "輸入地點名稱開始搜尋",
+  "campusMapSearchNoResults": "找不到符合的校園地點",
+  "campusMapSearchFailed": "搜尋失敗，請重試",
+  "campusMapDetails": "地點詳情",
+  "campusMapDistrict": "所屬學部",
+  "campusMapOldName": "曾用名",
+  "campusMapManageDept": "管理部門",
+  "campusMapMaintenanceUnit": "維護單位",
+  "campusMapCoordinates": "座標",
+  "campusMapCopyCoordinates": "複製座標",
+  "campusMapCoordinatesCopied": "座標已複製",
+  "campusMapOpenNavigation": "外部導航",
+  "campusMapNoNavigationApp": "沒有可用的地圖應用程式",
+  "campusMapDetailFailed": "詳情載入失敗",
+  "campusMapLayers": "地圖圖層",
+  "campusMapLayerToponyms": "校園地點",
+  "campusMapLayerParking": "停車場",
+  "campusMapLayerEntrances": "出入口",
+  "campusMapLayerAed": "AED 裝置",
+  "campusMapLayerFacilities": "校園設施",
+  "campusMapLayerBusStops": "校車站點",
+  "campusMapLayerBusLines": "校車路線",
+  "campusMapOpenBus": "查看校車時刻",
+  "campusMapMyLocation": "我的位置",
+  "campusMapLocating": "正在定位…",
+  "campusMapLocationDenied": "需要授予定位權限",
+  "campusMapLocationOutside": "你的位置不在校園地圖範圍內",
+  "campusMapLocationUnavailable": "暫時無法取得目前位置",
+  "campusMapOpenSettings": "開啟設定",
+  "campusMapDistance": "距離",
+  "campusMapFavorites": "收藏地點",
+  "campusMapAddFavorite": "收藏地點",
+  "campusMapRemoveFavorite": "取消收藏",
+  "campusMapFavoriteAdded": "已加入收藏",
+  "campusMapFavoriteRemoved": "已取消收藏",
+  "campusMapLayerPmtilesLabels": "詳細地圖註記",
+  "campusMapCategoryTransport": "交通出行",
+  "campusMapCategoryRoad": "道路",
+  "campusMapCategoryBusStop": "校車站點",
+  "campusMapCategoryAcademics": "教學科研",
+  "campusMapCategoryTeachingBuilding": "教學樓",
+  "campusMapCategoryCollege": "學院",
+  "campusMapCategoryLibrary": "圖書館",
+  "campusMapCategoryResearchLab": "科研實驗",
+  "campusMapCategoryLife": "生活服務",
+  "campusMapCategoryGeneralService": "綜合服務",
+  "campusMapCategoryCanteen": "食堂",
+  "campusMapCategoryDormitory": "宿舍",
+  "campusMapCategorySharedEv": "共享電動車",
+  "campusMapCategoryRestroom": "洗手間",
+  "campusMapCategorySports": "文體服務",
+  "campusMapCategoryHealth": "醫療健康",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "政務服務",
+  "campusMapCategoryScenery": "景觀景點",
+  "campusMapCategoryParking": "停車場",
+  "campusMapCategoryEntrance": "出入口",
+  "campusMapCategoryBusLine": "校車線",
+  "campusMapZoomIn": "放大",
+  "campusMapZoomOut": "縮小",
+  "campusMapResetView": "重設地圖視圖",
+  "campusMapControls": "地圖操作",
+  "campusMapControlMouse": "拖曳平移；使用滑鼠滾輪或觸控板縮放。",
+  "campusMapControlKeyboard": "方向鍵或 WASD 平移地圖；R/F 和 +/− 控制縮放。",
+  "campusMapControlReset": "按 0 返回預設校園視圖。",
+  "campusMapNearbyPlaces": "此處的多個地點",
+  "medicalWorkingHours": "工作時間",
+  "medicalInvoicesUnpaid": "未繳費",
+  "medicalInvoicesPaid": "已繳費",
+  "medicalCancelRegistration": "退號",
+  "medicalCancelRegistrationInProgress": "退號中...",
+  "medicalCancelRegistrationConfirmTitle": "確認退號",
+  "medicalCancelRegistrationConfirmMessage": "確定要取消這條掛號嗎？",
+  "medicalCancelRegistrationDone": "退號完成",
+  "medicalQueueStatusInProgress": "排隊中",
+  "medicalQueuePeopleAheadLabel": "前面還有",
+  "medicalQueuePeopleAheadCount": "{count} 人",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "您的號碼",
+  "medicalQueueNumberValue": "{number} 號",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue}：無",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "信箱",
+  "coremailOperationFailed": "操作失敗：{error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "目前新到舊，切換為舊到新",
+  "coremailSortOldestFirstHint": "目前舊到新，切換為新到舊",
+  "coremailNewFolder": "新增資料夾",
+  "coremailFolderName": "資料夾名稱",
+  "coremailFolderNameRequired": "請輸入資料夾名稱。",
+  "coremailCreate": "建立",
+  "coremailSwitchFolder": "切換資料夾",
+  "coremailLoadingMailbox": "正在載入信箱…",
+  "coremailConnectionFailed": "信箱連線失敗：{error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "此資料夾沒有郵件",
+  "coremailCompose": "寫郵件",
+  "coremailNoSubject": "（無主旨）",
+  "coremailUnknownSender": "未知寄件人",
+  "coremailMessageDetail": "郵件詳情",
+  "coremailMarkUnread": "標記為未讀",
+  "coremailMoveToFolder": "移至資料夾",
+  "coremailDeleteMessageTitle": "刪除郵件",
+  "coremailDeleteMessageConfirm": "確定刪除「{subject}」嗎？",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "時間",
+  "coremailNoDisplayableContent": "此郵件不含可顯示的內容。",
+  "coremailOpeningLink": "正在開啟連結…",
+  "coremailLoading": "正在載入…",
+  "coremailLoadFailed": "載入失敗",
+  "coremailRecipientRequired": "請輸入至少一個有效收件人。",
+  "coremailSendFailed": "傳送失敗：{error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "傳送",
+  "coremailRecipientsLabel": "收件人",
+  "coremailRecipientsHint": "多個地址以逗號分隔",
+  "coremailSubjectLabel": "主旨",
+  "coremailBodyLabel": "內文",
+  "coremailSendFrom": "傳送地址：{address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "自動登入失敗，請檢查密碼或重新登入。",
+  "coremailEnterAccountAndPassword": "請輸入完整信箱帳號和密碼。",
+  "coremailSignInFailed": "登入失敗，請檢查信箱帳號、密碼或用戶端專用密碼。",
+  "coremailMailboxEnabled": "信箱已啟用",
+  "coremailEnterAccountFirst": "請先填寫完整的信箱帳號。",
+  "coremailHeadlessSsoFailed": "自動 SSO 未成功（可能需要瀏覽器手動完成）。",
+  "coremailGenerateAppPasswordTitle": "產生用戶端專用密碼",
+  "coremailPasswordNameLabel": "密碼名稱",
+  "coremailPasswordNameRequired": "請輸入密碼名稱。",
+  "coremailGenerate": "產生",
+  "coremailSaveAppPasswordTitle": "請儲存用戶端專用密碼",
+  "coremailAppPasswordShownOnce": "該密碼僅顯示一次。請複製或儲存在可信位置後確認。",
+  "coremailAppPassword": "用戶端專用密碼",
+  "coremailAppPasswordSavedAck": "我已安全儲存該密碼",
+  "coremailContinueAndSave": "繼續並儲存到本機",
+  "coremailAppPasswordSavedHint": "用戶端專用密碼已儲存；請點擊「驗證並啟用信箱」。",
+  "coremailGenerateAppPasswordFailed": "產生用戶端專用密碼失敗，請重新完成信箱 SSO 登入。",
+  "coremailAutoSigningIn": "正在自動登入信箱…",
+  "coremailSetupDescription": "使用 WHU 信箱帳號和網頁登入主密碼或用戶端專用密碼。信箱憑證與統一認證憑證分開加密儲存。",
+  "coremailAccountLabel": "信箱帳號",
+  "coremailPasswordLabel": "信箱密碼或用戶端專用密碼",
+  "coremailHidePassword": "隱藏密碼",
+  "coremailShowPassword": "顯示密碼",
+  "coremailRememberCredentials": "安全儲存信箱帳號和密碼",
+  "coremailVerifyAndEnable": "驗證並啟用信箱",
+  "coremailAppPasswordSectionDescription": "無需手動登入信箱網頁版：使用已儲存的統一認證工作階段，自動完成信箱 SSO 並產生僅用於郵件用戶端的專用密碼。",
+  "coremailGenerateViaCas": "透過 CAS 產生用戶端專用密碼",
+  "coremailGenerateViaCasSubtitle": "無介面完成信箱單一登入",
+  "coremailGenerateViaBrowser": "使用瀏覽器手動完成 SSO（回退）",
+  "coremailGenerateViaBrowserSubtitle": "自動 SSO 未成功時使用",
+  "coremailServers": "伺服器",
+  "coremailSsoSignInTitle": "信箱登入",
+  "coremailSsoLoading": "正在完成信箱單一登入…"
+}

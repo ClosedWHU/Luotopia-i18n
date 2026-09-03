@@ -4667,5 +4667,216 @@
      "type": "int"
     }
    }
-   }
+   },
+  "campusAppCampusMap": "校园地图",
+  "campusMapBaseVector": "矢量",
+  "campusMapBaseSatellite": "卫星",
+  "campusMapCategories": "分类筛选",
+  "campusMapAllCategories": "全部地点",
+  "campusMapLoading": "正在加载校园地点…",
+  "campusMapLoadFailed": "校园地点加载失败",
+  "campusMapSearchTitle": "搜索校园地点",
+  "campusMapSearchHint": "搜索教学楼、食堂、校车站点…",
+  "campusMapSearchEmpty": "输入地点名称开始搜索",
+  "campusMapSearchNoResults": "没有找到匹配的校园地点",
+  "campusMapSearchFailed": "搜索失败，请重试",
+  "campusMapDetails": "地点详情",
+  "campusMapDistrict": "所属学部",
+  "campusMapOldName": "曾用名",
+  "campusMapManageDept": "管理部门",
+  "campusMapMaintenanceUnit": "维护单位",
+  "campusMapCoordinates": "坐标",
+  "campusMapCopyCoordinates": "复制坐标",
+  "campusMapCoordinatesCopied": "坐标已复制",
+  "campusMapOpenNavigation": "外部导航",
+  "campusMapNoNavigationApp": "没有可用的地图应用",
+  "campusMapDetailFailed": "详情加载失败",
+  "campusMapLayers": "地图图层",
+  "campusMapLayerToponyms": "校园地点",
+  "campusMapLayerParking": "停车场",
+  "campusMapLayerEntrances": "出入口",
+  "campusMapLayerAed": "AED 设备",
+  "campusMapLayerFacilities": "校园设施",
+  "campusMapLayerBusStops": "校车站点",
+  "campusMapLayerBusLines": "校车线路",
+  "campusMapOpenBus": "查看校车时刻",
+  "campusMapMyLocation": "我的位置",
+  "campusMapLocating": "正在定位…",
+  "campusMapLocationDenied": "需要授予定位权限",
+  "campusMapLocationOutside": "你的位置不在校园地图范围内",
+  "campusMapLocationUnavailable": "暂时无法获取当前位置",
+  "campusMapOpenSettings": "打开设置",
+  "campusMapDistance": "距离",
+  "campusMapFavorites": "收藏地点",
+  "campusMapAddFavorite": "收藏地点",
+  "campusMapRemoveFavorite": "取消收藏",
+  "campusMapFavoriteAdded": "已加入收藏",
+  "campusMapFavoriteRemoved": "已取消收藏",
+  "campusMapLayerPmtilesLabels": "详细地图注记",
+  "campusMapCategoryTransport": "交通出行",
+  "campusMapCategoryRoad": "道路",
+  "campusMapCategoryBusStop": "校车站点",
+  "campusMapCategoryAcademics": "教学科研",
+  "campusMapCategoryTeachingBuilding": "教学楼",
+  "campusMapCategoryCollege": "学院",
+  "campusMapCategoryLibrary": "图书馆",
+  "campusMapCategoryResearchLab": "科研实验",
+  "campusMapCategoryLife": "生活服务",
+  "campusMapCategoryGeneralService": "综合服务",
+  "campusMapCategoryCanteen": "食堂",
+  "campusMapCategoryDormitory": "宿舍",
+  "campusMapCategorySharedEv": "共享电动车",
+  "campusMapCategoryRestroom": "洗手间",
+  "campusMapCategorySports": "文体服务",
+  "campusMapCategoryHealth": "医疗健康",
+  "campusMapCategoryAed": "AED",
+  "campusMapCategoryGovernment": "政务服务",
+  "campusMapCategoryScenery": "景观景点",
+  "campusMapCategoryParking": "停车场",
+  "campusMapCategoryEntrance": "出入口",
+  "campusMapCategoryBusLine": "校车线",
+  "campusMapZoomIn": "放大",
+  "campusMapZoomOut": "缩小",
+  "campusMapResetView": "复位地图视图",
+  "campusMapControls": "地图操作",
+  "campusMapControlMouse": "拖动平移；使用鼠标滚轮或触控板缩放。",
+  "campusMapControlKeyboard": "方向键或 WASD 平移地图；R/F 和 +/− 控制缩放。",
+  "campusMapControlReset": "按 0 返回默认校园视图。",
+  "campusMapNearbyPlaces": "此处的多个地点",
+  "medicalWorkingHours": "工作时间",
+  "medicalInvoicesUnpaid": "未缴费",
+  "medicalInvoicesPaid": "已缴费",
+  "medicalCancelRegistration": "退号",
+  "medicalCancelRegistrationInProgress": "退号中...",
+  "medicalCancelRegistrationConfirmTitle": "确认退号",
+  "medicalCancelRegistrationConfirmMessage": "确定要取消这条挂号吗？",
+  "medicalCancelRegistrationDone": "退号完成",
+  "medicalQueueStatusInProgress": "排队中",
+  "medicalQueuePeopleAheadLabel": "前面还有",
+  "medicalQueuePeopleAheadCount": "{count} 人",
+  "@medicalQueuePeopleAheadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueYourNumberLabel": "您的号码",
+  "medicalQueueNumberValue": "{number} 号",
+  "@medicalQueueNumberValue": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalQueueEmpty": "{queue}：无",
+  "@medicalQueueEmpty": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailMailboxTitle": "邮箱",
+  "coremailOperationFailed": "操作失败：{error}",
+  "@coremailOperationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSortNewestFirstHint": "当前新到旧，切换为旧到新",
+  "coremailSortOldestFirstHint": "当前旧到新，切换为新到旧",
+  "coremailNewFolder": "新建文件夹",
+  "coremailFolderName": "文件夹名称",
+  "coremailFolderNameRequired": "请输入文件夹名称。",
+  "coremailCreate": "创建",
+  "coremailSwitchFolder": "切换文件夹",
+  "coremailLoadingMailbox": "正在加载邮箱…",
+  "coremailConnectionFailed": "邮箱连接失败：{error}",
+  "@coremailConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailFolderEmpty": "此文件夹没有邮件",
+  "coremailCompose": "写邮件",
+  "coremailNoSubject": "（无主题）",
+  "coremailUnknownSender": "未知发件人",
+  "coremailMessageDetail": "邮件详情",
+  "coremailMarkUnread": "标记为未读",
+  "coremailMoveToFolder": "移动到文件夹",
+  "coremailDeleteMessageTitle": "删除邮件",
+  "coremailDeleteMessageConfirm": "确定删除「{subject}」吗？",
+  "@coremailDeleteMessageConfirm": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailTimeLabel": "时间",
+  "coremailNoDisplayableContent": "此邮件不含可显示的内容。",
+  "coremailOpeningLink": "正在打开链接…",
+  "coremailLoading": "正在加载…",
+  "coremailLoadFailed": "加载失败",
+  "coremailRecipientRequired": "请输入至少一个有效收件人。",
+  "coremailSendFailed": "发送失败：{error}",
+  "@coremailSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSend": "发送",
+  "coremailRecipientsLabel": "收件人",
+  "coremailRecipientsHint": "多个地址以逗号分隔",
+  "coremailSubjectLabel": "主题",
+  "coremailBodyLabel": "正文",
+  "coremailSendFrom": "发送地址：{address}",
+  "@coremailSendFrom": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailAutoSignInFailed": "自动登录失败，请检查密码或重新登录。",
+  "coremailEnterAccountAndPassword": "请输入完整邮箱账号和密码。",
+  "coremailSignInFailed": "登录失败，请检查邮箱账号、密码或客户端专用密码。",
+  "coremailMailboxEnabled": "邮箱已启用",
+  "coremailEnterAccountFirst": "请先填写完整的邮箱账号。",
+  "coremailHeadlessSsoFailed": "自动 SSO 未成功（可能需要浏览器手动完成）。",
+  "coremailGenerateAppPasswordTitle": "生成客户端专用密码",
+  "coremailPasswordNameLabel": "密码名称",
+  "coremailPasswordNameRequired": "请输入密码名称。",
+  "coremailGenerate": "生成",
+  "coremailSaveAppPasswordTitle": "请保存客户端专用密码",
+  "coremailAppPasswordShownOnce": "该密码仅显示一次。请复制或保存在可信位置后确认。",
+  "coremailAppPassword": "客户端专用密码",
+  "coremailAppPasswordSavedAck": "我已安全保存该密码",
+  "coremailContinueAndSave": "继续并保存到本机",
+  "coremailAppPasswordSavedHint": "客户端专用密码已保存；请点击“验证并启用邮箱”。",
+  "coremailGenerateAppPasswordFailed": "生成客户端专用密码失败，请重新完成邮箱 SSO 登录。",
+  "coremailAutoSigningIn": "正在自动登录邮箱…",
+  "coremailSetupDescription": "使用 WHU 邮箱账号和网页登录主密码或客户端专用密码。邮箱凭据与统一认证凭据分开加密保存。",
+  "coremailAccountLabel": "邮箱账号",
+  "coremailPasswordLabel": "邮箱密码或客户端专用密码",
+  "coremailHidePassword": "隐藏密码",
+  "coremailShowPassword": "显示密码",
+  "coremailRememberCredentials": "安全保存邮箱账号和密码",
+  "coremailVerifyAndEnable": "验证并启用邮箱",
+  "coremailAppPasswordSectionDescription": "无需手动登录邮箱网页版：使用已保存的统一认证会话，自动完成邮箱 SSO 并生成仅用于邮件客户端的专用密码。",
+  "coremailGenerateViaCas": "通过 CAS 生成客户端专用密码",
+  "coremailGenerateViaCasSubtitle": "无界面完成邮箱单点登录",
+  "coremailGenerateViaBrowser": "使用浏览器手动完成 SSO（回退）",
+  "coremailGenerateViaBrowserSubtitle": "自动 SSO 未成功时使用",
+  "coremailServers": "服务器",
+  "coremailSsoSignInTitle": "邮箱登录",
+  "coremailSsoLoading": "正在完成邮箱单点登录…"
 }
