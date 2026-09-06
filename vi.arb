@@ -75,7 +75,6 @@
   "vpnChallengeExpired": "Lần xác minh này đã kết thúc.",
   "vpnConnectedTitle": "Đã kết nối",
   "vpnNotConnected": "Chưa kết nối",
-  "vpnDisconnectedTitle": "VPN sẵn sàng",
   "vpnDisconnectedDescription": "Đăng nhập để truy cập các dịch vụ trong khuôn viên trường từ bên ngoài.",
   "vpnVirtualAddress": "Địa chỉ ảo",
   "vpnDnsServers": "DNS của VPN",
@@ -98,7 +97,6 @@
   "vpnResumeAction": "Tiếp tục phiên",
   "vpnDisconnectAction": "Ngắt kết nối",
   "vpnRetryAction": "Thử lại",
-  "vpnBackToFormAction": "Quay lại",
   "vpnEditCredentialsAction": "Sửa thông tin đăng nhập",
   "vpnForgetCredentials": "Quên tài khoản đã lưu",
   "vpnErrorTitle": "Kết nối thất bại",
@@ -106,7 +104,6 @@
   "vpnErrorWintunMissing": "Không tìm thấy wintun.dll. Hãy tải xuống từ wintun.net và đặt tệp này cạnh ứng dụng, hoặc chuyển sang chế độ trong ứng dụng.",
   "vpnErrorElevationRequired": "Chế độ hệ thống cần ứng dụng chạy với quyền nâng cao. Hãy chạy Luotopia với tư cách quản trị viên hoặc chuyển sang chế độ trong ứng dụng.",
   "vpnErrorSystemModeUnsupported": "Chế độ VPN hệ thống không được hỗ trợ trên nền tảng này.",
-  "vpnErrorPermissionDenied": "Chưa được cấp quyền VPN. Hãy cho phép trong hộp thoại hệ thống rồi thử lại.",
   "vpnErrorSessionExpired": "Phiên VPN đã hết hạn; hãy đăng nhập lại.",
   "vpnErrorSessionReplaced": "Phiên VPN này đã bị ngắt kết nối, có thể do tài khoản đã kết nối trên thiết bị khác. Hãy kết nối lại để tiếp tục.",
   "vpnErrorTunnel": "Không thể thiết lập đường hầm VPN.",
@@ -115,8 +112,6 @@
   "vpnErrorNetwork": "Không thể kết nối đến máy chủ VPN. Hãy kiểm tra kết nối internet.",
   "vpnErrorGeneric": "Kết nối VPN thất bại. Xem thông tin chi tiết bên dưới.",
   "vpnInAppModeNote": "Chỉ lưu lượng của ứng dụng này đi qua đường hầm; các ứng dụng khác trên thiết bị kết nối trực tiếp.",
-  "vpnSystemModeNote": "Toàn bộ lưu lượng hệ thống, kể cả của ứng dụng này, đều đi qua VPN.",
-  "vpnReloginAction": "Đăng nhập lại",
   "vpnTestConnection": "Kiểm tra kết nối",
   "vpnTestRunning": "Đang kiểm tra…",
   "vpnTestSuccess": "Có thể kết nối",
@@ -415,7 +410,6 @@
   "k1Hour": "1 giờ",
   "k30Minutes": "30 phút",
   "k3Hours": "3 giờ",
-  "languageEnglish": "Tiếng Anh",
   "languageLabel": "ngôn ngữ ứng dụng",
   "listCompletedSection": "Đã hoàn thành {count}",
   "listMenuTitle": "Chuyển tab",
@@ -1060,31 +1054,11 @@
       }
     }
   },
-  "@hourH": {
-   "placeholders": {
-     "hour": {}
-    }
-  },
-  "@importedTimestr": {
-   "placeholders": {
-     "timeStr": {}
-    }
-  },
   "@listCompletedSection": {
    "placeholders": {
      "count": {
        "type": "int"
       }
-    }
-  },
-  "@minuteMin": {
-   "placeholders": {
-     "minute": {}
-    }
-  },
-  "@semS": {
-   "placeholders": {
-     "s": {}
     }
   },
   "@settingsMinutesValue": {
@@ -1301,14 +1275,6 @@
       }
     }
   },
-  "hotUpdateRemoteVersion": "Từ xa v{version}",
-  "@hotUpdateRemoteVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
-      }
-    }
-  },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
    "placeholders": {
@@ -1317,8 +1283,6 @@
       }
     }
   },
-  "hotUpdateViewCode": "Xem mã JS",
-  "hotUpdateLoading": "Đang tải manifest...",
   "hotUpdateLoadFailed": "Không thể tải manifest",
   "hotUpdateCheckNow": "Kiểm tra ngay",
   "hotUpdateChecking": "Đang kiểm tra cập nhật nóng...",
@@ -1327,15 +1291,11 @@
   "hotUpdateCheckNoChanges": "Đã là phiên bản mới nhất, không có tập lệnh cần cập nhật",
   "hotUpdateCheckEngineUnavailable": "Không có công cụ cập nhật nóng; đang dùng bộ phân tích tích hợp",
   "hotUpdateStatusCurrent": "Đã cập nhật",
-  "hotUpdateStatusUpdateAvailable": "Có bản cập nhật",
   "hotUpdateStatusBehind": "Chậm hơn bản từ xa (cục bộ v{local} / từ xa v{remote})",
   "hotUpdateStatusMissing": "Thiếu bản cục bộ — kéo để tải",
   "hotUpdateStatusEmbedded": "Đang dùng bản mặc định tích hợp",
   "hotUpdateStatusCached": "Đang dùng bản từ xa đã lưu đệm",
   "hotUpdateStatusUnknown": "Tập lệnh không xác định — cập nhật ứng dụng để bật",
-  "hotUpdateStatusTestFailed": "Lần cập nhật trước: kiểm thử sandbox thất bại",
-  "hotUpdateStatusDownloadFailed": "Lần cập nhật trước: tải xuống thất bại",
-  "hotUpdateStatusCommitFailed": "Lần cập nhật trước: xác nhận thất bại",
   "hotUpdateVersionCompare": "Cục bộ v{local} · Từ xa v{remote}",
   "hotUpdateVersionMissing": "Thiếu cục bộ · Từ xa v{remote}",
   "hotUpdateLastFailure": "Lỗi gần nhất: {reason}",
@@ -2190,17 +2150,7 @@
   "libraryEndTime": "Kết thúc",
   "libraryBookSuccess": "Đặt chỗ thành công!",
   "libraryCaptchaTitle": "Xác minh bảo mật",
-  "libraryCaptchaUnsupported": "Không thể hoàn tất xác minh trên nền tảng này. Vui lòng dùng Android hoặc iOS.",
   "libraryCaptchaLoadFailed": "Tải captcha thất bại. Vui lòng thử lại.",
-  "libraryCaptchaAutoVerifying": "Đang xác minh…",
-  "libraryCaptchaRetrying": "Đang thử lại xác minh ({count})…",
-  "@libraryCaptchaRetrying": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "libraryBookFailed": "Đặt chỗ thất bại: {error}",
   "@libraryBookFailed": {
    "placeholders": {
@@ -2271,7 +2221,6 @@
       }
     }
   },
-  "settingsAiModelHint": "Nhập tên mô hình hoặc chọn từ danh sách",
   "homeJumpCurrentWeek": "Tuần này",
   "homeJumpSemesterStartWeek": "Tuần đầu",
   "weatherAirQualityAccuHint": "Chuyển nhà cung cấp AQI sang AccuWeather để xem chi tiết ô nhiễm",
@@ -3931,11 +3880,6 @@
   "aiAutomationManualDescription": "Mọi thao tác đều chờ bạn xác nhận trước khi thực hiện.",
   "aiAutomationSemiAutomaticDescription": "Thao tác ghi do Agent thực hiện vẫn cần bạn xác nhận; các xác nhận khác được tự động thông qua.",
   "aiAutomationFullyAutomaticDescription": "Mọi thao tác được tự động xác nhận và lưu bản ghi đầy đủ.",
-  "aiMedicalAccess": "Truy cập dữ liệu sức khỏe",
-  "aiMedicalAccessDescription": "Cho phép trợ lý đọc thông tin khám chữa bệnh của bạn: thẻ khám, hồ sơ đăng ký, hàng chờ, hóa đơn và kết quả xét nghiệm hoặc chẩn đoán hình ảnh. Giờ làm việc của phòng khám vẫn xem được dù bật hay tắt.",
-  "aiMedicalAccessNoticeTitle": "Trước khi bật",
-  "aiMedicalAccessNoticeBody": "Kết quả xét nghiệm, chẩn đoán, khoa, bác sĩ và các dòng hóa đơn sẽ trở thành kết quả công cụ. Chúng được gửi tới endpoint mô hình bạn cấu hình và lưu trong bản ghi thao tác đã mã hóa trên thiết bị này. Các trường định danh — số giấy tờ, số điện thoại, số thẻ và số đăng ký — luôn được che. Bạn có thể tắt bất cứ lúc nào.",
-  "aiMedicalAccessNoticeEnable": "Bật",
   "aiConfirmationFundsNoBulkApprove": "Lô này có thao tác tiền. Hãy xem xét và phê duyệt từng thao tác riêng.",
   "aiBridgePaymentTitle": "Cần hoàn tất thanh toán",
   "aiBridgePaymentTitleUtility": "Nạp tiền điện nước ký túc xá",
@@ -3947,14 +3891,7 @@
   "aiPaymentChannelAlipay": "Alipay",
   "aiPaymentChannelWechat": "WeChat Pay",
   "aiPaymentChannelUnionPay": "UnionPay",
-  "aiPaymentSettlementDelivered": "Đã cấp tiền",
-  "aiPaymentSettlementCredited": "Đã ghi có",
-  "aiPaymentSettlementPending": "Đã thanh toán; đang chờ ghi có",
-  "aiPaymentSettlementUnpaid": "Chưa hoàn tất thanh toán",
   "aiPaymentOrderStranded": "Thanh toán đã đóng trước khi xác minh. Hãy kiểm tra đơn {orderNo} trước khi trả lại.",
-  "settingsAiPaymentAccessTitle": "Quyền thanh toán",
-  "settingsAiPaymentAccessSubtitle": "Cho phép trợ lý tạo đơn tiện ích, luôn yêu cầu xác nhận riêng và thanh toán trên thiết bị.",
-  "settingsAiPaymentAccessFirstEnableNotice": "Trợ lý có thể tạo đơn thanh toán thật sau khi bạn xác nhận từng đơn. Bạn hoàn tất trong WHU Safe Pay và đơn không bao giờ được tự động thử lại.",
   "aiWebAccess": "Truy cập web mở",
   "aiWebAccessDescription": "Cho phép trợ lý tìm kiếm trên web mở và đọc trang web vào không gian làm việc. Dữ liệu trường luôn đến từ công cụ trường; nội dung trang được lưu dưới dạng không tin cậy và không bao giờ vào cuộc trò chuyện.",
   "aiWebSearchProvider": "Nhà cung cấp tìm kiếm",
@@ -3970,7 +3907,6 @@
   "aiConfirmationFieldTitle": "Tiêu đề",
   "aiConfirmationFieldTime": "Thời gian",
   "aiConfirmationFieldLocation": "Địa điểm",
-  "aiConfirmationFieldStatus": "Trạng thái",
   "aiConfirmationFieldVenue": "Cơ sở",
   "aiConfirmationFieldSeat": "Chỗ ngồi",
   "aiConfirmationFieldDate": "Ngày",
@@ -4591,11 +4527,6 @@
   "aiMcpEmpty": "Chưa cấu hình máy chủ MCP nào",
   "aiMcpEnabled": "Đã kết nối {count} máy chủ",
   "aiMcpAddServer": "Thêm máy chủ",
-  "aiMcpServerName": "Tên máy chủ",
-  "aiMcpServerUrl": "URL máy chủ",
-  "aiMcpTransportType": "Phương thức truyền tải",
-  "aiMcpTransportSse": "SSE",
-  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "Đã sao chép",
   "aiCodeExpand": "Mở rộng",
   "aiCodeCollapse": "Thu gọn",
@@ -4603,7 +4534,6 @@
   "aiCodeShowMoreLines": "Hiện thêm {count} dòng",
   "onboardingPermissionMicrophoneTitle": "Micrô",
   "onboardingPermissionMicrophoneDescription": "Dùng cho tính năng nhập bằng giọng nói trong hội thoại AI (chuyển giọng nói thành văn bản).",
-  "hotUpdateEditScript": "Chỉnh sửa tập lệnh",
   "hotUpdateSaveScript": "Lưu",
   "hotUpdateResetScript": "Đặt lại về phiên bản từ xa hoặc mặc định",
   "hotUpdateTestFailed": "Kiểm thử sandbox thất bại — chưa lưu tập lệnh",
@@ -4626,7 +4556,6 @@
   "settingsAiCapabilityImageGeneration": "Tạo hình ảnh",
   "aiSpeechTitle": "Giọng nói AI", "aiSpeechRecognitionService": "Dịch vụ nhận dạng giọng nói", "aiSpeechSpeechToText": "speech_to_text (hệ thống)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Chuyển giọng nói thành văn bản ngoại tuyến bằng Whisper", "aiSpeechWhisperModel": "Mô hình Whisper", "aiDownload": "Tải xuống", "aiSpeechEngine": "Công cụ giọng nói", "aiSpeechEdge": "Giọng nói trực tuyến Edge", "aiSpeechSttsVoice": "Giọng nói hệ thống stts", "aiSpeechVoiceLoadFailed": "Không thể tải giọng nói trực tuyến; sẽ dùng giọng nói hiện tại.", "aiSpeechVoice": "Giọng nói", "aiSpeechRate": "Tốc độ", "aiSpeechPitch": "Cao độ", "aiSpeechVolume": "Âm lượng", "aiSpeechPreviewText": "Xin chào. Đây là giọng nói AI bạn đã chọn.", "aiSpeechPreview": "Nghe thử giọng nói hiện tại", "aiMcpImportFailed": "Không thể nhập cấu hình máy chủ MCP",
   "whuTotpSectionTitle": "Mã xác thực",
-  "whuTotpCodeTitle": "Mã xác minh hiện tại",
   "whuTotpCodeSubtitle": "Cập nhật sau {seconds} giây · Nhấn để sao chép",
   "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
   "whuTotpEnable": "Bật mã xác thực",
@@ -4637,7 +4566,6 @@
   "whuTotpRemoveSubtitle": "Thao tác này không tắt TOTP trên trang web WHU",
   "whuTotpEdit": "Chỉnh sửa khóa cục bộ",
   "whuTotpEditSubtitle": "Cập nhật tài khoản hoặc mã bí mật Base32 được lưu trên thiết bị này",
-  "whuTotpLocked": "Mã xác thực đã bị khóa",
   "whuTotpBiometricReason": "Mở khóa mã xác thực WHU bằng sinh trắc học hoặc thông tin xác thực của thiết bị",
   "whuTotpShowCode": "Hiện mã xác minh",
   "whuTotpHideCode": "Ẩn mã xác minh",
@@ -4648,7 +4576,6 @@
   "whuTotpVerifyEmail": "Mã xác minh qua email",
   "whuTotpVerifyTotp": "Mã xác minh của ứng dụng xác thực",
   "whuTotpEnterVerificationCode": "Nhập mã xác minh gồm 6 chữ số",
-  "whuTotpSendCode": "Gửi mã",
   "whuTotpEnabled": "Đã bật và lưu an toàn mã xác thực",
   "whuTotpImported": "Đã lưu an toàn khóa xác thực",
   "whuTotpRemoved": "Đã xóa khóa xác thực cục bộ",
@@ -4687,14 +4614,12 @@
   "campusMapBaseSatellite": "Ve tinh",
   "campusMapCategories": "Danh mục",
   "campusMapAllCategories": "Tất cả địa điểm",
-  "campusMapLoading": "Đang tải địa điểm trong trường…",
   "campusMapLoadFailed": "Không thể tải địa điểm trong trường",
   "campusMapSearchTitle": "Tìm trong trường",
   "campusMapSearchHint": "Tìm giảng đường, nhà ăn, trạm xe buýt…",
   "campusMapSearchEmpty": "Nhập tên địa điểm để tìm",
   "campusMapSearchNoResults": "Không có địa điểm phù hợp",
   "campusMapSearchFailed": "Tìm kiếm thất bại. Vui lòng thử lại.",
-  "campusMapDetails": "Chi tiết địa điểm",
   "campusMapDistrict": "Khoa",
   "campusMapOldName": "Tên cũ",
   "campusMapManageDept": "Đơn vị quản lý",
@@ -4715,7 +4640,6 @@
   "campusMapLayerBusLines": "Tuyến xe buýt khuôn viên",
   "campusMapOpenBus": "Xem giờ xe buýt khuôn viên",
   "campusMapMyLocation": "Vị trí của tôi",
-  "campusMapLocating": "Đang xác định vị trí…",
   "campusMapLocationDenied": "Cần quyền truy cập vị trí",
   "campusMapLocationOutside": "Vị trí của bạn nằm ngoài khu vực bản đồ trường",
   "campusMapLocationUnavailable": "Không thể xác định vị trí hiện tại",

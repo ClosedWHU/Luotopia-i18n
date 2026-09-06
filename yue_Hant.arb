@@ -74,7 +74,6 @@
   "vpnChallengeExpired": "呢次驗證已經完成。",
   "vpnConnectedTitle": "已連線",
   "vpnNotConnected": "未連線",
-  "vpnDisconnectedTitle": "VPN 已準備好",
   "vpnDisconnectedDescription": "登入後，即使離開校園都可以存取校園服務。",
   "vpnVirtualAddress": "虛擬地址",
   "vpnDnsServers": "VPN DNS",
@@ -97,7 +96,6 @@
   "vpnResumeAction": "恢復工作階段",
   "vpnDisconnectAction": "中斷連線",
   "vpnRetryAction": "再試",
-  "vpnBackToFormAction": "返去",
   "vpnEditCredentialsAction": "修改登入憑證",
   "vpnForgetCredentials": "忘記已儲存嘅帳戶",
   "vpnErrorTitle": "連線失敗",
@@ -105,7 +103,6 @@
   "vpnErrorWintunMissing": "搵唔到 wintun.dll。請喺 wintun.net 下載，放喺執行檔旁邊；或者切換到應用程式內模式。",
   "vpnErrorElevationRequired": "系統模式需要提升應用程式權限。請以系統管理員身份執行珞家，或者切換到應用程式內模式。",
   "vpnErrorSystemModeUnsupported": "呢個平台暫時唔支援系統級 VPN 模式。",
-  "vpnErrorPermissionDenied": "未攞到 VPN 權限，請喺系統彈窗允許之後再試。",
   "vpnErrorSessionExpired": "你嘅 VPN 工作階段已失效，請重新登入。",
   "vpnErrorSessionReplaced": "你嘅 VPN 工作階段已斷開，可能係呢個帳號喺其他裝置連線後被擠下線。請重新連線。",
   "vpnErrorTunnel": "未能建立 VPN 通道。",
@@ -114,8 +111,6 @@
   "vpnErrorNetwork": "未能連到 VPN 伺服器，請檢查網絡連線。",
   "vpnErrorGeneric": "VPN 連線失敗，詳情請睇下面。",
   "vpnInAppModeNote": "只有呢個應用程式嘅流量會經通道傳送；呢部裝置上其他應用程式會直接連線。",
-  "vpnSystemModeNote": "全系統流量（包括呢個 app）都行 VPN。",
-  "vpnReloginAction": "重新登入",
   "vpnTestConnection": "測試連接",
   "vpnTestRunning": "測試緊…",
   "vpnTestSuccess": "連接正常",
@@ -417,7 +412,6 @@
   "k1Hour": "1 小時",
   "k30Minutes": "30 分鐘",
   "k3Hours": "3 小時",
-  "languageEnglish": "英文",
   "languageLabel": "應用語言",
   "listCompletedSection": "已完成 {count}",
   "listMenuTitle": "切換分頁",
@@ -859,31 +853,11 @@
       }
     }
   },
-  "@hourH": {
-   "placeholders": {
-     "hour": {}
-    }
-  },
-  "@importedTimestr": {
-   "placeholders": {
-     "timeStr": {}
-    }
-  },
   "@listCompletedSection": {
    "placeholders": {
      "count": {
        "type": "int"
       }
-    }
-  },
-  "@minuteMin": {
-   "placeholders": {
-     "minute": {}
-    }
-  },
-  "@semS": {
-   "placeholders": {
-     "s": {}
     }
   },
   "@settingsMinutesValue": {
@@ -1098,14 +1072,6 @@
       }
     }
   },
-  "hotUpdateRemoteVersion": "遠端 v{version}",
-  "@hotUpdateRemoteVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
-      }
-    }
-  },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
    "placeholders": {
@@ -1114,8 +1080,6 @@
       }
     }
   },
-  "hotUpdateViewCode": "查看 JS 程式碼",
-  "hotUpdateLoading": "載入 manifest 中...",
   "hotUpdateLoadFailed": "載入 manifest 失敗",
   "hotUpdateCheckNow": "即刻檢查",
   "hotUpdateChecking": "檢查緊熱更新...",
@@ -1124,15 +1088,11 @@
   "hotUpdateCheckNoChanges": "已經係最新，唔使更新腳本",
   "hotUpdateCheckEngineUnavailable": "熱更新引擎唔可用，而家用緊內置分析器",
   "hotUpdateStatusCurrent": "已經係最新",
-  "hotUpdateStatusUpdateAvailable": "有更新可用",
   "hotUpdateStatusBehind": "落後遠端（本機 v{local} / 遠端 v{remote}）",
   "hotUpdateStatusMissing": "本機缺失，下拉刷新可下載",
   "hotUpdateStatusEmbedded": "用緊內置預設版本",
   "hotUpdateStatusCached": "用緊已快取嘅遠端版本",
   "hotUpdateStatusUnknown": "未知腳本——更新應用以啟用",
-  "hotUpdateStatusTestFailed": "上次更新：沙盒測試失敗",
-  "hotUpdateStatusDownloadFailed": "上次更新：下載失敗",
-  "hotUpdateStatusCommitFailed": "上次更新：提交失敗",
   "hotUpdateVersionCompare": "本機 v{local} · 遠端 v{remote}",
   "hotUpdateVersionMissing": "本機缺失 · 遠端 v{remote}",
   "hotUpdateLastFailure": "上次失敗：{reason}",
@@ -1226,8 +1186,8 @@
   "settingsDevReceivePrereleaseUpdatesSubtitle": "關閉後，最新嘅預發布版本唔會提示更新",
   "settingsDevDisableTitle": "關掉開發者模式",
   "settingsDevDisableSubtitle": "關咗之後要再連續撳版本號先開到",
-  "settingsHomeGridAlpha": "網格背景透明度",
-  "settingsHomeGridBorderAlpha": "網格邊框透明度",
+  "settingsHomeGridAlpha": "網格背景不透明度",
+  "settingsHomeGridBorderAlpha": "網格邊框不透明度",
   "settingsHomeCropImage": "裁剪圖片",
   "imageCropDesktopHint": "拖動嚟移動 · 用 +/− 調整裁剪範圍",
   "imageCropDesktopHintSquare": "拖動嚟移動 · 用 +/− 調整正方形裁剪範圍",
@@ -1988,17 +1948,7 @@
   "libraryEndTime": "完",
   "libraryBookSuccess": "預約成功！",
   "libraryCaptchaTitle": "安全驗證",
-  "libraryCaptchaUnsupported": "目前平台無法完成滑動驗證，請使用 Android / iOS。",
   "libraryCaptchaLoadFailed": "驗證碼載入失敗，請重試。",
-  "libraryCaptchaAutoVerifying": "自動驗證緊…",
-  "libraryCaptchaRetrying": "自動驗證重試（第 {count} 次）…",
-  "@libraryCaptchaRetrying": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "libraryBookFailed": "預約失敗：{error}",
   "@libraryBookFailed": {
    "placeholders": {
@@ -2069,7 +2019,6 @@
       }
     }
   },
-  "settingsAiModelHint": "輸入模型名稱或從清單揀",
   "homeJumpCurrentWeek": "本週",
   "homeJumpSemesterStartWeek": "開學週",
   "weatherAirQualityAccuHint": "將空氣質素資料來源切換為 AccuWeather，即可查看污染物詳細資料",
@@ -2436,7 +2385,7 @@
   "messagesMarkAllRead": "全部已讀",
   "messagesMarkAllReadSuccess": "已全部標記為已讀",
   "messagesMarkAllReadFailed": "全部已讀失敗",
-  "wallpaperDarkOverlayOpacity": "深色模式覆蓋層透明度",
+  "wallpaperDarkOverlayOpacity": "深色模式覆蓋層不透明度",
   "scoreTranscriptCredential": "已驗證電子憑證",
   "scoreTranscriptSelect": "選擇要產生嘅成績單",
   "scoreTranscriptSystemGenerated": "由武大已驗證電子憑證系統產生",
@@ -3893,11 +3842,6 @@
   "aiAutomationManualDescription": "每項操作都要你確認咗先執行。",
   "aiAutomationSemiAutomaticDescription": "Agent 發起嘅寫入操作仲要你確認，其他確認自動通過。",
   "aiAutomationFullyAutomaticDescription": "自動確認所有操作，並保留完整記錄。",
-  "aiMedicalAccess": "醫療資料存取",
-  "aiMedicalAccessDescription": "畀助手睇你嘅就醫資料：就診卡、掛號紀錄、候診隊列、發票同埋檢驗、檢查報告。院區作息時間唔受呢個開關影響。",
-  "aiMedicalAccessNoticeTitle": "開之前請留意",
-  "aiMedicalAccessNoticeBody": "化驗結果、診斷意見、科室、醫生同發票明細會變成工具結果，發去你設定嘅模型服務，仲會存喺本機加密嘅操作紀錄入面。證件號、手機號、就診卡號同門診號等身份欄位一定會打碼。你隨時可以閂。",
-  "aiMedicalAccessNoticeEnable": "開啟",
   "aiConfirmationFundsNoBulkApprove": "呢批包含資金操作，請逐項睇清楚再分別確認。",
   "aiBridgePaymentTitle": "需要完成付款",
   "aiBridgePaymentTitleUtility": "宿舍水電費增值",
@@ -3909,14 +3853,7 @@
   "aiPaymentChannelAlipay": "支付寶",
   "aiPaymentChannelWechat": "微信支付",
   "aiPaymentChannelUnionPay": "銀聯",
-  "aiPaymentSettlementDelivered": "已下發",
-  "aiPaymentSettlementCredited": "已入帳",
-  "aiPaymentSettlementPending": "已付款，等待入帳",
-  "aiPaymentSettlementUnpaid": "未完成付款",
   "aiPaymentOrderStranded": "收銀台已經結束但仲未核驗，請先查詢訂單 {orderNo}，唔好重複付款。",
-  "settingsAiPaymentAccessTitle": "付款存取",
-  "settingsAiPaymentAccessSubtitle": "允許助理建立水電繳費訂單；每筆都要單獨確認，並由你喺本裝置完成付款。",
-  "settingsAiPaymentAccessFirstEnableNotice": "開啟後，助理可以喺你逐筆確認後建立真實付款訂單。付款仍由你喺武漢大學安心付完成，系統絕不會自動重試下單。",
   "aiWebAccess": "開放網絡存取",
   "aiWebAccessDescription": "允許助手搜尋開放網絡，並將網頁正文讀入工作區。校園數據始終嚟自校園工具；網頁正文作為唔可信內容儲存，絕唔進入對話。",
   "aiWebSearchProvider": "搜尋提供者",
@@ -3932,7 +3869,6 @@
   "aiConfirmationFieldTitle": "標題",
   "aiConfirmationFieldTime": "時間",
   "aiConfirmationFieldLocation": "地點",
-  "aiConfirmationFieldStatus": "狀態",
   "aiConfirmationFieldVenue": "場館",
   "aiConfirmationFieldSeat": "座位",
   "aiConfirmationFieldDate": "日期",
@@ -4539,11 +4475,6 @@
   "aiMcpEmpty": "仲未設定 MCP 伺服器",
   "aiMcpEnabled": "已連接 {count} 個 MCP 伺服器",
   "aiMcpAddServer": "新增伺服器",
-  "aiMcpServerName": "伺服器名稱",
-  "aiMcpServerUrl": "伺服器 URL",
-  "aiMcpTransportType": "傳輸方式",
-  "aiMcpTransportSse": "SSE",
-  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "已複製",
   "aiCodeExpand": "展開",
   "aiCodeCollapse": "收起",
@@ -4551,7 +4482,6 @@
   "aiCodeShowMoreLines": "顯示另外 {count} 行",
   "onboardingPermissionMicrophoneTitle": "麥克風",
   "onboardingPermissionMicrophoneDescription": "用於 AI 對話嘅語音輸入（語音轉文字）。",
-  "hotUpdateEditScript": "編輯指令碼",
   "hotUpdateSaveScript": "儲存",
   "hotUpdateResetScript": "重設為遠端或預設版本",
   "hotUpdateTestFailed": "沙盒測試失敗，指令碼未有儲存",
@@ -4574,7 +4504,6 @@
   "settingsAiCapabilityImageGeneration": "圖片產生",
   "aiSpeechTitle": "AI 語音", "aiSpeechRecognitionService": "語音辨識服務", "aiSpeechSpeechToText": "speech_to_text（系統）", "aiSpeechStts": "stts", "aiSpeechWhisper": "Whisper 離線轉錄", "aiSpeechWhisperModel": "Whisper 模型", "aiDownload": "下載", "aiSpeechEngine": "語音引擎", "aiSpeechEdge": "Edge 線上語音", "aiSpeechSttsVoice": "stts 系統語音", "aiSpeechVoiceLoadFailed": "無法載入線上語音，將使用目前語音。", "aiSpeechVoice": "語音", "aiSpeechRate": "速度", "aiSpeechPitch": "音調", "aiSpeechVolume": "音量", "aiSpeechPreviewText": "你好，呢把係你揀嘅 AI 語音。", "aiSpeechPreview": "試聽目前語音", "aiMcpImportFailed": "無法匯入 MCP 伺服器設定",
   "whuTotpSectionTitle": "驗證器碼",
-  "whuTotpCodeTitle": "目前驗證碼",
   "whuTotpCodeSubtitle": "{seconds} 秒後更新 · 撳一下複製",
   "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
   "whuTotpEnable": "啟用驗證器碼",
@@ -4585,7 +4514,6 @@
   "whuTotpRemoveSubtitle": "呢個操作唔會停用 WHU 網站上嘅 TOTP",
   "whuTotpEdit": "編輯本機密鑰",
   "whuTotpEditSubtitle": "更新儲存喺呢部裝置嘅帳戶或 Base32 密鑰",
-  "whuTotpLocked": "驗證器碼已鎖定",
   "whuTotpBiometricReason": "用生物識別或裝置登入資料解鎖你嘅 WHU 驗證器碼",
   "whuTotpShowCode": "顯示驗證碼",
   "whuTotpHideCode": "隱藏驗證碼",
@@ -4596,7 +4524,6 @@
   "whuTotpVerifyEmail": "電郵驗證碼",
   "whuTotpVerifyTotp": "驗證器驗證碼",
   "whuTotpEnterVerificationCode": "輸入 6 位驗證碼",
-  "whuTotpSendCode": "取得驗證碼",
   "whuTotpEnabled": "驗證器碼已啟用並安全儲存",
   "whuTotpImported": "驗證器密鑰已安全儲存",
   "whuTotpRemoved": "本機驗證器密鑰已移除",
@@ -4635,14 +4562,12 @@
   "campusMapBaseSatellite": "衛星",
   "campusMapCategories": "分類篩選",
   "campusMapAllCategories": "全部地點",
-  "campusMapLoading": "載入緊校園地點…",
   "campusMapLoadFailed": "校園地點載入失敗",
   "campusMapSearchTitle": "搜尋校園地點",
   "campusMapSearchHint": "搜尋教學樓、食堂、校巴站…",
   "campusMapSearchEmpty": "輸入地點名開始搜尋",
   "campusMapSearchNoResults": "搵唔到符合嘅校園地點",
   "campusMapSearchFailed": "搜尋失敗，請再試",
-  "campusMapDetails": "地點詳情",
   "campusMapDistrict": "所屬學部",
   "campusMapOldName": "舊名",
   "campusMapManageDept": "管理部門",
@@ -4663,7 +4588,6 @@
   "campusMapLayerBusLines": "校巴路線",
   "campusMapOpenBus": "睇校巴時間表",
   "campusMapMyLocation": "我嘅位置",
-  "campusMapLocating": "定位緊…",
   "campusMapLocationDenied": "需要授予定位權限",
   "campusMapLocationOutside": "你嘅位置唔喺校園地圖範圍內",
   "campusMapLocationUnavailable": "暫時攞唔到目前位置",

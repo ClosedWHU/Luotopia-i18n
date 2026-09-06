@@ -74,7 +74,6 @@
   "vpnChallengeExpired": "이 인증 절차는 이미 종료되었습니다.",
   "vpnConnectedTitle": "연결됨",
   "vpnNotConnected": "연결되지 않음",
-  "vpnDisconnectedTitle": "VPN 사용 준비 완료",
   "vpnDisconnectedDescription": "교외에서 캠퍼스 서비스를 이용하려면 로그인하세요.",
   "vpnVirtualAddress": "가상 주소",
   "vpnDnsServers": "VPN DNS 서버",
@@ -97,7 +96,6 @@
   "vpnResumeAction": "세션 재개",
   "vpnDisconnectAction": "연결 해제",
   "vpnRetryAction": "다시 시도",
-  "vpnBackToFormAction": "뒤로",
   "vpnEditCredentialsAction": "로그인 자격 증명 수정",
   "vpnForgetCredentials": "저장된 계정 정보 삭제",
   "vpnErrorTitle": "연결 실패",
@@ -105,7 +103,6 @@
   "vpnErrorWintunMissing": "wintun.dll을 찾을 수 없습니다. wintun.net에서 다운로드해 앱 옆에 두거나 앱 내 프록시 모드로 전환하세요.",
   "vpnErrorElevationRequired": "시스템 모드에는 관리자 권한이 필요합니다. 뤄자를 관리자 권한으로 실행하거나 앱 내 프록시 모드로 전환하세요.",
   "vpnErrorSystemModeUnsupported": "이 플랫폼에서는 시스템 VPN 모드가 지원되지 않습니다.",
-  "vpnErrorPermissionDenied": "VPN 권한이 승인되지 않았습니다. 시스템 대화상자에서 허용한 후 다시 시도하세요.",
   "vpnErrorSessionExpired": "VPN 세션이 만료되었습니다. 다시 로그인하세요.",
   "vpnErrorSessionReplaced": "이 VPN 세션이 종료되었습니다. 다른 기기에서 같은 계정으로 연결했을 수 있습니다. 계속하려면 다시 연결하세요.",
   "vpnErrorTunnel": "VPN 터널을 설정하지 못했습니다.",
@@ -114,8 +111,6 @@
   "vpnErrorNetwork": "VPN 서버에 연결할 수 없습니다. 인터넷 연결을 확인하세요.",
   "vpnErrorGeneric": "VPN 연결에 실패했습니다. 아래 세부 정보를 확인하세요.",
   "vpnInAppModeNote": "이 앱의 트래픽만 터널링되며 이 기기의 다른 앱은 직접 연결됩니다.",
-  "vpnSystemModeNote": "이 앱 자체의 트래픽을 포함해 시스템 전체 트래픽이 VPN을 통과합니다.",
-  "vpnReloginAction": "다시 로그인",
   "vpnTestConnection": "연결 테스트",
   "vpnTestRunning": "테스트 중…",
   "vpnTestSuccess": "연결됨",
@@ -418,7 +413,6 @@
   "k1Hour": "1시간",
   "k30Minutes": "30분",
   "k3Hours": "3시간",
-  "languageEnglish": "영어",
   "languageLabel": "응용 언어",
   "listCompletedSection": "{count} 완료됨",
   "listMenuTitle": "탭 전환",
@@ -894,7 +888,6 @@
   "whuAccountSectionAcademic": "학적·학업",
   "whuAccountSectionSession": "로그인 상태",
   "whuTotpSectionTitle": "인증 앱 코드",
-  "whuTotpCodeTitle": "현재 인증 코드",
   "whuTotpCodeSubtitle": "{seconds}초 후 갱신 · 눌러서 복사",
   "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
   "whuTotpEnable": "인증 앱 코드 활성화",
@@ -905,7 +898,6 @@
   "whuTotpRemoveSubtitle": "WHU 웹사이트의 TOTP는 비활성화되지 않습니다",
   "whuTotpEdit": "로컬 키 수정",
   "whuTotpEditSubtitle": "이 기기에 저장된 계정 또는 Base32 비밀 키를 업데이트합니다",
-  "whuTotpLocked": "인증 앱 코드가 잠겨 있습니다",
   "whuTotpBiometricReason": "생체 인증 또는 기기 인증 정보로 WHU 인증 앱 코드의 잠금을 해제합니다",
   "whuTotpShowCode": "인증 코드 표시",
   "whuTotpHideCode": "인증 코드 숨기기",
@@ -916,7 +908,6 @@
   "whuTotpVerifyEmail": "이메일 인증번호",
   "whuTotpVerifyTotp": "인증 앱 인증 코드",
   "whuTotpEnterVerificationCode": "6자리 인증 코드를 입력하세요",
-  "whuTotpSendCode": "코드 보내기",
   "whuTotpEnabled": "인증 앱 코드를 활성화하고 안전하게 저장했습니다",
   "whuTotpImported": "인증 앱 키를 안전하게 저장했습니다",
   "whuTotpRemoved": "로컬 인증 앱 키를 삭제했습니다",
@@ -1120,31 +1111,11 @@
       }
     }
   },
-  "@hourH": {
-   "placeholders": {
-     "hour": {}
-    }
-  },
-  "@importedTimestr": {
-   "placeholders": {
-     "timeStr": {}
-    }
-  },
   "@listCompletedSection": {
    "placeholders": {
      "count": {
        "type": "int"
       }
-    }
-  },
-  "@minuteMin": {
-   "placeholders": {
-     "minute": {}
-    }
-  },
-  "@semS": {
-   "placeholders": {
-     "s": {}
     }
   },
   "@settingsMinutesValue": {
@@ -1359,14 +1330,6 @@
       }
     }
   },
-  "hotUpdateRemoteVersion": "원격 v{version}",
-  "@hotUpdateRemoteVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
-      }
-    }
-  },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
    "placeholders": {
@@ -1375,8 +1338,6 @@
       }
     }
   },
-  "hotUpdateViewCode": "JS 코드 보기",
-  "hotUpdateLoading": "매니페스트 로딩 중...",
   "hotUpdateLoadFailed": "매니페스트 로딩 실패",
   "hotUpdateCheckNow": "지금 확인",
   "hotUpdateChecking": "핫 업데이트를 확인하는 중...",
@@ -1385,15 +1346,11 @@
   "hotUpdateCheckNoChanges": "이미 최신 상태입니다. 업데이트할 스크립트가 없습니다",
   "hotUpdateCheckEngineUnavailable": "핫 업데이트 엔진을 사용할 수 없어 내장 파서를 사용합니다",
   "hotUpdateStatusCurrent": "최신 상태",
-  "hotUpdateStatusUpdateAvailable": "업데이트 사용 가능",
   "hotUpdateStatusBehind": "원격보다 이전 버전(로컬 v{local} / 원격 v{remote})",
   "hotUpdateStatusMissing": "로컬 없음 — 당겨서 다운로드",
   "hotUpdateStatusEmbedded": "내장 기본값 사용 중",
   "hotUpdateStatusCached": "캐시된 원격 버전 사용 중",
   "hotUpdateStatusUnknown": "알 수 없는 스크립트 — 활성화하려면 앱을 업데이트하세요",
-  "hotUpdateStatusTestFailed": "마지막 업데이트: 샌드박스 테스트 실패",
-  "hotUpdateStatusDownloadFailed": "마지막 업데이트: 다운로드 실패",
-  "hotUpdateStatusCommitFailed": "마지막 업데이트: 커밋 실패",
   "hotUpdateVersionCompare": "로컬 v{local} · 원격 v{remote}",
   "hotUpdateVersionMissing": "로컬 없음 · 원격 v{remote}",
   "hotUpdateLastFailure": "마지막 실패: {reason}",
@@ -2250,17 +2207,7 @@
   "libraryEndTime": "종료",
   "libraryBookSuccess": "예약 성공!",
   "libraryCaptchaTitle": "보안 인증",
-  "libraryCaptchaUnsupported": "이 플랫폼에서는 인증을 완료할 수 없습니다. Android 또는 iOS를 사용하세요.",
   "libraryCaptchaLoadFailed": "인증 로드에 실패했습니다. 다시 시도하세요.",
-  "libraryCaptchaAutoVerifying": "자동 인증 중…",
-  "libraryCaptchaRetrying": "인증 재시도 중 ({count})…",
-  "@libraryCaptchaRetrying": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "libraryBookFailed": "예약 실패: {error}",
   "@libraryBookFailed": {
    "placeholders": {
@@ -2331,7 +2278,6 @@
       }
     }
   },
-  "settingsAiModelHint": "모델 이름을 입력하거나 목록에서 선택",
   "homeJumpCurrentWeek": "이번 주",
   "homeJumpSemesterStartWeek": "개강 주",
   "weatherAirQualityAccuHint": "오염 물질 상세 정보를 보려면 AQI 제공자를 AccuWeather로 전환하세요",
@@ -2705,7 +2651,7 @@
   "messagesMarkAllRead": "모두 읽음",
   "messagesMarkAllReadSuccess": "모두 읽음으로 표시했습니다",
   "messagesMarkAllReadFailed": "모두 읽음 처리 실패",
-  "wallpaperDarkOverlayOpacity": "다크 모드 오버레이 투명도",
+  "wallpaperDarkOverlayOpacity": "다크 모드 오버레이 불투명도",
   "scoreTranscriptCredential": "검증된 전자 증명서",
   "scoreTranscriptSelect": "생성할 성적 증명서를 선택하세요",
   "scoreTranscriptSystemGenerated": "WHU 검증 전자 증명서 시스템에서 생성됨",
@@ -4005,11 +3951,6 @@
   "aiAutomationManualDescription": "모든 작업은 확인 후에 실행됩니다.",
   "aiAutomationSemiAutomaticDescription": "Agent의 쓰기 작업은 계속 확인이 필요하며, 나머지 확인은 자동으로 승인됩니다.",
   "aiAutomationFullyAutomaticDescription": "모든 작업을 자동으로 확인하고 전체 기록을 유지합니다.",
-  "aiMedicalAccess": "의료 데이터 접근",
-  "aiMedicalAccessDescription": "진료 카드, 접수 기록, 대기 순번, 청구서, 검사 보고서를 어시스턴트가 읽을 수 있게 합니다. 진료 시간은 이 설정과 무관하게 이용할 수 있습니다.",
-  "aiMedicalAccessNoticeTitle": "켜기 전에 확인하세요",
-  "aiMedicalAccessNoticeBody": "검사 결과, 진단, 진료과, 의사, 청구 항목이 도구 결과가 됩니다. 설정한 모델 엔드포인트로 전송되고 이 기기의 암호화된 작업 기록에도 남습니다. 신원 항목(신분증 번호, 전화번호, 카드 번호, 접수 번호)은 항상 가려집니다. 언제든지 끌 수 있습니다.",
-  "aiMedicalAccessNoticeEnable": "켜기",
   "aiConfirmationFundsNoBulkApprove": "이 일괄 작업에는 자금 이동이 포함됩니다. 각 작업을 따로 검토하고 승인하세요.",
   "aiBridgePaymentTitle": "결제를 완료해야 합니다",
   "aiBridgePaymentTitleUtility": "기숙사 수도·전기 요금 충전",
@@ -4021,14 +3962,7 @@
   "aiPaymentChannelAlipay": "Alipay",
   "aiPaymentChannelWechat": "WeChat Pay",
   "aiPaymentChannelUnionPay": "UnionPay",
-  "aiPaymentSettlementDelivered": "결제 반영 완료",
-  "aiPaymentSettlementCredited": "입금 완료",
-  "aiPaymentSettlementPending": "결제됨, 입금 대기 중",
-  "aiPaymentSettlementUnpaid": "결제 미완료",
   "aiPaymentOrderStranded": "확인 전에 결제 화면이 종료되었습니다. 다시 결제하기 전에 주문 {orderNo}을 확인하세요.",
-  "settingsAiPaymentAccessTitle": "결제 접근",
-  "settingsAiPaymentAccessSubtitle": "도우미가 공과금 주문을 만들도록 허용합니다. 각 주문은 개별 확인과 기기 내 결제가 필요합니다.",
-  "settingsAiPaymentAccessFirstEnableNotice": "개별 승인 후 도우미가 실제 결제 주문을 만들 수 있습니다. 결제는 WHU Safe Pay에서 직접 완료하며 주문은 자동 재시도되지 않습니다.",
   "aiWebAccess": "웹 검색 접근",
   "aiWebAccessDescription": "어시스턴트가 웹을 검색하고 페이지 본문을 작업 공간으로 읽어올 수 있습니다. 캠퍼스 데이터는 항상 캠퍼스 도구에서 제공되며, 페이지 본문은 신뢰할 수 없는 콘텐츠로 저장되고 대화에는 노출되지 않습니다.",
   "aiWebSearchProvider": "검색 제공자",
@@ -4044,7 +3978,6 @@
   "aiConfirmationFieldTitle": "제목",
   "aiConfirmationFieldTime": "시간",
   "aiConfirmationFieldLocation": "장소",
-  "aiConfirmationFieldStatus": "상태",
   "aiConfirmationFieldVenue": "시설",
   "aiConfirmationFieldSeat": "좌석",
   "aiConfirmationFieldDate": "날짜",
@@ -4665,11 +4598,6 @@
   "aiMcpEmpty": "설정된 MCP 서버가 없습니다",
   "aiMcpEnabled": "연결된 MCP 서버 {count}개",
   "aiMcpAddServer": "서버 추가",
-  "aiMcpServerName": "서버 이름",
-  "aiMcpServerUrl": "서버 URL",
-  "aiMcpTransportType": "전송 방식",
-  "aiMcpTransportSse": "SSE",
-  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "복사됨",
   "aiCodeExpand": "펼치기",
   "aiCodeCollapse": "접기",
@@ -4677,7 +4605,6 @@
   "aiCodeShowMoreLines": "줄 {count}개 더 표시",
   "onboardingPermissionMicrophoneTitle": "마이크",
   "onboardingPermissionMicrophoneDescription": "AI 대화의 음성 입력(음성 텍스트 변환)에 사용됩니다.",
-  "hotUpdateEditScript": "스크립트 편집",
   "hotUpdateSaveScript": "저장",
   "hotUpdateResetScript": "원격 또는 기본 스크립트로 복원",
   "hotUpdateTestFailed": "샌드박스 테스트에 실패하여 스크립트를 저장하지 않았습니다",
@@ -4704,14 +4631,12 @@
   "campusMapBaseSatellite": "위성",
   "campusMapCategories": "카테고리",
   "campusMapAllCategories": "모든 장소",
-  "campusMapLoading": "캠퍼스 장소 불러오는 중…",
   "campusMapLoadFailed": "캠퍼스 장소를 불러올 수 없습니다",
   "campusMapSearchTitle": "캠퍼스 검색",
   "campusMapSearchHint": "강의동, 식당, 캠퍼스 버스 정류장 검색…",
   "campusMapSearchEmpty": "장소 이름을 입력하여 검색",
   "campusMapSearchNoResults": "일치하는 캠퍼스 장소를 찾을 수 없습니다",
   "campusMapSearchFailed": "검색에 실패했습니다. 다시 시도해 주세요.",
-  "campusMapDetails": "장소 상세 정보",
   "campusMapDistrict": "소속 학부",
   "campusMapOldName": "옛 이름",
   "campusMapManageDept": "관리 부서",
@@ -4732,7 +4657,6 @@
   "campusMapLayerBusLines": "캠퍼스 버스 노선",
   "campusMapOpenBus": "캠퍼스 버스 시간표 보기",
   "campusMapMyLocation": "현재 위치",
-  "campusMapLocating": "위치 확인 중…",
   "campusMapLocationDenied": "위치 권한이 필요합니다",
   "campusMapLocationOutside": "현재 위치가 캠퍼스 지도 범위 밖에 있습니다",
   "campusMapLocationUnavailable": "현재 위치를 사용할 수 없습니다",

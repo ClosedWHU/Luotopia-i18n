@@ -74,7 +74,6 @@
   "vpnChallengeExpired": "Это подтверждение уже завершено.",
   "vpnConnectedTitle": "Подключено",
   "vpnNotConnected": "Не подключено",
-  "vpnDisconnectedTitle": "VPN готов",
   "vpnDisconnectedDescription": "Войдите, чтобы получить доступ к сервисам кампуса из-за пределов кампуса.",
   "vpnVirtualAddress": "Виртуальный адрес",
   "vpnDnsServers": "DNS-серверы VPN",
@@ -97,7 +96,6 @@
   "vpnResumeAction": "Возобновить сеанс",
   "vpnDisconnectAction": "Отключить",
   "vpnRetryAction": "Повторить",
-  "vpnBackToFormAction": "Назад",
   "vpnEditCredentialsAction": "Изменить учётные данные для входа",
   "vpnForgetCredentials": "Забыть сохранённый аккаунт",
   "vpnErrorTitle": "Не удалось подключиться",
@@ -105,7 +103,6 @@
   "vpnErrorWintunMissing": "Файл wintun.dll не найден. Скачайте его с wintun.net и поместите рядом с приложением либо переключитесь в режим внутри приложения.",
   "vpnErrorElevationRequired": "Для системного режима нужны повышенные права. Запустите Luotopia от имени администратора или переключитесь в режим внутри приложения.",
   "vpnErrorSystemModeUnsupported": "Режим системного VPN не поддерживается на этой платформе.",
-  "vpnErrorPermissionDenied": "Разрешение VPN не выдано. Разрешите его в системном диалоге и повторите попытку.",
   "vpnErrorSessionExpired": "Срок действия сеанса VPN истёк. Войдите снова.",
   "vpnErrorSessionReplaced": "Этот сеанс VPN был отключён — возможно, аккаунт подключился на другом устройстве. Подключитесь снова, чтобы продолжить.",
   "vpnErrorTunnel": "Не удалось установить VPN-туннель.",
@@ -114,8 +111,6 @@
   "vpnErrorNetwork": "Не удалось связаться с VPN-сервером. Проверьте подключение к интернету.",
   "vpnErrorGeneric": "Не удалось подключиться к VPN. Подробности приведены ниже.",
   "vpnInAppModeNote": "Через туннель проходит только трафик этого приложения; другие приложения на устройстве подключаются напрямую.",
-  "vpnSystemModeNote": "Весь трафик системы, включая трафик этого приложения, идёт через VPN.",
-  "vpnReloginAction": "Войти снова",
   "vpnTestConnection": "Проверить соединение",
   "vpnTestRunning": "Проверка…",
   "vpnTestSuccess": "Доступно",
@@ -415,7 +410,6 @@
   "k1Hour": "1 час",
   "k30Minutes": "30 минут",
   "k3Hours": "3 часа",
-  "languageEnglish": "английский",
   "languageLabel": "язык приложения",
   "listCompletedSection": "Завершено {count}",
   "listMenuTitle": "Переключение вкладок",
@@ -688,7 +682,6 @@
   "whuAccountSectionAcademic": "Учёба",
   "whuAccountSectionSession": "Сессия",
   "whuTotpSectionTitle": "Код аутентификатора",
-  "whuTotpCodeTitle": "Текущий код подтверждения",
   "whuTotpCodeSubtitle": "Обновится через {seconds} с · Нажмите, чтобы скопировать",
   "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
   "whuTotpEnable": "Включить код аутентификатора",
@@ -699,7 +692,6 @@
   "whuTotpRemoveSubtitle": "Это не отключит TOTP на сайте WHU",
   "whuTotpEdit": "Изменить локальный ключ",
   "whuTotpEditSubtitle": "Обновить аккаунт или секрет Base32, сохранённый на этом устройстве",
-  "whuTotpLocked": "Код аутентификатора заблокирован",
   "whuTotpBiometricReason": "Разблокируйте код аутентификатора WHU с помощью биометрии или учётных данных устройства",
   "whuTotpShowCode": "Показать код подтверждения",
   "whuTotpHideCode": "Скрыть код подтверждения",
@@ -710,7 +702,6 @@
   "whuTotpVerifyEmail": "Код подтверждения по почте",
   "whuTotpVerifyTotp": "Код подтверждения аутентификатора",
   "whuTotpEnterVerificationCode": "Введите 6-значный код подтверждения",
-  "whuTotpSendCode": "Отправить код",
   "whuTotpEnabled": "Код аутентификатора включён и безопасно сохранён",
   "whuTotpImported": "Ключ аутентификатора безопасно сохранён",
   "whuTotpRemoved": "Локальный ключ аутентификатора удалён",
@@ -914,31 +905,11 @@
       }
     }
   },
-  "@hourH": {
-   "placeholders": {
-     "hour": {}
-    }
-  },
-  "@importedTimestr": {
-   "placeholders": {
-     "timeStr": {}
-    }
-  },
   "@listCompletedSection": {
    "placeholders": {
      "count": {
        "type": "int"
       }
-    }
-  },
-  "@minuteMin": {
-   "placeholders": {
-     "minute": {}
-    }
-  },
-  "@semS": {
-   "placeholders": {
-     "s": {}
     }
   },
   "@settingsMinutesValue": {
@@ -1153,14 +1124,6 @@
       }
     }
   },
-  "hotUpdateRemoteVersion": "Удалённая версия v{version}",
-  "@hotUpdateRemoteVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
-      }
-    }
-  },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
    "placeholders": {
@@ -1169,8 +1132,6 @@
       }
     }
   },
-  "hotUpdateViewCode": "Просмотреть код JS",
-  "hotUpdateLoading": "Загрузка манифеста...",
   "hotUpdateLoadFailed": "Ошибка загрузки манифеста",
   "hotUpdateCheckNow": "Проверить сейчас",
   "hotUpdateChecking": "Проверка горячих обновлений...",
@@ -1179,15 +1140,11 @@
   "hotUpdateCheckNoChanges": "Уже актуально: обновлять скрипты не требуется",
   "hotUpdateCheckEngineUnavailable": "Модуль горячего обновления недоступен; используются встроенные анализаторы",
   "hotUpdateStatusCurrent": "Актуально",
-  "hotUpdateStatusUpdateAvailable": "Доступно обновление",
   "hotUpdateStatusBehind": "Отстает от удаленной версии (локальная v{local} / удаленная v{remote})",
   "hotUpdateStatusMissing": "Локально отсутствует — потяните для загрузки",
   "hotUpdateStatusEmbedded": "Используется встроенная версия по умолчанию",
   "hotUpdateStatusCached": "Используется кэшированная удаленная версия",
   "hotUpdateStatusUnknown": "Неизвестный скрипт — обновите приложение, чтобы включить",
-  "hotUpdateStatusTestFailed": "Последнее обновление: не пройден тест в песочнице",
-  "hotUpdateStatusDownloadFailed": "Последнее обновление: ошибка загрузки",
-  "hotUpdateStatusCommitFailed": "Последнее обновление: ошибка фиксации",
   "hotUpdateVersionCompare": "Локальная v{local} · Удаленная v{remote}",
   "hotUpdateVersionMissing": "Локально нет · Удалённая v{remote}",
   "hotUpdateLastFailure": "Последняя ошибка: {reason}",
@@ -2037,17 +1994,7 @@
   "libraryEndTime": "Конец",
   "libraryBookSuccess": "Место забронировано!",
   "libraryCaptchaTitle": "Проверка безопасности",
-  "libraryCaptchaUnsupported": "Проверка недоступна на этой платформе. Используйте Android или iOS.",
   "libraryCaptchaLoadFailed": "Не удалось загрузить капчу. Попробуйте снова.",
-  "libraryCaptchaAutoVerifying": "Проверка…",
-  "libraryCaptchaRetrying": "Повтор проверки ({count})…",
-  "@libraryCaptchaRetrying": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "libraryBookFailed": "Ошибка брони: {error}",
   "@libraryBookFailed": {
    "placeholders": {
@@ -2118,7 +2065,6 @@
       }
     }
   },
-  "settingsAiModelHint": "Введите имя модели или выберите из списка",
   "homeJumpCurrentWeek": "Эта неделя",
   "homeJumpSemesterStartWeek": "Старт",
   "weatherAirQualityAccuHint": "Переключите поставщик AQI на AccuWeather для подробных данных о загрязнении",
@@ -3988,11 +3934,6 @@
   "aiAutomationManualDescription": "Каждое действие выполняется после вашего подтверждения.",
   "aiAutomationSemiAutomaticDescription": "Операции записи агента по-прежнему требуют вашего подтверждения; остальные подтверждаются автоматически.",
   "aiAutomationFullyAutomaticDescription": "Все действия подтверждаются автоматически, полная история сохраняется.",
-  "aiMedicalAccess": "Доступ к медицинским данным",
-  "aiMedicalAccessDescription": "Разрешает ассистенту читать ваши медицинские сведения: карты пациента, записи на приём, очередь, счета и результаты анализов и обследований. Часы работы клиник доступны в любом случае.",
-  "aiMedicalAccessNoticeTitle": "Прежде чем включить",
-  "aiMedicalAccessNoticeBody": "Результаты анализов, диагнозы, отделения, врачи и строки счетов становятся результатами инструментов. Они отправляются на выбранный вами эндпоинт модели и сохраняются в зашифрованных записях операций на этом устройстве. Идентифицирующие поля — номер документа, телефон, номера карты и записи — всегда маскируются. Отключить можно в любой момент.",
-  "aiMedicalAccessNoticeEnable": "Включить",
   "aiConfirmationFundsNoBulkApprove": "В пакете есть операция с денежными средствами. Проверьте и подтвердите каждое действие отдельно.",
   "aiBridgePaymentTitle": "Требуется завершить оплату",
   "aiBridgePaymentTitleUtility": "Пополнение счёта за общежитие",
@@ -4004,14 +3945,7 @@
   "aiPaymentChannelAlipay": "Alipay",
   "aiPaymentChannelWechat": "WeChat Pay",
   "aiPaymentChannelUnionPay": "UnionPay",
-  "aiPaymentSettlementDelivered": "Платёж доставлен",
-  "aiPaymentSettlementCredited": "Платёж зачислен",
-  "aiPaymentSettlementPending": "Оплачено; ожидается зачисление",
-  "aiPaymentSettlementUnpaid": "Оплата не завершена",
   "aiPaymentOrderStranded": "Оплата закрылась до проверки. Проверьте заказ {orderNo}, прежде чем платить снова.",
-  "settingsAiPaymentAccessTitle": "Доступ к платежам",
-  "settingsAiPaymentAccessSubtitle": "Разрешить помощнику создавать коммунальные платёжные заказы с отдельным подтверждением и оплатой на устройстве.",
-  "settingsAiPaymentAccessFirstEnableNotice": "После отдельного подтверждения помощник может создать реальный платёжный заказ. Вы платите в WHU Safe Pay; автоматических повторов заказа нет.",
   "aiWebAccess": "Доступ к открытому вебу",
   "aiWebAccessDescription": "Позволяет помощнику искать в открытом вебе и читать страницы в рабочее пространство. Данные кампуса всегда берутся из кампусных инструментов; тело страниц сохраняется как недоверенный контент и никогда не попадает в диалог.",
   "aiWebSearchProvider": "Поисковый провайдер",
@@ -4027,7 +3961,6 @@
   "aiConfirmationFieldTitle": "Название",
   "aiConfirmationFieldTime": "Время",
   "aiConfirmationFieldLocation": "Место",
-  "aiConfirmationFieldStatus": "Статус",
   "aiConfirmationFieldVenue": "Объект",
   "aiConfirmationFieldSeat": "Место",
   "aiConfirmationFieldDate": "Дата",
@@ -4641,11 +4574,6 @@
   "aiMcpEmpty": "Серверы MCP не настроены",
   "aiMcpEnabled": "Подключено: {count}",
   "aiMcpAddServer": "Добавить сервер",
-  "aiMcpServerName": "Имя сервера",
-  "aiMcpServerUrl": "URL сервера",
-  "aiMcpTransportType": "Транспорт",
-  "aiMcpTransportSse": "SSE",
-  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "Скопировано",
   "aiCodeExpand": "Развернуть",
   "aiCodeCollapse": "Свернуть",
@@ -4653,7 +4581,6 @@
   "aiCodeShowMoreLines": "Показать ещё {count} строк",
   "onboardingPermissionMicrophoneTitle": "Разрешить доступ к микрофону",
   "onboardingPermissionMicrophoneDescription": "Используется для голосового ввода в беседах с ИИ (преобразование речи в текст).",
-  "hotUpdateEditScript": "Изменить скрипт",
   "hotUpdateSaveScript": "Сохранить скрипт",
   "hotUpdateResetScript": "Сбросить скрипт",
   "hotUpdateTestFailed": "Тест не пройден",
@@ -4673,14 +4600,12 @@
   "campusMapBaseSatellite": "Спутник",
   "campusMapCategories": "Категории",
   "campusMapAllCategories": "Все места",
-  "campusMapLoading": "Загрузка мест кампуса…",
   "campusMapLoadFailed": "Не удалось загрузить места кампуса",
   "campusMapSearchTitle": "Поиск по кампусу",
   "campusMapSearchHint": "Ищите корпуса, столовые, остановки автобуса…",
   "campusMapSearchEmpty": "Введите название места для поиска",
   "campusMapSearchNoResults": "Нет подходящих мест кампуса",
   "campusMapSearchFailed": "Ошибка поиска. Попробуйте ещё раз.",
-  "campusMapDetails": "О месте",
   "campusMapDistrict": "Факультет",
   "campusMapOldName": "Прежнее название",
   "campusMapManageDept": "Управляющая структура",
@@ -4701,7 +4626,6 @@
   "campusMapLayerBusLines": "Маршруты кампусного автобуса",
   "campusMapOpenBus": "Расписание кампусного автобуса",
   "campusMapMyLocation": "Моё местоположение",
-  "campusMapLocating": "Определение местоположения…",
   "campusMapLocationDenied": "Требуется доступ к геолокации",
   "campusMapLocationOutside": "Вы находитесь за пределами карты кампуса",
   "campusMapLocationUnavailable": "Текущее местоположение недоступно",

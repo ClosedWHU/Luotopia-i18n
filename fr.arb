@@ -74,7 +74,6 @@
   "vpnChallengeExpired": "Cette vérification est déjà terminée.",
   "vpnConnectedTitle": "Connecté",
   "vpnNotConnected": "Non connecté",
-  "vpnDisconnectedTitle": "VPN prêt",
   "vpnDisconnectedDescription": "Connectez-vous pour accéder aux services du campus depuis l’extérieur du campus.",
   "vpnVirtualAddress": "Adresse virtuelle",
   "vpnDnsServers": "DNS du VPN",
@@ -97,7 +96,6 @@
   "vpnResumeAction": "Reprendre la session",
   "vpnDisconnectAction": "Se déconnecter",
   "vpnRetryAction": "Réessayer",
-  "vpnBackToFormAction": "Retour",
   "vpnEditCredentialsAction": "Modifier les identifiants de connexion",
   "vpnForgetCredentials": "Oublier le compte enregistré",
   "vpnErrorTitle": "Échec de la connexion",
@@ -105,7 +103,6 @@
   "vpnErrorWintunMissing": "wintun.dll est introuvable. Téléchargez-le depuis wintun.net et placez-le à côté de l’application, ou passez au mode intégré à l’application.",
   "vpnErrorElevationRequired": "Le mode système nécessite une application exécutée avec élévation. Lancez Luotopia en tant qu’administrateur ou passez au mode intégré à l’application.",
   "vpnErrorSystemModeUnsupported": "Le mode VPN système n'est pas pris en charge sur cette plateforme.",
-  "vpnErrorPermissionDenied": "L'autorisation VPN n'a pas été accordée. Autorisez-la dans la boîte de dialogue système puis réessayez.",
   "vpnErrorSessionExpired": "Votre session VPN a expiré ; reconnectez-vous.",
   "vpnErrorSessionReplaced": "Cette session VPN a été déconnectée, peut-être parce que le compte s'est connecté sur un autre appareil. Reconnectez-vous pour continuer.",
   "vpnErrorTunnel": "Impossible d’établir le tunnel VPN.",
@@ -114,8 +111,6 @@
   "vpnErrorNetwork": "Impossible de joindre le serveur VPN. Vérifiez votre connexion Internet.",
   "vpnErrorGeneric": "La connexion VPN a échoué. Consultez les détails ci-dessous.",
   "vpnInAppModeNote": "Seul le trafic de cette application passe par le tunnel ; les autres applications de cet appareil se connectent directement.",
-  "vpnSystemModeNote": "Tout le trafic du système passe par le VPN, y compris celui de cette application.",
-  "vpnReloginAction": "Se reconnecter",
   "vpnTestConnection": "Tester la connexion",
   "vpnTestRunning": "Test en cours…",
   "vpnTestSuccess": "Accessible",
@@ -415,7 +410,6 @@
   "k1Hour": "1 heure",
   "k30Minutes": "30 minutes",
   "k3Hours": "3 heures",
-  "languageEnglish": "Anglais",
   "languageLabel": "langue de l'application",
   "listCompletedSection": "Terminé {count}",
   "listMenuTitle": "Changer d'onglet",
@@ -688,7 +682,6 @@
   "whuAccountSectionAcademic": "Scolarité",
   "whuAccountSectionSession": "Session",
   "whuTotpSectionTitle": "Code d’authentification",
-  "whuTotpCodeTitle": "Code de vérification actuel",
   "whuTotpCodeSubtitle": "Actualisation dans {seconds} s · Appuyez pour copier",
   "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
   "whuTotpEnable": "Activer le code d’authentification",
@@ -699,7 +692,6 @@
   "whuTotpRemoveSubtitle": "Cela ne désactive pas le TOTP sur le site de WHU",
   "whuTotpEdit": "Modifier la clé locale",
   "whuTotpEditSubtitle": "Mettez à jour le compte ou le secret Base32 stocké sur cet appareil",
-  "whuTotpLocked": "Code d’authentification verrouillé",
   "whuTotpBiometricReason": "Déverrouillez votre code d’authentification WHU avec la biométrie ou les identifiants de l’appareil",
   "whuTotpShowCode": "Afficher le code de vérification",
   "whuTotpHideCode": "Masquer le code de vérification",
@@ -710,7 +702,6 @@
   "whuTotpVerifyEmail": "Code de vérification par e-mail",
   "whuTotpVerifyTotp": "Code de vérification de l’authentificateur",
   "whuTotpEnterVerificationCode": "Saisissez le code de vérification à 6 chiffres",
-  "whuTotpSendCode": "Envoyer le code",
   "whuTotpEnabled": "Code d’authentification activé et enregistré en toute sécurité",
   "whuTotpImported": "Clé d’authentification enregistrée en toute sécurité",
   "whuTotpRemoved": "Clé locale d’authentification supprimée",
@@ -914,31 +905,11 @@
       }
     }
   },
-  "@hourH": {
-   "placeholders": {
-     "hour": {}
-    }
-  },
-  "@importedTimestr": {
-   "placeholders": {
-     "timeStr": {}
-    }
-  },
   "@listCompletedSection": {
    "placeholders": {
      "count": {
        "type": "int"
       }
-    }
-  },
-  "@minuteMin": {
-   "placeholders": {
-     "minute": {}
-    }
-  },
-  "@semS": {
-   "placeholders": {
-     "s": {}
     }
   },
   "@settingsMinutesValue": {
@@ -1174,14 +1145,6 @@
       }
     }
   },
-  "hotUpdateRemoteVersion": "Version distante v{version}",
-  "@hotUpdateRemoteVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
-      }
-    }
-  },
   "hotUpdateChecksum": "SHA-256 : {checksum}",
   "@hotUpdateChecksum": {
    "placeholders": {
@@ -1190,8 +1153,6 @@
       }
     }
   },
-  "hotUpdateViewCode": "Voir le code JS",
-  "hotUpdateLoading": "Chargement du manifeste...",
   "hotUpdateLoadFailed": "Échec du chargement du manifeste",
   "hotUpdateCheckNow": "Rechercher les mises à jour",
   "hotUpdateChecking": "Recherche de mises à jour à chaud...",
@@ -1200,15 +1161,11 @@
   "hotUpdateCheckNoChanges": "Déjà à jour : aucun script à mettre à jour",
   "hotUpdateCheckEngineUnavailable": "Moteur de mise à jour à chaud indisponible ; analyseurs intégrés utilisés",
   "hotUpdateStatusCurrent": "À jour",
-  "hotUpdateStatusUpdateAvailable": "Mise à jour disponible",
   "hotUpdateStatusBehind": "En retard sur le distant (local v{local} / distant v{remote})",
   "hotUpdateStatusMissing": "Absent en local — tirez pour télécharger",
   "hotUpdateStatusEmbedded": "Version par défaut intégrée utilisée",
   "hotUpdateStatusCached": "Version distante mise en cache utilisée",
   "hotUpdateStatusUnknown": "Script inconnu — mettez à jour l'app pour activer",
-  "hotUpdateStatusTestFailed": "Dernière mise à jour : échec du test isolé",
-  "hotUpdateStatusDownloadFailed": "Dernière mise à jour : échec du téléchargement",
-  "hotUpdateStatusCommitFailed": "Dernière mise à jour : échec de validation",
   "hotUpdateVersionCompare": "Local v{local} · Distant v{remote}",
   "hotUpdateVersionMissing": "Absent en local · Distant v{remote}",
   "hotUpdateLastFailure": "Dernier échec : {reason}",
@@ -2081,17 +2038,7 @@
   "libraryEndTime": "Fin",
   "libraryBookSuccess": "Réservation réussie !",
   "libraryCaptchaTitle": "Vérification de sécurité",
-  "libraryCaptchaUnsupported": "La vérification n'est pas disponible sur cette plateforme. Utilisez Android ou iOS.",
   "libraryCaptchaLoadFailed": "Échec du chargement du captcha. Réessayez.",
-  "libraryCaptchaAutoVerifying": "Vérification en cours…",
-  "libraryCaptchaRetrying": "Nouvel essai de vérification ({count})…",
-  "@libraryCaptchaRetrying": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "libraryBookFailed": "Échec de la réservation : {error}",
   "@libraryBookFailed": {
    "placeholders": {
@@ -2162,7 +2109,6 @@
       }
     }
   },
-  "settingsAiModelHint": "Saisissez un nom de modèle ou choisissez dans la liste",
   "homeJumpCurrentWeek": "Sem. en cours",
   "homeJumpSemesterStartWeek": "Début",
   "weatherAirQualityAccuHint": "Passez à AccuWeather pour des détails sur les polluants",
@@ -4096,11 +4042,6 @@
   "aiAutomationManualDescription": "Chaque action attend votre confirmation avant de s’exécuter.",
   "aiAutomationSemiAutomaticDescription": "Les actions d’écriture de l’Agent attendent toujours votre confirmation ; les autres sont confirmées automatiquement.",
   "aiAutomationFullyAutomaticDescription": "Chaque action est confirmée automatiquement, avec un historique complet.",
-  "aiMedicalAccess": "Accès aux données de santé",
-  "aiMedicalAccessDescription": "Autorise l'assistant à lire vos informations médicales : cartes de patient, inscriptions, file d'attente, factures et comptes rendus de laboratoire ou d'examen. Les horaires des cliniques restent accessibles dans tous les cas.",
-  "aiMedicalAccessNoticeTitle": "Avant d'activer",
-  "aiMedicalAccessNoticeBody": "Les résultats d'analyses, diagnostics, services, médecins et lignes de facture deviennent des résultats d'outil. Ils sont envoyés au point de terminaison du modèle que vous avez configuré et conservés dans les enregistrements d'opération chiffrés de cet appareil. Les champs d'identité — numéro de pièce d'identité, téléphone, numéros de carte et d'inscription — sont toujours masqués. Vous pouvez désactiver à tout moment.",
-  "aiMedicalAccessNoticeEnable": "Activer",
   "aiConfirmationFundsNoBulkApprove": "Ce lot contient une opération financière. Vérifiez et approuvez chaque action séparément.",
   "aiBridgePaymentTitle": "Paiement à terminer",
   "aiBridgePaymentTitleUtility": "Recharge des charges de la résidence",
@@ -4112,14 +4053,7 @@
   "aiPaymentChannelAlipay": "Alipay",
   "aiPaymentChannelWechat": "WeChat Pay",
   "aiPaymentChannelUnionPay": "UnionPay",
-  "aiPaymentSettlementDelivered": "Paiement distribué",
-  "aiPaymentSettlementCredited": "Paiement crédité",
-  "aiPaymentSettlementPending": "Payé, en attente de crédit",
-  "aiPaymentSettlementUnpaid": "Paiement non terminé",
   "aiPaymentOrderStranded": "Le paiement s’est fermé avant vérification. Vérifiez la commande {orderNo} avant de repayer.",
-  "settingsAiPaymentAccessTitle": "Accès aux paiements",
-  "settingsAiPaymentAccessSubtitle": "Autorise l’assistant à créer des commandes de services, toujours avec confirmation individuelle et paiement sur l’appareil.",
-  "settingsAiPaymentAccessFirstEnableNotice": "L’assistant peut créer une vraie commande de paiement après votre approbation individuelle. Vous payez dans WHU Safe Pay et aucune commande n’est relancée automatiquement.",
   "aiWebAccess": "Accès au web ouvert",
   "aiWebAccessDescription": "Permet à l'assistant de rechercher sur le web ouvert et de lire des pages dans son espace de travail. Les données du campus proviennent toujours des outils du campus ; le corps des pages est stocké comme contenu non fiable et n'entre jamais dans la conversation.",
   "aiWebSearchProvider": "Fournisseur de recherche",
@@ -4135,7 +4069,6 @@
   "aiConfirmationFieldTitle": "Titre",
   "aiConfirmationFieldTime": "Heure",
   "aiConfirmationFieldLocation": "Lieu",
-  "aiConfirmationFieldStatus": "Statut",
   "aiConfirmationFieldVenue": "Installation",
   "aiConfirmationFieldSeat": "Place",
   "aiConfirmationFieldDate": "Date",
@@ -4651,11 +4584,6 @@
   "aiMcpEmpty": "Aucun serveur MCP configuré",
   "aiMcpEnabled": "{count} serveurs MCP connectés",
   "aiMcpAddServer": "Ajouter un serveur",
-  "aiMcpServerName": "Nom du serveur",
-  "aiMcpServerUrl": "URL du serveur",
-  "aiMcpTransportType": "Transport",
-  "aiMcpTransportSse": "SSE",
-  "aiMcpTransportStreamableHttp": "HTTP avec streaming",
   "aiCodeCopied": "Copié",
   "aiCodeExpand": "Développer",
   "aiCodeCollapse": "Réduire",
@@ -4663,7 +4591,6 @@
   "aiCodeShowMoreLines": "Afficher {count} lignes supplémentaires",
   "onboardingPermissionMicrophoneTitle": "Microphone",
   "onboardingPermissionMicrophoneDescription": "Utilisé pour la saisie vocale dans les conversations IA (conversion parole-texte).",
-  "hotUpdateEditScript": "Modifier le script",
   "hotUpdateSaveScript": "Enregistrer",
   "hotUpdateResetScript": "Rétablir la version distante ou par défaut",
   "hotUpdateTestFailed": "Échec du test en environnement isolé : script non enregistré",
@@ -4683,14 +4610,12 @@
   "campusMapBaseSatellite": "Satellite",
   "campusMapCategories": "Catégories",
   "campusMapAllCategories": "Tous les lieux",
-  "campusMapLoading": "Chargement des lieux du campus…",
   "campusMapLoadFailed": "Impossible de charger les lieux du campus",
   "campusMapSearchTitle": "Rechercher sur le campus",
   "campusMapSearchHint": "Recherchez bâtiments, restaurants universitaires, arrêts de bus…",
   "campusMapSearchEmpty": "Saisissez un nom de lieu pour rechercher",
   "campusMapSearchNoResults": "Aucun lieu du campus ne correspond",
   "campusMapSearchFailed": "Échec de la recherche. Veuillez réessayer.",
-  "campusMapDetails": "Détails du lieu",
   "campusMapDistrict": "Faculté",
   "campusMapOldName": "Ancien nom",
   "campusMapManageDept": "Géré par",
@@ -4711,7 +4636,6 @@
   "campusMapLayerBusLines": "Lignes du bus du campus",
   "campusMapOpenBus": "Horaires du bus du campus",
   "campusMapMyLocation": "Ma position",
-  "campusMapLocating": "Localisation…",
   "campusMapLocationDenied": "L’autorisation de localisation est requise",
   "campusMapLocationOutside": "Votre position se trouve en dehors de la zone de la carte du campus",
   "campusMapLocationUnavailable": "La position actuelle est indisponible",

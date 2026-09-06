@@ -74,7 +74,6 @@
   "vpnChallengeExpired": "この認証はすでに完了しています。",
   "vpnConnectedTitle": "接続済み",
   "vpnNotConnected": "未接続",
-  "vpnDisconnectedTitle": "VPNの準備完了",
   "vpnDisconnectedDescription": "ログインすると、学外からキャンパスサービスにアクセスできます。",
   "vpnVirtualAddress": "仮想アドレス",
   "vpnDnsServers": "VPNのDNS",
@@ -97,7 +96,6 @@
   "vpnResumeAction": "セッションを再開",
   "vpnDisconnectAction": "切断",
   "vpnRetryAction": "再試行",
-  "vpnBackToFormAction": "戻る",
   "vpnEditCredentialsAction": "ログイン認証情報を編集",
   "vpnForgetCredentials": "保存したアカウントを削除",
   "vpnErrorTitle": "接続に失敗しました",
@@ -105,7 +103,6 @@
   "vpnErrorWintunMissing": "wintun.dllが見つかりません。wintun.netからダウンロードしてアプリと同じ場所に配置するか、アプリ内モードに切り替えてください。",
   "vpnErrorElevationRequired": "システムモードには管理者権限が必要です。珞家を管理者として実行するか、アプリ内モードに切り替えてください。",
   "vpnErrorSystemModeUnsupported": "このプラットフォームではシステム VPN モードはサポートされていません。",
-  "vpnErrorPermissionDenied": "VPN 権限が許可されていません。システムのダイアログで許可してから再試行してください。",
   "vpnErrorSessionExpired": "VPNセッションの期限が切れました。もう一度ログインしてください。",
   "vpnErrorSessionReplaced": "このVPNセッションは切断されました。別の端末で同じアカウントが接続された可能性があります。続行するには再度接続してください。",
   "vpnErrorTunnel": "VPNトンネルを確立できませんでした。",
@@ -114,8 +111,6 @@
   "vpnErrorNetwork": "VPNサーバーに接続できませんでした。インターネット接続を確認してください。",
   "vpnErrorGeneric": "VPN接続に失敗しました。下記の詳細を確認してください。",
   "vpnInAppModeNote": "このアプリの通信のみトンネル経由になります。このデバイスの他のアプリは直接接続します。",
-  "vpnSystemModeNote": "このアプリ自身のトラフィックを含め、システム全体のトラフィックが VPN を経由します。",
-  "vpnReloginAction": "ログインし直す",
   "vpnTestConnection": "接続テスト",
   "vpnTestRunning": "テスト中…",
   "vpnTestSuccess": "到達できました",
@@ -715,7 +710,6 @@
   "k1Hour": "1時間",
   "k30Minutes": "30分",
   "k3Hours": "3時間",
-  "languageEnglish": "英語",
   "languageLabel": "アプリケーション言語",
   "listCompletedSection": "{count} を完了しました",
   "listMenuTitle": "タブを切り替える",
@@ -988,7 +982,6 @@
   "whuAccountSectionAcademic": "学籍・履修",
   "whuAccountSectionSession": "ログイン状態",
   "whuTotpSectionTitle": "認証アプリコード",
-  "whuTotpCodeTitle": "現在の認証コード",
   "whuTotpCodeSubtitle": "{seconds}秒後に更新 · タップしてコピー",
   "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
   "whuTotpEnable": "認証アプリコードを有効にする",
@@ -999,7 +992,6 @@
   "whuTotpRemoveSubtitle": "WHUウェブサイトのTOTPは無効になりません",
   "whuTotpEdit": "ローカルキーを編集",
   "whuTotpEditSubtitle": "このデバイスに保存されているアカウントまたはBase32シークレットを更新します",
-  "whuTotpLocked": "認証アプリコードがロックされています",
   "whuTotpBiometricReason": "生体認証またはデバイスの認証情報でWHUの認証アプリコードのロックを解除します",
   "whuTotpShowCode": "認証コードを表示",
   "whuTotpHideCode": "認証コードを非表示",
@@ -1010,7 +1002,6 @@
   "whuTotpVerifyEmail": "メールの認証コード",
   "whuTotpVerifyTotp": "認証アプリの認証コード",
   "whuTotpEnterVerificationCode": "6桁の認証コードを入力",
-  "whuTotpSendCode": "コードを送信",
   "whuTotpEnabled": "認証アプリコードを有効にし、安全に保存しました",
   "whuTotpImported": "認証アプリキーを安全に保存しました",
   "whuTotpRemoved": "ローカルの認証アプリキーを削除しました",
@@ -1214,31 +1205,11 @@
       }
     }
   },
-  "@hourH": {
-   "placeholders": {
-     "hour": {}
-    }
-  },
-  "@importedTimestr": {
-   "placeholders": {
-     "timeStr": {}
-    }
-  },
   "@listCompletedSection": {
    "placeholders": {
      "count": {
        "type": "int"
       }
-    }
-  },
-  "@minuteMin": {
-   "placeholders": {
-     "minute": {}
-    }
-  },
-  "@semS": {
-   "placeholders": {
-     "s": {}
     }
   },
   "@settingsMinutesValue": {
@@ -1455,14 +1426,6 @@
       }
     }
   },
-  "hotUpdateRemoteVersion": "リモート v{version}",
-  "@hotUpdateRemoteVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
-      }
-    }
-  },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
    "placeholders": {
@@ -1471,8 +1434,6 @@
       }
     }
   },
-  "hotUpdateViewCode": "JSコードを表示",
-  "hotUpdateLoading": "マニフェストを読み込み中...",
   "hotUpdateLoadFailed": "マニフェストの読み込みに失敗しました",
   "hotUpdateCheckNow": "今すぐ確認",
   "hotUpdateChecking": "ホットアップデートを確認しています...",
@@ -1481,15 +1442,11 @@
   "hotUpdateCheckNoChanges": "すでに最新です。更新が必要なスクリプトはありません",
   "hotUpdateCheckEngineUnavailable": "ホットアップデートエンジンを利用できないため、内蔵パーサーを使用しています",
   "hotUpdateStatusCurrent": "最新",
-  "hotUpdateStatusUpdateAvailable": "更新あり",
   "hotUpdateStatusBehind": "リモートより古い（ローカル v{local} / リモート v{remote}）",
   "hotUpdateStatusMissing": "ローカルにありません — 下に引いてダウンロード",
   "hotUpdateStatusEmbedded": "内蔵の既定値を使用中",
   "hotUpdateStatusCached": "キャッシュ済みのリモート版を使用中",
   "hotUpdateStatusUnknown": "不明なスクリプト — 有効にするにはアプリを更新してください",
-  "hotUpdateStatusTestFailed": "前回の更新：サンドボックステストに失敗",
-  "hotUpdateStatusDownloadFailed": "前回の更新：ダウンロードに失敗",
-  "hotUpdateStatusCommitFailed": "前回の更新：コミットに失敗",
   "hotUpdateVersionCompare": "ローカル v{local} ・ リモート v{remote}",
   "hotUpdateVersionMissing": "ローカルなし · リモート v{remote}",
   "hotUpdateLastFailure": "前回の失敗：{reason}",
@@ -2346,17 +2303,7 @@
   "libraryEndTime": "終了",
   "libraryBookSuccess": "予約しました！",
   "libraryCaptchaTitle": "セキュリティ認証",
-  "libraryCaptchaUnsupported": "このプラットフォームでは認証できません。Android/iOS をご利用ください。",
   "libraryCaptchaLoadFailed": "認証の読み込みに失敗しました。",
-  "libraryCaptchaAutoVerifying": "自動認証中…",
-  "libraryCaptchaRetrying": "再試行中（{count}）…",
-  "@libraryCaptchaRetrying": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "libraryBookFailed": "予約に失敗: {error}",
   "@libraryBookFailed": {
    "placeholders": {
@@ -2427,7 +2374,6 @@
       }
     }
   },
-  "settingsAiModelHint": "モデル名を入力するか一覧から選択",
   "homeJumpCurrentWeek": "今週",
   "homeJumpSemesterStartWeek": "開講週",
   "weatherAirQualityAccuHint": "AQIプロバイダーをAccuWeatherに切り替えると汚染物質の詳細を確認できます",
@@ -3998,11 +3944,6 @@
   "aiAutomationManualDescription": "すべての操作は確認後に実行されます。",
   "aiAutomationSemiAutomaticDescription": "Agent による書き込み操作は引き続き確認が必要で、その他の確認は自動的に承認されます。",
   "aiAutomationFullyAutomaticDescription": "すべての操作を自動的に確認し、完全な記録を保持します。",
-  "aiMedicalAccess": "医療データへのアクセス",
-  "aiMedicalAccessDescription": "診察カード、受付記録、待ち行列、請求書、検査レポートをアシスタントが読めるようにします。診療時間はこの設定に関係なく利用できます。",
-  "aiMedicalAccessNoticeTitle": "オンにする前に",
-  "aiMedicalAccessNoticeBody": "検査結果、診断、診療科、医師、請求明細がツールの結果になります。設定したモデルのエンドポイントへ送信され、この端末の暗号化された操作記録にも残ります。身元に関わる項目（証明書番号、電話番号、カード番号、受付番号）は常にマスクされます。いつでもオフにできます。",
-  "aiMedicalAccessNoticeEnable": "オンにする",
   "aiConfirmationFundsNoBulkApprove": "このバッチには資金操作が含まれます。各操作を個別に確認して承認してください。",
   "aiBridgePaymentTitle": "支払いの完了が必要です",
   "aiBridgePaymentTitleUtility": "寮の水道光熱費のチャージ",
@@ -4014,14 +3955,7 @@
   "aiPaymentChannelAlipay": "Alipay",
   "aiPaymentChannelWechat": "WeChat Pay",
   "aiPaymentChannelUnionPay": "UnionPay",
-  "aiPaymentSettlementDelivered": "支払いを反映済み",
-  "aiPaymentSettlementCredited": "入金済み",
-  "aiPaymentSettlementPending": "支払い済み、入金待ち",
-  "aiPaymentSettlementUnpaid": "支払い未完了",
   "aiPaymentOrderStranded": "確認前に決済画面が終了しました。再度支払う前に注文 {orderNo} を確認してください。",
-  "settingsAiPaymentAccessTitle": "支払いアクセス",
-  "settingsAiPaymentAccessSubtitle": "アシスタントによる公共料金注文の作成を許可します。注文ごとの確認と端末上の決済が必須です。",
-  "settingsAiPaymentAccessFirstEnableNotice": "個別に承認した後、アシスタントは実際の支払い注文を作成できます。支払いは WHU Safe Pay でご自身が行い、注文は自動再試行されません。",
   "aiWebAccess": "ウェブ検索アクセス",
   "aiWebAccessDescription": "アシスタントがウェブを検索し、ページ本文をワークスペースに読み込めるようにします。キャンパスのデータは常にキャンパスツールから取得され、ページ本文は信頼できないコンテンツとして保存され、会話には入りません。",
   "aiWebSearchProvider": "検索プロバイダー",
@@ -4037,7 +3971,6 @@
   "aiConfirmationFieldTitle": "タイトル",
   "aiConfirmationFieldTime": "時間",
   "aiConfirmationFieldLocation": "場所",
-  "aiConfirmationFieldStatus": "状態",
   "aiConfirmationFieldVenue": "施設",
   "aiConfirmationFieldSeat": "座席",
   "aiConfirmationFieldDate": "日付",
@@ -4658,11 +4591,6 @@
   "aiMcpEmpty": "MCP サーバーが設定されていません",
   "aiMcpEnabled": "接続済みの MCP サーバー: {count} 件",
   "aiMcpAddServer": "サーバーを追加",
-  "aiMcpServerName": "サーバー名",
-  "aiMcpServerUrl": "サーバー URL",
-  "aiMcpTransportType": "トランスポート",
-  "aiMcpTransportSse": "SSE",
-  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "コピーしました",
   "aiCodeExpand": "展開",
   "aiCodeCollapse": "折りたたむ",
@@ -4670,7 +4598,6 @@
   "aiCodeShowMoreLines": "さらに {count} 行表示",
   "onboardingPermissionMicrophoneTitle": "マイク",
   "onboardingPermissionMicrophoneDescription": "AI 会話での音声入力（音声認識）に使用します。",
-  "hotUpdateEditScript": "スクリプトを編集",
   "hotUpdateSaveScript": "保存",
   "hotUpdateResetScript": "リモート版またはデフォルトに戻す",
   "hotUpdateTestFailed": "サンドボックステストに失敗したため、スクリプトは保存されませんでした",
@@ -4697,14 +4624,12 @@
   "campusMapBaseSatellite": "衛星",
   "campusMapCategories": "カテゴリ",
   "campusMapAllCategories": "すべての場所",
-  "campusMapLoading": "キャンパスの場所を読み込み中…",
   "campusMapLoadFailed": "キャンパスの場所を読み込めませんでした",
   "campusMapSearchTitle": "キャンパス内を検索",
   "campusMapSearchHint": "講義棟、食堂、キャンパスバス停を検索…",
   "campusMapSearchEmpty": "場所の名前を入力して検索",
   "campusMapSearchNoResults": "一致するキャンパスの場所が見つかりません",
   "campusMapSearchFailed": "検索に失敗しました。もう一度お試しください。",
-  "campusMapDetails": "場所の詳細",
   "campusMapDistrict": "所属学部",
   "campusMapOldName": "旧称",
   "campusMapManageDept": "管理部門",
@@ -4725,7 +4650,6 @@
   "campusMapLayerBusLines": "キャンパスバス路線",
   "campusMapOpenBus": "キャンパスバスの時刻を見る",
   "campusMapMyLocation": "現在地",
-  "campusMapLocating": "位置情報を取得中…",
   "campusMapLocationDenied": "位置情報の許可が必要です",
   "campusMapLocationOutside": "現在地はキャンパスマップの範囲外です",
   "campusMapLocationUnavailable": "現在地を取得できません",
