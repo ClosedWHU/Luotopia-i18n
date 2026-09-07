@@ -6880,6 +6880,18 @@
     "notificationChannelAgendaExactDescription": "事項與課程的準時及臨近提醒。",
     "notificationChannelAgendaExactName": "行程提醒（精確）",
     "notificationChannelBadgeDescription": "有未讀項目時在應用圖示上顯示圓點。",
+    "notificationChannelCampusInboxName": "郵件與訊息",
+    "notificationChannelCampusInboxDescription": "校園信箱或訊息有新內容時彈出提醒。",
+    "notificationInboxAlertTitle": "有新的校園郵件與訊息",
+    "notificationChannelVpnName": "VPN",
+    "notificationChannelVpnDescription": "校園 VPN 通道的常駐連線狀態。",
+    "notificationProgressTemplate": "已進行 {percent}% · 剩餘 {remaining}",
+    "notificationRemainingTemplate": "剩餘 {duration}",
+    "notificationDurationHoursMinutes": "{hours}小時{minutes}分",
+    "notificationDurationMinutes": "{minutes}分鐘",
+    "notificationDurationUnderMinute": "<1分鐘",
+    "settingsNotificationsUnsupportedPlatform": "此平台暫不支援系統通知，課程與日程提醒不會送達。",
+    "notificationChannelAppUpdateName": "應用更新",
     "notificationChannelBadgeName": "應用圖示角標",
     "notificationChannelCampusDescription": "預約及其他校園相關提醒。",
     "notificationChannelCampusName": "校園服務",
@@ -8117,5 +8129,289 @@
     "whuTrustedDevicesManage": "管理受信任的瀏覽器",
     "whuTrustedDevicesSubtitle": "檢視並移除可略過部分 WHU 多重要素驗證的瀏覽器",
     "whuTrustedDevicesTitle": "受信任的裝置",
-    "whuTrustedDevicesValidity": "閒置 {days} 天後自動移除"
+    "whuTrustedDevicesValidity": "閒置 {days} 天後自動移除",
+    "campusAppEbike": "電動車",
+    "ebikeProviderZhiyin": "知音出行",
+    "ebikeProviderMango": "芒果電動車",
+    "ebikeProviderMangoHint": "芒果登入需要你的微信小程式 openid：先從芒果電動車小程式抓包取得並填入下方，每次登入均可修改。",
+    "settingsAccountEbikeTitle": "共享電動車帳戶",
+    "ebikeAccountsTileNone": "未綁定",
+    "ebikeAccountsPageTitle": "共享電動車帳戶",
+    "ebikeAccountLinkAction": "綁定帳戶",
+    "ebikeAccountLinkedAt": "綁定於 {time}",
+    "@ebikeAccountLinkedAt": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeAccountUnlinkAction": "解除綁定",
+    "ebikeAccountUnlinkConfirmTitle": "解除綁定",
+    "ebikeAccountUnlinkConfirmMessage": "確定解除 {provider} 帳戶綁定嗎？本裝置儲存的登入憑證將被刪除。",
+    "@ebikeAccountUnlinkConfirmMessage": {
+        "placeholders": {
+            "provider": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeLoginTitle": "綁定 {provider}",
+    "@ebikeLoginTitle": {
+        "placeholders": {
+            "provider": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeLoginPhoneLabel": "手機號碼",
+    "ebikeLoginPhoneHint": "請輸入內地手機號碼",
+    "ebikeLoginPhoneInvalid": "請輸入有效的手機號碼",
+    "ebikeLoginSendCode": "取得驗證碼",
+    "ebikeLoginResendIn": "{seconds} 秒後重新傳送",
+    "@ebikeLoginResendIn": {
+        "placeholders": {
+            "seconds": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeLoginCodeLabel": "簡訊驗證碼",
+    "ebikeLoginCodeHintZhiyin": "6 位數驗證碼",
+    "ebikeLoginCodeHintMango": "4 位數驗證碼",
+    "ebikeLoginCodeSent": "驗證碼已發送",
+    "ebikeLoginSubmit": "登入並綁定",
+    "ebikeLoginSuccess": "綁定成功",
+    "ebikeLoginOpenIdLabel": "OpenID",
+    "ebikeLoginOpenIdHint": "芒果電動車小程式的 openid",
+    "ebikeLoginOpenIdHelper": "從芒果電動車小程式抓包取得，每次登入均可修改。",
+    "ebikeHubNotLinkedTitle": "未綁定 {provider} 帳戶",
+    "@ebikeHubNotLinkedTitle": {
+        "placeholders": {
+            "provider": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeHubNotLinkedAction": "去綁定",
+    "ebikeHubRidingBanner": "騎行進行中",
+    "ebikeHubUnpaidOrder": "有未支付訂單：{amount} 元",
+    "@ebikeHubUnpaidOrder": {
+        "placeholders": {
+            "amount": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeHubActionUnlock": "用車",
+    "ebikeHubActionCards": "騎行卡",
+    "ebikeHubActionWallet": "錢包",
+    "ebikeHubActionOrders": "行程訂單",
+    "ebikeHubBalance": "餘額",
+    "ebikeHubDeposit": "押金",
+    "ebikeHubRealNameMissing": "未完成實名認證",
+    "ebikeCarIdDialogTitle": "輸入車輛編號",
+    "ebikeCarIdDialogHint": "車牌號或掃描取得的連結",
+    "ebikeCarIdInvalid": "無法識別車輛編號",
+    "ebikeUnlockPageTitle": "用車",
+    "ebikeUnlockCarNumber": "車輛編號",
+    "ebikeUnlockBattery": "電量續航",
+    "ebikeUnlockPrice": "計價",
+    "ebikeUnlockPriceValue": "起步 {floor} 元，{time} 元/{timeUnit} 分鐘",
+    "@ebikeUnlockPriceValue": {
+        "placeholders": {
+            "floor": {
+                "type": "String"
+            },
+            "time": {
+                "type": "String"
+            },
+            "timeUnit": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeUnlockHelmet": "配備頭盔鎖",
+    "ebikeUnlockStart": "解鎖用車",
+    "ebikeUnlockSuccess": "解鎖成功",
+    "ebikeUnlockNeedRealName": "需先完成實名認證，請前往官方小程式辦理。",
+    "ebikeUnlockNeedFace": "本次用車需在官方小程式完成人臉核驗。",
+    "ebikeUnlockNeedDeposit": "需繳納押金或開通免押，請前往官方小程式辦理。",
+    "ebikeUnlockBlacklist": "帳戶已被限制用車，請聯絡客服。",
+    "ebikeUnlockBalanceLow": "餘額不足，請先儲值。",
+    "ebikeUnlockUnpaid": "有未支付訂單，請先完成支付。",
+    "ebikeUnlockAlreadyRiding": "已有進行中的行程",
+    "ebikeUnlockCarNotFound": "車輛編號不存在",
+    "ebikeUnlockWeakSignal": "車輛訊號弱，可嘗試藍牙解鎖，或稍後重試、前往官方小程式。",
+    "ebikeUnlockCreditLimited": "信用分不足，暫不能用車",
+    "ebikeUnlockActionUnknown": "用車前置條件 {code} 暫不支援在 App 內處理，請前往官方小程式。",
+    "@ebikeUnlockActionUnknown": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeUnlockMangoLost": "此車已被報失，請勿騎行。",
+    "ebikeUnlockMangoIllegalPark": "因違停已被限制用車至 {time}。",
+    "@ebikeUnlockMangoIllegalPark": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeRidingTitle": "騎行中",
+    "ebikeRidingDuration": "騎行時長",
+    "ebikeRidingCost": "當前費用",
+    "ebikeRidingDistance": "騎行距離",
+    "ebikeRidingBattery": "電量續航",
+    "ebikeRidingTempParked": "臨時停車中",
+    "ebikeRidingTempPark": "臨時鎖車",
+    "ebikeRidingTempParkLimit": "已達臨時停車次數上限",
+    "ebikeRidingTempUnlock": "解鎖繼續騎行",
+    "ebikeRidingRingBell": "尋車鈴聲",
+    "ebikeRidingRingBellSuccess": "已發送響鈴",
+    "ebikeRidingReturn": "還車",
+    "ebikeRidingReturned": "還車成功",
+    "ebikeRidingOutOfService": "已駛出服務區",
+    "ebikeRidingReturnConfirmTitle": "確認還車",
+    "ebikeRidingReturnConfirmMessage": "請將車輛停放在停車點內，避免產生調度費。",
+    "ebikeRidingPenaltyFee": "預計調度費 {amount} 元",
+    "@ebikeRidingPenaltyFee": {
+        "placeholders": {
+            "amount": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeRidingReturnFailed": "還車失敗",
+    "ebikeRidingFaceRequired": "還車需在官方小程式完成人臉核驗",
+    "ebikeRidingMangoRescue": "區外臨時通電",
+    "ebikeRidingMangoRescueActive": "已臨時通電，請在 {minutes} 分鐘內騎回服務區。",
+    "@ebikeRidingMangoRescueActive": {
+        "placeholders": {
+            "minutes": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeRidingHelmetNotReturned": "頭盔未歸還，無法鎖車",
+    "ebikeSettleTitle": "行程結算",
+    "ebikeSettleTotal": "應付金額",
+    "ebikeSettleRent": "騎行費",
+    "ebikeSettleDispatch": "調度費",
+    "ebikeSettleOutRegion": "區外調度費",
+    "ebikeSettleHelmetFee": "頭盔未歸還費",
+    "ebikeSettleNoParkingFee": "禁停區還車費",
+    "ebikeSettleDiscount": "優惠減免",
+    "ebikeSettlePayWallet": "餘額支付",
+    "ebikeSettlePaid": "支付成功",
+    "ebikeSettleInsufficient": "餘額不足，請前往官方小程式儲值後再支付。",
+    "ebikeSettleMangoUnpaid": "待支付 {amount} 元，請前往芒果電動車小程式完成支付。",
+    "@ebikeSettleMangoUnpaid": {
+        "placeholders": {
+            "amount": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeCardsTitle": "騎行卡",
+    "ebikeCardsTabSale": "購卡",
+    "ebikeCardsTabMine": "我的卡",
+    "ebikeCardsBuy": "購買",
+    "ebikeCardsBuyConfirmTitle": "購買騎行卡",
+    "ebikeCardsBuyConfirmMessage": "{name}，價格 {amount} 元，使用校園卡支付？",
+    "@ebikeCardsBuyConfirmMessage": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            },
+            "amount": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeCardsCampusUnavailable": "當前服務區不支援校園卡支付，請前往官方小程式購卡。",
+    "ebikeCardsCampusNotBound": "未綁定校園卡，請先在官方小程式綁定。",
+    "ebikeCardsCampusPasswordTitle": "校園卡支付密碼",
+    "ebikeCardsCampusPasswordHint": "請輸入校園卡支付密碼",
+    "ebikeCardsPurchaseSuccess": "購買成功",
+    "ebikeCardsEmpty": "暫無在售騎行卡",
+    "ebikeCardsMineEmpty": "暫無可用騎行卡",
+    "ebikeCardsMangoHint": "芒果騎行卡暫不支援在 App 內購買，請前往芒果電動車小程式。",
+    "ebikeWalletTitle": "錢包",
+    "ebikeWalletBalance": "餘額",
+    "ebikeWalletMangoCoin": "芒果餘額",
+    "ebikeWalletDeposit": "押金",
+    "ebikeWalletDepositPaid": "已繳納",
+    "ebikeWalletDepositFree": "已免押",
+    "ebikeWalletDepositNone": "未繳納",
+    "ebikeWalletDepositRefunding": "退款中",
+    "ebikeWalletRecharge": "儲值",
+    "ebikeWalletRechargeTitle": "餘額儲值",
+    "ebikeWalletRechargeViaCampus": "使用校園卡儲值 {amount} 元？",
+    "@ebikeWalletRechargeViaCampus": {
+        "placeholders": {
+            "amount": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeWalletRechargeUnavailable": "當前服務區不支援校園卡儲值，請前往官方小程式儲值。",
+    "ebikeWalletRechargeSuccess": "儲值成功",
+    "ebikeWalletDepositRefund": "申請退押金",
+    "ebikeWalletDepositRefundTitle": "選擇退款原因",
+    "ebikeWalletDepositRefundSuccess": "已提交退款申請",
+    "ebikeWalletDepositRefundCancel": "撤銷退款申請",
+    "ebikeWalletDepositRefundCanceled": "已撤銷退款申請",
+    "ebikeWalletCampusCard": "校園卡",
+    "ebikeWalletCampusCardBound": "已綁定（{name}）",
+    "@ebikeWalletCampusCardBound": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeWalletCampusCardNotBound": "未綁定",
+    "ebikeWalletMangoRechargeHint": "芒果餘額儲值請前往小程式",
+    "ebikeOrdersTitle": "行程訂單",
+    "ebikeOrdersEmpty": "暫無訂單",
+    "ebikeOrdersLoadMore": "載入更多",
+    "ebikeOrderId": "訂單編號",
+    "ebikeOrderDetailTitle": "訂單詳情",
+    "ebikeOrderTime": "時間",
+    "ebikeOrderDuration": "時長",
+    "ebikeOrderDistance": "距離",
+    "ebikeOrderAmount": "金額",
+    "ebikeOrderState": "狀態",
+    "ebikeOrderUnpaid": "未支付",
+    "ebikeErrorSession": "登入已失效，請重新綁定帳戶",
+    "ebikeErrorNetwork": "網絡異常，請稍後重試",
+    "ebikeErrorLocation": "需要定位權限才能用車",
+    "ebikeErrorUpstream": "上游服務異常",
+    "ebikeAmountYuan": "{amount} 元",
+    "@ebikeAmountYuan": {
+        "placeholders": {
+            "amount": {
+                "type": "String"
+            }
+        }
+    },
+    "ebikeScanTitle": "掃描用車",
+    "ebikeScanHint": "將相機對準車身二維碼",
+    "ebikeScanUnsupported": "此裝置不支援掃描",
+    "ebikeScanPermission": "掃描需要相機權限",
+    "ebikeBleUnlock": "藍牙解鎖",
+    "ebikeBleUnsupported": "此裝置藍牙不可用",
+    "ebikeBlePermission": "需要藍牙權限",
+    "ebikeBleAdapterOff": "請開啟藍牙後重試",
+    "ebikeBleNotFound": "未在附近找到車鎖，請靠近車輛後重試",
+    "ebikeBleTimeout": "藍牙指令逾時",
+    "ebikeBleAuthFailed": "車鎖驗證失敗",
+    "ebikeBleLockMoving": "車輛行駛中，無法關鎖",
+    "ebikeBleLockRejected": "車鎖拒絕了指令",
+    "ebikeBleGattMissing": "車鎖藍牙服務異常",
+    "ebikeBleTokenMissing": "取得車鎖憑證失敗"
 }
