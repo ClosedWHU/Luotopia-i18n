@@ -81,7 +81,6 @@
   "vpnChallengeExpired": "本次验证已结束。",
   "vpnConnectedTitle": "已连接",
   "vpnNotConnected": "未连接",
-  "vpnDisconnectedTitle": "VPN 就绪",
   "vpnDisconnectedDescription": "登录后即可在校外访问校内服务。",
   "vpnVirtualAddress": "虚拟地址",
   "vpnDnsServers": "VPN DNS",
@@ -104,7 +103,6 @@
   "vpnResumeAction": "恢复会话",
   "vpnDisconnectAction": "断开连接",
   "vpnRetryAction": "重试",
-  "vpnBackToFormAction": "返回",
   "vpnEditCredentialsAction": "编辑登录凭证",
   "vpnForgetCredentials": "清除已保存的账号",
   "vpnErrorTitle": "连接失败",
@@ -112,7 +110,6 @@
   "vpnErrorWintunMissing": "未找到 wintun.dll。请从 wintun.net 下载并放到程序目录，或改用应用内模式。",
   "vpnErrorElevationRequired": "系统级模式需要管理员权限。请以管理员身份运行，或改用应用内模式。",
   "vpnErrorSystemModeUnsupported": "此平台暂不支持系统级 VPN 模式。",
-  "vpnErrorPermissionDenied": "未获得 VPN 权限，请在系统弹窗中允许后重试。",
   "vpnErrorSessionExpired": "VPN 会话已过期，请重新登录。",
   "vpnErrorSessionReplaced": "VPN 会话已断开，可能是该账号在其他设备连接后挤下线。请重新连接。",
   "vpnErrorTunnel": "VPN 隧道建立失败。",
@@ -121,8 +118,6 @@
   "vpnErrorNetwork": "无法连接 VPN 服务器，请检查网络。",
   "vpnErrorGeneric": "VPN 连接失败，详见下方详情。",
   "vpnInAppModeNote": "仅本应用的流量走 VPN，本机其他应用直连。",
-  "vpnSystemModeNote": "系统全部流量（包括本应用）都经过 VPN。",
-  "vpnReloginAction": "重新登录",
   "vpnTestConnection": "测试连接",
   "vpnTestRunning": "正在测试…",
   "vpnTestSuccess": "连接正常",
@@ -457,7 +452,6 @@
   "k1Hour": "1 小时",
   "k30Minutes": "30 分钟",
   "k3Hours": "3 小时",
-  "languageEnglish": "英文",
   "languageLabel": "应用语言",
   "listCompletedSection": "已完成 {count}",
   "listMenuTitle": "切换标签页",
@@ -773,7 +767,6 @@
   "whuAccountSectionAcademic": "学籍学业",
   "whuAccountSectionSession": "登录状态",
   "whuTotpSectionTitle": "身份验证器",
-  "whuTotpCodeTitle": "当前验证码",
   "whuTotpCodeSubtitle": "{seconds} 秒后刷新 · 点击复制",
   "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
   "whuTotpEnable": "开通身份验证器",
@@ -784,7 +777,6 @@
   "whuTotpRemoveSubtitle": "不会关闭武大官网的 TOTP",
   "whuTotpEdit": "编辑本地密钥",
   "whuTotpEditSubtitle": "修改本机保存的账号或 Base32 密钥",
-  "whuTotpLocked": "身份验证器已锁定",
   "whuTotpBiometricReason": "使用生物识别或设备凭据解锁武大身份验证器验证码",
   "whuTotpShowCode": "显示验证码",
   "whuTotpHideCode": "隐藏验证码",
@@ -795,7 +787,6 @@
   "whuTotpVerifyEmail": "邮箱验证码",
   "whuTotpVerifyTotp": "身份验证器验证码",
   "whuTotpEnterVerificationCode": "输入 6 位验证码",
-  "whuTotpSendCode": "发送验证码",
   "whuTotpEnabled": "身份验证器已开通并安全保存",
   "whuTotpImported": "身份验证器密钥已安全保存",
   "whuTotpRemoved": "已删除本地身份验证器密钥",
@@ -1013,31 +1004,11 @@
       }
     }
   },
-  "@hourH": {
-   "placeholders": {
-     "hour": {}
-    }
-  },
-  "@importedTimestr": {
-   "placeholders": {
-     "timeStr": {}
-    }
-  },
   "@listCompletedSection": {
    "placeholders": {
      "count": {
        "type": "int"
       }
-    }
-  },
-  "@minuteMin": {
-   "placeholders": {
-     "minute": {}
-    }
-  },
-  "@semS": {
-   "placeholders": {
-     "s": {}
     }
   },
   "@settingsMinutesValue": {
@@ -1228,11 +1199,6 @@
   "aiMcpEmpty": "尚未配置 MCP 服务器",
   "aiMcpEnabled": "已连接 {count} 个",
   "aiMcpAddServer": "添加服务器",
-  "aiMcpServerName": "服务器名称",
-  "aiMcpServerUrl": "服务器地址",
-  "aiMcpTransportType": "传输方式",
-  "aiMcpTransportSse": "SSE",
-  "aiMcpTransportStreamableHttp": "Streamable HTTP",
   "aiCodeCopied": "已复制",
   "aiCodeExpand": "展开",
   "aiCodeCollapse": "折叠",
@@ -1263,11 +1229,6 @@
   "aiAutomationManualDescription": "每项操作都需要你确认后执行。",
   "aiAutomationSemiAutomaticDescription": "Agent 发起的写入操作仍需你确认，其余确认自动通过。",
   "aiAutomationFullyAutomaticDescription": "自动确认所有操作，并保留完整记录。",
-  "aiMedicalAccess": "医疗数据访问",
-  "aiMedicalAccessDescription": "允许助手读取你的就医信息：就诊卡、挂号记录、候诊队列、发票以及检验和检查报告。院区作息时间不受此开关影响。",
-  "aiMedicalAccessNoticeTitle": "开启前请确认",
-  "aiMedicalAccessNoticeBody": "化验结果、诊断意见、科室、医生和发票明细会成为工具结果，发往你配置的模型服务，并保存在本机加密的操作记录里。证件号、手机号、就诊卡号和门诊号等身份字段始终会被掩码。你可以随时关闭。",
-  "aiMedicalAccessNoticeEnable": "开启",
   "aiConfirmationFundsNoBulkApprove": "本批次包含资金操作，请逐项查看并分别确认。",
   "aiBridgePaymentTitle": "需要完成支付",
   "aiBridgePaymentTitleUtility": "宿舍水电费充值",
@@ -1283,14 +1244,7 @@
   "aiPaymentChannelAlipay": "支付宝",
   "aiPaymentChannelWechat": "微信支付",
   "aiPaymentChannelUnionPay": "银联",
-  "aiPaymentSettlementDelivered": "已下发",
-  "aiPaymentSettlementCredited": "已入账",
-  "aiPaymentSettlementPending": "已付款，等待入账",
-  "aiPaymentSettlementUnpaid": "未完成付款",
   "aiPaymentOrderStranded": "收银台已结束但尚未核验，请先查询订单 {orderNo}，不要重复付款。",
-  "settingsAiPaymentAccessTitle": "支付访问",
-  "settingsAiPaymentAccessSubtitle": "允许助理创建水电缴费订单；每笔都需单独确认，并由你在本设备完成支付。",
-  "settingsAiPaymentAccessFirstEnableNotice": "开启后，助理可在你逐笔确认后创建真实付款订单。支付仍由你在武汉大学安心付中完成，系统绝不会自动重试下单。",
   "aiWebAccess": "开放网络访问",
   "aiWebAccessDescription": "允许助手搜索开放网络，并把网页正文读入工作区。校园数据始终来自校园工具；网页正文会作为不可信内容存储，绝不进入对话。",
   "aiWebSearchProvider": "搜索提供方",
@@ -1306,7 +1260,6 @@
   "aiConfirmationFieldTitle": "标题",
   "aiConfirmationFieldTime": "时间",
   "aiConfirmationFieldLocation": "地点",
-  "aiConfirmationFieldStatus": "状态",
   "aiConfirmationFieldVenue": "场馆",
   "aiConfirmationFieldSeat": "座位",
   "aiConfirmationFieldDate": "日期",
@@ -1493,8 +1446,8 @@
   "settingsDevReceivePrereleaseUpdatesSubtitle": "关闭后，最新的预发布版本不会提示更新",
   "settingsDevDisableTitle": "关闭开发者模式",
   "settingsDevDisableSubtitle": "关闭后需要重新连续点击版本号开启",
-  "settingsHomeGridAlpha": "网格背景透明度",
-  "settingsHomeGridBorderAlpha": "网格边框透明度",
+  "settingsHomeGridAlpha": "网格背景不透明度",
+  "settingsHomeGridBorderAlpha": "网格边框不透明度",
   "settingsHomeCropImage": "裁剪图片",
   "imageCropDesktopHint": "拖动以移动 · 使用 +/− 调整裁剪范围",
   "imageCropDesktopHintSquare": "拖动以移动 · 使用 +/− 调整正方形裁剪范围",
@@ -2334,17 +2287,7 @@
   "libraryEndTime": "结束",
   "libraryBookSuccess": "预约成功！",
   "libraryCaptchaTitle": "安全验证",
-  "libraryCaptchaUnsupported": "当前平台无法完成滑动验证，请使用 Android / iOS。",
   "libraryCaptchaLoadFailed": "验证码加载失败，请重试。",
-  "libraryCaptchaAutoVerifying": "正在自动验证…",
-  "libraryCaptchaRetrying": "自动验证重试（第 {count} 次）…",
-  "@libraryCaptchaRetrying": {
-   "placeholders": {
-     "count": {
-       "type": "int"
-      }
-    }
-  },
   "libraryBookFailed": "预约失败：{error}",
   "@libraryBookFailed": {
    "placeholders": {
@@ -2408,7 +2351,7 @@
   "wallpaperSourceBing": "Bing 每日",
   "wallpaperPickImage": "选择图片",
   "wallpaperNoImage": "未选择图片",
-  "wallpaperDarkOverlayOpacity": "深色模式蒙版透明度",
+  "wallpaperDarkOverlayOpacity": "深色模式蒙版不透明度",
   "wallpaperTargetHome": "课程表",
   "wallpaperTargetCampus": "校园",
   "wallpaperTargetSettings": "设置",
@@ -2428,7 +2371,6 @@
       }
     }
   },
-  "settingsAiModelHint": "输入模型名称或从列表选择",
   "homeJumpCurrentWeek": "本周",
   "homeJumpSemesterStartWeek": "开学周",
   "weatherAirQualityAccuHint": "将空气质量数据源切换为 AccuWeather 可查看详细污染物",
@@ -2767,12 +2709,9 @@
   "hotUpdateTitle": "热更新管理",
   "hotUpdateManifestVersion": "清单版本 v{version}",
   "hotUpdateUpdatedAt": "更新时间：{time}",
-  "hotUpdateNeverUpdated": "从未更新（使用内置默认版本）",
+  "hotUpdateNeverUpdated": "从未更新（使用内置解析器）",
   "hotUpdateLocalVersion": "本地版本 v{version}",
-  "hotUpdateRemoteVersion": "远程版本 v{version}",
   "hotUpdateChecksum": "SHA-256: {checksum}",
-  "hotUpdateViewCode": "查看 JS 代码",
-  "hotUpdateLoading": "正在加载清单...",
   "hotUpdateLoadFailed": "清单加载失败",
   "hotUpdateCheckNow": "立即检查更新",
   "hotUpdateChecking": "正在检查热更新...",
@@ -2781,19 +2720,13 @@
   "hotUpdateCheckNoChanges": "已是最新，无需更新脚本",
   "hotUpdateCheckEngineUnavailable": "热更新引擎不可用，当前使用内置解析器",
   "hotUpdateStatusCurrent": "已是最新",
-  "hotUpdateStatusUpdateAvailable": "有可用更新",
   "hotUpdateStatusBehind": "落后云端（本地 v{local} / 云端 v{remote}）",
   "hotUpdateStatusMissing": "本地缺失，下拉刷新可下载",
-  "hotUpdateStatusEmbedded": "使用内置默认版本",
   "hotUpdateStatusCached": "使用已缓存的云端版本",
   "hotUpdateStatusUnknown": "未知脚本——更新应用以启用",
-  "hotUpdateStatusTestFailed": "上次更新：沙箱测试未通过",
-  "hotUpdateStatusDownloadFailed": "上次更新：下载失败",
-  "hotUpdateStatusCommitFailed": "上次更新：写入缓存失败",
   "hotUpdateVersionCompare": "本地 v{local} · 云端 v{remote}",
   "hotUpdateVersionMissing": "本地缺失 · 云端 v{remote}",
   "hotUpdateLastFailure": "上次失败：{reason}",
-  "hotUpdateEditScript": "编辑脚本",
   "hotUpdateSaveScript": "保存",
   "hotUpdateResetScript": "恢复为远程/默认",
   "hotUpdateTestFailed": "沙箱测试未通过，未保存",
@@ -3701,6 +3634,18 @@
   "notificationChannelMarketingName": "活动与推广",
   "notificationChannelBadgeName": "应用图标角标",
   "notificationChannelBadgeDescription": "有未读项目时在应用图标上显示圆点。",
+  "notificationChannelCampusInboxName": "邮件与消息",
+  "notificationChannelCampusInboxDescription": "校园邮箱或消息有新内容时弹出提醒。",
+  "notificationInboxAlertTitle": "有新的校园邮件与消息",
+  "notificationChannelVpnName": "VPN",
+  "notificationChannelVpnDescription": "校园 VPN 隧道的常驻连接状态。",
+  "notificationProgressTemplate": "已进行 {percent}% · 剩余 {remaining}",
+  "notificationRemainingTemplate": "剩余 {duration}",
+  "notificationDurationHoursMinutes": "{hours}小时{minutes}分",
+  "notificationDurationMinutes": "{minutes}分钟",
+  "notificationDurationUnderMinute": "<1分钟",
+  "settingsNotificationsUnsupportedPlatform": "此平台暂不支持系统通知，课程与日程提醒不会送达。",
+  "notificationChannelAppUpdateName": "应用更新",
   "notificationCourseInProgress": "课程进行中",
   "notificationReminderTitle": "事项提醒",
   "notificationScheduleEndedBody": "日程已结束，记得标记完成或安排后续事项。",
@@ -4718,14 +4663,12 @@
   "campusMapBaseSatellite": "卫星",
   "campusMapCategories": "分类筛选",
   "campusMapAllCategories": "全部地点",
-  "campusMapLoading": "正在加载校园地点…",
   "campusMapLoadFailed": "校园地点加载失败",
   "campusMapSearchTitle": "搜索校园地点",
   "campusMapSearchHint": "搜索教学楼、食堂、校车站点…",
   "campusMapSearchEmpty": "输入地点名称开始搜索",
   "campusMapSearchNoResults": "没有找到匹配的校园地点",
   "campusMapSearchFailed": "搜索失败，请重试",
-  "campusMapDetails": "地点详情",
   "campusMapDistrict": "所属学部",
   "campusMapOldName": "曾用名",
   "campusMapManageDept": "管理部门",
@@ -4746,7 +4689,6 @@
   "campusMapLayerBusLines": "校车线路",
   "campusMapOpenBus": "查看校车时刻",
   "campusMapMyLocation": "我的位置",
-  "campusMapLocating": "正在定位…",
   "campusMapLocationDenied": "需要授予定位权限",
   "campusMapLocationOutside": "你的位置不在校园地图范围内",
   "campusMapLocationUnavailable": "暂时无法获取当前位置",
@@ -4928,5 +4870,251 @@
   "onboardingPermissionVpnTitle": "VPN",
   "onboardingPermissionVpnDescription": "用于连接校园 aTrust VPN。",
   "onboardingPermissionCameraTitle": "相机",
-  "onboardingPermissionCameraDescription": "用于拍照并添加到 AI 对话附件。"
+  "onboardingPermissionCameraDescription": "用于拍照并添加到 AI 对话附件。",
+  "campusAppEbike": "电动车",
+  "ebikeProviderZhiyin": "知音出行",
+  "ebikeProviderMango": "芒果电单车",
+  "ebikeProviderMangoHint": "芒果登录需要你的微信小程序 openid：先从芒果电单车小程序抓包获取并填入下方，每次登录均可修改。",
+  "settingsAccountEbikeTitle": "共享电动车账号",
+  "ebikeAccountsTileNone": "未绑定",
+  "ebikeAccountsPageTitle": "共享电动车账号",
+  "ebikeAccountLinkAction": "绑定账号",
+  "ebikeAccountLinkedAt": "绑定于 {time}",
+  "@ebikeAccountLinkedAt": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "ebikeAccountUnlinkAction": "解除绑定",
+  "ebikeAccountUnlinkConfirmTitle": "解除绑定",
+  "ebikeAccountUnlinkConfirmMessage": "确定解除 {provider} 账号绑定吗？本设备保存的登录凭据将被删除。",
+  "@ebikeAccountUnlinkConfirmMessage": {
+    "placeholders": {
+      "provider": { "type": "String" }
+    }
+  },
+  "ebikeLoginTitle": "绑定{provider}",
+  "@ebikeLoginTitle": {
+    "placeholders": {
+      "provider": { "type": "String" }
+    }
+  },
+  "ebikeLoginPhoneLabel": "手机号",
+  "ebikeLoginPhoneHint": "请输入内地手机号",
+  "ebikeLoginPhoneInvalid": "请输入有效的手机号",
+  "ebikeLoginSendCode": "获取验证码",
+  "ebikeLoginResendIn": "{seconds}s 后重发",
+  "@ebikeLoginResendIn": {
+    "placeholders": {
+      "seconds": { "type": "String" }
+    }
+  },
+  "ebikeLoginCodeLabel": "短信验证码",
+  "ebikeLoginCodeHintZhiyin": "6 位验证码",
+  "ebikeLoginCodeHintMango": "4 位验证码",
+  "ebikeLoginCodeSent": "验证码已发送",
+  "ebikeLoginSubmit": "登录并绑定",
+  "ebikeLoginSuccess": "绑定成功",
+  "ebikeLoginOpenIdLabel": "OpenID",
+  "ebikeLoginOpenIdHint": "芒果电单车小程序的 openid",
+  "ebikeLoginOpenIdHelper": "从芒果电单车小程序抓包获取，每次登录均可修改。",
+  "ebikeHubNotLinkedTitle": "未绑定{provider}账号",
+  "@ebikeHubNotLinkedTitle": {
+    "placeholders": {
+      "provider": { "type": "String" }
+    }
+  },
+  "ebikeHubNotLinkedAction": "去绑定",
+  "ebikeHubRidingBanner": "骑行进行中",
+  "ebikeHubUnpaidOrder": "有未支付订单：{amount} 元",
+  "@ebikeHubUnpaidOrder": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "ebikeHubActionUnlock": "用车",
+  "ebikeHubActionCards": "骑行卡",
+  "ebikeHubActionWallet": "钱包",
+  "ebikeHubActionOrders": "行程订单",
+  "ebikeHubBalance": "余额",
+  "ebikeHubDeposit": "押金",
+  "ebikeHubRealNameMissing": "未完成实名认证",
+  "ebikeCarIdDialogTitle": "输入车辆编号",
+  "ebikeCarIdDialogHint": "车牌号或扫码得到的链接",
+  "ebikeCarIdInvalid": "无法识别车辆编号",
+  "ebikeUnlockPageTitle": "用车",
+  "ebikeUnlockCarNumber": "车辆编号",
+  "ebikeUnlockBattery": "电量续航",
+  "ebikeUnlockPrice": "计价",
+  "ebikeUnlockPriceValue": "起步 {floor} 元，{time} 元/{timeUnit} 分钟",
+  "@ebikeUnlockPriceValue": {
+    "placeholders": {
+      "floor": { "type": "String" },
+      "time": { "type": "String" },
+      "timeUnit": { "type": "String" }
+    }
+  },
+  "ebikeUnlockHelmet": "配备头盔锁",
+  "ebikeUnlockStart": "开锁用车",
+  "ebikeUnlockSuccess": "开锁成功",
+  "ebikeUnlockNeedRealName": "需先完成实名认证，请前往官方小程序办理。",
+  "ebikeUnlockNeedFace": "本次用车需在官方小程序完成人脸核验。",
+  "ebikeUnlockNeedDeposit": "需缴纳押金或开通免押，请前往官方小程序办理。",
+  "ebikeUnlockBlacklist": "账号已被限制用车，请联系客服。",
+  "ebikeUnlockBalanceLow": "余额不足，请先充值。",
+  "ebikeUnlockUnpaid": "有未支付订单，请先完成支付。",
+  "ebikeUnlockAlreadyRiding": "已有进行中的行程",
+  "ebikeUnlockCarNotFound": "车辆编号不存在",
+  "ebikeUnlockWeakSignal": "车辆信号弱，可尝试蓝牙开锁，或稍后重试、前往官方小程序。",
+  "ebikeUnlockCreditLimited": "信用分不足，暂不能用车",
+  "ebikeUnlockActionUnknown": "用车前置条件 {code} 暂不支持在 app 内处理，请前往官方小程序。",
+  "@ebikeUnlockActionUnknown": {
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  },
+  "ebikeUnlockMangoLost": "该车已被报失，请勿骑行。",
+  "ebikeUnlockMangoIllegalPark": "因违停已被限制用车至 {time}。",
+  "@ebikeUnlockMangoIllegalPark": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "ebikeRidingTitle": "骑行中",
+  "ebikeRidingDuration": "骑行时长",
+  "ebikeRidingCost": "当前费用",
+  "ebikeRidingDistance": "骑行距离",
+  "ebikeRidingBattery": "电量续航",
+  "ebikeRidingTempParked": "临时停车中",
+  "ebikeRidingTempPark": "临时锁车",
+  "ebikeRidingTempParkLimit": "已达临时停车次数上限",
+  "ebikeRidingTempUnlock": "解锁继续骑行",
+  "ebikeRidingRingBell": "寻车铃声",
+  "ebikeRidingRingBellSuccess": "已发送响铃",
+  "ebikeRidingReturn": "还车",
+  "ebikeRidingReturned": "还车成功",
+  "ebikeRidingOutOfService": "已驶出服务区",
+  "ebikeRidingReturnConfirmTitle": "确认还车",
+  "ebikeRidingReturnConfirmMessage": "请将车辆停放在停车点内，避免产生调度费。",
+  "ebikeRidingPenaltyFee": "预计调度费 {amount} 元",
+  "@ebikeRidingPenaltyFee": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "ebikeRidingReturnFailed": "还车失败",
+  "ebikeRidingFaceRequired": "还车需在官方小程序完成人脸核验",
+  "ebikeRidingMangoRescue": "区外临时通电",
+  "ebikeRidingMangoRescueActive": "已临时通电，请在 {minutes} 分钟内骑回服务区。",
+  "@ebikeRidingMangoRescueActive": {
+    "placeholders": {
+      "minutes": { "type": "String" }
+    }
+  },
+  "ebikeRidingHelmetNotReturned": "头盔未归还，无法锁车",
+  "ebikeSettleTitle": "行程结算",
+  "ebikeSettleTotal": "应付金额",
+  "ebikeSettleRent": "骑行费",
+  "ebikeSettleDispatch": "调度费",
+  "ebikeSettleOutRegion": "区外调度费",
+  "ebikeSettleHelmetFee": "头盔未归还费",
+  "ebikeSettleNoParkingFee": "禁停区还车费",
+  "ebikeSettleDiscount": "优惠减免",
+  "ebikeSettlePayWallet": "余额支付",
+  "ebikeSettlePaid": "支付成功",
+  "ebikeSettleInsufficient": "余额不足，请前往官方小程序充值后再支付。",
+  "ebikeSettleMangoUnpaid": "待支付 {amount} 元，请前往芒果电单车小程序完成支付。",
+  "@ebikeSettleMangoUnpaid": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "ebikeCardsTitle": "骑行卡",
+  "ebikeCardsTabSale": "购卡",
+  "ebikeCardsTabMine": "我的卡",
+  "ebikeCardsBuy": "购买",
+  "ebikeCardsBuyConfirmTitle": "购买骑行卡",
+  "ebikeCardsBuyConfirmMessage": "{name}，价格 {amount} 元，使用校园一卡通支付？",
+  "@ebikeCardsBuyConfirmMessage": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "amount": { "type": "String" }
+    }
+  },
+  "ebikeCardsCampusUnavailable": "当前服务区不支持一卡通支付，请前往官方小程序购卡。",
+  "ebikeCardsCampusNotBound": "未绑定校园一卡通，请先在官方小程序绑定。",
+  "ebikeCardsCampusPasswordTitle": "一卡通支付密码",
+  "ebikeCardsCampusPasswordHint": "请输入校园一卡通支付密码",
+  "ebikeCardsPurchaseSuccess": "购买成功",
+  "ebikeCardsEmpty": "暂无在售骑行卡",
+  "ebikeCardsMineEmpty": "暂无可用骑行卡",
+  "ebikeCardsMangoHint": "芒果骑行卡暂不支持 app 内购买，请前往芒果电单车小程序。",
+  "ebikeWalletTitle": "钱包",
+  "ebikeWalletBalance": "余额",
+  "ebikeWalletMangoCoin": "芒果余额",
+  "ebikeWalletDeposit": "押金",
+  "ebikeWalletDepositPaid": "已缴纳",
+  "ebikeWalletDepositFree": "已免押",
+  "ebikeWalletDepositNone": "未缴纳",
+  "ebikeWalletDepositRefunding": "退款中",
+  "ebikeWalletRecharge": "充值",
+  "ebikeWalletRechargeTitle": "余额充值",
+  "ebikeWalletRechargeViaCampus": "使用校园一卡通充值 {amount} 元？",
+  "@ebikeWalletRechargeViaCampus": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "ebikeWalletRechargeUnavailable": "当前服务区不支持一卡通充值，请前往官方小程序充值。",
+  "ebikeWalletRechargeSuccess": "充值成功",
+  "ebikeWalletDepositRefund": "申请退押金",
+  "ebikeWalletDepositRefundTitle": "选择退款原因",
+  "ebikeWalletDepositRefundSuccess": "已提交退款申请",
+  "ebikeWalletDepositRefundCancel": "撤销退款申请",
+  "ebikeWalletDepositRefundCanceled": "已撤销退款申请",
+  "ebikeWalletCampusCard": "校园一卡通",
+  "ebikeWalletCampusCardBound": "已绑定（{name}）",
+  "@ebikeWalletCampusCardBound": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "ebikeWalletCampusCardNotBound": "未绑定",
+  "ebikeWalletMangoRechargeHint": "芒果余额充值请前往小程序",
+  "ebikeOrdersTitle": "行程订单",
+  "ebikeOrdersEmpty": "暂无订单",
+  "ebikeOrdersLoadMore": "加载更多",
+  "ebikeOrderId": "订单号",
+  "ebikeOrderDetailTitle": "订单详情",
+  "ebikeOrderTime": "时间",
+  "ebikeOrderDuration": "时长",
+  "ebikeOrderDistance": "距离",
+  "ebikeOrderAmount": "金额",
+  "ebikeOrderState": "状态",
+  "ebikeOrderUnpaid": "未支付",
+  "ebikeErrorSession": "登录已失效，请重新绑定账号",
+  "ebikeErrorNetwork": "网络异常，请稍后重试",
+  "ebikeErrorLocation": "需要定位权限才能用车",
+  "ebikeErrorUpstream": "上游服务异常",
+  "ebikeAmountYuan": "{amount} 元",
+  "@ebikeAmountYuan": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "ebikeScanTitle": "扫码用车",
+  "ebikeScanHint": "将摄像头对准车身二维码",
+  "ebikeScanUnsupported": "此设备不支持扫码",
+  "ebikeScanPermission": "扫码需要相机权限",
+  "ebikeBleUnlock": "蓝牙开锁",
+  "ebikeBleUnsupported": "此设备蓝牙不可用",
+  "ebikeBlePermission": "需要蓝牙权限",
+  "ebikeBleAdapterOff": "请开启蓝牙后重试",
+  "ebikeBleNotFound": "未在附近找到车锁，请靠近车辆后重试",
+  "ebikeBleTimeout": "蓝牙指令超时",
+  "ebikeBleAuthFailed": "车锁鉴权失败",
+  "ebikeBleLockMoving": "车辆运动中，无法关锁",
+  "ebikeBleLockRejected": "车锁拒绝了指令",
+  "ebikeBleGattMissing": "车锁蓝牙服务异常",
+  "ebikeBleTokenMissing": "获取车锁令牌失败"
 }
