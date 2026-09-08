@@ -4522,6 +4522,56 @@
       }
     }
   },
+  "campusBuildingEngineeringMain": "Main Teaching Building (No. 1)",
+  "campusBuildingComputerSchool": "School of Computer Science Building",
+  "campusBuildingFengGarden": "Fengyuan Teaching Building",
+  "campusBuildingOldForeignLanguages": "Old Foreign Languages Building",
+  "campusBuildingNewForeignLanguages": "School of Foreign Languages and Literature Building",
+  "campusBuildingScience": "Science Building",
+  "campusBuildingHintComputerSchool": "Opposite Guiyuan Canteen, next to the Yu Gang and Song Xiao Building",
+  "campusBuildingHintFengGarden": "Near the School of Information Management and the international student dormitories",
+  "campusBuildingHintOldForeignLanguages": "On Yingding, the hilltop by the old library",
+  "campusBuildingHintScience": "On the north side of Cherry Blossom Avenue — do not confuse it with Yingyuan North Road",
+  "campusLocationFormattedWithHint": "{faculty} {building} Floor {floor} Room {room}\n{hint}\n({raw})",
+  "campusLocationBuildingOnly": "{building} Floor {floor} Room {room}\n({raw})",
+  "@campusLocationFormattedWithHint": {
+   "placeholders": {
+     "faculty": {
+       "type": "String"
+      },
+     "building": {
+       "type": "String"
+      },
+     "floor": {
+       "type": "String"
+      },
+     "room": {
+       "type": "String"
+      },
+     "hint": {
+       "type": "String"
+      },
+     "raw": {
+       "type": "String"
+      }
+    }
+  },
+  "@campusLocationBuildingOnly": {
+   "placeholders": {
+     "building": {
+       "type": "String"
+      },
+     "floor": {
+       "type": "String"
+      },
+     "room": {
+       "type": "String"
+      },
+     "raw": {
+       "type": "String"
+      }
+    }
+  },
   "aiProviderCustom": "Custom",
   "aiProviderMoonshot": "Moonshot (Moonshot AI)",
   "aiProviderZhipu": "Zhipu AI (GLM)",
@@ -5828,6 +5878,10 @@
   "ebikeErrorNetwork": "Network error. Try again later.",
   "ebikeErrorLocation": "Location permission is required to ride",
   "ebikeErrorUpstream": "Upstream error",
+  "ebikeWalletCampusCardLoadFailed": "Couldn't load the campus card status",
+  "ebikeWalletRechargeLoadFailed": "Couldn't load the top-up options",
+  "ebikeRidingVehicleInfoMissing": "Vehicle details aren't available yet. Try again in a moment.",
+  "ebikeSettleLoadFailed": "Couldn't load the settlement details",
   "ebikeAmountYuan": "{amount} CNY",
   "@ebikeAmountYuan": {     "placeholders": {         "amount": { "type": "String" }     }   },
   "ebikeScanTitle": "Scan to ride",
