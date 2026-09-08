@@ -118,7 +118,6 @@
   "vpnLoginDomainHint": "Leave empty to pick automatically",
   "vpnRememberCredentials": "Remember credentials",
   "vpnCredentialsStorageNote": "Credentials are stored in the device's secure storage and never leave this device except to the VPN server.",
-  "vpnTogglePasswordVisibility": "Show or hide password",
   "vpnMissingCredentials": "Enter your username and password first.",
   "vpnConnectAction": "Connect",
   "vpnConnecting": "Connecting…",
@@ -354,6 +353,10 @@
   "commonLogout": "Logout",
   "commonNotSet": "Not set",
   "commonPassword": "Password",
+  "commonShowPassword": "Show password",
+  "commonHidePassword": "Hide password",
+  "commonResendCodeIn": "Resend in {seconds}s",
+  "@commonResendCodeIn": { "placeholders": { "seconds": { "type": "String" } } },
   "commonRegister": "Register",
   "commonRegistrationTime": "Registration time",
   "commonUsername": "Username",
@@ -936,6 +939,11 @@
   "weatherRetry": "Retry",
   "week1Monday": "Week-1 Monday",
   "whuAcademicSystem": "WHU Academic System",
+  "whuGraduateSystem": "WHU Graduate System",
+  "graduateTimetableImportDescription": "Import graduate courses via unified authentication",
+  "sourceWhuYjs": "WHU Graduate",
+  "graduateSystem": "Graduate System",
+  "graduateSystemImport": "Graduate System Import",
   "whuAccountBind": "Bind WHU Account",
   "whuAccountRebind": "Rebind",
   "whuAccountCollege": "College",
@@ -1445,6 +1453,117 @@
     }
   },
   "aiMcpAddServer": "Add server",
+  "aiMcpServersTitle": "MCP servers",
+  "aiMcpDescription": "MCP servers give the Agent tools from endpoints you configure. Nothing is exposed until you connect a server and choose its tools.",
+  "aiMcpServerUnnamed": "Unnamed server",
+  "aiMcpImportJsonHint": "Paste a JSON configuration with an \"mcpServers\" key",
+  "aiMcpStatusConnectedTools": "Connected · {count} tools",
+  "@aiMcpStatusConnectedTools": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiMcpServersSubtitle": "{count} configured",
+  "@aiMcpServersSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiMcpAddServerTitle": "Add MCP server",
+  "aiMcpEditServerTitle": "Edit MCP server",
+  "aiMcpServerName": "Name",
+  "aiMcpServerNameHint": "Shown instead of the URL",
+  "aiMcpServerUrl": "Server URL",
+  "aiMcpServerUrlHint": "https://mcp.example.com/mcp",
+  "aiMcpTransport": "Transport",
+  "aiMcpTransportStreamableHttp": "Streamable HTTP",
+  "aiMcpTransportSse": "HTTP + SSE (legacy)",
+  "aiMcpHeaders": "Request headers",
+  "aiMcpHeadersHint": "One per line, as Name: value",
+  "aiMcpHeadersInvalid": "Every line must be a Name: value pair",
+  "aiMcpUrlInvalid": "Enter an absolute http(s) URL",
+  "aiMcpDeleteConfirm": "Delete this MCP server?",
+  "aiMcpTestConnection": "Test connection",
+  "aiMcpStatusIdle": "Not connected",
+  "aiMcpStatusConnecting": "Connecting",
+  "aiMcpStatusConnected": "Connected",
+  "aiMcpStatusFailed": "Connection failed",
+  "aiMcpToolsTitle": "Tools",
+  "aiMcpToolsEmpty": "No tools discovered yet. Test the connection to list them.",
+  "aiMcpToolsExposed": "{count} exposed to the Agent",
+  "@aiMcpToolsExposed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiMcpToolExpose": "Expose to the Agent",
+  "aiMcpToolReadOnly": "Read-only",
+  "aiMcpToolReadOnlyHint": "Read-only calls run without asking. Anything else stops for confirmation every time.",
+  "aiMcpRefreshTools": "Refresh tools",
+  "aiMcpServerEnabled": "Enabled",
+  "aiMcpServerEnabledHint": "A disabled server is not connected and its tools leave the Agent's catalog.",
+  "aiMcpToolsHidden": "Not exposed to the Agent",
+  "aiMcpCatalogNote": "Changing which tools are exposed rebuilds the Agent's tool catalog.",
+  "aiMcpLastError": "Last error",
+  "aiMcpImportedCount": "{count} servers imported",
+  "@aiMcpImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiAssistantActive": "Active",
+  "aiAssistantsGlobalHint": "Use the system prompt and parameters on the model service page.",
+  "aiAssistantSetActive": "Set as active",
+  "aiAssistantEdit": "Edit assistant",
+  "aiAssistantParamOverrides": "Parameter overrides",
+  "aiAssistantParamInherit": "Inherit the global value",
+  "aiAssistantDelete": "Delete assistant",
+  "aiSkillsDescription": "Enabled skills are merged into the Agent's system prompt.",
+  "aiSkillEdit": "Edit skill",
+  "aiSkillDeleteConfirm": "Delete the skill {name}?",
+  "@aiSkillDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSkillSaved": "Skill saved",
+  "aiSkillSaveFailed": "The skill could not be saved",
+  "aiSkillNameInvalid": "Use letters, digits, hyphens and underscores only",
+  "aiSkillFieldsRequired": "Name, description and instructions are all required",
+  "aiSkillInstructionsHint": "The instructions the model receives when this skill is enabled",
+  "settingsAiModelService": "Model service",
+  "settingsAiModelServiceSubtitle": "Provider, credentials, models and sampling",
+  "settingsAiAssistantsSubtitle": "Personas, system prompts and parameter overrides",
+  "settingsAiWebSearchSubtitle": "Open-web access and search provider keys",
+  "settingsAiWorkspaceSubtitle": "Usage, cleanup and export",
+  "settingsAiOverviewNotConfigured": "Not configured",
+  "settingsAiModelsActiveProvider": "Current provider",
+  "settingsAiModelsOtherProviders": "Other providers",
+  "settingsAiModelsStoredCount": "{count} models stored",
+  "@settingsAiModelsStoredCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelsSwitchHint": "Switching provider loads that provider's stored model list.",
+  "settingsAiNoModelsHint": "Pick a provider, then fetch its model list",
+  "settingsAiModelContextWindow": "Context window (tokens)",
+  "settingsAiGroupModel": "Model",
+  "settingsAiGroupCapabilities": "Agent capabilities",
+  "aiWebAccessOnSummary": "On",
+  "aiWebAccessOffSummary": "Off",
   "aiCodeCopied": "Copied",
   "aiCodeExpand": "Expand",
   "aiCodeCollapse": "Collapse",
@@ -4182,6 +4301,27 @@
     }
   },
   "timetableExported": "Timetable exported.",
+  "timetableRepairWeekExpansion": "Repair weekly expansion",
+  "timetableRepairWeekExpansionConfirm": "{count} courses were imported as a single occurrence instead of one per teaching week. They will be rebuilt across their teaching weeks from the week-1 Monday you pick, replacing the existing entries.",
+  "@timetableRepairWeekExpansionConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timetableRepairWeekExpansionDone": "Repaired {courseCount} courses into {occurrenceCount} entries.",
+  "@timetableRepairWeekExpansionDone": {
+    "placeholders": {
+      "courseCount": {
+        "type": "int"
+      },
+      "occurrenceCount": {
+        "type": "int"
+      }
+    }
+  },
+  "timetableRepairWeekExpansionNone": "No courses need repairing.",
   "timetableImportFailed": "Failed to import timetable: {error}",
   "@timetableImportFailed": {
    "placeholders": {
@@ -4271,14 +4411,6 @@
    "placeholders": {
      "email": {
        "type": "String"
-      }
-    }
-  },
-  "luotopiaRegisterEmailCodeRetryAfter": "Resend available in {seconds}s",
-  "@luotopiaRegisterEmailCodeRetryAfter": {
-   "placeholders": {
-     "seconds": {
-       "type": "int"
       }
     }
   },
@@ -5377,6 +5509,7 @@
   "campusMapControlMouse": "Drag to pan; use the mouse wheel or trackpad to zoom.",
   "campusMapControlKeyboard": "Arrow keys or WASD pan the map. R/F and +/− control zoom.",
   "campusMapControlReset": "Press 0 to return to the default campus view.",
+  "campusMapAttributionTitle": "Map data",
   "campusMapNearbyPlaces": "Places at this location",
   "medicalWorkingHours": "Working Hours",
   "medicalInvoicesUnpaid": "Unpaid",
@@ -5502,8 +5635,6 @@
   "coremailSetupDescription": "Sign in with your WHU email account and web sign-in master password or an app-specific password. Email credentials are stored encrypted, separately from unified authentication credentials.",
   "coremailAccountLabel": "Email account",
   "coremailPasswordLabel": "Email password or app-specific password",
-  "coremailHidePassword": "Hide password",
-  "coremailShowPassword": "Show password",
   "coremailRememberCredentials": "Securely save email account and password",
   "coremailVerifyAndEnable": "Verify and enable mailbox",
   "coremailAppPasswordSectionDescription": "No need to sign in to mailbox web manually: uses the saved unified authentication session to complete mailbox SSO and generate a password used only for mail clients.",
@@ -5521,7 +5652,6 @@
   "campusAppEbike": "E-bike",
   "ebikeProviderZhiyin": "Zhiyin Mobility",
   "ebikeProviderMango": "Mango E-bike",
-  "ebikeProviderMangoHint": "Mango login requires your WeChat mini-program openid. Capture it from the Mango mini-program once and fill it in below; you can change it on every login.",
   "settingsAccountEbikeTitle": "E-bike Accounts",
   "ebikeAccountsTileNone": "Not linked",
   "ebikeAccountsPageTitle": "E-bike Accounts",
@@ -5538,8 +5668,6 @@
   "ebikeLoginPhoneHint": "Mainland China mobile number",
   "ebikeLoginPhoneInvalid": "Enter a valid phone number",
   "ebikeLoginSendCode": "Send code",
-  "ebikeLoginResendIn": "Resend in {seconds}s",
-  "@ebikeLoginResendIn": {     "placeholders": {         "seconds": { "type": "String" }     }   },
   "ebikeLoginCodeLabel": "SMS code",
   "ebikeLoginCodeHintZhiyin": "6-digit code",
   "ebikeLoginCodeHintMango": "4-digit code",
@@ -5547,8 +5675,10 @@
   "ebikeLoginSubmit": "Log in and link",
   "ebikeLoginSuccess": "Account linked",
   "ebikeLoginOpenIdLabel": "OpenID",
-  "ebikeLoginOpenIdHint": "Your Mango mini-program openid",
-  "ebikeLoginOpenIdHelper": "Captured from the Mango mini-program; you can change it on every login.",
+  "ebikeLoginOpenIdHint": "WeChat openid (auto-generated on this device)",
+  "ebikeLoginOpenIdHelper": "Auto-generated and stored on this device. Tap the button to regenerate, or edit manually.",
+  "ebikeLoginOpenIdRandomize": "Generate a random openid",
+  "ebikeLoginOpenIdInvalid": "Invalid WeChat openid format (28 characters starting with \"o\")",
   "ebikeHubNotLinkedTitle": "{provider} account not linked",
   "@ebikeHubNotLinkedTitle": {     "placeholders": {         "provider": { "type": "String" }     }   },
   "ebikeHubNotLinkedAction": "Link now",
@@ -5579,6 +5709,9 @@
   "ebikeUnlockNeedRealName": "Real-name verification is required. Finish it in the official mini-program first.",
   "ebikeUnlockNeedFace": "This ride requires a face check in the official mini-program.",
   "ebikeUnlockNeedDeposit": "A deposit or deposit-free pass is required. Complete it in the official mini-program.",
+  "ebikeUnlockFarTitle": "Too far from the bike?",
+  "ebikeUnlockFarMessage": "The platform thinks you are far from this bike. If you are standing right next to it (for example, you just scanned its QR code), confirm to retry using the bike's reported position. GPS drift or limited location access can cause false rejections.",
+  "ebikeUnlockConfirmNearby": "I'm next to the bike",
   "ebikeUnlockBlacklist": "This account is restricted from riding. Contact support.",
   "ebikeUnlockBalanceLow": "Insufficient balance. Top up first.",
   "ebikeUnlockUnpaid": "You have an unpaid order. Settle it first.",

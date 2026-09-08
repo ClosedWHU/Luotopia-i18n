@@ -68,7 +68,6 @@
   "vpnLoginDomainHint": "留空自动选择",
   "vpnRememberCredentials": "记住账号密码",
   "vpnCredentialsStorageNote": "账号密码保存在设备安全存储中，除发送至 VPN 服务器外不会离开本设备。",
-  "vpnTogglePasswordVisibility": "显示或隐藏密码",
   "vpnMissingCredentials": "请先输入用户名和密码。",
   "vpnConnectAction": "连接",
   "vpnConnecting": "正在连接…",
@@ -234,6 +233,9 @@
   "commonLogout": "退出",
   "commonNotSet": "未设置",
   "commonPassword": "密码",
+  "commonShowPassword": "显示密码",
+  "commonHidePassword": "隐藏密码",
+  "commonResendCodeIn": "{seconds}s 后重发",
   "commonRegister": "注册",
   "commonRegistrationTime": "注册时间",
   "commonUsername": "用户名",
@@ -732,6 +734,11 @@
   "weatherRetry": "重试",
   "week1Monday": "第一周周一",
   "whuAcademicSystem": "武汉大学教务系统",
+  "whuGraduateSystem": "武汉大学研究生系统",
+  "graduateTimetableImportDescription": "通过统一身份认证导入研究生课表",
+  "sourceWhuYjs": "武大研究生",
+  "graduateSystem": "研究生系统",
+  "graduateSystemImport": "研究生系统导入",
   "whuAccountBind": "绑定 WHU 账户",
   "whuAccountRebind": "重新绑定",
   "whuAccountCollege": "学院",
@@ -1199,6 +1206,117 @@
   "aiMcpEmpty": "尚未配置 MCP 服务器",
   "aiMcpEnabled": "已连接 {count} 个",
   "aiMcpAddServer": "添加服务器",
+  "aiMcpServersTitle": "MCP 服务器",
+  "aiMcpDescription": "MCP 服务器让 Agent 调用你配置的端点上的工具。未连接并选择工具前，不会暴露任何工具。",
+  "aiMcpServerUnnamed": "未命名服务器",
+  "aiMcpImportJsonHint": "粘贴包含 \"mcpServers\" 字段的 JSON 配置",
+  "aiMcpStatusConnectedTools": "已连接 · {count} 个工具",
+  "@aiMcpStatusConnectedTools": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiMcpServersSubtitle": "已配置 {count} 个",
+  "@aiMcpServersSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiMcpAddServerTitle": "添加 MCP 服务器",
+  "aiMcpEditServerTitle": "编辑 MCP 服务器",
+  "aiMcpServerName": "名称",
+  "aiMcpServerNameHint": "留空则显示地址",
+  "aiMcpServerUrl": "服务器地址",
+  "aiMcpServerUrlHint": "https://mcp.example.com/mcp",
+  "aiMcpTransport": "传输方式",
+  "aiMcpTransportStreamableHttp": "Streamable HTTP",
+  "aiMcpTransportSse": "HTTP + SSE（旧版）",
+  "aiMcpHeaders": "请求头",
+  "aiMcpHeadersHint": "每行一个，格式为 名称: 值",
+  "aiMcpHeadersInvalid": "每一行都必须是 名称: 值 的形式",
+  "aiMcpUrlInvalid": "请填写 http(s) 绝对地址",
+  "aiMcpDeleteConfirm": "删除该 MCP 服务器？",
+  "aiMcpTestConnection": "测试连接",
+  "aiMcpStatusIdle": "未连接",
+  "aiMcpStatusConnecting": "正在连接",
+  "aiMcpStatusConnected": "已连接",
+  "aiMcpStatusFailed": "连接失败",
+  "aiMcpToolsTitle": "工具",
+  "aiMcpToolsEmpty": "尚未发现工具，先测试连接以获取列表。",
+  "aiMcpToolsExposed": "已暴露给 Agent {count} 个",
+  "@aiMcpToolsExposed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiMcpToolExpose": "暴露给 Agent",
+  "aiMcpToolReadOnly": "只读",
+  "aiMcpToolReadOnlyHint": "只读调用直接执行；其余每次都会停下来等你确认。",
+  "aiMcpRefreshTools": "刷新工具",
+  "aiMcpServerEnabled": "启用",
+  "aiMcpServerEnabledHint": "停用后不会连接，其工具也会从 Agent 目录中移除。",
+  "aiMcpToolsHidden": "未暴露给 Agent",
+  "aiMcpCatalogNote": "改动暴露的工具会重建 Agent 的工具目录。",
+  "aiMcpLastError": "上次错误",
+  "aiMcpImportedCount": "已导入 {count} 个服务器",
+  "@aiMcpImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiAssistantActive": "当前生效",
+  "aiAssistantsGlobalHint": "使用“模型服务”页里的系统提示词与参数。",
+  "aiAssistantSetActive": "设为当前",
+  "aiAssistantEdit": "编辑助手",
+  "aiAssistantParamOverrides": "参数覆盖",
+  "aiAssistantParamInherit": "沿用全局值",
+  "aiAssistantDelete": "删除助手",
+  "aiSkillsDescription": "启用后，技能指令会并入 Agent 的系统提示词。",
+  "aiSkillEdit": "编辑技能",
+  "aiSkillDeleteConfirm": "删除技能 {name}？",
+  "@aiSkillDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSkillSaved": "技能已保存",
+  "aiSkillSaveFailed": "技能保存失败",
+  "aiSkillNameInvalid": "名称只能包含字母、数字、连字符和下划线",
+  "aiSkillFieldsRequired": "名称、描述和指令都不能为空",
+  "aiSkillInstructionsHint": "启用该技能时发给模型的指令",
+  "settingsAiModelService": "模型服务",
+  "settingsAiModelServiceSubtitle": "供应商、密钥、模型与采样参数",
+  "settingsAiAssistantsSubtitle": "人设、系统提示词与参数覆盖",
+  "settingsAiWebSearchSubtitle": "开放网络访问与搜索提供商密钥",
+  "settingsAiWorkspaceSubtitle": "用量、清理与导出",
+  "settingsAiOverviewNotConfigured": "尚未配置",
+  "settingsAiModelsActiveProvider": "当前供应商",
+  "settingsAiModelsOtherProviders": "其他供应商",
+  "settingsAiModelsStoredCount": "已保存 {count} 个模型",
+  "@settingsAiModelsStoredCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAiModelsSwitchHint": "切换供应商会载入该供应商已保存的模型列表。",
+  "settingsAiNoModelsHint": "先选择供应商，再拉取它的模型列表",
+  "settingsAiModelContextWindow": "上下文窗口（token）",
+  "settingsAiGroupModel": "模型",
+  "settingsAiGroupCapabilities": "Agent 能力",
+  "aiWebAccessOnSummary": "已开启",
+  "aiWebAccessOffSummary": "已关闭",
   "aiCodeCopied": "已复制",
   "aiCodeExpand": "展开",
   "aiCodeCollapse": "折叠",
@@ -3790,6 +3908,10 @@
     }
   },
   "timetableExported": "课程表已导出。",
+  "timetableRepairWeekExpansion": "修复周次展开",
+  "timetableRepairWeekExpansionConfirm": "检测到 {count} 门课程只导入了单次记录，未按教学周展开。将按你选择的开学第一周周一重新生成各周课程，并替换原有记录。",
+  "timetableRepairWeekExpansionDone": "已修复 {courseCount} 门课程，共生成 {occurrenceCount} 条记录。",
+  "timetableRepairWeekExpansionNone": "没有需要修复的课程。",
   "timetableImportFailed": "导入课程表失败：{error}",
   "@timetableImportFailed": {
    "placeholders": {
@@ -3873,14 +3995,6 @@
    "placeholders": {
      "email": {
        "type": "String"
-      }
-    }
-  },
-  "luotopiaRegisterEmailCodeRetryAfter": "{seconds} 秒后可重新发送",
-  "@luotopiaRegisterEmailCodeRetryAfter": {
-   "placeholders": {
-     "seconds": {
-       "type": "int"
       }
     }
   },
@@ -4718,6 +4832,7 @@
   "campusMapControlMouse": "拖动平移；使用鼠标滚轮或触控板缩放。",
   "campusMapControlKeyboard": "方向键或 WASD 平移地图；R/F 和 +/− 控制缩放。",
   "campusMapControlReset": "按 0 返回默认校园视图。",
+  "campusMapAttributionTitle": "地图数据",
   "campusMapNearbyPlaces": "此处的多个地点",
   "medicalWorkingHours": "工作时间",
   "medicalInvoicesUnpaid": "未缴费",
@@ -4843,8 +4958,6 @@
   "coremailSetupDescription": "使用 WHU 邮箱账号和网页登录主密码或客户端专用密码。邮箱凭据与统一认证凭据分开加密保存。",
   "coremailAccountLabel": "邮箱账号",
   "coremailPasswordLabel": "邮箱密码或客户端专用密码",
-  "coremailHidePassword": "隐藏密码",
-  "coremailShowPassword": "显示密码",
   "coremailRememberCredentials": "安全保存邮箱账号和密码",
   "coremailVerifyAndEnable": "验证并启用邮箱",
   "coremailAppPasswordSectionDescription": "无需手动登录邮箱网页版：使用已保存的统一认证会话，自动完成邮箱 SSO 并生成仅用于邮件客户端的专用密码。",
@@ -4862,7 +4975,6 @@
   "campusAppEbike": "电动车",
   "ebikeProviderZhiyin": "知音出行",
   "ebikeProviderMango": "芒果电单车",
-  "ebikeProviderMangoHint": "芒果登录需要你的微信小程序 openid：先从芒果电单车小程序抓包获取并填入下方，每次登录均可修改。",
   "settingsAccountEbikeTitle": "共享电动车账号",
   "ebikeAccountsTileNone": "未绑定",
   "ebikeAccountsPageTitle": "共享电动车账号",
@@ -4891,12 +5003,6 @@
   "ebikeLoginPhoneHint": "请输入内地手机号",
   "ebikeLoginPhoneInvalid": "请输入有效的手机号",
   "ebikeLoginSendCode": "获取验证码",
-  "ebikeLoginResendIn": "{seconds}s 后重发",
-  "@ebikeLoginResendIn": {
-    "placeholders": {
-      "seconds": { "type": "String" }
-    }
-  },
   "ebikeLoginCodeLabel": "短信验证码",
   "ebikeLoginCodeHintZhiyin": "6 位验证码",
   "ebikeLoginCodeHintMango": "4 位验证码",
@@ -4904,8 +5010,10 @@
   "ebikeLoginSubmit": "登录并绑定",
   "ebikeLoginSuccess": "绑定成功",
   "ebikeLoginOpenIdLabel": "OpenID",
-  "ebikeLoginOpenIdHint": "芒果电单车小程序的 openid",
-  "ebikeLoginOpenIdHelper": "从芒果电单车小程序抓包获取，每次登录均可修改。",
+  "ebikeLoginOpenIdHint": "微信 openid（已在本机自动生成）",
+  "ebikeLoginOpenIdHelper": "已在本机自动生成并固定保存；可点右侧按钮重新生成，或手动修改。",
+  "ebikeLoginOpenIdRandomize": "随机生成 openid",
+  "ebikeLoginOpenIdInvalid": "微信 openid 格式不正确：应为 o 开头的 28 位字符",
   "ebikeHubNotLinkedTitle": "未绑定{provider}账号",
   "@ebikeHubNotLinkedTitle": {
     "placeholders": {
@@ -4948,6 +5056,9 @@
   "ebikeUnlockNeedRealName": "需先完成实名认证，请前往官方小程序办理。",
   "ebikeUnlockNeedFace": "本次用车需在官方小程序完成人脸核验。",
   "ebikeUnlockNeedDeposit": "需缴纳押金或开通免押，请前往官方小程序办理。",
+  "ebikeUnlockFarTitle": "距离车辆较远？",
+  "ebikeUnlockFarMessage": "平台判定你当前位置距离车辆较远。如果你确实就在车旁（例如刚扫描了车身二维码），可确认后按车辆上报的位置重试。GPS 漂移或定位受限可能导致误判。",
+  "ebikeUnlockConfirmNearby": "我确认在附近",
   "ebikeUnlockBlacklist": "账号已被限制用车，请联系客服。",
   "ebikeUnlockBalanceLow": "余额不足，请先充值。",
   "ebikeUnlockUnpaid": "有未支付订单，请先完成支付。",
