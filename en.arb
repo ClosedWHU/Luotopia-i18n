@@ -3079,6 +3079,23 @@
   "weatherPollenBulletinTitle": "Official weekly pollen forecast",
   "weatherPollenBulletinSource": "China Weather Net · official release",
   "weatherPollenBulletinOpen": "View original",
+  "weatherSourcesTitle": "Data sources",
+  "weatherSourcesFallbackTag": "fallback",
+  "weatherSourcesSubstitutedTag": "substituted",
+  "weatherPollenProvenance": "{city} · {source} · {date}",
+  "@weatherPollenProvenance": {
+    "placeholders": {
+      "city": { "type": "String" },
+      "source": { "type": "String" },
+      "date": { "type": "String" }
+    }
+  },
+  "weatherPollenSourceChinaWeatherNet": "China Weather Net",
+  "weatherPollenSourceInnerMongoliaCdc": "Inner Mongolia CDC",
+  "settingsWeatherAllowSourceFallback": "Fall back to other sources",
+  "settingsWeatherAllowSourceFallbackSubtitle": "When off, a failed weather source shows an error with retry instead of quietly switching to another",
+  "settingsWeatherShowPollen": "Show pollen",
+  "settingsWeatherShowPollenSubtitle": "Pollen level, high-pollen banner and the official weekly bulletin (China monitoring network only)",
   "weatherDetailWind": "Wind",
   "weatherDetailPressure": "Pressure",
   "weatherDetailVisibility": "Visibility",
