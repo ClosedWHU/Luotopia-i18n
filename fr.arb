@@ -962,7 +962,8 @@
       }
     }
   },
-  "courseImportStatusFailed": "Échec de l’import : {error}",
+  "courseImportGraduateNoCalendarMatch": "Les cours de master n'ont pas pu être associés aux dates du calendrier universitaire. Vérifiez que le semestre sélectionné est correct.",
+  "courseImportStatusFailed": "Échec de l’import : {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
      "error": {
@@ -5099,6 +5100,7 @@
   "ebikeErrorNetwork": "Erreur réseau. Réessayez plus tard.",
   "ebikeErrorLocation": "L'autorisation de localisation est requise pour rouler",
   "ebikeErrorUpstream": "Erreur du service en amont",
+  "ebikeErrorSmsLoginClosed": "La connexion par code SMS n'est pas disponible sur cette plateforme. Veuillez vous connecter via son mini-programme WeChat.",
   "ebikeWalletCampusCardLoadFailed": "Impossible de charger l'état de la carte du campus",
   "ebikeWalletRechargeLoadFailed": "Impossible de charger les options de recharge",
   "ebikeRidingVehicleInfoMissing": "Les informations du véhicule ne sont pas encore disponibles. Réessayez dans un instant",
