@@ -1,5 +1,7 @@
 {
   "@@locale": "en",
+  "designLanguage": "Design language",
+  "designLanguageExperimentalNote": "Experimental · currently only affects the Theme Lab preview",
   "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
   "aiAssistant": "Assistant",
   "aiInputHint": "Ask me anything about your schedule...",
@@ -981,6 +983,10 @@
   "whuAccountPoliticalStatus": "Political status",
   "whuAccountStudentType": "Student type",
   "whuAccountCounselor": "Counselor",
+  "whuAccountSupervisor": "Supervisor",
+  "whuAccountResearchDirection": "Research direction",
+  "whuAccountDegree": "Degree",
+  "whuAccountEnrollmentStatus": "Enrollment status",
   "whuAccountEnterTime": "Enrollment date",
   "whuAccountPredictGraduateTime": "Expected graduation",
   "whuAccountShift": "Status",
@@ -1832,7 +1838,9 @@
   "settingsHomeGridBorderAlpha": "Grid Border Opacity",
   "settingsHomeCropImage": "Crop Image",
   "imageCropDesktopHint": "Drag to move · use +/− to resize the crop",
-  "imageCropDesktopHintSquare": "Drag to move · use +/− to resize the square crop",
+  "imageCropPresetDevice": "Screen ratio",
+  "imageCropPresetOriginal": "Original",
+  "imageCropRatioFree": "Free",
   "imageCropZoomIn": "Zoom in",
   "imageCropZoomOut": "Zoom out",
   "settingsAiFormat": "API Format",
@@ -2826,6 +2834,7 @@
   "wallpaperSourceNone": "None",
   "wallpaperSourceLocal": "Local image",
   "wallpaperSourceBing": "Bing daily",
+  "wallpaperSourceUrl": "Image URL",
   "wallpaperPickImage": "Choose image",
   "wallpaperNoImage": "No image selected",
   "wallpaperDarkOverlayOpacity": "Dark mode overlay opacity",
@@ -2835,6 +2844,18 @@
   "wallpaperTargetTaskList": "Task list",
   "wallpaperTargetForum": "Forum",
   "wallpaperTargetAi": "AI",
+  "wallpaperUrlDialogTitle": "Set image URL",
+  "wallpaperUrlFieldLabel": "Image URL",
+  "wallpaperUrlHint": "https://example.com/wallpaper.jpg",
+  "wallpaperUrlNotSet": "No URL set",
+  "wallpaperUrlValidating": "Checking the image…",
+  "wallpaperUrlErrorMalformed": "That doesn't look like a valid URL",
+  "wallpaperUrlErrorScheme": "Only http and https URLs are supported",
+  "wallpaperUrlErrorTimeout": "The server took too long to respond",
+  "wallpaperUrlErrorNetwork": "Couldn't reach that server",
+  "wallpaperUrlErrorStatus": "The server returned an error",
+  "wallpaperUrlErrorNotImage": "That URL doesn't point to an image",
+  "wallpaperUrlErrorTooLarge": "That image is too large",
   "libraryBorrowingPlaceholder": "Library borrowing is under development…",
   "settingsAiProvider": "AI Provider",
   "aiProviderBuiltin": "Built-in model",
@@ -2950,6 +2971,9 @@
   "waterControlCategoryInternational": "International Students College",
   "waterControlCategoryMeiGarden": "Mei Garden",
   "waterControlCategoryInformation": "Information Campus",
+  "@waterControlCategoryInformation": {
+    "description": "Water-control category for the official Wuhan University 信息学部 campus. In zh_Hant and yue_Hant use the official character-level Traditional form 信息學部. Do not rewrite it as 資訊學部."
+  },
   "waterControlCategoryMedical": "Medical Campus",
   "waterControlCategoryPeoplesHospital": "People's Hospital",
   "waterControlCategoryHotWater": "Hot Water",
@@ -4438,6 +4462,16 @@
   "whuNativeLoginCodeLabel": "Verification code",
   "whuNativeLoginSendCode": "Send code",
   "whuNativeLoginSubmit": "Sign in",
+  "whuNativeLoginStageSigningIn": "Signing in to WHU CAS…",
+  "whuNativeLoginStageFetching": "Signed in — fetching {source} data…",
+  "@whuNativeLoginStageFetching": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "whuNativeLoginStageFinishing": "Signed in — finishing up…",
   "whuNativeLoginUseWeb": "Use web login",
   "@whuNativeLoginUseWeb": {
    "description": "Overflow menu item to switch from native CAS login to WebView method selection."
@@ -4519,6 +4553,9 @@
   "campusFacultyArts": "Faculty of Arts and Sciences",
   "campusFacultyEngineering": "Faculty of Engineering",
   "campusFacultyInfo": "Faculty of Information",
+  "@campusFacultyInfo": {
+    "description": "Official Wuhan University faculty proper noun (Simplified Chinese 信息学部). In zh_Hant and yue_Hant use the official character-level Traditional form 信息學部. Do not rewrite it as 資訊學部."
+  },
   "campusFacultyMedicine": "Faculty of Medicine",
   "campusFacultyCyberBase": "National Cybersecurity Base",
   "ebikeSupplementTitle": "E-bike supplementary registration",
@@ -5916,6 +5953,23 @@
   "ebikeErrorLocation": "Location permission is required to ride",
   "ebikeErrorUpstream": "Upstream error",
   "ebikeErrorSmsLoginClosed": "SMS-code login isn't available for this platform. Please sign in through its WeChat mini-program.",
+  "ebikeZhiyinWechatOnlyTitle": "Zhiyin sign-in stays inside WeChat",
+  "ebikeZhiyinWechatOnlyBody": "Zhiyin has closed SMS-code login, and every remaining sign-in path needs a one-time code that WeChat or Alipay issues inside the official mini-program. Luotopia cannot obtain that code, so the account cannot be linked automatically.",
+  "ebikeZhiyinImportTitle": "Advanced: import a session token",
+  "ebikeZhiyinImportInstructions": "Sign in to the Zhiyin WeChat mini-program, capture one of its API requests with a proxy, and copy the Authorization value. A refresh token is optional but lets Luotopia renew the session automatically.",
+  "ebikeZhiyinImportTokenLabel": "Access token",
+  "ebikeZhiyinImportTokenHint": "eyJ… or Bearer eyJ…",
+  "ebikeZhiyinImportRefreshLabel": "Refresh token (optional)",
+  "ebikeZhiyinImportRefreshHint": "Enables automatic renewal",
+  "ebikeZhiyinImportSensitiveWarning": "This token can unlock bikes and pay with your campus card. Keep it on your own device and never share it.",
+  "ebikeZhiyinImportInvalid": "That token was rejected or has expired. Capture it again from the mini-program.",
+  "ebikeZhiyinImportSubmit": "Import and verify",
+  "ebikeZhiyinImportSuccess": "Session imported. The access token expires {expiry}.",
+  "@ebikeZhiyinImportSuccess": {
+    "placeholders": {
+      "expiry": { "type": "String" }
+    }
+  },
   "ebikeWalletCampusCardLoadFailed": "Couldn't load the campus card status",
   "ebikeWalletRechargeLoadFailed": "Couldn't load the top-up options",
   "ebikeRidingVehicleInfoMissing": "Vehicle details aren't available yet. Try again in a moment.",
