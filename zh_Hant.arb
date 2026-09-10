@@ -1248,6 +1248,24 @@
             }
         }
     },
+    "coremailAccountSectionTitle": "目前信箱帳號",
+    "coremailStoredAccountSubtitle": "已儲存於本機，僅對目前繫結的武大帳號生效",
+    "coremailSignOutAction": "登出",
+    "coremailSignOutConfirmTitle": "登出信箱帳號？",
+    "coremailSignOutConfirmMessage": "將從本機移除已儲存的信箱位址與用戶端專用密碼，AI 助手會立即失去信箱存取權限。",
+    "coremailSignedOut": "已登出信箱帳號",
+    "coremailAccountMenuTooltip": "信箱帳號",
+    "coremailSignedInAs": "目前登入：{address}",
+    "@coremailSignedInAs": {
+        "placeholders": {
+            "address": {
+                "type": "String"
+            }
+        }
+    },
+    "coremailSwitchAccountAction": "更換帳號",
+    "coremailRequiresWhuAccount": "需要先繫結武大帳號，才能在本機儲存信箱憑證。",
+    "vpnRequiresWhuAccount": "需要先繫結武大帳號，才能在本機儲存 VPN 憑證。",
     "@coremailServers": {},
     "@coremailSetupDescription": {},
     "@coremailSignInFailed": {},
@@ -5799,7 +5817,6 @@
     "campusFacultyEngineering": "工學部",
     "campusFacultyInfo": "信息學部",
     "campusFacultyMedicine": "醫學部",
-    "campusFacultyCyberBase": "網安基地",
     "ebikeSupplementTitle": "電動車補錄",
     "ebikeSupplementNotice": "只有通過電動車考試但是沒有獲得資格才能提交補錄申請",
     "campusFeatureInDevelopment": "功能正在開發中",
@@ -5903,6 +5920,7 @@
     "commonOk": "確定",
     "commonPassword": "密碼",
   "commonShowPassword": "顯示密碼",
+    "commonPasswordRevealLockedHint": "清空後重新輸入密碼，即可顯示密碼",
   "commonHidePassword": "隱藏密碼",
   "commonResendCodeIn": "{seconds} 秒後重新傳送",
     "commonRegister": "註冊",
@@ -5964,7 +5982,7 @@
     "coremailSendFrom": "傳送地址：{address}",
     "coremailServers": "伺服器",
     "coremailSetupDescription": "使用 WHU 信箱帳號和網頁登入主密碼或用戶端專用密碼。信箱憑證與統一認證憑證分開加密儲存。",
-    "coremailAgentAccessNote": "設定後，AI 助手即可憑此用戶端密碼讀寫該信箱，且不受校園帳號登入狀態影響。在此清除憑證即可撤銷該存取。",
+    "coremailAgentAccessNote": "設定完成後，AI 助手即可透過此信箱收發郵件。憑證依武大帳號分別儲存，因此登出校園帳號或切換至其他帳號會中止該存取，重新登入後恢復。清除憑證可永久撤銷。",
     "coremailShowPassword": "顯示密碼",
     "coremailSignInFailed": "登入失敗，請檢查信箱帳號、密碼或用戶端專用密碼。",
     "coremailSortNewestFirstHint": "目前新到舊，切換為舊到新",
@@ -6015,6 +6033,7 @@
     "courseImportSemesterLabel": "第{semester}學期",
     "courseImportSnackSuccess": "導入完成：新增 {count} 條課程事項，課程表「{tableName}」。",
     "courseImportGraduateNoCalendarMatch": "研究生課程無法對應到校曆日期，請確認所選學期是否正確。",
+    "courseImportGraduateTermsUnrecognized": "研究生系統回傳的學期無法識別。",
     "courseImportStatusFailed": "導入失敗：{error}",
     "courseImportStatusImported": "匯入完成：新增 {count} 筆，目前第 {currentWeek} 週。",
     "courseImportTitle": "匯入課表",
@@ -6680,6 +6699,7 @@
     "libraryCheckoutSuccess": "已簽退",
     "libraryClickForDetails": "點擊查看各樓層及座位詳情",
     "libraryConfirmCancel": "確定取消",
+    "libraryAccountNotActivated": "自習預約需要先開通圖書館帳號，請先開通後再使用。",
     "libraryCurrentReservation": "當前預約",
     "libraryEndTime": "結束",
     "libraryFloor": "{floor}樓",
@@ -8142,6 +8162,19 @@
     "whuAccountPredictGraduateTime": "預計畢業",
     "whuAccountProfileSource": "資料來源",
     "whuAccountRebind": "重新綁定",
+    "whuAccountSwitchAction": "切換帳號",
+    "whuAccountSwitchSubtitle": "以其他學號登入",
+    "whuKnownAccountsTitle": "曾登入的帳號",
+    "whuKnownAccountForgetAction": "移除此帳號",
+    "whuKnownAccountForgetConfirmTitle": "移除此帳號？",
+    "whuKnownAccountForgetConfirmMessage": "將從本機移除 {account} 及其已儲存的密碼。不會影響目前登入中的工作階段。",
+    "@whuKnownAccountForgetConfirmMessage": {
+        "placeholders": {
+            "account": {
+                "type": "String"
+            }
+        }
+    },
     "whuAccountRecentLogin": "最近登錄",
     "whuAccountRecentVerification": "最近驗證",
     "whuAccountRoleName": "角色",

@@ -216,6 +216,7 @@
   "commonNotSet": "설정 안 됨",
   "commonPassword": "비밀번호",
   "commonShowPassword": "비밀번호 표시",
+  "commonPasswordRevealLockedHint": "지우고 직접 입력하면 비밀번호를 표시할 수 있습니다",
   "commonHidePassword": "비밀번호 숨기기",
   "commonResendCodeIn": "{seconds}초 후 재전송",
   "commonRegister": "가입",
@@ -890,6 +891,19 @@
   "graduateSystemImport": "대학원 시스템에서 가져오기",
   "whuAccountBind": "WHU 계정 연동",
   "whuAccountRebind": "다시 연동",
+  "whuAccountSwitchAction": "계정 전환",
+  "whuAccountSwitchSubtitle": "다른 학번으로 로그인",
+  "whuKnownAccountsTitle": "이전에 로그인한 계정",
+  "whuKnownAccountForgetAction": "삭제",
+  "whuKnownAccountForgetConfirmTitle": "이 계정을 삭제할까요?",
+  "whuKnownAccountForgetConfirmMessage": "{account} 및 저장된 비밀번호를 이 기기에서 삭제합니다. 진행 중인 세션에는 영향을 주지 않습니다.",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "단과대학",
   "whuAccountMajor": "전공",
   "whuAccountClassName": "반",
@@ -1201,6 +1215,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "대학원 과목을 학사력 날짜와 일치시킬 수 없습니다. 선택한 학기가 올바른지 확인하세요.",
+  "courseImportGraduateTermsUnrecognized": "대학원 시스템이 반환한 학기를 인식할 수 없습니다.",
   "courseImportStatusFailed": "가져오기 실패: {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -2179,6 +2194,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "좌석 예약에는 도서관 계정이 필요합니다. 먼저 WHU 도서관 계정을 활성화해 주세요.",
   "libraryCurrentReservation": "현재 예약",
   "libraryCancelTitle": "예약 취소",
   "libraryCancelConfirm": "현재 예약을 취소할까요?",
@@ -3519,7 +3535,6 @@
   "campusFacultyEngineering": "공학부",
   "campusFacultyInfo": "정보학부",
   "campusFacultyMedicine": "의학부",
-  "campusFacultyCyberBase": "사이버보안 기지",
   "ebikeSupplementTitle": "전동차 추가 등록",
   "ebikeSupplementNotice": "전동차 시험에 합격했지만 자격을 받지 못한 경우에만 추가 등록을 신청할 수 있습니다.",
   "campusBuildingNumbered": "{number}호 강의동",
@@ -4976,6 +4991,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "로그인된 메일 계정",
+  "coremailStoredAccountSubtitle": "이 기기에 저장되어 있으며 연동된 우한대 계정에만 적용됩니다",
+  "coremailSignOutAction": "로그아웃",
+  "coremailSignOutConfirmTitle": "메일 계정에서 로그아웃할까요?",
+  "coremailSignOutConfirmMessage": "저장된 메일 주소와 앱 전용 비밀번호가 이 기기에서 삭제되며, AI 어시스턴트는 즉시 메일 접근 권한을 잃습니다.",
+  "coremailSignedOut": "메일 계정에서 로그아웃했습니다",
+  "coremailAccountMenuTooltip": "메일 계정",
+  "coremailSignedInAs": "{address}(으)로 로그인됨",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "계정 전환",
+  "coremailRequiresWhuAccount": "이 기기에 메일 자격 증명을 저장하려면 먼저 우한대 계정을 연동하세요.",
+  "vpnRequiresWhuAccount": "이 기기에 VPN 자격 증명을 저장하려면 먼저 우한대 계정을 연동하세요.",
   "coremailAutoSignInFailed": "자동 로그인에 실패했습니다. 비밀번호를 확인하거나 다시 로그인하세요.",
   "coremailEnterAccountAndPassword": "전체 메일 계정과 비밀번호를 입력하세요.",
   "coremailSignInFailed": "로그인에 실패했습니다. 메일 계정, 비밀번호 또는 앱 전용 비밀번호를 확인하세요.",
@@ -4995,7 +5028,7 @@
   "coremailGenerateAppPasswordFailed": "앱 전용 비밀번호 생성에 실패했습니다. 메일 SSO 로그인을 다시 완료하세요.",
   "coremailAutoSigningIn": "메일에 자동 로그인하는 중…",
   "coremailSetupDescription": "WHU 메일 계정과 웹 로그인 마스터 비밀번호 또는 앱 전용 비밀번호로 로그인하세요. 메일 자격 증명은 통합 인증 자격 증명과 별도로 암호화되어 저장됩니다.",
-  "coremailAgentAccessNote": "설정하면 AI 어시스턴트가 이 자격 증명을 사용하여 학교 계정 로그인과 무관하게 이 사서함으로 메일을 읽고 보낼 수 있습니다. 여기서 자격 증명을 지우면 해당 접근이 철회됩니다.",
+  "coremailAgentAccessNote": "설정하면 AI 어시스턴트가 이 메일함으로 메일을 읽고 보낼 수 있습니다. 자격 증명은 우한대 계정별로 저장되므로, 학교 계정에서 로그아웃하거나 다른 계정으로 전환하면 다시 로그인할 때까지 접근이 중단됩니다. 영구적으로 취소하려면 자격 증명을 삭제하세요.",
   "coremailAccountLabel": "메일 계정",
   "coremailPasswordLabel": "메일 비밀번호 또는 앱 전용 비밀번호",
   "coremailRememberCredentials": "메일 계정과 비밀번호를 안전하게 저장",

@@ -216,6 +216,7 @@
   "commonNotSet": "Não definido",
   "commonPassword": "Senha",
   "commonShowPassword": "Mostrar senha",
+  "commonPasswordRevealLockedHint": "Limpe o campo e escreva a sua palavra-passe para a poder mostrar",
   "commonHidePassword": "Ocultar senha",
   "commonResendCodeIn": "Reenviar em {seconds}s",
   "commonRegister": "Registrar",
@@ -668,6 +669,19 @@
   "graduateSystemImport": "Importação do sistema de pós-graduação",
   "whuAccountBind": "Vincular conta WHU",
   "whuAccountRebind": "Revincular",
+  "whuAccountSwitchAction": "Mudar de conta",
+  "whuAccountSwitchSubtitle": "Iniciar sessão com outro número de estudante",
+  "whuKnownAccountsTitle": "Sessões anteriores",
+  "whuKnownAccountForgetAction": "Esquecer",
+  "whuKnownAccountForgetConfirmTitle": "Esquecer esta conta?",
+  "whuKnownAccountForgetConfirmMessage": "Remove {account} e a palavra-passe guardada deste dispositivo. Não termina nenhuma sessão ativa.",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "Unidade acadêmica",
   "whuAccountMajor": "Curso",
   "whuAccountClassName": "Turma",
@@ -979,6 +993,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "Não foi possível associar as disciplinas da pós-graduação às datas do calendário acadêmico. Verifique se o semestre selecionado está correto.",
+  "courseImportGraduateTermsUnrecognized": "Não foi possível reconhecer os semestres retornados pelo sistema de pós-graduação.",
   "courseImportStatusFailed": "Falha na importação: {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -1989,6 +2004,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "A reserva de lugares requer uma conta de biblioteca. Ative primeiro a sua conta da biblioteca da WHU.",
   "libraryCurrentReservation": "Reserva atual",
   "libraryCancelTitle": "Cancelar reserva",
   "libraryCancelConfirm": "Cancelar a reserva atual?",
@@ -3548,7 +3564,6 @@
   "campusFacultyEngineering": "Faculdade de Engenharia",
   "campusFacultyInfo": "Faculdade de Informação",
   "campusFacultyMedicine": "Faculdade de Medicina",
-  "campusFacultyCyberBase": "Base de cibersegurança",
   "ebikeSupplementTitle": "Registro complementar da bicicleta elétrica",
   "ebikeSupplementNotice": "Apenas quem passou no exame da bicicleta elétrica mas não obteve a autorização pode enviar um pedido de registro complementar.",
   "campusBuildingNumbered": "Edifício {number}",
@@ -4917,6 +4932,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "Caixa de correio conectada",
+  "coremailStoredAccountSubtitle": "Guardado neste dispositivo, apenas para a conta WHU vinculada",
+  "coremailSignOutAction": "Sair",
+  "coremailSignOutConfirmTitle": "Sair da caixa de correio?",
+  "coremailSignOutConfirmMessage": "O endereço guardado e a palavra-passe da aplicação serão removidos deste dispositivo, e o assistente de IA perde imediatamente o acesso à caixa de correio.",
+  "coremailSignedOut": "Sessão da caixa de correio terminada",
+  "coremailAccountMenuTooltip": "Conta da caixa de correio",
+  "coremailSignedInAs": "Sessão iniciada como {address}",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "Mudar de conta",
+  "coremailRequiresWhuAccount": "Vincule primeiro uma conta WHU para guardar as credenciais da caixa de correio neste dispositivo.",
+  "vpnRequiresWhuAccount": "Vincule primeiro uma conta WHU para guardar as credenciais da VPN neste dispositivo.",
   "coremailAutoSignInFailed": "Falha no login automático. Verifique sua senha ou entre novamente.",
   "coremailEnterAccountAndPassword": "Digite a conta de e-mail completa e a senha.",
   "coremailSignInFailed": "Falha no login. Verifique a conta de e-mail, a senha ou a senha específica do aplicativo.",
@@ -4936,7 +4969,7 @@
   "coremailGenerateAppPasswordFailed": "Falha ao gerar a senha específica. Conclua novamente o login SSO do e-mail.",
   "coremailAutoSigningIn": "Entrando automaticamente no e-mail…",
   "coremailSetupDescription": "Entre com sua conta de e-mail WHU e a senha mestra de login na web ou uma senha específica do aplicativo. As credenciais do e-mail são armazenadas criptografadas, separadas das credenciais de autenticação unificada.",
-  "coremailAgentAccessNote": "Uma vez configurado, o assistente de IA pode ler e enviar e-mails por esta caixa de correio usando estas credenciais, independentemente do seu login na conta escolar. Limpe as credenciais aqui para revogar esse acesso.",
+  "coremailAgentAccessNote": "Depois de configurada, o assistente de IA pode ler e enviar correio por esta caixa. As credenciais são guardadas por conta WHU, pelo que terminar a sessão da conta escolar — ou mudar para outra — suspende esse acesso até voltar a iniciar sessão. Limpe-as para o revogar permanentemente.",
   "coremailAccountLabel": "Conta de e-mail",
   "coremailPasswordLabel": "Senha do e-mail ou senha específica do aplicativo",
   "coremailRememberCredentials": "Salvar com segurança a conta e a senha",

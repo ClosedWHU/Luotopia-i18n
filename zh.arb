@@ -236,6 +236,7 @@
   "commonNotSet": "未设置",
   "commonPassword": "密码",
   "commonShowPassword": "显示密码",
+  "commonPasswordRevealLockedHint": "清空后重新输入密码，即可显示密码",
   "commonHidePassword": "隐藏密码",
   "commonResendCodeIn": "{seconds}s 后重发",
   "commonRegister": "注册",
@@ -743,6 +744,19 @@
   "graduateSystemImport": "研究生系统导入",
   "whuAccountBind": "绑定 WHU 账户",
   "whuAccountRebind": "重新绑定",
+  "whuAccountSwitchAction": "切换账号",
+  "whuAccountSwitchSubtitle": "以其他学号登录",
+  "whuKnownAccountsTitle": "曾登录的账号",
+  "whuKnownAccountForgetAction": "忘记此账号",
+  "whuKnownAccountForgetConfirmTitle": "忘记此账号？",
+  "whuKnownAccountForgetConfirmMessage": "将从本机移除 {account} 及其已保存的密码。不会影响当前已登录的会话。",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "学院",
   "whuAccountMajor": "专业",
   "whuAccountClassName": "班级",
@@ -1074,6 +1088,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "研究生课程无法匹配到校历日期，请检查学期是否正确。",
+  "courseImportGraduateTermsUnrecognized": "研究生系统返回的学期无法识别。",
   "courseImportStatusFailed": "导入失败：{error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -2345,6 +2360,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "自习预约需要先开通图书馆账号，请先开通后再使用。",
   "libraryCurrentReservation": "当前预约",
   "libraryCancelTitle": "取消预约",
   "libraryCancelConfirm": "确定要取消当前预约吗？",
@@ -4125,7 +4141,6 @@
   "campusFacultyEngineering": "工学部",
   "campusFacultyInfo": "信息学部",
   "campusFacultyMedicine": "医学部",
-  "campusFacultyCyberBase": "网安基地",
   "ebikeSupplementTitle": "电动车补录",
   "ebikeSupplementNotice": "只有通过电动车考试但是没有获得资格才能提交补录申请",
   "campusBuildingNumbered": "第{number}教学楼",
@@ -5021,6 +5036,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "当前邮箱账号",
+  "coremailStoredAccountSubtitle": "已保存在本机，仅对当前绑定的武大账号生效",
+  "coremailSignOutAction": "退出登录",
+  "coremailSignOutConfirmTitle": "退出邮箱账号？",
+  "coremailSignOutConfirmMessage": "将从本机移除已保存的邮箱地址与客户端专用密码，AI 助手会立即失去邮箱访问权限。",
+  "coremailSignedOut": "已退出邮箱账号",
+  "coremailAccountMenuTooltip": "邮箱账号",
+  "coremailSignedInAs": "当前登录：{address}",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "更换账号",
+  "coremailRequiresWhuAccount": "需要先绑定武大账号，才能在本机保存邮箱凭据。",
+  "vpnRequiresWhuAccount": "需要先绑定武大账号，才能在本机保存 VPN 凭据。",
   "coremailAutoSignInFailed": "自动登录失败，请检查密码或重新登录。",
   "coremailEnterAccountAndPassword": "请输入完整邮箱账号和密码。",
   "coremailSignInFailed": "登录失败，请检查邮箱账号、密码或客户端专用密码。",
@@ -5040,7 +5073,7 @@
   "coremailGenerateAppPasswordFailed": "生成客户端专用密码失败，请重新完成邮箱 SSO 登录。",
   "coremailAutoSigningIn": "正在自动登录邮箱…",
   "coremailSetupDescription": "使用 WHU 邮箱账号和网页登录主密码或客户端专用密码。邮箱凭据与统一认证凭据分开加密保存。",
-  "coremailAgentAccessNote": "配置后，AI 助手即可凭此客户端密码读写该邮箱，且不受校园账号登录状态影响。在此清除凭据即可撤销该访问。",
+  "coremailAgentAccessNote": "配置完成后，AI 助手即可通过此邮箱收发邮件。凭据按武大账号分别保存，因此退出校园账号或切换到其他账号会中止该访问，重新登录后恢复。清除凭据可永久撤销。",
   "coremailAccountLabel": "邮箱账号",
   "coremailPasswordLabel": "邮箱密码或客户端专用密码",
   "coremailRememberCredentials": "安全保存邮箱账号和密码",

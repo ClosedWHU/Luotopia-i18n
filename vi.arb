@@ -216,6 +216,7 @@
   "commonNotSet": "Chưa đặt",
   "commonPassword": "Mật khẩu",
   "commonShowPassword": "Hiện mật khẩu",
+  "commonPasswordRevealLockedHint": "Hãy xóa và tự nhập mật khẩu để có thể hiện mật khẩu",
   "commonHidePassword": "Ẩn mật khẩu",
   "commonResendCodeIn": "Gửi lại sau {seconds}s",
   "commonRegister": "Đăng ký",
@@ -887,6 +888,19 @@
   "graduateSystemImport": "Nhập từ hệ thống sau đại học",
   "whuAccountBind": "Liên kết tài khoản WHU",
   "whuAccountRebind": "Liên kết lại",
+  "whuAccountSwitchAction": "Đổi tài khoản",
+  "whuAccountSwitchSubtitle": "Đăng nhập bằng mã sinh viên khác",
+  "whuKnownAccountsTitle": "Đã từng đăng nhập",
+  "whuKnownAccountForgetAction": "Quên",
+  "whuKnownAccountForgetConfirmTitle": "Quên tài khoản này?",
+  "whuKnownAccountForgetConfirmMessage": "Xóa {account} và mật khẩu đã lưu khỏi thiết bị này. Không đăng xuất bất kỳ phiên nào đang hoạt động.",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "Khoa/viện",
   "whuAccountMajor": "Chuyên ngành",
   "whuAccountClassName": "Lớp",
@@ -1144,6 +1158,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "Không thể khớp các môn sau đại học với ngày trong lịch học. Vui lòng kiểm tra học kỳ đã chọn có đúng không.",
+  "courseImportGraduateTermsUnrecognized": "Không thể nhận diện các học kỳ do hệ thống sau đại học trả về.",
   "courseImportStatusFailed": "Nhập thất bại: {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -2122,6 +2137,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "Đặt chỗ ngồi cần có tài khoản thư viện. Vui lòng kích hoạt tài khoản thư viện WHU của bạn trước.",
   "libraryCurrentReservation": "Đặt chỗ hiện tại",
   "libraryCancelTitle": "Hủy đặt chỗ",
   "libraryCancelConfirm": "Hủy đặt chỗ hiện tại?",
@@ -3456,7 +3472,6 @@
   "campusFacultyEngineering": "Khoa Kỹ thuật",
   "campusFacultyInfo": "Khoa Thông tin",
   "campusFacultyMedicine": "Khoa Y",
-  "campusFacultyCyberBase": "Cơ sở an ninh mạng",
   "ebikeSupplementTitle": "Đăng ký bổ sung xe điện",
   "ebikeSupplementNotice": "Chỉ người đã đậu kỳ thi xe điện nhưng chưa được cấp quyền sử dụng mới có thể nộp đơn đăng ký bổ sung.",
   "campusBuildingNumbered": "Tòa nhà {number}",
@@ -4959,6 +4974,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "Hộp thư đã đăng nhập",
+  "coremailStoredAccountSubtitle": "Đã lưu trên thiết bị này, chỉ áp dụng cho tài khoản WHU đã liên kết",
+  "coremailSignOutAction": "Đăng xuất",
+  "coremailSignOutConfirmTitle": "Đăng xuất khỏi hộp thư?",
+  "coremailSignOutConfirmMessage": "Địa chỉ đã lưu và mật khẩu ứng dụng sẽ bị xóa khỏi thiết bị này, và trợ lý AI sẽ ngay lập tức mất quyền truy cập hộp thư.",
+  "coremailSignedOut": "Đã đăng xuất khỏi hộp thư",
+  "coremailAccountMenuTooltip": "Tài khoản hộp thư",
+  "coremailSignedInAs": "Đã đăng nhập với {address}",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "Đổi tài khoản",
+  "coremailRequiresWhuAccount": "Hãy liên kết tài khoản WHU trước để lưu thông tin hộp thư trên thiết bị này.",
+  "vpnRequiresWhuAccount": "Hãy liên kết tài khoản WHU trước để lưu thông tin VPN trên thiết bị này.",
   "coremailAutoSignInFailed": "Đăng nhập tự động thất bại. Vui lòng kiểm tra mật khẩu hoặc đăng nhập lại.",
   "coremailEnterAccountAndPassword": "Vui lòng nhập đầy đủ tài khoản email và mật khẩu.",
   "coremailSignInFailed": "Đăng nhập thất bại. Vui lòng kiểm tra tài khoản email, mật khẩu hoặc mật khẩu dành riêng cho ứng dụng.",
@@ -4978,7 +5011,7 @@
   "coremailGenerateAppPasswordFailed": "Tạo mật khẩu dành riêng cho ứng dụng thất bại. Vui lòng hoàn tất lại đăng nhập SSO hộp thư.",
   "coremailAutoSigningIn": "Đang tự động đăng nhập hộp thư…",
   "coremailSetupDescription": "Đăng nhập bằng tài khoản email WHU và mật khẩu chính đăng nhập web hoặc mật khẩu dành riêng cho ứng dụng. Thông tin đăng nhập email được mã hóa và lưu riêng với thông tin xác thực thống nhất.",
-  "coremailAgentAccessNote": "Sau khi cấu hình, trợ lý AI có thể đọc và gửi thư qua hộp thư này bằng các thông tin xác thực này, độc lập với việc đăng nhập tài khoản nhà trường của bạn. Xóa thông tin xác thực tại đây để thu hồi quyền truy cập đó.",
+  "coremailAgentAccessNote": "Sau khi cấu hình, trợ lý AI có thể đọc và gửi thư qua hộp thư này. Thông tin đăng nhập được lưu theo từng tài khoản WHU, nên việc đăng xuất khỏi tài khoản trường — hoặc chuyển sang tài khoản khác — sẽ tạm ngừng quyền truy cập đó cho đến khi bạn đăng nhập lại. Hãy xóa chúng để thu hồi vĩnh viễn.",
   "coremailAccountLabel": "Tài khoản email",
   "coremailPasswordLabel": "Mật khẩu email hoặc mật khẩu dành riêng cho ứng dụng",
   "coremailRememberCredentials": "Lưu an toàn tài khoản và mật khẩu email",

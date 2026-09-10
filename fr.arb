@@ -216,6 +216,7 @@
   "commonNotSet": "Non défini",
   "commonPassword": "Mot de passe",
   "commonShowPassword": "Afficher le mot de passe",
+  "commonPasswordRevealLockedHint": "Vide le champ et saisis ton mot de passe pour pouvoir l'afficher",
   "commonHidePassword": "Masquer le mot de passe",
   "commonResendCodeIn": "Renvoyer dans {seconds} s",
   "commonRegister": "S’inscrire",
@@ -668,6 +669,19 @@
   "graduateSystemImport": "Importation du système des études supérieures",
   "whuAccountBind": "Lier le compte WHU",
   "whuAccountRebind": "Relier",
+  "whuAccountSwitchAction": "Changer de compte",
+  "whuAccountSwitchSubtitle": "Se connecter avec un autre numéro d'étudiant",
+  "whuKnownAccountsTitle": "Comptes déjà utilisés",
+  "whuKnownAccountForgetAction": "Oublier",
+  "whuKnownAccountForgetConfirmTitle": "Oublier ce compte ?",
+  "whuKnownAccountForgetConfirmMessage": "Supprime {account} et son mot de passe enregistré de cet appareil. Cela ne déconnecte aucune session active.",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "École/collège",
   "whuAccountMajor": "Spécialité",
   "whuAccountClassName": "Classe",
@@ -979,6 +993,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "Les cours de master n'ont pas pu être associés aux dates du calendrier universitaire. Vérifiez que le semestre sélectionné est correct.",
+  "courseImportGraduateTermsUnrecognized": "Les semestres renvoyés par le système des études supérieures n'ont pas pu être reconnus.",
   "courseImportStatusFailed": "Échec de l’import : {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -1994,6 +2009,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "La réservation de place nécessite un compte de bibliothèque. Veuillez d'abord activer votre compte de bibliothèque WHU.",
   "libraryCurrentReservation": "Réservation en cours",
   "libraryCancelTitle": "Annuler la réservation",
   "libraryCancelConfirm": "Annuler la réservation en cours ?",
@@ -3646,7 +3662,6 @@
   "campusFacultyEngineering": "Faculté d’ingénierie",
   "campusFacultyInfo": "Faculté d’informatique",
   "campusFacultyMedicine": "Faculté de médecine",
-  "campusFacultyCyberBase": "Base de cybersécurité",
   "ebikeSupplementTitle": "Inscription complémentaire au vélo électrique",
   "ebikeSupplementNotice": "Seules les personnes ayant réussi l'examen du vélo électrique sans obtenir le droit de circuler peuvent déposer une demande d'inscription complémentaire.",
   "campusBuildingNumbered": "Bâtiment {number}",
@@ -4955,6 +4970,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "Boîte mail connectée",
+  "coremailStoredAccountSubtitle": "Enregistré sur cet appareil, uniquement pour le compte WHU lié",
+  "coremailSignOutAction": "Se déconnecter",
+  "coremailSignOutConfirmTitle": "Se déconnecter de la boîte mail ?",
+  "coremailSignOutConfirmMessage": "L'adresse enregistrée et le mot de passe d'application seront supprimés de cet appareil, et l'assistant IA perdra immédiatement l'accès à la boîte mail.",
+  "coremailSignedOut": "Déconnecté de la boîte mail",
+  "coremailAccountMenuTooltip": "Compte de la boîte mail",
+  "coremailSignedInAs": "Connecté en tant que {address}",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "Changer de compte",
+  "coremailRequiresWhuAccount": "Lie d'abord un compte WHU pour enregistrer les identifiants de la boîte mail sur cet appareil.",
+  "vpnRequiresWhuAccount": "Lie d'abord un compte WHU pour enregistrer les identifiants du VPN sur cet appareil.",
   "coremailAutoSignInFailed": "Échec de la connexion automatique. Vérifiez votre mot de passe ou reconnectez-vous.",
   "coremailEnterAccountAndPassword": "Saisissez le compte e-mail complet et le mot de passe.",
   "coremailSignInFailed": "Échec de la connexion. Vérifiez le compte e-mail, le mot de passe ou le mot de passe spécifique à l'application.",
@@ -4974,7 +5007,7 @@
   "coremailGenerateAppPasswordFailed": "Échec de la génération du mot de passe spécifique. Terminez à nouveau la connexion SSO de la messagerie.",
   "coremailAutoSigningIn": "Connexion automatique à la messagerie…",
   "coremailSetupDescription": "Connectez-vous avec votre compte e-mail WHU et le mot de passe principal de connexion web ou un mot de passe spécifique à l'application. Les identifiants de la messagerie sont chiffrés et stockés séparément des identifiants d'authentification unifiée.",
-  "coremailAgentAccessNote": "Une fois configuré, l'assistant IA peut lire et envoyer des courriels via cette boîte mail avec ces identifiants, indépendamment de votre connexion au compte scolaire. Effacez les identifiants ici pour révoquer cet accès.",
+  "coremailAgentAccessNote": "Une fois configuré, l'assistant IA peut lire et envoyer du courrier depuis cette boîte mail. Les identifiants sont enregistrés par compte WHU : se déconnecter du compte scolaire — ou passer à un autre — suspend cet accès jusqu'à la prochaine connexion. Supprime-les pour le révoquer définitivement.",
   "coremailAccountLabel": "Compte e-mail",
   "coremailPasswordLabel": "Mot de passe e-mail ou mot de passe spécifique",
   "coremailRememberCredentials": "Enregistrer en toute sécurité le compte et le mot de passe",

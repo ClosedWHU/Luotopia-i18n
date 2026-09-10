@@ -216,6 +216,7 @@
   "commonNotSet": "Не задано",
   "commonPassword": "Пароль",
   "commonShowPassword": "Показать пароль",
+  "commonPasswordRevealLockedHint": "Очистите поле и введите пароль, чтобы его можно было показать",
   "commonHidePassword": "Скрыть пароль",
   "commonResendCodeIn": "Повторная отправка через {seconds} сек.",
   "commonRegister": "Регистрация",
@@ -668,6 +669,19 @@
   "graduateSystemImport": "Импорт из системы аспирантуры",
   "whuAccountBind": "Привязать аккаунт WHU",
   "whuAccountRebind": "Привязать снова",
+  "whuAccountSwitchAction": "Сменить аккаунт",
+  "whuAccountSwitchSubtitle": "Войти с другим номером студента",
+  "whuKnownAccountsTitle": "Ранее выполненные входы",
+  "whuKnownAccountForgetAction": "Забыть",
+  "whuKnownAccountForgetConfirmTitle": "Забыть этот аккаунт?",
+  "whuKnownAccountForgetConfirmMessage": "Удаляет {account} и сохранённый пароль с этого устройства. Активные сессии не завершаются.",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "Факультет",
   "whuAccountMajor": "Специальность",
   "whuAccountClassName": "Класс",
@@ -979,6 +993,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "Не удалось сопоставить курсы магистратуры с датами академического календаря. Проверьте, правильно ли выбран семестр.",
+  "courseImportGraduateTermsUnrecognized": "Не удалось распознать семестры, возвращённые системой аспирантуры.",
   "courseImportStatusFailed": "Ошибка импорта: {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -1950,6 +1965,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "Для бронирования места нужна учётная запись библиотеки. Сначала активируйте свою учётную запись библиотеки WHU.",
   "libraryCurrentReservation": "Текущая бронь",
   "libraryCancelTitle": "Отменить бронь",
   "libraryCancelConfirm": "Отменить текущее бронирование?",
@@ -3510,7 +3526,6 @@
   "campusFacultyEngineering": "Инженерный факультет",
   "campusFacultyInfo": "Факультет информатики",
   "campusFacultyMedicine": "Медицинский факультет",
-  "campusFacultyCyberBase": "База кибербезопасности",
   "ebikeSupplementTitle": "Дополнительная регистрация электровелосипеда",
   "ebikeSupplementNotice": "Подать заявку на дополнительную регистрацию могут только те, кто сдал экзамен на электровелосипед, но не получил право на поездку.",
   "campusBuildingNumbered": "Корпус {number}",
@@ -4945,6 +4960,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "Подключённый почтовый ящик",
+  "coremailStoredAccountSubtitle": "Сохранено на этом устройстве только для привязанного аккаунта WHU",
+  "coremailSignOutAction": "Выйти",
+  "coremailSignOutConfirmTitle": "Выйти из почтового ящика?",
+  "coremailSignOutConfirmMessage": "Сохранённый адрес и пароль приложения будут удалены с этого устройства, и ИИ-помощник сразу потеряет доступ к почте.",
+  "coremailSignedOut": "Выход из почтового ящика выполнен",
+  "coremailAccountMenuTooltip": "Аккаунт почты",
+  "coremailSignedInAs": "Вход выполнен как {address}",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "Сменить аккаунт",
+  "coremailRequiresWhuAccount": "Сначала привяжите аккаунт WHU, чтобы сохранить учётные данные почты на этом устройстве.",
+  "vpnRequiresWhuAccount": "Сначала привяжите аккаунт WHU, чтобы сохранить учётные данные VPN на этом устройстве.",
   "coremailAutoSignInFailed": "Не удалось войти автоматически. Проверьте пароль или войдите снова.",
   "coremailEnterAccountAndPassword": "Введите полный почтовый аккаунт и пароль.",
   "coremailSignInFailed": "Не удалось войти. Проверьте почтовый аккаунт, пароль или пароль приложения.",
@@ -4964,7 +4997,7 @@
   "coremailGenerateAppPasswordFailed": "Не удалось создать пароль приложения. Завершите SSO-вход в почту ещё раз.",
   "coremailAutoSigningIn": "Автоматический вход в почту…",
   "coremailSetupDescription": "Войдите с аккаунтом почты WHU и мастер-паролем веб-входа или паролем приложения. Учётные данные почты хранятся в зашифрованном виде отдельно от данных единой аутентификации.",
-  "coremailAgentAccessNote": "После настройки ИИ-ассистент сможет читать и отправлять почту через этот ящик, используя эти учётные данные, независимо от вашего входа в школьную учётную запись. Удалите учётные данные здесь, чтобы отозвать этот доступ.",
+  "coremailAgentAccessNote": "После настройки ИИ-помощник сможет читать и отправлять почту через этот ящик. Учётные данные хранятся отдельно для каждого аккаунта WHU, поэтому выход из аккаунта учебного заведения — или переход к другому — приостанавливает этот доступ до следующего входа. Удалите их, чтобы отозвать его навсегда.",
   "coremailAccountLabel": "Почтовый аккаунт",
   "coremailPasswordLabel": "Пароль почты или пароль приложения",
   "coremailRememberCredentials": "Безопасно сохранить аккаунт и пароль",

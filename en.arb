@@ -356,6 +356,7 @@
   "commonNotSet": "Not set",
   "commonPassword": "Password",
   "commonShowPassword": "Show password",
+  "commonPasswordRevealLockedHint": "Clear the field and type your password to enable showing it",
   "commonHidePassword": "Hide password",
   "commonResendCodeIn": "Resend in {seconds}s",
   "@commonResendCodeIn": { "placeholders": { "seconds": { "type": "String" } } },
@@ -948,6 +949,19 @@
   "graduateSystemImport": "Graduate System Import",
   "whuAccountBind": "Bind WHU Account",
   "whuAccountRebind": "Rebind",
+  "whuAccountSwitchAction": "Switch account",
+  "whuAccountSwitchSubtitle": "Sign in as a different student ID",
+  "whuKnownAccountsTitle": "Previously signed in",
+  "whuKnownAccountForgetAction": "Forget",
+  "whuKnownAccountForgetConfirmTitle": "Forget this account?",
+  "whuKnownAccountForgetConfirmMessage": "Removes {account} and its saved password from this device. It does not sign out any active session.",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "College",
   "whuAccountMajor": "Major",
   "whuAccountClassName": "Class",
@@ -1301,6 +1315,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "Graduate courses could not be matched to the academic calendar dates. Please check that the selected term is correct.",
+  "courseImportGraduateTermsUnrecognized": "The terms returned by the graduate system could not be recognized.",
   "courseImportStatusFailed": "Import failed: {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -2703,6 +2718,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "Seat reservation requires a library account. Please activate your WHU library account first.",
   "libraryCurrentReservation": "Current Reservation",
   "libraryCancelTitle": "Cancel Reservation",
   "libraryCancelConfirm": "Are you sure you want to cancel the current reservation?",
@@ -4557,7 +4573,6 @@
     "description": "Official Wuhan University faculty proper noun (Simplified Chinese 信息学部). In zh_Hant and yue_Hant use the official character-level Traditional form 信息學部. Do not rewrite it as 資訊學部."
   },
   "campusFacultyMedicine": "Faculty of Medicine",
-  "campusFacultyCyberBase": "National Cybersecurity Base",
   "ebikeSupplementTitle": "E-bike supplementary registration",
   "ebikeSupplementNotice": "Only riders who passed the e-bike exam but were not granted riding qualification can submit a supplementary registration.",
   "campusBuildingNumbered": "Building {number}",
@@ -5749,6 +5764,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "Signed-in mailbox",
+  "coremailStoredAccountSubtitle": "Saved on this device for the bound WHU account only",
+  "coremailSignOutAction": "Sign out",
+  "coremailSignOutConfirmTitle": "Sign out of the mailbox?",
+  "coremailSignOutConfirmMessage": "The saved address and app-specific password will be removed from this device, and the AI assistant immediately loses mailbox access.",
+  "coremailSignedOut": "Signed out of the mailbox",
+  "coremailAccountMenuTooltip": "Mailbox account",
+  "coremailSignedInAs": "Signed in as {address}",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "Switch account",
+  "coremailRequiresWhuAccount": "Bind a WHU account first to save mailbox credentials on this device.",
+  "vpnRequiresWhuAccount": "Bind a WHU account first to save VPN credentials on this device.",
   "coremailAutoSignInFailed": "Automatic sign-in failed. Check your password or sign in again.",
   "coremailEnterAccountAndPassword": "Enter your full email account and password.",
   "coremailSignInFailed": "Sign-in failed. Check the email account, password, or app-specific password.",
@@ -5768,7 +5801,7 @@
   "coremailGenerateAppPasswordFailed": "Failed to generate the app-specific password. Complete mailbox SSO sign-in again.",
   "coremailAutoSigningIn": "Signing in to mailbox automatically…",
   "coremailSetupDescription": "Sign in with your WHU email account and web sign-in master password or an app-specific password. Email credentials are stored encrypted, separately from unified authentication credentials.",
-  "coremailAgentAccessNote": "Once configured, the AI assistant can read and send mail through this mailbox using these credentials, independently of your school-account login. Clear the credentials here to revoke that access.",
+  "coremailAgentAccessNote": "Once configured, the AI assistant can read and send mail through this mailbox. Credentials are stored per WHU account, so signing out of the school account — or switching to another one — suspends that access until you sign back in. Clear them to revoke it permanently.",
   "coremailAccountLabel": "Email account",
   "coremailPasswordLabel": "Email password or app-specific password",
   "coremailRememberCredentials": "Securely save email account and password",

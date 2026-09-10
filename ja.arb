@@ -216,6 +216,7 @@
   "commonNotSet": "未設定",
   "commonPassword": "パスワード",
   "commonShowPassword": "パスワードを表示",
+  "commonPasswordRevealLockedHint": "クリアして自分で入力すると、パスワードを表示できるようになります",
   "commonHidePassword": "パスワードを隠す",
   "commonResendCodeIn": "{seconds}秒後に再送信",
   "commonRegister": "登録",
@@ -984,6 +985,19 @@
   "graduateSystemImport": "大学院システムからインポート",
   "whuAccountBind": "WHU アカウントを連携",
   "whuAccountRebind": "再連携",
+  "whuAccountSwitchAction": "アカウントを切り替える",
+  "whuAccountSwitchSubtitle": "別の学籍番号でサインインする",
+  "whuKnownAccountsTitle": "以前のログイン",
+  "whuKnownAccountForgetAction": "削除",
+  "whuKnownAccountForgetConfirmTitle": "このアカウントを削除しますか？",
+  "whuKnownAccountForgetConfirmMessage": "{account} と保存済みのパスワードをこの端末から削除します。サインイン中のセッションには影響しません。",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "学院",
   "whuAccountMajor": "専攻",
   "whuAccountClassName": "クラス",
@@ -1295,6 +1309,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "大学院の科目を学事暦の日付に対応付けできませんでした。選択した学期が正しいか確認してください。",
+  "courseImportGraduateTermsUnrecognized": "大学院システムが返した学期を認識できませんでした。",
   "courseImportStatusFailed": "インポート失敗: {error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -2275,6 +2290,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "座席の予約には図書館アカウントが必要です。先にWHU図書館アカウントを有効化してください。",
   "libraryCurrentReservation": "現在の予約",
   "libraryCancelTitle": "予約をキャンセル",
   "libraryCancelConfirm": "現在の予約をキャンセルしますか？",
@@ -3512,7 +3528,6 @@
   "campusFacultyEngineering": "工学部",
   "campusFacultyInfo": "情報学部",
   "campusFacultyMedicine": "医学部",
-  "campusFacultyCyberBase": "サイバーセキュリティ基地",
   "ebikeSupplementTitle": "電動バイク追加登録",
   "ebikeSupplementNotice": "電動バイクの試験に合格しながら走行資格を取得できなかった方のみ、追加登録を申請できます。",
   "campusBuildingNumbered": "第{number}号館",
@@ -4969,6 +4984,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "ログイン中のメールアカウント",
+  "coremailStoredAccountSubtitle": "この端末に保存されています。連携中の武大アカウントにのみ有効です",
+  "coremailSignOutAction": "サインアウト",
+  "coremailSignOutConfirmTitle": "メールアカウントからサインアウトしますか？",
+  "coremailSignOutConfirmMessage": "保存済みのメールアドレスとアプリ専用パスワードがこの端末から削除され、AI アシスタントはすぐにメールへのアクセスを失います。",
+  "coremailSignedOut": "メールアカウントからサインアウトしました",
+  "coremailAccountMenuTooltip": "メールアカウント",
+  "coremailSignedInAs": "{address} でログイン中",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "アカウントを切り替える",
+  "coremailRequiresWhuAccount": "この端末にメールの認証情報を保存するには、先に武大アカウントを連携してください。",
+  "vpnRequiresWhuAccount": "この端末に VPN の認証情報を保存するには、先に武大アカウントを連携してください。",
   "coremailAutoSignInFailed": "自動サインインに失敗しました。パスワードを確認するか、再度サインインしてください。",
   "coremailEnterAccountAndPassword": "メールアカウントとパスワードをすべて入力してください。",
   "coremailSignInFailed": "サインインに失敗しました。メールアカウント、パスワード、またはアプリ専用パスワードを確認してください。",
@@ -4988,7 +5021,7 @@
   "coremailGenerateAppPasswordFailed": "アプリ専用パスワードの生成に失敗しました。メール SSO サインインを再度完了してください。",
   "coremailAutoSigningIn": "メールに自動サインインしています…",
   "coremailSetupDescription": "WHU のメールアカウントと、ウェブサインインのマスターパスワードまたはアプリ専用パスワードでサインインします。メールの認証情報は統一認証の認証情報とは別に暗号化して保存されます。",
-  "coremailAgentAccessNote": "設定すると、AI アシスタントはこれらの認証情報を使ってこのメールボックスでメールを読み書きでき、学校アカウントのログイン状態に依存しません。ここの認証情報を消去すると、そのアクセスを取り消せます。",
+  "coremailAgentAccessNote": "設定すると、AI アシスタントがこのメールアカウントで送受信できるようになります。認証情報は武大アカウントごとに保存されるため、学内アカウントからサインアウトするか別のアカウントに切り替えると、再びサインインするまでアクセスは停止します。恒久的に取り消すには認証情報を削除してください。",
   "coremailAccountLabel": "メールアカウント",
   "coremailPasswordLabel": "メールパスワードまたはアプリ専用パスワード",
   "coremailRememberCredentials": "メールアカウントとパスワードを安全に保存する",

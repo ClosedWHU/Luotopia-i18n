@@ -218,6 +218,7 @@
   "commonNotSet": "未設定",
   "commonPassword": "密碼",
   "commonShowPassword": "顯示密碼",
+  "commonPasswordRevealLockedHint": "清空之後重新輸入密碼，就可以顯示密碼",
   "commonHidePassword": "收埋密碼",
   "commonResendCodeIn": "{seconds} 秒後重新發送",
   "commonRegister": "註冊",
@@ -670,6 +671,19 @@
   "graduateSystemImport": "研究生系統匯入",
   "whuAccountBind": "綁定 WHU 賬户",
   "whuAccountRebind": "重新綁定",
+  "whuAccountSwitchAction": "切換帳號",
+  "whuAccountSwitchSubtitle": "用其他學號登入",
+  "whuKnownAccountsTitle": "曾經登入嘅帳號",
+  "whuKnownAccountForgetAction": "移除呢個帳號",
+  "whuKnownAccountForgetConfirmTitle": "移除呢個帳號？",
+  "whuKnownAccountForgetConfirmMessage": "會從呢部機移除 {account} 同埋佢已儲存嘅密碼。唔會影響而家已經登入嘅工作階段。",
+  "@whuKnownAccountForgetConfirmMessage": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
   "whuAccountCollege": "學院",
   "whuAccountMajor": "專業",
   "whuAccountClassName": "班級",
@@ -927,6 +941,7 @@
     }
   },
   "courseImportGraduateNoCalendarMatch": "研究生課程對應唔到校曆日期，請檢查所選學期係咪正確。",
+  "courseImportGraduateTermsUnrecognized": "研究生系統返回嘅學期無法識別。",
   "courseImportStatusFailed": "匯入失敗：{error}",
   "@courseImportStatusFailed": {
    "placeholders": {
@@ -1904,6 +1919,7 @@
       }
     }
   },
+  "libraryAccountNotActivated": "自習預約需要先開通圖書館帳號，請先開通後再用。",
   "libraryCurrentReservation": "而家嘅預約",
   "libraryCancelTitle": "取消預約",
   "libraryCancelConfirm": "確定要取消而家呢個預約？",
@@ -3449,7 +3465,6 @@
   "campusFacultyEngineering": "工學部",
   "campusFacultyInfo": "信息學部",
   "campusFacultyMedicine": "醫學部",
-  "campusFacultyCyberBase": "網安基地",
   "ebikeSupplementTitle": "電動車補錄",
   "ebikeSupplementNotice": "只有通過電動車考試但未攞到資格先可以提交補錄申請",
   "campusBuildingNumbered": "第{number}教學樓",
@@ -4907,6 +4922,24 @@
       }
     }
   },
+  "coremailAccountSectionTitle": "目前郵箱帳號",
+  "coremailStoredAccountSubtitle": "已經存在呢部機，只對目前綁定嘅武大帳號生效",
+  "coremailSignOutAction": "退出登入",
+  "coremailSignOutConfirmTitle": "退出郵箱帳號？",
+  "coremailSignOutConfirmMessage": "會從呢部機移除已儲存嘅郵箱地址同客戶端專用密碼，AI 助手會即刻失去郵箱訪問權限。",
+  "coremailSignedOut": "已經退出郵箱帳號",
+  "coremailAccountMenuTooltip": "郵箱帳號",
+  "coremailSignedInAs": "目前登入：{address}",
+  "@coremailSignedInAs": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "coremailSwitchAccountAction": "更換帳號",
+  "coremailRequiresWhuAccount": "要先綁定武大帳號，先可以喺呢部機儲存郵箱憑證。",
+  "vpnRequiresWhuAccount": "要先綁定武大帳號，先可以喺呢部機儲存 VPN 憑證。",
   "coremailAutoSignInFailed": "自動登入失敗，請檢查密碼或者重新登入。",
   "coremailEnterAccountAndPassword": "請輸入完整郵箱帳號同密碼。",
   "coremailSignInFailed": "登入失敗，請檢查郵箱帳號、密碼或者客戶端專用密碼。",
@@ -4926,7 +4959,7 @@
   "coremailGenerateAppPasswordFailed": "產生客戶端專用密碼失敗，請重新完成郵箱 SSO 登入。",
   "coremailAutoSigningIn": "自動登入郵箱緊…",
   "coremailSetupDescription": "用 WHU 郵箱帳號同網頁登入主密碼或者客戶端專用密碼。郵箱憑證同統一認證憑證分開加密儲存。",
-  "coremailAgentAccessNote": "設定之後，AI 助手就可以用呢個客戶端密碼讀寫呢個郵箱，唔受校園帳號登入狀態影響。喺呢度清除憑證就可以撤銷呢個存取。",
+  "coremailAgentAccessNote": "設定好之後，AI 助手就可以透過呢個郵箱收發郵件。憑證按武大帳號分開儲存，所以退出校園帳號或者換另一個帳號會中止呢個訪問，重新登入之後恢復。清除憑證可以永久撤銷。",
   "coremailAccountLabel": "郵箱帳號",
   "coremailPasswordLabel": "郵箱密碼或者客戶端專用密碼",
   "coremailRememberCredentials": "安全儲存郵箱帳號同密碼",
