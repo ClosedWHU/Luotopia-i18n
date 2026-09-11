@@ -352,6 +352,7 @@
   "commonId": "ID",
   "commonLogin": "Log in",
   "whuSessionExpiredPrompt": "Your session has expired and could not be automatically refreshed. Please log in again.",
+  "whuSessionExpiredRetrying": "Session expired, signing back in…",
   "commonLogout": "Logout",
   "commonNotSet": "Not set",
   "commonPassword": "Password",
@@ -6077,5 +6078,55 @@
   "ebikeBleLockMoving": "Cannot lock while the vehicle is moving",
   "ebikeBleLockRejected": "The lock rejected the command",
   "ebikeBleGattMissing": "Unexpected lock Bluetooth profile",
-  "ebikeBleTokenMissing": "Failed to obtain the lock token"
+  "ebikeBleTokenMissing": "Failed to obtain the lock token",
+  "chaoxingAccountTitle": "Chaoxing",
+  "chaoxingLinkedAccountSection": "Linked account",
+  "chaoxingLinkedAccountUnnamed": "Chaoxing account",
+  "chaoxingLinkedAt": "Linked on {date}",
+  "@chaoxingLinkedAt": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "chaoxingSignOutAction": "Unlink",
+  "chaoxingSignOutConfirmTitle": "Unlink",
+  "chaoxingSignOutConfirmMessage": "Unlink the Chaoxing account? Saved credentials and session on this device will be deleted.",
+  "chaoxingSignedOut": "Unlinked",
+  "chaoxingSetupDescription": "Link your Chaoxing account to view courses and check-ins inside Luotopia. Credentials are stored only in this device's secure storage and are never uploaded to Luotopia servers.",
+  "chaoxingLoginPasswordTab": "Password",
+  "chaoxingLoginSmsTab": "SMS code",
+  "chaoxingLoginAccountLabel": "Account",
+  "chaoxingLoginAccountHint": "Phone number / student ID",
+  "chaoxingLoginPhoneLabel": "Phone number",
+  "chaoxingLoginPhoneHint": "Registered phone number",
+  "chaoxingLoginPhoneInvalid": "Enter a valid phone number",
+  "chaoxingLoginPasswordLabel": "Password",
+  "chaoxingLoginCodeLabel": "Verification code",
+  "chaoxingLoginCodeHint": "6-digit SMS code",
+  "chaoxingLoginSendCode": "Send code",
+  "chaoxingLoginCodeSent": "Verification code sent",
+  "chaoxingLoginCodeSendFailed": "Failed to send code: {message}",
+  "@chaoxingLoginCodeSendFailed": {
+    "placeholders": {
+      "message": { "type": "String" }
+    }
+  },
+  "chaoxingRememberCredentials": "Remember password",
+  "chaoxingRememberCredentialsHint": "Stored only in this device's secure storage; SMS codes are never saved",
+  "chaoxingRequiresWhuAccount": "Link a WHU account first",
+  "chaoxingLoginSubmit": "Sign in",
+  "chaoxingLoginSuccess": "Chaoxing account linked",
+  "chaoxingLoginBadCredentials": "Sign-in failed: {message}",
+  "@chaoxingLoginBadCredentials": {
+    "placeholders": {
+      "message": { "type": "String" }
+    }
+  },
+  "chaoxingLoginCaptchaRequired": "The server requires interactive verification. Try again later, or sign in once in the official app first.",
+  "chaoxingOperationFailed": "Operation failed: {error}",
+  "@chaoxingOperationFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  }
 }

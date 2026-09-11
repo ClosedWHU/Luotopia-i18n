@@ -232,6 +232,7 @@
   "commonId": "ID",
   "commonLogin": "登录",
   "whuSessionExpiredPrompt": "登录状态已失效且自动刷新失败，请重新登录。",
+  "whuSessionExpiredRetrying": "登录已失效，正在重新登录…",
   "commonLogout": "退出",
   "commonNotSet": "未设置",
   "commonPassword": "密码",
@@ -5404,5 +5405,55 @@
   "ebikeBleLockMoving": "车辆运动中，无法关锁",
   "ebikeBleLockRejected": "车锁拒绝了指令",
   "ebikeBleGattMissing": "车锁蓝牙服务异常",
-  "ebikeBleTokenMissing": "获取车锁令牌失败"
+  "ebikeBleTokenMissing": "获取车锁令牌失败",
+  "chaoxingAccountTitle": "学习通",
+  "chaoxingLinkedAccountSection": "已绑定账号",
+  "chaoxingLinkedAccountUnnamed": "学习通账号",
+  "chaoxingLinkedAt": "绑定于 {date}",
+  "@chaoxingLinkedAt": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "chaoxingSignOutAction": "解除绑定",
+  "chaoxingSignOutConfirmTitle": "解除绑定",
+  "chaoxingSignOutConfirmMessage": "确定解除学习通账号绑定？本设备保存的登录凭据和会话将被删除。",
+  "chaoxingSignedOut": "已解除绑定",
+  "chaoxingSetupDescription": "绑定学习通账号后，可在 Luotopia 中查看课程、签到等信息。凭据仅保存在本设备的安全存储中，不会上传到 Luotopia 服务器。",
+  "chaoxingLoginPasswordTab": "密码登录",
+  "chaoxingLoginSmsTab": "短信登录",
+  "chaoxingLoginAccountLabel": "账号",
+  "chaoxingLoginAccountHint": "手机号 / 学号",
+  "chaoxingLoginPhoneLabel": "手机号",
+  "chaoxingLoginPhoneHint": "已注册的手机号",
+  "chaoxingLoginPhoneInvalid": "请输入有效的手机号",
+  "chaoxingLoginPasswordLabel": "密码",
+  "chaoxingLoginCodeLabel": "验证码",
+  "chaoxingLoginCodeHint": "6 位短信验证码",
+  "chaoxingLoginSendCode": "发送验证码",
+  "chaoxingLoginCodeSent": "验证码已发送",
+  "chaoxingLoginCodeSendFailed": "验证码发送失败：{message}",
+  "@chaoxingLoginCodeSendFailed": {
+    "placeholders": {
+      "message": { "type": "String" }
+    }
+  },
+  "chaoxingRememberCredentials": "记住密码",
+  "chaoxingRememberCredentialsHint": "密码仅保存在本设备安全存储中；短信验证码不会被保存",
+  "chaoxingRequiresWhuAccount": "需先绑定武大账号",
+  "chaoxingLoginSubmit": "登录",
+  "chaoxingLoginSuccess": "学习通账号已绑定",
+  "chaoxingLoginBadCredentials": "登录失败：{message}",
+  "@chaoxingLoginBadCredentials": {
+    "placeholders": {
+      "message": { "type": "String" }
+    }
+  },
+  "chaoxingLoginCaptchaRequired": "服务器要求人机验证，请稍后重试，或先在官方 App 中登录一次",
+  "chaoxingOperationFailed": "操作失败：{error}",
+  "@chaoxingOperationFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  }
 }
