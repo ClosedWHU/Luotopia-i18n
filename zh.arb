@@ -3263,6 +3263,7 @@
   "apiErrorDuplicateMutation": "检测到重复请求",
   "apiErrorRequestFailed": "请求失败，请稍后重试",
   "authRegistrationWhuBindingRequired": "注册需要关联 WHU 账户",
+  "authRegistrationWhuNameMismatch": "武大账号的实名信息与本次注册不一致",
   "authRegistrationBindWhuAccount": "关联 WHU 账户",
   "authPasswordMinLength": "密码至少需要 {count} 个字符",
   "@authPasswordMinLength": {
@@ -5012,6 +5013,25 @@
   },
   "coremailTimeLabel": "时间",
   "coremailNoDisplayableContent": "此邮件不含可显示的内容。",
+  "coremailAttachmentsHeader": "附件 ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "此邮件仅包含附件，请在上方或下方下载查看。",
+  "coremailSavingAttachment": "正在下载附件…",
+  "coremailAttachmentSaved": "附件已成功保存",
+  "coremailAttachmentSaveFailed": "保存附件失败：{error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "正在打开链接…",
   "coremailLoading": "正在加载…",
   "coremailLoadFailed": "加载失败",
@@ -5095,6 +5115,12 @@
   "ebikeProviderZhiyin": "知音出行",
   "ebikeProviderMango": "芒果电单车",
   "settingsAccountEbikeTitle": "共享电动车账号",
+  "settingsAccountOtherTitle": "其他账号",
+  "settingsAccountOtherSubtitle": "电动车、邮箱与 VPN",
+  "settingsOtherAccountsPageTitle": "其他账号",
+  "settingsOtherAccountsCampusSectionTitle": "校园服务账号",
+  "settingsOtherAccountsSupplementSubtitle": "选择学部补录表单",
+  "settingsOtherAccountsNotConfigured": "未配置",
   "ebikeAccountsTileNone": "未绑定",
   "ebikeAccountsPageTitle": "共享电动车账号",
   "ebikeAccountLinkAction": "绑定账号",

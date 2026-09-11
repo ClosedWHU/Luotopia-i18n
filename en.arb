@@ -3727,6 +3727,7 @@
   "apiErrorDuplicateMutation": "Duplicate request detected.",
   "apiErrorRequestFailed": "Request failed. Please try again.",
   "authRegistrationWhuBindingRequired": "A linked WHU account is required to register",
+  "authRegistrationWhuNameMismatch": "The real name on your WHU account does not match this registration",
   "authRegistrationBindWhuAccount": "Link a WHU account",
   "authPasswordMinLength": "Password must be at least {count} characters",
   "@authPasswordMinLength": {
@@ -5740,6 +5741,25 @@
   },
   "coremailTimeLabel": "Time",
   "coremailNoDisplayableContent": "This message has no displayable content.",
+  "coremailAttachmentsHeader": "Attachments ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "This message only contains attachments. Download or view them below.",
+  "coremailSavingAttachment": "Downloading attachment…",
+  "coremailAttachmentSaved": "Attachment saved successfully",
+  "coremailAttachmentSaveFailed": "Failed to save attachment: {error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "Opening link…",
   "coremailLoading": "Loading…",
   "coremailLoadFailed": "Failed to load",
@@ -5823,6 +5843,12 @@
   "ebikeProviderZhiyin": "Zhiyin Mobility",
   "ebikeProviderMango": "Mango E-bike",
   "settingsAccountEbikeTitle": "E-bike Accounts",
+  "settingsAccountOtherTitle": "Other Accounts",
+  "settingsAccountOtherSubtitle": "E-bike, email, and VPN",
+  "settingsOtherAccountsPageTitle": "Other Accounts",
+  "settingsOtherAccountsCampusSectionTitle": "Campus service accounts",
+  "settingsOtherAccountsSupplementSubtitle": "Choose a faculty form",
+  "settingsOtherAccountsNotConfigured": "Not configured",
   "ebikeAccountsTileNone": "Not linked",
   "ebikeAccountsPageTitle": "E-bike Accounts",
   "ebikeAccountLinkAction": "Link account",

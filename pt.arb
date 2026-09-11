@@ -2851,6 +2851,7 @@
   },
   "authPasswordChangeConfirm": "Alterar senha",
   "authRegistrationWhuBindingRequired": "É necessário vincular uma conta WHU para se cadastrar",
+  "authRegistrationWhuNameMismatch": "O nome real da sua conta WHU não corresponde a este cadastro",
   "authRegistrationBindWhuAccount": "Vincular uma conta WHU",
   "authPasswordMinLength": "A senha deve ter pelo menos {count} caracteres",
   "@authPasswordMinLength": {
@@ -4908,6 +4909,25 @@
   },
   "coremailTimeLabel": "Hora",
   "coremailNoDisplayableContent": "Esta mensagem não tem conteúdo exibível.",
+  "coremailAttachmentsHeader": "Anexos ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "Esta mensagem contém apenas anexos. Baixe ou visualize-os acima ou abaixo.",
+  "coremailSavingAttachment": "Baixando anexo…",
+  "coremailAttachmentSaved": "Anexo salvo com sucesso",
+  "coremailAttachmentSaveFailed": "Falha ao salvar o anexo: {error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "Abrindo o link…",
   "coremailLoading": "Carregando…",
   "coremailLoadFailed": "Falha ao carregar",
@@ -4991,6 +5011,12 @@
   "ebikeProviderZhiyin": "Mobilidade Zhiyin",
   "ebikeProviderMango": "Bicicleta elétrica Mango",
   "settingsAccountEbikeTitle": "Contas de bicicleta elétrica",
+  "settingsAccountOtherTitle": "Outras contas",
+  "settingsAccountOtherSubtitle": "Bicicleta elétrica, e-mail e VPN",
+  "settingsOtherAccountsPageTitle": "Outras contas",
+  "settingsOtherAccountsCampusSectionTitle": "Contas de serviços do campus",
+  "settingsOtherAccountsSupplementSubtitle": "Escolher um formulário da faculdade",
+  "settingsOtherAccountsNotConfigured": "Não configurado",
   "ebikeAccountsTileNone": "Não vinculada",
   "ebikeAccountsPageTitle": "Contas de bicicleta elétrica",
   "ebikeAccountLinkAction": "Vincular conta",

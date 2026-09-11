@@ -2856,6 +2856,7 @@
   },
   "authPasswordChangeConfirm": "Cambiar contraseña",
   "authRegistrationWhuBindingRequired": "Se requiere una cuenta WHU vinculada para registrarse",
+  "authRegistrationWhuNameMismatch": "El nombre real de tu cuenta WHU no coincide con este registro",
   "authRegistrationBindWhuAccount": "Vincular una cuenta WHU",
   "authPasswordMinLength": "La contraseña debe tener al menos {count} caracteres",
   "@authPasswordMinLength": {
@@ -4946,6 +4947,25 @@
   },
   "coremailTimeLabel": "Hora",
   "coremailNoDisplayableContent": "Este mensaje no tiene contenido que mostrar.",
+  "coremailAttachmentsHeader": "Archivos adjuntos ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "Este mensaje solo contiene archivos adjuntos. Descárgalos o míralos arriba o abajo.",
+  "coremailSavingAttachment": "Descargando archivo adjunto…",
+  "coremailAttachmentSaved": "Archivo adjunto guardado correctamente",
+  "coremailAttachmentSaveFailed": "Error al guardar el archivo adjunto: {error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "Abriendo el enlace…",
   "coremailLoading": "Cargando…",
   "coremailLoadFailed": "Error al cargar",
@@ -5027,6 +5047,12 @@
   "onboardingPermissionCameraDescription": "Se usa para hacer fotos y adjuntarlas a las conversaciones de IA.",
   "campusAppEbike": "Bici eléctrica",
   "settingsAccountEbikeTitle": "Cuentas de bici eléctrica",
+  "settingsAccountOtherTitle": "Otras cuentas",
+  "settingsAccountOtherSubtitle": "Bicicleta eléctrica, correo y VPN",
+  "settingsOtherAccountsPageTitle": "Otras cuentas",
+  "settingsOtherAccountsCampusSectionTitle": "Cuentas de servicios del campus",
+  "settingsOtherAccountsSupplementSubtitle": "Elegir un formulario de facultad",
+  "settingsOtherAccountsNotConfigured": "Sin configurar",
   "ebikeProviderZhiyin": "Zhiyin Mobility",
   "ebikeProviderMango": "Bici eléctrica Mango",
   "ebikeAccountsTileNone": "Sin vincular",

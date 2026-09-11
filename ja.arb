@@ -3137,6 +3137,7 @@
   },
   "authPasswordChangeConfirm": "パスワードを変更",
   "authRegistrationWhuBindingRequired": "登録には WHU アカウントの連携が必要です",
+  "authRegistrationWhuNameMismatch": "WHUアカウントの実名がこの登録と一致しません",
   "authRegistrationBindWhuAccount": "WHU アカウントを連携",
   "authPasswordMinLength": "パスワードは {count} 文字以上にしてください",
   "@authPasswordMinLength": {
@@ -4960,6 +4961,25 @@
   },
   "coremailTimeLabel": "時間",
   "coremailNoDisplayableContent": "このメールには表示できる内容がありません。",
+  "coremailAttachmentsHeader": "添付ファイル ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "このメールは添付ファイルのみです。上または下からダウンロードしてご覧ください。",
+  "coremailSavingAttachment": "添付ファイルをダウンロード中…",
+  "coremailAttachmentSaved": "添付ファイルを保存しました",
+  "coremailAttachmentSaveFailed": "添付ファイルの保存に失敗しました：{error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "リンクを開いています…",
   "coremailLoading": "読み込み中…",
   "coremailLoadFailed": "読み込みに失敗しました",
@@ -5041,6 +5061,12 @@
   "onboardingPermissionCameraDescription": "AI 会話に添付する写真の撮影に使用します。",
   "campusAppEbike": "電動バイク",
   "settingsAccountEbikeTitle": "電動バイクアカウント",
+  "settingsAccountOtherTitle": "その他のアカウント",
+  "settingsAccountOtherSubtitle": "電動バイク・メール・VPN",
+  "settingsOtherAccountsPageTitle": "その他のアカウント",
+  "settingsOtherAccountsCampusSectionTitle": "キャンパスサービスアカウント",
+  "settingsOtherAccountsSupplementSubtitle": "学部を選択して追加登録",
+  "settingsOtherAccountsNotConfigured": "未設定",
   "ebikeProviderZhiyin": "Zhiyinモビリティ",
   "ebikeProviderMango": "Mango電動バイク",
   "ebikeAccountsTileNone": "未連携",

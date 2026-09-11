@@ -3048,6 +3048,7 @@
   },
   "authPasswordChangeConfirm": "비밀번호 변경",
   "authRegistrationWhuBindingRequired": "등록하려면 연결된 WHU 계정이 필요합니다",
+  "authRegistrationWhuNameMismatch": "WHU 계정의 실명이 이번 가입과 일치하지 않습니다",
   "authRegistrationBindWhuAccount": "WHU 계정 연결",
   "authPasswordMinLength": "비밀번호는 최소 {count}자 이상이어야 합니다",
   "@authPasswordMinLength": {
@@ -4967,6 +4968,25 @@
   },
   "coremailTimeLabel": "시간",
   "coremailNoDisplayableContent": "이 메일에는 표시할 수 있는 내용이 없습니다.",
+  "coremailAttachmentsHeader": "첨부파일 ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "이 메일은 첨부파일만 있습니다. 위 또는 아래에서 다운로드하거나 보세요.",
+  "coremailSavingAttachment": "첨부파일 다운로드 중…",
+  "coremailAttachmentSaved": "첨부파일을 저장했습니다",
+  "coremailAttachmentSaveFailed": "첨부파일 저장 실패: {error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "링크를 여는 중…",
   "coremailLoading": "불러오는 중…",
   "coremailLoadFailed": "불러오기 실패",
@@ -5050,6 +5070,12 @@
   "ebikeProviderZhiyin": "Zhiyin 모빌리티",
   "ebikeProviderMango": "Mango 전동 자전거",
   "settingsAccountEbikeTitle": "공유 전동 자전거 계정",
+  "settingsAccountOtherTitle": "기타 계정",
+  "settingsAccountOtherSubtitle": "전동 자전거·이메일·VPN",
+  "settingsOtherAccountsPageTitle": "기타 계정",
+  "settingsOtherAccountsCampusSectionTitle": "캠퍼스 서비스 계정",
+  "settingsOtherAccountsSupplementSubtitle": "학부를 선택해 추가 등록",
+  "settingsOtherAccountsNotConfigured": "설정되지 않음",
   "ebikeAccountsTileNone": "연동되지 않음",
   "ebikeAccountsPageTitle": "공유 전동 자전거 계정",
   "ebikeAccountLinkAction": "계정 연동",

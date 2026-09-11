@@ -2856,6 +2856,7 @@
   },
   "authPasswordChangeConfirm": "Modifier le mot de passe",
   "authRegistrationWhuBindingRequired": "Un compte WHU associé est requis pour l’inscription",
+  "authRegistrationWhuNameMismatch": "Le nom réel de votre compte WHU ne correspond pas à cette inscription",
   "authRegistrationBindWhuAccount": "Associer un compte WHU",
   "authPasswordMinLength": "Le mot de passe doit contenir au moins {count} caractères",
   "@authPasswordMinLength": {
@@ -4946,6 +4947,25 @@
   },
   "coremailTimeLabel": "Heure",
   "coremailNoDisplayableContent": "Ce message ne contient aucun contenu affichable.",
+  "coremailAttachmentsHeader": "Pièces jointes ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "Ce message ne contient que des pièces jointes. Téléchargez-les ou consultez-les ci-dessus ou ci-dessous.",
+  "coremailSavingAttachment": "Téléchargement de la pièce jointe…",
+  "coremailAttachmentSaved": "Pièce jointe enregistrée avec succès",
+  "coremailAttachmentSaveFailed": "Échec de l'enregistrement de la pièce jointe : {error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "Ouverture du lien…",
   "coremailLoading": "Chargement…",
   "coremailLoadFailed": "Échec du chargement",
@@ -5027,6 +5047,12 @@
   "onboardingPermissionCameraDescription": "Utilisé pour prendre des photos à joindre aux conversations IA.",
   "campusAppEbike": "Vélo électrique",
   "settingsAccountEbikeTitle": "Comptes vélo électrique",
+  "settingsAccountOtherTitle": "Autres comptes",
+  "settingsAccountOtherSubtitle": "Vélo électrique, e-mail et VPN",
+  "settingsOtherAccountsPageTitle": "Autres comptes",
+  "settingsOtherAccountsCampusSectionTitle": "Comptes des services du campus",
+  "settingsOtherAccountsSupplementSubtitle": "Choisir un formulaire de faculté",
+  "settingsOtherAccountsNotConfigured": "Non configuré",
   "ebikeProviderZhiyin": "Zhiyin Mobility",
   "ebikeProviderMango": "Mango E-bike",
   "ebikeAccountsTileNone": "Non associé",

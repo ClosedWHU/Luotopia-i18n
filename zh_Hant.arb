@@ -5690,6 +5690,7 @@
     "authRegisteredDevicesTitle": "已註冊裝置",
     "authRegistrationBindWhuAccount": "連結武大帳號",
     "authRegistrationWhuBindingRequired": "註冊需要已連結的武大帳號",
+    "authRegistrationWhuNameMismatch": "武大帳號的實名資訊與本次註冊不一致",
     "authRememberCredentials": "記住帳戶與密碼",
     "authResendCode": "重新傳送驗證碼",
     "authResendVerification": "重新傳送驗證郵件",
@@ -5966,6 +5967,25 @@
     "coremailMoveToFolder": "移至資料夾",
     "coremailNewFolder": "新增資料夾",
     "coremailNoDisplayableContent": "此郵件不含可顯示的內容。",
+    "coremailAttachmentsHeader": "附件 ({count})",
+    "@coremailAttachmentsHeader": {
+      "placeholders": {
+        "count": {
+          "type": "int"
+        }
+      }
+    },
+    "coremailOnlyAttachmentsNotice": "此郵件僅包含附件，請在上方或下方下載查看。",
+    "coremailSavingAttachment": "正在下載附件…",
+    "coremailAttachmentSaved": "附件已成功儲存",
+    "coremailAttachmentSaveFailed": "儲存附件失敗：{error}",
+    "@coremailAttachmentSaveFailed": {
+      "placeholders": {
+        "error": {
+          "type": "String"
+        }
+      }
+    },
     "coremailNoSubject": "（無主旨）",
     "coremailOpeningLink": "正在開啟連結…",
     "coremailOperationFailed": "操作失敗：{error}",
@@ -8325,6 +8345,12 @@
     "ebikeProviderZhiyin": "知音出行",
     "ebikeProviderMango": "芒果電動車",
     "settingsAccountEbikeTitle": "共享電動車帳戶",
+    "settingsAccountOtherTitle": "其他帳戶",
+    "settingsAccountOtherSubtitle": "電動車、郵箱與 VPN",
+    "settingsOtherAccountsPageTitle": "其他帳戶",
+    "settingsOtherAccountsCampusSectionTitle": "校園服務帳戶",
+    "settingsOtherAccountsSupplementSubtitle": "選擇學部補錄表單",
+    "settingsOtherAccountsNotConfigured": "未配置",
     "ebikeAccountsTileNone": "未綁定",
     "ebikeAccountsPageTitle": "共享電動車帳戶",
     "ebikeAccountLinkAction": "綁定帳戶",

@@ -2812,6 +2812,7 @@
   },
   "authPasswordChangeConfirm": "Изменить пароль",
   "authRegistrationWhuBindingRequired": "Для регистрации требуется связанный аккаунт WHU",
+  "authRegistrationWhuNameMismatch": "Настоящее имя в вашей учётной записи WHU не совпадает с этой регистрацией",
   "authRegistrationBindWhuAccount": "Привязать аккаунт WHU",
   "authPasswordMinLength": "Пароль должен содержать не менее {count} символов",
   "@authPasswordMinLength": {
@@ -4936,6 +4937,25 @@
   },
   "coremailTimeLabel": "Время",
   "coremailNoDisplayableContent": "В этом письме нет отображаемого содержимого.",
+  "coremailAttachmentsHeader": "Вложения ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "Это сообщение содержит только вложения. Скачайте или просмотрите их выше или ниже.",
+  "coremailSavingAttachment": "Загрузка вложения…",
+  "coremailAttachmentSaved": "Вложение успешно сохранено",
+  "coremailAttachmentSaveFailed": "Не удалось сохранить вложение: {error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "Открытие ссылки…",
   "coremailLoading": "Загрузка…",
   "coremailLoadFailed": "Не удалось загрузить",
@@ -5019,6 +5039,12 @@
   "ebikeProviderZhiyin": "Zhiyin Mobility",
   "ebikeProviderMango": "Электросамокат Mango",
   "settingsAccountEbikeTitle": "Аккаунты электросамокатов",
+  "settingsAccountOtherTitle": "Другие аккаунты",
+  "settingsAccountOtherSubtitle": "Электровелосипед, почта и VPN",
+  "settingsOtherAccountsPageTitle": "Другие аккаунты",
+  "settingsOtherAccountsCampusSectionTitle": "Аккаунты сервисов кампуса",
+  "settingsOtherAccountsSupplementSubtitle": "Выберите форму факультета",
+  "settingsOtherAccountsNotConfigured": "Не настроено",
   "ebikeAccountsTileNone": "Не привязан",
   "ebikeAccountsPageTitle": "Аккаунты электросамокатов",
   "ebikeAccountLinkAction": "Привязать аккаунт",

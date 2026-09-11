@@ -2984,6 +2984,7 @@
   },
   "authPasswordChangeConfirm": "Đổi mật khẩu",
   "authRegistrationWhuBindingRequired": "Cần liên kết tài khoản WHU để đăng ký",
+  "authRegistrationWhuNameMismatch": "Tên thật trên tài khoản WHU của bạn không khớp với lần đăng ký này",
   "authRegistrationBindWhuAccount": "Liên kết tài khoản WHU",
   "authPasswordMinLength": "Mật khẩu phải có ít nhất {count} ký tự",
   "@authPasswordMinLength": {
@@ -4950,6 +4951,25 @@
   },
   "coremailTimeLabel": "Thời gian",
   "coremailNoDisplayableContent": "Thư này không có nội dung hiển thị được.",
+  "coremailAttachmentsHeader": "Tệp đính kèm ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "Thư này chỉ chứa tệp đính kèm. Tải xuống hoặc xem ở trên hoặc bên dưới.",
+  "coremailSavingAttachment": "Đang tải tệp đính kèm…",
+  "coremailAttachmentSaved": "Đã lưu tệp đính kèm thành công",
+  "coremailAttachmentSaveFailed": "Không thể lưu tệp đính kèm: {error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "Đang mở liên kết…",
   "coremailLoading": "Đang tải…",
   "coremailLoadFailed": "Tải thất bại",
@@ -5033,6 +5053,12 @@
   "ebikeProviderZhiyin": "Zhiyin Mobility",
   "ebikeProviderMango": "Xe điện Mango",
   "settingsAccountEbikeTitle": "Tài khoản xe điện chia sẻ",
+  "settingsAccountOtherTitle": "Tài khoản khác",
+  "settingsAccountOtherSubtitle": "Xe điện, email và VPN",
+  "settingsOtherAccountsPageTitle": "Tài khoản khác",
+  "settingsOtherAccountsCampusSectionTitle": "Tài khoản dịch vụ trường",
+  "settingsOtherAccountsSupplementSubtitle": "Chọn biểu mẫu khoa",
+  "settingsOtherAccountsNotConfigured": "Chưa cấu hình",
   "ebikeAccountsTileNone": "Chưa liên kết",
   "ebikeAccountsPageTitle": "Tài khoản xe điện chia sẻ",
   "ebikeAccountLinkAction": "Liên kết tài khoản",

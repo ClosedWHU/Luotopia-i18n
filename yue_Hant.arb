@@ -2758,6 +2758,7 @@
   },
   "authPasswordChangeConfirm": "更改密碼",
   "authRegistrationWhuBindingRequired": "註冊需要已連結嘅 WHU 帳戶",
+  "authRegistrationWhuNameMismatch": "武大帳號嘅實名資訊同今次註冊唔一致",
   "authRegistrationBindWhuAccount": "連結 WHU 帳戶",
   "authPasswordMinLength": "密碼最少要有 {count} 個字元",
   "@authPasswordMinLength": {
@@ -4898,6 +4899,25 @@
   },
   "coremailTimeLabel": "時間",
   "coremailNoDisplayableContent": "呢封郵件冇可顯示嘅內容。",
+  "coremailAttachmentsHeader": "附件 ({count})",
+  "@coremailAttachmentsHeader": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "coremailOnlyAttachmentsNotice": "呢封郵件淨係有附件，請喺上面或者下面下載睇。",
+  "coremailSavingAttachment": "正在下載附件…",
+  "coremailAttachmentSaved": "附件已經成功儲存",
+  "coremailAttachmentSaveFailed": "儲存附件失敗：{error}",
+  "@coremailAttachmentSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "coremailOpeningLink": "開啟連結緊…",
   "coremailLoading": "載入緊…",
   "coremailLoadFailed": "載入失敗",
@@ -4981,6 +5001,12 @@
   "ebikeProviderZhiyin": "知音出行",
   "ebikeProviderMango": "芒果電單車",
   "settingsAccountEbikeTitle": "共享電動車帳號",
+  "settingsAccountOtherTitle": "其他帳號",
+  "settingsAccountOtherSubtitle": "電動車、郵箱同 VPN",
+  "settingsOtherAccountsPageTitle": "其他帳號",
+  "settingsOtherAccountsCampusSectionTitle": "校園服務帳號",
+  "settingsOtherAccountsSupplementSubtitle": "選擇學部補錄表單",
+  "settingsOtherAccountsNotConfigured": "未配置",
   "ebikeAccountsTileNone": "未綁定",
   "ebikeAccountsPageTitle": "共享電動車帳號",
   "ebikeAccountLinkAction": "綁定帳號",
