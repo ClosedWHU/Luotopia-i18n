@@ -3642,6 +3642,28 @@
   "authEditProfile": "Edit profile",
   "authDisplayName": "Display name",
   "authSocialProfile": "Social profile",
+  "authSocialAccountsTitle": "Connected accounts",
+  "authSocialAccountsSubtitle": "Connect HAM and other supported services",
+  "hamAccountTitle": "HAM account",
+  "hamAccountDescription": "Connect HAM to let Luotopia Server submit supported data on your behalf. HAM credentials stay encrypted on the server and are never exposed to this device.",
+  "hamAccountNotConnected": "Not connected",
+  "hamAccountConnected": "Connected",
+  "hamAccountAuthorizationRequired": "Authorization needs to be renewed",
+  "hamAccountConnectedAs": "Connected as {name}",
+  "@hamAccountConnectedAs": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      }
+    }
+  },
+  "hamAccountConnectSucceeded": "HAM account connected",
+  "hamAccountDisconnectAction": "Disconnect HAM account",
+  "hamAccountDisconnectConfirm": "Disconnect this HAM account? Luotopia Server will delete its saved HAM authorization.",
+  "hamAccountDisconnectSucceeded": "HAM account disconnected",
+  "hamAccountAuthorizationTitle": "Authorize HAM account",
+  "hamAccountSessionUnavailable": "Your Luotopia session is unavailable. Sign in again and retry.",
+  "hamAccountCookieUnavailable": "The Luotopia session could not be prepared for authorization.",
   "authRegion": "Region",
   "authGender": "Gender",
   "authGenderMale": "Male",

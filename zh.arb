@@ -3178,6 +3178,28 @@
   "authEditProfile": "编辑个人资料",
   "authDisplayName": "显示名称",
   "authSocialProfile": "社交资料",
+  "authSocialAccountsTitle": "关联账户",
+  "authSocialAccountsSubtitle": "关联 HAM 及其他支持的服务",
+  "hamAccountTitle": "HAM 账户",
+  "hamAccountDescription": "关联后，珞托邦服务端可代表你向 HAM 提交受支持的数据。HAM 凭据仅在服务端加密保存，不会暴露给此设备。",
+  "hamAccountNotConnected": "未关联",
+  "hamAccountConnected": "已关联",
+  "hamAccountAuthorizationRequired": "需要重新授权",
+  "hamAccountConnectedAs": "已关联为 {name}",
+  "@hamAccountConnectedAs": {
+   "placeholders": {
+     "name": {
+       "type": "String"
+      }
+    }
+  },
+  "hamAccountConnectSucceeded": "HAM 账户关联成功",
+  "hamAccountDisconnectAction": "解除 HAM 账户关联",
+  "hamAccountDisconnectConfirm": "确定解除这个 HAM 账户吗？珞托邦服务端将删除已保存的 HAM 授权。",
+  "hamAccountDisconnectSucceeded": "已解除 HAM 账户关联",
+  "hamAccountAuthorizationTitle": "授权 HAM 账户",
+  "hamAccountSessionUnavailable": "当前珞托邦会话不可用，请重新登录后再试。",
+  "hamAccountCookieUnavailable": "无法为授权流程准备珞托邦会话。",
   "authRegion": "地区",
   "authGender": "性别",
   "authGenderMale": "男",
