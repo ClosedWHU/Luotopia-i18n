@@ -8362,11 +8362,11 @@
     "whuTrustedDevicesTitle": "受信任的裝置",
     "whuTrustedDevicesValidity": "閒置 {days} 天後自動移除",
     "campusAppEbike": "電動車",
-    "ebikeProviderZhiyin": "知音出行",
-    "ebikeProviderMango": "芒果電動車",
+    "ebikeProviderZhiyin": "小綠",
+    "ebikeProviderMango": "小黃",
     "settingsAccountEbikeTitle": "共享電動車帳戶",
     "settingsAccountOtherTitle": "其他帳戶",
-    "settingsAccountOtherSubtitle": "電動車、郵箱與 VPN",
+    "settingsAccountOtherSubtitle": "郵箱、學習通與 VPN",
     "settingsOtherAccountsPageTitle": "其他帳戶",
     "settingsOtherAccountsCampusSectionTitle": "校園服務帳戶",
     "settingsOtherAccountsSupplementSubtitle": "選擇學部補錄表單",
@@ -8392,29 +8392,9 @@
             }
         }
     },
-    "ebikeLoginTitle": "綁定 {provider}",
-    "@ebikeLoginTitle": {
-        "placeholders": {
-            "provider": {
-                "type": "String"
-            }
-        }
-    },
-    "ebikeLoginPhoneLabel": "手機號碼",
-    "ebikeLoginPhoneHint": "請輸入內地手機號碼",
-    "ebikeLoginPhoneInvalid": "請輸入有效的手機號碼",
-    "ebikeLoginSendCode": "取得驗證碼",
-    "ebikeLoginCodeLabel": "簡訊驗證碼",
-    "ebikeLoginCodeHintZhiyin": "6 位數驗證碼",
-    "ebikeLoginCodeHintMango": "4 位數驗證碼",
-    "ebikeLoginCodeSent": "驗證碼已發送",
-    "ebikeLoginSubmit": "登入並綁定",
+    "ebikeLoginTitle": "憑證",
+    "ebikeLoginResearchOnly": "僅供學習和研究使用",
     "ebikeLoginSuccess": "綁定成功",
-    "ebikeLoginOpenIdLabel": "OpenID",
-    "ebikeLoginOpenIdHint": "微信 openid（已在本機自動產生）",
-    "ebikeLoginOpenIdHelper": "已在本機自動產生並固定儲存；可點右側按鈕重新產生，或手動修改。",
-    "ebikeLoginOpenIdRandomize": "隨機產生 openid",
-    "ebikeLoginOpenIdInvalid": "微信 openid 格式不正確：應為 o 開頭的 28 位字元",
     "ebikeHubNotLinkedTitle": "未綁定 {provider} 帳戶",
     "@ebikeHubNotLinkedTitle": {
         "placeholders": {
@@ -8544,7 +8524,7 @@
     "ebikeSettlePayWallet": "餘額支付",
     "ebikeSettlePaid": "支付成功",
     "ebikeSettleInsufficient": "餘額不足，請前往官方小程式儲值後再支付。",
-    "ebikeSettleMangoUnpaid": "待支付 {amount} 元，請前往芒果電動車小程式完成支付。",
+    "ebikeSettleMangoUnpaid": "待支付 {amount} 元，請前往小黃小程式完成支付。",
     "@ebikeSettleMangoUnpaid": {
         "placeholders": {
             "amount": {
@@ -8575,10 +8555,10 @@
     "ebikeCardsPurchaseSuccess": "購買成功",
     "ebikeCardsEmpty": "暫無在售騎行卡",
     "ebikeCardsMineEmpty": "暫無可用騎行卡",
-    "ebikeCardsMangoHint": "芒果騎行卡暫不支援在 App 內購買，請前往芒果電動車小程式。",
+    "ebikeCardsMangoHint": "小黃騎行卡暫不支援在 App 內購買，請前往小黃小程式。",
     "ebikeWalletTitle": "錢包",
     "ebikeWalletBalance": "餘額",
-    "ebikeWalletMangoCoin": "芒果餘額",
+    "ebikeWalletMangoCoin": "小黃餘額",
     "ebikeWalletDeposit": "押金",
     "ebikeWalletDepositPaid": "已繳納",
     "ebikeWalletDepositFree": "已免押",
@@ -8611,7 +8591,7 @@
         }
     },
     "ebikeWalletCampusCardNotBound": "未綁定",
-    "ebikeWalletMangoRechargeHint": "芒果餘額儲值請前往小程式",
+    "ebikeWalletMangoRechargeHint": "小黃餘額儲值請前往小程式",
     "ebikeOrdersTitle": "行程訂單",
     "ebikeOrdersEmpty": "暫無訂單",
     "ebikeOrdersLoadMore": "載入更多",
@@ -8628,16 +8608,9 @@
     "ebikeErrorLocation": "需要定位權限才能用車",
     "ebikeErrorUpstream": "上游服務異常",
     "ebikeErrorSmsLoginClosed": "該平台未開放簡訊驗證碼登入，請在其微信小程式內登入",
-    "ebikeZhiyinWechatOnlyTitle": "知音出行需在微信內登入",
-    "ebikeZhiyinWechatOnlyBody": "知音已關閉簡訊驗證碼登入，其餘登入方式都必須由微信或支付寶在官方小程式內簽發一次性授權碼。Luotopia 無法取得該授權碼，因此不能自動綁定帳戶。",
-    "ebikeZhiyinImportTitle": "進階：匯入登入權杖",
-    "ebikeZhiyinImportInstructions": "先在知音微信小程式中登入，再用抓包代理複製任一介面請求的 Authorization 值。refreshToken 可選，填寫後 Luotopia 可自動續期。",
     "ebikeZhiyinImportTokenLabel": "存取權杖",
-    "ebikeZhiyinImportTokenHint": "eyJ… 或 Bearer eyJ…",
     "ebikeZhiyinImportRefreshLabel": "重新整理權杖（可選）",
-    "ebikeZhiyinImportRefreshHint": "填寫後可自動續期",
-    "ebikeZhiyinImportSensitiveWarning": "該權杖可解鎖車輛並使用一卡通付款，請只保存在本機，切勿分享。",
-    "ebikeZhiyinImportInvalid": "權杖無效或已過期，請重新從小程式中擷取。",
+    "ebikeZhiyinImportInvalid": "憑證無效或已過期。",
     "ebikeZhiyinImportSubmit": "匯入並驗證",
     "ebikeZhiyinImportSuccess": "已匯入工作階段，存取權杖將於 {expiry} 過期。",
     "ebikeWalletCampusCardLoadFailed": "一卡通狀態載入失敗",

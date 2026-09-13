@@ -1,19 +1,19 @@
 # Luotopia-i18n
 
-This repository contains the translation (ARB) files for the Luotopia application.
+本仓库包含 Luotopia 应用的翻译(ARB)文件。
 
-It is included as a Git submodule in the frontend repository at `lib/core/l10n/arb`.
+它作为 Git 子模块被前端仓库引入,路径为 `lib/core/l10n/arb`。
 
 ---
 
-## Translation Status
+## 翻译状态
 
-### Total Progress
+### 总体进度
 [![Translation status](https://weblate.milthm.com/widget/closedwhu/luotopia/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/)
 
-### Individual Languages
+### 各语言
 
-| Language / 语言 | Translation Status / 翻译状态 |
+| 语言 / Language | 翻译状态 / Translation Status |
 | :--- | :--- |
 | **English** | [![English status](https://weblate.milthm.com/widget/closedwhu/luotopia/en/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/en/) |
 | **简体中文** | [![Simplified Chinese status](https://weblate.milthm.com/widget/closedwhu/luotopia/zh_Hans/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/zh_Hans/) |
