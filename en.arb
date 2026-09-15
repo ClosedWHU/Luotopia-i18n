@@ -3651,6 +3651,28 @@
     }
   },
   "authSessionsSubtitle": "View and sign out signed-in devices",
+  "authSessionsCurrentDevice": "This device",
+  "authSessionsEditRemark": "Edit remark",
+  "authSessionsRemarkField": "Remark",
+  "authSessionsSignOutConfirm": "Sign out {device}? That device will need to sign in again.",
+  "@authSessionsSignOutConfirm": {
+    "placeholders": {
+      "device": { "type": "String" }
+    }
+  },
+  "authSessionsSignOutCurrentWarning": "This is your current device. Signing out will immediately end this session here and you will need to sign in again.",
+  "ipLocationRegion": "Region: {region}",
+  "@ipLocationRegion": {
+    "placeholders": {
+      "region": { "type": "String" }
+    }
+  },
+  "ipLocationIsp": "ISP: {isp}",
+  "@ipLocationIsp": {
+    "placeholders": {
+      "isp": { "type": "String" }
+    }
+  },
   "authApiCredentialsSubtitle": "Manage API keys for external access",
   "authChangePassword": "Change password",
   "authDeleteAccount": "Delete account",
