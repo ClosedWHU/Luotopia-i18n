@@ -2,7 +2,7 @@
   "@@locale": "zh",
   "designLanguage": "设计语言",
   "designLanguageExperimentalNote": "实验功能 · 目前仅 Theme Lab 预览生效",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "badgeItemEmail": "{count, plural, other{{count}封新的邮件}}",
   "badgeItemForum": "{count, plural, other{{count}条未读帖子}}",
   "badgeItemMessages": "{count, plural, other{{count}条新的消息}}",
@@ -505,6 +505,8 @@
   "luotopiaPasswordRequireUppercase": "包含大写字母",
   "luotopiaPasswordRequireSpecial": "包含特殊字符",
   "luotopiaUsername": "用户名",
+  "luotopiaUsernameExists": "该用户名已被占用",
+  "luotopiaUsernameInvalidFormat": "用户名只能包含字母、数字、点、连字符和下划线，且至少包含一个字母",
   "luotopiaUsernameMinHint": "至少 3 个字符",
   "luotopiaUsernameTooShort": "用户名至少 3 个字符",
   "luotopiaWelcomeBack": "欢迎回来",
@@ -1071,12 +1073,6 @@
       }
     }
   },
-  "@yy1": {
-   "placeholders": {
-     "y": {},
-     "yPlus1": {}
-    }
-  },
   "courseImportStatusImported": "导入完成：新增 {count} 条，当前周 {currentWeek} 条。",
   "@courseImportStatusImported": {
    "placeholders": {
@@ -1232,16 +1228,16 @@
   "aiVoiceConnecting": "正在连接…",
   "aiVoiceTranscribing": "正在转写…",
   "aiVoiceFailed": "语音输入失败",
-  "aiVoiceModelRequired": "请先下载 Whisper 模型,再使用语音输入",
+  "aiVoiceModelRequired": "请先下载 Whisper 模型，再使用语音输入",
   "aiVoiceKeyRequired": "请先为云端语音识别配置 API 密钥",
   "aiVoiceMicPermission": "未获得麦克风权限",
   "aiVoiceUnsupported": "当前设备不支持语音识别",
   "aiAsrOpenAiRealtime": "OpenAI 实时转写",
   "aiAsrDashScope": "DashScope 实时转写",
   "aiAsrApiKey": "API 密钥",
-  "aiAsrApiKeyHint": "留空时,若当前 AI 服务商兼容,将复用其密钥",
-  "aiAsrEndpoint": "服务端点(可选)",
-  "aiAsrModel": "模型(可选)",
+  "aiAsrApiKeyHint": "留空时，若当前 AI 服务商兼容，将复用其密钥",
+  "aiAsrEndpoint": "服务端点（可选）",
+  "aiAsrModel": "模型（可选）",
   "aiAsrLanguage": "识别语言",
   "aiAsrLanguageAuto": "自动检测",
   "aiSkillsEnabled": "已启用 {count} 个",
@@ -1353,7 +1349,7 @@
       }
     }
   },
-  "settingsAiModelsSwitchHint": "切换供应商会载入该供应商已保存的模型列表。",
+  "settingsAiModelsSwitchHint": "切换供应商会加载该供应商已保存的模型列表。",
   "settingsAiNoModelsHint": "先选择供应商，再拉取它的模型列表",
   "settingsAiModelContextWindow": "上下文窗口（token）",
   "settingsAiGroupModel": "模型",
@@ -2911,6 +2907,10 @@
   "settingsDevHotUpdateSubtitle": "查看可热更新的解析脚本及其状态",
   "settingsDevDeviceTrustTitle": "设备认证",
   "settingsDevDeviceTrustSubtitle": "检查设备完整性与安全信号",
+  "settingsSecurityCloneTitle": "应用数据疑似被克隆",
+  "settingsSecurityCloneSubtitle": "安全存储会在读取时被清空，账号将自动退出登录。点击查看详情。",
+  "settingsSecurityCompromisedTitle": "检测到风险运行环境",
+  "settingsSecurityCompromisedSubtitle": "依赖内置密钥的功能已停用，开发者模式不可用；登录状态不受影响。点击查看详情。",
   "hotUpdateTitle": "热更新管理",
   "hotUpdateManifestVersion": "清单版本 v{version}",
   "hotUpdateUpdatedAt": "更新时间：{time}",
@@ -2986,6 +2986,8 @@
   "authRememberCredentials": "记住账号和密码",
   "whuNativeLoginRememberMobile": "记住手机号",
   "authResetPassword": "重置密码",
+  "authEmailVerifySuccess": "邮箱验证成功，请重新登录",
+  "authPasswordResetSuccess": "密码已重置，请用新密码登录",
   "authSendResetLink": "发送重置链接",
   "authResetRequested": "如果该邮箱已注册，密码重置邮件将在几分钟内送达。如未收到，请检查垃圾邮件文件夹，并确认邮箱地址拼写无误。",
   "authLoginEmailUnverified": "该邮箱尚未验证，请完成验证后再登录。",
@@ -3626,6 +3628,183 @@
   "forumRemoveLike": "取消点赞",
   "forumRemoveFavorite": "取消收藏",
   "forumPersonalEmpty": "这里还没有内容。",
+  "forumDrafts": "草稿箱",
+  "forumDraftBadge": "草稿",
+  "forumSaveDraft": "存草稿",
+  "forumDraftSaved": "草稿已保存",
+  "forumDraftSaveFailed": "草稿保存失败：{error}",
+  "@forumDraftSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumDraftEmpty": "暂无草稿",
+  "forumDraftEmptyHint": "编辑时选择「存草稿」，未发布的内容就会保留在这里。",
+  "forumDraftDelete": "删除草稿",
+  "forumDraftDeleteConfirmTitle": "删除这篇草稿？",
+  "forumDraftDeleteConfirmMessage": "草稿及其内容将被丢弃，且无法恢复。",
+  "forumDraftDeleted": "草稿已删除",
+  "forumDraftDeleteFailed": "草稿删除失败：{error}",
+  "@forumDraftDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumDraftPublished": "草稿已发布",
+  "forumDraftEditTitle": "编辑草稿",
+  "forumDraftLastEdited": "编辑于 {time}",
+  "@forumDraftLastEdited": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "forumUnsavedChangesTitle": "内容尚未保存",
+  "forumUnsavedChangesMessage": "发布这篇帖子、存为草稿，还是丢弃？",
+  "forumUnsavedChangesPublish": "发布",
+  "forumUnsavedChangesSaveDraft": "存草稿",
+  "forumUnsavedChangesDiscard": "丢弃",
+  "forumPostStatusPublished": "已发布",
+  "forumUserProfileTitle": "个人主页",
+  "forumUserPostsTab": "帖子",
+  "forumUserCommentsTab": "评论",
+  "forumUserLikedTab": "点赞",
+  "forumUserFavoritesTab": "收藏",
+  "forumUserFollowersTab": "粉丝",
+  "forumUserFollowingTab": "关注",
+  "forumUserJoinedAt": "{date} 加入",
+  "@forumUserJoinedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "forumUserContentEmpty": "还没有发布内容。",
+  "forumUserCommentsEmpty": "还没有评论。",
+  "forumUserListHidden": "该列表不公开。",
+  "forumUserBlockedYou": "该用户已将你拉黑。",
+  "forumUserYouBlocked": "你已将此用户拉黑。",
+  "forumUserUnblockToView": "取消拉黑后可查看其内容。",
+  "forumProfilePrivacyTitle": "主页隐私",
+  "forumProfilePrivacySubtitle": "选择他人在你的主页上可以看到的内容。",
+  "forumPrivacyShowLikes": "公开点赞列表",
+  "forumPrivacyShowLikesSubtitle": "允许他人查看你点赞过的帖子。",
+  "forumPrivacyShowFavorites": "公开收藏列表",
+  "forumPrivacyShowFavoritesSubtitle": "允许他人查看你收藏的帖子。",
+  "forumPrivacyShowFollowers": "公开粉丝列表",
+  "forumPrivacyShowFollowersSubtitle": "允许他人查看你的粉丝列表。",
+  "forumPrivacyShowFollowing": "公开关注列表",
+  "forumPrivacyShowFollowingSubtitle": "允许他人查看你关注的人。",
+  "forumPrivacyUpdated": "隐私设置已更新",
+  "forumPrivacyUpdateFailed": "隐私设置更新失败：{error}",
+  "@forumPrivacyUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumFollow": "关注",
+  "forumUnfollow": "取消关注",
+  "forumFollowers": "粉丝",
+  "forumFollowing": "关注",
+  "forumMutualFollow": "互相关注",
+  "forumFollowsYou": "已关注你",
+  "forumFollowFailed": "关注失败：{error}",
+  "@forumFollowFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumUnfollowFailed": "取消关注失败：{error}",
+  "@forumUnfollowFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumBlock": "拉黑",
+  "forumUnblock": "取消拉黑",
+  "forumBlockedBadge": "已拉黑",
+  "forumBlockConfirmTitle": "拉黑 {nickname}？",
+  "@forumBlockConfirmTitle": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "forumBlockConfirmMessage": "双方将自动取消关注，且彼此无法再发送私信。",
+  "forumBlockDone": "已拉黑",
+  "forumUnblockDone": "已取消拉黑",
+  "forumBlockFailed": "拉黑失败：{error}",
+  "@forumBlockFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumUnblockFailed": "取消拉黑失败：{error}",
+  "@forumUnblockFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumRemoveFollower": "移除粉丝",
+  "forumRemoveFollowerConfirmTitle": "将 {nickname} 从粉丝中移除？",
+  "@forumRemoveFollowerConfirmTitle": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "forumRemoveFollowerConfirmMessage": "对方将不再关注你。系统不会通知对方，且对方可以重新关注。",
+  "forumFollowerRemoved": "已移除粉丝",
+  "forumBlockListTitle": "黑名单",
+  "forumBlockListSubtitle": "被拉黑的用户无法关注你或给你发私信。",
+  "forumBlockListEmpty": "你还没有拉黑任何人。",
+  "forumRelationListEmpty": "这里还没有人。",
+  "forumRelationListFailed": "列表加载失败：{error}",
+  "@forumRelationListFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumMessagesTitle": "私信",
+  "forumMessagesEntrySubtitle": "与互相关注的人私聊",
+  "forumConversationsEmpty": "暂无私信",
+  "forumConversationsEmptyHint": "互相关注后即可发送私信。",
+  "forumChatInputHint": "发送消息…",
+  "forumChatSend": "发送",
+  "forumChatEmpty": "打个招呼吧。",
+  "forumChatMutualRequired": "只有互相关注才能发送私信。",
+  "forumChatBlocked": "你们之间无法发送私信。",
+  "forumChatSendFailed": "消息发送失败：{error}",
+  "@forumChatSendFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forumChatLoadEarlier": "加载更早的消息",
+  "forumSendMessage": "发私信",
+  "forumMenuBlocks": "黑名单",
   "forumShelterPrivacyTitle": "防空洞隐私说明",
   "forumShelterPrivacyDescription": "你的匿名身份仅在当前话题内保持一致，不会显示头像或个人资料；该帖子将在 24 小时后过期。",
   "forumShelterExpiresIn": "将在 {time} 后过期",
@@ -4721,7 +4900,7 @@
   "luotopiaAccountViewLargeAvatar": "查看大头像",
   "luotopiaAccountChangeAvatar": "更换头像",
   "aiDebugNoExportableSession": "无可以导出的 AI 会话。",
-  "aiDebugExportSubject": "Agent Debug Export",
+  "aiDebugExportSubject": "Agent 调试导出",
   "aiDebugExported": "已导出至 {fileName}",
   "aiDebugExportFailed": "导出失败: {error}",
   "aiDebugAgentH2Title": "Agent 调试看板",

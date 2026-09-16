@@ -2,7 +2,7 @@
   "@@locale": "ko",
   "designLanguage": "디자인 언어",
   "designLanguageExperimentalNote": "실험 기능 · 현재 Theme Lab 미리보기에만 적용",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "badgeItemEmail": "{count, plural, other{새 이메일 {count}개}}",
   "badgeItemForum": "{count, plural, other{안 읽은 게시물 {count}개}}",
   "badgeItemMessages": "{count, plural, other{새 메시지 {count}개}}",
@@ -468,6 +468,8 @@
   "luotopiaPasswordRequireUppercase": "대문자 포함",
   "luotopiaPasswordRequireSpecial": "특수 문자 포함",
   "luotopiaUsername": "사용자 이름",
+  "luotopiaUsernameExists": "이미 사용 중인 사용자 이름입니다",
+  "luotopiaUsernameInvalidFormat": "사용자 이름은 문자, 숫자, 점, 하이픈, 밑줄만 사용할 수 있으며 문자를 하나 이상 포함해야 합니다",
   "luotopiaUsernameMinHint": "3자 이상",
   "luotopiaUsernameTooShort": "사용자 이름은 3자 이상이어야 합니다",
   "luotopiaWelcomeBack": "다시 오신 것을 환영합니다",
@@ -2799,6 +2801,8 @@
   "authNoPasskeys": "등록된 Passkey가 없습니다",
   "authForgotPassword": "비밀번호를 잊으셨나요?",
   "authResetPassword": "비밀번호 재설정",
+  "authEmailVerifySuccess": "이메일이 인증되었습니다. 다시 로그인해 주세요.",
+  "authPasswordResetSuccess": "비밀번호가 재설정되었습니다. 새 비밀번호로 로그인해 주세요.",
   "authSendResetLink": "재설정 링크 보내기",
   "authResetRequested": "이 이메일이 등록되어 있다면 몇 분 안에 비밀번호 재설정 이메일이 도착합니다. 받지 못했다면 스팸함과 이메일 주소 철자를 확인하세요.",
   "authLoginEmailUnverified": "이 이메일 주소는 아직 인증되지 않았습니다. 로그인하기 전에 인증하세요.",
@@ -3152,6 +3156,10 @@
   "settingsDevLifecycleDiagnosticsSubtitle": "핫 업데이트, 위치 새로고침 및 수명 주기 제어 흐름 추적",
   "settingsDevDeviceTrustTitle": "기기 신뢰",
   "settingsDevDeviceTrustSubtitle": "기기 무결성 및 보안 신호를 검사합니다",
+  "settingsSecurityCloneTitle": "앱 데이터가 복제되었을 수 있습니다",
+  "settingsSecurityCloneSubtitle": "보안 저장소가 읽기 시 삭제되어 자동으로 로그아웃됩니다. 세부 정보를 보려면 탭하세요.",
+  "settingsSecurityCompromisedTitle": "위험한 실행 환경이 감지되었습니다",
+  "settingsSecurityCompromisedSubtitle": "내장 키에 의존하는 기능이 비활성화되고 개발자 모드를 사용할 수 없습니다. 로그인 상태는 영향을 받지 않습니다. 세부 정보를 보려면 탭하세요.",
   "courseGradeStatsSourceLuotopiaShort": "뤄자",
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
@@ -3306,6 +3314,183 @@
   "forumRemoveLike": "좋아요 취소",
   "forumRemoveFavorite": "저장 취소",
   "forumPersonalEmpty": "아직 아무것도 없습니다.",
+  "forumDrafts": "임시 저장함",
+  "forumDraftBadge": "임시 저장",
+  "forumSaveDraft": "임시 저장",
+  "forumDraftSaved": "임시 저장했습니다",
+  "forumDraftSaveFailed": "임시 저장하지 못했습니다: {error}",
+  "@forumDraftSaveFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftEmpty": "임시 저장한 글이 없습니다",
+  "forumDraftEmptyHint": "게시하지 않고 편집기를 나올 때 '임시 저장'을 선택하세요.",
+  "forumDraftDelete": "임시 저장 삭제",
+  "forumDraftDeleteConfirmTitle": "이 임시 저장 글을 삭제할까요?",
+  "forumDraftDeleteConfirmMessage": "임시 저장 글과 내용이 삭제되며 되돌릴 수 없습니다.",
+  "forumDraftDeleted": "임시 저장 글을 삭제했습니다",
+  "forumDraftDeleteFailed": "임시 저장 글을 삭제하지 못했습니다: {error}",
+  "@forumDraftDeleteFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftPublished": "임시 저장 글을 게시했습니다",
+  "forumDraftEditTitle": "임시 저장 글 수정",
+  "forumDraftLastEdited": "{time}에 수정함",
+  "@forumDraftLastEdited": {
+   "placeholders": {
+     "time": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnsavedChangesTitle": "저장하지 않은 변경 사항",
+  "forumUnsavedChangesMessage": "이 글을 게시하거나 임시 저장하거나 삭제하시겠어요?",
+  "forumUnsavedChangesPublish": "게시",
+  "forumUnsavedChangesSaveDraft": "임시 저장",
+  "forumUnsavedChangesDiscard": "삭제",
+  "forumPostStatusPublished": "게시됨",
+  "forumUserProfileTitle": "프로필",
+  "forumUserPostsTab": "게시물",
+  "forumUserCommentsTab": "댓글",
+  "forumUserLikedTab": "좋아요",
+  "forumUserFavoritesTab": "보관함",
+  "forumUserFollowersTab": "팔로워",
+  "forumUserFollowingTab": "팔로잉",
+  "forumUserJoinedAt": "{date}에 가입",
+  "@forumUserJoinedAt": {
+   "placeholders": {
+     "date": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUserContentEmpty": "아직 게시한 내용이 없습니다.",
+  "forumUserCommentsEmpty": "아직 댓글이 없습니다.",
+  "forumUserListHidden": "비공개 목록입니다.",
+  "forumUserBlockedYou": "이 사용자가 회원님을 차단했습니다.",
+  "forumUserYouBlocked": "이 사용자를 차단했습니다.",
+  "forumUserUnblockToView": "차단을 해제하면 내용을 볼 수 있습니다.",
+  "forumProfilePrivacyTitle": "프로필 공개 범위",
+  "forumProfilePrivacySubtitle": "다른 사람에게 프로필에 표시할 항목을 선택하세요.",
+  "forumPrivacyShowLikes": "좋아요 한 게시물 공개",
+  "forumPrivacyShowLikesSubtitle": "다른 사람이 좋아요 한 게시물 목록을 볼 수 있게 합니다.",
+  "forumPrivacyShowFavorites": "보관한 게시물 공개",
+  "forumPrivacyShowFavoritesSubtitle": "다른 사람이 보관한 게시물 목록을 볼 수 있게 합니다.",
+  "forumPrivacyShowFollowers": "팔로워 공개",
+  "forumPrivacyShowFollowersSubtitle": "다른 사람이 팔로워 목록을 볼 수 있게 합니다.",
+  "forumPrivacyShowFollowing": "팔로잉 공개",
+  "forumPrivacyShowFollowingSubtitle": "다른 사람이 팔로잉 목록을 볼 수 있게 합니다.",
+  "forumPrivacyUpdated": "공개 범위 설정을 업데이트했습니다",
+  "forumPrivacyUpdateFailed": "공개 범위 설정을 업데이트하지 못했습니다: {error}",
+  "@forumPrivacyUpdateFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumFollow": "팔로우",
+  "forumUnfollow": "팔로우 취소",
+  "forumFollowers": "팔로워",
+  "forumFollowing": "팔로잉",
+  "forumMutualFollow": "맞팔로우",
+  "forumFollowsYou": "회원님을 팔로우합니다",
+  "forumFollowFailed": "팔로우하지 못했습니다: {error}",
+  "@forumFollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnfollowFailed": "팔로우를 취소하지 못했습니다: {error}",
+  "@forumUnfollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlock": "차단",
+  "forumUnblock": "차단 해제",
+  "forumBlockedBadge": "차단됨",
+  "forumBlockConfirmTitle": "{nickname} 님을 차단할까요?",
+  "@forumBlockConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlockConfirmMessage": "서로 자동으로 팔로우가 해제되며 더 이상 쪽지를 주고받을 수 없습니다.",
+  "forumBlockDone": "차단했습니다",
+  "forumUnblockDone": "차단을 해제했습니다",
+  "forumBlockFailed": "이 사용자를 차단하지 못했습니다: {error}",
+  "@forumBlockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnblockFailed": "이 사용자의 차단을 해제하지 못했습니다: {error}",
+  "@forumUnblockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollower": "팔로워 삭제",
+  "forumRemoveFollowerConfirmTitle": "{nickname} 님을 팔로워에서 삭제할까요?",
+  "@forumRemoveFollowerConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollowerConfirmMessage": "상대방이 회원님을 팔로우하지 않게 됩니다. 별도 알림은 없으며 다시 팔로우할 수 있습니다.",
+  "forumFollowerRemoved": "팔로워를 삭제했습니다",
+  "forumBlockListTitle": "차단한 사용자",
+  "forumBlockListSubtitle": "차단한 사용자는 회원님을 팔로우하거나 쪽지를 보낼 수 없습니다.",
+  "forumBlockListEmpty": "차단한 사용자가 없습니다.",
+  "forumRelationListEmpty": "아직 아무도 없습니다.",
+  "forumRelationListFailed": "목록을 불러오지 못했습니다: {error}",
+  "@forumRelationListFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumMessagesTitle": "쪽지",
+  "forumMessagesEntrySubtitle": "맞팔로우한 사람과 주고받는 쪽지",
+  "forumConversationsEmpty": "쪽지가 없습니다",
+  "forumConversationsEmptyHint": "서로 팔로우하면 쪽지를 보낼 수 있습니다.",
+  "forumChatInputHint": "메시지…",
+  "forumChatSend": "보내기",
+  "forumChatEmpty": "인사를 건네 보세요.",
+  "forumChatMutualRequired": "맞팔로우한 사람에게만 쪽지를 보낼 수 있습니다.",
+  "forumChatBlocked": "서로 쪽지를 주고받을 수 없습니다.",
+  "forumChatSendFailed": "메시지를 보내지 못했습니다: {error}",
+  "@forumChatSendFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumChatLoadEarlier": "이전 메시지 불러오기",
+  "forumSendMessage": "쪽지 보내기",
+  "forumMenuBlocks": "차단한 사용자",
   "forumShelterPrivacyTitle": "쉼터 개인정보 보호",
   "forumShelterPrivacyDescription": "별명은 이 주제 안에서만 일관되게 유지됩니다. 아바타나 프로필은 표시되지 않으며, 이 게시글은 24시간 후 만료됩니다.",
   "forumShelterExpiresIn": "{time} 후 만료",
@@ -3942,7 +4127,7 @@
   "luotopiaRegisterUseAnotherWhuTitle": "WHU 계정을 전환할까요?",
   "luotopiaRegisterUseAnotherWhuConfirm": "현재 WHU 계정에서 로그아웃하고 이 신원으로 입력한 등록 정보를 지웁니다.",
   "luotopiaRegisterStepProfileTitle": "프로필 및 이메일",
-  "luotopiaRegisterStepProfileSubtitle": "표시 이름과 뤄자 계정에 사용할 이메일을 선택하세요.",
+  "luotopiaRegisterStepProfileSubtitle": "뤄자 계정에 사용할 고유한 사용자 이름과 이메일을 선택하세요.",
   "luotopiaRegisterEmailVerifiedHint": "이 이메일은 WHU 계정에서 인증되어 자동으로 입력되었습니다. 변경할 수도 있습니다.",
   "luotopiaRegisterEmailUnverifiedHint": "WHU 이메일이라면 먼저 WHU 계정 페이지에서 인증하면 자동으로 입력할 수 있습니다.",
   "luotopiaRegisterStepPasswordTitle": "비밀번호 설정",
@@ -4300,7 +4485,7 @@
   "forumKarmaLedgerTitle": "내역",
   "forumKarmaLedgerVoteCost": "투표 비용",
   "forumKarmaLedgerVoteRefund": "투표 환불",
-  "forumKarmaLowQualityHint": "물군 이외의 저신호 게시글에는 사유 low_quality(권장 ?10)를 사용하세요. 물군 게시글은 게시 보상을 받지 못합니다.",
+  "forumKarmaLowQualityHint": "灌水 이외의 저품질 게시글에는 사유 low_quality(권장 −10)를 사용하세요. 灌水 게시글은 작성 보상을 받지 못합니다.",
   "forumKarmaNextLevel": "다음 레벨 {karma}",
   "forumKarmaSettingCheckinFixed": "고정 체크인",
   "forumKarmaSettingCommentDown": "댓글 싫어요 손실",

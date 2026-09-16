@@ -2,9 +2,9 @@
   "@@locale": "pt",
   "designLanguage": "Linguagem de design",
   "designLanguageExperimentalNote": "Experimental · por enquanto afeta apenas a pré-visualização do Theme Lab",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "badgeItemEmail": "{count, plural, one{{count} novo e-mail} other{{count} novos e-mails}}",
-  "badgeItemForum": "{count, plural, one{{count} postagem não lida} other{{count} postagens não lidas}}",
+  "badgeItemForum": "{count, plural, one{{count} publicação não lida} other{{count} publicações não lidas}}",
   "badgeItemMessages": "{count, plural, one{{count} nova mensagem} other{{count} novas mensagens}}",
   "badgeItemTasks": "{count, plural, one{{count} tarefa incompleta} other{{count} tarefas incompletas}}",
   "badgeLastSep": " e ",
@@ -217,7 +217,7 @@
   "commonNotSet": "Não definido",
   "commonPassword": "Senha",
   "commonShowPassword": "Mostrar senha",
-  "commonPasswordRevealLockedHint": "Limpe o campo e escreva a sua palavra-passe para a poder mostrar",
+  "commonPasswordRevealLockedHint": "Limpe o campo e escreva a sua senha para a poder mostrar",
   "commonHidePassword": "Ocultar senha",
   "commonResendCodeIn": "Reenviar em {seconds}s",
   "commonRegister": "Registrar",
@@ -465,6 +465,8 @@
   "luotopiaPasswordRequireUppercase": "Inclua uma letra maiúscula",
   "luotopiaPasswordRequireSpecial": "Inclua um caractere especial",
   "luotopiaUsername": "Nome de usuário",
+  "luotopiaUsernameExists": "Esse nome de usuário já está em uso",
+  "luotopiaUsernameInvalidFormat": "O nome de usuário pode conter apenas letras, números, pontos, hífens e sublinhados, e deve conter pelo menos uma letra",
   "luotopiaUsernameMinHint": "Pelo menos 3 caracteres",
   "luotopiaUsernameTooShort": "O nome de usuário deve ter pelo menos 3 caracteres",
   "luotopiaWelcomeBack": "Bem-vindo de volta",
@@ -680,7 +682,7 @@
   "whuKnownAccountsTitle": "Sessões anteriores",
   "whuKnownAccountForgetAction": "Esquecer",
   "whuKnownAccountForgetConfirmTitle": "Esquecer esta conta?",
-  "whuKnownAccountForgetConfirmMessage": "Remove {account} e a palavra-passe guardada deste dispositivo. Não termina nenhuma sessão ativa.",
+  "whuKnownAccountForgetConfirmMessage": "Remove {account} e a senha salva deste dispositivo. Não termina nenhuma sessão ativa.",
   "@whuKnownAccountForgetConfirmMessage": {
     "placeholders": {
       "account": {
@@ -1173,6 +1175,10 @@
   "settingsDevHotUpdateSubtitle": "Ver scripts de análise atualizáveis instantaneamente e seu status",
   "settingsDevDeviceTrustTitle": "Confiança do dispositivo",
   "settingsDevDeviceTrustSubtitle": "Inspecionar a integridade do dispositivo e os sinais de segurança",
+  "settingsSecurityCloneTitle": "Os dados do aplicativo podem ter sido clonados",
+  "settingsSecurityCloneSubtitle": "O armazenamento seguro é apagado na leitura, então você será desconectado. Toque para ver detalhes.",
+  "settingsSecurityCompromisedTitle": "Ambiente de execução de risco detectado",
+  "settingsSecurityCompromisedSubtitle": "Os recursos que dependem de chaves integradas estão desativados e o modo desenvolvedor está bloqueado; sua sessão não é afetada. Toque para ver detalhes.",
   "hotUpdateTitle": "Gerenciamento de atualização instantânea",
   "hotUpdateManifestVersion": "Manifesto v{version}",
   "@hotUpdateManifestVersion": {
@@ -1318,7 +1324,7 @@
   "settingsHomeCropImage": "Cortar imagem",
   "imageCropDesktopHint": "Arraste para mover · use +/− para redimensionar o recorte",
   "imageCropDesktopHintSquare": "Arraste para mover · use +/− para redimensionar o recorte quadrado",
-  "imageCropPresetDevice": "Proporção do ecrã",
+  "imageCropPresetDevice": "Proporção da tela",
   "imageCropPresetOriginal": "Original",
   "imageCropRatioFree": "Livre",
   "imageCropZoomIn": "Aumentar zoom",
@@ -2602,6 +2608,8 @@
   "authNoPasskeys": "Nenhuma Passkey",
   "authForgotPassword": "Esqueceu a senha?",
   "authResetPassword": "Redefinir senha",
+  "authEmailVerifySuccess": "E-mail verificado. Faça login novamente.",
+  "authPasswordResetSuccess": "Senha redefinida. Faça login com sua nova senha.",
   "authSendResetLink": "Enviar link",
   "authResetRequested": "Se este e-mail estiver registrado, a mensagem para redefinir a senha deverá chegar em alguns minutos. Se não a receber, verifique o spam e a grafia do endereço.",
   "authLoginEmailUnverified": "Este endereço de e-mail ainda não foi verificado. Verifique-o antes de entrar.",
@@ -3122,6 +3130,183 @@
   "forumRemoveLike": "Remover curtida",
   "forumRemoveFavorite": "Remover publicação salva",
   "forumPersonalEmpty": "Ainda não há nada aqui.",
+  "forumDrafts": "Rascunhos",
+  "forumDraftBadge": "Rascunho",
+  "forumSaveDraft": "Salvar rascunho",
+  "forumDraftSaved": "Rascunho salvo",
+  "forumDraftSaveFailed": "Não foi possível salvar o rascunho: {error}",
+  "@forumDraftSaveFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftEmpty": "Nenhum rascunho ainda",
+  "forumDraftEmptyHint": "Escolha “Salvar rascunho” ao sair do editor sem publicar.",
+  "forumDraftDelete": "Excluir rascunho",
+  "forumDraftDeleteConfirmTitle": "Excluir este rascunho?",
+  "forumDraftDeleteConfirmMessage": "O rascunho e seu texto serão descartados. Isso não pode ser desfeito.",
+  "forumDraftDeleted": "Rascunho excluído",
+  "forumDraftDeleteFailed": "Não foi possível excluir o rascunho: {error}",
+  "@forumDraftDeleteFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftPublished": "Rascunho publicado",
+  "forumDraftEditTitle": "Editar rascunho",
+  "forumDraftLastEdited": "Editado {time}",
+  "@forumDraftLastEdited": {
+   "placeholders": {
+     "time": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnsavedChangesTitle": "Alterações não salvas",
+  "forumUnsavedChangesMessage": "Publicar esta publicação, mantê-la como rascunho ou descartá-la?",
+  "forumUnsavedChangesPublish": "Publicar",
+  "forumUnsavedChangesSaveDraft": "Salvar rascunho",
+  "forumUnsavedChangesDiscard": "Descartar",
+  "forumPostStatusPublished": "Publicada",
+  "forumUserProfileTitle": "Perfil",
+  "forumUserPostsTab": "Postagens",
+  "forumUserCommentsTab": "Comentários",
+  "forumUserLikedTab": "Curtidas",
+  "forumUserFavoritesTab": "Salvos",
+  "forumUserFollowersTab": "Seguidores",
+  "forumUserFollowingTab": "Seguindo",
+  "forumUserJoinedAt": "Entrou em {date}",
+  "@forumUserJoinedAt": {
+   "placeholders": {
+     "date": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUserContentEmpty": "Nada publicado ainda.",
+  "forumUserCommentsEmpty": "Nenhum comentário ainda.",
+  "forumUserListHidden": "Esta lista é privada.",
+  "forumUserBlockedYou": "Este usuário bloqueou você.",
+  "forumUserYouBlocked": "Você bloqueou este usuário.",
+  "forumUserUnblockToView": "Desbloqueie para ver o conteúdo dele.",
+  "forumProfilePrivacyTitle": "Privacidade do perfil",
+  "forumProfilePrivacySubtitle": "Escolha o que outras pessoas podem ver no seu perfil.",
+  "forumPrivacyShowLikes": "Mostrar postagens curtidas",
+  "forumPrivacyShowLikesSubtitle": "Permite que outras pessoas vejam a lista de postagens que você curtiu.",
+  "forumPrivacyShowFavorites": "Mostrar postagens salvas",
+  "forumPrivacyShowFavoritesSubtitle": "Permite que outras pessoas vejam a lista de postagens que você salvou.",
+  "forumPrivacyShowFollowers": "Mostrar seguidores",
+  "forumPrivacyShowFollowersSubtitle": "Permite que outras pessoas vejam sua lista de seguidores.",
+  "forumPrivacyShowFollowing": "Mostrar seguindo",
+  "forumPrivacyShowFollowingSubtitle": "Permite que outras pessoas vejam a lista de pessoas que você segue.",
+  "forumPrivacyUpdated": "Configurações de privacidade atualizadas",
+  "forumPrivacyUpdateFailed": "Não foi possível atualizar as configurações de privacidade: {error}",
+  "@forumPrivacyUpdateFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumFollow": "Seguir",
+  "forumUnfollow": "Deixar de seguir",
+  "forumFollowers": "Seguidores",
+  "forumFollowing": "Seguindo",
+  "forumMutualFollow": "Mútuo",
+  "forumFollowsYou": "Segue você",
+  "forumFollowFailed": "Não foi possível seguir: {error}",
+  "@forumFollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnfollowFailed": "Não foi possível deixar de seguir: {error}",
+  "@forumUnfollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlock": "Bloquear",
+  "forumUnblock": "Desbloquear",
+  "forumBlockedBadge": "Bloqueado",
+  "forumBlockConfirmTitle": "Bloquear {nickname}?",
+  "@forumBlockConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlockConfirmMessage": "Vocês dois deixarão de se seguir e nenhum poderá enviar mensagens ao outro.",
+  "forumBlockDone": "Bloqueado",
+  "forumUnblockDone": "Desbloqueado",
+  "forumBlockFailed": "Não foi possível bloquear este usuário: {error}",
+  "@forumBlockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnblockFailed": "Não foi possível desbloquear este usuário: {error}",
+  "@forumUnblockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollower": "Remover seguidor",
+  "forumRemoveFollowerConfirmTitle": "Remover {nickname} dos seus seguidores?",
+  "@forumRemoveFollowerConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollowerConfirmMessage": "A pessoa deixará de seguir você. Ela não é avisada e pode voltar a seguir.",
+  "forumFollowerRemoved": "Seguidor removido",
+  "forumBlockListTitle": "Usuários bloqueados",
+  "forumBlockListSubtitle": "Pessoas bloqueadas não podem seguir você nem enviar mensagens.",
+  "forumBlockListEmpty": "Você não bloqueou ninguém.",
+  "forumRelationListEmpty": "Ninguém aqui ainda.",
+  "forumRelationListFailed": "Não foi possível carregar esta lista: {error}",
+  "@forumRelationListFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumMessagesTitle": "Mensagens",
+  "forumMessagesEntrySubtitle": "Mensagens diretas com pessoas que vocês se seguem mutuamente",
+  "forumConversationsEmpty": "Nenhuma mensagem ainda",
+  "forumConversationsEmptyHint": "Você pode enviar mensagens quando se seguirem mutuamente.",
+  "forumChatInputHint": "Mensagem…",
+  "forumChatSend": "Enviar",
+  "forumChatEmpty": "Diga olá.",
+  "forumChatMutualRequired": "Você só pode enviar mensagens para quem também segue você.",
+  "forumChatBlocked": "Mensagens não estão disponíveis entre vocês dois.",
+  "forumChatSendFailed": "Mensagem não enviada: {error}",
+  "@forumChatSendFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumChatLoadEarlier": "Carregar mensagens anteriores",
+  "forumSendMessage": "Enviar mensagem",
+  "forumMenuBlocks": "Usuários bloqueados",
   "forumShelterPrivacyTitle": "Privacidade do abrigo",
   "forumShelterPrivacyDescription": "Seu pseudônimo permanece consistente apenas neste tópico. Nenhum avatar ou perfil é exibido, e esta publicação expira após 24 horas.",
   "forumShelterExpiresIn": "Expira em {time}",
@@ -3762,7 +3947,7 @@
   },
   "campusBusPreviewCardSetting": "Pré-visualização de chegada do ônibus",
   "campusBusPreviewCardSettingIosHint": "Mostra informações de chegada em tempo real nos widgets",
-  "campusBusPreviewCardSettingHint": "Mostra um cartão de pré-visualização na ecrã inicial",
+  "campusBusPreviewCardSettingHint": "Mostra um cartão de pré-visualização na tela inicial",
   "campusBusArrivalSelectTarget": "Selecionar paragem",
   "campusBusArrivalLine": "Linha",
   "campusBusArrivalStop": "Paragem",
@@ -3880,11 +4065,11 @@
   "campusBusNoReachableBus": "Nenhum ônibus consegue chegar a esta parada. Selecione outra ou tente novamente no horário de serviço.",
   "campusBusArrivalUseNearestToggle": "Usar a parada mais próxima desta linha",
   "campusBusRouteViewHorizontal": "Vista horizontal da rota",
-  "authErrorInvalidCredentials": "E-mail ou palavra-passe incorretos.",
-  "authErrorEmailExists": "Este e-mail já está registado. Inicie sessão ou redefina a palavra-passe.",
+  "authErrorInvalidCredentials": "E-mail ou senha incorretos.",
+  "authErrorEmailExists": "Este e-mail já está registado. Inicie sessão ou redefina a senha.",
   "authErrorEmailUnverified": "Verifique o seu e-mail antes de iniciar sessão.",
   "authErrorUserDisabled": "Esta conta foi desativada.",
-  "authErrorPasswordPolicy": "A palavra-passe não cumpre os requisitos de segurança atuais.",
+  "authErrorPasswordPolicy": "A senha não cumpre os requisitos de segurança atuais.",
   "authErrorWhuRequired": "Associe a sua conta WHU antes de se registar.",
   "authErrorWhuAlreadyBound": "Esta conta WHU já está associada a outra conta Luotopia.",
   "authErrorVerificationFailed": "A verificação falhou ou expirou. Tente novamente.",
@@ -3897,7 +4082,7 @@
   "apiErrorUserNotFound": "Utilizador não encontrado.",
   "apiErrorPermissionDenied": "Não tem permissão para esta ação.",
   "apiErrorMfaRequired": "É necessária verificação adicional.",
-  "apiErrorPasswordChangeRequired": "Altere primeiro a sua palavra-passe.",
+  "apiErrorPasswordChangeRequired": "Altere primeiro a sua senha.",
   "apiErrorCourseNotFound": "Curso não encontrado.",
   "apiErrorCoursePending": "O curso aguarda aprovação.",
   "apiErrorReviewNotFound": "Avaliação não encontrada.",
@@ -3942,11 +4127,11 @@
   "luotopiaRegisterUseAnotherWhuTitle": "Trocar de conta WHU?",
   "luotopiaRegisterUseAnotherWhuConfirm": "A conta WHU atual será desconectada e os dados de registro inseridos para esta identidade serão apagados.",
   "luotopiaRegisterStepProfileTitle": "Perfil e e-mail",
-  "luotopiaRegisterStepProfileSubtitle": "Escolha um nome de apresentação e o e-mail da sua conta Luotopia.",
+  "luotopiaRegisterStepProfileSubtitle": "Escolha um nome de usuário exclusivo e o e-mail da sua conta Luotopia.",
   "luotopiaRegisterEmailVerifiedHint": "Este e-mail foi verificado na sua conta WHU e preenchido automaticamente. Ainda pode alterá-lo.",
   "luotopiaRegisterEmailUnverifiedHint": "Se este for o seu e-mail WHU, verifique-o primeiro na página da conta WHU para o podermos preencher.",
-  "luotopiaRegisterStepPasswordTitle": "Definir palavra-passe",
-  "luotopiaRegisterStepPasswordSubtitle": "Use pelo menos {count} caracteres. Precisará desta palavra-passe para iniciar sessão.",
+  "luotopiaRegisterStepPasswordTitle": "Definir senha",
+  "luotopiaRegisterStepPasswordSubtitle": "Use pelo menos {count} caracteres. Precisará desta senha para iniciar sessão.",
   "campusAppMajorInfo": "Informações sobre a escola e o curso",
   "majorInfoTitle": "Informações sobre a escola e o curso",
   "majorInfoDescription": "Explore divisões académicas, faculdades, cursos, planos de ensino e dados de emprego.",
@@ -4023,10 +4208,10 @@
   "adminStatusNoQueues": "Nenhuma fila",
   "adminStatusRedisConnected": "Redis conectado",
   "adminStatusRedisDisconnected": "Redis desconectado",
-  "adminUsersTitle": "Gestão de utilizadores",
-  "adminUsersSubtitle": "Pesquisar utilizadores e alterar funções",
+  "adminUsersTitle": "Gestão de usuários",
+  "adminUsersSubtitle": "Pesquisar usuários e alterar funções",
   "adminUsersSearchHint": "Pesquisar por nome ou e-mail",
-  "adminUsersEmpty": "Nenhum utilizador encontrado.",
+  "adminUsersEmpty": "Nenhum usuário encontrado.",
   "adminUsersFilter": "Filtros avançados",
   "adminUsersFilterApply": "Aplicar",
   "adminUsersCollegeFilter": "Faculdade (contém)",
@@ -4038,7 +4223,7 @@
   "adminUsersEnable": "Ativar",
   "adminUsersDisable": "Desativar",
   "adminUsersChangeRole": "Alterar função",
-  "adminUsersRoleUpdated": "Função do utilizador atualizada.",
+  "adminUsersRoleUpdated": "Função do usuário atualizada.",
   "adminUserForumStatusActive": "Ativo",
   "adminUserForumStatusMuted": "Silenciado",
   "adminUserForumStatusBanned": "Banido",
@@ -4064,8 +4249,8 @@
   "adminUserDetailWhuAccountDataDescription": "Visível apenas para superadministradores. Este acesso é auditado.",
   "adminUserDetailWhuAccount": "Conta WHU",
   "adminUserDetailManagement": "Gestão",
-  "adminUserContentPostsTitle": "Publicações do utilizador",
-  "adminUserContentCommentsTitle": "Comentários do utilizador",
+  "adminUserContentPostsTitle": "Publicações do usuário",
+  "adminUserContentCommentsTitle": "Comentários do usuário",
   "adminUserContentPostsEmpty": "Sem publicações",
   "adminUserContentCommentsEmpty": "Sem comentários",
   "adminUserContentPostLabel": "Publicação: {postId}",
@@ -4255,7 +4440,7 @@
   "forumKarmaLedgerTitle": "Registo",
   "forumKarmaLedgerVoteCost": "Custo do voto",
   "forumKarmaLedgerVoteRefund": "Reembolso do voto",
-  "forumKarmaLowQualityHint": "Para publicações de baixo sinal fora do 水军, use o motivo low_quality (sugerido ?10). Publicações de水军 não recebem recompensa de publicação.",
+  "forumKarmaLowQualityHint": "Para publicações de baixo valor fora de 灌水, use o motivo low_quality (sugerido: −10). Publicações em 灌水 não recebem recompensa de publicação.",
   "forumKarmaNextLevel": "Próximo nível em {karma}",
   "forumKarmaSettingCheckinFixed": "Check-in fixo",
   "forumKarmaSettingCommentDown": "Perda de não gosto em comentário",
@@ -4302,7 +4487,7 @@
   "forumKarmaLevelTitle4": "Aptidão",
   "forumKarmaLevelTitle5": "Especialista",
   "forumKarmaLevelTitle6": "Veterano",
-  "forumKarmaLevelTitle7": "Luminary",
+  "forumKarmaLevelTitle7": "Figura em destaque",
   "forumKarmaLevelTitle8": "Farol",
   "forumKarmaLevelTitle9": "Lenda",
   "busArrivalStatusArrived": "Chegou",
@@ -4477,7 +4662,7 @@
   "aiDebugPromptAppearanceLabel": "Cor do tema e origem do papel de parede",
   "aiDebugPromptLocaleNavLabel": "Idioma e modo de navegação",
   "aiDebugPromptHomeCampusLabel": "Layout da tela inicial e do campus",
-  "aiDebugPromptFeatureSettingsLabel": "Preferências de ajustes de funções",
+  "aiDebugPromptFeatureSettingsLabel": "Preferências de configurações de funções",
   "aiDebugPromptFullLifecycleLabel": "Teste do ciclo de vida completo da agenda",
   "aiDebugPromptRenameSwitchLabel": "Renomear e trocar de grade horária",
   "aiDebugPromptWakeUpImportLabel": "Importação de token de grade horária WakeUp",
@@ -5051,7 +5236,7 @@
   "coremailStoredAccountSubtitle": "Guardado neste dispositivo, apenas para a conta WHU vinculada",
   "coremailSignOutAction": "Sair",
   "coremailSignOutConfirmTitle": "Sair da caixa de correio?",
-  "coremailSignOutConfirmMessage": "O endereço guardado e a palavra-passe da aplicação serão removidos deste dispositivo, e o assistente de IA perde imediatamente o acesso à caixa de correio.",
+  "coremailSignOutConfirmMessage": "O endereço guardado e a senha da aplicação serão removidos deste dispositivo, e o assistente de IA perde imediatamente o acesso à caixa de correio.",
   "coremailSignedOut": "Sessão da caixa de correio terminada",
   "coremailAccountMenuTooltip": "Conta da caixa de correio",
   "coremailSignedInAs": "Sessão iniciada como {address}",
@@ -5063,8 +5248,8 @@
     }
   },
   "coremailSwitchAccountAction": "Mudar de conta",
-  "coremailRequiresWhuAccount": "Vincule primeiro uma conta WHU para guardar as credenciais da caixa de correio neste dispositivo.",
-  "vpnRequiresWhuAccount": "Vincule primeiro uma conta WHU para guardar as credenciais da VPN neste dispositivo.",
+  "coremailRequiresWhuAccount": "Vincule primeiro uma conta WHU para salvar as credenciais da caixa de correio neste dispositivo.",
+  "vpnRequiresWhuAccount": "Vincule primeiro uma conta WHU para salvar as credenciais da VPN neste dispositivo.",
   "coremailAutoSignInFailed": "Falha no login automático. Verifique sua senha ou entre novamente.",
   "coremailEnterAccountAndPassword": "Digite a conta de e-mail completa e a senha.",
   "coremailSignInFailed": "Falha no login. Verifique a conta de e-mail, a senha ou a senha específica do aplicativo.",

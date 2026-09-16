@@ -2,7 +2,7 @@
   "@@locale": "ru",
   "designLanguage": "Язык дизайна",
   "designLanguageExperimentalNote": "Экспериментально · пока влияет только на предпросмотр Theme Lab",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "badgeItemEmail": "{count, plural, one{{count} новое письмо} few{{count} новых письма} many{{count} новых писем} other{{count} новых писем}}",
   "badgeItemForum": "{count, plural, one{{count} непрочитанный пост} few{{count} непрочитанных поста} many{{count} непрочитанных постов} other{{count} непрочитанных постов}}",
   "badgeItemMessages": "{count, plural, one{{count} новое сообщение} few{{count} новых сообщения} many{{count} новых сообщений} other{{count} новых сообщений}}",
@@ -465,6 +465,8 @@
   "luotopiaPasswordRequireUppercase": "Содержит прописную букву",
   "luotopiaPasswordRequireSpecial": "Содержит специальный символ",
   "luotopiaUsername": "Имя пользователя",
+  "luotopiaUsernameExists": "Это имя пользователя уже занято",
+  "luotopiaUsernameInvalidFormat": "Имя пользователя может содержать только буквы, цифры, точки, дефисы и подчёркивания, и должно содержать хотя бы одну букву",
   "luotopiaUsernameMinHint": "Не менее 3 символов",
   "luotopiaUsernameTooShort": "Имя должно быть не короче 3 символов",
   "luotopiaWelcomeBack": "С возвращением",
@@ -594,6 +596,10 @@
   "settingsFriendLinksEmpty": "Пока нет дружественных ссылок",
   "settingsDevDeviceTrustTitle": "Доверие к устройству",
   "settingsDevDeviceTrustSubtitle": "Проверка целостности устройства и сигналов безопасности",
+  "settingsSecurityCloneTitle": "Возможно, данные приложения были клонированы",
+  "settingsSecurityCloneSubtitle": "Безопасное хранилище очищается при чтении, поэтому вы выйдете из аккаунта. Нажмите, чтобы посмотреть подробности.",
+  "settingsSecurityCompromisedTitle": "Обнаружена рискованная среда выполнения",
+  "settingsSecurityCompromisedSubtitle": "Функции, зависящие от встроенных ключей, отключены, режим разработчика недоступен; на вход в аккаунт это не влияет. Нажмите, чтобы посмотреть подробности.",
   "friendLinkDialogClose": "Закрыть",
   "friendLinkOpenFailed": "Не удалось открыть ссылку",
   "friendLinkCategoryFeedback": "Обратная связь",
@@ -2563,6 +2569,8 @@
   "authNoPasskeys": "Нет Passkey",
   "authForgotPassword": "Забыли пароль?",
   "authResetPassword": "Сбросить пароль",
+  "authEmailVerifySuccess": "Почта подтверждена. Войдите снова.",
+  "authPasswordResetSuccess": "Пароль сброшен. Войдите с новым паролем.",
   "authSendResetLink": "Отправить ссылку",
   "authResetRequested": "Если этот адрес зарегистрирован, письмо для сброса пароля должно прийти в течение нескольких минут. Если письма нет, проверьте папку со спамом и написание адреса.",
   "authLoginEmailUnverified": "Этот адрес электронной почты не подтверждён. Подтвердите его перед входом.",
@@ -3068,6 +3076,183 @@
   "forumRemoveLike": "Убрать отметку «Нравится»",
   "forumRemoveFavorite": "Удалить из сохранённого",
   "forumPersonalEmpty": "Здесь пока ничего нет.",
+  "forumDrafts": "Черновики",
+  "forumDraftBadge": "Черновик",
+  "forumSaveDraft": "Сохранить черновик",
+  "forumDraftSaved": "Черновик сохранён",
+  "forumDraftSaveFailed": "Не удалось сохранить черновик: {error}",
+  "@forumDraftSaveFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftEmpty": "Черновиков пока нет",
+  "forumDraftEmptyHint": "Выберите «Сохранить черновик», если покидаете редактор без публикации.",
+  "forumDraftDelete": "Удалить черновик",
+  "forumDraftDeleteConfirmTitle": "Удалить этот черновик?",
+  "forumDraftDeleteConfirmMessage": "Черновик и его текст будут удалены. Это действие нельзя отменить.",
+  "forumDraftDeleted": "Черновик удалён",
+  "forumDraftDeleteFailed": "Не удалось удалить черновик: {error}",
+  "@forumDraftDeleteFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftPublished": "Черновик опубликован",
+  "forumDraftEditTitle": "Изменить черновик",
+  "forumDraftLastEdited": "Изменено {time}",
+  "@forumDraftLastEdited": {
+   "placeholders": {
+     "time": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnsavedChangesTitle": "Несохранённые изменения",
+  "forumUnsavedChangesMessage": "Опубликовать эту запись, сохранить как черновик или отменить?",
+  "forumUnsavedChangesPublish": "Опубликовать",
+  "forumUnsavedChangesSaveDraft": "Сохранить черновик",
+  "forumUnsavedChangesDiscard": "Отменить",
+  "forumPostStatusPublished": "Опубликовано",
+  "forumUserProfileTitle": "Профиль",
+  "forumUserPostsTab": "Записи",
+  "forumUserCommentsTab": "Комментарии",
+  "forumUserLikedTab": "Понравилось",
+  "forumUserFavoritesTab": "Сохранённые",
+  "forumUserFollowersTab": "Подписчики",
+  "forumUserFollowingTab": "Подписки",
+  "forumUserJoinedAt": "Присоединился {date}",
+  "@forumUserJoinedAt": {
+   "placeholders": {
+     "date": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUserContentEmpty": "Публикаций пока нет.",
+  "forumUserCommentsEmpty": "Комментариев пока нет.",
+  "forumUserListHidden": "Этот список скрыт.",
+  "forumUserBlockedYou": "Этот пользователь заблокировал вас.",
+  "forumUserYouBlocked": "Вы заблокировали этого пользователя.",
+  "forumUserUnblockToView": "Разблокируйте его, чтобы увидеть содержимое.",
+  "forumProfilePrivacyTitle": "Приватность профиля",
+  "forumProfilePrivacySubtitle": "Выберите, что другие могут видеть в вашем профиле.",
+  "forumPrivacyShowLikes": "Показывать отмеченные записи",
+  "forumPrivacyShowLikesSubtitle": "Разрешает другим открывать список записей, которые вам понравились.",
+  "forumPrivacyShowFavorites": "Показывать сохранённые записи",
+  "forumPrivacyShowFavoritesSubtitle": "Разрешает другим открывать список сохранённых вами записей.",
+  "forumPrivacyShowFollowers": "Показывать подписчиков",
+  "forumPrivacyShowFollowersSubtitle": "Разрешает другим открывать ваш список подписчиков.",
+  "forumPrivacyShowFollowing": "Показывать подписки",
+  "forumPrivacyShowFollowingSubtitle": "Разрешает другим открывать список людей, на которых вы подписаны.",
+  "forumPrivacyUpdated": "Настройки приватности обновлены",
+  "forumPrivacyUpdateFailed": "Не удалось обновить настройки приватности: {error}",
+  "@forumPrivacyUpdateFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumFollow": "Подписаться",
+  "forumUnfollow": "Отписаться",
+  "forumFollowers": "Подписчики",
+  "forumFollowing": "Подписки",
+  "forumMutualFollow": "Взаимно",
+  "forumFollowsYou": "Подписан на вас",
+  "forumFollowFailed": "Не удалось подписаться: {error}",
+  "@forumFollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnfollowFailed": "Не удалось отписаться: {error}",
+  "@forumUnfollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlock": "Заблокировать",
+  "forumUnblock": "Разблокировать",
+  "forumBlockedBadge": "Заблокирован",
+  "forumBlockConfirmTitle": "Заблокировать {nickname}?",
+  "@forumBlockConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlockConfirmMessage": "Вы оба перестанете быть подписанными друг на друга и не сможете обмениваться сообщениями.",
+  "forumBlockDone": "Заблокировано",
+  "forumUnblockDone": "Разблокировано",
+  "forumBlockFailed": "Не удалось заблокировать пользователя: {error}",
+  "@forumBlockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnblockFailed": "Не удалось разблокировать пользователя: {error}",
+  "@forumUnblockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollower": "Удалить подписчика",
+  "forumRemoveFollowerConfirmTitle": "Удалить {nickname} из подписчиков?",
+  "@forumRemoveFollowerConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollowerConfirmMessage": "Этот человек перестанет быть подписанным на вас. Он не получит уведомления и сможет подписаться снова.",
+  "forumFollowerRemoved": "Подписчик удалён",
+  "forumBlockListTitle": "Заблокированные",
+  "forumBlockListSubtitle": "Заблокированные не могут подписываться на вас и отправлять вам сообщения.",
+  "forumBlockListEmpty": "Вы никого не заблокировали.",
+  "forumRelationListEmpty": "Здесь пока никого нет.",
+  "forumRelationListFailed": "Не удалось загрузить список: {error}",
+  "@forumRelationListFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumMessagesTitle": "Сообщения",
+  "forumMessagesEntrySubtitle": "Личные сообщения с теми, на кого вы подписаны взаимно",
+  "forumConversationsEmpty": "Сообщений пока нет",
+  "forumConversationsEmptyHint": "Писать можно тем, с кем у вас взаимная подписка.",
+  "forumChatInputHint": "Сообщение…",
+  "forumChatSend": "Отправить",
+  "forumChatEmpty": "Поздоровайтесь.",
+  "forumChatMutualRequired": "Писать можно только тем, кто подписан на вас в ответ.",
+  "forumChatBlocked": "Обмен сообщениями между вами недоступен.",
+  "forumChatSendFailed": "Сообщение не отправлено: {error}",
+  "@forumChatSendFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumChatLoadEarlier": "Загрузить более ранние сообщения",
+  "forumSendMessage": "Написать сообщение",
+  "forumMenuBlocks": "Заблокированные",
   "forumShelterPrivacyTitle": "Конфиденциальность укрытия",
   "forumShelterPrivacyDescription": "Ваш псевдоним остаётся неизменным только в рамках этой темы. Аватар и профиль не отображаются, а эта публикация исчезнет через 24 часа.",
   "forumShelterExpiresIn": "Исчезнет через {time}",
@@ -3933,7 +4118,7 @@
   "luotopiaRegisterUseAnotherWhuTitle": "Сменить аккаунт WHU?",
   "luotopiaRegisterUseAnotherWhuConfirm": "Текущий аккаунт WHU будет отключён, а введённые для него регистрационные данные будут удалены.",
   "luotopiaRegisterStepProfileTitle": "Профиль и электронная почта",
-  "luotopiaRegisterStepProfileSubtitle": "Выберите отображаемое имя и почту для аккаунта Luotopia.",
+  "luotopiaRegisterStepProfileSubtitle": "Выберите уникальное имя пользователя и почту для аккаунта Luotopia.",
   "luotopiaRegisterEmailVerifiedHint": "Эта почта подтверждена в аккаунте WHU и заполнена автоматически. Вы всё ещё можете её изменить.",
   "luotopiaRegisterEmailUnverifiedHint": "Если это ваша почта WHU, сначала подтвердите её на странице аккаунта WHU, чтобы мы могли заполнить её автоматически.",
   "luotopiaRegisterStepPasswordTitle": "Задайте пароль",
@@ -4283,7 +4468,7 @@
   "forumKarmaLedgerTitle": "Журнал",
   "forumKarmaLedgerVoteCost": "Стоимость голоса",
   "forumKarmaLedgerVoteRefund": "Возврат голоса",
-  "forumKarmaLowQualityHint": "Для низкосигнальных постов вне 水军 используйте причину low_quality (предложение ?10). Посты 水军 не получают награды за публикацию.",
+  "forumKarmaLowQualityHint": "Для малосодержательных постов вне 灌水 используйте причину low_quality (предлагается −10). Посты в 灌水 не получают награду за публикацию.",
   "forumKarmaNextLevel": "Следующий уровень при {karma}",
   "forumKarmaSettingCheckinFixed": "Фиксированная отметка",
   "forumKarmaSettingCommentDown": "Потеря за дизлайк комментария",

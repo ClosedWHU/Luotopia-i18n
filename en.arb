@@ -2,7 +2,7 @@
   "@@locale": "en",
   "designLanguage": "Design language",
   "designLanguageExperimentalNote": "Experimental · currently only affects the Theme Lab preview",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "aiAssistant": "Assistant",
   "aiInputHint": "Ask me anything about your schedule...",
   "aiTitle": "Title",
@@ -701,6 +701,8 @@
   "luotopiaPasswordRequireUppercase": "Include an uppercase letter",
   "luotopiaPasswordRequireSpecial": "Include a special character",
   "luotopiaUsername": "Username",
+  "luotopiaUsernameExists": "That username is already taken",
+  "luotopiaUsernameInvalidFormat": "Username may only contain letters, numbers, dots, hyphens and underscores, and must contain at least one letter",
   "luotopiaUsernameMinHint": "At least 3 characters",
   "luotopiaUsernameTooShort": "Username must be at least 3 characters",
   "luotopiaWelcomeBack": "Welcome back",
@@ -1303,12 +1305,6 @@
      "error": {
        "type": "String"
       }
-    }
-  },
-  "@yy1": {
-   "placeholders": {
-     "y": {},
-     "yPlus1": {}
     }
   },
   "courseImportStatusImported": "Import finished: {count} items, {currentWeek} in current week.",
@@ -3285,6 +3281,10 @@
   "settingsDevHotUpdateSubtitle": "View hot-updatable parser scripts and their status",
   "settingsDevDeviceTrustTitle": "Device Trust",
   "settingsDevDeviceTrustSubtitle": "Inspect device integrity and security signals",
+  "settingsSecurityCloneTitle": "App data may have been cloned",
+  "settingsSecurityCloneSubtitle": "Secure storage is wiped on read, so you will be signed out. Tap for details.",
+  "settingsSecurityCompromisedTitle": "Risky runtime environment detected",
+  "settingsSecurityCompromisedSubtitle": "Features relying on built-in keys are disabled and Developer mode is blocked; your sign-in is unaffected. Tap for details.",
   "hotUpdateTitle": "Hot Update Management",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
@@ -3450,6 +3450,8 @@
   "authRememberCredentials": "Remember account and password",
   "whuNativeLoginRememberMobile": "Remember mobile number",
   "authResetPassword": "Reset password",
+  "authEmailVerifySuccess": "Email verified. Please sign in again.",
+  "authPasswordResetSuccess": "Password reset. Please sign in with your new password.",
   "authSendResetLink": "Send reset link",
   "authResetRequested": "If this email is registered, the password reset email should arrive within a few minutes. If you do not receive it, check your spam folder and the spelling of the email address.",
   "authLoginEmailUnverified": "This email address has not been verified. Verify it before signing in.",
@@ -4122,6 +4124,183 @@
   "forumRemoveLike": "Remove like",
   "forumRemoveFavorite": "Remove saved post",
   "forumPersonalEmpty": "Nothing here yet.",
+  "forumDrafts": "Drafts",
+  "forumDraftBadge": "Draft",
+  "forumSaveDraft": "Save draft",
+  "forumDraftSaved": "Draft saved",
+  "forumDraftSaveFailed": "Could not save the draft: {error}",
+  "@forumDraftSaveFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftEmpty": "No drafts yet",
+  "forumDraftEmptyHint": "Choose “Save draft” when you leave the editor without publishing.",
+  "forumDraftDelete": "Delete draft",
+  "forumDraftDeleteConfirmTitle": "Delete this draft?",
+  "forumDraftDeleteConfirmMessage": "The draft and its text will be discarded. This cannot be undone.",
+  "forumDraftDeleted": "Draft deleted",
+  "forumDraftDeleteFailed": "Could not delete the draft: {error}",
+  "@forumDraftDeleteFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftPublished": "Draft published",
+  "forumDraftEditTitle": "Edit draft",
+  "forumDraftLastEdited": "Edited {time}",
+  "@forumDraftLastEdited": {
+   "placeholders": {
+     "time": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnsavedChangesTitle": "Unsaved changes",
+  "forumUnsavedChangesMessage": "Publish this post, keep it as a draft, or discard it?",
+  "forumUnsavedChangesPublish": "Publish",
+  "forumUnsavedChangesSaveDraft": "Save draft",
+  "forumUnsavedChangesDiscard": "Discard",
+  "forumPostStatusPublished": "Published",
+  "forumUserProfileTitle": "Profile",
+  "forumUserPostsTab": "Posts",
+  "forumUserCommentsTab": "Comments",
+  "forumUserLikedTab": "Likes",
+  "forumUserFavoritesTab": "Saved",
+  "forumUserFollowersTab": "Followers",
+  "forumUserFollowingTab": "Following",
+  "forumUserJoinedAt": "Joined {date}",
+  "@forumUserJoinedAt": {
+   "placeholders": {
+     "date": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUserContentEmpty": "Nothing published yet.",
+  "forumUserCommentsEmpty": "No comments yet.",
+  "forumUserListHidden": "This list is private.",
+  "forumUserBlockedYou": "This user has blocked you.",
+  "forumUserYouBlocked": "You have blocked this user.",
+  "forumUserUnblockToView": "Unblock them to see their content.",
+  "forumProfilePrivacyTitle": "Profile privacy",
+  "forumProfilePrivacySubtitle": "Choose what other people can see on your profile.",
+  "forumPrivacyShowLikes": "Show liked posts",
+  "forumPrivacyShowLikesSubtitle": "Let others open the list of posts you liked.",
+  "forumPrivacyShowFavorites": "Show saved posts",
+  "forumPrivacyShowFavoritesSubtitle": "Let others open the list of posts you saved.",
+  "forumPrivacyShowFollowers": "Show followers",
+  "forumPrivacyShowFollowersSubtitle": "Let others open your follower list.",
+  "forumPrivacyShowFollowing": "Show following",
+  "forumPrivacyShowFollowingSubtitle": "Let others open the list of people you follow.",
+  "forumPrivacyUpdated": "Privacy settings updated",
+  "forumPrivacyUpdateFailed": "Could not update privacy settings: {error}",
+  "@forumPrivacyUpdateFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumFollow": "Follow",
+  "forumUnfollow": "Unfollow",
+  "forumFollowers": "Followers",
+  "forumFollowing": "Following",
+  "forumMutualFollow": "Mutual",
+  "forumFollowsYou": "Follows you",
+  "forumFollowFailed": "Could not follow: {error}",
+  "@forumFollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnfollowFailed": "Could not unfollow: {error}",
+  "@forumUnfollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlock": "Block",
+  "forumUnblock": "Unblock",
+  "forumBlockedBadge": "Blocked",
+  "forumBlockConfirmTitle": "Block {nickname}?",
+  "@forumBlockConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlockConfirmMessage": "You will both be unfollowed, and neither of you can message the other.",
+  "forumBlockDone": "Blocked",
+  "forumUnblockDone": "Unblocked",
+  "forumBlockFailed": "Could not block this user: {error}",
+  "@forumBlockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnblockFailed": "Could not unblock this user: {error}",
+  "@forumUnblockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollower": "Remove follower",
+  "forumRemoveFollowerConfirmTitle": "Remove {nickname} from your followers?",
+  "@forumRemoveFollowerConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollowerConfirmMessage": "They will stop following you. They are not notified and can follow you again.",
+  "forumFollowerRemoved": "Follower removed",
+  "forumBlockListTitle": "Blocked users",
+  "forumBlockListSubtitle": "Blocked people cannot follow you or send you messages.",
+  "forumBlockListEmpty": "You have not blocked anyone.",
+  "forumRelationListEmpty": "No one here yet.",
+  "forumRelationListFailed": "Could not load this list: {error}",
+  "@forumRelationListFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumMessagesTitle": "Messages",
+  "forumMessagesEntrySubtitle": "Direct messages with people you both follow",
+  "forumConversationsEmpty": "No messages yet",
+  "forumConversationsEmptyHint": "You can message someone once you follow each other.",
+  "forumChatInputHint": "Message…",
+  "forumChatSend": "Send",
+  "forumChatEmpty": "Say hello.",
+  "forumChatMutualRequired": "You can only message people who follow you back.",
+  "forumChatBlocked": "Messages are unavailable between you two.",
+  "forumChatSendFailed": "Message not sent: {error}",
+  "@forumChatSendFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumChatLoadEarlier": "Load earlier messages",
+  "forumSendMessage": "Send message",
+  "forumMenuBlocks": "Blocked users",
   "forumShelterPrivacyTitle": "Shelter privacy",
   "forumShelterPrivacyDescription": "Your alias stays consistent only within this topic. No avatar or profile is shown, and this post expires after 24 hours.",
   "forumShelterExpiresIn": "Expires in {time}",
@@ -4321,7 +4500,7 @@
   "forumKarmaSettingCreateCommentDailyCap": "Daily comment reward cap",
   "forumKarmaLedgerCreatePost": "Published a post",
   "forumKarmaLedgerCreateComment": "Posted a reply",
-  "forumKarmaLowQualityHint": "For low-signal posts outside 灌水, use reason low_quality (suggested −10). Water-board posts earn no publish reward.",
+  "forumKarmaLowQualityHint": "For low-signal posts outside 灌水, use reason low_quality (suggested −10). Posts in 灌水 earn no publish reward.",
   "forumReview": "Review",
   "forumResolve": "Resolve",
   "forumApprove": "Approve",
@@ -6056,7 +6235,13 @@
   "onboardingPermissionCameraDescription": "For taking photos to attach to AI conversations.",
   "campusAppEbike": "E-bike",
   "ebikeProviderZhiyin": "Little Green",
+  "@ebikeProviderZhiyin": {
+    "description": "WHU e-bike fleet brand nickname, not a colour label. Latin-script locales keep this English gloss on purpose; the Chinese locales use 小綠/小绿 and ja/ko transliterate it."
+  },
   "ebikeProviderMango": "Little Yellow",
+  "@ebikeProviderMango": {
+    "description": "WHU e-bike fleet brand nickname, not a colour label. Latin-script locales keep this English gloss on purpose; the Chinese locales use 小黃/小黄 and ja/ko transliterate it."
+  },
   "settingsAccountEbikeTitle": "E-bike Accounts",
   "settingsAccountOtherTitle": "Other Accounts",
   "settingsAccountOtherSubtitle": "Email, Chaoxing, and VPN",

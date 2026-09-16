@@ -2,7 +2,7 @@
   "@@locale": "ja",
   "designLanguage": "デザイン言語",
   "designLanguageExperimentalNote": "実験的 · 現在は Theme Lab プレビューにのみ反映",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "badgeItemEmail": "{count, plural, other{新着メール{count}件}}",
   "badgeItemForum": "{count, plural, other{未読の投稿{count}件}}",
   "badgeItemMessages": "{count, plural, other{新着メッセージ{count}件}}",
@@ -781,6 +781,8 @@
   "luotopiaPasswordRequireUppercase": "大文字を含める",
   "luotopiaPasswordRequireSpecial": "特殊文字を含める",
   "luotopiaUsername": "ユーザー名",
+  "luotopiaUsernameExists": "そのユーザー名は既に使用されています",
+  "luotopiaUsernameInvalidFormat": "ユーザー名に使えるのは英数字とドット、ハイフン、アンダースコアのみで、少なくとも1つの英字が必要です",
   "luotopiaUsernameMinHint": "3 文字以上",
   "luotopiaUsernameTooShort": "ユーザー名は 3 文字以上にしてください",
   "luotopiaWelcomeBack": "おかえりなさい",
@@ -1470,6 +1472,10 @@
   "settingsDevHotUpdateSubtitle": "ホットアップデート可能なパーサースクリプトとその状態を表示",
   "settingsDevDeviceTrustTitle": "デバイスの信頼性",
   "settingsDevDeviceTrustSubtitle": "デバイスの完全性とセキュリティシグナルを確認",
+  "settingsSecurityCloneTitle": "アプリデータが複製された可能性があります",
+  "settingsSecurityCloneSubtitle": "安全なストレージは読み取り時に消去されるため、ログアウトされます。タップして詳細を表示。",
+  "settingsSecurityCompromisedTitle": "危険な実行環境を検出しました",
+  "settingsSecurityCompromisedSubtitle": "組み込みキーに依存する機能は無効になり、開発者モードは使用できません。ログイン状態は影響を受けません。タップして詳細を表示。",
   "hotUpdateTitle": "ホットアップデート管理",
   "hotUpdateManifestVersion": "マニフェスト v{version}",
   "@hotUpdateManifestVersion": {
@@ -2888,6 +2894,8 @@
   "authNoPasskeys": "Passkeyはまだありません",
   "authForgotPassword": "パスワードを忘れましたか？",
   "authResetPassword": "パスワードをリセット",
+  "authEmailVerifySuccess": "メールアドレスを確認しました。再度サインインしてください。",
+  "authPasswordResetSuccess": "パスワードをリセットしました。新しいパスワードでサインインしてください。",
   "authSendResetLink": "リセットリンクを送信",
   "authResetRequested": "このメールアドレスが登録済みの場合、パスワード再設定メールは数分以内に届きます。届かない場合は迷惑メールフォルダーとメールアドレスの綴りを確認してください。",
   "authLoginEmailUnverified": "このメールアドレスは未確認です。ログインする前に確認してください。",
@@ -3360,6 +3368,183 @@
   "forumRemoveLike": "高評価を取り消す",
   "forumRemoveFavorite": "保存を解除",
   "forumPersonalEmpty": "まだ何もありません。",
+  "forumDrafts": "下書き",
+  "forumDraftBadge": "下書き",
+  "forumSaveDraft": "下書きを保存",
+  "forumDraftSaved": "下書きを保存しました",
+  "forumDraftSaveFailed": "下書きを保存できませんでした：{error}",
+  "@forumDraftSaveFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftEmpty": "下書きはまだありません",
+  "forumDraftEmptyHint": "公開せずにエディターを離れる場合は「下書きを保存」を選択してください。",
+  "forumDraftDelete": "下書きを削除",
+  "forumDraftDeleteConfirmTitle": "この下書きを削除しますか？",
+  "forumDraftDeleteConfirmMessage": "下書きとその本文は破棄されます。この操作は取り消せません。",
+  "forumDraftDeleted": "下書きを削除しました",
+  "forumDraftDeleteFailed": "下書きを削除できませんでした：{error}",
+  "@forumDraftDeleteFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftPublished": "下書きを公開しました",
+  "forumDraftEditTitle": "下書きを編集",
+  "forumDraftLastEdited": "{time} に編集",
+  "@forumDraftLastEdited": {
+   "placeholders": {
+     "time": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnsavedChangesTitle": "未保存の変更",
+  "forumUnsavedChangesMessage": "この投稿を公開しますか、下書きとして保存しますか、それとも破棄しますか？",
+  "forumUnsavedChangesPublish": "公開",
+  "forumUnsavedChangesSaveDraft": "下書きを保存",
+  "forumUnsavedChangesDiscard": "破棄",
+  "forumPostStatusPublished": "公開済み",
+  "forumUserProfileTitle": "プロフィール",
+  "forumUserPostsTab": "投稿",
+  "forumUserCommentsTab": "コメント",
+  "forumUserLikedTab": "いいね",
+  "forumUserFavoritesTab": "保存済み",
+  "forumUserFollowersTab": "フォロワー",
+  "forumUserFollowingTab": "フォロー中",
+  "forumUserJoinedAt": "{date} に参加",
+  "@forumUserJoinedAt": {
+   "placeholders": {
+     "date": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUserContentEmpty": "まだ投稿はありません。",
+  "forumUserCommentsEmpty": "まだコメントはありません。",
+  "forumUserListHidden": "このリストは非公開です。",
+  "forumUserBlockedYou": "このユーザーにブロックされています。",
+  "forumUserYouBlocked": "このユーザーをブロックしています。",
+  "forumUserUnblockToView": "ブロックを解除するとコンテンツを表示できます。",
+  "forumProfilePrivacyTitle": "プロフィールのプライバシー",
+  "forumProfilePrivacySubtitle": "プロフィールで他のユーザーに表示する内容を選択してください。",
+  "forumPrivacyShowLikes": "いいねした投稿を表示",
+  "forumPrivacyShowLikesSubtitle": "いいねした投稿の一覧を他のユーザーが閲覧できるようにします。",
+  "forumPrivacyShowFavorites": "保存した投稿を表示",
+  "forumPrivacyShowFavoritesSubtitle": "保存した投稿の一覧を他のユーザーが閲覧できるようにします。",
+  "forumPrivacyShowFollowers": "フォロワーを表示",
+  "forumPrivacyShowFollowersSubtitle": "フォロワー一覧を他のユーザーが閲覧できるようにします。",
+  "forumPrivacyShowFollowing": "フォローを表示",
+  "forumPrivacyShowFollowingSubtitle": "フォロー中のユーザー一覧を他のユーザーが閲覧できるようにします。",
+  "forumPrivacyUpdated": "プライバシー設定を更新しました",
+  "forumPrivacyUpdateFailed": "プライバシー設定を更新できませんでした：{error}",
+  "@forumPrivacyUpdateFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumFollow": "フォロー",
+  "forumUnfollow": "フォロー解除",
+  "forumFollowers": "フォロワー",
+  "forumFollowing": "フォロー中",
+  "forumMutualFollow": "相互フォロー",
+  "forumFollowsYou": "あなたをフォローしています",
+  "forumFollowFailed": "フォローできませんでした：{error}",
+  "@forumFollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnfollowFailed": "フォローを解除できませんでした：{error}",
+  "@forumUnfollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlock": "ブロック",
+  "forumUnblock": "ブロック解除",
+  "forumBlockedBadge": "ブロック済み",
+  "forumBlockConfirmTitle": "{nickname} さんをブロックしますか？",
+  "@forumBlockConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlockConfirmMessage": "相互フォローが自動的に解除され、お互いにメッセージを送れなくなります。",
+  "forumBlockDone": "ブロックしました",
+  "forumUnblockDone": "ブロックを解除しました",
+  "forumBlockFailed": "このユーザーをブロックできませんでした：{error}",
+  "@forumBlockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnblockFailed": "このユーザーのブロックを解除できませんでした：{error}",
+  "@forumUnblockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollower": "フォロワーを削除",
+  "forumRemoveFollowerConfirmTitle": "{nickname} さんをフォロワーから削除しますか？",
+  "@forumRemoveFollowerConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollowerConfirmMessage": "相手のフォローが解除されます。相手に通知は届かず、再度フォローすることも可能です。",
+  "forumFollowerRemoved": "フォロワーを削除しました",
+  "forumBlockListTitle": "ブロックしたユーザー",
+  "forumBlockListSubtitle": "ブロックしたユーザーはあなたをフォローしたりメッセージを送ったりできません。",
+  "forumBlockListEmpty": "ブロックしたユーザーはいません。",
+  "forumRelationListEmpty": "まだ誰もいません。",
+  "forumRelationListFailed": "一覧を読み込めませんでした：{error}",
+  "@forumRelationListFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumMessagesTitle": "メッセージ",
+  "forumMessagesEntrySubtitle": "相互フォローの相手とのダイレクトメッセージ",
+  "forumConversationsEmpty": "メッセージはまだありません",
+  "forumConversationsEmptyHint": "相互フォローするとメッセージを送れます。",
+  "forumChatInputHint": "メッセージ…",
+  "forumChatSend": "送信",
+  "forumChatEmpty": "あいさつしてみましょう。",
+  "forumChatMutualRequired": "メッセージを送れるのは、フォローされている相手に限られます。",
+  "forumChatBlocked": "お互いにメッセージを送信できません。",
+  "forumChatSendFailed": "メッセージを送信できませんでした：{error}",
+  "@forumChatSendFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumChatLoadEarlier": "以前のメッセージを読み込む",
+  "forumSendMessage": "メッセージを送る",
+  "forumMenuBlocks": "ブロックしたユーザー",
   "authPasswordResetEmail": "メールアドレス",
   "authPasswordResetSendFailed": "送信に失敗しました: {error}",
   "@authPasswordResetSendFailed": {
@@ -3935,7 +4120,7 @@
   "luotopiaRegisterUseAnotherWhuTitle": "WHUアカウントを切り替えますか？",
   "luotopiaRegisterUseAnotherWhuConfirm": "現在のWHUアカウントからログアウトし、このIDで入力した登録情報を消去します。",
   "luotopiaRegisterStepProfileTitle": "プロフィールとメール",
-  "luotopiaRegisterStepProfileSubtitle": "表示名と珞家アカウントのメールアドレスを選択してください。",
+  "luotopiaRegisterStepProfileSubtitle": "珞家アカウント用の一意のユーザー名とメールアドレスを設定してください。",
   "luotopiaRegisterEmailVerifiedHint": "このメールアドレスはWHUアカウントで確認済みのため自動入力されました。変更することもできます。",
   "luotopiaRegisterEmailUnverifiedHint": "WHUのメールアドレスである場合は、先にWHUアカウントページで確認すると自動入力できます。",
   "luotopiaRegisterStepPasswordTitle": "パスワードを設定",
@@ -4293,7 +4478,7 @@
   "forumKarmaLedgerTitle": "台帳",
   "forumKarmaLedgerVoteCost": "投票コスト",
   "forumKarmaLedgerVoteRefund": "投票の返金",
-  "forumKarmaLowQualityHint": "水軍以外の低シグナル投稿には理由 low_quality（推奨 ?10）を使用します。水軍の投稿は公開報酬を得られません。",
+  "forumKarmaLowQualityHint": "灌水 以外の低品質な投稿には理由 low_quality（推奨 −10）を使用します。灌水 への投稿は公開報酬の対象外です。",
   "forumKarmaNextLevel": "次のレベルは {karma}",
   "forumKarmaSettingCheckinFixed": "固定チェックイン",
   "forumKarmaSettingCommentDown": "コメントの低評価損失",

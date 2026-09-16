@@ -2,9 +2,9 @@
   "@@locale": "vi",
   "designLanguage": "Ngôn ngữ thiết kế",
   "designLanguageExperimentalNote": "Thử nghiệm · hiện chỉ ảnh hưởng bản xem trước Theme Lab",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "badgeItemEmail": "{count, plural, other{{count} email mới}}",
-  "badgeItemForum": "{count, plural, other{{count} bài đăng chưa đọc}}",
+  "badgeItemForum": "{count, plural, other{{count} bài viết chưa đọc}}",
   "badgeItemMessages": "{count, plural, other{{count} tin nhắn mới}}",
   "badgeItemTasks": "{count, plural, other{{count} công việc chưa hoàn thành}}",
   "badgeLastSep": " và ",
@@ -465,6 +465,8 @@
   "luotopiaPasswordRequireUppercase": "Bao gồm một chữ cái viết hoa",
   "luotopiaPasswordRequireSpecial": "Bao gồm một ký tự đặc biệt",
   "luotopiaUsername": "Tên người dùng",
+  "luotopiaUsernameExists": "Tên người dùng này đã được sử dụng",
+  "luotopiaUsernameInvalidFormat": "Tên người dùng chỉ được chứa chữ cái, số, dấu chấm, dấu gạch ngang và dấu gạch dưới, và phải có ít nhất một chữ cái",
   "luotopiaUsernameMinHint": "Ít nhất 3 ký tự",
   "luotopiaUsernameTooShort": "Tên người dùng phải có ít nhất 3 ký tự",
   "luotopiaWelcomeBack": "Chào mừng trở lại",
@@ -1319,8 +1321,12 @@
   "settingsDevHotUpdateSubtitle": "Xem các tập lệnh phân tích có thể cập nhật nóng và trạng thái của chúng",
   "settingsDevDeviceTrustTitle": "Tin cậy thiết bị",
   "settingsDevDeviceTrustSubtitle": "Kiểm tra tính toàn vẹn của thiết bị và các tín hiệu bảo mật",
+  "settingsSecurityCloneTitle": "Dữ liệu ứng dụng có thể đã bị sao chép",
+  "settingsSecurityCloneSubtitle": "Bộ nhớ an toàn sẽ bị xóa khi đọc, nên bạn sẽ bị đăng xuất. Nhấn để xem chi tiết.",
+  "settingsSecurityCompromisedTitle": "Phát hiện môi trường chạy có rủi ro",
+  "settingsSecurityCompromisedSubtitle": "Các tính năng phụ thuộc khóa tích hợp đã bị tắt và chế độ nhà phát triển bị chặn; trạng thái đăng nhập không bị ảnh hưởng. Nhấn để xem chi tiết.",
   "hotUpdateTitle": "Quản lý cập nhật nóng",
-  "hotUpdateManifestVersion": "Manifest v{version}",
+  "hotUpdateManifestVersion": "Bản kê khai v{version}",
   "@hotUpdateManifestVersion": {
    "placeholders": {
      "version": {
@@ -2735,6 +2741,8 @@
   "authNoPasskeys": "Chưa có Passkey",
   "authForgotPassword": "Quên mật khẩu?",
   "authResetPassword": "Đặt lại mật khẩu",
+  "authEmailVerifySuccess": "Đã xác minh email. Vui lòng đăng nhập lại.",
+  "authPasswordResetSuccess": "Đã đặt lại mật khẩu. Vui lòng đăng nhập bằng mật khẩu mới.",
   "authSendResetLink": "Gửi liên kết",
   "authResetRequested": "Nếu email này đã được đăng ký, email đặt lại mật khẩu sẽ đến trong vài phút. Nếu không nhận được, hãy kiểm tra thư rác và cách viết địa chỉ email.",
   "authLoginEmailUnverified": "Địa chỉ email này chưa được xác minh. Hãy xác minh trước khi đăng nhập.",
@@ -3240,6 +3248,183 @@
   "forumRemoveLike": "Bỏ thích",
   "forumRemoveFavorite": "Bỏ lưu bài viết",
   "forumPersonalEmpty": "Chưa có gì ở đây.",
+  "forumDrafts": "Bản nháp",
+  "forumDraftBadge": "Nháp",
+  "forumSaveDraft": "Lưu nháp",
+  "forumDraftSaved": "Đã lưu bản nháp",
+  "forumDraftSaveFailed": "Không thể lưu bản nháp: {error}",
+  "@forumDraftSaveFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftEmpty": "Chưa có bản nháp",
+  "forumDraftEmptyHint": "Chọn “Lưu nháp” khi bạn rời trình soạn thảo mà chưa đăng.",
+  "forumDraftDelete": "Xóa bản nháp",
+  "forumDraftDeleteConfirmTitle": "Xóa bản nháp này?",
+  "forumDraftDeleteConfirmMessage": "Bản nháp và nội dung sẽ bị loại bỏ. Không thể hoàn tác.",
+  "forumDraftDeleted": "Đã xóa bản nháp",
+  "forumDraftDeleteFailed": "Không thể xóa bản nháp: {error}",
+  "@forumDraftDeleteFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftPublished": "Đã đăng bản nháp",
+  "forumDraftEditTitle": "Sửa bản nháp",
+  "forumDraftLastEdited": "Đã sửa {time}",
+  "@forumDraftLastEdited": {
+   "placeholders": {
+     "time": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnsavedChangesTitle": "Thay đổi chưa được lưu",
+  "forumUnsavedChangesMessage": "Đăng bài này, giữ lại làm bản nháp hay loại bỏ?",
+  "forumUnsavedChangesPublish": "Đăng",
+  "forumUnsavedChangesSaveDraft": "Lưu nháp",
+  "forumUnsavedChangesDiscard": "Loại bỏ",
+  "forumPostStatusPublished": "Đã đăng",
+  "forumUserProfileTitle": "Trang cá nhân",
+  "forumUserPostsTab": "Bài viết",
+  "forumUserCommentsTab": "Bình luận",
+  "forumUserLikedTab": "Đã thích",
+  "forumUserFavoritesTab": "Đã lưu",
+  "forumUserFollowersTab": "Người theo dõi",
+  "forumUserFollowingTab": "Đang theo dõi",
+  "forumUserJoinedAt": "Tham gia {date}",
+  "@forumUserJoinedAt": {
+   "placeholders": {
+     "date": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUserContentEmpty": "Chưa đăng nội dung nào.",
+  "forumUserCommentsEmpty": "Chưa có bình luận.",
+  "forumUserListHidden": "Danh sách này ở chế độ riêng tư.",
+  "forumUserBlockedYou": "Người dùng này đã chặn bạn.",
+  "forumUserYouBlocked": "Bạn đã chặn người dùng này.",
+  "forumUserUnblockToView": "Bỏ chặn để xem nội dung của họ.",
+  "forumProfilePrivacyTitle": "Quyền riêng tư trang cá nhân",
+  "forumProfilePrivacySubtitle": "Chọn những gì người khác có thể thấy trên trang cá nhân của bạn.",
+  "forumPrivacyShowLikes": "Hiện bài viết đã thích",
+  "forumPrivacyShowLikesSubtitle": "Cho phép người khác xem danh sách bài viết bạn đã thích.",
+  "forumPrivacyShowFavorites": "Hiện bài viết đã lưu",
+  "forumPrivacyShowFavoritesSubtitle": "Cho phép người khác xem danh sách bài viết bạn đã lưu.",
+  "forumPrivacyShowFollowers": "Hiện người theo dõi",
+  "forumPrivacyShowFollowersSubtitle": "Cho phép người khác xem danh sách người theo dõi bạn.",
+  "forumPrivacyShowFollowing": "Hiện đang theo dõi",
+  "forumPrivacyShowFollowingSubtitle": "Cho phép người khác xem danh sách người bạn đang theo dõi.",
+  "forumPrivacyUpdated": "Đã cập nhật cài đặt riêng tư",
+  "forumPrivacyUpdateFailed": "Không thể cập nhật cài đặt riêng tư: {error}",
+  "@forumPrivacyUpdateFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumFollow": "Theo dõi",
+  "forumUnfollow": "Bỏ theo dõi",
+  "forumFollowers": "Người theo dõi",
+  "forumFollowing": "Đang theo dõi",
+  "forumMutualFollow": "Theo dõi lẫn nhau",
+  "forumFollowsYou": "Đang theo dõi bạn",
+  "forumFollowFailed": "Không thể theo dõi: {error}",
+  "@forumFollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnfollowFailed": "Không thể bỏ theo dõi: {error}",
+  "@forumUnfollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlock": "Chặn",
+  "forumUnblock": "Bỏ chặn",
+  "forumBlockedBadge": "Đã chặn",
+  "forumBlockConfirmTitle": "Chặn {nickname}?",
+  "@forumBlockConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlockConfirmMessage": "Hai bên sẽ tự động bỏ theo dõi nhau và không thể nhắn tin cho nhau.",
+  "forumBlockDone": "Đã chặn",
+  "forumUnblockDone": "Đã bỏ chặn",
+  "forumBlockFailed": "Không thể chặn người dùng này: {error}",
+  "@forumBlockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnblockFailed": "Không thể bỏ chặn người dùng này: {error}",
+  "@forumUnblockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollower": "Xóa người theo dõi",
+  "forumRemoveFollowerConfirmTitle": "Xóa {nickname} khỏi người theo dõi?",
+  "@forumRemoveFollowerConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollowerConfirmMessage": "Người đó sẽ không theo dõi bạn nữa. Họ không được thông báo và có thể theo dõi lại.",
+  "forumFollowerRemoved": "Đã xóa người theo dõi",
+  "forumBlockListTitle": "Người dùng đã chặn",
+  "forumBlockListSubtitle": "Người bị chặn không thể theo dõi hoặc nhắn tin cho bạn.",
+  "forumBlockListEmpty": "Bạn chưa chặn ai.",
+  "forumRelationListEmpty": "Chưa có ai ở đây.",
+  "forumRelationListFailed": "Không thể tải danh sách này: {error}",
+  "@forumRelationListFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumMessagesTitle": "Tin nhắn",
+  "forumMessagesEntrySubtitle": "Nhắn tin riêng với người bạn theo dõi lẫn nhau",
+  "forumConversationsEmpty": "Chưa có tin nhắn",
+  "forumConversationsEmptyHint": "Bạn có thể nhắn tin khi hai bên theo dõi nhau.",
+  "forumChatInputHint": "Tin nhắn…",
+  "forumChatSend": "Gửi",
+  "forumChatEmpty": "Hãy chào hỏi.",
+  "forumChatMutualRequired": "Bạn chỉ có thể nhắn tin với người theo dõi lại bạn.",
+  "forumChatBlocked": "Hai bạn không thể nhắn tin cho nhau.",
+  "forumChatSendFailed": "Không gửi được tin nhắn: {error}",
+  "@forumChatSendFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumChatLoadEarlier": "Tải tin nhắn cũ hơn",
+  "forumSendMessage": "Gửi tin nhắn",
+  "forumMenuBlocks": "Người dùng đã chặn",
   "forumShelterPrivacyTitle": "Quyền riêng tư của khu trú ẩn",
   "forumShelterPrivacyDescription": "Bí danh của bạn chỉ được giữ nhất quán trong chủ đề này. Ảnh đại diện và hồ sơ sẽ không hiển thị, đồng thời bài viết này sẽ hết hạn sau 24 giờ.",
   "forumShelterExpiresIn": "Hết hạn sau {time}",
@@ -3879,7 +4064,7 @@
   "luotopiaRegisterUseAnotherWhuTitle": "Chuyển tài khoản WHU?",
   "luotopiaRegisterUseAnotherWhuConfirm": "Thao tác này sẽ đăng xuất tài khoản WHU hiện tại và xóa thông tin đăng ký đã nhập cho danh tính này.",
   "luotopiaRegisterStepProfileTitle": "Hồ sơ và email",
-  "luotopiaRegisterStepProfileSubtitle": "Chọn tên hiển thị và email cho tài khoản Luotopia.",
+  "luotopiaRegisterStepProfileSubtitle": "Chọn tên người dùng duy nhất và email cho tài khoản Luotopia của bạn.",
   "luotopiaRegisterEmailVerifiedHint": "Email này đã được xác minh trên tài khoản WHU và tự động điền. Bạn vẫn có thể thay đổi.",
   "luotopiaRegisterEmailUnverifiedHint": "Nếu đây là email WHU của bạn, hãy xác minh trước trên trang tài khoản WHU để chúng tôi tự điền.",
   "luotopiaRegisterStepPasswordTitle": "Đặt mật khẩu",
@@ -4229,7 +4414,7 @@
   "forumKarmaLedgerTitle": "Sổ ghi",
   "forumKarmaLedgerVoteCost": "Chi phí bình chọn",
   "forumKarmaLedgerVoteRefund": "Hoàn bình chọn",
-  "forumKarmaLowQualityHint": "Với bài tín hiệu thấp ngoài 水军, dùng lý do low_quality (đề xuất ?10). Bài 水军 không nhận phần thưởng đăng.",
+  "forumKarmaLowQualityHint": "Với bài viết ít giá trị ngoài 灌水, dùng lý do low_quality (đề xuất −10). Bài viết trong 灌水 không nhận phần thưởng đăng bài.",
   "forumKarmaNextLevel": "Cấp kế tại {karma}",
   "forumKarmaSettingCheckinFixed": "Điểm danh cố định",
   "forumKarmaSettingCommentDown": "Lượng giảm khi bị không thích bình luận",

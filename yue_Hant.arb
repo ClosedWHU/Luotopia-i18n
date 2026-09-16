@@ -2,9 +2,9 @@
   "@@locale": "yue_Hant",
   "designLanguage": "設計語言",
   "designLanguageExperimentalNote": "實驗功能 · 目前僅 Theme Lab 預覽生效",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "badgeItemEmail": "{count, plural, other{{count}封新郵件}}",
-  "badgeItemForum": "{count, plural, other{{count}條未讀帖子}}",
+  "badgeItemForum": "{count, plural, other{{count}條未讀貼文}}",
   "badgeItemMessages": "{count, plural, other{{count}條新訊息}}",
   "badgeItemTasks": "{count, plural, other{{count}個未完成嘅行程}}",
   "badgeLastSep": "同",
@@ -132,6 +132,10 @@
   "vpnStatusLabel": "目前狀態",
   "settingsDevDeviceTrustTitle": "裝置信任",
   "settingsDevDeviceTrustSubtitle": "檢查裝置完整性同安全訊號",
+  "settingsSecurityCloneTitle": "應用數據懷疑被克隆",
+  "settingsSecurityCloneSubtitle": "安全儲存會喺讀取時被清空，帳號會自動登出。點擊查看詳情。",
+  "settingsSecurityCompromisedTitle": "檢測到風險運行環境",
+  "settingsSecurityCompromisedSubtitle": "依賴內置密鑰嘅功能已經停用，開發者模式用唔到；登入狀態唔受影響。點擊查看詳情。",
   "campusAppSchoolNetPay": "網費繳費",
   "schoolNetRefresh": "更新校園網狀態",
   "schoolNetLoading": "載入緊校園網套餐…",
@@ -200,7 +204,7 @@
   "campusAppFileSharing": "學習資料分享",
   "campusAppLibrary": "圖書借閲",
   "campusAppScores": "成績",
-  "campusAppSeatReservation": "温習預約",
+  "campusAppSeatReservation": "溫習預約",
   "campusAppSports": "運動場館",
   "campusAppTimetable": "時間表",
   "campusTitle": "校園",
@@ -388,14 +392,14 @@
   "emptyClassroomQueryButton": "查詢空閒課室",
   "emptyClassroomQueryHint": "已揀篩選條件，撳上方掣查詢空閒課室",
   "emptyClassroomRetry": "再試",
-  "emptyClassroomSectionHint": "撳節次添加温習",
+  "emptyClassroomSectionHint": "撳節次添加溫習",
   "emptyClassroomSectionLabel": "第{section}節",
   "emptyClassroomTitle": "空置課室",
   "emptyClassroomUndo": "復原",
   "emptyClassroomWeekLabel": "第{week}周",
   "emptyTimetableImportCourse": "2. 匯入教務科目",
-  "emptyTimetableLoggedInWhu": "已登入武大帳户",
-  "emptyTimetableLoginWhu": "1. 登入武大帳户",
+  "emptyTimetableLoggedInWhu": "已登入武大帳戶",
+  "emptyTimetableLoginWhu": "1. 登入武大帳戶",
   "emptyTimetableTitle": "還冇添加科目",
   "enableWidgetSync": "啓用桌面小元件同步",
   "fallbackRefreshInterval": "兜底重新整理頻率",
@@ -446,15 +450,15 @@
   "listTabSchedules": "日程清單",
   "listTabTasks": "工作清單",
   "login": "去登入",
-  "luotopiaAccountDetails": "賬户詳情",
-  "luotopiaAccountTitle": "珞家賬户",
-  "luotopiaAlreadyHaveAccount": "已經有賬户？",
+  "luotopiaAccountDetails": "帳戶詳情",
+  "luotopiaAccountTitle": "珞家帳戶",
+  "luotopiaAlreadyHaveAccount": "已經有帳戶？",
   "luotopiaConfirmLogout": "確認登出",
   "luotopiaConfirmPassword": "確認密碼",
   "luotopiaEmailHint": "用嚟揾返密碼",
   "luotopiaLoginTitle": "登入珞家",
   "luotopiaLogoutWarning": "登出之後要重新登入先用到論壇等功能。",
-  "luotopiaNoAccountYet": "仲未有賬户？",
+  "luotopiaNoAccountYet": "仲未有帳戶？",
   "luotopiaNotLoggedIn": "未登入",
   "luotopiaPasswordHint": "起碼 {count} 個字元",
   "luotopiaPasswordsDoNotMatch": "兩次入嘅密碼唔一致",
@@ -467,6 +471,8 @@
   "luotopiaPasswordRequireUppercase": "包含大寫字母",
   "luotopiaPasswordRequireSpecial": "包含特殊字元",
   "luotopiaUsername": "使用者名稱",
+  "luotopiaUsernameExists": "呢個使用者名稱已經被使用",
+  "luotopiaUsernameInvalidFormat": "使用者名稱只可以用字母、數字、點、連字符同底線，而且要起碼有一個字母",
   "luotopiaUsernameMinHint": "起碼 3 個字元",
   "luotopiaUsernameTooShort": "使用者名稱至少要有 3 個字元",
   "luotopiaWelcomeBack": "歡迎返嚟",
@@ -494,7 +500,7 @@
   "scoreImportTitle": "成績匯入",
   "scorePageRetry": "再試",
   "scorePageTitle": "成績查詢",
-  "seatReservationTitle": "温習預約",
+  "seatReservationTitle": "溫習預約",
   "seedColor": "種子色",
   "selectedOnlyDefault": "僅選中項顯示",
   "selectSemester": "揀學期",
@@ -526,10 +532,10 @@
   },
   "licenseProjectHomepage": "項目主頁",
   "settingsAboutVersionTitle": "版本",
-  "settingsAccountLocalTitle": "珞家賬戶",
+  "settingsAccountLocalTitle": "珞家帳戶",
   "settingsAccountWhuLoggedIn": "已認證",
   "settingsAccountWhuNotLoggedIn": "未登入",
-  "settingsAccountWhuTitle": "武大賬户",
+  "settingsAccountWhuTitle": "武大帳戶",
   "settingsAiApiKeyLabel": "API 密鑰",
   "settingsAiBaseUrlLabel": "API 地址",
   "settingsAiModelLabel": "模型",
@@ -624,8 +630,8 @@
   "sportsConfirmBooking": "確認預約",
   "sportsGoBack": "返去",
   "sportsGoToMyOrders": "睇我嘅預約",
-  "loading": "加載緊…",
-  "loadingFailed": "加載失敗",
+  "loading": "載入緊…",
+  "loadingFailed": "載入失敗",
   "sportsNoCourtsAvailable": "暫時冇可用場地",
   "sportsOrderArgsMissing": "訂單參數唔齊，請返去重新揀。",
   "sportsOrderCancelled": "已取消",
@@ -665,7 +671,7 @@
   "verifyingAndEstablishingEducationSession": "校驗並建立教務會話...",
   "wakeupImport": "Wakeup 匯入",
   "wakeupShareLinkCode": "Wakeup 分享口令/連結",
-  "weatherLoadFailedWithError": "天氣加載失敗：{error}",
+  "weatherLoadFailedWithError": "天氣載入失敗：{error}",
   "weatherNoHourlyForecast": "暫時冇逐小時預報",
   "weatherRetry": "再試",
   "week1Monday": "第一週週一",
@@ -675,7 +681,7 @@
   "sourceWhuYjs": "武大研究生",
   "graduateSystem": "研究生系統",
   "graduateSystemImport": "研究生系統匯入",
-  "whuAccountBind": "綁定 WHU 賬户",
+  "whuAccountBind": "綁定 WHU 帳戶",
   "whuAccountRebind": "重新綁定",
   "whuAccountSwitchAction": "切換帳號",
   "whuAccountSwitchSubtitle": "用其他學號登入",
@@ -698,11 +704,11 @@
   "whuAccountBirthday": "生日",
   "whuAccountMobile": "手機號碼",
   "whuAccountVerifyMobile": "認證手機號碼",
-  "whuAccountVerifyMobileSubtitle": "輸入完整手機號碼，確認佢已綁定而家嘅武大賬戶",
+  "whuAccountVerifyMobileSubtitle": "輸入完整手機號碼，確認佢已綁定而家嘅武大帳戶",
   "whuAccountVerifyMobileSuccess": "手機號碼認證成功",
   "whuAccountVerifyMobileFailed": "無法認證呢個手機號碼",
   "whuAccountVerifyEmail": "認證電郵",
-  "whuAccountVerifyEmailSubtitle": "輸入完整電郵，確認佢已綁定而家嘅武大賬戶",
+  "whuAccountVerifyEmailSubtitle": "輸入完整電郵，確認佢已綁定而家嘅武大帳戶",
   "whuAccountVerifyEmailSuccess": "電郵認證成功",
   "whuAccountVerifyEmailFailed": "無法認證呢個電郵",
   "whuAccountVerifyEmailWaiting": "等 {seconds} 秒",
@@ -728,14 +734,14 @@
   "whuAccountSectionSession": "登入狀態",
   "whuAccountRecentLogin": "最近登入",
   "whuAccountRecentVerification": "最近驗證",
-  "whuAccountDetail": "WHU 賬户詳情",
-  "whuAccountTitle": "WHU 賬户",
+  "whuAccountDetail": "WHU 帳戶詳情",
+  "whuAccountTitle": "WHU 帳戶",
   "whuCalendarListView": "清單",
   "whuCalendarMonthView": "月檢視",
   "whuCalendarNoEvents": "冇事件",
   "whuCalendarTitle": "校歷",
   "whuCalendarWeekView": "周檢視",
-  "whuLoginWebViewLoading": "加載緊…",
+  "whuLoginWebViewLoading": "載入緊…",
   "whuLoginWebViewTitle": "WHU 登入",
   "@editorDurationHourMinute": {
    "placeholders": {
@@ -1043,8 +1049,8 @@
   "aiConfirmationDecline": "取消",
   "aiConfirmationSubmit": "提交決定",
   "aiConfirmationDecisionRequired": "請為每一項操作揀同意或者取消。",
-  "aiAccountSwitchTitle": "偵測到另一個賬戶",
-  "aiAccountSwitchBody": "啱啱登入嘅賬戶同發起呢次請求嘅賬戶唔同。要唔要用新賬戶重新執行？",
+  "aiAccountSwitchTitle": "偵測到另一個帳戶",
+  "aiAccountSwitchBody": "啱啱登入嘅帳戶同發起呢次請求嘅帳戶唔同。要唔要用新帳戶重新執行？",
   "aiAccountSwitchConfirm": "重新傳送",
   "aiAccountSwitchDismiss": "而家唔使",
   "scorePagePrivacyLocked": "成績表已經俾私隱鎖保護",
@@ -1101,7 +1107,7 @@
   "settingsDevHotUpdate": "熱更新管理",
   "settingsDevHotUpdateSubtitle": "查看可熱更新嘅分析腳本同佢哋嘅狀態",
   "hotUpdateTitle": "熱更新管理",
-  "hotUpdateManifestVersion": "Manifest v{version}",
+  "hotUpdateManifestVersion": "清單版本 v{version}",
   "@hotUpdateManifestVersion": {
    "placeholders": {
      "version": {
@@ -1270,7 +1276,7 @@
   "libraryVenueList": "場館清單",
   "libraryMyReservations": "我嘅預約",
   "libraryNoVenues": "暫時冇開放場館",
-  "libraryLoadFailed": "加載失敗：{error}",
+  "libraryLoadFailed": "載入失敗：{error}",
   "@libraryLoadFailed": {
    "placeholders": {
      "error": {
@@ -1321,7 +1327,7 @@
       }
     }
   },
-  "luojiaEcardLoading": "加載{name}...",
+  "luojiaEcardLoading": "載入{name}...",
   "@luojiaEcardLoading": {
    "placeholders": {
      "name": {
@@ -1348,7 +1354,7 @@
   "linkNotSupported": "呢個連結要喺瀏覽器或者學校應用打開。",
   "pageTemporarilyUnavailable": "頁面暫時開唔到",
   "pageRefresh": "重新整理",
-  "accountStatus": "賬户狀態",
+  "accountStatus": "帳戶狀態",
   "whuCasLoginRequired": "請先登入武大統一認證。",
   "whuCasServiceAuthFailed": "服務授權失敗，請重新登入武大統一認證。",
   "whuCasServiceRequestFailed": "服務授權請求失敗：{error}",
@@ -1369,7 +1375,7 @@
       }
     }
   },
-  "whuCasFetchFailed": "攞教務賬户資訊失敗（HTTP {code}）。",
+  "whuCasFetchFailed": "攞教務帳戶資訊失敗（HTTP {code}）。",
   "@whuCasFetchFailed": {
    "placeholders": {
      "code": {
@@ -1738,7 +1744,7 @@
   "aiFormatGemini": "Gemini",
   "aiFormatAnthropic": "Anthropic",
   "aiSystemPromptDefault": "你係珞家嘅 AI 助手。你只會根據而家使用者訊息同提供嘅事項摘要回答，唔引用舊傾偈。優先幫手建立事項、整理安排、回答日程問題。",
-  "whuAccountFallbackName": "武大賬户",
+  "whuAccountFallbackName": "武大帳戶",
   "homeWidgetDateLabel": "{month}月{day}日",
   "@homeWidgetDateLabel": {
    "placeholders": {
@@ -1833,7 +1839,7 @@
   "weatherProviderAirQuality": "空氣質素",
   "weatherProviderPrecipitation": "降水預報",
   "weatherProviderAlerts": "警報",
-  "weatherProviderNormalTemp": "正常温度範圍",
+  "weatherProviderNormalTemp": "正常溫度範圍",
   "weatherProviderLocationLookup": "位置查詢",
   "weatherProviderChina": "小米天氣",
   "weatherProviderOpenMeteo": "Open-Meteo",
@@ -1896,7 +1902,7 @@
   "campusBusNoNearby": "冇攞到附近的校巴資訊",
   "campusBusTooFarTitle": "已經離開校園附近",
   "campusBusTooFarMessage": "而家位置唔喺武漢大學附近，校巴資訊只係喺校園周邊先有參考價值。",
-  "campusBusLoadFailed": "加載校巴失敗",
+  "campusBusLoadFailed": "載入校巴失敗",
   "campusBusRefresh": "重新整理",
   "campusBusServiceHours": "運營時間: {hours}",
   "whuConfirmLogout": "確認登出",
@@ -1994,7 +2000,7 @@
     }
   },
   "libraryNoSeatData": "暫時冇座位資料",
-  "librarySeatLayoutFailed": "加載座位圖失敗：{error}",
+  "librarySeatLayoutFailed": "載入座位圖失敗：{error}",
   "@librarySeatLayoutFailed": {
    "placeholders": {
      "error": {
@@ -2027,7 +2033,7 @@
   "libraryStatusNoCheckout": "未簽退",
   "libraryToday": "今日",
   "libraryTomorrow": "聽日",
-  "emptyClassroomSelfStudyTitle": "{location} 温習",
+  "emptyClassroomSelfStudyTitle": "{location} 溫習",
   "@emptyClassroomSelfStudyTitle": {
    "placeholders": {
      "location": {
@@ -2057,7 +2063,7 @@
   "wallpaperSourceNone": "無",
   "wallpaperSourceLocal": "本機圖片",
   "wallpaperSourceBing": "Bing 每日",
-  "wallpaperSourceUrl": "網路圖片",
+  "wallpaperSourceUrl": "網絡圖片",
   "wallpaperPickImage": "揀圖片",
   "wallpaperNoImage": "未揀圖片",
   "wallpaperTargetHome": "時間表",
@@ -2364,7 +2370,7 @@
   "onboardingPermissionNotificationsTitle": "通知",
   "onboardingPermissionNotificationsDescription": "用嚟日程提醒同重要校園訊息。",
   "onboardingPermissionPhotosTitle": "相簿",
-  "onboardingPermissionPhotosDescription": "用嚟設定壁紙同為備忘加圖片。",
+  "onboardingPermissionPhotosDescription": "用嚟設定桌布同為備忘加圖片。",
   "onboardingPermissionBiometricTitle": "生物識別",
   "onboardingPermissionBiometricDescription": "用嚟保護成績等私隱內容。",
   "onboardingPermissionSkipTitle": "跳過權限申請？",
@@ -2517,6 +2523,8 @@
   "authNoPasskeys": "暫時未有 Passkey",
   "authForgotPassword": "唔記得密碼？",
   "authResetPassword": "重設密碼",
+  "authEmailVerifySuccess": "電郵驗證成功，請重新登入",
+  "authPasswordResetSuccess": "密碼已重設，請用新密碼登入",
   "authSendResetLink": "傳送重設連結",
   "authResetRequested": "如果呢個電郵已經註冊，重設密碼電郵應該會喺幾分鐘內收到。如果收唔到，請檢查垃圾郵件匣同電郵地址有冇串錯。",
   "authLoginEmailUnverified": "呢個電郵地址仲未驗證，請驗證之後再登入。",
@@ -2631,7 +2639,7 @@
   "authApiCredentialUsageHour": "鐘",
   "authApiCredentialUsageDay": "日",
   "authApiCredentialUsageMonth": "月",
-  "authApiCredentialKey": "API 金鑰",
+  "authApiCredentialKey": "API 密鑰",
   "authApiCredentialScopes": "權限範圍",
   "authApiCredentialAllScopes": "全部",
   "authApiCredentialCreated": "憑證已建立",
@@ -2722,7 +2730,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "喺支援嘅裝置註冊生物識別金鑰",
+  "authPasskeysSupportedDeviceHint": "喺支援嘅裝置註冊生物識別密鑰",
   "authPasskeyCreatedAt": "建立於 {date}",
   "@authPasskeyCreatedAt": {
    "placeholders": {
@@ -2758,7 +2766,7 @@
       }
     }
   },
-  "authWhuBindingCurrent": "連結而家嘅珞家賬戶（{studentId}）",
+  "authWhuBindingCurrent": "連結而家嘅珞家帳戶（{studentId}）",
   "@authWhuBindingCurrent": {
    "placeholders": {
      "studentId": {
@@ -2785,7 +2793,7 @@
   "authSessionsSignOutCurrentWarning": "呢部係你依家用緊嘅裝置，登出之後本機會即刻登出，要重新登入。",
   "ipLocationRegion": "地區：{region}",
   "ipLocationIsp": "電訊商：{isp}",
-  "authApiCredentialsSubtitle": "管理外部存取用嘅 API 金鑰",
+  "authApiCredentialsSubtitle": "管理外部存取用嘅 API 密鑰",
   "authChangePassword": "更改密碼",
   "authDeleteAccount": "刪除帳戶",
   "authDeleteAccountWarning": "你肯定要刪除帳戶？呢個操作無法復原。",
@@ -2961,8 +2969,8 @@
       }
     }
   },
-  "forumCreatePost": "建立帖子",
-  "forumPost": "帖子",
+  "forumCreatePost": "建立貼文",
+  "forumPost": "貼文",
   "forumNoActiveBoards": "而家冇可用嘅活躍版面。請再試一次，或者聯絡管理員。",
   "forumSelectedBoardUnavailable": "請選擇可用嘅版面。",
   "forumBoardShelter": "防空洞 {name}",
@@ -2986,13 +2994,13 @@
       }
     }
   },
-  "forumEmpty": "仲未有帖子。嚟做第一個發帖嘅人啦。",
+  "forumEmpty": "仲未有貼文。嚟做第一個發帖嘅人啦。",
   "forumAnonymous": "匿名",
-  "forumPostDetails": "帖子詳情",
+  "forumPostDetails": "貼文詳情",
   "forumReplies": "回覆",
   "forumRepliesEmpty": "暫時未有回覆。",
   "forumReply": "回覆",
-  "forumReplyPost": "回覆帖子",
+  "forumReplyPost": "回覆貼文",
   "forumReplyHint": "請友善交流，唔好分享個人資料。",
   "forumSend": "傳送",
   "authPasswordResetEmail": "電郵",
@@ -3004,17 +3012,194 @@
       }
     }
   },
-  "forumMyPosts": "我嘅帖子",
-  "forumLikedPosts": "已讚嘅帖子",
-  "forumFavoritePosts": "已收藏嘅帖子",
+  "forumMyPosts": "我嘅貼文",
+  "forumLikedPosts": "已讚嘅貼文",
+  "forumFavoritePosts": "已收藏嘅貼文",
   "forumUnavailableExpired": "已過期",
   "forumUnavailableHidden": "無法查看",
   "forumUnavailableDeleted": "已被審核移除",
-  "forumUnavailableDescription": "呢個帖子已經無法閱讀。",
+  "forumUnavailableDescription": "呢個貼文已經無法閱讀。",
   "forumPostRejected": "審核未通過",
   "forumRemoveLike": "取消讚好",
-  "forumRemoveFavorite": "取消收藏帖子",
+  "forumRemoveFavorite": "取消收藏貼文",
   "forumPersonalEmpty": "暫時未有內容。",
+  "forumDrafts": "草稿箱",
+  "forumDraftBadge": "草稿",
+  "forumSaveDraft": "存草稿",
+  "forumDraftSaved": "草稿已儲存",
+  "forumDraftSaveFailed": "草稿儲存失敗：{error}",
+  "@forumDraftSaveFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftEmpty": "暫時未有草稿",
+  "forumDraftEmptyHint": "編輯時揀「存草稿」，未發佈嘅內容就會保留喺呢度。",
+  "forumDraftDelete": "刪除草稿",
+  "forumDraftDeleteConfirmTitle": "刪除呢篇草稿？",
+  "forumDraftDeleteConfirmMessage": "草稿同佢嘅內容會被捨棄，而且無法還原。",
+  "forumDraftDeleted": "草稿已刪除",
+  "forumDraftDeleteFailed": "草稿刪除失敗：{error}",
+  "@forumDraftDeleteFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumDraftPublished": "草稿已發佈",
+  "forumDraftEditTitle": "編輯草稿",
+  "forumDraftLastEdited": "編輯於 {time}",
+  "@forumDraftLastEdited": {
+   "placeholders": {
+     "time": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnsavedChangesTitle": "內容仲未儲存",
+  "forumUnsavedChangesMessage": "發佈呢篇貼文、存做草稿，定係捨棄？",
+  "forumUnsavedChangesPublish": "發佈",
+  "forumUnsavedChangesSaveDraft": "存草稿",
+  "forumUnsavedChangesDiscard": "捨棄",
+  "forumPostStatusPublished": "已發佈",
+  "forumUserProfileTitle": "個人主頁",
+  "forumUserPostsTab": "貼文",
+  "forumUserCommentsTab": "評論",
+  "forumUserLikedTab": "讚好",
+  "forumUserFavoritesTab": "收藏",
+  "forumUserFollowersTab": "粉絲",
+  "forumUserFollowingTab": "關注",
+  "forumUserJoinedAt": "{date} 加入",
+  "@forumUserJoinedAt": {
+   "placeholders": {
+     "date": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUserContentEmpty": "仲未有發佈內容。",
+  "forumUserCommentsEmpty": "仲未有評論。",
+  "forumUserListHidden": "呢個列表唔公開。",
+  "forumUserBlockedYou": "呢個用戶已經封鎖咗你。",
+  "forumUserYouBlocked": "你已經封鎖咗呢個用戶。",
+  "forumUserUnblockToView": "取消封鎖之後先睇到佢嘅內容。",
+  "forumProfilePrivacyTitle": "主頁私隱",
+  "forumProfilePrivacySubtitle": "揀選其他人喺你主頁上睇到啲乜。",
+  "forumPrivacyShowLikes": "公開讚好列表",
+  "forumPrivacyShowLikesSubtitle": "允許其他人睇你讚好過嘅貼文。",
+  "forumPrivacyShowFavorites": "公開收藏列表",
+  "forumPrivacyShowFavoritesSubtitle": "允許其他人睇你收藏嘅貼文。",
+  "forumPrivacyShowFollowers": "公開粉絲列表",
+  "forumPrivacyShowFollowersSubtitle": "允許其他人睇你嘅粉絲列表。",
+  "forumPrivacyShowFollowing": "公開關注列表",
+  "forumPrivacyShowFollowingSubtitle": "允許其他人睇你關注嘅人。",
+  "forumPrivacyUpdated": "私隱設定已更新",
+  "forumPrivacyUpdateFailed": "私隱設定更新失敗：{error}",
+  "@forumPrivacyUpdateFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumFollow": "關注",
+  "forumUnfollow": "取消關注",
+  "forumFollowers": "粉絲",
+  "forumFollowing": "關注",
+  "forumMutualFollow": "互相關注",
+  "forumFollowsYou": "已關注你",
+  "forumFollowFailed": "關注失敗：{error}",
+  "@forumFollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnfollowFailed": "取消關注失敗：{error}",
+  "@forumUnfollowFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlock": "封鎖",
+  "forumUnblock": "取消封鎖",
+  "forumBlockedBadge": "已封鎖",
+  "forumBlockConfirmTitle": "封鎖 {nickname}？",
+  "@forumBlockConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumBlockConfirmMessage": "雙方會自動取消關注，而且彼此都唔可以再發私人訊息。",
+  "forumBlockDone": "已封鎖",
+  "forumUnblockDone": "已取消封鎖",
+  "forumBlockFailed": "封鎖失敗：{error}",
+  "@forumBlockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumUnblockFailed": "取消封鎖失敗：{error}",
+  "@forumUnblockFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollower": "移除粉絲",
+  "forumRemoveFollowerConfirmTitle": "將 {nickname} 由粉絲入面移除？",
+  "@forumRemoveFollowerConfirmTitle": {
+   "placeholders": {
+     "nickname": {
+       "type": "String"
+     }
+   }
+  },
+  "forumRemoveFollowerConfirmMessage": "對方會唔再關注你。系統唔會通知對方，而且對方可以重新關注。",
+  "forumFollowerRemoved": "已移除粉絲",
+  "forumBlockListTitle": "黑名單",
+  "forumBlockListSubtitle": "被封鎖嘅用戶無法關注你或者發私人訊息俾你。",
+  "forumBlockListEmpty": "你仲未有封鎖任何人。",
+  "forumRelationListEmpty": "呢度仲未有人。",
+  "forumRelationListFailed": "列表載入失敗：{error}",
+  "@forumRelationListFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumMessagesTitle": "私人訊息",
+  "forumMessagesEntrySubtitle": "同互相關注嘅人私聊",
+  "forumConversationsEmpty": "暫時未有私人訊息",
+  "forumConversationsEmptyHint": "互相關注之後就可以發私人訊息。",
+  "forumChatInputHint": "傳送訊息…",
+  "forumChatSend": "傳送",
+  "forumChatEmpty": "打個招呼啦。",
+  "forumChatMutualRequired": "只有互相關注先可以發私人訊息。",
+  "forumChatBlocked": "你哋之間無法發私人訊息。",
+  "forumChatSendFailed": "訊息傳送失敗：{error}",
+  "@forumChatSendFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+     }
+   }
+  },
+  "forumChatLoadEarlier": "載入更早嘅訊息",
+  "forumSendMessage": "發私人訊息",
+  "forumMenuBlocks": "黑名單",
   "forumNotificationsTitle": "論壇通知",
   "forumNotificationsEmpty": "你暫時冇論壇通知。",
   "forumNotificationsMarkAllRead": "全部標記為已讀",
@@ -3028,10 +3213,10 @@
   "forumRestore": "還原",
   "forumDecisionReason": "處理說明",
   "forumFreezeInvites": "凍結邀請碼",
-  "forumPostApproved": "帖子已通過。",
-  "forumPostHidden": "帖子已隱藏。",
-  "forumPostDeleted": "帖子已移除。",
-  "forumPostRestored": "帖子已還原。",
+  "forumPostApproved": "貼文已通過。",
+  "forumPostHidden": "貼文已隱藏。",
+  "forumPostDeleted": "貼文已移除。",
+  "forumPostRestored": "貼文已還原。",
   "forumAppealResolved": "申訴已處理。",
   "forumShelterPrivacyTitle": "防空洞私隱",
   "forumShelterPrivacyDescription": "你嘅匿名名只會喺呢個話題入面保持一致。唔會顯示頭像或者個人資料，篇帖會喺 24 小時後過期。",
@@ -3513,7 +3698,7 @@
   "majorInfoEmploymentNoData": "冇資料",
   "forumSearch": "搜尋",
   "forumMoreActions": "更多操作",
-  "forumSearchQuery": "搜尋帖子",
+  "forumSearchQuery": "搜尋貼文",
   "forumSearchBoard": "版面",
   "forumSearchTag": "標籤",
   "forumSearchCourseId": "課程 ID",
@@ -4090,7 +4275,7 @@
   "aiConfirmationFieldFee": "費用",
   "aiConfirmationFieldMailSender": "發件身分",
   "aiConfirmationFieldMailSubject": "主題",
-  "aiConfirmationFieldMailFolder": "文件夾",
+  "aiConfirmationFieldMailFolder": "資料夾",
   "aiConfirmationFieldMailTargetFolder": "移動到",
   "aiConfirmationFieldMailReplyTo": "回覆郵件",
   "aiConfirmationFieldMailRecipientsAnchored": "收件人",
@@ -4191,7 +4376,7 @@
   "forumKarmaLedgerTitle": "業果流水",
   "forumKarmaLedgerVoteCost": "投票成本",
   "forumKarmaLedgerVoteRefund": "投票退款",
-  "forumKarmaLowQualityHint": "水軍以外嘅低信號帖，用理由 low_quality（建議 −10）。水軍帖拎唔到出帖獎勵。",
+  "forumKarmaLowQualityHint": "灌水 以外嘅低質量帖，用理由 low_quality（建議 −10）。灌水 發帖拎唔到出帖獎勵。",
   "forumKarmaNextLevel": "下一級喺 {karma}",
   "forumKarmaSettingCheckinFixed": "固定簽到",
   "forumKarmaSettingCommentDown": "留言踩所失",
@@ -4244,16 +4429,16 @@
   "busArrivalStatusArrived": "已到達",
   "busArrivalStatusNoInfo": "暫無車輛資訊",
   "busArrivalStatusStopsAway": "{busNum} · 距 {stopsAway} 站",
-  "forumModerationModeratePost": "審核/管理帖子",
-  "forumModerationPostIdLabel": "帖子 ID",
-  "forumModerationPostIdRequired": "請輸入帖子 ID",
+  "forumModerationModeratePost": "審核/管理貼文",
+  "forumModerationPostIdLabel": "貼文 ID",
+  "forumModerationPostIdRequired": "請輸入貼文 ID",
   "forumModerationPostEvidenceTitle": "審核證據",
   "forumModerationAccountAction": "帳號處理",
   "forumModerationBanAccount": "封禁帳號",
   "forumModerationRemoveMute": "解封禁言",
   "forumModerationRemoveBan": "解封帳號",
   "forumModerationAccountActionApplied": "帳號處理已生效",
-  "forumModerationMovePost": "移動帖子",
+  "forumModerationMovePost": "移動貼文",
   "forumModerationKeepBoard": "保留當前版塊",
   "forumModerationKarmaReason": "Karma 審核原因",
   "courseMatchingTargetTimetable": "目標課表",
@@ -4316,9 +4501,9 @@
   "forumFreeDownvote": "免費點踩",
   "whuAuthSmsSendFailed": "驗證碼發送失敗，請檢查手機號後重試",
   "whuAuthSmsSendRequired": "請先向當前手機號獲取驗證碼",
-  "whuAuthCaptchaLoadFailed": "安全驗證加載失敗，請關閉後重試",
+  "whuAuthCaptchaLoadFailed": "安全驗證載入失敗，請關閉後重試",
   "whuAuthLoginCredentialsError": "帳號、密碼或動態碼錯誤",
-  "whuSmartCampusAuthFailedCasRequired": "智慧珞珈授權失敗，請重新登錄武大統一認證。",
+  "whuSmartCampusAuthFailedCasRequired": "智慧珞珈授權失敗，請重新登入武大統一認證。",
   "whuSmartCampusAuthFailedHttp": "智慧珞珈授權失敗（HTTP {statusCode}）。",
   "@whuSmartCampusAuthFailedHttp": {
    "placeholders": {
@@ -4338,7 +4523,7 @@
   "aiDebugEventsTitle": "AI 調試事件流",
   "aiDebugExportButton": "導出完整 Debug JSON",
   "aiDebugExportFailed": "導出失敗: {error}",
-  "aiDebugExportSubject": "Agent Debug Export",
+  "aiDebugExportSubject": "Agent 除錯匯出",
   "aiDebugExportSubtitle": "包含對話訊息、設定、工具呼叫同效能資料",
   "aiDebugExportTitle": "導出調試日誌",
   "aiDebugExported": "已導出至 {fileName}",
@@ -4360,8 +4545,8 @@
   "aiDebugGroupRemindersTitle": "12. 提醒同小組件同步",
   "aiDebugGroupSecurityGoal": "測試手錶同步、高風險未開放工具反向拒絕及 result_unknown 規則",
   "aiDebugGroupSecurityTitle": "13. 邊界、高風險同未開放拒決",
-  "aiDebugGroupSettingsGoal": "測試主題、圖標、壁紙、語言及各類偏好修改（帶確認卡）",
-  "aiDebugGroupSettingsTitle": "9. 應用設置同偏好",
+  "aiDebugGroupSettingsGoal": "測試主題、圖標、桌布、語言及各類偏好修改（帶確認卡）",
+  "aiDebugGroupSettingsTitle": "9. 應用設定同偏好",
   "aiDebugGroupTimetableGoal": "測試本地課表、WHU 課表拉取、成績同培養方案查詢",
   "aiDebugGroupTimetableTitle": "4. 課表同成績",
   "aiDebugGroupTimetableWriteGoal": "測試課表重命名/切換及第三方/WakeUp 匯入（帶確認卡）",
@@ -4378,7 +4563,7 @@
   "aiDebugNoExportableSession": "冇可以導出嘅 AI 會話。",
   "aiDebugNoLogs": "暫時冇日誌",
   "aiDebugPromptAiSelfCheckLabel": "AI 服務連通性自檢",
-  "aiDebugPromptAppearanceLabel": "主題顏色同壁紙源",
+  "aiDebugPromptAppearanceLabel": "主題顏色同桌布源",
   "aiDebugPromptBusLabel": "校車線路同實時位置",
   "aiDebugPromptCalendarLabel": "校歷同學期查詢",
   "aiDebugPromptCovers": "[{covers}] {prompt}",
@@ -4424,7 +4609,7 @@
   "aiDebugThemeModeConfirmationTitle": "主題模式切換確認測試",
   "aiDebugToolAllowlist": "允許列表 ({count})",
   "aiDebugToolkitLogTitle": "Toolkit 內部日誌",
-  "settingsPrivacyDiagnosticsGmsUnavailable": "此設備冇 Google Play 服務，遙測功能已禁用。你嘅已保存選擇會保留，待 Google Play 服務可用後恢復生效。",
+  "settingsPrivacyDiagnosticsGmsUnavailable": "此設備冇 Google Play 服務，遙測功能已禁用。你嘅已儲存選擇會保留，待 Google Play 服務可用後恢復生效。",
   "toolkitVerifyAgendaItemTitle": "測試日程項",
   "toolkitVerifyAuthPrerequisite": "認證前置條件",
   "toolkitVerifyAuthenticated": "已認證 · {subject}",
@@ -4673,16 +4858,16 @@
   "aiVoiceConnecting": "連接緊…",
   "aiVoiceTranscribing": "轉寫緊…",
   "aiVoiceFailed": "語音輸入失敗",
-  "aiVoiceModelRequired": "請先下載 Whisper 模型,先用語音輸入",
+  "aiVoiceModelRequired": "請先下載 Whisper 模型，再用語音輸入",
   "aiVoiceKeyRequired": "請先設定雲端語音識別嘅 API 密鑰",
   "aiVoiceMicPermission": "未攞到咪高鋒權限",
   "aiVoiceUnsupported": "呢部裝置唔支援語音識別",
   "aiAsrOpenAiRealtime": "OpenAI 即時轉寫",
   "aiAsrDashScope": "DashScope 即時轉寫",
   "aiAsrApiKey": "API 密鑰",
-  "aiAsrApiKeyHint": "留空嗰陣,如果當前 AI 服務商兼容,會復用佢嘅密鑰",
-  "aiAsrEndpoint": "服務端點(可選)",
-  "aiAsrModel": "模型(可選)",
+  "aiAsrApiKeyHint": "留空嗰陣，如果當前 AI 服務商兼容，會復用佢嘅密鑰",
+  "aiAsrEndpoint": "服務端點（可選）",
+  "aiAsrModel": "模型（可選）",
   "aiAsrLanguage": "識別語言",
   "aiAsrLanguageAuto": "自動檢測",
   "aiSkillsEnabled": "已啟用 {count} 項技能",
@@ -4961,11 +5146,11 @@
   },
   "coremailSortNewestFirstHint": "而家新到舊，撳一下轉做舊到新",
   "coremailSortOldestFirstHint": "而家舊到新，撳一下轉做新到舊",
-  "coremailNewFolder": "新增文件夾",
-  "coremailFolderName": "文件夾名",
-  "coremailFolderNameRequired": "請輸入文件夾名。",
+  "coremailNewFolder": "新增資料夾",
+  "coremailFolderName": "資料夾名",
+  "coremailFolderNameRequired": "請輸入資料夾名。",
   "coremailCreate": "建立",
-  "coremailSwitchFolder": "切換文件夾",
+  "coremailSwitchFolder": "切換資料夾",
   "coremailLoadingMailbox": "載入郵箱緊…",
   "coremailConnectionFailed": "郵箱連接失敗：{error}",
   "@coremailConnectionFailed": {
@@ -4975,13 +5160,13 @@
       }
     }
   },
-  "coremailFolderEmpty": "呢個文件夾冇郵件",
+  "coremailFolderEmpty": "呢個資料夾冇郵件",
   "coremailCompose": "寫郵件",
   "coremailNoSubject": "（冇主旨）",
   "coremailUnknownSender": "未知寄件人",
   "coremailMessageDetail": "郵件詳情",
   "coremailMarkUnread": "標記做未讀",
-  "coremailMoveToFolder": "移去文件夾",
+  "coremailMoveToFolder": "移去資料夾",
   "coremailDeleteMessageTitle": "刪除郵件",
   "coremailDeleteMessageConfirm": "確定刪除「{subject}」？",
   "@coremailDeleteMessageConfirm": {
@@ -5258,7 +5443,7 @@
   "ebikeZhiyinImportTokenHint": "eyJ… 或者 Bearer eyJ…",
   "ebikeZhiyinImportRefreshLabel": "刷新令牌（可選）",
   "ebikeZhiyinImportRefreshHint": "填咗可以自動續期",
-  "ebikeZhiyinImportSensitiveWarning": "呢個令牌可以解鎖車輛同用一卡通付款，請只喺自己部機保存，千祈唔好分享。",
+  "ebikeZhiyinImportSensitiveWarning": "呢個令牌可以解鎖車輛同用一卡通付款，請只喺自己部機儲存，千祈唔好分享。",
   "ebikeZhiyinImportInvalid": "令牌無效或者已經過期，請重新喺小程式擷取。",
   "ebikeZhiyinImportSubmit": "匯入並驗證",
   "ebikeZhiyinImportSuccess": "已經匯入登入狀態，存取令牌會喺 {expiry} 過期。",
@@ -5290,14 +5475,14 @@
   "authSocialAccountsTitle": "已連接帳號",
   "authSocialAccountsSubtitle": "連接 Ham 同其他支援嘅服務",
   "hamAccountTitle": "Ham 帳號",
-  "hamAccountDescription": "連接後，珞家伺服器可代你向 Ham 提交受支援嘅資料。Ham 憑證只喺伺服器加密保存，唔會暴露俾呢部裝置。",
+  "hamAccountDescription": "連接後，珞家伺服器可代你向 Ham 提交受支援嘅資料。Ham 憑證只喺伺服器加密儲存，唔會暴露俾呢部裝置。",
   "hamAccountNotConnected": "未連接",
   "hamAccountConnected": "已連接",
   "hamAccountAuthorizationRequired": "需要重新授權",
   "hamAccountConnectedAs": "已用 {name} 連接",
   "hamAccountConnectSucceeded": "已連接 Ham 帳號",
   "hamAccountDisconnectAction": "解除 Ham 帳號連接",
-  "hamAccountDisconnectConfirm": "確定解除呢個 Ham 帳號嘅連接？珞家伺服器會刪除已保存嘅 Ham 授權。",
+  "hamAccountDisconnectConfirm": "確定解除呢個 Ham 帳號嘅連接？珞家伺服器會刪除已儲存嘅 Ham 授權。",
   "hamAccountDisconnectSucceeded": "已解除 Ham 帳號連接",
   "hamAccountAuthorizationTitle": "授權 Ham 帳號",
   "hamAccountSessionUnavailable": "你嘅珞家工作階段用唔到，請重新登入再試。",
@@ -5308,9 +5493,9 @@
   "chaoxingLinkedAt": "綁定於 {date}",
   "chaoxingSignOutAction": "解除綁定",
   "chaoxingSignOutConfirmTitle": "解除綁定",
-  "chaoxingSignOutConfirmMessage": "確定解除學習通帳號綁定？呢部裝置保存嘅登入憑證同工作階段會被刪除。",
+  "chaoxingSignOutConfirmMessage": "確定解除學習通帳號綁定？呢部裝置儲存嘅登入憑證同工作階段會被刪除。",
   "chaoxingSignedOut": "已解除綁定",
-  "chaoxingSetupDescription": "綁定學習通帳號之後，可以喺珞家查看課程同簽到。憑證只保存喺呢部裝置嘅安全儲存空間，唔會上傳到珞家伺服器。",
+  "chaoxingSetupDescription": "綁定學習通帳號之後，可以喺珞家查看課程同簽到。憑證只儲存喺呢部裝置嘅安全儲存空間，唔會上傳到珞家伺服器。",
   "chaoxingLoginPasswordTab": "密碼",
   "chaoxingLoginSmsTab": "短訊驗證碼",
   "chaoxingLoginAccountLabel": "帳號",
@@ -5325,7 +5510,7 @@
   "chaoxingLoginCodeSent": "驗證碼已傳送",
   "chaoxingLoginCodeSendFailed": "傳送驗證碼失敗：{message}",
   "chaoxingRememberCredentials": "記住密碼",
-  "chaoxingRememberCredentialsHint": "只保存喺呢部裝置嘅安全儲存空間；短訊驗證碼唔會保存",
+  "chaoxingRememberCredentialsHint": "只儲存喺呢部裝置嘅安全儲存空間；短訊驗證碼唔會儲存",
   "chaoxingRequiresWhuAccount": "請先綁定武大帳號",
   "chaoxingLoginSubmit": "登入",
   "chaoxingLoginSuccess": "已綁定學習通帳號",
