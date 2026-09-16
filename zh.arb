@@ -494,7 +494,7 @@
   "luotopiaLogoutWarning": "退出后需要重新登录才能使用论坛等功能。",
   "luotopiaNoAccountYet": "还没有账户？",
   "luotopiaNotLoggedIn": "未登录",
-  "luotopiaPasswordHint": "至少 6 个字符",
+  "luotopiaPasswordHint": "至少 {count} 个字符",
   "luotopiaPasswordsDoNotMatch": "两次输入的密码不一致",
   "luotopiaEmailRequired": "请填写邮箱",
   "luotopiaEmailInvalid": "请输入格式正确的邮箱",
@@ -632,6 +632,7 @@
   "settingsHomeGridCellHeight": "固定格子高度",
   "settingsHomeGridMode": "网格模式",
   "settingsHomeHideLunchBreak": "隐藏午休",
+  "settingsHomeHideWeekend": "隐藏周末",
   "settingsHomeItemOpacity": "主页事项方块不透明度",
   "settingsHomeSectionTitle": "主页设置",
   "settingsHomeTimeGridSettings": "时间方格模式设置",
@@ -723,6 +724,10 @@
   "themeModeLabel": "主题模式",
   "themeSettings": "界面与交互",
   "themeSystem": "跟随系统",
+  "settingsScreenOrientation": "屏幕方向",
+  "screenOrientationAuto": "自动",
+  "screenOrientationPortrait": "锁定竖屏",
+  "screenOrientationLandscape": "锁定横屏",
   "settingsDevThemeLabTitle": "主题实验室",
   "settingsDevThemeLabSubtitle": "并排预览浅色与深色主题下的核心组件。",
   "timetable": "课程表",
@@ -2092,6 +2097,7 @@
     }
   },
   "scoreCaptchaAutoVerifying": "自动验证中...",
+  "captchaAutoVerifying": "自动验证中...",
   "seatReservationAlreadySynced": "这条预约已经在日程里了。",
   "seatReservationAddedToAgenda": "座位预约已添加到日程。",
   "seatReservationDraftTitle": "图书馆座位预约",
@@ -3002,11 +3008,120 @@
   "authUsePasskey": "使用 Passkey 验证",
   "authResendCode": "重新发送验证码",
   "authBackToPasswordLogin": "返回密码登录",
+  "authVerificationTitle": "确认是你本人",
+  "authVerificationSubtitle": "敏感操作需要再验证一次，任选账号已开启的方式即可。",
+  "authVerificationMaskedEmail": "验证码将发送至 {email}",
+  "@authVerificationMaskedEmail": {
+   "placeholders": {
+     "email": {
+       "type": "String"
+      }
+    }
+  },
+  "authVerificationMethodEmail": "邮箱验证码",
+  "authVerificationMethodTotp": "验证器 App",
+  "authVerificationMethodRecovery": "恢复码",
+  "authVerificationSendCode": "发送验证码",
+  "authVerificationCodeSent": "验证码已发送",
+  "authVerificationCodeLabel": "验证码",
+  "authVerificationRecoveryCodeLabel": "恢复码",
+  "authVerificationConfirm": "验证",
+  "authVerificationFailed": "验证失败：{error}",
+  "@authVerificationFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authVerificationLoadFailed": "无法开始验证：{error}",
+  "@authVerificationLoadFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authFactorPassword": "用当前密码",
+  "authFactorOther": "其他验证方式",
+  "authFactorVerify": "验证身份",
+  "authFactorVerified": "已通过{method}验证",
+  "@authFactorVerified": {
+   "placeholders": {
+     "method": {
+       "type": "String"
+      }
+    }
+  },
+  "authFactorRequired": "请先完成身份验证",
+  "authPasswordNewConfirm": "确认新密码",
+  "authPasswordMismatch": "两次输入的密码不一致",
+  "authChangeEmail": "修改邮箱",
+  "authChangeEmailSubtitle": "验证码会发送到新邮箱",
+  "authNewEmail": "新邮箱",
+  "authEmailChangeRequest": "发送验证码",
+  "authEmailChangeCodeTitle": "确认新邮箱",
+  "authEmailChangeCodeHint": "我们已向 {email} 发送 6 位验证码，10 分钟内有效。",
+  "@authEmailChangeCodeHint": {
+   "placeholders": {
+     "email": {
+       "type": "String"
+      }
+    }
+  },
+  "authEmailChangeConfirm": "确认修改",
+  "authEmailChanged": "邮箱已修改，请重新登录",
+  "authEmailChangeFailed": "修改邮箱失败：{error}",
+  "@authEmailChangeFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authTotpTitle": "验证器 App（TOTP）",
+  "authTotpDescription": "用验证器 App 作为登录与敏感操作的第二因子。",
+  "authTotpSetupHint": "把密钥添加到验证器 App，然后填入它显示的验证码。",
+  "authTotpSecretLabel": "密钥",
+  "authTotpUriLabel": "手动添加链接",
+  "authTotpCodeLabel": "6 位验证码",
+  "authTotpConfirm": "启用",
+  "authTotpEnable": "开启",
+  "authTotpDisable": "关闭",
+  "authTotpEnabled": "已开启",
+  "authTotpDisabled": "未开启",
+  "authTotpEnrollFailed": "开启验证器失败：{error}",
+  "@authTotpEnrollFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authTotpDisableFailed": "关闭验证器失败：{error}",
+  "@authTotpDisableFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authTotpRemoved": "已关闭验证器 App",
+  "authRecoveryCodesRemaining": "剩余 {count} 个恢复码",
+  "@authRecoveryCodesRemaining": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "commonConfirm": "确认",
   "commonContinue": "继续",
   "commonCopy": "复制",
   "commonSave": "保存",
   "commonRetry": "重试",
+  "commonLoadMore": "加载更多",
+  "commonLoadingMore": "正在加载…",
   "commonLoadFailed": "加载失败：{error}",
   "@commonLoadFailed": {
    "placeholders": {
@@ -3181,6 +3296,13 @@
     }
   },
   "authSessionsSubtitle": "查看并退出已登录设备",
+  "authSessionsCurrentDevice": "本设备",
+  "authSessionsEditRemark": "修改备注",
+  "authSessionsRemarkField": "备注",
+  "authSessionsSignOutConfirm": "要登出「{device}」吗？该设备需要重新登录。",
+  "authSessionsSignOutCurrentWarning": "这是当前使用的设备，登出后本设备会立即退出登录，需要重新登录。",
+  "ipLocationRegion": "地区：{region}",
+  "ipLocationIsp": "运营商：{isp}",
   "authApiCredentialsSubtitle": "管理供外部访问使用的 API 密钥",
   "authChangePassword": "修改密码",
   "authDeleteAccount": "删除账户",
@@ -3198,9 +3320,9 @@
   "authDisplayName": "显示名称",
   "authSocialProfile": "社交资料",
   "authSocialAccountsTitle": "关联账户",
-  "authSocialAccountsSubtitle": "关联 HAM 及其他支持的服务",
-  "hamAccountTitle": "HAM 账户",
-  "hamAccountDescription": "关联后，珞托邦服务端可代表你向 HAM 提交受支持的数据。HAM 凭据仅在服务端加密保存，不会暴露给此设备。",
+  "authSocialAccountsSubtitle": "关联 Ham 及其他支持的服务",
+  "hamAccountTitle": "Ham 账户",
+  "hamAccountDescription": "关联后，珞托邦服务端可代表你向 Ham 提交受支持的数据。Ham 凭据仅在服务端加密保存，不会暴露给此设备。",
   "hamAccountNotConnected": "未关联",
   "hamAccountConnected": "已关联",
   "hamAccountAuthorizationRequired": "需要重新授权",
@@ -3212,11 +3334,11 @@
       }
     }
   },
-  "hamAccountConnectSucceeded": "HAM 账户关联成功",
-  "hamAccountDisconnectAction": "解除 HAM 账户关联",
-  "hamAccountDisconnectConfirm": "确定解除这个 HAM 账户吗？珞托邦服务端将删除已保存的 HAM 授权。",
-  "hamAccountDisconnectSucceeded": "已解除 HAM 账户关联",
-  "hamAccountAuthorizationTitle": "授权 HAM 账户",
+  "hamAccountConnectSucceeded": "Ham 账户关联成功",
+  "hamAccountDisconnectAction": "解除 Ham 账户关联",
+  "hamAccountDisconnectConfirm": "确定解除这个 Ham 账户吗？珞托邦服务端将删除已保存的 Ham 授权。",
+  "hamAccountDisconnectSucceeded": "已解除 Ham 账户关联",
+  "hamAccountAuthorizationTitle": "授权 Ham 账户",
   "hamAccountSessionUnavailable": "当前珞托邦会话不可用，请重新登录后再试。",
   "hamAccountCookieUnavailable": "无法为授权流程准备珞托邦会话。",
   "authRegion": "地区",
@@ -3263,6 +3385,8 @@
   "authErrorWhuRequired": "注册前请先关联武汉大学账号",
   "authErrorWhuAlreadyBound": "该武汉大学账号已绑定到其他珞家账户",
   "authErrorVerificationFailed": "人机验证失败或已过期，请重试",
+  "authErrorVerificationCodeInvalid": "验证码错误或已过期，请重新获取",
+  "authErrorWhuVerificationFailed": "武大身份校验失败，请重新登录校园账号后再试",
   "authErrorRateLimited": "请求过于频繁，请稍后再试",
   "apiErrorUnauthorized": "需要登录后继续",
   "apiErrorInvalidToken": "登录已失效，请重新登录",
@@ -3342,6 +3466,14 @@
   "courseGradeStatsDistribution": "成绩分布",
   "courseGradeStatsScore": "分数",
   "courseGradeStatsWhuGpa": "武大绩点",
+  "courseGradeStatsTeacherFilterHint": "搜索教师姓名",
+  "courseGradeStatsSortTeachers": "排序",
+  "courseGradeStatsSortPinyin": "姓名（拼音）",
+  "courseGradeStatsSortAverageAsc": "平均分（低→高）",
+  "courseGradeStatsSortAverageDesc": "平均分（高→低）",
+  "courseGradeStatsSortMedianAsc": "中位数（低→高）",
+  "courseGradeStatsSortMedianDesc": "中位数（高→低）",
+  "courseGradeStatsTeacherNoMatches": "没有匹配的教师",
   "courseReviewsLoginRequired": "登录后可查看匿名课程评价。",
   "settingsPrivacyCourseDataTitle": "课程给分与评价",
   "settingsPrivacyCourseDataDescription": "不注册或不登录珞家账号时，你仍可仅登录武汉大学账号并使用本地教务功能。登录珞家账号并使用课程给分、课程评价功能，即表示你同意将经核验的课程成绩以去标识化方式用于匿名统计。",
@@ -3571,7 +3703,6 @@
   "forumKarmaSoftDemotionHint": "业力跌破等级阈值后，徽章约保留 7 天再软掉级。",
   "forumKarmaHideExact": "隐藏精确业力",
   "forumKarmaHideExactHint": "他人只看到你的等级，不显示具体数值。",
-  "forumLeaderboardLoadMore": "加载更多",
   "forumKarmaDailyBudget": "今日业力额度",
   "forumKarmaBudgetLine": "赞 {up} · 踩 {down}",
   "@forumKarmaBudgetLine": {
@@ -3659,7 +3790,6 @@
   "forumAdminLogTitle": "衡鉴公示",
   "forumAdminLogSearchHint": "搜索摘要或说明",
   "forumAdminLogEmpty": "暂无公示记录。",
-  "forumAdminLogLoadMore": "加载更多",
   "forumAdminLogActionBan": "封禁",
   "forumAdminLogActionUnban": "解封",
   "forumAdminLogActionMute": "禁言",
@@ -4159,7 +4289,7 @@
   "luotopiaRegisterEmailVerifiedHint": "该邮箱已在武大账号完成验证并已自动填入，仍可修改。",
   "luotopiaRegisterEmailUnverifiedHint": "若这是你的武大邮箱，建议先到武大账号页完成验证，以便自动填入。",
   "luotopiaRegisterStepPasswordTitle": "设置密码",
-  "luotopiaRegisterStepPasswordSubtitle": "至少 10 个字符。登录时需要使用此密码。",
+  "luotopiaRegisterStepPasswordSubtitle": "至少 {count} 个字符。登录时需要使用此密码。",
   "courseImportSemesterAlreadyAdded": "该学期已添加，请在课程表菜单中选择“更新课程表”。",
   "waterControlClassNo": "班号 {classNo}",
   "forumImageFiles": "论坛图片",
@@ -4276,8 +4406,6 @@
   "medicalExaminationReportDetail": "检查报告详情",
   "medicalNoReports": "暂无报告",
   "medicalNoReportResults": "暂无报告结果",
-  "medicalLoadMore": "加载更多",
-  "medicalLoadingMore": "正在加载…",
   "medicalResult": "结果",
   "medicalReferenceRange": "参考范围",
   "medicalAbnormalHigh": "偏高",
@@ -4416,21 +4544,30 @@
   "adminStatusRedisDisconnected": "Redis 未连接",
   "adminUsersTitle": "用户管理",
   "adminUsersSubtitle": "搜索用户并调整角色",
-  "adminUsersSearchHint": "按名称或邮箱搜索",
+  "adminUsersSearchHint": "按名称、用户名或邮箱搜索（不区分大小写）",
+  "adminUsersFilter": "高级筛选",
+  "adminUsersFilterApply": "应用",
+  "adminUsersCollegeFilter": "学院（包含）",
+  "adminUsersGradeFilter": "年级",
+  "adminUsersGradeEquals": "等于",
+  "adminUsersGradeNotEquals": "不等于",
   "adminUsersEmpty": "未找到用户。",
   "adminUsersRoleLabel": "角色",
   "adminUsersDisabled": "已禁用",
   "adminUsersEnable": "启用",
   "adminUsersDisable": "禁用",
-  "adminUsersSetRole": "设为{role}",
-  "@adminUsersSetRole": {
-   "placeholders": {
-     "role": {
-       "type": "String"
-      }
-    }
-  },
+  "adminUsersChangeRole": "修改角色",
   "adminUsersRoleUpdated": "用户角色已更新。",
+  "adminUserForumStatusActive": "活跃",
+  "adminUserForumStatusMuted": "已禁言",
+  "adminUserForumStatusBanned": "已封禁",
+  "adminQueueSystemBadge": "系统",
+  "adminSystemQueuesDescription": "只读的重试与失败缓冲队列。",
+  "adminForumSettingsImageUploadLimit": "图片上传上限（MiB）",
+  "adminForumSettingsAttachmentUploadLimit": "附件上传上限（MiB）",
+  "adminPaginationPrevious": "上一页",
+  "adminPaginationNext": "下一页",
+  "adminPaginationPageInfo": "第 {page}/{pages} 页 · 共 {total} 条",
   "adminUserDetailAccount": "账户",
   "adminUserDetailDisplayName": "显示名称",
   "adminUserDetailRegistered": "注册时间",
@@ -5372,7 +5509,6 @@
   "ebikeWalletMangoRechargeHint": "小黄余额充值请前往小程序",
   "ebikeOrdersTitle": "行程订单",
   "ebikeOrdersEmpty": "暂无订单",
-  "ebikeOrdersLoadMore": "加载更多",
   "ebikeOrderId": "订单号",
   "ebikeOrderDetailTitle": "订单详情",
   "ebikeOrderTime": "时间",

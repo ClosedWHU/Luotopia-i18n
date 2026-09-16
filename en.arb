@@ -683,7 +683,14 @@
   "luotopiaLogoutWarning": "You will need to log in again to use forum and other features.",
   "luotopiaNoAccountYet": "No account yet?",
   "luotopiaNotLoggedIn": "Not logged in",
-  "luotopiaPasswordHint": "At least 6 characters",
+  "luotopiaPasswordHint": "At least {count} characters",
+  "@luotopiaPasswordHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "luotopiaPasswordsDoNotMatch": "Passwords do not match",
   "luotopiaEmailRequired": "Enter an email address",
   "luotopiaEmailInvalid": "Enter a valid email address",
@@ -837,6 +844,7 @@
   "settingsHomeGridCellHeight": "Fixed Grid Cell Height",
   "settingsHomeGridMode": "Grid mode",
   "settingsHomeHideLunchBreak": "Hide Lunch Break",
+  "settingsHomeHideWeekend": "Hide Weekends",
   "settingsHomeItemOpacity": "Home item block opacity",
   "settingsHomeSectionTitle": "Home settings",
   "settingsHomeTimeGridSettings": "Time Grid Settings",
@@ -928,6 +936,10 @@
   "themeModeLabel": "Theme mode",
   "themeSettings": "Interface & interaction",
   "themeSystem": "System",
+  "settingsScreenOrientation": "Screen orientation",
+  "screenOrientationAuto": "Auto",
+  "screenOrientationPortrait": "Lock portrait",
+  "screenOrientationLandscape": "Lock landscape",
   "settingsDevThemeLabTitle": "Theme Lab",
   "settingsDevThemeLabSubtitle": "Preview core components in light and dark themes.",
   "timetable": "Timetable",
@@ -2419,6 +2431,7 @@
     }
   },
   "scoreCaptchaAutoVerifying": "Auto-verifying...",
+  "captchaAutoVerifying": "Auto-verifying...",
   "seatReservationAlreadySynced": "This reservation is already in your agenda.",
   "seatReservationAddedToAgenda": "Seat reservation added to your agenda.",
   "seatReservationDraftTitle": "Library Seat Reservation",
@@ -3466,11 +3479,120 @@
   "authUsePasskey": "Use Passkey",
   "authResendCode": "Resend code",
   "authBackToPasswordLogin": "Back to password sign-in",
+  "authVerificationTitle": "Confirm it's you",
+  "authVerificationSubtitle": "Sensitive changes need one more check. Pick any factor your account has.",
+  "authVerificationMaskedEmail": "The code goes to {email}",
+  "@authVerificationMaskedEmail": {
+   "placeholders": {
+     "email": {
+       "type": "String"
+      }
+    }
+  },
+  "authVerificationMethodEmail": "Email code",
+  "authVerificationMethodTotp": "Authenticator app",
+  "authVerificationMethodRecovery": "Recovery code",
+  "authVerificationSendCode": "Send code",
+  "authVerificationCodeSent": "Verification code sent",
+  "authVerificationCodeLabel": "Verification code",
+  "authVerificationRecoveryCodeLabel": "Recovery code",
+  "authVerificationConfirm": "Verify",
+  "authVerificationFailed": "Verification failed: {error}",
+  "@authVerificationFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authVerificationLoadFailed": "Could not start verification: {error}",
+  "@authVerificationLoadFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authFactorPassword": "Use current password",
+  "authFactorOther": "Another way to verify",
+  "authFactorVerify": "Verify identity",
+  "authFactorVerified": "Verified with {method}",
+  "@authFactorVerified": {
+   "placeholders": {
+     "method": {
+       "type": "String"
+      }
+    }
+  },
+  "authFactorRequired": "Complete verification first",
+  "authPasswordNewConfirm": "Confirm new password",
+  "authPasswordMismatch": "The two passwords do not match",
+  "authChangeEmail": "Change email",
+  "authChangeEmailSubtitle": "A confirmation code is sent to the new address",
+  "authNewEmail": "New email",
+  "authEmailChangeRequest": "Send code",
+  "authEmailChangeCodeTitle": "Confirm the new email",
+  "authEmailChangeCodeHint": "We sent a 6-digit code to {email}. It expires in 10 minutes.",
+  "@authEmailChangeCodeHint": {
+   "placeholders": {
+     "email": {
+       "type": "String"
+      }
+    }
+  },
+  "authEmailChangeConfirm": "Confirm email",
+  "authEmailChanged": "Email changed; please sign in again",
+  "authEmailChangeFailed": "Failed to change email: {error}",
+  "@authEmailChangeFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authTotpTitle": "Authenticator app (TOTP)",
+  "authTotpDescription": "Use an authenticator app as a second factor for sign-in and sensitive changes.",
+  "authTotpSetupHint": "Add this secret to your authenticator app, then enter the code it shows.",
+  "authTotpSecretLabel": "Secret key",
+  "authTotpUriLabel": "Manual setup URI",
+  "authTotpCodeLabel": "6-digit code",
+  "authTotpConfirm": "Activate",
+  "authTotpEnable": "Set up",
+  "authTotpDisable": "Remove",
+  "authTotpEnabled": "Enabled",
+  "authTotpDisabled": "Not set up",
+  "authTotpEnrollFailed": "Failed to set up the authenticator app: {error}",
+  "@authTotpEnrollFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authTotpDisableFailed": "Failed to remove the authenticator app: {error}",
+  "@authTotpDisableFailed": {
+   "placeholders": {
+     "error": {
+       "type": "String"
+      }
+    }
+  },
+  "authTotpRemoved": "Authenticator app removed",
+  "authRecoveryCodesRemaining": "{count} recovery codes left",
+  "@authRecoveryCodesRemaining": {
+   "placeholders": {
+     "count": {
+       "type": "int"
+      }
+    }
+  },
   "commonConfirm": "Confirm",
   "commonContinue": "Continue",
   "commonCopy": "Copy",
   "commonSave": "Save",
   "commonRetry": "Retry",
+  "commonLoadMore": "Load more",
+  "commonLoadingMore": "Loading…",
   "commonLoadFailed": "Failed to load: {error}",
   "@commonLoadFailed": {
    "placeholders": {
@@ -3645,6 +3767,28 @@
     }
   },
   "authSessionsSubtitle": "View and sign out signed-in devices",
+  "authSessionsCurrentDevice": "This device",
+  "authSessionsEditRemark": "Edit remark",
+  "authSessionsRemarkField": "Remark",
+  "authSessionsSignOutConfirm": "Sign out {device}? That device will need to sign in again.",
+  "@authSessionsSignOutConfirm": {
+    "placeholders": {
+      "device": { "type": "String" }
+    }
+  },
+  "authSessionsSignOutCurrentWarning": "This is your current device. Signing out will immediately end this session here and you will need to sign in again.",
+  "ipLocationRegion": "Region: {region}",
+  "@ipLocationRegion": {
+    "placeholders": {
+      "region": { "type": "String" }
+    }
+  },
+  "ipLocationIsp": "ISP: {isp}",
+  "@ipLocationIsp": {
+    "placeholders": {
+      "isp": { "type": "String" }
+    }
+  },
   "authApiCredentialsSubtitle": "Manage API keys for external access",
   "authChangePassword": "Change password",
   "authDeleteAccount": "Delete account",
@@ -3662,9 +3806,9 @@
   "authDisplayName": "Display name",
   "authSocialProfile": "Social profile",
   "authSocialAccountsTitle": "Connected accounts",
-  "authSocialAccountsSubtitle": "Connect HAM and other supported services",
-  "hamAccountTitle": "HAM account",
-  "hamAccountDescription": "Connect HAM to let Luotopia Server submit supported data on your behalf. HAM credentials stay encrypted on the server and are never exposed to this device.",
+  "authSocialAccountsSubtitle": "Connect Ham and other supported services",
+  "hamAccountTitle": "Ham account",
+  "hamAccountDescription": "Connect Ham to let Luotopia Server submit supported data on your behalf. Ham credentials stay encrypted on the server and are never exposed to this device.",
   "hamAccountNotConnected": "Not connected",
   "hamAccountConnected": "Connected",
   "hamAccountAuthorizationRequired": "Authorization needs to be renewed",
@@ -3676,11 +3820,11 @@
       }
     }
   },
-  "hamAccountConnectSucceeded": "HAM account connected",
-  "hamAccountDisconnectAction": "Disconnect HAM account",
-  "hamAccountDisconnectConfirm": "Disconnect this HAM account? Luotopia Server will delete its saved HAM authorization.",
-  "hamAccountDisconnectSucceeded": "HAM account disconnected",
-  "hamAccountAuthorizationTitle": "Authorize HAM account",
+  "hamAccountConnectSucceeded": "Ham account connected",
+  "hamAccountDisconnectAction": "Disconnect Ham account",
+  "hamAccountDisconnectConfirm": "Disconnect this Ham account? Luotopia Server will delete its saved Ham authorization.",
+  "hamAccountDisconnectSucceeded": "Ham account disconnected",
+  "hamAccountAuthorizationTitle": "Authorize Ham account",
   "hamAccountSessionUnavailable": "Your Luotopia session is unavailable. Sign in again and retry.",
   "hamAccountCookieUnavailable": "The Luotopia session could not be prepared for authorization.",
   "authRegion": "Region",
@@ -3727,6 +3871,8 @@
   "authErrorWhuRequired": "Link your WHU account before registering.",
   "authErrorWhuAlreadyBound": "This WHU account is already linked to another Luotopia account.",
   "authErrorVerificationFailed": "Verification failed or expired. Please try again.",
+  "authErrorVerificationCodeInvalid": "The verification code is invalid or has expired. Please request a new one.",
+  "authErrorWhuVerificationFailed": "WHU identity verification failed. Sign in to your campus account again, then retry.",
   "authErrorRateLimited": "Too many requests. Please try again later.",
   "apiErrorUnauthorized": "Authentication required.",
   "apiErrorInvalidToken": "Session expired. Please sign in again.",
@@ -3816,6 +3962,14 @@
   "courseGradeStatsDistribution": "Score distribution",
   "courseGradeStatsScore": "Score",
   "courseGradeStatsWhuGpa": "WHU GPA",
+  "courseGradeStatsTeacherFilterHint": "Search teacher name",
+  "courseGradeStatsSortTeachers": "Sort",
+  "courseGradeStatsSortPinyin": "Name (Pinyin)",
+  "courseGradeStatsSortAverageAsc": "Average (low to high)",
+  "courseGradeStatsSortAverageDesc": "Average (high to low)",
+  "courseGradeStatsSortMedianAsc": "Median (low to high)",
+  "courseGradeStatsSortMedianDesc": "Median (high to low)",
+  "courseGradeStatsTeacherNoMatches": "No matching teachers",
   "courseReviewsLoginRequired": "Sign in to view anonymous course reviews.",
   "settingsPrivacyCourseDataTitle": "Course grades and reviews",
   "settingsPrivacyCourseDataDescription": "You may use local university features with only a WHU account and without registering for Luotopia. By signing in to Luotopia and using course grades or reviews, you agree that verified course grades may be de-identified for anonymous statistics.",
@@ -4045,7 +4199,6 @@
   "forumKarmaSoftDemotionHint": "If Karma dips below a level, the badge is kept for about 7 days before soft demotion.",
   "forumKarmaHideExact": "Hide exact Karma",
   "forumKarmaHideExactHint": "Others only see your level, not the number.",
-  "forumLeaderboardLoadMore": "Load more",
   "forumKarmaDailyBudget": "Daily allotment",
   "forumKarmaBudgetLine": "Upvotes {up} · Downvotes {down}",
   "@forumKarmaBudgetLine": {
@@ -4133,7 +4286,6 @@
   "forumAdminLogTitle": "Moderation notices",
   "forumAdminLogSearchHint": "Search summaries or details",
   "forumAdminLogEmpty": "No public moderation notices yet.",
-  "forumAdminLogLoadMore": "Load more",
   "forumAdminLogActionBan": "Ban",
   "forumAdminLogActionUnban": "Unban",
   "forumAdminLogActionMute": "Mute",
@@ -4585,7 +4737,14 @@
   "luotopiaRegisterEmailVerifiedHint": "This email was verified on your WHU account and filled in automatically. You can still change it.",
   "luotopiaRegisterEmailUnverifiedHint": "If this is your WHU email, verify it on the WHU account page first so we can fill it in for you.",
   "luotopiaRegisterStepPasswordTitle": "Set password",
-  "luotopiaRegisterStepPasswordSubtitle": "Use at least 10 characters. You will need this password to sign in.",
+  "luotopiaRegisterStepPasswordSubtitle": "Use at least {count} characters. You will need this password to sign in.",
+  "@luotopiaRegisterStepPasswordSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "courseImportSemesterAlreadyAdded": "This semester is already added. Choose “Update timetable” from the timetable menu.",
   "waterControlClassNo": "ClassNo {classNo}",
   "forumImageFiles": "Forum images",
@@ -4779,8 +4938,6 @@
   "medicalExaminationReportDetail": "Examination Report Details",
   "medicalNoReports": "No reports",
   "medicalNoReportResults": "No report results",
-  "medicalLoadMore": "Load more",
-  "medicalLoadingMore": "Loading…",
   "medicalResult": "Result",
   "medicalReferenceRange": "Reference range",
   "medicalAbnormalHigh": "High",
@@ -4919,21 +5076,37 @@
   "adminStatusRedisDisconnected": "Redis disconnected",
   "adminUsersTitle": "User management",
   "adminUsersSubtitle": "Search users and change roles",
-  "adminUsersSearchHint": "Search by name or email",
+  "adminUsersSearchHint": "Search by name, username, or email (case-insensitive)",
+  "adminUsersFilter": "Advanced filters",
+  "adminUsersFilterApply": "Apply",
+  "adminUsersCollegeFilter": "College (contains)",
+  "adminUsersGradeFilter": "Grade",
+  "adminUsersGradeEquals": "Equals",
+  "adminUsersGradeNotEquals": "Not equals",
   "adminUsersEmpty": "No users found.",
   "adminUsersRoleLabel": "Role",
   "adminUsersDisabled": "Disabled",
   "adminUsersEnable": "Enable",
   "adminUsersDisable": "Disable",
-  "adminUsersSetRole": "Set {role}",
-  "@adminUsersSetRole": {
-   "placeholders": {
-     "role": {
-       "type": "String"
-      }
+  "adminUsersChangeRole": "Change role",
+  "adminUsersRoleUpdated": "User role updated.",
+  "adminUserForumStatusActive": "Active",
+  "adminUserForumStatusMuted": "Muted",
+  "adminUserForumStatusBanned": "Banned",
+  "adminQueueSystemBadge": "System",
+  "adminSystemQueuesDescription": "Read-only retry and failure buffers.",
+  "adminForumSettingsImageUploadLimit": "Image upload limit (MiB)",
+  "adminForumSettingsAttachmentUploadLimit": "Attachment upload limit (MiB)",
+  "adminPaginationPrevious": "Previous page",
+  "adminPaginationNext": "Next page",
+  "adminPaginationPageInfo": "Page {page} of {pages} · {total} items",
+  "@adminPaginationPageInfo": {
+    "placeholders": {
+      "page": { "type": "int" },
+      "pages": { "type": "int" },
+      "total": { "type": "int" }
     }
   },
-  "adminUsersRoleUpdated": "User role updated.",
   "adminUserDetailAccount": "Account",
   "adminUserDetailDisplayName": "Display name",
   "adminUserDetailRegistered": "Registered",
@@ -6044,7 +6217,6 @@
   "ebikeWalletMangoRechargeHint": "Top up the Little Yellow balance in the mini-program",
   "ebikeOrdersTitle": "Trips",
   "ebikeOrdersEmpty": "No trips yet",
-  "ebikeOrdersLoadMore": "Load more",
   "ebikeOrderId": "Order ID",
   "ebikeOrderDetailTitle": "Trip detail",
   "ebikeOrderTime": "Time",
