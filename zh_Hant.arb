@@ -1,6 +1,13 @@
 {
     "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
     "@@locale": "zh_Hant",
+    "settingsPermissionsTitle": "權限管理",
+    "settingsPermissionsSubtitle": "檢視和管理系統權限，不改變應用程式內的偏好設定。",
+    "settingsPermissionsOpenSystemSettings": "開啟系統設定",
+    "settingsPermissionsSystemSettingsHint": "如需撤銷權限或管理無法再次申請的權限，請開啟本應用程式的系統設定。VPN 等部分權限需在系統的獨立設定中管理。",
+    "settingsPermissionsSystemSettingsError": "無法開啟系統設定，請手動開啟本應用程式的設定。",
+    "settingsPermissionsUnsupported": "目前平台不支援執行階段權限管理。",
+    "settingsPermissionsRefreshError": "部分權限狀態無法查詢，請重試。",
     "designLanguage": "設計語言",
     "designLanguageExperimentalNote": "實驗功能 · 目前僅 Theme Lab 預覽生效",
     "@academicDataClearAllHint": {},
