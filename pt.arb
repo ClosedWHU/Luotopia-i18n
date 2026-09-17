@@ -489,7 +489,7 @@
   "scoreImportUndergraduateTitle": "Importar do sistema de graduação",
   "scoreImportUndergraduateSubtitle": "Notas exatas, mas a atualização pode ser lenta",
   "scoreImportSpoilerTitle": "Importar do sistema de desenvolvimento profissional",
-  "scoreImportSpoilerSubtitle": "Só GPA, muitas vezes antes do sistema de graduação",
+  "scoreImportSpoilerSubtitle": "Apenas pontos de classificação (GP) por disciplina, muitas vezes antes do sistema de graduação",
   "scoreImportSuccess": "Importação concluída",
   "scoreImportTitle": "Importar notas",
   "scorePageRetry": "Tentar de novo",
@@ -2387,7 +2387,7 @@
       }
     }
   },
-  "studyStatusGradePoint": "Média {point}",
+  "studyStatusGradePoint": "GP {point}",
   "@studyStatusGradePoint": {
    "placeholders": {
      "point": {
@@ -2501,6 +2501,11 @@
   "settingsWidgetsPinUnsupported": "A adição com um toque não é suportada. Toque e segure a tela inicial para adicionar manualmente.",
   "settingsWidgetsAddManuallyApple": "Toque e segure a Tela de Início ou a Central de Notificações e procure Luotopia na galeria de widgets.",
   "settingsWidgetsPinFailed": "Não foi possível solicitar o pin. Adicione o widget pela galeria do sistema.",
+  "settingsWidgetsAddManuallyAndroid": "Toque e segure uma área vazia da tela inicial, abra Widgets e procure Luotopia para adicionar o widget manualmente.",
+  "settingsWidgetsPinSupportError": "Não foi possível verificar se o seu launcher suporta adição com um toque. Ainda é possível adicionar widgets manualmente.",
+  "settingsWidgetsPinSubmitted": "Solicitação enviada ao seu launcher; a adição ainda não está confirmada. Siga as instruções do launcher ou adicione o widget manualmente.",
+  "settingsWidgetsPinConfirmed": "O seu launcher confirmou que o widget foi adicionado.",
+  "settingsWidgetsPinObserved": "Uma nova instância do widget foi detectada. Verifique a sua tela inicial para ver a posição.",
   "settingsWidgetsPlatformsMacMenu": "Barra de menus do macOS",
   "homeWidgetCatalogAgendaListName": "Lista de agenda",
   "homeWidgetCatalogAgendaListDescription": "Horário e tarefas em duas colunas",
@@ -4502,7 +4507,7 @@
   "courseGradeStatsTeacherInputHint": "Pesquisar professores, ou deixar vazio para ver todos",
   "courseGradeStatsTeacherSearch": "Pesquisar professor",
   "courseGradeStatsTotalAverage": "Média da nota total",
-  "courseGradeStatsUsualAverage": "Média da nota habitual",
+  "courseGradeStatsUsualAverage": "Média da avaliação contínua",
   "forumKarmaLevelTitle0": "Novato",
   "forumKarmaLevelTitle1": "Aprendiz",
   "forumKarmaLevelTitle10": "Mito",
@@ -5071,7 +5076,7 @@
   "campusMapSearchEmpty": "Digite o nome de um local para pesquisar",
   "campusMapSearchNoResults": "Nenhum local do campus correspondente",
   "campusMapSearchFailed": "Falha na busca. Tente novamente.",
-  "campusMapDistrict": "Faculdade",
+  "campusMapDistrict": "Zona do campus",
   "campusMapOldName": "Nome anterior",
   "campusMapManageDept": "Gerido por",
   "campusMapMaintenanceUnit": "Manutenção por",

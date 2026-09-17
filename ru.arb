@@ -487,7 +487,7 @@
   "scoreImportUndergraduateTitle": "Импорт из бакалавриата",
   "scoreImportUndergraduateSubtitle": "Точные оценки, но обновление может быть медленным",
   "scoreImportSpoilerTitle": "Импорт из системы проф. развития",
-  "scoreImportSpoilerSubtitle": "Только баллы GPA, но часто раньше бакалавриата",
+  "scoreImportSpoilerSubtitle": "Только баллы GP по отдельным дисциплинам, но часто раньше, чем в учебной системе бакалавриата",
   "scoreImportSuccess": "Импорт выполнен",
   "scoreImportTitle": "Импорт оценок",
   "scorePageRetry": "Повтор",
@@ -2078,7 +2078,7 @@
   "libraryStatusCancelled": "Отменено",
   "libraryStatusMissed": "Неявка",
   "libraryStatusLeftEarly": "Ушёл раньше",
-  "libraryStatusNoCheckout": "Без выхода",
+  "libraryStatusNoCheckout": "Выход не зарегистрирован",
   "libraryToday": "Сегодня",
   "libraryTomorrow": "Завтра",
   "emptyClassroomSelfStudyTitle": "Самоподготовка · {location}",
@@ -2348,7 +2348,7 @@
       }
     }
   },
-  "studyStatusGradePoint": "Средний балл {point}",
+  "studyStatusGradePoint": "GP {point}",
   "@studyStatusGradePoint": {
    "placeholders": {
      "point": {
@@ -2462,6 +2462,11 @@
   "settingsWidgetsPinUnsupported": "Быстрое добавление не поддерживается. Долгое нажатие на рабочий стол — добавьте виджет вручную.",
   "settingsWidgetsAddManuallyApple": "Долгое нажатие на «Домой» или в Центре уведомлений, найдите Luotopia в галерее виджетов.",
   "settingsWidgetsPinFailed": "Не удалось запросить закрепление. Добавьте виджет через систему.",
+  "settingsWidgetsAddManuallyAndroid": "Долгое нажатие на пустую область рабочего стола, откройте «Виджеты» и найдите Luotopia, чтобы добавить виджет вручную.",
+  "settingsWidgetsPinSupportError": "Не удалось проверить, поддерживает ли лончер быстрое добавление. Виджет можно добавить вручную.",
+  "settingsWidgetsPinSubmitted": "Запрос отправлен лончеру; добавление пока не подтверждено. Следуйте подсказкам лончера или добавьте виджет вручную.",
+  "settingsWidgetsPinConfirmed": "Лончер подтвердил добавление виджета.",
+  "settingsWidgetsPinObserved": "Обнаружен новый экземпляр виджета. Проверьте его размещение на рабочем столе.",
   "settingsWidgetsPlatformsMacMenu": "Строка меню macOS",
   "homeWidgetCatalogAgendaListName": "Список дел",
   "homeWidgetCatalogAgendaListDescription": "Двухколоночное расписание, задачи и заметки",
@@ -5099,7 +5104,7 @@
   "campusMapSearchEmpty": "Введите название места для поиска",
   "campusMapSearchNoResults": "Нет подходящих мест кампуса",
   "campusMapSearchFailed": "Ошибка поиска. Попробуйте ещё раз.",
-  "campusMapDistrict": "Факультет",
+  "campusMapDistrict": "Кампус",
   "campusMapOldName": "Прежнее название",
   "campusMapManageDept": "Управляющая структура",
   "campusMapMaintenanceUnit": "Обслуживающая организация",

@@ -489,7 +489,7 @@
   "scoreImportUndergraduateTitle": "Importar del sistema de grado",
   "scoreImportUndergraduateSubtitle": "Notas exactas, pero la actualización puede ser lenta",
   "scoreImportSpoilerTitle": "Importar del sistema de desarrollo profesional",
-  "scoreImportSpoilerSubtitle": "Solo GPA, a menudo antes que el sistema de grado",
+  "scoreImportSpoilerSubtitle": "Solo puntos de calificación (GP) por asignatura, a menudo antes que el sistema de grado",
   "scoreImportSuccess": "Importación correcta",
   "scoreImportTitle": "Importar calificaciones",
   "scorePageRetry": "Reintentar",
@@ -2122,7 +2122,7 @@
   "libraryStatusCancelled": "Cancelada",
   "libraryStatusMissed": "Inasistencia",
   "libraryStatusLeftEarly": "Salida anticipada",
-  "libraryStatusNoCheckout": "Sin salida",
+  "libraryStatusNoCheckout": "Salida no registrada",
   "libraryToday": "Hoy",
   "libraryTomorrow": "Mañana",
   "emptyClassroomSelfStudyTitle": "Estudio · {location}",
@@ -2392,7 +2392,7 @@
       }
     }
   },
-  "studyStatusGradePoint": "Promedio {point}",
+  "studyStatusGradePoint": "GP {point}",
   "@studyStatusGradePoint": {
    "placeholders": {
      "point": {
@@ -2506,6 +2506,11 @@
   "settingsWidgetsPinUnsupported": "El añadido con un toque no está disponible. Mantén pulsada la pantalla de inicio para añadir widgets manualmente.",
   "settingsWidgetsAddManuallyApple": "Mantén pulsada la pantalla de inicio o el Centro de notificaciones y busca Luotopia en la galería de widgets.",
   "settingsWidgetsPinFailed": "No se pudo solicitar el anclaje. Añade el widget desde la galería del sistema.",
+  "settingsWidgetsAddManuallyAndroid": "Mantén pulsada una zona vacía de la pantalla de inicio, abre Widgets y busca Luotopia para añadir el widget manualmente.",
+  "settingsWidgetsPinSupportError": "No se pudo comprobar si tu launcher admite el añadido con un toque. Aún puedes añadir widgets manualmente.",
+  "settingsWidgetsPinSubmitted": "Solicitud enviada a tu launcher; el añadido aún no está confirmado. Sigue las indicaciones del launcher o añade el widget manualmente.",
+  "settingsWidgetsPinConfirmed": "Tu launcher confirmó que el widget se añadió.",
+  "settingsWidgetsPinObserved": "Se detectó una nueva instancia del widget. Revisa tu pantalla de inicio para ver su ubicación.",
   "settingsWidgetsPlatformsMacMenu": "Barra de menús de macOS",
   "homeWidgetCatalogAgendaListName": "Lista de agenda",
   "homeWidgetCatalogAgendaListDescription": "Horario y tareas en dos columnas",
@@ -5109,7 +5114,7 @@
   "campusMapSearchEmpty": "Escribe el nombre de un lugar para buscar",
   "campusMapSearchNoResults": "No hay lugares del campus coincidentes",
   "campusMapSearchFailed": "Error de búsqueda. Inténtalo de nuevo.",
-  "campusMapDistrict": "Facultad",
+  "campusMapDistrict": "Zona del campus",
   "campusMapOldName": "Nombre anterior",
   "campusMapManageDept": "Gestionado por",
   "campusMapMaintenanceUnit": "Mantenido por",
