@@ -3658,9 +3658,10 @@
   "campusEditModeEntry": "편집 모드",
   "fontSettings": "글꼴",
   "fontFamilyLabel": "글꼴",
-  "fontFamilySubtitle": "시스템 글꼴 또는 Google Fonts",
+  "fontFamilySubtitle": "시스템 글꼴, Google Fonts 또는 MiSans",
   "fontFamilySystem": "시스템 글꼴",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
   "fontSizeScaleLabel": "기본 글자 크기",
   "fontSizeScaleSubtitle": "제목/본문 비율을 유지하며 전체 글자 크기 조절",
   "fontSizeScaleAuto": "자동",
@@ -4630,6 +4631,130 @@
   "courseMatchingCourseType": "강의 유형",
   "courseMatchingMinCredits": "최소 학점",
   "courseMatchingMaxCredits": "최대 학점",
+  "courseMatchingAddSessions": "{count}개 수업 추가",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "{count}개 수업을 추가했습니다",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "중복 {duplicates}개 건너뜀 · 충돌 {conflicts}개",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} 과목 매칭",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "충돌 없는 항목만",
+  "courseMatchingAdd": "추가",
+  "courseMatchingApply": "적용",
+  "courseMatchingReset": "초기화",
+  "courseMatchingActiveFilters": "{count}개 활성",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "전체",
+  "courseMatchingCampus": "캠퍼스",
+  "courseMatchingBuilding": "건물",
+  "courseMatchingDepartment": "개설 학과",
+  "courseMatchingTeacher": "교수자",
+  "courseMatchingSectionRangeError": "시작 교시는 끝 교시보다 클 수 없습니다.",
+  "courseMatchingCreditRangeError": "최소 학점은 최대 학점보다 클 수 없습니다.",
+  "globalTimetableTermWithCount": "{term}학기 · {count}건",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "개설 이력",
+  "globalTimetableHistoryHint": "게시된 모든 학기에서 최신순으로 검색합니다.",
+  "globalTimetableHistoryEmpty": "일치하는 개설 기록이 없습니다.",
+  "globalTimetableHistoryUnavailable": "서버가 아직 과목 이력을 지원하지 않습니다.",
+  "globalTimetableDownloads": "오프라인 데이터",
+  "globalTimetableDownloadsSummary": "{count}개 학기 · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "아직 다운로드한 학기가 없습니다.",
+  "globalTimetableDownloadsHint": "학기 아카이브는 WHU-Master-Timetable 아카이브 사이트에서 가져옵니다. 다운로드한 학기는 오프라인으로 검색할 수 있습니다.",
+  "globalTimetableDownloadsRemoteInfo": "{count}개 과목 · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "이 학기의 아카이브 데이터가 없습니다",
+  "globalTimetableDownloadFailed": "다운로드 실패",
+  "globalTimetableDeleteAll": "모두 삭제",
+  "globalTimetableDeleteAllConfirm": "다운로드한 모든 학기를 삭제할까요?",
+  "globalTimetableSourceMode": "데이터 출처",
+  "globalTimetableSourceAuto": "자동",
+  "globalTimetableSourceCloud": "클라우드",
+  "globalTimetableSourceLocal": "로컬",
+  "globalTimetableLocalMissing": "이 학기의 오프라인 데이터가 아직 없습니다.",
+  "globalTimetableNoSlot": "시간 미정",
+  "globalTimetableSearchHint": "과목명 / 교수자 / 과목코드",
+  "globalTimetableEmpty": "이 학기에 일치하는 과목이 없습니다.",
+  "globalTimetableDetailTitle": "과목 상세",
+  "globalTimetableDetailSlots": "수업 시간",
+  "globalTimetableDetailInfo": "과목 정보",
+  "globalTimetableDetailCourseCode": "과목 코드",
+  "globalTimetableDetailTeachingClass": "분반",
+  "globalTimetableDetailGroup": "그룹",
+  "globalTimetableAddToTimetable": "시간표에 추가",
+  "globalTimetableAuditTimetableName": "청강",
+  "globalTimetableAuditTimetableOption": "\"청강\" 시간표 새로 만들기",
+  "globalTimetableNoCalendar": "학사력 데이터를 사용할 수 없어 시간표에 추가할 수 없습니다.",
+  "globalTimetableAddFailed": "시간표에 추가 실패: {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "제어 가능한 작업 큐",
   "adminSystemQueues": "시스템 작업 큐",
   "luotopiaAccountViewLargeAvatar": "아바타 크게 보기",
@@ -5656,5 +5781,51 @@
   "chaoxingLoginSuccess": "Chaoxing 계정이 연동되었습니다",
   "chaoxingLoginBadCredentials": "로그인 실패: {message}",
   "chaoxingLoginCaptchaRequired": "서버에서 직접 확인 절차가 필요합니다. 잠시 후 다시 시도하거나 공식 앱에서 먼저 한 번 로그인하세요.",
-  "chaoxingOperationFailed": "작업 실패: {error}"
+  "chaoxingOperationFailed": "작업 실패: {error}",
+  "imageSaved": "저장됨",
+  "imageSaveFailed": "이미지를 저장할 수 없습니다",
+  "settingsLegalInfo": "법적 정보",
+  "settingsBasicInfo": "기본 정보",
+  "settingsVersionUpdate": "버전 업데이트",
+  "settingsDiagLogSectionTitle": "진단 로그",
+  "settingsDiagLogSectionDescription": "로그는 이 기기에만 저장됩니다. 피드백과 문제 해결에 도움이 되도록 내보낼 수 있습니다.",
+  "settingsDiagLogExportTitle": "진단 로그 내보내기",
+  "settingsDiagLogExportSubtitle": "공유, 복사 또는 파일로 저장; 이번 및 이전 실행 로그 포함",
+  "settingsDiagLogBufferTitle": "로그 캐시 한도",
+  "settingsDiagLogBufferSubtitle": "{size} × 2개 롤링 파일; 가득 차면 가장 오래된 항목이 삭제됩니다",
+  "settingsDiagLogLevelTitle": "내보내기 최소 수준",
+  "settingsDiagLogClearTitle": "진단 로그 지우기",
+  "settingsDiagLogClearSubtitle": "이전 실행 기록을 포함해 저장된 로그 파일을 삭제합니다",
+  "settingsDiagLogLevelVerbose": "Verbose(활성화된 진단 추적 포함)",
+  "settingsDiagLogLevelWarning": "Warning(경고 및 오류)",
+  "settingsDiagLogLevelError": "Error(오류만)",
+  "settingsDiagLogExportSheetDescription": "{level}, 총 {size}",
+  "settingsDiagLogShare": "공유",
+  "settingsDiagLogShareSubtitle": ".log 파일로 공유; 긴 텍스트도 메신저에서 잘리지 않습니다",
+  "settingsDiagLogCopy": "복사",
+  "settingsDiagLogSaveAs": "다른 이름으로 저장",
+  "settingsDiagLogCopied": "진단 로그가 클립보드에 복사되었습니다",
+  "settingsDiagLogSaved": "진단 로그가 저장되었습니다",
+  "settingsDiagLogExportFailed": "진단 로그 내보내기에 실패했습니다",
+  "settingsDiagLogReadFailed": "진단 로그 읽기에 실패했습니다",
+  "settingsDiagLogEmpty": "아직 내보낼 수 있는 진단 로그가 없습니다",
+  "settingsDiagLogCleared": "진단 로그가 지워졌습니다",
+  "settingsDiagLogClearFailed": "진단 로그 지우기에 실패했습니다",
+  "settingsDiagLogClearConfirmMessage": "이번 및 이전 실행에서 저장된 모든 진단 로그를 삭제합니다. 이 작업은 되돌릴 수 없습니다.",
+  "settingsDiagLogClearAction": "지우기",
+  "settingsDiagLogShareSubject": "Luotopia 진단 로그",
+  "adminForumDashboardTitle": "데이터 대시보드",
+  "adminForumDashboardSubtitle": "사용자, 게시물 및 댓글 통계",
+  "adminDashboardPeriodDay": "오늘",
+  "adminDashboardPeriodWeek": "이번 주",
+  "adminDashboardPeriodMonth": "이번 달",
+  "adminDashboardTotalUsers": "전체 사용자",
+  "adminDashboardTodayUsers": "오늘의 사용자",
+  "adminDashboardTotalPosts": "전체 게시물",
+  "adminDashboardTodayPosts": "오늘의 게시물",
+  "adminDashboardTotalComments": "전체 댓글",
+  "adminDashboardTodayComments": "오늘의 댓글",
+  "adminDashboardUsersChart": "사용자 가입 추이",
+  "adminDashboardPostsChart": "게시물 작성 추이",
+  "adminDashboardCommentsChart": "댓글 작성 추이"
 }

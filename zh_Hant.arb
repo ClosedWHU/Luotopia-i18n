@@ -6252,6 +6252,130 @@
     "courseMatchingDayOfWeek": "星期",
     "courseMatchingFromSection": "起始節次",
     "courseMatchingMaxCredits": "最大學分",
+  "courseMatchingAddSessions": "新增 {count} 堂課",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "已新增 {count} 堂課",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "將略過 {duplicates} 筆重複 · {conflicts} 處衝突",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} 課程配對",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "僅顯示無衝突",
+  "courseMatchingAdd": "新增",
+  "courseMatchingApply": "套用",
+  "courseMatchingReset": "重設",
+  "courseMatchingActiveFilters": "已啟用 {count} 項",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "全部",
+  "courseMatchingCampus": "校區",
+  "courseMatchingBuilding": "教學樓",
+  "courseMatchingDepartment": "開課學院",
+  "courseMatchingTeacher": "教師",
+  "courseMatchingSectionRangeError": "起始節次不能大於結束節次。",
+  "courseMatchingCreditRangeError": "最小學分不能大於最大學分。",
+  "globalTimetableTermWithCount": "第 {term} 學期 · {count} 條",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "課程歷史",
+  "globalTimetableHistoryHint": "在全部已發布學期中檢索，由新到舊。",
+  "globalTimetableHistoryEmpty": "沒有符合的開課紀錄。",
+  "globalTimetableHistoryUnavailable": "目前伺服器端暫不支援課程歷史。",
+  "globalTimetableDownloads": "離線資料",
+  "globalTimetableDownloadsSummary": "已下載 {count} 個學期 · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "尚未下載任何學期資料。",
+  "globalTimetableDownloadsHint": "學期檔案來自 WHU-Master-Timetable 檔案站；下載後可離線檢索該學期。",
+  "globalTimetableDownloadsRemoteInfo": "{count} 門課 · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "檔案中該學期無資料",
+  "globalTimetableDownloadFailed": "下載失敗",
+  "globalTimetableDeleteAll": "全部刪除",
+  "globalTimetableDeleteAllConfirm": "刪除本機全部已下載學期？",
+  "globalTimetableSourceMode": "資料來源",
+  "globalTimetableSourceAuto": "自動",
+  "globalTimetableSourceCloud": "雲端",
+  "globalTimetableSourceLocal": "本機",
+  "globalTimetableLocalMissing": "本機尚未下載該學期資料。",
+  "globalTimetableNoSlot": "無時段",
+  "globalTimetableSearchHint": "課名 / 教師 / 課程號",
+  "globalTimetableEmpty": "該學期沒有符合的課程。",
+  "globalTimetableDetailTitle": "課程詳情",
+  "globalTimetableDetailSlots": "上課時段",
+  "globalTimetableDetailInfo": "課程資訊",
+  "globalTimetableDetailCourseCode": "課程號",
+  "globalTimetableDetailTeachingClass": "教學班",
+  "globalTimetableDetailGroup": "分組",
+  "globalTimetableAddToTimetable": "加入課程表",
+  "globalTimetableAuditTimetableName": "蹭課",
+  "globalTimetableAuditTimetableOption": "新建「蹭課」課表",
+  "globalTimetableNoCalendar": "校曆資料不可用，無法加入課程表。",
+  "globalTimetableAddFailed": "加入課程表失敗：{error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
     "courseMatchingMinCredits": "最小學分",
     "courseMatchingNoConflicts": "無時間衝突",
     "courseMatchingTargetTimetable": "目標課表",
@@ -6524,7 +6648,8 @@
     "followAppTheme": "跟隨應用程式主題",
     "fontFamilyGoogleNotoSans": "Google Noto Sans",
     "fontFamilyLabel": "字型",
-    "fontFamilySubtitle": "系統字型或 Google Fonts",
+    "fontFamilyMiSans": "MiSans",
+    "fontFamilySubtitle": "系統字型、Google Fonts 或 MiSans",
     "fontFamilySystem": "系統字型",
     "fontSettings": "字型",
     "fontSizeCustomBaseLabel": "自訂字號",
@@ -7880,6 +8005,33 @@
     "settingsPrivacyAnalyticsSubtitle": "匿名功能使用資料，用於改進應用體驗",
     "settingsPrivacyAnalyticsTitle": "使用分析",
     "settingsPrivacyCourseDataAggregationSubtitle": "只有達到最低樣本數門檻後，才會顯示分佈與平均值。個別成績、身分、WHU 密碼與教務 Cookie 不會公開。",
+    "settingsDiagLogSectionTitle": "診斷日誌",
+    "settingsDiagLogSectionDescription": "日誌僅保存在本機，可匯出用於回饋與排查問題",
+    "settingsDiagLogExportTitle": "匯出診斷日誌",
+    "settingsDiagLogExportSubtitle": "分享、複製或另存為檔案；包含本次和之前啟動的日誌",
+    "settingsDiagLogBufferTitle": "診斷日誌快取上限",
+    "settingsDiagLogBufferSubtitle": "{size} × 2 個滾動檔案，寫滿後丟棄最舊記錄",
+    "settingsDiagLogLevelTitle": "匯出日誌最低等級",
+    "settingsDiagLogClearTitle": "清空診斷日誌",
+    "settingsDiagLogClearSubtitle": "刪除已儲存的日誌檔案，包括之前啟動的記錄",
+    "settingsDiagLogLevelVerbose": "Verbose（包含已啟用的診斷追蹤）",
+    "settingsDiagLogLevelWarning": "Warning（警告和錯誤）",
+    "settingsDiagLogLevelError": "Error（僅錯誤）",
+    "settingsDiagLogExportSheetDescription": "{level}，共 {size}",
+    "settingsDiagLogShare": "分享",
+    "settingsDiagLogShareSubtitle": "以 .log 檔案分享，長文字不會被 IM 截斷",
+    "settingsDiagLogCopy": "複製",
+    "settingsDiagLogSaveAs": "另存為",
+    "settingsDiagLogCopied": "診斷日誌已複製到剪貼簿",
+    "settingsDiagLogSaved": "診斷日誌已儲存",
+    "settingsDiagLogExportFailed": "匯出診斷日誌失敗",
+    "settingsDiagLogReadFailed": "讀取診斷日誌失敗",
+    "settingsDiagLogEmpty": "暫時沒有可匯出的診斷日誌",
+    "settingsDiagLogCleared": "診斷日誌已清空",
+    "settingsDiagLogClearFailed": "清空診斷日誌失敗",
+    "settingsDiagLogClearConfirmMessage": "將刪除本次和之前啟動儲存的全部診斷日誌，操作無法撤銷。",
+    "settingsDiagLogClearAction": "清空",
+    "settingsDiagLogShareSubject": "Luotopia 診斷日誌",
     "settingsPrivacyCourseDataAggregationTitle": "匿名成績統計",
     "settingsPrivacyCourseDataDescription": "你可以只使用 WHU 帳戶使用本機校園功能，而無需註冊珞家。登入珞家並使用課程給分或評價，即表示你同意將已驗證的課程成績去識別化，用於匿名統計。",
     "settingsPrivacyCourseDataTitle": "課程給分與評價",
@@ -9112,5 +9264,24 @@
     "chaoxingLoginSuccess": "超星學習通帳號已綁定",
     "chaoxingLoginBadCredentials": "登入失敗：{message}",
     "chaoxingLoginCaptchaRequired": "伺服器要求互動式驗證，請稍後再試，或先在官方 App 中登入一次。",
-    "chaoxingOperationFailed": "操作失敗：{error}"
+    "chaoxingOperationFailed": "操作失敗：{error}",
+  "imageSaved": "已儲存",
+  "imageSaveFailed": "圖片儲存失敗",
+  "settingsLegalInfo": "法律資訊",
+  "settingsBasicInfo": "基本資訊",
+  "settingsVersionUpdate": "版本更新",
+  "adminForumDashboardTitle": "資料看板",
+  "adminForumDashboardSubtitle": "使用者、貼文與留言統計",
+  "adminDashboardPeriodDay": "今日",
+  "adminDashboardPeriodWeek": "本週",
+  "adminDashboardPeriodMonth": "本月",
+  "adminDashboardTotalUsers": "註冊使用者",
+  "adminDashboardTodayUsers": "今日新增",
+  "adminDashboardTotalPosts": "貼文總數",
+  "adminDashboardTodayPosts": "今日發文",
+  "adminDashboardTotalComments": "留言總數",
+  "adminDashboardTodayComments": "今日留言",
+  "adminDashboardUsersChart": "使用者註冊趨勢",
+  "adminDashboardPostsChart": "發文趨勢",
+  "adminDashboardCommentsChart": "留言趨勢"
 }

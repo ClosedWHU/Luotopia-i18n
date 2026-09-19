@@ -3404,9 +3404,10 @@
   "campusEditModeEntry": "Режим редактирования",
   "fontSettings": "Шрифт",
   "fontFamilyLabel": "Шрифт",
-  "fontFamilySubtitle": "Системный шрифт или Google Fonts",
+  "fontFamilySubtitle": "Системный шрифт, Google Fonts или MiSans",
   "fontFamilySystem": "Системный шрифт",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
   "fontSizeScaleLabel": "Базовый размер текста",
   "fontSizeScaleSubtitle": "Масштабирует весь текст, сохраняя пропорции",
   "fontSizeScaleAuto": "Авто",
@@ -4613,6 +4614,130 @@
   "courseMatchingCourseType": "Тип курса",
   "courseMatchingMinCredits": "Мин. кредиты",
   "courseMatchingMaxCredits": "Макс. кредиты",
+  "courseMatchingAddSessions": "Добавить занятий: {count}",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "Добавлено занятий: {count}",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "Будет пропущено дубликатов: {duplicates} · конфликтов: {conflicts}",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term}: подбор курсов",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "Только без конфликтов",
+  "courseMatchingAdd": "Добавить",
+  "courseMatchingApply": "Применить",
+  "courseMatchingReset": "Сбросить",
+  "courseMatchingActiveFilters": "активно: {count}",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "Все",
+  "courseMatchingCampus": "Кампус",
+  "courseMatchingBuilding": "Корпус",
+  "courseMatchingDepartment": "Факультет",
+  "courseMatchingTeacher": "Преподаватель",
+  "courseMatchingSectionRangeError": "Начальная пара не может быть позже конечной.",
+  "courseMatchingCreditRangeError": "Минимальный кредит не может превышать максимальный.",
+  "globalTimetableTermWithCount": "Семестр {term} · записей: {count}",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "История курсов",
+  "globalTimetableHistoryHint": "Поиск по всем опубликованным семестрам, сначала новые.",
+  "globalTimetableHistoryEmpty": "Нет подходящих записей.",
+  "globalTimetableHistoryUnavailable": "Сервер пока не поддерживает историю курсов.",
+  "globalTimetableDownloads": "Офлайн-данные",
+  "globalTimetableDownloadsSummary": "Семестров: {count} · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "Семестры ещё не загружены.",
+  "globalTimetableDownloadsHint": "Архивы семестров берутся с сайта архива WHU-Master-Timetable. Загруженные семестры доступны для офлайн-поиска.",
+  "globalTimetableDownloadsRemoteInfo": "Курсов: {count} · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "В архиве нет данных за этот семестр",
+  "globalTimetableDownloadFailed": "Ошибка загрузки",
+  "globalTimetableDeleteAll": "Удалить все",
+  "globalTimetableDeleteAllConfirm": "Удалить все загруженные семестры с устройства?",
+  "globalTimetableSourceMode": "Источник",
+  "globalTimetableSourceAuto": "Авто",
+  "globalTimetableSourceCloud": "Облако",
+  "globalTimetableSourceLocal": "Локально",
+  "globalTimetableLocalMissing": "Этот семестр ещё не загружен для офлайн-доступа.",
+  "globalTimetableNoSlot": "Без расписания",
+  "globalTimetableSearchHint": "Курс, преподаватель или код",
+  "globalTimetableEmpty": "Курсы за этот семестр не найдены.",
+  "globalTimetableDetailTitle": "О курсе",
+  "globalTimetableDetailSlots": "Время занятий",
+  "globalTimetableDetailInfo": "Информация о курсе",
+  "globalTimetableDetailCourseCode": "Код курса",
+  "globalTimetableDetailTeachingClass": "Учебная группа",
+  "globalTimetableDetailGroup": "Группа",
+  "globalTimetableAddToTimetable": "Добавить в расписание",
+  "globalTimetableAuditTimetableName": "Вольный слушатель",
+  "globalTimetableAuditTimetableOption": "Создать расписание «Вольный слушатель»",
+  "globalTimetableNoCalendar": "Данные календаря недоступны; нельзя добавить в расписание.",
+  "globalTimetableAddFailed": "Не удалось добавить в расписание: {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "Управляемые очереди задач",
   "adminSystemQueues": "Системные очереди",
   "luotopiaAccountViewLargeAvatar": "Просмотреть аватар",
@@ -5625,5 +5750,51 @@
   "chaoxingLoginSuccess": "Аккаунт Chaoxing привязан",
   "chaoxingLoginBadCredentials": "Не удалось войти: {message}",
   "chaoxingLoginCaptchaRequired": "Сервер требует интерактивную проверку. Повторите попытку позже или сначала войдите один раз в официальном приложении.",
-  "chaoxingOperationFailed": "Ошибка операции: {error}"
+  "chaoxingOperationFailed": "Ошибка операции: {error}",
+  "imageSaved": "Сохранено",
+  "imageSaveFailed": "Не удалось сохранить изображение",
+  "settingsLegalInfo": "Правовая информация",
+  "settingsBasicInfo": "Основная информация",
+  "settingsVersionUpdate": "Обновление версии",
+  "settingsDiagLogSectionTitle": "Диагностические журналы",
+  "settingsDiagLogSectionDescription": "Журналы хранятся только на этом устройстве; экспортируйте их для обратной связи и устранения неполадок.",
+  "settingsDiagLogExportTitle": "Экспорт журнала диагностики",
+  "settingsDiagLogExportSubtitle": "Поделитесь, скопируйте или сохраните в файл; включает этот и предыдущие запуски",
+  "settingsDiagLogBufferTitle": "Лимит кэша журналов",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 ротируемых файла; при заполнении самые старые записи удаляются",
+  "settingsDiagLogLevelTitle": "Минимальный уровень экспорта",
+  "settingsDiagLogClearTitle": "Очистить журнал диагностики",
+  "settingsDiagLogClearSubtitle": "Удаляет сохранённые файлы журналов, включая записи предыдущих запусков",
+  "settingsDiagLogLevelVerbose": "Verbose (включая активные диагностические трассировки)",
+  "settingsDiagLogLevelWarning": "Warning (предупреждения и ошибки)",
+  "settingsDiagLogLevelError": "Error (только ошибки)",
+  "settingsDiagLogExportSheetDescription": "{level}, всего {size}",
+  "settingsDiagLogShare": "Поделиться",
+  "settingsDiagLogShareSubtitle": "Отправляется файлом .log; длинный текст не будет обрезан мессенджером",
+  "settingsDiagLogCopy": "Копировать",
+  "settingsDiagLogSaveAs": "Сохранить как",
+  "settingsDiagLogCopied": "Журнал диагностики скопирован в буфер обмена",
+  "settingsDiagLogSaved": "Журнал диагностики сохранён",
+  "settingsDiagLogExportFailed": "Не удалось экспортировать журнал диагностики",
+  "settingsDiagLogReadFailed": "Не удалось прочитать журнал диагностики",
+  "settingsDiagLogEmpty": "Пока нет журналов диагностики для экспорта",
+  "settingsDiagLogCleared": "Журнал диагностики очищен",
+  "settingsDiagLogClearFailed": "Не удалось очистить журнал диагностики",
+  "settingsDiagLogClearConfirmMessage": "Будут удалены все журналы диагностики, сохранённые в этом и предыдущих запусках. Это действие нельзя отменить.",
+  "settingsDiagLogClearAction": "Очистить",
+  "settingsDiagLogShareSubject": "Журнал диагностики Luotopia",
+  "adminForumDashboardTitle": "Панель данных",
+  "adminForumDashboardSubtitle": "Статистика пользователей, постов и комментариев",
+  "adminDashboardPeriodDay": "Сегодня",
+  "adminDashboardPeriodWeek": "Эта неделя",
+  "adminDashboardPeriodMonth": "Этот месяц",
+  "adminDashboardTotalUsers": "Всего пользователей",
+  "adminDashboardTodayUsers": "Пользователей сегодня",
+  "adminDashboardTotalPosts": "Всего постов",
+  "adminDashboardTodayPosts": "Постов сегодня",
+  "adminDashboardTotalComments": "Всего комментариев",
+  "adminDashboardTodayComments": "Комментариев сегодня",
+  "adminDashboardUsersChart": "Регистрации пользователей",
+  "adminDashboardPostsChart": "Созданные посты",
+  "adminDashboardCommentsChart": "Созданные комментарии"
 }

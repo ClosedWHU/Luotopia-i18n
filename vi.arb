@@ -3595,9 +3595,10 @@
   "campusEditModeEntry": "Chế độ chỉnh sửa",
   "fontSettings": "Phông chữ",
   "fontFamilyLabel": "Phông chữ",
-  "fontFamilySubtitle": "Phông chữ hệ thống hoặc Google Fonts",
+  "fontFamilySubtitle": "Phông chữ hệ thống, Google Fonts hoặc MiSans",
   "fontFamilySystem": "Phông chữ hệ thống",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
   "fontSizeScaleLabel": "Cỡ chữ cơ sở",
   "fontSizeScaleSubtitle": "Thu phóng toàn bộ chữ, giữ tỉ lệ tiêu đề/nội dung",
   "fontSizeScaleAuto": "Tự động",
@@ -4559,6 +4560,130 @@
   "courseMatchingCourseType": "Loại môn học",
   "courseMatchingMinCredits": "Tín chỉ tối thiểu",
   "courseMatchingMaxCredits": "Tín chỉ tối đa",
+  "courseMatchingAddSessions": "Thêm {count} buổi học",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "Đã thêm {count} buổi học",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "Bỏ qua {duplicates} trùng lặp · {conflicts} xung đột",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term}: khớp học phần",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "Chỉ không trùng lịch",
+  "courseMatchingAdd": "Thêm",
+  "courseMatchingApply": "Áp dụng",
+  "courseMatchingReset": "Đặt lại",
+  "courseMatchingActiveFilters": "{count} đang bật",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "Tất cả",
+  "courseMatchingCampus": "Cơ sở",
+  "courseMatchingBuilding": "Tòa nhà",
+  "courseMatchingDepartment": "Khoa phụ trách",
+  "courseMatchingTeacher": "Giảng viên",
+  "courseMatchingSectionRangeError": "Tiết bắt đầu không được lớn hơn tiết kết thúc.",
+  "courseMatchingCreditRangeError": "Tín chỉ tối thiểu không được lớn hơn tối đa.",
+  "globalTimetableTermWithCount": "Học kỳ {term} · {count} mục",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "Lịch sử môn học",
+  "globalTimetableHistoryHint": "Tìm trong tất cả học kỳ đã phát hành, mới trước.",
+  "globalTimetableHistoryEmpty": "Không có lớp nào khớp truy vấn.",
+  "globalTimetableHistoryUnavailable": "Máy chủ chưa hỗ trợ lịch sử môn học.",
+  "globalTimetableDownloads": "Dữ liệu ngoại tuyến",
+  "globalTimetableDownloadsSummary": "{count} học kỳ · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "Chưa tải học kỳ nào.",
+  "globalTimetableDownloadsHint": "Tệp lưu trữ lấy từ trang lưu trữ WHU-Master-Timetable. Học kỳ đã tải có thể tìm kiếm ngoại tuyến.",
+  "globalTimetableDownloadsRemoteInfo": "{count} môn · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "Không có dữ liệu lưu trữ cho học kỳ này",
+  "globalTimetableDownloadFailed": "Tải xuống thất bại",
+  "globalTimetableDeleteAll": "Xóa tất cả",
+  "globalTimetableDeleteAllConfirm": "Xóa tất cả học kỳ đã tải khỏi thiết bị này?",
+  "globalTimetableSourceMode": "Nguồn dữ liệu",
+  "globalTimetableSourceAuto": "Tự động",
+  "globalTimetableSourceCloud": "Đám mây",
+  "globalTimetableSourceLocal": "Cục bộ",
+  "globalTimetableLocalMissing": "Học kỳ này chưa có dữ liệu ngoại tuyến.",
+  "globalTimetableNoSlot": "Chưa xếp tiết",
+  "globalTimetableSearchHint": "Tên môn / giảng viên / mã môn",
+  "globalTimetableEmpty": "Không tìm thấy môn nào cho học kỳ này.",
+  "globalTimetableDetailTitle": "Chi tiết môn học",
+  "globalTimetableDetailSlots": "Thời khóa biểu",
+  "globalTimetableDetailInfo": "Thông tin môn học",
+  "globalTimetableDetailCourseCode": "Mã môn học",
+  "globalTimetableDetailTeachingClass": "Lớp học phần",
+  "globalTimetableDetailGroup": "Nhóm",
+  "globalTimetableAddToTimetable": "Thêm vào thời khóa biểu",
+  "globalTimetableAuditTimetableName": "Học ké",
+  "globalTimetableAuditTimetableOption": "Tạo mới thời khóa biểu «Học ké»",
+  "globalTimetableNoCalendar": "Không có dữ liệu lịch học nên không thể thêm.",
+  "globalTimetableAddFailed": "Không thể thêm vào thời khóa biểu: {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "Hàng đợi tác vụ có thể kiểm soát",
   "adminSystemQueues": "Hàng đợi hệ thống",
   "luotopiaAccountViewLargeAvatar": "Xem ảnh đại diện lớn",
@@ -5639,5 +5764,51 @@
   "chaoxingLoginSuccess": "Đã liên kết tài khoản Chaoxing",
   "chaoxingLoginBadCredentials": "Đăng nhập thất bại: {message}",
   "chaoxingLoginCaptchaRequired": "Máy chủ yêu cầu xác minh tương tác. Hãy thử lại sau, hoặc đăng nhập một lần trong ứng dụng chính thức trước.",
-  "chaoxingOperationFailed": "Thao tác thất bại: {error}"
+  "chaoxingOperationFailed": "Thao tác thất bại: {error}",
+  "imageSaved": "Đã lưu",
+  "imageSaveFailed": "Không thể lưu hình ảnh",
+  "settingsLegalInfo": "Thông tin pháp lý",
+  "settingsBasicInfo": "Thông tin cơ bản",
+  "settingsVersionUpdate": "Cập nhật phiên bản",
+  "settingsDiagLogSectionTitle": "Nhật ký chẩn đoán",
+  "settingsDiagLogSectionDescription": "Nhật ký chỉ được lưu trên thiết bị này; hãy xuất chúng để hỗ trợ phản hồi và khắc phục sự cố.",
+  "settingsDiagLogExportTitle": "Xuất nhật ký chẩn đoán",
+  "settingsDiagLogExportSubtitle": "Chia sẻ, sao chép hoặc lưu thành tệp; bao gồm lần khởi động này và các lần trước",
+  "settingsDiagLogBufferTitle": "Giới hạn bộ đệm nhật ký",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 tệp luân phiên; các mục cũ nhất sẽ bị loại bỏ khi đầy",
+  "settingsDiagLogLevelTitle": "Mức xuất tối thiểu",
+  "settingsDiagLogClearTitle": "Xóa nhật ký chẩn đoán",
+  "settingsDiagLogClearSubtitle": "Xóa các tệp nhật ký đã lưu, bao gồm cả các lần khởi động trước",
+  "settingsDiagLogLevelVerbose": "Verbose (bao gồm các dấu vết chẩn đoán đã bật)",
+  "settingsDiagLogLevelWarning": "Warning (cảnh báo và lỗi)",
+  "settingsDiagLogLevelError": "Error (chỉ lỗi)",
+  "settingsDiagLogExportSheetDescription": "{level}, tổng cộng {size}",
+  "settingsDiagLogShare": "Chia sẻ",
+  "settingsDiagLogShareSubtitle": "Chia sẻ dưới dạng tệp .log; văn bản dài sẽ không bị ứng dụng nhắn tin cắt bớt",
+  "settingsDiagLogCopy": "Sao chép",
+  "settingsDiagLogSaveAs": "Lưu thành",
+  "settingsDiagLogCopied": "Đã sao chép nhật ký chẩn đoán vào bảng nhớ tạm",
+  "settingsDiagLogSaved": "Đã lưu nhật ký chẩn đoán",
+  "settingsDiagLogExportFailed": "Xuất nhật ký chẩn đoán thất bại",
+  "settingsDiagLogReadFailed": "Đọc nhật ký chẩn đoán thất bại",
+  "settingsDiagLogEmpty": "Chưa có nhật ký chẩn đoán nào để xuất",
+  "settingsDiagLogCleared": "Đã xóa nhật ký chẩn đoán",
+  "settingsDiagLogClearFailed": "Xóa nhật ký chẩn đoán thất bại",
+  "settingsDiagLogClearConfirmMessage": "Thao tác này xóa toàn bộ nhật ký chẩn đoán đã lưu của lần khởi động này và các lần trước. Không thể hoàn tác.",
+  "settingsDiagLogClearAction": "Xóa",
+  "settingsDiagLogShareSubject": "Nhật ký chẩn đoán Luotopia",
+  "adminForumDashboardTitle": "Bảng dữ liệu",
+  "adminForumDashboardSubtitle": "Thống kê người dùng, bài viết và bình luận",
+  "adminDashboardPeriodDay": "Hôm nay",
+  "adminDashboardPeriodWeek": "Tuần này",
+  "adminDashboardPeriodMonth": "Tháng này",
+  "adminDashboardTotalUsers": "Tổng số người dùng",
+  "adminDashboardTodayUsers": "Người dùng hôm nay",
+  "adminDashboardTotalPosts": "Tổng số bài viết",
+  "adminDashboardTodayPosts": "Bài viết hôm nay",
+  "adminDashboardTotalComments": "Tổng số bình luận",
+  "adminDashboardTodayComments": "Bình luận hôm nay",
+  "adminDashboardUsersChart": "Lượt đăng ký người dùng",
+  "adminDashboardPostsChart": "Bài viết mới",
+  "adminDashboardCommentsChart": "Bình luận mới"
 }

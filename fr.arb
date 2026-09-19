@@ -3569,9 +3569,10 @@
   "campusEditModeEntry": "Mode édition",
   "fontSettings": "Police",
   "fontFamilyLabel": "Police",
-  "fontFamilySubtitle": "Police système ou Google Fonts",
+  "fontFamilySubtitle": "Police système, Google Fonts ou MiSans",
   "fontFamilySystem": "Police système",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
   "fontSizeScaleLabel": "Taille de texte de base",
   "fontSizeScaleSubtitle": "Met à l’échelle tout le texte en gardant les proportions",
   "fontSizeScaleAuto": "Auto",
@@ -4623,6 +4624,130 @@
   "courseMatchingCourseType": "Type de cours",
   "courseMatchingMinCredits": "Crédits minimum",
   "courseMatchingMaxCredits": "Crédits maximum",
+  "courseMatchingAddSessions": "Ajouter {count} séances",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "{count} séances ajoutées",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "{duplicates} doublons ignorés · {conflicts} conflits",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} : correspondance de cours",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "Sans conflit uniquement",
+  "courseMatchingAdd": "Ajouter",
+  "courseMatchingApply": "Appliquer",
+  "courseMatchingReset": "Réinitialiser",
+  "courseMatchingActiveFilters": "{count} actifs",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "Tous",
+  "courseMatchingCampus": "Campus",
+  "courseMatchingBuilding": "Bâtiment",
+  "courseMatchingDepartment": "Département",
+  "courseMatchingTeacher": "Enseignant",
+  "courseMatchingSectionRangeError": "La section de début ne doit pas dépasser la section de fin.",
+  "courseMatchingCreditRangeError": "Le crédit minimum ne doit pas dépasser le crédit maximum.",
+  "globalTimetableTermWithCount": "Semestre {term} · {count} entrées",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "Historique des cours",
+  "globalTimetableHistoryHint": "Recherche dans tous les semestres publiés, du plus récent au plus ancien.",
+  "globalTimetableHistoryEmpty": "Aucune offre ne correspond à cette requête.",
+  "globalTimetableHistoryUnavailable": "Le serveur ne prend pas encore en charge l’historique des cours.",
+  "globalTimetableDownloads": "Données hors ligne",
+  "globalTimetableDownloadsSummary": "{count} semestres · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "Aucun semestre téléchargé pour l’instant.",
+  "globalTimetableDownloadsHint": "Les archives proviennent du site d’archives WHU-Master-Timetable. Les semestres téléchargés restent consultables hors ligne.",
+  "globalTimetableDownloadsRemoteInfo": "{count} cours · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "Aucune donnée archivée pour ce semestre",
+  "globalTimetableDownloadFailed": "Échec du téléchargement",
+  "globalTimetableDeleteAll": "Tout supprimer",
+  "globalTimetableDeleteAllConfirm": "Supprimer tous les semestres téléchargés de cet appareil ?",
+  "globalTimetableSourceMode": "Source",
+  "globalTimetableSourceAuto": "Auto",
+  "globalTimetableSourceCloud": "Cloud",
+  "globalTimetableSourceLocal": "Local",
+  "globalTimetableLocalMissing": "Ce semestre n’est pas encore disponible hors ligne.",
+  "globalTimetableNoSlot": "Sans créneau",
+  "globalTimetableSearchHint": "Cours, enseignant ou code",
+  "globalTimetableEmpty": "Aucun cours trouvé pour cette période.",
+  "globalTimetableDetailTitle": "Détails du cours",
+  "globalTimetableDetailSlots": "Créneaux de cours",
+  "globalTimetableDetailInfo": "Informations du cours",
+  "globalTimetableDetailCourseCode": "Code du cours",
+  "globalTimetableDetailTeachingClass": "Classe pédagogique",
+  "globalTimetableDetailGroup": "Groupe",
+  "globalTimetableAddToTimetable": "Ajouter à l’emploi du temps",
+  "globalTimetableAuditTimetableName": "Auditeur libre",
+  "globalTimetableAuditTimetableOption": "Nouvel emploi du temps « Auditeur libre »",
+  "globalTimetableNoCalendar": "Le calendrier universitaire est indisponible ; ajout impossible.",
+  "globalTimetableAddFailed": "Ajout à l’emploi du temps impossible : {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "Files de tâches contrôlables",
   "adminSystemQueues": "Files système",
   "luotopiaAccountViewLargeAvatar": "Voir l'avatar en grand",
@@ -5635,5 +5760,51 @@
   "chaoxingLoginSuccess": "Compte Chaoxing lié",
   "chaoxingLoginBadCredentials": "Échec de la connexion : {message}",
   "chaoxingLoginCaptchaRequired": "Le serveur exige une vérification interactive. Réessayez plus tard, ou connectez-vous d’abord une fois dans l’application officielle.",
-  "chaoxingOperationFailed": "Échec de l’opération : {error}"
+  "chaoxingOperationFailed": "Échec de l’opération : {error}",
+  "imageSaved": "Enregistré",
+  "imageSaveFailed": "Impossible d'enregistrer l'image",
+  "settingsLegalInfo": "Informations légales",
+  "settingsBasicInfo": "Informations de base",
+  "settingsVersionUpdate": "Mise à jour de la version",
+  "settingsDiagLogSectionTitle": "Journaux de diagnostic",
+  "settingsDiagLogSectionDescription": "Les journaux restent uniquement sur cet appareil ; exportez-les pour faciliter les retours et le dépannage.",
+  "settingsDiagLogExportTitle": "Exporter le journal de diagnostic",
+  "settingsDiagLogExportSubtitle": "Partager, copier ou enregistrer dans un fichier ; inclut ce lancement et les précédents",
+  "settingsDiagLogBufferTitle": "Limite du cache des journaux",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 fichiers rotatifs ; les entrées les plus anciennes sont supprimées une fois plein",
+  "settingsDiagLogLevelTitle": "Niveau minimal d'exportation",
+  "settingsDiagLogClearTitle": "Effacer le journal de diagnostic",
+  "settingsDiagLogClearSubtitle": "Supprime les fichiers journaux enregistrés, y compris ceux des lancements précédents",
+  "settingsDiagLogLevelVerbose": "Verbose (inclut les traces de diagnostic activées)",
+  "settingsDiagLogLevelWarning": "Warning (avertissements et erreurs)",
+  "settingsDiagLogLevelError": "Error (erreurs uniquement)",
+  "settingsDiagLogExportSheetDescription": "{level}, {size} au total",
+  "settingsDiagLogShare": "Partager",
+  "settingsDiagLogShareSubtitle": "Partagé sous forme de fichier .log ; les longs textes ne seront pas tronqués par la messagerie",
+  "settingsDiagLogCopy": "Copier",
+  "settingsDiagLogSaveAs": "Enregistrer sous",
+  "settingsDiagLogCopied": "Journal de diagnostic copié dans le presse-papiers",
+  "settingsDiagLogSaved": "Journal de diagnostic enregistré",
+  "settingsDiagLogExportFailed": "Échec de l'exportation du journal de diagnostic",
+  "settingsDiagLogReadFailed": "Échec de la lecture du journal de diagnostic",
+  "settingsDiagLogEmpty": "Aucun journal de diagnostic disponible à exporter pour le moment",
+  "settingsDiagLogCleared": "Journal de diagnostic effacé",
+  "settingsDiagLogClearFailed": "Échec de l'effacement du journal de diagnostic",
+  "settingsDiagLogClearConfirmMessage": "Cela supprime tous les journaux de diagnostic enregistrés lors de ce lancement et des précédents. Cette action est irréversible.",
+  "settingsDiagLogClearAction": "Effacer",
+  "settingsDiagLogShareSubject": "Journal de diagnostic Luotopia",
+  "adminForumDashboardTitle": "Tableau de bord",
+  "adminForumDashboardSubtitle": "Statistiques des utilisateurs, publications et commentaires",
+  "adminDashboardPeriodDay": "Aujourd'hui",
+  "adminDashboardPeriodWeek": "Cette semaine",
+  "adminDashboardPeriodMonth": "Ce mois-ci",
+  "adminDashboardTotalUsers": "Utilisateurs totaux",
+  "adminDashboardTodayUsers": "Utilisateurs du jour",
+  "adminDashboardTotalPosts": "Publications totales",
+  "adminDashboardTodayPosts": "Publications du jour",
+  "adminDashboardTotalComments": "Commentaires totaux",
+  "adminDashboardTodayComments": "Commentaires du jour",
+  "adminDashboardUsersChart": "Inscriptions d'utilisateurs",
+  "adminDashboardPostsChart": "Publications créées",
+  "adminDashboardCommentsChart": "Commentaires créés"
 }

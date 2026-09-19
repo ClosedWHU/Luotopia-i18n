@@ -3473,9 +3473,10 @@
   "campusEditModeEntry": "Modo de edição",
   "fontSettings": "Fonte",
   "fontFamilyLabel": "Fonte",
-  "fontFamilySubtitle": "Fonte do sistema ou Google Fonts",
+  "fontFamilySubtitle": "Fonte do sistema, Google Fonts ou MiSans",
   "fontFamilySystem": "Fonte do sistema",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
   "fontSizeScaleLabel": "Tamanho base do texto",
   "fontSizeScaleSubtitle": "Redimensiona todo o texto mantendo proporções",
   "fontSizeScaleAuto": "Automático",
@@ -4585,6 +4586,130 @@
   "courseMatchingCourseType": "Tipo de curso",
   "courseMatchingMinCredits": "Créditos mínimos",
   "courseMatchingMaxCredits": "Créditos máximos",
+  "courseMatchingAddSessions": "Adicionar {count} sessões",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "{count} sessões adicionadas",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "{duplicates} duplicados serão ignorados · {conflicts} conflitos",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term}: correspondência de cursos",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "Apenas sem conflitos",
+  "courseMatchingAdd": "Adicionar",
+  "courseMatchingApply": "Aplicar",
+  "courseMatchingReset": "Redefinir",
+  "courseMatchingActiveFilters": "{count} ativos",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "Todos",
+  "courseMatchingCampus": "Campus",
+  "courseMatchingBuilding": "Edifício",
+  "courseMatchingDepartment": "Departamento",
+  "courseMatchingTeacher": "Professor",
+  "courseMatchingSectionRangeError": "A seção inicial não pode exceder a final.",
+  "courseMatchingCreditRangeError": "O crédito mínimo não pode exceder o máximo.",
+  "globalTimetableTermWithCount": "Semestre {term} · {count} registros",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "Histórico de cursos",
+  "globalTimetableHistoryHint": "Pesquisa em todos os semestres publicados, do mais recente ao mais antigo.",
+  "globalTimetableHistoryEmpty": "Nenhuma oferta corresponde à consulta.",
+  "globalTimetableHistoryUnavailable": "O servidor ainda não oferece suporte ao histórico de cursos.",
+  "globalTimetableDownloads": "Dados offline",
+  "globalTimetableDownloadsSummary": "{count} semestres · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "Nenhum semestre baixado ainda.",
+  "globalTimetableDownloadsHint": "Os arquivos vêm do site de arquivos WHU-Master-Timetable. Os semestres baixados permanecem pesquisáveis offline.",
+  "globalTimetableDownloadsRemoteInfo": "{count} cursos · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "Sem dados arquivados para este semestre",
+  "globalTimetableDownloadFailed": "Falha no download",
+  "globalTimetableDeleteAll": "Excluir tudo",
+  "globalTimetableDeleteAllConfirm": "Excluir todos os semestres baixados deste dispositivo?",
+  "globalTimetableSourceMode": "Fonte",
+  "globalTimetableSourceAuto": "Auto",
+  "globalTimetableSourceCloud": "Nuvem",
+  "globalTimetableSourceLocal": "Local",
+  "globalTimetableLocalMissing": "Este semestre ainda não está disponível offline.",
+  "globalTimetableNoSlot": "Sem horário",
+  "globalTimetableSearchHint": "Curso, professor ou código",
+  "globalTimetableEmpty": "Nenhum curso encontrado para este período.",
+  "globalTimetableDetailTitle": "Detalhes do curso",
+  "globalTimetableDetailSlots": "Horários da aula",
+  "globalTimetableDetailInfo": "Informações do curso",
+  "globalTimetableDetailCourseCode": "Código do curso",
+  "globalTimetableDetailTeachingClass": "Turma",
+  "globalTimetableDetailGroup": "Grupo",
+  "globalTimetableAddToTimetable": "Adicionar ao horário",
+  "globalTimetableAuditTimetableName": "Como ouvinte",
+  "globalTimetableAuditTimetableOption": "Nova tabela «Como ouvinte»",
+  "globalTimetableNoCalendar": "Dados do calendário indisponíveis; não é possível adicionar.",
+  "globalTimetableAddFailed": "Não foi possível adicionar ao horário: {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "Filas de tarefas controláveis",
   "adminSystemQueues": "Filas do sistema",
   "luotopiaAccountViewLargeAvatar": "Ver avatar grande",
@@ -5597,5 +5722,51 @@
   "chaoxingLoginSuccess": "Conta Chaoxing vinculada",
   "chaoxingLoginBadCredentials": "Falha ao entrar: {message}",
   "chaoxingLoginCaptchaRequired": "O servidor exige uma verificação interativa. Tente novamente mais tarde ou entre uma vez no aplicativo oficial primeiro.",
-  "chaoxingOperationFailed": "Falha na operação: {error}"
+  "chaoxingOperationFailed": "Falha na operação: {error}",
+  "imageSaved": "Salvo",
+  "imageSaveFailed": "Não foi possível salvar a imagem",
+  "settingsLegalInfo": "Informações legais",
+  "settingsBasicInfo": "Informações básicas",
+  "settingsVersionUpdate": "Atualização de versão",
+  "settingsDiagLogSectionTitle": "Registros de diagnóstico",
+  "settingsDiagLogSectionDescription": "Os registros ficam apenas neste dispositivo; exporte-os para ajudar em feedback e solução de problemas.",
+  "settingsDiagLogExportTitle": "Exportar registro de diagnóstico",
+  "settingsDiagLogExportSubtitle": "Compartilhe, copie ou salve como arquivo; inclui esta execução e as anteriores",
+  "settingsDiagLogBufferTitle": "Limite do cache de registros",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 arquivos rotativos; as entradas mais antigas são descartadas quando cheio",
+  "settingsDiagLogLevelTitle": "Nível mínimo de exportação",
+  "settingsDiagLogClearTitle": "Limpar registro de diagnóstico",
+  "settingsDiagLogClearSubtitle": "Exclui os arquivos de registro salvos, incluindo os de execuções anteriores",
+  "settingsDiagLogLevelVerbose": "Detalhado (inclui rastreamentos de diagnóstico ativados)",
+  "settingsDiagLogLevelWarning": "Aviso (avisos e erros)",
+  "settingsDiagLogLevelError": "Erro (somente erros)",
+  "settingsDiagLogExportSheetDescription": "{level}, {size} no total",
+  "settingsDiagLogShare": "Compartilhar",
+  "settingsDiagLogShareSubtitle": "Compartilhado como arquivo .log; textos longos não serão truncados em mensageiros",
+  "settingsDiagLogCopy": "Copiar",
+  "settingsDiagLogSaveAs": "Salvar como",
+  "settingsDiagLogCopied": "Registro de diagnóstico copiado para a área de transferência",
+  "settingsDiagLogSaved": "Registro de diagnóstico salvo",
+  "settingsDiagLogExportFailed": "Falha ao exportar o registro de diagnóstico",
+  "settingsDiagLogReadFailed": "Falha ao ler o registro de diagnóstico",
+  "settingsDiagLogEmpty": "Ainda não há registros de diagnóstico para exportar",
+  "settingsDiagLogCleared": "Registro de diagnóstico limpo",
+  "settingsDiagLogClearFailed": "Falha ao limpar o registro de diagnóstico",
+  "settingsDiagLogClearConfirmMessage": "Isso exclui todos os registros de diagnóstico salvos desta execução e das anteriores. Não é possível desfazer.",
+  "settingsDiagLogClearAction": "Limpar",
+  "settingsDiagLogShareSubject": "Registro de diagnóstico do Luotopia",
+  "adminForumDashboardTitle": "Painel de dados",
+  "adminForumDashboardSubtitle": "Estatísticas de usuários, publicações e comentários",
+  "adminDashboardPeriodDay": "Hoje",
+  "adminDashboardPeriodWeek": "Esta semana",
+  "adminDashboardPeriodMonth": "Este mês",
+  "adminDashboardTotalUsers": "Total de usuários",
+  "adminDashboardTodayUsers": "Usuários de hoje",
+  "adminDashboardTotalPosts": "Total de publicações",
+  "adminDashboardTodayPosts": "Publicações de hoje",
+  "adminDashboardTotalComments": "Total de comentários",
+  "adminDashboardTodayComments": "Comentários de hoje",
+  "adminDashboardUsersChart": "Registros de usuários",
+  "adminDashboardPostsChart": "Publicações criadas",
+  "adminDashboardCommentsChart": "Comentários criados"
 }

@@ -39,6 +39,8 @@
   "aiSpeechWhisper": "Whisper 离线转写",
   "aiSpeechWhisperModel": "Whisper 模型",
   "aiDownload": "下载",
+  "imageSaved": "已保存",
+  "imageSaveFailed": "图片保存失败",
   "aiSpeechEngine": "朗读引擎",
   "aiSpeechEdge": "Edge 在线音色",
   "aiSpeechSttsVoice": "stts 系统音色",
@@ -594,6 +596,9 @@
   "settingsAppIconAlt": "备选",
   "settingsAboutDevTeam": "开发团队",
   "settingsAboutTranslation": "翻译平台",
+  "settingsLegalInfo": "法律信息",
+  "settingsBasicInfo": "基本信息",
+  "settingsVersionUpdate": "版本更新",
   "settingsLicensesTitle": "开源许可证",
   "settingsLicensesSearchHint": "搜索许可证",
   "licenseAuthor": "作者: {author}",
@@ -3521,6 +3526,33 @@
   "settingsPrivacyCourseDataDescription": "不注册或不登录珞家账号时，你仍可仅登录武汉大学账号并使用本地教务功能。登录珞家账号并使用课程给分、课程评价功能，即表示你同意将经核验的课程成绩以去标识化方式用于匿名统计。",
   "settingsPrivacyCourseDataAggregationTitle": "匿名成绩统计",
   "settingsPrivacyCourseDataAggregationSubtitle": "仅在满足最小样本量后展示聚合分布和均值；不公开个人成绩、身份、武汉大学密码或教务 Cookie。",
+  "settingsDiagLogSectionTitle": "诊断日志",
+  "settingsDiagLogSectionDescription": "日志仅保存在本机，可导出用于反馈与排查问题",
+  "settingsDiagLogExportTitle": "导出诊断日志",
+  "settingsDiagLogExportSubtitle": "分享、复制或另存为文件；包含本次和之前启动的日志",
+  "settingsDiagLogBufferTitle": "诊断日志缓存上限",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 个滚动文件，写满后丢弃最旧记录",
+  "settingsDiagLogLevelTitle": "导出日志最低等级",
+  "settingsDiagLogClearTitle": "清空诊断日志",
+  "settingsDiagLogClearSubtitle": "删除已保存的日志文件，包括之前启动的记录",
+  "settingsDiagLogLevelVerbose": "Verbose（包含已启用的诊断追踪）",
+  "settingsDiagLogLevelWarning": "Warning（警告和错误）",
+  "settingsDiagLogLevelError": "Error（仅错误）",
+  "settingsDiagLogExportSheetDescription": "{level}，共 {size}",
+  "settingsDiagLogShare": "分享",
+  "settingsDiagLogShareSubtitle": "以 .log 文件分享，长文本不会被 IM 截断",
+  "settingsDiagLogCopy": "复制",
+  "settingsDiagLogSaveAs": "另存为",
+  "settingsDiagLogCopied": "诊断日志已复制到剪贴板",
+  "settingsDiagLogSaved": "诊断日志已保存",
+  "settingsDiagLogExportFailed": "导出诊断日志失败",
+  "settingsDiagLogReadFailed": "读取诊断日志失败",
+  "settingsDiagLogEmpty": "暂时没有可导出的诊断日志",
+  "settingsDiagLogCleared": "诊断日志已清空",
+  "settingsDiagLogClearFailed": "清空诊断日志失败",
+  "settingsDiagLogClearConfirmMessage": "将删除本次和之前启动保存的全部诊断日志，操作无法撤销。",
+  "settingsDiagLogClearAction": "清空",
+  "settingsDiagLogShareSubject": "Luotopia 诊断日志",
   "courseReviewsSyncEligibility": "同步已完成课程",
   "courseReviewsWrite": "撰写匿名评价",
   "courseReviewsAnonymousStudent": "匿名学生 · {semester}",
@@ -4059,9 +4091,10 @@
   "campusEditModeEntry": "编辑模式",
   "fontSettings": "字体",
   "fontFamilyLabel": "字体",
-  "fontFamilySubtitle": "系统字体或 Google Fonts",
+  "fontFamilySubtitle": "系统字体、Google Fonts 或 MiSans",
   "fontFamilySystem": "系统字体",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
   "fontSizeScaleLabel": "基准字号",
   "fontSizeScaleSubtitle": "整体缩放文字，保持标题与正文比例",
   "fontSizeScaleAuto": "自动",
@@ -4862,6 +4895,20 @@
   "adminForumConfigLogSubtitle": "论坛配置近期变更",
   "adminForumConfigLogEmpty": "暂无配置变更记录。",
   "adminForumConfigLogActor": "操作者",
+  "adminForumDashboardTitle": "数据看板",
+  "adminForumDashboardSubtitle": "用户、帖子与评论统计",
+  "adminDashboardPeriodDay": "今日",
+  "adminDashboardPeriodWeek": "本周",
+  "adminDashboardPeriodMonth": "本月",
+  "adminDashboardTotalUsers": "注册用户",
+  "adminDashboardTodayUsers": "今日新增",
+  "adminDashboardTotalPosts": "帖子总数",
+  "adminDashboardTodayPosts": "今日发帖",
+  "adminDashboardTotalComments": "评论总数",
+  "adminDashboardTodayComments": "今日评论",
+  "adminDashboardUsersChart": "用户注册趋势",
+  "adminDashboardPostsChart": "发帖趋势",
+  "adminDashboardCommentsChart": "评论趋势",
   "forumModerationAllSources": "全部来源",
   "forumModerationUnclaimed": "未领取",
   "forumModerationUserReports": "用户举报",
@@ -4956,6 +5003,130 @@
   "courseMatchingCourseType": "课程类型",
   "courseMatchingMinCredits": "最小学分",
   "courseMatchingMaxCredits": "最大学分",
+  "courseMatchingAddSessions": "添加 {count} 节课",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "已添加 {count} 节课",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "将跳过 {duplicates} 条重复 · {conflicts} 处冲突",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} 课程匹配",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "仅显示无冲突",
+  "courseMatchingAdd": "添加",
+  "courseMatchingApply": "应用",
+  "courseMatchingReset": "重置",
+  "courseMatchingActiveFilters": "已启用 {count} 项",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "全部",
+  "courseMatchingCampus": "校区",
+  "courseMatchingBuilding": "教学楼",
+  "courseMatchingDepartment": "开课学院",
+  "courseMatchingTeacher": "教师",
+  "courseMatchingSectionRangeError": "起始节次不能大于结束节次。",
+  "courseMatchingCreditRangeError": "最小学分不能大于最大学分。",
+  "globalTimetableTermWithCount": "第 {term} 学期 · {count} 条",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "课程历史",
+  "globalTimetableHistoryHint": "在全部已发布学期中检索，从新到旧。",
+  "globalTimetableHistoryEmpty": "没有匹配的开课记录。",
+  "globalTimetableHistoryUnavailable": "当前服务端暂不支持课程历史。",
+  "globalTimetableDownloads": "离线数据",
+  "globalTimetableDownloadsSummary": "已下载 {count} 个学期 · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "尚未下载任何学期数据。",
+  "globalTimetableDownloadsHint": "学期档案来自 WHU-Master-Timetable 档案站；下载后可离线检索该学期。",
+  "globalTimetableDownloadsRemoteInfo": "{count} 门课 · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "档案中该学期无数据",
+  "globalTimetableDownloadFailed": "下载失败",
+  "globalTimetableDeleteAll": "全部删除",
+  "globalTimetableDeleteAllConfirm": "删除本机全部已下载学期？",
+  "globalTimetableSourceMode": "数据源",
+  "globalTimetableSourceAuto": "自动",
+  "globalTimetableSourceCloud": "云端",
+  "globalTimetableSourceLocal": "本地",
+  "globalTimetableLocalMissing": "本地尚未下载该学期数据。",
+  "globalTimetableNoSlot": "无时段",
+  "globalTimetableSearchHint": "课名 / 教师 / 课程号",
+  "globalTimetableEmpty": "该学期没有匹配的课程。",
+  "globalTimetableDetailTitle": "课程详情",
+  "globalTimetableDetailSlots": "上课时段",
+  "globalTimetableDetailInfo": "课程信息",
+  "globalTimetableDetailCourseCode": "课程号",
+  "globalTimetableDetailTeachingClass": "教学班",
+  "globalTimetableDetailGroup": "分组",
+  "globalTimetableAddToTimetable": "加入课程表",
+  "globalTimetableAuditTimetableName": "蹭课",
+  "globalTimetableAuditTimetableOption": "新建「蹭课」课表",
+  "globalTimetableNoCalendar": "校历数据不可用，无法加入课程表。",
+  "globalTimetableAddFailed": "加入课程表失败：{error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "受控任务队列",
   "adminSystemQueues": "系统任务队列",
   "luotopiaAccountViewLargeAvatar": "查看大头像",

@@ -33,6 +33,8 @@
   "aiSpeechWhisper": "Whisper offline transcription",
   "aiSpeechWhisperModel": "Whisper model",
   "aiDownload": "Download",
+  "imageSaved": "Saved",
+  "imageSaveFailed": "Couldn't save the image",
   "aiSpeechEngine": "Speech engine",
   "aiSpeechEdge": "Edge online voice",
   "aiSpeechSttsVoice": "stts system voice",
@@ -323,9 +325,10 @@
   "campusEditModeEntry": "Edit mode",
   "fontSettings": "Font",
   "fontFamilyLabel": "Font family",
-  "fontFamilySubtitle": "System font or Google Fonts",
+  "fontFamilySubtitle": "System font, Google Fonts or MiSans",
   "fontFamilySystem": "System font",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
   "fontSizeScaleLabel": "Base text size",
   "fontSizeScaleSubtitle": "Scales all text while keeping title/body proportions",
   "fontSizeScaleAuto": "Auto",
@@ -805,6 +808,9 @@
   "settingsAppIconDefault": "Default",
   "settingsAppIconAlt": "Alternate",
   "settingsAboutTranslation": "Translation Platform",
+  "settingsLegalInfo": "Legal Information",
+  "settingsBasicInfo": "Basic Info",
+  "settingsVersionUpdate": "Version Update",
   "settingsLicensesTitle": "Open Source Licenses",
   "settingsLicensesSearchHint": "Search licenses",
   "licenseAuthor": "Author: {author}",
@@ -4017,6 +4023,50 @@
   "settingsPrivacyCourseDataDescription": "You may use local university features with only a WHU account and without registering for Luotopia. By signing in to Luotopia and using course grades or reviews, you agree that verified course grades may be de-identified for anonymous statistics.",
   "settingsPrivacyCourseDataAggregationTitle": "Anonymous grade statistics",
   "settingsPrivacyCourseDataAggregationSubtitle": "Distributions and averages are shown only after the minimum sample threshold. Individual grades, identities, WHU passwords, and education cookies are not public.",
+  "settingsDiagLogSectionTitle": "Diagnostic logs",
+  "settingsDiagLogSectionDescription": "Logs stay on this device only; export them to help with feedback and troubleshooting.",
+  "settingsDiagLogExportTitle": "Export diagnostic log",
+  "settingsDiagLogExportSubtitle": "Share, copy, or save as a file; includes this and previous launches",
+  "settingsDiagLogBufferTitle": "Log cache limit",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 rolling files; oldest entries are dropped when full",
+  "@settingsDiagLogBufferSubtitle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDiagLogLevelTitle": "Minimum export level",
+  "settingsDiagLogClearTitle": "Clear diagnostic log",
+  "settingsDiagLogClearSubtitle": "Deletes saved log files, including records from previous launches",
+  "settingsDiagLogLevelVerbose": "Verbose (includes enabled diagnostic traces)",
+  "settingsDiagLogLevelWarning": "Warning (warnings and errors)",
+  "settingsDiagLogLevelError": "Error (errors only)",
+  "settingsDiagLogExportSheetDescription": "{level}, {size} total",
+  "@settingsDiagLogExportSheetDescription": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDiagLogShare": "Share",
+  "settingsDiagLogShareSubtitle": "Shared as a .log file; long text won't be truncated by IM",
+  "settingsDiagLogCopy": "Copy",
+  "settingsDiagLogSaveAs": "Save as",
+  "settingsDiagLogCopied": "Diagnostic log copied to clipboard",
+  "settingsDiagLogSaved": "Diagnostic log saved",
+  "settingsDiagLogExportFailed": "Failed to export diagnostic log",
+  "settingsDiagLogReadFailed": "Failed to read diagnostic log",
+  "settingsDiagLogEmpty": "No diagnostic logs available to export yet",
+  "settingsDiagLogCleared": "Diagnostic log cleared",
+  "settingsDiagLogClearFailed": "Failed to clear diagnostic log",
+  "settingsDiagLogClearConfirmMessage": "This deletes all diagnostic logs saved from this and previous launches. This cannot be undone.",
+  "settingsDiagLogClearAction": "Clear",
+  "settingsDiagLogShareSubject": "Luotopia diagnostic log",
   "courseReviewsSyncEligibility": "Sync completed courses",
   "courseReviewsWrite": "Write anonymous review",
   "courseReviewsAnonymousStudent": "Anonymous student · {semester}",
@@ -5408,6 +5458,20 @@
   "adminForumConfigLogSubtitle": "Recent forum configuration changes",
   "adminForumConfigLogEmpty": "No configuration changes recorded.",
   "adminForumConfigLogActor": "Actor",
+  "adminForumDashboardTitle": "Data dashboard",
+  "adminForumDashboardSubtitle": "User, post, and comment statistics",
+  "adminDashboardPeriodDay": "Today",
+  "adminDashboardPeriodWeek": "This week",
+  "adminDashboardPeriodMonth": "This month",
+  "adminDashboardTotalUsers": "Total users",
+  "adminDashboardTodayUsers": "Today's users",
+  "adminDashboardTotalPosts": "Total posts",
+  "adminDashboardTodayPosts": "Today's posts",
+  "adminDashboardTotalComments": "Total comments",
+  "adminDashboardTodayComments": "Today's comments",
+  "adminDashboardUsersChart": "User registrations",
+  "adminDashboardPostsChart": "Posts created",
+  "adminDashboardCommentsChart": "Comments created",
   "forumModerationAllSources": "All sources",
   "forumModerationUnclaimed": "Unclaimed",
   "forumModerationUserReports": "User reports",
@@ -5543,6 +5607,130 @@
   "courseMatchingCourseType": "Course type",
   "courseMatchingMinCredits": "Minimum credits",
   "courseMatchingMaxCredits": "Maximum credits",
+  "courseMatchingAddSessions": "Add {count} sessions",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "Added {count} sessions",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "{duplicates} duplicates will be skipped · {conflicts} conflicts",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} course matching",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "Conflict-free only",
+  "courseMatchingAdd": "Add",
+  "courseMatchingApply": "Apply",
+  "courseMatchingReset": "Reset",
+  "courseMatchingActiveFilters": "{count} active",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "All",
+  "courseMatchingCampus": "Campus",
+  "courseMatchingBuilding": "Building",
+  "courseMatchingDepartment": "Department",
+  "courseMatchingTeacher": "Teacher",
+  "courseMatchingSectionRangeError": "Start section must not exceed end section.",
+  "courseMatchingCreditRangeError": "Minimum credits must not exceed maximum credits.",
+  "globalTimetableTermWithCount": "Term {term} · {count} entries",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "Course history",
+  "globalTimetableHistoryHint": "Search every published semester, newest first.",
+  "globalTimetableHistoryEmpty": "No offerings matched this query.",
+  "globalTimetableHistoryUnavailable": "The server does not support course history yet.",
+  "globalTimetableDownloads": "Offline data",
+  "globalTimetableDownloadsSummary": "{count} semesters · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "No semesters downloaded yet.",
+  "globalTimetableDownloadsHint": "Semester archives come from the WHU-Master-Timetable archive site. Downloaded semesters stay searchable offline.",
+  "globalTimetableDownloadsRemoteInfo": "{count} courses · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "No data archived for this semester",
+  "globalTimetableDownloadFailed": "Download failed",
+  "globalTimetableDeleteAll": "Delete all",
+  "globalTimetableDeleteAllConfirm": "Delete all downloaded semesters from this device?",
+  "globalTimetableSourceMode": "Source",
+  "globalTimetableSourceAuto": "Auto",
+  "globalTimetableSourceCloud": "Cloud",
+  "globalTimetableSourceLocal": "Local",
+  "globalTimetableLocalMissing": "This semester is not available offline yet.",
+  "globalTimetableNoSlot": "No fixed slot",
+  "globalTimetableSearchHint": "Course, teacher or code",
+  "globalTimetableEmpty": "No courses found for this period.",
+  "globalTimetableDetailTitle": "Course details",
+  "globalTimetableDetailSlots": "Class sessions",
+  "globalTimetableDetailInfo": "Course info",
+  "globalTimetableDetailCourseCode": "Course code",
+  "globalTimetableDetailTeachingClass": "Teaching class",
+  "globalTimetableDetailGroup": "Group",
+  "globalTimetableAddToTimetable": "Add to timetable",
+  "globalTimetableAuditTimetableName": "Drop-in",
+  "globalTimetableAuditTimetableOption": "New \"Drop-in\" timetable",
+  "globalTimetableNoCalendar": "Calendar data is unavailable; cannot add to the timetable.",
+  "globalTimetableAddFailed": "Could not add to the timetable: {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "Controllable queues",
   "adminSystemQueues": "System queues",
   "luotopiaAccountViewLargeAvatar": "View large image",
