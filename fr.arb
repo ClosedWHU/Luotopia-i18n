@@ -411,7 +411,7 @@
   "fetchingTimetable": "Récupération...",
   "followAppLanguage": "Suivre la langue de l'application",
   "followAppTheme": "Suivre le thème de l'application",
-  "forum": "Discussions",
+  "forum": "Forum",
   "forumTitle": "Abri anti-aérien de Luojia",
   "headerOpenListSettings": "Ouvrir les paramètres de la page de liste",
   "headerOpenListTabs": "Ouvrir la sélection de l'onglet",
@@ -2608,12 +2608,12 @@
   "messagesMarkAllRead": "Tout marquer lu",
   "messagesMarkAllReadSuccess": "Tous les messages marqués comme lus",
   "messagesMarkAllReadFailed": "Échec du marquage comme lu",
-  "wallpaperDarkOverlayOpacity": "Opacite de superposition du mode sombre",
-  "scoreTranscriptCredential": "Justificatif electronique verifie",
-  "scoreTranscriptSelect": "Selectionnez un releve de notes a generer",
-  "scoreTranscriptSystemGenerated": "Genere par le systeme WHU de justificatifs electroniques verifies",
-  "scoreTranscriptNoTemplates": "Aucun modele de releve de notes n est disponible pour ce compte.",
-  "scoreTranscriptLoadFailed": "Impossible de charger les types de releve de notes : {error}",
+  "wallpaperDarkOverlayOpacity": "Opacité de superposition du mode sombre",
+  "scoreTranscriptCredential": "Justificatif électronique vérifié",
+  "scoreTranscriptSelect": "Sélectionnez un relevé de notes à générer",
+  "scoreTranscriptSystemGenerated": "Généré par le système WHU de justificatifs électroniques vérifiés",
+  "scoreTranscriptNoTemplates": "Aucun modèle de relevé de notes n’est disponible pour ce compte.",
+  "scoreTranscriptLoadFailed": "Impossible de charger les types de relevés de notes : {error}",
   "@scoreTranscriptLoadFailed": {
    "placeholders": {
      "error": {
@@ -2621,7 +2621,7 @@
       }
     }
   },
-  "scoreTranscriptFetchFailed": "Impossible d obtenir le justificatif electronique verifie : {error}",
+  "scoreTranscriptFetchFailed": "Impossible d’obtenir le justificatif électronique vérifié : {error}",
   "@scoreTranscriptFetchFailed": {
    "placeholders": {
      "error": {
@@ -2629,7 +2629,7 @@
       }
     }
   },
-  "scoreTranscriptSaved": "PDF enregistre.",
+  "scoreTranscriptSaved": "PDF enregistré.",
   "scoreTranscriptShare": "Partager",
   "scoreTranscriptSaveAs": "Enregistrer sous",
   "authSecurityTitle": "Sécurité et double authentification",
@@ -3092,8 +3092,8 @@
   },
   "forumCreatePost": "Créer une publication",
   "forumPost": "Publication",
-  "forumNoActiveBoards": "Aucun forum actif n'est disponible. Réessayez ou contactez un administrateur.",
-  "forumSelectedBoardUnavailable": "Veuillez sélectionner un forum disponible.",
+  "forumNoActiveBoards": "Aucune section active n'est disponible. Réessayez ou contactez un administrateur.",
+  "forumSelectedBoardUnavailable": "Veuillez sélectionner une section disponible.",
   "forumBoardShelter": "Abri {name}",
   "@forumBoardShelter": {
    "placeholders": {
@@ -3221,7 +3221,7 @@
   "forumUnsavedChangesDiscard": "Abandonner",
   "forumPostStatusPublished": "Publié",
   "forumUserProfileTitle": "Profil",
-  "forumUserPostsTab": "Messages",
+  "forumUserPostsTab": "Publications",
   "forumUserCommentsTab": "Commentaires",
   "forumUserLikedTab": "J'aime",
   "forumUserFavoritesTab": "Enregistrés",
@@ -3552,7 +3552,7 @@
   "forumKarmaSettingCreateCommentDailyCap": "Plafond quotidien des récompenses de réponse",
   "forumKarmaLedgerCreatePost": "Publication créée",
   "forumKarmaLedgerCreateComment": "Réponse publiée",
-  "forumKarmaLowQualityHint": "Pour les publications peu pertinentes hors de 灌水, utilisez le motif low_quality (suggestion : −10). Les publications dans 灌水 ne rapportent aucune récompense de publication.",
+  "forumKarmaLowQualityHint": "Pour les publications peu pertinentes hors de « 灌水 » (hors-sujet), utilisez le motif low_quality (suggestion : −10). Les publications dans « 灌水 » ne rapportent aucune récompense de publication.",
   "forumApprove": "Approuver",
   "forumHide": "Masquer",
   "forumDelete": "Supprimer",
@@ -4181,7 +4181,7 @@
   "medicalCardRealName": "Nom complet",
   "medicalCardIdNumber": "Numéro d’identification",
   "medicalCardPhoneNumber": "Numéro de téléphone",
-  "medicalCardNumber": "Carte par défaut",
+  "medicalCardNumber": "Numéro de carte",
   "medicalRegistrationNumber": "N° d’inscription",
   "medicalRegistrationQrLabel": "Code QR d’inscription",
   "medicalOutpatientSection": "Services ambulatoires",
@@ -4601,10 +4601,10 @@
   "forumModerationBanAccount": "Bannir le compte",
   "forumModerationRemoveMute": "Rétablir la parole",
   "forumModerationRemoveBan": "Débannir le compte",
-  "forumModerationAccountActionApplied": "Action sur el compte appliquée",
+  "forumModerationAccountActionApplied": "Action sur le compte appliquée",
   "forumModerationMovePost": "Déplacer la publication",
-  "forumModerationKeepBoard": "Conserver le forum actuel",
-  "forumModerationKarmaReason": "Raison de modération de Karma",
+  "forumModerationKeepBoard": "Conserver la section actuelle",
+  "forumModerationKarmaReason": "Motif d’ajustement du karma",
   "courseMatchingTargetTimetable": "Emploi du temps cible",
   "courseMatchingCreateNewTimetable": "Créer un nouvel emploi du temps",
   "courseMatchingCurrentTimeSlotOnly": "Filtre créneau actuel uniquement",
@@ -4801,7 +4801,7 @@
     }
   },
   "whuSmartCampusAuthFailedRetryLater": "Échec de l'autorisation Smart Luojia. Veuillez réessayer plus tard.",
-  "forumMyKarma": "Mon Karma",
+  "forumMyKarma": "Mon karma",
   "aiDebugNoExportableSession": "Aucune session d'IA exportable.",
   "aiDebugExportSubject": "Export de débogage de l'Agent",
   "aiDebugExported": "Exporté vers {fileName}",
