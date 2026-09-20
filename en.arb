@@ -1,5 +1,13 @@
 {
   "@@locale": "en",
+  "emailModeChooserTitle": "How do you want to use email?",
+  "emailModeChooserSubtitle": "You can switch between these later from inside the email feature.",
+  "emailModeNativeTitle": "Native mail client",
+  "emailModeNativeSubtitle": "IMAP/SMTP built into the app. Works offline and lets the AI assistant read your mail.",
+  "emailModeWebmailTitle": "Webmail",
+  "emailModeWebmailSubtitle": "Open the WHU web mail inside the app.",
+  "emailSwitchToNativeAction": "Use native mail",
+  "emailSwitchToWebmailAction": "Use webmail",
   "settingsPermissionsTitle": "Permission management",
   "settingsPermissionsSubtitle": "Review system permissions without changing your in-app preferences.",
   "settingsPermissionsOpenSystemSettings": "Open system settings",
@@ -3008,6 +3016,16 @@
     }
   },
   "waterControlCancelConfirm": "Deactivate",
+  "waterControlRequestConfirmTitle": "Request a water code?",
+  "waterControlRequestConfirmMessage": "A code will be issued for {dormitory}. Water is billed by usage while the valve is open.",
+  "@waterControlRequestConfirmMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlRequestConfirm": "Request code",
   "waterControlCancelSuccess": "Water access code deactivated",
   "waterControlCopied": "Code copied",
   "waterControlSessionExpired": "Your WHU session expired. Please log in again under Account.",
@@ -3714,6 +3732,15 @@
   "authApiCredentialActive": "Active",
   "authApiCredentialRevoked": "Revoked",
   "authApiCredentialRevoke": "Revoke",
+  "authApiCredentialRevokeConfirmTitle": "Revoke credential?",
+  "authApiCredentialRevokeConfirmMessage": "Integrations using {name} stop working immediately and the credential cannot be restored. You will be asked to verify once more first.",
+  "@authApiCredentialRevokeConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialRevokeFailed": "Failed to revoke credential: {error}",
   "@authApiCredentialRevokeFailed": {
    "placeholders": {
@@ -3733,6 +3760,17 @@
   "authSessionsDeviceLinux": "Linux",
   "authSessionsUnknownDevice": "Unknown device",
   "authSessionsUnknown": "Unknown",
+  "authSessionsTrustClean": "No environment risks reported",
+  "authSessionsTrustCompromised": "Environment risk reported: {threats}",
+  "@authSessionsTrustCompromised": {
+    "placeholders": {
+      "threats": {
+        "type": "String"
+      }
+    }
+  },
+  "authSessionsTrustCloned": "App data was cloned to another device",
+  "authSessionsTrustUnknown": "No environment data (unsupported platform or older client)",
   "authSessionsDetails": "IP: {ip}\nLast active: {lastActive}\nSigned in: {signedIn}",
   "@authSessionsDetails": {
    "placeholders": {
@@ -3781,6 +3819,16 @@
    "placeholders": {
      "date": {
        "type": "String"
+      }
+    }
+  },
+  "authPasskeyDelete": "Delete",
+  "authPasskeyDeleteConfirmTitle": "Delete passkey?",
+  "authPasskeyDeleteConfirmMessage": "{name} will no longer be able to verify your identity, and you will be asked to verify once more before it is removed. This cannot be undone.",
+  "@authPasskeyDeleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3856,6 +3904,31 @@
   },
   "authApiCredentialsSubtitle": "Manage API keys for external access",
   "authChangePassword": "Change password",
+  "authDeleteAccountStepVerifyTitle": "Verify your identity",
+  "authDeleteAccountStepVerifySubtitle": "Deleting your account requires one more verification. Use any method enabled on your account.",
+  "authDeleteAccountStepConfirmTitle": "Confirm deletion",
+  "authDeleteAccountConsequenceData": "Your profile, cloud data and uploaded files are permanently deleted.",
+  "authDeleteAccountConsequenceSessions": "Every device is signed out immediately.",
+  "authDeleteAccountConsequenceIrreversible": "This cannot be undone — the account cannot be restored.",
+  "authDeleteAccountPhraseLabel": "Type {phrase} to confirm",
+  "@authDeleteAccountPhraseLabel": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      }
+    }
+  },
+  "authDeleteAccountPhrase": "DELETE",
+  "authDeleteAccountCooldown": "Available in {seconds}s",
+  "@authDeleteAccountCooldown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authDeleteAccountSuccess": "Account deleted",
+  "authDeleteAccount2faRequired": "Your account has 2FA enabled — verify with another method.",
   "authDeleteAccount": "Delete account",
   "authDeleteAccountWarning": "Are you sure you want to delete your account? This cannot be undone.",
   "authDeleteAccountConfirm": "Delete account",
@@ -5326,6 +5399,7 @@
   "adminConsoleTitle": "Admin console",
   "adminConsoleSubtitle": "Users, forum, and system status",
   "adminAccessDenied": "Administrator access is required.",
+  "adminStepUpDeclined": "Identity verification is required to open the admin console.",
   "adminSectionOverview": "Overview",
   "adminSectionUsers": "Users",
   "adminSectionForum": "Forum",
@@ -5338,6 +5412,22 @@
   "adminQueuePaused": "Paused",
   "adminQueuePause": "Pause",
   "adminQueueResume": "Resume",
+  "adminQueuePauseConfirmMessage": "Pause the {queue} queue? Background jobs will stop processing.",
+  "@adminQueuePauseConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "adminQueueResumeConfirmMessage": "Resume the {queue} queue?",
+  "@adminQueueResumeConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminStatusActiveWorkers": "Active workers",
   "adminStatusHealthyWorkers": "Healthy workers",
   "adminStatusTasksProcessed": "Processed",
@@ -5390,7 +5480,21 @@
   "adminUsersDisabled": "Disabled",
   "adminUsersEnable": "Enable",
   "adminUsersDisable": "Disable",
+  "adminUsersDisableConfirmMessage": "The user is signed out on their next request and cannot sign in while disabled.",
+  "adminUsersDisableReasonLabel": "Reason (recorded in the audit log)",
+  "adminUsersEnableConfirmMessage": "Re-enable this account? The user can sign in again immediately.",
   "adminUsersChangeRole": "Change role",
+  "adminUsersRoleChangeConfirmMessage": "Change the role from {fromRole} to {toRole}? Admin roles can manage all users and content.",
+  "@adminUsersRoleChangeConfirmMessage": {
+    "placeholders": {
+      "fromRole": {
+        "type": "String"
+      },
+      "toRole": {
+        "type": "String"
+      }
+    }
+  },
    "adminUsersRoleUpdated": "User role updated.",
    "adminUserEditNickname": "Edit nickname",
    "adminUserNicknameRequired": "Nickname cannot be empty",
@@ -5398,6 +5502,31 @@
    "adminUserResetAvatar": "Reset avatar",
    "adminUserResetAvatarConfirm": "Reset this user's avatar to the generated default?",
    "adminUserAvatarReset": "Avatar reset.",
+  "adminUserDetailRegion": "Region",
+  "adminUserDetailBio": "Bio",
+  "adminUserDetail2fa": "Two-factor auth",
+  "adminUser2faEmailFactor": "Email code",
+  "adminUser2faOff": "Off",
+  "adminUserResetRegion": "Reset region",
+  "adminUserResetRegionConfirm": "Clear this user's region?",
+  "adminUserRegionReset": "Region cleared.",
+  "adminUserResetBio": "Reset bio",
+  "adminUserResetBioConfirm": "Clear this user's bio?",
+  "adminUserBioReset": "Bio cleared.",
+  "adminUserDisable2fa": "Disable 2FA",
+  "adminUserDisable2faConfirm": "Force-disable this user's two-factor auth (TOTP, email codes, and recovery codes)?",
+  "adminUser2faDisabled": "Two-factor auth disabled.",
+  "adminUserLogout": "Force logout",
+  "adminUserLogoutConfirm": "Revoke all of this user's sessions? Every device will need to sign in again.",
+  "adminUserLoggedOut": "All sessions revoked.",
+  "adminUserDetailSessions": "Active sessions",
+  "adminUserDetailLoginHistory": "Login history",
+  "adminUserSessionsEmpty": "No active sessions",
+  "adminUserLoginHistoryEmpty": "No login records",
+  "adminUserSessionUnknownDevice": "Unknown device",
+  "adminUserRevokeSession": "Revoke session",
+  "adminUserRevokeSessionConfirm": "Revoke this login session? That device will need to sign in again.",
+  "adminUserSessionRevoked": "Session revoked.",
   "adminUserForumStatusActive": "Active",
   "adminUserForumStatusMuted": "Muted",
   "adminUserForumStatusBanned": "Banned",
@@ -5458,6 +5587,30 @@
   "adminForumBoardActivate": "Activate",
   "adminForumBoardDeactivate": "Deactivate",
   "adminForumBoardArchive": "Archive",
+  "adminForumBoardDeactivateConfirmMessage": "Deactivate {board}? It will be hidden from all users.",
+  "@adminForumBoardDeactivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
+  "adminForumBoardActivateConfirmMessage": "Reactivate {board}? It becomes visible to all users again.",
+  "@adminForumBoardActivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
+  "adminForumBoardArchiveConfirmMessage": "Archive {board}? It will be removed from the board list.",
+  "@adminForumBoardArchiveConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumSettingsTitle": "Forum settings",
   "adminForumSettingsSubtitle": "Uploads, invites, and policies",
   "adminForumSettingsUpload": "Uploads",
@@ -6444,6 +6597,17 @@
     }
   },
   "coremailSend": "Send",
+  "coremailSendConfirmMessage": "Send to {count} recipient(s): {recipients}?",
+  "@coremailSendConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "recipients": {
+        "type": "String"
+      }
+    }
+  },
   "coremailRecipientsLabel": "To",
   "coremailRecipientsHint": "Separate multiple addresses with commas",
   "coremailSubjectLabel": "Subject",
@@ -6578,6 +6742,14 @@
         "timeUnit": { "type": "String" }     }   },
   "ebikeUnlockHelmet": "Helmet lock equipped",
   "ebikeUnlockStart": "Unlock and ride",
+  "ebikeUnlockConfirmMessage": "Unlock {carId}? Billing starts as soon as the lock opens.",
+  "@ebikeUnlockConfirmMessage": {
+    "placeholders": {
+      "carId": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeUnlockSuccess": "Unlocked",
   "ebikeUnlockNeedRealName": "Real-name verification is required. Finish it in the official mini-program first.",
   "ebikeUnlockNeedFace": "This ride requires a face check in the official mini-program.",
@@ -6634,6 +6806,15 @@
   "ebikeSettleNoParkingFee": "No-parking-zone fee",
   "ebikeSettleDiscount": "Discount",
   "ebikeSettlePayWallet": "Pay from balance",
+  "ebikeSettlePayWalletConfirm": "Pay {amount} from your wallet balance? The deduction cannot be undone.",
+  "@ebikeSettlePayWalletConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "ebikeSettlePayWalletConfirmUnknownAmount": "Pay the outstanding amount from your wallet balance? The deduction cannot be undone.",
   "ebikeSettlePaid": "Payment successful",
   "ebikeSettleInsufficient": "Insufficient balance. Top up in the official mini-program, then settle.",
   "ebikeSettleMangoUnpaid": "{amount} CNY is due. Payments only work in the Little Yellow mini-program.",
