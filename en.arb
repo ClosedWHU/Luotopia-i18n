@@ -329,6 +329,20 @@
   "fontFamilySystem": "System font",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
   "fontFamilyMiSans": "MiSans",
+  "fontFamilyMiSansStatusLabel": "MiSans font pack",
+  "fontFamilyMiSansStatusIdle": "Not downloaded yet. About {size}.",
+  "@fontFamilyMiSansStatusIdle": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "fontFamilyMiSansStatusDownload": "Download",
+  "fontFamilyMiSansStatusDownloading": "Downloading font pack…",
+  "fontFamilyMiSansStatusReady": "Downloaded and cached on this device",
+  "fontFamilyMiSansStatusFailed": "Download failed; text is using the system font",
+  "fontFamilyMiSansStatusSystem": "Already installed on this device; nothing to download",
   "fontSizeScaleLabel": "Base text size",
   "fontSizeScaleSubtitle": "Scales all text while keeping title/body proportions",
   "fontSizeScaleAuto": "Auto",
@@ -583,6 +597,9 @@
   "editorTypeMemo": "Memo",
   "editorTypePickerTitle": "Switch item type",
   "editorTypeSchedule": "Schedule",
+  "editorTypeCourse": "Course",
+  "editorFieldCourseTimetable": "Timetable",
+  "editorCourseTimetableUnset": "Not selected",
   "editorTypeTask": "Task",
   "emptyClassroomAddedSingle": "Added period {section} at {classroom}",
   "emptyClassroomCollapseAll": "Collapse All",
@@ -942,6 +959,7 @@
   "sportsGoToMyOrders": "View My Orders",
   "loading": "Loading...",
   "loadingFailed": "Loading failed",
+  "legalOpenWebVersion": "Open web version",
   "sportsNoCourtsAvailable": "No courts available",
   "sportsOrderArgsMissing": "Missing order arguments. Please go back and select again.",
   "sportsOrderCancelled": "Cancelled",
@@ -6767,5 +6785,41 @@
     "placeholders": {
       "error": { "type": "String" }
     }
-  }
+  },
+  "globalTimetableContributionSubmitted": "Contribution submitted — it is being processed in the background",
+  "globalTimetableImportDismiss": "Dismiss",
+  "adminTaskCenterTitle": "Task Center",
+  "adminTaskCenterSubtitle": "Durable tasks, failure replays and timetable imports in one view",
+  "adminTaskCenterTabDurable": "Durable tasks",
+  "adminTaskCenterTabFailures": "Failed tasks",
+  "adminTaskCenterTabImports": "Timetable imports",
+  "adminTaskCenterEmpty": "No tasks",
+  "adminTaskCenterStatusPending": "Pending",
+  "adminTaskCenterStatusRunning": "Running",
+  "adminTaskCenterStatusSuccess": "Success",
+  "adminTaskCenterStatusFailed": "Failed",
+  "adminTaskCenterStatusCancelled": "Cancelled",
+  "adminTaskCenterStatusAll": "All",
+  "adminTaskCenterStatusLabel": "Status",
+  "adminTaskCenterProgressLabel": "Progress",
+  "adminTaskCenterCreatedLabel": "Created",
+  "adminTaskCenterStartedLabel": "Started",
+  "adminTaskCenterCompletedLabel": "Completed",
+  "adminTaskCenterErrorLabel": "Error",
+  "adminTaskCenterCancelTask": "Cancel task",
+  "adminTaskCenterTaskCancelled": "Task cancelled",
+  "adminTaskCenterActionFailed": "Action failed",
+  "adminTaskCenterChildrenCount": "{count} subtasks",
+  "@adminTaskCenterChildrenCount": {"placeholders":{"count":{"type":"int"}}},
+  "adminTaskCenterRetryHint": "Resets the job to awaiting authorization; the original contributor must resubmit before it runs again",
+  "adminTaskCenterRequeued": "Reset to awaiting authorization",
+  "adminTaskCenterDeleted": "Deleted",
+  "adminTaskCenterReplayed": "Re-queued",
+  "adminTaskCenterDeleteFailureConfirm": "Delete this failure record?",
+  "adminTaskCenterDeleteJobConfirm": "Delete this import job and free the semester?",
+  "adminTaskCenterContributor": "Contributor",
+  "adminTaskCenterQueueLabel": "Queue",
+  "adminTaskCenterCreatedAt": "Created at {time}",
+  "@adminTaskCenterCreatedAt": {"placeholders":{"time":{"type":"String"}}},
+  "adminTaskCenterPhaseAwaitingAuth": "Awaiting re-authorization"
 }
