@@ -1,5 +1,42 @@
 {
   "@@locale": "ru",
+  "adminUserDetailRegion": "Регион",
+  "adminUserDetailBio": "Описание",
+  "adminUserDetail2fa": "Двухфакторная аутентификация",
+  "adminUser2faEmailFactor": "Код по почте",
+  "adminUser2faOff": "Выключена",
+  "adminUserResetRegion": "Сбросить регион",
+  "adminUserResetRegionConfirm": "Очистить регион этого пользователя?",
+  "adminUserRegionReset": "Регион очищен.",
+  "adminUserResetBio": "Сбросить описание",
+  "adminUserResetBioConfirm": "Очистить описание этого пользователя?",
+  "adminUserBioReset": "Описание очищено.",
+  "adminUserDisable2fa": "Отключить 2FA",
+  "adminUserDisable2faConfirm": "Принудительно отключить двухфакторную аутентификацию (TOTP, коды по почте и коды восстановления)?",
+  "adminUser2faDisabled": "Двухфакторная аутентификация отключена.",
+  "adminUserLogout": "Принудительный выход",
+  "adminUserLogoutConfirm": "Отозвать все сессии этого пользователя? Всем устройствам потребуется войти заново.",
+  "adminUserLoggedOut": "Все сессии отозваны.",
+  "adminUserDetailSessions": "Активные сессии",
+  "adminUserDetailLoginHistory": "История входов",
+  "adminUserSessionsEmpty": "Нет активных сессий",
+  "adminUserLoginHistoryEmpty": "Нет записей о входе",
+  "adminUserSessionUnknownDevice": "Неизвестное устройство",
+  "adminUserRevokeSession": "Отозвать сессию",
+  "adminUserRevokeSessionConfirm": "Отозвать эту сессию? Этому устройству потребуется войти заново.",
+  "adminUserSessionRevoked": "Сессия отозвана.",
+  "emailModeChooserTitle": "Как вы хотите использовать почту?",
+  "emailModeChooserSubtitle": "Позже способ можно изменить внутри раздела почты.",
+  "emailModeNativeTitle": "Встроенный почтовый клиент",
+  "emailModeNativeSubtitle": "IMAP/SMTP внутри приложения. Работает офлайн и позволяет ИИ-помощнику читать вашу почту.",
+  "emailModeWebmailTitle": "Веб-почта",
+  "emailModeWebmailSubtitle": "Открывает веб-почту WHU внутри приложения.",
+  "emailSwitchToNativeAction": "Использовать встроенную почту",
+  "emailSwitchToWebmailAction": "Использовать веб-почту",
+  "editorTypeCourse": "Курс",
+  "editorFieldCourseTimetable": "Расписание",
+  "editorCourseTimetableUnset": "Не выбрано",
+  "legalOpenWebVersion": "Открыть веб-версию",
   "settingsForumPushNotifications": "Пуш-уведомления об активности на форуме",
   "settingsForumPushNotificationsSubtitle": "Ответы, лайки, избранное и результаты модерации с форума.",
   "settingsForumPushSyncFailed": "Не удалось синхронизировать настройку пуш-уведомлений форума с сервером. Повторите попытку позже.",
@@ -2206,6 +2243,10 @@
     }
   },
   "waterControlCancelConfirm": "Отключить",
+  "waterControlRequestConfirmTitle": "Запросить код доступа к воде?",
+  "waterControlRequestConfirmMessage": "Для {dormitory} будет выпущен код. Пока клапан открыт, вода оплачивается по расходу.",
+  "@waterControlRequestConfirmMessage": {"placeholders": {"dormitory": {"type": "String"}}},
+  "waterControlRequestConfirm": "Запросить код",
   "waterControlCancelSuccess": "Код доступа отключён",
   "waterControlCopied": "Код скопирован",
   "waterControlSessionExpired": "Сеанс WHU истёк. Снова войдите в разделе «Аккаунт».",
@@ -2753,6 +2794,9 @@
   "authApiCredentialActive": "Активен",
   "authApiCredentialRevoked": "Отозван",
   "authApiCredentialRevoke": "Отозвать",
+  "authApiCredentialRevokeConfirmTitle": "Отозвать учётные данные?",
+  "authApiCredentialRevokeConfirmMessage": "Интеграции, использующие «{name}», сразу перестанут работать, и восстановить учётные данные будет нельзя. Сначала потребуется ещё раз подтвердить личность.",
+  "@authApiCredentialRevokeConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authApiCredentialRevokeFailed": "Не удалось отозвать учётные данные: {error}",
   "@authApiCredentialRevokeFailed": {
    "placeholders": {
@@ -2772,6 +2816,10 @@
   "authSessionsDeviceLinux": "Linux",
   "authSessionsUnknownDevice": "Неизвестное устройство",
   "authSessionsUnknown": "Неизвестно",
+  "authSessionsTrustClean": "Об угрозах в окружении не сообщалось",
+  "authSessionsTrustCompromised": "Угроза окружения: {threats}",
+  "authSessionsTrustCloned": "Данные приложения клонированы на другое устройство",
+  "authSessionsTrustUnknown": "Нет данных о среде (платформа не поддерживается или клиент устарел)",
   "authSessionsDetails": "IP: {ip}\nПоследняя активность: {lastActive}\nВход выполнен: {signedIn}",
   "@authSessionsDetails": {
    "placeholders": {
@@ -2823,6 +2871,10 @@
       }
     }
   },
+  "authPasskeyDelete": "Удалить",
+  "authPasskeyDeleteConfirmTitle": "Удалить Passkey?",
+  "authPasskeyDeleteConfirmMessage": "«{name}» больше не сможет подтверждать вашу личность, а перед удалением потребуется ещё раз пройти проверку. Это действие нельзя отменить.",
+  "@authPasskeyDeleteConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authPasskeyDeleteFailed": "Не удалось удалить Passkey: {error}",
   "@authPasskeyDeleteFailed": {
    "placeholders": {
@@ -2879,6 +2931,19 @@
   "ipLocationIsp": "Оператор: {isp}",
   "authApiCredentialsSubtitle": "Управляйте ключами API для внешнего доступа",
   "authChangePassword": "Изменить пароль",
+  "authDeleteAccountStepVerifyTitle": "Подтвердите личность",
+  "authDeleteAccountStepVerifySubtitle": "Для удаления аккаунта нужна ещё одна проверка. Используйте любой включённый в аккаунте способ.",
+  "authDeleteAccountStepConfirmTitle": "Подтвердить удаление",
+  "authDeleteAccountConsequenceData": "Ваш профиль, облачные данные и загруженные файлы будут удалены навсегда.",
+  "authDeleteAccountConsequenceSessions": "Все устройства будут немедленно выведены из аккаунта.",
+  "authDeleteAccountConsequenceIrreversible": "Это действие нельзя отменить — аккаунт невозможно восстановить.",
+  "authDeleteAccountPhraseLabel": "Введите «{phrase}», чтобы подтвердить",
+  "@authDeleteAccountPhraseLabel": {"placeholders": {"phrase": {"type": "String"}}},
+  "authDeleteAccountPhrase": "УДАЛИТЬ",
+  "authDeleteAccountCooldown": "Доступно через {seconds} с",
+  "@authDeleteAccountCooldown": {"placeholders": {"seconds": {"type": "int"}}},
+  "authDeleteAccountSuccess": "Аккаунт удалён",
+  "authDeleteAccount2faRequired": "В вашем аккаунте включена двухфакторная аутентификация (2FA) — подтвердите личность другим способом.",
   "authDeleteAccount": "Удалить аккаунт",
   "authDeleteAccountWarning": "Вы уверены, что хотите удалить аккаунт? Это действие нельзя отменить.",
   "authDeleteAccountConfirm": "Удалить аккаунт",
@@ -3404,9 +3469,17 @@
   "campusEditModeEntry": "Режим редактирования",
   "fontSettings": "Шрифт",
   "fontFamilyLabel": "Шрифт",
-  "fontFamilySubtitle": "Системный шрифт или Google Fonts",
+  "fontFamilySubtitle": "Системный шрифт, Google Fonts или MiSans",
   "fontFamilySystem": "Системный шрифт",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
+  "fontFamilyMiSansStatusLabel": "Пакет шрифтов MiSans",
+  "fontFamilyMiSansStatusIdle": "Ещё не загружен. Около {size}.",
+  "fontFamilyMiSansStatusDownload": "Загрузить",
+  "fontFamilyMiSansStatusDownloading": "Загрузка пакета шрифтов…",
+  "fontFamilyMiSansStatusReady": "Загружен и кэширован на устройстве",
+  "fontFamilyMiSansStatusFailed": "Загрузка не удалась; используется системный шрифт",
+  "fontFamilyMiSansStatusSystem": "Уже установлен на устройстве — загрузка не нужна",
   "fontSizeScaleLabel": "Базовый размер текста",
   "fontSizeScaleSubtitle": "Масштабирует весь текст, сохраняя пропорции",
   "fontSizeScaleAuto": "Авто",
@@ -4193,6 +4266,7 @@
   "adminConsoleTitle": "Консоль администратора",
   "adminConsoleSubtitle": "Пользователи, форум и состояние системы",
   "adminAccessDenied": "Требуются права администратора.",
+  "adminStepUpDeclined": "Чтобы открыть консоль администратора, требуется подтверждение личности.",
   "adminSectionOverview": "Обзор",
   "adminSectionUsers": "Пользователи",
   "adminSectionForum": "Форум",
@@ -4205,6 +4279,10 @@
   "adminQueuePaused": "Приостановлено",
   "adminQueuePause": "Пауза",
   "adminQueueResume": "Возобновить",
+  "adminQueuePauseConfirmMessage": "Приостановить очередь «{queue}»? Фоновые задания перестанут обрабатываться.",
+  "@adminQueuePauseConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "adminQueueResumeConfirmMessage": "Возобновить очередь «{queue}»?",
+  "@adminQueueResumeConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
   "adminStatusActiveWorkers": "Активные Worker",
   "adminStatusHealthyWorkers": "Исправные Worker",
   "adminStatusTasksProcessed": "Обработано",
@@ -4276,7 +4354,12 @@
   "adminUsersDisabled": "Отключён",
   "adminUsersEnable": "Включить",
   "adminUsersDisable": "Отключить",
+  "adminUsersDisableConfirmMessage": "Пользователь будет выведен из системы при следующем запросе и не сможет войти, пока аккаунт отключён.",
+  "adminUsersDisableReasonLabel": "Причина (записывается в журнал аудита)",
+  "adminUsersEnableConfirmMessage": "Включить этот аккаунт снова? Пользователь сможет войти сразу же.",
   "adminUsersChangeRole": "Сменить роль",
+  "adminUsersRoleChangeConfirmMessage": "Изменить роль с «{fromRole}» на «{toRole}»? Роли администратора могут управлять всеми пользователями и контентом.",
+  "@adminUsersRoleChangeConfirmMessage": {"placeholders": {"fromRole": {"type": "String"}, "toRole": {"type": "String"}}},
   "adminUsersRoleUpdated": "Роль пользователя обновлена.",
   "adminUserForumStatusActive": "Активен",
   "adminUserForumStatusMuted": "Заглушён",
@@ -4324,6 +4407,12 @@
   "adminForumBoardActivate": "Активировать",
   "adminForumBoardDeactivate": "Деактивировать",
   "adminForumBoardArchive": "В архив",
+  "adminForumBoardDeactivateConfirmMessage": "Деактивировать «{board}»? Раздел будет скрыт от всех пользователей.",
+  "@adminForumBoardDeactivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardActivateConfirmMessage": "Активировать «{board}» снова? Раздел вновь станет видимым всем пользователям.",
+  "@adminForumBoardActivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardArchiveConfirmMessage": "Отправить «{board}» в архив? Раздел будет удалён из списка.",
+  "@adminForumBoardArchiveConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
   "adminForumSettingsTitle": "Настройки форума",
   "adminForumSettingsSubtitle": "Загрузки, приглашения и политики",
   "adminForumSettingsUpload": "Загрузки",
@@ -4613,6 +4702,130 @@
   "courseMatchingCourseType": "Тип курса",
   "courseMatchingMinCredits": "Мин. кредиты",
   "courseMatchingMaxCredits": "Макс. кредиты",
+  "courseMatchingAddSessions": "Добавить занятий: {count}",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "Добавлено занятий: {count}",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "Будет пропущено дубликатов: {duplicates} · конфликтов: {conflicts}",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term}: подбор курсов",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "Только без конфликтов",
+  "courseMatchingAdd": "Добавить",
+  "courseMatchingApply": "Применить",
+  "courseMatchingReset": "Сбросить",
+  "courseMatchingActiveFilters": "активно: {count}",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "Все",
+  "courseMatchingCampus": "Кампус",
+  "courseMatchingBuilding": "Корпус",
+  "courseMatchingDepartment": "Факультет",
+  "courseMatchingTeacher": "Преподаватель",
+  "courseMatchingSectionRangeError": "Начальная пара не может быть позже конечной.",
+  "courseMatchingCreditRangeError": "Минимальный кредит не может превышать максимальный.",
+  "globalTimetableTermWithCount": "Семестр {term} · записей: {count}",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "История курсов",
+  "globalTimetableHistoryHint": "Поиск по всем опубликованным семестрам, сначала новые.",
+  "globalTimetableHistoryEmpty": "Нет подходящих записей.",
+  "globalTimetableHistoryUnavailable": "Сервер пока не поддерживает историю курсов.",
+  "globalTimetableDownloads": "Офлайн-данные",
+  "globalTimetableDownloadsSummary": "Семестров: {count} · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "Семестры ещё не загружены.",
+  "globalTimetableDownloadsHint": "Архивы семестров берутся с сайта архива WHU-Master-Timetable. Загруженные семестры доступны для офлайн-поиска.",
+  "globalTimetableDownloadsRemoteInfo": "Курсов: {count} · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "В архиве нет данных за этот семестр",
+  "globalTimetableDownloadFailed": "Ошибка загрузки",
+  "globalTimetableDeleteAll": "Удалить все",
+  "globalTimetableDeleteAllConfirm": "Удалить все загруженные семестры с устройства?",
+  "globalTimetableSourceMode": "Источник",
+  "globalTimetableSourceAuto": "Авто",
+  "globalTimetableSourceCloud": "Облако",
+  "globalTimetableSourceLocal": "Локально",
+  "globalTimetableLocalMissing": "Этот семестр ещё не загружен для офлайн-доступа.",
+  "globalTimetableNoSlot": "Без расписания",
+  "globalTimetableSearchHint": "Курс, преподаватель или код",
+  "globalTimetableEmpty": "Курсы за этот семестр не найдены.",
+  "globalTimetableDetailTitle": "О курсе",
+  "globalTimetableDetailSlots": "Время занятий",
+  "globalTimetableDetailInfo": "Информация о курсе",
+  "globalTimetableDetailCourseCode": "Код курса",
+  "globalTimetableDetailTeachingClass": "Учебная группа",
+  "globalTimetableDetailGroup": "Группа",
+  "globalTimetableAddToTimetable": "Добавить в расписание",
+  "globalTimetableAuditTimetableName": "Вольный слушатель",
+  "globalTimetableAuditTimetableOption": "Создать расписание «Вольный слушатель»",
+  "globalTimetableNoCalendar": "Данные календаря недоступны; нельзя добавить в расписание.",
+  "globalTimetableAddFailed": "Не удалось добавить в расписание: {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "Управляемые очереди задач",
   "adminSystemQueues": "Системные очереди",
   "luotopiaAccountViewLargeAvatar": "Просмотреть аватар",
@@ -5318,6 +5531,8 @@
     }
   },
   "coremailSend": "Отправить",
+  "coremailSendConfirmMessage": "Отправить {count} получателям: {recipients}?",
+  "@coremailSendConfirmMessage": {"placeholders": {"count": {"type": "int"}, "recipients": {"type": "String"}}},
   "coremailRecipientsLabel": "Кому",
   "coremailRecipientsHint": "Разделяйте адреса запятыми",
   "coremailSubjectLabel": "Тема",
@@ -5438,6 +5653,8 @@
   "ebikeUnlockPriceValue": "Старт — {floor} юаней, далее {time} юаней/{timeUnit} мин",
   "ebikeUnlockHelmet": "Оснащён замком для шлема",
   "ebikeUnlockStart": "Разблокировать и поехать",
+  "ebikeUnlockConfirmMessage": "Разблокировать {carId}? Оплата начнётся сразу после открытия замка.",
+  "@ebikeUnlockConfirmMessage": {"placeholders": {"carId": {"type": "String"}}},
   "ebikeUnlockSuccess": "Разблокировано",
   "ebikeUnlockNeedRealName": "Требуется подтверждение личности. Сначала пройдите его в официальной мини-программе.",
   "ebikeUnlockNeedFace": "Для этой поездки нужно пройти проверку лица в официальной мини-программе.",
@@ -5490,6 +5707,9 @@
   "ebikeSettleNoParkingFee": "Плата за возврат в запрещённой зоне",
   "ebikeSettleDiscount": "Скидка",
   "ebikeSettlePayWallet": "Оплатить с баланса",
+  "ebikeSettlePayWalletConfirm": "Оплатить {amount} с баланса кошелька? Списание нельзя отменить.",
+  "@ebikeSettlePayWalletConfirm": {"placeholders": {"amount": {"type": "String"}}},
+  "ebikeSettlePayWalletConfirmUnknownAmount": "Оплатить задолженность с баланса кошелька? Списание нельзя отменить.",
   "ebikeSettlePaid": "Оплата выполнена",
   "ebikeSettleInsufficient": "Недостаточно средств. Пополните баланс в официальной мини-программе, затем оплатите.",
   "ebikeSettleMangoUnpaid": "К оплате {amount} юаней. Оплата доступна только в мини-программе Little Yellow.",
@@ -5625,5 +5845,86 @@
   "chaoxingLoginSuccess": "Аккаунт Chaoxing привязан",
   "chaoxingLoginBadCredentials": "Не удалось войти: {message}",
   "chaoxingLoginCaptchaRequired": "Сервер требует интерактивную проверку. Повторите попытку позже или сначала войдите один раз в официальном приложении.",
-  "chaoxingOperationFailed": "Ошибка операции: {error}"
+  "chaoxingOperationFailed": "Ошибка операции: {error}",
+  "imageSaved": "Сохранено",
+  "imageSaveFailed": "Не удалось сохранить изображение",
+  "settingsLegalInfo": "Правовая информация",
+  "settingsBasicInfo": "Основная информация",
+  "settingsVersionUpdate": "Обновление версии",
+  "settingsDiagLogSectionTitle": "Диагностические журналы",
+  "settingsDiagLogSectionDescription": "Журналы хранятся только на этом устройстве; экспортируйте их для обратной связи и устранения неполадок.",
+  "settingsDiagLogExportTitle": "Экспорт журнала диагностики",
+  "settingsDiagLogExportSubtitle": "Поделитесь, скопируйте или сохраните в файл; включает этот и предыдущие запуски",
+  "settingsDiagLogBufferTitle": "Лимит кэша журналов",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 ротируемых файла; при заполнении самые старые записи удаляются",
+  "settingsDiagLogLevelTitle": "Минимальный уровень экспорта",
+  "settingsDiagLogClearTitle": "Очистить журнал диагностики",
+  "settingsDiagLogClearSubtitle": "Удаляет сохранённые файлы журналов, включая записи предыдущих запусков",
+  "settingsDiagLogLevelVerbose": "Verbose (включая активные диагностические трассировки)",
+  "settingsDiagLogLevelWarning": "Warning (предупреждения и ошибки)",
+  "settingsDiagLogLevelError": "Error (только ошибки)",
+  "settingsDiagLogExportSheetDescription": "{level}, всего {size}",
+  "settingsDiagLogShare": "Поделиться",
+  "settingsDiagLogShareSubtitle": "Отправляется файлом .log; длинный текст не будет обрезан мессенджером",
+  "settingsDiagLogCopy": "Копировать",
+  "settingsDiagLogSaveAs": "Сохранить как",
+  "settingsDiagLogCopied": "Журнал диагностики скопирован в буфер обмена",
+  "settingsDiagLogSaved": "Журнал диагностики сохранён",
+  "settingsDiagLogExportFailed": "Не удалось экспортировать журнал диагностики",
+  "settingsDiagLogReadFailed": "Не удалось прочитать журнал диагностики",
+  "settingsDiagLogEmpty": "Пока нет журналов диагностики для экспорта",
+  "settingsDiagLogCleared": "Журнал диагностики очищен",
+  "settingsDiagLogClearFailed": "Не удалось очистить журнал диагностики",
+  "settingsDiagLogClearConfirmMessage": "Будут удалены все журналы диагностики, сохранённые в этом и предыдущих запусках. Это действие нельзя отменить.",
+  "settingsDiagLogClearAction": "Очистить",
+  "settingsDiagLogShareSubject": "Журнал диагностики Luotopia",
+  "adminForumDashboardTitle": "Панель данных",
+  "adminForumDashboardSubtitle": "Статистика пользователей, постов и комментариев",
+  "adminDashboardPeriodDay": "Сегодня",
+  "adminDashboardPeriodWeek": "Эта неделя",
+  "adminDashboardPeriodMonth": "Этот месяц",
+  "adminDashboardTotalUsers": "Всего пользователей",
+  "adminDashboardTodayUsers": "Пользователей сегодня",
+  "adminDashboardTotalPosts": "Всего постов",
+  "adminDashboardTodayPosts": "Постов сегодня",
+  "adminDashboardTotalComments": "Всего комментариев",
+  "adminDashboardTodayComments": "Комментариев сегодня",
+  "adminDashboardUsersChart": "Регистрации пользователей",
+  "adminDashboardPostsChart": "Созданные посты",
+  "adminDashboardCommentsChart": "Созданные комментарии",
+  "legalOpenWebVersion": "Открыть веб-версию",
+  "globalTimetableContributionSubmitted": "Задание отправлено и обрабатывается в фоновом режиме",
+  "globalTimetableImportDismiss": "Скрыть",
+  "adminTaskCenterTitle": "Центр задач",
+  "adminTaskCenterSubtitle": "Фоновые задачи, повторы сбоев и импорт расписаний в одном месте",
+  "adminTaskCenterTabDurable": "Фоновые задачи",
+  "adminTaskCenterTabFailures": "Ошибки",
+  "adminTaskCenterTabImports": "Импорт расписания",
+  "adminTaskCenterEmpty": "Нет задач",
+  "adminTaskCenterStatusPending": "В очереди",
+  "adminTaskCenterStatusRunning": "Выполняется",
+  "adminTaskCenterStatusSuccess": "Успешно",
+  "adminTaskCenterStatusFailed": "Ошибка",
+  "adminTaskCenterStatusCancelled": "Отменено",
+  "adminTaskCenterStatusAll": "Все",
+  "adminTaskCenterStatusLabel": "Статус",
+  "adminTaskCenterProgressLabel": "Прогресс",
+  "adminTaskCenterCreatedLabel": "Создано",
+  "adminTaskCenterStartedLabel": "Начато",
+  "adminTaskCenterCompletedLabel": "Завершено",
+  "adminTaskCenterErrorLabel": "Ошибка",
+  "adminTaskCenterCancelTask": "Отменить задачу",
+  "adminTaskCenterTaskCancelled": "Задача отменена",
+  "adminTaskCenterActionFailed": "Не удалось выполнить операцию",
+  "adminTaskCenterChildrenCount": "Подзадач: {count}",
+  "adminTaskCenterRetryHint": "Сбрасывает задачу в ожидание авторизации; исходный участник должен отправить её снова",
+  "adminTaskCenterRequeued": "Сброшено в ожидание авторизации",
+  "adminTaskCenterDeleted": "Удалено",
+  "adminTaskCenterReplayed": "Снова в очереди",
+  "adminTaskCenterDeleteFailureConfirm": "Удалить эту запись об ошибке?",
+  "adminTaskCenterDeleteJobConfirm": "Удалить это задание импорта и освободить семестр?",
+  "adminTaskCenterContributor": "Участник",
+  "adminTaskCenterQueueLabel": "Очередь",
+  "adminTaskCenterCreatedAt": "Создано в {time}",
+  "adminTaskCenterPhaseAwaitingAuth": "Ожидает повторной авторизации"
 }

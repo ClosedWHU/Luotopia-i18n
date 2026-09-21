@@ -1,5 +1,42 @@
 {
   "@@locale": "fr",
+  "adminUserDetailRegion": "Région",
+  "adminUserDetailBio": "Bio",
+  "adminUserDetail2fa": "Double authentification",
+  "adminUser2faEmailFactor": "Code par e-mail",
+  "adminUser2faOff": "Désactivée",
+  "adminUserResetRegion": "Réinitialiser la région",
+  "adminUserResetRegionConfirm": "Effacer la région de cet utilisateur ?",
+  "adminUserRegionReset": "Région effacée.",
+  "adminUserResetBio": "Réinitialiser la bio",
+  "adminUserResetBioConfirm": "Effacer la bio de cet utilisateur ?",
+  "adminUserBioReset": "Bio effacée.",
+  "adminUserDisable2fa": "Désactiver la 2FA",
+  "adminUserDisable2faConfirm": "Forcer la désactivation de la double authentification (TOTP, codes par e-mail et codes de récupération) ?",
+  "adminUser2faDisabled": "Double authentification désactivée.",
+  "adminUserLogout": "Forcer la déconnexion",
+  "adminUserLogoutConfirm": "Révoquer toutes les sessions de cet utilisateur ? Chaque appareil devra se reconnecter.",
+  "adminUserLoggedOut": "Toutes les sessions révoquées.",
+  "adminUserDetailSessions": "Sessions actives",
+  "adminUserDetailLoginHistory": "Historique de connexion",
+  "adminUserSessionsEmpty": "Aucune session active",
+  "adminUserLoginHistoryEmpty": "Aucun historique de connexion",
+  "adminUserSessionUnknownDevice": "Appareil inconnu",
+  "adminUserRevokeSession": "Révoquer la session",
+  "adminUserRevokeSessionConfirm": "Révoquer cette session ? Cet appareil devra se reconnecter.",
+  "adminUserSessionRevoked": "Session révoquée.",
+  "emailModeChooserTitle": "Comment voulez-vous utiliser l'e-mail ?",
+  "emailModeChooserSubtitle": "Vous pourrez changer ensuite depuis la fonction e-mail.",
+  "emailModeNativeTitle": "Client de messagerie natif",
+  "emailModeNativeSubtitle": "IMAP/SMTP intégré à l'application. Fonctionne hors ligne et permet à l'assistant IA de lire vos e-mails.",
+  "emailModeWebmailTitle": "Webmail",
+  "emailModeWebmailSubtitle": "Ouvre le webmail de WHU dans l'application.",
+  "emailSwitchToNativeAction": "Utiliser la messagerie native",
+  "emailSwitchToWebmailAction": "Utiliser le webmail",
+  "editorTypeCourse": "Cours",
+  "editorFieldCourseTimetable": "Emploi du temps",
+  "editorCourseTimetableUnset": "Non sélectionné",
+  "legalOpenWebVersion": "Ouvrir la version web",
   "settingsForumPushNotifications": "Notifications d'activité du forum",
   "settingsForumPushNotificationsSubtitle": "Réponses, j'aime, favoris et résultats de modération du forum.",
   "settingsForumPushSyncFailed": "Impossible de synchroniser la préférence de notification du forum avec le serveur. Veuillez réessayer.",
@@ -2250,6 +2287,10 @@
     }
   },
   "waterControlCancelConfirm": "Désactiver",
+  "waterControlRequestConfirmTitle": "Demander un code d’eau ?",
+  "waterControlRequestConfirmMessage": "Un code sera généré pour {dormitory}. L’eau est facturée selon la consommation pendant que la vanne est ouverte.",
+  "@waterControlRequestConfirmMessage": {"placeholders": {"dormitory": {"type": "String"}}},
+  "waterControlRequestConfirm": "Demander le code",
   "waterControlCancelSuccess": "Code d’accès à l’eau désactivé",
   "waterControlCopied": "Code copié",
   "waterControlSessionExpired": "Votre session WHU a expiré. Reconnectez-vous depuis la rubrique Compte.",
@@ -2797,6 +2838,9 @@
   "authApiCredentialActive": "Actif",
   "authApiCredentialRevoked": "Révoqué",
   "authApiCredentialRevoke": "Révoquer",
+  "authApiCredentialRevokeConfirmTitle": "Révoquer l’identifiant ?",
+  "authApiCredentialRevokeConfirmMessage": "Les intégrations qui utilisent {name} cesseront immédiatement de fonctionner et l’identifiant ne pourra pas être restauré. Une dernière vérification d’identité vous sera d’abord demandée.",
+  "@authApiCredentialRevokeConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authApiCredentialRevokeFailed": "Échec de la révocation de l’identifiant : {error}",
   "@authApiCredentialRevokeFailed": {
    "placeholders": {
@@ -2816,6 +2860,10 @@
   "authSessionsDeviceLinux": "Linux",
   "authSessionsUnknownDevice": "Appareil inconnu",
   "authSessionsUnknown": "Inconnu",
+  "authSessionsTrustClean": "Aucun risque d'environnement signalé",
+  "authSessionsTrustCompromised": "Risque d'environnement signalé : {threats}",
+  "authSessionsTrustCloned": "Les données de l'app ont été clonées sur un autre appareil",
+  "authSessionsTrustUnknown": "Aucune donnée d'environnement (plateforme non prise en charge ou client plus ancien)",
   "authSessionsDetails": "IP : {ip}\nDernière activité : {lastActive}\nConnecté le : {signedIn}",
   "@authSessionsDetails": {
    "placeholders": {
@@ -2867,6 +2915,10 @@
       }
     }
   },
+  "authPasskeyDelete": "Supprimer",
+  "authPasskeyDeleteConfirmTitle": "Supprimer la clé d’accès ?",
+  "authPasskeyDeleteConfirmMessage": "{name} ne pourra plus vérifier votre identité et une dernière vérification vous sera demandée avant la suppression. Cette action est irréversible.",
+  "@authPasskeyDeleteConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authPasskeyDeleteFailed": "Échec de la suppression de la Passkey : {error}",
   "@authPasskeyDeleteFailed": {
    "placeholders": {
@@ -2923,6 +2975,19 @@
   "ipLocationIsp": "Opérateur : {isp}",
   "authApiCredentialsSubtitle": "Gérez les clés API pour les accès externes",
   "authChangePassword": "Modifier le mot de passe",
+  "authDeleteAccountStepVerifyTitle": "Vérifiez votre identité",
+  "authDeleteAccountStepVerifySubtitle": "La suppression de votre compte nécessite une vérification supplémentaire. Utilisez la méthode activée de votre choix.",
+  "authDeleteAccountStepConfirmTitle": "Confirmer la suppression",
+  "authDeleteAccountConsequenceData": "Votre profil, vos données cloud et vos fichiers téléversés seront définitivement supprimés.",
+  "authDeleteAccountConsequenceSessions": "Tous les appareils seront déconnectés immédiatement.",
+  "authDeleteAccountConsequenceIrreversible": "Cette action est irréversible — le compte ne pourra pas être restauré.",
+  "authDeleteAccountPhraseLabel": "Saisissez {phrase} pour confirmer",
+  "@authDeleteAccountPhraseLabel": {"placeholders": {"phrase": {"type": "String"}}},
+  "authDeleteAccountPhrase": "SUPPRIMER",
+  "authDeleteAccountCooldown": "Disponible dans {seconds} s",
+  "@authDeleteAccountCooldown": {"placeholders": {"seconds": {"type": "int"}}},
+  "authDeleteAccountSuccess": "Compte supprimé",
+  "authDeleteAccount2faRequired": "La double authentification (2FA) est activée sur votre compte — vérifiez avec une autre méthode.",
   "authDeleteAccount": "Supprimer le compte",
   "authDeleteAccountWarning": "Voulez-vous vraiment supprimer votre compte ? Cette action est irréversible.",
   "authDeleteAccountConfirm": "Supprimer le compte",
@@ -3569,9 +3634,17 @@
   "campusEditModeEntry": "Mode édition",
   "fontSettings": "Police",
   "fontFamilyLabel": "Police",
-  "fontFamilySubtitle": "Police système ou Google Fonts",
+  "fontFamilySubtitle": "Police système, Google Fonts ou MiSans",
   "fontFamilySystem": "Police système",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
+  "fontFamilyMiSansStatusLabel": "Pack de polices MiSans",
+  "fontFamilyMiSansStatusIdle": "Pas encore téléchargé. Environ {size}.",
+  "fontFamilyMiSansStatusDownload": "Télécharger",
+  "fontFamilyMiSansStatusDownloading": "Téléchargement du pack de polices…",
+  "fontFamilyMiSansStatusReady": "Téléchargé et mis en cache sur cet appareil",
+  "fontFamilyMiSansStatusFailed": "Échec du téléchargement ; le texte utilise la police système",
+  "fontFamilyMiSansStatusSystem": "Déjà installé sur cet appareil ; rien à télécharger",
   "fontSizeScaleLabel": "Taille de texte de base",
   "fontSizeScaleSubtitle": "Met à l’échelle tout le texte en gardant les proportions",
   "fontSizeScaleAuto": "Auto",
@@ -4336,6 +4409,7 @@
   "adminConsoleTitle": "Console d’administration",
   "adminConsoleSubtitle": "Utilisateurs, forum et état du système",
   "adminAccessDenied": "Un accès administrateur est requis.",
+  "adminStepUpDeclined": "Une vérification d’identité est requise pour ouvrir la console d’administration.",
   "adminSectionOverview": "Vue d’ensemble",
   "adminSectionUsers": "Utilisateurs",
   "adminSectionForum": "Forum",
@@ -4348,6 +4422,10 @@
   "adminQueuePaused": "En pause",
   "adminQueuePause": "Mettre en pause",
   "adminQueueResume": "Reprendre",
+  "adminQueuePauseConfirmMessage": "Mettre la file {queue} en pause ? Les tâches en arrière-plan cesseront d’être traitées.",
+  "@adminQueuePauseConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "adminQueueResumeConfirmMessage": "Reprendre la file {queue} ?",
+  "@adminQueueResumeConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
   "adminStatusActiveWorkers": "Workers actifs",
   "adminStatusHealthyWorkers": "Workers sains",
   "adminStatusTasksProcessed": "Traitées",
@@ -4419,7 +4497,12 @@
   "adminUsersDisabled": "Désactivé",
   "adminUsersEnable": "Activer",
   "adminUsersDisable": "Désactiver",
+  "adminUsersDisableConfirmMessage": "L’utilisateur sera déconnecté dès sa prochaine requête et ne pourra plus se connecter tant que le compte est désactivé.",
+  "adminUsersDisableReasonLabel": "Motif (enregistré dans le journal d’audit)",
+  "adminUsersEnableConfirmMessage": "Réactiver ce compte ? L’utilisateur pourra se reconnecter immédiatement.",
   "adminUsersChangeRole": "Modifier le rôle",
+  "adminUsersRoleChangeConfirmMessage": "Changer le rôle de {fromRole} à {toRole} ? Les rôles d’administrateur peuvent gérer tous les utilisateurs et le contenu.",
+  "@adminUsersRoleChangeConfirmMessage": {"placeholders": {"fromRole": {"type": "String"}, "toRole": {"type": "String"}}},
   "adminUsersRoleUpdated": "Rôle utilisateur mis à jour.",
   "adminUserForumStatusActive": "Actif",
   "adminUserForumStatusMuted": "Muet",
@@ -4467,6 +4550,12 @@
   "adminForumBoardActivate": "Activer",
   "adminForumBoardDeactivate": "Désactiver",
   "adminForumBoardArchive": "Archiver",
+  "adminForumBoardDeactivateConfirmMessage": "Désactiver {board} ? La section sera masquée pour tous les utilisateurs.",
+  "@adminForumBoardDeactivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardActivateConfirmMessage": "Réactiver {board} ? La section redeviendra visible pour tous les utilisateurs.",
+  "@adminForumBoardActivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardArchiveConfirmMessage": "Archiver {board} ? La section sera retirée de la liste.",
+  "@adminForumBoardArchiveConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
   "adminForumSettingsTitle": "Paramètres du forum",
   "adminForumSettingsSubtitle": "Téléversements, invitations et politiques",
   "adminForumSettingsUpload": "Téléversements",
@@ -4623,6 +4712,130 @@
   "courseMatchingCourseType": "Type de cours",
   "courseMatchingMinCredits": "Crédits minimum",
   "courseMatchingMaxCredits": "Crédits maximum",
+  "courseMatchingAddSessions": "Ajouter {count} séances",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "{count} séances ajoutées",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "{duplicates} doublons ignorés · {conflicts} conflits",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} : correspondance de cours",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "Sans conflit uniquement",
+  "courseMatchingAdd": "Ajouter",
+  "courseMatchingApply": "Appliquer",
+  "courseMatchingReset": "Réinitialiser",
+  "courseMatchingActiveFilters": "{count} actifs",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "Tous",
+  "courseMatchingCampus": "Campus",
+  "courseMatchingBuilding": "Bâtiment",
+  "courseMatchingDepartment": "Département",
+  "courseMatchingTeacher": "Enseignant",
+  "courseMatchingSectionRangeError": "La section de début ne doit pas dépasser la section de fin.",
+  "courseMatchingCreditRangeError": "Le crédit minimum ne doit pas dépasser le crédit maximum.",
+  "globalTimetableTermWithCount": "Semestre {term} · {count} entrées",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "Historique des cours",
+  "globalTimetableHistoryHint": "Recherche dans tous les semestres publiés, du plus récent au plus ancien.",
+  "globalTimetableHistoryEmpty": "Aucune offre ne correspond à cette requête.",
+  "globalTimetableHistoryUnavailable": "Le serveur ne prend pas encore en charge l’historique des cours.",
+  "globalTimetableDownloads": "Données hors ligne",
+  "globalTimetableDownloadsSummary": "{count} semestres · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "Aucun semestre téléchargé pour l’instant.",
+  "globalTimetableDownloadsHint": "Les archives proviennent du site d’archives WHU-Master-Timetable. Les semestres téléchargés restent consultables hors ligne.",
+  "globalTimetableDownloadsRemoteInfo": "{count} cours · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "Aucune donnée archivée pour ce semestre",
+  "globalTimetableDownloadFailed": "Échec du téléchargement",
+  "globalTimetableDeleteAll": "Tout supprimer",
+  "globalTimetableDeleteAllConfirm": "Supprimer tous les semestres téléchargés de cet appareil ?",
+  "globalTimetableSourceMode": "Source",
+  "globalTimetableSourceAuto": "Auto",
+  "globalTimetableSourceCloud": "Cloud",
+  "globalTimetableSourceLocal": "Local",
+  "globalTimetableLocalMissing": "Ce semestre n’est pas encore disponible hors ligne.",
+  "globalTimetableNoSlot": "Sans créneau",
+  "globalTimetableSearchHint": "Cours, enseignant ou code",
+  "globalTimetableEmpty": "Aucun cours trouvé pour cette période.",
+  "globalTimetableDetailTitle": "Détails du cours",
+  "globalTimetableDetailSlots": "Créneaux de cours",
+  "globalTimetableDetailInfo": "Informations du cours",
+  "globalTimetableDetailCourseCode": "Code du cours",
+  "globalTimetableDetailTeachingClass": "Classe pédagogique",
+  "globalTimetableDetailGroup": "Groupe",
+  "globalTimetableAddToTimetable": "Ajouter à l’emploi du temps",
+  "globalTimetableAuditTimetableName": "Auditeur libre",
+  "globalTimetableAuditTimetableOption": "Nouvel emploi du temps « Auditeur libre »",
+  "globalTimetableNoCalendar": "Le calendrier universitaire est indisponible ; ajout impossible.",
+  "globalTimetableAddFailed": "Ajout à l’emploi du temps impossible : {error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "Files de tâches contrôlables",
   "adminSystemQueues": "Files système",
   "luotopiaAccountViewLargeAvatar": "Voir l'avatar en grand",
@@ -5328,6 +5541,8 @@
     }
   },
   "coremailSend": "Envoyer",
+  "coremailSendConfirmMessage": "Envoyer à {count} destinataire(s) : {recipients} ?",
+  "@coremailSendConfirmMessage": {"placeholders": {"count": {"type": "int"}, "recipients": {"type": "String"}}},
   "coremailRecipientsLabel": "À",
   "coremailRecipientsHint": "Séparez plusieurs adresses par des virgules",
   "coremailSubjectLabel": "Objet",
@@ -5448,6 +5663,8 @@
   "ebikeUnlockPriceValue": "Départ {floor} yuans, puis {time} yuans/{timeUnit} min",
   "ebikeUnlockHelmet": "Équipé d'un antivol pour casque",
   "ebikeUnlockStart": "Déverrouiller et partir",
+  "ebikeUnlockConfirmMessage": "Déverrouiller {carId} ? La facturation commence dès l’ouverture du cadenas.",
+  "@ebikeUnlockConfirmMessage": {"placeholders": {"carId": {"type": "String"}}},
   "ebikeUnlockSuccess": "Déverrouillé",
   "ebikeUnlockNeedRealName": "La vérification d'identité est requise. Effectuez-la d'abord dans le mini-programme officiel.",
   "ebikeUnlockNeedFace": "Ce trajet nécessite une vérification faciale dans le mini-programme officiel.",
@@ -5500,6 +5717,9 @@
   "ebikeSettleNoParkingFee": "Frais de restitution en zone interdite",
   "ebikeSettleDiscount": "Remise",
   "ebikeSettlePayWallet": "Payer avec le solde",
+  "ebikeSettlePayWalletConfirm": "Payer {amount} avec le solde du portefeuille ? Le débit ne pourra pas être annulé.",
+  "@ebikeSettlePayWalletConfirm": {"placeholders": {"amount": {"type": "String"}}},
+  "ebikeSettlePayWalletConfirmUnknownAmount": "Payer le montant dû avec le solde du portefeuille ? Le débit ne pourra pas être annulé.",
   "ebikeSettlePaid": "Paiement réussi",
   "ebikeSettleInsufficient": "Solde insuffisant. Rechargez votre compte dans le mini-programme officiel, puis réglez.",
   "ebikeSettleMangoUnpaid": "{amount} yuans à régler. Le paiement s'effectue uniquement dans le mini-programme Little Yellow.",
@@ -5635,5 +5855,86 @@
   "chaoxingLoginSuccess": "Compte Chaoxing lié",
   "chaoxingLoginBadCredentials": "Échec de la connexion : {message}",
   "chaoxingLoginCaptchaRequired": "Le serveur exige une vérification interactive. Réessayez plus tard, ou connectez-vous d’abord une fois dans l’application officielle.",
-  "chaoxingOperationFailed": "Échec de l’opération : {error}"
+  "chaoxingOperationFailed": "Échec de l’opération : {error}",
+  "imageSaved": "Enregistré",
+  "imageSaveFailed": "Impossible d'enregistrer l'image",
+  "settingsLegalInfo": "Informations légales",
+  "settingsBasicInfo": "Informations de base",
+  "settingsVersionUpdate": "Mise à jour de la version",
+  "settingsDiagLogSectionTitle": "Journaux de diagnostic",
+  "settingsDiagLogSectionDescription": "Les journaux restent uniquement sur cet appareil ; exportez-les pour faciliter les retours et le dépannage.",
+  "settingsDiagLogExportTitle": "Exporter le journal de diagnostic",
+  "settingsDiagLogExportSubtitle": "Partager, copier ou enregistrer dans un fichier ; inclut ce lancement et les précédents",
+  "settingsDiagLogBufferTitle": "Limite du cache des journaux",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 fichiers rotatifs ; les entrées les plus anciennes sont supprimées une fois plein",
+  "settingsDiagLogLevelTitle": "Niveau minimal d'exportation",
+  "settingsDiagLogClearTitle": "Effacer le journal de diagnostic",
+  "settingsDiagLogClearSubtitle": "Supprime les fichiers journaux enregistrés, y compris ceux des lancements précédents",
+  "settingsDiagLogLevelVerbose": "Verbose (inclut les traces de diagnostic activées)",
+  "settingsDiagLogLevelWarning": "Warning (avertissements et erreurs)",
+  "settingsDiagLogLevelError": "Error (erreurs uniquement)",
+  "settingsDiagLogExportSheetDescription": "{level}, {size} au total",
+  "settingsDiagLogShare": "Partager",
+  "settingsDiagLogShareSubtitle": "Partagé sous forme de fichier .log ; les longs textes ne seront pas tronqués par la messagerie",
+  "settingsDiagLogCopy": "Copier",
+  "settingsDiagLogSaveAs": "Enregistrer sous",
+  "settingsDiagLogCopied": "Journal de diagnostic copié dans le presse-papiers",
+  "settingsDiagLogSaved": "Journal de diagnostic enregistré",
+  "settingsDiagLogExportFailed": "Échec de l'exportation du journal de diagnostic",
+  "settingsDiagLogReadFailed": "Échec de la lecture du journal de diagnostic",
+  "settingsDiagLogEmpty": "Aucun journal de diagnostic disponible à exporter pour le moment",
+  "settingsDiagLogCleared": "Journal de diagnostic effacé",
+  "settingsDiagLogClearFailed": "Échec de l'effacement du journal de diagnostic",
+  "settingsDiagLogClearConfirmMessage": "Cela supprime tous les journaux de diagnostic enregistrés lors de ce lancement et des précédents. Cette action est irréversible.",
+  "settingsDiagLogClearAction": "Effacer",
+  "settingsDiagLogShareSubject": "Journal de diagnostic Luotopia",
+  "adminForumDashboardTitle": "Tableau de bord",
+  "adminForumDashboardSubtitle": "Statistiques des utilisateurs, publications et commentaires",
+  "adminDashboardPeriodDay": "Aujourd'hui",
+  "adminDashboardPeriodWeek": "Cette semaine",
+  "adminDashboardPeriodMonth": "Ce mois-ci",
+  "adminDashboardTotalUsers": "Utilisateurs totaux",
+  "adminDashboardTodayUsers": "Utilisateurs du jour",
+  "adminDashboardTotalPosts": "Publications totales",
+  "adminDashboardTodayPosts": "Publications du jour",
+  "adminDashboardTotalComments": "Commentaires totaux",
+  "adminDashboardTodayComments": "Commentaires du jour",
+  "adminDashboardUsersChart": "Inscriptions d'utilisateurs",
+  "adminDashboardPostsChart": "Publications créées",
+  "adminDashboardCommentsChart": "Commentaires créés",
+  "legalOpenWebVersion": "Ouvrir la version web",
+  "globalTimetableContributionSubmitted": "Contribution soumise ; elle est traitée en arrière-plan",
+  "globalTimetableImportDismiss": "Fermer",
+  "adminTaskCenterTitle": "Centre des tâches",
+  "adminTaskCenterSubtitle": "Tâches persistantes, rejets d'échecs et imports d'emplois du temps en une vue",
+  "adminTaskCenterTabDurable": "Tâches en arrière-plan",
+  "adminTaskCenterTabFailures": "Tâches en échec",
+  "adminTaskCenterTabImports": "Imports d'emplois du temps",
+  "adminTaskCenterEmpty": "Aucune tâche",
+  "adminTaskCenterStatusPending": "En attente",
+  "adminTaskCenterStatusRunning": "En cours",
+  "adminTaskCenterStatusSuccess": "Succès",
+  "adminTaskCenterStatusFailed": "Échec",
+  "adminTaskCenterStatusCancelled": "Annulée",
+  "adminTaskCenterStatusAll": "Toutes",
+  "adminTaskCenterStatusLabel": "Statut",
+  "adminTaskCenterProgressLabel": "Progression",
+  "adminTaskCenterCreatedLabel": "Créée le",
+  "adminTaskCenterStartedLabel": "Démarrée le",
+  "adminTaskCenterCompletedLabel": "Terminée le",
+  "adminTaskCenterErrorLabel": "Erreur",
+  "adminTaskCenterCancelTask": "Annuler la tâche",
+  "adminTaskCenterTaskCancelled": "Tâche annulée",
+  "adminTaskCenterActionFailed": "Échec de l'opération",
+  "adminTaskCenterChildrenCount": "{count} sous-tâches",
+  "adminTaskCenterRetryHint": "Réinitialise la tâche en attente d'autorisation ; le contributeur initial doit la soumettre à nouveau",
+  "adminTaskCenterRequeued": "Réinitialisée en attente d'autorisation",
+  "adminTaskCenterDeleted": "Supprimée",
+  "adminTaskCenterReplayed": "Remise en file d'attente",
+  "adminTaskCenterDeleteFailureConfirm": "Supprimer cet enregistrement d'échec ?",
+  "adminTaskCenterDeleteJobConfirm": "Supprimer cette tâche d'import et libérer ce semestre ?",
+  "adminTaskCenterContributor": "Contributeur",
+  "adminTaskCenterQueueLabel": "File d'attente",
+  "adminTaskCenterCreatedAt": "Créée à {time}",
+  "adminTaskCenterPhaseAwaitingAuth": "En attente de nouvelle autorisation"
 }

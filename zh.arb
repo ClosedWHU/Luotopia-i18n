@@ -1,5 +1,13 @@
 {
   "@@locale": "zh",
+  "emailModeChooserTitle": "选择邮箱使用方式",
+  "emailModeChooserSubtitle": "之后可以在邮箱功能内随时切换。",
+  "emailModeNativeTitle": "原生邮件客户端",
+  "emailModeNativeSubtitle": "应用内置 IMAP/SMTP，支持离线，并允许 AI 助手读取邮件。",
+  "emailModeWebmailTitle": "网页邮箱",
+  "emailModeWebmailSubtitle": "在应用内打开武大网页版邮箱。",
+  "emailSwitchToNativeAction": "改用原生邮件",
+  "emailSwitchToWebmailAction": "改用网页邮箱",
   "settingsPermissionsTitle": "权限管理",
   "settingsPermissionsSubtitle": "查看和管理系统权限，不改变应用内偏好设置。",
   "settingsPermissionsOpenSystemSettings": "打开系统设置",
@@ -39,6 +47,8 @@
   "aiSpeechWhisper": "Whisper 离线转写",
   "aiSpeechWhisperModel": "Whisper 模型",
   "aiDownload": "下载",
+  "imageSaved": "已保存",
+  "imageSaveFailed": "图片保存失败",
   "aiSpeechEngine": "朗读引擎",
   "aiSpeechEdge": "Edge 在线音色",
   "aiSpeechSttsVoice": "stts 系统音色",
@@ -407,6 +417,9 @@
   "editorTypeMemo": "备忘",
   "editorTypePickerTitle": "切换事项类型",
   "editorTypeSchedule": "日程",
+  "editorTypeCourse": "课程",
+  "editorFieldCourseTimetable": "所属课程表",
+  "editorCourseTimetableUnset": "未选择",
   "editorTypeTask": "任务",
   "emptyClassroomAddedSingle": "已添加{classroom}第{section}节课",
   "emptyClassroomCollapseAll": "收起全部",
@@ -594,6 +607,9 @@
   "settingsAppIconAlt": "备选",
   "settingsAboutDevTeam": "开发团队",
   "settingsAboutTranslation": "翻译平台",
+  "settingsLegalInfo": "法律信息",
+  "settingsBasicInfo": "基本信息",
+  "settingsVersionUpdate": "版本更新",
   "settingsLicensesTitle": "开源许可证",
   "settingsLicensesSearchHint": "搜索许可证",
   "licenseAuthor": "作者: {author}",
@@ -724,6 +740,7 @@
   "sportsGoToMyOrders": "查看我的预约",
   "loading": "加载中...",
   "loadingFailed": "加载失败",
+  "legalOpenWebVersion": "打开网页版",
   "sportsNoCourtsAvailable": "暂无可用场地",
   "sportsOrderArgsMissing": "订单参数缺失，请返回重新选择。",
   "sportsOrderCancelled": "已取消",
@@ -2619,6 +2636,16 @@
     }
   },
   "waterControlCancelConfirm": "确认停用",
+  "waterControlRequestConfirmTitle": "申请取水码？",
+  "waterControlRequestConfirmMessage": "将为 {dormitory} 生成取水码，出水期间按用量计费。",
+  "@waterControlRequestConfirmMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
+  "waterControlRequestConfirm": "确认申请",
   "waterControlCancelSuccess": "取水码已停用",
   "waterControlCopied": "取水码已复制",
   "waterControlSessionExpired": "WHU 登录状态已过期，请在「账号」中重新登录。",
@@ -3219,6 +3246,15 @@
   "authApiCredentialActive": "有效",
   "authApiCredentialRevoked": "已撤销",
   "authApiCredentialRevoke": "撤销",
+  "authApiCredentialRevokeConfirmTitle": "吊销 API 凭据？",
+  "authApiCredentialRevokeConfirmMessage": "使用「{name}」的集成将立即失效，且无法恢复。吊销前需要再验证一次身份。",
+  "@authApiCredentialRevokeConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialRevokeFailed": "撤销凭据失败：{error}",
   "@authApiCredentialRevokeFailed": {
    "placeholders": {
@@ -3238,6 +3274,10 @@
   "authSessionsDeviceLinux": "Linux",
   "authSessionsUnknownDevice": "未知设备",
   "authSessionsUnknown": "未知",
+  "authSessionsTrustClean": "未报告环境风险",
+  "authSessionsTrustCompromised": "环境风险：{threats}",
+  "authSessionsTrustCloned": "应用数据已被克隆到其它设备",
+  "authSessionsTrustUnknown": "无环境检测数据（该平台不支持检测，或客户端版本较旧）",
   "authSessionsDetails": "IP：{ip}\n最近活跃：{lastActive}\n登录时间：{signedIn}",
   "@authSessionsDetails": {
    "placeholders": {
@@ -3286,6 +3326,16 @@
    "placeholders": {
      "date": {
        "type": "String"
+      }
+    }
+  },
+  "authPasskeyDelete": "删除",
+  "authPasskeyDeleteConfirmTitle": "删除通行密钥？",
+  "authPasskeyDeleteConfirmMessage": "「{name}」将无法再用于身份验证，删除前需要再验证一次身份。此操作不可撤销。",
+  "@authPasskeyDeleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3346,6 +3396,31 @@
   "ipLocationIsp": "运营商：{isp}",
   "authApiCredentialsSubtitle": "管理供外部访问使用的 API 密钥",
   "authChangePassword": "修改密码",
+  "authDeleteAccountStepVerifyTitle": "验证你的身份",
+  "authDeleteAccountStepVerifySubtitle": "注销账号前需要再验证一次身份，任选账号已开启的方式即可。",
+  "authDeleteAccountStepConfirmTitle": "确认注销",
+  "authDeleteAccountConsequenceData": "账号资料、云端数据与上传的文件将被永久删除。",
+  "authDeleteAccountConsequenceSessions": "所有设备将立即退出登录。",
+  "authDeleteAccountConsequenceIrreversible": "此操作无法撤销，账号不可恢复。",
+  "authDeleteAccountPhraseLabel": "输入「{phrase}」以确认",
+  "@authDeleteAccountPhraseLabel": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      }
+    }
+  },
+  "authDeleteAccountPhrase": "删除",
+  "authDeleteAccountCooldown": "{seconds} 秒后可确认",
+  "@authDeleteAccountCooldown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authDeleteAccountSuccess": "账户已删除",
+  "authDeleteAccount2faRequired": "该账号已开启两步验证，请改用其他验证方式。",
   "authDeleteAccount": "删除账户",
   "authDeleteAccountWarning": "确定要删除账户吗？此操作无法撤销。",
   "authDeleteAccountConfirm": "删除账户",
@@ -3521,6 +3596,33 @@
   "settingsPrivacyCourseDataDescription": "不注册或不登录珞家账号时，你仍可仅登录武汉大学账号并使用本地教务功能。登录珞家账号并使用课程给分、课程评价功能，即表示你同意将经核验的课程成绩以去标识化方式用于匿名统计。",
   "settingsPrivacyCourseDataAggregationTitle": "匿名成绩统计",
   "settingsPrivacyCourseDataAggregationSubtitle": "仅在满足最小样本量后展示聚合分布和均值；不公开个人成绩、身份、武汉大学密码或教务 Cookie。",
+  "settingsDiagLogSectionTitle": "诊断日志",
+  "settingsDiagLogSectionDescription": "日志仅保存在本机，可导出用于反馈与排查问题",
+  "settingsDiagLogExportTitle": "导出诊断日志",
+  "settingsDiagLogExportSubtitle": "分享、复制或另存为文件；包含本次和之前启动的日志",
+  "settingsDiagLogBufferTitle": "诊断日志缓存上限",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 个滚动文件，写满后丢弃最旧记录",
+  "settingsDiagLogLevelTitle": "导出日志最低等级",
+  "settingsDiagLogClearTitle": "清空诊断日志",
+  "settingsDiagLogClearSubtitle": "删除已保存的日志文件，包括之前启动的记录",
+  "settingsDiagLogLevelVerbose": "Verbose（包含已启用的诊断追踪）",
+  "settingsDiagLogLevelWarning": "Warning（警告和错误）",
+  "settingsDiagLogLevelError": "Error（仅错误）",
+  "settingsDiagLogExportSheetDescription": "{level}，共 {size}",
+  "settingsDiagLogShare": "分享",
+  "settingsDiagLogShareSubtitle": "以 .log 文件分享，长文本不会被 IM 截断",
+  "settingsDiagLogCopy": "复制",
+  "settingsDiagLogSaveAs": "另存为",
+  "settingsDiagLogCopied": "诊断日志已复制到剪贴板",
+  "settingsDiagLogSaved": "诊断日志已保存",
+  "settingsDiagLogExportFailed": "导出诊断日志失败",
+  "settingsDiagLogReadFailed": "读取诊断日志失败",
+  "settingsDiagLogEmpty": "暂时没有可导出的诊断日志",
+  "settingsDiagLogCleared": "诊断日志已清空",
+  "settingsDiagLogClearFailed": "清空诊断日志失败",
+  "settingsDiagLogClearConfirmMessage": "将删除本次和之前启动保存的全部诊断日志，操作无法撤销。",
+  "settingsDiagLogClearAction": "清空",
+  "settingsDiagLogShareSubject": "Luotopia 诊断日志",
   "courseReviewsSyncEligibility": "同步已完成课程",
   "courseReviewsWrite": "撰写匿名评价",
   "courseReviewsAnonymousStudent": "匿名学生 · {semester}",
@@ -4059,9 +4161,17 @@
   "campusEditModeEntry": "编辑模式",
   "fontSettings": "字体",
   "fontFamilyLabel": "字体",
-  "fontFamilySubtitle": "系统字体或 Google Fonts",
+  "fontFamilySubtitle": "系统字体、Google Fonts 或 MiSans",
   "fontFamilySystem": "系统字体",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
+  "fontFamilyMiSansStatusLabel": "MiSans 字体包",
+  "fontFamilyMiSansStatusIdle": "尚未下载，约 {size}。",
+  "fontFamilyMiSansStatusDownload": "下载",
+  "fontFamilyMiSansStatusDownloading": "正在下载字体包…",
+  "fontFamilyMiSansStatusReady": "已下载并缓存在本机",
+  "fontFamilyMiSansStatusFailed": "下载失败，当前使用系统字体",
+  "fontFamilyMiSansStatusSystem": "本机系统已内置，无需下载",
   "fontSizeScaleLabel": "基准字号",
   "fontSizeScaleSubtitle": "整体缩放文字，保持标题与正文比例",
   "fontSizeScaleAuto": "自动",
@@ -4726,6 +4836,7 @@
   "adminConsoleTitle": "管理控制台",
   "adminConsoleSubtitle": "用户、论坛与系统状态",
   "adminAccessDenied": "需要管理员权限。",
+  "adminStepUpDeclined": "需要完成身份验证才能进入管理台。",
   "adminSectionOverview": "总览",
   "adminSectionUsers": "用户",
   "adminSectionForum": "论坛",
@@ -4738,6 +4849,22 @@
   "adminQueuePaused": "已暂停",
   "adminQueuePause": "暂停",
   "adminQueueResume": "恢复",
+  "adminQueuePauseConfirmMessage": "确认暂停队列 {queue}？暂停后后台任务将停止处理。",
+  "@adminQueuePauseConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
+  "adminQueueResumeConfirmMessage": "确认恢复队列 {queue}？",
+  "@adminQueueResumeConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminStatusActiveWorkers": "活跃 Worker",
   "adminStatusHealthyWorkers": "健康 Worker",
   "adminStatusTasksProcessed": "已处理",
@@ -4790,7 +4917,21 @@
   "adminUsersDisabled": "已禁用",
   "adminUsersEnable": "启用",
   "adminUsersDisable": "禁用",
+  "adminUsersDisableConfirmMessage": "封禁后该用户将无法登录，已登录会话会在下次请求时被踢下线。",
+  "adminUsersDisableReasonLabel": "原因（将记入审计日志）",
+  "adminUsersEnableConfirmMessage": "确认恢复该账号？恢复后该用户可以立即登录。",
   "adminUsersChangeRole": "修改角色",
+  "adminUsersRoleChangeConfirmMessage": "确认将角色从「{fromRole}」改为「{toRole}」？管理员角色可以管理所有用户与内容。",
+  "@adminUsersRoleChangeConfirmMessage": {
+    "placeholders": {
+      "fromRole": {
+        "type": "String"
+      },
+      "toRole": {
+        "type": "String"
+      }
+    }
+  },
    "adminUsersRoleUpdated": "用户角色已更新。",
    "adminUserEditNickname": "编辑昵称",
    "adminUserNicknameRequired": "昵称不能为空",
@@ -4798,6 +4939,31 @@
    "adminUserResetAvatar": "重置头像",
    "adminUserResetAvatarConfirm": "将该用户的头像重置为系统生成的默认头像？",
    "adminUserAvatarReset": "头像已重置。",
+  "adminUserDetailRegion": "地区",
+  "adminUserDetailBio": "简介",
+  "adminUserDetail2fa": "两步验证",
+  "adminUser2faEmailFactor": "邮箱验证码",
+  "adminUser2faOff": "未开启",
+  "adminUserResetRegion": "重置地区",
+  "adminUserResetRegionConfirm": "确认清空该用户的地区信息？",
+  "adminUserRegionReset": "地区已重置。",
+  "adminUserResetBio": "重置简介",
+  "adminUserResetBioConfirm": "确认清空该用户的简介？",
+  "adminUserBioReset": "简介已重置。",
+  "adminUserDisable2fa": "关闭两步验证",
+  "adminUserDisable2faConfirm": "确认强制关闭该用户的两步验证（TOTP、邮箱验证码与恢复码）？",
+  "adminUser2faDisabled": "两步验证已关闭。",
+  "adminUserLogout": "强制登出",
+  "adminUserLogoutConfirm": "确认撤销该用户的所有登录会话？所有设备将需要重新登录。",
+  "adminUserLoggedOut": "已撤销所有会话。",
+  "adminUserDetailSessions": "活跃登录会话",
+  "adminUserDetailLoginHistory": "登录历史",
+  "adminUserSessionsEmpty": "当前无活跃会话",
+  "adminUserLoginHistoryEmpty": "暂无登录记录",
+  "adminUserSessionUnknownDevice": "未知设备",
+  "adminUserRevokeSession": "撤销会话",
+  "adminUserRevokeSessionConfirm": "确认撤销该登录会话？该设备将需要重新登录。",
+  "adminUserSessionRevoked": "会话已撤销。",
   "adminUserForumStatusActive": "活跃",
   "adminUserForumStatusMuted": "已禁言",
   "adminUserForumStatusBanned": "已封禁",
@@ -4844,6 +5010,30 @@
   "adminForumBoardActivate": "启用",
   "adminForumBoardDeactivate": "停用",
   "adminForumBoardArchive": "归档",
+  "adminForumBoardDeactivateConfirmMessage": "确认停用「{board}」？停用后对所有用户不可见。",
+  "@adminForumBoardDeactivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
+  "adminForumBoardActivateConfirmMessage": "确认重新启用「{board}」？启用后将对所有用户可见。",
+  "@adminForumBoardActivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
+  "adminForumBoardArchiveConfirmMessage": "确认归档「{board}」？归档后板块将从列表中移除。",
+  "@adminForumBoardArchiveConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumSettingsTitle": "论坛设置",
   "adminForumSettingsSubtitle": "上传、邀请与策略",
   "adminForumSettingsUpload": "上传",
@@ -4862,6 +5052,20 @@
   "adminForumConfigLogSubtitle": "论坛配置近期变更",
   "adminForumConfigLogEmpty": "暂无配置变更记录。",
   "adminForumConfigLogActor": "操作者",
+  "adminForumDashboardTitle": "数据看板",
+  "adminForumDashboardSubtitle": "用户、帖子与评论统计",
+  "adminDashboardPeriodDay": "今日",
+  "adminDashboardPeriodWeek": "本周",
+  "adminDashboardPeriodMonth": "本月",
+  "adminDashboardTotalUsers": "注册用户",
+  "adminDashboardTodayUsers": "今日新增",
+  "adminDashboardTotalPosts": "帖子总数",
+  "adminDashboardTodayPosts": "今日发帖",
+  "adminDashboardTotalComments": "评论总数",
+  "adminDashboardTodayComments": "今日评论",
+  "adminDashboardUsersChart": "用户注册趋势",
+  "adminDashboardPostsChart": "发帖趋势",
+  "adminDashboardCommentsChart": "评论趋势",
   "forumModerationAllSources": "全部来源",
   "forumModerationUnclaimed": "未领取",
   "forumModerationUserReports": "用户举报",
@@ -4956,6 +5160,130 @@
   "courseMatchingCourseType": "课程类型",
   "courseMatchingMinCredits": "最小学分",
   "courseMatchingMaxCredits": "最大学分",
+  "courseMatchingAddSessions": "添加 {count} 节课",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "已添加 {count} 节课",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "将跳过 {duplicates} 条重复 · {conflicts} 处冲突",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} 课程匹配",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "仅显示无冲突",
+  "courseMatchingAdd": "添加",
+  "courseMatchingApply": "应用",
+  "courseMatchingReset": "重置",
+  "courseMatchingActiveFilters": "已启用 {count} 项",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "全部",
+  "courseMatchingCampus": "校区",
+  "courseMatchingBuilding": "教学楼",
+  "courseMatchingDepartment": "开课学院",
+  "courseMatchingTeacher": "教师",
+  "courseMatchingSectionRangeError": "起始节次不能大于结束节次。",
+  "courseMatchingCreditRangeError": "最小学分不能大于最大学分。",
+  "globalTimetableTermWithCount": "第 {term} 学期 · {count} 条",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "课程历史",
+  "globalTimetableHistoryHint": "在全部已发布学期中检索，从新到旧。",
+  "globalTimetableHistoryEmpty": "没有匹配的开课记录。",
+  "globalTimetableHistoryUnavailable": "当前服务端暂不支持课程历史。",
+  "globalTimetableDownloads": "离线数据",
+  "globalTimetableDownloadsSummary": "已下载 {count} 个学期 · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "尚未下载任何学期数据。",
+  "globalTimetableDownloadsHint": "学期档案来自 WHU-Master-Timetable 档案站；下载后可离线检索该学期。",
+  "globalTimetableDownloadsRemoteInfo": "{count} 门课 · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "档案中该学期无数据",
+  "globalTimetableDownloadFailed": "下载失败",
+  "globalTimetableDeleteAll": "全部删除",
+  "globalTimetableDeleteAllConfirm": "删除本机全部已下载学期？",
+  "globalTimetableSourceMode": "数据源",
+  "globalTimetableSourceAuto": "自动",
+  "globalTimetableSourceCloud": "云端",
+  "globalTimetableSourceLocal": "本地",
+  "globalTimetableLocalMissing": "本地尚未下载该学期数据。",
+  "globalTimetableNoSlot": "无时段",
+  "globalTimetableSearchHint": "课名 / 教师 / 课程号",
+  "globalTimetableEmpty": "该学期没有匹配的课程。",
+  "globalTimetableDetailTitle": "课程详情",
+  "globalTimetableDetailSlots": "上课时段",
+  "globalTimetableDetailInfo": "课程信息",
+  "globalTimetableDetailCourseCode": "课程号",
+  "globalTimetableDetailTeachingClass": "教学班",
+  "globalTimetableDetailGroup": "分组",
+  "globalTimetableAddToTimetable": "加入课程表",
+  "globalTimetableAuditTimetableName": "蹭课",
+  "globalTimetableAuditTimetableOption": "新建「蹭课」课表",
+  "globalTimetableNoCalendar": "校历数据不可用，无法加入课程表。",
+  "globalTimetableAddFailed": "加入课程表失败：{error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "受控任务队列",
   "adminSystemQueues": "系统任务队列",
   "luotopiaAccountViewLargeAvatar": "查看大头像",
@@ -5473,6 +5801,17 @@
     }
   },
   "coremailSend": "发送",
+  "coremailSendConfirmMessage": "将发送给 {count} 位收件人：{recipients}。确认发送？",
+  "@coremailSendConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "recipients": {
+        "type": "String"
+      }
+    }
+  },
   "coremailRecipientsLabel": "收件人",
   "coremailRecipientsHint": "多个地址以逗号分隔",
   "coremailSubjectLabel": "主题",
@@ -5625,6 +5964,14 @@
   },
   "ebikeUnlockHelmet": "配备头盔锁",
   "ebikeUnlockStart": "开锁用车",
+  "ebikeUnlockConfirmMessage": "确认解锁车辆 {carId}？开锁成功后将立即开始计费。",
+  "@ebikeUnlockConfirmMessage": {
+    "placeholders": {
+      "carId": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeUnlockSuccess": "开锁成功",
   "ebikeUnlockNeedRealName": "需先完成实名认证，请前往官方小程序办理。",
   "ebikeUnlockNeedFace": "本次用车需在官方小程序完成人脸核验。",
@@ -5697,6 +6044,15 @@
   "ebikeSettleNoParkingFee": "禁停区还车费",
   "ebikeSettleDiscount": "优惠减免",
   "ebikeSettlePayWallet": "余额支付",
+  "ebikeSettlePayWalletConfirm": "确认从钱包余额支付 {amount}？扣款后无法撤销。",
+  "@ebikeSettlePayWalletConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "ebikeSettlePayWalletConfirmUnknownAmount": "确认从钱包余额支付当前账单金额？扣款后无法撤销。",
   "ebikeSettlePaid": "支付成功",
   "ebikeSettleInsufficient": "余额不足，请前往官方小程序充值后再支付。",
   "ebikeSettleMangoUnpaid": "待支付 {amount} 元，请前往小黄小程序完成支付。",
@@ -5863,5 +6219,39 @@
     "placeholders": {
       "error": { "type": "String" }
     }
-  }
+  },
+  "globalTimetableContributionSubmitted": "贡献任务已提交，正在后台处理",
+  "globalTimetableImportDismiss": "关闭提示",
+  "adminTaskCenterTitle": "任务中心",
+  "adminTaskCenterSubtitle": "后台任务、失败重放与课表导入的统一视图",
+  "adminTaskCenterTabDurable": "后台任务",
+  "adminTaskCenterTabFailures": "失败任务",
+  "adminTaskCenterTabImports": "课表导入",
+  "adminTaskCenterEmpty": "暂无任务",
+  "adminTaskCenterStatusPending": "等待中",
+  "adminTaskCenterStatusRunning": "运行中",
+  "adminTaskCenterStatusSuccess": "成功",
+  "adminTaskCenterStatusFailed": "失败",
+  "adminTaskCenterStatusCancelled": "已取消",
+  "adminTaskCenterStatusAll": "全部",
+  "adminTaskCenterStatusLabel": "状态",
+  "adminTaskCenterProgressLabel": "进度",
+  "adminTaskCenterCreatedLabel": "创建时间",
+  "adminTaskCenterStartedLabel": "开始时间",
+  "adminTaskCenterCompletedLabel": "完成时间",
+  "adminTaskCenterErrorLabel": "错误",
+  "adminTaskCenterCancelTask": "取消任务",
+  "adminTaskCenterTaskCancelled": "任务已取消",
+  "adminTaskCenterActionFailed": "操作失败",
+  "adminTaskCenterChildrenCount": "{count} 个子任务",
+  "adminTaskCenterRetryHint": "将重置为等待授权；需原贡献者重新提交后才会继续执行",
+  "adminTaskCenterRequeued": "已重置为等待授权",
+  "adminTaskCenterDeleted": "已删除",
+  "adminTaskCenterReplayed": "已重新入队",
+  "adminTaskCenterDeleteFailureConfirm": "删除这条失败记录？",
+  "adminTaskCenterDeleteJobConfirm": "删除该导入任务并释放此学期？",
+  "adminTaskCenterContributor": "贡献者",
+  "adminTaskCenterQueueLabel": "队列",
+  "adminTaskCenterCreatedAt": "创建于 {time}",
+  "adminTaskCenterPhaseAwaitingAuth": "等待重新授权"
 }

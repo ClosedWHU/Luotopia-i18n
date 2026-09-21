@@ -1,5 +1,42 @@
 {
   "@@locale": "ja",
+  "adminUserDetailRegion": "地域",
+  "adminUserDetailBio": "自己紹介",
+  "adminUserDetail2fa": "二段階認証",
+  "adminUser2faEmailFactor": "メール認証コード",
+  "adminUser2faOff": "未設定",
+  "adminUserResetRegion": "地域をリセット",
+  "adminUserResetRegionConfirm": "このユーザーの地域を消去しますか？",
+  "adminUserRegionReset": "地域を消去しました。",
+  "adminUserResetBio": "自己紹介をリセット",
+  "adminUserResetBioConfirm": "このユーザーの自己紹介を消去しますか？",
+  "adminUserBioReset": "自己紹介を消去しました。",
+  "adminUserDisable2fa": "二段階認証を無効化",
+  "adminUserDisable2faConfirm": "このユーザーの二段階認証（TOTP・メール認証コード・リカバリーコード）を強制的に無効化しますか？",
+  "adminUser2faDisabled": "二段階認証を無効化しました。",
+  "adminUserLogout": "強制ログアウト",
+  "adminUserLogoutConfirm": "このユーザーのすべてのセッションを失効しますか？すべてのデバイスで再ログインが必要です。",
+  "adminUserLoggedOut": "すべてのセッションを失効しました。",
+  "adminUserDetailSessions": "アクティブなセッション",
+  "adminUserDetailLoginHistory": "ログイン履歴",
+  "adminUserSessionsEmpty": "アクティブなセッションはありません",
+  "adminUserLoginHistoryEmpty": "ログイン記録はありません",
+  "adminUserSessionUnknownDevice": "不明なデバイス",
+  "adminUserRevokeSession": "セッションを失効",
+  "adminUserRevokeSessionConfirm": "このセッションを失効しますか？そのデバイスは再ログインが必要です。",
+  "adminUserSessionRevoked": "セッションを失効しました。",
+  "emailModeChooserTitle": "メールの利用方法を選択",
+  "emailModeChooserSubtitle": "後でメール機能内から切り替えできます。",
+  "emailModeNativeTitle": "ネイティブメールクライアント",
+  "emailModeNativeSubtitle": "アプリ内蔵の IMAP/SMTP。オフラインで動作し、AI アシスタントがメールを読めます。",
+  "emailModeWebmailTitle": "ウェブメール",
+  "emailModeWebmailSubtitle": "アプリ内で武漢大学のウェブメールを開きます。",
+  "emailSwitchToNativeAction": "ネイティブメールに切り替え",
+  "emailSwitchToWebmailAction": "ウェブメールに切り替え",
+  "editorTypeCourse": "授業",
+  "editorFieldCourseTimetable": "時間割",
+  "editorCourseTimetableUnset": "未選択",
+  "legalOpenWebVersion": "ウェブ版を開く",
   "settingsForumPushNotifications": "フォーラムアクティビティのプッシュ通知",
   "settingsForumPushNotificationsSubtitle": "フォーラムからの返信、いいね、お気に入り、モデレーション結果の通知。",
   "settingsForumPushSyncFailed": "フォーラムのプッシュ設定をサーバーと同期できませんでした。しばらくしてからもう一度お試しください。",
@@ -2534,6 +2571,10 @@
     }
   },
   "waterControlCancelConfirm": "無効にする",
+  "waterControlRequestConfirmTitle": "給水コードを申請しますか？",
+  "waterControlRequestConfirmMessage": "{dormitory} の給水コードを発行します。給水中は使用量に応じて課金されます。",
+  "@waterControlRequestConfirmMessage": {"placeholders": {"dormitory": {"type": "String"}}},
+  "waterControlRequestConfirm": "コードを申請",
   "waterControlCancelSuccess": "給水コードを無効にしました",
   "waterControlCopied": "コードをコピーしました",
   "waterControlSessionExpired": "WHUのセッションの有効期限が切れました。「アカウント」から再度ログインしてください。",
@@ -3081,6 +3122,9 @@
   "authApiCredentialActive": "有効",
   "authApiCredentialRevoked": "無効化済み",
   "authApiCredentialRevoke": "無効化",
+  "authApiCredentialRevokeConfirmTitle": "認証情報を無効化しますか？",
+  "authApiCredentialRevokeConfirmMessage": "{name} を使用する連携は直ちに機能しなくなり、認証情報は復元できません。先に本人確認をもう一度求められます。",
+  "@authApiCredentialRevokeConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authApiCredentialRevokeFailed": "認証情報の無効化に失敗しました: {error}",
   "@authApiCredentialRevokeFailed": {
    "placeholders": {
@@ -3100,6 +3144,10 @@
   "authSessionsDeviceLinux": "Linux",
   "authSessionsUnknownDevice": "不明なデバイス",
   "authSessionsUnknown": "不明",
+  "authSessionsTrustClean": "環境リスクは報告されていません",
+  "authSessionsTrustCompromised": "環境リスク：{threats}",
+  "authSessionsTrustCloned": "アプリデータが別の端末に複製されています",
+  "authSessionsTrustUnknown": "環境検出データなし（未対応のプラットフォーム、または古いクライアント）",
   "authSessionsDetails": "IP: {ip}\n最終アクティブ: {lastActive}\nログイン日時: {signedIn}",
   "@authSessionsDetails": {
    "placeholders": {
@@ -3151,6 +3199,10 @@
       }
     }
   },
+  "authPasskeyDelete": "削除",
+  "authPasskeyDeleteConfirmTitle": "パスキーを削除しますか？",
+  "authPasskeyDeleteConfirmMessage": "{name} は本人確認に使用できなくなります。削除前にもう一度本人確認が必要です。この操作は取り消せません。",
+  "@authPasskeyDeleteConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authPasskeyDeleteFailed": "Passkey の削除に失敗しました: {error}",
   "@authPasskeyDeleteFailed": {
    "placeholders": {
@@ -3207,6 +3259,19 @@
   "ipLocationIsp": "回線事業者：{isp}",
   "authApiCredentialsSubtitle": "外部アクセス用の API キーを管理",
   "authChangePassword": "パスワードを変更",
+  "authDeleteAccountStepVerifyTitle": "本人確認",
+  "authDeleteAccountStepVerifySubtitle": "アカウントの削除には、もう一度本人確認が必要です。アカウントで有効な方法のいずれかをお使いください。",
+  "authDeleteAccountStepConfirmTitle": "削除の確認",
+  "authDeleteAccountConsequenceData": "プロフィール、クラウドデータ、アップロードしたファイルは完全に削除されます。",
+  "authDeleteAccountConsequenceSessions": "すべてのデバイスから直ちにログアウトされます。",
+  "authDeleteAccountConsequenceIrreversible": "この操作は取り消せません。アカウントは復元できません。",
+  "authDeleteAccountPhraseLabel": "「{phrase}」と入力して確認",
+  "@authDeleteAccountPhraseLabel": {"placeholders": {"phrase": {"type": "String"}}},
+  "authDeleteAccountPhrase": "削除",
+  "authDeleteAccountCooldown": "あと {seconds} 秒で確認できます",
+  "@authDeleteAccountCooldown": {"placeholders": {"seconds": {"type": "int"}}},
+  "authDeleteAccountSuccess": "アカウントを削除しました",
+  "authDeleteAccount2faRequired": "このアカウントは二段階認証 (2FA) が有効です。他の方法で本人確認をしてください。",
   "authDeleteAccount": "アカウントを削除",
   "authDeleteAccountWarning": "アカウントを削除してもよろしいですか？この操作は元に戻せません。",
   "authDeleteAccountConfirm": "アカウントを削除",
@@ -3651,9 +3716,17 @@
   "campusEditModeEntry": "編集モード",
   "fontSettings": "フォント",
   "fontFamilyLabel": "フォント",
-  "fontFamilySubtitle": "システムフォントまたは Google Fonts",
+  "fontFamilySubtitle": "システムフォント、Google Fonts または MiSans",
   "fontFamilySystem": "システムフォント",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
+  "fontFamilyMiSansStatusLabel": "MiSans フォントパック",
+  "fontFamilyMiSansStatusIdle": "まだダウンロードしていません（約 {size}）。",
+  "fontFamilyMiSansStatusDownload": "ダウンロード",
+  "fontFamilyMiSansStatusDownloading": "フォントパックをダウンロード中…",
+  "fontFamilyMiSansStatusReady": "ダウンロード済みで、この端末に保存されています",
+  "fontFamilyMiSansStatusFailed": "ダウンロードに失敗しました。システムフォントで表示しています",
+  "fontFamilyMiSansStatusSystem": "この端末にインストール済みのため、ダウンロードは不要です",
   "fontSizeScaleLabel": "基準文字サイズ",
   "fontSizeScaleSubtitle": "見出しと本文の比率を保ったまま全体を拡大縮小",
   "fontSizeScaleAuto": "自動",
@@ -4195,6 +4268,7 @@
   "adminConsoleTitle": "管理コンソール",
   "adminConsoleSubtitle": "ユーザー・フォーラム・システム状態",
   "adminAccessDenied": "管理者権限が必要です。",
+  "adminStepUpDeclined": "管理コンソールを開くには本人確認が必要です。",
   "adminSectionOverview": "概要",
   "adminSectionUsers": "ユーザー",
   "adminSectionForum": "フォーラム",
@@ -4207,6 +4281,10 @@
   "adminQueuePaused": "一時停止中",
   "adminQueuePause": "一時停止",
   "adminQueueResume": "再開",
+  "adminQueuePauseConfirmMessage": "キュー {queue} を一時停止しますか？バックグラウンドジョブの処理が停止します。",
+  "@adminQueuePauseConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "adminQueueResumeConfirmMessage": "キュー {queue} を再開しますか？",
+  "@adminQueueResumeConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
   "adminStatusActiveWorkers": "アクティブ Worker",
   "adminStatusHealthyWorkers": "正常 Worker",
   "adminStatusTasksProcessed": "処理済み",
@@ -4278,7 +4356,12 @@
   "adminUsersDisabled": "無効",
   "adminUsersEnable": "有効化",
   "adminUsersDisable": "無効化",
+  "adminUsersDisableConfirmMessage": "無効化すると、ユーザーは次のリクエスト時にログアウトされ、再び有効化するまでログインできません。",
+  "adminUsersDisableReasonLabel": "理由（監査ログに記録されます）",
+  "adminUsersEnableConfirmMessage": "このアカウントを再度有効にしますか？ユーザーは直ちにログインできるようになります。",
   "adminUsersChangeRole": "ロールを変更",
+  "adminUsersRoleChangeConfirmMessage": "ロールを「{fromRole}」から「{toRole}」に変更しますか？管理者ロールはすべてのユーザーとコンテンツを管理できます。",
+  "@adminUsersRoleChangeConfirmMessage": {"placeholders": {"fromRole": {"type": "String"}, "toRole": {"type": "String"}}},
   "adminUsersRoleUpdated": "ユーザーロールを更新しました。",
   "adminUserForumStatusActive": "アクティブ",
   "adminUserForumStatusMuted": "ミュート中",
@@ -4326,6 +4409,12 @@
   "adminForumBoardActivate": "有効化",
   "adminForumBoardDeactivate": "無効化",
   "adminForumBoardArchive": "アーカイブ",
+  "adminForumBoardDeactivateConfirmMessage": "「{board}」を無効化しますか？すべてのユーザーに表示されなくなります。",
+  "@adminForumBoardDeactivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardActivateConfirmMessage": "「{board}」を再度有効化しますか？すべてのユーザーに再び表示されます。",
+  "@adminForumBoardActivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardArchiveConfirmMessage": "「{board}」をアーカイブしますか？掲示板一覧から削除されます。",
+  "@adminForumBoardArchiveConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
   "adminForumSettingsTitle": "フォーラム設定",
   "adminForumSettingsSubtitle": "アップロード、招待、ポリシー",
   "adminForumSettingsUpload": "アップロード",
@@ -4623,6 +4712,130 @@
   "courseMatchingCourseType": "コースタイプ",
   "courseMatchingMinCredits": "最小単位数",
   "courseMatchingMaxCredits": "最大単位数",
+  "courseMatchingAddSessions": "{count} コマを追加",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "{count} コマを追加しました",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "重複 {duplicates} 件をスキップ · 競合 {conflicts} 件",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} コースマッチング",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "競合なしのみ",
+  "courseMatchingAdd": "追加",
+  "courseMatchingApply": "適用",
+  "courseMatchingReset": "リセット",
+  "courseMatchingActiveFilters": "{count} 件有効",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "すべて",
+  "courseMatchingCampus": "キャンパス",
+  "courseMatchingBuilding": "建物",
+  "courseMatchingDepartment": "開講学部",
+  "courseMatchingTeacher": "教員",
+  "courseMatchingSectionRangeError": "開始時限が終了時限を超えてはいけません。",
+  "courseMatchingCreditRangeError": "最小単位数が最大単位数を超えてはいけません。",
+  "globalTimetableTermWithCount": "第{term}学期 · {count} 件",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "開講履歴",
+  "globalTimetableHistoryHint": "公開済みの全学期から新しい順に検索します。",
+  "globalTimetableHistoryEmpty": "該当する開講はありません。",
+  "globalTimetableHistoryUnavailable": "サーバーはまだ開講履歴に対応していません。",
+  "globalTimetableDownloads": "オフラインデータ",
+  "globalTimetableDownloadsSummary": "{count} 学期分 · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "まだ学期データをダウンロードしていません。",
+  "globalTimetableDownloadsHint": "学期アーカイブは WHU-Master-Timetable のアーカイブサイト由来です。ダウンロードした学期はオフラインで検索できます。",
+  "globalTimetableDownloadsRemoteInfo": "{count} 科目 · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "この学期のアーカイブデータはありません",
+  "globalTimetableDownloadFailed": "ダウンロードに失敗しました",
+  "globalTimetableDeleteAll": "すべて削除",
+  "globalTimetableDeleteAllConfirm": "ダウンロードした学期をすべて削除しますか？",
+  "globalTimetableSourceMode": "データソース",
+  "globalTimetableSourceAuto": "自動",
+  "globalTimetableSourceCloud": "クラウド",
+  "globalTimetableSourceLocal": "ローカル",
+  "globalTimetableLocalMissing": "この学期のオフラインデータはまだありません。",
+  "globalTimetableNoSlot": "時間帯なし",
+  "globalTimetableSearchHint": "科目名 / 教員 / コード",
+  "globalTimetableEmpty": "この学期に該当する科目はありません。",
+  "globalTimetableDetailTitle": "科目詳細",
+  "globalTimetableDetailSlots": "授業時間帯",
+  "globalTimetableDetailInfo": "科目情報",
+  "globalTimetableDetailCourseCode": "科目コード",
+  "globalTimetableDetailTeachingClass": "授業クラス",
+  "globalTimetableDetailGroup": "グループ",
+  "globalTimetableAddToTimetable": "時間割に追加",
+  "globalTimetableAuditTimetableName": "聴講",
+  "globalTimetableAuditTimetableOption": "「聴講」時間割を新規作成",
+  "globalTimetableNoCalendar": "学事暦データを利用できないため、時間割に追加できません。",
+  "globalTimetableAddFailed": "時間割に追加できませんでした：{error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "制御可能なタスクキュー",
   "adminSystemQueues": "システムタスクキュー",
   "luotopiaAccountViewLargeAvatar": "アバターを拡大表示",
@@ -5342,6 +5555,8 @@
     }
   },
   "coremailSend": "送信",
+  "coremailSendConfirmMessage": "宛先 {count} 人：{recipients}。送信しますか？",
+  "@coremailSendConfirmMessage": {"placeholders": {"count": {"type": "int"}, "recipients": {"type": "String"}}},
   "coremailRecipientsLabel": "宛先",
   "coremailRecipientsHint": "複数のアドレスはカンマで区切ってください",
   "coremailSubjectLabel": "件名",
@@ -5462,6 +5677,8 @@
   "ebikeUnlockPriceValue": "初乗り{floor}元、以降{time}元/{timeUnit}分",
   "ebikeUnlockHelmet": "ヘルメットロック付き",
   "ebikeUnlockStart": "解錠して出発",
+  "ebikeUnlockConfirmMessage": "{carId} のロックを解除しますか？解錠と同時に課金が開始されます。",
+  "@ebikeUnlockConfirmMessage": {"placeholders": {"carId": {"type": "String"}}},
   "ebikeUnlockSuccess": "解錠しました",
   "ebikeUnlockNeedRealName": "先に実名認証が必要です。公式ミニプログラムで手続きを行ってください。",
   "ebikeUnlockNeedFace": "今回の利用には公式ミニプログラムでの顔認証が必要です。",
@@ -5514,6 +5731,9 @@
   "ebikeSettleNoParkingFee": "駐車禁止エリア返却料",
   "ebikeSettleDiscount": "割引",
   "ebikeSettlePayWallet": "残高で支払う",
+  "ebikeSettlePayWalletConfirm": "ウォレット残高から {amount} を支払いますか？引き落としは取り消せません。",
+  "@ebikeSettlePayWalletConfirm": {"placeholders": {"amount": {"type": "String"}}},
+  "ebikeSettlePayWalletConfirmUnknownAmount": "ウォレット残高から未払い額を支払いますか？引き落としは取り消せません。",
   "ebikeSettlePaid": "支払いが完了しました",
   "ebikeSettleInsufficient": "残高が不足しています。公式ミニプログラムでチャージしてから支払ってください。",
   "ebikeSettleMangoUnpaid": "未払い金額は{amount}元です。支払いはリトルイエローミニプログラムでのみ行えます。",
@@ -5649,5 +5869,86 @@
   "chaoxingLoginSuccess": "超星学習通アカウントを連携しました",
   "chaoxingLoginBadCredentials": "ログインに失敗しました：{message}",
   "chaoxingLoginCaptchaRequired": "サーバーが対話式の本人確認を求めています。しばらくしてから再試行するか、先に公式アプリで一度ログインしてください。",
-  "chaoxingOperationFailed": "操作に失敗しました：{error}"
+  "chaoxingOperationFailed": "操作に失敗しました：{error}",
+  "imageSaved": "保存しました",
+  "imageSaveFailed": "画像を保存できませんでした",
+  "settingsLegalInfo": "法的情報",
+  "settingsBasicInfo": "基本情報",
+  "settingsVersionUpdate": "バージョン更新",
+  "settingsDiagLogSectionTitle": "診断ログ",
+  "settingsDiagLogSectionDescription": "ログはこの端末にのみ保存されます。フィードバックや問題調査にエクスポートして活用できます。",
+  "settingsDiagLogExportTitle": "診断ログをエクスポート",
+  "settingsDiagLogExportSubtitle": "共有、コピー、またはファイルに保存。今回と過去の起動分を含みます",
+  "settingsDiagLogBufferTitle": "ログキャッシュ上限",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 のローリングファイル。満杯になると古い記録から削除されます",
+  "settingsDiagLogLevelTitle": "エクスポートの最低レベル",
+  "settingsDiagLogClearTitle": "診断ログを消去",
+  "settingsDiagLogClearSubtitle": "保存済みのログファイルを削除します（過去の起動分の記録を含む）",
+  "settingsDiagLogLevelVerbose": "Verbose（有効な診断トレースを含む）",
+  "settingsDiagLogLevelWarning": "Warning（警告とエラー）",
+  "settingsDiagLogLevelError": "Error（エラーのみ）",
+  "settingsDiagLogExportSheetDescription": "{level}、合計 {size}",
+  "settingsDiagLogShare": "共有",
+  "settingsDiagLogShareSubtitle": ".log ファイルとして共有。長いテキストも IM で切り詰められません",
+  "settingsDiagLogCopy": "コピー",
+  "settingsDiagLogSaveAs": "名前を付けて保存",
+  "settingsDiagLogCopied": "診断ログをクリップボードにコピーしました",
+  "settingsDiagLogSaved": "診断ログを保存しました",
+  "settingsDiagLogExportFailed": "診断ログのエクスポートに失敗しました",
+  "settingsDiagLogReadFailed": "診断ログの読み取りに失敗しました",
+  "settingsDiagLogEmpty": "エクスポートできる診断ログはまだありません",
+  "settingsDiagLogCleared": "診断ログを消去しました",
+  "settingsDiagLogClearFailed": "診断ログの消去に失敗しました",
+  "settingsDiagLogClearConfirmMessage": "今回と過去の起動で保存されたすべての診断ログを削除します。この操作は取り消せません。",
+  "settingsDiagLogClearAction": "消去",
+  "settingsDiagLogShareSubject": "Luotopia 診断ログ",
+  "adminForumDashboardTitle": "データダッシュボード",
+  "adminForumDashboardSubtitle": "ユーザー・投稿・コメントの統計",
+  "adminDashboardPeriodDay": "今日",
+  "adminDashboardPeriodWeek": "今週",
+  "adminDashboardPeriodMonth": "今月",
+  "adminDashboardTotalUsers": "累計ユーザー",
+  "adminDashboardTodayUsers": "本日のユーザー",
+  "adminDashboardTotalPosts": "累計投稿",
+  "adminDashboardTodayPosts": "本日の投稿",
+  "adminDashboardTotalComments": "累計コメント",
+  "adminDashboardTodayComments": "本日のコメント",
+  "adminDashboardUsersChart": "ユーザー登録の推移",
+  "adminDashboardPostsChart": "投稿数の推移",
+  "adminDashboardCommentsChart": "コメント数の推移",
+  "legalOpenWebVersion": "ウェブ版を開く",
+  "globalTimetableContributionSubmitted": "提供タスクを送信しました。バックグラウンドで処理中です",
+  "globalTimetableImportDismiss": "閉じる",
+  "adminTaskCenterTitle": "タスクセンター",
+  "adminTaskCenterSubtitle": "バックグラウンドタスク・失敗リプレイ・時間割インポートの統合ビュー",
+  "adminTaskCenterTabDurable": "バックグラウンドタスク",
+  "adminTaskCenterTabFailures": "失敗タスク",
+  "adminTaskCenterTabImports": "時間割インポート",
+  "adminTaskCenterEmpty": "タスクなし",
+  "adminTaskCenterStatusPending": "待機中",
+  "adminTaskCenterStatusRunning": "実行中",
+  "adminTaskCenterStatusSuccess": "成功",
+  "adminTaskCenterStatusFailed": "失敗",
+  "adminTaskCenterStatusCancelled": "キャンセル済み",
+  "adminTaskCenterStatusAll": "すべて",
+  "adminTaskCenterStatusLabel": "ステータス",
+  "adminTaskCenterProgressLabel": "進捗",
+  "adminTaskCenterCreatedLabel": "作成日時",
+  "adminTaskCenterStartedLabel": "開始日時",
+  "adminTaskCenterCompletedLabel": "完了日時",
+  "adminTaskCenterErrorLabel": "エラー",
+  "adminTaskCenterCancelTask": "タスクをキャンセル",
+  "adminTaskCenterTaskCancelled": "タスクをキャンセルしました",
+  "adminTaskCenterActionFailed": "操作に失敗しました",
+  "adminTaskCenterChildrenCount": "サブタスク {count} 件",
+  "adminTaskCenterRetryHint": "認可待ちにリセットします。元の提供者が再送信すると実行が再開されます",
+  "adminTaskCenterRequeued": "認可待ちにリセットしました",
+  "adminTaskCenterDeleted": "削除しました",
+  "adminTaskCenterReplayed": "再キューしました",
+  "adminTaskCenterDeleteFailureConfirm": "この失敗レコードを削除しますか？",
+  "adminTaskCenterDeleteJobConfirm": "このインポートタスクを削除して学期を解放しますか？",
+  "adminTaskCenterContributor": "提供者",
+  "adminTaskCenterQueueLabel": "キュー",
+  "adminTaskCenterCreatedAt": "作成: {time}",
+  "adminTaskCenterPhaseAwaitingAuth": "再認可待ち"
 }

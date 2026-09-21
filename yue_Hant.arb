@@ -1,5 +1,42 @@
 {
   "@@locale": "yue_Hant",
+  "adminUserDetailRegion": "地區",
+  "adminUserDetailBio": "簡介",
+  "adminUserDetail2fa": "兩步驗證",
+  "adminUser2faEmailFactor": "郵箱驗證碼",
+  "adminUser2faOff": "未開啟",
+  "adminUserResetRegion": "重設地區",
+  "adminUserResetRegionConfirm": "確認清空該使用者的地區資訊？",
+  "adminUserRegionReset": "地區已重設。",
+  "adminUserResetBio": "重設簡介",
+  "adminUserResetBioConfirm": "確認清空該使用者的簡介？",
+  "adminUserBioReset": "簡介已重設。",
+  "adminUserDisable2fa": "關閉兩步驗證",
+  "adminUserDisable2faConfirm": "確認強制關閉該使用者的兩步驗證（TOTP、郵箱驗證碼與復原碼）？",
+  "adminUser2faDisabled": "兩步驗證已關閉。",
+  "adminUserLogout": "強制登出",
+  "adminUserLogoutConfirm": "確認撤銷該使用者的所有登入工作階段？所有裝置將需要重新登入。",
+  "adminUserLoggedOut": "已撤銷所有工作階段。",
+  "adminUserDetailSessions": "活躍登入工作階段",
+  "adminUserDetailLoginHistory": "登入歷史",
+  "adminUserSessionsEmpty": "目前無活躍工作階段",
+  "adminUserLoginHistoryEmpty": "暫無登入記錄",
+  "adminUserSessionUnknownDevice": "未知裝置",
+  "adminUserRevokeSession": "撤銷工作階段",
+  "adminUserRevokeSessionConfirm": "確認撤銷該登入工作階段？該裝置將需要重新登入。",
+  "adminUserSessionRevoked": "工作階段已撤銷。",
+  "emailModeChooserTitle": "選擇電郵使用方式",
+  "emailModeChooserSubtitle": "之後可以在電郵功能內隨時切換。",
+  "emailModeNativeTitle": "原生電郵用戶端",
+  "emailModeNativeSubtitle": "應用內置 IMAP/SMTP，支援離線，並允許 AI 助手讀取電郵。",
+  "emailModeWebmailTitle": "網頁電郵",
+  "emailModeWebmailSubtitle": "在應用內開啟武大網頁版電郵。",
+  "emailSwitchToNativeAction": "改用原生電郵",
+  "emailSwitchToWebmailAction": "改用網頁電郵",
+  "editorTypeCourse": "課程",
+  "editorFieldCourseTimetable": "所屬課程表",
+  "editorCourseTimetableUnset": "未選擇",
+  "legalOpenWebVersion": "開啟網頁版",
   "settingsForumPushNotifications": "論壇互動推送",
   "settingsForumPushNotificationsSubtitle": "論壇嘅回覆、點讚、收藏同審核結果通知。",
   "settingsForumPushSyncFailed": "論壇推送偏好同步失敗，麻煩稍後再試。",
@@ -2160,6 +2197,10 @@
     }
   },
   "waterControlCancelConfirm": "確認停用",
+  "waterControlRequestConfirmTitle": "申請取水碼？",
+  "waterControlRequestConfirmMessage": "會為 {dormitory} 產生取水碼，出水期間按用量計費。",
+  "@waterControlRequestConfirmMessage": {"placeholders": {"dormitory": {"type": "String"}}},
+  "waterControlRequestConfirm": "確認申請",
   "waterControlCancelSuccess": "取水碼已經停用",
   "waterControlCopied": "已複製取水碼",
   "waterControlSessionExpired": "WHU 登入狀態已過期，請去「帳號」重新登入。",
@@ -2699,6 +2740,9 @@
   "authApiCredentialActive": "使用中",
   "authApiCredentialRevoked": "已撤銷",
   "authApiCredentialRevoke": "撤銷",
+  "authApiCredentialRevokeConfirmTitle": "撤銷 API 憑證？",
+  "authApiCredentialRevokeConfirmMessage": "用「{name}」嘅整合會即刻失效，而且無法恢復。撤銷之前要再驗證一次身分。",
+  "@authApiCredentialRevokeConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authApiCredentialRevokeFailed": "撤銷憑證失敗：{error}",
   "@authApiCredentialRevokeFailed": {
    "placeholders": {
@@ -2718,6 +2762,10 @@
   "authSessionsDeviceLinux": "Linux",
   "authSessionsUnknownDevice": "未知裝置",
   "authSessionsUnknown": "未知",
+  "authSessionsTrustClean": "未回報環境風險",
+  "authSessionsTrustCompromised": "環境風險：{threats}",
+  "authSessionsTrustCloned": "應用數據被複製咗去其它裝置",
+  "authSessionsTrustUnknown": "無環境檢測數據（呢個平台唔支援檢測，或者客戶端版本太舊）",
   "authSessionsDetails": "IP：{ip}\n最後活動：{lastActive}\n登入時間：{signedIn}",
   "@authSessionsDetails": {
    "placeholders": {
@@ -2769,6 +2817,10 @@
       }
     }
   },
+  "authPasskeyDelete": "刪除",
+  "authPasskeyDeleteConfirmTitle": "刪除 Passkey？",
+  "authPasskeyDeleteConfirmMessage": "「{name}」之後無法再用來驗證身分，刪除之前要再驗證一次身分。呢個操作無法撤銷。",
+  "@authPasskeyDeleteConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
   "authPasskeyDeleteFailed": "刪除 Passkey 失敗：{error}",
   "@authPasskeyDeleteFailed": {
    "placeholders": {
@@ -2825,6 +2877,19 @@
   "ipLocationIsp": "電訊商：{isp}",
   "authApiCredentialsSubtitle": "管理外部存取用嘅 API 密鑰",
   "authChangePassword": "更改密碼",
+  "authDeleteAccountStepVerifyTitle": "驗證你嘅身分",
+  "authDeleteAccountStepVerifySubtitle": "刪除帳戶之前要再驗證一次身分，用帳戶已經開啟嘅任意方式就得。",
+  "authDeleteAccountStepConfirmTitle": "確認刪除",
+  "authDeleteAccountConsequenceData": "帳戶資料、雲端數據同埋上傳嘅檔案會被永久刪除。",
+  "authDeleteAccountConsequenceSessions": "所有裝置會即刻登出。",
+  "authDeleteAccountConsequenceIrreversible": "呢個操作無法撤銷，帳戶無法恢復。",
+  "authDeleteAccountPhraseLabel": "輸入「{phrase}」以確認",
+  "@authDeleteAccountPhraseLabel": {"placeholders": {"phrase": {"type": "String"}}},
+  "authDeleteAccountPhrase": "刪除",
+  "authDeleteAccountCooldown": "{seconds} 秒後可確認",
+  "@authDeleteAccountCooldown": {"placeholders": {"seconds": {"type": "int"}}},
+  "authDeleteAccountSuccess": "帳戶已刪除",
+  "authDeleteAccount2faRequired": "呢個帳戶已經開啟兩步驗證，請改用其他方式驗證。",
   "authDeleteAccount": "刪除帳戶",
   "authDeleteAccountWarning": "你肯定要刪除帳戶？呢個操作無法復原。",
   "authDeleteAccountConfirm": "刪除帳戶",
@@ -3366,9 +3431,17 @@
   "campusEditModeEntry": "編輯模式",
   "fontSettings": "字體",
   "fontFamilyLabel": "字體",
-  "fontFamilySubtitle": "系統字體或 Google Fonts",
+  "fontFamilySubtitle": "系統字體、Google Fonts 或 MiSans",
   "fontFamilySystem": "系統字體",
   "fontFamilyGoogleNotoSans": "Google Noto Sans",
+  "fontFamilyMiSans": "MiSans",
+  "fontFamilyMiSansStatusLabel": "MiSans 字體包",
+  "fontFamilyMiSansStatusIdle": "未下載，大概 {size}。",
+  "fontFamilyMiSansStatusDownload": "下載",
+  "fontFamilyMiSansStatusDownloading": "正在下載字體包…",
+  "fontFamilyMiSansStatusReady": "已經下載並緩存在本機",
+  "fontFamilyMiSansStatusFailed": "下載失敗，而家用緊系統字體",
+  "fontFamilyMiSansStatusSystem": "本機系統已經內置，唔使下載",
   "fontSizeScaleLabel": "基準字號",
   "fontSizeScaleSubtitle": "整體縮放文字，保持標題同正文比例",
   "fontSizeScaleAuto": "自動",
@@ -4102,6 +4175,7 @@
   "adminConsoleTitle": "管理控制台",
   "adminConsoleSubtitle": "用戶、論壇同系統狀態",
   "adminAccessDenied": "需要管理員權限。",
+  "adminStepUpDeclined": "要完成身分驗證先可以打開管理控制台。",
   "adminSectionOverview": "總覽",
   "adminSectionUsers": "用戶",
   "adminSectionForum": "論壇",
@@ -4114,6 +4188,10 @@
   "adminQueuePaused": "已暫停",
   "adminQueuePause": "暫停",
   "adminQueueResume": "恢復",
+  "adminQueuePauseConfirmMessage": "確認暫停隊列 {queue}？暫停之後後台任務會停止處理。",
+  "@adminQueuePauseConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "adminQueueResumeConfirmMessage": "確認恢復隊列 {queue}？",
+  "@adminQueueResumeConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
   "adminStatusActiveWorkers": "活躍 Worker",
   "adminStatusHealthyWorkers": "健康 Worker",
   "adminStatusTasksProcessed": "已處理",
@@ -4185,7 +4263,12 @@
   "adminUsersDisabled": "已停用",
   "adminUsersEnable": "啟用",
   "adminUsersDisable": "停用",
+  "adminUsersDisableConfirmMessage": "停用之後呢個用戶無法登入，已登入嘅工作階段會喺下次請求時被踢下線。",
+  "adminUsersDisableReasonLabel": "原因（會記入審計日誌）",
+  "adminUsersEnableConfirmMessage": "確認恢復呢個帳戶？恢復之後用戶可以即刻登入。",
   "adminUsersChangeRole": "修改角色",
+  "adminUsersRoleChangeConfirmMessage": "確認將角色由「{fromRole}」改為「{toRole}」？管理員角色可以管理所有用戶同內容。",
+  "@adminUsersRoleChangeConfirmMessage": {"placeholders": {"fromRole": {"type": "String"}, "toRole": {"type": "String"}}},
   "adminUsersRoleUpdated": "用戶角色已更新。",
   "adminUserForumStatusActive": "活躍",
   "adminUserForumStatusMuted": "已禁言",
@@ -4233,6 +4316,12 @@
   "adminForumBoardActivate": "啟用",
   "adminForumBoardDeactivate": "停用",
   "adminForumBoardArchive": "封存",
+  "adminForumBoardDeactivateConfirmMessage": "確認停用「{board}」？停用之後所有用戶都睇唔到。",
+  "@adminForumBoardDeactivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardActivateConfirmMessage": "確認重新啟用「{board}」？啟用之後所有用戶重新睇到。",
+  "@adminForumBoardActivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "adminForumBoardArchiveConfirmMessage": "確認封存「{board}」？封存之後會從版面列表移除。",
+  "@adminForumBoardArchiveConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
   "adminForumSettingsTitle": "論壇設定",
   "adminForumSettingsSubtitle": "上載、邀請同政策",
   "adminForumSettingsUpload": "上載",
@@ -4521,6 +4610,130 @@
   "courseMatchingCourseType": "課程類型",
   "courseMatchingMinCredits": "最小學分",
   "courseMatchingMaxCredits": "最大學分",
+  "courseMatchingAddSessions": "添加 {count} 堂課",
+  "@courseMatchingAddSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddedSessions": "已添加 {count} 堂課",
+  "@courseMatchingAddedSessions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAddSummary": "將跳過 {duplicates} 條重複 · {conflicts} 處衝突",
+  "@courseMatchingAddSummary": {
+    "placeholders": {
+      "duplicates": {
+        "type": "int"
+      },
+      "conflicts": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingTimetableName": "{term} 課程配對",
+  "@courseMatchingTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "courseMatchingConflictFreeOnly": "僅顯示無衝突",
+  "courseMatchingAdd": "添加",
+  "courseMatchingApply": "套用",
+  "courseMatchingReset": "重設",
+  "courseMatchingActiveFilters": "已啟用 {count} 項",
+  "@courseMatchingActiveFilters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseMatchingAllDays": "全部",
+  "courseMatchingCampus": "校區",
+  "courseMatchingBuilding": "教學樓",
+  "courseMatchingDepartment": "開課學院",
+  "courseMatchingTeacher": "教師",
+  "courseMatchingSectionRangeError": "起始節次唔可以大過結束節次。",
+  "courseMatchingCreditRangeError": "最小學分唔可以大過最大學分。",
+  "globalTimetableTermWithCount": "第 {term} 學期 · {count} 條",
+  "@globalTimetableTermWithCount": {
+    "placeholders": {
+      "term": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "globalTimetableHistory": "課程歷史",
+  "globalTimetableHistoryHint": "喺全部已發布學期中檢索，由新到舊。",
+  "globalTimetableHistoryEmpty": "冇符合嘅開課紀錄。",
+  "globalTimetableHistoryUnavailable": "而家伺服器端暫時唔支援課程歷史。",
+  "globalTimetableDownloads": "離線資料",
+  "globalTimetableDownloadsSummary": "已下載 {count} 個學期 · {size}",
+  "@globalTimetableDownloadsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmpty": "未下載過任何學期資料。",
+  "globalTimetableDownloadsHint": "學期檔案嚟自 WHU-Master-Timetable 檔案站；下載之後可以離線檢索該學期。",
+  "globalTimetableDownloadsRemoteInfo": "{count} 門課 · {size}",
+  "@globalTimetableDownloadsRemoteInfo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "globalTimetableDownloadsEmptySemester": "檔案中呢個學期無資料",
+  "globalTimetableDownloadFailed": "下載失敗",
+  "globalTimetableDeleteAll": "全部刪除",
+  "globalTimetableDeleteAllConfirm": "刪除本機全部已下載學期？",
+  "globalTimetableSourceMode": "資料來源",
+  "globalTimetableSourceAuto": "自動",
+  "globalTimetableSourceCloud": "雲端",
+  "globalTimetableSourceLocal": "本機",
+  "globalTimetableLocalMissing": "本機未下載呢個學期嘅資料。",
+  "globalTimetableNoSlot": "無時段",
+  "globalTimetableSearchHint": "課名 / 教師 / 課程號",
+  "globalTimetableEmpty": "呢個學期冇符合嘅課程。",
+  "globalTimetableDetailTitle": "課程詳情",
+  "globalTimetableDetailSlots": "上課時段",
+  "globalTimetableDetailInfo": "課程資訊",
+  "globalTimetableDetailCourseCode": "課程號",
+  "globalTimetableDetailTeachingClass": "教學班",
+  "globalTimetableDetailGroup": "分組",
+  "globalTimetableAddToTimetable": "加入課程表",
+  "globalTimetableAuditTimetableName": "蹭課",
+  "globalTimetableAuditTimetableOption": "新建「蹭課」課表",
+  "globalTimetableNoCalendar": "校曆資料唔可用，無法加入課程表。",
+  "globalTimetableAddFailed": "加入課程表失敗：{error}",
+  "@globalTimetableAddFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "adminControllableQueues": "受控任務隊列",
   "adminSystemQueues": "系統任務隊列",
   "luotopiaAccountViewLargeAvatar": "查看大頭像",
@@ -5280,6 +5493,8 @@
     }
   },
   "coremailSend": "發送",
+  "coremailSendConfirmMessage": "將發送給 {count} 位收件人：{recipients}。確認發送？",
+  "@coremailSendConfirmMessage": {"placeholders": {"count": {"type": "int"}, "recipients": {"type": "String"}}},
   "coremailRecipientsLabel": "收件人",
   "coremailRecipientsHint": "多個地址用逗號分隔",
   "coremailSubjectLabel": "主旨",
@@ -5400,6 +5615,8 @@
   "ebikeUnlockPriceValue": "起步 {floor} 元，之後 {time} 元/{timeUnit} 分鐘",
   "ebikeUnlockHelmet": "設有頭盔鎖",
   "ebikeUnlockStart": "解鎖用車",
+  "ebikeUnlockConfirmMessage": "確認解鎖車輛 {carId}？解鎖成功之後會即刻開始計費。",
+  "@ebikeUnlockConfirmMessage": {"placeholders": {"carId": {"type": "String"}}},
   "ebikeUnlockSuccess": "解鎖成功",
   "ebikeUnlockNeedRealName": "要先完成實名認證，請去官方小程式辦理。",
   "ebikeUnlockNeedFace": "今次用車要喺官方小程式完成人臉核驗。",
@@ -5452,6 +5669,9 @@
   "ebikeSettleNoParkingFee": "禁停區還車費",
   "ebikeSettleDiscount": "優惠減免",
   "ebikeSettlePayWallet": "餘額支付",
+  "ebikeSettlePayWalletConfirm": "確認用銀包餘額支付 {amount}？扣款之後無法撤銷。",
+  "@ebikeSettlePayWalletConfirm": {"placeholders": {"amount": {"type": "String"}}},
+  "ebikeSettlePayWalletConfirmUnknownAmount": "確認用銀包餘額支付目前帳單金額？扣款之後無法撤銷。",
   "ebikeSettlePaid": "支付成功",
   "ebikeSettleInsufficient": "餘額唔夠，請去官方小程式增值之後再畀錢。",
   "ebikeSettleMangoUnpaid": "仲有 {amount} 元未畀，請去小黃小程式完成支付。",
@@ -5587,5 +5807,86 @@
   "chaoxingLoginSuccess": "已綁定學習通帳號",
   "chaoxingLoginBadCredentials": "登入失敗：{message}",
   "chaoxingLoginCaptchaRequired": "伺服器要求人機驗證，請稍後再試，或者先喺官方 App 登入一次。",
-  "chaoxingOperationFailed": "操作失敗：{error}"
+  "chaoxingOperationFailed": "操作失敗：{error}",
+  "imageSaved": "已儲存",
+  "imageSaveFailed": "圖片儲存失敗",
+  "settingsLegalInfo": "法律資訊",
+  "settingsBasicInfo": "基本資訊",
+  "settingsVersionUpdate": "版本更新",
+  "settingsDiagLogSectionTitle": "診斷日誌",
+  "settingsDiagLogSectionDescription": "日誌僅保存在本機，可匯出用於回饋與排查問題",
+  "settingsDiagLogExportTitle": "匯出診斷日誌",
+  "settingsDiagLogExportSubtitle": "分享、複製或另存為檔案；包含本次和之前啟動的日誌",
+  "settingsDiagLogBufferTitle": "診斷日誌快取上限",
+  "settingsDiagLogBufferSubtitle": "{size} × 2 個滾動檔案，寫滿後丟棄最舊記錄",
+  "settingsDiagLogLevelTitle": "匯出日誌最低等級",
+  "settingsDiagLogClearTitle": "清空診斷日誌",
+  "settingsDiagLogClearSubtitle": "刪除已儲存的日誌檔案，包括之前啟動的記錄",
+  "settingsDiagLogLevelVerbose": "Verbose（包含已啟用的診斷追蹤）",
+  "settingsDiagLogLevelWarning": "Warning（警告和錯誤）",
+  "settingsDiagLogLevelError": "Error（僅錯誤）",
+  "settingsDiagLogExportSheetDescription": "{level}，共 {size}",
+  "settingsDiagLogShare": "分享",
+  "settingsDiagLogShareSubtitle": "以 .log 檔案分享，長文字不會被 IM 截斷",
+  "settingsDiagLogCopy": "複製",
+  "settingsDiagLogSaveAs": "另存為",
+  "settingsDiagLogCopied": "診斷日誌已複製到剪貼簿",
+  "settingsDiagLogSaved": "診斷日誌已儲存",
+  "settingsDiagLogExportFailed": "匯出診斷日誌失敗",
+  "settingsDiagLogReadFailed": "讀取診斷日誌失敗",
+  "settingsDiagLogEmpty": "暫時沒有可匯出的診斷日誌",
+  "settingsDiagLogCleared": "診斷日誌已清空",
+  "settingsDiagLogClearFailed": "清空診斷日誌失敗",
+  "settingsDiagLogClearConfirmMessage": "將刪除本次和之前啟動儲存的全部診斷日誌，操作無法撤銷。",
+  "settingsDiagLogClearAction": "清空",
+  "settingsDiagLogShareSubject": "Luotopia 診斷日誌",
+  "adminForumDashboardTitle": "資料看板",
+  "adminForumDashboardSubtitle": "使用者、貼文與留言統計",
+  "adminDashboardPeriodDay": "今日",
+  "adminDashboardPeriodWeek": "本週",
+  "adminDashboardPeriodMonth": "本月",
+  "adminDashboardTotalUsers": "註冊使用者",
+  "adminDashboardTodayUsers": "今日新增",
+  "adminDashboardTotalPosts": "貼文總數",
+  "adminDashboardTodayPosts": "今日發文",
+  "adminDashboardTotalComments": "留言總數",
+  "adminDashboardTodayComments": "今日留言",
+  "adminDashboardUsersChart": "使用者註冊趨勢",
+  "adminDashboardPostsChart": "發文趨勢",
+  "adminDashboardCommentsChart": "留言趨勢",
+  "legalOpenWebVersion": "開啟網頁版",
+  "globalTimetableContributionSubmitted": "貢獻任務已提交，正在背景處理",
+  "globalTimetableImportDismiss": "關閉提示",
+  "adminTaskCenterTitle": "任務中心",
+  "adminTaskCenterSubtitle": "背景任務、失敗重播與課表匯入的統一視圖",
+  "adminTaskCenterTabDurable": "背景任務",
+  "adminTaskCenterTabFailures": "失敗任務",
+  "adminTaskCenterTabImports": "課表匯入",
+  "adminTaskCenterEmpty": "尚無任務",
+  "adminTaskCenterStatusPending": "等待中",
+  "adminTaskCenterStatusRunning": "執行中",
+  "adminTaskCenterStatusSuccess": "成功",
+  "adminTaskCenterStatusFailed": "失敗",
+  "adminTaskCenterStatusCancelled": "已取消",
+  "adminTaskCenterStatusAll": "全部",
+  "adminTaskCenterStatusLabel": "狀態",
+  "adminTaskCenterProgressLabel": "進度",
+  "adminTaskCenterCreatedLabel": "建立時間",
+  "adminTaskCenterStartedLabel": "開始時間",
+  "adminTaskCenterCompletedLabel": "完成時間",
+  "adminTaskCenterErrorLabel": "錯誤",
+  "adminTaskCenterCancelTask": "取消任務",
+  "adminTaskCenterTaskCancelled": "任務已取消",
+  "adminTaskCenterActionFailed": "操作失敗",
+  "adminTaskCenterChildrenCount": "{count} 個子任務",
+  "adminTaskCenterRetryHint": "將重設為等待授權；需原貢獻者重新提交後才會繼續執行",
+  "adminTaskCenterRequeued": "已重設為等待授權",
+  "adminTaskCenterDeleted": "已刪除",
+  "adminTaskCenterReplayed": "已重新排隊",
+  "adminTaskCenterDeleteFailureConfirm": "刪除這筆失敗記錄？",
+  "adminTaskCenterDeleteJobConfirm": "刪除該匯入任務並釋放此學期？",
+  "adminTaskCenterContributor": "貢獻者",
+  "adminTaskCenterQueueLabel": "佇列",
+  "adminTaskCenterCreatedAt": "建立於 {time}",
+  "adminTaskCenterPhaseAwaitingAuth": "等待重新授權"
 }
