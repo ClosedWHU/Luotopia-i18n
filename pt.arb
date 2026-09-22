@@ -1,4 +1,19 @@
 {
+  "settingsAppLockTitle": "Proteção biométrica",
+  "settingsAppLockSubtitle": "Proteja notas, código de água, rede do campus e IA com sua digital ou rosto",
+  "appLockPolicyTitle": "Quando verificar novamente",
+  "appLockPolicyPerEntry": "Toda vez que eu entrar na página",
+  "appLockPolicyCooldown": "Dispensar reverificação durante um intervalo",
+  "appLockPolicySession": "Verificar uma vez, válido até reiniciar o app",
+  "appLockCooldownMinutes": "{minutes} min",
+  "appLockSharingTitle": "Desbloqueio compartilhado",
+  "appLockSharedUnlock": "Um desbloqueio abre todos os recursos protegidos",
+  "appLockSharedUnlockHint": "Quando ativo, uma única verificação abre todos os recursos protegidos dentro do período; quando inativo, cada recurso verifica separadamente.",
+  "appLockScopesTitle": "Recursos protegidos",
+  "appLockScopeScore": "Notas",
+  "appLockScopeWater": "Código de água",
+  "appLockScopeSchoolNet": "Rede do campus",
+  "appLockScopeAi": "Assistente de IA",
   "authVerificationSetUpPasskey": "Ainda sem Passkey? Vincule este dispositivo",
   "authLoginWithDeviceBiometric": "Entrar com a biometria deste dispositivo",
   "authDeviceBiometric": "Biometria deste dispositivo",
@@ -352,34 +367,34 @@
   "editorCoursePeriodEnd": "Período final",
   "editorCoursePeriodN": "Período {n}",
   "@editorCoursePeriodN": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "Período {n}\n{time}",
   "@editorCoursePeriodSingle": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "Períodos {from}-{to}\n{time}",
   "@editorCoursePeriodRange": {
-   "placeholders": {
-     "from": {
-       "type": "int"
+    "placeholders": {
+      "from": {
+        "type": "int"
       },
-     "to": {
-       "type": "int"
+      "to": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -387,9 +402,9 @@
   "editorCourseWeekEnd": "Semana final",
   "editorCourseWeekN": "Semana {n}",
   "@editorCourseWeekN": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       }
     }
   },
@@ -580,17 +595,17 @@
   "settingsLicensesSearchHint": "Pesquisar licenças",
   "licenseAuthor": "Autor: {author}",
   "@licenseAuthor": {
-   "placeholders": {
-     "author": {
-       "type": "String"
+    "placeholders": {
+      "author": {
+        "type": "String"
       }
     }
   },
   "licenseVersion": "Versão: {version}",
   "@licenseVersion": {
-   "placeholders": {
-     "version": {
-       "type": "String"
+    "placeholders": {
+      "version": {
+        "type": "String"
       }
     }
   },
@@ -709,9 +724,9 @@
   "sportsSelectTimeSlot": "Escolher horário",
   "sportsReservableSlotsCount": "{count} horários",
   "@sportsReservableSlotsCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -798,7 +813,13 @@
   "whuAccountSectionSession": "Sessão",
   "whuTotpSectionTitle": "Código do autenticador",
   "whuTotpCodeSubtitle": "Atualiza em {seconds}s · Toque para copiar",
-  "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
+  "@whuTotpCodeSubtitle": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "whuTotpEnable": "Ativar código do autenticador",
   "whuTotpEnableSubtitle": "Verifique por celular ou e-mail e salve a chave com segurança neste dispositivo",
   "whuTotpImport": "Inserir uma chave existente",
@@ -823,7 +844,13 @@
   "whuTotpCopied": "Código de verificação copiado",
   "whuTotpInvalidSecret": "Insira uma chave secreta Base32 válida",
   "whuTotpFailed": "Não foi possível concluir a configuração do autenticador: {message}",
-  "@whuTotpFailed": {"placeholders": {"message": {"type": "String"}}},
+  "@whuTotpFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "whuTotpWebsiteEnabled": "Ativado na WHU, mas nenhuma chave está salva neste dispositivo",
   "whuTotpWebsiteDisabled": "Não ativado na WHU",
   "whuTotpLocallySavedButUnbound": "O TOTP não está mais vinculado à WHU. O código salvo localmente pode ser inválido; ative-o novamente ou remova a chave local.",
@@ -841,14 +868,38 @@
   "whuTrustedDevicesEmpty": "Nenhum navegador confiável",
   "whuTrustedDevicesCurrent": "Login atual",
   "whuTrustedDevicesLoginTime": "Último login: {time}",
-  "@whuTrustedDevicesLoginTime": {"placeholders": {"time": {"type": "String"}}},
+  "@whuTrustedDevicesLoginTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "whuTrustedDevicesLimit": "Até {count} navegadores confiáveis",
-  "@whuTrustedDevicesLimit": {"placeholders": {"count": {"type": "int"}}},
+  "@whuTrustedDevicesLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "whuTrustedDevicesValidity": "Removido automaticamente após {days} dias de inatividade",
-  "@whuTrustedDevicesValidity": {"placeholders": {"days": {"type": "int"}}},
+  "@whuTrustedDevicesValidity": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "whuTrustedDevicesDelete": "Excluir dispositivo",
   "whuTrustedDevicesDeleteConfirm": "Excluir o navegador confiável “{name}”? Talvez seja necessária uma verificação multifator no próximo login.",
-  "@whuTrustedDevicesDeleteConfirm": {"placeholders": {"name": {"type": "String"}}},
+  "@whuTrustedDevicesDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "whuTrustedDevicesDeleted": "Navegador confiável excluído",
   "whuAccountRecentLogin": "Login recente",
   "whuAccountRecentVerification": "Verificação recente",
@@ -862,211 +913,211 @@
   "whuLoginWebViewLoading": "Carregando…",
   "whuLoginWebViewTitle": "Login WHU",
   "@editorDurationHourMinute": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       },
-     "minutes": {
-       "type": "int"
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-   "placeholders": {
-     "classroom": {
-       "type": "String"
+    "placeholders": {
+      "classroom": {
+        "type": "String"
       },
-     "section": {
-       "type": "int"
+      "section": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-   "placeholders": {
-     "sections": {
-       "type": "String"
+    "placeholders": {
+      "sections": {
+        "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-   "placeholders": {
-     "expanded": {
-       "type": "int"
+    "placeholders": {
+      "expanded": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-   "placeholders": {
-     "floor": {
-       "type": "String"
+    "placeholders": {
+      "floor": {
+        "type": "String"
       },
-     "available": {
-       "type": "int"
+      "available": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-   "placeholders": {
-     "section": {
-       "type": "int"
+    "placeholders": {
+      "section": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-   "placeholders": {
-     "week": {
-       "type": "String"
+    "placeholders": {
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-   "placeholders": {
-     "week": {
-       "type": "String"
+    "placeholders": {
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-   "placeholders": {
-     "day": {
-       "type": "String"
+    "placeholders": {
+      "day": {
+        "type": "String"
       },
-     "endDay": {
-       "type": "String"
+      "endDay": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-   "placeholders": {
-     "month": {
-       "type": "String"
+    "placeholders": {
+      "month": {
+        "type": "String"
       },
-     "week": {
-       "type": "String"
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       },
-     "month": {
-       "type": "String"
+      "month": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       },
-     "week": {
-       "type": "String"
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-   "placeholders": {
-     "start": {
-       "type": "String"
+    "placeholders": {
+      "start": {
+        "type": "String"
       },
-     "end": {
-       "type": "String"
+      "end": {
+        "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-   "placeholders": {
-     "start": {
-       "type": "String"
+    "placeholders": {
+      "start": {
+        "type": "String"
       },
-     "end": {
-       "type": "String"
+      "end": {
+        "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-   "placeholders": {
-     "weekday": {
-       "type": "String"
+    "placeholders": {
+      "weekday": {
+        "type": "String"
       }
     }
   },
   "@listCompletedSection": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "@settingsMinutesValue": {
-   "placeholders": {
-     "value": {
-       "type": "int"
+    "placeholders": {
+      "value": {
+        "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-   "placeholders": {
-     "value": {
-       "type": "int"
+    "placeholders": {
+      "value": {
+        "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseImportStatusImported": "Concluído: {count} itens, {currentWeek} nesta semana.",
   "@courseImportStatusImported": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "currentWeek": {
-       "type": "int"
+      "currentWeek": {
+        "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "Importados {count} itens para “{tableName}”.",
   "@courseImportSnackSuccess": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "tableName": {
-       "type": "String"
+      "tableName": {
+        "type": "String"
       }
     }
   },
@@ -1074,28 +1125,28 @@
   "courseImportGraduateTermsUnrecognized": "Não foi possível reconhecer os semestres retornados pelo sistema de pós-graduação.",
   "courseImportStatusFailed": "Falha na importação: {error}",
   "@courseImportStatusFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "Ano letivo {year}-{next}",
   "@courseImportAcademicYearLabel": {
-   "placeholders": {
-     "year": {
-       "type": "int"
+    "placeholders": {
+      "year": {
+        "type": "int"
       },
-     "next": {
-       "type": "int"
+      "next": {
+        "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "Sem. {semester}",
   "@courseImportSemesterLabel": {
-   "placeholders": {
-     "semester": {
-       "type": "int"
+    "placeholders": {
+      "semester": {
+        "type": "int"
       }
     }
   },
@@ -1106,9 +1157,9 @@
   "editorCourseNatureHint": "Natureza da disciplina (ex.: obrig./opt.)",
   "editorChangeScopeTitle": "Só este item ou todas as disciplinas “{title}”?",
   "@editorChangeScopeTitle": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1116,9 +1167,9 @@
   "editorChangeAllSameName": "Todas as disciplinas com o mesmo nome",
   "editorCourseSeriesSyncHint": "Alterações de nome, tipo e professor são sincronizadas com as {count} sessões do semestre",
   "@editorCourseSeriesSyncHint": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1130,9 +1181,9 @@
   "aiMemo": "Nota",
   "aiDraftReady": "Rascunho pronto: {title}",
   "@aiDraftReady": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1156,9 +1207,9 @@
   "aiClearConversationsWarning": "Todas as conversas de IA locais serão apagadas.",
   "aiConfirmationBatchTitle": "Confirmar {count} ações",
   "@aiConfirmationBatchTitle": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1171,8 +1222,6 @@
   "aiConfirmationDecline": "Cancelar",
   "aiConfirmationSubmit": "Enviar decisões",
   "aiConfirmationDecisionRequired": "Escolha aprovar ou cancelar para cada ação.",
-  "scorePagePrivacyLocked": "O histórico está protegido por bloqueio de privacidade",
-  "scorePageClickToUnlock": "Toque para desbloquear",
   "scorePageNoLocalScore": "Sem notas locais",
   "scorePageLoginHint": "Se não estiver logado, entre nas configurações.\nDepois toque no botão abaixo para buscar e sincronizar notas.",
   "scorePageSync": "Sincronizar",
@@ -1180,8 +1229,6 @@
   "scorePageTotalCredits": "Créditos totais",
   "scorePageGetFailed": "Falha ao obter notas",
   "scorePageSettings": "Configurações de notas",
-  "scorePageEnableBiometric": "Ativar bloqueio biométrico",
-  "scorePageBiometricHint": "Proteja suas notas com Face ID ou impressão digital",
   "scorePageGpaStandard": "Padrão de cálculo do GPA",
   "scorePageGpaStandardHint": "Ao trocar, o GPA total e por grupo é recalculado",
   "scorePageStandardWhu": "Padrão WHU 2021+",
@@ -1198,35 +1245,34 @@
   "scorePageTrendGpa": "Tendência do GPA por semestre",
   "scorePageSemesterLabel": "{year} - Semestre {semester}",
   "@scorePageSemesterLabel": {
-   "placeholders": {
-     "year": {
-       "type": "int"
+    "placeholders": {
+      "year": {
+        "type": "int"
       },
-     "semester": {
-       "type": "int"
+      "semester": {
+        "type": "int"
       }
     }
   },
-  "scorePageBiometricAuthFailed": "Falha na autenticação biométrica",
   "scorePageCourseInfo": "{type} · {credit} créditos · {instructor}",
   "@scorePageCourseInfo": {
-   "placeholders": {
-     "type": {
-       "type": "String"
+    "placeholders": {
+      "type": {
+        "type": "String"
       },
-     "credit": {
-       "type": "String"
+      "credit": {
+        "type": "String"
       },
-     "instructor": {
-       "type": "String"
+      "instructor": {
+        "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "GPA: {gpa}",
   "@scorePageGpaDisplay": {
-   "placeholders": {
-     "gpa": {
-       "type": "String"
+    "placeholders": {
+      "gpa": {
+        "type": "String"
       }
     }
   },
@@ -1235,9 +1281,9 @@
   "settingsDevModeActivated": "Modo desenvolvedor ativado! Você já pode usar as configurações de desenvolvedor.",
   "settingsDevModeTapCount": "Mais {count} toques para ativar o modo desenvolvedor",
   "@settingsDevModeTapCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1252,34 +1298,34 @@
   "hotUpdateTitle": "Gerenciamento de atualização instantânea",
   "hotUpdateManifestVersion": "Manifesto v{version}",
   "@hotUpdateManifestVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
+    "placeholders": {
+      "version": {
+        "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "Atualizado: {time}",
   "@hotUpdateUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "Nunca atualizado (usando o analisador integrado)",
   "hotUpdateLocalVersion": "Versão local v{version}",
   "@hotUpdateLocalVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
+    "placeholders": {
+      "version": {
+        "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-   "placeholders": {
-     "checksum": {
-       "type": "String"
+    "placeholders": {
+      "checksum": {
+        "type": "String"
       }
     }
   },
@@ -1299,9 +1345,9 @@
   "hotUpdateVersionMissing": "Ausente local · Remoto v{remote}",
   "hotUpdateLastFailure": "Última falha: {reason}",
   "@hotUpdateCheckComplete": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1331,9 +1377,9 @@
   "settingsNotificationChannelNotCreated": "Ainda não criado",
   "settingsNotificationChannelCurrent": "Atual: {level}",
   "@settingsNotificationChannelCurrent": {
-   "placeholders": {
-     "level": {
-       "type": "String"
+    "placeholders": {
+      "level": {
+        "type": "String"
       }
     }
   },
@@ -1352,9 +1398,9 @@
   "settingsClearCacheSubtitle": "Liberar arquivos temporários e dados em cache",
   "settingsCacheCleared": "Cache limpo: {size} liberados",
   "@settingsCacheCleared": {
-   "placeholders": {
-     "size": {
-       "type": "String"
+    "placeholders": {
+      "size": {
+        "type": "String"
       }
     }
   },
@@ -1364,18 +1410,18 @@
   "settingsDevSaveSuccess": "Salvo: URL do servidor atualizada",
   "settingsDevScanSuccess": "Servidor encontrado: {ip}:6262",
   "@settingsDevScanSuccess": {
-   "placeholders": {
-     "ip": {
-       "type": "String"
+    "placeholders": {
+      "ip": {
+        "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "Nenhum servidor API na porta 6262 na rede local",
   "settingsDevScanError": "Falha na varredura: {error}",
   "@settingsDevScanError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1408,9 +1454,9 @@
   "whuLoginVerifying": "Verificando o login…",
   "whuLoginVerificationFailed": "Falha ao verificar o login: {error}",
   "@whuLoginVerificationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1421,9 +1467,9 @@
   "libraryNoVenues": "Nenhum local disponível",
   "libraryLoadFailed": "Falha ao carregar: {error}",
   "@libraryLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1438,8 +1484,8 @@
   "globalTimetableLocalImportSuccess": "{count} entradas da grade horária foram salvas neste dispositivo.",
   "globalTimetableLocalImportFailed": "Não foi possível importar a grade horária geral da universidade para este dispositivo.",
   "globalTimetableLocalUnsupported": "A importação local da grade horária não está disponível nesta plataforma.",
-  "globalTimetableSourceLocal": "Dados locais",
-  "globalTimetableSourceCloud": "Dados na nuvem",
+  "globalTimetableSourceLocal": "Local",
+  "globalTimetableSourceCloud": "Nuvem",
   "globalTimetableSourceCloudUnavailable": "Não há dados na nuvem para este período",
   "globalTimetableContributionTitle": "Contribuir para o horário de toda a universidade",
   "globalTimetableContributionMessage": "Autorize o Luotopia com um ticket de uso único do WHU CAS. O processo do servidor importará {year}-{nextYear}, semestre {term}, diretamente do sistema acadêmico da WHU em segundo plano. Sua identidade da WHU deve corresponder àquela vinculada à sua conta do Luotopia.",
@@ -1464,33 +1510,33 @@
   "settingsAiConnectionSuccess": "Teste de conexão da IA bem-sucedido.",
   "settingsAiConnectionFailed": "Falha de conexão: {error}",
   "@settingsAiConnectionFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "Carregando {name}…",
   "@luojiaEcardLoading": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "Preparando {name}…",
   "@luojiaEcardPreparing": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
   "pagePreparationFailed": "Falha ao preparar a página: {error}",
   "@pagePreparationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1502,9 +1548,9 @@
   "whuCasServiceAuthFailed": "Falha na autorização do serviço. Entre de novo no CAS WHU.",
   "whuCasServiceRequestFailed": "Falha na solicitação de autorização do serviço: {error}",
   "@whuCasServiceRequestFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1512,25 +1558,25 @@
   "whuCasSessionExpired": "A sessão acadêmica expirou. Entre de novo.",
   "whuCasSessionVerifyFailed": "Falha ao verificar a sessão acadêmica: {error}",
   "@whuCasSessionVerifyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "Falha ao obter a conta acadêmica (HTTP {code}).",
   "@whuCasFetchFailed": {
-   "placeholders": {
-     "code": {
-       "type": "int"
+    "placeholders": {
+      "code": {
+        "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "Falha no login acadêmico: {reason}",
   "@whuCasLoginFailedReason": {
-   "placeholders": {
-     "reason": {
-       "type": "String"
+    "placeholders": {
+      "reason": {
+        "type": "String"
       }
     }
   },
@@ -1551,28 +1597,28 @@
   "gradesReviewsNoResults": "Nenhuma disciplina encontrada",
   "gradesReviewsSearchError": "Falha na busca: {error}",
   "@gradesReviewsSearchError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-   "placeholders": {
-     "uid": {
-       "type": "String"
+    "placeholders": {
+      "uid": {
+        "type": "String"
       },
-     "department": {
-       "type": "String"
+      "department": {
+        "type": "String"
       }
     }
   },
   "courseDetailTitle": "Detalhe da disciplina: {uid}",
   "@courseDetailTitle": {
-   "placeholders": {
-     "uid": {
-       "type": "String"
+    "placeholders": {
+      "uid": {
+        "type": "String"
       }
     }
   },
@@ -1580,33 +1626,33 @@
   "courseDetailReviewsTab": "Avaliações",
   "gradesReviewsSearchFailMessage": "Falha na busca: {message}",
   "@gradesReviewsSearchFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "Falha ao carregar a distribuição: {message}",
   "@gradesReviewsGradeStatsFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "Falha ao carregar avaliações: {message}",
   "@gradesReviewsReviewsFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "Grade {index}",
   "@courseTimetableDefaultName": {
-   "placeholders": {
-     "index": {
-       "type": "int"
+    "placeholders": {
+      "index": {
+        "type": "int"
       }
     }
   },
@@ -1616,9 +1662,9 @@
   "sportsReservationDayAfterTomorrow": "Depois de amanhã",
   "sportsVenueCourtFormat": "Quadra {areaNo}",
   "@sportsVenueCourtFormat": {
-   "placeholders": {
-     "areaNo": {
-       "type": "String"
+    "placeholders": {
+      "areaNo": {
+        "type": "String"
       }
     }
   },
@@ -1640,28 +1686,28 @@
   "sportsVenueFree": "Grátis",
   "sportsVenuePriceFormat": "{price} CNY",
   "@sportsVenuePriceFormat": {
-   "placeholders": {
-     "price": {
-       "type": "String"
+    "placeholders": {
+      "price": {
+        "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} CNY",
   "@sportsVenuePriceRangeFormat": {
-   "placeholders": {
-     "lowPrice": {
-       "type": "String"
+    "placeholders": {
+      "lowPrice": {
+        "type": "String"
       },
-     "highPrice": {
-       "type": "String"
+      "highPrice": {
+        "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value} CNY",
   "@sportsOrderPriceWithUnitFormat": {
-   "placeholders": {
-     "value": {
-       "type": "String"
+    "placeholders": {
+      "value": {
+        "type": "String"
       }
     }
   },
@@ -1690,58 +1736,58 @@
   "sportsFetchBulletins": "Obter avisos dos locais",
   "sportsNetworkError": "Falha em {action}: erro de rede.",
   "@sportsNetworkError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiHttpError": "Falha em {action} (HTTP {statusCode}).",
   "@sportsApiHttpError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "statusCode": {
-       "type": "int"
+      "statusCode": {
+        "type": "int"
       }
     }
   },
   "sportsApiFormatError": "Falha em {action}: formato de resposta inválido.",
   "@sportsApiFormatError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiError": "Falha em {action}.",
   "@sportsApiError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "Falha em {action}: {message}",
   "@sportsApiErrorWithMessage": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "message": {
-       "type": "String"
+      "message": {
+        "type": "String"
       }
     }
   },
   "sportsApiJsonError": "Falha em {action}: JSON inválido. {diagnostic}",
   "@sportsApiJsonError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "diagnostic": {
-       "type": "String"
+      "diagnostic": {
+        "type": "String"
       }
     }
   },
@@ -1752,9 +1798,9 @@
   "sportsApiDiagnosticNonJson": "Texto não JSON",
   "sportsApiDiagnosticResponseType": "Tipo de resposta: {kind}.",
   "@sportsApiDiagnosticResponseType": {
-   "placeholders": {
-     "kind": {
-       "type": "String"
+    "placeholders": {
+      "kind": {
+        "type": "String"
       }
     }
   },
@@ -1770,23 +1816,23 @@
   "scoreImportImportingCredential": "Baixando e analisando localmente a credencial eletrónica verificada…",
   "scoreImportSuccessWithCount": "{success}: {count} notas em cache local.",
   "@scoreImportSuccessWithCount": {
-   "placeholders": {
-     "success": {
-       "type": "String"
+    "placeholders": {
+      "success": {
+        "type": "String"
       },
-     "count": {
-       "type": "int"
+      "count": {
+        "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}: {error}",
   "@scoreImportFailedWithError": {
-   "placeholders": {
-     "failed": {
-       "type": "String"
+    "placeholders": {
+      "failed": {
+        "type": "String"
       },
-     "error": {
-       "type": "String"
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1794,27 +1840,27 @@
   "scoreImportNoStudentId": "ID de estudante da sessão global não encontrado",
   "scoreImportSpoilerSuccessWithCount": "{success}: obtidos {count} registros de notas do sistema de desenvolvimento profissional.",
   "@scoreImportSpoilerSuccessWithCount": {
-   "placeholders": {
-     "success": {
-       "type": "String"
+    "placeholders": {
+      "success": {
+        "type": "String"
       },
-     "count": {
-       "type": "int"
+      "count": {
+        "type": "int"
       }
     }
   },
   "scoreImportLastImport": "Última importação",
   "scoreImportExample": "Exemplo: {name} · {score} · {credit}",
   "@scoreImportExample": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       },
-     "score": {
-       "type": "String"
+      "score": {
+        "type": "String"
       },
-     "credit": {
-       "type": "String"
+      "credit": {
+        "type": "String"
       }
     }
   },
@@ -1825,20 +1871,20 @@
   "seatReservationDraftTitle": "Reserva de assento (biblioteca)",
   "seatReservationDraftDetails": "Fonte: reserva de assentos biblioteca WHU\nID assento: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-   "placeholders": {
-     "seatId": {
-       "type": "String"
+    "placeholders": {
+      "seatId": {
+        "type": "String"
       },
-     "marker": {
-       "type": "String"
+      "marker": {
+        "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "ID de sync da reserva: {sourceId}",
   "@seatReservationSourceMarker": {
-   "placeholders": {
-     "sourceId": {
-       "type": "String"
+    "placeholders": {
+      "sourceId": {
+        "type": "String"
       }
     }
   },
@@ -1860,9 +1906,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} mensagens",
   "@aiMessageCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1876,9 +1922,9 @@
   "aiHeaderRetryLater": "Serviço de IA temporariamente indisponível. Tente novamente mais tarde.",
   "aiHeaderDraftCreated": "Criado pela página de rascunho: {title}",
   "@aiHeaderDraftCreated": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1902,12 +1948,12 @@
   "whuAccountFallbackName": "Conta WHU",
   "homeWidgetDateLabel": "{month}/{day}",
   "@homeWidgetDateLabel": {
-   "placeholders": {
-     "month": {
-       "type": "int"
+    "placeholders": {
+      "month": {
+        "type": "int"
       },
-     "day": {
-       "type": "int"
+      "day": {
+        "type": "int"
       }
     }
   },
@@ -1920,17 +1966,17 @@
   "homeWidgetAllDay": "Dia inteiro",
   "homeWidgetUpdatedAt": "Atualizado {time}",
   "@homeWidgetUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "Semana {week}",
   "@homeWidgetWeekLabel": {
-   "placeholders": {
-     "week": {
-       "type": "int"
+    "placeholders": {
+      "week": {
+        "type": "int"
       }
     }
   },
@@ -1942,17 +1988,17 @@
   "weatherRainReminderTitle": "Alerta de chuva",
   "weatherBannerRainInMinutes": "Chuva em cerca de {minutes} min — leve o guarda-chuva.",
   "@weatherBannerRainInMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "Chuva em cerca de {hours} h — leve o guarda-chuva se sair.",
   "@weatherBannerRainInHours": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       }
     }
   },
@@ -1960,31 +2006,31 @@
   "weatherBannerRainTomorrow": "Chuva amanhã — leve o guarda-chuva se sair.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-   "placeholders": {
-     "value": {
-       "type": "String"
+    "placeholders": {
+      "value": {
+        "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-   "placeholders": {
-     "condition": {
-       "type": "String"
+    "placeholders": {
+      "condition": {
+        "type": "String"
       },
-     "minTemp": {
-       "type": "String"
+      "minTemp": {
+        "type": "String"
       },
-     "maxTemp": {
-       "type": "String"
+      "maxTemp": {
+        "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "Verificação auto (tentativa {attempt})…",
   "@scoreCaptchaRetrying": {
-   "placeholders": {
-     "attempt": {
-       "type": "int"
+    "placeholders": {
+      "attempt": {
+        "type": "int"
       }
     }
   },
@@ -2034,17 +2080,17 @@
   "campusBusLocationImpreciseTitle": "Localização imprecisa demais",
   "campusBusNearestStop": "Mais próxima: {stopName}",
   "@campusBusNearestStop": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
   "campusBusTargetStop": "Destino: {stopName}",
   "@campusBusTargetStop": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
@@ -2094,9 +2140,9 @@
   "settingsWeatherAqiStandard": "Padrão AQI",
   "libraryAuthFailed": "Falha de autorização: {error}",
   "@libraryAuthFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2108,18 +2154,18 @@
   "libraryCancelSuccess": "Reserva cancelada",
   "libraryCancelFailed": "Falha ao cancelar: {error}",
   "@libraryCancelFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "Check-out feito",
   "libraryCheckoutFailed": "Falha no check-out: {error}",
   "@libraryCheckoutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2128,40 +2174,40 @@
   "libraryNoRoomData": "Sem dados de salas",
   "libraryFloor": "Andar {floor}",
   "@libraryFloor": {
-   "placeholders": {
-     "floor": {
-       "type": "int"
+    "placeholders": {
+      "floor": {
+        "type": "int"
       }
     }
   },
   "libraryAvailable": "Disponível {free}/{total}",
   "@libraryAvailable": {
-   "placeholders": {
-     "free": {
-       "type": "int"
+    "placeholders": {
+      "free": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-   "placeholders": {
-     "building": {
-       "type": "String"
+    "placeholders": {
+      "building": {
+        "type": "String"
       },
-     "room": {
-       "type": "String"
+      "room": {
+        "type": "String"
       }
     }
   },
   "libraryNoSeatData": "Sem dados de assentos",
   "librarySeatLayoutFailed": "Falha ao carregar o mapa: {error}",
   "@librarySeatLayoutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2173,9 +2219,9 @@
   "libraryCaptchaLoadFailed": "Falha ao carregar o captcha. Tente novamente.",
   "libraryBookFailed": "Falha na reserva: {error}",
   "@libraryBookFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2192,9 +2238,9 @@
   "libraryTomorrow": "Amanhã",
   "emptyClassroomSelfStudyTitle": "Estudo · {location}",
   "@emptyClassroomSelfStudyTitle": {
-   "placeholders": {
-     "location": {
-       "type": "String"
+    "placeholders": {
+      "location": {
+        "type": "String"
       }
     }
   },
@@ -2204,12 +2250,12 @@
   "addToAgendaConfirm": "Adicionar",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-   "placeholders": {
-     "type": {
-       "type": "String"
+    "placeholders": {
+      "type": {
+        "type": "String"
       },
-     "venue": {
-       "type": "String"
+      "venue": {
+        "type": "String"
       }
     }
   },
@@ -2248,9 +2294,9 @@
   "settingsAiFetchModels": "Buscar modelos",
   "settingsAiFetchedCount": "{count} modelos obtidos",
   "@settingsAiFetchedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -2272,9 +2318,9 @@
   "ecardPaycodeRefreshNow": "Atualizar",
   "ecardPaycodeRefreshInSeconds": "Atualiza em {seconds}s",
   "@ecardPaycodeRefreshInSeconds": {
-   "placeholders": {
-     "seconds": {
-       "type": "int"
+    "placeholders": {
+      "seconds": {
+        "type": "int"
       }
     }
   },
@@ -2288,16 +2334,22 @@
   "waterControlCancelTitle": "Desativar este código?",
   "waterControlCancelMessage": "O código ativo de {dormitory} deixará de funcionar imediatamente.",
   "@waterControlCancelMessage": {
-   "placeholders": {
-     "dormitory": {
-       "type": "String"
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
       }
     }
   },
   "waterControlCancelConfirm": "Desativar",
   "waterControlRequestConfirmTitle": "Solicitar um código de água?",
   "waterControlRequestConfirmMessage": "Um código será gerado para {dormitory}. A água é cobrada pelo consumo enquanto a válvula estiver aberta.",
-  "@waterControlRequestConfirmMessage": {"placeholders": {"dormitory": {"type": "String"}}},
+  "@waterControlRequestConfirmMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
   "waterControlRequestConfirm": "Solicitar código",
   "waterControlCancelSuccess": "Código de acesso à água desativado",
   "waterControlCopied": "Código copiado",
@@ -2307,9 +2359,9 @@
   "waterControlAccountFallback": "Conta do cartão do campus",
   "waterControlUpdatedAt": "Atualizado às {time}",
   "@waterControlUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -2319,12 +2371,12 @@
   "waterControlExpiryUnknown": "O horário de expiração deste código ativo não está disponível",
   "waterControlExpiresIn": "Cerca de {hours} h {minutes} min restantes",
   "@waterControlExpiresIn": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       },
-     "minutes": {
-       "type": "int"
+      "minutes": {
+        "type": "int"
       }
     }
   },
@@ -2346,9 +2398,9 @@
   "waterControlSearchDormitory": "Buscar por nome ou ClassNo",
   "waterControlDormitoryCount": "{count} locais",
   "@waterControlDormitoryCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -2373,9 +2425,9 @@
   "studyStatusFetchFailed": "Falha ao buscar dados",
   "studyStatusStatsTime": "Estatísticas até {time}",
   "@studyStatusStatsTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -2389,83 +2441,83 @@
   "studyStatusOutOfPlan": "Fora do plano",
   "studyStatusTotalCourses": "{count} disciplinas",
   "@studyStatusTotalCourses": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "Aprovadas {count}",
   "@studyStatusPassedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "Reprovadas {count}",
   "@studyStatusFailedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "Em andamento {count}",
   "@studyStatusStudyingCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "Exigidos {credits} créditos",
   "@studyStatusRequiredCredits": {
-   "placeholders": {
-     "credits": {
-       "type": "String"
+    "placeholders": {
+      "credits": {
+        "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "Obtidos {credits} créditos",
   "@studyStatusEarnedCredits": {
-   "placeholders": {
-     "credits": {
-       "type": "String"
+    "placeholders": {
+      "credits": {
+        "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "Sem dados de disciplinas",
   "studyStatusCredits": "{credit} créditos",
   "@studyStatusCredits": {
-   "placeholders": {
-     "credit": {
-       "type": "String"
+    "placeholders": {
+      "credit": {
+        "type": "String"
       }
     }
   },
   "studyStatusRetake": "Repetir",
   "studyStatusScorePoints": "{score} pontos",
   "@studyStatusScorePoints": {
-   "placeholders": {
-     "score": {
-       "type": "Object"
+    "placeholders": {
+      "score": {
+        "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "Original {score} pts",
   "@studyStatusOriginalScore": {
-   "placeholders": {
-     "score": {
-       "type": "Object"
+    "placeholders": {
+      "score": {
+        "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "GP {point}",
   "@studyStatusGradePoint": {
-   "placeholders": {
-     "point": {
-       "type": "Object"
+    "placeholders": {
+      "point": {
+        "type": "Object"
       }
     }
   },
@@ -2537,9 +2589,9 @@
   "onboardingPermissionSkipTitle": "Ignorar permissões?",
   "onboardingPermissionSkipMessage": "Sem {permissions}, algumas funções ficarão indisponíveis. Pode concedê-las mais tarde.",
   "@onboardingPermissionSkipMessage": {
-   "placeholders": {
-     "permissions": {
-       "type": "String"
+    "placeholders": {
+      "permissions": {
+        "type": "String"
       }
     }
   },
@@ -2560,9 +2612,9 @@
   "settingsDevRestartOnboardingAction": "Reiniciar",
   "onboardingPermissionRequestFailed": "Não foi possível obter {permission}",
   "@onboardingPermissionRequestFailed": {
-   "placeholders": {
-     "permission": {
-       "type": "String"
+    "placeholders": {
+      "permission": {
+        "type": "String"
       }
     }
   },
@@ -2664,17 +2716,17 @@
   "scoreTranscriptNoTemplates": "Não há modelos de histórico escolar disponíveis para esta conta.",
   "scoreTranscriptLoadFailed": "Falha ao carregar os tipos de histórico escolar: {error}",
   "@scoreTranscriptLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "Falha ao obter a credencial eletrônica verificada: {error}",
   "@scoreTranscriptFetchFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2705,9 +2757,9 @@
   "authMfaTitle": "Autenticação em dois fatores",
   "authMfaEmailSent": "Um código foi enviado para {email}",
   "@authMfaEmailSent": {
-   "placeholders": {
-     "email": {
-       "type": "String"
+    "placeholders": {
+      "email": {
+        "type": "String"
       }
     }
   },
@@ -2769,9 +2821,9 @@
   "commonLoadingMore": "Carregando…",
   "commonLoadFailed": "Falha ao carregar: {error}",
   "@commonLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2824,9 +2876,9 @@
   "authApiCredentialSaved": "Já salvei",
   "authApiCredentialCreateFailed": "Falha ao criar credencial: {error}",
   "@authApiCredentialCreateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2834,12 +2886,12 @@
   "authApiCredentialUnnamed": "Sem nome",
   "authApiCredentialStatus": "Status: {status} · Criada em {date}",
   "@authApiCredentialStatus": {
-   "placeholders": {
-     "status": {
-       "type": "String"
+    "placeholders": {
+      "status": {
+        "type": "String"
       },
-     "date": {
-       "type": "String"
+      "date": {
+        "type": "String"
       }
     }
   },
@@ -2848,12 +2900,18 @@
   "authApiCredentialRevoke": "Revogar",
   "authApiCredentialRevokeConfirmTitle": "Revogar a credencial?",
   "authApiCredentialRevokeConfirmMessage": "As integrações que usam {name} param de funcionar imediatamente e a credencial não poderá ser restaurada. Antes, será solicitada mais uma verificação de identidade.",
-  "@authApiCredentialRevokeConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
+  "@authApiCredentialRevokeConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialRevokeFailed": "Falha ao revogar credencial: {error}",
   "@authApiCredentialRevokeFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2874,15 +2932,15 @@
   "authSessionsTrustUnknown": "Sem dados de ambiente (plataforma sem suporte ou cliente antigo)",
   "authSessionsDetails": "IP: {ip}\nÚltima atividade: {lastActive}\nLogin em: {signedIn}",
   "@authSessionsDetails": {
-   "placeholders": {
-     "ip": {
-       "type": "String"
+    "placeholders": {
+      "ip": {
+        "type": "String"
       },
-     "lastActive": {
-       "type": "String"
+      "lastActive": {
+        "type": "String"
       },
-     "signedIn": {
-       "type": "String"
+      "signedIn": {
+        "type": "String"
       }
     }
   },
@@ -2890,9 +2948,9 @@
   "authSessionsSignOutSucceeded": "Sessão do dispositivo encerrada",
   "authSessionsSignOutFailed": "Falha ao encerrar sessão do dispositivo: {error}",
   "@authSessionsSignOutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2900,46 +2958,52 @@
   "authPasskeyDeviceName": "Nome do dispositivo",
   "authPasskeyRegisterFailed": "Falha ao registrar Passkey: {error}",
   "@authPasskeyRegisterFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authPasskeysDescription": "{count} registrada(s). As Passkeys usam a autenticação biométrica do sistema do seu dispositivo.",
   "@authPasskeysDescription": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "Registre uma chave biométrica em um dispositivo compatível",
   "authPasskeyCreatedAt": "Criada em {date}",
   "@authPasskeyCreatedAt": {
-   "placeholders": {
-     "date": {
-       "type": "String"
+    "placeholders": {
+      "date": {
+        "type": "String"
       }
     }
   },
   "authPasskeyDelete": "Excluir",
   "authPasskeyDeleteConfirmTitle": "Excluir a chave de acesso?",
   "authPasskeyDeleteConfirmMessage": "{name} não poderá mais verificar sua identidade e será solicitada mais uma verificação antes da remoção. Isso não pode ser desfeito.",
-  "@authPasskeyDeleteConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
+  "@authPasskeyDeleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Falha ao excluir Passkey: {error}",
   "@authPasskeyDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authOperationFailed": "Falha na operação: {error}",
   "@authOperationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2948,17 +3012,17 @@
   "authWhuBindingSucceeded": "Conta vinculada",
   "authWhuBindingFailed": "Falha ao vincular conta: {error}",
   "@authWhuBindingFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "Vincular a conta Luotopia atual ({studentId})",
   "@authWhuBindingCurrent": {
-   "placeholders": {
-     "studentId": {
-       "type": "String"
+    "placeholders": {
+      "studentId": {
+        "type": "String"
       }
     }
   },
@@ -2967,9 +3031,9 @@
   "authWhuUnbindingSucceeded": "Vínculo da conta removido",
   "authWhuUnbindingFailed": "Falha ao desvincular conta: {error}",
   "@authWhuUnbindingFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2990,10 +3054,22 @@
   "authDeleteAccountConsequenceSessions": "Todos os dispositivos serão desconectados imediatamente.",
   "authDeleteAccountConsequenceIrreversible": "Isso não pode ser desfeito — a conta não poderá ser restaurada.",
   "authDeleteAccountPhraseLabel": "Digite {phrase} para confirmar",
-  "@authDeleteAccountPhraseLabel": {"placeholders": {"phrase": {"type": "String"}}},
+  "@authDeleteAccountPhraseLabel": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      }
+    }
+  },
   "authDeleteAccountPhrase": "EXCLUIR",
   "authDeleteAccountCooldown": "Disponível em {seconds}s",
-  "@authDeleteAccountCooldown": {"placeholders": {"seconds": {"type": "int"}}},
+  "@authDeleteAccountCooldown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "authDeleteAccountSuccess": "Conta excluída",
   "authDeleteAccount2faRequired": "Sua conta tem autenticação em dois fatores (2FA) ativada — verifique com outro método.",
   "authDeleteAccount": "Excluir conta",
@@ -3001,9 +3077,9 @@
   "authDeleteAccountConfirm": "Excluir conta",
   "authDeleteAccountFailed": "Falha ao excluir conta: {error}",
   "@authDeleteAccountFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3020,9 +3096,9 @@
   "authBio": "Biografia",
   "authProfileUpdateFailed": "Falha ao atualizar perfil: {error}",
   "@authProfileUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3031,9 +3107,9 @@
   "authPasswordChanged": "Senha alterada. Entre novamente.",
   "authPasswordChangeFailed": "Falha ao alterar senha: {error}",
   "@authPasswordChangeFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3043,9 +3119,9 @@
   "authRegistrationBindWhuAccount": "Vincular uma conta WHU",
   "authPasswordMinLength": "A senha deve ter pelo menos {count} caracteres",
   "@authPasswordMinLength": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3079,16 +3155,16 @@
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "@courseGradeStatsSamples": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3113,9 +3189,9 @@
   "courseReviewsWrite": "Escrever avaliação anônima",
   "courseReviewsAnonymousStudent": "Estudante anônimo · {semester}",
   "@courseReviewsAnonymousStudent": {
-   "placeholders": {
-     "semester": {
-       "type": "String"
+    "placeholders": {
+      "semester": {
+        "type": "String"
       }
     }
   },
@@ -3124,9 +3200,9 @@
   "courseReviewsRating": "Classificação",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-   "placeholders": {
-     "rating": {
-       "type": "String"
+    "placeholders": {
+      "rating": {
+        "type": "String"
       }
     }
   },
@@ -3134,25 +3210,25 @@
   "courseReviewsSubmitted": "Avaliação enviada e será exibida após aprovação.",
   "courseReviewsSubmitFailed": "Falha ao enviar avaliação: {error}",
   "@courseReviewsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "{count} disciplinas elegíveis sincronizadas.",
   "@courseReviewsSyncSucceeded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "Falha ao sincronizar: {error}",
   "@courseReviewsSyncFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3162,9 +3238,9 @@
   "forumSelectedBoardUnavailable": "Selecione uma seção disponível.",
   "forumBoardShelter": "Abrigo {name}",
   "@forumBoardShelter": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3175,9 +3251,9 @@
   "forumPublish": "Publicar",
   "forumPublishFailed": "Falha ao publicar: {error}",
   "@forumPublishFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3193,9 +3269,9 @@
   "authPasswordResetEmail": "E-mail",
   "authPasswordResetSendFailed": "Falha ao enviar: {error}",
   "@authPasswordResetSendFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3206,9 +3282,9 @@
   "courseReviewsStatusRejected": "Rejeitada",
   "courseReviewsRejectionReason": "Observação da avaliação: {reason}",
   "@courseReviewsRejectionReason": {
-   "placeholders": {
-     "reason": {
-       "type": "String"
+    "placeholders": {
+      "reason": {
+        "type": "String"
       }
     }
   },
@@ -3218,18 +3294,18 @@
   "courseReviewsDeleted": "Avaliação excluída.",
   "courseReviewsDeleteFailed": "Falha ao excluir avaliação: {error}",
   "@courseReviewsDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "Avaliação atualizada e enviada novamente para análise.",
   "courseReviewsUpdateFailed": "Falha ao atualizar avaliação: {error}",
   "@courseReviewsUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3250,11 +3326,11 @@
   "forumDraftSaved": "Rascunho salvo",
   "forumDraftSaveFailed": "Não foi possível salvar o rascunho: {error}",
   "@forumDraftSaveFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumDraftEmpty": "Nenhum rascunho ainda",
   "forumDraftEmptyHint": "Escolha “Salvar rascunho” ao sair do editor sem publicar.",
@@ -3264,21 +3340,21 @@
   "forumDraftDeleted": "Rascunho excluído",
   "forumDraftDeleteFailed": "Não foi possível excluir o rascunho: {error}",
   "@forumDraftDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumDraftPublished": "Rascunho publicado",
   "forumDraftEditTitle": "Editar rascunho",
   "forumDraftLastEdited": "Editado {time}",
   "@forumDraftLastEdited": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
   },
   "forumUnsavedChangesTitle": "Alterações não salvas",
   "forumUnsavedChangesMessage": "Publicar esta publicação, mantê-la como rascunho ou descartá-la?",
@@ -3295,11 +3371,11 @@
   "forumUserFollowingTab": "Seguindo",
   "forumUserJoinedAt": "Entrou em {date}",
   "@forumUserJoinedAt": {
-   "placeholders": {
-     "date": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
   },
   "forumUserContentEmpty": "Nada publicado ainda.",
   "forumUserCommentsEmpty": "Nenhum comentário ainda.",
@@ -3320,11 +3396,11 @@
   "forumPrivacyUpdated": "Configurações de privacidade atualizadas",
   "forumPrivacyUpdateFailed": "Não foi possível atualizar as configurações de privacidade: {error}",
   "@forumPrivacyUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumFollow": "Seguir",
   "forumUnfollow": "Deixar de seguir",
@@ -3334,58 +3410,58 @@
   "forumFollowsYou": "Segue você",
   "forumFollowFailed": "Não foi possível seguir: {error}",
   "@forumFollowFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumUnfollowFailed": "Não foi possível deixar de seguir: {error}",
   "@forumUnfollowFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumBlock": "Bloquear",
   "forumUnblock": "Desbloquear",
   "forumBlockedBadge": "Bloqueado",
   "forumBlockConfirmTitle": "Bloquear {nickname}?",
   "@forumBlockConfirmTitle": {
-   "placeholders": {
-     "nickname": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
   },
   "forumBlockConfirmMessage": "Vocês dois deixarão de se seguir e nenhum poderá enviar mensagens ao outro.",
   "forumBlockDone": "Bloqueado",
   "forumUnblockDone": "Desbloqueado",
   "forumBlockFailed": "Não foi possível bloquear este usuário: {error}",
   "@forumBlockFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumUnblockFailed": "Não foi possível desbloquear este usuário: {error}",
   "@forumUnblockFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumRemoveFollower": "Remover seguidor",
   "forumRemoveFollowerConfirmTitle": "Remover {nickname} dos seus seguidores?",
   "@forumRemoveFollowerConfirmTitle": {
-   "placeholders": {
-     "nickname": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
   },
   "forumRemoveFollowerConfirmMessage": "A pessoa deixará de seguir você. Ela não é avisada e pode voltar a seguir.",
   "forumFollowerRemoved": "Seguidor removido",
@@ -3395,11 +3471,11 @@
   "forumRelationListEmpty": "Ninguém aqui ainda.",
   "forumRelationListFailed": "Não foi possível carregar esta lista: {error}",
   "@forumRelationListFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumMessagesTitle": "Mensagens",
   "forumMessagesEntrySubtitle": "Mensagens diretas com pessoas que vocês se seguem mutuamente",
@@ -3412,11 +3488,11 @@
   "forumChatBlocked": "Mensagens não estão disponíveis entre vocês dois.",
   "forumChatSendFailed": "Mensagem não enviada: {error}",
   "@forumChatSendFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumChatLoadEarlier": "Carregar mensagens anteriores",
   "forumSendMessage": "Enviar mensagem",
@@ -3425,9 +3501,9 @@
   "forumShelterPrivacyDescription": "Seu pseudônimo permanece consistente apenas neste tópico. Nenhum avatar ou perfil é exibido, e esta publicação expira após 24 horas.",
   "forumShelterExpiresIn": "Expira em {time}",
   "@forumShelterExpiresIn": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3440,91 +3516,91 @@
   "forumReportSubmitted": "Denúncia enviada.",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaAuthorMeta": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "karma": {
-       "type": "int"
+      "karma": {
+        "type": "int"
       }
     }
   },
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "title": {
-       "type": "String"
+      "title": {
+        "type": "String"
       }
     }
   },
   "@forumKarmaAuthorMetaWithTitle": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "title": {
-       "type": "String"
+      "title": {
+        "type": "String"
       },
-     "karma": {
-       "type": "int"
+      "karma": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaBudgetLine": {
-   "placeholders": {
-     "up": {
-       "type": "int"
+    "placeholders": {
+      "up": {
+        "type": "int"
       },
-     "down": {
-       "type": "int"
+      "down": {
+        "type": "int"
       }
     }
   },
   "@forumCheckinFixed": {
-   "placeholders": {
-     "amount": {
-       "type": "int"
+    "placeholders": {
+      "amount": {
+        "type": "int"
       }
     }
   },
   "@forumCheckinSuccess": {
-   "placeholders": {
-     "amount": {
-       "type": "int"
+    "placeholders": {
+      "amount": {
+        "type": "int"
       },
-     "streak": {
-       "type": "int"
+      "streak": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaNextLevel": {
-   "placeholders": {
-     "karma": {
-       "type": "int"
+    "placeholders": {
+      "karma": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaStreakLine": {
-   "placeholders": {
-     "streak": {
-       "type": "int"
+    "placeholders": {
+      "streak": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaAdminSuccess": {
-   "placeholders": {
-     "karma": {
-       "type": "int"
+    "placeholders": {
+      "karma": {
+        "type": "int"
       }
     }
   },
@@ -3583,18 +3659,18 @@
   "campusLayoutDragHint": "Arraste aplicativos para reordenar ou criar pastas",
   "campusLayoutColumns": "{count} por linha",
   "@campusLayoutColumns": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "Substituir cursos modificados?",
   "courseImportOverwriteModifiedMessage": "{count} cursos deste semestre foram modificados manualmente. Continuar a importação substituirá essas alterações.",
   "@courseImportOverwriteModifiedMessage": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3603,9 +3679,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "Revisar individualmente",
   "courseImportModifiedRecordMessage": "Ocorrência de curso modificada: {time}\nEscolha como tratar este registro.",
   "@courseImportModifiedRecordMessage": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3623,9 +3699,9 @@
   "detailStatusInactive": "Conclusão não acompanhada",
   "detailConflictWithItems": "Há sobreposição com {items}. Você ainda pode salvar.",
   "@detailConflictWithItems": {
-   "placeholders": {
-     "items": {
-       "type": "String"
+    "placeholders": {
+      "items": {
+        "type": "String"
       }
     }
   },
@@ -3635,9 +3711,9 @@
   "editorCompletionModeNone": "Somente exibir",
   "editorConflictWithItems": "Há sobreposição com {items}. Você ainda pode salvar.",
   "@editorConflictWithItems": {
-   "placeholders": {
-     "items": {
-       "type": "String"
+    "placeholders": {
+      "items": {
+        "type": "String"
       }
     }
   },
@@ -3645,9 +3721,9 @@
   "commonOk": "OK",
   "whuAccountEducationalYearsValue": "{years} anos",
   "@whuAccountEducationalYearsValue": {
-   "placeholders": {
-     "years": {
-       "type": "int"
+    "placeholders": {
+      "years": {
+        "type": "int"
       }
     }
   },
@@ -3656,9 +3732,9 @@
   "addTimetable": "Adicionar horário",
   "addToTimetable": "Adicionar a {name}",
   "@addToTimetable": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3676,9 +3752,9 @@
   "exportTimetable": "Exportar horário",
   "homeTimeBlock": "Bloco {index}",
   "@homeTimeBlock": {
-   "placeholders": {
-     "index": {
-       "type": "String"
+    "placeholders": {
+      "index": {
+        "type": "String"
       }
     }
   },
@@ -3723,41 +3799,41 @@
   "notificationScheduleIncomplete": "Horário não concluído",
   "notificationStartsInFifteenMinutes": "Começa em 15 minutos · {time}",
   "@notificationStartsInFifteenMinutes": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "Começa em 5 minutos · {time}",
   "@notificationStartsInFiveMinutes": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "Começa em 1 hora · {time}",
   "@notificationStartsInOneHour": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsSoon": "Começa em breve · {time}",
   "@notificationStartsSoon": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationTomorrow": "Amanhã · {time}",
   "@notificationTomorrow": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3773,9 +3849,9 @@
   "separate": "Separar",
   "separatedTimetableName": "{name} (separado)",
   "@separatedTimetableName": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3785,9 +3861,9 @@
   "shiguangFileImportDescription": "Importe um arquivo JSON de horário do Shiguang",
   "shiguangImportFailed": "Falha ao importar o horário do Shiguang: {error}",
   "@shiguangImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3803,9 +3879,9 @@
   "starlinkImportDescription": "Importe um horário do Starlink de um arquivo JSON ou código de compartilhamento",
   "starlinkImportFailed": "Falha ao importar o horário do Starlink: {error}",
   "@starlinkImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3816,18 +3892,18 @@
   "starlinkTimetableShareCode": "Código de compartilhamento de horário do Starlink",
   "timetableDetails": "Semestre: {term}\nImportado: {importedAt}\nAtualizado: {updatedAt}\nFonte: {source}",
   "@timetableDetails": {
-   "placeholders": {
-     "term": {
-       "type": "String"
+    "placeholders": {
+      "term": {
+        "type": "String"
       },
-     "importedAt": {
-       "type": "String"
+      "importedAt": {
+        "type": "String"
       },
-     "updatedAt": {
-       "type": "String"
+      "updatedAt": {
+        "type": "String"
       },
-     "source": {
-       "type": "String"
+      "source": {
+        "type": "String"
       }
     }
   },
@@ -3839,9 +3915,9 @@
   "timetableRepairWeekExpansionNone": "Nenhuma disciplina precisa de reparo.",
   "timetableImportFailed": "Falha ao importar o horário: {error}",
   "@timetableImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3856,9 +3932,9 @@
   "wakeupFileImportDescription": "Importe um arquivo CSV ou de horário do Wakeup",
   "wakeupImportFailed": "Falha ao importar o horário do Wakeup: {error}",
   "@wakeupImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3869,9 +3945,9 @@
   "webViewLoadingPage": "Carregando página...",
   "webViewPreparationFailed": "Falha ao preparar a página: {error}",
   "@webViewPreparationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3958,9 +4034,9 @@
   "authRegisteredDevicesEmpty": "Não existem dispositivos registados.",
   "authRegisteredDeviceLastSeen": "Último registro: {time}",
   "@authRegisteredDeviceLastSeen": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -4040,40 +4116,40 @@
   "settingsCourseReminderUseDefault": "Usar padrão do grupo ({minutes} min)",
   "settingsCourseReminderCustom": "Personalizado: {minutes} min",
   "@listDeleteSelectedConfirmMessage": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
@@ -4085,9 +4161,9 @@
   "campusBusArrivalStop": "Paragem",
   "campusBusArrivalUseNearest": "Usar a mais próxima: {stopName}",
   "@campusBusArrivalUseNearest": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
@@ -4095,9 +4171,9 @@
   "campusBusArrivalReminder": "Lembrete de chegada",
   "campusBusArrivalEnabledTarget": "A lembrar: {targetText}",
   "@campusBusArrivalEnabledTarget": {
-   "placeholders": {
-     "targetText": {
-       "type": "String"
+    "placeholders": {
+      "targetText": {
+        "type": "String"
       }
     }
   },
@@ -4309,9 +4385,21 @@
   "adminQueuePause": "Pausar",
   "adminQueueResume": "Retomar",
   "adminQueuePauseConfirmMessage": "Pausar a fila {queue}? Os trabalhos em segundo plano deixarão de ser processados.",
-  "@adminQueuePauseConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "@adminQueuePauseConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminQueueResumeConfirmMessage": "Retomar a fila {queue}?",
-  "@adminQueueResumeConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "@adminQueueResumeConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminStatusActiveWorkers": "Workers ativos",
   "adminStatusHealthyWorkers": "Workers saudáveis",
   "adminStatusTasksProcessed": "Processadas",
@@ -4321,9 +4409,9 @@
   "adminStatusNoWorkers": "Nenhum Worker online",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-   "placeholders": {
-     "index": {
-       "type": "int"
+    "placeholders": {
+      "index": {
+        "type": "int"
       }
     }
   },
@@ -4388,7 +4476,16 @@
   "adminUsersEnableConfirmMessage": "Reativar esta conta? O usuário poderá entrar imediatamente de novo.",
   "adminUsersChangeRole": "Alterar função",
   "adminUsersRoleChangeConfirmMessage": "Alterar a função de {fromRole} para {toRole}? Funções de administrador podem gerenciar todos os usuários e conteúdos.",
-  "@adminUsersRoleChangeConfirmMessage": {"placeholders": {"fromRole": {"type": "String"}, "toRole": {"type": "String"}}},
+  "@adminUsersRoleChangeConfirmMessage": {
+    "placeholders": {
+      "fromRole": {
+        "type": "String"
+      },
+      "toRole": {
+        "type": "String"
+      }
+    }
+  },
   "adminUsersRoleUpdated": "Função do usuário atualizada.",
   "adminUserForumStatusActive": "Ativo",
   "adminUserForumStatusMuted": "Silenciado",
@@ -4437,11 +4534,29 @@
   "adminForumBoardDeactivate": "Desativar",
   "adminForumBoardArchive": "Arquivar",
   "adminForumBoardDeactivateConfirmMessage": "Desativar {board}? A seção ficará oculta para todos os usuários.",
-  "@adminForumBoardDeactivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardDeactivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumBoardActivateConfirmMessage": "Reativar {board}? A seção voltará a ficar visível para todos os usuários.",
-  "@adminForumBoardActivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardActivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumBoardArchiveConfirmMessage": "Arquivar {board}? A seção será removida da lista.",
-  "@adminForumBoardArchiveConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardArchiveConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumSettingsTitle": "Configurações do fórum",
   "adminForumSettingsSubtitle": "Carregamentos, convites e políticas",
   "adminForumSettingsUpload": "Carregamentos",
@@ -4522,12 +4637,12 @@
   "aiConfirmationInputSource": "Origem da informação (web não confiável): {source}",
   "aiConfirmationAutoApproved": "{count} ações confirmadas automaticamente ({mode})",
   "@aiConfirmationAutoApproved": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "mode": {
-       "type": "String"
+      "mode": {
+        "type": "String"
       }
     }
   },
@@ -4680,9 +4795,9 @@
   "courseMatchingNoConflicts": "Sem conflito de horário",
   "courseMatchingConflictsCount": "{count} conflitos de horário",
   "@courseMatchingConflictsCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -4793,8 +4908,6 @@
   "globalTimetableDeleteAllConfirm": "Excluir todos os semestres baixados deste dispositivo?",
   "globalTimetableSourceMode": "Fonte",
   "globalTimetableSourceAuto": "Auto",
-  "globalTimetableSourceCloud": "Nuvem",
-  "globalTimetableSourceLocal": "Local",
   "globalTimetableLocalMissing": "Este semestre ainda não está disponível offline.",
   "globalTimetableNoSlot": "Sem horário",
   "globalTimetableSearchHint": "Curso, professor ou código",
@@ -4830,25 +4943,25 @@
   "majorInfoLegendOver10": "Mais de 10%",
   "courseWeekRangeAll": "Semanas {range}",
   "@courseWeekRangeAll": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "Semanas {range} (Ímpar)",
   "@courseWeekRangeOdd": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "Semanas {range} (Par)",
   "@courseWeekRangeEven": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
@@ -4863,9 +4976,9 @@
   "whuSmartCampusAuthFailedCasRequired": "Falha na autorização do Smart Luojia. Faça login novamente via WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Falha na autorização do Smart Luojia (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
       }
     }
   },
@@ -5328,7 +5441,24 @@
   "settingsAiWorkspaceExportConfirmAction": "Exportar pacote",
   "settingsAiWorkspaceExported": "Exportação de {count} arquivos preparada: {path}.",
   "settingsAiWorkspaceExportFailed": "Falha ao exportar o espaço de trabalho do Agent: {error}",
-  "aiSpeechTitle": "Voz da IA", "aiSpeechRecognitionService": "Serviço de reconhecimento de voz", "aiSpeechSpeechToText": "speech_to_text (sistema)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Transcrição offline com Whisper", "aiSpeechWhisperModel": "Modelo Whisper", "aiDownload": "Transferir", "aiSpeechEngine": "Motor de voz", "aiSpeechEdge": "Voz online do Edge", "aiSpeechSttsVoice": "Voz do sistema stts", "aiSpeechVoiceLoadFailed": "Não foi possível carregar as vozes online; será usada a voz atual.", "aiSpeechVoice": "Voz", "aiSpeechRate": "Velocidade", "aiSpeechPitch": "Tom", "aiSpeechVolume": "Volume", "aiSpeechPreviewText": "Olá. Esta é a voz de IA selecionada.", "aiSpeechPreview": "Pré-visualizar a voz atual", "aiMcpImportFailed": "Não foi possível importar a configuração do servidor MCP",
+  "aiSpeechTitle": "Voz da IA",
+  "aiSpeechRecognitionService": "Serviço de reconhecimento de voz",
+  "aiSpeechSpeechToText": "speech_to_text (sistema)",
+  "aiSpeechStts": "stts",
+  "aiSpeechWhisper": "Transcrição offline com Whisper",
+  "aiSpeechWhisperModel": "Modelo Whisper",
+  "aiDownload": "Transferir",
+  "aiSpeechEngine": "Motor de voz",
+  "aiSpeechEdge": "Voz online do Edge",
+  "aiSpeechSttsVoice": "Voz do sistema stts",
+  "aiSpeechVoiceLoadFailed": "Não foi possível carregar as vozes online; será usada a voz atual.",
+  "aiSpeechVoice": "Voz",
+  "aiSpeechRate": "Velocidade",
+  "aiSpeechPitch": "Tom",
+  "aiSpeechVolume": "Volume",
+  "aiSpeechPreviewText": "Olá. Esta é a voz de IA selecionada.",
+  "aiSpeechPreview": "Pré-visualizar a voz atual",
+  "aiMcpImportFailed": "Não foi possível importar a configuração do servidor MCP",
   "campusAppCampusMap": "Mapa do campus",
   "campusMapBaseVector": "Vetorial",
   "campusMapBaseSatellite": "Satélite",
@@ -5523,7 +5653,16 @@
   },
   "coremailSend": "Enviar",
   "coremailSendConfirmMessage": "Enviar para {count} destinatário(s): {recipients}?",
-  "@coremailSendConfirmMessage": {"placeholders": {"count": {"type": "int"}, "recipients": {"type": "String"}}},
+  "@coremailSendConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "recipients": {
+        "type": "String"
+      }
+    }
+  },
   "coremailRecipientsLabel": "Para",
   "coremailRecipientsHint": "Separe vários endereços com vírgulas",
   "coremailSubjectLabel": "Assunto",
@@ -5645,7 +5784,13 @@
   "ebikeUnlockHelmet": "Equipada com trava de capacete",
   "ebikeUnlockStart": "Desbloquear e viajar",
   "ebikeUnlockConfirmMessage": "Desbloquear {carId}? A cobrança começa assim que a trava abrir.",
-  "@ebikeUnlockConfirmMessage": {"placeholders": {"carId": {"type": "String"}}},
+  "@ebikeUnlockConfirmMessage": {
+    "placeholders": {
+      "carId": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeUnlockSuccess": "Desbloqueado",
   "ebikeUnlockNeedRealName": "É necessário concluir a verificação de nome real. Finalize-a primeiro no miniprograma oficial.",
   "ebikeUnlockNeedFace": "Esta viagem requer verificação facial no miniprograma oficial.",
@@ -5699,7 +5844,13 @@
   "ebikeSettleDiscount": "Desconto",
   "ebikeSettlePayWallet": "Pagar com saldo",
   "ebikeSettlePayWalletConfirm": "Pagar {amount} com o saldo da carteira? O débito não pode ser desfeito.",
-  "@ebikeSettlePayWalletConfirm": {"placeholders": {"amount": {"type": "String"}}},
+  "@ebikeSettlePayWalletConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeSettlePayWalletConfirmUnknownAmount": "Pagar o valor pendente com o saldo da carteira? O débito não pode ser desfeito.",
   "ebikeSettlePaid": "Pagamento concluído",
   "ebikeSettleInsufficient": "Saldo insuficiente. Recarregue no miniprograma oficial e depois pague.",
@@ -5883,7 +6034,6 @@
   "adminDashboardUsersChart": "Registros de usuários",
   "adminDashboardPostsChart": "Publicações criadas",
   "adminDashboardCommentsChart": "Comentários criados",
-  "legalOpenWebVersion": "Abrir versão web",
   "globalTimetableContributionSubmitted": "Contribuição enviada; está sendo processada em segundo plano",
   "globalTimetableImportDismiss": "Fechar",
   "adminTaskCenterTitle": "Central de tarefas",
@@ -5917,5 +6067,7 @@
   "adminTaskCenterContributor": "Contribuidor",
   "adminTaskCenterQueueLabel": "Fila",
   "adminTaskCenterCreatedAt": "Criada às {time}",
-  "adminTaskCenterPhaseAwaitingAuth": "Aguardando nova autorização"
+  "adminTaskCenterPhaseAwaitingAuth": "Aguardando nova autorização",
+  "onboardingPermissionBatteryOptimizationTitle": "Ignorar otimizações de bateria",
+  "onboardingPermissionBatteryOptimizationDescription": "Permita que o aplicativo seja executado em segundo plano sem restrições para garantir que os lembretes e notificações das aulas sejam entregues no horário."
 }

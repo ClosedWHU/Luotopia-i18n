@@ -1,4 +1,19 @@
 {
+  "settingsAppLockTitle": "생체 인식 보호",
+  "settingsAppLockSubtitle": "지문 또는 얼굴로 성적, 급수 코드, 캠퍼스 네트워크, AI를 보호합니다",
+  "appLockPolicyTitle": "다시 인증할 시점",
+  "appLockPolicyPerEntry": "페이지에 들어갈 때마다 인증",
+  "appLockPolicyCooldown": "쿨다운 동안은 재인증 생략",
+  "appLockPolicySession": "한 번 인증하면 앱 재시작 전까지 유효",
+  "appLockCooldownMinutes": "{minutes}분",
+  "appLockSharingTitle": "잠금 해제 공유",
+  "appLockSharedUnlock": "한 번 인증으로 모든 보호 기능 열기",
+  "appLockSharedUnlockHint": "켜면 유효 기간 내에 한 번만 인증해도 모든 보호 기능에 들어갈 수 있고, 끄면 각 기능별로 따로 인증합니다.",
+  "appLockScopesTitle": "보호할 기능",
+  "appLockScopeScore": "성적",
+  "appLockScopeWater": "급수 코드",
+  "appLockScopeSchoolNet": "캠퍼스 네트워크",
+  "appLockScopeAi": "AI 어시스턴트",
   "authVerificationSetUpPasskey": "아직 Passkey가 없으신가요? 이 기기 등록",
   "authLoginWithDeviceBiometric": "이 기기의 생체 인식으로 로그인",
   "authDeviceBiometric": "이 기기의 생체 인식",
@@ -352,34 +367,34 @@
   "editorCoursePeriodEnd": "종료 교시",
   "editorCoursePeriodN": "{n}교시",
   "@editorCoursePeriodN": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "{n}교시\n{time}",
   "@editorCoursePeriodSingle": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "{from}–{to}교시\n{time}",
   "@editorCoursePeriodRange": {
-   "placeholders": {
-     "from": {
-       "type": "int"
+    "placeholders": {
+      "from": {
+        "type": "int"
       },
-     "to": {
-       "type": "int"
+      "to": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -387,9 +402,9 @@
   "editorCourseWeekEnd": "종료 주차",
   "editorCourseWeekN": "{n}주 차",
   "@editorCourseWeekN": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       }
     }
   },
@@ -583,9 +598,9 @@
   "settingsLicensesSearchHint": "라이선스 검색",
   "licenseAuthor": "저자: {author}",
   "@licenseAuthor": {
-   "placeholders": {
-     "author": {
-       "type": "String"
+    "placeholders": {
+      "author": {
+        "type": "String"
       }
     }
   },
@@ -594,9 +609,9 @@
   "addTimetable": "시간표 추가",
   "addToTimetable": "{name}에 추가",
   "@addToTimetable": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -614,9 +629,9 @@
   "exportTimetable": "시간표 내보내기",
   "homeTimeBlock": "블록 {index}",
   "@homeTimeBlock": {
-   "placeholders": {
-     "index": {
-       "type": "String"
+    "placeholders": {
+      "index": {
+        "type": "String"
       }
     }
   },
@@ -661,41 +676,41 @@
   "notificationScheduleIncomplete": "일정 미완료",
   "notificationStartsInFifteenMinutes": "15분 후 시작 · {time}",
   "@notificationStartsInFifteenMinutes": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "5분 후 시작 · {time}",
   "@notificationStartsInFiveMinutes": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "1시간 후 시작 · {time}",
   "@notificationStartsInOneHour": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsSoon": "곧 시작 · {time}",
   "@notificationStartsSoon": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationTomorrow": "내일 · {time}",
   "@notificationTomorrow": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -711,9 +726,9 @@
   "separate": "분리",
   "separatedTimetableName": "{name}(분리됨)",
   "@separatedTimetableName": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -723,9 +738,9 @@
   "shiguangFileImportDescription": "Shiguang 시간표 JSON 파일 가져오기",
   "shiguangImportFailed": "Shiguang 시간표를 가져오지 못했습니다: {error}",
   "@shiguangImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -741,9 +756,9 @@
   "starlinkImportDescription": "JSON 파일 또는 공유 코드에서 Starlink 시간표를 가져옵니다",
   "starlinkImportFailed": "Starlink 시간표를 가져오지 못했습니다: {error}",
   "@starlinkImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -754,18 +769,18 @@
   "starlinkTimetableShareCode": "Starlink 시간표 공유 코드",
   "timetableDetails": "학기: {term}\n가져온 시간: {importedAt}\n업데이트: {updatedAt}\n출처: {source}",
   "@timetableDetails": {
-   "placeholders": {
-     "term": {
-       "type": "String"
+    "placeholders": {
+      "term": {
+        "type": "String"
       },
-     "importedAt": {
-       "type": "String"
+      "importedAt": {
+        "type": "String"
       },
-     "updatedAt": {
-       "type": "String"
+      "updatedAt": {
+        "type": "String"
       },
-     "source": {
-       "type": "String"
+      "source": {
+        "type": "String"
       }
     }
   },
@@ -777,9 +792,9 @@
   "timetableRepairWeekExpansionNone": "복구가 필요한 과목이 없습니다.",
   "timetableImportFailed": "시간표를 가져오지 못했습니다: {error}",
   "@timetableImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -794,9 +809,9 @@
   "wakeupFileImportDescription": "Wakeup CSV 또는 시간표 파일 가져오기",
   "wakeupImportFailed": "Wakeup 시간표를 가져오지 못했습니다: {error}",
   "@wakeupImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -807,9 +822,9 @@
   "webViewLoadingPage": "페이지를 불러오는 중...",
   "webViewPreparationFailed": "페이지 준비 실패: {error}",
   "@webViewPreparationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -817,9 +832,9 @@
   "webViewRetry": "다시 시도",
   "licenseVersion": "버전: {version}",
   "@licenseVersion": {
-   "placeholders": {
-     "version": {
-       "type": "String"
+    "placeholders": {
+      "version": {
+        "type": "String"
       }
     }
   },
@@ -938,9 +953,9 @@
   "sportsSelectTimeSlot": "시간대 선택",
   "sportsReservableSlotsCount": "예약 {count}개",
   "@sportsReservableSlotsCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1027,7 +1042,13 @@
   "whuAccountSectionSession": "로그인 상태",
   "whuTotpSectionTitle": "인증 앱 코드",
   "whuTotpCodeSubtitle": "{seconds}초 후 갱신 · 눌러서 복사",
-  "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
+  "@whuTotpCodeSubtitle": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "whuTotpEnable": "인증 앱 코드 활성화",
   "whuTotpEnableSubtitle": "휴대전화나 이메일로 인증하고 이 기기에 키를 안전하게 저장합니다",
   "whuTotpImport": "기존 키 입력",
@@ -1052,7 +1073,13 @@
   "whuTotpCopied": "인증 코드를 복사했습니다",
   "whuTotpInvalidSecret": "올바른 Base32 비밀 키를 입력하세요",
   "whuTotpFailed": "인증 앱 설정을 완료하지 못했습니다: {message}",
-  "@whuTotpFailed": {"placeholders": {"message": {"type": "String"}}},
+  "@whuTotpFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "whuTotpWebsiteEnabled": "WHU에서 활성화되었지만 이 기기에 저장된 키가 없습니다",
   "whuTotpWebsiteDisabled": "WHU에서 활성화되지 않았습니다",
   "whuTotpLocallySavedButUnbound": "WHU에서 TOTP 연결이 해제되었습니다. 로컬에 저장된 코드가 올바르지 않을 수 있습니다. 다시 활성화하거나 로컬 키를 삭제하세요.",
@@ -1070,14 +1097,38 @@
   "whuTrustedDevicesEmpty": "신뢰할 수 있는 브라우저가 없습니다",
   "whuTrustedDevicesCurrent": "현재 로그인",
   "whuTrustedDevicesLoginTime": "마지막 로그인: {time}",
-  "@whuTrustedDevicesLoginTime": {"placeholders": {"time": {"type": "String"}}},
+  "@whuTrustedDevicesLoginTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "whuTrustedDevicesLimit": "신뢰할 수 있는 브라우저 최대 {count}개",
-  "@whuTrustedDevicesLimit": {"placeholders": {"count": {"type": "int"}}},
+  "@whuTrustedDevicesLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "whuTrustedDevicesValidity": "비활성 상태 {days}일 후 자동 삭제",
-  "@whuTrustedDevicesValidity": {"placeholders": {"days": {"type": "int"}}},
+  "@whuTrustedDevicesValidity": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "whuTrustedDevicesDelete": "기기 삭제",
   "whuTrustedDevicesDeleteConfirm": "신뢰할 수 있는 브라우저 ‘{name}’을(를) 삭제할까요? 다음 로그인 시 다중 인증이 필요할 수 있습니다.",
-  "@whuTrustedDevicesDeleteConfirm": {"placeholders": {"name": {"type": "String"}}},
+  "@whuTrustedDevicesDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "whuTrustedDevicesDeleted": "신뢰할 수 있는 브라우저를 삭제했습니다",
   "whuAccountRecentLogin": "최근 로그인",
   "whuAccountRecentVerification": "최근 검증",
@@ -1091,211 +1142,211 @@
   "whuLoginWebViewLoading": "불러오는 중…",
   "whuLoginWebViewTitle": "WHU 로그인",
   "@editorDurationHourMinute": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       },
-     "minutes": {
-       "type": "int"
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-   "placeholders": {
-     "classroom": {
-       "type": "String"
+    "placeholders": {
+      "classroom": {
+        "type": "String"
       },
-     "section": {
-       "type": "int"
+      "section": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-   "placeholders": {
-     "sections": {
-       "type": "String"
+    "placeholders": {
+      "sections": {
+        "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-   "placeholders": {
-     "expanded": {
-       "type": "int"
+    "placeholders": {
+      "expanded": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-   "placeholders": {
-     "floor": {
-       "type": "String"
+    "placeholders": {
+      "floor": {
+        "type": "String"
       },
-     "available": {
-       "type": "int"
+      "available": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-   "placeholders": {
-     "section": {
-       "type": "int"
+    "placeholders": {
+      "section": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-   "placeholders": {
-     "week": {
-       "type": "String"
+    "placeholders": {
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-   "placeholders": {
-     "week": {
-       "type": "String"
+    "placeholders": {
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-   "placeholders": {
-     "day": {
-       "type": "String"
+    "placeholders": {
+      "day": {
+        "type": "String"
       },
-     "endDay": {
-       "type": "String"
+      "endDay": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-   "placeholders": {
-     "month": {
-       "type": "String"
+    "placeholders": {
+      "month": {
+        "type": "String"
       },
-     "week": {
-       "type": "String"
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       },
-     "month": {
-       "type": "String"
+      "month": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       },
-     "week": {
-       "type": "String"
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-   "placeholders": {
-     "start": {
-       "type": "String"
+    "placeholders": {
+      "start": {
+        "type": "String"
       },
-     "end": {
-       "type": "String"
+      "end": {
+        "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-   "placeholders": {
-     "start": {
-       "type": "String"
+    "placeholders": {
+      "start": {
+        "type": "String"
       },
-     "end": {
-       "type": "String"
+      "end": {
+        "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-   "placeholders": {
-     "weekday": {
-       "type": "String"
+    "placeholders": {
+      "weekday": {
+        "type": "String"
       }
     }
   },
   "@listCompletedSection": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "@settingsMinutesValue": {
-   "placeholders": {
-     "value": {
-       "type": "int"
+    "placeholders": {
+      "value": {
+        "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-   "placeholders": {
-     "value": {
-       "type": "int"
+    "placeholders": {
+      "value": {
+        "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseImportStatusImported": "완료: {count}개(이번 주 {currentWeek}개)",
   "@courseImportStatusImported": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "currentWeek": {
-       "type": "int"
+      "currentWeek": {
+        "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "{count}개를 「{tableName}」에 가져왔습니다.",
   "@courseImportSnackSuccess": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "tableName": {
-       "type": "String"
+      "tableName": {
+        "type": "String"
       }
     }
   },
@@ -1303,28 +1354,28 @@
   "courseImportGraduateTermsUnrecognized": "대학원 시스템이 반환한 학기를 인식할 수 없습니다.",
   "courseImportStatusFailed": "가져오기 실패: {error}",
   "@courseImportStatusFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "{year}-{next} 학년도",
   "@courseImportAcademicYearLabel": {
-   "placeholders": {
-     "year": {
-       "type": "int"
+    "placeholders": {
+      "year": {
+        "type": "int"
       },
-     "next": {
-       "type": "int"
+      "next": {
+        "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "제{semester}학기",
   "@courseImportSemesterLabel": {
-   "placeholders": {
-     "semester": {
-       "type": "int"
+    "placeholders": {
+      "semester": {
+        "type": "int"
       }
     }
   },
@@ -1335,9 +1386,9 @@
   "editorCourseNatureHint": "강의 성격(예: 필수/선택)",
   "editorChangeScopeTitle": "이 항목만 바꿀까요, 아니면 「{title}」 강의 전부까요?",
   "@editorChangeScopeTitle": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1345,9 +1396,9 @@
   "editorChangeAllSameName": "같은 이름 강의 전부",
   "editorCourseSeriesSyncHint": "이름·유형·교수 변경은 이번 학기 전체 {count}회 수업에 동기화됩니다",
   "@editorCourseSeriesSyncHint": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1359,9 +1410,9 @@
   "aiMemo": "메모",
   "aiDraftReady": "초안 준비됨: {title}",
   "@aiDraftReady": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1381,9 +1432,9 @@
   "aiClearConversationsWarning": "기기에 저장된 모든 AI 대화가 삭제됩니다.",
   "aiConfirmationBatchTitle": "작업 {count}개 확인",
   "@aiConfirmationBatchTitle": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1400,8 +1451,6 @@
   "aiAccountSwitchBody": "방금 로그인한 계정이 이 요청을 시작한 계정과 다릅니다. 새 계정으로 다시 실행할까요?",
   "aiAccountSwitchConfirm": "다시 보내기",
   "aiAccountSwitchDismiss": "지금은 안 함",
-  "scorePagePrivacyLocked": "성적표가 프라이버시 잠금으로 보호됨",
-  "scorePageClickToUnlock": "탭하여 잠금 해제",
   "scorePageNoLocalScore": "로컬 성적 없음",
   "scorePageLoginHint": "로그인하지 않았다면 설정에서 로그인하세요.\n아래 버튼으로 성적을 가져와 동기화할 수 있습니다.",
   "scorePageSync": "성적 동기화",
@@ -1409,34 +1458,31 @@
   "scorePageTotalCredits": "총 학점",
   "scorePageGetFailed": "성적 가져오기 실패",
   "scorePageSettings": "성적 설정",
-  "scorePageEnableBiometric": "생체 인식 잠금 켜기",
-  "scorePageBiometricHint": "Face ID 또는 지문으로 성적 프라이버시 보호",
   "scorePageGpaStandard": "GPA 계산 기준",
   "scorePageGpaStandardHint": "전환 시 총·그룹 GPA를 다시 계산합니다",
   "scorePageStandardWhu": "우한대 2021+ 기준",
   "scorePageStandardWes": "WES 기준",
   "scorePageStandard40": "표준 4.0 알고리즘",
   "scorePageStandard100": "백분율 평균",
-  "scorePageBiometricAuthFailed": "생체 인증 실패",
   "scorePageCourseInfo": "{type} · {credit}학점 · {instructor}",
   "@scorePageCourseInfo": {
-   "placeholders": {
-     "type": {
-       "type": "String"
+    "placeholders": {
+      "type": {
+        "type": "String"
       },
-     "credit": {
-       "type": "String"
+      "credit": {
+        "type": "String"
       },
-     "instructor": {
-       "type": "String"
+      "instructor": {
+        "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "평점：{gpa}",
   "@scorePageGpaDisplay": {
-   "placeholders": {
-     "gpa": {
-       "type": "String"
+    "placeholders": {
+      "gpa": {
+        "type": "String"
       }
     }
   },
@@ -1445,9 +1491,9 @@
   "settingsDevModeActivated": "개발자 모드가 켜졌습니다. 이제 개발자 설정을 사용할 수 있습니다.",
   "settingsDevModeTapCount": "개발자 모드까지 {count}번 더 탭",
   "@settingsDevModeTapCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1456,34 +1502,34 @@
   "hotUpdateTitle": "핫 업데이트 관리",
   "hotUpdateManifestVersion": "매니페스트 v{version}",
   "@hotUpdateManifestVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
+    "placeholders": {
+      "version": {
+        "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "업데이트: {time}",
   "@hotUpdateUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "업데이트 기록 없음 (내장 파서 사용)",
   "hotUpdateLocalVersion": "로컬 v{version}",
   "@hotUpdateLocalVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
+    "placeholders": {
+      "version": {
+        "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-   "placeholders": {
-     "checksum": {
-       "type": "String"
+    "placeholders": {
+      "checksum": {
+        "type": "String"
       }
     }
   },
@@ -1503,9 +1549,9 @@
   "hotUpdateVersionMissing": "로컬 없음 · 원격 v{remote}",
   "hotUpdateLastFailure": "마지막 실패: {reason}",
   "@hotUpdateCheckComplete": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1535,9 +1581,9 @@
   "settingsNotificationChannelNotCreated": "아직 생성되지 않음",
   "settingsNotificationChannelCurrent": "현재: {level}",
   "@settingsNotificationChannelCurrent": {
-   "placeholders": {
-     "level": {
-       "type": "String"
+    "placeholders": {
+      "level": {
+        "type": "String"
       }
     }
   },
@@ -1556,9 +1602,9 @@
   "settingsClearCacheSubtitle": "임시 파일 및 캐시 데이터 정리",
   "settingsCacheCleared": "캐시를 지웠습니다: {size} 확보",
   "@settingsCacheCleared": {
-   "placeholders": {
-     "size": {
-       "type": "String"
+    "placeholders": {
+      "size": {
+        "type": "String"
       }
     }
   },
@@ -1568,18 +1614,18 @@
   "settingsDevSaveSuccess": "저장됨: 서버 URL 업데이트",
   "settingsDevScanSuccess": "서버 발견: {ip}:6262",
   "@settingsDevScanSuccess": {
-   "placeholders": {
-     "ip": {
-       "type": "String"
+    "placeholders": {
+      "ip": {
+        "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "LAN에서 포트 6262 API 서버를 찾지 못함",
   "settingsDevScanError": "스캔 실패: {error}",
   "@settingsDevScanError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1612,9 +1658,9 @@
   "whuLoginVerifying": "로그인 상태 확인 중…",
   "whuLoginVerificationFailed": "로그인 상태 검증 실패: {error}",
   "@whuLoginVerificationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1625,9 +1671,9 @@
   "libraryNoVenues": "이용 가능한 관 없음",
   "libraryLoadFailed": "불러오기 실패: {error}",
   "@libraryLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1642,8 +1688,8 @@
   "globalTimetableLocalImportSuccess": "이 기기에 시간표 항목 {count}개를 저장했습니다.",
   "globalTimetableLocalImportFailed": "대학 전체 시간표를 이 기기로 가져오지 못했습니다.",
   "globalTimetableLocalUnsupported": "이 플랫폼에서는 시간표 로컬 가져오기를 사용할 수 없습니다.",
-  "globalTimetableSourceLocal": "로컬 데이터",
-  "globalTimetableSourceCloud": "클라우드 데이터",
+  "globalTimetableSourceLocal": "로컬",
+  "globalTimetableSourceCloud": "클라우드",
   "globalTimetableSourceCloudUnavailable": "이 기간의 클라우드 데이터가 없습니다",
   "globalTimetableContributionTitle": "대학 전체 시간표에 기여",
   "globalTimetableContributionMessage": "일회용 WHU CAS 티켓으로 뤄자를 인증합니다. 서버 워커가 백그라운드에서 WHU 학사 시스템으로부터 {year}-{nextYear}학년도 {term}학기 데이터를 직접 가져옵니다. WHU 신원 정보는 뤄자 계정에 연결된 정보와 일치해야 합니다.",
@@ -1668,33 +1714,33 @@
   "settingsAiConnectionSuccess": "AI 연결 테스트에 성공했습니다.",
   "settingsAiConnectionFailed": "연결 실패: {error}",
   "@settingsAiConnectionFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "{name} 불러오는 중…",
   "@luojiaEcardLoading": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "{name} 준비 중…",
   "@luojiaEcardPreparing": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
   "pagePreparationFailed": "페이지 준비 실패: {error}",
   "@pagePreparationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1706,9 +1752,9 @@
   "whuCasServiceAuthFailed": "서비스 권한 부여 실패. 우한대 통합 인증에 다시 로그인하세요.",
   "whuCasServiceRequestFailed": "서비스 권한 부여 요청 실패: {error}",
   "@whuCasServiceRequestFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1716,25 +1762,25 @@
   "whuCasSessionExpired": "교무 세션이 만료되었습니다. 다시 로그인하세요.",
   "whuCasSessionVerifyFailed": "교무 세션 검증 실패: {error}",
   "@whuCasSessionVerifyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "교무 계정 정보 가져오기 실패(HTTP {code}).",
   "@whuCasFetchFailed": {
-   "placeholders": {
-     "code": {
-       "type": "int"
+    "placeholders": {
+      "code": {
+        "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "교무 로그인 실패: {reason}",
   "@whuCasLoginFailedReason": {
-   "placeholders": {
-     "reason": {
-       "type": "String"
+    "placeholders": {
+      "reason": {
+        "type": "String"
       }
     }
   },
@@ -1755,28 +1801,28 @@
   "gradesReviewsNoResults": "관련 강의 없음",
   "gradesReviewsSearchError": "검색 실패: {error}",
   "@gradesReviewsSearchError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-   "placeholders": {
-     "uid": {
-       "type": "String"
+    "placeholders": {
+      "uid": {
+        "type": "String"
       },
-     "department": {
-       "type": "String"
+      "department": {
+        "type": "String"
       }
     }
   },
   "courseDetailTitle": "강의 상세: {uid}",
   "@courseDetailTitle": {
-   "placeholders": {
-     "uid": {
-       "type": "String"
+    "placeholders": {
+      "uid": {
+        "type": "String"
       }
     }
   },
@@ -1784,33 +1830,33 @@
   "courseDetailReviewsTab": "수강 후기",
   "gradesReviewsSearchFailMessage": "검색 실패: {message}",
   "@gradesReviewsSearchFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "성적 분포 불러오기 실패: {message}",
   "@gradesReviewsGradeStatsFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "후기 불러오기 실패: {message}",
   "@gradesReviewsReviewsFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "시간표{index}",
   "@courseTimetableDefaultName": {
-   "placeholders": {
-     "index": {
-       "type": "int"
+    "placeholders": {
+      "index": {
+        "type": "int"
       }
     }
   },
@@ -1820,9 +1866,9 @@
   "sportsReservationDayAfterTomorrow": "모레",
   "sportsVenueCourtFormat": "{areaNo}번 코트",
   "@sportsVenueCourtFormat": {
-   "placeholders": {
-     "areaNo": {
-       "type": "String"
+    "placeholders": {
+      "areaNo": {
+        "type": "String"
       }
     }
   },
@@ -1844,28 +1890,28 @@
   "sportsVenueFree": "무료",
   "sportsVenuePriceFormat": "{price}원",
   "@sportsVenuePriceFormat": {
-   "placeholders": {
-     "price": {
-       "type": "String"
+    "placeholders": {
+      "price": {
+        "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice}원",
   "@sportsVenuePriceRangeFormat": {
-   "placeholders": {
-     "lowPrice": {
-       "type": "String"
+    "placeholders": {
+      "lowPrice": {
+        "type": "String"
       },
-     "highPrice": {
-       "type": "String"
+      "highPrice": {
+        "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value}원",
   "@sportsOrderPriceWithUnitFormat": {
-   "placeholders": {
-     "value": {
-       "type": "String"
+    "placeholders": {
+      "value": {
+        "type": "String"
       }
     }
   },
@@ -1894,58 +1940,58 @@
   "sportsFetchBulletins": "시설 공지 가져오기",
   "sportsNetworkError": "{action} 실패: 네트워크 오류.",
   "@sportsNetworkError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiHttpError": "{action} 실패(HTTP {statusCode}).",
   "@sportsApiHttpError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "statusCode": {
-       "type": "int"
+      "statusCode": {
+        "type": "int"
       }
     }
   },
   "sportsApiFormatError": "{action} 실패: 응답 형식 오류.",
   "@sportsApiFormatError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiError": "{action} 실패.",
   "@sportsApiError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "{action} 실패: {message}",
   "@sportsApiErrorWithMessage": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "message": {
-       "type": "String"
+      "message": {
+        "type": "String"
       }
     }
   },
   "sportsApiJsonError": "{action} 실패: 유효한 JSON이 아님. {diagnostic}",
   "@sportsApiJsonError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "diagnostic": {
-       "type": "String"
+      "diagnostic": {
+        "type": "String"
       }
     }
   },
@@ -1956,9 +2002,9 @@
   "sportsApiDiagnosticNonJson": "JSON이 아닌 텍스트",
   "sportsApiDiagnosticResponseType": "응답 유형: {kind}.",
   "@sportsApiDiagnosticResponseType": {
-   "placeholders": {
-     "kind": {
-       "type": "String"
+    "placeholders": {
+      "kind": {
+        "type": "String"
       }
     }
   },
@@ -1974,23 +2020,23 @@
   "scoreImportImportingCredential": "신뢰할 수 있는 자격 증명을 다운로드하여 로컬에서 성적을 파싱하는 중…",
   "scoreImportSuccessWithCount": "{success}: {count}건을 기기에 캐시했습니다.",
   "@scoreImportSuccessWithCount": {
-   "placeholders": {
-     "success": {
-       "type": "String"
+    "placeholders": {
+      "success": {
+        "type": "String"
       },
-     "count": {
-       "type": "int"
+      "count": {
+        "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}: {error}",
   "@scoreImportFailedWithError": {
-   "placeholders": {
-     "failed": {
-       "type": "String"
+    "placeholders": {
+      "failed": {
+        "type": "String"
       },
-     "error": {
-       "type": "String"
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1998,27 +2044,27 @@
   "scoreImportNoStudentId": "전역 로그인 학번을 찾을 수 없음",
   "scoreImportSpoilerSuccessWithCount": "{success}: 전문발전 시스템에서 성적 기록 {count}건을 가져왔습니다.",
   "@scoreImportSpoilerSuccessWithCount": {
-   "placeholders": {
-     "success": {
-       "type": "String"
+    "placeholders": {
+      "success": {
+        "type": "String"
       },
-     "count": {
-       "type": "int"
+      "count": {
+        "type": "int"
       }
     }
   },
   "scoreImportLastImport": "마지막 가져오기",
   "scoreImportExample": "예시：{name} · {score}점 · {credit}학점",
   "@scoreImportExample": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       },
-     "score": {
-       "type": "String"
+      "score": {
+        "type": "String"
       },
-     "credit": {
-       "type": "String"
+      "credit": {
+        "type": "String"
       }
     }
   },
@@ -2029,20 +2075,20 @@
   "seatReservationDraftTitle": "도서관 좌석 예약",
   "seatReservationDraftDetails": "출처: 우한대 도서관 좌석 예약 시스템\n좌석 ID: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-   "placeholders": {
-     "seatId": {
-       "type": "String"
+    "placeholders": {
+      "seatId": {
+        "type": "String"
       },
-     "marker": {
-       "type": "String"
+      "marker": {
+        "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "좌석 예약 동기화 ID: {sourceId}",
   "@seatReservationSourceMarker": {
-   "placeholders": {
-     "sourceId": {
-       "type": "String"
+    "placeholders": {
+      "sourceId": {
+        "type": "String"
       }
     }
   },
@@ -2053,9 +2099,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count}개 메시지",
   "@aiMessageCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -2069,9 +2115,9 @@
   "aiHeaderRetryLater": "AI 서비스를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도하세요.",
   "aiHeaderDraftCreated": "초안 페이지에서 생성됨: {title}",
   "@aiHeaderDraftCreated": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -2095,12 +2141,12 @@
   "whuAccountFallbackName": "우한대 계정",
   "homeWidgetDateLabel": "{month}월 {day}일",
   "@homeWidgetDateLabel": {
-   "placeholders": {
-     "month": {
-       "type": "int"
+    "placeholders": {
+      "month": {
+        "type": "int"
       },
-     "day": {
-       "type": "int"
+      "day": {
+        "type": "int"
       }
     }
   },
@@ -2113,17 +2159,17 @@
   "homeWidgetAllDay": "종일",
   "homeWidgetUpdatedAt": "업데이트: {time}",
   "@homeWidgetUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "제{week}주",
   "@homeWidgetWeekLabel": {
-   "placeholders": {
-     "week": {
-       "type": "int"
+    "placeholders": {
+      "week": {
+        "type": "int"
       }
     }
   },
@@ -2135,17 +2181,17 @@
   "weatherRainReminderTitle": "강우 알림",
   "weatherBannerRainInMinutes": "약 {minutes}분 후 비 — 우산을 챙기세요.",
   "@weatherBannerRainInMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "약 {hours}시간 후 비 — 외출 시 우산을.",
   "@weatherBannerRainInHours": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       }
     }
   },
@@ -2153,31 +2199,31 @@
   "weatherBannerRainTomorrow": "내일 비 소식 — 외출 시 우산을 준비하세요.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-   "placeholders": {
-     "value": {
-       "type": "String"
+    "placeholders": {
+      "value": {
+        "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-   "placeholders": {
-     "condition": {
-       "type": "String"
+    "placeholders": {
+      "condition": {
+        "type": "String"
       },
-     "minTemp": {
-       "type": "String"
+      "minTemp": {
+        "type": "String"
       },
-     "maxTemp": {
-       "type": "String"
+      "maxTemp": {
+        "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "자동 검증 중(시도 {attempt})…",
   "@scoreCaptchaRetrying": {
-   "placeholders": {
-     "attempt": {
-       "type": "int"
+    "placeholders": {
+      "attempt": {
+        "type": "int"
       }
     }
   },
@@ -2227,17 +2273,17 @@
   "campusBusLocationImpreciseTitle": "위치 정확도가 너무 낮음",
   "campusBusNearestStop": "가장 가까운 정류장: {stopName}",
   "@campusBusNearestStop": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
   "campusBusTargetStop": "지정: {stopName}",
   "@campusBusTargetStop": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
@@ -2287,9 +2333,9 @@
   "settingsWeatherAqiStandard": "AQI 기준",
   "libraryAuthFailed": "인증 실패: {error}",
   "@libraryAuthFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2301,18 +2347,18 @@
   "libraryCancelSuccess": "예약을 취소했습니다",
   "libraryCancelFailed": "취소 실패: {error}",
   "@libraryCancelFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "퇴실했습니다",
   "libraryCheckoutFailed": "퇴실 실패: {error}",
   "@libraryCheckoutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2321,40 +2367,40 @@
   "libraryNoRoomData": "열람실 데이터 없음",
   "libraryFloor": "{floor}층",
   "@libraryFloor": {
-   "placeholders": {
-     "floor": {
-       "type": "int"
+    "placeholders": {
+      "floor": {
+        "type": "int"
       }
     }
   },
   "libraryAvailable": "가용 {free}/{total}",
   "@libraryAvailable": {
-   "placeholders": {
-     "free": {
-       "type": "int"
+    "placeholders": {
+      "free": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-   "placeholders": {
-     "building": {
-       "type": "String"
+    "placeholders": {
+      "building": {
+        "type": "String"
       },
-     "room": {
-       "type": "String"
+      "room": {
+        "type": "String"
       }
     }
   },
   "libraryNoSeatData": "좌석 데이터 없음",
   "librarySeatLayoutFailed": "좌석도 불러오기 실패: {error}",
   "@librarySeatLayoutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2366,9 +2412,9 @@
   "libraryCaptchaLoadFailed": "인증 로드에 실패했습니다. 다시 시도하세요.",
   "libraryBookFailed": "예약 실패: {error}",
   "@libraryBookFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2385,9 +2431,9 @@
   "libraryTomorrow": "내일",
   "emptyClassroomSelfStudyTitle": "{location} 자습",
   "@emptyClassroomSelfStudyTitle": {
-   "placeholders": {
-     "location": {
-       "type": "String"
+    "placeholders": {
+      "location": {
+        "type": "String"
       }
     }
   },
@@ -2397,12 +2443,12 @@
   "addToAgendaConfirm": "추가",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-   "placeholders": {
-     "type": {
-       "type": "String"
+    "placeholders": {
+      "type": {
+        "type": "String"
       },
-     "venue": {
-       "type": "String"
+      "venue": {
+        "type": "String"
       }
     }
   },
@@ -2441,9 +2487,9 @@
   "settingsAiFetchModels": "모델 가져오기",
   "settingsAiFetchedCount": "모델 {count}개 가져옴",
   "@settingsAiFetchedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -2465,9 +2511,9 @@
   "ecardPaycodeRefreshNow": "지금 새로고침",
   "ecardPaycodeRefreshInSeconds": "{seconds}초 후 새로고침",
   "@ecardPaycodeRefreshInSeconds": {
-   "placeholders": {
-     "seconds": {
-       "type": "int"
+    "placeholders": {
+      "seconds": {
+        "type": "int"
       }
     }
   },
@@ -2481,16 +2527,22 @@
   "waterControlCancelTitle": "이 코드를 비활성화할까요?",
   "waterControlCancelMessage": "{dormitory}의 활성 코드는 즉시 사용할 수 없게 됩니다.",
   "@waterControlCancelMessage": {
-   "placeholders": {
-     "dormitory": {
-       "type": "String"
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
       }
     }
   },
   "waterControlCancelConfirm": "비활성화",
   "waterControlRequestConfirmTitle": "급수 코드를 신청할까요?",
   "waterControlRequestConfirmMessage": "{dormitory}의 급수 코드가 발급됩니다. 밸브가 열린 동안 사용량에 따라 요금이 부과됩니다.",
-  "@waterControlRequestConfirmMessage": {"placeholders": {"dormitory": {"type": "String"}}},
+  "@waterControlRequestConfirmMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
   "waterControlRequestConfirm": "코드 신청",
   "waterControlCancelSuccess": "급수 코드를 비활성화했습니다",
   "waterControlCopied": "코드를 복사했습니다",
@@ -2500,9 +2552,9 @@
   "waterControlAccountFallback": "캠퍼스 카드 계정",
   "waterControlUpdatedAt": "{time}에 업데이트",
   "@waterControlUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -2512,12 +2564,12 @@
   "waterControlExpiryUnknown": "현재 코드의 만료 시간을 확인할 수 없습니다",
   "waterControlExpiresIn": "약 {hours}시간 {minutes}분 남음",
   "@waterControlExpiresIn": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       },
-     "minutes": {
-       "type": "int"
+      "minutes": {
+        "type": "int"
       }
     }
   },
@@ -2539,9 +2591,9 @@
   "waterControlSearchDormitory": "기숙사 이름 또는 ClassNo 검색",
   "waterControlDormitoryCount": "{count}개 위치",
   "@waterControlDormitoryCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -2566,9 +2618,9 @@
   "studyStatusFetchFailed": "가져오기 실패",
   "studyStatusStatsTime": "통계 {time}",
   "@studyStatusStatsTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -2582,83 +2634,83 @@
   "studyStatusOutOfPlan": "계획 외",
   "studyStatusTotalCourses": "{count}과목",
   "@studyStatusTotalCourses": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "통과{count}",
   "@studyStatusPassedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "미통과{count}",
   "@studyStatusFailedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "수강중{count}",
   "@studyStatusStudyingCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "요구 {credits}학점",
   "@studyStatusRequiredCredits": {
-   "placeholders": {
-     "credits": {
-       "type": "String"
+    "placeholders": {
+      "credits": {
+        "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "취득 {credits}학점",
   "@studyStatusEarnedCredits": {
-   "placeholders": {
-     "credits": {
-       "type": "String"
+    "placeholders": {
+      "credits": {
+        "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "과목 데이터 없음",
   "studyStatusCredits": "{credit}학점",
   "@studyStatusCredits": {
-   "placeholders": {
-     "credit": {
-       "type": "String"
+    "placeholders": {
+      "credit": {
+        "type": "String"
       }
     }
   },
   "studyStatusRetake": "재수강",
   "studyStatusScorePoints": "{score}점",
   "@studyStatusScorePoints": {
-   "placeholders": {
-     "score": {
-       "type": "Object"
+    "placeholders": {
+      "score": {
+        "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "원{score}점",
   "@studyStatusOriginalScore": {
-   "placeholders": {
-     "score": {
-       "type": "Object"
+    "placeholders": {
+      "score": {
+        "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "평점 {point}",
   "@studyStatusGradePoint": {
-   "placeholders": {
-     "point": {
-       "type": "Object"
+    "placeholders": {
+      "point": {
+        "type": "Object"
       }
     }
   },
@@ -2712,9 +2764,9 @@
   "onboardingLegalUpdateTitle": "약관이 업데이트되었습니다",
   "onboardingLegalLastUpdated": "업데이트: {date}",
   "@onboardingLegalLastUpdated": {
-   "placeholders": {
-     "date": {
-       "type": "String"
+    "placeholders": {
+      "date": {
+        "type": "String"
       }
     }
   },
@@ -2737,9 +2789,9 @@
   "onboardingPermissionSkipTitle": "권한 요청을 건너뛸까요?",
   "onboardingPermissionSkipMessage": "{permissions}이(가) 없으면 일부 기능을 사용할 수 없습니다. 나중에 허용할 수 있습니다.",
   "@onboardingPermissionSkipMessage": {
-   "placeholders": {
-     "permissions": {
-       "type": "String"
+    "placeholders": {
+      "permissions": {
+        "type": "String"
       }
     }
   },
@@ -2760,9 +2812,9 @@
   "settingsDevRestartOnboardingAction": "다시 시작",
   "onboardingPermissionRequestFailed": "{permission} 권한을 얻지 못했습니다",
   "@onboardingPermissionRequestFailed": {
-   "placeholders": {
-     "permission": {
-       "type": "String"
+    "placeholders": {
+      "permission": {
+        "type": "String"
       }
     }
   },
@@ -2864,17 +2916,17 @@
   "scoreTranscriptNoTemplates": "이 계정에서 사용할 수 있는 성적 증명서 템플릿이 없습니다.",
   "scoreTranscriptLoadFailed": "성적 증명서 유형을 불러오지 못했습니다: {error}",
   "@scoreTranscriptLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "검증된 전자 증명서를 가져오지 못했습니다: {error}",
   "@scoreTranscriptFetchFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2905,9 +2957,9 @@
   "authMfaTitle": "2단계 인증",
   "authMfaEmailSent": "확인 코드를 {email}로 보냈습니다",
   "@authMfaEmailSent": {
-   "placeholders": {
-     "email": {
-       "type": "String"
+    "placeholders": {
+      "email": {
+        "type": "String"
       }
     }
   },
@@ -2969,9 +3021,9 @@
   "commonLoadingMore": "불러오는 중…",
   "commonLoadFailed": "불러오지 못했습니다: {error}",
   "@commonLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3024,9 +3076,9 @@
   "authApiCredentialSaved": "저장했습니다",
   "authApiCredentialCreateFailed": "자격 증명을 만들지 못했습니다: {error}",
   "@authApiCredentialCreateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3034,12 +3086,12 @@
   "authApiCredentialUnnamed": "이름 없음",
   "authApiCredentialStatus": "상태: {status} · 생성일: {date}",
   "@authApiCredentialStatus": {
-   "placeholders": {
-     "status": {
-       "type": "String"
+    "placeholders": {
+      "status": {
+        "type": "String"
       },
-     "date": {
-       "type": "String"
+      "date": {
+        "type": "String"
       }
     }
   },
@@ -3048,12 +3100,18 @@
   "authApiCredentialRevoke": "해지",
   "authApiCredentialRevokeConfirmTitle": "자격 증명을 해지할까요?",
   "authApiCredentialRevokeConfirmMessage": "{name}을(를) 사용하는 연동은 즉시 작동을 멈추며 자격 증명은 복구할 수 없습니다. 먼저 본인 인증을 한 번 더 요청합니다.",
-  "@authApiCredentialRevokeConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
+  "@authApiCredentialRevokeConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialRevokeFailed": "자격 증명을 해지하지 못했습니다: {error}",
   "@authApiCredentialRevokeFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3074,15 +3132,15 @@
   "authSessionsTrustUnknown": "환경 검사 데이터 없음(미지원 플랫폼이거나 이전 클라이언트)",
   "authSessionsDetails": "IP: {ip}\n마지막 활동: {lastActive}\n로그인: {signedIn}",
   "@authSessionsDetails": {
-   "placeholders": {
-     "ip": {
-       "type": "String"
+    "placeholders": {
+      "ip": {
+        "type": "String"
       },
-     "lastActive": {
-       "type": "String"
+      "lastActive": {
+        "type": "String"
       },
-     "signedIn": {
-       "type": "String"
+      "signedIn": {
+        "type": "String"
       }
     }
   },
@@ -3090,9 +3148,9 @@
   "authSessionsSignOutSucceeded": "기기에서 로그아웃되었습니다",
   "authSessionsSignOutFailed": "기기에서 로그아웃하지 못했습니다: {error}",
   "@authSessionsSignOutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3100,46 +3158,52 @@
   "authPasskeyDeviceName": "기기 이름",
   "authPasskeyRegisterFailed": "Passkey를 등록하지 못했습니다: {error}",
   "@authPasskeyRegisterFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authPasskeysDescription": "{count}개 등록됨. Passkey는 기기의 시스템 생체 인증을 사용합니다.",
   "@authPasskeysDescription": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "지원되는 기기에서 생체 인증 키를 등록하세요",
   "authPasskeyCreatedAt": "생성일: {date}",
   "@authPasskeyCreatedAt": {
-   "placeholders": {
-     "date": {
-       "type": "String"
+    "placeholders": {
+      "date": {
+        "type": "String"
       }
     }
   },
   "authPasskeyDelete": "삭제",
   "authPasskeyDeleteConfirmTitle": "Passkey를 삭제할까요?",
   "authPasskeyDeleteConfirmMessage": "{name}(으)로는 더 이상 본인 인증을 할 수 없으며, 삭제 전에 인증을 한 번 더 요청합니다. 이 작업은 되돌릴 수 없습니다.",
-  "@authPasskeyDeleteConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
+  "@authPasskeyDeleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Passkey를 삭제하지 못했습니다: {error}",
   "@authPasskeyDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authOperationFailed": "작업에 실패했습니다: {error}",
   "@authOperationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3148,17 +3212,17 @@
   "authWhuBindingSucceeded": "계정이 연결되었습니다",
   "authWhuBindingFailed": "계정을 연결하지 못했습니다: {error}",
   "@authWhuBindingFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "현재 뤄자 계정 연결({studentId})",
   "@authWhuBindingCurrent": {
-   "placeholders": {
-     "studentId": {
-       "type": "String"
+    "placeholders": {
+      "studentId": {
+        "type": "String"
       }
     }
   },
@@ -3167,9 +3231,9 @@
   "authWhuUnbindingSucceeded": "계정 연결이 해제되었습니다",
   "authWhuUnbindingFailed": "계정 연결을 해제하지 못했습니다: {error}",
   "@authWhuUnbindingFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3190,10 +3254,22 @@
   "authDeleteAccountConsequenceSessions": "모든 기기에서 즉시 로그아웃됩니다.",
   "authDeleteAccountConsequenceIrreversible": "이 작업은 되돌릴 수 없으며 계정을 복구할 수 없습니다.",
   "authDeleteAccountPhraseLabel": "{phrase}을(를) 입력하여 확인",
-  "@authDeleteAccountPhraseLabel": {"placeholders": {"phrase": {"type": "String"}}},
+  "@authDeleteAccountPhraseLabel": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      }
+    }
+  },
   "authDeleteAccountPhrase": "삭제",
   "authDeleteAccountCooldown": "{seconds}초 후 확인 가능",
-  "@authDeleteAccountCooldown": {"placeholders": {"seconds": {"type": "int"}}},
+  "@authDeleteAccountCooldown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "authDeleteAccountSuccess": "계정이 삭제되었습니다",
   "authDeleteAccount2faRequired": "계정에 2단계 인증 (2FA)이 켜져 있습니다. 다른 방법으로 인증하세요.",
   "authDeleteAccount": "계정 삭제",
@@ -3201,9 +3277,9 @@
   "authDeleteAccountConfirm": "계정 삭제",
   "authDeleteAccountFailed": "계정을 삭제하지 못했습니다: {error}",
   "@authDeleteAccountFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3220,9 +3296,9 @@
   "authBio": "소개",
   "authProfileUpdateFailed": "프로필을 업데이트하지 못했습니다: {error}",
   "@authProfileUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3231,9 +3307,9 @@
   "authPasswordChanged": "비밀번호가 변경되었습니다. 다시 로그인해 주세요.",
   "authPasswordChangeFailed": "비밀번호를 변경하지 못했습니다: {error}",
   "@authPasswordChangeFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3243,9 +3319,9 @@
   "authRegistrationBindWhuAccount": "WHU 계정 연결",
   "authPasswordMinLength": "비밀번호는 최소 {count}자 이상이어야 합니다",
   "@authPasswordMinLength": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3285,16 +3361,16 @@
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "@courseGradeStatsSamples": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3305,9 +3381,9 @@
   "courseReviewsWrite": "익명 후기 작성",
   "courseReviewsAnonymousStudent": "익명 학생 · {semester}",
   "@courseReviewsAnonymousStudent": {
-   "placeholders": {
-     "semester": {
-       "type": "String"
+    "placeholders": {
+      "semester": {
+        "type": "String"
       }
     }
   },
@@ -3316,9 +3392,9 @@
   "courseReviewsRating": "평점",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-   "placeholders": {
-     "rating": {
-       "type": "String"
+    "placeholders": {
+      "rating": {
+        "type": "String"
       }
     }
   },
@@ -3326,25 +3402,25 @@
   "courseReviewsSubmitted": "후기가 제출되었으며 승인 후 표시됩니다.",
   "courseReviewsSubmitFailed": "후기를 제출하지 못했습니다: {error}",
   "@courseReviewsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "후기 작성 가능한 과목 {count}개를 동기화했습니다.",
   "@courseReviewsSyncSucceeded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "동기화하지 못했습니다: {error}",
   "@courseReviewsSyncFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3354,9 +3430,9 @@
   "forumSelectedBoardUnavailable": "사용 가능한 게시판을 선택하세요.",
   "forumBoardShelter": "쉼터 {name}",
   "@forumBoardShelter": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3367,9 +3443,9 @@
   "forumPublish": "게시",
   "forumPublishFailed": "게시하지 못했습니다: {error}",
   "@forumPublishFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3385,9 +3461,9 @@
   "authPasswordResetEmail": "이메일",
   "authPasswordResetSendFailed": "전송하지 못했습니다: {error}",
   "@authPasswordResetSendFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3398,9 +3474,9 @@
   "courseReviewsStatusRejected": "반려됨",
   "courseReviewsRejectionReason": "리뷰 메모: {reason}",
   "@courseReviewsRejectionReason": {
-   "placeholders": {
-     "reason": {
-       "type": "String"
+    "placeholders": {
+      "reason": {
+        "type": "String"
       }
     }
   },
@@ -3410,18 +3486,18 @@
   "courseReviewsDeleted": "리뷰가 삭제되었습니다.",
   "courseReviewsDeleteFailed": "리뷰를 삭제하지 못했습니다: {error}",
   "@courseReviewsDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "리뷰가 수정되어 다시 검토를 위해 제출되었습니다.",
   "courseReviewsUpdateFailed": "리뷰를 수정하지 못했습니다: {error}",
   "@courseReviewsUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3441,11 +3517,11 @@
   "forumDraftSaved": "임시 저장했습니다",
   "forumDraftSaveFailed": "임시 저장하지 못했습니다: {error}",
   "@forumDraftSaveFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumDraftEmpty": "임시 저장한 글이 없습니다",
   "forumDraftEmptyHint": "게시하지 않고 편집기를 나올 때 '임시 저장'을 선택하세요.",
@@ -3455,21 +3531,21 @@
   "forumDraftDeleted": "임시 저장 글을 삭제했습니다",
   "forumDraftDeleteFailed": "임시 저장 글을 삭제하지 못했습니다: {error}",
   "@forumDraftDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumDraftPublished": "임시 저장 글을 게시했습니다",
   "forumDraftEditTitle": "임시 저장 글 수정",
   "forumDraftLastEdited": "{time}에 수정함",
   "@forumDraftLastEdited": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
   },
   "forumUnsavedChangesTitle": "저장하지 않은 변경 사항",
   "forumUnsavedChangesMessage": "이 글을 게시하거나 임시 저장하거나 삭제하시겠어요?",
@@ -3486,11 +3562,11 @@
   "forumUserFollowingTab": "팔로잉",
   "forumUserJoinedAt": "{date}에 가입",
   "@forumUserJoinedAt": {
-   "placeholders": {
-     "date": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
   },
   "forumUserContentEmpty": "아직 게시한 내용이 없습니다.",
   "forumUserCommentsEmpty": "아직 댓글이 없습니다.",
@@ -3511,11 +3587,11 @@
   "forumPrivacyUpdated": "공개 범위 설정을 업데이트했습니다",
   "forumPrivacyUpdateFailed": "공개 범위 설정을 업데이트하지 못했습니다: {error}",
   "@forumPrivacyUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumFollow": "팔로우",
   "forumUnfollow": "팔로우 취소",
@@ -3525,58 +3601,58 @@
   "forumFollowsYou": "회원님을 팔로우합니다",
   "forumFollowFailed": "팔로우하지 못했습니다: {error}",
   "@forumFollowFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumUnfollowFailed": "팔로우를 취소하지 못했습니다: {error}",
   "@forumUnfollowFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumBlock": "차단",
   "forumUnblock": "차단 해제",
   "forumBlockedBadge": "차단됨",
   "forumBlockConfirmTitle": "{nickname} 님을 차단할까요?",
   "@forumBlockConfirmTitle": {
-   "placeholders": {
-     "nickname": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
   },
   "forumBlockConfirmMessage": "서로 자동으로 팔로우가 해제되며 더 이상 쪽지를 주고받을 수 없습니다.",
   "forumBlockDone": "차단했습니다",
   "forumUnblockDone": "차단을 해제했습니다",
   "forumBlockFailed": "이 사용자를 차단하지 못했습니다: {error}",
   "@forumBlockFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumUnblockFailed": "이 사용자의 차단을 해제하지 못했습니다: {error}",
   "@forumUnblockFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumRemoveFollower": "팔로워 삭제",
   "forumRemoveFollowerConfirmTitle": "{nickname} 님을 팔로워에서 삭제할까요?",
   "@forumRemoveFollowerConfirmTitle": {
-   "placeholders": {
-     "nickname": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
   },
   "forumRemoveFollowerConfirmMessage": "상대방이 회원님을 팔로우하지 않게 됩니다. 별도 알림은 없으며 다시 팔로우할 수 있습니다.",
   "forumFollowerRemoved": "팔로워를 삭제했습니다",
@@ -3586,11 +3662,11 @@
   "forumRelationListEmpty": "아직 아무도 없습니다.",
   "forumRelationListFailed": "목록을 불러오지 못했습니다: {error}",
   "@forumRelationListFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumMessagesTitle": "쪽지",
   "forumMessagesEntrySubtitle": "맞팔로우한 사람과 주고받는 쪽지",
@@ -3603,11 +3679,11 @@
   "forumChatBlocked": "서로 쪽지를 주고받을 수 없습니다.",
   "forumChatSendFailed": "메시지를 보내지 못했습니다: {error}",
   "@forumChatSendFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumChatLoadEarlier": "이전 메시지 불러오기",
   "forumSendMessage": "쪽지 보내기",
@@ -3616,9 +3692,9 @@
   "forumShelterPrivacyDescription": "별명은 이 주제 안에서만 일관되게 유지됩니다. 아바타나 프로필은 표시되지 않으며, 이 게시글은 24시간 후 만료됩니다.",
   "forumShelterExpiresIn": "{time} 후 만료",
   "@forumShelterExpiresIn": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3631,91 +3707,91 @@
   "forumReportSubmitted": "신고가 접수되었습니다.",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaAuthorMeta": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "karma": {
-       "type": "int"
+      "karma": {
+        "type": "int"
       }
     }
   },
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "title": {
-       "type": "String"
+      "title": {
+        "type": "String"
       }
     }
   },
   "@forumKarmaAuthorMetaWithTitle": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "title": {
-       "type": "String"
+      "title": {
+        "type": "String"
       },
-     "karma": {
-       "type": "int"
+      "karma": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaBudgetLine": {
-   "placeholders": {
-     "up": {
-       "type": "int"
+    "placeholders": {
+      "up": {
+        "type": "int"
       },
-     "down": {
-       "type": "int"
+      "down": {
+        "type": "int"
       }
     }
   },
   "@forumCheckinFixed": {
-   "placeholders": {
-     "amount": {
-       "type": "int"
+    "placeholders": {
+      "amount": {
+        "type": "int"
       }
     }
   },
   "@forumCheckinSuccess": {
-   "placeholders": {
-     "amount": {
-       "type": "int"
+    "placeholders": {
+      "amount": {
+        "type": "int"
       },
-     "streak": {
-       "type": "int"
+      "streak": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaNextLevel": {
-   "placeholders": {
-     "karma": {
-       "type": "int"
+    "placeholders": {
+      "karma": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaStreakLine": {
-   "placeholders": {
-     "streak": {
-       "type": "int"
+    "placeholders": {
+      "streak": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaAdminSuccess": {
-   "placeholders": {
-     "karma": {
-       "type": "int"
+    "placeholders": {
+      "karma": {
+        "type": "int"
       }
     }
   },
@@ -3772,18 +3848,18 @@
   "campusLayoutDragHint": "앱을 드래그하여 순서를 바꾸거나 폴더를 만드세요",
   "campusLayoutColumns": "한 줄에 {count}개",
   "@campusLayoutColumns": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "수정된 강의를 덮어쓸까요?",
   "courseImportOverwriteModifiedMessage": "이번 학기의 강의 {count}개가 수동으로 수정되었습니다. 가져오기를 계속하면 이 변경 사항을 덮어씁니다.",
   "@courseImportOverwriteModifiedMessage": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3792,9 +3868,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "개별 검토",
   "courseImportModifiedRecordMessage": "수정된 강의 일정: {time}\n이 기록을 처리할 방법을 선택하세요.",
   "@courseImportModifiedRecordMessage": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3812,9 +3888,9 @@
   "detailStatusInactive": "완료 상태 추적 안 함",
   "detailConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.",
   "@detailConflictWithItems": {
-   "placeholders": {
-     "items": {
-       "type": "String"
+    "placeholders": {
+      "items": {
+        "type": "String"
       }
     }
   },
@@ -3824,9 +3900,9 @@
   "editorCompletionModeNone": "표시만",
   "editorConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.",
   "@editorConflictWithItems": {
-   "placeholders": {
-     "items": {
-       "type": "String"
+    "placeholders": {
+      "items": {
+        "type": "String"
       }
     }
   },
@@ -3834,9 +3910,9 @@
   "commonOk": "확인",
   "whuAccountEducationalYearsValue": "{years}년",
   "@whuAccountEducationalYearsValue": {
-   "placeholders": {
-     "years": {
-       "type": "int"
+    "placeholders": {
+      "years": {
+        "type": "int"
       }
     }
   },
@@ -3921,9 +3997,9 @@
   "authRegisteredDevicesEmpty": "등록된 기기가 없습니다.",
   "authRegisteredDeviceLastSeen": "최근 등록: {time}",
   "@authRegisteredDeviceLastSeen": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -4002,40 +4078,40 @@
   "settingsCourseReminderUseDefault": "그룹 기본값 사용({minutes}분)",
   "settingsCourseReminderCustom": "사용자 지정: {minutes}분",
   "@listDeleteSelectedConfirmMessage": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
@@ -4047,9 +4123,9 @@
   "campusBusArrivalStop": "정류장",
   "campusBusArrivalUseNearest": "가장 가까운 곳 사용: {stopName}",
   "@campusBusArrivalUseNearest": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
@@ -4057,9 +4133,9 @@
   "campusBusArrivalReminder": "도착 알림",
   "campusBusArrivalEnabledTarget": "알림 대상: {targetText}",
   "@campusBusArrivalEnabledTarget": {
-   "placeholders": {
-     "targetText": {
-       "type": "String"
+    "placeholders": {
+      "targetText": {
+        "type": "String"
       }
     }
   },
@@ -4126,9 +4202,9 @@
   "medicalCodeResent": "인증번호를 전송했습니다",
   "medicalResendCountdown": "{seconds}초 후 다시 보내기",
   "@medicalResendCountdown": {
-   "placeholders": {
-     "seconds": {
-       "type": "int"
+    "placeholders": {
+      "seconds": {
+        "type": "int"
       }
     }
   },
@@ -4172,12 +4248,12 @@
   "medicalCardSwitchPatient": "환자 전환",
   "medicalCardSwitchPatientDesc": "진료 대상자를 {name}님({card})으로 전환하시겠습니까?",
   "@medicalCardSwitchPatientDesc": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       },
-     "card": {
-       "type": "String"
+      "card": {
+        "type": "String"
       }
     }
   },
@@ -4186,9 +4262,9 @@
   "medicalConfirmCreate": "생성 확인",
   "medicalMaskedPhone": "인증번호를 {phone}(으)로 전송합니다",
   "@medicalMaskedPhone": {
-   "placeholders": {
-     "phone": {
-       "type": "String"
+    "placeholders": {
+      "phone": {
+        "type": "String"
       }
     }
   },
@@ -4309,9 +4385,21 @@
   "adminQueuePause": "일시 중지",
   "adminQueueResume": "재개",
   "adminQueuePauseConfirmMessage": "{queue} 큐를 일시 중지할까요? 백그라운드 작업 처리가 중단됩니다.",
-  "@adminQueuePauseConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "@adminQueuePauseConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminQueueResumeConfirmMessage": "{queue} 큐를 재개할까요?",
-  "@adminQueueResumeConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "@adminQueueResumeConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminStatusActiveWorkers": "활성 Worker",
   "adminStatusHealthyWorkers": "정상 Worker",
   "adminStatusTasksProcessed": "처리 완료",
@@ -4321,9 +4409,9 @@
   "adminStatusNoWorkers": "온라인 Worker 없음",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-   "placeholders": {
-     "index": {
-       "type": "int"
+    "placeholders": {
+      "index": {
+        "type": "int"
       }
     }
   },
@@ -4388,7 +4476,16 @@
   "adminUsersEnableConfirmMessage": "이 계정을 다시 활성화할까요? 사용자는 즉시 다시 로그인할 수 있습니다.",
   "adminUsersChangeRole": "역할 변경",
   "adminUsersRoleChangeConfirmMessage": "역할을 {fromRole}에서 {toRole}(으)로 변경할까요? 관리자 역할은 모든 사용자와 콘텐츠를 관리할 수 있습니다.",
-  "@adminUsersRoleChangeConfirmMessage": {"placeholders": {"fromRole": {"type": "String"}, "toRole": {"type": "String"}}},
+  "@adminUsersRoleChangeConfirmMessage": {
+    "placeholders": {
+      "fromRole": {
+        "type": "String"
+      },
+      "toRole": {
+        "type": "String"
+      }
+    }
+  },
   "adminUsersRoleUpdated": "사용자 역할이 업데이트되었습니다.",
   "adminUserForumStatusActive": "활성",
   "adminUserForumStatusMuted": "음소거됨",
@@ -4437,11 +4534,29 @@
   "adminForumBoardDeactivate": "비활성화",
   "adminForumBoardArchive": "보관",
   "adminForumBoardDeactivateConfirmMessage": "{board} 게시판을 비활성화할까요? 모든 사용자에게 숨겨집니다.",
-  "@adminForumBoardDeactivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardDeactivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumBoardActivateConfirmMessage": "{board} 게시판을 다시 활성화할까요? 모든 사용자에게 다시 표시됩니다.",
-  "@adminForumBoardActivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardActivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumBoardArchiveConfirmMessage": "{board} 게시판을 보관할까요? 게시판 목록에서 제거됩니다.",
-  "@adminForumBoardArchiveConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardArchiveConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumSettingsTitle": "포럼 설정",
   "adminForumSettingsSubtitle": "업로드, 초대, 정책",
   "adminForumSettingsUpload": "업로드",
@@ -4471,12 +4586,12 @@
   "scorePageTrendGpa": "학기 GPA 추이",
   "scorePageSemesterLabel": "{year}년 - {semester}학기",
   "@scorePageSemesterLabel": {
-   "placeholders": {
-     "year": {
-       "type": "int"
+    "placeholders": {
+      "year": {
+        "type": "int"
       },
-     "semester": {
-       "type": "int"
+      "semester": {
+        "type": "int"
       }
     }
   },
@@ -4567,12 +4682,12 @@
   "aiConfirmationInputSource": "입력 출처(신뢰할 수 없는 웹): {source}",
   "aiConfirmationAutoApproved": "{count}개의 작업을 자동 승인했습니다({mode})",
   "@aiConfirmationAutoApproved": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "mode": {
-       "type": "String"
+      "mode": {
+        "type": "String"
       }
     }
   },
@@ -4725,9 +4840,9 @@
   "courseMatchingNoConflicts": "시간 충돌 없음",
   "courseMatchingConflictsCount": "{count}개 시간 충돌",
   "@courseMatchingConflictsCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -4838,8 +4953,6 @@
   "globalTimetableDeleteAllConfirm": "다운로드한 모든 학기를 삭제할까요?",
   "globalTimetableSourceMode": "데이터 출처",
   "globalTimetableSourceAuto": "자동",
-  "globalTimetableSourceCloud": "클라우드",
-  "globalTimetableSourceLocal": "로컬",
   "globalTimetableLocalMissing": "이 학기의 오프라인 데이터가 아직 없습니다.",
   "globalTimetableNoSlot": "시간 미정",
   "globalTimetableSearchHint": "과목명 / 교수자 / 과목코드",
@@ -4875,25 +4988,25 @@
   "majorInfoLegendOver10": "10% 이상",
   "courseWeekRangeAll": "{range}주",
   "@courseWeekRangeAll": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "{range}주(홀수)",
   "@courseWeekRangeOdd": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "{range}주(짝수)",
   "@courseWeekRangeEven": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
@@ -4908,9 +5021,9 @@
   "whuSmartCampusAuthFailedCasRequired": "스마트 뤄자 인증 실패. WHU CAS를 통해 다시 로그인하세요.",
   "whuSmartCampusAuthFailedHttp": "스마트 뤄자 인증 실패 (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
       }
     }
   },
@@ -5233,19 +5346,19 @@
   "aiCompressContext": "컨텍스트 압축",
   "aiCompressContextDescription": "오래된 메시지를 삭제하여 토큰 사용량을 줄입니다. 현재 대화에 메시지 {messageCount}개가 있습니다.",
   "@aiCompressContextDescription": {
-   "placeholders": {
-    "messageCount": {
-     "type": "int"
+    "placeholders": {
+      "messageCount": {
+        "type": "int"
+      }
     }
-   }
   },
   "aiCompressKeepRecent": "최근 메시지 {count}개 유지",
   "@aiCompressKeepRecent": {
-   "placeholders": {
-    "count": {
-     "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
     }
-   }
   },
   "aiCompress": "압축",
   "aiMcpImportJson": "JSON 가져오기",
@@ -5387,7 +5500,24 @@
   "aiImageGenerationSave": "이미지 저장",
   "aiImageGenerationShare": "이미지 공유",
   "settingsAiCapabilityImageGeneration": "이미지 생성",
-  "aiSpeechTitle": "AI 음성", "aiSpeechRecognitionService": "음성 인식 서비스", "aiSpeechSpeechToText": "speech_to_text (시스템)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Whisper 오프라인 전사", "aiSpeechWhisperModel": "Whisper 모델", "aiDownload": "다운로드", "aiSpeechEngine": "음성 엔진", "aiSpeechEdge": "Edge 온라인 음성", "aiSpeechSttsVoice": "stts 시스템 음성", "aiSpeechVoiceLoadFailed": "온라인 음성을 불러올 수 없어 현재 음성을 사용합니다.", "aiSpeechVoice": "음성", "aiSpeechRate": "속도", "aiSpeechPitch": "음높이", "aiSpeechVolume": "음량", "aiSpeechPreviewText": "안녕하세요. 선택한 AI 음성입니다.", "aiSpeechPreview": "현재 음성 미리 듣기", "aiMcpImportFailed": "MCP 서버 설정을 가져오지 못했습니다",
+  "aiSpeechTitle": "AI 음성",
+  "aiSpeechRecognitionService": "음성 인식 서비스",
+  "aiSpeechSpeechToText": "speech_to_text (시스템)",
+  "aiSpeechStts": "stts",
+  "aiSpeechWhisper": "Whisper 오프라인 전사",
+  "aiSpeechWhisperModel": "Whisper 모델",
+  "aiDownload": "다운로드",
+  "aiSpeechEngine": "음성 엔진",
+  "aiSpeechEdge": "Edge 온라인 음성",
+  "aiSpeechSttsVoice": "stts 시스템 음성",
+  "aiSpeechVoiceLoadFailed": "온라인 음성을 불러올 수 없어 현재 음성을 사용합니다.",
+  "aiSpeechVoice": "음성",
+  "aiSpeechRate": "속도",
+  "aiSpeechPitch": "음높이",
+  "aiSpeechVolume": "음량",
+  "aiSpeechPreviewText": "안녕하세요. 선택한 AI 음성입니다.",
+  "aiSpeechPreview": "현재 음성 미리 듣기",
+  "aiMcpImportFailed": "MCP 서버 설정을 가져오지 못했습니다",
   "campusAppCampusMap": "캠퍼스 지도",
   "campusMapBaseVector": "벡터",
   "campusMapBaseSatellite": "위성",
@@ -5582,7 +5712,16 @@
   },
   "coremailSend": "전송",
   "coremailSendConfirmMessage": "{count}명에게 전송할까요: {recipients}?",
-  "@coremailSendConfirmMessage": {"placeholders": {"count": {"type": "int"}, "recipients": {"type": "String"}}},
+  "@coremailSendConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "recipients": {
+        "type": "String"
+      }
+    }
+  },
   "coremailRecipientsLabel": "받는 사람",
   "coremailRecipientsHint": "여러 주소는 쉼표로 구분",
   "coremailSubjectLabel": "제목",
@@ -5704,7 +5843,13 @@
   "ebikeUnlockHelmet": "헬멧 잠금장치 장착",
   "ebikeUnlockStart": "잠금 해제하고 출발",
   "ebikeUnlockConfirmMessage": "{carId} 차량의 잠금을 해제할까요? 잠금이 열리는 즉시 과금이 시작됩니다.",
-  "@ebikeUnlockConfirmMessage": {"placeholders": {"carId": {"type": "String"}}},
+  "@ebikeUnlockConfirmMessage": {
+    "placeholders": {
+      "carId": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeUnlockSuccess": "잠금이 해제되었습니다",
   "ebikeUnlockNeedRealName": "실명 인증이 필요합니다. 먼저 공식 미니 프로그램에서 완료하세요.",
   "ebikeUnlockNeedFace": "이번 이용에는 공식 미니 프로그램에서 얼굴 인증을 완료해야 합니다.",
@@ -5758,7 +5903,13 @@
   "ebikeSettleDiscount": "할인",
   "ebikeSettlePayWallet": "잔액으로 결제",
   "ebikeSettlePayWalletConfirm": "지갑 잔액으로 {amount}을(를) 결제할까요? 결제한 뒤에는 취소할 수 없습니다.",
-  "@ebikeSettlePayWalletConfirm": {"placeholders": {"amount": {"type": "String"}}},
+  "@ebikeSettlePayWalletConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeSettlePayWalletConfirmUnknownAmount": "지갑 잔액으로 미결제 금액을 결제할까요? 결제한 뒤에는 취소할 수 없습니다.",
   "ebikeSettlePaid": "결제가 완료되었습니다",
   "ebikeSettleInsufficient": "잔액이 부족합니다. 공식 미니 프로그램에서 충전 후 결제하세요.",
@@ -5942,7 +6093,6 @@
   "adminDashboardUsersChart": "사용자 가입 추이",
   "adminDashboardPostsChart": "게시물 작성 추이",
   "adminDashboardCommentsChart": "댓글 작성 추이",
-  "legalOpenWebVersion": "웹 버전 열기",
   "globalTimetableContributionSubmitted": "기여 작업을 제출했습니다. 백그라운드에서 처리 중입니다",
   "globalTimetableImportDismiss": "닫기",
   "adminTaskCenterTitle": "작업 센터",
@@ -5976,5 +6126,7 @@
   "adminTaskCenterContributor": "기여자",
   "adminTaskCenterQueueLabel": "대기열",
   "adminTaskCenterCreatedAt": "생성: {time}",
-  "adminTaskCenterPhaseAwaitingAuth": "재승인 대기"
+  "adminTaskCenterPhaseAwaitingAuth": "재승인 대기",
+  "onboardingPermissionBatteryOptimizationTitle": "배터리 최적화 무시",
+  "onboardingPermissionBatteryOptimizationDescription": "수업 알림 및 리마인더가 제시간에 도착할 수 있도록 앱이 백그라운드에서 제한 없이 실행되도록 허용해 주세요."
 }

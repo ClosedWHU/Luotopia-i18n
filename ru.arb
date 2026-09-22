@@ -1,4 +1,19 @@
 {
+  "settingsAppLockTitle": "Биометрическая защита",
+  "settingsAppLockSubtitle": "Защитите оценки, код воды, кампусную сеть и ИИ отпечатком или лицом",
+  "appLockPolicyTitle": "Когда проверять снова",
+  "appLockPolicyPerEntry": "Каждый раз при входе на страницу",
+  "appLockPolicyCooldown": "Не проверять повторно в течение паузы",
+  "appLockPolicySession": "Проверить один раз — действует до перезапуска",
+  "appLockCooldownMinutes": "{minutes} мин",
+  "appLockSharingTitle": "Общая разблокировка",
+  "appLockSharedUnlock": "Одна разблокировка открывает все защищённые функции",
+  "appLockSharedUnlockHint": "Если включено, одна проверка открывает все защищённые функции в течение окна; если выключено, каждая функция проверяется отдельно.",
+  "appLockScopesTitle": "Защищаемые функции",
+  "appLockScopeScore": "Оценки",
+  "appLockScopeWater": "Код воды",
+  "appLockScopeSchoolNet": "Кампусная сеть",
+  "appLockScopeAi": "ИИ-ассистент",
   "authVerificationSetUpPasskey": "Ещё нет Passkey? Привяжите это устройство",
   "authLoginWithDeviceBiometric": "Войти с помощью биометрии этого устройства",
   "authDeviceBiometric": "Биометрия этого устройства",
@@ -352,34 +367,34 @@
   "editorCoursePeriodEnd": "Конечное занятие",
   "editorCoursePeriodN": "Занятие {n}",
   "@editorCoursePeriodN": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       }
     }
   },
   "editorCoursePeriodSingle": "Занятие {n}\n{time}",
   "@editorCoursePeriodSingle": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
   "editorCoursePeriodRange": "Занятия {from}–{to}\n{time}",
   "@editorCoursePeriodRange": {
-   "placeholders": {
-     "from": {
-       "type": "int"
+    "placeholders": {
+      "from": {
+        "type": "int"
       },
-     "to": {
-       "type": "int"
+      "to": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -387,9 +402,9 @@
   "editorCourseWeekEnd": "Конечная неделя",
   "editorCourseWeekN": "Неделя {n}",
   "@editorCourseWeekN": {
-   "placeholders": {
-     "n": {
-       "type": "int"
+    "placeholders": {
+      "n": {
+        "type": "int"
       }
     }
   },
@@ -578,17 +593,17 @@
   "settingsLicensesSearchHint": "Поиск лицензий",
   "licenseAuthor": "Автор: {author}",
   "@licenseAuthor": {
-   "placeholders": {
-     "author": {
-       "type": "String"
+    "placeholders": {
+      "author": {
+        "type": "String"
       }
     }
   },
   "licenseVersion": "Версия: {version}",
   "@licenseVersion": {
-   "placeholders": {
-     "version": {
-       "type": "String"
+    "placeholders": {
+      "version": {
+        "type": "String"
       }
     }
   },
@@ -713,9 +728,9 @@
   "sportsSelectTimeSlot": "Выбрать слот",
   "sportsReservableSlotsCount": "{count} слотов",
   "@sportsReservableSlotsCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -802,7 +817,13 @@
   "whuAccountSectionSession": "Сессия",
   "whuTotpSectionTitle": "Код аутентификатора",
   "whuTotpCodeSubtitle": "Обновится через {seconds} с · Нажмите, чтобы скопировать",
-  "@whuTotpCodeSubtitle": {"placeholders": {"seconds": {"type": "int"}}},
+  "@whuTotpCodeSubtitle": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "whuTotpEnable": "Включить код аутентификатора",
   "whuTotpEnableSubtitle": "Подтвердите номер телефона или почту и безопасно сохраните ключ на этом устройстве",
   "whuTotpImport": "Ввести существующий ключ",
@@ -827,7 +848,13 @@
   "whuTotpCopied": "Код подтверждения скопирован",
   "whuTotpInvalidSecret": "Введите корректный секретный ключ Base32",
   "whuTotpFailed": "Не удалось завершить настройку аутентификатора: {message}",
-  "@whuTotpFailed": {"placeholders": {"message": {"type": "String"}}},
+  "@whuTotpFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "whuTotpWebsiteEnabled": "Включён в WHU, но ключ не сохранён на этом устройстве",
   "whuTotpWebsiteDisabled": "Не включён в WHU",
   "whuTotpLocallySavedButUnbound": "TOTP больше не привязан в WHU. Сохранённый локально код может быть недействителен; включите TOTP снова или удалите локальный ключ.",
@@ -845,14 +872,38 @@
   "whuTrustedDevicesEmpty": "Нет доверенных браузеров",
   "whuTrustedDevicesCurrent": "Текущий вход",
   "whuTrustedDevicesLoginTime": "Последний вход: {time}",
-  "@whuTrustedDevicesLoginTime": {"placeholders": {"time": {"type": "String"}}},
+  "@whuTrustedDevicesLoginTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "whuTrustedDevicesLimit": "До {count} доверенных браузеров",
-  "@whuTrustedDevicesLimit": {"placeholders": {"count": {"type": "int"}}},
+  "@whuTrustedDevicesLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "whuTrustedDevicesValidity": "Автоматически удаляется после {days} дней бездействия",
-  "@whuTrustedDevicesValidity": {"placeholders": {"days": {"type": "int"}}},
+  "@whuTrustedDevicesValidity": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "whuTrustedDevicesDelete": "Удалить устройство",
   "whuTrustedDevicesDeleteConfirm": "Удалить доверенный браузер «{name}»? При следующем входе может потребоваться многофакторная проверка.",
-  "@whuTrustedDevicesDeleteConfirm": {"placeholders": {"name": {"type": "String"}}},
+  "@whuTrustedDevicesDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "whuTrustedDevicesDeleted": "Доверенный браузер удалён",
   "whuAccountRecentLogin": "Недавний вход",
   "whuAccountRecentVerification": "Недавняя проверка",
@@ -866,211 +917,211 @@
   "whuLoginWebViewLoading": "Загрузка…",
   "whuLoginWebViewTitle": "Вход WHU",
   "@editorDurationHourMinute": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       },
-     "minutes": {
-       "type": "int"
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@editorDurationHours": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       }
     }
   },
   "@editorDurationMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomAddedSingle": {
-   "placeholders": {
-     "classroom": {
-       "type": "String"
+    "placeholders": {
+      "classroom": {
+        "type": "String"
       },
-     "section": {
-       "type": "int"
+      "section": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomConflictMulti": {
-   "placeholders": {
-     "sections": {
-       "type": "String"
+    "placeholders": {
+      "sections": {
+        "type": "String"
       }
     }
   },
   "@emptyClassroomFABExpanded": {
-   "placeholders": {
-     "expanded": {
-       "type": "int"
+    "placeholders": {
+      "expanded": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomFloorSeats": {
-   "placeholders": {
-     "floor": {
-       "type": "String"
+    "placeholders": {
+      "floor": {
+        "type": "String"
       },
-     "available": {
-       "type": "int"
+      "available": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomSectionLabel": {
-   "placeholders": {
-     "section": {
-       "type": "int"
+    "placeholders": {
+      "section": {
+        "type": "int"
       }
     }
   },
   "@emptyClassroomWeekLabel": {
-   "placeholders": {
-     "week": {
-       "type": "String"
+    "placeholders": {
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMainLabelWeek": {
-   "placeholders": {
-     "week": {
-       "type": "String"
+    "placeholders": {
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMonthDayRange": {
-   "placeholders": {
-     "day": {
-       "type": "String"
+    "placeholders": {
+      "day": {
+        "type": "String"
       },
-     "endDay": {
-       "type": "String"
+      "endDay": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarMonthWeek": {
-   "placeholders": {
-     "month": {
-       "type": "String"
+    "placeholders": {
+      "month": {
+        "type": "String"
       },
-     "week": {
-       "type": "String"
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarTopLabelYearOnly": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarYearMonth": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       },
-     "month": {
-       "type": "String"
+      "month": {
+        "type": "String"
       }
     }
   },
   "@homeCalendarYearWeek": {
-   "placeholders": {
-     "year": {
-       "type": "String"
+    "placeholders": {
+      "year": {
+        "type": "String"
       },
-     "week": {
-       "type": "String"
+      "week": {
+        "type": "String"
       }
     }
   },
   "@homeCurrentWeekRange": {
-   "placeholders": {
-     "start": {
-       "type": "String"
+    "placeholders": {
+      "start": {
+        "type": "String"
       },
-     "end": {
-       "type": "String"
+      "end": {
+        "type": "String"
       }
     }
   },
   "@homePeriodRange": {
-   "placeholders": {
-     "start": {
-       "type": "String"
+    "placeholders": {
+      "start": {
+        "type": "String"
       },
-     "end": {
-       "type": "String"
+      "end": {
+        "type": "String"
       }
     }
   },
   "@homeWeekdayLabel": {
-   "placeholders": {
-     "weekday": {
-       "type": "String"
+    "placeholders": {
+      "weekday": {
+        "type": "String"
       }
     }
   },
   "@listCompletedSection": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "@settingsMinutesValue": {
-   "placeholders": {
-     "value": {
-       "type": "int"
+    "placeholders": {
+      "value": {
+        "type": "int"
       }
     }
   },
   "@settingsPercentValue": {
-   "placeholders": {
-     "value": {
-       "type": "int"
+    "placeholders": {
+      "value": {
+        "type": "int"
       }
     }
   },
   "@weatherLoadFailedWithError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseImportStatusImported": "Готово: {count}, на этой неделе {currentWeek}.",
   "@courseImportStatusImported": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "currentWeek": {
-       "type": "int"
+      "currentWeek": {
+        "type": "int"
       }
     }
   },
   "courseImportSnackSuccess": "Импортировано {count} в «{tableName}».",
   "@courseImportSnackSuccess": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "tableName": {
-       "type": "String"
+      "tableName": {
+        "type": "String"
       }
     }
   },
@@ -1078,28 +1129,28 @@
   "courseImportGraduateTermsUnrecognized": "Не удалось распознать семестры, возвращённые системой аспирантуры.",
   "courseImportStatusFailed": "Ошибка импорта: {error}",
   "@courseImportStatusFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseImportAcademicYearLabel": "{year}-{next} уч. год",
   "@courseImportAcademicYearLabel": {
-   "placeholders": {
-     "year": {
-       "type": "int"
+    "placeholders": {
+      "year": {
+        "type": "int"
       },
-     "next": {
-       "type": "int"
+      "next": {
+        "type": "int"
       }
     }
   },
   "courseImportSemesterLabel": "Семестр {semester}",
   "@courseImportSemesterLabel": {
-   "placeholders": {
-     "semester": {
-       "type": "int"
+    "placeholders": {
+      "semester": {
+        "type": "int"
       }
     }
   },
@@ -1110,9 +1161,9 @@
   "editorCourseNatureHint": "Тип курса (напр. обязательный/выборный)",
   "editorChangeScopeTitle": "Изменить только этот элемент или все курсы «{title}»?",
   "@editorChangeScopeTitle": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1120,9 +1171,9 @@
   "editorChangeAllSameName": "Все курсы с тем же именем",
   "editorCourseSeriesSyncHint": "Изменения названия, типа и преподавателя синхронизируются со всеми {count} занятиями семестра",
   "@editorCourseSeriesSyncHint": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1134,9 +1185,9 @@
   "aiMemo": "Заметка",
   "aiDraftReady": "Черновик готов: {title}",
   "@aiDraftReady": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1160,9 +1211,9 @@
   "aiClearConversationsWarning": "Все локальные диалоги с ИИ будут удалены.",
   "aiConfirmationBatchTitle": "Подтвердить действия: {count}",
   "@aiConfirmationBatchTitle": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1175,8 +1226,6 @@
   "aiConfirmationDecline": "Отменить",
   "aiConfirmationSubmit": "Отправить решения",
   "aiConfirmationDecisionRequired": "Для каждого действия выберите «Разрешить» или «Отменить».",
-  "scorePagePrivacyLocked": "Ведомость защищена замком конфиденциальности",
-  "scorePageClickToUnlock": "Нажмите, чтобы разблокировать",
   "scorePageNoLocalScore": "Нет локальных оценок",
   "scorePageLoginHint": "Если не вошли — войдите в настройках.\nЗатем нажмите кнопку ниже, чтобы загрузить и синхронизировать оценки.",
   "scorePageSync": "Синхр. оценок",
@@ -1184,34 +1233,31 @@
   "scorePageTotalCredits": "Всего кредитов",
   "scorePageGetFailed": "Не удалось получить оценки",
   "scorePageSettings": "Настройки оценок",
-  "scorePageEnableBiometric": "Включить биометрический замок",
-  "scorePageBiometricHint": "Защитите оценки Face ID или отпечатком",
   "scorePageGpaStandard": "Стандарт расчёта GPA",
   "scorePageGpaStandardHint": "При смене пересчитываются общий и групповой GPA",
   "scorePageStandardWhu": "Стандарт WHU 2021+",
   "scorePageStandardWes": "Стандарт WES",
   "scorePageStandard40": "Стандартный алгоритм 4.0",
   "scorePageStandard100": "Средний процент",
-  "scorePageBiometricAuthFailed": "Ошибка биометрии",
   "scorePageCourseInfo": "{type} · {credit} кр. · {instructor}",
   "@scorePageCourseInfo": {
-   "placeholders": {
-     "type": {
-       "type": "String"
+    "placeholders": {
+      "type": {
+        "type": "String"
       },
-     "credit": {
-       "type": "String"
+      "credit": {
+        "type": "String"
       },
-     "instructor": {
-       "type": "String"
+      "instructor": {
+        "type": "String"
       }
     }
   },
   "scorePageGpaDisplay": "GPA: {gpa}",
   "@scorePageGpaDisplay": {
-   "placeholders": {
-     "gpa": {
-       "type": "String"
+    "placeholders": {
+      "gpa": {
+        "type": "String"
       }
     }
   },
@@ -1220,9 +1266,9 @@
   "settingsDevModeActivated": "Режим разработчика включён. Доступны настройки разработчика.",
   "settingsDevModeTapCount": "Ещё {count} нажатий до режима разработчика",
   "@settingsDevModeTapCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1231,34 +1277,34 @@
   "hotUpdateTitle": "Управление горячим обновлением",
   "hotUpdateManifestVersion": "Манифест v{version}",
   "@hotUpdateManifestVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
+    "placeholders": {
+      "version": {
+        "type": "int"
       }
     }
   },
   "hotUpdateUpdatedAt": "Обновлено: {time}",
   "@hotUpdateUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "hotUpdateNeverUpdated": "Никогда не обновлялось (используется встроенный парсер)",
   "hotUpdateLocalVersion": "Локальная версия v{version}",
   "@hotUpdateLocalVersion": {
-   "placeholders": {
-     "version": {
-       "type": "int"
+    "placeholders": {
+      "version": {
+        "type": "int"
       }
     }
   },
   "hotUpdateChecksum": "SHA-256: {checksum}",
   "@hotUpdateChecksum": {
-   "placeholders": {
-     "checksum": {
-       "type": "String"
+    "placeholders": {
+      "checksum": {
+        "type": "String"
       }
     }
   },
@@ -1278,9 +1324,9 @@
   "hotUpdateVersionMissing": "Локально нет · Удалённая v{remote}",
   "hotUpdateLastFailure": "Последняя ошибка: {reason}",
   "@hotUpdateCheckComplete": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1310,9 +1356,9 @@
   "settingsNotificationChannelNotCreated": "Ещё не создан",
   "settingsNotificationChannelCurrent": "Сейчас: {level}",
   "@settingsNotificationChannelCurrent": {
-   "placeholders": {
-     "level": {
-       "type": "String"
+    "placeholders": {
+      "level": {
+        "type": "String"
       }
     }
   },
@@ -1331,9 +1377,9 @@
   "settingsClearCacheSubtitle": "Освободить временные файлы и кэш",
   "settingsCacheCleared": "Кэш очищен: освобождено {size}",
   "@settingsCacheCleared": {
-   "placeholders": {
-     "size": {
-       "type": "String"
+    "placeholders": {
+      "size": {
+        "type": "String"
       }
     }
   },
@@ -1343,18 +1389,18 @@
   "settingsDevSaveSuccess": "Сохранено: URL сервера обновлён",
   "settingsDevScanSuccess": "Сервер найден: {ip}:6262",
   "@settingsDevScanSuccess": {
-   "placeholders": {
-     "ip": {
-       "type": "String"
+    "placeholders": {
+      "ip": {
+        "type": "String"
       }
     }
   },
   "settingsDevScanFailed": "На LAN не найден API-сервер на порту 6262",
   "settingsDevScanError": "Ошибка сканирования: {error}",
   "@settingsDevScanError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1383,9 +1429,9 @@
   "whuLoginVerifying": "Проверка входа…",
   "whuLoginVerificationFailed": "Проверка входа не удалась: {error}",
   "@whuLoginVerificationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1396,9 +1442,9 @@
   "libraryNoVenues": "Нет доступных площадок",
   "libraryLoadFailed": "Ошибка загрузки: {error}",
   "@libraryLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1413,8 +1459,8 @@
   "globalTimetableLocalImportSuccess": "На этом устройстве сохранено записей расписания: {count}.",
   "globalTimetableLocalImportFailed": "Не удалось импортировать общеуниверситетское расписание на это устройство.",
   "globalTimetableLocalUnsupported": "Локальный импорт расписания недоступен на этой платформе.",
-  "globalTimetableSourceLocal": "Локальные данные",
-  "globalTimetableSourceCloud": "Облачные данные",
+  "globalTimetableSourceLocal": "Локально",
+  "globalTimetableSourceCloud": "Облако",
   "globalTimetableSourceCloudUnavailable": "Для этого периода нет данных в облаке",
   "globalTimetableContributionTitle": "Внести вклад в общеуниверситетское расписание",
   "globalTimetableContributionMessage": "Авторизуйте Luotopia с помощью одноразового билета WHU CAS. Серверный процесс в фоновом режиме импортирует данные за {year}-{nextYear}, семестр {term}, непосредственно из учебной системы WHU. Ваша учетная запись WHU должна совпадать с учетной записью, привязанной к вашему аккаунту Luotopia.",
@@ -1439,33 +1485,33 @@
   "settingsAiConnectionSuccess": "Проверка подключения ИИ успешна.",
   "settingsAiConnectionFailed": "Ошибка подключения: {error}",
   "@settingsAiConnectionFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "luojiaEcardLoading": "Загрузка {name}…",
   "@luojiaEcardLoading": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
   "luojiaEcardPreparing": "Подготовка {name}…",
   "@luojiaEcardPreparing": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
   "pagePreparationFailed": "Не удалось подготовить страницу: {error}",
   "@pagePreparationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1477,9 +1523,9 @@
   "whuCasServiceAuthFailed": "Авторизация службы не удалась. Войдите снова в CAS WHU.",
   "whuCasServiceRequestFailed": "Запрос авторизации службы не удался: {error}",
   "@whuCasServiceRequestFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1487,25 +1533,25 @@
   "whuCasSessionExpired": "Сессия учебной системы истекла. Войдите снова.",
   "whuCasSessionVerifyFailed": "Проверка учебной сессии не удалась: {error}",
   "@whuCasSessionVerifyFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "whuCasFetchFailed": "Не удалось получить данные учебной учётки (HTTP {code}).",
   "@whuCasFetchFailed": {
-   "placeholders": {
-     "code": {
-       "type": "int"
+    "placeholders": {
+      "code": {
+        "type": "int"
       }
     }
   },
   "whuCasLoginFailedReason": "Вход в учебную систему не удался: {reason}",
   "@whuCasLoginFailedReason": {
-   "placeholders": {
-     "reason": {
-       "type": "String"
+    "placeholders": {
+      "reason": {
+        "type": "String"
       }
     }
   },
@@ -1526,28 +1572,28 @@
   "gradesReviewsNoResults": "Курсы не найдены",
   "gradesReviewsSearchError": "Ошибка поиска: {error}",
   "@gradesReviewsSearchError": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsResultSubtitle": "{uid} · {department}",
   "@gradesReviewsResultSubtitle": {
-   "placeholders": {
-     "uid": {
-       "type": "String"
+    "placeholders": {
+      "uid": {
+        "type": "String"
       },
-     "department": {
-       "type": "String"
+      "department": {
+        "type": "String"
       }
     }
   },
   "courseDetailTitle": "Курс: {uid}",
   "@courseDetailTitle": {
-   "placeholders": {
-     "uid": {
-       "type": "String"
+    "placeholders": {
+      "uid": {
+        "type": "String"
       }
     }
   },
@@ -1555,33 +1601,33 @@
   "courseDetailReviewsTab": "Отзывы",
   "gradesReviewsSearchFailMessage": "Ошибка поиска: {message}",
   "@gradesReviewsSearchFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsGradeStatsFailMessage": "Не удалось загрузить распределение: {message}",
   "@gradesReviewsGradeStatsFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "gradesReviewsReviewsFailMessage": "Не удалось загрузить отзывы: {message}",
   "@gradesReviewsReviewsFailMessage": {
-   "placeholders": {
-     "message": {
-       "type": "String"
+    "placeholders": {
+      "message": {
+        "type": "String"
       }
     }
   },
   "courseTimetableDefaultName": "Расписание {index}",
   "@courseTimetableDefaultName": {
-   "placeholders": {
-     "index": {
-       "type": "int"
+    "placeholders": {
+      "index": {
+        "type": "int"
       }
     }
   },
@@ -1591,9 +1637,9 @@
   "sportsReservationDayAfterTomorrow": "Послезавтра",
   "sportsVenueCourtFormat": "Корт {areaNo}",
   "@sportsVenueCourtFormat": {
-   "placeholders": {
-     "areaNo": {
-       "type": "String"
+    "placeholders": {
+      "areaNo": {
+        "type": "String"
       }
     }
   },
@@ -1615,28 +1661,28 @@
   "sportsVenueFree": "Бесплатно",
   "sportsVenuePriceFormat": "{price} юаней",
   "@sportsVenuePriceFormat": {
-   "placeholders": {
-     "price": {
-       "type": "String"
+    "placeholders": {
+      "price": {
+        "type": "String"
       }
     }
   },
   "sportsVenuePriceRangeFormat": "{lowPrice}-{highPrice} юаней",
   "@sportsVenuePriceRangeFormat": {
-   "placeholders": {
-     "lowPrice": {
-       "type": "String"
+    "placeholders": {
+      "lowPrice": {
+        "type": "String"
       },
-     "highPrice": {
-       "type": "String"
+      "highPrice": {
+        "type": "String"
       }
     }
   },
   "sportsOrderPriceWithUnitFormat": "{value} юаней",
   "@sportsOrderPriceWithUnitFormat": {
-   "placeholders": {
-     "value": {
-       "type": "String"
+    "placeholders": {
+      "value": {
+        "type": "String"
       }
     }
   },
@@ -1665,58 +1711,58 @@
   "sportsFetchBulletins": "Получить объявления площадок",
   "sportsNetworkError": "{action}: сетевая ошибка.",
   "@sportsNetworkError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiHttpError": "{action}: HTTP {statusCode}.",
   "@sportsApiHttpError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "statusCode": {
-       "type": "int"
+      "statusCode": {
+        "type": "int"
       }
     }
   },
   "sportsApiFormatError": "{action}: неверный формат ответа.",
   "@sportsApiFormatError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiError": "{action}: ошибка.",
   "@sportsApiError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       }
     }
   },
   "sportsApiErrorWithMessage": "{action}: {message}",
   "@sportsApiErrorWithMessage": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "message": {
-       "type": "String"
+      "message": {
+        "type": "String"
       }
     }
   },
   "sportsApiJsonError": "{action}: ответ не JSON. {diagnostic}",
   "@sportsApiJsonError": {
-   "placeholders": {
-     "action": {
-       "type": "String"
+    "placeholders": {
+      "action": {
+        "type": "String"
       },
-     "diagnostic": {
-       "type": "String"
+      "diagnostic": {
+        "type": "String"
       }
     }
   },
@@ -1727,9 +1773,9 @@
   "sportsApiDiagnosticNonJson": "Не-JSON текст",
   "sportsApiDiagnosticResponseType": "Тип ответа: {kind}.",
   "@sportsApiDiagnosticResponseType": {
-   "placeholders": {
-     "kind": {
-       "type": "String"
+    "placeholders": {
+      "kind": {
+        "type": "String"
       }
     }
   },
@@ -1744,23 +1790,23 @@
   "scoreImportImportingUndergraduate": "Вход в бакалавриат и импорт оценок…",
   "scoreImportSuccessWithCount": "{success}: {count} оценок сохранено локально.",
   "@scoreImportSuccessWithCount": {
-   "placeholders": {
-     "success": {
-       "type": "String"
+    "placeholders": {
+      "success": {
+        "type": "String"
       },
-     "count": {
-       "type": "int"
+      "count": {
+        "type": "int"
       }
     }
   },
   "scoreImportFailedWithError": "{failed}: {error}",
   "@scoreImportFailedWithError": {
-   "placeholders": {
-     "failed": {
-       "type": "String"
+    "placeholders": {
+      "failed": {
+        "type": "String"
       },
-     "error": {
-       "type": "String"
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -1768,27 +1814,27 @@
   "scoreImportNoStudentId": "Не найден номер студента глобального входа",
   "scoreImportSpoilerSuccessWithCount": "{success}: получено {count} записей об оценках из системы проф. развития.",
   "@scoreImportSpoilerSuccessWithCount": {
-   "placeholders": {
-     "success": {
-       "type": "String"
+    "placeholders": {
+      "success": {
+        "type": "String"
       },
-     "count": {
-       "type": "int"
+      "count": {
+        "type": "int"
       }
     }
   },
   "scoreImportLastImport": "Последний импорт",
   "scoreImportExample": "Пример: {name} · {score} · {credit}",
   "@scoreImportExample": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       },
-     "score": {
-       "type": "String"
+      "score": {
+        "type": "String"
       },
-     "credit": {
-       "type": "String"
+      "credit": {
+        "type": "String"
       }
     }
   },
@@ -1799,20 +1845,20 @@
   "seatReservationDraftTitle": "Бронь места в библиотеке",
   "seatReservationDraftDetails": "Источник: система брони мест библиотеки WHU\nID места: {seatId}\n{marker}",
   "@seatReservationDraftDetails": {
-   "placeholders": {
-     "seatId": {
-       "type": "String"
+    "placeholders": {
+      "seatId": {
+        "type": "String"
       },
-     "marker": {
-       "type": "String"
+      "marker": {
+        "type": "String"
       }
     }
   },
   "seatReservationSourceMarker": "ID синхронизации брони: {sourceId}",
   "@seatReservationSourceMarker": {
-   "placeholders": {
-     "sourceId": {
-       "type": "String"
+    "placeholders": {
+      "sourceId": {
+        "type": "String"
       }
     }
   },
@@ -1821,9 +1867,9 @@
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} сообщ.",
   "@aiMessageCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -1837,9 +1883,9 @@
   "aiHeaderRetryLater": "Сервис ИИ временно недоступен. Повторите позже.",
   "aiHeaderDraftCreated": "Создано через черновик: {title}",
   "@aiHeaderDraftCreated": {
-   "placeholders": {
-     "title": {
-       "type": "String"
+    "placeholders": {
+      "title": {
+        "type": "String"
       }
     }
   },
@@ -1863,12 +1909,12 @@
   "whuAccountFallbackName": "Аккаунт WHU",
   "homeWidgetDateLabel": "{month}/{day}",
   "@homeWidgetDateLabel": {
-   "placeholders": {
-     "month": {
-       "type": "int"
+    "placeholders": {
+      "month": {
+        "type": "int"
       },
-     "day": {
-       "type": "int"
+      "day": {
+        "type": "int"
       }
     }
   },
@@ -1881,17 +1927,17 @@
   "homeWidgetAllDay": "Весь день",
   "homeWidgetUpdatedAt": "Обновлено {time}",
   "@homeWidgetUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "homeWidgetWeekLabel": "Неделя {week}",
   "@homeWidgetWeekLabel": {
-   "placeholders": {
-     "week": {
-       "type": "int"
+    "placeholders": {
+      "week": {
+        "type": "int"
       }
     }
   },
@@ -1903,17 +1949,17 @@
   "weatherRainReminderTitle": "Напоминание о дожде",
   "weatherBannerRainInMinutes": "Дождь примерно через {minutes} мин — возьмите зонт.",
   "@weatherBannerRainInMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "weatherBannerRainInHours": "Дождь примерно через {hours} ч — зонт пригодится.",
   "@weatherBannerRainInHours": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       }
     }
   },
@@ -1921,31 +1967,31 @@
   "weatherBannerRainTomorrow": "Завтра возможен дождь — возьмите зонт, если выходите.",
   "weatherAQIValue": "AQI {value}",
   "@weatherAQIValue": {
-   "placeholders": {
-     "value": {
-       "type": "String"
+    "placeholders": {
+      "value": {
+        "type": "String"
       }
     }
   },
   "weatherConditionFormat": "{condition} · {minTemp}°/{maxTemp}°",
   "@weatherConditionFormat": {
-   "placeholders": {
-     "condition": {
-       "type": "String"
+    "placeholders": {
+      "condition": {
+        "type": "String"
       },
-     "minTemp": {
-       "type": "String"
+      "minTemp": {
+        "type": "String"
       },
-     "maxTemp": {
-       "type": "String"
+      "maxTemp": {
+        "type": "String"
       }
     }
   },
   "scoreCaptchaRetrying": "Автопроверка (попытка {attempt})…",
   "@scoreCaptchaRetrying": {
-   "placeholders": {
-     "attempt": {
-       "type": "int"
+    "placeholders": {
+      "attempt": {
+        "type": "int"
       }
     }
   },
@@ -1995,17 +2041,17 @@
   "campusBusLocationImpreciseTitle": "Слишком неточное местоположение",
   "campusBusNearestStop": "Ближайшая: {stopName}",
   "@campusBusNearestStop": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
   "campusBusTargetStop": "Цель: {stopName}",
   "@campusBusTargetStop": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
@@ -2055,9 +2101,9 @@
   "settingsWeatherAqiStandard": "Стандарт AQI",
   "libraryAuthFailed": "Ошибка авторизации: {error}",
   "@libraryAuthFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2069,18 +2115,18 @@
   "libraryCancelSuccess": "Бронь отменена",
   "libraryCancelFailed": "Не удалось отменить: {error}",
   "@libraryCancelFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "libraryCheckoutSuccess": "Вы вышли",
   "libraryCheckoutFailed": "Ошибка выхода: {error}",
   "@libraryCheckoutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2089,40 +2135,40 @@
   "libraryNoRoomData": "Нет данных о залах",
   "libraryFloor": "Этаж {floor}",
   "@libraryFloor": {
-   "placeholders": {
-     "floor": {
-       "type": "int"
+    "placeholders": {
+      "floor": {
+        "type": "int"
       }
     }
   },
   "libraryAvailable": "Свободно {free}/{total}",
   "@libraryAvailable": {
-   "placeholders": {
-     "free": {
-       "type": "int"
+    "placeholders": {
+      "free": {
+        "type": "int"
       },
-     "total": {
-       "type": "int"
+      "total": {
+        "type": "int"
       }
     }
   },
   "libraryBookTitle": "{building} - {room}",
   "@libraryBookTitle": {
-   "placeholders": {
-     "building": {
-       "type": "String"
+    "placeholders": {
+      "building": {
+        "type": "String"
       },
-     "room": {
-       "type": "String"
+      "room": {
+        "type": "String"
       }
     }
   },
   "libraryNoSeatData": "Нет данных о местах",
   "librarySeatLayoutFailed": "Не удалось загрузить схему мест: {error}",
   "@librarySeatLayoutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2134,9 +2180,9 @@
   "libraryCaptchaLoadFailed": "Не удалось загрузить капчу. Попробуйте снова.",
   "libraryBookFailed": "Ошибка брони: {error}",
   "@libraryBookFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2153,9 +2199,9 @@
   "libraryTomorrow": "Завтра",
   "emptyClassroomSelfStudyTitle": "Самоподготовка · {location}",
   "@emptyClassroomSelfStudyTitle": {
-   "placeholders": {
-     "location": {
-       "type": "String"
+    "placeholders": {
+      "location": {
+        "type": "String"
       }
     }
   },
@@ -2165,12 +2211,12 @@
   "addToAgendaConfirm": "Добавить",
   "sportsAgendaItemTitle": "{type} · {venue}",
   "@sportsAgendaItemTitle": {
-   "placeholders": {
-     "type": {
-       "type": "String"
+    "placeholders": {
+      "type": {
+        "type": "String"
       },
-     "venue": {
-       "type": "String"
+      "venue": {
+        "type": "String"
       }
     }
   },
@@ -2209,9 +2255,9 @@
   "settingsAiFetchModels": "Загрузить модели",
   "settingsAiFetchedCount": "Загружено моделей: {count}",
   "@settingsAiFetchedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -2233,9 +2279,9 @@
   "ecardPaycodeRefreshNow": "Обновить",
   "ecardPaycodeRefreshInSeconds": "Обновление через {seconds} сек.",
   "@ecardPaycodeRefreshInSeconds": {
-   "placeholders": {
-     "seconds": {
-       "type": "int"
+    "placeholders": {
+      "seconds": {
+        "type": "int"
       }
     }
   },
@@ -2249,16 +2295,22 @@
   "waterControlCancelTitle": "Отключить этот код?",
   "waterControlCancelMessage": "Активный код для общежития {dormitory} сразу перестанет действовать.",
   "@waterControlCancelMessage": {
-   "placeholders": {
-     "dormitory": {
-       "type": "String"
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
       }
     }
   },
   "waterControlCancelConfirm": "Отключить",
   "waterControlRequestConfirmTitle": "Запросить код доступа к воде?",
   "waterControlRequestConfirmMessage": "Для {dormitory} будет выпущен код. Пока клапан открыт, вода оплачивается по расходу.",
-  "@waterControlRequestConfirmMessage": {"placeholders": {"dormitory": {"type": "String"}}},
+  "@waterControlRequestConfirmMessage": {
+    "placeholders": {
+      "dormitory": {
+        "type": "String"
+      }
+    }
+  },
   "waterControlRequestConfirm": "Запросить код",
   "waterControlCancelSuccess": "Код доступа отключён",
   "waterControlCopied": "Код скопирован",
@@ -2268,9 +2320,9 @@
   "waterControlAccountFallback": "Счёт карты кампуса",
   "waterControlUpdatedAt": "Обновлено в {time}",
   "@waterControlUpdatedAt": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -2280,12 +2332,12 @@
   "waterControlExpiryUnknown": "Срок действия этого кода неизвестен",
   "waterControlExpiresIn": "Осталось около {hours} ч {minutes} мин",
   "@waterControlExpiresIn": {
-   "placeholders": {
-     "hours": {
-       "type": "int"
+    "placeholders": {
+      "hours": {
+        "type": "int"
       },
-     "minutes": {
-       "type": "int"
+      "minutes": {
+        "type": "int"
       }
     }
   },
@@ -2307,9 +2359,9 @@
   "waterControlSearchDormitory": "Поиск по названию или ClassNo",
   "waterControlDormitoryCount": "Общежития: {count}",
   "@waterControlDormitoryCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -2334,9 +2386,9 @@
   "studyStatusFetchFailed": "Не удалось загрузить данные",
   "studyStatusStatsTime": "Статистика на {time}",
   "@studyStatusStatsTime": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -2350,83 +2402,83 @@
   "studyStatusOutOfPlan": "Вне плана",
   "studyStatusTotalCourses": "{count} курсов",
   "@studyStatusTotalCourses": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusPassedCount": "Сдано {count}",
   "@studyStatusPassedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusFailedCount": "Не сдано {count}",
   "@studyStatusFailedCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusStudyingCount": "В процессе {count}",
   "@studyStatusStudyingCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "studyStatusRequiredCredits": "Требуется {credits} кредитов",
   "@studyStatusRequiredCredits": {
-   "placeholders": {
-     "credits": {
-       "type": "String"
+    "placeholders": {
+      "credits": {
+        "type": "String"
       }
     }
   },
   "studyStatusEarnedCredits": "Получено {credits} кредитов",
   "@studyStatusEarnedCredits": {
-   "placeholders": {
-     "credits": {
-       "type": "String"
+    "placeholders": {
+      "credits": {
+        "type": "String"
       }
     }
   },
   "studyStatusNoCourses": "Данные о курсах отсутствуют",
   "studyStatusCredits": "{credit} кредитов",
   "@studyStatusCredits": {
-   "placeholders": {
-     "credit": {
-       "type": "String"
+    "placeholders": {
+      "credit": {
+        "type": "String"
       }
     }
   },
   "studyStatusRetake": "Пересдача",
   "studyStatusScorePoints": "{score} баллов",
   "@studyStatusScorePoints": {
-   "placeholders": {
-     "score": {
-       "type": "Object"
+    "placeholders": {
+      "score": {
+        "type": "Object"
       }
     }
   },
   "studyStatusOriginalScore": "Исходный балл: {score}",
   "@studyStatusOriginalScore": {
-   "placeholders": {
-     "score": {
-       "type": "Object"
+    "placeholders": {
+      "score": {
+        "type": "Object"
       }
     }
   },
   "studyStatusGradePoint": "GP {point}",
   "@studyStatusGradePoint": {
-   "placeholders": {
-     "point": {
-       "type": "Object"
+    "placeholders": {
+      "point": {
+        "type": "Object"
       }
     }
   },
@@ -2498,9 +2550,9 @@
   "onboardingPermissionSkipTitle": "Пропустить разрешения?",
   "onboardingPermissionSkipMessage": "Без {permissions} часть функций будет недоступна. Выдать их можно позже.",
   "@onboardingPermissionSkipMessage": {
-   "placeholders": {
-     "permissions": {
-       "type": "String"
+    "placeholders": {
+      "permissions": {
+        "type": "String"
       }
     }
   },
@@ -2521,9 +2573,9 @@
   "settingsDevRestartOnboardingAction": "Перезапустить",
   "onboardingPermissionRequestFailed": "Разрешение «{permission}» не получено",
   "@onboardingPermissionRequestFailed": {
-   "placeholders": {
-     "permission": {
-       "type": "String"
+    "placeholders": {
+      "permission": {
+        "type": "String"
       }
     }
   },
@@ -2625,17 +2677,17 @@
   "scoreTranscriptNoTemplates": "Для этой учетной записи нет доступных шаблонов ведомости.",
   "scoreTranscriptLoadFailed": "Не удалось загрузить типы ведомостей: {error}",
   "@scoreTranscriptLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "scoreTranscriptFetchFailed": "Не удалось получить проверенное электронное удостоверение: {error}",
   "@scoreTranscriptFetchFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2666,9 +2718,9 @@
   "authMfaTitle": "Двухфакторная аутентификация",
   "authMfaEmailSent": "Код отправлен на {email}",
   "@authMfaEmailSent": {
-   "placeholders": {
-     "email": {
-       "type": "String"
+    "placeholders": {
+      "email": {
+        "type": "String"
       }
     }
   },
@@ -2730,9 +2782,9 @@
   "commonLoadingMore": "Загрузка…",
   "commonLoadFailed": "Не удалось загрузить: {error}",
   "@commonLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2785,9 +2837,9 @@
   "authApiCredentialSaved": "Я сохранил(а) его",
   "authApiCredentialCreateFailed": "Не удалось создать учётные данные: {error}",
   "@authApiCredentialCreateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2795,12 +2847,12 @@
   "authApiCredentialUnnamed": "Без названия",
   "authApiCredentialStatus": "Статус: {status} · Создано: {date}",
   "@authApiCredentialStatus": {
-   "placeholders": {
-     "status": {
-       "type": "String"
+    "placeholders": {
+      "status": {
+        "type": "String"
       },
-     "date": {
-       "type": "String"
+      "date": {
+        "type": "String"
       }
     }
   },
@@ -2809,12 +2861,18 @@
   "authApiCredentialRevoke": "Отозвать",
   "authApiCredentialRevokeConfirmTitle": "Отозвать учётные данные?",
   "authApiCredentialRevokeConfirmMessage": "Интеграции, использующие «{name}», сразу перестанут работать, и восстановить учётные данные будет нельзя. Сначала потребуется ещё раз подтвердить личность.",
-  "@authApiCredentialRevokeConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
+  "@authApiCredentialRevokeConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authApiCredentialRevokeFailed": "Не удалось отозвать учётные данные: {error}",
   "@authApiCredentialRevokeFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2835,15 +2893,15 @@
   "authSessionsTrustUnknown": "Нет данных о среде (платформа не поддерживается или клиент устарел)",
   "authSessionsDetails": "IP: {ip}\nПоследняя активность: {lastActive}\nВход выполнен: {signedIn}",
   "@authSessionsDetails": {
-   "placeholders": {
-     "ip": {
-       "type": "String"
+    "placeholders": {
+      "ip": {
+        "type": "String"
       },
-     "lastActive": {
-       "type": "String"
+      "lastActive": {
+        "type": "String"
       },
-     "signedIn": {
-       "type": "String"
+      "signedIn": {
+        "type": "String"
       }
     }
   },
@@ -2851,9 +2909,9 @@
   "authSessionsSignOutSucceeded": "Выполнен выход с устройства",
   "authSessionsSignOutFailed": "Не удалось выйти с устройства: {error}",
   "@authSessionsSignOutFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2861,46 +2919,52 @@
   "authPasskeyDeviceName": "Название устройства",
   "authPasskeyRegisterFailed": "Не удалось зарегистрировать Passkey: {error}",
   "@authPasskeyRegisterFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authPasskeysDescription": "Зарегистрировано: {count}. Passkey использует системную биометрическую аутентификацию вашего устройства.",
   "@authPasskeysDescription": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "authPasskeysSupportedDeviceHint": "Зарегистрируйте биометрический ключ на поддерживаемом устройстве",
   "authPasskeyCreatedAt": "Создано: {date}",
   "@authPasskeyCreatedAt": {
-   "placeholders": {
-     "date": {
-       "type": "String"
+    "placeholders": {
+      "date": {
+        "type": "String"
       }
     }
   },
   "authPasskeyDelete": "Удалить",
   "authPasskeyDeleteConfirmTitle": "Удалить Passkey?",
   "authPasskeyDeleteConfirmMessage": "«{name}» больше не сможет подтверждать вашу личность, а перед удалением потребуется ещё раз пройти проверку. Это действие нельзя отменить.",
-  "@authPasskeyDeleteConfirmMessage": {"placeholders": {"name": {"type": "String"}}},
+  "@authPasskeyDeleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "authPasskeyDeleteFailed": "Не удалось удалить Passkey: {error}",
   "@authPasskeyDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authOperationFailed": "Операция не выполнена: {error}",
   "@authOperationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2909,17 +2973,17 @@
   "authWhuBindingSucceeded": "Аккаунт привязан",
   "authWhuBindingFailed": "Не удалось привязать аккаунт: {error}",
   "@authWhuBindingFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "authWhuBindingCurrent": "Привязать текущий аккаунт Luotopia ({studentId})",
   "@authWhuBindingCurrent": {
-   "placeholders": {
-     "studentId": {
-       "type": "String"
+    "placeholders": {
+      "studentId": {
+        "type": "String"
       }
     }
   },
@@ -2928,9 +2992,9 @@
   "authWhuUnbindingSucceeded": "Аккаунт отвязан",
   "authWhuUnbindingFailed": "Не удалось отвязать аккаунт: {error}",
   "@authWhuUnbindingFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2951,10 +3015,22 @@
   "authDeleteAccountConsequenceSessions": "Все устройства будут немедленно выведены из аккаунта.",
   "authDeleteAccountConsequenceIrreversible": "Это действие нельзя отменить — аккаунт невозможно восстановить.",
   "authDeleteAccountPhraseLabel": "Введите «{phrase}», чтобы подтвердить",
-  "@authDeleteAccountPhraseLabel": {"placeholders": {"phrase": {"type": "String"}}},
+  "@authDeleteAccountPhraseLabel": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      }
+    }
+  },
   "authDeleteAccountPhrase": "УДАЛИТЬ",
   "authDeleteAccountCooldown": "Доступно через {seconds} с",
-  "@authDeleteAccountCooldown": {"placeholders": {"seconds": {"type": "int"}}},
+  "@authDeleteAccountCooldown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
   "authDeleteAccountSuccess": "Аккаунт удалён",
   "authDeleteAccount2faRequired": "В вашем аккаунте включена двухфакторная аутентификация (2FA) — подтвердите личность другим способом.",
   "authDeleteAccount": "Удалить аккаунт",
@@ -2962,9 +3038,9 @@
   "authDeleteAccountConfirm": "Удалить аккаунт",
   "authDeleteAccountFailed": "Не удалось удалить аккаунт: {error}",
   "@authDeleteAccountFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2981,9 +3057,9 @@
   "authBio": "О себе",
   "authProfileUpdateFailed": "Не удалось обновить профиль: {error}",
   "@authProfileUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -2992,9 +3068,9 @@
   "authPasswordChanged": "Пароль изменён. Войдите снова.",
   "authPasswordChangeFailed": "Не удалось изменить пароль: {error}",
   "@authPasswordChangeFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3004,9 +3080,9 @@
   "authRegistrationBindWhuAccount": "Привязать аккаунт WHU",
   "authPasswordMinLength": "Пароль должен содержать не менее {count} символов",
   "@authPasswordMinLength": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3040,16 +3116,16 @@
   "courseGradeStatsSourceHamShort": "Ham",
   "courseGradeStatsRange": "{from} - {to}",
   "@courseGradeStatsLoadFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "@courseGradeStatsSamples": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3060,9 +3136,9 @@
   "courseReviewsWrite": "Написать анонимный отзыв",
   "courseReviewsAnonymousStudent": "Анонимный студент · {semester}",
   "@courseReviewsAnonymousStudent": {
-   "placeholders": {
-     "semester": {
-       "type": "String"
+    "placeholders": {
+      "semester": {
+        "type": "String"
       }
     }
   },
@@ -3071,9 +3147,9 @@
   "courseReviewsRating": "Оценка",
   "courseReviewsRatingValue": "{rating} / 5",
   "@courseReviewsRatingValue": {
-   "placeholders": {
-     "rating": {
-       "type": "String"
+    "placeholders": {
+      "rating": {
+        "type": "String"
       }
     }
   },
@@ -3081,25 +3157,25 @@
   "courseReviewsSubmitted": "Отзыв отправлен и будет показан после одобрения.",
   "courseReviewsSubmitFailed": "Не удалось отправить отзыв: {error}",
   "@courseReviewsSubmitFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseReviewsSyncSucceeded": "Синхронизировано подходящих курсов: {count}.",
   "@courseReviewsSyncSucceeded": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "courseReviewsSyncFailed": "Не удалось синхронизировать: {error}",
   "@courseReviewsSyncFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3110,9 +3186,9 @@
   "courseReviewsStatusRejected": "Отклонён",
   "courseReviewsRejectionReason": "Комментарий к отзыву: {reason}",
   "@courseReviewsRejectionReason": {
-   "placeholders": {
-     "reason": {
-       "type": "String"
+    "placeholders": {
+      "reason": {
+        "type": "String"
       }
     }
   },
@@ -3122,18 +3198,18 @@
   "courseReviewsDeleted": "Отзыв удалён.",
   "courseReviewsDeleteFailed": "Не удалось удалить отзыв: {error}",
   "@courseReviewsDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
   "courseReviewsUpdated": "Отзыв обновлён и снова отправлен на проверку.",
   "courseReviewsUpdateFailed": "Не удалось обновить отзыв: {error}",
   "@courseReviewsUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3143,9 +3219,9 @@
   "forumSelectedBoardUnavailable": "Выберите доступный раздел.",
   "forumBoardShelter": "Убежище {name}",
   "@forumBoardShelter": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3156,9 +3232,9 @@
   "forumPublish": "Опубликовать",
   "forumPublishFailed": "Не удалось опубликовать: {error}",
   "@forumPublishFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3174,9 +3250,9 @@
   "authPasswordResetEmail": "Электронная почта",
   "authPasswordResetSendFailed": "Не удалось отправить: {error}",
   "@authPasswordResetSendFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3196,11 +3272,11 @@
   "forumDraftSaved": "Черновик сохранён",
   "forumDraftSaveFailed": "Не удалось сохранить черновик: {error}",
   "@forumDraftSaveFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumDraftEmpty": "Черновиков пока нет",
   "forumDraftEmptyHint": "Выберите «Сохранить черновик», если покидаете редактор без публикации.",
@@ -3210,21 +3286,21 @@
   "forumDraftDeleted": "Черновик удалён",
   "forumDraftDeleteFailed": "Не удалось удалить черновик: {error}",
   "@forumDraftDeleteFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumDraftPublished": "Черновик опубликован",
   "forumDraftEditTitle": "Изменить черновик",
   "forumDraftLastEdited": "Изменено {time}",
   "@forumDraftLastEdited": {
-   "placeholders": {
-     "time": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
   },
   "forumUnsavedChangesTitle": "Несохранённые изменения",
   "forumUnsavedChangesMessage": "Опубликовать эту запись, сохранить как черновик или отменить?",
@@ -3241,11 +3317,11 @@
   "forumUserFollowingTab": "Подписки",
   "forumUserJoinedAt": "Присоединился {date}",
   "@forumUserJoinedAt": {
-   "placeholders": {
-     "date": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
   },
   "forumUserContentEmpty": "Публикаций пока нет.",
   "forumUserCommentsEmpty": "Комментариев пока нет.",
@@ -3266,11 +3342,11 @@
   "forumPrivacyUpdated": "Настройки приватности обновлены",
   "forumPrivacyUpdateFailed": "Не удалось обновить настройки приватности: {error}",
   "@forumPrivacyUpdateFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumFollow": "Подписаться",
   "forumUnfollow": "Отписаться",
@@ -3280,58 +3356,58 @@
   "forumFollowsYou": "Подписан на вас",
   "forumFollowFailed": "Не удалось подписаться: {error}",
   "@forumFollowFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumUnfollowFailed": "Не удалось отписаться: {error}",
   "@forumUnfollowFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumBlock": "Заблокировать",
   "forumUnblock": "Разблокировать",
   "forumBlockedBadge": "Заблокирован",
   "forumBlockConfirmTitle": "Заблокировать {nickname}?",
   "@forumBlockConfirmTitle": {
-   "placeholders": {
-     "nickname": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
   },
   "forumBlockConfirmMessage": "Вы оба перестанете быть подписанными друг на друга и не сможете обмениваться сообщениями.",
   "forumBlockDone": "Заблокировано",
   "forumUnblockDone": "Разблокировано",
   "forumBlockFailed": "Не удалось заблокировать пользователя: {error}",
   "@forumBlockFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumUnblockFailed": "Не удалось разблокировать пользователя: {error}",
   "@forumUnblockFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumRemoveFollower": "Удалить подписчика",
   "forumRemoveFollowerConfirmTitle": "Удалить {nickname} из подписчиков?",
   "@forumRemoveFollowerConfirmTitle": {
-   "placeholders": {
-     "nickname": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
   },
   "forumRemoveFollowerConfirmMessage": "Этот человек перестанет быть подписанным на вас. Он не получит уведомления и сможет подписаться снова.",
   "forumFollowerRemoved": "Подписчик удалён",
@@ -3341,11 +3417,11 @@
   "forumRelationListEmpty": "Здесь пока никого нет.",
   "forumRelationListFailed": "Не удалось загрузить список: {error}",
   "@forumRelationListFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumMessagesTitle": "Сообщения",
   "forumMessagesEntrySubtitle": "Личные сообщения с теми, на кого вы подписаны взаимно",
@@ -3358,11 +3434,11 @@
   "forumChatBlocked": "Обмен сообщениями между вами недоступен.",
   "forumChatSendFailed": "Сообщение не отправлено: {error}",
   "@forumChatSendFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
-     }
-   }
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   },
   "forumChatLoadEarlier": "Загрузить более ранние сообщения",
   "forumSendMessage": "Написать сообщение",
@@ -3371,9 +3447,9 @@
   "forumShelterPrivacyDescription": "Ваш псевдоним остаётся неизменным только в рамках этой темы. Аватар и профиль не отображаются, а эта публикация исчезнет через 24 часа.",
   "forumShelterExpiresIn": "Исчезнет через {time}",
   "@forumShelterExpiresIn": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3386,91 +3462,91 @@
   "forumReportSubmitted": "Жалоба отправлена.",
   "forumKarmaLevel": "Lv{level}",
   "@forumKarmaLevel": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaAuthorMeta": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "karma": {
-       "type": "int"
+      "karma": {
+        "type": "int"
       }
     }
   },
   "forumKarmaLevelTitleOnly": "Lv{level} · {title}",
   "@forumKarmaLevelTitleOnly": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "title": {
-       "type": "String"
+      "title": {
+        "type": "String"
       }
     }
   },
   "@forumKarmaAuthorMetaWithTitle": {
-   "placeholders": {
-     "level": {
-       "type": "int"
+    "placeholders": {
+      "level": {
+        "type": "int"
       },
-     "title": {
-       "type": "String"
+      "title": {
+        "type": "String"
       },
-     "karma": {
-       "type": "int"
+      "karma": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaBudgetLine": {
-   "placeholders": {
-     "up": {
-       "type": "int"
+    "placeholders": {
+      "up": {
+        "type": "int"
       },
-     "down": {
-       "type": "int"
+      "down": {
+        "type": "int"
       }
     }
   },
   "@forumCheckinFixed": {
-   "placeholders": {
-     "amount": {
-       "type": "int"
+    "placeholders": {
+      "amount": {
+        "type": "int"
       }
     }
   },
   "@forumCheckinSuccess": {
-   "placeholders": {
-     "amount": {
-       "type": "int"
+    "placeholders": {
+      "amount": {
+        "type": "int"
       },
-     "streak": {
-       "type": "int"
+      "streak": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaNextLevel": {
-   "placeholders": {
-     "karma": {
-       "type": "int"
+    "placeholders": {
+      "karma": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaStreakLine": {
-   "placeholders": {
-     "streak": {
-       "type": "int"
+    "placeholders": {
+      "streak": {
+        "type": "int"
       }
     }
   },
   "@forumKarmaAdminSuccess": {
-   "placeholders": {
-     "karma": {
-       "type": "int"
+    "placeholders": {
+      "karma": {
+        "type": "int"
       }
     }
   },
@@ -3514,18 +3590,18 @@
   "campusLayoutDragHint": "Перетаскивайте приложения, чтобы изменить порядок или создать папки",
   "campusLayoutColumns": "{count} в ряду",
   "@campusLayoutColumns": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "courseImportOverwriteModifiedTitle": "Перезаписать изменённые курсы?",
   "courseImportOverwriteModifiedMessage": "{count} курсов в этом семестре были изменены вручную. Продолжение импорта перезапишет эти изменения.",
   "@courseImportOverwriteModifiedMessage": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -3534,9 +3610,9 @@
   "courseImportOverwriteModifiedReviewIndividually": "Просмотреть по отдельности",
   "courseImportModifiedRecordMessage": "Изменённое занятие: {time}\nВыберите, как обработать эту запись.",
   "@courseImportModifiedRecordMessage": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3554,9 +3630,9 @@
   "detailStatusInactive": "Завершение не отслеживается",
   "detailConflictWithItems": "Пересекается с {items}. Вы всё равно можете сохранить.",
   "@detailConflictWithItems": {
-   "placeholders": {
-     "items": {
-       "type": "String"
+    "placeholders": {
+      "items": {
+        "type": "String"
       }
     }
   },
@@ -3566,9 +3642,9 @@
   "editorCompletionModeNone": "Только отображать",
   "editorConflictWithItems": "Пересекается с {items}. Вы всё равно можете сохранить.",
   "@editorConflictWithItems": {
-   "placeholders": {
-     "items": {
-       "type": "String"
+    "placeholders": {
+      "items": {
+        "type": "String"
       }
     }
   },
@@ -3576,9 +3652,9 @@
   "commonOk": "ОК",
   "whuAccountEducationalYearsValue": "{years} лет",
   "@whuAccountEducationalYearsValue": {
-   "placeholders": {
-     "years": {
-       "type": "int"
+    "placeholders": {
+      "years": {
+        "type": "int"
       }
     }
   },
@@ -3587,9 +3663,9 @@
   "addTimetable": "Добавить расписание",
   "addToTimetable": "Добавить в {name}",
   "@addToTimetable": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3607,9 +3683,9 @@
   "exportTimetable": "Экспортировать расписание",
   "homeTimeBlock": "Блок {index}",
   "@homeTimeBlock": {
-   "placeholders": {
-     "index": {
-       "type": "String"
+    "placeholders": {
+      "index": {
+        "type": "String"
       }
     }
   },
@@ -3654,41 +3730,41 @@
   "notificationScheduleIncomplete": "Событие не завершено",
   "notificationStartsInFifteenMinutes": "Начнётся через 15 минут · {time}",
   "@notificationStartsInFifteenMinutes": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsInFiveMinutes": "Начнётся через 5 минут · {time}",
   "@notificationStartsInFiveMinutes": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsInOneHour": "Начнётся через 1 час · {time}",
   "@notificationStartsInOneHour": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationStartsSoon": "Скоро начнётся · {time}",
   "@notificationStartsSoon": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
   "notificationTomorrow": "Завтра · {time}",
   "@notificationTomorrow": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3704,9 +3780,9 @@
   "separate": "Разделить",
   "separatedTimetableName": "{name} (разделено)",
   "@separatedTimetableName": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -3716,9 +3792,9 @@
   "shiguangFileImportDescription": "Импорт файла JSON расписания Шигуан",
   "shiguangImportFailed": "Не удалось импортировать расписание Шигуан: {error}",
   "@shiguangImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3734,9 +3810,9 @@
   "starlinkImportDescription": "Импорт расписания Starlink из файла JSON или кода доступа",
   "starlinkImportFailed": "Не удалось импортировать расписание Starlink: {error}",
   "@starlinkImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3747,18 +3823,18 @@
   "starlinkTimetableShareCode": "Код доступа к расписанию Starlink",
   "timetableDetails": "Семестр: {term}\nИмпортировано: {importedAt}\nОбновлено: {updatedAt}\nИсточник: {source}",
   "@timetableDetails": {
-   "placeholders": {
-     "term": {
-       "type": "String"
+    "placeholders": {
+      "term": {
+        "type": "String"
       },
-     "importedAt": {
-       "type": "String"
+      "importedAt": {
+        "type": "String"
       },
-     "updatedAt": {
-       "type": "String"
+      "updatedAt": {
+        "type": "String"
       },
-     "source": {
-       "type": "String"
+      "source": {
+        "type": "String"
       }
     }
   },
@@ -3770,9 +3846,9 @@
   "timetableRepairWeekExpansionNone": "Нет дисциплин, требующих восстановления.",
   "timetableImportFailed": "Не удалось импортировать расписание: {error}",
   "@timetableImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3787,9 +3863,9 @@
   "wakeupFileImportDescription": "Импорт файла Wakeup CSV или расписания",
   "wakeupImportFailed": "Не удалось импортировать расписание Wakeup: {error}",
   "@wakeupImportFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3800,9 +3876,9 @@
   "webViewLoadingPage": "Загрузка страницы...",
   "webViewPreparationFailed": "Не удалось подготовить страницу: {error}",
   "@webViewPreparationFailed": {
-   "placeholders": {
-     "error": {
-       "type": "String"
+    "placeholders": {
+      "error": {
+        "type": "String"
       }
     }
   },
@@ -3912,9 +3988,9 @@
   "authRegisteredDevicesEmpty": "Нет зарегистрированных устройств.",
   "authRegisteredDeviceLastSeen": "Последняя регистрация: {time}",
   "@authRegisteredDeviceLastSeen": {
-   "placeholders": {
-     "time": {
-       "type": "String"
+    "placeholders": {
+      "time": {
+        "type": "String"
       }
     }
   },
@@ -3993,40 +4069,40 @@
   "settingsCourseReminderUseDefault": "Использовать значение группы ({minutes} мин)",
   "settingsCourseReminderCustom": "Своё: {minutes} мин",
   "@listDeleteSelectedConfirmMessage": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
   "@notificationStartsInMinutes": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       },
-     "time": {
-       "type": "String"
+      "time": {
+        "type": "String"
       }
     }
   },
   "@settingsDefaultCourseReminderValue": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@settingsCourseReminderUseDefault": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
   "@settingsCourseReminderCustom": {
-   "placeholders": {
-     "minutes": {
-       "type": "int"
+    "placeholders": {
+      "minutes": {
+        "type": "int"
       }
     }
   },
@@ -4038,9 +4114,9 @@
   "campusBusArrivalStop": "Остановка",
   "campusBusArrivalUseNearest": "Ближайшая: {stopName}",
   "@campusBusArrivalUseNearest": {
-   "placeholders": {
-     "stopName": {
-       "type": "String"
+    "placeholders": {
+      "stopName": {
+        "type": "String"
       }
     }
   },
@@ -4048,9 +4124,9 @@
   "campusBusArrivalReminder": "Напоминание о прибытии",
   "campusBusArrivalEnabledTarget": "Напоминание: {targetText}",
   "@campusBusArrivalEnabledTarget": {
-   "placeholders": {
-     "targetText": {
-       "type": "String"
+    "placeholders": {
+      "targetText": {
+        "type": "String"
       }
     }
   },
@@ -4117,9 +4193,9 @@
   "medicalCodeResent": "Код подтверждения отправлен",
   "medicalResendCountdown": "Повторная отправка через {seconds} с",
   "@medicalResendCountdown": {
-   "placeholders": {
-     "seconds": {
-       "type": "int"
+    "placeholders": {
+      "seconds": {
+        "type": "int"
       }
     }
   },
@@ -4163,12 +4239,12 @@
   "medicalCardSwitchPatient": "Сменить пациента",
   "medicalCardSwitchPatientDesc": "Переключиться на пациента {name} ({card})?",
   "@medicalCardSwitchPatientDesc": {
-   "placeholders": {
-     "name": {
-       "type": "String"
+    "placeholders": {
+      "name": {
+        "type": "String"
       },
-     "card": {
-       "type": "String"
+      "card": {
+        "type": "String"
       }
     }
   },
@@ -4177,9 +4253,9 @@
   "medicalConfirmCreate": "Подтвердить создание",
   "medicalMaskedPhone": "Код подтверждения будет отправлен на номер {phone}",
   "@medicalMaskedPhone": {
-   "placeholders": {
-     "phone": {
-       "type": "String"
+    "placeholders": {
+      "phone": {
+        "type": "String"
       }
     }
   },
@@ -4300,9 +4376,21 @@
   "adminQueuePause": "Пауза",
   "adminQueueResume": "Возобновить",
   "adminQueuePauseConfirmMessage": "Приостановить очередь «{queue}»? Фоновые задания перестанут обрабатываться.",
-  "@adminQueuePauseConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "@adminQueuePauseConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminQueueResumeConfirmMessage": "Возобновить очередь «{queue}»?",
-  "@adminQueueResumeConfirmMessage": {"placeholders": {"queue": {"type": "String"}}},
+  "@adminQueueResumeConfirmMessage": {
+    "placeholders": {
+      "queue": {
+        "type": "String"
+      }
+    }
+  },
   "adminStatusActiveWorkers": "Активные Worker",
   "adminStatusHealthyWorkers": "Исправные Worker",
   "adminStatusTasksProcessed": "Обработано",
@@ -4312,9 +4400,9 @@
   "adminStatusNoWorkers": "Нет Worker в сети",
   "adminStatusWorkerInstance": "Worker {index}",
   "@adminStatusWorkerInstance": {
-   "placeholders": {
-     "index": {
-       "type": "int"
+    "placeholders": {
+      "index": {
+        "type": "int"
       }
     }
   },
@@ -4379,7 +4467,16 @@
   "adminUsersEnableConfirmMessage": "Включить этот аккаунт снова? Пользователь сможет войти сразу же.",
   "adminUsersChangeRole": "Сменить роль",
   "adminUsersRoleChangeConfirmMessage": "Изменить роль с «{fromRole}» на «{toRole}»? Роли администратора могут управлять всеми пользователями и контентом.",
-  "@adminUsersRoleChangeConfirmMessage": {"placeholders": {"fromRole": {"type": "String"}, "toRole": {"type": "String"}}},
+  "@adminUsersRoleChangeConfirmMessage": {
+    "placeholders": {
+      "fromRole": {
+        "type": "String"
+      },
+      "toRole": {
+        "type": "String"
+      }
+    }
+  },
   "adminUsersRoleUpdated": "Роль пользователя обновлена.",
   "adminUserForumStatusActive": "Активен",
   "adminUserForumStatusMuted": "Заглушён",
@@ -4428,11 +4525,29 @@
   "adminForumBoardDeactivate": "Деактивировать",
   "adminForumBoardArchive": "В архив",
   "adminForumBoardDeactivateConfirmMessage": "Деактивировать «{board}»? Раздел будет скрыт от всех пользователей.",
-  "@adminForumBoardDeactivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardDeactivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumBoardActivateConfirmMessage": "Активировать «{board}» снова? Раздел вновь станет видимым всем пользователям.",
-  "@adminForumBoardActivateConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardActivateConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumBoardArchiveConfirmMessage": "Отправить «{board}» в архив? Раздел будет удалён из списка.",
-  "@adminForumBoardArchiveConfirmMessage": {"placeholders": {"board": {"type": "String"}}},
+  "@adminForumBoardArchiveConfirmMessage": {
+    "placeholders": {
+      "board": {
+        "type": "String"
+      }
+    }
+  },
   "adminForumSettingsTitle": "Настройки форума",
   "adminForumSettingsSubtitle": "Загрузки, приглашения и политики",
   "adminForumSettingsUpload": "Загрузки",
@@ -4550,12 +4665,12 @@
   "aiConfirmationInputSource": "Источник данных (недоверенный веб): {source}",
   "aiConfirmationAutoApproved": "Автоматически подтверждено действий: {count} ({mode})",
   "@aiConfirmationAutoApproved": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       },
-     "mode": {
-       "type": "String"
+      "mode": {
+        "type": "String"
       }
     }
   },
@@ -4708,9 +4823,9 @@
   "courseMatchingNoConflicts": "Без конфликтов расписания",
   "courseMatchingConflictsCount": "{count} конфликтов",
   "@courseMatchingConflictsCount": {
-   "placeholders": {
-     "count": {
-       "type": "int"
+    "placeholders": {
+      "count": {
+        "type": "int"
       }
     }
   },
@@ -4821,8 +4936,6 @@
   "globalTimetableDeleteAllConfirm": "Удалить все загруженные семестры с устройства?",
   "globalTimetableSourceMode": "Источник",
   "globalTimetableSourceAuto": "Авто",
-  "globalTimetableSourceCloud": "Облако",
-  "globalTimetableSourceLocal": "Локально",
   "globalTimetableLocalMissing": "Этот семестр ещё не загружен для офлайн-доступа.",
   "globalTimetableNoSlot": "Без расписания",
   "globalTimetableSearchHint": "Курс, преподаватель или код",
@@ -4858,25 +4971,25 @@
   "majorInfoLegendOver10": "Более 10%",
   "courseWeekRangeAll": "Недели {range}",
   "@courseWeekRangeAll": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
   "courseWeekRangeOdd": "Недели {range} (Нечет)",
   "@courseWeekRangeOdd": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
   "courseWeekRangeEven": "Недели {range} (Чет)",
   "@courseWeekRangeEven": {
-   "placeholders": {
-     "range": {
-       "type": "String"
+    "placeholders": {
+      "range": {
+        "type": "String"
       }
     }
   },
@@ -4891,9 +5004,9 @@
   "whuSmartCampusAuthFailedCasRequired": "Сбой авторизации Smart Luojia. Войдите повторно через WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Сбой авторизации Smart Luojia (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
-   "placeholders": {
-     "statusCode": {
-       "type": "int"
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
       }
     }
   },
@@ -5356,7 +5469,24 @@
   "settingsAiWorkspaceExportConfirmAction": "Экспортировать пакет",
   "settingsAiWorkspaceExported": "Подготовлен экспорт файлов ({count}): {path}.",
   "settingsAiWorkspaceExportFailed": "Не удалось экспортировать рабочее пространство Agent: {error}",
-  "aiSpeechTitle": "Речь ИИ", "aiSpeechRecognitionService": "Сервис распознавания речи", "aiSpeechSpeechToText": "speech_to_text (система)", "aiSpeechStts": "stts", "aiSpeechWhisper": "Офлайн-транскрибация Whisper", "aiSpeechWhisperModel": "Модель Whisper", "aiDownload": "Скачать", "aiSpeechEngine": "Движок речи", "aiSpeechEdge": "Онлайн-голос Edge", "aiSpeechSttsVoice": "Системный голос stts", "aiSpeechVoiceLoadFailed": "Не удалось загрузить онлайн-голоса; используется текущий голос.", "aiSpeechVoice": "Голос", "aiSpeechRate": "Скорость", "aiSpeechPitch": "Высота тона", "aiSpeechVolume": "Громкость", "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос ИИ.", "aiSpeechPreview": "Прослушать текущий голос", "aiMcpImportFailed": "Не удалось импортировать конфигурацию MCP-сервера",
+  "aiSpeechTitle": "Речь ИИ",
+  "aiSpeechRecognitionService": "Сервис распознавания речи",
+  "aiSpeechSpeechToText": "speech_to_text (система)",
+  "aiSpeechStts": "stts",
+  "aiSpeechWhisper": "Офлайн-транскрибация Whisper",
+  "aiSpeechWhisperModel": "Модель Whisper",
+  "aiDownload": "Скачать",
+  "aiSpeechEngine": "Движок речи",
+  "aiSpeechEdge": "Онлайн-голос Edge",
+  "aiSpeechSttsVoice": "Системный голос stts",
+  "aiSpeechVoiceLoadFailed": "Не удалось загрузить онлайн-голоса; используется текущий голос.",
+  "aiSpeechVoice": "Голос",
+  "aiSpeechRate": "Скорость",
+  "aiSpeechPitch": "Высота тона",
+  "aiSpeechVolume": "Громкость",
+  "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос ИИ.",
+  "aiSpeechPreview": "Прослушать текущий голос",
+  "aiMcpImportFailed": "Не удалось импортировать конфигурацию MCP-сервера",
   "campusAppCampusMap": "Карта кампуса",
   "campusMapBaseVector": "Вектор",
   "campusMapBaseSatellite": "Спутник",
@@ -5551,7 +5681,16 @@
   },
   "coremailSend": "Отправить",
   "coremailSendConfirmMessage": "Отправить {count} получателям: {recipients}?",
-  "@coremailSendConfirmMessage": {"placeholders": {"count": {"type": "int"}, "recipients": {"type": "String"}}},
+  "@coremailSendConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "recipients": {
+        "type": "String"
+      }
+    }
+  },
   "coremailRecipientsLabel": "Кому",
   "coremailRecipientsHint": "Разделяйте адреса запятыми",
   "coremailSubjectLabel": "Тема",
@@ -5673,7 +5812,13 @@
   "ebikeUnlockHelmet": "Оснащён замком для шлема",
   "ebikeUnlockStart": "Разблокировать и поехать",
   "ebikeUnlockConfirmMessage": "Разблокировать {carId}? Оплата начнётся сразу после открытия замка.",
-  "@ebikeUnlockConfirmMessage": {"placeholders": {"carId": {"type": "String"}}},
+  "@ebikeUnlockConfirmMessage": {
+    "placeholders": {
+      "carId": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeUnlockSuccess": "Разблокировано",
   "ebikeUnlockNeedRealName": "Требуется подтверждение личности. Сначала пройдите его в официальной мини-программе.",
   "ebikeUnlockNeedFace": "Для этой поездки нужно пройти проверку лица в официальной мини-программе.",
@@ -5727,7 +5872,13 @@
   "ebikeSettleDiscount": "Скидка",
   "ebikeSettlePayWallet": "Оплатить с баланса",
   "ebikeSettlePayWalletConfirm": "Оплатить {amount} с баланса кошелька? Списание нельзя отменить.",
-  "@ebikeSettlePayWalletConfirm": {"placeholders": {"amount": {"type": "String"}}},
+  "@ebikeSettlePayWalletConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "ebikeSettlePayWalletConfirmUnknownAmount": "Оплатить задолженность с баланса кошелька? Списание нельзя отменить.",
   "ebikeSettlePaid": "Оплата выполнена",
   "ebikeSettleInsufficient": "Недостаточно средств. Пополните баланс в официальной мини-программе, затем оплатите.",
@@ -5911,7 +6062,6 @@
   "adminDashboardUsersChart": "Регистрации пользователей",
   "adminDashboardPostsChart": "Созданные посты",
   "adminDashboardCommentsChart": "Созданные комментарии",
-  "legalOpenWebVersion": "Открыть веб-версию",
   "globalTimetableContributionSubmitted": "Задание отправлено и обрабатывается в фоновом режиме",
   "globalTimetableImportDismiss": "Скрыть",
   "adminTaskCenterTitle": "Центр задач",
@@ -5945,5 +6095,7 @@
   "adminTaskCenterContributor": "Участник",
   "adminTaskCenterQueueLabel": "Очередь",
   "adminTaskCenterCreatedAt": "Создано в {time}",
-  "adminTaskCenterPhaseAwaitingAuth": "Ожидает повторной авторизации"
+  "adminTaskCenterPhaseAwaitingAuth": "Ожидает повторной авторизации",
+  "onboardingPermissionBatteryOptimizationTitle": "Игнорировать оптимизацию батареи",
+  "onboardingPermissionBatteryOptimizationDescription": "Разрешите приложению работать в фоновом режиме без ограничений, чтобы гарантировать своевременную доставку напоминаний о занятиях и уведомлений."
 }
