@@ -3640,6 +3640,68 @@
   },
   "debuggerCopyValue": "Copy value",
   "debuggerPaused": "Paused",
+  "logConsoleSectionTitle": "Log browser",
+  "logConsoleSectionDescription": "Read this run's log on the device instead of exporting it every time.",
+  "logConsoleEntryTitle": "Log browser",
+  "logConsoleEntrySubtitle": "Live log tail with search and level filters",
+  "logConsoleBallTitle": "Floating log ball",
+  "logConsoleBallSubtitle": "Keep a draggable log ball on screen; tap it for the log drawer, close the drawer to bring it back",
+  "logConsoleTitle": "Logs",
+  "logConsoleBallTooltip": "Open the log console",
+  "logConsoleSearch": "Search logs",
+  "logConsoleSearchHint": "Search messages and categories",
+  "logConsoleFilter": "Minimum level",
+  "logConsoleLevelVerbose": "Verbose",
+  "logConsoleLevelWarning": "Warning",
+  "logConsoleLevelError": "Error",
+  "logConsoleCategoryAll": "All categories",
+  "logConsoleClear": "Clear the view",
+  "logConsoleClose": "Close the log console",
+  "logConsoleExpand": "Expand",
+  "logConsoleCollapse": "Collapse",
+  "logConsolePause": "Pause",
+  "logConsoleResume": "Resume",
+  "logConsoleFollowTail": "Follow the newest entry",
+  "logConsoleMore": "More actions",
+  "logConsoleEmpty": "No log entries yet",
+  "logConsoleEmptyHint": "Entries appear here as the app writes them. Detailed traces are off by default; enable a category under {section} to record more.",
+  "@logConsoleEmptyHint": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
+  "logConsoleNoMatches": "Nothing matches the filters",
+  "logConsoleNoMatchesHint": "Lower the minimum level or clear the search to see more.",
+  "logConsoleEntryCopied": "Log entry copied",
+  "logConsoleCount": "{count} entries",
+  "@logConsoleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logConsoleFilteredCount": "{shown} of {total} entries",
+  "@logConsoleFilteredCount": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "logConsolePausedCount": "Paused · {count} entries",
+  "@logConsolePausedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "loginRequiredToUse": "Log in to use {feature}",
   "@loginRequiredToUse": {
     "placeholders": {

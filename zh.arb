@@ -3111,6 +3111,68 @@
   },
   "debuggerCopyValue": "复制",
   "debuggerPaused": "已暂停",
+  "logConsoleSectionTitle": "日志浏览器",
+  "logConsoleSectionDescription": "直接在设备上查看本次运行的日志，不必每次都导出。",
+  "logConsoleEntryTitle": "日志浏览器",
+  "logConsoleEntrySubtitle": "实时日志，支持搜索与等级筛选",
+  "logConsoleBallTitle": "悬浮日志球",
+  "logConsoleBallSubtitle": "在任意页面保留一个可拖动的日志球，点它弹出日志抽屉，关掉抽屉球又回来",
+  "logConsoleTitle": "日志",
+  "logConsoleBallTooltip": "打开日志控制台",
+  "logConsoleSearch": "搜索日志",
+  "logConsoleSearchHint": "搜索日志内容或分类",
+  "logConsoleFilter": "最低等级",
+  "logConsoleLevelVerbose": "详细",
+  "logConsoleLevelWarning": "警告",
+  "logConsoleLevelError": "错误",
+  "logConsoleCategoryAll": "全部分类",
+  "logConsoleClear": "清空视图",
+  "logConsoleClose": "关闭日志控制台",
+  "logConsoleExpand": "放大",
+  "logConsoleCollapse": "缩小",
+  "logConsolePause": "暂停",
+  "logConsoleResume": "继续",
+  "logConsoleFollowTail": "跟随最新日志",
+  "logConsoleMore": "更多操作",
+  "logConsoleEmpty": "暂无日志",
+  "logConsoleEmptyHint": "应用写入的日志会实时出现在这里。详细追踪默认关闭，可在{section}中打开对应分类以记录更多内容。",
+  "@logConsoleEmptyHint": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
+  "logConsoleNoMatches": "没有符合条件的日志",
+  "logConsoleNoMatchesHint": "降低最低等级或清空搜索词即可看到更多。",
+  "logConsoleEntryCopied": "已复制该条日志",
+  "logConsoleCount": "{count} 条",
+  "@logConsoleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logConsoleFilteredCount": "{shown} / {total} 条",
+  "@logConsoleFilteredCount": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "logConsolePausedCount": "已暂停 · {count} 条",
+  "@logConsolePausedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "authSecurityTitle": "安全与两步验证",
   "authTwoFactorTitle": "两步验证 (2FA)",
   "authTwoFactorEnabled": "已开启：登录时需邮箱验证码或 Passkey",
