@@ -461,6 +461,19 @@
   "courseImport": "Course Import",
   "courseImportSemester": "Semester",
   "courseImportTitle": "Course Import",
+  "courseImportRunning": "Importing courses…",
+  "courseImportRunningProgress": "Importing courses {done}/{total}",
+  "@courseImportRunningProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "courseImportKeepAppOpen": "Keep the app open",
   "courseImportOverwriteModifiedTitle": "Overwrite modified courses?",
   "courseImportOverwriteModifiedMessage": "{count} courses in this term were manually modified. Continuing the import will overwrite those changes.",
   "@courseImportOverwriteModifiedMessage": {
@@ -7235,6 +7248,12 @@
       }
     }
   },
+  "chaoxingUniqueIdTitle": "Device ID",
+  "chaoxingUniqueIdSubtitle": "Developer tool: view or edit the uniqueId reported to Chaoxing servers",
+  "chaoxingUniqueIdEmpty": "Not generated yet. It is created automatically at the first login.",
+  "chaoxingUniqueIdInvalid": "Enter exactly 32 hexadecimal characters (0-9, a-f).",
+  "chaoxingUniqueIdUpdated": "Device ID updated.",
+  "chaoxingUniqueIdUpdateFailed": "Could not update the device ID.",
   "globalTimetableContributionSubmitted": "Contribution submitted — it is being processed in the background",
   "globalTimetableImportDismiss": "Dismiss",
   "adminTaskCenterTitle": "Task Center",

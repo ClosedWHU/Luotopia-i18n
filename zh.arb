@@ -298,6 +298,9 @@
   "courseImport": "课程表导入",
   "courseImportSemester": "学期",
   "courseImportTitle": "导入课表",
+  "courseImportRunning": "正在导入课程…",
+  "courseImportRunningProgress": "正在导入课程 {done}/{total}",
+  "courseImportKeepAppOpen": "请勿关闭应用",
   "create": "创建",
   "createTimetable": "新建课程表",
   "delete": "删除",
@@ -6341,6 +6344,12 @@
   },
   "chaoxingLoginCaptchaRequired": "服务器要求人机验证，请稍后重试，或先在官方 App 中登录一次",
   "chaoxingOperationFailed": "操作失败：{error}",
+  "chaoxingUniqueIdTitle": "设备标识",
+  "chaoxingUniqueIdSubtitle": "开发者工具：查看或编辑上报给学习通服务器的 uniqueId",
+  "chaoxingUniqueIdEmpty": "尚未生成，首次登录时会自动创建。",
+  "chaoxingUniqueIdInvalid": "请输入恰好 32 位十六进制字符（0-9、a-f）。",
+  "chaoxingUniqueIdUpdated": "设备标识已更新。",
+  "chaoxingUniqueIdUpdateFailed": "无法更新设备标识。",
   "@chaoxingOperationFailed": {
     "placeholders": {
       "error": {
