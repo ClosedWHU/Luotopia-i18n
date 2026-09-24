@@ -14,19 +14,12 @@
   "appLockScopeWater": "取水码",
   "appLockScopeSchoolNet": "校园网",
   "appLockScopeAi": "AI 助手",
-  "authVerificationSetUpPasskey": "仲未有 Passkey？绑定本机",
-  "authLoginWithDeviceBiometric": "用本机生物识别登入",
-  "authDeviceBiometric": "本机生物识别",
-  "authDeviceBiometricDescription": "用本机嘅屏幕锁（指纹或者面容）登入。凭证保存喺安全区域，唔会离开设备。",
-  "authDeviceBiometricBind": "绑定本机",
-  "authDeviceBiometricBound": "本机已绑定",
-  "authDeviceBiometricUnbind": "解绑",
-  "authDeviceBiometricUnbindConfirmTitle": "解绑本机？",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} 将唔可以再喺本机用生物识别登入。呢个操作冇得撤销。",
-  "authDeviceBiometricSecondFactor": "密码之后要求生物识别",
-  "authDeviceBiometricSecondFactorHint": "每次用密码登入嗰阵，要求本机生物识别做第二因素。",
-  "authDeviceBiometricBoundSuccess": "已经绑定本机生物识别",
-  "authDeviceBiometricPolicyFailed": "冇办法更改生物识别登入设定：{error}",
+  "authLoginWithPasskey": "用 Passkey 登入",
+  "authPasskeyPasswordlessAvailable": "可以免密码登入",
+  "authPasskeyVerificationOnly": "只用于多一步验证",
+  "authPasskeySecondFactor": "密码登入后要求多一步验证",
+  "authPasskeySecondFactorHint": "用密码登入之后，可以用电邮验证码、验证器或者 Passkey 完成验证。",
+  "authPasskeyPolicyFailed": "冇办法更改多一步验证设定：{error}",
   "@@locale": "yue",
   "adminUserDetailRegion": "地区",
   "adminUserDetailBio": "简介",
@@ -2659,11 +2652,11 @@
   "scoreTranscriptSaveAs": "另存为",
   "authSecurityTitle": "安全同两步验证",
   "authTwoFactorTitle": "两步验证 (2FA)",
-  "authTwoFactorEnabled": "已开：登入要邮箱验证码或者 Passkey",
-  "authTwoFactorDisabled": "未开：登入净系要密码",
+  "authTwoFactorEnabled": "已开：密码登入要多一步验证；Passkey 仍然可以直接免密码登入",
+  "authTwoFactorDisabled": "未开：如果下面个开关系开咗，密码登入仍然要多一步验证；Passkey 可以免密码登入",
   "authCurrentPassword": "而家密码",
   "authPasskeys": "Passkey",
-  "authRegisterPasskey": "帮呢部设备注册 Passkey",
+  "authRegisterPasskey": "注册 Passkey",
   "authPasskeyRegistered": "Passkey 注册成功",
   "authNoPasskeys": "暂时未有 Passkey",
   "authForgotPassword": "唔记得密码？",
@@ -2870,8 +2863,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "呢部设备",
-  "authPasskeyDeviceName": "设备名称",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Passkey 名称",
   "authPasskeyRegisterFailed": "注册 Passkey 失败：{error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -2880,7 +2873,7 @@
       }
     }
   },
-  "authPasskeysDescription": "已注册 {count} 个。Passkey 会用你设备嘅系统生物识别验证。",
+  "authPasskeysDescription": "已注册 {count} 个。可发现嘅 Passkey 仲可以用嚟免密码登入。",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -2888,7 +2881,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "喺支援嘅设备注册生物识别密钥",
+  "authPasskeysSupportedDeviceHint": "用支援嘅设备注册 Passkey",
   "authPasskeyCreatedAt": "创建于 {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

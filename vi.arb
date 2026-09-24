@@ -14,19 +14,12 @@
   "appLockScopeWater": "Mã lấy nước",
   "appLockScopeSchoolNet": "Mạng khuôn viên",
   "appLockScopeAi": "Trợ lý AI",
-  "authVerificationSetUpPasskey": "Chưa có Passkey? Liên kết thiết bị này",
-  "authLoginWithDeviceBiometric": "Đăng nhập bằng sinh trắc học của thiết bị này",
-  "authDeviceBiometric": "Sinh trắc học của thiết bị này",
-  "authDeviceBiometricDescription": "Dùng khóa màn hình của thiết bị này (vân tay hoặc khuôn mặt) để đăng nhập. Thông tin được lưu trong vùng bảo mật và không bao giờ rời khỏi thiết bị.",
-  "authDeviceBiometricBind": "Liên kết thiết bị này",
-  "authDeviceBiometricBound": "Thiết bị này đã được liên kết",
-  "authDeviceBiometricUnbind": "Hủy liên kết",
-  "authDeviceBiometricUnbindConfirmTitle": "Hủy liên kết thiết bị này?",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} sẽ không thể đăng nhập bằng sinh trắc học trên thiết bị này nữa. Hành động này không thể hoàn tác.",
-  "authDeviceBiometricSecondFactor": "Yêu cầu sinh trắc học sau mật khẩu",
-  "authDeviceBiometricSecondFactorHint": "Hỏi sinh trắc học của thiết bị này như yếu tố thứ hai mỗi lần bạn đăng nhập bằng mật khẩu.",
-  "authDeviceBiometricBoundSuccess": "Đã liên kết sinh trắc học cho thiết bị này",
-  "authDeviceBiometricPolicyFailed": "Không thể thay đổi cài đặt đăng nhập sinh trắc học: {error}",
+  "authLoginWithPasskey": "Đăng nhập bằng Passkey",
+  "authPasskeyPasswordlessAvailable": "Có thể đăng nhập không cần mật khẩu",
+  "authPasskeyVerificationOnly": "Chỉ dùng để xác minh",
+  "authPasskeySecondFactor": "Yêu cầu xác minh thêm sau mật khẩu",
+  "authPasskeySecondFactorHint": "Sau khi đăng nhập bằng mật khẩu, xác minh bằng mã email, ứng dụng xác thực hoặc Passkey.",
+  "authPasskeyPolicyFailed": "Không thể thay đổi cài đặt xác minh bổ sung: {error}",
   "@@locale": "vi",
   "adminUserDetailRegion": "Khu vực",
   "adminUserDetailBio": "Giới thiệu",
@@ -2884,11 +2877,11 @@
   "scoreTranscriptSaveAs": "Lưu thành",
   "authSecurityTitle": "Bảo mật và xác thực hai yếu tố",
   "authTwoFactorTitle": "Xác thực hai yếu tố (2FA)",
-  "authTwoFactorEnabled": "Đã bật: cần mã email hoặc Passkey khi đăng nhập",
-  "authTwoFactorDisabled": "Đã tắt: chỉ cần mật khẩu khi đăng nhập",
+  "authTwoFactorEnabled": "Đã bật: đăng nhập bằng mật khẩu cần bước xác minh thứ hai; Passkey vẫn đăng nhập không cần mật khẩu",
+  "authTwoFactorDisabled": "Đã tắt: nếu tùy chọn bên dưới bật, đăng nhập bằng mật khẩu vẫn cần bước thứ hai; Passkey vẫn đăng nhập không cần mật khẩu",
   "authCurrentPassword": "Mật khẩu hiện tại",
   "authPasskeys": "Passkey",
-  "authRegisterPasskey": "Đăng ký Passkey trên thiết bị này",
+  "authRegisterPasskey": "Đăng ký Passkey",
   "authPasskeyRegistered": "Đã đăng ký Passkey",
   "authNoPasskeys": "Chưa có Passkey",
   "authForgotPassword": "Quên mật khẩu?",
@@ -3103,8 +3096,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "Thiết bị này",
-  "authPasskeyDeviceName": "Tên thiết bị",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Tên Passkey",
   "authPasskeyRegisterFailed": "Không thể đăng ký Passkey: {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3113,7 +3106,7 @@
       }
     }
   },
-  "authPasskeysDescription": "Đã đăng ký {count}. Passkey sử dụng xác thực sinh trắc học của hệ thống trên thiết bị của bạn.",
+  "authPasskeysDescription": "Đã đăng ký {count}. Passkey có thể tìm thấy cũng có thể dùng để đăng nhập không cần mật khẩu.",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -3121,7 +3114,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "Đăng ký khóa sinh trắc học trên thiết bị được hỗ trợ",
+  "authPasskeysSupportedDeviceHint": "Đăng ký Passkey bằng thiết bị được hỗ trợ",
   "authPasskeyCreatedAt": "Đã tạo {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

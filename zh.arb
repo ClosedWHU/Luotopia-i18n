@@ -14,19 +14,12 @@
   "appLockScopeWater": "取水码",
   "appLockScopeSchoolNet": "校园网",
   "appLockScopeAi": "AI 助手",
-  "authVerificationSetUpPasskey": "还没有 Passkey？绑定本机",
-  "authLoginWithDeviceBiometric": "使用本机生物识别登录",
-  "authDeviceBiometric": "本机生物识别",
-  "authDeviceBiometricDescription": "使用本机的屏幕锁（指纹或面容）登录。凭证保存在安全区域，不会离开设备。",
-  "authDeviceBiometricBind": "绑定本机",
-  "authDeviceBiometricBound": "本机已绑定",
-  "authDeviceBiometricUnbind": "解绑",
-  "authDeviceBiometricUnbindConfirmTitle": "解绑本机？",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} 将无法再在本机使用生物识别登录。此操作无法撤销。",
-  "authDeviceBiometricSecondFactor": "密码后要求生物识别",
-  "authDeviceBiometricSecondFactorHint": "每次使用密码登录时，要求本机生物识别作为第二因素。",
-  "authDeviceBiometricBoundSuccess": "已绑定本机生物识别",
-  "authDeviceBiometricPolicyFailed": "无法更改生物识别登录设置：{error}",
+  "authLoginWithPasskey": "使用 Passkey 登录",
+  "authPasskeyPasswordlessAvailable": "支持免密码登录",
+  "authPasskeyVerificationOnly": "仅用于二次验证",
+  "authPasskeySecondFactor": "密码登录后要求二次验证",
+  "authPasskeySecondFactorHint": "使用密码登录后，可通过邮箱验证码、验证器或 Passkey 完成验证。",
+  "authPasskeyPolicyFailed": "无法更改二次验证设置：{error}",
   "@@locale": "zh",
   "emailModeChooserTitle": "选择邮箱使用方式",
   "emailModeChooserSubtitle": "之后可以在邮箱功能内随时切换。",
@@ -3175,11 +3168,11 @@
   },
   "authSecurityTitle": "安全与两步验证",
   "authTwoFactorTitle": "两步验证 (2FA)",
-  "authTwoFactorEnabled": "已开启：登录时需邮箱验证码或 Passkey",
-  "authTwoFactorDisabled": "未开启：登录时仅需密码",
+  "authTwoFactorEnabled": "已开启：密码登录需要二次验证；Passkey 仍可直接免密登录",
+  "authTwoFactorDisabled": "未开启：若下方开关已开启，密码登录仍需二次验证；Passkey 可免密登录",
   "authCurrentPassword": "当前密码",
   "authPasskeys": "Passkey",
-  "authRegisterPasskey": "为此设备注册 Passkey",
+  "authRegisterPasskey": "注册 Passkey",
   "authPasskeyRegistered": "Passkey 注册成功",
   "authNoPasskeys": "暂无 Passkey",
   "authForgotPassword": "忘记密码？",
@@ -3436,8 +3429,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "此设备",
-  "authPasskeyDeviceName": "设备名称",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Passkey 名称",
   "authPasskeyRegisterFailed": "注册 Passkey 失败：{error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3446,7 +3439,7 @@
       }
     }
   },
-  "authPasskeysDescription": "已注册 {count} 个。Passkey 使用设备系统的生物识别认证。",
+  "authPasskeysDescription": "已注册 {count} 个。支持免密码登录和二次验证；免密登录需要可发现的 Passkey。",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -3454,7 +3447,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "在受支持设备上注册生物识别密钥",
+  "authPasskeysSupportedDeviceHint": "使用受支持的设备注册 Passkey",
   "authPasskeyCreatedAt": "创建于 {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

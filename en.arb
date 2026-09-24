@@ -21,27 +21,13 @@
   "appLockScopeWater": "Water code",
   "appLockScopeSchoolNet": "Campus network",
   "appLockScopeAi": "AI assistant",
-  "authVerificationSetUpPasskey": "No Passkey yet? Bind this device",
-  "authLoginWithDeviceBiometric": "Sign in with this device's biometrics",
-  "authDeviceBiometric": "This device's biometrics",
-  "authDeviceBiometricDescription": "Use this device's screen lock (fingerprint or face) to sign in. The credential stays in the secure enclave and never leaves the device.",
-  "authDeviceBiometricBind": "Bind this device",
-  "authDeviceBiometricBound": "This device is bound",
-  "authDeviceBiometricUnbind": "Unbind",
-  "authDeviceBiometricUnbindConfirmTitle": "Unbind this device?",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} will no longer be able to sign you in with biometrics on this device. This cannot be undone.",
-  "@authDeviceBiometricUnbindConfirmMessage": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
-  "authDeviceBiometricSecondFactor": "Require biometrics after password",
-  "authDeviceBiometricSecondFactorHint": "Ask for this device's biometrics as a second factor each time you sign in with your password.",
-  "authDeviceBiometricBoundSuccess": "Biometrics bound for this device",
-  "authDeviceBiometricPolicyFailed": "Could not change the biometric sign-in setting: {error}",
-  "@authDeviceBiometricPolicyFailed": {
+  "authLoginWithPasskey": "Sign in with Passkey",
+  "authPasskeyPasswordlessAvailable": "Passwordless sign-in available",
+  "authPasskeyVerificationOnly": "Verification only",
+  "authPasskeySecondFactor": "Require a second step after password",
+  "authPasskeySecondFactorHint": "After password sign-in, verify with an email code, authenticator app, or Passkey.",
+  "authPasskeyPolicyFailed": "Could not change the second-step sign-in setting: {error}",
+  "@authPasskeyPolicyFailed": {
     "placeholders": {
       "error": {
         "type": "String"
@@ -3712,11 +3698,11 @@
   },
   "authSecurityTitle": "Security & two-factor authentication",
   "authTwoFactorTitle": "Two-factor authentication (2FA)",
-  "authTwoFactorEnabled": "Enabled: email code or Passkey is required when signing in",
-  "authTwoFactorDisabled": "Disabled: only your password is required when signing in",
+  "authTwoFactorEnabled": "Enabled: password sign-in needs a second step; Passkey sign-in stays passwordless",
+  "authTwoFactorDisabled": "Disabled: password sign-in may still need a second step if the setting below is on; Passkey sign-in stays passwordless",
   "authCurrentPassword": "Current password",
   "authPasskeys": "Passkeys",
-  "authRegisterPasskey": "Register Passkey on this device",
+  "authRegisterPasskey": "Register Passkey",
   "authPasskeyRegistered": "Passkey registered",
   "authNoPasskeys": "No Passkeys yet",
   "authForgotPassword": "Forgot password?",
@@ -3987,8 +3973,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "This device",
-  "authPasskeyDeviceName": "Device name",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Passkey name",
   "authPasskeyRegisterFailed": "Failed to register Passkey: {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3997,7 +3983,7 @@
       }
     }
   },
-  "authPasskeysDescription": "{count} registered. Passkeys use your device's system biometric authentication.",
+  "authPasskeysDescription": "{count} registered. Discoverable Passkeys can also sign you in without a password.",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -4005,7 +3991,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "Register a biometric key on a supported device",
+  "authPasskeysSupportedDeviceHint": "Register a Passkey using a supported device",
   "authPasskeyCreatedAt": "Created {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

@@ -14,19 +14,12 @@
   "appLockScopeWater": "Código de agua",
   "appLockScopeSchoolNet": "Red del campus",
   "appLockScopeAi": "Asistente de IA",
-  "authVerificationSetUpPasskey": "¿Aún no tienes Passkey? Vincula este dispositivo",
-  "authLoginWithDeviceBiometric": "Iniciar sesión con la biometría de este dispositivo",
-  "authDeviceBiometric": "Biometría de este dispositivo",
-  "authDeviceBiometricDescription": "Usa el bloqueo de pantalla de este dispositivo (huella o rostro) para iniciar sesión. La credencial se guarda en el enclave seguro y nunca sale del dispositivo.",
-  "authDeviceBiometricBind": "Vincular este dispositivo",
-  "authDeviceBiometricBound": "Este dispositivo está vinculado",
-  "authDeviceBiometricUnbind": "Desvincular",
-  "authDeviceBiometricUnbindConfirmTitle": "¿Desvincular este dispositivo?",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} ya no podrá iniciar sesión con biometría en este dispositivo. Esta acción no se puede deshacer.",
-  "authDeviceBiometricSecondFactor": "Requerir biometría tras la contraseña",
-  "authDeviceBiometricSecondFactorHint": "Pide la biometría de este dispositivo como segundo factor cada vez que inicies sesión con contraseña.",
-  "authDeviceBiometricBoundSuccess": "Biometría vinculada para este dispositivo",
-  "authDeviceBiometricPolicyFailed": "No se pudo cambiar el ajuste de inicio de sesión biométrico: {error}",
+  "authLoginWithPasskey": "Iniciar sesión con Passkey",
+  "authPasskeyPasswordlessAvailable": "Permite iniciar sesión sin contraseña",
+  "authPasskeyVerificationOnly": "Solo para verificación",
+  "authPasskeySecondFactor": "Exigir un segundo paso después de la contraseña",
+  "authPasskeySecondFactorHint": "Después de iniciar sesión con contraseña, verifica con un código por correo, una aplicación de autenticación o una Passkey.",
+  "authPasskeyPolicyFailed": "No se pudo cambiar la configuración del segundo paso: {error}",
   "@@locale": "es",
   "adminUserDetailRegion": "Región",
   "adminUserDetailBio": "Biografía",
@@ -2785,11 +2778,11 @@
   "scoreTranscriptSaveAs": "Guardar como",
   "authSecurityTitle": "Seguridad y autenticación de dos factores",
   "authTwoFactorTitle": "Autenticación de dos factores (2FA)",
-  "authTwoFactorEnabled": "Activada: se requiere código por correo o Passkey al iniciar sesión",
-  "authTwoFactorDisabled": "Desactivada: solo se requiere la contraseña",
+  "authTwoFactorEnabled": "Activada: la contraseña requiere un segundo paso; Passkey permite entrar sin contraseña",
+  "authTwoFactorDisabled": "Desactivada: si la opción inferior está activa, la contraseña aún requiere un segundo paso; Passkey permite entrar sin contraseña",
   "authCurrentPassword": "Contraseña actual",
   "authPasskeys": "Claves de acceso",
-  "authRegisterPasskey": "Registrar Passkey en este dispositivo",
+  "authRegisterPasskey": "Registrar Passkey",
   "authPasskeyRegistered": "Passkey registrada",
   "authNoPasskeys": "No hay Passkeys",
   "authForgotPassword": "¿Olvidaste la contraseña?",
@@ -3004,8 +2997,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "Este dispositivo",
-  "authPasskeyDeviceName": "Nombre del dispositivo",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Nombre de la Passkey",
   "authPasskeyRegisterFailed": "Error al registrar la Passkey: {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3014,7 +3007,7 @@
       }
     }
   },
-  "authPasskeysDescription": "{count} registradas. Las Passkeys usan la autenticación biométrica del sistema de tu dispositivo.",
+  "authPasskeysDescription": "{count} registradas. Las Passkeys detectables también permiten iniciar sesión sin contraseña.",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -3022,7 +3015,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "Registra una clave biométrica en un dispositivo compatible",
+  "authPasskeysSupportedDeviceHint": "Registra una Passkey con un dispositivo compatible",
   "authPasskeyCreatedAt": "Creada el {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

@@ -14,19 +14,12 @@
   "appLockScopeWater": "Code d'eau",
   "appLockScopeSchoolNet": "Réseau du campus",
   "appLockScopeAi": "Assistant IA",
-  "authVerificationSetUpPasskey": "Pas encore de Passkey ? Liez cet appareil",
-  "authLoginWithDeviceBiometric": "Se connecter avec la biométrie de cet appareil",
-  "authDeviceBiometric": "Biométrie de cet appareil",
-  "authDeviceBiometricDescription": "Utilisez le verrouillage de cet appareil (empreinte ou visage) pour vous connecter. L'identifiant reste dans l'enclave sécurisée et ne quitte jamais l'appareil.",
-  "authDeviceBiometricBind": "Lier cet appareil",
-  "authDeviceBiometricBound": "Cet appareil est lié",
-  "authDeviceBiometricUnbind": "Délier",
-  "authDeviceBiometricUnbindConfirmTitle": "Délier cet appareil ?",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} ne pourra plus vous connecter avec la biométrie sur cet appareil. Cette action est irréversible.",
-  "authDeviceBiometricSecondFactor": "Exiger la biométrie après le mot de passe",
-  "authDeviceBiometricSecondFactorHint": "Demande la biométrie de cet appareil comme second facteur à chaque connexion par mot de passe.",
-  "authDeviceBiometricBoundSuccess": "Biométrie liée pour cet appareil",
-  "authDeviceBiometricPolicyFailed": "Impossible de modifier le paramètre de connexion biométrique : {error}",
+  "authLoginWithPasskey": "Se connecter avec une Passkey",
+  "authPasskeyPasswordlessAvailable": "Connexion sans mot de passe disponible",
+  "authPasskeyVerificationOnly": "Vérification uniquement",
+  "authPasskeySecondFactor": "Exiger une deuxième étape après le mot de passe",
+  "authPasskeySecondFactorHint": "Après le mot de passe, confirmez avec un code e-mail, une application d’authentification ou une Passkey.",
+  "authPasskeyPolicyFailed": "Impossible de modifier le paramètre de deuxième étape : {error}",
   "@@locale": "fr",
   "adminUserDetailRegion": "Région",
   "adminUserDetailBio": "Bio",
@@ -2785,11 +2778,11 @@
   "scoreTranscriptSaveAs": "Enregistrer sous",
   "authSecurityTitle": "Sécurité et double authentification",
   "authTwoFactorTitle": "Double authentification (2FA)",
-  "authTwoFactorEnabled": "Activée : un code e-mail ou une Passkey est requis à la connexion",
-  "authTwoFactorDisabled": "Désactivée : seul votre mot de passe est requis",
+  "authTwoFactorEnabled": "Activée : le mot de passe exige une deuxième étape ; la Passkey permet de se connecter sans mot de passe",
+  "authTwoFactorDisabled": "Désactivée : si l’option ci-dessous est active, le mot de passe exige toujours une deuxième étape ; la Passkey reste sans mot de passe",
   "authCurrentPassword": "Mot de passe actuel",
   "authPasskeys": "Clés d’accès",
-  "authRegisterPasskey": "Enregistrer une Passkey sur cet appareil",
+  "authRegisterPasskey": "Enregistrer une Passkey",
   "authPasskeyRegistered": "Passkey enregistrée",
   "authNoPasskeys": "Aucune Passkey",
   "authForgotPassword": "Mot de passe oublié ?",
@@ -3004,8 +2997,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "Cet appareil",
-  "authPasskeyDeviceName": "Nom de l’appareil",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Nom de la Passkey",
   "authPasskeyRegisterFailed": "Échec de l’enregistrement de la Passkey : {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3014,7 +3007,7 @@
       }
     }
   },
-  "authPasskeysDescription": "{count} Passkey(s) enregistrée(s). Les Passkeys utilisent l’authentification biométrique du système de votre appareil.",
+  "authPasskeysDescription": "{count} Passkey(s) enregistrée(s). Les Passkeys détectables permettent aussi de se connecter sans mot de passe.",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -3022,7 +3015,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "Enregistrez une clé biométrique sur un appareil compatible",
+  "authPasskeysSupportedDeviceHint": "Enregistrez une Passkey avec un appareil compatible",
   "authPasskeyCreatedAt": "Créée le {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

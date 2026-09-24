@@ -14,19 +14,12 @@
   "appLockScopeWater": "Código de água",
   "appLockScopeSchoolNet": "Rede do campus",
   "appLockScopeAi": "Assistente de IA",
-  "authVerificationSetUpPasskey": "Ainda sem Passkey? Vincule este dispositivo",
-  "authLoginWithDeviceBiometric": "Entrar com a biometria deste dispositivo",
-  "authDeviceBiometric": "Biometria deste dispositivo",
-  "authDeviceBiometricDescription": "Use o bloqueio de tela deste dispositivo (impressão digital ou rosto) para entrar. A credencial fica no enclave seguro e nunca sai do dispositivo.",
-  "authDeviceBiometricBind": "Vincular este dispositivo",
-  "authDeviceBiometricBound": "Este dispositivo está vinculado",
-  "authDeviceBiometricUnbind": "Desvincular",
-  "authDeviceBiometricUnbindConfirmTitle": "Desvincular este dispositivo?",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} não poderá mais entrar com biometria neste dispositivo. Esta ação não pode ser desfeita.",
-  "authDeviceBiometricSecondFactor": "Exigir biometria após a senha",
-  "authDeviceBiometricSecondFactorHint": "Peça a biometria deste dispositivo como segundo fator sempre que entrar com senha.",
-  "authDeviceBiometricBoundSuccess": "Biometria vinculada para este dispositivo",
-  "authDeviceBiometricPolicyFailed": "Não foi possível alterar a configuração de login biométrico: {error}",
+  "authLoginWithPasskey": "Entrar com Passkey",
+  "authPasskeyPasswordlessAvailable": "Permite entrar sem senha",
+  "authPasskeyVerificationOnly": "Apenas para verificação",
+  "authPasskeySecondFactor": "Exigir uma segunda etapa após a senha",
+  "authPasskeySecondFactorHint": "Após entrar com a senha, confirme com código por e-mail, aplicativo autenticador ou Passkey.",
+  "authPasskeyPolicyFailed": "Não foi possível alterar a configuração da segunda etapa: {error}",
   "@@locale": "pt",
   "adminUserDetailRegion": "Região",
   "adminUserDetailBio": "Bio",
@@ -2780,11 +2773,11 @@
   "scoreTranscriptSaveAs": "Salvar como",
   "authSecurityTitle": "Segurança e autenticação em dois fatores",
   "authTwoFactorTitle": "Autenticação em dois fatores (2FA)",
-  "authTwoFactorEnabled": "Ativada: código de e-mail ou Passkey será exigido",
-  "authTwoFactorDisabled": "Desativada: apenas a senha será exigida",
+  "authTwoFactorEnabled": "Ativada: a senha exige uma segunda etapa; a Passkey continua permitindo entrar sem senha",
+  "authTwoFactorDisabled": "Desativada: se a opção abaixo estiver ativa, a senha ainda exige uma segunda etapa; a Passkey continua sem senha",
   "authCurrentPassword": "Senha atual",
   "authPasskeys": "Chaves de acesso",
-  "authRegisterPasskey": "Registrar Passkey neste dispositivo",
+  "authRegisterPasskey": "Registrar Passkey",
   "authPasskeyRegistered": "Passkey registrada",
   "authNoPasskeys": "Nenhuma Passkey",
   "authForgotPassword": "Esqueceu a senha?",
@@ -2999,8 +2992,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "Este dispositivo",
-  "authPasskeyDeviceName": "Nome do dispositivo",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Nome da Passkey",
   "authPasskeyRegisterFailed": "Falha ao registrar Passkey: {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3009,7 +3002,7 @@
       }
     }
   },
-  "authPasskeysDescription": "{count} registrada(s). As Passkeys usam a autenticação biométrica do sistema do seu dispositivo.",
+  "authPasskeysDescription": "{count} registrada(s). Passkeys detectáveis também permitem entrar sem senha.",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -3017,7 +3010,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "Registre uma chave biométrica em um dispositivo compatível",
+  "authPasskeysSupportedDeviceHint": "Registre uma Passkey com um dispositivo compatível",
   "authPasskeyCreatedAt": "Criada em {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {
