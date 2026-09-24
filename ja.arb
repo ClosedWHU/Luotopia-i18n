@@ -6305,5 +6305,515 @@
     }
   },
   "courseCaseNoticeRestricted": "Your class sharing write access was temporarily restricted",
-  "courseCaseNoticeRestrictionLifted": "Your class sharing write restriction was lifted"
+  "courseCaseNoticeRestrictionLifted": "Your class sharing write restriction was lifted",
+  "csEbanTitle": "CS易办",
+  "csEbanCollegeSection": "武漢大学コンピュータ科学学院",
+  "csEbanAccountTitle": "CS易办 資格情報",
+  "csEbanAccountHint": "学部の CS易办 資格情報をこのデバイスに保存します。保存してもサインインしません。クエリを開くと自動的にサインインします。",
+  "csEbanScopeRequired": "CS易办 資格情報を保存する前に、WHU アカウントをバインドします。",
+  "csEbanAccountRequired": "レコードをクエリするには、CS易办 アカウントとパスワードを登録します。",
+  "csEbanAuthFailed": "サインインできません。学部の CS易办 資格情報を確認して、再試行してください。",
+  "csEbanNetworkError": "CS易办 に到達できませんでした。後でもう一度試してください。",
+  "csEbanPageChanged": "ページを読み取れませんでした。サービスがメンテナンス中または形式が変更されている可能性があります。",
+  "csEbanStorageError": "資格情報を読み取ることも、保存することもできませんでした。もう一度試してください。",
+  "csEbanSaved": "資格情報はローカルに保存されます。まだ検証されていません。",
+  "csEbanDeleteCredentials": "保存された認証情報を削除する",
+  "csEbanDeleted": "保存された認証情報が削除されました。",
+  "csEbanRequired": "このフィールドに入力してください。",
+  "csEbanAwards": "受賞歴と懲戒記録",
+  "csEbanEvaluation": "イデオロギー的および政治的評価",
+  "csEbanDescription": "学部サービス · WHU コンピュータ サイエンス学部",
+  "csEbanEmpty": "このクエリに使用できるレコードはありません。",
+  "csEbanStartDate": "開始日",
+  "csEbanEndDate": "終了日",
+  "csEbanAllDates": "日付制限なし",
+  "csEbanQuery": "クエリ",
+  "csEbanReset": "日付フィルターをクリアする",
+  "csEbanInvalidRange": "開始日は終了日以降であってはなりません。",
+  "csEbanRefresh": "レコードを更新する",
+  "csEbanServerTotal": "合計および成績はCS易办によって提供され、詳細に記載されていないポイントが含まれる場合があります。",
+  "csEbanTotal": "合計ポイント",
+  "csEbanGrade": "評価等級",
+  "csEbanCategory": "カテゴリ",
+  "csEbanDate": "表彰・懲戒日",
+  "csEbanLevel": "レベル",
+  "csEbanReason": "理由",
+  "csEbanPoints": "ポイント",
+  "csEbanIssuer": "発行者",
+  "csEbanRecordedAt": "録音日",
+  "csEbanRecords": "詳細",
+  "xijiTitle": "希冀プラットフォーム",
+  "xijiAccountSettings": "Xiji アカウントの認証情報",
+  "xijiFacultySection": "武漢大学コンピュータ科学学院",
+  "xijiCasDefault": "設定されていません。大学CASを使用",
+  "xijiAccountAction": "アカウント設定",
+  "xijiReminderAction": "リマインダー設定",
+  "xijiRefresh": "リフレッシュ",
+  "xijiNoCourses": "コースはありません。ログインを更新または確認してください。",
+  "xijiNotSynced": "まだ同期されていません",
+  "xijiCourse": "コース",
+  "xijiCourseInfo": "コース情報",
+  "xijiAssignments": "課題",
+  "xijiExams": "試験",
+  "xijiCourseUnavailable": "コース利用不可",
+  "xijiNoDescription": "コース説明なし",
+  "xijiNoTasks": "タスクがありません",
+  "xijiUnknownTime": "時間不明",
+  "xijiCompleted": "完了",
+  "xijiHistorical": "歴史的",
+  "xijiExpired": "閉店",
+  "xijiNotStarted": "開始されていません",
+  "xijiOpen": "開く",
+  "xijiReminderTitle": "希冀リマインダー",
+  "xijiReminderHelp": "リマインダーは、最後に成功した同期を使用します。新しいタスクまたは変更されたタスクにはオンライン更新が必要です。セッションの有効期限が切れた場合は、再度サインインしてください。",
+  "xijiAssignmentToggle": "課題の期限リマインダー",
+  "xijiAssignmentLead": "課題の事前通知",
+  "xijiExamToggle": "試験開始のリマインダー",
+  "xijiExamLead": "試験の事前通知",
+  "xijiOneHour": "1時間",
+  "xijiSixHours": "6時間",
+  "xijiOneDay": "1日",
+  "xijiFifteenMinutes": "15分",
+  "xijiThirtyMinutes": "30分",
+  "xijiCasRestored": "大学 CAS ログインが復元されました",
+  "xijiCredentialsSaved": "アカウント認証情報が保存されました",
+  "xijiSaveFailed": "保存できませんでした。アカウントとパスワードを確認して、再試行してください。",
+  "xijiAccountHelp": "オプション: デフォルトで大学 CAS を使用します。構成されたプラットフォーム アカウントでは、再度サインインするときにイメージ CAPTCHA が必要になる場合があります。",
+  "xijiBindAccount": "プラットフォームの認証情報を保存する前に、WHU アカウントをリンクします。",
+  "xijiUsername": "Xijiのユーザー名",
+  "xijiPassword": "希冀のパスワード",
+  "xijiSaveAccount": "認証情報の保存",
+  "xijiClearAccount": "資格情報をクリアして大学の CAS を使用してください",
+  "xijiLoginAction": "サインインして CAPTCHA を完了します",
+  "xijiLoginTitle": "希冀にサインインする",
+  "xijiLoginFailed": "ログインセッションを確認できませんでした。再試行してください。",
+  "xijiSessionExpired": "セッションの有効期限が切れました。再度サインインします。",
+  "xijiSyncFailed": "同期に失敗しました。保存されたデータを表示する",
+  "xijiNotificationFailed": "リマインダーを更新できませんでした。通知権限を確認して再試行してください。",
+  "xijiAssignmentNotification": "希冀の任務がもうすぐ期限切れ",
+  "xijiExamNotification": "もうすぐ習字試験が始まります",
+  "xijiUnknownExamTime": "一部の試験時間は読み取れませんでした。元のWebサイトを確認してください。",
+  "xijiOpenWebsite": "オリジナルのウェブサイトを開く",
+  "xijiRetry": "再試行",
+  "xijiUpdatedAt": "{time}を更新しました",
+  "@xijiUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiStartsAt": "開始: {time}",
+  "@xijiStartsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiEndsAt": "期限: {time}",
+  "@xijiEndsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiConfiguredAccount": "設定済みアカウント: {account}",
+  "@xijiConfiguredAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSubmissionCancelError": "キャンセルに失敗しました。送信ステータスを更新して、再試行してください。",
+  "diningMySubmissions": "私の貢献",
+  "diningRefreshSubmissions": "投稿を更新する",
+  "diningKarmaLedger": "フォーラム Karma の履歴を表示",
+  "diningSubmissionLoadRetry": "投稿を読み込めませんでした。タップして再試行します。",
+  "diningNoSubmissions": "まだ投稿はありません",
+  "diningCancelSubmission": "投稿をキャンセルする",
+  "diningReviewNote": "レビューメモ: {note}",
+  "@diningReviewNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "diningContributionKind": "{kind, select, create_spot {店舗を追加} update_spot {店舗情報を修正} create_building {建物を追加} update_building {建物情報を修正} create_floor {フロアを追加} update_floor {フロア情報を修正} create_menu_group {メニュー分類を追加} update_menu_group {メニュー分類を修正} create_menu_item {料理を追加} update_menu_item {料理情報を修正} business_hours {営業時間} schedule_exceptions {臨時の営業予定} floor_plan {屋内地図} other {情報提供}}",
+  "@diningContributionKind": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "diningReviewState": "{status, select, pending {審査待ち} approved {採用済み} rejected {不採用} cancelled {取り消し済み} revoked {採用取り消し} other {不明な審査状態}}",
+  "@diningReviewState": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "diningRewardState": "{reward, select, pending_review {審査待ち} pending {報酬精算待ち} awarded {付与済み：{amount} Karma} reversed {報酬取り消し済み} not_eligible {報酬の対象外} daily_cap {1日の報酬上限に達しました} other {報酬精算待ち}}",
+  "@diningRewardState": {
+    "placeholders": {
+      "reward": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "courseSpaceTitle": "授業情報の共有",
+  "courseSpaceSearch": "授業クラスを探す",
+  "courseSpaceMine": "私のクラス",
+  "courseSpaceAll": "すべてのクラス",
+  "courseSpaceEmpty": "一致するコース スペースはまだありません。",
+  "courseSpaceJoin": "このクラスに参加",
+  "courseSpaceLeave": "このクラスから退出",
+  "courseSpaceLeaveHint": "今後のコースへの招待と共有アップデートは停止されます。あなたの個人的なコピーは残ります。",
+  "courseSpaceJoined": "参加済みですが登録が確認されていません",
+  "courseSpaceVerified": "今期の登録が確認されました",
+  "courseSpaceArchived": "アーカイブ済み · 読み取り専用",
+  "courseSpaceInformation": "共有情報",
+  "courseHomeHasUpdates": "新コースのご案内",
+  "courseSpaceAllTypes": "全種類",
+  "courseSpaceSessionFilter": "クラスの出現",
+  "courseSpaceAllSessions": "すべての出来事",
+  "courseSpaceCancelledOccurrence": "キャンセルされました",
+  "courseSpaceEvents": "コース日程",
+  "courseSpaceMembership": "メンバーと役割",
+  "courseSpaceAdd": "情報を共有する",
+  "courseSpaceNoInformation": "まだ共有情報はありません。",
+  "courseSpaceNoEvents": "この期間にはコース日程はありません。",
+  "courseSpacePending": "検証待ち",
+  "courseSpacePendingChange": "提案された変更は検証を待っています",
+  "courseSpaceConsensus": "学生の総意",
+  "courseSpaceTAVerified": "ティーチングアシスタントによる検証済み",
+  "courseSpaceAdminVerified": "管理者によって確認されました",
+  "courseSpaceDisputed": "異議申し立てがあり、審査が必要です",
+  "courseSpaceAssignment": "割り当て",
+  "courseSpaceAssessment": "成績評価の要件",
+  "courseSpaceAnnouncement": "お知らせ",
+  "courseSpaceGroup": "クラスのグループチャット",
+  "courseSpaceContact": "先生への連絡先",
+  "courseSpaceUnknown": "サポートされていない情報タイプ",
+  "courseSpaceTitleField": "タイトル",
+  "courseSpaceBodyField": "要件または説明",
+  "courseSpaceDue": "締め切り",
+  "courseSpaceTimeUnknown": "時間はまだ指定されていません",
+  "courseSpaceChooseTime": "日付と時刻を選択してください",
+  "courseSpaceClearTime": "時間を指定しないままにしておきます",
+  "courseSpaceSubmission": "投稿方法",
+  "courseSpaceAssessmentMethod": "評価方法",
+  "courseSpaceScope": "評価範囲",
+  "courseSpaceWeight": "重量(%)",
+  "courseSpaceLink": "公開ソース URL",
+  "courseSpacePlatform": "プラットフォーム",
+  "courseSpaceJoinMethod": "参加方法",
+  "courseSpaceValue": "グループ番号、リンク、または連絡先アドレス",
+  "courseSpaceContactName": "連絡先の名前または役職",
+  "courseSpaceChannel": "連絡手段",
+  "courseSpaceVisibility": "これを読める人は",
+  "courseSpacePublic": "公共",
+  "courseSpaceMembers": "加入メンバー",
+  "courseSpaceVerifiedMembers": "確認されたクラスのメンバー",
+  "courseSpaceProtectedHint": "グループ チャットと教師との連絡は、認証されたクラス メンバーに制限されています。",
+  "courseSpaceSubmit": "検証のために送信する",
+  "courseSpaceRevise": "変更を提案する",
+  "courseSpaceConfirm": "このバージョンを確認してください",
+  "courseSpaceIncorrect": "このバージョンは間違っています",
+  "courseSpaceRemoveVote": "私の投票を削除します",
+  "courseSpaceVerify": "検証して公開する",
+  "courseSpaceReject": "この提案を拒否する",
+  "courseSpaceReason": "理由または証拠の概要",
+  "courseSpaceHistory": "改訂履歴",
+  "courseSpaceAccepted": "現在受け入れられているバージョン",
+  "courseSpaceProposed": "提案バージョン",
+  "courseSpaceWithdrawn": "撤回されました",
+  "courseSpaceCancelled": "キャンセルされました",
+  "courseSpaceFollow": "カレンダーに追加して更新情報をフォローする",
+  "courseSpaceSnapshot": "個人用コピーを保存する",
+  "courseSpaceSaved": "保存されました",
+  "courseSpaceSubscription": "コースの購読",
+  "courseSpaceEnableSubscription": "確認済みのコース日程を購読する",
+  "courseSpaceRolesOnly": "アシスタントまたは管理者の検証のみ",
+  "courseSpaceAllowConsensus": "低リスクの情報は学生の合意による確認も含める",
+  "courseSpaceReminderMinutes": "何分前に思い出させて",
+  "courseSpaceApply": "役割に応募する",
+  "courseSpaceEnrollment": "現在の登録を確認する",
+  "courseSpaceTA": "ティーチングアシスタント",
+  "courseSpaceRepresentative": "クラス代表",
+  "courseSpaceApplicationHint": "申請は管理者によって審査されます。役割は、この授業クラスと学期にのみ適用されます。",
+  "courseSpaceApplicationApproved": "承認済み",
+  "courseSpaceApplicationRejected": "拒否されました",
+  "courseSpaceApplicationCancelled": "申請者によるキャンセル",
+  "courseSpaceCancelApplication": "申請をキャンセルする",
+  "courseSpaceApplications": "私のアプリケーション",
+  "courseSpaceReviewApplications": "役割の申請を確認する",
+  "courseSpaceApprove": "承認する",
+  "courseSpaceExpiry": "まで有効",
+  "courseGroupExpired": "グループ情報の有効期限が切れています。参加する前に確認するか、報告してください",
+  "courseSpaceRequired": "必須フィールドに入力してください。",
+  "courseSpaceConflict": "この情報は変更されました。あなたのドラフトは保存されます。再送信する前に最新バージョンを確認してください。",
+  "courseSpaceTerm": "学年・学期",
+  "courseSpaceOpen": "オープンコース共有",
+  "courseSpaceLoading": "コース情報を読み込み中",
+  "courseSpaceReadOnly": "この情報を読み取ることはできますが、編集することはできません。",
+  "courseSpaceNoApplications": "まだ申し込みはありません。",
+  "courseSpaceStart": "開始時間",
+  "courseSpaceEnd": "終了時刻",
+  "courseSpaceTimezone": "タイムゾーン",
+  "courseSpaceLocation": "場所",
+  "courseSpaceSource": "ソース",
+  "courseSpaceOfficeHours": "オフィスアワー",
+  "courseSpaceScheduleChange": "スケジュール変更",
+  "courseSpaceDiscardDraft": "この下書きを破棄しますか?",
+  "courseSpaceDiscardHint": "保存されていない変更は失われます。",
+  "courseSpaceCompare": "変更を比較する",
+  "courseSpaceRebaseHint": "ドラフトを最新バージョンに更新する前に、すべての違いを確認してください。こちらはまだ提出していません。",
+  "courseSpaceLatestVersion": "最新バージョン",
+  "courseSpaceYourDraft": "あなたのドラフト",
+  "courseSpaceRebase": "下書きを保持して最新バージョンを基準にする",
+  "courseSpaceInvalidValue": "有効な値を入力してください。",
+  "courseSpaceDateOnly": "日付のみ。時間不明",
+  "courseSpaceInvalidTime": "タイムゾーンと時間範囲を確認してください。夏時間が変更されると、一部の現地時間は存在しません。",
+  "courseSpaceSubscriptionHint": "更新内容はコースの日付に適用されますが、完了、メモ、リマインダーの上書きは個人的なもののままです。購読を解除すると、今後のソースの更新が一時停止されます。",
+  "courseSpaceRemindersHint": "カンマ区切りの分、0 ～ 43200 の最大 5 つの値。リマインダーを無効にするには空のままにします。",
+  "courseSpaceReloadSettings": "編集を破棄して最新の設定をロードします",
+  "courseSpaceFollowHint": "更新を追跡する: 受け入れられた日付の変更により、同じ保存済みイベントが更新されます。",
+  "courseSpaceSnapshotHint": "個人用コピー: 後でコースを変更しても、コピーは上書きされません。",
+  "courseSpaceDetach": "コース更新から切り離す",
+  "courseSpaceDetachHint": "個人的なコピーとなります。その後のコース変更やクラスのサブスクリプションによって置き換えられることはありません。保存されていない設定はこの形式のままです。",
+  "courseSpaceSyncQueued": "同期がキューに登録されました",
+  "courseSpaceSyncFailed": "コースの日付が同期されませんでした",
+  "courseSpaceSynced": "ソース同期済み",
+  "courseSpaceSyncPaused": "ソースの更新が一時停止されました",
+  "courseSpaceAccessRevoked": "授業情報へのアクセス権が期限切れ、または取り消されています",
+  "courseSpaceCalendarSettings": "コースカレンダーの設定",
+  "courseSpaceCompleted": "完了",
+  "courseSpaceHidden": "このイベントを非表示にする",
+  "courseSpacePersonalNote": "個人的なメモ",
+  "courseSpaceOverrideReminders": "サブスクリプションのリマインダーを上書きする",
+  "courseSpaceRetrySync": "ソース同期を再試行します",
+  "courseSpaceHideFromAgendaMessage": "このイベントを予定表から非表示にします。共有コース情報は保持されます。個人設定でイベントを復元できます。",
+  "courseSpaceReminderBody": "あなたがフォローしているコースイベントが近づいています。アプリを開いて現在の詳細を確認します。",
+  "courseSpaceReminderScheduleFailed": "このデバイスではコースリマインダーをスケジュールできませんでした。もう一度やり直してください。",
+  "courseSpaceEvidence": "検証証拠",
+  "courseSpaceNoEvidence": "証拠は残されていない。",
+  "courseCaseNotices": "コースレビュー結果",
+  "courseCaseNoticesEmpty": "レビュー結果はまだありません。",
+  "courseNoticeInbox": "コースの更新と決定",
+  "courseNoticeInboxEmpty": "まだコースの更新はありません。",
+  "courseEventNoticeChanged": "コースの日付または締め切りが変更された場合",
+  "courseEventNoticeCancelled": "コースイベントが中止になりました",
+  "courseSyncFailureNotice": "コースの日付を同期できませんでした。現在のステータスを確認してください。",
+  "courseCaseNoticeRoleApproved": "コースロールの申請が承認されました",
+  "courseCaseNoticeRoleRejected": "コースロールの申請は拒否されました",
+  "courseCaseNoticeRevisionAccepted": "コース情報の更新が承認されました",
+  "courseCaseNoticeRevisionRejected": "コース情報の更新が拒否されました",
+  "courseCaseNoticeReportDismissed": "あなたのコースレポートは却下されました",
+  "courseCaseNoticeReportWithdrawn": "報告されたコース情報は取り下げられました",
+  "courseCaseNoticeAuthorWithdrawn": "あなたのコース情報は審査後に取り消されました",
+  "courseCaseNoticeAppealUpheld": "あなたのコースに対する異議申し立ての決定は支持されました",
+  "courseCaseNoticeAppealReopened": "コースへの異議申し立てには新たな審査が必要です",
+  "courseSpaceAddEvidence": "証拠を追加 (最大 10 ファイル)",
+  "courseSpaceRemoveEvidence": "証拠を削除する",
+  "courseSpaceDownloadEvidence": "証拠をダウンロードする",
+  "courseSpaceEvidenceTooLarge": "各証拠ファイルは 5 MB 以下である必要があります。",
+  "courseSpaceLinkTitle": "授業クラスとの関連付け",
+  "courseSpaceLinkMissingCourse": "このコースはもう利用できません。時間割に戻り、再度選択します。",
+  "courseSpaceLinkLogin": "ログインして授業クラスを関連付ける",
+  "courseSpaceLinkConfirm": "この授業クラスを確認",
+  "courseSpaceLinkConfirmationHint": "年度、学期、授業クラスのコードを確認してください。科目名が同じでも同じクラスとは限りません。この関連付けは画面移動のためのもので、履修認証や管理権限は付与されません。",
+  "courseSpaceLinkUnlink": "関連付けを削除する",
+  "courseSpaceLinkUnlinkHint": "これにより、ナビゲーションの関連付けのみが削除されます。授業クラスを離れたり、共有情報を削除したりすることはありません。",
+  "courseSpaceLinkChanged": "コースの状況または授業クラスのステータスが変更されました。再度ご確認ください。",
+  "courseSpaceLinkReload": "最新の関連付けを読み込む",
+  "courseSpaceLinkMore": "他の授業クラス",
+  "courseForumLinksTitle": "リンクされたディスカッション",
+  "courseForumReferencesTitle": "参考にしたコース情報",
+  "courseForumReferencedVersion": "この説明では、リビジョン {number} を引用しています。",
+  "@courseForumReferencedVersion": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "courseForumReferenceUnavailable": "引用された情報リビジョンは利用できません。",
+  "courseForumLinksAdd": "フォーラムの投稿をリンクする",
+  "courseForumLinksPost": "リンクを投稿または ID",
+  "courseForumLinksRevision": "情報改訂",
+  "courseForumLinksVersion": "リビジョン {number}",
+  "@courseForumLinksVersion": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "courseForumLinksLegacyVersion": "リビジョンは記録されていません",
+  "courseForumLinksDiscussion": "ディスカッション",
+  "courseForumLinksSource": "情報源",
+  "courseForumLinksUnavailable": "元のディスカッションは利用できません",
+  "courseForumLinksRemove": "リンクを削除する",
+  "courseForumLinksRetry": "リンクされたディスカッションの読み込みを再試行します",
+  "courseClassroomTitle": "教室",
+  "courseClassroomClass": "この授業クラス",
+  "courseClassroomHead": "同じ開講科目",
+  "courseClassroomHeadUnavailable": "この授業クラスには開講科目がまだ関連付けられていません。",
+  "courseClassroomCompose": "このクラスに投稿する",
+  "courseClassroomComposeHead": "この開講科目に投稿する",
+  "courseClassroomHeadPost": "開講科目に関するディスカッション",
+  "courseClassroomArchivedHead": "アーカイブされた開講科目: 歴史的な議論は読み取り専用です。",
+  "courseDiscussionReadOnly": "このコースのディスカッションはアーカイブされ、読み取り専用です。",
+  "courseClassroomEmpty": "このスコープではアクセスできるディスカッションはありません。",
+  "courseClassroomScopeHint": "クラスの投稿は、ソースクラスの権限に従います。開講科目に関するディスカッションは、この開講科目の認証済みの学生を対象としています。",
+  "courseClassroomSource": "ソースクラス: {id}",
+  "@courseClassroomSource": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "courseClassroomComposeSource": "投稿ソース: {id}",
+  "@courseClassroomComposeSource": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "courseClassroomComposeHeadSource": "開講科目への投稿: {id}",
+  "@courseClassroomComposeHeadSource": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHeadManage": "開講科目の管理",
+  "courseHeadCreate": "開講科目を登録",
+  "courseHeadOfferingKey": "正式な開講科目ID",
+  "courseHeadTeam": "指導チームの識別子",
+  "courseHeadUnlink": "このクラスのリンクを解除する",
+  "courseHeadAssociate": "関連付ける",
+  "courseHeadReload": "最新の状態をリロードする",
+  "courseHeadMissingCourse": "このクラスには科目カタログ識別子がありません。開講科目を関連付ける前に、レジストリ データを完成させてください。",
+  "courseHeadPermissionHint": "関連付けられたクラスは、メンバーシップ、ロール、または検証投票を共有しません。すべての変更には理由が必要です。",
+  "courseHeadMetadataEdit": "クラスレジストリの編集",
+  "courseHeadCourseUid": "科目カタログ識別子",
+  "courseHeadMetadataHint": "学校、学期、授業クラスの識別情報は変更されません。科目カタログIDを修正する前に、対応しない開講科目との関連付けを解除してください。",
+  "courseAccessManage": "クラスへのアクセスを管理する",
+  "courseAccessRevokeMember": "メンバーシップを取り消す",
+  "courseAccessRevokeRole": "役割を取り消す",
+  "courseAccessRevoke": "取り消し",
+  "courseAccessRevocationHint": "非公開の授業 コンテンツの取り消しは直ちに有効になります。変更するたびに理由を付けて更新してください。",
+  "courseRolloutTitle": "この授業クラスを開く",
+  "courseRolloutHint": "オープンクラスのみが学生に表示され、コースへの招待状が生成されます。クラスを終了すると、そのコース情報とディスカッションが学生のビューから削除されます。",
+  "courseRolloutConfirm": "このクラスのロールアウト ステータスを変更する理由を入力してください。変更はすぐに有効になります。",
+  "courseClassRegister": "授業クラスを登録",
+  "courseClassSchool": "学校識別子",
+  "courseClassYear": "学年",
+  "courseClassSemester": "学期",
+  "courseClassKey": "公式の授業クラス識別子",
+  "courseClassEndDate": "学期の終了日",
+  "courseClassRegisterHint": "公式のクラスおよび科目カタログ識別子を使用します。終了日には Asia/Shanghai 時間が使用されます。登録では、学生の認証や開講科目へのリンクは行われません。",
+  "courseHeadEdit": "開講科目を編集",
+  "courseHeadArchive": "開講科目をアーカイブ",
+  "courseHeadStatus": "開講科目の状態",
+  "courseHeadEditHint": "学校、学期、公式開講科目 キー、科目カタログ識別子は変更されません。",
+  "courseHeadArchiveHint": "アーカイブ {title}?そのクラスの関連付けは監査のために残りますが、クラスが明示的に再割り当てされるまで、同じ開講科目のディスカッションは集約を停止します。",
+  "@courseHeadArchiveHint": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "courseInvitationTitle": "授業後のお誘い",
+  "courseInvitationHint": "このクラスは終了しました。課題、評価要件、お知らせを共有したり、既存の情報を確認したりできます。",
+  "courseInvitationShare": "このクラスで共有する",
+  "courseInvitationSkip": "追加するものはありません",
+  "courseSessionManage": "授業回の管理",
+  "courseSessionRegister": "授業回を登録",
+  "courseSessionEdit": "授業回を変更",
+  "courseSessionHint": "教務時間割の固定の授業回IDと北京時間（YYYY-MM-DD HH:mm）を入力してください。連続する時限は1回の授業として登録します。日時変更や取り消しにより、以前の招待は無効になります。",
+  "courseSessionKey": "正式な授業回ID",
+  "courseSessionStart": "開始 (Asia/Shanghai)",
+  "courseSessionEnd": "終了 (Asia/Shanghai)",
+  "courseSessionLocation": "場所",
+  "courseSessionCancelled": "この授業回を取り消す",
+  "courseSessionReason": "登録または変更の理由",
+  "courseSessionTimeInvalid": "有効な時間を入力してください。終了は開始の後に行われ、継続時間は 12 時間を超えてはなりません",
+  "courseSessionReloadRequired": "他の管理者がこの授業回を変更した可能性があります。再度編集する前に更新してください。",
+  "courseInvitationReview": "既存の情報を確認する",
+  "courseInvitationSessionInformation": "このクラスに関する情報",
+  "courseInvitationSetting": "授業後の招待状",
+  "courseInvitationSettingHint": "すべての検証済みクラスに適用されます。招待カードを非表示にするにはオフにします",
+  "courseMasterReview": "公式時刻表ソースを確認する",
+  "courseMasterUnsupported": "この学校にはサーバー側の公式時間割ソースがありません。授業回を手動で登録し続けます。",
+  "courseMasterUnmappedTerm": "この授業の学期は、公式の学期コード (3/12/16) にマッピングされていません。授業回を自動的にリンクすることはできません。",
+  "courseMasterUnavailable": "今期の公開された公式時間割のスナップショットはありません。",
+  "courseMasterNoMatch": "この授業クラス ID と正確に一致する公開スケジュール行はありません。",
+  "courseMasterCandidates": "学校、学期、授業クラスIDが一致する公開済みの時間割です。内容を確認してから、日付を持つ授業回を生成してください。",
+  "courseMasterRevision": "ソースのリビジョン",
+  "courseMasterScheduleRow": "週/曜日/期間/場所",
+  "courseMasterCourseConflict": "科目カタログIDが一致しません。そのまま取り込むことはできません",
+  "courseMasterCourseUnverified": "科目カタログ識別子がありません。インポートする前に両方の識別子を確認してください。",
+  "courseMasterSourceCatalog": "ソースカタログ識別子",
+  "courseMasterRegisteredCatalog": "登録されたカタログ識別子",
+  "courseMasterFirstOccurrence": "初回授業の日時（Asia/Shanghai）と総回数",
+  "courseMasterCalendarUnavailable": "学年暦や授業週から授業日を算出できません。手動で確認してください。",
+  "courseMasterImport": "公開済みの授業回を取り込む",
+  "courseMasterImportWarning": "このソース リビジョンに対してすべてのクラスを調整します。新しいクラスでは授業後の招待状が作成され、再スケジュールされたクラスは更新され、ソースから削除されたクラスはキャンセルされます。授業クラスとコースのアイデンティティを確認します。",
+  "courseMasterImportResult": "インポート: {created} 作成、{updated} 更新、{cancelled} キャンセル、{unchanged} 変更なし",
+  "@courseMasterImportResult": {
+    "placeholders": {
+      "created": {
+        "type": "int"
+      },
+      "updated": {
+        "type": "int"
+      },
+      "cancelled": {
+        "type": "int"
+      },
+      "unchanged": {
+        "type": "int"
+      }
+    }
+  },
+  "courseInvitationClassSetting": "このクラスへの授業後の招待状",
+  "courseInvitationClassSettingHint": "この授業クラスのみに影響します",
+  "courseInvitationClassGlobalOff": "アカウント全体の招待はオフになっています。この設定は、オンの場合に有効になります。",
+  "courseInvitationPushSetting": "クラスへの招待のためのデバイスプッシュ",
+  "courseInvitationPushHint": "コースのプッシュ同意とシステム通知が必要です。 1日あたり多くても2つまで",
+  "courseInvitationPushSystemOff": "デバイス通知はオフになっています。プッシュを受信できるようにする",
+  "courseInvitationQuietStart": "静かな時間が始まります",
+  "courseInvitationQuietEnd": "静かな時間が終わる",
+  "courseInvitationQuietInvalid": "開始時間と終了時間は異なっていなければなりません",
+  "courseInvitationQuietHours": "静かな時間帯 ({timezone}): {start}–{end}",
+  "@courseInvitationQuietHours": {
+    "placeholders": {
+      "timezone": {
+        "type": "String"
+      },
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "courseReportExpired": "古いグループまたは連絡先の詳細",
+  "courseSpaceEvidenceRetentionHint": "証拠は権限を持つ参加者と審査担当者のみ閲覧できます。未提出のアップロードは30日後に削除されます。提出済みの証拠は審査・異議申し立ての間、および案件終了後少なくとも90日間保持されます。"
 }

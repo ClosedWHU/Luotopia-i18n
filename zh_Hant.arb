@@ -9644,14 +9644,14 @@
   "homeSpecialCourseInstructor": "授課老師",
   "homeSpecialCourseNotes": "備註",
   "homeSpecialCourseNone": "無",
-  "csEbanTitle": "CS易辦",
+  "csEbanTitle": "CS易办",
   "csEbanCollegeSection": "武漢大學計算機學院相關",
-  "csEbanAccountTitle": "CS易辦帳號密碼登記",
-  "csEbanAccountHint": "登記本科生 CS易辦帳號密碼，僅儲存在本機。儲存不會登入，開啟查詢時會自動登入。",
-  "csEbanScopeRequired": "請先綁定武漢大學帳號，再登記 CS易辦帳號密碼。",
-  "csEbanAccountRequired": "請先登記 CS易辦帳號密碼，再查詢記錄。",
-  "csEbanAuthFailed": "登入未成功，請檢查本科生 CS易辦帳號密碼後重試。",
-  "csEbanNetworkError": "暫時無法連線 CS易辦，請稍後重試。",
+  "csEbanAccountTitle": "CS易办帳號密碼登記",
+  "csEbanAccountHint": "登記本科生 CS易办帳號密碼，僅儲存在本機。儲存不會登入，開啟查詢時會自動登入。",
+  "csEbanScopeRequired": "請先綁定武漢大學帳號，再登記 CS易办帳號密碼。",
+  "csEbanAccountRequired": "請先登記 CS易办帳號密碼，再查詢記錄。",
+  "csEbanAuthFailed": "登入未成功，請檢查本科生 CS易办帳號密碼後重試。",
+  "csEbanNetworkError": "暫時無法連線 CS易办，請稍後重試。",
   "csEbanPageChanged": "無法讀取頁面，服務可能正在維護或頁面格式已變更。",
   "csEbanStorageError": "無法讀取或儲存帳號密碼，請重試。",
   "csEbanSaved": "帳號密碼已儲存在本機，尚未驗證。",
@@ -9669,7 +9669,7 @@
   "csEbanReset": "清除日期篩選",
   "csEbanInvalidRange": "開始日期不能晚於結束日期。",
   "csEbanRefresh": "重新整理記錄",
-  "csEbanServerTotal": "總積分和等級由 CS易辦提供，可能包含明細之外的計分項目。",
+  "csEbanServerTotal": "總積分和等級由 CS易办提供，可能包含明細之外的計分項目。",
   "csEbanTotal": "總積分",
   "csEbanGrade": "評價等級",
   "csEbanCategory": "類別",
@@ -9845,5 +9845,394 @@
     }
   },
   "courseCaseNoticeRestricted": "Your class sharing write access was temporarily restricted",
-  "courseCaseNoticeRestrictionLifted": "Your class sharing write restriction was lifted"
+  "courseCaseNoticeRestrictionLifted": "Your class sharing write restriction was lifted",
+  "diningSubmissionCancelError": "撤銷失敗，請刷新投稿狀態後重試",
+  "diningMySubmissions": "我的投稿",
+  "diningRefreshSubmissions": "刷新投稿",
+  "diningKarmaLedger": "查看論壇 Karma 流水",
+  "diningSubmissionLoadRetry": "投稿加載失敗，點擊重試",
+  "diningNoSubmissions": "暫無投稿",
+  "diningCancelSubmission": "撤銷投稿",
+  "diningReviewNote": "審核備註：{note}",
+  "@diningReviewNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "diningContributionKind": "{kind, select, create_spot {新增店鋪} update_spot {糾正店鋪} create_building {新增樓棟} update_building {糾正樓棟} create_floor {新增樓層} update_floor {糾正樓層} create_menu_group {新增菜單分組} update_menu_group {糾正菜單分組} create_menu_item {新增菜品} update_menu_item {糾正菜品} business_hours {營業時間} schedule_exceptions {營業例外} floor_plan {室內地圖} other {投稿}}",
+  "@diningContributionKind": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "diningReviewState": "{status, select, pending {待審核} approved {已採納} rejected {未採納} cancelled {已撤銷} revoked {已撤銷採納} other {未知審核狀態}}",
+  "@diningReviewState": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "diningRewardState": "{reward, select, pending_review {待審核} pending {獎勵待結算} awarded {已發放：{amount} Karma} reversed {獎勵已撤回} not_eligible {不符合獎勵條件} daily_cap {達到每日獎勵上限} other {獎勵待結算}}",
+  "@diningRewardState": {
+    "placeholders": {
+      "reward": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "courseSpaceTitle": "課程共享",
+  "courseSpaceSearch": "查找教學班",
+  "courseSpaceMine": "我的課程",
+  "courseSpaceAll": "全部課程",
+  "courseSpaceEmpty": "暫無匹配的課程空間。",
+  "courseSpaceJoin": "加入本教學班",
+  "courseSpaceLeave": "退出本教學班",
+  "courseSpaceLeaveHint": "退出後停止接收課後邀請和共享更新，個人副本會保留。",
+  "courseSpaceJoined": "已加入 · 選課未認證",
+  "courseSpaceVerified": "本學期選課已認證",
+  "courseSpaceArchived": "已歸檔 · 只讀",
+  "courseSpaceInformation": "共享信息",
+  "courseHomeHasUpdates": "有新的課程信息",
+  "courseSpaceAllTypes": "全部類型",
+  "courseSpaceSessionFilter": "上課課次",
+  "courseSpaceAllSessions": "全部課次",
+  "courseSpaceCancelledOccurrence": "已取消",
+  "courseSpaceEvents": "課程日程",
+  "courseSpaceMembership": "成員與認證",
+  "courseSpaceAdd": "共享信息",
+  "courseSpaceNoInformation": "暫無共享信息。",
+  "courseSpaceNoEvents": "此時間範圍內暫無課程日程。",
+  "courseSpacePending": "待核驗",
+  "courseSpacePendingChange": "有待核驗修改",
+  "courseSpaceConsensus": "同學共識",
+  "courseSpaceTAVerified": "助教已核驗",
+  "courseSpaceAdminVerified": "管理員已核驗",
+  "courseSpaceDisputed": "存在爭議 · 待複覈",
+  "courseSpaceAssignment": "課程作業",
+  "courseSpaceAssessment": "考核要求",
+  "courseSpaceAnnouncement": "課程通知",
+  "courseSpaceGroup": "課程群聊",
+  "courseSpaceContact": "教師通訊方式",
+  "courseSpaceUnknown": "暫不支持的信息類型",
+  "courseSpaceTitleField": "標題",
+  "courseSpaceBodyField": "要求或說明",
+  "courseSpaceDue": "截止時間",
+  "courseSpaceTimeUnknown": "時間待定",
+  "courseSpaceChooseTime": "選擇日期和時間",
+  "courseSpaceClearTime": "暫不填寫時間",
+  "courseSpaceSubmission": "提交方式",
+  "courseSpaceAssessmentMethod": "考核方式",
+  "courseSpaceScope": "考核範圍",
+  "courseSpaceWeight": "考核佔比（%）",
+  "courseSpaceLink": "公開來源鏈接",
+  "courseSpacePlatform": "群聊平臺",
+  "courseSpaceJoinMethod": "加入方式",
+  "courseSpaceValue": "群號、鏈接或聯繫方式",
+  "courseSpaceContactName": "聯繫人稱謂",
+  "courseSpaceChannel": "通訊渠道",
+  "courseSpaceVisibility": "可見範圍",
+  "courseSpacePublic": "公開",
+  "courseSpaceMembers": "已加入成員",
+  "courseSpaceVerifiedMembers": "本班認證成員",
+  "courseSpaceProtectedHint": "群聊和教師通訊方式僅本班認證成員可見。",
+  "courseSpaceSubmit": "提交核驗",
+  "courseSpaceRevise": "提出修改",
+  "courseSpaceConfirm": "確認此版本",
+  "courseSpaceIncorrect": "此版本有誤",
+  "courseSpaceRemoveVote": "撤銷我的投票",
+  "courseSpaceVerify": "核驗併發布",
+  "courseSpaceReject": "駁回此提案",
+  "courseSpaceReason": "理由或依據說明",
+  "courseSpaceHistory": "修訂歷史",
+  "courseSpaceAccepted": "當前有效版本",
+  "courseSpaceProposed": "候選版本",
+  "courseSpaceWithdrawn": "已撤回",
+  "courseSpaceCancelled": "已取消",
+  "courseSpaceFollow": "加入日程並跟隨更新",
+  "courseSpaceSnapshot": "保存個人副本",
+  "courseSpaceSaved": "已保存",
+  "courseSpaceSubscription": "課程訂閱",
+  "courseSpaceEnableSubscription": "訂閱已核驗的課程日程",
+  "courseSpaceRolesOnly": "僅助教或管理員核驗",
+  "courseSpaceAllowConsensus": "同時接收低風險的同學共識",
+  "courseSpaceReminderMinutes": "提前提醒分鐘數",
+  "courseSpaceApply": "申請身份認證",
+  "courseSpaceEnrollment": "認證本學期選課",
+  "courseSpaceTA": "助教",
+  "courseSpaceRepresentative": "班幹",
+  "courseSpaceApplicationHint": "申請需由管理員審核，權限僅適用於本教學班和本學期。",
+  "courseSpaceApplicationApproved": "審核通過",
+  "courseSpaceApplicationRejected": "已駁回",
+  "courseSpaceApplicationCancelled": "申請已取消",
+  "courseSpaceCancelApplication": "取消申請",
+  "courseSpaceApplications": "我的申請",
+  "courseSpaceReviewApplications": "審核身份申請",
+  "courseSpaceApprove": "批准",
+  "courseSpaceExpiry": "有效期至",
+  "courseGroupExpired": "群聊信息已過期，請覈實後加入或報告失效",
+  "courseSpaceRequired": "請填寫必填內容。",
+  "courseSpaceConflict": "信息已更新。草稿已保留，請查看最新版本後再提交。",
+  "courseSpaceTerm": "學年 / 學期",
+  "courseSpaceOpen": "打開課程共享空間",
+  "courseSpaceLoading": "正在加載課程信息",
+  "courseSpaceReadOnly": "當前可查看信息，暫無編輯權限。",
+  "courseSpaceNoApplications": "暫無身份申請。",
+  "courseSpaceStart": "開始時間",
+  "courseSpaceEnd": "結束時間",
+  "courseSpaceTimezone": "時區",
+  "courseSpaceLocation": "地點",
+  "courseSpaceSource": "來源",
+  "courseSpaceOfficeHours": "答疑時間",
+  "courseSpaceScheduleChange": "停調課通知",
+  "courseSpaceDiscardDraft": "放棄當前草稿？",
+  "courseSpaceDiscardHint": "尚未提交的修改將丟失。",
+  "courseSpaceCompare": "對比修改",
+  "courseSpaceRebaseHint": "請逐項核對差異，確認保留草稿並使用最新版本作為基礎。此操作尚不會提交。",
+  "courseSpaceLatestVersion": "最新版本",
+  "courseSpaceYourDraft": "你的草稿",
+  "courseSpaceRebase": "保留草稿並更新基礎版本",
+  "courseSpaceInvalidValue": "請輸入有效值。",
+  "courseSpaceDateOnly": "僅日期，具體時間待定",
+  "courseSpaceInvalidTime": "請檢查時區和起止時間；夏令時切換時部分當地時刻不存在。",
+  "courseSpaceSubscriptionHint": "訂閱會同步課程時間節點，完成狀態、備註和單條提醒覆蓋仍由你管理。退訂後暫停後續來源更新。",
+  "courseSpaceRemindersHint": "用逗號分隔提前分鐘數，最多 5 項，範圍 0–43200；留空表示關閉提醒。",
+  "courseSpaceReloadSettings": "放棄修改並加載最新設置",
+  "courseSpaceFollowHint": "跟隨更新：核驗後的時間變更更新同一條已保存事件。",
+  "courseSpaceSnapshotHint": "私人副本：課程後續變更不會覆蓋你的副本。",
+  "courseSpaceDetach": "脫離課程更新",
+  "courseSpaceDetachHint": "此事件將成為私人副本，後續課程變更和整班訂閱不會覆蓋它。尚未保存的個人設置會保留在表單中。",
+  "courseSpaceSyncQueued": "同步已排隊",
+  "courseSpaceSyncFailed": "課程時間節點同步失敗",
+  "courseSpaceSynced": "來源已同步",
+  "courseSpaceSyncPaused": "來源更新已暫停",
+  "courseSpaceAccessRevoked": "課程訪問權限已過期或被撤銷",
+  "courseSpaceCalendarSettings": "課程日程設置",
+  "courseSpaceCompleted": "已完成",
+  "courseSpaceHidden": "隱藏此事件",
+  "courseSpacePersonalNote": "私人備註",
+  "courseSpaceOverrideReminders": "覆蓋訂閱提醒設置",
+  "courseSpaceRetrySync": "重試來源同步",
+  "courseSpaceHideFromAgendaMessage": "從你的日程隱藏此事件。共享課程信息會保留，可在事件個人設置中恢復顯示。",
+  "courseSpaceReminderBody": "你關注的課程事項即將到期或開始，打開應用查看最新詳情。",
+  "courseSpaceReminderScheduleFailed": "未能在此設備安排課程提醒，請重試。",
+  "courseSpaceEvidence": "認證證據",
+  "courseSpaceNoEvidence": "沒有可查看的證據。",
+  "courseCaseNotices": "課程審核結果",
+  "courseCaseNoticesEmpty": "暫無審核結果。",
+  "courseNoticeInbox": "課程動態與審核結果",
+  "courseNoticeInboxEmpty": "暫無課程動態。",
+  "courseEventNoticeChanged": "你關注的課程時間節點有變更",
+  "courseEventNoticeCancelled": "你關注的課程事項已取消",
+  "courseSyncFailureNotice": "課程時間節點同步遇到問題，請查看當前狀態。",
+  "courseCaseNoticeRoleApproved": "你的課程身份申請已通過",
+  "courseCaseNoticeRoleRejected": "你的課程身份申請未通過",
+  "courseCaseNoticeRevisionAccepted": "你的課程信息修改已通過",
+  "courseCaseNoticeRevisionRejected": "你的課程信息修改未通過",
+  "courseCaseNoticeReportDismissed": "你的課程信息舉報已駁回",
+  "courseCaseNoticeReportWithdrawn": "被舉報的課程信息已撤回",
+  "courseCaseNoticeAuthorWithdrawn": "你的課程信息經審核已撤回",
+  "courseCaseNoticeAppealUpheld": "你的課程申訴複覈維持原決定",
+  "courseCaseNoticeAppealReopened": "你的課程申訴需要重新處理",
+  "courseSpaceAddEvidence": "添加證據（最多 10 個文件）",
+  "courseSpaceRemoveEvidence": "移除證據",
+  "courseSpaceDownloadEvidence": "下載證據",
+  "courseSpaceEvidenceTooLarge": "每個證據文件不得超過 5 MB。",
+  "courseSpaceLinkTitle": "教學班關聯",
+  "courseSpaceLinkMissingCourse": "原課程已不存在，請返回課表重新選擇。",
+  "courseSpaceLinkLogin": "登錄後關聯教學班",
+  "courseSpaceLinkConfirm": "確認這個教學班",
+  "courseSpaceLinkConfirmationHint": "請核對學年、學期和教學班編號。課程同名不代表同班；此關聯僅用於導航，不授予選課認證或管理權限。",
+  "courseSpaceLinkUnlink": "解除關聯",
+  "courseSpaceLinkUnlinkHint": "只解除本課程的導航關聯，不會退出教學班或刪除課程共享內容。",
+  "courseSpaceLinkChanged": "課程上下文或教學班狀態已變化，請重新確認。",
+  "courseSpaceLinkReload": "讀取最新關聯",
+  "courseSpaceLinkMore": "更多教學班",
+  "courseForumLinksTitle": "關聯討論",
+  "courseForumReferencesTitle": "引用的課程信息",
+  "courseForumReferencedVersion": "此討論引用第 {number} 版課程信息。",
+  "@courseForumReferencedVersion": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "courseForumReferenceUnavailable": "引用的課程信息修訂版本不可訪問。",
+  "courseForumLinksAdd": "關聯論壇帖子",
+  "courseForumLinksPost": "帖子鏈接或 ID",
+  "courseForumLinksRevision": "信息修訂版本",
+  "courseForumLinksVersion": "第 {number} 版",
+  "@courseForumLinksVersion": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "courseForumLinksLegacyVersion": "舊關聯未記錄版本",
+  "courseForumLinksDiscussion": "討論",
+  "courseForumLinksSource": "信息來源",
+  "courseForumLinksUnavailable": "原討論已不可用",
+  "courseForumLinksRemove": "解除關聯",
+  "courseForumLinksRetry": "重試加載關聯討論",
+  "courseClassroomTitle": "課堂",
+  "courseClassroomClass": "本教學班",
+  "courseClassroomHead": "同一課頭",
+  "courseClassroomHeadUnavailable": "本教學班尚未關聯課頭。",
+  "courseClassroomCompose": "在本教學班發帖",
+  "courseClassroomComposeHead": "在同一課頭髮帖",
+  "courseClassroomHeadPost": "課頭討論",
+  "courseClassroomArchivedHead": "此課頭已歸檔，歷史討論僅供閱讀。",
+  "courseDiscussionReadOnly": "此課程討論已歸檔，僅供閱讀。",
+  "courseClassroomEmpty": "此範圍暫無可訪問的討論。",
+  "courseClassroomScopeHint": "教學班帖子按來源班級授權；課頭討論僅對當前課頭的已認證同學開放。",
+  "courseClassroomSource": "來源教學班：{id}",
+  "@courseClassroomSource": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "courseClassroomComposeSource": "發帖來源：{id}",
+  "@courseClassroomComposeSource": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "courseClassroomComposeHeadSource": "發帖課頭：{id}",
+  "@courseClassroomComposeHeadSource": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "courseHeadManage": "課頭管理",
+  "courseHeadCreate": "登記課頭",
+  "courseHeadOfferingKey": "規範課頭標識",
+  "courseHeadTeam": "教學團隊標識",
+  "courseHeadUnlink": "解除本班關聯",
+  "courseHeadAssociate": "關聯",
+  "courseHeadReload": "讀取最新狀態",
+  "courseHeadMissingCourse": "本教學班缺少課程目錄標識，請先補齊登記數據再關聯課頭。",
+  "courseHeadPermissionHint": "關聯教學班不會共享成員資格、角色或核驗票數。每次變更須填寫理由。",
+  "courseHeadMetadataEdit": "編輯教學班登記數據",
+  "courseHeadCourseUid": "課程目錄標識",
+  "courseHeadMetadataHint": "學校、學期和教學班身份保持不變。修正為不同的課程目錄標識前，請先解除不匹配的課頭關聯。",
+  "courseAccessManage": "管理教學班權限",
+  "courseAccessRevokeMember": "撤銷成員資格",
+  "courseAccessRevokeRole": "撤銷角色權限",
+  "courseAccessRevoke": "確認撤銷",
+  "courseAccessRevocationHint": "撤權立即影響課程受限內容。請填寫理由，每次變更後刷新列表。",
+  "courseRolloutTitle": "開放此教學班",
+  "courseRolloutHint": "僅開放的教學班會出現在同學目錄並生成課後邀請。關閉後，同學不再看到該班的課程信息和討論。",
+  "courseRolloutConfirm": "請填寫調整教學班開放狀態的理由，提交後立即生效。",
+  "courseClassRegister": "登記教學班",
+  "courseClassSchool": "學校標識",
+  "courseClassYear": "學年",
+  "courseClassSemester": "學期",
+  "courseClassKey": "教務教學班標識",
+  "courseClassEndDate": "學期結束日期",
+  "courseClassRegisterHint": "請填寫教務教學班和課程目錄標識。結束日期按北京時間計算。登記不會認證學生，也不會自動關聯課頭。",
+  "courseHeadEdit": "編輯課頭",
+  "courseHeadArchive": "歸檔課頭",
+  "courseHeadStatus": "課頭狀態",
+  "courseHeadEditHint": "學校、學期、教務課頭標識和課程目錄標識保持不變。",
+  "courseHeadArchiveHint": "歸檔“{title}”？教學班關聯保留供審計，但同課頭討論停止聚合，需顯式重新關聯教學班。",
+  "@courseHeadArchiveHint": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "courseInvitationTitle": "課後共享邀請",
+  "courseInvitationHint": "這節課結束了。歡迎分享作業、考核要求或課堂通知；已有內容也可打開核對。",
+  "courseInvitationShare": "分享本節課",
+  "courseInvitationSkip": "暫無可補充",
+  "courseSessionManage": "課次管理",
+  "courseSessionRegister": "登記課次",
+  "courseSessionEdit": "調整課次",
+  "courseSessionHint": "按教務課表填寫穩定課次標識及北京時間（YYYY-MM-DD HH:mm）。連續教學單元請只登記一次；改期或取消會使舊邀請失效。",
+  "courseSessionKey": "教務課次標識",
+  "courseSessionStart": "開始時間（北京時間）",
+  "courseSessionEnd": "結束時間（北京時間）",
+  "courseSessionLocation": "上課地點",
+  "courseSessionCancelled": "取消本課次",
+  "courseSessionReason": "登記或變更理由",
+  "courseSessionTimeInvalid": "請輸入有效時間，結束須晚於開始且課次不超過 12 小時",
+  "courseSessionReloadRequired": "課次可能已由其他管理員調整。請刷新後再操作。",
+  "courseInvitationReview": "核對已有信息",
+  "courseInvitationSessionInformation": "本節課的信息",
+  "courseInvitationSetting": "接收課後共享邀請",
+  "courseInvitationSettingHint": "適用於所有已認證教學班；關閉後不顯示新的邀請卡",
+  "courseMasterReview": "核對教務總課表來源",
+  "courseMasterUnsupported": "該學校尚未接入服務端教務總課表，請繼續人工登記課次。",
+  "courseMasterUnmappedTerm": "本教學班學期尚未映射到教務編碼（3／12／16），不能自動關聯課次。",
+  "courseMasterUnavailable": "該學期尚無已發佈的教務總課表快照。",
+  "courseMasterNoMatch": "已發佈總課表中沒有相同教學班標識的排課行。",
+  "courseMasterCandidates": "以下為同學校、學期、教學班標識的已發佈排課行；核對後才能生成實際課次。",
+  "courseMasterRevision": "來源版本",
+  "courseMasterScheduleRow": "周次／星期／節次／地點",
+  "courseMasterCourseConflict": "課程目錄標識不一致，禁止直接導入",
+  "courseMasterCourseUnverified": "課程目錄標識缺失，導入前請核對雙方標識。",
+  "courseMasterSourceCatalog": "來源課程目錄標識",
+  "courseMasterRegisteredCatalog": "已登記課程目錄標識",
+  "courseMasterFirstOccurrence": "學校歷計算的首次課次（北京時間）及總次數",
+  "courseMasterCalendarUnavailable": "學校歷或排課周次無法展開，請人工核對",
+  "courseMasterImport": "導入已發佈課次",
+  "courseMasterImportWarning": "將按此來源版本全量對賬。新增課次會生成課後邀請；改期課次會更新；來源中消失的舊課次會取消。請覈實教學班和課程標識。",
+  "courseMasterImportResult": "導入結果：新增 {created}，更新 {updated}，取消 {cancelled}，未變化 {unchanged}",
+  "@courseMasterImportResult": {
+    "placeholders": {
+      "created": {
+        "type": "int"
+      },
+      "updated": {
+        "type": "int"
+      },
+      "cancelled": {
+        "type": "int"
+      },
+      "unchanged": {
+        "type": "int"
+      }
+    }
+  },
+  "courseInvitationClassSetting": "接收本教學班課後邀請",
+  "courseInvitationClassSettingHint": "只調整本教學班，不影響其他課程",
+  "courseInvitationClassGlobalOff": "賬號總開關已關閉；開啓總開關後此設置纔會生效",
+  "courseInvitationPushSetting": "設備課後邀請推送",
+  "courseInvitationPushHint": "需同意課程推送並允許系統通知；每天最多兩次",
+  "courseInvitationPushSystemOff": "設備通知總開關已關閉；開啓後才能收到推送",
+  "courseInvitationQuietStart": "靜默開始時間",
+  "courseInvitationQuietEnd": "靜默結束時間",
+  "courseInvitationQuietInvalid": "開始與結束時間不能相同",
+  "courseInvitationQuietHours": "靜默時段（{timezone}）：{start}—{end}",
+  "@courseInvitationQuietHours": {
+    "placeholders": {
+      "timezone": {
+        "type": "String"
+      },
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "courseReportExpired": "群聊或聯繫方式已失效",
+  "courseSpaceEvidenceRetentionHint": "證據僅限有權參與者及審核人員查看。未提交的上傳文件 30 天后清理；已提交證據在審核或申訴期間保留，結案後至少保留 90 天。"
 }
