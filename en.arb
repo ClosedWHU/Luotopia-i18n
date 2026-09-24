@@ -7400,5 +7400,70 @@
   },
   "adminTaskCenterPhaseAwaitingAuth": "Awaiting re-authorization",
   "onboardingPermissionBatteryOptimizationTitle": "Ignore Battery Optimizations",
-  "onboardingPermissionBatteryOptimizationDescription": "Allow the app to run in the background without restrictions to ensure class reminders and notifications are delivered on time."
+  "onboardingPermissionBatteryOptimizationDescription": "Allow the app to run in the background without restrictions to ensure class reminders and notifications are delivered on time.",
+  "settingsOtherAccountsSharedEbikeSectionTitle": "Shared e-bikes",
+  "settingsOtherAccountsSharedEbikeCaption": "Independent of the campus account; switching WHU accounts does not affect them",
+  "settingsOtherAccountsZhiyinTitle": "Zhiyin (Little Green)",
+  "settingsOtherAccountsMangoTitle": "Mango (Little Yellow)",
+  "settingsOtherAccountsCheckNow": "Check now",
+  "settingsOtherAccountsNotBound": "Not linked",
+  "accountHealthActive": "OK",
+  "accountHealthRenewing": "Renewing",
+  "accountHealthDegraded": "Retry later",
+  "accountHealthNeedsAttention": "Needs attention",
+  "accountHealthExpired": "Expired",
+  "accountAttentionBannerTitle": "Accounts needing attention",
+  "accountAttentionResolveAction": "Handle",
+  "accountAttentionExpiresAt": "Expires {time}",
+  "@accountAttentionExpiresAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "accountAttentionLastRenewedAt": "Last renewed {time}",
+  "@accountAttentionLastRenewedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "ebikeAccountHealthTitle": "Account status",
+  "ebikeAccountAccessOnlyExpiryHint": "This session cannot renew itself; re-import it when it expires",
+  "ebikeAccountReloginAction": "Sign in again",
+  "ebikeAccountReimportAction": "Re-import",
+  "whuProfileSyncSectionTitle": "Profile sync",
+  "whuProfileSyncStatusIdle": "Not synced",
+  "whuProfileSyncStatusPending": "Pending",
+  "whuProfileSyncStatusRunning": "Syncing",
+  "whuProfileSyncStatusComplete": "Complete",
+  "whuProfileSyncStatusPartial": "Partial",
+  "whuProfileSyncStatusFailed": "Failed",
+  "whuProfileSourceOutcomeSucceeded": "Succeeded",
+  "whuProfileSourceOutcomeFailed": "Failed",
+  "whuProfileSourceOutcomeSkipped": "Skipped",
+  "whuProfileSourceOutcomeNotAttempted": "Not attempted",
+  "whuProfileSyncUpdatedAt": "Last updated {time}",
+  "@whuProfileSyncUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "whuProfileSyncResyncAction": "Re-sync",
+  "whuProfileSyncFieldPlaceholder": "Syncing",
+  "whuProfileSyncPreferredSourceTitle": "Preferred profile source",
+  "whuProfileSyncPreferredAuto": "Automatic",
+  "whuProfileSyncRestoreAutoAction": "Restore automatic",
+  "whuLoginMethodAdvancedTitle": "Advanced",
+  "whuLoginMethodAdvancedCaption": "Usually unnecessary — background sync merges every source anyway",
+  "accountAttentionKindCaptcha": "Slider captcha",
+  "accountAttentionKindCode": "Verification code",
+  "accountAttentionKindReLogin": "Sign-in required",
+  "accountAttentionKindReImport": "Re-import required",
+  "accountAttentionKindReAuthorize": "Re-authorization required",
+  "accountAttentionKindExpiring": "Expiring soon"
 }
