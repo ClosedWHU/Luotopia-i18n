@@ -6424,6 +6424,17 @@
   "chaoxingUniqueIdInvalid": "请输入恰好 32 位十六进制字符（0-9、a-f）。",
   "chaoxingUniqueIdUpdated": "设备标识已更新。",
   "chaoxingUniqueIdUpdateFailed": "无法更新设备标识。",
+  "chaoxingRegisterDevice": "注册认证设备",
+  "chaoxingRegisterDeviceHint": "以官方客户端身份登录。新设备需先通过验证。",
+  "chaoxingDeviceVerifyTitle": "验证此设备",
+  "chaoxingDeviceVerifyPrompt": "请依次点击：{chars}",
+  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "chaoxingDeviceVerifyWrong": "不正确，请换一张重试。",
+  "chaoxingDeviceVerifySmsTitle": "输入短信验证码",
+  "chaoxingDeviceVerifySmsHint": "已发送至 {phone}",
+  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "chaoxingDeviceVerifyImageCode": "图片验证码",
+  "chaoxingDeviceVerifyPasswordReset": "服务器要求先重置密码才能注册此设备。请在官方 App 中修改后重试。",
   "@chaoxingOperationFailed": {
     "placeholders": {
       "error": {

@@ -7328,6 +7328,29 @@
   "chaoxingUniqueIdInvalid": "Enter exactly 32 hexadecimal characters (0-9, a-f).",
   "chaoxingUniqueIdUpdated": "Device ID updated.",
   "chaoxingUniqueIdUpdateFailed": "Could not update the device ID.",
+  "chaoxingRegisterDevice": "Register this device",
+  "chaoxingRegisterDeviceHint": "Sign in as the official app. A new device must pass a verification first.",
+  "chaoxingDeviceVerifyTitle": "Verify this device",
+  "chaoxingDeviceVerifyPrompt": "Tap the characters in order: {chars}",
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingDeviceVerifyWrong": "Incorrect. Try the new image.",
+  "chaoxingDeviceVerifySmsTitle": "Enter the SMS code",
+  "chaoxingDeviceVerifySmsHint": "Sent to {phone}",
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingDeviceVerifyImageCode": "Image code",
+  "chaoxingDeviceVerifyPasswordReset": "The server requires a password reset before this device can be registered. Change it in the official app and try again.",
   "globalTimetableContributionSubmitted": "Contribution submitted — it is being processed in the background",
   "globalTimetableImportDismiss": "Dismiss",
   "adminTaskCenterTitle": "Task Center",
