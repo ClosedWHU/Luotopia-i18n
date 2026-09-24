@@ -7485,5 +7485,90 @@
   "csEbanPoints": "Points",
   "csEbanIssuer": "Issued by",
   "csEbanRecordedAt": "Recorded on",
-  "csEbanRecords": "Details"
+  "csEbanRecords": "Details",
+  "xijiTitle": "Xiji Platform",
+  "xijiAccountSettings": "Xiji account credentials",
+  "xijiFacultySection": "WHU School of Computer Science",
+  "xijiCasDefault": "Not configured; use university CAS",
+  "xijiAccountAction": "Account settings",
+  "xijiReminderAction": "Reminder settings",
+  "xijiRefresh": "Refresh",
+  "xijiNoCourses": "No courses. Refresh or check your login.",
+  "xijiNotSynced": "Not synced yet",
+  "xijiCourse": "Course",
+  "xijiCourseInfo": "Course information",
+  "xijiAssignments": "Assignments",
+  "xijiExams": "Exams",
+  "xijiCourseUnavailable": "Course unavailable",
+  "xijiNoDescription": "No course description",
+  "xijiNoTasks": "No tasks",
+  "xijiUnknownTime": "Time unknown",
+  "xijiCompleted": "Completed",
+  "xijiHistorical": "Historical",
+  "xijiExpired": "Closed",
+  "xijiNotStarted": "Not started",
+  "xijiOpen": "Open",
+  "xijiReminderTitle": "Xiji reminders",
+  "xijiReminderHelp": "Reminders use the latest successful sync. New or changed tasks need an online refresh. Sign in again if your session expires.",
+  "xijiAssignmentToggle": "Assignment deadline reminders",
+  "xijiAssignmentLead": "Assignment advance notice",
+  "xijiExamToggle": "Exam start reminders",
+  "xijiExamLead": "Exam advance notice",
+  "xijiOneHour": "1 hour",
+  "xijiSixHours": "6 hours",
+  "xijiOneDay": "1 day",
+  "xijiFifteenMinutes": "15 minutes",
+  "xijiThirtyMinutes": "30 minutes",
+  "xijiCasRestored": "University CAS login restored",
+  "xijiCredentialsSaved": "Account credentials saved",
+  "xijiSaveFailed": "Could not save. Check your account and password, then retry.",
+  "xijiAccountHelp": "Optional: use university CAS by default. A configured platform account may require an image CAPTCHA when signing in again.",
+  "xijiBindAccount": "Link a WHU account before saving platform credentials.",
+  "xijiUsername": "Xiji username",
+  "xijiPassword": "Xiji password",
+  "xijiSaveAccount": "Save credentials",
+  "xijiClearAccount": "Clear credentials and use university CAS",
+  "xijiLoginAction": "Sign in and complete CAPTCHA",
+  "xijiLoginTitle": "Sign in to Xiji",
+  "xijiLoginFailed": "Could not verify the login session. Please retry.",
+  "xijiSessionExpired": "Your session expired. Sign in again.",
+  "xijiSyncFailed": "Sync failed; showing saved data",
+  "xijiNotificationFailed": "Could not update reminders. Check notification permissions and retry.",
+  "xijiAssignmentNotification": "Xiji assignment due soon",
+  "xijiExamNotification": "Xiji exam starts soon",
+  "xijiUnknownExamTime": "Some exam times could not be read. Check the original website.",
+  "xijiOpenWebsite": "Open original website",
+  "xijiRetry": "Retry",
+  "xijiUpdatedAt": "Updated {time}",
+  "@xijiUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiStartsAt": "Starts: {time}",
+  "@xijiStartsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiEndsAt": "Due: {time}",
+  "@xijiEndsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiConfiguredAccount": "Configured account: {account}",
+  "@xijiConfiguredAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  }
 }

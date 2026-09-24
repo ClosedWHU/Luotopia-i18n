@@ -9679,5 +9679,90 @@
   "csEbanPoints": "積分",
   "csEbanIssuer": "落款單位",
   "csEbanRecordedAt": "登錄時間",
-  "csEbanRecords": "明細記錄"
+  "csEbanRecords": "明細記錄",
+  "xijiTitle": "希冀平台",
+  "xijiAccountSettings": "希冀平台帳號密碼配置",
+  "xijiFacultySection": "武漢大學計算機學院相關",
+  "xijiCasDefault": "未配置，使用學校 CAS",
+  "xijiAccountAction": "帳號配置",
+  "xijiReminderAction": "提醒設定",
+  "xijiRefresh": "重新整理",
+  "xijiNoCourses": "暫無課程，請重新整理或檢查登入狀態",
+  "xijiNotSynced": "尚未同步",
+  "xijiCourse": "課程",
+  "xijiCourseInfo": "課程信息",
+  "xijiAssignments": "作業",
+  "xijiExams": "考試",
+  "xijiCourseUnavailable": "課程暫不可用",
+  "xijiNoDescription": "暫無課程介紹",
+  "xijiNoTasks": "暫無任務",
+  "xijiUnknownTime": "時間未知",
+  "xijiCompleted": "已完成",
+  "xijiHistorical": "歷史記錄",
+  "xijiExpired": "已截止",
+  "xijiNotStarted": "未開始",
+  "xijiOpen": "未截止",
+  "xijiReminderTitle": "希冀平台提醒",
+  "xijiReminderHelp": "提醒依據最近一次成功同步的資料。新發佈或變更的任務需要連網同步；工作階段失效时請重新登入。",
+  "xijiAssignmentToggle": "作業截止提醒",
+  "xijiAssignmentLead": "作業提前提醒",
+  "xijiExamToggle": "考試開始提醒",
+  "xijiExamLead": "考試提前提醒",
+  "xijiOneHour": "1 小時",
+  "xijiSixHours": "6 小時",
+  "xijiOneDay": "1 天",
+  "xijiFifteenMinutes": "15 分鐘",
+  "xijiThirtyMinutes": "30 分鐘",
+  "xijiCasRestored": "已恢復學校 CAS 登入",
+  "xijiCredentialsSaved": "帳號配置已保存",
+  "xijiSaveFailed": "保存失敗，請檢查帳號密碼并重試",
+  "xijiAccountHelp": "可不配置，預設使用學校 CAS。配置平台帳號后，重新登入可能需要輸入圖片驗證碼。",
+  "xijiBindAccount": "請先綁定武漢大學帳號，再保存平台帳號配置。",
+  "xijiUsername": "希冀平台帳號",
+  "xijiPassword": "希冀平台密碼",
+  "xijiSaveAccount": "保存帳號配置",
+  "xijiClearAccount": "清除配置，使用學校 CAS",
+  "xijiLoginAction": "登入并驗證驗證碼",
+  "xijiLoginTitle": "希冀平台登入",
+  "xijiLoginFailed": "登入工作階段驗證失敗，請重試",
+  "xijiSessionExpired": "登入已失效，請重新登入",
+  "xijiSyncFailed": "同步失敗，顯示上次資料",
+  "xijiNotificationFailed": "系統提醒更新失敗，請檢查通知權限后重試",
+  "xijiAssignmentNotification": "希冀平台作業即將截止",
+  "xijiExamNotification": "希冀平台考試即將開始",
+  "xijiUnknownExamTime": "部分考試時間无法識別，請在原站確認",
+  "xijiOpenWebsite": "在原站開啟",
+  "xijiRetry": "重試",
+  "xijiUpdatedAt": "更新於 {time}",
+  "@xijiUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiStartsAt": "開始：{time}",
+  "@xijiStartsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiEndsAt": "截止：{time}",
+  "@xijiEndsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiConfiguredAccount": "已配置帳號：{account}",
+  "@xijiConfiguredAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  }
 }

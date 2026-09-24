@@ -6553,5 +6553,90 @@
   "csEbanPoints": "积分",
   "csEbanIssuer": "落款单位",
   "csEbanRecordedAt": "录入时间",
-  "csEbanRecords": "明细记录"
+  "csEbanRecords": "明细记录",
+  "xijiTitle": "希冀平台",
+  "xijiAccountSettings": "希冀平台账号密码配置",
+  "xijiFacultySection": "武汉大学计算机学院相关",
+  "xijiCasDefault": "未配置，使用学校 CAS",
+  "xijiAccountAction": "账号配置",
+  "xijiReminderAction": "提醒设置",
+  "xijiRefresh": "刷新",
+  "xijiNoCourses": "暂无课程，请刷新或检查登录状态",
+  "xijiNotSynced": "尚未同步",
+  "xijiCourse": "课程",
+  "xijiCourseInfo": "课程信息",
+  "xijiAssignments": "作业",
+  "xijiExams": "考试",
+  "xijiCourseUnavailable": "课程暂不可用",
+  "xijiNoDescription": "暂无课程介绍",
+  "xijiNoTasks": "暂无任务",
+  "xijiUnknownTime": "时间未知",
+  "xijiCompleted": "已完成",
+  "xijiHistorical": "历史记录",
+  "xijiExpired": "已截止",
+  "xijiNotStarted": "未开始",
+  "xijiOpen": "未截止",
+  "xijiReminderTitle": "希冀平台提醒",
+  "xijiReminderHelp": "提醒依据最近一次成功同步的数据。新发布或变更的任务需要联网同步；会话失效时请重新登录。",
+  "xijiAssignmentToggle": "作业截止提醒",
+  "xijiAssignmentLead": "作业提前提醒",
+  "xijiExamToggle": "考试开始提醒",
+  "xijiExamLead": "考试提前提醒",
+  "xijiOneHour": "1 小时",
+  "xijiSixHours": "6 小时",
+  "xijiOneDay": "1 天",
+  "xijiFifteenMinutes": "15 分钟",
+  "xijiThirtyMinutes": "30 分钟",
+  "xijiCasRestored": "已恢复学校 CAS 登录",
+  "xijiCredentialsSaved": "账号配置已保存",
+  "xijiSaveFailed": "保存失败，请检查账号密码并重试",
+  "xijiAccountHelp": "可不配置，默认使用学校 CAS。配置平台账号后，重新登录可能需要输入图片验证码。",
+  "xijiBindAccount": "请先绑定武汉大学账号，再保存平台账号配置。",
+  "xijiUsername": "希冀平台账号",
+  "xijiPassword": "希冀平台密码",
+  "xijiSaveAccount": "保存账号配置",
+  "xijiClearAccount": "清除配置，使用学校 CAS",
+  "xijiLoginAction": "登录并验证验证码",
+  "xijiLoginTitle": "希冀平台登录",
+  "xijiLoginFailed": "登录会话验证失败，请重试",
+  "xijiSessionExpired": "登录已失效，请重新登录",
+  "xijiSyncFailed": "同步失败，显示上次数据",
+  "xijiNotificationFailed": "系统提醒更新失败，请检查通知权限后重试",
+  "xijiAssignmentNotification": "希冀平台作业即将截止",
+  "xijiExamNotification": "希冀平台考试即将开始",
+  "xijiUnknownExamTime": "部分考试时间无法识别，请在原站确认",
+  "xijiOpenWebsite": "在原站打开",
+  "xijiRetry": "重试",
+  "xijiUpdatedAt": "更新于 {time}",
+  "@xijiUpdatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiStartsAt": "开始：{time}",
+  "@xijiStartsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiEndsAt": "截止：{time}",
+  "@xijiEndsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "xijiConfiguredAccount": "已配置账号：{account}",
+  "@xijiConfiguredAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  }
 }
