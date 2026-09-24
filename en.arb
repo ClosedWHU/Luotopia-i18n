@@ -7570,5 +7570,47 @@
         "type": "String"
       }
     }
+  },
+  "diningSubmissionCancelError": "Cancellation failed. Refresh the submission status and try again.",
+  "diningMySubmissions": "My contributions",
+  "diningRefreshSubmissions": "Refresh contributions",
+  "diningKarmaLedger": "View forum Karma history",
+  "diningSubmissionLoadRetry": "Could not load contributions. Tap to retry.",
+  "diningNoSubmissions": "No contributions yet",
+  "diningCancelSubmission": "Cancel contribution",
+  "diningReviewNote": "Review note: {note}",
+  "diningContributionKind": "{kind, select, create_spot {Add venue} update_spot {Correct venue} create_building {Add building} update_building {Correct building} create_floor {Add floor} update_floor {Correct floor} create_menu_group {Add menu group} update_menu_group {Correct menu group} create_menu_item {Add dish} update_menu_item {Correct dish} business_hours {Business hours} schedule_exceptions {Schedule exception} floor_plan {Indoor map} other {Contribution}}",
+  "diningReviewState": "{status, select, pending {Awaiting review} approved {Accepted} rejected {Rejected} cancelled {Cancelled} revoked {Acceptance revoked} other {Unknown review status}}",
+  "diningRewardState": "{reward, select, pending_review {Awaiting review} pending {Reward pending} awarded {Credited: {amount} Karma} reversed {Reward reversed} not_eligible {Not eligible for a reward} daily_cap {Daily reward limit reached} other {Reward pending}}",
+  "@diningReviewNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "@diningContributionKind": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "@diningReviewState": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@diningRewardState": {
+    "placeholders": {
+      "reward": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "int"
+      }
+    }
   }
 }

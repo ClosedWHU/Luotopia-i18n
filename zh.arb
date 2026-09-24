@@ -6638,5 +6638,47 @@
         "type": "String"
       }
     }
+  },
+  "diningSubmissionCancelError": "撤销失败，请刷新投稿状态后重试",
+  "diningMySubmissions": "我的投稿",
+  "diningRefreshSubmissions": "刷新投稿",
+  "diningKarmaLedger": "查看论坛 Karma 流水",
+  "diningSubmissionLoadRetry": "投稿加载失败，点击重试",
+  "diningNoSubmissions": "暂无投稿",
+  "diningCancelSubmission": "撤销投稿",
+  "diningReviewNote": "审核备注：{note}",
+  "diningContributionKind": "{kind, select, create_spot {新增店铺} update_spot {纠正店铺} create_building {新增楼栋} update_building {纠正楼栋} create_floor {新增楼层} update_floor {纠正楼层} create_menu_group {新增菜单分组} update_menu_group {纠正菜单分组} create_menu_item {新增菜品} update_menu_item {纠正菜品} business_hours {营业时间} schedule_exceptions {营业例外} floor_plan {室内地图} other {投稿}}",
+  "diningReviewState": "{status, select, pending {待审核} approved {已采纳} rejected {未采纳} cancelled {已撤销} revoked {已撤销采纳} other {未知审核状态}}",
+  "diningRewardState": "{reward, select, pending_review {待审核} pending {奖励待结算} awarded {已发放：{amount} Karma} reversed {奖励已撤回} not_eligible {不符合奖励条件} daily_cap {达到每日奖励上限} other {奖励待结算}}",
+  "@diningReviewNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "@diningContributionKind": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "@diningReviewState": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@diningRewardState": {
+    "placeholders": {
+      "reward": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "int"
+      }
+    }
   }
 }
