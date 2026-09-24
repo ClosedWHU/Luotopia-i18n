@@ -7328,6 +7328,111 @@
   "chaoxingUniqueIdInvalid": "Enter exactly 32 hexadecimal characters (0-9, a-f).",
   "chaoxingUniqueIdUpdated": "Device ID updated.",
   "chaoxingUniqueIdUpdateFailed": "Could not update the device ID.",
+  "chaoxingNotBoundTitle": "Link your Chaoxing account",
+  "chaoxingCoursesTitle": "My courses",
+  "chaoxingCoursesEmpty": "No courses yet",
+  "chaoxingActivitiesEmpty": "No activities yet",
+  "chaoxingActivitiesLoadFailed": "Failed to load activities: {message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "This activity has no openable page",
+  "chaoxingActivityUntitled": "Activity",
+  "chaoxingActivityRunning": "In progress",
+  "chaoxingActivityEnded": "Ended",
+  "chaoxingActivityTabSignIn": "Sign-in",
+  "chaoxingActivityTabTasks": "Exams & homework",
+  "chaoxingActivityTabOther": "Other",
+  "chaoxingSignUseWeb": "Use web version",
+  "chaoxingSignUseWebSubtitle": "Open this sign-in in a web page instead",
+  "chaoxingSignSubmit": "Sign in",
+  "chaoxingSignSubmitting": "Signing in…",
+  "chaoxingSignSuccess": "Signed in",
+  "chaoxingSignAlready": "Already signed in",
+  "chaoxingSignLate": "Signed in, but past the deadline",
+  "chaoxingSignFailed": "Sign-in failed: {message}",
+  "@chaoxingSignFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingSignUnsupported": "This sign-in type isn't supported natively. Use the web version.",
+  "chaoxingSignCodeHint": "Enter the {count}-digit code",
+  "@chaoxingSignCodeHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chaoxingSignCodeInvalid": "That code was not accepted",
+  "chaoxingSignGestureHint": "Draw the gesture on the grid below",
+  "chaoxingSignPhotoPick": "Choose a photo",
+  "chaoxingSignPhotoRequired": "A photo is required",
+  "chaoxingSignLocationRequired": "Location is required for this sign-in",
+  "chaoxingSignLocationLabel": "Location",
+  "chaoxingSignKindPlain": "Plain",
+  "chaoxingSignKindAntiCheat": "Anti-cheat",
+  "chaoxingSignKindPhoto": "Photo",
+  "chaoxingSignKindLocation": "Location",
+  "chaoxingSignKindFace": "Location + face",
+  "chaoxingSignKindQr": "QR code",
+  "chaoxingSignKindQrRotating": "Rotating QR code",
+  "chaoxingSignKindQrLocation": "QR code + location",
+  "chaoxingSignKindCode": "Sign-in code",
+  "chaoxingSignKindGesture": "Gesture",
+  "chaoxingSignKindUnknown": "Unknown",
+  "chaoxingSignScanSubmit": "Scan to sign in",
+  "chaoxingSignScanRotatingHint": "This code refreshes about every 30 seconds — scan and submit promptly",
+  "chaoxingSignQrUnreadable": "Could not read a valid sign-in QR code",
+  "chaoxingSignFaceEnrollHint": "Your first sign-in enrols your face — you'll be asked for a photo",
+  "chaoxingSignFaceEnrolled": "Face enrolled",
+  "chaoxingSignFaceNeedDevice": "Face sign-in needs a Chaoxing login with device registration. Use the web version, or log in again with that option.",
+  "chaoxingSignFaceEnrollFailed": "Face enrolment failed: {message}",
+  "@chaoxingSignFaceEnrollFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingSignLocationUse": "Your current location will be used",
+  "chaoxingScanTitle": "Scan sign-in code",
+  "chaoxingScanHint": "Point the camera at the QR code the teacher displays",
+  "chaoxingScanPermission": "Camera access is needed to scan the code",
+  "chaoxingScanUnsupported": "Scanning is not supported on this platform",
+  "chaoxingScanFromGallery": "Gallery",
+  "chaoxingScanTorch": "Torch",
+  "chaoxingActivitySigned": "Signed in",
+  "chaoxingActivitySignAction": "Sign in",
+  "chaoxingSignRescan": "The QR code expired or is invalid — scan again",
+  "chaoxingSignOutOfRange": "You're outside the teacher's sign-in range",
+  "chaoxingSignFaceRequired": "Face verification can't complete natively — use the web version",
+  "chaoxingSignGestureClear": "Redraw",
+  "chaoxingScanDecodeFailed": "Couldn't read a QR code from that image",
+  "chaoxingScanNoCode": "No QR code found in that image",
+  "chaoxingNoticeLoadFailed": "Failed to load the notice: {message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "Failed to load courses: {message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "Register this device",
   "chaoxingRegisterDeviceHint": "Sign in as the official app. A new device must pass a verification first.",
   "chaoxingDeviceVerifyTitle": "Verify this device",

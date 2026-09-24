@@ -6078,6 +6078,90 @@
   "chaoxingUniqueIdInvalid": "Introduce exactamente 32 caracteres hexadecimales (0-9, a-f).",
   "chaoxingUniqueIdUpdated": "ID de dispositivo actualizado.",
   "chaoxingUniqueIdUpdateFailed": "No se pudo actualizar el ID de dispositivo.",
+  "chaoxingNotBoundTitle": "Vincula tu cuenta de Chaoxing",
+  "chaoxingCoursesTitle": "Mis cursos",
+  "chaoxingCoursesEmpty": "Aún no hay cursos",
+  "chaoxingActivitiesEmpty": "Aún no hay actividades",
+  "chaoxingActivitiesLoadFailed": "Error al cargar las actividades: {message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "Esta actividad no tiene una página que abrir",
+  "chaoxingActivityUntitled": "Actividad",
+  "chaoxingActivityRunning": "En curso",
+  "chaoxingActivityEnded": "Finalizada",
+  "chaoxingActivityTabSignIn": "Asistencia",
+  "chaoxingActivityTabTasks": "Exámenes y tareas",
+  "chaoxingActivityTabOther": "Otros",
+  "chaoxingSignUseWeb": "Usar versión web",
+  "chaoxingSignUseWebSubtitle": "Completar esta asistencia en una página web",
+  "chaoxingSignSubmit": "Registrar asistencia",
+  "chaoxingSignSubmitting": "Registrando…",
+  "chaoxingSignSuccess": "Asistencia registrada",
+  "chaoxingSignAlready": "Ya habías registrado la asistencia",
+  "chaoxingSignLate": "Registrada, pero fuera de plazo",
+  "chaoxingSignFailed": "Error al registrar: {message}",
+  "chaoxingSignUnsupported": "Este tipo de asistencia no está disponible en la app. Usa la versión web.",
+  "chaoxingSignCodeHint": "Introduce el código de {count} dígitos",
+  "chaoxingSignCodeInvalid": "El código no es correcto",
+  "chaoxingSignGestureHint": "Dibuja el gesto en la cuadrícula de abajo",
+  "chaoxingSignPhotoPick": "Elegir foto",
+  "chaoxingSignPhotoRequired": "Se necesita una foto",
+  "chaoxingSignLocationRequired": "Esta asistencia necesita la ubicación",
+  "chaoxingSignLocationLabel": "Ubicación",
+  "chaoxingSignKindPlain": "Normal",
+  "chaoxingSignKindAntiCheat": "Anticopia",
+  "chaoxingSignKindPhoto": "Foto",
+  "chaoxingSignKindLocation": "Ubicación",
+  "chaoxingSignKindFace": "Ubicación + rostro",
+  "chaoxingSignKindQr": "Código QR",
+  "chaoxingSignKindQrRotating": "QR dinámico",
+  "chaoxingSignKindQrLocation": "QR en un lugar",
+  "chaoxingSignKindCode": "Código de asistencia",
+  "chaoxingSignKindGesture": "Gesto",
+  "chaoxingSignKindUnknown": "Desconocido",
+  "chaoxingSignScanSubmit": "Escanear para asistir",
+  "chaoxingSignScanRotatingHint": "Este código se actualiza cada ~30 s; escanea y envía pronto",
+  "chaoxingSignQrUnreadable": "No se pudo leer un código QR de asistencia válido",
+  "chaoxingSignFaceEnrollHint": "En la primera asistencia se registra tu rostro con una foto",
+  "chaoxingSignFaceEnrolled": "Rostro registrado",
+  "chaoxingSignFaceNeedDevice": "La asistencia con rostro requiere iniciar sesión en Chaoxing con registro de dispositivo. Usa la versión web o vuelve a iniciar sesión con esa opción.",
+  "chaoxingSignFaceEnrollFailed": "Error al registrar el rostro: {message}",
+  "chaoxingSignLocationUse": "Se usará tu ubicación actual",
+  "chaoxingScanTitle": "Escanear código de asistencia",
+  "chaoxingScanHint": "Apunta al código QR que muestra el profesor",
+  "chaoxingScanPermission": "Se necesita acceso a la cámara para escanear",
+  "chaoxingScanUnsupported": "El escaneo no está disponible en esta plataforma",
+  "chaoxingScanFromGallery": "Galería",
+  "chaoxingScanTorch": "Linterna",
+  "chaoxingActivitySigned": "Registrado",
+  "chaoxingActivitySignAction": "Registrar",
+  "chaoxingSignRescan": "El código QR caducó o no es válido; escanea de nuevo",
+  "chaoxingSignOutOfRange": "Estás fuera del rango de registro del profesor",
+  "chaoxingSignFaceRequired": "La verificación facial no puede completarse de forma nativa; usa la versión web",
+  "chaoxingSignGestureClear": "Redibujar",
+  "chaoxingScanDecodeFailed": "No se pudo leer un código QR de esa imagen",
+  "chaoxingScanNoCode": "No se encontró ningún código QR en la imagen",
+  "chaoxingNoticeLoadFailed": "Error al cargar el aviso: {message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "Error al cargar los cursos: {message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "Registrar este dispositivo",
   "chaoxingRegisterDeviceHint": "Inicia sesión como la app oficial. Un dispositivo nuevo debe verificarse primero.",
   "chaoxingDeviceVerifyTitle": "Verificar este dispositivo",

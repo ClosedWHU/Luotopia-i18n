@@ -6099,6 +6099,90 @@
   "chaoxingUniqueIdInvalid": "32자리 16진수(0-9, a-f)를 입력하세요.",
   "chaoxingUniqueIdUpdated": "기기 ID가 업데이트되었습니다.",
   "chaoxingUniqueIdUpdateFailed": "기기 ID를 업데이트할 수 없습니다.",
+  "chaoxingNotBoundTitle": "차오싱 계정 연동",
+  "chaoxingCoursesTitle": "내 강의",
+  "chaoxingCoursesEmpty": "아직 강의가 없습니다",
+  "chaoxingActivitiesEmpty": "아직 활동이 없습니다",
+  "chaoxingActivitiesLoadFailed": "활동을 불러오지 못했습니다: {message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "이 활동에는 열 수 있는 페이지가 없습니다",
+  "chaoxingActivityUntitled": "활동",
+  "chaoxingActivityRunning": "진행 중",
+  "chaoxingActivityEnded": "종료됨",
+  "chaoxingActivityTabSignIn": "출석",
+  "chaoxingActivityTabTasks": "시험·과제",
+  "chaoxingActivityTabOther": "기타",
+  "chaoxingSignUseWeb": "웹 버전 사용",
+  "chaoxingSignUseWebSubtitle": "이 출석을 웹 페이지에서 진행",
+  "chaoxingSignSubmit": "출석",
+  "chaoxingSignSubmitting": "출석 중…",
+  "chaoxingSignSuccess": "출석했습니다",
+  "chaoxingSignAlready": "이미 출석했습니다",
+  "chaoxingSignLate": "출석했지만 마감 시간이 지났습니다",
+  "chaoxingSignFailed": "출석 실패: {message}",
+  "chaoxingSignUnsupported": "이 출석 유형은 앱에서 지원하지 않습니다. 웹 버전을 사용하세요.",
+  "chaoxingSignCodeHint": "{count}자리 코드를 입력",
+  "chaoxingSignCodeInvalid": "코드가 올바르지 않습니다",
+  "chaoxingSignGestureHint": "아래 격자에 제스처를 그리세요",
+  "chaoxingSignPhotoPick": "사진 선택",
+  "chaoxingSignPhotoRequired": "사진이 필요합니다",
+  "chaoxingSignLocationRequired": "이 출석에는 위치가 필요합니다",
+  "chaoxingSignLocationLabel": "위치",
+  "chaoxingSignKindPlain": "일반",
+  "chaoxingSignKindAntiCheat": "부정행위 방지",
+  "chaoxingSignKindPhoto": "사진",
+  "chaoxingSignKindLocation": "위치",
+  "chaoxingSignKindFace": "위치+얼굴",
+  "chaoxingSignKindQr": "QR 코드",
+  "chaoxingSignKindQrRotating": "갱신 QR 코드",
+  "chaoxingSignKindQrLocation": "지정 장소 QR 코드",
+  "chaoxingSignKindCode": "출석 코드",
+  "chaoxingSignKindGesture": "제스처",
+  "chaoxingSignKindUnknown": "알 수 없음",
+  "chaoxingSignScanSubmit": "스캔하여 출석",
+  "chaoxingSignScanRotatingHint": "이 코드는 약 30초마다 갱신됩니다. 빨리 스캔하고 제출하세요",
+  "chaoxingSignQrUnreadable": "유효한 출석 QR 코드를 읽지 못했습니다",
+  "chaoxingSignFaceEnrollHint": "첫 출석 시 얼굴 사진을 등록합니다",
+  "chaoxingSignFaceEnrolled": "얼굴 등록됨",
+  "chaoxingSignFaceNeedDevice": "얼굴 출석은 기기 등록으로 학습통 로그인해야 합니다. 웹 버전을 쓰거나 해당 옵션으로 다시 로그인하세요.",
+  "chaoxingSignFaceEnrollFailed": "얼굴 등록 실패: {message}",
+  "chaoxingSignLocationUse": "현재 위치를 사용합니다",
+  "chaoxingScanTitle": "출석 코드 스캔",
+  "chaoxingScanHint": "교사가 표시한 QR 코드에 카메라를 향하세요",
+  "chaoxingScanPermission": "스캔하려면 카메라 권한이 필요합니다",
+  "chaoxingScanUnsupported": "이 플랫폼은 스캔을 지원하지 않습니다",
+  "chaoxingScanFromGallery": "갤러리",
+  "chaoxingScanTorch": "손전등",
+  "chaoxingActivitySigned": "출석 완료",
+  "chaoxingActivitySignAction": "출석 체크",
+  "chaoxingSignRescan": "QR 코드가 만료되었거나 유효하지 않습니다. 다시 스캔하세요",
+  "chaoxingSignOutOfRange": "교수가 지정한 출석 범위 밖에 있습니다",
+  "chaoxingSignFaceRequired": "얼굴 인증은 네이티브로 완료할 수 없습니다. 웹 버전을 사용하세요",
+  "chaoxingSignGestureClear": "다시 그리기",
+  "chaoxingScanDecodeFailed": "해당 이미지에서 QR 코드를 읽을 수 없습니다",
+  "chaoxingScanNoCode": "이미지에서 QR 코드를 찾지 못했습니다",
+  "chaoxingNoticeLoadFailed": "공지를 불러오지 못했습니다: {message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "강의를 불러오지 못했습니다: {message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "이 기기 등록",
   "chaoxingRegisterDeviceHint": "공식 앱으로 로그인합니다. 새 기기는 먼저 인증해야 합니다.",
   "chaoxingDeviceVerifyTitle": "기기 인증",

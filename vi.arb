@@ -6082,6 +6082,90 @@
   "chaoxingUniqueIdInvalid": "Nhập đúng 32 ký tự thập lục phân (0-9, a-f).",
   "chaoxingUniqueIdUpdated": "Đã cập nhật ID thiết bị.",
   "chaoxingUniqueIdUpdateFailed": "Không thể cập nhật ID thiết bị.",
+  "chaoxingNotBoundTitle": "Liên kết tài khoản Chaoxing",
+  "chaoxingCoursesTitle": "Khóa học của tôi",
+  "chaoxingCoursesEmpty": "Chưa có khóa học",
+  "chaoxingActivitiesEmpty": "Chưa có hoạt động",
+  "chaoxingActivitiesLoadFailed": "Không tải được hoạt động: {message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "Hoạt động này không có trang để mở",
+  "chaoxingActivityUntitled": "Hoạt động",
+  "chaoxingActivityRunning": "Đang diễn ra",
+  "chaoxingActivityEnded": "Đã kết thúc",
+  "chaoxingActivityTabSignIn": "Điểm danh",
+  "chaoxingActivityTabTasks": "Thi và bài tập",
+  "chaoxingActivityTabOther": "Khác",
+  "chaoxingSignUseWeb": "Dùng bản web",
+  "chaoxingSignUseWebSubtitle": "Điểm danh bằng trang web",
+  "chaoxingSignSubmit": "Điểm danh",
+  "chaoxingSignSubmitting": "Đang điểm danh…",
+  "chaoxingSignSuccess": "Đã điểm danh",
+  "chaoxingSignAlready": "Bạn đã điểm danh rồi",
+  "chaoxingSignLate": "Đã điểm danh, nhưng quá hạn",
+  "chaoxingSignFailed": "Điểm danh thất bại: {message}",
+  "chaoxingSignUnsupported": "Loại điểm danh này chưa hỗ trợ trong ứng dụng. Hãy dùng bản web.",
+  "chaoxingSignCodeHint": "Nhập mã {count} chữ số",
+  "chaoxingSignCodeInvalid": "Mã không đúng",
+  "chaoxingSignGestureHint": "Vẽ cử chỉ trên lưới bên dưới",
+  "chaoxingSignPhotoPick": "Chọn ảnh",
+  "chaoxingSignPhotoRequired": "Cần một ảnh",
+  "chaoxingSignLocationRequired": "Lần điểm danh này cần vị trí",
+  "chaoxingSignLocationLabel": "Vị trí",
+  "chaoxingSignKindPlain": "Thường",
+  "chaoxingSignKindAntiCheat": "Chống gian lận",
+  "chaoxingSignKindPhoto": "Ảnh",
+  "chaoxingSignKindLocation": "Vị trí",
+  "chaoxingSignKindFace": "Vị trí + khuôn mặt",
+  "chaoxingSignKindQr": "Mã QR",
+  "chaoxingSignKindQrRotating": "Mã QR động",
+  "chaoxingSignKindQrLocation": "Mã QR tại địa điểm",
+  "chaoxingSignKindCode": "Mã điểm danh",
+  "chaoxingSignKindGesture": "Cử chỉ",
+  "chaoxingSignKindUnknown": "Không rõ",
+  "chaoxingSignScanSubmit": "Quét để điểm danh",
+  "chaoxingSignScanRotatingHint": "Mã này làm mới khoảng 30 giây một lần — hãy quét và gửi nhanh",
+  "chaoxingSignQrUnreadable": "Không đọc được mã QR điểm danh hợp lệ",
+  "chaoxingSignFaceEnrollHint": "Lần điểm danh đầu sẽ đăng ký khuôn mặt bằng ảnh",
+  "chaoxingSignFaceEnrolled": "Đã đăng ký khuôn mặt",
+  "chaoxingSignFaceNeedDevice": "Điểm danh khuôn mặt cần đăng nhập Chaoxing có đăng ký thiết bị. Hãy dùng bản web hoặc đăng nhập lại với tùy chọn đó.",
+  "chaoxingSignFaceEnrollFailed": "Đăng ký khuôn mặt thất bại: {message}",
+  "chaoxingSignLocationUse": "Sẽ dùng vị trí hiện tại của bạn",
+  "chaoxingScanTitle": "Quét mã điểm danh",
+  "chaoxingScanHint": "Hướng camera vào mã QR giáo viên hiển thị",
+  "chaoxingScanPermission": "Cần quyền camera để quét",
+  "chaoxingScanUnsupported": "Nền tảng này không hỗ trợ quét",
+  "chaoxingScanFromGallery": "Thư viện",
+  "chaoxingScanTorch": "Đèn pin",
+  "chaoxingActivitySigned": "Đã điểm danh",
+  "chaoxingActivitySignAction": "Điểm danh",
+  "chaoxingSignRescan": "Mã QR đã hết hạn hoặc không hợp lệ — hãy quét lại",
+  "chaoxingSignOutOfRange": "Bạn ở ngoài phạm vi điểm danh do giáo viên chỉ định",
+  "chaoxingSignFaceRequired": "Xác minh khuôn mặt không thể hoàn tất trong ứng dụng gốc — hãy dùng bản web",
+  "chaoxingSignGestureClear": "Vẽ lại",
+  "chaoxingScanDecodeFailed": "Không thể đọc mã QR từ hình ảnh đó",
+  "chaoxingScanNoCode": "Không tìm thấy mã QR trong ảnh",
+  "chaoxingNoticeLoadFailed": "Không tải được thông báo: {message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "Không tải được khóa học: {message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "Đăng ký thiết bị này",
   "chaoxingRegisterDeviceHint": "Đăng nhập với tư cách ứng dụng chính thức. Thiết bị mới phải xác minh trước.",
   "chaoxingDeviceVerifyTitle": "Xác minh thiết bị này",

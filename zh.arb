@@ -6424,6 +6424,90 @@
   "chaoxingUniqueIdInvalid": "请输入恰好 32 位十六进制字符（0-9、a-f）。",
   "chaoxingUniqueIdUpdated": "设备标识已更新。",
   "chaoxingUniqueIdUpdateFailed": "无法更新设备标识。",
+  "chaoxingNotBoundTitle": "绑定学习通账号",
+  "chaoxingCoursesTitle": "我的课程",
+  "chaoxingCoursesEmpty": "暂无课程",
+  "chaoxingActivitiesEmpty": "暂无活动",
+  "chaoxingActivitiesLoadFailed": "加载活动失败：{message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "该活动没有可打开的页面",
+  "chaoxingActivityUntitled": "活动",
+  "chaoxingActivityRunning": "进行中",
+  "chaoxingActivityEnded": "已结束",
+  "chaoxingActivityTabSignIn": "签到",
+  "chaoxingActivityTabTasks": "考试和作业",
+  "chaoxingActivityTabOther": "其他",
+  "chaoxingSignUseWeb": "使用网页版",
+  "chaoxingSignUseWebSubtitle": "改用网页完成这次签到",
+  "chaoxingSignSubmit": "签到",
+  "chaoxingSignSubmitting": "正在签到…",
+  "chaoxingSignSuccess": "签到成功",
+  "chaoxingSignAlready": "已经签到过了",
+  "chaoxingSignLate": "已签到，但超过了截止时间",
+  "chaoxingSignFailed": "签到失败：{message}",
+  "chaoxingSignUnsupported": "这种签到暂不支持原生完成，请改用网页版。",
+  "chaoxingSignCodeHint": "输入 {count} 位签到码",
+  "chaoxingSignCodeInvalid": "签到码不正确",
+  "chaoxingSignGestureHint": "在下方九宫格画出手势",
+  "chaoxingSignPhotoPick": "选择照片",
+  "chaoxingSignPhotoRequired": "需要一张照片",
+  "chaoxingSignLocationRequired": "这次签到需要定位",
+  "chaoxingSignLocationLabel": "位置",
+  "chaoxingSignKindPlain": "普通签到",
+  "chaoxingSignKindAntiCheat": "防作弊签到",
+  "chaoxingSignKindPhoto": "拍照签到",
+  "chaoxingSignKindLocation": "位置签到",
+  "chaoxingSignKindFace": "位置+人脸签到",
+  "chaoxingSignKindQr": "二维码签到",
+  "chaoxingSignKindQrRotating": "动态二维码签到",
+  "chaoxingSignKindQrLocation": "指定地点二维码签到",
+  "chaoxingSignKindCode": "签到码签到",
+  "chaoxingSignKindGesture": "手势签到",
+  "chaoxingSignKindUnknown": "未知签到",
+  "chaoxingSignScanSubmit": "扫码签到",
+  "chaoxingSignScanRotatingHint": "该二维码约每 30 秒刷新，请尽快扫描并提交",
+  "chaoxingSignQrUnreadable": "未能识别有效的签到二维码",
+  "chaoxingSignFaceEnrollHint": "首次签到需拍照登记人脸",
+  "chaoxingSignFaceEnrolled": "人脸已登记",
+  "chaoxingSignFaceNeedDevice": "人脸签到需要以“设备注册”方式登录学习通。请改用网页版，或以该选项重新登录。",
+  "chaoxingSignFaceEnrollFailed": "人脸登记失败：{message}",
+  "chaoxingSignLocationUse": "将使用你当前的位置",
+  "chaoxingScanTitle": "扫描签到二维码",
+  "chaoxingScanHint": "对准教师展示的签到二维码",
+  "chaoxingScanPermission": "需要相机权限才能扫码",
+  "chaoxingScanUnsupported": "当前平台不支持扫码",
+  "chaoxingScanFromGallery": "相册",
+  "chaoxingScanTorch": "手电筒",
+  "chaoxingActivitySigned": "已签到",
+  "chaoxingActivitySignAction": "签到",
+  "chaoxingSignRescan": "二维码已失效，请重新扫描",
+  "chaoxingSignOutOfRange": "不在教师指定的签到范围内",
+  "chaoxingSignFaceRequired": "人脸核验无法在原生完成，请使用网页版",
+  "chaoxingSignGestureClear": "重画",
+  "chaoxingScanDecodeFailed": "无法从该图片识别出二维码",
+  "chaoxingScanNoCode": "未在图片中找到二维码",
+  "chaoxingNoticeLoadFailed": "加载通知失败：{message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "加载课程失败：{message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "注册认证设备",
   "chaoxingRegisterDeviceHint": "以官方客户端身份登录。新设备需先通过验证。",
   "chaoxingDeviceVerifyTitle": "验证此设备",

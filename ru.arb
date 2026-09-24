@@ -6068,6 +6068,90 @@
   "chaoxingUniqueIdInvalid": "Введите ровно 32 шестнадцатеричных символа (0-9, a-f).",
   "chaoxingUniqueIdUpdated": "ID устройства обновлён.",
   "chaoxingUniqueIdUpdateFailed": "Не удалось обновить ID устройства.",
+  "chaoxingNotBoundTitle": "Привяжите аккаунт Chaoxing",
+  "chaoxingCoursesTitle": "Мои курсы",
+  "chaoxingCoursesEmpty": "Курсов пока нет",
+  "chaoxingActivitiesEmpty": "Активностей пока нет",
+  "chaoxingActivitiesLoadFailed": "Не удалось загрузить активности: {message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "У этой активности нет открываемой страницы",
+  "chaoxingActivityUntitled": "Активность",
+  "chaoxingActivityRunning": "Идёт",
+  "chaoxingActivityEnded": "Завершено",
+  "chaoxingActivityTabSignIn": "Отметка",
+  "chaoxingActivityTabTasks": "Экзамены и задания",
+  "chaoxingActivityTabOther": "Другое",
+  "chaoxingSignUseWeb": "Веб-версия",
+  "chaoxingSignUseWebSubtitle": "Отметиться через веб-страницу",
+  "chaoxingSignSubmit": "Отметиться",
+  "chaoxingSignSubmitting": "Отмечаем…",
+  "chaoxingSignSuccess": "Отметка принята",
+  "chaoxingSignAlready": "Вы уже отмечались",
+  "chaoxingSignLate": "Отмечено, но срок уже прошёл",
+  "chaoxingSignFailed": "Не удалось отметиться: {message}",
+  "chaoxingSignUnsupported": "Этот тип отметки в приложении не поддерживается. Используйте веб-версию.",
+  "chaoxingSignCodeHint": "Введите {count}-значный код",
+  "chaoxingSignCodeInvalid": "Код не принят",
+  "chaoxingSignGestureHint": "Нарисуйте жест на сетке ниже",
+  "chaoxingSignPhotoPick": "Выбрать фото",
+  "chaoxingSignPhotoRequired": "Нужна фотография",
+  "chaoxingSignLocationRequired": "Для этой отметки нужна геолокация",
+  "chaoxingSignLocationLabel": "Место",
+  "chaoxingSignKindPlain": "Обычная",
+  "chaoxingSignKindAntiCheat": "Защита от списывания",
+  "chaoxingSignKindPhoto": "Фото",
+  "chaoxingSignKindLocation": "Место",
+  "chaoxingSignKindFace": "Место + лицо",
+  "chaoxingSignKindQr": "QR-код",
+  "chaoxingSignKindQrRotating": "Обновляемый QR-код",
+  "chaoxingSignKindQrLocation": "QR-код на месте",
+  "chaoxingSignKindCode": "Код отметки",
+  "chaoxingSignKindGesture": "Жест",
+  "chaoxingSignKindUnknown": "Неизвестно",
+  "chaoxingSignScanSubmit": "Сканировать и отметиться",
+  "chaoxingSignScanRotatingHint": "Этот код обновляется примерно каждые 30 с — сканируйте и отправляйте быстрее",
+  "chaoxingSignQrUnreadable": "Не удалось распознать действительный QR-код отметки",
+  "chaoxingSignFaceEnrollHint": "При первой отметке регистрируется ваше лицо по фото",
+  "chaoxingSignFaceEnrolled": "Лицо зарегистрировано",
+  "chaoxingSignFaceNeedDevice": "Для отметки с лицом нужен вход в Chaoxing с регистрацией устройства. Используйте веб-версию или войдите снова с этой опцией.",
+  "chaoxingSignFaceEnrollFailed": "Не удалось зарегистрировать лицо: {message}",
+  "chaoxingSignLocationUse": "Будет использовано ваше текущее местоположение",
+  "chaoxingScanTitle": "Сканировать код отметки",
+  "chaoxingScanHint": "Наведите камеру на QR-код, который показывает преподаватель",
+  "chaoxingScanPermission": "Для сканирования нужен доступ к камере",
+  "chaoxingScanUnsupported": "Сканирование не поддерживается на этой платформе",
+  "chaoxingScanFromGallery": "Галерея",
+  "chaoxingScanTorch": "Фонарик",
+  "chaoxingActivitySigned": "Отмечено",
+  "chaoxingActivitySignAction": "Отметиться",
+  "chaoxingSignRescan": "QR-код истёк или недействителен — отсканируйте снова",
+  "chaoxingSignOutOfRange": "Вы вне зоны отметки, указанной преподавателем",
+  "chaoxingSignFaceRequired": "Распознавание лица не может завершиться нативно — используйте веб-версию",
+  "chaoxingSignGestureClear": "Перерисовать",
+  "chaoxingScanDecodeFailed": "Не удалось считать QR-код с этого изображения",
+  "chaoxingScanNoCode": "QR-код в изображении не найден",
+  "chaoxingNoticeLoadFailed": "Не удалось загрузить уведомление: {message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "Не удалось загрузить курсы: {message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "Зарегистрировать устройство",
   "chaoxingRegisterDeviceHint": "Вход от имени официального приложения. Новое устройство нужно сначала подтвердить.",
   "chaoxingDeviceVerifyTitle": "Подтвердить устройство",

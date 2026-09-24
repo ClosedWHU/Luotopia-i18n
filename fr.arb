@@ -6078,6 +6078,90 @@
   "chaoxingUniqueIdInvalid": "Saisissez exactement 32 caractères hexadécimaux (0-9, a-f).",
   "chaoxingUniqueIdUpdated": "ID appareil mis à jour.",
   "chaoxingUniqueIdUpdateFailed": "Impossible de mettre à jour l'ID appareil.",
+  "chaoxingNotBoundTitle": "Associez votre compte Chaoxing",
+  "chaoxingCoursesTitle": "Mes cours",
+  "chaoxingCoursesEmpty": "Aucun cours pour le moment",
+  "chaoxingActivitiesEmpty": "Aucune activité pour le moment",
+  "chaoxingActivitiesLoadFailed": "Échec du chargement des activités : {message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "Cette activité n'a pas de page ouvrable",
+  "chaoxingActivityUntitled": "Activité",
+  "chaoxingActivityRunning": "En cours",
+  "chaoxingActivityEnded": "Terminée",
+  "chaoxingActivityTabSignIn": "Émargement",
+  "chaoxingActivityTabTasks": "Examens et devoirs",
+  "chaoxingActivityTabOther": "Autres",
+  "chaoxingSignUseWeb": "Utiliser la version web",
+  "chaoxingSignUseWebSubtitle": "Faire cet émargement dans une page web",
+  "chaoxingSignSubmit": "Émargement",
+  "chaoxingSignSubmitting": "Émargement en cours…",
+  "chaoxingSignSuccess": "Émargement enregistré",
+  "chaoxingSignAlready": "Déjà émargé",
+  "chaoxingSignLate": "Enregistré, mais après la date limite",
+  "chaoxingSignFailed": "Échec de l'émargement : {message}",
+  "chaoxingSignUnsupported": "Ce type d'émargement n'est pas pris en charge dans l'app. Utilisez la version web.",
+  "chaoxingSignCodeHint": "Saisissez le code à {count} chiffres",
+  "chaoxingSignCodeInvalid": "Ce code n'est pas accepté",
+  "chaoxingSignGestureHint": "Dessinez le geste sur la grille ci-dessous",
+  "chaoxingSignPhotoPick": "Choisir une photo",
+  "chaoxingSignPhotoRequired": "Une photo est requise",
+  "chaoxingSignLocationRequired": "Cet émargement nécessite la localisation",
+  "chaoxingSignLocationLabel": "Lieu",
+  "chaoxingSignKindPlain": "Simple",
+  "chaoxingSignKindAntiCheat": "Anti-triche",
+  "chaoxingSignKindPhoto": "Photo",
+  "chaoxingSignKindLocation": "Lieu",
+  "chaoxingSignKindFace": "Lieu + visage",
+  "chaoxingSignKindQr": "QR code",
+  "chaoxingSignKindQrRotating": "QR code dynamique",
+  "chaoxingSignKindQrLocation": "QR code sur place",
+  "chaoxingSignKindCode": "Code d'émargement",
+  "chaoxingSignKindGesture": "Geste",
+  "chaoxingSignKindUnknown": "Inconnu",
+  "chaoxingSignScanSubmit": "Scanner pour émarger",
+  "chaoxingSignScanRotatingHint": "Ce code change toutes les ~30 s ; scannez et soumettez rapidement",
+  "chaoxingSignQrUnreadable": "Impossible de lire un QR code d'émargement valide",
+  "chaoxingSignFaceEnrollHint": "Le premier émargement enregistre votre visage via une photo",
+  "chaoxingSignFaceEnrolled": "Visage enregistré",
+  "chaoxingSignFaceNeedDevice": "L'émargement par visage nécessite une connexion Chaoxing avec enregistrement de l'appareil. Utilisez la version web ou reconnectez-vous avec cette option.",
+  "chaoxingSignFaceEnrollFailed": "Échec de l'enregistrement du visage : {message}",
+  "chaoxingSignLocationUse": "Votre position actuelle sera utilisée",
+  "chaoxingScanTitle": "Scanner le code d'émargement",
+  "chaoxingScanHint": "Visez le QR code affiché par l'enseignant",
+  "chaoxingScanPermission": "L'accès à la caméra est requis pour scanner",
+  "chaoxingScanUnsupported": "Le scan n'est pas pris en charge sur cette plateforme",
+  "chaoxingScanFromGallery": "Galerie",
+  "chaoxingScanTorch": "Lampe",
+  "chaoxingActivitySigned": "Émargé",
+  "chaoxingActivitySignAction": "Émarger",
+  "chaoxingSignRescan": "Le code QR a expiré ou est invalide — scannez à nouveau",
+  "chaoxingSignOutOfRange": "Vous êtes hors de la zone d'émargement de l'enseignant",
+  "chaoxingSignFaceRequired": "La vérification faciale ne peut pas aboutir nativement — utilisez la version web",
+  "chaoxingSignGestureClear": "Redessiner",
+  "chaoxingScanDecodeFailed": "Impossible de lire un code QR depuis cette image",
+  "chaoxingScanNoCode": "Aucun QR code trouvé dans cette image",
+  "chaoxingNoticeLoadFailed": "Échec du chargement de l'avis : {message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "Échec du chargement des cours : {message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "Enregistrer cet appareil",
   "chaoxingRegisterDeviceHint": "Connexion en tant qu'application officielle. Un nouvel appareil doit d'abord être vérifié.",
   "chaoxingDeviceVerifyTitle": "Vérifier cet appareil",

@@ -6092,6 +6092,90 @@
   "chaoxingUniqueIdInvalid": "32桁の16進文字（0-9、a-f）を入力してください。",
   "chaoxingUniqueIdUpdated": "デバイスIDが更新されました。",
   "chaoxingUniqueIdUpdateFailed": "デバイスIDを更新できませんでした。",
+  "chaoxingNotBoundTitle": "超星学習通アカウントを連携",
+  "chaoxingCoursesTitle": "私のコース",
+  "chaoxingCoursesEmpty": "コースはまだありません",
+  "chaoxingActivitiesEmpty": "アクティビティはまだありません",
+  "chaoxingActivitiesLoadFailed": "アクティビティの読み込みに失敗しました：{message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "このアクティビティに開けるページがありません",
+  "chaoxingActivityUntitled": "アクティビティ",
+  "chaoxingActivityRunning": "進行中",
+  "chaoxingActivityEnded": "終了",
+  "chaoxingActivityTabSignIn": "出席",
+  "chaoxingActivityTabTasks": "試験と課題",
+  "chaoxingActivityTabOther": "その他",
+  "chaoxingSignUseWeb": "ウェブ版を使う",
+  "chaoxingSignUseWebSubtitle": "この出席をウェブページで行う",
+  "chaoxingSignSubmit": "出席",
+  "chaoxingSignSubmitting": "出席しています…",
+  "chaoxingSignSuccess": "出席しました",
+  "chaoxingSignAlready": "すでに出席済みです",
+  "chaoxingSignLate": "出席しましたが、期限を過ぎています",
+  "chaoxingSignFailed": "出席に失敗しました：{message}",
+  "chaoxingSignUnsupported": "この種類の出席はアプリ内では未対応です。ウェブ版を使ってください。",
+  "chaoxingSignCodeHint": "{count}桁のコードを入力",
+  "chaoxingSignCodeInvalid": "コードが正しくありません",
+  "chaoxingSignGestureHint": "下のグリッドにジェスチャーを描いてください",
+  "chaoxingSignPhotoPick": "写真を選ぶ",
+  "chaoxingSignPhotoRequired": "写真が必要です",
+  "chaoxingSignLocationRequired": "この出席には位置情報が必要です",
+  "chaoxingSignLocationLabel": "位置",
+  "chaoxingSignKindPlain": "通常",
+  "chaoxingSignKindAntiCheat": "不正防止",
+  "chaoxingSignKindPhoto": "写真",
+  "chaoxingSignKindLocation": "位置",
+  "chaoxingSignKindFace": "位置＋顔",
+  "chaoxingSignKindQr": "QRコード",
+  "chaoxingSignKindQrRotating": "更新QRコード",
+  "chaoxingSignKindQrLocation": "場所指定QRコード",
+  "chaoxingSignKindCode": "出席コード",
+  "chaoxingSignKindGesture": "ジェスチャー",
+  "chaoxingSignKindUnknown": "不明",
+  "chaoxingSignScanSubmit": "スキャンして出席",
+  "chaoxingSignScanRotatingHint": "このコードは約30秒ごとに更新されます。早めにスキャンして送信してください",
+  "chaoxingSignQrUnreadable": "有効な出席QRコードを読み取れませんでした",
+  "chaoxingSignFaceEnrollHint": "最初の出席で顔写真を登録します",
+  "chaoxingSignFaceEnrolled": "顔を登録済み",
+  "chaoxingSignFaceNeedDevice": "顔出席にはデバイス登録での学習通ログインが必要です。ウェブ版を使うか、そのオプションで再ログインしてください。",
+  "chaoxingSignFaceEnrollFailed": "顔の登録に失敗しました：{message}",
+  "chaoxingSignLocationUse": "現在地を使用します",
+  "chaoxingScanTitle": "出席コードをスキャン",
+  "chaoxingScanHint": "教員が表示するQRコードにカメラを向けてください",
+  "chaoxingScanPermission": "スキャンにはカメラ権限が必要です",
+  "chaoxingScanUnsupported": "このプラットフォームはスキャン非対応です",
+  "chaoxingScanFromGallery": "ギャラリー",
+  "chaoxingScanTorch": "ライト",
+  "chaoxingActivitySigned": "出席登録済み",
+  "chaoxingActivitySignAction": "出席登録",
+  "chaoxingSignRescan": "QRコードが無効または期限切れです。もう一度スキャンしてください",
+  "chaoxingSignOutOfRange": "教師が指定した出席範囲外です",
+  "chaoxingSignFaceRequired": "顔認証はネイティブで完了できません。ウェブ版をご利用ください",
+  "chaoxingSignGestureClear": "描き直す",
+  "chaoxingScanDecodeFailed": "その画像からQRコードを読み取れませんでした",
+  "chaoxingScanNoCode": "画像にQRコードが見つかりません",
+  "chaoxingNoticeLoadFailed": "通知の読み込みに失敗しました：{message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "コースの読み込みに失敗しました：{message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "このデバイスを登録",
   "chaoxingRegisterDeviceHint": "公式アプリとしてログインします。新しいデバイスは先に認証が必要です。",
   "chaoxingDeviceVerifyTitle": "デバイスを認証",

@@ -9538,6 +9538,90 @@
   "chaoxingUniqueIdInvalid": "請輸入恰好 32 位十六進位字元（0-9、a-f）。",
   "chaoxingUniqueIdUpdated": "裝置識別碼已更新。",
   "chaoxingUniqueIdUpdateFailed": "無法更新裝置識別碼。",
+  "chaoxingNotBoundTitle": "綁定學習通帳號",
+  "chaoxingCoursesTitle": "我的課程",
+  "chaoxingCoursesEmpty": "尚無課程",
+  "chaoxingActivitiesEmpty": "尚無活動",
+  "chaoxingActivitiesLoadFailed": "載入活動失敗：{message}",
+  "@chaoxingActivitiesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingActivityNoLink": "該活動沒有可開啟的頁面",
+  "chaoxingActivityUntitled": "活動",
+  "chaoxingActivityRunning": "進行中",
+  "chaoxingActivityEnded": "已結束",
+  "chaoxingActivityTabSignIn": "簽到",
+  "chaoxingActivityTabTasks": "考試和作業",
+  "chaoxingActivityTabOther": "其他",
+  "chaoxingSignUseWeb": "使用網頁版",
+  "chaoxingSignUseWebSubtitle": "改用網頁完成這次簽到",
+  "chaoxingSignSubmit": "簽到",
+  "chaoxingSignSubmitting": "正在簽到…",
+  "chaoxingSignSuccess": "簽到成功",
+  "chaoxingSignAlready": "已經簽到過了",
+  "chaoxingSignLate": "已簽到，但超過了截止時間",
+  "chaoxingSignFailed": "簽到失敗：{message}",
+  "chaoxingSignUnsupported": "這種簽到暫不支援原生完成，請改用網頁版。",
+  "chaoxingSignCodeHint": "輸入 {count} 位簽到碼",
+  "chaoxingSignCodeInvalid": "簽到碼不正確",
+  "chaoxingSignGestureHint": "在下方九宮格畫出手勢",
+  "chaoxingSignPhotoPick": "選擇照片",
+  "chaoxingSignPhotoRequired": "需要一張照片",
+  "chaoxingSignLocationRequired": "這次簽到需要定位",
+  "chaoxingSignLocationLabel": "位置",
+  "chaoxingSignKindPlain": "普通簽到",
+  "chaoxingSignKindAntiCheat": "防作弊簽到",
+  "chaoxingSignKindPhoto": "拍照簽到",
+  "chaoxingSignKindLocation": "位置簽到",
+  "chaoxingSignKindFace": "位置+人臉簽到",
+  "chaoxingSignKindQr": "二維碼簽到",
+  "chaoxingSignKindQrRotating": "動態二維碼簽到",
+  "chaoxingSignKindQrLocation": "指定地點二維碼簽到",
+  "chaoxingSignKindCode": "簽到碼簽到",
+  "chaoxingSignKindGesture": "手勢簽到",
+  "chaoxingSignKindUnknown": "未知簽到",
+  "chaoxingSignScanSubmit": "掃碼簽到",
+  "chaoxingSignScanRotatingHint": "該二維碼約每 30 秒刷新，請盡快掃描並提交",
+  "chaoxingSignQrUnreadable": "未能識別有效的簽到二維碼",
+  "chaoxingSignFaceEnrollHint": "首次簽到需拍照登記人臉",
+  "chaoxingSignFaceEnrolled": "人臉已登記",
+  "chaoxingSignFaceNeedDevice": "人臉簽到需要以「裝置註冊」方式登入學習通。請改用網頁版，或以該選項重新登入。",
+  "chaoxingSignFaceEnrollFailed": "人臉登記失敗：{message}",
+  "chaoxingSignLocationUse": "將使用你目前的位置",
+  "chaoxingScanTitle": "掃描簽到二維碼",
+  "chaoxingScanHint": "對準教師展示的簽到二維碼",
+  "chaoxingScanPermission": "需要相機權限才能掃碼",
+  "chaoxingScanUnsupported": "目前平台不支援掃碼",
+  "chaoxingScanFromGallery": "相簿",
+  "chaoxingScanTorch": "手電筒",
+  "chaoxingActivitySigned": "已簽到",
+  "chaoxingActivitySignAction": "簽到",
+  "chaoxingSignRescan": "二維碼已失效，請重新掃描",
+  "chaoxingSignOutOfRange": "不在教師指定的簽到範圍內",
+  "chaoxingSignFaceRequired": "人臉核驗無法在原生完成，請使用網頁版",
+  "chaoxingSignGestureClear": "重畫",
+  "chaoxingScanDecodeFailed": "無法從該圖片識別出二維碼",
+  "chaoxingScanNoCode": "未在圖片中找到二維碼",
+  "chaoxingNoticeLoadFailed": "載入通知失敗：{message}",
+  "@chaoxingNoticeLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingCoursesLoadFailed": "載入課程失敗：{message}",
+  "@chaoxingCoursesLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingRegisterDevice": "註冊認證裝置",
   "chaoxingRegisterDeviceHint": "以官方客戶端身份登入。新裝置需先通過驗證。",
   "chaoxingDeviceVerifyTitle": "驗證此裝置",
