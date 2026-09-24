@@ -14,19 +14,12 @@
   "appLockScopeWater": "급수 코드",
   "appLockScopeSchoolNet": "캠퍼스 네트워크",
   "appLockScopeAi": "AI 어시스턴트",
-  "authVerificationSetUpPasskey": "아직 Passkey가 없으신가요? 이 기기 등록",
-  "authLoginWithDeviceBiometric": "이 기기의 생체 인식으로 로그인",
-  "authDeviceBiometric": "이 기기의 생체 인식",
-  "authDeviceBiometricDescription": "이 기기의 화면 잠금(지문 또는 얼굴)으로 로그인합니다. 자격 증명은 보안 영역에 저장되며 기기를 벗어나지 않습니다.",
-  "authDeviceBiometricBind": "이 기기 등록",
-  "authDeviceBiometricBound": "이 기기가 등록됨",
-  "authDeviceBiometricUnbind": "등록 해제",
-  "authDeviceBiometricUnbindConfirmTitle": "이 기기 등록을 해제할까요?",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} 은(는) 이 기기에서 생체 인식으로 로그인할 수 없게 됩니다. 이 작업은 되돌릴 수 없습니다.",
-  "authDeviceBiometricSecondFactor": "비밀번호 후 생체 인식 요구",
-  "authDeviceBiometricSecondFactorHint": "비밀번호로 로그인할 때마다 이 기기의 생체 인식을 2단계 요소로 요구합니다.",
-  "authDeviceBiometricBoundSuccess": "이 기기의 생체 인식이 등록됨",
-  "authDeviceBiometricPolicyFailed": "생체 인식 로그인 설정을 변경할 수 없습니다: {error}",
+  "authLoginWithPasskey": "Passkey로 로그인",
+  "authPasskeyPasswordlessAvailable": "비밀번호 없이 로그인 가능",
+  "authPasskeyVerificationOnly": "추가 인증 전용",
+  "authPasskeySecondFactor": "비밀번호 로그인 후 추가 인증 요구",
+  "authPasskeySecondFactorHint": "비밀번호 로그인 후 이메일 코드, 인증 앱 또는 Passkey로 인증합니다.",
+  "authPasskeyPolicyFailed": "추가 인증 설정을 변경할 수 없습니다: {error}",
   "@@locale": "ko",
   "adminUserDetailRegion": "지역",
   "adminUserDetailBio": "소개",
@@ -2980,11 +2973,11 @@
   "scoreTranscriptSaveAs": "다른 이름으로 저장",
   "authSecurityTitle": "보안 및 2단계 인증",
   "authTwoFactorTitle": "2단계 인증 (2FA)",
-  "authTwoFactorEnabled": "사용: 로그인 시 이메일 코드 또는 Passkey가 필요합니다",
-  "authTwoFactorDisabled": "사용 안 함: 로그인 시 비밀번호만 필요합니다",
+  "authTwoFactorEnabled": "사용: 비밀번호 로그인에는 추가 인증이 필요합니다. Passkey는 비밀번호 없이 로그인할 수 있습니다",
+  "authTwoFactorDisabled": "사용 안 함: 아래 설정이 켜져 있으면 비밀번호 로그인에 추가 인증이 필요합니다. Passkey는 비밀번호 없이 로그인할 수 있습니다",
   "authCurrentPassword": "현재 비밀번호",
   "authPasskeys": "Passkey",
-  "authRegisterPasskey": "이 기기에 Passkey 등록",
+  "authRegisterPasskey": "Passkey 등록",
   "authPasskeyRegistered": "Passkey가 등록되었습니다",
   "authNoPasskeys": "등록된 Passkey가 없습니다",
   "authForgotPassword": "비밀번호를 잊으셨나요?",
@@ -3199,8 +3192,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "이 기기",
-  "authPasskeyDeviceName": "기기 이름",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Passkey 이름",
   "authPasskeyRegisterFailed": "Passkey를 등록하지 못했습니다: {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3209,7 +3202,7 @@
       }
     }
   },
-  "authPasskeysDescription": "{count}개 등록됨. Passkey는 기기의 시스템 생체 인증을 사용합니다.",
+  "authPasskeysDescription": "{count}개 등록됨. 검색 가능한 Passkey는 비밀번호 없이 로그인할 때도 사용할 수 있습니다.",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -3217,7 +3210,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "지원되는 기기에서 생체 인증 키를 등록하세요",
+  "authPasskeysSupportedDeviceHint": "지원되는 기기에서 Passkey를 등록하세요",
   "authPasskeyCreatedAt": "생성일: {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

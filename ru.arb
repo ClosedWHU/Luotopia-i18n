@@ -14,19 +14,12 @@
   "appLockScopeWater": "Код воды",
   "appLockScopeSchoolNet": "Кампусная сеть",
   "appLockScopeAi": "ИИ-ассистент",
-  "authVerificationSetUpPasskey": "Ещё нет Passkey? Привяжите это устройство",
-  "authLoginWithDeviceBiometric": "Войти с помощью биометрии этого устройства",
-  "authDeviceBiometric": "Биометрия этого устройства",
-  "authDeviceBiometricDescription": "Используйте блокировку экрана этого устройства (отпечаток или лицо) для входа. Учётные данные хранятся в защищённой области и никогда не покидают устройство.",
-  "authDeviceBiometricBind": "Привязать это устройство",
-  "authDeviceBiometricBound": "Это устройство привязано",
-  "authDeviceBiometricUnbind": "Отвязать",
-  "authDeviceBiometricUnbindConfirmTitle": "Отвязать это устройство?",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} больше не сможет входить с помощью биометрии на этом устройстве. Это действие нельзя отменить.",
-  "authDeviceBiometricSecondFactor": "Требовать биометрию после пароля",
-  "authDeviceBiometricSecondFactorHint": "Запрашивать биометрию этого устройства как второй фактор при каждом входе по паролю.",
-  "authDeviceBiometricBoundSuccess": "Биометрия привязана для этого устройства",
-  "authDeviceBiometricPolicyFailed": "Не удалось изменить настройку биометрического входа: {error}",
+  "authLoginWithPasskey": "Войти с Passkey",
+  "authPasskeyPasswordlessAvailable": "Доступен вход без пароля",
+  "authPasskeyVerificationOnly": "Только для подтверждения",
+  "authPasskeySecondFactor": "Требовать второй шаг после пароля",
+  "authPasskeySecondFactorHint": "После входа по паролю подтвердите вход кодом из почты, приложением-аутентификатором или Passkey.",
+  "authPasskeyPolicyFailed": "Не удалось изменить настройку второго шага: {error}",
   "@@locale": "ru",
   "adminUserDetailRegion": "Регион",
   "adminUserDetailBio": "Описание",
@@ -2741,11 +2734,11 @@
   "scoreTranscriptSaveAs": "Сохранить как",
   "authSecurityTitle": "Безопасность и двухфакторная аутентификация",
   "authTwoFactorTitle": "Двухфакторная аутентификация (2FA)",
-  "authTwoFactorEnabled": "Включена: при входе нужен код из почты или Passkey",
-  "authTwoFactorDisabled": "Выключена: при входе нужен только пароль",
+  "authTwoFactorEnabled": "Включена: после пароля нужен второй шаг; с Passkey можно войти без пароля",
+  "authTwoFactorDisabled": "Выключена: если настройка ниже включена, после пароля всё равно нужен второй шаг; вход с Passkey остаётся без пароля",
   "authCurrentPassword": "Текущий пароль",
   "authPasskeys": "Passkey",
-  "authRegisterPasskey": "Зарегистрировать Passkey на устройстве",
+  "authRegisterPasskey": "Зарегистрировать Passkey",
   "authPasskeyRegistered": "Passkey зарегистрирован",
   "authNoPasskeys": "Нет Passkey",
   "authForgotPassword": "Забыли пароль?",
@@ -2960,8 +2953,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "Это устройство",
-  "authPasskeyDeviceName": "Название устройства",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Название Passkey",
   "authPasskeyRegisterFailed": "Не удалось зарегистрировать Passkey: {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -2970,7 +2963,7 @@
       }
     }
   },
-  "authPasskeysDescription": "Зарегистрировано: {count}. Passkey использует системную биометрическую аутентификацию вашего устройства.",
+  "authPasskeysDescription": "Зарегистрировано: {count}. Обнаруживаемые Passkey также позволяют входить без пароля.",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -2978,7 +2971,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "Зарегистрируйте биометрический ключ на поддерживаемом устройстве",
+  "authPasskeysSupportedDeviceHint": "Зарегистрируйте Passkey на поддерживаемом устройстве",
   "authPasskeyCreatedAt": "Создано: {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

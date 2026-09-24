@@ -14,19 +14,12 @@
   "appLockScopeWater": "取水碼",
   "appLockScopeSchoolNet": "校園網",
   "appLockScopeAi": "AI 助手",
-  "authVerificationSetUpPasskey": "仲未有 Passkey？綁定本機",
-  "authLoginWithDeviceBiometric": "用本機生物識別登入",
-  "authDeviceBiometric": "本機生物識別",
-  "authDeviceBiometricDescription": "用本機嘅螢幕鎖（指紋或者面容）登入。憑證保存喺安全區域，唔會離開裝置。",
-  "authDeviceBiometricBind": "綁定本機",
-  "authDeviceBiometricBound": "本機已綁定",
-  "authDeviceBiometricUnbind": "解綁",
-  "authDeviceBiometricUnbindConfirmTitle": "解綁本機？",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} 將唔可以再喺本機用生物識別登入。呢個操作冇得撤銷。",
-  "authDeviceBiometricSecondFactor": "密碼之後要求生物識別",
-  "authDeviceBiometricSecondFactorHint": "每次用密碼登入嗰陣，要求本機生物識別做第二因素。",
-  "authDeviceBiometricBoundSuccess": "已經綁定本機生物識別",
-  "authDeviceBiometricPolicyFailed": "冇辦法更改生物識別登入設定：{error}",
+  "authLoginWithPasskey": "用 Passkey 登入",
+  "authPasskeyPasswordlessAvailable": "可以免密碼登入",
+  "authPasskeyVerificationOnly": "只用於多一步驗證",
+  "authPasskeySecondFactor": "密碼登入後要求多一步驗證",
+  "authPasskeySecondFactorHint": "用密碼登入之後，可以用電郵驗證碼、驗證器或者 Passkey 完成驗證。",
+  "authPasskeyPolicyFailed": "無法更改多一步驗證設定：{error}",
   "@@locale": "yue_Hant",
   "adminUserDetailRegion": "地區",
   "adminUserDetailBio": "簡介",
@@ -2659,11 +2652,11 @@
   "scoreTranscriptSaveAs": "另存為",
   "authSecurityTitle": "安全同兩步驗證",
   "authTwoFactorTitle": "兩步驗證 (2FA)",
-  "authTwoFactorEnabled": "已開：登入要電郵驗證碼或者 Passkey",
-  "authTwoFactorDisabled": "未開：登入淨係要密碼",
+  "authTwoFactorEnabled": "已開：密碼登入要多一步驗證；Passkey 仍然可以直接免密碼登入",
+  "authTwoFactorDisabled": "未開：如果下面個開關係開咗，密碼登入仍然要多一步驗證；Passkey 可以免密碼登入",
   "authCurrentPassword": "而家密碼",
   "authPasskeys": "Passkey",
-  "authRegisterPasskey": "幫呢部裝置註冊 Passkey",
+  "authRegisterPasskey": "註冊 Passkey",
   "authPasskeyRegistered": "Passkey 註冊成功",
   "authNoPasskeys": "暫時未有 Passkey",
   "authForgotPassword": "唔記得密碼？",
@@ -2870,8 +2863,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "呢部裝置",
-  "authPasskeyDeviceName": "裝置名稱",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Passkey 名稱",
   "authPasskeyRegisterFailed": "註冊 Passkey 失敗：{error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -2880,7 +2873,7 @@
       }
     }
   },
-  "authPasskeysDescription": "已註冊 {count} 個。Passkey 會用你部裝置嘅系統生物識別驗證。",
+  "authPasskeysDescription": "已註冊 {count} 個。可發現嘅 Passkey 仲可以用嚟免密碼登入。",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -2888,7 +2881,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "喺支援嘅裝置註冊生物識別密鑰",
+  "authPasskeysSupportedDeviceHint": "用支援嘅裝置註冊 Passkey",
   "authPasskeyCreatedAt": "建立於 {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

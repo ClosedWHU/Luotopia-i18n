@@ -14,19 +14,12 @@
   "appLockScopeWater": "給水コード",
   "appLockScopeSchoolNet": "キャンパスネットワーク",
   "appLockScopeAi": "AI アシスタント",
-  "authVerificationSetUpPasskey": "Passkey がまだありませんか？このデバイスを登録",
-  "authLoginWithDeviceBiometric": "このデバイスの生体認証でサインイン",
-  "authDeviceBiometric": "このデバイスの生体認証",
-  "authDeviceBiometricDescription": "このデバイスの画面ロック（指紋または顔）でサインインします。認証情報はセキュア領域に保存され、デバイスから出ることはありません。",
-  "authDeviceBiometricBind": "このデバイスを登録",
-  "authDeviceBiometricBound": "このデバイスは登録済み",
-  "authDeviceBiometricUnbind": "登録解除",
-  "authDeviceBiometricUnbindConfirmTitle": "このデバイスの登録を解除しますか？",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} はこのデバイスで生体認証を使ってサインインできなくなります。この操作は取り消せません。",
-  "authDeviceBiometricSecondFactor": "パスワード後に生体認証を要求",
-  "authDeviceBiometricSecondFactorHint": "パスワードでサインインするたびに、このデバイスの生体認証を第二要素として要求します。",
-  "authDeviceBiometricBoundSuccess": "このデバイスの生体認証を登録しました",
-  "authDeviceBiometricPolicyFailed": "生体認証サインイン設定を変更できませんでした：{error}",
+  "authLoginWithPasskey": "Passkey でサインイン",
+  "authPasskeyPasswordlessAvailable": "パスワードなしでサインイン可能",
+  "authPasskeyVerificationOnly": "追加認証のみ",
+  "authPasskeySecondFactor": "パスワード後に二段階認証を要求",
+  "authPasskeySecondFactorHint": "パスワードでサインインした後、メールコード、認証アプリ、または Passkey で認証します。",
+  "authPasskeyPolicyFailed": "二段階認証の設定を変更できませんでした: {error}",
   "@@locale": "ja",
   "adminUserDetailRegion": "地域",
   "adminUserDetailBio": "自己紹介",
@@ -3073,11 +3066,11 @@
   "scoreTranscriptSaveAs": "名前を付けて保存",
   "authSecurityTitle": "セキュリティと二段階認証",
   "authTwoFactorTitle": "二段階認証 (2FA)",
-  "authTwoFactorEnabled": "有効：ログイン時にメールコードまたはPasskeyが必要です",
-  "authTwoFactorDisabled": "無効：ログイン時はパスワードのみ必要です",
+  "authTwoFactorEnabled": "有効：パスワードでのサインインには二段階認証が必要です。Passkey ならパスワードなしでサインインできます",
+  "authTwoFactorDisabled": "無効：下の設定が有効ならパスワードでのサインインには追加認証が必要です。Passkey はパスワードなしで利用できます",
   "authCurrentPassword": "現在のパスワード",
   "authPasskeys": "パスキー",
-  "authRegisterPasskey": "この端末にPasskeyを登録",
+  "authRegisterPasskey": "Passkey を登録",
   "authPasskeyRegistered": "Passkeyを登録しました",
   "authNoPasskeys": "Passkeyはまだありません",
   "authForgotPassword": "パスワードを忘れましたか？",
@@ -3292,8 +3285,8 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "このデバイス",
-  "authPasskeyDeviceName": "デバイス名",
+  "authPasskeyDefaultName": "Passkey",
+  "authPasskeyName": "Passkey の名前",
   "authPasskeyRegisterFailed": "Passkey の登録に失敗しました: {error}",
   "@authPasskeyRegisterFailed": {
     "placeholders": {
@@ -3302,7 +3295,7 @@
       }
     }
   },
-  "authPasskeysDescription": "{count} 件登録済み。Passkey はデバイスのシステム生体認証を使用します。",
+  "authPasskeysDescription": "{count} 件登録済み。検出可能な Passkey はパスワードなしのサインインにも使用できます。",
   "@authPasskeysDescription": {
     "placeholders": {
       "count": {
@@ -3310,7 +3303,7 @@
       }
     }
   },
-  "authPasskeysSupportedDeviceHint": "対応デバイスで生体認証キーを登録",
+  "authPasskeysSupportedDeviceHint": "対応デバイスで Passkey を登録してください",
   "authPasskeyCreatedAt": "作成日: {date}",
   "@authPasskeyCreatedAt": {
     "placeholders": {

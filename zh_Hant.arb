@@ -14,19 +14,12 @@
   "appLockScopeWater": "取水碼",
   "appLockScopeSchoolNet": "校園網",
   "appLockScopeAi": "AI 助手",
-  "authVerificationSetUpPasskey": "還沒有 Passkey？綁定本機",
-  "authLoginWithDeviceBiometric": "使用本機生物識別登入",
-  "authDeviceBiometric": "本機生物識別",
-  "authDeviceBiometricDescription": "使用本機的螢幕鎖定（指紋或面容）登入。憑證保存在安全區域，不會離開裝置。",
-  "authDeviceBiometricBind": "綁定本機",
-  "authDeviceBiometricBound": "本機已綁定",
-  "authDeviceBiometricUnbind": "解綁",
-  "authDeviceBiometricUnbindConfirmTitle": "解綁本機？",
-  "authDeviceBiometricUnbindConfirmMessage": "{name} 將無法再在本機使用生物識別登入。此操作無法復原。",
-  "authDeviceBiometricSecondFactor": "密碼後要求生物識別",
-  "authDeviceBiometricSecondFactorHint": "每次使用密碼登入時，要求本機生物識別作為第二因素。",
-  "authDeviceBiometricBoundSuccess": "已綁定本機生物識別",
-  "authDeviceBiometricPolicyFailed": "無法變更生物識別登入設定：{error}",
+  "authLoginWithPasskey": "使用 Passkey 登入",
+  "authPasskeyPasswordlessAvailable": "支援免密碼登入",
+  "authPasskeyVerificationOnly": "僅用於二次驗證",
+  "authPasskeySecondFactor": "密碼登入後要求二次驗證",
+  "authPasskeySecondFactorHint": "使用密碼登入後，可透過電郵驗證碼、驗證器或 Passkey 完成驗證。",
+  "authPasskeyPolicyFailed": "無法變更二次驗證設定：{error}",
   "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "@@locale": "zh_Hant",
   "emailModeChooserTitle": "選擇信箱使用方式",
@@ -748,7 +741,7 @@
       }
     }
   },
-  "@authPasskeyDefaultDeviceName": {},
+  "@authPasskeyDefaultName": {},
   "@authPasskeyDeleteFailed": {
     "placeholders": {
       "error": {
@@ -756,7 +749,7 @@
       }
     }
   },
-  "@authPasskeyDeviceName": {},
+  "@authPasskeyName": {},
   "@authPasskeyRegisterFailed": {
     "placeholders": {
       "error": {
@@ -5984,14 +5977,14 @@
       }
     }
   },
-  "authPasskeyDefaultDeviceName": "此裝置",
+  "authPasskeyDefaultName": "Passkey",
   "authPasskeyDeleteFailed": "刪除 Passkey 失敗：{error}",
-  "authPasskeyDeviceName": "裝置名稱",
+  "authPasskeyName": "Passkey 名稱",
   "authPasskeyRegisterFailed": "註冊 Passkey 失敗：{error}",
   "authPasskeyRegistered": "Passkey 註冊成功",
   "authPasskeys": "Passkey",
-  "authPasskeysDescription": "已註冊 {count} 個。Passkey 使用裝置的系統生物辨識驗證。",
-  "authPasskeysSupportedDeviceHint": "請在支援的裝置上註冊生物辨識金鑰",
+  "authPasskeysDescription": "已註冊 {count} 個。支援免密碼登入和二次驗證；免密登入需要可發現的 Passkey。",
+  "authPasskeysSupportedDeviceHint": "使用支援的裝置註冊 Passkey",
   "authPasswordChangeConfirm": "變更密碼",
   "authPasswordChangeFailed": "變更密碼失敗：{error}",
   "authPasswordChanged": "密碼已變更，請重新登入。",
@@ -6004,7 +5997,7 @@
   "authRecoveryCodesSavedConfirmation": "我已安全儲存這些復原碼。",
   "authRecoveryCodesTitle": "儲存復原碼",
   "authRegion": "地區",
-  "authRegisterPasskey": "為此裝置註冊 Passkey",
+  "authRegisterPasskey": "註冊 Passkey",
   "authRegisteredDeviceLastSeen": "最近註冊：{time}",
   "authRegisteredDeviceRemove": "移除裝置",
   "authRegisteredDevicesEmpty": "沒有已註冊裝置。",
@@ -6050,8 +6043,8 @@
   "authSessionsTrustUnknown": "無環境檢測資料（該平台不支援檢測，或用戶端版本較舊）",
   "authSessionsUnknownDevice": "未知裝置",
   "authSocialProfile": "社群資料",
-  "authTwoFactorDisabled": "未開啟：登入時只需要密碼",
-  "authTwoFactorEnabled": "已開啟：登入時需要電郵驗證碼或 Passkey",
+  "authTwoFactorDisabled": "未開啟：若下方開關已開啟，密碼登入仍需二次驗證；Passkey 可免密登入",
+  "authTwoFactorEnabled": "已開啟：密碼登入需要二次驗證；Passkey 仍可直接免密登入",
   "authTwoFactorTitle": "兩步驗證 (2FA)",
   "authUsePasskey": "使用 Passkey 驗證",
   "authVerificationEmailPromptTitle": "輸入帳戶電郵",
