@@ -86,8 +86,6 @@
   "schoolNetProviderTelecom": "차이나 텔레콤",
   "schoolNetProviderUnicom": "차이나 유니콤",
   "schoolNetProviderMobile": "차이나 모바일",
-  "settingsDevThemeLabTitle": "테마 실험실",
-  "settingsDevThemeLabSubtitle": "라이트 및 다크 테마에서 핵심 구성요소를 나란히 미리 봅니다.",
   "whuNativeLoginRememberMobile": "휴대전화 번호 기억",
   "whuNativeLoginTitle": "우한대학교 통합 인증",
   "whuNativeLoginHeading": "우한대학교 통합 인증 로그인",
@@ -102,15 +100,6 @@
   "whuNativeLoginSubmit": "로그인",
   "whuNativeLoginStageSigningIn": "통합 인증 로그인 중…",
   "whuNativeLoginStageConfirmingIdentity": "통합 인증 신원 확인 중…",
-  "whuNativeLoginStageFetching": "로그인 성공 — {source} 데이터 가져오는 중…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "로그인 성공 — 완료하는 중…",
   "whuNativeLoginUseWeb": "웹 버전으로 로그인",
   "whuNativeLoginUseWebSubtitle": "네이티브 로그인 오류 시 백업 사용",
   "aiAssistant": "비서",
@@ -294,7 +283,6 @@
   "commonRegistrationTime": "가입 시각",
   "commonUsername": "사용자 이름",
   "courseGridSettings": "과목 그리드 설정",
-  "gradesReviewsScores": "성적",
   "gradesReviewsTitle": "성적과 평가",
   "courseImport": "과목 가져오기",
   "courseImportSemester": "학기",
@@ -1352,7 +1340,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "대학원 과목을 학사력 날짜와 일치시킬 수 없습니다. 선택한 학기가 올바른지 확인하세요.",
   "courseImportGraduateTermsUnrecognized": "대학원 시스템이 반환한 학기를 인식할 수 없습니다.",
   "courseImportStatusFailed": "가져오기 실패: {error}",
   "@courseImportStatusFailed": {
@@ -1454,11 +1441,6 @@
   "aiAccountSwitchConfirm": "다시 보내기",
   "aiAccountSwitchDismiss": "지금은 안 함",
   "scorePageNoLocalScore": "로컬 성적 없음",
-  "scorePagePrivacyLocked": "성적표가 프라이버시 잠금으로 보호됨",
-  "scorePageClickToUnlock": "탭하여 잠금 해제",
-  "scorePageEnableBiometric": "생체 인식 잠금 켜기",
-  "scorePageBiometricHint": "Face ID 또는 지문으로 성적 프라이버시 보호",
-  "scorePageBiometricAuthFailed": "생체 인증 실패",
   "scorePageLoginHint": "로그인하지 않았다면 설정에서 로그인하세요.\n아래 버튼으로 성적을 가져와 동기화할 수 있습니다.",
   "scorePageSync": "성적 동기화",
   "scorePageTotalGpa": "총 평균 GPA",
@@ -1650,7 +1632,6 @@
   "settingsHomeGridBorderAlpha": "그리드 테두리 불투명도",
   "settingsHomeCropImage": "이미지 자르기",
   "imageCropDesktopHint": "드래그하여 이동 · +/−로 자르기 영역 조절",
-  "imageCropDesktopHintSquare": "드래그하여 이동 · +/−로 정사각 자르기 영역 조절",
   "imageCropPresetDevice": "화면 비율",
   "imageCropPresetOriginal": "원본",
   "imageCropRatioFree": "자유",
@@ -1686,7 +1667,6 @@
   },
   "libraryClickForDetails": "탭하여 층·좌석 상세 보기",
   "globalTimetableTitle": "전체 시간표",
-  "globalTimetablePlaceholder": "전체 시간표는 개발 중입니다…",
   "globalTimetableCourseMatching": "과목 매칭",
   "globalTimetableContribute": "시간표 기여",
   "globalTimetableLocalImport": "이 기기로 가져오기",
@@ -1792,15 +1772,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "교무 로그인 실패. 우한대 통합 인증에 다시 로그인하세요.",
-  "gradesReviewsToolsTitle": "성적과 평가",
-  "gradesReviewsToolsDescription": "강의를 검색해 성적 분포와 평가를 확인하세요.",
   "gradesReviewsSearchCourse": "강의 검색",
-  "gradesReviewsScoresSubtitle": "강의를 검색해 분포 보기",
-  "gradesReviewsReviews": "수강 후기",
-  "gradesReviewsReviewsSubtitle": "강의를 검색해 후기 보기",
-  "gradesReviewsToolsSection": "교무 도구",
-  "gradesReviewsSearchHintGrades": "강의를 검색해 과거 성적 분포 보기",
-  "gradesReviewsSearchHintReviews": "강의를 검색해 학생 후기 보기",
   "gradesReviewsSearchHintNormal": "강의명·교수명·코드로 검색",
   "gradesReviewsSearchTitle": "강의 검색",
   "gradesReviewsEmptyTitle": "강의 검색",
@@ -1810,17 +1782,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -1867,7 +1828,6 @@
       }
     }
   },
-  "wakeupImportPlaceholder": "Wakeup 공유 링크/코드 파서는 아직 없습니다. 현재는 가져오기 흐름 자리표시자만 제공합니다.",
   "sportsReservationToday": "오늘",
   "sportsReservationTomorrow": "내일",
   "sportsReservationDayAfterTomorrow": "모레",
@@ -2223,14 +2183,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "자동 검증 중(시도 {attempt})…",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -2837,9 +2789,7 @@
   "settingsWidgetsPinRequested": "위젯 추가를 요청했습니다. 홈 화면에서 확인하세요. 안내가 표시되지 않으면 수동으로 추가할 수 있습니다.",
   "settingsWidgetsPinAdded": "위젯이 추가되었습니다",
   "settingsWidgetsManualAddHint": "홈 화면의 빈 공간을 길게 눌러 위젯 메뉴를 연 뒤 珞珈를 찾아 수동으로 추가하세요.",
-  "settingsWidgetsAddManuallyAndroid": "홈 화면의 빈 공간을 길게 눌러 위젯 메뉴를 연 뒤 珞珈를 찾아 수동으로 추가하세요.",
   "settingsWidgetsPinSupportError": "런처가 원탭 추가를 지원하는지 확인할 수 없습니다. 여전히 수동으로 추가할 수 있습니다.",
-  "settingsWidgetsPinSubmitted": "런처에 요청을 보냈으며 아직 추가가 확인되지 않았습니다. 런처 안내에 따르거나 수동으로 추가하세요.",
   "settingsWidgetsPinConfirmed": "런처에서 위젯 추가를 확인했습니다.",
   "settingsWidgetsPinObserved": "새 위젯 인스턴스가 감지되었습니다. 홈 화면에서 배치를 확인하세요.",
   "settingsWidgetsPlatformsMacMenu": "macOS 메뉴 막대",
@@ -2984,14 +2934,10 @@
   "authResetPassword": "비밀번호 재설정",
   "authEmailVerifySuccess": "이메일이 인증되었습니다. 다시 로그인해 주세요.",
   "authPasswordResetSuccess": "비밀번호가 재설정되었습니다. 새 비밀번호로 로그인해 주세요.",
-  "authSendResetLink": "재설정 링크 보내기",
-  "authResetRequested": "이 이메일이 등록되어 있다면 몇 분 안에 비밀번호 재설정 이메일이 도착합니다. 받지 못했다면 스팸함과 이메일 주소 철자를 확인하세요.",
   "authLoginEmailUnverified": "이 이메일 주소는 아직 인증되지 않았습니다. 로그인하기 전에 인증하세요.",
   "authLoginAccountDisabled": "이 계정은 비활성화되었습니다. 도움이 필요하면 관리자에게 문의하세요.",
   "authResendVerification": "인증 다시 보내기",
   "authVerificationEmailPromptTitle": "계정 이메일 입력",
-  "authVerificationEmailSent": "계정이 존재하고 아직 인증이 필요하다면 인증 이메일을 보냈습니다.",
-  "authVerificationEmailSendFailed": "인증 이메일을 보내지 못했습니다: {error}",
   "authMfaTitle": "2단계 인증",
   "authMfaEmailSent": "확인 코드를 {email}로 보냈습니다",
   "@authMfaEmailSent": {
@@ -3340,7 +3286,6 @@
       }
     }
   },
-  "authOldPassword": "현재 비밀번호",
   "authNewPassword": "새 비밀번호",
   "authPasswordChanged": "비밀번호가 변경되었습니다. 다시 로그인해 주세요.",
   "authPasswordChangeFailed": "비밀번호를 변경하지 못했습니다: {error}",
@@ -3497,14 +3442,6 @@
   "forumReplyHint": "친절하게 작성하고 개인정보를 공유하지 마세요.",
   "forumSend": "보내기",
   "authPasswordResetEmail": "이메일",
-  "authPasswordResetSendFailed": "전송하지 못했습니다: {error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "courseReviewsMyReviews": "내 리뷰",
   "courseReviewsMyReviewsEmpty": "아직 작성한 리뷰가 없습니다.",
   "courseReviewsStatusPending": "검토 대기 중",
@@ -3575,16 +3512,7 @@
       }
     }
   },
-  "forumDraftPublished": "임시 저장 글을 게시했습니다",
   "forumDraftEditTitle": "임시 저장 글 수정",
-  "forumDraftLastEdited": "{time}에 수정함",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "저장하지 않은 변경 사항",
   "forumUnsavedChangesMessage": "이 글을 게시하거나 임시 저장하거나 삭제하시겠어요?",
   "forumUnsavedChangesPublish": "게시",
@@ -3596,8 +3524,6 @@
   "forumUserCommentsTab": "댓글",
   "forumUserLikedTab": "좋아요",
   "forumUserFavoritesTab": "보관함",
-  "forumUserFollowersTab": "팔로워",
-  "forumUserFollowingTab": "팔로잉",
   "forumUserJoinedAt": "{date}에 가입",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -3698,16 +3624,7 @@
   "forumBlockListSubtitle": "차단한 사용자는 회원님을 팔로우하거나 쪽지를 보낼 수 없습니다.",
   "forumBlockListEmpty": "차단한 사용자가 없습니다.",
   "forumRelationListEmpty": "아직 아무도 없습니다.",
-  "forumRelationListFailed": "목록을 불러오지 못했습니다: {error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "쪽지",
-  "forumMessagesEntrySubtitle": "맞팔로우한 사람과 주고받는 쪽지",
   "forumConversationsEmpty": "쪽지가 없습니다",
   "forumConversationsEmptyHint": "서로 팔로우하면 쪽지를 보낼 수 있습니다.",
   "forumChatInputHint": "메시지…",
@@ -3743,14 +3660,6 @@
   "forumReport": "신고",
   "forumReportReason": "사유",
   "forumReportSubmitted": "신고가 접수되었습니다.",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3944,7 +3853,6 @@
       }
     }
   },
-  "languageSystemSettings": "언어 설정",
   "commonOk": "확인",
   "whuAccountEducationalYearsValue": "{years}년",
   "@whuAccountEducationalYearsValue": {
@@ -3998,7 +3906,6 @@
   "settingsBuildInfoBuildTime": "빌드 시간",
   "courseImportSemesterAlreadyAdded": "이 학기는 이미 추가되었습니다. 시간표 메뉴에서 “시간표 업데이트”를 선택하세요.",
   "waterControlClassNo": "수업 번호 {classNo}",
-  "forumImageFiles": "포럼 이미지",
   "forumAttachmentFiles": "포럼 첨부 파일",
   "forumModerationAllSources": "모든 출처",
   "forumModerationUnclaimed": "미할당",
@@ -4154,7 +4061,6 @@
     }
   },
   "campusBusPreviewCardSetting": "버스 도착 미리보기",
-  "campusBusPreviewCardSettingIosHint": "위젯 스택에 실시간 도착 정보 표시",
   "campusBusPreviewCardSettingHint": "홈 화면에 미리보기 카드 표시",
   "campusBusArrivalSelectTarget": "정류장 선택",
   "campusBusArrivalLine": "노선",
@@ -4548,7 +4454,6 @@
   "adminUserDetailReceivedLikes": "받은 좋아요",
   "adminUserDetailWhuAccountData": "WHU 계정 데이터",
   "adminUserDetailWhuAccountDataDescription": "최고 관리자만 볼 수 있으며, 이 접근은 감사됩니다.",
-  "adminUserDetailWhuAccount": "WHU 계정",
   "adminUserDetailManagement": "관리",
   "adminUserContentPostsTitle": "사용자 게시물",
   "adminUserContentCommentsTitle": "사용자 댓글",
@@ -4777,7 +4682,6 @@
   "forumCheckinDone": "오늘 체크인 완료",
   "forumCheckinFixed": "안정 코스 (+{amount})",
   "forumCheckinRandom": "운 시험",
-  "forumCheckinRandomHint": "장기 평균은 안정적인 경로보다 약간 낮습니다",
   "forumCheckinSuccess": "+{amount} 카르마 (연속 {streak}일)",
   "forumCheckinTitle": "데일리 체크인",
   "forumCheckinTodo": "체크인",
@@ -4835,7 +4739,6 @@
   "forumLeaderboardTitle": "카르마 순위",
   "forumModerationFlavorPending": "검토 대기 중",
   "forumReportSubmittedFlavor": "기록됨; 응답 대기 중.",
-  "courseGradeStatsAllTeachersPrepared": "모든 교사 데이터가 준비됐습니다. 교사를 선택해 성적 데이터를 보세요.",
   "courseGradeStatsExamAverage": "평균 시험 점수",
   "courseGradeStatsLoadFailed": "성적 분포를 불러오지 못했습니다: {error}",
   "courseGradeStatsPrivacyThreshold": "프라이버시 보호를 위해 최소 5개 샘플이 필요합니다.",
@@ -4946,17 +4849,6 @@
   "courseMatchingTeacher": "교수자",
   "courseMatchingSectionRangeError": "시작 교시는 끝 교시보다 클 수 없습니다.",
   "courseMatchingCreditRangeError": "최소 학점은 최대 학점보다 클 수 없습니다.",
-  "globalTimetableTermWithCount": "{term}학기 · {count}건",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "개설 이력",
   "globalTimetableHistoryHint": "게시된 모든 학기에서 최신순으로 검색합니다.",
   "globalTimetableHistoryEmpty": "일치하는 개설 기록이 없습니다.",
@@ -4973,7 +4865,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "아직 다운로드한 학기가 없습니다.",
   "globalTimetableDownloadsHint": "학기 아카이브는 WHU-Master-Timetable 아카이브 사이트에서 가져옵니다. 다운로드한 학기는 오프라인으로 검색할 수 있습니다.",
   "globalTimetableDownloadsRemoteInfo": "{count}개 과목 · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -4990,7 +4881,6 @@
   "globalTimetableDownloadFailed": "다운로드 실패",
   "globalTimetableDeleteAll": "모두 삭제",
   "globalTimetableDeleteAllConfirm": "다운로드한 모든 학기를 삭제할까요?",
-  "globalTimetableSourceMode": "데이터 출처",
   "globalTimetableSourceAuto": "자동",
   "globalTimetableLocalMissing": "이 학기의 오프라인 데이터가 아직 없습니다.",
   "globalTimetableNoSlot": "시간 미정",
@@ -5056,7 +4946,6 @@
   "whuAuthSmsSendFailed": "인증 코드 전송 실패. 전화번호를 확인하고 다시 시도하세요.",
   "whuAuthSmsSendRequired": "먼저 현재 전화번호로 인증 코드를 받으세요.",
   "whuAuthCaptchaLoadFailed": "보안 인증을 로드하지 못했습니다. 닫고 다시 시도하세요.",
-  "whuAuthLoginCredentialsError": "계정, 비밀번호 또는 동적 코드가 올바르지 않습니다",
   "whuSmartCampusAuthFailedCasRequired": "스마트 뤄자 인증 실패. WHU CAS를 통해 다시 로그인하세요.",
   "whuSmartCampusAuthFailedHttp": "스마트 뤄자 인증 실패 (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
@@ -5163,92 +5052,6 @@
   "aiDebugPromptWatchSyncNegativeLabel": "워치 동기화 (미개방)",
   "aiDebugPromptHighRiskNegativeLabel": "고위험 작업 (미개방)",
   "aiDebugPromptResultUnknownLabel": "result_unknown 규칙 자가 Q&A",
-  "toolkitVerifyTitle": "Toolkit CLI & 비즈니스 기능 실증 검증 카드",
-  "toolkitVerifyProgress": "통과 {passed} / {total}",
-  "toolkitVerifyPipelineMessage": "단계 {step}/{total}: {msg}",
-  "toolkitVerifyAutoApproveTitle": "검증 쓰기 작업 카드 자동 승인",
-  "toolkitVerifyAutoApproveSubtitle": "전체 파이프라인 자동화 시 테스트가 쓰기 카드를 발행하고 자동 확인하도록 허용해요",
-  "toolkitVerifyCliRunning": "CLI 자동화 실행 중...",
-  "toolkitVerifyCliButton": "모든 CLI 스모크 테스트 케이스 동시 실행",
-  "toolkitVerifyCliProgress": "{msg} (시스템 통과 {passed}/{total})",
-  "toolkitVerifyPipelineRunning": "전체 파이프라인 실행 중...",
-  "toolkitVerifyPipelineButton": "전체 파이프라인 실행",
-  "toolkitVerifySaveLog": "JSON 보고서 내보내기",
-  "toolkitVerifyEvents": "최근 파이프라인 로그",
-  "toolkitVerifyStatusPending": "대기",
-  "toolkitVerifyStatusRunning": "실행 중",
-  "toolkitVerifyStatusPassed": "통과",
-  "toolkitVerifyStatusFailed": "실패",
-  "toolkitVerifyStatusSkipped": "건너뜀",
-  "toolkitVerifyStatusWaiting": "대기 중",
-  "toolkitVerifyStatusBlocked": "차단",
-  "toolkitVerifyMarkPassed": "통과로 표시",
-  "toolkitVerifyMarkFailed": "실패로 표시",
-  "toolkitVerifyOpenAuth": "인증으로 이동",
-  "toolkitVerifySkipReason": "건너뜀 사유 표시",
-  "toolkitVerifyBlockReason": "차단 사유 표시",
-  "toolkitVerifyStage1": "1단계: 계정 및 자격 증명 준비",
-  "toolkitVerifyStage2": "2단계: 이론 일관성 및 정적 제약 검증",
-  "toolkitVerifyStage3": "3단계: CLI 시뮬레이터 기본 도구 통합",
-  "toolkitVerifyStage4": "4단계: Toolkit 비즈니스 체인 통합",
-  "toolkitVerifyStage5": "5단계: App 측 내부 프로브",
-  "toolkitVerifyStage6": "6단계: 수동 검토 및 확인",
-  "toolkitVerifyStage1Desc": "WHU 통합 신원 인증 및 Luotopia 자격 증명 상태를 검증해요",
-  "toolkitVerifyStage2Desc": "모델 사양, schema, 권한, 선언 일관성을 검증해요",
-  "toolkitVerifyStage3Desc": "CLI 의존성 없는 기본 도구 호출 및 파싱을 검증해요",
-  "toolkitVerifyStage4Desc": "복합 기능 체인 및 컨텍스트 전달을 검증해요",
-  "toolkitVerifyStage5Desc": "App 측 서비스 제공자 및 프로브 동작을 검증해요",
-  "toolkitVerifyStage6Desc": "이차 확인 카드 및 차단 로직을 수동 검증해요",
-  "toolkitVerifyMsgWaitingStart": "전체 파이프라인 시작 대기 중...",
-  "toolkitVerifyMsgCliNotRun": "CLI 스모크 테스트 미실행",
-  "toolkitVerifyMsgPrepareAuth": "계정 및 인증 자격 증명 준비 중...",
-  "toolkitVerifyMsgWaitingWhuLogin": "WHU 통합 신원 인증 로그인 대기 중...",
-  "toolkitVerifyMsgWhuFailed": "WHU 통합 신원 인증 실패",
-  "toolkitVerifyMsgRefreshWhuSession": "WHU Session 새로 고침 중...",
-  "toolkitVerifyMsgWhuSessionFailed": "WHU Session 새로 고침 실패",
-  "toolkitVerifyMsgLuotopiaDeferred": "Luotopia JWT 인증은 이후 검증을 위해 연기됐어요",
-  "toolkitVerifyMsgTheoryChecks": "이론 제약 검사 실행 중...",
-  "toolkitVerifyMsgCliSmoke": "CLI 스모크 테스트 케이스 실행 중...",
-  "toolkitVerifyMsgToolkitChain": "Toolkit 통합 테스트 실행 중...",
-  "toolkitVerifyMsgAppProbes": "App 측 프로브 실행 중...",
-  "toolkitVerifyMsgDone": "파이프라인 전체 완료",
-  "toolkitVerifyMsgWaitingHuman": "수동 처리 대기 중: {reason}",
-  "toolkitVerifyMsgPrepareGateway": "테스트 게이트웨이 준비 중...",
-  "toolkitVerifyMsgCliPassed": "CLI 스모크 테스트 전체 통과",
-  "toolkitVerifyMsgCliFailed": "CLI 스모크 테스트 실패 ({failed}건 미통과)",
-  "toolkitVerifyMsgCliAborted": "CLI 스모크 테스트 중단",
-  "toolkitVerifyConfirmWriteTitle": "테스트 쓰기 작업 확인",
-  "toolkitVerifyConfirmWriteMessage": "도구 {toolId}가 쓰기 작업({reason})을 수행해요. 실행할까요?",
-  "toolkitVerifyConfirmWaterCodeTitle": "급수 코드 확인 테스트",
-  "toolkitVerifyConfirmWaterCodeMessage": "테스트 발행 급수 코드 추출 작업",
-  "toolkitVerifyWaterCodeCancel": "취소",
-  "toolkitVerifyWaterCodeConfirm": "급수 코드 확인",
-  "toolkitVerifySkipReasonTitle": "건너뜀 사유를 입력해 주세요",
-  "toolkitVerifyBlockReasonTitle": "차단 사유를 입력해 주세요",
-  "toolkitVerifyRecord": "테스트 기록",
-  "toolkitVerifyConfirmRecordTitle": "테스트 기록 카드 생성",
-  "toolkitVerifyConfirmRecordMessage": "{id}에 쓰기 작업이 포함돼요. 테스트 기록을 확인해 주세요.",
-  "toolkitVerifyConfirmRecordConfirm": "기록 생성",
-  "toolkitVerifyNotifAgendaTitle": "테스트 일정 리마인더 알림",
-  "toolkitVerifyNotifAgendaUpdated": "테스트 일정이 업데이트됐어요",
-  "toolkitVerifyAuthPrerequisite": "인증 전제 조건",
-  "toolkitVerifyWhuCas": "WHU CAS 인증",
-  "toolkitVerifyAuthenticated": "인증됨 · {subject}",
-  "toolkitVerifyNotAuthenticated": "미인증",
-  "toolkitVerifyLuotopiaJwt": "Luotopia JWT 자격 증명",
-  "toolkitVerifyDeferred": "연기됨",
-  "toolkitVerifyAuthenticatedShort": "로그인됨",
-  "toolkitVerifyAgendaItemTitle": "테스트 일정 항목",
-  "toolkitVerifyCheck": "정적 검사: {code}",
-  "toolkitVerifyCheckConsistency": "모델 일관성 검사",
-  "toolkitVerifyCheckJobQuery": "백그라운드 작업 조회 검사",
-  "toolkitVerifyCheckNoAutoConfirm": "자동 확인 금지 검사",
-  "toolkitVerifyCheckNoChallenge": "Challenge 모드 없음 검사",
-  "toolkitVerifyCheckShellReject": "Shell 거부 응답 검사",
-  "toolkitVerifyCheckJsonBudget": "JSON 예산 한도 검사",
-  "toolkitVerifyCheckWritePause": "쓰기 일시정지 검사",
-  "toolkitVerifyCheckCancelBlock": "취소 차단 검사",
-  "toolkitVerifyCheckCleanup": "리소스 정리 검사",
   "settingsPrivacyDiagnosticsGmsUnavailable": "이 기기에서는 Google Play 서비스를 사용할 수 없어요. 원격 측정 기능은 비활성화되지만 저장된 환경설정은 보관되며, Google Play 서비스를 사용할 수 있게 되면 다시 적용돼요.",
   "waterElectricRoomTitle": "수도·전기 요금 방 선택",
   "waterElectricRoomNotice": "선택 항목은 이 장치에만 저장됩니다. 학교 포털은 학생을 서버의 회의실에 바인딩하지 않습니다.",
@@ -5383,7 +5186,6 @@
   "aiAssistantEmpty": "생성된 비서가 없습니다",
   "aiAssistantUseGlobal": "전역 설정 사용",
   "aiAssistantDeleteConfirm": "이 비서를 삭제할까요?",
-  "aiClose": "닫기",
   "aiExport": "내보내기",
   "aiShare": "공유",
   "aiCompressContext": "컨텍스트 압축",
@@ -5445,7 +5247,6 @@
   "aiSkillsEnabled": "사용 중인 스킬 {count}개",
   "aiMcp": "MCP",
   "aiMcpEmpty": "설정된 MCP 서버가 없습니다",
-  "aiMcpEnabled": "연결된 MCP 서버 {count}개",
   "aiMcpAddServer": "서버 추가",
   "aiMcpServersTitle": "MCP 서버",
   "aiMcpDescription": "MCP 서버는 설정한 엔드포인트의 도구를 Agent에 제공합니다. 서버에 연결하고 도구를 선택하기 전까지는 아무것도 노출되지 않습니다.",
@@ -5467,7 +5268,6 @@
   "aiMcpHeadersInvalid": "모든 줄은 이름: 값 형식이어야 합니다",
   "aiMcpUrlInvalid": "http(s) 절대 URL을 입력하세요",
   "aiMcpDeleteConfirm": "이 MCP 서버를 삭제할까요?",
-  "aiMcpTestConnection": "연결 테스트",
   "aiMcpStatusIdle": "연결되지 않음",
   "aiMcpStatusConnecting": "연결 중",
   "aiMcpStatusConnected": "연결됨",
@@ -5483,7 +5283,6 @@
   "aiMcpServerEnabledHint": "사용하지 않는 서버에는 연결되지 않으며, 해당 도구는 Agent 카탈로그에서 제거됩니다.",
   "aiMcpToolsHidden": "Agent에 노출되지 않음",
   "aiMcpCatalogNote": "노출할 도구를 변경하면 Agent의 도구 카탈로그가 다시 만들어집니다.",
-  "aiMcpLastError": "마지막 오류",
   "aiMcpImportedCount": "서버 {count}개를 가져왔습니다",
   "aiAssistantActive": "사용 중",
   "aiAssistantsGlobalHint": "모델 서비스 페이지의 시스템 프롬프트와 매개변수를 사용합니다.",
@@ -5501,17 +5300,12 @@
   "aiSkillFieldsRequired": "이름, 설명, 지침은 모두 필수입니다",
   "aiSkillInstructionsHint": "이 스킬을 사용할 때 모델에 전달되는 지침입니다",
   "settingsAiModelService": "모델 서비스",
-  "settingsAiModelServiceSubtitle": "제공자, 자격 증명, 모델, 샘플링",
-  "settingsAiAssistantsSubtitle": "페르소나, 시스템 프롬프트, 매개변수 재정의",
-  "settingsAiWebSearchSubtitle": "공개 웹 접근과 검색 제공자 키",
   "settingsAiWorkspaceSubtitle": "사용량, 정리, 내보내기",
   "settingsAiOverviewNotConfigured": "설정되지 않음",
-  "settingsAiModelsActiveProvider": "현재 제공자",
   "settingsAiModelsOtherProviders": "다른 제공자",
   "settingsAiModelsStoredCount": "모델 {count}개 저장됨",
   "settingsAiModelsSwitchHint": "제공자를 바꾸면 해당 제공자의 저장된 모델 목록을 불러옵니다.",
   "settingsAiNoModelsHint": "제공자를 선택한 다음 모델 목록을 가져오세요",
-  "settingsAiModelContextWindow": "컨텍스트 창(토큰)",
   "settingsAiGroupModel": "모델",
   "settingsAiGroupCapabilities": "Agent 기능",
   "aiWebAccessOnSummary": "켜짐",
@@ -5589,8 +5383,6 @@
   "campusMapLayerAed": "AED 기기",
   "campusMapLayerFacilities": "캠퍼스 시설",
   "campusMapLayerBus": "캠퍼스 버스",
-  "campusMapLayerBusStops": "캠퍼스 버스 정류장",
-  "campusMapLayerBusLines": "캠퍼스 버스 노선",
   "campusMapOpenBus": "캠퍼스 버스 시간표 보기",
   "campusMapMyLocation": "현재 위치",
   "campusMapLocationDenied": "위치 권한이 필요합니다",
@@ -5731,7 +5523,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "이 메일은 첨부파일만 있습니다. 위 또는 아래에서 다운로드하거나 보세요.",
-  "coremailSavingAttachment": "첨부파일 다운로드 중…",
   "coremailAttachmentSaved": "첨부파일을 저장했습니다",
   "coremailAttachmentSaveFailed": "첨부파일 저장 실패: {error}",
   "@coremailAttachmentSaveFailed": {
@@ -5834,7 +5625,6 @@
   "campusAppEbike": "전동 자전거",
   "ebikeProviderZhiyin": "리틀그린",
   "ebikeProviderMango": "리틀옐로",
-  "settingsAccountEbikeTitle": "공유 전동 자전거 계정",
   "settingsAccountOtherTitle": "기타 계정",
   "settingsAccountOtherSubtitle": "이메일·Chaoxing·VPN",
   "settingsOtherAccountsPageTitle": "기타 계정",
@@ -5843,7 +5633,6 @@
   "settingsOtherAccountsNotConfigured": "설정되지 않음",
   "ebikeAccountsTileNone": "연동되지 않음",
   "ebikeAccountsPageTitle": "공유 전동 자전거 계정",
-  "ebikeAccountLinkAction": "계정 연동",
   "ebikeAccountLinkedAt": "{time}에 연동됨",
   "ebikeAccountUnlinkAction": "연동 해제",
   "ebikeAccountUnlinkConfirmTitle": "계정 연동 해제",
@@ -5865,16 +5654,12 @@
   "ebikeLoginOpenIdRandomize": "openid 무작위 생성",
   "ebikeLoginOpenIdInvalid": "WeChat openid 형식이 올바르지 않습니다(o로 시작하는 28자)",
   "ebikeHubNotLinkedTitle": "{provider} 계정이 연동되지 않았습니다",
-  "ebikeHubNotLinkedAction": "지금 연동",
   "ebikeHubRidingBanner": "주행 상태",
   "ebikeHubUnpaidOrder": "미결제 주문: {amount}위안",
   "ebikeHubActionUnlock": "이용",
   "ebikeHubActionCards": "주행 카드",
   "ebikeHubActionWallet": "지갑",
   "ebikeHubActionOrders": "주행 내역",
-  "ebikeHubBalance": "잔액",
-  "ebikeHubDeposit": "보증금",
-  "ebikeHubRealNameMissing": "실명 인증 미완료",
   "ebikeCarIdDialogTitle": "차량 번호 입력",
   "ebikeCarIdDialogHint": "차량 번호 또는 QR 스캔으로 받은 링크",
   "ebikeCarIdInvalid": "차량 번호를 인식할 수 없습니다",
@@ -5970,7 +5755,6 @@
   "ebikeCardsPurchaseSuccess": "구매가 완료되었습니다",
   "ebikeCardsEmpty": "판매 중인 주행 카드가 없습니다",
   "ebikeCardsMineEmpty": "사용 가능한 주행 카드가 없습니다",
-  "ebikeCardsMangoHint": "리틀옐로 주행 카드는 앱에서 구매할 수 없습니다. 리틀옐로 미니 프로그램에서 구매하세요.",
   "ebikeWalletTitle": "지갑",
   "ebikeWalletBalance": "잔액",
   "ebikeWalletMangoCoin": "리틀옐로 잔액",
@@ -5982,17 +5766,10 @@
   "ebikeWalletRecharge": "충전",
   "ebikeWalletRechargeTitle": "잔액 충전",
   "ebikeWalletRechargeViaCampus": "캠퍼스 카드로 {amount}위안을 충전할까요?",
-  "ebikeWalletRechargeUnavailable": "현재 서비스 지역에서는 캠퍼스 카드 충전이 지원되지 않습니다. 공식 미니 프로그램에서 충전하세요.",
   "ebikeWalletRechargeSuccess": "충전이 완료되었습니다",
-  "ebikeWalletDepositRefund": "보증금 환불 신청",
-  "ebikeWalletDepositRefundTitle": "환불 사유 선택",
-  "ebikeWalletDepositRefundSuccess": "환불 신청이 접수되었습니다",
-  "ebikeWalletDepositRefundCancel": "환불 신청 취소",
-  "ebikeWalletDepositRefundCanceled": "환불 신청이 취소되었습니다",
   "ebikeWalletCampusCard": "캠퍼스 카드",
   "ebikeWalletCampusCardBound": "연동됨({name})",
   "ebikeWalletCampusCardNotBound": "연동되지 않음",
-  "ebikeWalletMangoRechargeHint": "리틀옐로 잔액 충전은 미니 프로그램에서 진행하세요",
   "ebikeOrdersTitle": "주행 내역",
   "ebikeOrdersEmpty": "주문 내역이 없습니다",
   "ebikeOrderId": "주문 번호",
@@ -6090,6 +5867,9 @@
   "chaoxingLoginBadCredentials": "로그인 실패: {message}",
   "chaoxingLoginCaptchaRequired": "서버에서 직접 확인 절차가 필요합니다. 잠시 후 다시 시도하거나 공식 앱에서 먼저 한 번 로그인하세요.",
   "chaoxingOperationFailed": "작업 실패: {error}",
+  "chaoxingArgsMissing": "이 페이지의 매개변수를 잃었습니다",
+  "chaoxingArgsMissingHint": "표시하려던 활동을 복원하지 못했습니다. 대개 이 페이지가 열린 동안 앱이 다시 시작되었기 때문입니다. 돌아갔다가 다시 열어 주세요.",
+  "chaoxingArgsMissingAction": "학습통으로 돌아가기",
   "chaoxingUniqueIdTitle": "기기 ID",
   "chaoxingUniqueIdSubtitle": "개발자 도구: Chaoxing 서버에 보고되는 uniqueId 보기/편집",
   "chaoxingUniqueIdEmpty": "아직 생성되지 않았습니다. 첫 로그인 시 자동으로 생성됩니다.",
@@ -6118,7 +5898,6 @@
   "chaoxingSignUseWeb": "웹 버전 사용",
   "chaoxingSignUseWebSubtitle": "이 출석을 웹 페이지에서 진행",
   "chaoxingSignSubmit": "출석",
-  "chaoxingSignSubmitting": "출석 중…",
   "chaoxingSignSuccess": "출석했습니다",
   "chaoxingSignAlready": "이미 출석했습니다",
   "chaoxingSignLate": "출석했지만 마감 시간이 지났습니다",
@@ -6128,11 +5907,12 @@
   "chaoxingSignCodeInvalid": "코드가 올바르지 않습니다",
   "chaoxingSignGestureHint": "아래 격자에 제스처를 그리세요",
   "chaoxingSignPhotoPick": "사진 선택",
+  "chaoxingSignPhotoCamera": "사진 촬영",
+  "chaoxingSignPhotoGallery": "갤러리",
   "chaoxingSignPhotoRetake": "다시 촬영",
   "chaoxingSignPhotoRemove": "제거",
   "chaoxingSignPhotoRequired": "사진이 필요합니다",
   "chaoxingSignLocationRequired": "이 출석에는 위치가 필요합니다",
-  "chaoxingSignLocationLabel": "위치",
   "chaoxingSignKindPlain": "일반",
   "chaoxingSignKindAntiCheat": "부정행위 방지",
   "chaoxingSignKindPhoto": "사진",
@@ -6152,6 +5932,23 @@
   "chaoxingSignFaceNeedDevice": "얼굴 출석은 기기 등록으로 학습통 로그인해야 합니다. 웹 버전을 쓰거나 해당 옵션으로 다시 로그인하세요.",
   "chaoxingSignFaceEnrollFailed": "얼굴 등록 실패: {message}",
   "chaoxingSignLocationUse": "현재 위치를 사용합니다",
+  "campusMapPickerTitle": "위치 선택",
+  "campusMapPickerHint": "지도를 눌러 핀을 놓고, 핀을 끌어서 미세 조정할 수 있습니다",
+  "campusMapPickerResolving": "주소 확인 중…",
+  "campusMapPickerNoAddress": "주소를 확인하지 못했습니다. 좌표는 그대로 사용됩니다",
+  "campusMapPickerConfirm": "이 위치 사용",
+  "chaoxingSignLocationSourceTitle": "위치 출처",
+  "chaoxingSignLocationModeDevice": "내 위치",
+  "chaoxingSignLocationModePicked": "지도에서 선택",
+  "chaoxingSignLocationModeActivity": "출석 지정 위치",
+  "chaoxingSignLocationPickNone": "아직 선택한 지점이 없습니다",
+  "chaoxingSignLocationPicked": "선택됨: {name}",
+  "chaoxingSignLocationResolveUnreachable": "지오코더에 연결할 수 없어 {name}을(를) 확인하지 못했습니다. 지도에서 선택하세요",
+  "chaoxingSignLocationRange": "허용 반경: {metres} m",
+  "chaoxingSignLocationResolving": "출석 지정 위치 확인 중…",
+  "chaoxingSignLocationUnspecified": "이 출석에는 지정 위치가 없습니다. 내 위치를 쓰거나 지도에서 선택하세요",
+  "chaoxingSignLocationResolveFailed": "{name}의 좌표를 확인하지 못했습니다. 지도에서 선택하세요",
+  "chaoxingSignLocationResolved": "확인됨: {name} · {point}",
   "chaoxingScanTitle": "출석 코드 스캔",
   "chaoxingScanHint": "교사가 표시한 QR 코드에 카메라를 향하세요",
   "chaoxingScanPermission": "스캔하려면 카메라 권한이 필요합니다",

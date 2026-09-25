@@ -86,8 +86,6 @@
   "schoolNetProviderTelecom": "中國電信",
   "schoolNetProviderUnicom": "中國聯通",
   "schoolNetProviderMobile": "中國移動",
-  "settingsDevThemeLabTitle": "主題實驗室",
-  "settingsDevThemeLabSubtitle": "並排預覽核心元件喺淺色同深色主題下嘅效果。",
   "whuNativeLoginRememberMobile": "記住手機號碼",
   "whuNativeLoginTitle": "武大統一認證",
   "whuNativeLoginHeading": "登入武大統一身份認證",
@@ -102,15 +100,6 @@
   "whuNativeLoginSubmit": "登入",
   "whuNativeLoginStageSigningIn": "正在登入統一身份認證…",
   "whuNativeLoginStageConfirmingIdentity": "正在確認身分…",
-  "whuNativeLoginStageFetching": "登入成功，正在獲取{source}數據…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "登入成功，正在完成…",
   "whuNativeLoginUseWeb": "用網頁版登入",
   "whuNativeLoginUseWebSubtitle": "如果原生登入有問題，可以切換備用",
   "aiAssistant": "助手",
@@ -300,7 +289,6 @@
   "commonRegistrationTime": "註冊時間",
   "commonUsername": "使用者名稱",
   "courseGridSettings": "科目方格模式設定",
-  "gradesReviewsScores": "成績",
   "gradesReviewsTitle": "給分同評價",
   "courseImport": "科目表匯入",
   "courseImportSemester": "學期",
@@ -1039,7 +1027,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "研究生課程對應唔到校曆日期，請檢查所選學期係咪正確。",
   "courseImportGraduateTermsUnrecognized": "研究生系統返回嘅學期無法識別。",
   "courseImportStatusFailed": "匯入失敗：{error}",
   "@courseImportStatusFailed": {
@@ -1141,11 +1128,6 @@
   "aiAccountSwitchConfirm": "重新傳送",
   "aiAccountSwitchDismiss": "而家唔使",
   "scorePageNoLocalScore": "本機冇成績",
-  "scorePagePrivacyLocked": "成績表已經俾私隱鎖保護",
-  "scorePageClickToUnlock": "撳解鎖",
-  "scorePageEnableBiometric": "開生物識別鎖",
-  "scorePageBiometricHint": "用 Face ID 或者指紋保護你嘅成績私隱",
-  "scorePageBiometricAuthFailed": "生物認證失敗",
   "scorePageLoginHint": "如果未登入教務系統，請先喺設定度登入。\n然後撳下面個掣攞成績同同步去本機。",
   "scorePageSync": "同步成績紀錄",
   "scorePageTotalGpa": "總平均學分積點",
@@ -1337,7 +1319,6 @@
   "settingsHomeGridBorderAlpha": "網格邊框不透明度",
   "settingsHomeCropImage": "裁剪圖片",
   "imageCropDesktopHint": "拖動嚟移動 · 用 +/− 調整裁剪範圍",
-  "imageCropDesktopHintSquare": "拖動嚟移動 · 用 +/− 調整正方形裁剪範圍",
   "imageCropPresetDevice": "螢幕比例",
   "imageCropPresetOriginal": "原圖",
   "imageCropRatioFree": "自由",
@@ -1373,7 +1354,6 @@
   },
   "libraryClickForDetails": "撳睇各樓層同座位詳情",
   "globalTimetableTitle": "全校時間表",
-  "globalTimetablePlaceholder": "全校時間表功能仲開發緊…",
   "globalTimetableCourseMatching": "課程配對",
   "globalTimetableContribute": "貢獻時間表",
   "globalTimetableLocalImport": "匯入去呢部裝置",
@@ -1479,15 +1459,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "教務系統登入失敗，請重新登入武大統一認證。",
-  "gradesReviewsToolsTitle": "課程給分同評價",
-  "gradesReviewsToolsDescription": "搜尋課程，查看歷史給分分佈同同學評價。",
   "gradesReviewsSearchCourse": "搜尋科目",
-  "gradesReviewsScoresSubtitle": "搜尋科目之後睇分佈",
-  "gradesReviewsReviews": "科目評價",
-  "gradesReviewsReviewsSubtitle": "搜尋科目之後睇評價",
-  "gradesReviewsToolsSection": "教務工具",
-  "gradesReviewsSearchHintGrades": "搜尋科目之後睇紀錄畀分分佈",
-  "gradesReviewsSearchHintReviews": "搜尋科目之後睇同學評價",
   "gradesReviewsSearchHintNormal": "搜尋科目名稱、講師姓名或者科目代碼",
   "gradesReviewsSearchTitle": "科目搜尋",
   "gradesReviewsEmptyTitle": "搜尋任何科目",
@@ -1497,17 +1469,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -1554,7 +1515,6 @@
       }
     }
   },
-  "wakeupImportPlaceholder": "Wakeup 分享口令/連結解析器待接入，當前版本先提供匯入流程佔位。",
   "sportsReservationToday": "今日",
   "sportsReservationTomorrow": "聽日",
   "sportsReservationDayAfterTomorrow": "後日",
@@ -1909,14 +1869,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "自動驗證緊（第{attempt}次嘗試）...",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -2516,9 +2468,7 @@
   "settingsWidgetsPinRequested": "已經請求加入小元件，請到主畫面確認。如果沒有提示，可以手動加入。",
   "settingsWidgetsPinAdded": "小元件已加入",
   "settingsWidgetsManualAddHint": "長按主畫面空白位，開啟小元件清單，搵到「珞珈」就可以手動加入小元件。",
-  "settingsWidgetsAddManuallyAndroid": "長按主畫面空白位，開啟小元件清單，搵到「珞珈」就可以手動加入小元件。",
   "settingsWidgetsPinSupportError": "無法檢查而家個桌面是否支援一鍵加入，仍然可以手動加入小元件。",
-  "settingsWidgetsPinSubmitted": "已經向桌面提交請求，仲未確認加入。請跟桌面提示操作，或者手動加入小元件。",
   "settingsWidgetsPinConfirmed": "桌面已經確認加入小元件。",
   "settingsWidgetsPinObserved": "偵測到新增嘅小元件，請到主畫面查看佢嘅位置。",
   "settingsWidgetsPlatformsMacMenu": "macOS 選單列",
@@ -2663,14 +2613,10 @@
   "authResetPassword": "重設密碼",
   "authEmailVerifySuccess": "電郵驗證成功，請重新登入",
   "authPasswordResetSuccess": "密碼已重設，請用新密碼登入",
-  "authSendResetLink": "傳送重設連結",
-  "authResetRequested": "如果呢個電郵已經註冊，重設密碼電郵應該會喺幾分鐘內收到。如果收唔到，請檢查垃圾郵件匣同電郵地址有冇串錯。",
   "authLoginEmailUnverified": "呢個電郵地址仲未驗證，請驗證之後再登入。",
   "authLoginAccountDisabled": "呢個帳戶已經停用，請聯絡管理員求助。",
   "authResendVerification": "重新傳送驗證",
   "authVerificationEmailPromptTitle": "輸入帳戶電郵",
-  "authVerificationEmailSent": "如果帳戶存在而且仲需要驗證，驗證電郵已經傳送。",
-  "authVerificationEmailSendFailed": "無法傳送驗證電郵：{error}",
   "authMfaTitle": "兩步驗證",
   "authMfaEmailSent": "驗證碼已傳送去 {email}",
   "@authMfaEmailSent": {
@@ -3011,7 +2957,6 @@
       }
     }
   },
-  "authOldPassword": "而家嘅密碼",
   "authNewPassword": "新密碼",
   "authPasswordChanged": "密碼已更改。請重新登入。",
   "authPasswordChangeFailed": "更改密碼失敗：{error}",
@@ -3196,14 +3141,6 @@
   "forumReplyHint": "請友善交流，唔好分享個人資料。",
   "forumSend": "傳送",
   "authPasswordResetEmail": "電郵",
-  "authPasswordResetSendFailed": "傳送失敗：{error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMyPosts": "我嘅貼文",
   "forumLikedPosts": "已讚嘅貼文",
   "forumFavoritePosts": "已收藏嘅貼文",
@@ -3241,16 +3178,7 @@
       }
     }
   },
-  "forumDraftPublished": "草稿已發佈",
   "forumDraftEditTitle": "編輯草稿",
-  "forumDraftLastEdited": "編輯於 {time}",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "內容仲未儲存",
   "forumUnsavedChangesMessage": "發佈呢篇貼文、存做草稿，定係捨棄？",
   "forumUnsavedChangesPublish": "發佈",
@@ -3262,8 +3190,6 @@
   "forumUserCommentsTab": "評論",
   "forumUserLikedTab": "讚好",
   "forumUserFavoritesTab": "收藏",
-  "forumUserFollowersTab": "粉絲",
-  "forumUserFollowingTab": "關注",
   "forumUserJoinedAt": "{date} 加入",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -3364,16 +3290,7 @@
   "forumBlockListSubtitle": "被封鎖嘅用戶無法關注你或者發私人訊息俾你。",
   "forumBlockListEmpty": "你仲未有封鎖任何人。",
   "forumRelationListEmpty": "呢度仲未有人。",
-  "forumRelationListFailed": "列表載入失敗：{error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "私人訊息",
-  "forumMessagesEntrySubtitle": "同互相關注嘅人私聊",
   "forumConversationsEmpty": "暫時未有私人訊息",
   "forumConversationsEmptyHint": "互相關注之後就可以發私人訊息。",
   "forumChatInputHint": "傳送訊息…",
@@ -3427,14 +3344,6 @@
   "forumReport": "舉報",
   "forumReportReason": "舉報原因",
   "forumReportSubmitted": "舉報已提交。",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3612,7 +3521,6 @@
       }
     }
   },
-  "languageSystemSettings": "語言設定",
   "commonOk": "確定",
   "whuAccountEducationalYearsValue": "{years} 年",
   "@whuAccountEducationalYearsValue": {
@@ -3892,7 +3800,6 @@
   "settingsBuildInfoBuildTime": "建構時間",
   "courseImportSemesterAlreadyAdded": "呢個學期已經加咗，請喺課程表選單揀「更新課程表」。",
   "waterControlClassNo": "班號 {classNo}",
-  "forumImageFiles": "論壇圖片",
   "forumAttachmentFiles": "論壇附件",
   "forumModerationAllSources": "全部來源",
   "forumModerationUnclaimed": "未認領",
@@ -4048,7 +3955,6 @@
     }
   },
   "campusBusPreviewCardSetting": "巴士到站預覽",
-  "campusBusPreviewCardSettingIosHint": "喺疊放小組件入面顯示即時到站資訊",
   "campusBusPreviewCardSettingHint": "喺主頁顯示預覽卡片",
   "campusBusArrivalSelectTarget": "揀巴士站",
   "campusBusArrivalLine": "巴士線路",
@@ -4412,7 +4318,6 @@
   "adminUserDetailReceivedLikes": "收到嘅讚",
   "adminUserDetailWhuAccountData": "武大帳戶資料",
   "adminUserDetailWhuAccountDataDescription": "只限超級管理員睇到，存取會被記錄。",
-  "adminUserDetailWhuAccount": "武大帳戶",
   "adminUserDetailManagement": "管理",
   "adminUserContentPostsTitle": "用戶貼文",
   "adminUserContentCommentsTitle": "用戶留言",
@@ -4632,7 +4537,6 @@
   "forumCheckinDone": "今日經已簽到",
   "forumCheckinFixed": "穩陣路徑（+{amount}）",
   "forumCheckinRandom": "博一鋪",
-  "forumCheckinRandomHint": "長期平均略低過穩陣條路",
   "forumCheckinSuccess": "+{amount} 業果（連續 {streak} 日）",
   "forumCheckinTitle": "每日簽到",
   "forumCheckinTodo": "簽到",
@@ -4690,7 +4594,6 @@
   "forumLeaderboardTitle": "業果排名",
   "forumModerationFlavorPending": "待審核",
   "forumReportSubmittedFlavor": "已記錄；等緊回應。",
-  "courseGradeStatsAllTeachersPrepared": "全部老師數據已就緒。揀個老師去睇成績數據。",
   "courseGradeStatsExamAverage": "平均考試分",
   "courseGradeStatsLoadFailed": "載入成績分佈失敗：{error}",
   "courseGradeStatsPrivacyThreshold": "為咗保障私隱，最少要 5 個樣本。",
@@ -4801,17 +4704,6 @@
   "courseMatchingTeacher": "教師",
   "courseMatchingSectionRangeError": "起始節次唔可以大過結束節次。",
   "courseMatchingCreditRangeError": "最小學分唔可以大過最大學分。",
-  "globalTimetableTermWithCount": "第 {term} 學期 · {count} 條",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "課程歷史",
   "globalTimetableHistoryHint": "喺全部已發布學期中檢索，由新到舊。",
   "globalTimetableHistoryEmpty": "冇符合嘅開課紀錄。",
@@ -4828,7 +4720,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "未下載過任何學期資料。",
   "globalTimetableDownloadsHint": "學期檔案嚟自 WHU-Master-Timetable 檔案站；下載之後可以離線檢索該學期。",
   "globalTimetableDownloadsRemoteInfo": "{count} 門課 · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -4845,7 +4736,6 @@
   "globalTimetableDownloadFailed": "下載失敗",
   "globalTimetableDeleteAll": "全部刪除",
   "globalTimetableDeleteAllConfirm": "刪除本機全部已下載學期？",
-  "globalTimetableSourceMode": "資料來源",
   "globalTimetableSourceAuto": "自動",
   "globalTimetableLocalMissing": "本機未下載呢個學期嘅資料。",
   "globalTimetableNoSlot": "無時段",
@@ -4911,7 +4801,6 @@
   "whuAuthSmsSendFailed": "驗證碼發送失敗，請檢查手機號後重試",
   "whuAuthSmsSendRequired": "請先向當前手機號獲取驗證碼",
   "whuAuthCaptchaLoadFailed": "安全驗證載入失敗，請關閉後重試",
-  "whuAuthLoginCredentialsError": "帳號、密碼或動態碼錯誤",
   "whuSmartCampusAuthFailedCasRequired": "智慧珞珈授權失敗，請重新登入武大統一認證。",
   "whuSmartCampusAuthFailedHttp": "智慧珞珈授權失敗（HTTP {statusCode}）。",
   "@whuSmartCampusAuthFailedHttp": {
@@ -5019,92 +4908,6 @@
   "aiDebugToolAllowlist": "允許列表 ({count})",
   "aiDebugToolkitLogTitle": "Toolkit 內部日誌",
   "settingsPrivacyDiagnosticsGmsUnavailable": "此設備冇 Google Play 服務，遙測功能已禁用。你嘅已儲存選擇會保留，待 Google Play 服務可用後恢復生效。",
-  "toolkitVerifyAgendaItemTitle": "測試日程項",
-  "toolkitVerifyAuthPrerequisite": "認證前置條件",
-  "toolkitVerifyAuthenticated": "已認證 · {subject}",
-  "toolkitVerifyAuthenticatedShort": "已登入",
-  "toolkitVerifyAutoApproveSubtitle": "全流程自動化時允許測試發起寫卡片並自動確認",
-  "toolkitVerifyAutoApproveTitle": "自動通過驗證類寫操作卡片",
-  "toolkitVerifyBlockReason": "標記阻塞原因",
-  "toolkitVerifyBlockReasonTitle": "請輸入阻塞原因",
-  "toolkitVerifyCheck": "靜態檢測: {code}",
-  "toolkitVerifyCheckCancelBlock": "取消阻塞檢測",
-  "toolkitVerifyCheckCleanup": "清理資源檢測",
-  "toolkitVerifyCheckConsistency": "模型一致性檢測",
-  "toolkitVerifyCheckJobQuery": "後臺任務查詢檢測",
-  "toolkitVerifyCheckJsonBudget": "JSON 預算限額檢測",
-  "toolkitVerifyCheckNoAutoConfirm": "禁止自動確認檢測",
-  "toolkitVerifyCheckNoChallenge": "冇 Challenge 模式檢測",
-  "toolkitVerifyCheckShellReject": "Shell 拒絕響應檢測",
-  "toolkitVerifyCheckWritePause": "寫入暫停檢測",
-  "toolkitVerifyCliButton": "併發跑全量 CLI 煙測試用例",
-  "toolkitVerifyCliProgress": "{msg} (系統已通過 {passed}/{total})",
-  "toolkitVerifyCliRunning": "CLI 自動化緊...",
-  "toolkitVerifyConfirmRecordConfirm": "生成記錄",
-  "toolkitVerifyConfirmRecordMessage": "{id} 包含寫操作，請確認測試記錄",
-  "toolkitVerifyConfirmRecordTitle": "生成測試記錄卡片",
-  "toolkitVerifyConfirmWaterCodeMessage": "測試發起嘅取水碼提取動作",
-  "toolkitVerifyConfirmWaterCodeTitle": "取水碼確認測試",
-  "toolkitVerifyConfirmWriteMessage": "工具 {toolId} 將執行寫入操作 ({reason})，確認執行嗎？",
-  "toolkitVerifyConfirmWriteTitle": "測試寫入動作確認",
-  "toolkitVerifyDeferred": "延遲處理",
-  "toolkitVerifyEvents": "最近流水線日誌",
-  "toolkitVerifyLuotopiaJwt": "Luotopia JWT 憑據",
-  "toolkitVerifyMarkFailed": "標記已失敗",
-  "toolkitVerifyMarkPassed": "標記已通過",
-  "toolkitVerifyMsgAppProbes": "執行 App 端探針...",
-  "toolkitVerifyMsgCliAborted": "CLI 煙測試已中斷",
-  "toolkitVerifyMsgCliFailed": "CLI 煙測試失敗 ({failed} 項未通過)",
-  "toolkitVerifyMsgCliNotRun": "CLI 煙測試未運行",
-  "toolkitVerifyMsgCliPassed": "CLI 煙測試全量通過",
-  "toolkitVerifyMsgCliSmoke": "執行 CLI 煙測試用例...",
-  "toolkitVerifyMsgDone": "流水線全量完成",
-  "toolkitVerifyMsgLuotopiaDeferred": "Luotopia JWT 認證稍後延遲驗證",
-  "toolkitVerifyMsgPrepareAuth": "準備賬號同認證憑據...",
-  "toolkitVerifyMsgPrepareGateway": "準備測試網關...",
-  "toolkitVerifyMsgRefreshWhuSession": "刷新武大 Session...",
-  "toolkitVerifyMsgTheoryChecks": "執行理論約束校驗...",
-  "toolkitVerifyMsgToolkitChain": "執行 Toolkit 組合測試...",
-  "toolkitVerifyMsgWaitingHuman": "等人工處理: {reason}",
-  "toolkitVerifyMsgWaitingStart": "等啓動全流程流水線...",
-  "toolkitVerifyMsgWaitingWhuLogin": "等登入武大統一身份認證...",
-  "toolkitVerifyMsgWhuFailed": "武大統一身份認證失敗",
-  "toolkitVerifyMsgWhuSessionFailed": "武大 Session 刷新失敗",
-  "toolkitVerifyNotAuthenticated": "未認證",
-  "toolkitVerifyNotifAgendaTitle": "測試日程提醒通知",
-  "toolkitVerifyNotifAgendaUpdated": "測試日程已更新",
-  "toolkitVerifyOpenAuth": "去登入認證",
-  "toolkitVerifyPipelineButton": "跑全量流水線",
-  "toolkitVerifyPipelineMessage": "步驟 {step}/{total}: {msg}",
-  "toolkitVerifyPipelineRunning": "全流程流水線執行緊...",
-  "toolkitVerifyProgress": "已通過 {passed} / {total}",
-  "toolkitVerifyRecord": "測試記錄",
-  "toolkitVerifySaveLog": "導出 JSON 報告",
-  "toolkitVerifySkipReason": "標記跳過原因",
-  "toolkitVerifySkipReasonTitle": "請輸入跳過原因",
-  "toolkitVerifyStage1": "階段一：賬號同憑據準備",
-  "toolkitVerifyStage1Desc": "驗證 WHU 統一身份認證同 Luotopia 憑據狀態",
-  "toolkitVerifyStage2": "階段二：理論一致性同靜態約束校驗",
-  "toolkitVerifyStage2Desc": "驗證模型規範、schema、權限同聲明一致性",
-  "toolkitVerifyStage3": "階段三：CLI 模擬器基礎工具打通",
-  "toolkitVerifyStage3Desc": "驗證 CLI 冇依賴基礎工具嘅調用同解析",
-  "toolkitVerifyStage4": "階段四：Toolkit 業務鏈路組合打通",
-  "toolkitVerifyStage4Desc": "驗證組合功能鏈路同上下文傳遞",
-  "toolkitVerifyStage5": "階段五：App 端內部探針",
-  "toolkitVerifyStage5Desc": "驗證 App 端內服務提供者同探針表現",
-  "toolkitVerifyStage6": "階段六：人工複覈同確認操作",
-  "toolkitVerifyStage6Desc": "人工驗證二次確認卡同攔截邏輯",
-  "toolkitVerifyStatusBlocked": "阻塞",
-  "toolkitVerifyStatusFailed": "失敗",
-  "toolkitVerifyStatusPassed": "已通過",
-  "toolkitVerifyStatusPending": "待測試",
-  "toolkitVerifyStatusRunning": "執行緊",
-  "toolkitVerifyStatusSkipped": "跳過",
-  "toolkitVerifyStatusWaiting": "等緊",
-  "toolkitVerifyTitle": "Toolkit CLI & 業務功能真實驗證卡",
-  "toolkitVerifyWaterCodeCancel": "取消",
-  "toolkitVerifyWaterCodeConfirm": "確認取水",
-  "toolkitVerifyWhuCas": "武大 CAS 認證",
   "waterElectricRoomTitle": "選擇水電房間",
   "waterElectricRoomNotice": "房間只會儲存喺本機，水電平臺唔會建立學生同房間嘅服務端繫結。",
   "waterElectricArea": "區域",
@@ -5238,7 +5041,6 @@
   "aiAssistantEmpty": "仲未建立助手",
   "aiAssistantUseGlobal": "使用全域設定",
   "aiAssistantDeleteConfirm": "刪除呢個助手？",
-  "aiClose": "關閉",
   "aiExport": "匯出",
   "aiShare": "分享",
   "aiCompressContext": "壓縮上下文",
@@ -5286,7 +5088,6 @@
   "aiSkillsEnabled": "已啟用 {count} 項技能",
   "aiMcp": "MCP",
   "aiMcpEmpty": "仲未設定 MCP 伺服器",
-  "aiMcpEnabled": "已連接 {count} 個 MCP 伺服器",
   "aiMcpAddServer": "新增伺服器",
   "aiMcpServersTitle": "MCP 伺服器",
   "aiMcpDescription": "MCP 伺服器令 Agent 可以呼叫你設定嘅端點上嘅工具。未連接同揀工具之前，唔會開放任何工具。",
@@ -5308,7 +5109,6 @@
   "aiMcpHeadersInvalid": "每一行都要係 名稱: 值 嘅格式",
   "aiMcpUrlInvalid": "請填 http(s) 絕對地址",
   "aiMcpDeleteConfirm": "刪除呢個 MCP 伺服器？",
-  "aiMcpTestConnection": "測試連接",
   "aiMcpStatusIdle": "未連接",
   "aiMcpStatusConnecting": "連接緊",
   "aiMcpStatusConnected": "已連接",
@@ -5324,7 +5124,6 @@
   "aiMcpServerEnabledHint": "停用之後唔會連接，佢嘅工具亦會從 Agent 目錄移除。",
   "aiMcpToolsHidden": "未開放俾 Agent",
   "aiMcpCatalogNote": "改動開放嘅工具會重建 Agent 嘅工具目錄。",
-  "aiMcpLastError": "上次錯誤",
   "aiMcpImportedCount": "已匯入 {count} 個伺服器",
   "aiAssistantActive": "目前生效",
   "aiAssistantsGlobalHint": "用「模型服務」頁嘅系統提示詞同參數。",
@@ -5342,17 +5141,12 @@
   "aiSkillFieldsRequired": "名稱、描述同指示都唔可以留空",
   "aiSkillInstructionsHint": "啟用呢個技能嗰陣傳送俾模型嘅指示",
   "settingsAiModelService": "模型服務",
-  "settingsAiModelServiceSubtitle": "提供商、密鑰、模型同採樣參數",
-  "settingsAiAssistantsSubtitle": "人設、系統提示詞同參數覆蓋",
-  "settingsAiWebSearchSubtitle": "開放網絡存取同搜尋提供者密鑰",
   "settingsAiWorkspaceSubtitle": "用量、清理同匯出",
   "settingsAiOverviewNotConfigured": "未設定",
-  "settingsAiModelsActiveProvider": "目前提供商",
   "settingsAiModelsOtherProviders": "其他提供商",
   "settingsAiModelsStoredCount": "已儲存 {count} 個模型",
   "settingsAiModelsSwitchHint": "切換提供商會載入佢已儲存嘅模型清單。",
   "settingsAiNoModelsHint": "先揀提供商，再攞佢嘅模型清單",
-  "settingsAiModelContextWindow": "上下文視窗（Token）",
   "settingsAiGroupModel": "模型",
   "settingsAiGroupCapabilities": "Agent 能力",
   "aiWebAccessOnSummary": "已開啟",
@@ -5520,8 +5314,6 @@
   "campusMapLayerAed": "AED 裝置",
   "campusMapLayerFacilities": "校園設施",
   "campusMapLayerBus": "校巴",
-  "campusMapLayerBusStops": "校巴站",
-  "campusMapLayerBusLines": "校巴路線",
   "campusMapOpenBus": "睇校巴時間表",
   "campusMapMyLocation": "我嘅位置",
   "campusMapLocationDenied": "需要授予定位權限",
@@ -5662,7 +5454,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "呢封郵件淨係有附件，請喺上面或者下面下載睇。",
-  "coremailSavingAttachment": "正在下載附件…",
   "coremailAttachmentSaved": "附件已經成功儲存",
   "coremailAttachmentSaveFailed": "儲存附件失敗：{error}",
   "@coremailAttachmentSaveFailed": {
@@ -5765,7 +5556,6 @@
   "campusAppEbike": "電動車",
   "ebikeProviderZhiyin": "小綠",
   "ebikeProviderMango": "小黃",
-  "settingsAccountEbikeTitle": "共享電動車帳號",
   "settingsAccountOtherTitle": "其他帳號",
   "settingsAccountOtherSubtitle": "郵箱、學習通同 VPN",
   "settingsOtherAccountsPageTitle": "其他帳號",
@@ -5774,7 +5564,6 @@
   "settingsOtherAccountsNotConfigured": "未配置",
   "ebikeAccountsTileNone": "未綁定",
   "ebikeAccountsPageTitle": "共享電動車帳號",
-  "ebikeAccountLinkAction": "綁定帳號",
   "ebikeAccountLinkedAt": "綁定於 {time}",
   "ebikeAccountUnlinkAction": "解除綁定",
   "ebikeAccountUnlinkConfirmTitle": "解除綁定",
@@ -5796,16 +5585,12 @@
   "ebikeLoginOpenIdRandomize": "隨機生成 openid",
   "ebikeLoginOpenIdInvalid": "微信 openid 格式唔正確：應該係 o 開頭嘅 28 位字符",
   "ebikeHubNotLinkedTitle": "未綁定{provider}帳號",
-  "ebikeHubNotLinkedAction": "去綁定",
   "ebikeHubRidingBanner": "騎行狀態",
   "ebikeHubUnpaidOrder": "有訂單未畀錢：{amount} 元",
   "ebikeHubActionUnlock": "用車",
   "ebikeHubActionCards": "乘車卡",
   "ebikeHubActionWallet": "銀包",
   "ebikeHubActionOrders": "行程訂單",
-  "ebikeHubBalance": "餘額",
-  "ebikeHubDeposit": "按金",
-  "ebikeHubRealNameMissing": "未完成實名認證",
   "ebikeCarIdDialogTitle": "輸入車輛編號",
   "ebikeCarIdDialogHint": "車牌號或者掃碼攞到嘅連結",
   "ebikeCarIdInvalid": "識別唔到車輛編號",
@@ -5901,7 +5686,6 @@
   "ebikeCardsPurchaseSuccess": "購買成功",
   "ebikeCardsEmpty": "暫時冇乘車卡發售",
   "ebikeCardsMineEmpty": "暫時冇可用嘅乘車卡",
-  "ebikeCardsMangoHint": "小黃乘車卡暫時唔支援喺 App 入面買，請去小黃小程式。",
   "ebikeWalletTitle": "銀包",
   "ebikeWalletBalance": "餘額",
   "ebikeWalletMangoCoin": "小黃餘額",
@@ -5913,17 +5697,10 @@
   "ebikeWalletRecharge": "增值",
   "ebikeWalletRechargeTitle": "餘額增值",
   "ebikeWalletRechargeViaCampus": "用校園卡增值 {amount} 元？",
-  "ebikeWalletRechargeUnavailable": "而家呢個服務區唔支援校園卡增值，請去官方小程式增值。",
   "ebikeWalletRechargeSuccess": "增值成功",
-  "ebikeWalletDepositRefund": "申請退按金",
-  "ebikeWalletDepositRefundTitle": "揀退款原因",
-  "ebikeWalletDepositRefundSuccess": "已經提交退款申請",
-  "ebikeWalletDepositRefundCancel": "撤銷退款申請",
-  "ebikeWalletDepositRefundCanceled": "已經撤銷退款申請",
   "ebikeWalletCampusCard": "校園卡",
   "ebikeWalletCampusCardBound": "已綁定（{name}）",
   "ebikeWalletCampusCardNotBound": "未綁定",
-  "ebikeWalletMangoRechargeHint": "小黃餘額增值請去小程式",
   "ebikeOrdersTitle": "行程訂單",
   "ebikeOrdersEmpty": "暫時冇訂單",
   "ebikeOrderId": "訂單號",
@@ -6021,6 +5798,9 @@
   "chaoxingLoginBadCredentials": "登入失敗：{message}",
   "chaoxingLoginCaptchaRequired": "伺服器要求人機驗證，請稍後再試，或者先喺官方 App 登入一次。",
   "chaoxingOperationFailed": "操作失敗：{error}",
+  "chaoxingArgsMissing": "頁面參數失效咗",
+  "chaoxingArgsMissingHint": "恢復唔到要顯示嘅活動，通常係因為應用喺呢個頁面打開期間重啟咗。請返回之後再入過。",
+  "chaoxingArgsMissingAction": "返回學習通",
   "chaoxingUniqueIdTitle": "裝置識別碼",
   "chaoxingUniqueIdSubtitle": "開發者工具：檢視或編輯上報俾學習通伺服器嘅 uniqueId",
   "chaoxingUniqueIdEmpty": "仲未產生，首次登入時會自動建立。",
@@ -6049,7 +5829,6 @@
   "chaoxingSignUseWeb": "用網頁版",
   "chaoxingSignUseWebSubtitle": "改用網頁完成呢次簽到",
   "chaoxingSignSubmit": "簽到",
-  "chaoxingSignSubmitting": "簽到緊…",
   "chaoxingSignSuccess": "簽到成功",
   "chaoxingSignAlready": "已經簽到過啦",
   "chaoxingSignLate": "簽到咗，但超過咗截止時間",
@@ -6059,11 +5838,12 @@
   "chaoxingSignCodeInvalid": "簽到碼唔啱",
   "chaoxingSignGestureHint": "喺下面九宮格畫出手勢",
   "chaoxingSignPhotoPick": "揀張相",
+  "chaoxingSignPhotoCamera": "影相",
+  "chaoxingSignPhotoGallery": "相簿",
   "chaoxingSignPhotoRetake": "重拍",
   "chaoxingSignPhotoRemove": "移除",
   "chaoxingSignPhotoRequired": "需要一張相",
   "chaoxingSignLocationRequired": "呢次簽到需要定位",
-  "chaoxingSignLocationLabel": "位置",
   "chaoxingSignKindPlain": "普通簽到",
   "chaoxingSignKindAntiCheat": "防作弊簽到",
   "chaoxingSignKindPhoto": "影相簽到",
@@ -6083,6 +5863,23 @@
   "chaoxingSignFaceNeedDevice": "人臉簽到要用「裝置註冊」方式登入學習通。請改用網頁版，或者用呢個選項重新登入。",
   "chaoxingSignFaceEnrollFailed": "人臉登記失敗：{message}",
   "chaoxingSignLocationUse": "會用你而家嘅位置",
+  "campusMapPickerTitle": "選擇位置",
+  "campusMapPickerHint": "㩒地圖落點，或者拖動圖釘微調",
+  "campusMapPickerResolving": "正在解析地址…",
+  "campusMapPickerNoAddress": "解析唔到地址，座標依然有效",
+  "campusMapPickerConfirm": "用呢個位置",
+  "chaoxingSignLocationSourceTitle": "位置來源",
+  "chaoxingSignLocationModeDevice": "我嘅位置",
+  "chaoxingSignLocationModePicked": "地圖選點",
+  "chaoxingSignLocationModeActivity": "簽到地點",
+  "chaoxingSignLocationPickNone": "仲未選點",
+  "chaoxingSignLocationPicked": "已經選擇：{name}",
+  "chaoxingSignLocationResolveUnreachable": "地理編碼服務連唔上，解析唔到「{name}」，請改用地圖選點",
+  "chaoxingSignLocationRange": "允許範圍：{metres} 公尺",
+  "chaoxingSignLocationResolving": "正在解析簽到地點…",
+  "chaoxingSignLocationUnspecified": "今次簽到冇指定地點，請改用「我嘅位置」或者「地圖選點」",
+  "chaoxingSignLocationResolveFailed": "解析唔到「{name}」嘅座標，請改用地圖選點",
+  "chaoxingSignLocationResolved": "已解析：{name} · {point}",
   "chaoxingScanTitle": "掃描簽到二維碼",
   "chaoxingScanHint": "對準老師展示嘅簽到二維碼",
   "chaoxingScanPermission": "要相機權限先掃到碼",

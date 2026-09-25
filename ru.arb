@@ -86,8 +86,6 @@
   "schoolNetProviderTelecom": "China Telecom",
   "schoolNetProviderUnicom": "China Unicom",
   "schoolNetProviderMobile": "China Mobile",
-  "settingsDevThemeLabTitle": "Лаборатория тем",
-  "settingsDevThemeLabSubtitle": "Предпросмотр основных компонентов в светлой и тёмной темах.",
   "whuNativeLoginRememberMobile": "Запомнить номер телефона",
   "whuNativeLoginTitle": "Вход в WHU",
   "whuNativeLoginHeading": "Вход через единую систему аутентификации WHU",
@@ -102,15 +100,6 @@
   "whuNativeLoginSubmit": "Войти",
   "whuNativeLoginStageSigningIn": "Вход в единую систему аутентификации…",
   "whuNativeLoginStageConfirmingIdentity": "Подтверждение личности…",
-  "whuNativeLoginStageFetching": "Вход выполнен — получение данных {source}…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "Вход выполнен — завершение…",
   "whuNativeLoginUseWeb": "Войти через веб-версию",
   "whuNativeLoginUseWebSubtitle": "Если встроенный вход не работает, используйте резервный вариант",
   "aiAssistant": "Ассистент",
@@ -294,7 +283,6 @@
   "commonRegistrationTime": "Время регистрации",
   "commonUsername": "Имя пользователя",
   "courseGridSettings": "Настройки сетки курсов",
-  "gradesReviewsScores": "Оценки",
   "gradesReviewsTitle": "Оценки и отзывы",
   "courseImport": "Импорт курсов",
   "courseImportSemester": "Семестр",
@@ -1127,7 +1115,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "Не удалось сопоставить курсы магистратуры с датами академического календаря. Проверьте, правильно ли выбран семестр.",
   "courseImportGraduateTermsUnrecognized": "Не удалось распознать семестры, возвращённые системой аспирантуры.",
   "courseImportStatusFailed": "Ошибка импорта: {error}",
   "@courseImportStatusFailed": {
@@ -1229,11 +1216,6 @@
   "aiConfirmationSubmit": "Отправить решения",
   "aiConfirmationDecisionRequired": "Для каждого действия выберите «Разрешить» или «Отменить».",
   "scorePageNoLocalScore": "Нет локальных оценок",
-  "scorePagePrivacyLocked": "Ведомость защищена замком конфиденциальности",
-  "scorePageClickToUnlock": "Нажмите, чтобы разблокировать",
-  "scorePageEnableBiometric": "Включить биометрический замок",
-  "scorePageBiometricHint": "Защитите оценки Face ID или отпечатком",
-  "scorePageBiometricAuthFailed": "Ошибка биометрии",
   "scorePageLoginHint": "Если не вошли — войдите в настройках.\nЗатем нажмите кнопку ниже, чтобы загрузить и синхронизировать оценки.",
   "scorePageSync": "Синхр. оценок",
   "scorePageTotalGpa": "Общий GPA",
@@ -1421,7 +1403,6 @@
   "settingsHomeGridBorderAlpha": "Непрозрачность границ сетки",
   "settingsHomeCropImage": "Обрезать изображение",
   "imageCropDesktopHint": "Перетащите, чтобы переместить · +/− — изменить область",
-  "imageCropDesktopHintSquare": "Перетащите, чтобы переместить · +/− — изменить квадратную область",
   "imageCropPresetDevice": "Пропорции экрана",
   "imageCropPresetOriginal": "Оригинал",
   "imageCropRatioFree": "Свободно",
@@ -1457,7 +1438,6 @@
   },
   "libraryClickForDetails": "Нажмите, чтобы увидеть этажи и места",
   "globalTimetableTitle": "Общее расписание",
-  "globalTimetablePlaceholder": "Общее расписание в разработке…",
   "globalTimetableCourseMatching": "Сопоставление курсов",
   "globalTimetableContribute": "Внести вклад в расписание",
   "globalTimetableLocalImport": "Импортировать на это устройство",
@@ -1563,15 +1543,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "Вход в учебную систему не удался. Войдите снова в CAS WHU.",
-  "gradesReviewsToolsTitle": "Оценки и отзывы",
-  "gradesReviewsToolsDescription": "Найдите курс, чтобы посмотреть оценки и отзывы.",
   "gradesReviewsSearchCourse": "Поиск курсов",
-  "gradesReviewsScoresSubtitle": "Найдите курс, чтобы увидеть распределение",
-  "gradesReviewsReviews": "Отзывы о курсе",
-  "gradesReviewsReviewsSubtitle": "Найдите курс, чтобы увидеть отзывы",
-  "gradesReviewsToolsSection": "Учебные инструменты",
-  "gradesReviewsSearchHintGrades": "Найдите курс для истории оценок",
-  "gradesReviewsSearchHintReviews": "Найдите курс для отзывов студентов",
   "gradesReviewsSearchHintNormal": "Поиск по названию, преподавателю или коду",
   "gradesReviewsSearchTitle": "Поиск курсов",
   "gradesReviewsEmptyTitle": "Найти любой курс",
@@ -1581,17 +1553,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -1638,7 +1599,6 @@
       }
     }
   },
-  "wakeupImportPlaceholder": "Парсер ссылок/кодов Wakeup ещё не подключён — пока только заглушка импорта.",
   "sportsReservationToday": "Сегодня",
   "sportsReservationTomorrow": "Завтра",
   "sportsReservationDayAfterTomorrow": "Послезавтра",
@@ -1991,14 +1951,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "Автопроверка (попытка {attempt})…",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -2598,9 +2550,7 @@
   "settingsWidgetsPinRequested": "Запрос на добавление виджета отправлен. Подтвердите на рабочем столе или добавьте вручную, если подсказка не появилась.",
   "settingsWidgetsPinAdded": "Виджет добавлен",
   "settingsWidgetsManualAddHint": "Долгое нажатие на пустую область рабочего стола, откройте «Виджеты» и найдите Luotopia, чтобы добавить виджет вручную.",
-  "settingsWidgetsAddManuallyAndroid": "Долгое нажатие на пустую область рабочего стола, откройте «Виджеты» и найдите Luotopia, чтобы добавить виджет вручную.",
   "settingsWidgetsPinSupportError": "Не удалось проверить, поддерживает ли лончер быстрое добавление. Виджет можно добавить вручную.",
-  "settingsWidgetsPinSubmitted": "Запрос отправлен лончеру; добавление пока не подтверждено. Следуйте подсказкам лончера или добавьте виджет вручную.",
   "settingsWidgetsPinConfirmed": "Лончер подтвердил добавление виджета.",
   "settingsWidgetsPinObserved": "Обнаружен новый экземпляр виджета. Проверьте его размещение на рабочем столе.",
   "settingsWidgetsPlatformsMacMenu": "Строка меню macOS",
@@ -2745,14 +2695,10 @@
   "authResetPassword": "Сбросить пароль",
   "authEmailVerifySuccess": "Почта подтверждена. Войдите снова.",
   "authPasswordResetSuccess": "Пароль сброшен. Войдите с новым паролем.",
-  "authSendResetLink": "Отправить ссылку",
-  "authResetRequested": "Если этот адрес зарегистрирован, письмо для сброса пароля должно прийти в течение нескольких минут. Если письма нет, проверьте папку со спамом и написание адреса.",
   "authLoginEmailUnverified": "Этот адрес электронной почты не подтверждён. Подтвердите его перед входом.",
   "authLoginAccountDisabled": "Эта учётная запись отключена. Обратитесь к администратору за помощью.",
   "authResendVerification": "Отправить подтверждение повторно",
   "authVerificationEmailPromptTitle": "Введите адрес электронной почты учётной записи",
-  "authVerificationEmailSent": "Если учётная запись существует и ещё требует подтверждения, письмо с подтверждением отправлено.",
-  "authVerificationEmailSendFailed": "Не удалось отправить письмо с подтверждением: {error}",
   "authMfaTitle": "Двухфакторная аутентификация",
   "authMfaEmailSent": "Код отправлен на {email}",
   "@authMfaEmailSent": {
@@ -3101,7 +3047,6 @@
       }
     }
   },
-  "authOldPassword": "Текущий пароль",
   "authNewPassword": "Новый пароль",
   "authPasswordChanged": "Пароль изменён. Войдите снова.",
   "authPasswordChangeFailed": "Не удалось изменить пароль: {error}",
@@ -3286,14 +3231,6 @@
   "forumReplyHint": "Будьте вежливы и не раскрывайте личную информацию.",
   "forumSend": "Отправить",
   "authPasswordResetEmail": "Электронная почта",
-  "authPasswordResetSendFailed": "Не удалось отправить: {error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMyPosts": "Мои публикации",
   "forumLikedPosts": "Понравившиеся публикации",
   "forumFavoritePosts": "Сохранённые публикации",
@@ -3330,16 +3267,7 @@
       }
     }
   },
-  "forumDraftPublished": "Черновик опубликован",
   "forumDraftEditTitle": "Изменить черновик",
-  "forumDraftLastEdited": "Изменено {time}",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "Несохранённые изменения",
   "forumUnsavedChangesMessage": "Опубликовать эту запись, сохранить как черновик или отменить?",
   "forumUnsavedChangesPublish": "Опубликовать",
@@ -3351,8 +3279,6 @@
   "forumUserCommentsTab": "Комментарии",
   "forumUserLikedTab": "Понравилось",
   "forumUserFavoritesTab": "Сохранённые",
-  "forumUserFollowersTab": "Подписчики",
-  "forumUserFollowingTab": "Подписки",
   "forumUserJoinedAt": "Присоединился {date}",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -3453,16 +3379,7 @@
   "forumBlockListSubtitle": "Заблокированные не могут подписываться на вас и отправлять вам сообщения.",
   "forumBlockListEmpty": "Вы никого не заблокировали.",
   "forumRelationListEmpty": "Здесь пока никого нет.",
-  "forumRelationListFailed": "Не удалось загрузить список: {error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "Сообщения",
-  "forumMessagesEntrySubtitle": "Личные сообщения с теми, на кого вы подписаны взаимно",
   "forumConversationsEmpty": "Сообщений пока нет",
   "forumConversationsEmptyHint": "Писать можно тем, с кем у вас взаимная подписка.",
   "forumChatInputHint": "Сообщение…",
@@ -3498,14 +3415,6 @@
   "forumReport": "Пожаловаться",
   "forumReportReason": "Причина",
   "forumReportSubmitted": "Жалоба отправлена.",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3686,7 +3595,6 @@
       }
     }
   },
-  "languageSystemSettings": "Настройки языка",
   "commonOk": "ОК",
   "whuAccountEducationalYearsValue": "{years} лет",
   "@whuAccountEducationalYearsValue": {
@@ -3989,7 +3897,6 @@
   "settingsBuildInfoBuildTime": "Время сборки",
   "courseImportSemesterAlreadyAdded": "Этот семестр уже добавлен. Выберите «Обновить расписание» в меню.",
   "waterControlClassNo": "Номер занятия {classNo}",
-  "forumImageFiles": "Изображения форума",
   "forumAttachmentFiles": "Вложения форума",
   "forumModerationAllSources": "Все источники",
   "forumModerationUnclaimed": "Не назначено",
@@ -4145,7 +4052,6 @@
     }
   },
   "campusBusPreviewCardSetting": "Превью прибытия автобуса",
-  "campusBusPreviewCardSettingIosHint": "Показывает информацию о прибытии в стеке виджетов",
   "campusBusPreviewCardSettingHint": "Показывает карточку превью на главном экране",
   "campusBusArrivalSelectTarget": "Выберите остановку",
   "campusBusArrivalLine": "Маршрут",
@@ -4539,7 +4445,6 @@
   "adminUserDetailReceivedLikes": "Полученные отметки «нравится»",
   "adminUserDetailWhuAccountData": "Данные учётной записи WHU",
   "adminUserDetailWhuAccountDataDescription": "Доступно только суперадминистраторам. Доступ журналируется.",
-  "adminUserDetailWhuAccount": "Учётная запись WHU",
   "adminUserDetailManagement": "Управление",
   "adminUserContentPostsTitle": "Публикации пользователя",
   "adminUserContentCommentsTitle": "Комментарии пользователя",
@@ -4760,7 +4665,6 @@
   "forumCheckinDone": "Сегодня уже отметились",
   "forumCheckinFixed": "Стабильный путь (+{amount})",
   "forumCheckinRandom": "Испытать удачу",
-  "forumCheckinRandomHint": "Долгосрочное среднее немного ниже стабильного пути",
   "forumCheckinSuccess": "+{amount} Кармы (серия {streak})",
   "forumCheckinTitle": "Ежедневная отметка",
   "forumCheckinTodo": "Отметиться",
@@ -4818,7 +4722,6 @@
   "forumLeaderboardTitle": "Рейтинг кармы",
   "forumModerationFlavorPending": "На модерации",
   "forumReportSubmittedFlavor": "Записано; ожидание ответа.",
-  "courseGradeStatsAllTeachersPrepared": "Данные всех преподавателей готовы. Выберите преподавателя для просмотра оценок.",
   "courseGradeStatsExamAverage": "Средний балл за экзамен",
   "courseGradeStatsLoadFailed": "Не удалось загрузить распределение оценок: {error}",
   "courseGradeStatsPrivacyThreshold": "Для защиты приватности требуется минимум 5 образцов.",
@@ -4929,17 +4832,6 @@
   "courseMatchingTeacher": "Преподаватель",
   "courseMatchingSectionRangeError": "Начальная пара не может быть позже конечной.",
   "courseMatchingCreditRangeError": "Минимальный кредит не может превышать максимальный.",
-  "globalTimetableTermWithCount": "Семестр {term} · записей: {count}",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "История курсов",
   "globalTimetableHistoryHint": "Поиск по всем опубликованным семестрам, сначала новые.",
   "globalTimetableHistoryEmpty": "Нет подходящих записей.",
@@ -4956,7 +4848,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "Семестры ещё не загружены.",
   "globalTimetableDownloadsHint": "Архивы семестров берутся с сайта архива WHU-Master-Timetable. Загруженные семестры доступны для офлайн-поиска.",
   "globalTimetableDownloadsRemoteInfo": "Курсов: {count} · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -4973,7 +4864,6 @@
   "globalTimetableDownloadFailed": "Ошибка загрузки",
   "globalTimetableDeleteAll": "Удалить все",
   "globalTimetableDeleteAllConfirm": "Удалить все загруженные семестры с устройства?",
-  "globalTimetableSourceMode": "Источник",
   "globalTimetableSourceAuto": "Авто",
   "globalTimetableLocalMissing": "Этот семестр ещё не загружен для офлайн-доступа.",
   "globalTimetableNoSlot": "Без расписания",
@@ -5039,7 +4929,6 @@
   "whuAuthSmsSendFailed": "Сбой отправки кода. Проверьте номер телефона и повторите попытку.",
   "whuAuthSmsSendRequired": "Сначала запросите код проверки для текущего номера телефона.",
   "whuAuthCaptchaLoadFailed": "Сбой загрузки проверки безопасности. Закройте и повторите попытку.",
-  "whuAuthLoginCredentialsError": "Неверный аккаунт, пароль или динамический код",
   "whuSmartCampusAuthFailedCasRequired": "Сбой авторизации Smart Luojia. Войдите повторно через WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Сбой авторизации Smart Luojia (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
@@ -5146,92 +5035,6 @@
   "aiDebugPromptWatchSyncNegativeLabel": "Синхронизация с часами (недоступно)",
   "aiDebugPromptHighRiskNegativeLabel": "Действия высокого риска (недоступно)",
   "aiDebugPromptResultUnknownLabel": "Саммари вопросов и ответов по правилу result_unknown",
-  "toolkitVerifyTitle": "Карточка реальной проверки Toolkit CLI и бизнес-функций",
-  "toolkitVerifyProgress": "Пройдено {passed} / {total}",
-  "toolkitVerifyPipelineMessage": "Шаг {step}/{total}: {msg}",
-  "toolkitVerifyAutoApproveTitle": "Автоодобрение карточек операций записи проверки",
-  "toolkitVerifyAutoApproveSubtitle": "Разрешить тесту инициировать карточки записи и подтверждать их автоматически при автоматизации полного конвейера",
-  "toolkitVerifyCliRunning": "Автоматизация CLI выполняется...",
-  "toolkitVerifyCliButton": "Запустить все случаи дымового теста CLI одновременно",
-  "toolkitVerifyCliProgress": "{msg} (система прошла {passed}/{total})",
-  "toolkitVerifyPipelineRunning": "Полный конвейер выполняется...",
-  "toolkitVerifyPipelineButton": "Запустить полный конвейер",
-  "toolkitVerifySaveLog": "Экспорт отчёта JSON",
-  "toolkitVerifyEvents": "Недавние журналы конвейера",
-  "toolkitVerifyStatusPending": "Ожидает",
-  "toolkitVerifyStatusRunning": "Выполняется",
-  "toolkitVerifyStatusPassed": "Пройдено",
-  "toolkitVerifyStatusFailed": "Не пройдено",
-  "toolkitVerifyStatusSkipped": "Пропущено",
-  "toolkitVerifyStatusWaiting": "Ожидание",
-  "toolkitVerifyStatusBlocked": "Заблокировано",
-  "toolkitVerifyMarkPassed": "Отметить как пройдено",
-  "toolkitVerifyMarkFailed": "Отметить как не пройдено",
-  "toolkitVerifyOpenAuth": "Перейти к аутентификации",
-  "toolkitVerifySkipReason": "Отметить причину пропуска",
-  "toolkitVerifyBlockReason": "Отметить причину блокировки",
-  "toolkitVerifyStage1": "Этап 1: Подготовка аккаунта и учётных данных",
-  "toolkitVerifyStage2": "Этап 2: Проверка теоретической согласованности и статических ограничений",
-  "toolkitVerifyStage3": "Этап 3: Интеграция базовых инструментов симулятора CLI",
-  "toolkitVerifyStage4": "Этап 4: Интеграция бизнес-цепочки Toolkit",
-  "toolkitVerifyStage5": "Этап 5: Внутренние пробы на стороне приложения",
-  "toolkitVerifyStage6": "Этап 6: Ручная проверка и подтверждение",
-  "toolkitVerifyStage1Desc": "Проверить унифицированную аутентификацию личности WHU и статус учётных данных Luotopia",
-  "toolkitVerifyStage2Desc": "Проверить согласованность спецификации модели, схемы, разрешений и объявлений",
-  "toolkitVerifyStage3Desc": "Проверить вызов и разбор базовых инструментов CLI без зависимостей",
-  "toolkitVerifyStage4Desc": "Проверить составную цепочку функций и передачу контекста",
-  "toolkitVerifyStage5Desc": "Проверить поставщиков сервисов на стороне приложения и поведение проб",
-  "toolkitVerifyStage6Desc": "Вручную проверить карточки вторичного подтверждения и логику перехвата",
-  "toolkitVerifyMsgWaitingStart": "Ожидание запуска полного конвейера...",
-  "toolkitVerifyMsgCliNotRun": "Дымовой тест CLI не запущен",
-  "toolkitVerifyMsgPrepareAuth": "Подготовка аккаунта и учётных данных аутентификации...",
-  "toolkitVerifyMsgWaitingWhuLogin": "Ожидание входа через унифицированную аутентификацию личности WHU...",
-  "toolkitVerifyMsgWhuFailed": "Сбой унифицированной аутентификации личности WHU",
-  "toolkitVerifyMsgRefreshWhuSession": "Обновление сессии WHU...",
-  "toolkitVerifyMsgWhuSessionFailed": "Сбой обновления сессии WHU",
-  "toolkitVerifyMsgLuotopiaDeferred": "Аутентификация JWT Luotopia отложена для последующей проверки",
-  "toolkitVerifyMsgTheoryChecks": "Выполнение проверок теоретических ограничений...",
-  "toolkitVerifyMsgCliSmoke": "Выполнение случаев дымового теста CLI...",
-  "toolkitVerifyMsgToolkitChain": "Выполнение тестов интеграции Toolkit...",
-  "toolkitVerifyMsgAppProbes": "Выполнение проб на стороне приложения...",
-  "toolkitVerifyMsgDone": "Конвейер полностью завершён",
-  "toolkitVerifyMsgWaitingHuman": "Ожидание ручной обработки: {reason}",
-  "toolkitVerifyMsgPrepareGateway": "Подготовка тестового шлюза...",
-  "toolkitVerifyMsgCliPassed": "Дымовой тест CLI полностью пройден",
-  "toolkitVerifyMsgCliFailed": "Дымовой тест CLI не пройден ({failed} случаев не пройдено)",
-  "toolkitVerifyMsgCliAborted": "Дымовой тест CLI прерван",
-  "toolkitVerifyConfirmWriteTitle": "Подтверждение действия записи теста",
-  "toolkitVerifyConfirmWriteMessage": "Инструмент {toolId} выполнит операцию записи ({reason}). Подтвердить выполнение?",
-  "toolkitVerifyConfirmWaterCodeTitle": "Тест подтверждения кода воды",
-  "toolkitVerifyConfirmWaterCodeMessage": "Действие извлечения кода воды, инициированное тестом",
-  "toolkitVerifyWaterCodeCancel": "Отмена",
-  "toolkitVerifyWaterCodeConfirm": "Подтвердить код воды",
-  "toolkitVerifySkipReasonTitle": "Введите причину пропуска",
-  "toolkitVerifyBlockReasonTitle": "Введите причину блокировки",
-  "toolkitVerifyRecord": "Запись теста",
-  "toolkitVerifyConfirmRecordTitle": "Создать карточку записи теста",
-  "toolkitVerifyConfirmRecordMessage": "{id} содержит операции записи. Подтвердите запись теста.",
-  "toolkitVerifyConfirmRecordConfirm": "Создать запись",
-  "toolkitVerifyNotifAgendaTitle": "Уведомление о напоминании повестки теста",
-  "toolkitVerifyNotifAgendaUpdated": "Тестовая повестка обновлена",
-  "toolkitVerifyAuthPrerequisite": "Предварительное условие аутентификации",
-  "toolkitVerifyWhuCas": "Аутентификация CAS WHU",
-  "toolkitVerifyAuthenticated": "Авторизован · {subject}",
-  "toolkitVerifyNotAuthenticated": "Не авторизован",
-  "toolkitVerifyLuotopiaJwt": "Учётные данные JWT Luotopia",
-  "toolkitVerifyDeferred": "Отложено",
-  "toolkitVerifyAuthenticatedShort": "Вход выполнен",
-  "toolkitVerifyAgendaItemTitle": "Элемент повестки теста",
-  "toolkitVerifyCheck": "Статическая проверка: {code}",
-  "toolkitVerifyCheckConsistency": "Проверка согласованности модели",
-  "toolkitVerifyCheckJobQuery": "Проверка запроса фоновых задач",
-  "toolkitVerifyCheckNoAutoConfirm": "Проверка отсутствия авто подтверждения",
-  "toolkitVerifyCheckNoChallenge": "Проверка режима без Challenge",
-  "toolkitVerifyCheckShellReject": "Проверка ответа отклонения Shell",
-  "toolkitVerifyCheckJsonBudget": "Проверка лимита бюджета JSON",
-  "toolkitVerifyCheckWritePause": "Проверка паузы записи",
-  "toolkitVerifyCheckCancelBlock": "Проверка блокировки отмены",
-  "toolkitVerifyCheckCleanup": "Проверка очистки ресурсов",
   "settingsPrivacyDiagnosticsGmsUnavailable": "Сервисы Google Play недоступны на этом устройстве. Функции телеметрии отключены, но ваши сохранённые предпочтения сохранены до тех пор, пока сервисы Google Play не станут доступны.",
   "waterElectricRoomTitle": "Выбрать комнату для оплаты воды и электричества",
   "waterElectricRoomNotice": "Выбор сохраняется только на этом устройстве. Школьный портал не привязывает ученика к комнате на своем сервере.",
@@ -5373,7 +5176,6 @@
   "aiAssistantEmpty": "Ассистенты ещё не созданы",
   "aiAssistantUseGlobal": "Использовать глобальные настройки",
   "aiAssistantDeleteConfirm": "Удалить этого ассистента?",
-  "aiClose": "Закрыть",
   "aiExport": "Экспортировать",
   "aiShare": "Поделиться",
   "aiCompressContext": "Сжать контекст",
@@ -5421,7 +5223,6 @@
   "aiSkillsEnabled": "Включено: {count}",
   "aiMcp": "MCP",
   "aiMcpEmpty": "Серверы MCP не настроены",
-  "aiMcpEnabled": "Подключено: {count}",
   "aiMcpAddServer": "Добавить сервер",
   "aiMcpServersTitle": "Серверы MCP",
   "aiMcpDescription": "Серверы MCP дают Agent инструменты с настроенных вами эндпоинтов. Инструменты недоступны, пока вы не подключите сервер и не выберете их.",
@@ -5443,7 +5244,6 @@
   "aiMcpHeadersInvalid": "Каждая строка должна быть парой Название: значение",
   "aiMcpUrlInvalid": "Введите абсолютный URL http(s)",
   "aiMcpDeleteConfirm": "Удалить этот сервер MCP?",
-  "aiMcpTestConnection": "Проверить подключение",
   "aiMcpStatusIdle": "Не подключено",
   "aiMcpStatusConnecting": "Подключение...",
   "aiMcpStatusConnected": "Подключено",
@@ -5459,7 +5259,6 @@
   "aiMcpServerEnabledHint": "Отключённый сервер не подключается, а его инструменты пропадают из каталога Agent.",
   "aiMcpToolsHidden": "Недоступно Agent",
   "aiMcpCatalogNote": "Изменение набора доступных инструментов пересобирает каталог инструментов Agent.",
-  "aiMcpLastError": "Последняя ошибка",
   "aiMcpImportedCount": "Импортировано серверов: {count}",
   "aiAssistantActive": "Активен",
   "aiAssistantsGlobalHint": "Использовать системный промпт и параметры со страницы «Сервис модели».",
@@ -5477,17 +5276,12 @@
   "aiSkillFieldsRequired": "Название, описание и инструкции обязательны",
   "aiSkillInstructionsHint": "Инструкции, которые модель получает при включении этого навыка",
   "settingsAiModelService": "Сервис модели",
-  "settingsAiModelServiceSubtitle": "Провайдер, ключи, модели и параметры генерации",
-  "settingsAiAssistantsSubtitle": "Образы, системные промпты и переопределение параметров",
-  "settingsAiWebSearchSubtitle": "Доступ к открытому вебу и ключи поисковых провайдеров",
   "settingsAiWorkspaceSubtitle": "Использование, очистка и экспорт",
   "settingsAiOverviewNotConfigured": "Не настроено",
-  "settingsAiModelsActiveProvider": "Текущий провайдер",
   "settingsAiModelsOtherProviders": "Другие провайдеры",
   "settingsAiModelsStoredCount": "Сохранено моделей: {count}",
   "settingsAiModelsSwitchHint": "При смене провайдера загружается сохранённый список его моделей.",
   "settingsAiNoModelsHint": "Выберите провайдера, затем загрузите его список моделей",
-  "settingsAiModelContextWindow": "Контекстное окно (токены)",
   "settingsAiGroupModel": "Модель",
   "settingsAiGroupCapabilities": "Возможности Agent",
   "aiWebAccessOnSummary": "Включено",
@@ -5558,8 +5352,6 @@
   "campusMapLayerAed": "Дефибрилляторы (AED)",
   "campusMapLayerFacilities": "Объекты кампуса",
   "campusMapLayerBus": "Автобус кампуса",
-  "campusMapLayerBusStops": "Остановки кампусного автобуса",
-  "campusMapLayerBusLines": "Маршруты кампусного автобуса",
   "campusMapOpenBus": "Расписание кампусного автобуса",
   "campusMapMyLocation": "Моё местоположение",
   "campusMapLocationDenied": "Требуется доступ к геолокации",
@@ -5700,7 +5492,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "Это сообщение содержит только вложения. Скачайте или просмотрите их выше или ниже.",
-  "coremailSavingAttachment": "Загрузка вложения…",
   "coremailAttachmentSaved": "Вложение успешно сохранено",
   "coremailAttachmentSaveFailed": "Не удалось сохранить вложение: {error}",
   "@coremailAttachmentSaveFailed": {
@@ -5803,7 +5594,6 @@
   "campusAppEbike": "Электросамокат",
   "ebikeProviderZhiyin": "Little Green",
   "ebikeProviderMango": "Little Yellow",
-  "settingsAccountEbikeTitle": "Аккаунты электросамокатов",
   "settingsAccountOtherTitle": "Другие аккаунты",
   "settingsAccountOtherSubtitle": "Почта, Chaoxing и VPN",
   "settingsOtherAccountsPageTitle": "Другие аккаунты",
@@ -5812,7 +5602,6 @@
   "settingsOtherAccountsNotConfigured": "Не настроено",
   "ebikeAccountsTileNone": "Не привязан",
   "ebikeAccountsPageTitle": "Аккаунты электросамокатов",
-  "ebikeAccountLinkAction": "Привязать аккаунт",
   "ebikeAccountLinkedAt": "Привязан {time}",
   "ebikeAccountUnlinkAction": "Отвязать",
   "ebikeAccountUnlinkConfirmTitle": "Отвязать аккаунт",
@@ -5834,16 +5623,12 @@
   "ebikeLoginOpenIdRandomize": "Сгенерировать случайный openid",
   "ebikeLoginOpenIdInvalid": "Неверный формат openid WeChat (28 символов, начинается с «o»)",
   "ebikeHubNotLinkedTitle": "Аккаунт {provider} не привязан",
-  "ebikeHubNotLinkedAction": "Привязать",
   "ebikeHubRidingBanner": "Статус поездки",
   "ebikeHubUnpaidOrder": "Неоплаченный заказ: {amount} юаней",
   "ebikeHubActionUnlock": "Поехать",
   "ebikeHubActionCards": "Проездные",
   "ebikeHubActionWallet": "Кошелёк",
   "ebikeHubActionOrders": "Поездки",
-  "ebikeHubBalance": "Баланс",
-  "ebikeHubDeposit": "Депозит",
-  "ebikeHubRealNameMissing": "Подтверждение личности не выполнено",
   "ebikeCarIdDialogTitle": "Введите номер самоката",
   "ebikeCarIdDialogHint": "Номер самоката или ссылка со сканированного QR-кода",
   "ebikeCarIdInvalid": "Не удалось распознать номер самоката",
@@ -5939,7 +5724,6 @@
   "ebikeCardsPurchaseSuccess": "Покупка выполнена",
   "ebikeCardsEmpty": "Нет проездных в продаже",
   "ebikeCardsMineEmpty": "Нет активных проездных",
-  "ebikeCardsMangoHint": "Проездные Little Yellow нельзя купить в приложении. Купите их в мини-программе Little Yellow.",
   "ebikeWalletTitle": "Кошелёк",
   "ebikeWalletBalance": "Баланс",
   "ebikeWalletMangoCoin": "Баланс Little Yellow",
@@ -5951,17 +5735,10 @@
   "ebikeWalletRecharge": "Пополнить",
   "ebikeWalletRechargeTitle": "Пополнение баланса",
   "ebikeWalletRechargeViaCampus": "Пополнить баланс на {amount} юаней с карты E-Card?",
-  "ebikeWalletRechargeUnavailable": "В этой зоне обслуживания пополнение с карты E-Card недоступно. Пополните баланс в официальной мини-программе.",
   "ebikeWalletRechargeSuccess": "Баланс пополнен",
-  "ebikeWalletDepositRefund": "Запросить возврат депозита",
-  "ebikeWalletDepositRefundTitle": "Причина возврата",
-  "ebikeWalletDepositRefundSuccess": "Заявка на возврат отправлена",
-  "ebikeWalletDepositRefundCancel": "Отменить заявку на возврат",
-  "ebikeWalletDepositRefundCanceled": "Заявка на возврат отменена",
   "ebikeWalletCampusCard": "Кампусная карта E-Card",
   "ebikeWalletCampusCardBound": "Привязана ({name})",
   "ebikeWalletCampusCardNotBound": "Не привязана",
-  "ebikeWalletMangoRechargeHint": "Пополнить баланс Little Yellow можно в мини-программе",
   "ebikeOrdersTitle": "Поездки",
   "ebikeOrdersEmpty": "Поездок пока нет",
   "ebikeOrderId": "Номер заказа",
@@ -6059,6 +5836,9 @@
   "chaoxingLoginBadCredentials": "Не удалось войти: {message}",
   "chaoxingLoginCaptchaRequired": "Сервер требует интерактивную проверку. Повторите попытку позже или сначала войдите один раз в официальном приложении.",
   "chaoxingOperationFailed": "Ошибка операции: {error}",
+  "chaoxingArgsMissing": "Эта страница потеряла свои параметры",
+  "chaoxingArgsMissingHint": "Не удалось восстановить отображаемую активность — обычно это происходит, когда приложение перезапускается при открытой странице. Вернитесь назад и откройте её снова.",
+  "chaoxingArgsMissingAction": "Назад к Chaoxing",
   "chaoxingUniqueIdTitle": "ID устройства",
   "chaoxingUniqueIdSubtitle": "Инструмент разработчика: просмотр или редактирование uniqueId, отправляемого на серверы Chaoxing",
   "chaoxingUniqueIdEmpty": "Ещё не сгенерирован. Создаётся автоматически при первом входе.",
@@ -6087,7 +5867,6 @@
   "chaoxingSignUseWeb": "Веб-версия",
   "chaoxingSignUseWebSubtitle": "Отметиться через веб-страницу",
   "chaoxingSignSubmit": "Отметиться",
-  "chaoxingSignSubmitting": "Отмечаем…",
   "chaoxingSignSuccess": "Отметка принята",
   "chaoxingSignAlready": "Вы уже отмечались",
   "chaoxingSignLate": "Отмечено, но срок уже прошёл",
@@ -6097,11 +5876,12 @@
   "chaoxingSignCodeInvalid": "Код не принят",
   "chaoxingSignGestureHint": "Нарисуйте жест на сетке ниже",
   "chaoxingSignPhotoPick": "Выбрать фото",
+  "chaoxingSignPhotoCamera": "Сделать фото",
+  "chaoxingSignPhotoGallery": "Галерея",
   "chaoxingSignPhotoRetake": "Переснять",
   "chaoxingSignPhotoRemove": "Удалить",
   "chaoxingSignPhotoRequired": "Нужна фотография",
   "chaoxingSignLocationRequired": "Для этой отметки нужна геолокация",
-  "chaoxingSignLocationLabel": "Место",
   "chaoxingSignKindPlain": "Обычная",
   "chaoxingSignKindAntiCheat": "Защита от списывания",
   "chaoxingSignKindPhoto": "Фото",
@@ -6121,6 +5901,23 @@
   "chaoxingSignFaceNeedDevice": "Для отметки с лицом нужен вход в Chaoxing с регистрацией устройства. Используйте веб-версию или войдите снова с этой опцией.",
   "chaoxingSignFaceEnrollFailed": "Не удалось зарегистрировать лицо: {message}",
   "chaoxingSignLocationUse": "Будет использовано ваше текущее местоположение",
+  "campusMapPickerTitle": "Выбрать место",
+  "campusMapPickerHint": "Нажмите на карту, чтобы поставить метку, или перетащите её для точной настройки",
+  "campusMapPickerResolving": "Определяем адрес…",
+  "campusMapPickerNoAddress": "Адрес не определён; координаты остаются в силе",
+  "campusMapPickerConfirm": "Использовать это место",
+  "chaoxingSignLocationSourceTitle": "Источник местоположения",
+  "chaoxingSignLocationModeDevice": "Моё местоположение",
+  "chaoxingSignLocationModePicked": "Выбрать на карте",
+  "chaoxingSignLocationModeActivity": "Место отметки",
+  "chaoxingSignLocationPickNone": "Точка ещё не выбрана",
+  "chaoxingSignLocationPicked": "Выбрано: {name}",
+  "chaoxingSignLocationResolveUnreachable": "Не удалось связаться с геокодером, чтобы определить «{name}»; выберите точку на карте",
+  "chaoxingSignLocationRange": "Допустимый радиус: {metres} м",
+  "chaoxingSignLocationResolving": "Определяем место отметки…",
+  "chaoxingSignLocationUnspecified": "У этой отметки не указано место; используйте своё местоположение или выберите точку на карте",
+  "chaoxingSignLocationResolveFailed": "Не удалось определить координаты «{name}»; выберите точку на карте",
+  "chaoxingSignLocationResolved": "Определено: {name} · {point}",
   "chaoxingScanTitle": "Сканировать код отметки",
   "chaoxingScanHint": "Наведите камеру на QR-код, который показывает преподаватель",
   "chaoxingScanPermission": "Для сканирования нужен доступ к камере",

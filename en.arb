@@ -442,7 +442,6 @@
   "commonRegistrationTime": "Registration time",
   "commonUsername": "Username",
   "courseGridSettings": "Course Grid Settings",
-  "gradesReviewsScores": "Grades",
   "gradesReviewsTitle": "Grades & Reviews",
   "courseImport": "Course Import",
   "courseImportSemester": "Semester",
@@ -745,7 +744,6 @@
   "k30Minutes": "30 minutes",
   "k3Hours": "3 hours",
   "languageLabel": "App language",
-  "languageSystemSettings": "Language settings",
   "listCompletedSection": "Completed {count}",
   "listMenuTitle": "Switch list tab",
   "listSettingsMenuTitle": "List settings",
@@ -1058,8 +1056,6 @@
   "screenOrientationAuto": "Auto",
   "screenOrientationPortrait": "Lock portrait",
   "screenOrientationLandscape": "Lock landscape",
-  "settingsDevThemeLabTitle": "Theme Lab",
-  "settingsDevThemeLabSubtitle": "Preview core components in light and dark themes.",
   "timetable": "Timetable",
   "timetableName": "Timetable name",
   "timetables": "Timetables",
@@ -1487,7 +1483,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "Graduate courses could not be matched to the academic calendar dates. Please check that the selected term is correct.",
   "courseImportGraduateTermsUnrecognized": "The terms returned by the graduate system could not be recognized.",
   "courseImportStatusFailed": "Import failed: {error}",
   "@courseImportStatusFailed": {
@@ -1565,7 +1560,6 @@
   "aiAssistantEmpty": "No assistants created",
   "aiAssistantUseGlobal": "Use global settings",
   "aiAssistantDeleteConfirm": "Delete this assistant?",
-  "aiClose": "Close",
   "aiExport": "Export",
   "aiShare": "Share",
   "aiCompressContext": "Compress context",
@@ -1655,14 +1649,6 @@
   },
   "aiMcp": "MCP",
   "aiMcpEmpty": "No MCP servers configured",
-  "aiMcpEnabled": "{count} connected",
-  "@aiMcpEnabled": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "aiMcpAddServer": "Add server",
   "aiMcpServersTitle": "MCP servers",
   "aiMcpDescription": "MCP servers give the Agent tools from endpoints you configure. Nothing is exposed until you connect a server and choose its tools.",
@@ -1698,7 +1684,6 @@
   "aiMcpHeadersInvalid": "Every line must be a Name: value pair",
   "aiMcpUrlInvalid": "Enter an absolute http(s) URL",
   "aiMcpDeleteConfirm": "Delete this MCP server?",
-  "aiMcpTestConnection": "Test connection",
   "aiMcpStatusIdle": "Not connected",
   "aiMcpStatusConnecting": "Connecting",
   "aiMcpStatusConnected": "Connected",
@@ -1721,7 +1706,6 @@
   "aiMcpServerEnabledHint": "A disabled server is not connected and its tools leave the Agent's catalog.",
   "aiMcpToolsHidden": "Not exposed to the Agent",
   "aiMcpCatalogNote": "Changing which tools are exposed rebuilds the Agent's tool catalog.",
-  "aiMcpLastError": "Last error",
   "aiMcpImportedCount": "{count} servers imported",
   "@aiMcpImportedCount": {
     "placeholders": {
@@ -1753,12 +1737,8 @@
   "aiSkillFieldsRequired": "Name, description and instructions are all required",
   "aiSkillInstructionsHint": "The instructions the model receives when this skill is enabled",
   "settingsAiModelService": "Model service",
-  "settingsAiModelServiceSubtitle": "Provider, credentials, models and sampling",
-  "settingsAiAssistantsSubtitle": "Personas, system prompts and parameter overrides",
-  "settingsAiWebSearchSubtitle": "Open-web access and search provider keys",
   "settingsAiWorkspaceSubtitle": "Usage, cleanup and export",
   "settingsAiOverviewNotConfigured": "Not configured",
-  "settingsAiModelsActiveProvider": "Current provider",
   "settingsAiModelsOtherProviders": "Other providers",
   "settingsAiModelsStoredCount": "{count} models stored",
   "@settingsAiModelsStoredCount": {
@@ -1770,7 +1750,6 @@
   },
   "settingsAiModelsSwitchHint": "Switching provider loads that provider's stored model list.",
   "settingsAiNoModelsHint": "Pick a provider, then fetch its model list",
-  "settingsAiModelContextWindow": "Context window (tokens)",
   "settingsAiGroupModel": "Model",
   "settingsAiGroupCapabilities": "Agent capabilities",
   "aiWebAccessOnSummary": "On",
@@ -1899,11 +1878,6 @@
     }
   },
   "scorePageNoLocalScore": "No local scores",
-  "scorePagePrivacyLocked": "Transcript is protected by privacy lock",
-  "scorePageClickToUnlock": "Tap to unlock",
-  "scorePageEnableBiometric": "Enable Biometric Lock",
-  "scorePageBiometricHint": "Protect your score privacy via Face ID or fingerprint",
-  "scorePageBiometricAuthFailed": "Biometric authentication failed",
   "scorePageLoginHint": "If not logged in, please login in settings.\nThen click the button below to fetch and sync scores.",
   "scorePageSync": "Sync Score Records",
   "scorePageTotalGpa": "Total GPA",
@@ -2056,7 +2030,6 @@
   "settingsHomeGridBorderAlpha": "Grid Border Opacity",
   "settingsHomeCropImage": "Crop Image",
   "imageCropDesktopHint": "Drag to move · use +/− to resize the crop",
-  "imageCropDesktopHintSquare": "Drag to move · use +/− to resize the square crop",
   "imageCropPresetDevice": "Screen ratio",
   "imageCropPresetOriginal": "Original",
   "imageCropRatioFree": "Free",
@@ -2092,7 +2065,6 @@
   },
   "libraryClickForDetails": "Tap to view floor and seat details",
   "globalTimetableTitle": "Global Timetable",
-  "globalTimetablePlaceholder": "Global timetable feature is under development...",
   "globalTimetableCourseMatching": "Course matching",
   "globalTimetableContribute": "Contribute timetable",
   "globalTimetableLocalImport": "Import to this device",
@@ -2262,15 +2234,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "Academic login failed, please re-login to WHU CAS.",
-  "gradesReviewsToolsTitle": "Course grades & reviews",
-  "gradesReviewsToolsDescription": "Search courses for grade distributions and student reviews.",
   "gradesReviewsSearchCourse": "Search courses",
-  "gradesReviewsScoresSubtitle": "Search a course to view grade distribution",
-  "gradesReviewsReviews": "Course Reviews",
-  "gradesReviewsReviewsSubtitle": "Search a course to view reviews",
-  "gradesReviewsToolsSection": "Academic Tools",
-  "gradesReviewsSearchHintGrades": "Search a course to view historical grade distribution",
-  "gradesReviewsSearchHintReviews": "Search a course to view student reviews",
   "gradesReviewsSearchHintNormal": "Search by course name, instructor name, or course code",
   "gradesReviewsSearchTitle": "Course Search",
   "gradesReviewsEmptyTitle": "Search any course",
@@ -2280,17 +2244,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -2365,7 +2318,6 @@
   "settingsHomeTimetableGroupsHint": "Primary appears solid; faded groups overlay at lower opacity. Uncheck individual timetables on the timetable page to hide them.",
   "homePickOverlappingItem": "Choose item",
   "homePickOverlappingSecondary": "Secondary group",
-  "wakeupImportPlaceholder": "Wakeup share link/code parser pending — current version provides an import flow placeholder only.",
   "sportsReservationToday": "Today",
   "sportsReservationTomorrow": "Tomorrow",
   "sportsReservationDayAfterTomorrow": "Day after tomorrow",
@@ -2647,7 +2599,6 @@
   "courseGradeStatsTeacherInputHint": "Search teachers, or leave empty to view all teachers",
   "courseGradeStatsTeacherClear": "Clear teacher",
   "courseGradeStatsTeacherSearch": "Search teacher",
-  "courseGradeStatsAllTeachersPrepared": "All teacher data is ready. Choose a teacher to view its grade data.",
   "itemDetailTimeRangeSeparator": "~",
   "aiMessageCount": "{count} messages",
   "@aiMessageCount": {
@@ -2771,14 +2722,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "Auto-verifying (attempt {attempt})...",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -3447,9 +3390,7 @@
   "settingsWidgetsPinUnsupported": "One-tap add is not supported. Long-press the home screen to add widgets manually.",
   "settingsWidgetsAddManuallyApple": "Long-press the Home Screen or Notification Center and search for Luotopia in the widget gallery.",
   "settingsWidgetsPinFailed": "Could not request pin. Please add the widget from the system gallery.",
-  "settingsWidgetsAddManuallyAndroid": "Long-press an empty area of your home screen, open Widgets, and find Luotopia to add a widget manually.",
   "settingsWidgetsPinSupportError": "Could not check whether your launcher supports one-tap add. You can still add widgets manually.",
-  "settingsWidgetsPinSubmitted": "Request submitted to your launcher; adding is not yet confirmed. Follow any launcher prompt, or add the widget manually.",
   "settingsWidgetsPinConfirmed": "Your launcher confirmed the widget was added.",
   "settingsWidgetsPinObserved": "A new widget instance was detected. Check your home screen for its placement.",
   "settingsWidgetsPlatformsMacMenu": "macOS menu bar",
@@ -3718,21 +3659,10 @@
   "authResetPassword": "Reset password",
   "authEmailVerifySuccess": "Email verified. Please sign in again.",
   "authPasswordResetSuccess": "Password reset. Please sign in with your new password.",
-  "authSendResetLink": "Send reset link",
-  "authResetRequested": "If this email is registered, the password reset email should arrive within a few minutes. If you do not receive it, check your spam folder and the spelling of the email address.",
   "authLoginEmailUnverified": "This email address has not been verified. Verify it before signing in.",
   "authLoginAccountDisabled": "This account has been disabled. Contact an administrator for assistance.",
   "authResendVerification": "Resend verification",
   "authVerificationEmailPromptTitle": "Enter your account email",
-  "authVerificationEmailSent": "If the account exists and still needs verification, a verification email has been sent.",
-  "authVerificationEmailSendFailed": "Unable to send verification email: {error}",
-  "@authVerificationEmailSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "authMfaTitle": "Two-factor authentication",
   "authMfaEmailSent": "A verification code was sent to {email}",
   "@authMfaEmailSent": {
@@ -4172,7 +4102,6 @@
       }
     }
   },
-  "authOldPassword": "Current password",
   "authNewPassword": "New password",
   "authPasswordChanged": "Password changed. Please sign in again.",
   "authPasswordChangeFailed": "Failed to change password: {error}",
@@ -4446,14 +4375,6 @@
   "forumReplyHint": "Be kind and do not share personal information.",
   "forumSend": "Send",
   "authPasswordResetEmail": "Email",
-  "authPasswordResetSendFailed": "Failed to send: {error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "courseReviewsMyReviews": "My reviews",
   "courseReviewsMyReviewsEmpty": "You have not submitted any reviews yet.",
   "courseReviewsStatusPending": "Pending review",
@@ -4525,16 +4446,7 @@
       }
     }
   },
-  "forumDraftPublished": "Draft published",
   "forumDraftEditTitle": "Edit draft",
-  "forumDraftLastEdited": "Edited {time}",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "Unsaved changes",
   "forumUnsavedChangesMessage": "Publish this post, keep it as a draft, or discard it?",
   "forumUnsavedChangesPublish": "Publish",
@@ -4546,8 +4458,6 @@
   "forumUserCommentsTab": "Comments",
   "forumUserLikedTab": "Likes",
   "forumUserFavoritesTab": "Saved",
-  "forumUserFollowersTab": "Followers",
-  "forumUserFollowingTab": "Following",
   "forumUserJoinedAt": "Joined {date}",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -4648,16 +4558,7 @@
   "forumBlockListSubtitle": "Blocked people cannot follow you or send you messages.",
   "forumBlockListEmpty": "You have not blocked anyone.",
   "forumRelationListEmpty": "No one here yet.",
-  "forumRelationListFailed": "Could not load this list: {error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "Messages",
-  "forumMessagesEntrySubtitle": "Direct messages with people you both follow",
   "forumConversationsEmpty": "No messages yet",
   "forumConversationsEmptyHint": "You can message someone once you follow each other.",
   "forumChatInputHint": "Message…",
@@ -4695,14 +4596,6 @@
   "forumReportSubmitted": "Report submitted.",
   "forumReportSubmittedFlavor": "Recorded; awaiting response.",
   "forumKarma": "Karma",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
@@ -4778,7 +4671,6 @@
     }
   },
   "forumCheckinRandom": "Trial of chance",
-  "forumCheckinRandomHint": "Long-run average slightly below the steady path",
   "forumCheckinDone": "Already checked in today",
   "forumCheckinSuccess": "+{amount} Karma (streak {streak})",
   "@forumCheckinSuccess": {
@@ -5248,15 +5140,6 @@
   "whuNativeLoginSubmit": "Sign in",
   "whuNativeLoginStageSigningIn": "Signing in to WHU CAS…",
   "whuNativeLoginStageConfirmingIdentity": "Confirming identity…",
-  "whuNativeLoginStageFetching": "Signed in — fetching {source} data…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "Signed in — finishing up…",
   "whuNativeLoginUseWeb": "Use web login",
   "@whuNativeLoginUseWeb": {
     "description": "Overflow menu item to switch from native CAS login to WebView method selection."
@@ -5328,7 +5211,6 @@
   "luotopiaResetPasswordStepCodeTitle": "Check your inbox",
   "courseImportSemesterAlreadyAdded": "This semester is already added. Choose “Update timetable” from the timetable menu.",
   "waterControlClassNo": "ClassNo {classNo}",
-  "forumImageFiles": "Forum images",
   "forumAttachmentFiles": "Forum attachments",
   "@waterControlClassNo": {
     "placeholders": {
@@ -5453,7 +5335,6 @@
   "aiProviderYi": "01.AI (Yi)",
   "aiProviderBaichuan": "Baichuan AI",
   "campusBusPreviewCardSetting": "Bus Arrival Preview",
-  "campusBusPreviewCardSettingIosHint": "Shows live arrival info in widget stack",
   "campusBusPreviewCardSettingHint": "Shows a preview card on the home screen",
   "campusBusArrivalSelectTarget": "Select Bus Stop",
   "campusBusArrivalLine": "Bus Line",
@@ -5774,7 +5655,6 @@
   "adminUserDetailReceivedLikes": "Received likes",
   "adminUserDetailWhuAccountData": "WHU account data",
   "adminUserDetailWhuAccountDataDescription": "Visible only to super administrators. This access is audited.",
-  "adminUserDetailWhuAccount": "WHU account",
   "adminUserDetailManagement": "Management",
   "adminUserContentPostsTitle": "User posts",
   "adminUserContentCommentsTitle": "User comments",
@@ -6049,17 +5929,6 @@
   "courseMatchingTeacher": "Teacher",
   "courseMatchingSectionRangeError": "Start section must not exceed end section.",
   "courseMatchingCreditRangeError": "Minimum credits must not exceed maximum credits.",
-  "globalTimetableTermWithCount": "Term {term} · {count} entries",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "Course history",
   "globalTimetableHistoryHint": "Search every published semester, newest first.",
   "globalTimetableHistoryEmpty": "No offerings matched this query.",
@@ -6076,7 +5945,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "No semesters downloaded yet.",
   "globalTimetableDownloadsHint": "Semester archives come from the WHU-Master-Timetable archive site. Downloaded semesters stay searchable offline.",
   "globalTimetableDownloadsRemoteInfo": "{count} courses · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -6093,7 +5961,6 @@
   "globalTimetableDownloadFailed": "Download failed",
   "globalTimetableDeleteAll": "Delete all",
   "globalTimetableDeleteAllConfirm": "Delete all downloaded semesters from this device?",
-  "globalTimetableSourceMode": "Source",
   "globalTimetableSourceAuto": "Auto",
   "globalTimetableLocalMissing": "This semester is not available offline yet.",
   "globalTimetableNoSlot": "No fixed slot",
@@ -6159,7 +6026,6 @@
   "whuAuthSmsSendFailed": "Failed to send verification code. Please check your phone number and try again.",
   "whuAuthSmsSendRequired": "Please send a verification code to the current phone number first.",
   "whuAuthCaptchaLoadFailed": "Security verification failed to load. Please close and try again.",
-  "whuAuthLoginCredentialsError": "Incorrect account, password, or dynamic code",
   "whuSmartCampusAuthFailedCasRequired": "Smart Luojia authorization failed. Please log in again via WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Smart Luojia authorization failed (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
@@ -6312,174 +6178,6 @@
   "aiDebugPromptWatchSyncNegativeLabel": "Watch Sync (Not Available)",
   "aiDebugPromptHighRiskNegativeLabel": "High-Risk Actions (Not Available)",
   "aiDebugPromptResultUnknownLabel": "result_unknown Rule Self-Q&A",
-  "toolkitVerifyTitle": "Toolkit CLI & Business Function Real Verification Card",
-  "toolkitVerifyProgress": "Passed {passed} / {total}",
-  "@toolkitVerifyProgress": {
-    "placeholders": {
-      "passed": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      }
-    }
-  },
-  "toolkitVerifyPipelineMessage": "Step {step}/{total}: {msg}",
-  "@toolkitVerifyPipelineMessage": {
-    "placeholders": {
-      "step": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      },
-      "msg": {
-        "type": "String"
-      }
-    }
-  },
-  "toolkitVerifyAutoApproveTitle": "Auto-approve Verification Write Operation Cards",
-  "toolkitVerifyAutoApproveSubtitle": "Allow test to initiate write cards and auto-confirm during full pipeline automation",
-  "toolkitVerifyCliRunning": "CLI automation running...",
-  "toolkitVerifyCliButton": "Run all CLI smoke test cases concurrently",
-  "toolkitVerifyCliProgress": "{msg} (system passed {passed}/{total})",
-  "@toolkitVerifyCliProgress": {
-    "placeholders": {
-      "msg": {
-        "type": "String"
-      },
-      "passed": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      }
-    }
-  },
-  "toolkitVerifyPipelineRunning": "Full pipeline running...",
-  "toolkitVerifyPipelineButton": "Run full pipeline",
-  "toolkitVerifySaveLog": "Export JSON report",
-  "toolkitVerifyEvents": "Recent pipeline logs",
-  "toolkitVerifyStatusPending": "Pending",
-  "toolkitVerifyStatusRunning": "Running",
-  "toolkitVerifyStatusPassed": "Passed",
-  "toolkitVerifyStatusFailed": "Failed",
-  "toolkitVerifyStatusSkipped": "Skipped",
-  "toolkitVerifyStatusWaiting": "Waiting",
-  "toolkitVerifyStatusBlocked": "Blocked",
-  "toolkitVerifyMarkPassed": "Mark as passed",
-  "toolkitVerifyMarkFailed": "Mark as failed",
-  "toolkitVerifyOpenAuth": "Go to authentication",
-  "toolkitVerifySkipReason": "Mark skip reason",
-  "toolkitVerifyBlockReason": "Mark block reason",
-  "toolkitVerifyStage1": "Stage 1: Account & Credential Preparation",
-  "toolkitVerifyStage2": "Stage 2: Theoretical Consistency & Static Constraint Verification",
-  "toolkitVerifyStage3": "Stage 3: CLI Simulator Basic Tool Integration",
-  "toolkitVerifyStage4": "Stage 4: Toolkit Business Chain Integration",
-  "toolkitVerifyStage5": "Stage 5: App-Side Internal Probes",
-  "toolkitVerifyStage6": "Stage 6: Manual Review & Confirmation",
-  "toolkitVerifyStage1Desc": "Verify WHU unified identity authentication and Luotopia credential status",
-  "toolkitVerifyStage2Desc": "Verify model spec, schema, permission, and declaration consistency",
-  "toolkitVerifyStage3Desc": "Verify CLI dependency-free basic tool invocation and parsing",
-  "toolkitVerifyStage4Desc": "Verify composite function chain and context passing",
-  "toolkitVerifyStage5Desc": "Verify app-side service providers and probe behavior",
-  "toolkitVerifyStage6Desc": "Manually verify secondary confirmation cards and interception logic",
-  "toolkitVerifyMsgWaitingStart": "Waiting to start full pipeline...",
-  "toolkitVerifyMsgCliNotRun": "CLI smoke test not run",
-  "toolkitVerifyMsgPrepareAuth": "Preparing account and auth credentials...",
-  "toolkitVerifyMsgWaitingWhuLogin": "Waiting for WHU unified identity authentication login...",
-  "toolkitVerifyMsgWhuFailed": "WHU unified identity authentication failed",
-  "toolkitVerifyMsgRefreshWhuSession": "Refreshing WHU Session...",
-  "toolkitVerifyMsgWhuSessionFailed": "WHU Session refresh failed",
-  "toolkitVerifyMsgLuotopiaDeferred": "Luotopia JWT authentication deferred for later verification",
-  "toolkitVerifyMsgTheoryChecks": "Running theory constraint checks...",
-  "toolkitVerifyMsgCliSmoke": "Running CLI smoke test cases...",
-  "toolkitVerifyMsgToolkitChain": "Running Toolkit integration tests...",
-  "toolkitVerifyMsgAppProbes": "Running app-side probes...",
-  "toolkitVerifyMsgDone": "Pipeline fully completed",
-  "toolkitVerifyMsgWaitingHuman": "Waiting for manual handling: {reason}",
-  "@toolkitVerifyMsgWaitingHuman": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
-      }
-    }
-  },
-  "toolkitVerifyMsgPrepareGateway": "Preparing test gateway...",
-  "toolkitVerifyMsgCliPassed": "CLI smoke test all passed",
-  "toolkitVerifyMsgCliFailed": "CLI smoke test failed ({failed} cases not passed)",
-  "@toolkitVerifyMsgCliFailed": {
-    "placeholders": {
-      "failed": {
-        "type": "int"
-      }
-    }
-  },
-  "toolkitVerifyMsgCliAborted": "CLI smoke test aborted",
-  "toolkitVerifyConfirmWriteTitle": "Test Write Action Confirmation",
-  "toolkitVerifyConfirmWriteMessage": "Tool {toolId} will perform a write operation ({reason}). Confirm execution?",
-  "@toolkitVerifyConfirmWriteMessage": {
-    "placeholders": {
-      "toolId": {
-        "type": "String"
-      },
-      "reason": {
-        "type": "String"
-      }
-    }
-  },
-  "toolkitVerifyConfirmWaterCodeTitle": "Water Code Confirmation Test",
-  "toolkitVerifyConfirmWaterCodeMessage": "Test-initiated water code extraction action",
-  "toolkitVerifyWaterCodeCancel": "Cancel",
-  "toolkitVerifyWaterCodeConfirm": "Confirm Water Code",
-  "toolkitVerifySkipReasonTitle": "Please enter skip reason",
-  "toolkitVerifyBlockReasonTitle": "Please enter block reason",
-  "toolkitVerifyRecord": "Test Record",
-  "toolkitVerifyConfirmRecordTitle": "Generate Test Record Card",
-  "toolkitVerifyConfirmRecordMessage": "{id} contains write operations. Please confirm the test record.",
-  "@toolkitVerifyConfirmRecordMessage": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "toolkitVerifyConfirmRecordConfirm": "Generate Record",
-  "toolkitVerifyNotifAgendaTitle": "Test Agenda Reminder Notification",
-  "toolkitVerifyNotifAgendaUpdated": "Test agenda updated",
-  "toolkitVerifyAuthPrerequisite": "Authentication Prerequisite",
-  "toolkitVerifyWhuCas": "WHU CAS Authentication",
-  "toolkitVerifyAuthenticated": "Authenticated · {subject}",
-  "@toolkitVerifyAuthenticated": {
-    "placeholders": {
-      "subject": {
-        "type": "String"
-      }
-    }
-  },
-  "toolkitVerifyNotAuthenticated": "Not authenticated",
-  "toolkitVerifyLuotopiaJwt": "Luotopia JWT Credential",
-  "toolkitVerifyDeferred": "Deferred",
-  "toolkitVerifyAuthenticatedShort": "Logged in",
-  "toolkitVerifyAgendaItemTitle": "Test Agenda Item",
-  "toolkitVerifyCheck": "Static check: {code}",
-  "@toolkitVerifyCheck": {
-    "description": "Static verification check result code.",
-    "placeholders": {
-      "code": {
-        "type": "String"
-      }
-    }
-  },
-  "toolkitVerifyCheckConsistency": "Model Consistency Check",
-  "toolkitVerifyCheckJobQuery": "Background Job Query Check",
-  "toolkitVerifyCheckNoAutoConfirm": "No Auto-Confirm Check",
-  "toolkitVerifyCheckNoChallenge": "No Challenge Mode Check",
-  "toolkitVerifyCheckShellReject": "Shell Rejection Response Check",
-  "toolkitVerifyCheckJsonBudget": "JSON Budget Limit Check",
-  "toolkitVerifyCheckWritePause": "Write Pause Check",
-  "toolkitVerifyCheckCancelBlock": "Cancel Block Check",
-  "toolkitVerifyCheckCleanup": "Cleanup Resource Check",
   "settingsPrivacyDiagnosticsGmsUnavailable": "Google Play Services is not available on this device. Telemetry features are disabled, but your saved preferences are kept for when Google Play Services becomes available.",
   "waterElectricRoomTitle": "Select utility room",
   "waterElectricRoomNotice": "The selection is stored only on this device. The school portal does not bind a student to a room on its server.",
@@ -6667,8 +6365,6 @@
   "campusMapLayerAed": "AED devices",
   "campusMapLayerFacilities": "Campus facilities",
   "campusMapLayerBus": "Shuttle bus",
-  "campusMapLayerBusStops": "Shuttle stops",
-  "campusMapLayerBusLines": "Shuttle routes",
   "campusMapOpenBus": "View shuttle schedule",
   "campusMapMyLocation": "My location",
   "campusMapLocationDenied": "Location permission is required",
@@ -6816,7 +6512,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "This message only contains attachments. Download or view them below.",
-  "coremailSavingAttachment": "Downloading attachment…",
   "coremailAttachmentSaved": "Attachment saved successfully",
   "coremailAttachmentSaveFailed": "Failed to save attachment: {error}",
   "@coremailAttachmentSaveFailed": {
@@ -6925,7 +6620,6 @@
   "@ebikeProviderMango": {
     "description": "WHU e-bike fleet brand nickname, not a colour label. Latin-script locales keep this English gloss on purpose; the Chinese locales use 小黃/小黄 and ja/ko transliterate it."
   },
-  "settingsAccountEbikeTitle": "E-bike Accounts",
   "settingsAccountOtherTitle": "Other Accounts",
   "settingsAccountOtherSubtitle": "Email, Chaoxing, and VPN",
   "settingsOtherAccountsPageTitle": "Other Accounts",
@@ -6934,7 +6628,6 @@
   "settingsOtherAccountsNotConfigured": "Not configured",
   "ebikeAccountsTileNone": "Not linked",
   "ebikeAccountsPageTitle": "E-bike Accounts",
-  "ebikeAccountLinkAction": "Link account",
   "ebikeAccountLinkedAt": "Linked {time}",
   "@ebikeAccountLinkedAt": {
     "placeholders": {
@@ -6984,7 +6677,6 @@
       }
     }
   },
-  "ebikeHubNotLinkedAction": "Link now",
   "ebikeHubRidingBanner": "Riding status",
   "ebikeHubUnpaidOrder": "Unpaid order: {amount} CNY",
   "@ebikeHubUnpaidOrder": {
@@ -6998,9 +6690,6 @@
   "ebikeHubActionCards": "Ride cards",
   "ebikeHubActionWallet": "Wallet",
   "ebikeHubActionOrders": "Trips",
-  "ebikeHubBalance": "Balance",
-  "ebikeHubDeposit": "Deposit",
-  "ebikeHubRealNameMissing": "Real-name verification missing",
   "ebikeCarIdDialogTitle": "Unlock a vehicle",
   "ebikeCarIdDialogHint": "Vehicle number or scanned QR link",
   "ebikeCarIdInvalid": "Could not recognize a vehicle number",
@@ -7154,7 +6843,6 @@
   "ebikeCardsPurchaseSuccess": "Purchase successful",
   "ebikeCardsEmpty": "No cards on sale",
   "ebikeCardsMineEmpty": "No active cards",
-  "ebikeCardsMangoHint": "Little Yellow cards cannot be purchased in-app. Buy them in the Little Yellow mini-program.",
   "ebikeWalletTitle": "Wallet",
   "ebikeWalletBalance": "Balance",
   "ebikeWalletMangoCoin": "Little Yellow balance",
@@ -7173,13 +6861,7 @@
       }
     }
   },
-  "ebikeWalletRechargeUnavailable": "Campus-card top-up is unavailable in this service area. Top up in the official mini-program.",
   "ebikeWalletRechargeSuccess": "Top-up successful",
-  "ebikeWalletDepositRefund": "Request deposit refund",
-  "ebikeWalletDepositRefundTitle": "Refund reason",
-  "ebikeWalletDepositRefundSuccess": "Refund requested",
-  "ebikeWalletDepositRefundCancel": "Cancel refund request",
-  "ebikeWalletDepositRefundCanceled": "Refund request canceled",
   "ebikeWalletCampusCard": "Campus card",
   "ebikeWalletCampusCardBound": "Bound ({name})",
   "@ebikeWalletCampusCardBound": {
@@ -7190,7 +6872,6 @@
     }
   },
   "ebikeWalletCampusCardNotBound": "Not bound",
-  "ebikeWalletMangoRechargeHint": "Top up the Little Yellow balance in the mini-program",
   "ebikeOrdersTitle": "Trips",
   "ebikeOrdersEmpty": "No trips yet",
   "ebikeOrderId": "Order ID",
@@ -7315,6 +6996,9 @@
       }
     }
   },
+  "chaoxingArgsMissing": "This page lost its parameters",
+  "chaoxingArgsMissingHint": "The activity it was showing could not be restored — usually because the app restarted while this page was open. Go back and open it again.",
+  "chaoxingArgsMissingAction": "Back to Chaoxing",
   "chaoxingUniqueIdTitle": "Device ID",
   "chaoxingUniqueIdSubtitle": "Developer tool: view or edit the uniqueId reported to Chaoxing servers",
   "chaoxingUniqueIdEmpty": "Not generated yet. It is created automatically at the first login.",
@@ -7343,7 +7027,6 @@
   "chaoxingSignUseWeb": "Use web version",
   "chaoxingSignUseWebSubtitle": "Open this sign-in in a web page instead",
   "chaoxingSignSubmit": "Sign in",
-  "chaoxingSignSubmitting": "Signing in…",
   "chaoxingSignSuccess": "Signed in",
   "chaoxingSignAlready": "Already signed in",
   "chaoxingSignLate": "Signed in, but past the deadline",
@@ -7367,11 +7050,12 @@
   "chaoxingSignCodeInvalid": "That code was not accepted",
   "chaoxingSignGestureHint": "Draw the gesture on the grid below",
   "chaoxingSignPhotoPick": "Choose a photo",
+  "chaoxingSignPhotoCamera": "Take photo",
+  "chaoxingSignPhotoGallery": "Gallery",
   "chaoxingSignPhotoRetake": "Retake",
   "chaoxingSignPhotoRemove": "Remove",
   "chaoxingSignPhotoRequired": "A photo is required",
   "chaoxingSignLocationRequired": "Location is required for this sign-in",
-  "chaoxingSignLocationLabel": "Location",
   "chaoxingSignKindPlain": "Plain",
   "chaoxingSignKindAntiCheat": "Anti-cheat",
   "chaoxingSignKindPhoto": "Photo",
@@ -7398,6 +7082,61 @@
     }
   },
   "chaoxingSignLocationUse": "Your current location will be used",
+  "campusMapPickerTitle": "Pick a location",
+  "campusMapPickerHint": "Tap the map to drop the pin, or drag it to fine-tune",
+  "campusMapPickerResolving": "Resolving address…",
+  "campusMapPickerNoAddress": "No address resolved — the coordinates still apply",
+  "campusMapPickerConfirm": "Use this location",
+  "chaoxingSignLocationSourceTitle": "Location source",
+  "chaoxingSignLocationModeDevice": "My location",
+  "chaoxingSignLocationModePicked": "Pick on map",
+  "chaoxingSignLocationModeActivity": "Sign-in location",
+  "chaoxingSignLocationPickNone": "No point chosen yet",
+  "chaoxingSignLocationPicked": "Chosen: {name}",
+  "@chaoxingSignLocationPicked": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingSignLocationResolveUnreachable": "Could not reach the geocoder to resolve {name}; pick a point on the map instead",
+  "@chaoxingSignLocationResolveUnreachable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingSignLocationRange": "Allowed radius: {metres} m",
+  "@chaoxingSignLocationRange": {
+    "placeholders": {
+      "metres": {
+        "type": "int"
+      }
+    }
+  },
+  "chaoxingSignLocationResolving": "Resolving the sign-in location…",
+  "chaoxingSignLocationUnspecified": "This sign-in has no specified location; use your own location or pick one on the map",
+  "chaoxingSignLocationResolveFailed": "Could not resolve coordinates for {name}; pick a point on the map instead",
+  "@chaoxingSignLocationResolveFailed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingSignLocationResolved": "Resolved: {name} · {point}",
+  "@chaoxingSignLocationResolved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "point": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingScanTitle": "Scan sign-in code",
   "chaoxingScanHint": "Point the camera at the QR code the teacher displays",
   "chaoxingScanPermission": "Camera access is needed to scan the code",
