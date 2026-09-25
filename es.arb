@@ -6326,11 +6326,23 @@
   "chaoxingRegisterDeviceHint": "Inicia sesión como la app oficial. Un dispositivo nuevo debe verificarse primero.",
   "chaoxingDeviceVerifyTitle": "Verificar este dispositivo",
   "chaoxingDeviceVerifyPrompt": "Toca en orden: {chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "Incorrecto. Prueba con la nueva imagen.",
   "chaoxingDeviceVerifySmsTitle": "Introduce el código SMS",
   "chaoxingDeviceVerifySmsHint": "Enviado a {phone}",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "Código de la imagen",
   "chaoxingDeviceVerifyPasswordReset": "El servidor exige restablecer la contraseña antes de registrar este dispositivo. Cámbiala en la app oficial y vuelve a intentarlo.",
   "imageSaved": "Guardado",
@@ -7086,5 +7098,23 @@
   "diningScopeAll": "Todos",
   "diningScopeCampus": "Dentro del campus",
   "diningScopeOffCampus": "Fuera del campus",
-  "diningRatingLoadFailed": "No se pudieron cargar las valoraciones. Reintenta."
+  "diningRatingLoadFailed": "No se pudieron cargar las valoraciones. Reintenta.",
+  "aiScrollToBottom": "Ir a lo más reciente",
+  "aiWelcomeTitle": "¿En qué puedo ayudarte?",
+  "aiWelcomeSubtitle": "Puedo consultar tu horario y agenda y gestionar trámites del campus. Te pediré permiso antes de cualquier acción que lo requiera.",
+  "aiSuggestionTodayCourses": "¿Qué clases tengo hoy?",
+  "aiSuggestionWeather": "¿Necesito paraguas hoy?",
+  "aiSuggestionDormUtility": "¿Cuánto saldo eléctrico queda en mi residencia?",
+  "aiSuggestionUnreadMail": "¿Tengo correos nuevos?",
+  "aiThoughtForSeconds": "Pensó durante {seconds} s",
+  "aiUsedToolsCount": "Usó {count} herramientas",
+  "aiToolsFailedCount": "{count} fallidas",
+  "aiRunStopped": "Detenido",
+  "aiRunIncomplete": "Incompleto",
+  "aiRunRetried": "Se perdió la conexión — reintento automático",
+  "aiEditMessage": "Editar",
+  "aiRegenerateFromHere": "Regenerar desde aquí",
+  "aiBranchPrevious": "Versión anterior",
+  "aiBranchNext": "Versión siguiente",
+  "aiDeleteTurnConfirm": "{count, plural, =0{¿Eliminar este mensaje?} other{¿Eliminar este mensaje y los {count} posteriores? No se puede deshacer.}}"
 }

@@ -1801,9 +1801,27 @@
   "forumTimeMinutesAgo": "{n} min ago",
   "forumTimeHoursAgo": "{n} hr ago",
   "forumTimeYesterday": "Yesterday {time}",
-  "@forumTimeMinutesAgo": { "placeholders": { "n": { "type": "int" } } },
-  "@forumTimeHoursAgo": { "placeholders": { "n": { "type": "int" } } },
-  "@forumTimeYesterday": { "placeholders": { "time": { "type": "String" } } },
+  "@forumTimeMinutesAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@forumTimeHoursAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@forumTimeYesterday": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "aiYesterday": "Yesterday",
   "aiPin": "Pin",
   "aiUnpin": "Unpin",
@@ -8444,5 +8462,97 @@
   "diningScopeAll": "All",
   "diningScopeCampus": "On campus",
   "diningScopeOffCampus": "Off campus",
-  "diningRatingLoadFailed": "Could not load ratings. Please retry."
+  "diningRatingLoadFailed": "Could not load ratings. Please retry.",
+  "aiScrollToBottom": "Jump to latest",
+  "@aiScrollToBottom": {
+    "description": "Scroll the AI conversation to its latest message."
+  },
+  "aiWelcomeTitle": "How can I help?",
+  "@aiWelcomeTitle": {
+    "description": "Heading of the empty AI conversation."
+  },
+  "aiWelcomeSubtitle": "I can check your timetable and agenda and handle campus tasks. I'll ask before doing anything that needs your approval.",
+  "@aiWelcomeSubtitle": {
+    "description": "Explanation of AI capabilities on the empty conversation."
+  },
+  "aiSuggestionTodayCourses": "What classes do I have today?",
+  "@aiSuggestionTodayCourses": {
+    "description": "Suggested prompt about today’s classes."
+  },
+  "aiSuggestionWeather": "Do I need an umbrella today?",
+  "@aiSuggestionWeather": {
+    "description": "Suggested prompt about the weather."
+  },
+  "aiSuggestionDormUtility": "How much dorm electricity credit is left?",
+  "@aiSuggestionDormUtility": {
+    "description": "Suggested prompt about dorm electricity credit."
+  },
+  "aiSuggestionUnreadMail": "Any new emails for me?",
+  "@aiSuggestionUnreadMail": {
+    "description": "Suggested prompt about unread emails."
+  },
+  "aiThoughtForSeconds": "Thought for {seconds}s",
+  "@aiThoughtForSeconds": {
+    "description": "Elapsed time spent generating reasoning for an AI run.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "aiUsedToolsCount": "{count, plural, =1{Used 1 tool} other{Used {count} tools}}",
+  "@aiUsedToolsCount": {
+    "description": "Number of tool calls in an AI run.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiToolsFailedCount": "{count} failed",
+  "@aiToolsFailedCount": {
+    "description": "Number of failed tool calls.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRunStopped": "Stopped",
+  "@aiRunStopped": {
+    "description": "Status marker for a stopped AI response."
+  },
+  "aiRunIncomplete": "Incomplete",
+  "@aiRunIncomplete": {
+    "description": "Status marker for an incomplete AI response."
+  },
+  "aiRunRetried": "Connection lost — retried automatically",
+  "@aiRunRetried": {
+    "description": "Status marker for a response automatically retried after a connection failure."
+  },
+  "aiEditMessage": "Edit",
+  "@aiEditMessage": {
+    "description": "Edit a user message inline."
+  },
+  "aiRegenerateFromHere": "Regenerate from here",
+  "@aiRegenerateFromHere": {
+    "description": "Create a new branch and regenerate from this turn."
+  },
+  "aiBranchPrevious": "Previous version",
+  "@aiBranchPrevious": {
+    "description": "Select the previous user-message branch."
+  },
+  "aiBranchNext": "Next version",
+  "@aiBranchNext": {
+    "description": "Select the next user-message branch."
+  },
+  "aiDeleteTurnConfirm": "{count, plural, =0{Delete this message?} other{Delete this message and the {count} after it? This can't be undone.}}",
+  "@aiDeleteTurnConfirm": {
+    "description": "Confirmation message for deleting a user turn and its descendants.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
 }

@@ -6347,11 +6347,23 @@
   "chaoxingRegisterDeviceHint": "공식 앱으로 로그인합니다. 새 기기는 먼저 인증해야 합니다.",
   "chaoxingDeviceVerifyTitle": "기기 인증",
   "chaoxingDeviceVerifyPrompt": "순서대로 누르세요: {chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "틀렸습니다. 새 이미지로 다시 시도하세요.",
   "chaoxingDeviceVerifySmsTitle": "SMS 코드 입력",
   "chaoxingDeviceVerifySmsHint": "{phone}(으)로 전송됨",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "이미지 코드",
   "chaoxingDeviceVerifyPasswordReset": "이 기기를 등록하려면 먼저 비밀번호를 재설정해야 합니다. 공식 앱에서 변경한 뒤 다시 시도하세요.",
   "imageSaved": "저장됨",
@@ -7107,5 +7119,23 @@
   "diningScopeAll": "전체",
   "diningScopeCampus": "교내",
   "diningScopeOffCampus": "교외",
-  "diningRatingLoadFailed": "평점을 불러오지 못했습니다. 다시 시도하세요."
+  "diningRatingLoadFailed": "평점을 불러오지 못했습니다. 다시 시도하세요.",
+  "aiScrollToBottom": "최신 메시지로 이동",
+  "aiWelcomeTitle": "무엇을 도와드릴까요?",
+  "aiWelcomeSubtitle": "시간표와 일정을 확인하고 캠퍼스 업무를 처리할 수 있습니다. 승인이 필요한 작업은 먼저 여쭤볼게요.",
+  "aiSuggestionTodayCourses": "오늘 수업이 뭐야?",
+  "aiSuggestionWeather": "오늘 우산이 필요할까?",
+  "aiSuggestionDormUtility": "기숙사 전기 잔액이 얼마야?",
+  "aiSuggestionUnreadMail": "새 이메일이 있는지 확인해 줘",
+  "aiThoughtForSeconds": "{seconds}초 동안 생각함",
+  "aiUsedToolsCount": "도구 {count}개 사용",
+  "aiToolsFailedCount": "{count}개 실패",
+  "aiRunStopped": "중지됨",
+  "aiRunIncomplete": "완료되지 않음",
+  "aiRunRetried": "연결이 끊겨 자동으로 다시 시도했습니다",
+  "aiEditMessage": "편집",
+  "aiRegenerateFromHere": "여기서 다시 생성",
+  "aiBranchPrevious": "이전 버전",
+  "aiBranchNext": "다음 버전",
+  "aiDeleteTurnConfirm": "{count, plural, =0{이 메시지를 삭제할까요?} other{이 메시지와 이후 {count}개를 삭제할까요? 취소할 수 없습니다.}}"
 }

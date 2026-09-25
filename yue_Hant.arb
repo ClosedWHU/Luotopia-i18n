@@ -6278,11 +6278,23 @@
   "chaoxingRegisterDeviceHint": "用官方客戶端身份登入。新裝置要先通過驗證。",
   "chaoxingDeviceVerifyTitle": "驗證呢部裝置",
   "chaoxingDeviceVerifyPrompt": "請依次點擊：{chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "唔啱，換一張再試。",
   "chaoxingDeviceVerifySmsTitle": "輸入短訊驗證碼",
   "chaoxingDeviceVerifySmsHint": "已發送到 {phone}",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "圖片驗證碼",
   "chaoxingDeviceVerifyPasswordReset": "伺服器要求先重設密碼先可以註冊呢部裝置。請喺官方 App 改完再試。",
   "imageSaved": "已儲存",
@@ -7038,5 +7050,23 @@
   "diningScopeAll": "全部",
   "diningScopeCampus": "校內",
   "diningScopeOffCampus": "校外",
-  "diningRatingLoadFailed": "評分載入失敗，請重試"
+  "diningRatingLoadFailed": "評分載入失敗，請重試",
+  "aiScrollToBottom": "返到底部",
+  "aiWelcomeTitle": "有咩可以幫到你？",
+  "aiWelcomeSubtitle": "我可以睇課程表同日程、處理校園事務，要你確認嘅操作會先問你。",
+  "aiSuggestionTodayCourses": "今日有咩堂？",
+  "aiSuggestionWeather": "今日出門要帶遮嗎？",
+  "aiSuggestionDormUtility": "宿舍電費仲有幾多？",
+  "aiSuggestionUnreadMail": "幫我睇下有冇新郵件",
+  "aiThoughtForSeconds": "諗咗 {seconds} 秒",
+  "aiUsedToolsCount": "呼叫咗 {count} 個工具",
+  "aiToolsFailedCount": "{count} 個失敗",
+  "aiRunStopped": "已停止",
+  "aiRunIncomplete": "未完成",
+  "aiRunRetried": "連線中斷，已自動重試",
+  "aiEditMessage": "編輯",
+  "aiRegenerateFromHere": "由呢度重新生成",
+  "aiBranchPrevious": "上一個版本",
+  "aiBranchNext": "下一個版本",
+  "aiDeleteTurnConfirm": "{count, plural, =0{刪除呢條訊息？} other{刪除呢條訊息同之後嘅 {count} 條訊息？呢個操作無法撤銷。}}"
 }

@@ -6326,11 +6326,23 @@
   "chaoxingRegisterDeviceHint": "Connexion en tant qu'application officielle. Un nouvel appareil doit d'abord être vérifié.",
   "chaoxingDeviceVerifyTitle": "Vérifier cet appareil",
   "chaoxingDeviceVerifyPrompt": "Touchez dans l'ordre : {chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "Incorrect. Réessayez avec la nouvelle image.",
   "chaoxingDeviceVerifySmsTitle": "Saisir le code SMS",
   "chaoxingDeviceVerifySmsHint": "Envoyé au {phone}",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "Code de l'image",
   "chaoxingDeviceVerifyPasswordReset": "Le serveur exige une réinitialisation du mot de passe avant d'enregistrer cet appareil. Modifiez-le dans l'application officielle, puis réessayez.",
   "imageSaved": "Enregistré",
@@ -7086,5 +7098,23 @@
   "diningScopeAll": "Tous",
   "diningScopeCampus": "Sur le campus",
   "diningScopeOffCampus": "Hors campus",
-  "diningRatingLoadFailed": "Impossible de charger les notes. Réessayez."
+  "diningRatingLoadFailed": "Impossible de charger les notes. Réessayez.",
+  "aiScrollToBottom": "Aller aux derniers messages",
+  "aiWelcomeTitle": "Comment puis-je vous aider ?",
+  "aiWelcomeSubtitle": "Je peux consulter votre emploi du temps et votre agenda, et gérer des tâches sur le campus. Je demanderai votre accord avant toute action qui le nécessite.",
+  "aiSuggestionTodayCourses": "Quels cours ai-je aujourd’hui ?",
+  "aiSuggestionWeather": "Ai-je besoin d’un parapluie aujourd’hui ?",
+  "aiSuggestionDormUtility": "Quel est le solde d’électricité de ma résidence ?",
+  "aiSuggestionUnreadMail": "Ai-je reçu de nouveaux e-mails ?",
+  "aiThoughtForSeconds": "Réflexion pendant {seconds} s",
+  "aiUsedToolsCount": "{count} outils utilisés",
+  "aiToolsFailedCount": "{count} échecs",
+  "aiRunStopped": "Arrêté",
+  "aiRunIncomplete": "Incomplet",
+  "aiRunRetried": "Connexion perdue — nouvelle tentative automatique",
+  "aiEditMessage": "Modifier",
+  "aiRegenerateFromHere": "Régénérer à partir d’ici",
+  "aiBranchPrevious": "Version précédente",
+  "aiBranchNext": "Version suivante",
+  "aiDeleteTurnConfirm": "{count, plural, =0{Supprimer ce message ?} other{Supprimer ce message et les {count} suivants ? Cette action est irréversible.}}"
 }
