@@ -247,8 +247,6 @@
   "schoolNetProviderTelecom": "China Telecom",
   "schoolNetProviderUnicom": "China Unicom",
   "schoolNetProviderMobile": "China Mobile",
-  "settingsDevThemeLabTitle": "Phòng thử nghiệm chủ đề",
-  "settingsDevThemeLabSubtitle": "Xem trước các thành phần cốt lõi trong chủ đề sáng và tối.",
   "whuNativeLoginRememberMobile": "Ghi nhớ số điện thoại",
   "whuNativeLoginTitle": "Xác thực tập trung Đại học Vũ Hán",
   "whuNativeLoginHeading": "Đăng nhập hệ thống xác thực tập trung của Đại học Vũ Hán",
@@ -263,15 +261,6 @@
   "whuNativeLoginSubmit": "Đăng nhập",
   "whuNativeLoginStageSigningIn": "Đang đăng nhập xác thực thống nhất…",
   "whuNativeLoginStageConfirmingIdentity": "Đang xác nhận danh tính…",
-  "whuNativeLoginStageFetching": "Đăng nhập thành công — đang lấy dữ liệu {source}…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "Đăng nhập thành công — đang hoàn tất…",
   "whuNativeLoginUseWeb": "Đăng nhập bằng phiên bản web",
   "whuNativeLoginUseWebSubtitle": "Nếu đăng nhập gốc bị lỗi, hãy chuyển sang bản dự phòng",
   "aiAssistant": "Trợ lý",
@@ -455,7 +444,6 @@
   "commonRegistrationTime": "Thời gian đăng ký",
   "commonUsername": "Tên người dùng",
   "courseGridSettings": "Cài đặt lưới",
-  "gradesReviewsScores": "Điểm số",
   "gradesReviewsTitle": "Điểm và đánh giá",
   "courseImport": "Nhập khóa học",
   "courseImportSemester": "Học kỳ",
@@ -1420,7 +1408,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "Không thể khớp các môn sau đại học với ngày trong lịch học. Vui lòng kiểm tra học kỳ đã chọn có đúng không.",
   "courseImportGraduateTermsUnrecognized": "Không thể nhận diện các học kỳ do hệ thống sau đại học trả về.",
   "courseImportStatusFailed": "Nhập thất bại: {error}",
   "@courseImportStatusFailed": {
@@ -1522,11 +1509,6 @@
   "aiAccountSwitchConfirm": "Gửi lại",
   "aiAccountSwitchDismiss": "Để sau",
   "scorePageNoLocalScore": "Không có điểm trên máy",
-  "scorePagePrivacyLocked": "Bảng điểm được khóa quyền riêng tư",
-  "scorePageClickToUnlock": "Chạm để mở khóa",
-  "scorePageEnableBiometric": "Bật khóa sinh trắc",
-  "scorePageBiometricHint": "Bảo vệ điểm bằng Face ID hoặc vân tay",
-  "scorePageBiometricAuthFailed": "Xác thực sinh trắc thất bại",
   "scorePageLoginHint": "Nếu chưa đăng nhập, hãy đăng nhập trong Cài đặt.\nRồi bấm nút bên dưới để lấy và đồng bộ điểm.",
   "scorePageSync": "Đồng bộ điểm",
   "scorePageTotalGpa": "GPA trung bình tổng",
@@ -1724,7 +1706,6 @@
   "settingsHomeGridBorderAlpha": "Độ mờ viền lưới",
   "settingsHomeCropImage": "Cắt ảnh",
   "imageCropDesktopHint": "Kéo để di chuyển · dùng +/− để chỉnh vùng cắt",
-  "imageCropDesktopHintSquare": "Kéo để di chuyển · dùng +/− để chỉnh vùng cắt hình vuông",
   "imageCropPresetDevice": "Tỷ lệ màn hình",
   "imageCropPresetOriginal": "Gốc",
   "imageCropRatioFree": "Tự do",
@@ -1760,7 +1741,6 @@
   },
   "libraryClickForDetails": "Chạm để xem tầng và ghế",
   "globalTimetableTitle": "TKB toàn trường",
-  "globalTimetablePlaceholder": "TKB toàn trường đang phát triển…",
   "globalTimetableCourseMatching": "Đối chiếu học phần",
   "globalTimetableContribute": "Đóng góp thời khóa biểu",
   "globalTimetableLocalImport": "Nhập vào thiết bị này",
@@ -1866,15 +1846,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "Đăng nhập học vụ thất bại. Hãy đăng nhập lại CAS WHU.",
-  "gradesReviewsToolsTitle": "Điểm và đánh giá",
-  "gradesReviewsToolsDescription": "Tìm môn học để xem điểm và đánh giá.",
   "gradesReviewsSearchCourse": "Tìm học phần",
-  "gradesReviewsScoresSubtitle": "Tìm học phần để xem phân bố",
-  "gradesReviewsReviews": "Đánh giá học phần",
-  "gradesReviewsReviewsSubtitle": "Tìm học phần để xem đánh giá",
-  "gradesReviewsToolsSection": "Công cụ học vụ",
-  "gradesReviewsSearchHintGrades": "Tìm học phần để xem phân bố điểm lịch sử",
-  "gradesReviewsSearchHintReviews": "Tìm học phần để xem đánh giá của sinh viên",
   "gradesReviewsSearchHintNormal": "Tìm theo tên học phần, giảng viên hoặc mã",
   "gradesReviewsSearchTitle": "Tìm học phần",
   "gradesReviewsEmptyTitle": "Tìm học phần",
@@ -1884,17 +1856,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -1941,7 +1902,6 @@
       }
     }
   },
-  "wakeupImportPlaceholder": "Bộ phân tích link/mã Wakeup chưa kết nối — hiện chỉ có placeholder quy trình nhập.",
   "sportsReservationToday": "Hôm nay",
   "sportsReservationTomorrow": "Ngày mai",
   "sportsReservationDayAfterTomorrow": "Ngày kia",
@@ -2295,14 +2255,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "Đang tự xác minh (lần {attempt})…",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -2902,9 +2854,7 @@
   "settingsWidgetsPinRequested": "Đã yêu cầu thêm tiện ích. Hãy xác nhận trên màn hình chính hoặc thêm thủ công nếu không có lời nhắc.",
   "settingsWidgetsPinAdded": "Đã thêm tiện ích",
   "settingsWidgetsManualAddHint": "Nhấn giữ vùng trống trên màn hình chính, mở Widgets và tìm Luotopia để thêm tiện ích thủ công.",
-  "settingsWidgetsAddManuallyAndroid": "Nhấn giữ vùng trống trên màn hình chính, mở Widgets và tìm Luotopia để thêm tiện ích thủ công.",
   "settingsWidgetsPinSupportError": "Không thể kiểm tra xem launcher có hỗ trợ thêm một chạm hay không. Bạn vẫn có thể thêm tiện ích thủ công.",
-  "settingsWidgetsPinSubmitted": "Đã gửi yêu cầu tới launcher; chưa xác nhận được việc thêm. Hãy làm theo lời nhắc của launcher hoặc thêm tiện ích thủ công.",
   "settingsWidgetsPinConfirmed": "Launcher đã xác nhận tiện ích đã được thêm.",
   "settingsWidgetsPinObserved": "Phát hiện phiên bản tiện ích mới. Hãy kiểm tra vị trí trên màn hình chính của bạn.",
   "settingsWidgetsPlatformsMacMenu": "Thanh menu macOS",
@@ -3049,14 +2999,10 @@
   "authResetPassword": "Đặt lại mật khẩu",
   "authEmailVerifySuccess": "Đã xác minh email. Vui lòng đăng nhập lại.",
   "authPasswordResetSuccess": "Đã đặt lại mật khẩu. Vui lòng đăng nhập bằng mật khẩu mới.",
-  "authSendResetLink": "Gửi liên kết",
-  "authResetRequested": "Nếu email này đã được đăng ký, email đặt lại mật khẩu sẽ đến trong vài phút. Nếu không nhận được, hãy kiểm tra thư rác và cách viết địa chỉ email.",
   "authLoginEmailUnverified": "Địa chỉ email này chưa được xác minh. Hãy xác minh trước khi đăng nhập.",
   "authLoginAccountDisabled": "Tài khoản này đã bị vô hiệu hóa. Hãy liên hệ quản trị viên để được hỗ trợ.",
   "authResendVerification": "Gửi lại email xác minh",
   "authVerificationEmailPromptTitle": "Nhập email tài khoản của bạn",
-  "authVerificationEmailSent": "Nếu tài khoản tồn tại và vẫn cần xác minh, email xác minh đã được gửi.",
-  "authVerificationEmailSendFailed": "Không thể gửi email xác minh: {error}",
   "authMfaTitle": "Xác thực hai yếu tố",
   "authMfaEmailSent": "Mã đã được gửi đến {email}",
   "@authMfaEmailSent": {
@@ -3405,7 +3351,6 @@
       }
     }
   },
-  "authOldPassword": "Mật khẩu hiện tại",
   "authNewPassword": "Mật khẩu mới",
   "authPasswordChanged": "Đã đổi mật khẩu. Vui lòng đăng nhập lại.",
   "authPasswordChangeFailed": "Không thể đổi mật khẩu: {error}",
@@ -3556,14 +3501,6 @@
   "forumReplyHint": "Hãy lịch sự và không chia sẻ thông tin cá nhân.",
   "forumSend": "Gửi",
   "authPasswordResetEmail": "Email",
-  "authPasswordResetSendFailed": "Không thể gửi: {error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "courseReviewsMyReviews": "Đánh giá của tôi",
   "courseReviewsMyReviewsEmpty": "Bạn chưa gửi đánh giá nào.",
   "courseReviewsStatusPending": "Đang chờ duyệt",
@@ -3634,16 +3571,7 @@
       }
     }
   },
-  "forumDraftPublished": "Đã đăng bản nháp",
   "forumDraftEditTitle": "Sửa bản nháp",
-  "forumDraftLastEdited": "Đã sửa {time}",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "Thay đổi chưa được lưu",
   "forumUnsavedChangesMessage": "Đăng bài này, giữ lại làm bản nháp hay loại bỏ?",
   "forumUnsavedChangesPublish": "Đăng",
@@ -3655,8 +3583,6 @@
   "forumUserCommentsTab": "Bình luận",
   "forumUserLikedTab": "Đã thích",
   "forumUserFavoritesTab": "Đã lưu",
-  "forumUserFollowersTab": "Người theo dõi",
-  "forumUserFollowingTab": "Đang theo dõi",
   "forumUserJoinedAt": "Tham gia {date}",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -3757,16 +3683,7 @@
   "forumBlockListSubtitle": "Người bị chặn không thể theo dõi hoặc nhắn tin cho bạn.",
   "forumBlockListEmpty": "Bạn chưa chặn ai.",
   "forumRelationListEmpty": "Chưa có ai ở đây.",
-  "forumRelationListFailed": "Không thể tải danh sách này: {error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "Tin nhắn",
-  "forumMessagesEntrySubtitle": "Nhắn tin riêng với người bạn theo dõi lẫn nhau",
   "forumConversationsEmpty": "Chưa có tin nhắn",
   "forumConversationsEmptyHint": "Bạn có thể nhắn tin khi hai bên theo dõi nhau.",
   "forumChatInputHint": "Tin nhắn…",
@@ -3802,14 +3719,6 @@
   "forumReport": "Báo cáo",
   "forumReportReason": "Lý do",
   "forumReportSubmitted": "Đã gửi báo cáo.",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -4006,7 +3915,6 @@
       }
     }
   },
-  "languageSystemSettings": "Cài đặt ngôn ngữ",
   "commonOk": "OK",
   "whuAccountEducationalYearsValue": "{years} năm",
   "@whuAccountEducationalYearsValue": {
@@ -4060,7 +3968,6 @@
   "settingsBuildInfoBuildTime": "Thời gian build",
   "courseImportSemesterAlreadyAdded": "Học kỳ này đã được thêm. Hãy chọn “Cập nhật thời khóa biểu” trong menu.",
   "waterControlClassNo": "Số lớp {classNo}",
-  "forumImageFiles": "Hình ảnh diễn đàn",
   "forumAttachmentFiles": "Tệp đính kèm diễn đàn",
   "forumModerationAllSources": "Tất cả nguồn",
   "forumModerationUnclaimed": "Chưa nhận xử lý",
@@ -4216,7 +4123,6 @@
     }
   },
   "campusBusPreviewCardSetting": "Xem trước lượt đến xe buýt",
-  "campusBusPreviewCardSettingIosHint": "Hiển thị thông tin đến lượt thực tế trong ngăn widget",
   "campusBusPreviewCardSettingHint": "Hiển thị thẻ xem trước trên màn hình chính",
   "campusBusArrivalSelectTarget": "Chọn trạm dừng",
   "campusBusArrivalLine": "Tuyến",
@@ -4610,7 +4516,6 @@
   "adminUserDetailReceivedLikes": "Lượt thích đã nhận",
   "adminUserDetailWhuAccountData": "Dữ liệu tài khoản WHU",
   "adminUserDetailWhuAccountDataDescription": "Chỉ quản trị viên cấp cao mới xem được. Truy cập này được kiểm toán.",
-  "adminUserDetailWhuAccount": "Tài khoản WHU",
   "adminUserDetailManagement": "Quản lý",
   "adminUserContentPostsTitle": "Bài viết của người dùng",
   "adminUserContentCommentsTitle": "Bình luận của người dùng",
@@ -4831,7 +4736,6 @@
   "forumCheckinDone": "Hôm nay đã điểm danh",
   "forumCheckinFixed": "Lựa chọn ổn định (+{amount})",
   "forumCheckinRandom": "Thử vận may",
-  "forumCheckinRandomHint": "Mức trung bình dài hạn thấp hơn một chút so với con đường ổn định",
   "forumCheckinSuccess": "+{amount} Nghiệp (chuỗi {streak})",
   "forumCheckinTitle": "Điểm danh hằng ngày",
   "forumCheckinTodo": "Điểm danh",
@@ -4889,7 +4793,6 @@
   "forumLeaderboardTitle": "Xếp hạng nghiệp",
   "forumModerationFlavorPending": "Đang xét duyệt",
   "forumReportSubmittedFlavor": "Đã ghi; chờ phản hồi.",
-  "courseGradeStatsAllTeachersPrepared": "Dữ liệu giáo viên đã sẵn sàng. Chọn giáo viên để xem dữ liệu điểm.",
   "courseGradeStatsExamAverage": "Điểm thi trung bình",
   "courseGradeStatsLoadFailed": "Không thể tải phân bố điểm: {error}",
   "courseGradeStatsPrivacyThreshold": "Cần ít nhất 5 mẫu để bảo vệ quyền riêng tư.",
@@ -5000,17 +4903,6 @@
   "courseMatchingTeacher": "Giảng viên",
   "courseMatchingSectionRangeError": "Tiết bắt đầu không được lớn hơn tiết kết thúc.",
   "courseMatchingCreditRangeError": "Tín chỉ tối thiểu không được lớn hơn tối đa.",
-  "globalTimetableTermWithCount": "Học kỳ {term} · {count} mục",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "Lịch sử môn học",
   "globalTimetableHistoryHint": "Tìm trong tất cả học kỳ đã phát hành, mới trước.",
   "globalTimetableHistoryEmpty": "Không có lớp nào khớp truy vấn.",
@@ -5027,7 +4919,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "Chưa tải học kỳ nào.",
   "globalTimetableDownloadsHint": "Tệp lưu trữ lấy từ trang lưu trữ WHU-Master-Timetable. Học kỳ đã tải có thể tìm kiếm ngoại tuyến.",
   "globalTimetableDownloadsRemoteInfo": "{count} môn · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -5044,7 +4935,6 @@
   "globalTimetableDownloadFailed": "Tải xuống thất bại",
   "globalTimetableDeleteAll": "Xóa tất cả",
   "globalTimetableDeleteAllConfirm": "Xóa tất cả học kỳ đã tải khỏi thiết bị này?",
-  "globalTimetableSourceMode": "Nguồn dữ liệu",
   "globalTimetableSourceAuto": "Tự động",
   "globalTimetableLocalMissing": "Học kỳ này chưa có dữ liệu ngoại tuyến.",
   "globalTimetableNoSlot": "Chưa xếp tiết",
@@ -5110,7 +5000,6 @@
   "whuAuthSmsSendFailed": "Gửi mã xác minh thất bại. Vui lòng kiểm tra số điện thoại và thử lại.",
   "whuAuthSmsSendRequired": "Vui lòng lấy mã xác minh cho số điện thoại hiện tại trước.",
   "whuAuthCaptchaLoadFailed": "Tải xác minh an toàn thất bại. Vui lòng đóng và thử lại.",
-  "whuAuthLoginCredentialsError": "Tài khoản, mật khẩu hoặc mã động không đúng",
   "whuSmartCampusAuthFailedCasRequired": "Xác thực Luojia Thông minh thất bại. Vui lòng đăng nhập lại qua WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Xác thực Luojia Thông minh thất bại (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
@@ -5217,92 +5106,6 @@
   "aiDebugPromptWatchSyncNegativeLabel": "Đồng bộ đồng hồ (chưa mở)",
   "aiDebugPromptHighRiskNegativeLabel": "Thao tác rủi ro cao (chưa mở)",
   "aiDebugPromptResultUnknownLabel": "Tự hỏi đáp quy tắc result_unknown",
-  "toolkitVerifyTitle": "Thẻ xác minh thực chứng chức năng Toolkit CLI & nghiệp vụ",
-  "toolkitVerifyProgress": "Đã đạt {passed} / {total}",
-  "toolkitVerifyPipelineMessage": "Bước {step}/{total}: {msg}",
-  "toolkitVerifyAutoApproveTitle": "Tự động duyệt thẻ thao tác ghi xác minh",
-  "toolkitVerifyAutoApproveSubtitle": "Cho phép kiểm thử phát hành thẻ ghi và tự động xác nhận trong toàn bộ tự động hóa pipeline",
-  "toolkitVerifyCliRunning": "Tự động hóa CLI đang chạy...",
-  "toolkitVerifyCliButton": "Chạy đồng thời tất cả trường hợp kiểm thử khói CLI",
-  "toolkitVerifyCliProgress": "{msg} (hệ thống đạt {passed}/{total})",
-  "toolkitVerifyPipelineRunning": "Toàn bộ pipeline đang chạy...",
-  "toolkitVerifyPipelineButton": "Chạy toàn bộ pipeline",
-  "toolkitVerifySaveLog": "Xuất báo cáo JSON",
-  "toolkitVerifyEvents": "Nhật ký pipeline gần đây",
-  "toolkitVerifyStatusPending": "Chờ kiểm thử",
-  "toolkitVerifyStatusRunning": "Đang chạy",
-  "toolkitVerifyStatusPassed": "Đạt",
-  "toolkitVerifyStatusFailed": "Thất bại",
-  "toolkitVerifyStatusSkipped": "Bỏ qua",
-  "toolkitVerifyStatusWaiting": "Đang chờ",
-  "toolkitVerifyStatusBlocked": "Bị chặn",
-  "toolkitVerifyMarkPassed": "Đánh dấu đạt",
-  "toolkitVerifyMarkFailed": "Đánh dấu thất bại",
-  "toolkitVerifyOpenAuth": "Đến xác thực",
-  "toolkitVerifySkipReason": "Đánh dấu lý do bỏ qua",
-  "toolkitVerifyBlockReason": "Đánh dấu lý do chặn",
-  "toolkitVerifyStage1": "Giai đoạn 1: Chuẩn bị tài khoản và chứng chỉ",
-  "toolkitVerifyStage2": "Giai đoạn 2: Xác minh nhất quán lý thuyết và ràng buộc tĩnh",
-  "toolkitVerifyStage3": "Giai đoạn 3: Tích hợp công cụ cơ bản mô phỏng CLI",
-  "toolkitVerifyStage4": "Giai đoạn 4: Tích hợp chuỗi nghiệp vụ Toolkit",
-  "toolkitVerifyStage5": "Giai đoạn 5: Đầu dò nội bộ phía App",
-  "toolkitVerifyStage6": "Giai đoạn 6: Xem xét và xác nhận thủ công",
-  "toolkitVerifyStage1Desc": "Xác minh xác thực danh tính thống nhất WHU và trạng thái chứng chỉ Luotopia",
-  "toolkitVerifyStage2Desc": "Xác minh nhất quán đặc tả mô hình, schema, quyền và khai báo",
-  "toolkitVerifyStage3Desc": "Xác minh lệnh gọi và phân tích công cụ cơ bản không phụ thuộc CLI",
-  "toolkitVerifyStage4Desc": "Xác minh chuỗi chức năng tổ hợp và truyền ngữ cảnh",
-  "toolkitVerifyStage5Desc": "Xác minh nhà cung cấp dịch vụ phía App và hành vi đầu dò",
-  "toolkitVerifyStage6Desc": "Thủ công xác minh thẻ xác nhận thứ cấp và logic chặn",
-  "toolkitVerifyMsgWaitingStart": "Đang chờ bắt đầu toàn bộ pipeline...",
-  "toolkitVerifyMsgCliNotRun": "Chưa chạy kiểm thử khói CLI",
-  "toolkitVerifyMsgPrepareAuth": "Đang chuẩn bị tài khoản và chứng chỉ xác thực...",
-  "toolkitVerifyMsgWaitingWhuLogin": "Đang chờ đăng nhập xác thực danh tính thống nhất WHU...",
-  "toolkitVerifyMsgWhuFailed": "Xác thực danh tính thống nhất WHU thất bại",
-  "toolkitVerifyMsgRefreshWhuSession": "Đang làm mới Session WHU...",
-  "toolkitVerifyMsgWhuSessionFailed": "Làm mới Session WHU thất bại",
-  "toolkitVerifyMsgLuotopiaDeferred": "Xác thực Luotopia JWT hoãn lại để xác minh sau",
-  "toolkitVerifyMsgTheoryChecks": "Đang chạy kiểm tra ràng buộc lý thuyết...",
-  "toolkitVerifyMsgCliSmoke": "Đang chạy trường hợp kiểm thử khói CLI...",
-  "toolkitVerifyMsgToolkitChain": "Đang chạy kiểm thử tích hợp Toolkit...",
-  "toolkitVerifyMsgAppProbes": "Đang chạy đầu dò phía App...",
-  "toolkitVerifyMsgDone": "Pipeline hoàn tất",
-  "toolkitVerifyMsgWaitingHuman": "Đang chờ xử lý thủ công: {reason}",
-  "toolkitVerifyMsgPrepareGateway": "Đang chuẩn bị cổng kiểm thử...",
-  "toolkitVerifyMsgCliPassed": "Toàn bộ kiểm thử khói CLI đạt",
-  "toolkitVerifyMsgCliFailed": "Kiểm thử khói CLI thất bại ({failed} trường hợp chưa đạt)",
-  "toolkitVerifyMsgCliAborted": "Kiểm thử khói CLI bị hủy",
-  "toolkitVerifyConfirmWriteTitle": "Xác nhận thao tác ghi kiểm thử",
-  "toolkitVerifyConfirmWriteMessage": "Công cụ {toolId} sẽ thực hiện thao tác ghi ({reason}). Xác nhận thực hiện?",
-  "toolkitVerifyConfirmWaterCodeTitle": "Kiểm tra xác nhận mã nước",
-  "toolkitVerifyConfirmWaterCodeMessage": "Thao tác trích mã nước do kiểm thử phát hành",
-  "toolkitVerifyWaterCodeCancel": "Hủy",
-  "toolkitVerifyWaterCodeConfirm": "Xác nhận mã nước",
-  "toolkitVerifySkipReasonTitle": "Vui lòng nhập lý do bỏ qua",
-  "toolkitVerifyBlockReasonTitle": "Vui lòng nhập lý do chặn",
-  "toolkitVerifyRecord": "Bản ghi kiểm thử",
-  "toolkitVerifyConfirmRecordTitle": "Tạo thẻ bản ghi kiểm thử",
-  "toolkitVerifyConfirmRecordMessage": "{id} chứa thao tác ghi. Vui lòng xác nhận bản ghi kiểm thử.",
-  "toolkitVerifyConfirmRecordConfirm": "Tạo bản ghi",
-  "toolkitVerifyNotifAgendaTitle": "Thông báo lời nhắc lịch trình kiểm thử",
-  "toolkitVerifyNotifAgendaUpdated": "Lịch trình kiểm thử đã cập nhật",
-  "toolkitVerifyAuthPrerequisite": "Điều kiện tiên quyết xác thực",
-  "toolkitVerifyWhuCas": "Xác thực WHU CAS",
-  "toolkitVerifyAuthenticated": "Đã xác thực · {subject}",
-  "toolkitVerifyNotAuthenticated": "Chưa xác thực",
-  "toolkitVerifyLuotopiaJwt": "Chứng chỉ Luotopia JWT",
-  "toolkitVerifyDeferred": "Hoãn lại",
-  "toolkitVerifyAuthenticatedShort": "Đã đăng nhập",
-  "toolkitVerifyAgendaItemTitle": "Mục lịch trình kiểm thử",
-  "toolkitVerifyCheck": "Kiểm tra tĩnh: {code}",
-  "toolkitVerifyCheckConsistency": "Kiểm tra nhất quán mô hình",
-  "toolkitVerifyCheckJobQuery": "Kiểm tra truy vấn tác vụ nền",
-  "toolkitVerifyCheckNoAutoConfirm": "Kiểm tra cấm tự động xác nhận",
-  "toolkitVerifyCheckNoChallenge": "Kiểm tra không có chế độ Challenge",
-  "toolkitVerifyCheckShellReject": "Kiểm tra phản hồi từ chối Shell",
-  "toolkitVerifyCheckJsonBudget": "Kiểm tra giới hạn ngân sách JSON",
-  "toolkitVerifyCheckWritePause": "Kiểm tra tạm dừng ghi",
-  "toolkitVerifyCheckCancelBlock": "Kiểm tra chặn hủy",
-  "toolkitVerifyCheckCleanup": "Kiểm tra dọn dẹp tài nguyên",
   "settingsPrivacyDiagnosticsGmsUnavailable": "Thiết bị này không có Google Play Services. Tính năng từ xa bị tắt, nhưng tùy chọn đã lưu được giữ lại để áp dụng lại khi Google Play Services khả dụng.",
   "waterElectricRoomTitle": "Chọn phòng tính tiền điện nước",
   "waterElectricRoomNotice": "Lựa chọn chỉ được lưu trữ trên thiết bị này. Cổng thông tin trường học không ràng buộc học sinh vào một phòng trên máy chủ của trường.",
@@ -5437,7 +5240,6 @@
   "aiAssistantEmpty": "Chưa tạo trợ lý nào",
   "aiAssistantUseGlobal": "Dùng cài đặt chung",
   "aiAssistantDeleteConfirm": "Xóa trợ lý này?",
-  "aiClose": "Đóng",
   "aiExport": "Xuất",
   "aiShare": "Chia sẻ",
   "aiCompressContext": "Nén ngữ cảnh",
@@ -5499,7 +5301,6 @@
   "aiSkillsEnabled": "Đã bật {count} kỹ năng",
   "aiMcp": "MCP",
   "aiMcpEmpty": "Chưa cấu hình máy chủ MCP nào",
-  "aiMcpEnabled": "Đã kết nối {count} máy chủ",
   "aiMcpAddServer": "Thêm máy chủ",
   "aiMcpServersTitle": "Máy chủ MCP",
   "aiMcpDescription": "Máy chủ MCP cung cấp cho Agent các công cụ từ những endpoint mà bạn cấu hình. Không công cụ nào được mở cho Agent cho đến khi bạn kết nối máy chủ và chọn công cụ của nó.",
@@ -5521,7 +5322,6 @@
   "aiMcpHeadersInvalid": "Mỗi dòng phải là một cặp Tên: giá trị",
   "aiMcpUrlInvalid": "Hãy nhập URL http(s) tuyệt đối",
   "aiMcpDeleteConfirm": "Xóa máy chủ MCP này?",
-  "aiMcpTestConnection": "Kiểm tra kết nối",
   "aiMcpStatusIdle": "Chưa kết nối",
   "aiMcpStatusConnecting": "Đang kết nối",
   "aiMcpStatusConnected": "Đã kết nối",
@@ -5537,7 +5337,6 @@
   "aiMcpServerEnabledHint": "Máy chủ bị tắt sẽ không được kết nối và các công cụ của nó sẽ biến mất khỏi danh mục của Agent.",
   "aiMcpToolsHidden": "Chưa mở cho Agent",
   "aiMcpCatalogNote": "Việc thay đổi các công cụ được mở sẽ dựng lại danh mục công cụ của Agent.",
-  "aiMcpLastError": "Lỗi gần nhất",
   "aiMcpImportedCount": "Đã nhập {count} máy chủ",
   "aiAssistantActive": "Đang dùng",
   "aiAssistantsGlobalHint": "Dùng lời nhắc hệ thống và tham số ở trang dịch vụ mô hình.",
@@ -5555,17 +5354,12 @@
   "aiSkillFieldsRequired": "Tên, mô tả và hướng dẫn đều bắt buộc",
   "aiSkillInstructionsHint": "Hướng dẫn mà mô hình nhận được khi kỹ năng này được bật",
   "settingsAiModelService": "Dịch vụ mô hình",
-  "settingsAiModelServiceSubtitle": "Nhà cung cấp, khóa, mô hình và tham số lấy mẫu",
-  "settingsAiAssistantsSubtitle": "Vai trò, lời nhắc hệ thống và ghi đè tham số",
-  "settingsAiWebSearchSubtitle": "Truy cập web mở và khóa của nhà cung cấp tìm kiếm",
   "settingsAiWorkspaceSubtitle": "Mức sử dụng, dọn dẹp và xuất",
   "settingsAiOverviewNotConfigured": "Chưa cấu hình",
-  "settingsAiModelsActiveProvider": "Nhà cung cấp hiện tại",
   "settingsAiModelsOtherProviders": "Nhà cung cấp khác",
   "settingsAiModelsStoredCount": "Đã lưu {count} mô hình",
   "settingsAiModelsSwitchHint": "Chuyển nhà cung cấp sẽ tải danh sách mô hình đã lưu của nhà cung cấp đó.",
   "settingsAiNoModelsHint": "Chọn nhà cung cấp rồi lấy danh sách mô hình của họ",
-  "settingsAiModelContextWindow": "Cửa sổ ngữ cảnh (token)",
   "settingsAiGroupModel": "Mô hình",
   "settingsAiGroupCapabilities": "Khả năng của Agent",
   "aiWebAccessOnSummary": "Đã bật",
@@ -5733,8 +5527,6 @@
   "campusMapLayerAed": "Thiết bị AED",
   "campusMapLayerFacilities": "Tiện ích khuôn viên",
   "campusMapLayerBus": "Xe buýt khuôn viên",
-  "campusMapLayerBusStops": "Trạm xe buýt khuôn viên",
-  "campusMapLayerBusLines": "Tuyến xe buýt khuôn viên",
   "campusMapOpenBus": "Xem giờ xe buýt khuôn viên",
   "campusMapMyLocation": "Vị trí của tôi",
   "campusMapLocationDenied": "Cần quyền truy cập vị trí",
@@ -5875,7 +5667,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "Thư này chỉ chứa tệp đính kèm. Tải xuống hoặc xem ở trên hoặc bên dưới.",
-  "coremailSavingAttachment": "Đang tải tệp đính kèm…",
   "coremailAttachmentSaved": "Đã lưu tệp đính kèm thành công",
   "coremailAttachmentSaveFailed": "Không thể lưu tệp đính kèm: {error}",
   "@coremailAttachmentSaveFailed": {
@@ -5978,7 +5769,6 @@
   "campusAppEbike": "Xe điện",
   "ebikeProviderZhiyin": "Little Green",
   "ebikeProviderMango": "Little Yellow",
-  "settingsAccountEbikeTitle": "Tài khoản xe điện chia sẻ",
   "settingsAccountOtherTitle": "Tài khoản khác",
   "settingsAccountOtherSubtitle": "Email, Chaoxing và VPN",
   "settingsOtherAccountsPageTitle": "Tài khoản khác",
@@ -5987,7 +5777,6 @@
   "settingsOtherAccountsNotConfigured": "Chưa cấu hình",
   "ebikeAccountsTileNone": "Chưa liên kết",
   "ebikeAccountsPageTitle": "Tài khoản xe điện chia sẻ",
-  "ebikeAccountLinkAction": "Liên kết tài khoản",
   "ebikeAccountLinkedAt": "Liên kết lúc {time}",
   "ebikeAccountUnlinkAction": "Hủy liên kết",
   "ebikeAccountUnlinkConfirmTitle": "Hủy liên kết tài khoản",
@@ -6009,16 +5798,12 @@
   "ebikeLoginOpenIdRandomize": "Tạo openid ngẫu nhiên",
   "ebikeLoginOpenIdInvalid": "Định dạng openid WeChat không hợp lệ (28 ký tự bắt đầu bằng «o»)",
   "ebikeHubNotLinkedTitle": "Chưa liên kết tài khoản {provider}",
-  "ebikeHubNotLinkedAction": "Liên kết ngay",
   "ebikeHubRidingBanner": "Trạng thái chuyến đi",
   "ebikeHubUnpaidOrder": "Đơn chưa thanh toán: {amount} CNY",
   "ebikeHubActionUnlock": "Dùng xe",
   "ebikeHubActionCards": "Thẻ đi xe",
   "ebikeHubActionWallet": "Ví",
   "ebikeHubActionOrders": "Chuyến đi",
-  "ebikeHubBalance": "Số dư",
-  "ebikeHubDeposit": "Tiền cọc",
-  "ebikeHubRealNameMissing": "Chưa xác minh danh tính thật",
   "ebikeCarIdDialogTitle": "Nhập mã số xe",
   "ebikeCarIdDialogHint": "Biển số xe hoặc liên kết lấy được khi quét mã QR",
   "ebikeCarIdInvalid": "Không nhận diện được mã số xe",
@@ -6114,7 +5899,6 @@
   "ebikeCardsPurchaseSuccess": "Mua thành công",
   "ebikeCardsEmpty": "Hiện chưa có thẻ đi xe nào được bán",
   "ebikeCardsMineEmpty": "Hiện chưa có thẻ đi xe khả dụng",
-  "ebikeCardsMangoHint": "Thẻ đi xe Little Yellow chưa thể mua trong ứng dụng. Hãy mua trong tiểu chương trình Little Yellow.",
   "ebikeWalletTitle": "Ví",
   "ebikeWalletBalance": "Số dư",
   "ebikeWalletMangoCoin": "Số dư Little Yellow",
@@ -6126,17 +5910,10 @@
   "ebikeWalletRecharge": "Nạp tiền",
   "ebikeWalletRechargeTitle": "Nạp số dư",
   "ebikeWalletRechargeViaCampus": "Nạp {amount} CNY bằng thẻ trường?",
-  "ebikeWalletRechargeUnavailable": "Khu vực hoạt động hiện tại không hỗ trợ nạp tiền bằng thẻ trường. Hãy nạp trong tiểu chương trình chính thức.",
   "ebikeWalletRechargeSuccess": "Nạp tiền thành công",
-  "ebikeWalletDepositRefund": "Yêu cầu hoàn tiền cọc",
-  "ebikeWalletDepositRefundTitle": "Chọn lý do hoàn tiền",
-  "ebikeWalletDepositRefundSuccess": "Đã gửi yêu cầu hoàn tiền",
-  "ebikeWalletDepositRefundCancel": "Hủy yêu cầu hoàn tiền",
-  "ebikeWalletDepositRefundCanceled": "Đã hủy yêu cầu hoàn tiền",
   "ebikeWalletCampusCard": "Thẻ trường",
   "ebikeWalletCampusCardBound": "Đã liên kết ({name})",
   "ebikeWalletCampusCardNotBound": "Chưa liên kết",
-  "ebikeWalletMangoRechargeHint": "Để nạp số dư Little Yellow, hãy vào tiểu chương trình",
   "ebikeOrdersTitle": "Chuyến đi",
   "ebikeOrdersEmpty": "Chưa có chuyến đi nào",
   "ebikeOrderId": "Mã đơn",
@@ -6234,6 +6011,9 @@
   "chaoxingLoginBadCredentials": "Đăng nhập thất bại: {message}",
   "chaoxingLoginCaptchaRequired": "Máy chủ yêu cầu xác minh tương tác. Hãy thử lại sau, hoặc đăng nhập một lần trong ứng dụng chính thức trước.",
   "chaoxingOperationFailed": "Thao tác thất bại: {error}",
+  "chaoxingArgsMissing": "Trang này đã mất tham số",
+  "chaoxingArgsMissingHint": "Không khôi phục được hoạt động đang hiển thị; thường là do ứng dụng khởi động lại khi trang này đang mở. Hãy quay lại và mở lại lần nữa.",
+  "chaoxingArgsMissingAction": "Về trang Chaoxing",
   "chaoxingUniqueIdTitle": "ID thiết bị",
   "chaoxingUniqueIdSubtitle": "Công cụ nhà phát triển: xem hoặc chỉnh sửa uniqueId gửi đến máy chủ Chaoxing",
   "chaoxingUniqueIdEmpty": "Chưa được tạo. Sẽ tự động tạo khi đăng nhập lần đầu.",
@@ -6262,7 +6042,6 @@
   "chaoxingSignUseWeb": "Dùng bản web",
   "chaoxingSignUseWebSubtitle": "Điểm danh bằng trang web",
   "chaoxingSignSubmit": "Điểm danh",
-  "chaoxingSignSubmitting": "Đang điểm danh…",
   "chaoxingSignSuccess": "Đã điểm danh",
   "chaoxingSignAlready": "Bạn đã điểm danh rồi",
   "chaoxingSignLate": "Đã điểm danh, nhưng quá hạn",
@@ -6272,11 +6051,12 @@
   "chaoxingSignCodeInvalid": "Mã không đúng",
   "chaoxingSignGestureHint": "Vẽ cử chỉ trên lưới bên dưới",
   "chaoxingSignPhotoPick": "Chọn ảnh",
+  "chaoxingSignPhotoCamera": "Chụp ảnh",
+  "chaoxingSignPhotoGallery": "Thư viện",
   "chaoxingSignPhotoRetake": "Chụp lại",
   "chaoxingSignPhotoRemove": "Xóa",
   "chaoxingSignPhotoRequired": "Cần một ảnh",
   "chaoxingSignLocationRequired": "Lần điểm danh này cần vị trí",
-  "chaoxingSignLocationLabel": "Vị trí",
   "chaoxingSignKindPlain": "Thường",
   "chaoxingSignKindAntiCheat": "Chống gian lận",
   "chaoxingSignKindPhoto": "Ảnh",
@@ -6296,6 +6076,23 @@
   "chaoxingSignFaceNeedDevice": "Điểm danh khuôn mặt cần đăng nhập Chaoxing có đăng ký thiết bị. Hãy dùng bản web hoặc đăng nhập lại với tùy chọn đó.",
   "chaoxingSignFaceEnrollFailed": "Đăng ký khuôn mặt thất bại: {message}",
   "chaoxingSignLocationUse": "Sẽ dùng vị trí hiện tại của bạn",
+  "campusMapPickerTitle": "Chọn vị trí",
+  "campusMapPickerHint": "Chạm vào bản đồ để thả ghim, hoặc kéo ghim để tinh chỉnh",
+  "campusMapPickerResolving": "Đang tra cứu địa chỉ…",
+  "campusMapPickerNoAddress": "Không tra được địa chỉ; tọa độ vẫn dùng được",
+  "campusMapPickerConfirm": "Dùng vị trí này",
+  "chaoxingSignLocationSourceTitle": "Nguồn vị trí",
+  "chaoxingSignLocationModeDevice": "Vị trí của tôi",
+  "chaoxingSignLocationModePicked": "Chọn trên bản đồ",
+  "chaoxingSignLocationModeActivity": "Địa điểm điểm danh",
+  "chaoxingSignLocationPickNone": "Chưa chọn điểm nào",
+  "chaoxingSignLocationPicked": "Đã chọn: {name}",
+  "chaoxingSignLocationResolveUnreachable": "Không kết nối được dịch vụ tra cứu để xác định {name}; hãy chọn một điểm trên bản đồ",
+  "chaoxingSignLocationRange": "Bán kính cho phép: {metres} m",
+  "chaoxingSignLocationResolving": "Đang tra cứu địa điểm điểm danh…",
+  "chaoxingSignLocationUnspecified": "Lần điểm danh này không có địa điểm chỉ định; hãy dùng vị trí của bạn hoặc chọn trên bản đồ",
+  "chaoxingSignLocationResolveFailed": "Không tra được tọa độ của {name}; hãy chọn một điểm trên bản đồ",
+  "chaoxingSignLocationResolved": "Đã tra cứu: {name} · {point}",
   "chaoxingScanTitle": "Quét mã điểm danh",
   "chaoxingScanHint": "Hướng camera vào mã QR giáo viên hiển thị",
   "chaoxingScanPermission": "Cần quyền camera để quét",

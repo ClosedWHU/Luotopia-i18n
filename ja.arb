@@ -247,8 +247,6 @@
   "schoolNetProviderTelecom": "中国電信",
   "schoolNetProviderUnicom": "中国聯通",
   "schoolNetProviderMobile": "中国移動",
-  "settingsDevThemeLabTitle": "テーマラボ",
-  "settingsDevThemeLabSubtitle": "ライトテーマとダークテーマで主要コンポーネントを並べてプレビューします。",
   "whuNativeLoginRememberMobile": "携帯電話番号を記憶",
   "whuNativeLoginTitle": "武漢大学統一認証",
   "whuNativeLoginHeading": "武漢大学統一認証にログイン",
@@ -263,15 +261,6 @@
   "whuNativeLoginSubmit": "ログイン",
   "whuNativeLoginStageSigningIn": "統合認証にサインイン中…",
   "whuNativeLoginStageConfirmingIdentity": "身元を確認しています…",
-  "whuNativeLoginStageFetching": "サインイン完了 — {source}からデータを取得中…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "サインイン完了 — 保存中…",
   "whuNativeLoginUseWeb": "Web版でログイン",
   "whuNativeLoginUseWebSubtitle": "ネイティブが失敗したらWeb版へ",
   "aiAssistant": "アシスタント",
@@ -455,7 +444,6 @@
   "commonRegistrationTime": "登録日時",
   "commonUsername": "ユーザー名",
   "courseGridSettings": "コースグリッド設定",
-  "gradesReviewsScores": "成績",
   "gradesReviewsTitle": "成績と評価",
   "courseImport": "コースインポート",
   "courseImportSemester": "学期",
@@ -648,14 +636,6 @@
   "forumReport": "報告",
   "forumReportReason": "理由",
   "forumReportSubmitted": "報告を送信しました。",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -1607,7 +1587,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "大学院の科目を学事暦の日付に対応付けできませんでした。選択した学期が正しいか確認してください。",
   "courseImportGraduateTermsUnrecognized": "大学院システムが返した学期を認識できませんでした。",
   "courseImportStatusFailed": "インポート失敗: {error}",
   "@courseImportStatusFailed": {
@@ -1709,11 +1688,6 @@
   "aiAccountSwitchConfirm": "再送信",
   "aiAccountSwitchDismiss": "今はしない",
   "scorePageNoLocalScore": "端末に成績がありません",
-  "scorePagePrivacyLocked": "成績表はプライバシーロックで保護されています",
-  "scorePageClickToUnlock": "タップしてロック解除",
-  "scorePageEnableBiometric": "生体認証ロックを有効化",
-  "scorePageBiometricHint": "Face ID または指紋で成績のプライバシーを保護",
-  "scorePageBiometricAuthFailed": "生体認証に失敗",
   "scorePageLoginHint": "未ログインの場合は設定でログインしてください。\n下のボタンで成績を取得・同期できます。",
   "scorePageSync": "成績を同期",
   "scorePageTotalGpa": "総平均 GPA",
@@ -1911,7 +1885,6 @@
   "settingsHomeGridBorderAlpha": "グリッド枠の不透明度",
   "settingsHomeCropImage": "画像を切り抜き",
   "imageCropDesktopHint": "ドラッグで移動 · +/− で範囲を調整",
-  "imageCropDesktopHintSquare": "ドラッグで移動 · +/− で正方形の範囲を調整",
   "imageCropPresetDevice": "画面比率",
   "imageCropPresetOriginal": "元の比率",
   "imageCropRatioFree": "自由",
@@ -1947,7 +1920,6 @@
   },
   "libraryClickForDetails": "タップして階と座席の詳細を表示",
   "globalTimetableTitle": "全学時間割",
-  "globalTimetablePlaceholder": "全学時間割は開発中です…",
   "globalTimetableCourseMatching": "授業の照合",
   "globalTimetableContribute": "時間割を提供",
   "globalTimetableLocalImport": "このデバイスにインポート",
@@ -2053,15 +2025,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "教務ログインに失敗しました。武大統一認証に再ログインしてください。",
-  "gradesReviewsToolsTitle": "成績と評価",
-  "gradesReviewsToolsDescription": "授業を検索して成績分布と評価を確認。",
   "gradesReviewsSearchCourse": "授業を検索",
-  "gradesReviewsScoresSubtitle": "授業を検索して分布を表示",
-  "gradesReviewsReviews": "授業評価",
-  "gradesReviewsReviewsSubtitle": "授業を検索して評価を表示",
-  "gradesReviewsToolsSection": "教務ツール",
-  "gradesReviewsSearchHintGrades": "授業を検索して過去の成績分布を表示",
-  "gradesReviewsSearchHintReviews": "授業を検索して学生の評価を表示",
   "gradesReviewsSearchHintNormal": "授業名・教員名・コードで検索",
   "gradesReviewsSearchTitle": "授業検索",
   "gradesReviewsEmptyTitle": "授業を検索",
@@ -2071,17 +2035,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -2128,7 +2081,6 @@
       }
     }
   },
-  "wakeupImportPlaceholder": "Wakeup の共有リンク/コード解析は未接続です。現状はインポート手順のプレースホルダーのみです。",
   "sportsReservationToday": "今日",
   "sportsReservationTomorrow": "明日",
   "sportsReservationDayAfterTomorrow": "明後日",
@@ -2484,14 +2436,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "自動検証中（試行 {attempt}）…",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -3091,9 +3035,7 @@
   "settingsWidgetsPinRequested": "ウィジェットの追加を要求しました。ホーム画面で確認してください。表示されない場合は手動で追加できます。",
   "settingsWidgetsPinAdded": "ウィジェットを追加しました",
   "settingsWidgetsManualAddHint": "ホーム画面の空いている領域を長押しして「ウィジェット」を開き、「珞珈」を見つけて手動で追加してください。",
-  "settingsWidgetsAddManuallyAndroid": "ホーム画面の空いている領域を長押しして「ウィジェット」を開き、「珞珈」を見つけて手動で追加してください。",
   "settingsWidgetsPinSupportError": "ランチャーがワンタップ追加に対応しているか確認できませんでした。手動で追加することはできます。",
-  "settingsWidgetsPinSubmitted": "ランチャーにリクエストを送信しました。追加はまだ確認されていません。ランチャーの指示に従うか、手動で追加してください。",
   "settingsWidgetsPinConfirmed": "ランチャーがウィジェットの追加を確認しました。",
   "settingsWidgetsPinObserved": "新しいウィジェットが検出されました。ホーム画面で配置を確認してください。",
   "settingsWidgetsPlatformsMacMenu": "macOSメニューバー",
@@ -3238,14 +3180,10 @@
   "authResetPassword": "パスワードをリセット",
   "authEmailVerifySuccess": "メールアドレスを確認しました。再度サインインしてください。",
   "authPasswordResetSuccess": "パスワードをリセットしました。新しいパスワードでサインインしてください。",
-  "authSendResetLink": "リセットリンクを送信",
-  "authResetRequested": "このメールアドレスが登録済みの場合、パスワード再設定メールは数分以内に届きます。届かない場合は迷惑メールフォルダーとメールアドレスの綴りを確認してください。",
   "authLoginEmailUnverified": "このメールアドレスは未確認です。ログインする前に確認してください。",
   "authLoginAccountDisabled": "このアカウントは無効になっています。管理者にお問い合わせください。",
   "authResendVerification": "確認メールを再送信",
   "authVerificationEmailPromptTitle": "アカウントのメールアドレスを入力",
-  "authVerificationEmailSent": "アカウントが存在し、確認が必要な場合は、確認メールを送信しました。",
-  "authVerificationEmailSendFailed": "確認メールを送信できませんでした: {error}",
   "authMfaTitle": "二段階認証",
   "authMfaEmailSent": "確認コードを {email} に送信しました",
   "@authMfaEmailSent": {
@@ -3594,7 +3532,6 @@
       }
     }
   },
-  "authOldPassword": "現在のパスワード",
   "authNewPassword": "新しいパスワード",
   "authPasswordChanged": "パスワードを変更しました。もう一度ログインしてください。",
   "authPasswordChangeFailed": "パスワードの変更に失敗しました: {error}",
@@ -3790,16 +3727,7 @@
       }
     }
   },
-  "forumDraftPublished": "下書きを公開しました",
   "forumDraftEditTitle": "下書きを編集",
-  "forumDraftLastEdited": "{time} に編集",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "未保存の変更",
   "forumUnsavedChangesMessage": "この投稿を公開しますか、下書きとして保存しますか、それとも破棄しますか？",
   "forumUnsavedChangesPublish": "公開",
@@ -3811,8 +3739,6 @@
   "forumUserCommentsTab": "コメント",
   "forumUserLikedTab": "いいね",
   "forumUserFavoritesTab": "保存済み",
-  "forumUserFollowersTab": "フォロワー",
-  "forumUserFollowingTab": "フォロー中",
   "forumUserJoinedAt": "{date} に参加",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -3913,16 +3839,7 @@
   "forumBlockListSubtitle": "ブロックしたユーザーはあなたをフォローしたりメッセージを送ったりできません。",
   "forumBlockListEmpty": "ブロックしたユーザーはいません。",
   "forumRelationListEmpty": "まだ誰もいません。",
-  "forumRelationListFailed": "一覧を読み込めませんでした：{error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "メッセージ",
-  "forumMessagesEntrySubtitle": "相互フォローの相手とのダイレクトメッセージ",
   "forumConversationsEmpty": "メッセージはまだありません",
   "forumConversationsEmptyHint": "相互フォローするとメッセージを送れます。",
   "forumChatInputHint": "メッセージ…",
@@ -3942,14 +3859,6 @@
   "forumSendMessage": "メッセージを送る",
   "forumMenuBlocks": "ブロックしたユーザー",
   "authPasswordResetEmail": "メールアドレス",
-  "authPasswordResetSendFailed": "送信に失敗しました: {error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "courseReviewsMyReviews": "自分のレビュー",
   "courseReviewsMyReviewsEmpty": "まだレビューを投稿していません。",
   "courseReviewsStatusPending": "審査待ち",
@@ -4098,7 +4007,6 @@
       }
     }
   },
-  "languageSystemSettings": "言語設定",
   "commonOk": "OK",
   "whuAccountEducationalYearsValue": "{years} 年",
   "@whuAccountEducationalYearsValue": {
@@ -4152,7 +4060,6 @@
   "settingsBuildInfoBuildTime": "ビルド時刻",
   "courseImportSemesterAlreadyAdded": "この学期は既に追加されています。時間割メニューから「時間割を更新」を選んでください。",
   "waterControlClassNo": "クラス番号 {classNo}",
-  "forumImageFiles": "フォーラム画像",
   "forumAttachmentFiles": "フォーラム添付ファイル",
   "forumModerationAllSources": "すべての報告元",
   "forumModerationUnclaimed": "未担当",
@@ -4308,7 +4215,6 @@
     }
   },
   "campusBusPreviewCardSetting": "バス到着プレビュー",
-  "campusBusPreviewCardSettingIosHint": "ウィジェットスタックにリアルタイムの到着情報を表示",
   "campusBusPreviewCardSettingHint": "ホーム画面にプレビューカードを表示",
   "campusBusArrivalSelectTarget": "バス停を選択",
   "campusBusArrivalLine": "路線",
@@ -4702,7 +4608,6 @@
   "adminUserDetailReceivedLikes": "受け取ったいいね",
   "adminUserDetailWhuAccountData": "WHUアカウント情報",
   "adminUserDetailWhuAccountDataDescription": "スーパー管理者のみ閲覧でき、アクセスは監査されます。",
-  "adminUserDetailWhuAccount": "WHUアカウント",
   "adminUserDetailManagement": "管理",
   "adminUserContentPostsTitle": "ユーザーの投稿",
   "adminUserContentCommentsTitle": "ユーザーのコメント",
@@ -4931,7 +4836,6 @@
   "forumCheckinDone": "今日はチェックイン済みです",
   "forumCheckinFixed": "安定コース（+{amount}）",
   "forumCheckinRandom": "運試し",
-  "forumCheckinRandomHint": "長期平均は安定した道よりやや低くなります",
   "forumCheckinSuccess": "+{amount} カルマ（連続 {streak} 日）",
   "forumCheckinTitle": "デイリーチェックイン",
   "forumCheckinTodo": "チェックイン",
@@ -4989,7 +4893,6 @@
   "forumLeaderboardTitle": "カルマランキング",
   "forumModerationFlavorPending": "審査待ち",
   "forumReportSubmittedFlavor": "記録しました。回答待ちです。",
-  "courseGradeStatsAllTeachersPrepared": "全教師のデータが準備完了です。教師を選んで成績データを表示してください。",
   "courseGradeStatsExamAverage": "平均試験成績",
   "courseGradeStatsLoadFailed": "成績分布の読み込みに失敗しました: {error}",
   "courseGradeStatsPrivacyThreshold": "プライバシー保護のため最低 5 件のサンプルが必要です。",
@@ -5100,17 +5003,6 @@
   "courseMatchingTeacher": "教員",
   "courseMatchingSectionRangeError": "開始時限が終了時限を超えてはいけません。",
   "courseMatchingCreditRangeError": "最小単位数が最大単位数を超えてはいけません。",
-  "globalTimetableTermWithCount": "第{term}学期 · {count} 件",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "開講履歴",
   "globalTimetableHistoryHint": "公開済みの全学期から新しい順に検索します。",
   "globalTimetableHistoryEmpty": "該当する開講はありません。",
@@ -5127,7 +5019,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "まだ学期データをダウンロードしていません。",
   "globalTimetableDownloadsHint": "学期アーカイブは WHU-Master-Timetable のアーカイブサイト由来です。ダウンロードした学期はオフラインで検索できます。",
   "globalTimetableDownloadsRemoteInfo": "{count} 科目 · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -5144,7 +5035,6 @@
   "globalTimetableDownloadFailed": "ダウンロードに失敗しました",
   "globalTimetableDeleteAll": "すべて削除",
   "globalTimetableDeleteAllConfirm": "ダウンロードした学期をすべて削除しますか？",
-  "globalTimetableSourceMode": "データソース",
   "globalTimetableSourceAuto": "自動",
   "globalTimetableLocalMissing": "この学期のオフラインデータはまだありません。",
   "globalTimetableNoSlot": "時間帯なし",
@@ -5210,7 +5100,6 @@
   "whuAuthSmsSendFailed": "検証コードの送信に失敗しました。電話番号を確認してやり直してください。",
   "whuAuthSmsSendRequired": "最初に現在の電話番号に検証コードを送信してください。",
   "whuAuthCaptchaLoadFailed": "セキュリティ検証の読み込みに失敗しました。閉じて再試行してください。",
-  "whuAuthLoginCredentialsError": "アカウント、パスワード、または動的コードが正しくありません",
   "whuSmartCampusAuthFailedCasRequired": "スマート珞珈の認証に失敗しました。WHU CAS経由で再ログインしてください。",
   "whuSmartCampusAuthFailedHttp": "スマート珞珈の認証に失敗しました (HTTP {statusCode})。",
   "@whuSmartCampusAuthFailedHttp": {
@@ -5317,92 +5206,6 @@
   "aiDebugPromptWatchSyncNegativeLabel": "時計同期（未開放）",
   "aiDebugPromptHighRiskNegativeLabel": "高リスク操作（未開放）",
   "aiDebugPromptResultUnknownLabel": "result_unknown ルール自己 Q&A",
-  "toolkitVerifyTitle": "Toolkit CLI & 業務機能実証検証カード",
-  "toolkitVerifyProgress": "合格 {passed} / {total}",
-  "toolkitVerifyPipelineMessage": "ステップ {step}/{total}: {msg}",
-  "toolkitVerifyAutoApproveTitle": "検証書き込み操作カードの自動承認",
-  "toolkitVerifyAutoApproveSubtitle": "全パイプライン自動化時にテストが書き込みカードを発行し自動確認することを許可します",
-  "toolkitVerifyCliRunning": "CLI 自動化実行中...",
-  "toolkitVerifyCliButton": "全 CLI スモークテストケースを同時実行",
-  "toolkitVerifyCliProgress": "{msg} (システム合格 {passed}/{total})",
-  "toolkitVerifyPipelineRunning": "全パイプライン実行中...",
-  "toolkitVerifyPipelineButton": "全パイプラインを実行",
-  "toolkitVerifySaveLog": "JSON レポートをエクスポート",
-  "toolkitVerifyEvents": "最近のパイプラインログ",
-  "toolkitVerifyStatusPending": "テスト待ち",
-  "toolkitVerifyStatusRunning": "実行中",
-  "toolkitVerifyStatusPassed": "合格",
-  "toolkitVerifyStatusFailed": "失敗",
-  "toolkitVerifyStatusSkipped": "スキップ",
-  "toolkitVerifyStatusWaiting": "待機中",
-  "toolkitVerifyStatusBlocked": "ブロック",
-  "toolkitVerifyMarkPassed": "合格としてマーク",
-  "toolkitVerifyMarkFailed": "失敗としてマーク",
-  "toolkitVerifyOpenAuth": "認証へ進む",
-  "toolkitVerifySkipReason": "スキップ理由をマーク",
-  "toolkitVerifyBlockReason": "ブロック理由をマーク",
-  "toolkitVerifyStage1": "ステージ 1: アカウントと資格情報の準備",
-  "toolkitVerifyStage2": "ステージ 2: 理論整合性と静的制約の検証",
-  "toolkitVerifyStage3": "ステージ 3: CLI シミュレーター基本ツール統合",
-  "toolkitVerifyStage4": "ステージ 4: Toolkit 業務チェーン統合",
-  "toolkitVerifyStage5": "ステージ 5: App 側内部プローブ",
-  "toolkitVerifyStage6": "ステージ 6: 手動レビューと確認",
-  "toolkitVerifyStage1Desc": "WHU 統一身分認証と Luotopia 資格状態を検証します",
-  "toolkitVerifyStage2Desc": "モデルスペック、schema、権限、宣言の整合性を検証します",
-  "toolkitVerifyStage3Desc": "CLI の依存しない基本ツール呼び出しと解析を検証します",
-  "toolkitVerifyStage4Desc": "複合機能チェーンとコンテキスト受け渡しを検証します",
-  "toolkitVerifyStage5Desc": "App 側サービスプロバイダーとプローブ挙動を検証します",
-  "toolkitVerifyStage6Desc": "二次確認カードとインターセプトロジックを手動検証します",
-  "toolkitVerifyMsgWaitingStart": "全パイプライン開始を待機中...",
-  "toolkitVerifyMsgCliNotRun": "CLI スモークテスト未実行",
-  "toolkitVerifyMsgPrepareAuth": "アカウントと認証資格情報を準備中...",
-  "toolkitVerifyMsgWaitingWhuLogin": "WHU 統一身分認証のログインを待機中...",
-  "toolkitVerifyMsgWhuFailed": "WHU 統一身分認証に失敗しました",
-  "toolkitVerifyMsgRefreshWhuSession": "WHU Session をリフレッシュ中...",
-  "toolkitVerifyMsgWhuSessionFailed": "WHU Session のリフレッシュに失敗しました",
-  "toolkitVerifyMsgLuotopiaDeferred": "Luotopia JWT 認証は後ほど検証のため延期されました",
-  "toolkitVerifyMsgTheoryChecks": "理論制約チェックを実行中...",
-  "toolkitVerifyMsgCliSmoke": "CLI スモークテストケースを実行中...",
-  "toolkitVerifyMsgToolkitChain": "Toolkit 統合テストを実行中...",
-  "toolkitVerifyMsgAppProbes": "App 側プローブを実行中...",
-  "toolkitVerifyMsgDone": "パイプラインが完了しました",
-  "toolkitVerifyMsgWaitingHuman": "手動対応を待機中: {reason}",
-  "toolkitVerifyMsgPrepareGateway": "テストゲートウェイを準備中...",
-  "toolkitVerifyMsgCliPassed": "CLI スモークテスト全件合格",
-  "toolkitVerifyMsgCliFailed": "CLI スモークテスト失敗 ({failed} 件不合格)",
-  "toolkitVerifyMsgCliAborted": "CLI スモークテスト中断",
-  "toolkitVerifyConfirmWriteTitle": "テスト書き込み操作確認",
-  "toolkitVerifyConfirmWriteMessage": "ツール {toolId} が書き込み操作 ({reason}) を実行します。実行しますか？",
-  "toolkitVerifyConfirmWaterCodeTitle": "取水コード確認テスト",
-  "toolkitVerifyConfirmWaterCodeMessage": "テスト発行の取水コード抽出操作",
-  "toolkitVerifyWaterCodeCancel": "キャンセル",
-  "toolkitVerifyWaterCodeConfirm": "取水コードを確認",
-  "toolkitVerifySkipReasonTitle": "スキップ理由を入力してください",
-  "toolkitVerifyBlockReasonTitle": "ブロック理由を入力してください",
-  "toolkitVerifyRecord": "テスト記録",
-  "toolkitVerifyConfirmRecordTitle": "テスト記録カードを生成",
-  "toolkitVerifyConfirmRecordMessage": "{id} には書き込み操作が含まれます。テスト記録を確認してください。",
-  "toolkitVerifyConfirmRecordConfirm": "記録を生成",
-  "toolkitVerifyNotifAgendaTitle": "テスト日程リマインダー通知",
-  "toolkitVerifyNotifAgendaUpdated": "テスト日程が更新されました",
-  "toolkitVerifyAuthPrerequisite": "認証の前提条件",
-  "toolkitVerifyWhuCas": "WHU CAS 認証",
-  "toolkitVerifyAuthenticated": "認証済み · {subject}",
-  "toolkitVerifyNotAuthenticated": "未認証",
-  "toolkitVerifyLuotopiaJwt": "Luotopia JWT 資格情報",
-  "toolkitVerifyDeferred": "延期",
-  "toolkitVerifyAuthenticatedShort": "ログイン済み",
-  "toolkitVerifyAgendaItemTitle": "テスト日程項目",
-  "toolkitVerifyCheck": "静的検証: {code}",
-  "toolkitVerifyCheckConsistency": "モデル整合性検証",
-  "toolkitVerifyCheckJobQuery": "バックグラウンドジョブ照会検証",
-  "toolkitVerifyCheckNoAutoConfirm": "自動確認禁止検証",
-  "toolkitVerifyCheckNoChallenge": "Challenge モード無し検証",
-  "toolkitVerifyCheckShellReject": "Shell 拒否応答検証",
-  "toolkitVerifyCheckJsonBudget": "JSON 予算上限検証",
-  "toolkitVerifyCheckWritePause": "書き込み一時停止検証",
-  "toolkitVerifyCheckCancelBlock": "取消ブロック検証",
-  "toolkitVerifyCheckCleanup": "リソースクリーンアップ検証",
   "settingsPrivacyDiagnosticsGmsUnavailable": "このデバイスでは Google Play サービスを利用できません。テレメトリー機能は無効になりますが、保存済みの設定は保持され、Google Play サービスが利用可能になり次第有効になります。",
   "waterElectricRoomTitle": "水道・電気料金の部屋を選択",
   "waterElectricRoomNotice": "選択内容はこのデバイスにのみ保存されます。学校ポータルは、生徒をそのサーバー上のルームにバインドしません。",
@@ -5537,7 +5340,6 @@
   "aiAssistantEmpty": "アシスタントはまだ作成されていません",
   "aiAssistantUseGlobal": "グローバル設定を使用",
   "aiAssistantDeleteConfirm": "このアシスタントを削除しますか？",
-  "aiClose": "閉じる",
   "aiExport": "エクスポート",
   "aiShare": "共有",
   "aiCompressContext": "コンテキストを圧縮",
@@ -5599,7 +5401,6 @@
   "aiSkillsEnabled": "有効なスキル: {count} 件",
   "aiMcp": "MCP",
   "aiMcpEmpty": "MCP サーバーが設定されていません",
-  "aiMcpEnabled": "接続済みの MCP サーバー: {count} 件",
   "aiMcpAddServer": "サーバーを追加",
   "aiMcpServersTitle": "MCP サーバー",
   "aiMcpDescription": "MCP サーバーは、設定したエンドポイントのツールを Agent に提供します。サーバーに接続してツールを選ぶまで、何も公開されません。",
@@ -5621,7 +5422,6 @@
   "aiMcpHeadersInvalid": "すべての行を 名前: 値 の形式にしてください",
   "aiMcpUrlInvalid": "http(s) の絶対 URL を入力してください",
   "aiMcpDeleteConfirm": "この MCP サーバーを削除しますか？",
-  "aiMcpTestConnection": "接続をテスト",
   "aiMcpStatusIdle": "未接続",
   "aiMcpStatusConnecting": "接続中",
   "aiMcpStatusConnected": "接続済み",
@@ -5637,7 +5437,6 @@
   "aiMcpServerEnabledHint": "無効にしたサーバーには接続されず、そのツールは Agent のカタログから外れます。",
   "aiMcpToolsHidden": "Agent に公開されていません",
   "aiMcpCatalogNote": "公開するツールを変更すると、Agent のツールカタログが再構築されます。",
-  "aiMcpLastError": "最新のエラー",
   "aiMcpImportedCount": "{count} 件のサーバーをインポートしました",
   "aiAssistantActive": "使用中",
   "aiAssistantsGlobalHint": "モデルサービスのページで設定したシステムプロンプトとパラメータを使用します。",
@@ -5655,17 +5454,12 @@
   "aiSkillFieldsRequired": "名前、説明、指示はすべて必須です",
   "aiSkillInstructionsHint": "このスキルが有効なときにモデルへ渡される指示です",
   "settingsAiModelService": "モデルサービス",
-  "settingsAiModelServiceSubtitle": "プロバイダー、認証情報、モデル、サンプリング",
-  "settingsAiAssistantsSubtitle": "ペルソナ、システムプロンプト、パラメータの上書き",
-  "settingsAiWebSearchSubtitle": "オープンウェブアクセスと検索プロバイダーのキー",
   "settingsAiWorkspaceSubtitle": "使用量、クリーンアップ、エクスポート",
   "settingsAiOverviewNotConfigured": "未設定",
-  "settingsAiModelsActiveProvider": "現在のプロバイダー",
   "settingsAiModelsOtherProviders": "その他のプロバイダー",
   "settingsAiModelsStoredCount": "{count} 件のモデルを保存済み",
   "settingsAiModelsSwitchHint": "プロバイダーを切り替えると、そのプロバイダーの保存済みモデル一覧が読み込まれます。",
   "settingsAiNoModelsHint": "プロバイダーを選択してからモデル一覧を取得してください",
-  "settingsAiModelContextWindow": "コンテキストウィンドウ（トークン）",
   "settingsAiGroupModel": "モデル",
   "settingsAiGroupCapabilities": "Agent の機能",
   "aiWebAccessOnSummary": "オン",
@@ -5743,8 +5537,6 @@
   "campusMapLayerAed": "AED 設備",
   "campusMapLayerFacilities": "キャンパス施設",
   "campusMapLayerBus": "キャンパスバス",
-  "campusMapLayerBusStops": "キャンパスバス停",
-  "campusMapLayerBusLines": "キャンパスバス路線",
   "campusMapOpenBus": "キャンパスバスの時刻を見る",
   "campusMapMyLocation": "現在地",
   "campusMapLocationDenied": "位置情報の許可が必要です",
@@ -5885,7 +5677,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "このメールは添付ファイルのみです。上または下からダウンロードしてご覧ください。",
-  "coremailSavingAttachment": "添付ファイルをダウンロード中…",
   "coremailAttachmentSaved": "添付ファイルを保存しました",
   "coremailAttachmentSaveFailed": "添付ファイルの保存に失敗しました：{error}",
   "@coremailAttachmentSaveFailed": {
@@ -5986,7 +5777,6 @@
   "onboardingPermissionCameraTitle": "カメラ",
   "onboardingPermissionCameraDescription": "AI 会話に添付する写真の撮影に使用します。",
   "campusAppEbike": "電動バイク",
-  "settingsAccountEbikeTitle": "電動バイクアカウント",
   "settingsAccountOtherTitle": "その他のアカウント",
   "settingsAccountOtherSubtitle": "メール・Chaoxing・VPN",
   "settingsOtherAccountsPageTitle": "その他のアカウント",
@@ -5997,7 +5787,6 @@
   "ebikeProviderMango": "リトルイエロー",
   "ebikeAccountsTileNone": "未連携",
   "ebikeAccountsPageTitle": "共有電動バイクアカウント",
-  "ebikeAccountLinkAction": "アカウントを連携",
   "ebikeAccountLinkedAt": "{time}に連携",
   "ebikeAccountUnlinkAction": "連携を解除",
   "ebikeAccountUnlinkConfirmTitle": "連携の解除",
@@ -6019,16 +5808,12 @@
   "ebikeLoginOpenIdRandomize": "openid をランダムに生成",
   "ebikeLoginOpenIdInvalid": "WeChat openid の形式が正しくありません（o で始まる 28 文字）",
   "ebikeHubNotLinkedTitle": "{provider}アカウントが未連携です",
-  "ebikeHubNotLinkedAction": "今すぐ連携",
   "ebikeHubRidingBanner": "走行状態",
   "ebikeHubUnpaidOrder": "未払いの注文があります：{amount}元",
   "ebikeHubActionUnlock": "利用開始",
   "ebikeHubActionCards": "乗車カード",
   "ebikeHubActionWallet": "ウォレット",
   "ebikeHubActionOrders": "利用履歴",
-  "ebikeHubBalance": "残高",
-  "ebikeHubDeposit": "保証金",
-  "ebikeHubRealNameMissing": "実名認証が未完了です",
   "ebikeCarIdDialogTitle": "車両番号を入力",
   "ebikeCarIdDialogHint": "車両番号またはQRコード読み取りで取得したリンク",
   "ebikeCarIdInvalid": "車両番号を認識できません",
@@ -6124,7 +5909,6 @@
   "ebikeCardsPurchaseSuccess": "購入が完了しました",
   "ebikeCardsEmpty": "販売中の乗車カードはありません",
   "ebikeCardsMineEmpty": "利用可能な乗車カードはありません",
-  "ebikeCardsMangoHint": "リトルイエローの乗車カードはアプリ内で購入できません。リトルイエローミニプログラムをご利用ください。",
   "ebikeWalletTitle": "ウォレット",
   "ebikeWalletBalance": "残高",
   "ebikeWalletMangoCoin": "リトルイエロー残高",
@@ -6136,17 +5920,10 @@
   "ebikeWalletRecharge": "チャージ",
   "ebikeWalletRechargeTitle": "残高のチャージ",
   "ebikeWalletRechargeViaCampus": "キャンパスカードで{amount}元をチャージしますか？",
-  "ebikeWalletRechargeUnavailable": "現在のサービスエリアではキャンパスカードによるチャージを利用できません。公式ミニプログラムでチャージしてください。",
   "ebikeWalletRechargeSuccess": "チャージが完了しました",
-  "ebikeWalletDepositRefund": "保証金の返金を申請",
-  "ebikeWalletDepositRefundTitle": "返金理由を選択",
-  "ebikeWalletDepositRefundSuccess": "返金申請を送信しました",
-  "ebikeWalletDepositRefundCancel": "返金申請を取り消す",
-  "ebikeWalletDepositRefundCanceled": "返金申請を取り消しました",
   "ebikeWalletCampusCard": "キャンパスカード",
   "ebikeWalletCampusCardBound": "連携済み（{name}）",
   "ebikeWalletCampusCardNotBound": "未連携",
-  "ebikeWalletMangoRechargeHint": "リトルイエロー残高のチャージはミニプログラムで行ってください",
   "ebikeOrdersTitle": "利用履歴",
   "ebikeOrdersEmpty": "注文はまだありません",
   "ebikeOrderId": "注文番号",
@@ -6244,6 +6021,9 @@
   "chaoxingLoginBadCredentials": "ログインに失敗しました：{message}",
   "chaoxingLoginCaptchaRequired": "サーバーが対話式の本人確認を求めています。しばらくしてから再試行するか、先に公式アプリで一度ログインしてください。",
   "chaoxingOperationFailed": "操作に失敗しました：{error}",
+  "chaoxingArgsMissing": "このページのパラメータが失われました",
+  "chaoxingArgsMissingHint": "表示しようとしたアクティビティを復元できませんでした。このページを開いたままアプリが再起動したのが原因のことが多いです。戻ってもう一度開いてください。",
+  "chaoxingArgsMissingAction": "学習通に戻る",
   "chaoxingUniqueIdTitle": "デバイスID",
   "chaoxingUniqueIdSubtitle": "開発者ツール：Chaoxingサーバーに報告されるuniqueIdを表示・編集",
   "chaoxingUniqueIdEmpty": "まだ生成されていません。初回ログイン時に自動的に作成されます。",
@@ -6272,7 +6052,6 @@
   "chaoxingSignUseWeb": "ウェブ版を使う",
   "chaoxingSignUseWebSubtitle": "この出席をウェブページで行う",
   "chaoxingSignSubmit": "出席",
-  "chaoxingSignSubmitting": "出席しています…",
   "chaoxingSignSuccess": "出席しました",
   "chaoxingSignAlready": "すでに出席済みです",
   "chaoxingSignLate": "出席しましたが、期限を過ぎています",
@@ -6282,11 +6061,12 @@
   "chaoxingSignCodeInvalid": "コードが正しくありません",
   "chaoxingSignGestureHint": "下のグリッドにジェスチャーを描いてください",
   "chaoxingSignPhotoPick": "写真を選ぶ",
+  "chaoxingSignPhotoCamera": "写真を撮る",
+  "chaoxingSignPhotoGallery": "ギャラリー",
   "chaoxingSignPhotoRetake": "撮り直す",
   "chaoxingSignPhotoRemove": "削除",
   "chaoxingSignPhotoRequired": "写真が必要です",
   "chaoxingSignLocationRequired": "この出席には位置情報が必要です",
-  "chaoxingSignLocationLabel": "位置",
   "chaoxingSignKindPlain": "通常",
   "chaoxingSignKindAntiCheat": "不正防止",
   "chaoxingSignKindPhoto": "写真",
@@ -6306,6 +6086,23 @@
   "chaoxingSignFaceNeedDevice": "顔出席にはデバイス登録での学習通ログインが必要です。ウェブ版を使うか、そのオプションで再ログインしてください。",
   "chaoxingSignFaceEnrollFailed": "顔の登録に失敗しました：{message}",
   "chaoxingSignLocationUse": "現在地を使用します",
+  "campusMapPickerTitle": "場所を選択",
+  "campusMapPickerHint": "地図をタップしてピンを置くか、ピンをドラッグして微調整できます",
+  "campusMapPickerResolving": "住所を解決中…",
+  "campusMapPickerNoAddress": "住所を解決できませんでした。座標はそのまま使えます",
+  "campusMapPickerConfirm": "この場所を使う",
+  "chaoxingSignLocationSourceTitle": "位置情報の取得元",
+  "chaoxingSignLocationModeDevice": "現在地",
+  "chaoxingSignLocationModePicked": "地図で選択",
+  "chaoxingSignLocationModeActivity": "サインイン場所",
+  "chaoxingSignLocationPickNone": "まだ場所を選んでいません",
+  "chaoxingSignLocationPicked": "選択中：{name}",
+  "chaoxingSignLocationResolveUnreachable": "ジオコーダーに接続できず「{name}」を解決できませんでした。地図で選択してください",
+  "chaoxingSignLocationRange": "許容範囲：{metres} m",
+  "chaoxingSignLocationResolving": "サインイン場所を解決中…",
+  "chaoxingSignLocationUnspecified": "このサインインには指定場所がありません。現在地か地図での選択を使ってください",
+  "chaoxingSignLocationResolveFailed": "「{name}」の座標を解決できませんでした。地図で選択してください",
+  "chaoxingSignLocationResolved": "解決しました：{name} · {point}",
   "chaoxingScanTitle": "出席コードをスキャン",
   "chaoxingScanHint": "教員が表示するQRコードにカメラを向けてください",
   "chaoxingScanPermission": "スキャンにはカメラ権限が必要です",

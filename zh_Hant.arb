@@ -326,7 +326,6 @@
   "@adminUserDetailReceivedLikes": {},
   "@adminUserDetailRegistered": {},
   "@adminUserDetailStatus": {},
-  "@adminUserDetailWhuAccount": {},
   "@adminUserDetailWhuAccountData": {},
   "@adminUserDetailWhuAccountDataDescription": {},
   "@adminUsersDisable": {},
@@ -374,7 +373,6 @@
   "@aiClearConversations": {},
   "@aiClearConversationsWarning": {},
   "@aiClearHistory": {},
-  "@aiClose": {},
   "@aiCodeCollapse": {},
   "@aiCodeCopied": {},
   "@aiCodeExpand": {},
@@ -887,7 +885,6 @@
   "@authMfaTitle": {},
   "@authNewPassword": {},
   "@authNoPasskeys": {},
-  "@authOldPassword": {},
   "@authOperationFailed": {
     "placeholders": {
       "error": {
@@ -945,13 +942,6 @@
     }
   },
   "@authPasswordResetEmail": {},
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "@authProfileUpdateFailed": {
     "placeholders": {
       "error": {
@@ -982,9 +972,7 @@
   "@authResendCode": {},
   "@authResendVerification": {},
   "@authResetPassword": {},
-  "@authResetRequested": {},
   "@authSecurityTitle": {},
-  "@authSendResetLink": {},
   "@authSessionsDetails": {
     "placeholders": {
       "ip": {
@@ -1025,14 +1013,6 @@
   "@authTwoFactorTitle": {},
   "@authUsePasskey": {},
   "@authVerificationEmailPromptTitle": {},
-  "@authVerificationEmailSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "@authVerificationEmailSent": {},
   "@authVerifyAndLogin": {},
   "@authWhuBindingAlreadyExists": {},
   "@authWhuBindingCurrent": {
@@ -1187,7 +1167,6 @@
   "@campusBusOutsideServiceRange": {},
   "@campusBusPreviewCardSetting": {},
   "@campusBusPreviewCardSettingHint": {},
-  "@campusBusPreviewCardSettingIosHint": {},
   "@campusBusRefresh": {},
   "@campusBusRouteViewHorizontal": {},
   "@campusBusRouteViewVertical": {},
@@ -1295,8 +1274,6 @@
   "@campusMapFavoriteRemoved": {},
   "@campusMapFavorites": {},
   "@campusMapLayerAed": {},
-  "@campusMapLayerBusLines": {},
-  "@campusMapLayerBusStops": {},
   "@campusMapLayerEntrances": {},
   "@campusMapLayerFacilities": {},
   "@campusMapLayerParking": {},
@@ -1481,7 +1458,6 @@
       }
     }
   },
-  "@courseGradeStatsAllTeachersPrepared": {},
   "@courseGradeStatsDistribution": {},
   "@courseGradeStatsExamAverage": {},
   "@courseGradeStatsLoadFailed": {
@@ -2160,7 +2136,6 @@
   "@forumFreezeInvites": {},
   "@forumHide": {},
   "@forumImageAdd": {},
-  "@forumImageFiles": {},
   "@forumImagePresetDataSaver": {},
   "@forumImagePresetHighQuality": {},
   "@forumImagePresetRecommended": {},
@@ -2227,13 +2202,6 @@
   "@forumKarmaLedgerTitle": {},
   "@forumKarmaLedgerVoteCost": {},
   "@forumKarmaLedgerVoteRefund": {},
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaLevelTitle0": {},
   "@forumKarmaLevelTitle1": {},
   "@forumKarmaLevelTitle10": {},
@@ -2473,7 +2441,6 @@
   "@globalTimetablePhaseQueued": {},
   "@globalTimetablePhaseRetrying": {},
   "@globalTimetablePhaseRewarding": {},
-  "@globalTimetablePlaceholder": {},
   "@globalTimetableResults": {
     "placeholders": {
       "count": {
@@ -2502,17 +2469,6 @@
     }
   },
   "@gradesReviewsNoResults": {},
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "department": {
-        "type": "String"
-      },
-      "uid": {
-        "type": "String"
-      }
-    }
-  },
-  "@gradesReviewsReviews": {},
   "@gradesReviewsReviewsFailMessage": {
     "placeholders": {
       "message": {
@@ -2520,9 +2476,6 @@
       }
     }
   },
-  "@gradesReviewsReviewsSubtitle": {},
-  "@gradesReviewsScores": {},
-  "@gradesReviewsScoresSubtitle": {},
   "@gradesReviewsSearchCourse": {},
   "@gradesReviewsSearchError": {
     "placeholders": {
@@ -2538,14 +2491,9 @@
       }
     }
   },
-  "@gradesReviewsSearchHintGrades": {},
   "@gradesReviewsSearchHintNormal": {},
-  "@gradesReviewsSearchHintReviews": {},
   "@gradesReviewsSearchTitle": {},
   "@gradesReviewsTitle": {},
-  "@gradesReviewsToolsDescription": {},
-  "@gradesReviewsToolsSection": {},
-  "@gradesReviewsToolsTitle": {},
   "@headerOpenListSettings": {},
   "@headerOpenListTabs": {},
   "@homeCalendarMainLabelWeek": {
@@ -2786,7 +2734,6 @@
     }
   },
   "@imageCropDesktopHint": {},
-  "@imageCropDesktopHintSquare": {},
   "@imageCropZoomIn": {},
   "@imageCropZoomOut": {},
   "@importViaEmbeddedWebLogin": {},
@@ -2813,7 +2760,6 @@
   "@languageFollowApp": {},
   "@languageFollowSystem": {},
   "@languageLabel": {},
-  "@languageSystemSettings": {},
   "@libraryAuthFailed": {
     "placeholders": {
       "error": {
@@ -3531,13 +3477,6 @@
   "@schoolNetSuspendedRule": {},
   "@schoolNetSuspendedSince": {},
   "@scoreCaptchaAutoVerifying": {},
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
-      }
-    }
-  },
   "@scoreClearCacheHint": {},
   "@scoreClearCacheSuccess": {},
   "@scoreClearCacheTitle": {},
@@ -3931,8 +3870,6 @@
   },
   "@settingsDevServerUrl": {},
   "@settingsDevServerUrlSubtitle": {},
-  "@settingsDevThemeLabSubtitle": {},
-  "@settingsDevThemeLabTitle": {},
   "@settingsDevUrlHint": {},
   "@settingsDevUrlLabel": {},
   "@settingsDevWebViewDebugger": {},
@@ -4464,83 +4401,6 @@
   "@timetableNotFound": {},
   "@timetables": {},
   "@tipSelectedDateIsNotAMonday": {},
-  "@toolkitVerifyAgendaItemTitle": {},
-  "@toolkitVerifyAuthPrerequisite": {},
-  "@toolkitVerifyAuthenticatedShort": {},
-  "@toolkitVerifyAutoApproveSubtitle": {},
-  "@toolkitVerifyAutoApproveTitle": {},
-  "@toolkitVerifyBlockReason": {},
-  "@toolkitVerifyBlockReasonTitle": {},
-  "@toolkitVerifyCheckCancelBlock": {},
-  "@toolkitVerifyCheckCleanup": {},
-  "@toolkitVerifyCheckConsistency": {},
-  "@toolkitVerifyCheckJobQuery": {},
-  "@toolkitVerifyCheckJsonBudget": {},
-  "@toolkitVerifyCheckNoAutoConfirm": {},
-  "@toolkitVerifyCheckNoChallenge": {},
-  "@toolkitVerifyCheckShellReject": {},
-  "@toolkitVerifyCheckWritePause": {},
-  "@toolkitVerifyCliButton": {},
-  "@toolkitVerifyCliRunning": {},
-  "@toolkitVerifyConfirmRecordConfirm": {},
-  "@toolkitVerifyConfirmRecordTitle": {},
-  "@toolkitVerifyConfirmWaterCodeMessage": {},
-  "@toolkitVerifyConfirmWaterCodeTitle": {},
-  "@toolkitVerifyConfirmWriteTitle": {},
-  "@toolkitVerifyDeferred": {},
-  "@toolkitVerifyEvents": {},
-  "@toolkitVerifyLuotopiaJwt": {},
-  "@toolkitVerifyMarkFailed": {},
-  "@toolkitVerifyMarkPassed": {},
-  "@toolkitVerifyMsgAppProbes": {},
-  "@toolkitVerifyMsgCliAborted": {},
-  "@toolkitVerifyMsgCliNotRun": {},
-  "@toolkitVerifyMsgCliPassed": {},
-  "@toolkitVerifyMsgCliSmoke": {},
-  "@toolkitVerifyMsgDone": {},
-  "@toolkitVerifyMsgLuotopiaDeferred": {},
-  "@toolkitVerifyMsgPrepareAuth": {},
-  "@toolkitVerifyMsgPrepareGateway": {},
-  "@toolkitVerifyMsgRefreshWhuSession": {},
-  "@toolkitVerifyMsgTheoryChecks": {},
-  "@toolkitVerifyMsgToolkitChain": {},
-  "@toolkitVerifyMsgWaitingStart": {},
-  "@toolkitVerifyMsgWaitingWhuLogin": {},
-  "@toolkitVerifyMsgWhuFailed": {},
-  "@toolkitVerifyMsgWhuSessionFailed": {},
-  "@toolkitVerifyNotAuthenticated": {},
-  "@toolkitVerifyNotifAgendaTitle": {},
-  "@toolkitVerifyNotifAgendaUpdated": {},
-  "@toolkitVerifyOpenAuth": {},
-  "@toolkitVerifyPipelineButton": {},
-  "@toolkitVerifyPipelineRunning": {},
-  "@toolkitVerifyRecord": {},
-  "@toolkitVerifySaveLog": {},
-  "@toolkitVerifySkipReason": {},
-  "@toolkitVerifySkipReasonTitle": {},
-  "@toolkitVerifyStage1": {},
-  "@toolkitVerifyStage1Desc": {},
-  "@toolkitVerifyStage2": {},
-  "@toolkitVerifyStage2Desc": {},
-  "@toolkitVerifyStage3": {},
-  "@toolkitVerifyStage3Desc": {},
-  "@toolkitVerifyStage4": {},
-  "@toolkitVerifyStage4Desc": {},
-  "@toolkitVerifyStage5": {},
-  "@toolkitVerifyStage5Desc": {},
-  "@toolkitVerifyStage6": {},
-  "@toolkitVerifyStage6Desc": {},
-  "@toolkitVerifyStatusBlocked": {},
-  "@toolkitVerifyStatusFailed": {},
-  "@toolkitVerifyStatusPassed": {},
-  "@toolkitVerifyStatusPending": {},
-  "@toolkitVerifyStatusRunning": {},
-  "@toolkitVerifyStatusSkipped": {},
-  "@toolkitVerifyStatusWaiting": {},
-  "@toolkitVerifyTitle": {},
-  "@toolkitVerifyWaterCodeCancel": {},
-  "@toolkitVerifyWaterCodeConfirm": {},
-  "@toolkitVerifyWhuCas": {},
   "@unknown": {},
   "@updateOnDataChangesWith": {},
   "@updateTimetable": {},
@@ -4624,7 +4484,6 @@
       }
     }
   },
-  "@wakeupImportPlaceholder": {},
   "@wakeupShareFile": {},
   "@wakeupShareFileDescription": {},
   "@wakeupShareLinkCode": {},
@@ -5007,7 +4866,6 @@
     }
   },
   "@whuAuthCaptchaLoadFailed": {},
-  "@whuAuthLoginCredentialsError": {},
   "@whuAuthSmsSendFailed": {},
   "@whuAuthSmsSendRequired": {},
   "@whuCalendarListView": {},
@@ -5344,7 +5202,6 @@
   "adminUserDetailReceivedLikes": "收到的讚",
   "adminUserDetailRegistered": "註冊時間",
   "adminUserDetailStatus": "狀態",
-  "adminUserDetailWhuAccount": "武大帳戶",
   "adminUserDetailWhuAccountData": "武大帳戶資料",
   "adminUserDetailWhuAccountDataDescription": "僅超級管理員可見，存取將被稽核。",
   "adminUsersDisable": "停用",
@@ -5482,7 +5339,6 @@
   "aiClearConversations": "清空對話歷史",
   "aiClearConversationsWarning": "所有本地 AI 對話記錄將被清空。",
   "aiClearHistory": "清空歷史",
-  "aiClose": "關閉",
   "aiCodeCollapse": "摺疊",
   "aiCodeCopied": "已複製",
   "aiCodeExpand": "展開",
@@ -5683,7 +5539,6 @@
   "aiMcpHeadersInvalid": "每一行都必須是 名稱: 值 的格式",
   "aiMcpUrlInvalid": "請填寫 http(s) 絕對位址",
   "aiMcpDeleteConfirm": "刪除此 MCP 伺服器？",
-  "aiMcpTestConnection": "測試連接",
   "aiMcpStatusIdle": "未連接",
   "aiMcpStatusConnecting": "正在連接",
   "aiMcpStatusConnected": "已連接",
@@ -5699,7 +5554,6 @@
   "aiMcpServerEnabledHint": "停用後不會連接，其工具也會從 Agent 目錄中移除。",
   "aiMcpToolsHidden": "未公開給 Agent",
   "aiMcpCatalogNote": "變更公開的工具會重建 Agent 的工具目錄。",
-  "aiMcpLastError": "上次錯誤",
   "aiMcpImportedCount": "已匯入 {count} 個伺服器",
   "aiAssistantActive": "目前生效",
   "aiAssistantsGlobalHint": "使用「模型服務」頁的系統提示詞與參數。",
@@ -5717,23 +5571,17 @@
   "aiSkillFieldsRequired": "名稱、說明與指示都不能為空",
   "aiSkillInstructionsHint": "啟用此技能時傳送給模型的指示",
   "settingsAiModelService": "模型服務",
-  "settingsAiModelServiceSubtitle": "提供商、金鑰、模型與取樣參數",
-  "settingsAiAssistantsSubtitle": "人設、系統提示詞與參數覆蓋",
-  "settingsAiWebSearchSubtitle": "開放網路存取與搜尋提供者金鑰",
   "settingsAiWorkspaceSubtitle": "用量、清理與匯出",
   "settingsAiOverviewNotConfigured": "尚未設定",
-  "settingsAiModelsActiveProvider": "目前提供商",
   "settingsAiModelsOtherProviders": "其他提供商",
   "settingsAiModelsStoredCount": "已儲存 {count} 個模型",
   "settingsAiModelsSwitchHint": "切換提供商會載入該提供商已儲存的模型清單。",
   "settingsAiNoModelsHint": "先選擇提供商，再取得其模型清單",
-  "settingsAiModelContextWindow": "上下文視窗（token）",
   "settingsAiGroupModel": "模型",
   "settingsAiGroupCapabilities": "Agent 能力",
   "aiWebAccessOnSummary": "已開啟",
   "aiWebAccessOffSummary": "已關閉",
   "aiMcpEmpty": "未設定 MCP 伺服器",
-  "aiMcpEnabled": "已連接 {count} 個 MCP 伺服器",
   "aiMcpImport": "匯入",
   "aiMcpImportFailed": "無法匯入 MCP 伺服器設定",
   "aiMcpImportJson": "從 JSON 匯入",
@@ -6127,7 +5975,6 @@
   "authMfaTitle": "兩步驗證",
   "authNewPassword": "新密碼",
   "authNoPasskeys": "暫無 Passkey",
-  "authOldPassword": "目前密碼",
   "authOperationFailed": "操作失敗：{error}",
   "authPasskeyCreatedAt": "建立於 {date}",
   "authPasskeyDelete": "刪除",
@@ -6155,7 +6002,6 @@
   "authPasswordChanged": "密碼已變更，請重新登入。",
   "authPasswordMinLength": "密碼長度至少須為 {count} 個字元",
   "authPasswordResetEmail": "電郵",
-  "authPasswordResetSendFailed": "傳送失敗：{error}",
   "authProfileUpdateFailed": "更新個人資料失敗：{error}",
   "authRecoveryCodesDescription": "請將這些代碼存放在安全的地方。無法存取電子郵件時，每個代碼只能使用一次。它們不會再次顯示。",
   "authRecoveryCodesSaveAsText": "另存為 .txt",
@@ -6177,9 +6023,7 @@
   "authResetPassword": "重設密碼",
   "authEmailVerifySuccess": "電郵驗證成功，請重新登入",
   "authPasswordResetSuccess": "密碼已重設，請用新密碼登入",
-  "authResetRequested": "如果該電郵已註冊，密碼重設郵件將在幾分鐘內送達。如未收到，請檢查垃圾郵件資料夾，並確認電郵地址拼寫無誤。",
   "authSecurityTitle": "安全與兩步驗證",
-  "authSendResetLink": "傳送重設連結",
   "authSessionsDetails": "IP：{ip}\n上次活動：{lastActive}\n登入時間：{signedIn}",
   "authSessionsDeviceAndroid": "Android 裝置",
   "authSessionsDeviceIos": "iOS 裝置",
@@ -6213,8 +6057,6 @@
   "authTwoFactorTitle": "兩步驗證 (2FA)",
   "authUsePasskey": "使用 Passkey 驗證",
   "authVerificationEmailPromptTitle": "輸入帳戶電郵",
-  "authVerificationEmailSendFailed": "無法傳送驗證郵件：{error}",
-  "authVerificationEmailSent": "如果帳戶存在且仍需驗證，驗證郵件已傳送。",
   "authVerifyAndLogin": "驗證並登入",
   "authWhuBindingAlreadyExists": "已連結，請勿重複連結。",
   "authWhuBindingCurrent": "連結目前的珞家帳戶（{studentId}）",
@@ -6291,7 +6133,6 @@
   "campusBusPlateNumber": "車牌號: {plate}",
   "campusBusPreviewCardSetting": "公車到站預覽",
   "campusBusPreviewCardSettingHint": "在主頁顯示預覽卡片",
-  "campusBusPreviewCardSettingIosHint": "在疊放小組件中顯示即時到站資訊",
   "campusBusRefresh": "刷新",
   "campusBusRouteViewHorizontal": "橫向路線檢視",
   "campusBusRouteViewVertical": "縱向路線檢視",
@@ -6361,9 +6202,7 @@
   "campusMapFavoriteRemoved": "已取消收藏",
   "campusMapFavorites": "收藏地點",
   "campusMapLayerAed": "AED 裝置",
-  "campusMapLayerBusLines": "校車路線",
   "campusMapLayerBus": "校車",
-  "campusMapLayerBusStops": "校車站點",
   "campusMapLayerEntrances": "出入口",
   "campusMapLayerFacilities": "校園設施",
   "campusMapLayerParking": "停車場",
@@ -6474,7 +6313,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "此郵件僅包含附件，請在上方或下方下載查看。",
-  "coremailSavingAttachment": "正在下載附件…",
   "coremailAttachmentSaved": "附件已成功儲存",
   "coremailAttachmentSaveFailed": "儲存附件失敗：{error}",
   "@coremailAttachmentSaveFailed": {
@@ -6534,7 +6372,6 @@
   "courseDetailGradesTab": "課程給分",
   "courseDetailReviewsTab": "課程評價",
   "courseDetailTitle": "課程詳情：{uid}",
-  "courseGradeStatsAllTeachersPrepared": "已準備好所有教師的給分資料，請選擇教師查看詳情。",
   "courseGradeStatsDistribution": "成績分布",
   "courseGradeStatsExamAverage": "考試成績平均",
   "courseGradeStatsLoadFailed": "載入成績分布失敗：{error}",
@@ -6577,7 +6414,6 @@
   "courseImportSemesterAlreadyAdded": "該學期已新增，請在課程表選單中選擇「更新課程表」。",
   "courseImportSemesterLabel": "第{semester}學期",
   "courseImportSnackSuccess": "導入完成：新增 {count} 條課程事項，課程表「{tableName}」。",
-  "courseImportGraduateNoCalendarMatch": "研究生課程無法對應到校曆日期，請確認所選學期是否正確。",
   "courseImportGraduateTermsUnrecognized": "研究生系統回傳的學期無法識別。",
   "courseImportStatusFailed": "導入失敗：{error}",
   "courseImportStatusImported": "匯入完成：新增 {count} 筆，本週 {currentWeek} 筆。",
@@ -6648,17 +6484,6 @@
   "courseMatchingTeacher": "教師",
   "courseMatchingSectionRangeError": "起始節次不能大於結束節次。",
   "courseMatchingCreditRangeError": "最小學分不能大於最大學分。",
-  "globalTimetableTermWithCount": "第 {term} 學期 · {count} 條",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "課程歷史",
   "globalTimetableHistoryHint": "在全部已發布學期中檢索，由新到舊。",
   "globalTimetableHistoryEmpty": "沒有符合的開課紀錄。",
@@ -6675,7 +6500,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "尚未下載任何學期資料。",
   "globalTimetableDownloadsHint": "學期檔案來自 WHU-Master-Timetable 檔案站；下載後可離線檢索該學期。",
   "globalTimetableDownloadsRemoteInfo": "{count} 門課 · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -6692,7 +6516,6 @@
   "globalTimetableDownloadFailed": "下載失敗",
   "globalTimetableDeleteAll": "全部刪除",
   "globalTimetableDeleteAllConfirm": "刪除本機全部已下載學期？",
-  "globalTimetableSourceMode": "資料來源",
   "globalTimetableSourceAuto": "自動",
   "globalTimetableSourceCloud": "雲端資料",
   "globalTimetableSourceLocal": "本機資料",
@@ -7083,7 +6906,6 @@
   "forumCheckinDone": "今日已簽到",
   "forumCheckinFixed": "穩健之路（+{amount}）",
   "forumCheckinRandom": "試運",
-  "forumCheckinRandomHint": "長期期望略低於穩健之路",
   "forumCheckinSuccess": "+{amount} 業力（連續 {streak} 天）",
   "forumCheckinTitle": "每日簽到",
   "forumCheckinTodo": "待簽到",
@@ -7100,7 +6922,6 @@
   "forumFreezeInvites": "凍結邀請碼",
   "forumHide": "隱藏",
   "forumImageAdd": "新增圖片",
-  "forumImageFiles": "論壇圖片",
   "forumImagePresetDataSaver": "節省流量",
   "forumImagePresetHighQuality": "高畫質",
   "forumImagePresetRecommended": "推薦",
@@ -7131,7 +6952,6 @@
   "forumKarmaLedgerTitle": "業力流水",
   "forumKarmaLedgerVoteCost": "投票消耗",
   "forumKarmaLedgerVoteRefund": "投票退還",
-  "forumKarmaLevel": "Lv{level}",
   "forumKarmaLevelTitle0": "新生",
   "forumKarmaLevelTitle1": "見習",
   "forumKarmaLevelTitle10": "神話",
@@ -7231,16 +7051,7 @@
       }
     }
   },
-  "forumDraftPublished": "草稿已發布",
   "forumDraftEditTitle": "編輯草稿",
-  "forumDraftLastEdited": "編輯於 {time}",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "內容尚未儲存",
   "forumUnsavedChangesMessage": "發布這篇貼文、存為草稿，還是捨棄？",
   "forumUnsavedChangesPublish": "發布",
@@ -7252,8 +7063,6 @@
   "forumUserCommentsTab": "評論",
   "forumUserLikedTab": "按讚",
   "forumUserFavoritesTab": "收藏",
-  "forumUserFollowersTab": "粉絲",
-  "forumUserFollowingTab": "關注中",
   "forumUserJoinedAt": "{date} 加入",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -7354,16 +7163,7 @@
   "forumBlockListSubtitle": "被封鎖的使用者無法關注你或傳私人訊息給你。",
   "forumBlockListEmpty": "你還沒有封鎖任何人。",
   "forumRelationListEmpty": "這裡還沒有人。",
-  "forumRelationListFailed": "列表載入失敗：{error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "私人訊息",
-  "forumMessagesEntrySubtitle": "與互相關注的人私聊",
   "forumConversationsEmpty": "暫無私人訊息",
   "forumConversationsEmptyHint": "互相關注後即可傳送私人訊息。",
   "forumChatInputHint": "傳送訊息…",
@@ -7461,7 +7261,6 @@
   "globalTimetablePhaseQueued": "已加入佇列",
   "globalTimetablePhaseRetrying": "等待重試",
   "globalTimetablePhaseRewarding": "正在發放貢獻獎勵",
-  "globalTimetablePlaceholder": "全校課表功能正在開發中...",
   "globalTimetableResults": "{count} 筆結果",
   "globalTimetableSourceCloudUnavailable": "此期間沒有雲端資料",
   "globalTimetableTerm": "第 {term} 學期",
@@ -7470,23 +7269,13 @@
   "gradesReviewsEmptyTitle": "搜索任意課程",
   "gradesReviewsGradeStatsFailMessage": "獲取給分分佈失敗：{message}",
   "gradesReviewsNoResults": "沒有找到相關課程",
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "gradesReviewsReviews": "課程評價",
   "gradesReviewsReviewsFailMessage": "獲取評價失敗：{message}",
-  "gradesReviewsReviewsSubtitle": "搜索課程後查看評價",
-  "gradesReviewsScores": "成績",
-  "gradesReviewsScoresSubtitle": "搜索課程後查看分佈",
   "gradesReviewsSearchCourse": "搜索課程",
   "gradesReviewsSearchError": "搜索失敗：{error}",
   "gradesReviewsSearchFailMessage": "搜索失敗：{message}",
-  "gradesReviewsSearchHintGrades": "搜索課程後查看歷史給分分佈",
   "gradesReviewsSearchHintNormal": "搜索課程名稱、教師姓名或課程代碼",
-  "gradesReviewsSearchHintReviews": "搜索課程後查看同學評價",
   "gradesReviewsSearchTitle": "課程搜索",
   "gradesReviewsTitle": "給分與評價",
-  "gradesReviewsToolsDescription": "搜尋課程，查看歷史給分分佈與同學評價。",
-  "gradesReviewsToolsSection": "教務工具",
-  "gradesReviewsToolsTitle": "課程給分與評價",
   "headerOpenListSettings": "開啟清單頁設定",
   "headerOpenListTabs": "開啟標籤頁選擇",
   "homeCalendarMainLabelWeek": "第 {week} 週",
@@ -7557,7 +7346,6 @@
   "hotUpdateVersionMissing": "本地缺失 · 遠端 v{remote}",
   "hourH": "{hour} 小時",
   "imageCropDesktopHint": "拖曳以移動 · 使用 +/− 調整裁剪範圍",
-  "imageCropDesktopHintSquare": "拖曳以移動 · 使用 +/− 調整正方形裁剪範圍",
   "imageCropPresetDevice": "螢幕比例",
   "imageCropPresetOriginal": "原圖",
   "imageCropRatioFree": "自由",
@@ -7588,7 +7376,6 @@
   "languageFollowApp": "跟隨應用",
   "languageFollowSystem": "跟隨系統",
   "languageLabel": "應用語言",
-  "languageSystemSettings": "語言設定",
   "libraryAuthFailed": "授權失敗：{error}",
   "libraryAvailable": "可用 {free}/{total}",
   "libraryBookFailed": "預約失敗：{error}",
@@ -8081,7 +7868,6 @@
   "schoolNetSuspendedSince": "暫停時間",
   "scoreCaptchaAutoVerifying": "自動驗證中...",
   "captchaAutoVerifying": "自動驗證中...",
-  "scoreCaptchaRetrying": "自動驗證中（第{attempt}次嘗試）...",
   "scoreClearCacheHint": "清除本地緩存的成績數據",
   "scoreClearCacheSuccess": "成績緩存已清空",
   "scoreClearCacheTitle": "清空成績緩存",
@@ -8124,11 +7910,6 @@
   "scorePageGpaStandardHint": "切換時會重新計算總績點和分組績點",
   "scorePageLoginHint": "如果尚未登入教務系統，請先在設定中登入。\n然後點擊下方按鈕拉取並同步成績到本地。",
   "scorePageNoLocalScore": "沒有本地成績",
-  "scorePagePrivacyLocked": "成績單已被隱私鎖保護",
-  "scorePageClickToUnlock": "點擊解鎖",
-  "scorePageEnableBiometric": "開啓生物識別鎖",
-  "scorePageBiometricHint": "通過 Face ID 或指紋保護您的成績隱私",
-  "scorePageBiometricAuthFailed": "生物認證失敗",
   "scorePageRetry": "重試",
   "scorePageSemesterLabel": "{year} - 第 {semester} 學期",
   "scorePageSettings": "成績設定",
@@ -8317,8 +8098,6 @@
   "settingsDevScanSuccess": "成功發現服務器: {ip}:6262",
   "settingsDevServerUrl": "自訂伺服器位址",
   "settingsDevServerUrlSubtitle": "設定後將覆蓋預設的 API Base URL。例如使用內網地址進行測試：http://192.168.1.100:6262",
-  "settingsDevThemeLabSubtitle": "並排預覽淺色與深色主題下的核心元件。",
-  "settingsDevThemeLabTitle": "主題實驗室",
   "settingsDevUrlHint": "留白以使用預設位址",
   "settingsDevUrlLabel": "服務器 URL",
   "settingsDevWebViewDebugger": "WebView 網路偵錯器",
@@ -8473,9 +8252,7 @@
   "settingsWidgetsPinAdded": "小組件已加入",
   "settingsWidgetsManualAddHint": "長按主畫面空白處，開啟小組件清單，找到「珞珈」即可手動加入小組件。",
   "settingsWidgetsPinFailed": "無法請求加入主畫面，請改以系統手動加入",
-  "settingsWidgetsAddManuallyAndroid": "長按主畫面空白處，開啟小組件清單，找到「珞珈」即可手動加入小組件。",
   "settingsWidgetsPinSupportError": "無法檢查目前的主畫面是否支援一鍵加入，仍可手動加入小組件。",
-  "settingsWidgetsPinSubmitted": "已向主畫面提交請求，尚未確認加入。請依主畫面提示操作，或手動加入小組件。",
   "settingsWidgetsPinConfirmed": "主畫面已確認加入小組件。",
   "settingsWidgetsPinObserved": "偵測到新增的小組件實例，請到主畫面查看其位置。",
   "settingsWidgetsPinUnsupported": "目前系統不支援一鍵加入，請長按主畫面空白處手動加入小組件",
@@ -8685,92 +8462,6 @@
   "timetableNotFound": "找不到課程表",
   "timetables": "课程表列表",
   "tipSelectedDateIsNotAMonday": "提示：所選日期並非星期一",
-  "toolkitVerifyAgendaItemTitle": "測試日程項",
-  "toolkitVerifyAuthPrerequisite": "認證前置條件",
-  "toolkitVerifyAuthenticated": "已認證 · {subject}",
-  "toolkitVerifyAuthenticatedShort": "已登入",
-  "toolkitVerifyAutoApproveSubtitle": "全流程自動化時允許測試發起寫入卡片並自動確認",
-  "toolkitVerifyAutoApproveTitle": "自動通過驗證類寫入操作卡片",
-  "toolkitVerifyBlockReason": "標記阻塞原因",
-  "toolkitVerifyBlockReasonTitle": "請輸入阻塞原因",
-  "toolkitVerifyCheck": "靜態檢測: {code}",
-  "toolkitVerifyCheckCancelBlock": "取消阻塞檢測",
-  "toolkitVerifyCheckCleanup": "清理資源檢測",
-  "toolkitVerifyCheckConsistency": "模型一致性檢測",
-  "toolkitVerifyCheckJobQuery": "背景任務查詢檢測",
-  "toolkitVerifyCheckJsonBudget": "JSON 預算限額檢測",
-  "toolkitVerifyCheckNoAutoConfirm": "禁止自動確認檢測",
-  "toolkitVerifyCheckNoChallenge": "無 Challenge 模式檢測",
-  "toolkitVerifyCheckShellReject": "Shell 拒絕回應檢測",
-  "toolkitVerifyCheckWritePause": "寫入暫停檢測",
-  "toolkitVerifyCliButton": "並發跑全量 CLI 煙測試案例",
-  "toolkitVerifyCliProgress": "{msg} (系統已通過 {passed}/{total})",
-  "toolkitVerifyCliRunning": "CLI 自動化中...",
-  "toolkitVerifyConfirmRecordConfirm": "生成紀錄",
-  "toolkitVerifyConfirmRecordMessage": "{id} 包含寫入操作，請確認測試紀錄",
-  "toolkitVerifyConfirmRecordTitle": "生成測試紀錄卡片",
-  "toolkitVerifyConfirmWaterCodeMessage": "測試發起的取水碼提取動作",
-  "toolkitVerifyConfirmWaterCodeTitle": "取水碼確認測試",
-  "toolkitVerifyConfirmWriteMessage": "工具 {toolId} 將執行寫入操作 ({reason})，確認執行嗎？",
-  "toolkitVerifyConfirmWriteTitle": "測試寫入動作確認",
-  "toolkitVerifyDeferred": "延遲處理",
-  "toolkitVerifyEvents": "最近流水線日誌",
-  "toolkitVerifyLuotopiaJwt": "Luotopia JWT 憑證",
-  "toolkitVerifyMarkFailed": "標記已失敗",
-  "toolkitVerifyMarkPassed": "標記已通過",
-  "toolkitVerifyMsgAppProbes": "執行 App 端探針...",
-  "toolkitVerifyMsgCliAborted": "CLI 煙測試已中斷",
-  "toolkitVerifyMsgCliFailed": "CLI 煙測試失敗 ({failed} 項未通過)",
-  "toolkitVerifyMsgCliNotRun": "CLI 煙測試未執行",
-  "toolkitVerifyMsgCliPassed": "CLI 煙測試全量通過",
-  "toolkitVerifyMsgCliSmoke": "執行 CLI 煙測試案例...",
-  "toolkitVerifyMsgDone": "流水線全量完成",
-  "toolkitVerifyMsgLuotopiaDeferred": "Luotopia JWT 認證稍後延遲驗證",
-  "toolkitVerifyMsgPrepareAuth": "準備帳號與認證憑證...",
-  "toolkitVerifyMsgPrepareGateway": "準備測試閘道...",
-  "toolkitVerifyMsgRefreshWhuSession": "重新整理武大 Session...",
-  "toolkitVerifyMsgTheoryChecks": "執行理論約束校驗...",
-  "toolkitVerifyMsgToolkitChain": "執行 Toolkit 組合測試...",
-  "toolkitVerifyMsgWaitingHuman": "等待人工處理: {reason}",
-  "toolkitVerifyMsgWaitingStart": "等待啟動全流程流水線...",
-  "toolkitVerifyMsgWaitingWhuLogin": "等待登入武大統一身份認證...",
-  "toolkitVerifyMsgWhuFailed": "武大統一身份認證失敗",
-  "toolkitVerifyMsgWhuSessionFailed": "武大 Session 重新整理失敗",
-  "toolkitVerifyNotAuthenticated": "未認證",
-  "toolkitVerifyNotifAgendaTitle": "測試日程提醒通知",
-  "toolkitVerifyNotifAgendaUpdated": "測試日程已更新",
-  "toolkitVerifyOpenAuth": "前往登入認證",
-  "toolkitVerifyPipelineButton": "跑全量流水線",
-  "toolkitVerifyPipelineMessage": "步驟 {step}/{total}: {msg}",
-  "toolkitVerifyPipelineRunning": "全流程流水線執行中...",
-  "toolkitVerifyProgress": "已通過 {passed} / {total}",
-  "toolkitVerifyRecord": "測試紀錄",
-  "toolkitVerifySaveLog": "匯出 JSON 報告",
-  "toolkitVerifySkipReason": "標記跳過原因",
-  "toolkitVerifySkipReasonTitle": "請輸入跳過原因",
-  "toolkitVerifyStage1": "階段一：帳號與憑證準備",
-  "toolkitVerifyStage1Desc": "驗證 WHU 統一身份認證與 Luotopia 憑證狀態",
-  "toolkitVerifyStage2": "階段二：理論一致性與靜態約束校驗",
-  "toolkitVerifyStage2Desc": "驗證模型規範、schema、權限與宣告一致性",
-  "toolkitVerifyStage3": "階段三：CLI 模擬器基礎工具打通",
-  "toolkitVerifyStage3Desc": "驗證 CLI 無依賴基礎工具的呼叫與解析",
-  "toolkitVerifyStage4": "階段四：Toolkit 業務鏈路組合打通",
-  "toolkitVerifyStage4Desc": "驗證組合功能鏈路與上下文傳遞",
-  "toolkitVerifyStage5": "階段五：App 端內部探針",
-  "toolkitVerifyStage5Desc": "驗證 App 端內服務提供者與探針表現",
-  "toolkitVerifyStage6": "階段六：人工複核與確認操作",
-  "toolkitVerifyStage6Desc": "人工驗證二次確認卡與攔截邏輯",
-  "toolkitVerifyStatusBlocked": "阻塞",
-  "toolkitVerifyStatusFailed": "失敗",
-  "toolkitVerifyStatusPassed": "已通過",
-  "toolkitVerifyStatusPending": "待測試",
-  "toolkitVerifyStatusRunning": "執行中",
-  "toolkitVerifyStatusSkipped": "跳過",
-  "toolkitVerifyStatusWaiting": "等待中",
-  "toolkitVerifyTitle": "Toolkit CLI & 業務功能真實驗證卡",
-  "toolkitVerifyWaterCodeCancel": "取消",
-  "toolkitVerifyWaterCodeConfirm": "確認取水",
-  "toolkitVerifyWhuCas": "武大 CAS 認證",
   "unknown": "未知",
   "updateOnDataChangesWith": "資料變更即時推送，同時按頻率兜底刷新。",
   "updateTimetable": "更新課程表",
@@ -8849,7 +8540,6 @@
   "wakeupFileImportDescription": "匯入 Wakeup CSV 或課程表檔案",
   "wakeupImport": "Wakeup 导入",
   "wakeupImportFailed": "匯入 Wakeup 課程表失敗：{error}",
-  "wakeupImportPlaceholder": "Wakeup 分享口令/鏈接解析器待接入，當前版本先提供導入流程佔位。",
   "wakeupShareFile": "Wakeup 課程表檔案",
   "wakeupShareFileDescription": "匯出 Wakeup 課程表檔案",
   "wakeupShareLinkCode": "Wakeup 分享口令/链接",
@@ -9183,7 +8873,6 @@
   "whuAccountVerifyMobileSuccess": "手機號碼認證成功",
   "whuAccountVerifyMobileWaiting": "等待 {seconds} 秒",
   "whuAuthCaptchaLoadFailed": "安全驗證載入失敗，請關閉後重試",
-  "whuAuthLoginCredentialsError": "帳號、密碼或動態碼錯誤",
   "whuAuthSmsSendFailed": "驗證碼傳送失敗，請檢查手機號後重試",
   "whuAuthSmsSendRequired": "請先向目前手機號取得驗證碼",
   "whuCalendarListView": "列表",
@@ -9249,15 +8938,6 @@
   "whuNativeLoginSubmit": "登入",
   "whuNativeLoginStageSigningIn": "正在登入統一身份認證…",
   "whuNativeLoginStageConfirmingIdentity": "正在確認身分…",
-  "whuNativeLoginStageFetching": "登入成功，正在取得{source}資料…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "登入成功，正在完成…",
   "whuNativeLoginTitle": "武大統一認證",
   "whuNativeLoginUseWeb": "使用網頁版登入",
   "whuNativeLoginUseWebSubtitle": "若原生登入異常，可切換備用",
@@ -9319,7 +8999,6 @@
   "campusAppEbike": "電動車",
   "ebikeProviderZhiyin": "小綠",
   "ebikeProviderMango": "小黃",
-  "settingsAccountEbikeTitle": "共享電動車帳戶",
   "settingsAccountOtherTitle": "其他帳戶",
   "settingsAccountOtherSubtitle": "信箱、學習通與 VPN",
   "settingsOtherAccountsPageTitle": "其他帳戶",
@@ -9328,7 +9007,6 @@
   "settingsOtherAccountsNotConfigured": "未配置",
   "ebikeAccountsTileNone": "未綁定",
   "ebikeAccountsPageTitle": "共享電動車帳戶",
-  "ebikeAccountLinkAction": "綁定帳戶",
   "ebikeAccountLinkedAt": "綁定於 {time}",
   "@ebikeAccountLinkedAt": {
     "placeholders": {
@@ -9378,7 +9056,6 @@
       }
     }
   },
-  "ebikeHubNotLinkedAction": "去綁定",
   "ebikeHubRidingBanner": "騎行狀態",
   "ebikeHubUnpaidOrder": "有未支付訂單：{amount} 元",
   "@ebikeHubUnpaidOrder": {
@@ -9392,9 +9069,6 @@
   "ebikeHubActionCards": "騎行卡",
   "ebikeHubActionWallet": "錢包",
   "ebikeHubActionOrders": "行程訂單",
-  "ebikeHubBalance": "餘額",
-  "ebikeHubDeposit": "押金",
-  "ebikeHubRealNameMissing": "未完成實名認證",
   "ebikeCarIdDialogTitle": "輸入車輛編號",
   "ebikeCarIdDialogHint": "車牌號或掃描取得的連結",
   "ebikeCarIdInvalid": "無法識別車輛編號",
@@ -9549,7 +9223,6 @@
   "ebikeCardsPurchaseSuccess": "購買成功",
   "ebikeCardsEmpty": "暫無在售騎行卡",
   "ebikeCardsMineEmpty": "暫無可用騎行卡",
-  "ebikeCardsMangoHint": "小黃騎行卡暫不支援在 App 內購買，請前往小黃小程式。",
   "ebikeWalletTitle": "錢包",
   "ebikeWalletBalance": "餘額",
   "ebikeWalletMangoCoin": "小黃餘額",
@@ -9568,13 +9241,7 @@
       }
     }
   },
-  "ebikeWalletRechargeUnavailable": "當前服務區不支援校園卡儲值，請前往官方小程式儲值。",
   "ebikeWalletRechargeSuccess": "儲值成功",
-  "ebikeWalletDepositRefund": "申請退押金",
-  "ebikeWalletDepositRefundTitle": "選擇退款原因",
-  "ebikeWalletDepositRefundSuccess": "已提交退款申請",
-  "ebikeWalletDepositRefundCancel": "撤銷退款申請",
-  "ebikeWalletDepositRefundCanceled": "已撤銷退款申請",
   "ebikeWalletCampusCard": "校園卡",
   "ebikeWalletCampusCardBound": "已綁定（{name}）",
   "@ebikeWalletCampusCardBound": {
@@ -9585,7 +9252,6 @@
     }
   },
   "ebikeWalletCampusCardNotBound": "未綁定",
-  "ebikeWalletMangoRechargeHint": "小黃餘額儲值請前往小程式",
   "ebikeOrdersTitle": "行程訂單",
   "ebikeOrdersEmpty": "暫無訂單",
   "ebikeOrderId": "訂單編號",
@@ -9690,6 +9356,9 @@
   "chaoxingLoginBadCredentials": "登入失敗：{message}",
   "chaoxingLoginCaptchaRequired": "伺服器要求互動式驗證，請稍後再試，或先在官方 App 中登入一次。",
   "chaoxingOperationFailed": "操作失敗：{error}",
+  "chaoxingArgsMissing": "頁面參數已失效",
+  "chaoxingArgsMissingHint": "無法恢復要顯示的活動，通常是因為應用在此頁面開啟期間重新啟動了。請返回後重新進入。",
+  "chaoxingArgsMissingAction": "返回學習通",
   "chaoxingUniqueIdTitle": "裝置識別碼",
   "chaoxingUniqueIdSubtitle": "開發者工具：檢視或編輯上報給學習通伺服器的 uniqueId",
   "chaoxingUniqueIdEmpty": "尚未產生，首次登入時會自動建立。",
@@ -9718,7 +9387,6 @@
   "chaoxingSignUseWeb": "使用網頁版",
   "chaoxingSignUseWebSubtitle": "改用網頁完成這次簽到",
   "chaoxingSignSubmit": "簽到",
-  "chaoxingSignSubmitting": "正在簽到…",
   "chaoxingSignSuccess": "簽到成功",
   "chaoxingSignAlready": "已經簽到過了",
   "chaoxingSignLate": "已簽到，但超過了截止時間",
@@ -9728,11 +9396,12 @@
   "chaoxingSignCodeInvalid": "簽到碼不正確",
   "chaoxingSignGestureHint": "在下方九宮格畫出手勢",
   "chaoxingSignPhotoPick": "選擇照片",
+  "chaoxingSignPhotoCamera": "拍照",
+  "chaoxingSignPhotoGallery": "相簿",
   "chaoxingSignPhotoRetake": "重拍",
   "chaoxingSignPhotoRemove": "移除",
   "chaoxingSignPhotoRequired": "需要一張照片",
   "chaoxingSignLocationRequired": "這次簽到需要定位",
-  "chaoxingSignLocationLabel": "位置",
   "chaoxingSignKindPlain": "普通簽到",
   "chaoxingSignKindAntiCheat": "防作弊簽到",
   "chaoxingSignKindPhoto": "拍照簽到",
@@ -9752,6 +9421,23 @@
   "chaoxingSignFaceNeedDevice": "人臉簽到需要以「裝置註冊」方式登入學習通。請改用網頁版，或以該選項重新登入。",
   "chaoxingSignFaceEnrollFailed": "人臉登記失敗：{message}",
   "chaoxingSignLocationUse": "將使用你目前的位置",
+  "campusMapPickerTitle": "選擇位置",
+  "campusMapPickerHint": "點擊地圖落點，或拖動圖釘微調",
+  "campusMapPickerResolving": "正在解析地址…",
+  "campusMapPickerNoAddress": "沒能解析出地址，座標仍然有效",
+  "campusMapPickerConfirm": "使用此位置",
+  "chaoxingSignLocationSourceTitle": "位置來源",
+  "chaoxingSignLocationModeDevice": "我的位置",
+  "chaoxingSignLocationModePicked": "地圖選點",
+  "chaoxingSignLocationModeActivity": "簽到地點",
+  "chaoxingSignLocationPickNone": "尚未選點",
+  "chaoxingSignLocationPicked": "已選擇：{name}",
+  "chaoxingSignLocationResolveUnreachable": "地理編碼服務連不上，無法解析「{name}」，請改用地圖選點",
+  "chaoxingSignLocationRange": "允許範圍：{metres} 公尺",
+  "chaoxingSignLocationResolving": "正在解析簽到地點…",
+  "chaoxingSignLocationUnspecified": "這次簽到沒有指定地點，請改用「我的位置」或「地圖選點」",
+  "chaoxingSignLocationResolveFailed": "沒能解析出「{name}」的座標，請改用地圖選點",
+  "chaoxingSignLocationResolved": "已解析：{name} · {point}",
   "chaoxingScanTitle": "掃描簽到二維碼",
   "chaoxingScanHint": "對準教師展示的簽到二維碼",
   "chaoxingScanPermission": "需要相機權限才能掃碼",

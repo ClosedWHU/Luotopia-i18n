@@ -247,8 +247,6 @@
   "schoolNetProviderTelecom": "China Telecom",
   "schoolNetProviderUnicom": "China Unicom",
   "schoolNetProviderMobile": "China Mobile",
-  "settingsDevThemeLabTitle": "主题实验室",
-  "settingsDevThemeLabSubtitle": "并排预览核心元件喺浅色同深色主题下嘅效果。",
   "whuNativeLoginRememberMobile": "记住手机号码",
   "whuNativeLoginTitle": "武大统一认证",
   "whuNativeLoginHeading": "登入武大统一身份认证",
@@ -263,15 +261,6 @@
   "whuNativeLoginSubmit": "登入",
   "whuNativeLoginStageSigningIn": "正在登入统一身份认证…",
   "whuNativeLoginStageConfirmingIdentity": "正在确认身份…",
-  "whuNativeLoginStageFetching": "登入成功，正在获取{source}数据…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "登入成功，正在完成…",
   "whuNativeLoginUseWeb": "用网页版登入",
   "whuNativeLoginUseWebSubtitle": "如果原生登入有问题，可以切换备用",
   "aiAssistant": "助手",
@@ -461,7 +450,6 @@
   "commonRegistrationTime": "注册时间",
   "commonUsername": "用户名",
   "courseGridSettings": "科目方格模式设置",
-  "gradesReviewsScores": "成绩",
   "gradesReviewsTitle": "给分同评价",
   "courseImport": "科目表汇入",
   "courseImportSemester": "学期",
@@ -1200,7 +1188,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "研究生课程对应唔到校历日期，请检查所选学期系咪正确。",
   "courseImportGraduateTermsUnrecognized": "研究生系统返回嘅学期无法识别。",
   "courseImportStatusFailed": "汇入失败：{error}",
   "@courseImportStatusFailed": {
@@ -1302,11 +1289,6 @@
   "aiAccountSwitchConfirm": "重新传送",
   "aiAccountSwitchDismiss": "而家唔使",
   "scorePageNoLocalScore": "本机冇成绩",
-  "scorePagePrivacyLocked": "成绩表已经俾私隐锁保护",
-  "scorePageClickToUnlock": "撳解锁",
-  "scorePageEnableBiometric": "开生物识别锁",
-  "scorePageBiometricHint": "用 Face ID 或者指纹保护你嘅成绩私隐",
-  "scorePageBiometricAuthFailed": "生物认证失败",
   "scorePageLoginHint": "如果未登入教务系统，请先喺设置度登入。\n然后撳下面个掣攞成绩同同步去本机。",
   "scorePageSync": "同步成绩纪录",
   "scorePageTotalGpa": "总平均学分绩点",
@@ -1498,7 +1480,6 @@
   "settingsHomeGridBorderAlpha": "网格边框不透明度",
   "settingsHomeCropImage": "裁剪图片",
   "imageCropDesktopHint": "拖动嚟移动 · 用 +/− 调整裁剪范围",
-  "imageCropDesktopHintSquare": "拖动嚟移动 · 用 +/− 调整正方形裁剪范围",
   "imageCropPresetDevice": "屏幕比例",
   "imageCropPresetOriginal": "原图",
   "imageCropRatioFree": "自由",
@@ -1534,7 +1515,6 @@
   },
   "libraryClickForDetails": "撳睇各楼层同座位详情",
   "globalTimetableTitle": "全校时间表",
-  "globalTimetablePlaceholder": "全校时间表功能仲开发紧…",
   "globalTimetableCourseMatching": "课程配对",
   "globalTimetableContribute": "贡献时间表",
   "globalTimetableLocalImport": "汇入去呢部设备",
@@ -1640,15 +1620,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "教务系统登入失败，请重新登入武大统一认证。",
-  "gradesReviewsToolsTitle": "课程给分同评价",
-  "gradesReviewsToolsDescription": "搜寻课程，查看历史给分分布同同学评价。",
   "gradesReviewsSearchCourse": "搜寻科目",
-  "gradesReviewsScoresSubtitle": "搜寻科目之后睇分布",
-  "gradesReviewsReviews": "科目评价",
-  "gradesReviewsReviewsSubtitle": "搜寻科目之后睇评价",
-  "gradesReviewsToolsSection": "教务工具",
-  "gradesReviewsSearchHintGrades": "搜寻科目之后睇历史畀分分布",
-  "gradesReviewsSearchHintReviews": "搜寻科目之后睇同学评价",
   "gradesReviewsSearchHintNormal": "搜寻科目名称、讲师姓名或者科目代码",
   "gradesReviewsSearchTitle": "科目搜寻",
   "gradesReviewsEmptyTitle": "搜寻任何科目",
@@ -1658,17 +1630,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -1715,7 +1676,6 @@
       }
     }
   },
-  "wakeupImportPlaceholder": "Wakeup 分享口令/连结解析器待接入，当前版本先提供汇入流程占位。",
   "sportsReservationToday": "今日",
   "sportsReservationTomorrow": "听日",
   "sportsReservationDayAfterTomorrow": "后日",
@@ -2070,14 +2030,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "自动验证紧（第{attempt}次尝试）...",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -2677,9 +2629,7 @@
   "settingsWidgetsPinRequested": "已经请求加入小组件，请到主屏幕确认。如果没有提示，可以手动加入。",
   "settingsWidgetsPinAdded": "小组件已加入",
   "settingsWidgetsManualAddHint": "长按主屏幕空白位，打开小组件列表，揾到「珞珈」就可以手动加入小组件。",
-  "settingsWidgetsAddManuallyAndroid": "长按主屏幕空白位，打开小组件列表，揾到「珞珈」就可以手动加入小组件。",
   "settingsWidgetsPinSupportError": "无法检查而家个桌面是否支持一键加入，仍然可以手动加入小组件。",
-  "settingsWidgetsPinSubmitted": "已经向桌面提交请求，仲未确认加入。请跟桌面提示操作，或者手动加入小组件。",
   "settingsWidgetsPinConfirmed": "桌面已经确认加入小组件。",
   "settingsWidgetsPinObserved": "检测到新增嘅小组件，请到主屏幕查看佢嘅位置。",
   "settingsWidgetsPlatformsMacMenu": "macOS 菜单栏",
@@ -2824,14 +2774,10 @@
   "authResetPassword": "重设密码",
   "authEmailVerifySuccess": "邮箱验证成功，请重新登录",
   "authPasswordResetSuccess": "密码已重设，请用新密码登录",
-  "authSendResetLink": "发送重设链接",
-  "authResetRequested": "如果呢个邮箱已经注册，重置密码邮件应该会喺几分钟内收到。如果收唔到，请检查垃圾邮件箱同邮箱地址有冇写错。",
   "authLoginEmailUnverified": "呢个邮箱地址仲未验证，请验证之后再登入。",
   "authLoginAccountDisabled": "呢个账号已经停用，请联系管理员帮手。",
   "authResendVerification": "重新发送验证",
   "authVerificationEmailPromptTitle": "输入账号邮箱",
-  "authVerificationEmailSent": "如果账号存在而且仲需要验证，验证邮件已经发送。",
-  "authVerificationEmailSendFailed": "无法发送验证邮件：{error}",
   "authMfaTitle": "两步验证",
   "authMfaEmailSent": "验证码已发送去 {email}",
   "@authMfaEmailSent": {
@@ -3172,7 +3118,6 @@
       }
     }
   },
-  "authOldPassword": "而家密码",
   "authNewPassword": "新密码",
   "authPasswordChanged": "密码已修改。请重新登入。",
   "authPasswordChangeFailed": "修改密码失败：{error}",
@@ -3323,14 +3268,6 @@
   "forumReplyHint": "请友善交流，唔好分享个人资料。",
   "forumSend": "发送",
   "authPasswordResetEmail": "邮箱",
-  "authPasswordResetSendFailed": "发送失败：{error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "courseReviewsMyReviews": "我嘅评价",
   "courseReviewsMyReviewsEmpty": "你仲未提交过任何评价。",
   "courseReviewsStatusPending": "等紧审核",
@@ -3402,16 +3339,7 @@
       }
     }
   },
-  "forumDraftPublished": "草稿已发布",
   "forumDraftEditTitle": "编辑草稿",
-  "forumDraftLastEdited": "编辑于 {time}",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "内容仲未保存",
   "forumUnsavedChangesMessage": "发布呢篇帖子、存做草稿，定系舍弃？",
   "forumUnsavedChangesPublish": "发布",
@@ -3423,8 +3351,6 @@
   "forumUserCommentsTab": "评论",
   "forumUserLikedTab": "赞好",
   "forumUserFavoritesTab": "收藏",
-  "forumUserFollowersTab": "粉丝",
-  "forumUserFollowingTab": "关注",
   "forumUserJoinedAt": "{date} 加入",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -3525,16 +3451,7 @@
   "forumBlockListSubtitle": "被拉黑嘅用户无法关注你或者发私信俾你。",
   "forumBlockListEmpty": "你仲未有拉黑任何人。",
   "forumRelationListEmpty": "呢度仲未有人。",
-  "forumRelationListFailed": "列表加载失败：{error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "私信",
-  "forumMessagesEntrySubtitle": "同互相关注嘅人私聊",
   "forumConversationsEmpty": "暂时未有私信",
   "forumConversationsEmptyHint": "互相关注之后就可以发私信。",
   "forumChatInputHint": "发送消息…",
@@ -3570,14 +3487,6 @@
   "forumReport": "举报",
   "forumReportReason": "举报原因",
   "forumReportSubmitted": "举报已提交。",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3773,7 +3682,6 @@
       }
     }
   },
-  "languageSystemSettings": "语言设置",
   "commonOk": "确定",
   "whuAccountEducationalYearsValue": "{years} 年",
   "@whuAccountEducationalYearsValue": {
@@ -4053,7 +3961,6 @@
   "settingsBuildInfoBuildTime": "建构时间",
   "courseImportSemesterAlreadyAdded": "呢个学期已经加咗，请喺课程表选单拣「更新课程表」。",
   "waterControlClassNo": "班号 {classNo}",
-  "forumImageFiles": "论坛图片",
   "forumAttachmentFiles": "论坛附件",
   "forumModerationAllSources": "全部来源",
   "forumModerationUnclaimed": "未认领",
@@ -4209,7 +4116,6 @@
     }
   },
   "campusBusPreviewCardSetting": "巴士到站预览",
-  "campusBusPreviewCardSettingIosHint": "喺叠放小组件入面显示即时到站信息",
   "campusBusPreviewCardSettingHint": "喺主页显示预览卡片",
   "campusBusArrivalSelectTarget": "拣巴士站",
   "campusBusArrivalLine": "巴士线路",
@@ -4573,7 +4479,6 @@
   "adminUserDetailReceivedLikes": "收到嘅赞",
   "adminUserDetailWhuAccountData": "武大账户资料",
   "adminUserDetailWhuAccountDataDescription": "只限超级管理员睇到，存取会被记录。",
-  "adminUserDetailWhuAccount": "武大账户",
   "adminUserDetailManagement": "管理",
   "adminUserContentPostsTitle": "用户帖子",
   "adminUserContentCommentsTitle": "用户评论",
@@ -4793,7 +4698,6 @@
   "forumCheckinDone": "今日经已签到",
   "forumCheckinFixed": "稳阵路径（+{amount}）",
   "forumCheckinRandom": "博一铺",
-  "forumCheckinRandomHint": "长期平均略低过稳阵条路",
   "forumCheckinSuccess": "+{amount} 业果（连续 {streak} 日）",
   "forumCheckinTitle": "每日签到",
   "forumCheckinTodo": "签到",
@@ -4851,7 +4755,6 @@
   "forumLeaderboardTitle": "业果排名",
   "forumModerationFlavorPending": "待审核",
   "forumReportSubmittedFlavor": "已记录；等紧回应。",
-  "courseGradeStatsAllTeachersPrepared": "全部老师数据已就绪。拣个老师去睇成绩数据。",
   "courseGradeStatsExamAverage": "平均考试分",
   "courseGradeStatsLoadFailed": "加载成绩分布失败: {error}",
   "courseGradeStatsPrivacyThreshold": "为咗保障私隐，最少要 5 个样本。",
@@ -4962,17 +4865,6 @@
   "courseMatchingTeacher": "教师",
   "courseMatchingSectionRangeError": "起始节次不能大于结束节次。",
   "courseMatchingCreditRangeError": "最小学分不能大于最大学分。",
-  "globalTimetableTermWithCount": "第 {term} 学期 · {count} 条",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "课程历史",
   "globalTimetableHistoryHint": "在全部已发布学期中检索，从新到旧。",
   "globalTimetableHistoryEmpty": "没有匹配嘅开课记录。",
@@ -4989,7 +4881,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "尚未下载任何学期数据。",
   "globalTimetableDownloadsHint": "学期档案来自 WHU-Master-Timetable 档案站；下载之后可以离线检索该学期。",
   "globalTimetableDownloadsRemoteInfo": "{count} 门课 · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -5006,7 +4897,6 @@
   "globalTimetableDownloadFailed": "下载失败",
   "globalTimetableDeleteAll": "全部删除",
   "globalTimetableDeleteAllConfirm": "删除本机全部已下载学期？",
-  "globalTimetableSourceMode": "数据源",
   "globalTimetableSourceAuto": "自动",
   "globalTimetableLocalMissing": "本地未下载该学期数据。",
   "globalTimetableNoSlot": "无时段",
@@ -5072,7 +4962,6 @@
   "whuAuthSmsSendFailed": "验证码发送失败，请检查手机号后重试",
   "whuAuthSmsSendRequired": "请先向当前手机号获取验证码",
   "whuAuthCaptchaLoadFailed": "安全验证加载失败，请关闭后重试",
-  "whuAuthLoginCredentialsError": "账号、密码或动态码错误",
   "whuSmartCampusAuthFailedCasRequired": "智慧珞珈授权失败，请重新登入武大统一认证。",
   "whuSmartCampusAuthFailedHttp": "智慧珞珈授权失败（HTTP {statusCode}）。",
   "@whuSmartCampusAuthFailedHttp": {
@@ -5180,92 +5069,6 @@
   "aiDebugToolAllowlist": "允许列表 ({count})",
   "aiDebugToolkitLogTitle": "Toolkit 内部日志",
   "settingsPrivacyDiagnosticsGmsUnavailable": "此设备冇 Google Play 服务，遥测功能已禁用。你嘅已保存选择会保留，待 Google Play 服务可用后恢复生效。",
-  "toolkitVerifyAgendaItemTitle": "测试日程项",
-  "toolkitVerifyAuthPrerequisite": "认证前置条件",
-  "toolkitVerifyAuthenticated": "已认证 · {subject}",
-  "toolkitVerifyAuthenticatedShort": "已登入",
-  "toolkitVerifyAutoApproveSubtitle": "全流程自动化时允许测试发起写卡片并自动确认",
-  "toolkitVerifyAutoApproveTitle": "自动通过验证类写操作卡片",
-  "toolkitVerifyBlockReason": "标记阻塞原因",
-  "toolkitVerifyBlockReasonTitle": "请输入阻塞原因",
-  "toolkitVerifyCheck": "静态检测: {code}",
-  "toolkitVerifyCheckCancelBlock": "取消阻塞检测",
-  "toolkitVerifyCheckCleanup": "清理资源检测",
-  "toolkitVerifyCheckConsistency": "模型一致性检测",
-  "toolkitVerifyCheckJobQuery": "后台任务查询检测",
-  "toolkitVerifyCheckJsonBudget": "JSON 预算限额检测",
-  "toolkitVerifyCheckNoAutoConfirm": "禁止自动确认检测",
-  "toolkitVerifyCheckNoChallenge": "冇 Challenge 模式检测",
-  "toolkitVerifyCheckShellReject": "Shell 拒绝响应检测",
-  "toolkitVerifyCheckWritePause": "写入暂停检测",
-  "toolkitVerifyCliButton": "并发跑全量 CLI 烟测试用例",
-  "toolkitVerifyCliProgress": "{msg} (系统已通过 {passed}/{total})",
-  "toolkitVerifyCliRunning": "CLI 自动化紧...",
-  "toolkitVerifyConfirmRecordConfirm": "生成记录",
-  "toolkitVerifyConfirmRecordMessage": "{id} 包含写操作，请确认测试记录",
-  "toolkitVerifyConfirmRecordTitle": "生成测试记录卡片",
-  "toolkitVerifyConfirmWaterCodeMessage": "测试发起嘅取水码提取动作",
-  "toolkitVerifyConfirmWaterCodeTitle": "取水码确认测试",
-  "toolkitVerifyConfirmWriteMessage": "工具 {toolId} 会执行写入操作（{reason}），係咪执行？",
-  "toolkitVerifyConfirmWriteTitle": "测试写入动作确认",
-  "toolkitVerifyDeferred": "延迟处理",
-  "toolkitVerifyEvents": "最近流水线日志",
-  "toolkitVerifyLuotopiaJwt": "Luotopia JWT 凭据",
-  "toolkitVerifyMarkFailed": "标记已失败",
-  "toolkitVerifyMarkPassed": "标记已通过",
-  "toolkitVerifyMsgAppProbes": "执行 App 端探针...",
-  "toolkitVerifyMsgCliAborted": "CLI 烟测试已中断",
-  "toolkitVerifyMsgCliFailed": "CLI 烟测试失败 ({failed} 项未通过)",
-  "toolkitVerifyMsgCliNotRun": "CLI 烟测试未运行",
-  "toolkitVerifyMsgCliPassed": "CLI 烟测试全量通过",
-  "toolkitVerifyMsgCliSmoke": "执行 CLI 烟测试用例...",
-  "toolkitVerifyMsgDone": "流水线全量完成",
-  "toolkitVerifyMsgLuotopiaDeferred": "Luotopia JWT 认证稍后延迟验证",
-  "toolkitVerifyMsgPrepareAuth": "准备账号同认证凭据...",
-  "toolkitVerifyMsgPrepareGateway": "准备测试网关...",
-  "toolkitVerifyMsgRefreshWhuSession": "刷新武大 Session...",
-  "toolkitVerifyMsgTheoryChecks": "执行理论约束校验...",
-  "toolkitVerifyMsgToolkitChain": "执行 Toolkit 组合测试...",
-  "toolkitVerifyMsgWaitingHuman": "等人工处理: {reason}",
-  "toolkitVerifyMsgWaitingStart": "等启动全流程流水线...",
-  "toolkitVerifyMsgWaitingWhuLogin": "等登入武大统一身份认证...",
-  "toolkitVerifyMsgWhuFailed": "武大统一身份认证失败",
-  "toolkitVerifyMsgWhuSessionFailed": "武大 Session 刷新失败",
-  "toolkitVerifyNotAuthenticated": "未认证",
-  "toolkitVerifyNotifAgendaTitle": "测试日程提醒通知",
-  "toolkitVerifyNotifAgendaUpdated": "测试日程已更新",
-  "toolkitVerifyOpenAuth": "去登入认证",
-  "toolkitVerifyPipelineButton": "跑全量流水线",
-  "toolkitVerifyPipelineMessage": "步骤 {step}/{total}: {msg}",
-  "toolkitVerifyPipelineRunning": "全流程流水线执行紧...",
-  "toolkitVerifyProgress": "已通过 {passed} / {total}",
-  "toolkitVerifyRecord": "测试记录",
-  "toolkitVerifySaveLog": "导出 JSON 报告",
-  "toolkitVerifySkipReason": "标记跳过原因",
-  "toolkitVerifySkipReasonTitle": "请输入跳过原因",
-  "toolkitVerifyStage1": "阶段一：账号同凭据准备",
-  "toolkitVerifyStage1Desc": "验证 WHU 统一身份认证同 Luotopia 凭据状态",
-  "toolkitVerifyStage2": "阶段二：理论一致性同静态约束校验",
-  "toolkitVerifyStage2Desc": "验证模型规范、schema、权限同声明一致性",
-  "toolkitVerifyStage3": "阶段三：CLI 模拟器基础工具打通",
-  "toolkitVerifyStage3Desc": "验证 CLI 冇依赖基础工具嘅调用同解析",
-  "toolkitVerifyStage4": "阶段四：Toolkit 业务链路组合打通",
-  "toolkitVerifyStage4Desc": "验证组合功能链路同上下文传递",
-  "toolkitVerifyStage5": "阶段五：App 端内部探针",
-  "toolkitVerifyStage5Desc": "验证 App 端内服务提供者同探针表现",
-  "toolkitVerifyStage6": "阶段六：人工复核同确认操作",
-  "toolkitVerifyStage6Desc": "人工验证二次确认卡同拦截逻辑",
-  "toolkitVerifyStatusBlocked": "阻塞",
-  "toolkitVerifyStatusFailed": "失败",
-  "toolkitVerifyStatusPassed": "已通过",
-  "toolkitVerifyStatusPending": "待测试",
-  "toolkitVerifyStatusRunning": "执行紧",
-  "toolkitVerifyStatusSkipped": "跳过",
-  "toolkitVerifyStatusWaiting": "等紧",
-  "toolkitVerifyTitle": "Toolkit CLI & 业务功能真实验证卡",
-  "toolkitVerifyWaterCodeCancel": "取消",
-  "toolkitVerifyWaterCodeConfirm": "确认取水",
-  "toolkitVerifyWhuCas": "武大 CAS 认证",
   "waterElectricRoomTitle": "选择水电房间",
   "waterElectricRoomNotice": "房间只会保存喺本机，水电平台唔会建立学生同房间嘅服务端绑定。",
   "waterElectricArea": "区域",
@@ -5424,7 +5227,6 @@
   "aiAssistantEmpty": "未创建助手",
   "aiAssistantUseGlobal": "使用全局设置",
   "aiAssistantDeleteConfirm": "删除呢个助手？",
-  "aiClose": "关闭",
   "aiExport": "导出",
   "aiShare": "分享",
   "aiCompressContext": "压缩上下文",
@@ -5472,7 +5274,6 @@
   "aiSkillsEnabled": "已启用 {count} 个",
   "aiMcp": "MCP",
   "aiMcpEmpty": "未配置 MCP 服务器",
-  "aiMcpEnabled": "已连接 {count} 个",
   "aiMcpAddServer": "添加服务器",
   "aiMcpServersTitle": "MCP 服务器",
   "aiMcpDescription": "MCP 服务器令 Agent 可以调用你配置嘅端点上嘅工具。未连接同拣工具之前，唔会开放任何工具。",
@@ -5494,7 +5295,6 @@
   "aiMcpHeadersInvalid": "每一行都要係 名称: 值 嘅格式",
   "aiMcpUrlInvalid": "请填写 http(s) 绝对地址",
   "aiMcpDeleteConfirm": "删除呢个 MCP 服务器？",
-  "aiMcpTestConnection": "测试连接",
   "aiMcpStatusIdle": "未连接",
   "aiMcpStatusConnecting": "连接紧",
   "aiMcpStatusConnected": "已连接",
@@ -5510,7 +5310,6 @@
   "aiMcpServerEnabledHint": "停用之后唔会连接，佢嘅工具亦会从 Agent 目录移除。",
   "aiMcpToolsHidden": "未开放俾 Agent",
   "aiMcpCatalogNote": "改动开放嘅工具会重建 Agent 嘅工具目录。",
-  "aiMcpLastError": "上次错误",
   "aiMcpImportedCount": "已导入 {count} 个服务器",
   "aiAssistantActive": "当前生效",
   "aiAssistantsGlobalHint": "用「模型服务」页嘅系统提示词同参数。",
@@ -5528,17 +5327,12 @@
   "aiSkillFieldsRequired": "名称、描述同指令都唔可以留空",
   "aiSkillInstructionsHint": "启用呢个技能嗰阵发送俾模型嘅指令",
   "settingsAiModelService": "模型服务",
-  "settingsAiModelServiceSubtitle": "提供商、密钥、模型同采样参数",
-  "settingsAiAssistantsSubtitle": "人设、系统提示词同参数覆盖",
-  "settingsAiWebSearchSubtitle": "开放网络访问同搜索提供方密钥",
   "settingsAiWorkspaceSubtitle": "用量、清理同导出",
   "settingsAiOverviewNotConfigured": "未配置",
-  "settingsAiModelsActiveProvider": "当前提供商",
   "settingsAiModelsOtherProviders": "其他提供商",
   "settingsAiModelsStoredCount": "已保存 {count} 个模型",
   "settingsAiModelsSwitchHint": "切换提供商会加载佢已保存嘅模型列表。",
   "settingsAiNoModelsHint": "先拣提供商，再攞佢嘅模型列表",
-  "settingsAiModelContextWindow": "上下文窗口（token）",
   "settingsAiGroupModel": "模型",
   "settingsAiGroupCapabilities": "Agent 能力",
   "aiWebAccessOnSummary": "已开启",
@@ -5681,8 +5475,6 @@
   "campusMapLayerAed": "AED 设备",
   "campusMapLayerFacilities": "校园设施",
   "campusMapLayerBus": "校车",
-  "campusMapLayerBusStops": "校车站点",
-  "campusMapLayerBusLines": "校车线路",
   "campusMapOpenBus": "查看校车时刻",
   "campusMapMyLocation": "我嘅位置",
   "campusMapLocationDenied": "需要授予定位权限",
@@ -5823,7 +5615,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "呢封邮件净系有附件，请喺上面或者下面下载睇。",
-  "coremailSavingAttachment": "正在下载附件…",
   "coremailAttachmentSaved": "附件已经成功保存",
   "coremailAttachmentSaveFailed": "保存附件失败：{error}",
   "@coremailAttachmentSaveFailed": {
@@ -5926,7 +5717,6 @@
   "campusAppEbike": "电动车",
   "ebikeProviderZhiyin": "小绿",
   "ebikeProviderMango": "小黄",
-  "settingsAccountEbikeTitle": "共享电动车账号",
   "settingsAccountOtherTitle": "其他账号",
   "settingsAccountOtherSubtitle": "邮箱、学习通同 VPN",
   "settingsOtherAccountsPageTitle": "其他账号",
@@ -5935,7 +5725,6 @@
   "settingsOtherAccountsNotConfigured": "未配置",
   "ebikeAccountsTileNone": "未绑定",
   "ebikeAccountsPageTitle": "共享电动车账号",
-  "ebikeAccountLinkAction": "绑定账号",
   "ebikeAccountLinkedAt": "绑定于 {time}",
   "ebikeAccountUnlinkAction": "解除绑定",
   "ebikeAccountUnlinkConfirmTitle": "解除绑定",
@@ -5957,16 +5746,12 @@
   "ebikeLoginOpenIdRandomize": "随机生成 openid",
   "ebikeLoginOpenIdInvalid": "微信 openid 格式唔正确：应该系 o 开头嘅 28 位字符",
   "ebikeHubNotLinkedTitle": "未绑定{provider}账号",
-  "ebikeHubNotLinkedAction": "去绑定",
   "ebikeHubRidingBanner": "骑行状态",
   "ebikeHubUnpaidOrder": "有订单未畀钱：{amount} 元",
   "ebikeHubActionUnlock": "用车",
   "ebikeHubActionCards": "乘车卡",
   "ebikeHubActionWallet": "银包",
   "ebikeHubActionOrders": "行程订单",
-  "ebikeHubBalance": "余额",
-  "ebikeHubDeposit": "按金",
-  "ebikeHubRealNameMissing": "未完成实名认证",
   "ebikeCarIdDialogTitle": "输入车辆编号",
   "ebikeCarIdDialogHint": "车牌号或者扫码攞到嘅链接",
   "ebikeCarIdInvalid": "识别唔到车辆编号",
@@ -6062,7 +5847,6 @@
   "ebikeCardsPurchaseSuccess": "购买成功",
   "ebikeCardsEmpty": "暂时冇乘车卡发售",
   "ebikeCardsMineEmpty": "暂时冇可用嘅乘车卡",
-  "ebikeCardsMangoHint": "小黄乘车卡暂时唔支援喺 App 入面买，请去小黄小程式。",
   "ebikeWalletTitle": "银包",
   "ebikeWalletBalance": "余额",
   "ebikeWalletMangoCoin": "小黄余额",
@@ -6074,17 +5858,10 @@
   "ebikeWalletRecharge": "增值",
   "ebikeWalletRechargeTitle": "余额增值",
   "ebikeWalletRechargeViaCampus": "用校园卡增值 {amount} 元？",
-  "ebikeWalletRechargeUnavailable": "而家呢个服务区唔支援校园卡增值，请去官方小程式增值。",
   "ebikeWalletRechargeSuccess": "增值成功",
-  "ebikeWalletDepositRefund": "申请退按金",
-  "ebikeWalletDepositRefundTitle": "拣退款原因",
-  "ebikeWalletDepositRefundSuccess": "已经提交退款申请",
-  "ebikeWalletDepositRefundCancel": "撤销退款申请",
-  "ebikeWalletDepositRefundCanceled": "已经撤销退款申请",
   "ebikeWalletCampusCard": "校园卡",
   "ebikeWalletCampusCardBound": "已绑定（{name}）",
   "ebikeWalletCampusCardNotBound": "未绑定",
-  "ebikeWalletMangoRechargeHint": "小黄余额增值请去小程式",
   "ebikeOrdersTitle": "行程订单",
   "ebikeOrdersEmpty": "暂时冇订单",
   "ebikeOrderId": "订单号",
@@ -6182,6 +5959,9 @@
   "chaoxingLoginBadCredentials": "登入失败：{message}",
   "chaoxingLoginCaptchaRequired": "服务器要求人机验证，请迟啲再试，或者先喺官方 App 登入一次。",
   "chaoxingOperationFailed": "操作失败：{error}",
+  "chaoxingArgsMissing": "页面参数失效咗",
+  "chaoxingArgsMissingHint": "恢复唔到要显示嘅活动，通常系因为应用喺呢个页面打开期间重启咗。请返回之后再入过。",
+  "chaoxingArgsMissingAction": "返回学习通",
   "chaoxingUniqueIdTitle": "设备标识",
   "chaoxingUniqueIdSubtitle": "开发者工具：查看或编辑上报俾学习通服务器嘅 uniqueId",
   "chaoxingUniqueIdEmpty": "尚未生成，首次登录时会自动创建。",
@@ -6210,7 +5990,6 @@
   "chaoxingSignUseWeb": "用网页版",
   "chaoxingSignUseWebSubtitle": "改用网页完成呢次签到",
   "chaoxingSignSubmit": "签到",
-  "chaoxingSignSubmitting": "签到紧…",
   "chaoxingSignSuccess": "签到成功",
   "chaoxingSignAlready": "已经签到过啦",
   "chaoxingSignLate": "签到咗，但超过咗截止时间",
@@ -6220,11 +5999,12 @@
   "chaoxingSignCodeInvalid": "签到码唔啱",
   "chaoxingSignGestureHint": "喺下面九宫格画出手势",
   "chaoxingSignPhotoPick": "拣张相",
+  "chaoxingSignPhotoCamera": "影相",
+  "chaoxingSignPhotoGallery": "相册",
   "chaoxingSignPhotoRetake": "重拍",
   "chaoxingSignPhotoRemove": "移除",
   "chaoxingSignPhotoRequired": "需要一张相",
   "chaoxingSignLocationRequired": "呢次签到需要定位",
-  "chaoxingSignLocationLabel": "位置",
   "chaoxingSignKindPlain": "普通签到",
   "chaoxingSignKindAntiCheat": "防作弊签到",
   "chaoxingSignKindPhoto": "影相签到",
@@ -6244,6 +6024,23 @@
   "chaoxingSignFaceNeedDevice": "人脸签到要用「装置注册」方式登录学习通。请改用网页版，或者用呢个选项重新登录。",
   "chaoxingSignFaceEnrollFailed": "人脸登记失败：{message}",
   "chaoxingSignLocationUse": "会用你而家嘅位置",
+  "campusMapPickerTitle": "选择位置",
+  "campusMapPickerHint": "㩒地图落点，或者拖动图钉微调",
+  "campusMapPickerResolving": "正在解析地址…",
+  "campusMapPickerNoAddress": "解析唔到地址，坐标依然有效",
+  "campusMapPickerConfirm": "用呢个位置",
+  "chaoxingSignLocationSourceTitle": "位置来源",
+  "chaoxingSignLocationModeDevice": "我嘅位置",
+  "chaoxingSignLocationModePicked": "地图选点",
+  "chaoxingSignLocationModeActivity": "签到地点",
+  "chaoxingSignLocationPickNone": "仲未选点",
+  "chaoxingSignLocationPicked": "已经选择：{name}",
+  "chaoxingSignLocationResolveUnreachable": "地理编码服务连唔上，解析唔到「{name}」，请改用地图选点",
+  "chaoxingSignLocationRange": "允许范围：{metres} 米",
+  "chaoxingSignLocationResolving": "正在解析签到地点…",
+  "chaoxingSignLocationUnspecified": "今次签到冇指定地点，请改用「我嘅位置」或者「地图选点」",
+  "chaoxingSignLocationResolveFailed": "解析唔到「{name}」嘅坐标，请改用地图选点",
+  "chaoxingSignLocationResolved": "已解析：{name} · {point}",
   "chaoxingScanTitle": "扫描签到二维码",
   "chaoxingScanHint": "对准老师展示嘅签到二维码",
   "chaoxingScanPermission": "要相机权限先扫到码",

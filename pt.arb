@@ -247,8 +247,6 @@
   "schoolNetProviderTelecom": "China Telecom",
   "schoolNetProviderUnicom": "China Unicom",
   "schoolNetProviderMobile": "China Mobile",
-  "settingsDevThemeLabTitle": "Laboratório de temas",
-  "settingsDevThemeLabSubtitle": "Visualize os principais componentes nos temas claro e escuro.",
   "whuNativeLoginRememberMobile": "Lembrar número de celular",
   "whuNativeLoginTitle": "Login da WHU",
   "whuNativeLoginHeading": "Entre no sistema de autenticação unificada da WHU",
@@ -263,15 +261,6 @@
   "whuNativeLoginSubmit": "Entrar",
   "whuNativeLoginStageSigningIn": "Entrando na autenticação unificada…",
   "whuNativeLoginStageConfirmingIdentity": "Confirmando identidade…",
-  "whuNativeLoginStageFetching": "Conectado — obtendo dados de {source}…",
-  "@whuNativeLoginStageFetching": {
-    "placeholders": {
-      "source": {
-        "type": "String"
-      }
-    }
-  },
-  "whuNativeLoginStageFinishing": "Conectado — finalizando…",
   "whuNativeLoginUseWeb": "Entrar pela versão web",
   "whuNativeLoginUseWebSubtitle": "Se o login nativo falhar, mude para esta alternativa",
   "aiAssistant": "Assistente",
@@ -455,7 +444,6 @@
   "commonRegistrationTime": "Data de registro",
   "commonUsername": "Nome de usuário",
   "courseGridSettings": "Configurações da Grade",
-  "gradesReviewsScores": "Notas",
   "gradesReviewsTitle": "Notas e avaliações",
   "courseImport": "Importação de Cursos",
   "courseImportSemester": "Semestre",
@@ -1284,7 +1272,6 @@
       }
     }
   },
-  "courseImportGraduateNoCalendarMatch": "Não foi possível associar as disciplinas da pós-graduação às datas do calendário acadêmico. Verifique se o semestre selecionado está correto.",
   "courseImportGraduateTermsUnrecognized": "Não foi possível reconhecer os semestres retornados pelo sistema de pós-graduação.",
   "courseImportStatusFailed": "Falha na importação: {error}",
   "@courseImportStatusFailed": {
@@ -1386,11 +1373,6 @@
   "aiConfirmationSubmit": "Enviar decisões",
   "aiConfirmationDecisionRequired": "Escolha aprovar ou cancelar para cada ação.",
   "scorePageNoLocalScore": "Sem notas locais",
-  "scorePagePrivacyLocked": "O histórico está protegido por bloqueio de privacidade",
-  "scorePageClickToUnlock": "Toque para desbloquear",
-  "scorePageEnableBiometric": "Ativar bloqueio biométrico",
-  "scorePageBiometricHint": "Proteja suas notas com Face ID ou impressão digital",
-  "scorePageBiometricAuthFailed": "Falha na autenticação biométrica",
   "scorePageLoginHint": "Se não estiver logado, entre nas configurações.\nDepois toque no botão abaixo para buscar e sincronizar notas.",
   "scorePageSync": "Sincronizar",
   "scorePageTotalGpa": "GPA total",
@@ -1607,7 +1589,6 @@
   "settingsHomeGridBorderAlpha": "Opacidade da borda da grade",
   "settingsHomeCropImage": "Cortar imagem",
   "imageCropDesktopHint": "Arraste para mover · use +/− para redimensionar o recorte",
-  "imageCropDesktopHintSquare": "Arraste para mover · use +/− para redimensionar o recorte quadrado",
   "imageCropPresetDevice": "Proporção da tela",
   "imageCropPresetOriginal": "Original",
   "imageCropRatioFree": "Livre",
@@ -1643,7 +1624,6 @@
   },
   "libraryClickForDetails": "Toque para ver andares e assentos",
   "globalTimetableTitle": "Grade global",
-  "globalTimetablePlaceholder": "A grade global está em desenvolvimento…",
   "globalTimetableCourseMatching": "Correspondência de disciplinas",
   "globalTimetableContribute": "Contribuir para o horário",
   "globalTimetableLocalImport": "Importar para este dispositivo",
@@ -1749,15 +1729,7 @@
     }
   },
   "whuCasLoginFailedGeneric": "Falha no login acadêmico. Entre de novo no CAS WHU.",
-  "gradesReviewsToolsTitle": "Notas e avaliações",
-  "gradesReviewsToolsDescription": "Pesquise um curso para notas e avaliações.",
   "gradesReviewsSearchCourse": "Buscar disciplinas",
-  "gradesReviewsScoresSubtitle": "Busque uma disciplina para ver a distribuição",
-  "gradesReviewsReviews": "Avaliações da disciplina",
-  "gradesReviewsReviewsSubtitle": "Busque uma disciplina para ver avaliações",
-  "gradesReviewsToolsSection": "Ferramentas acadêmicas",
-  "gradesReviewsSearchHintGrades": "Busque uma disciplina para a distribuição histórica",
-  "gradesReviewsSearchHintReviews": "Busque uma disciplina para avaliações dos alunos",
   "gradesReviewsSearchHintNormal": "Buscar por nome, professor ou código",
   "gradesReviewsSearchTitle": "Busca de disciplinas",
   "gradesReviewsEmptyTitle": "Buscar uma disciplina",
@@ -1767,17 +1739,6 @@
   "@gradesReviewsSearchError": {
     "placeholders": {
       "error": {
-        "type": "String"
-      }
-    }
-  },
-  "gradesReviewsResultSubtitle": "{uid} · {department}",
-  "@gradesReviewsResultSubtitle": {
-    "placeholders": {
-      "uid": {
-        "type": "String"
-      },
-      "department": {
         "type": "String"
       }
     }
@@ -1824,7 +1785,6 @@
       }
     }
   },
-  "wakeupImportPlaceholder": "O parser de link/código Wakeup ainda não está ligado — só um placeholder de importação.",
   "sportsReservationToday": "Hoje",
   "sportsReservationTomorrow": "Amanhã",
   "sportsReservationDayAfterTomorrow": "Depois de amanhã",
@@ -2191,14 +2151,6 @@
       },
       "maxTemp": {
         "type": "String"
-      }
-    }
-  },
-  "scoreCaptchaRetrying": "Verificação auto (tentativa {attempt})…",
-  "@scoreCaptchaRetrying": {
-    "placeholders": {
-      "attempt": {
-        "type": "int"
       }
     }
   },
@@ -2798,9 +2750,7 @@
   "settingsWidgetsPinRequested": "Widget solicitado. Confirme na tela inicial ou adicione manualmente se nenhum aviso aparecer.",
   "settingsWidgetsPinAdded": "Widget adicionado",
   "settingsWidgetsManualAddHint": "Toque e segure uma área vazia da tela inicial, abra Widgets e procure Luotopia para adicionar o widget manualmente.",
-  "settingsWidgetsAddManuallyAndroid": "Toque e segure uma área vazia da tela inicial, abra Widgets e procure Luotopia para adicionar o widget manualmente.",
   "settingsWidgetsPinSupportError": "Não foi possível verificar se o seu launcher suporta adição com um toque. Ainda é possível adicionar widgets manualmente.",
-  "settingsWidgetsPinSubmitted": "Solicitação enviada ao seu launcher; a adição ainda não está confirmada. Siga as instruções do launcher ou adicione o widget manualmente.",
   "settingsWidgetsPinConfirmed": "O seu launcher confirmou que o widget foi adicionado.",
   "settingsWidgetsPinObserved": "Uma nova instância do widget foi detectada. Verifique a sua tela inicial para ver a posição.",
   "settingsWidgetsPlatformsMacMenu": "Barra de menus do macOS",
@@ -2945,14 +2895,10 @@
   "authResetPassword": "Redefinir senha",
   "authEmailVerifySuccess": "E-mail verificado. Faça login novamente.",
   "authPasswordResetSuccess": "Senha redefinida. Faça login com sua nova senha.",
-  "authSendResetLink": "Enviar link",
-  "authResetRequested": "Se este e-mail estiver registrado, a mensagem para redefinir a senha deverá chegar em alguns minutos. Se não a receber, verifique o spam e a grafia do endereço.",
   "authLoginEmailUnverified": "Este endereço de e-mail ainda não foi verificado. Verifique-o antes de entrar.",
   "authLoginAccountDisabled": "Esta conta foi desativada. Entre em contato com um administrador para obter ajuda.",
   "authResendVerification": "Reenviar verificação",
   "authVerificationEmailPromptTitle": "Digite o e-mail da sua conta",
-  "authVerificationEmailSent": "Se a conta existir e ainda precisar de verificação, um e-mail de verificação foi enviado.",
-  "authVerificationEmailSendFailed": "Não foi possível enviar o e-mail de verificação: {error}",
   "authMfaTitle": "Autenticação em dois fatores",
   "authMfaEmailSent": "Um código foi enviado para {email}",
   "@authMfaEmailSent": {
@@ -3301,7 +3247,6 @@
       }
     }
   },
-  "authOldPassword": "Senha atual",
   "authNewPassword": "Nova senha",
   "authPasswordChanged": "Senha alterada. Entre novamente.",
   "authPasswordChangeFailed": "Falha ao alterar senha: {error}",
@@ -3466,14 +3411,6 @@
   "forumReplyHint": "Seja gentil e não compartilhe informações pessoais.",
   "forumSend": "Enviar",
   "authPasswordResetEmail": "E-mail",
-  "authPasswordResetSendFailed": "Falha ao enviar: {error}",
-  "@authPasswordResetSendFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "courseReviewsMyReviews": "Minhas avaliações",
   "courseReviewsMyReviewsEmpty": "Você ainda não enviou nenhuma avaliação.",
   "courseReviewsStatusPending": "Aguardando análise",
@@ -3545,16 +3482,7 @@
       }
     }
   },
-  "forumDraftPublished": "Rascunho publicado",
   "forumDraftEditTitle": "Editar rascunho",
-  "forumDraftLastEdited": "Editado {time}",
-  "@forumDraftLastEdited": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
   "forumUnsavedChangesTitle": "Alterações não salvas",
   "forumUnsavedChangesMessage": "Publicar esta publicação, mantê-la como rascunho ou descartá-la?",
   "forumUnsavedChangesPublish": "Publicar",
@@ -3566,8 +3494,6 @@
   "forumUserCommentsTab": "Comentários",
   "forumUserLikedTab": "Curtidas",
   "forumUserFavoritesTab": "Salvos",
-  "forumUserFollowersTab": "Seguidores",
-  "forumUserFollowingTab": "Seguindo",
   "forumUserJoinedAt": "Entrou em {date}",
   "@forumUserJoinedAt": {
     "placeholders": {
@@ -3668,16 +3594,7 @@
   "forumBlockListSubtitle": "Pessoas bloqueadas não podem seguir você nem enviar mensagens.",
   "forumBlockListEmpty": "Você não bloqueou ninguém.",
   "forumRelationListEmpty": "Ninguém aqui ainda.",
-  "forumRelationListFailed": "Não foi possível carregar esta lista: {error}",
-  "@forumRelationListFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
   "forumMessagesTitle": "Mensagens",
-  "forumMessagesEntrySubtitle": "Mensagens diretas com pessoas que vocês se seguem mutuamente",
   "forumConversationsEmpty": "Nenhuma mensagem ainda",
   "forumConversationsEmptyHint": "Você pode enviar mensagens quando se seguirem mutuamente.",
   "forumChatInputHint": "Mensagem…",
@@ -3713,14 +3630,6 @@
   "forumReport": "Denunciar",
   "forumReportReason": "Motivo",
   "forumReportSubmitted": "Denúncia enviada.",
-  "forumKarmaLevel": "Lv{level}",
-  "@forumKarmaLevel": {
-    "placeholders": {
-      "level": {
-        "type": "int"
-      }
-    }
-  },
   "@forumKarmaAuthorMeta": {
     "placeholders": {
       "level": {
@@ -3916,7 +3825,6 @@
       }
     }
   },
-  "languageSystemSettings": "Configurações de idioma",
   "commonOk": "OK",
   "whuAccountEducationalYearsValue": "{years} anos",
   "@whuAccountEducationalYearsValue": {
@@ -4196,7 +4104,6 @@
   "settingsBuildInfoBuildTime": "Hora da compilação",
   "courseImportSemesterAlreadyAdded": "Este semestre já foi adicionado. Escolha “Atualizar horário” no menu do horário.",
   "waterControlClassNo": "Número da turma {classNo}",
-  "forumImageFiles": "Imagens do fórum",
   "forumAttachmentFiles": "Anexos do fórum",
   "forumModerationAllSources": "Todas as fontes",
   "forumModerationUnclaimed": "Não atribuídos",
@@ -4353,7 +4260,6 @@
     }
   },
   "campusBusPreviewCardSetting": "Pré-visualização de chegada do ônibus",
-  "campusBusPreviewCardSettingIosHint": "Mostra informações de chegada em tempo real nos widgets",
   "campusBusPreviewCardSettingHint": "Mostra um cartão de pré-visualização na tela inicial",
   "campusBusArrivalSelectTarget": "Selecionar paragem",
   "campusBusArrivalLine": "Linha",
@@ -4709,7 +4615,6 @@
   "adminUserDetailReceivedLikes": "Gostos recebidos",
   "adminUserDetailWhuAccountData": "Dados da conta WHU",
   "adminUserDetailWhuAccountDataDescription": "Visível apenas para superadministradores. Este acesso é auditado.",
-  "adminUserDetailWhuAccount": "Conta WHU",
   "adminUserDetailManagement": "Gestão",
   "adminUserContentPostsTitle": "Publicações do usuário",
   "adminUserContentCommentsTitle": "Comentários do usuário",
@@ -4893,7 +4798,6 @@
   "forumCheckinDone": "Já fez check-in hoje",
   "forumCheckinFixed": "Caminho estável (+{amount})",
   "forumCheckinRandom": "Tentativa de sorte",
-  "forumCheckinRandomHint": "A média de longo prazo é ligeiramente inferior ao caminho estável",
   "forumCheckinSuccess": "+{amount} Carma (sequência {streak})",
   "forumCheckinTitle": "Check-in diário",
   "forumCheckinTodo": "Check-in",
@@ -4951,7 +4855,6 @@
   "forumLeaderboardTitle": "Ranking de carma",
   "forumModerationFlavorPending": "Em revisão",
   "forumReportSubmittedFlavor": "Registrado; aguardando resposta.",
-  "courseGradeStatsAllTeachersPrepared": "Todos os dados de professores estão prontos. Escolha um professor para ver os dados de notas.",
   "courseGradeStatsExamAverage": "Média da nota de exame",
   "courseGradeStatsLoadFailed": "Falha ao carregar a distribuição de notas: {error}",
   "courseGradeStatsPrivacyThreshold": "São necessárias pelo menos 5 amostras para proteger a privacidade.",
@@ -5062,17 +4965,6 @@
   "courseMatchingTeacher": "Professor",
   "courseMatchingSectionRangeError": "A seção inicial não pode exceder a final.",
   "courseMatchingCreditRangeError": "O crédito mínimo não pode exceder o máximo.",
-  "globalTimetableTermWithCount": "Semestre {term} · {count} registros",
-  "@globalTimetableTermWithCount": {
-    "placeholders": {
-      "term": {
-        "type": "int"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "globalTimetableHistory": "Histórico de cursos",
   "globalTimetableHistoryHint": "Pesquisa em todos os semestres publicados, do mais recente ao mais antigo.",
   "globalTimetableHistoryEmpty": "Nenhuma oferta corresponde à consulta.",
@@ -5089,7 +4981,6 @@
       }
     }
   },
-  "globalTimetableDownloadsEmpty": "Nenhum semestre baixado ainda.",
   "globalTimetableDownloadsHint": "Os arquivos vêm do site de arquivos WHU-Master-Timetable. Os semestres baixados permanecem pesquisáveis offline.",
   "globalTimetableDownloadsRemoteInfo": "{count} cursos · {size}",
   "@globalTimetableDownloadsRemoteInfo": {
@@ -5106,7 +4997,6 @@
   "globalTimetableDownloadFailed": "Falha no download",
   "globalTimetableDeleteAll": "Excluir tudo",
   "globalTimetableDeleteAllConfirm": "Excluir todos os semestres baixados deste dispositivo?",
-  "globalTimetableSourceMode": "Fonte",
   "globalTimetableSourceAuto": "Auto",
   "globalTimetableLocalMissing": "Este semestre ainda não está disponível offline.",
   "globalTimetableNoSlot": "Sem horário",
@@ -5172,7 +5062,6 @@
   "whuAuthSmsSendFailed": "Falha ao enviar código. Verifique seu número de telefone e tente novamente.",
   "whuAuthSmsSendRequired": "Obtenha um código de verificação para o número atual primeiro.",
   "whuAuthCaptchaLoadFailed": "Falha ao carregar verificação de segurança. Feche e tente novamente.",
-  "whuAuthLoginCredentialsError": "Conta, senha ou código dinâmico incorretos",
   "whuSmartCampusAuthFailedCasRequired": "Falha na autorização do Smart Luojia. Faça login novamente via WHU CAS.",
   "whuSmartCampusAuthFailedHttp": "Falha na autorização do Smart Luojia (HTTP {statusCode}).",
   "@whuSmartCampusAuthFailedHttp": {
@@ -5279,92 +5168,6 @@
   "aiDebugPromptWatchSyncNegativeLabel": "Sincronização com o relógio (não disponível)",
   "aiDebugPromptHighRiskNegativeLabel": "Ações de alto risco (não disponíveis)",
   "aiDebugPromptResultUnknownLabel": "Perguntas e respostas sobre a regra result_unknown",
-  "toolkitVerifyTitle": "Cartão de verificação real de Toolkit CLI e funções de negócios",
-  "toolkitVerifyProgress": "Aprovados {passed} / {total}",
-  "toolkitVerifyPipelineMessage": "Etapa {step}/{total}: {msg}",
-  "toolkitVerifyAutoApproveTitle": "Aprovar automaticamente cartões de operações de gravação de verificação",
-  "toolkitVerifyAutoApproveSubtitle": "Permitir que o teste inicie cartões de gravação e os confirme automaticamente durante a automação do fluxo completo",
-  "toolkitVerifyCliRunning": "Automação de CLI em execução...",
-  "toolkitVerifyCliButton": "Executar todos os casos de teste de fumaça de CLI simultaneamente",
-  "toolkitVerifyCliProgress": "{msg} (sistema aprovou {passed}/{total})",
-  "toolkitVerifyPipelineRunning": "Fluxo completo em execução...",
-  "toolkitVerifyPipelineButton": "Executar fluxo completo",
-  "toolkitVerifySaveLog": "Exportar relatório JSON",
-  "toolkitVerifyEvents": "Registros recentes do fluxo",
-  "toolkitVerifyStatusPending": "Pendente",
-  "toolkitVerifyStatusRunning": "Em execução",
-  "toolkitVerifyStatusPassed": "Aprovado",
-  "toolkitVerifyStatusFailed": "Falhou",
-  "toolkitVerifyStatusSkipped": "Pulado",
-  "toolkitVerifyStatusWaiting": "Aguardando",
-  "toolkitVerifyStatusBlocked": "Bloqueado",
-  "toolkitVerifyMarkPassed": "Marcar como aprovado",
-  "toolkitVerifyMarkFailed": "Marcar como falhou",
-  "toolkitVerifyOpenAuth": "Ir para autenticação",
-  "toolkitVerifySkipReason": "Marcar motivo de pulo",
-  "toolkitVerifyBlockReason": "Marcar motivo de bloqueio",
-  "toolkitVerifyStage1": "Etapa 1: Preparação de conta e credenciais",
-  "toolkitVerifyStage2": "Etapa 2: Verificação de consistência teórica e restrições estáticas",
-  "toolkitVerifyStage3": "Etapa 3: Integração de ferramentas básicas do simulador CLI",
-  "toolkitVerifyStage4": "Etapa 4: Integração da cadeia de negócios do Toolkit",
-  "toolkitVerifyStage5": "Etapa 5: Sondas internas do lado do app",
-  "toolkitVerifyStage6": "Etapa 6: Revisão manual e confirmação",
-  "toolkitVerifyStage1Desc": "Verificar a autenticação de identidade unificada da WHU e o status de credenciais do Luotopia",
-  "toolkitVerifyStage2Desc": "Verificar a consistência de spec do modelo, schema, permissões e declarações",
-  "toolkitVerifyStage3Desc": "Verificar a invocação e a análise de ferramentas básicas de CLI sem dependências",
-  "toolkitVerifyStage4Desc": "Verificar a cadeia de funções compostas e a passagem de contexto",
-  "toolkitVerifyStage5Desc": "Verificar os provedores de serviços do lado do app e o comportamento das sondas",
-  "toolkitVerifyStage6Desc": "Verificar manualmente os cartões de confirmação secundária e a lógica de interceptação",
-  "toolkitVerifyMsgWaitingStart": "Aguardando o início do fluxo completo...",
-  "toolkitVerifyMsgCliNotRun": "Teste de fumaça de CLI não executado",
-  "toolkitVerifyMsgPrepareAuth": "Preparando conta e credenciais de autenticação...",
-  "toolkitVerifyMsgWaitingWhuLogin": "Aguardando o login da autenticação de identidade unificada da WHU...",
-  "toolkitVerifyMsgWhuFailed": "Falha na autenticação de identidade unificada da WHU",
-  "toolkitVerifyMsgRefreshWhuSession": "Atualizando a sessão da WHU...",
-  "toolkitVerifyMsgWhuSessionFailed": "Falha ao atualizar a sessão da WHU",
-  "toolkitVerifyMsgLuotopiaDeferred": "Autenticação JWT do Luotopia adiada para verificação posterior",
-  "toolkitVerifyMsgTheoryChecks": "Executando verificações de restrições teóricas...",
-  "toolkitVerifyMsgCliSmoke": "Executando casos de teste de fumaça de CLI...",
-  "toolkitVerifyMsgToolkitChain": "Executando testes de integração do Toolkit...",
-  "toolkitVerifyMsgAppProbes": "Executando sondas do lado do app...",
-  "toolkitVerifyMsgDone": "Fluxo totalmente concluído",
-  "toolkitVerifyMsgWaitingHuman": "Aguardando tratamento manual: {reason}",
-  "toolkitVerifyMsgPrepareGateway": "Preparando o gateway de teste...",
-  "toolkitVerifyMsgCliPassed": "Teste de fumaça de CLI totalmente aprovado",
-  "toolkitVerifyMsgCliFailed": "Teste de fumaça de CLI falhou ({failed} casos não aprovados)",
-  "toolkitVerifyMsgCliAborted": "Teste de fumaça de CLI interrompido",
-  "toolkitVerifyConfirmWriteTitle": "Confirmação de ação de gravação de teste",
-  "toolkitVerifyConfirmWriteMessage": "A ferramenta {toolId} realizará uma operação de gravação ({reason}). Confirmar a execução?",
-  "toolkitVerifyConfirmWaterCodeTitle": "Teste de confirmação de código de água",
-  "toolkitVerifyConfirmWaterCodeMessage": "Ação de extração de código de água iniciada pelo teste",
-  "toolkitVerifyWaterCodeCancel": "Cancelar",
-  "toolkitVerifyWaterCodeConfirm": "Confirmar código de água",
-  "toolkitVerifySkipReasonTitle": "Insira o motivo de pulo",
-  "toolkitVerifyBlockReasonTitle": "Insira o motivo de bloqueio",
-  "toolkitVerifyRecord": "Registro de teste",
-  "toolkitVerifyConfirmRecordTitle": "Gerar cartão de registro de teste",
-  "toolkitVerifyConfirmRecordMessage": "{id} contém operações de gravação. Confirme o registro de teste.",
-  "toolkitVerifyConfirmRecordConfirm": "Gerar registro",
-  "toolkitVerifyNotifAgendaTitle": "Notificação de lembrete de agenda de teste",
-  "toolkitVerifyNotifAgendaUpdated": "Agenda de teste atualizada",
-  "toolkitVerifyAuthPrerequisite": "Pré-requisito de autenticação",
-  "toolkitVerifyWhuCas": "Autenticação CAS da WHU",
-  "toolkitVerifyAuthenticated": "Autenticado · {subject}",
-  "toolkitVerifyNotAuthenticated": "Não autenticado",
-  "toolkitVerifyLuotopiaJwt": "Credencial JWT do Luotopia",
-  "toolkitVerifyDeferred": "Adiado",
-  "toolkitVerifyAuthenticatedShort": "Conectado",
-  "toolkitVerifyAgendaItemTitle": "Item de agenda de teste",
-  "toolkitVerifyCheck": "Verificação estática: {code}",
-  "toolkitVerifyCheckConsistency": "Verificação de consistência do modelo",
-  "toolkitVerifyCheckJobQuery": "Verificação de consulta de tarefas em segundo plano",
-  "toolkitVerifyCheckNoAutoConfirm": "Verificação sem autoconfirmação",
-  "toolkitVerifyCheckNoChallenge": "Verificação do modo sem Challenge",
-  "toolkitVerifyCheckShellReject": "Verificação de resposta de rejeição de Shell",
-  "toolkitVerifyCheckJsonBudget": "Verificação de limite de orçamento JSON",
-  "toolkitVerifyCheckWritePause": "Verificação de pausa de gravação",
-  "toolkitVerifyCheckCancelBlock": "Verificação de bloqueio de cancelamento",
-  "toolkitVerifyCheckCleanup": "Verificação de limpeza de recursos",
   "settingsPrivacyDiagnosticsGmsUnavailable": "O Google Play Services não está disponível neste dispositivo. Os recursos de telemetria estão desativados, mas suas preferências salvas são mantidas para quando o Google Play Services estiver disponível.",
   "waterElectricRoomTitle": "Selecionar quarto de água e eletricidade",
   "waterElectricRoomNotice": "A seleção é armazenada apenas neste dispositivo. O portal escolar não vincula um aluno a uma sala em seu servidor.",
@@ -5506,7 +5309,6 @@
   "aiAssistantEmpty": "Nenhum assistente criado",
   "aiAssistantUseGlobal": "Usar configurações globais",
   "aiAssistantDeleteConfirm": "Excluir este assistente?",
-  "aiClose": "Fechar",
   "aiExport": "Exportar",
   "aiShare": "Compartilhar",
   "aiCompressContext": "Compactar contexto",
@@ -5554,7 +5356,6 @@
   "aiSkillsEnabled": "{count} ativadas",
   "aiMcp": "MCP",
   "aiMcpEmpty": "Nenhum servidor MCP configurado",
-  "aiMcpEnabled": "{count} conectados",
   "aiMcpAddServer": "Adicionar servidor",
   "aiMcpServersTitle": "Servidores MCP",
   "aiMcpDescription": "Os servidores MCP fornecem ao Agent ferramentas dos endpoints que você configurar. Nada é exposto até você conectar um servidor e escolher suas ferramentas.",
@@ -5576,7 +5377,6 @@
   "aiMcpHeadersInvalid": "Cada linha deve ser um par Nome: valor",
   "aiMcpUrlInvalid": "Informe uma URL http(s) absoluta",
   "aiMcpDeleteConfirm": "Excluir este servidor MCP?",
-  "aiMcpTestConnection": "Testar conexão",
   "aiMcpStatusIdle": "Não conectado",
   "aiMcpStatusConnecting": "Conectando",
   "aiMcpStatusConnected": "Conectado",
@@ -5592,7 +5392,6 @@
   "aiMcpServerEnabledHint": "Um servidor desativado não é conectado e suas ferramentas saem do catálogo do Agent.",
   "aiMcpToolsHidden": "Não exposta ao Agent",
   "aiMcpCatalogNote": "Alterar as ferramentas expostas recria o catálogo de ferramentas do Agent.",
-  "aiMcpLastError": "Último erro",
   "aiMcpImportedCount": "{count} servidores importados",
   "aiAssistantActive": "Ativo",
   "aiAssistantsGlobalHint": "Usa as instruções do sistema e os parâmetros da página do serviço de modelos.",
@@ -5610,17 +5409,12 @@
   "aiSkillFieldsRequired": "Nome, descrição e instruções são obrigatórios",
   "aiSkillInstructionsHint": "As instruções que o modelo recebe quando esta habilidade está ativada",
   "settingsAiModelService": "Serviço de modelos",
-  "settingsAiModelServiceSubtitle": "Provedor, credenciais, modelos e amostragem",
-  "settingsAiAssistantsSubtitle": "Personas, instruções do sistema e substituições de parâmetros",
-  "settingsAiWebSearchSubtitle": "Acesso à web aberta e chaves de provedores de pesquisa",
   "settingsAiWorkspaceSubtitle": "Uso, limpeza e exportação",
   "settingsAiOverviewNotConfigured": "Não configurado",
-  "settingsAiModelsActiveProvider": "Provedor atual",
   "settingsAiModelsOtherProviders": "Outros provedores",
   "settingsAiModelsStoredCount": "{count} modelos salvos",
   "settingsAiModelsSwitchHint": "Trocar de provedor carrega a lista de modelos salvos desse provedor.",
   "settingsAiNoModelsHint": "Escolha um provedor e busque sua lista de modelos",
-  "settingsAiModelContextWindow": "Janela de contexto (tokens)",
   "settingsAiGroupModel": "Modelo",
   "settingsAiGroupCapabilities": "Capacidades do Agent",
   "aiWebAccessOnSummary": "Ativado",
@@ -5691,8 +5485,6 @@
   "campusMapLayerAed": "Desfibriladores (AED)",
   "campusMapLayerFacilities": "Instalações do campus",
   "campusMapLayerBus": "Ônibus do campus",
-  "campusMapLayerBusStops": "Paradas do ônibus do campus",
-  "campusMapLayerBusLines": "Linhas do ônibus do campus",
   "campusMapOpenBus": "Horários do ônibus do campus",
   "campusMapMyLocation": "Minha localização",
   "campusMapLocationDenied": "Permissão de localização necessária",
@@ -5833,7 +5625,6 @@
     }
   },
   "coremailOnlyAttachmentsNotice": "Esta mensagem contém apenas anexos. Baixe ou visualize-os acima ou abaixo.",
-  "coremailSavingAttachment": "Baixando anexo…",
   "coremailAttachmentSaved": "Anexo salvo com sucesso",
   "coremailAttachmentSaveFailed": "Falha ao salvar o anexo: {error}",
   "@coremailAttachmentSaveFailed": {
@@ -5936,7 +5727,6 @@
   "campusAppEbike": "Bicicleta elétrica",
   "ebikeProviderZhiyin": "Little Green",
   "ebikeProviderMango": "Little Yellow",
-  "settingsAccountEbikeTitle": "Contas de bicicleta elétrica",
   "settingsAccountOtherTitle": "Outras contas",
   "settingsAccountOtherSubtitle": "E-mail, Chaoxing e VPN",
   "settingsOtherAccountsPageTitle": "Outras contas",
@@ -5945,7 +5735,6 @@
   "settingsOtherAccountsNotConfigured": "Não configurado",
   "ebikeAccountsTileNone": "Não vinculada",
   "ebikeAccountsPageTitle": "Contas de bicicleta elétrica",
-  "ebikeAccountLinkAction": "Vincular conta",
   "ebikeAccountLinkedAt": "Vinculada em {time}",
   "ebikeAccountUnlinkAction": "Desvincular",
   "ebikeAccountUnlinkConfirmTitle": "Desvincular conta",
@@ -5967,16 +5756,12 @@
   "ebikeLoginOpenIdRandomize": "Gerar um openid aleatório",
   "ebikeLoginOpenIdInvalid": "Formato de openid do WeChat inválido (28 caracteres começando por «o»)",
   "ebikeHubNotLinkedTitle": "Conta {provider} não vinculada",
-  "ebikeHubNotLinkedAction": "Vincular agora",
   "ebikeHubRidingBanner": "Estado da viagem",
   "ebikeHubUnpaidOrder": "Pedido não pago: {amount} yuans",
   "ebikeHubActionUnlock": "Desbloquear",
   "ebikeHubActionCards": "Cartões de viagem",
   "ebikeHubActionWallet": "Carteira",
   "ebikeHubActionOrders": "Viagens",
-  "ebikeHubBalance": "Saldo",
-  "ebikeHubDeposit": "Depósito",
-  "ebikeHubRealNameMissing": "Verificação de nome real pendente",
   "ebikeCarIdDialogTitle": "Informe o número do veículo",
   "ebikeCarIdDialogHint": "Número do veículo ou link do QR code escaneado",
   "ebikeCarIdInvalid": "Não foi possível reconhecer o número do veículo",
@@ -6072,7 +5857,6 @@
   "ebikeCardsPurchaseSuccess": "Compra concluída",
   "ebikeCardsEmpty": "Nenhum cartão à venda",
   "ebikeCardsMineEmpty": "Nenhum cartão ativo",
-  "ebikeCardsMangoHint": "Os cartões da Little Yellow não podem ser comprados no app. Compre-os no miniprograma da Little Yellow.",
   "ebikeWalletTitle": "Carteira",
   "ebikeWalletBalance": "Saldo",
   "ebikeWalletMangoCoin": "Saldo da Little Yellow",
@@ -6084,17 +5868,10 @@
   "ebikeWalletRecharge": "Recarregar",
   "ebikeWalletRechargeTitle": "Recarregar saldo",
   "ebikeWalletRechargeViaCampus": "Recarregar {amount} yuans com o cartão do campus?",
-  "ebikeWalletRechargeUnavailable": "A recarga com cartão do campus não está disponível nesta área de serviço. Recarregue no miniprograma oficial.",
   "ebikeWalletRechargeSuccess": "Recarga concluída",
-  "ebikeWalletDepositRefund": "Solicitar reembolso do depósito",
-  "ebikeWalletDepositRefundTitle": "Motivo do reembolso",
-  "ebikeWalletDepositRefundSuccess": "Reembolso solicitado",
-  "ebikeWalletDepositRefundCancel": "Cancelar solicitação de reembolso",
-  "ebikeWalletDepositRefundCanceled": "Solicitação de reembolso cancelada",
   "ebikeWalletCampusCard": "Cartão do campus",
   "ebikeWalletCampusCardBound": "Vinculado ({name})",
   "ebikeWalletCampusCardNotBound": "Não vinculado",
-  "ebikeWalletMangoRechargeHint": "Recarregue o saldo da Little Yellow no miniprograma",
   "ebikeOrdersTitle": "Viagens",
   "ebikeOrdersEmpty": "Nenhuma viagem ainda",
   "ebikeOrderId": "Número do pedido",
@@ -6192,6 +5969,9 @@
   "chaoxingLoginBadCredentials": "Falha ao entrar: {message}",
   "chaoxingLoginCaptchaRequired": "O servidor exige uma verificação interativa. Tente novamente mais tarde ou entre uma vez no aplicativo oficial primeiro.",
   "chaoxingOperationFailed": "Falha na operação: {error}",
+  "chaoxingArgsMissing": "Esta página perdeu seus parâmetros",
+  "chaoxingArgsMissingHint": "Não foi possível restaurar a atividade exibida; geralmente acontece quando o app reinicia com esta página aberta. Volte e abra novamente.",
+  "chaoxingArgsMissingAction": "Voltar ao Chaoxing",
   "chaoxingUniqueIdTitle": "ID do dispositivo",
   "chaoxingUniqueIdSubtitle": "Ferramenta de desenvolvedor: ver ou editar o uniqueId enviado aos servidores Chaoxing",
   "chaoxingUniqueIdEmpty": "Ainda não gerado. É criado automaticamente no primeiro login.",
@@ -6220,7 +6000,6 @@
   "chaoxingSignUseWeb": "Usar versão web",
   "chaoxingSignUseWebSubtitle": "Fazer esta presença numa página web",
   "chaoxingSignSubmit": "Registar presença",
-  "chaoxingSignSubmitting": "A registar…",
   "chaoxingSignSuccess": "Presença registada",
   "chaoxingSignAlready": "Já tinhas registado a presença",
   "chaoxingSignLate": "Registada, mas fora do prazo",
@@ -6230,11 +6009,12 @@
   "chaoxingSignCodeInvalid": "O código não foi aceite",
   "chaoxingSignGestureHint": "Desenha o gesto na grelha abaixo",
   "chaoxingSignPhotoPick": "Escolher foto",
+  "chaoxingSignPhotoCamera": "Tirar foto",
+  "chaoxingSignPhotoGallery": "Galeria",
   "chaoxingSignPhotoRetake": "Refazer",
   "chaoxingSignPhotoRemove": "Remover",
   "chaoxingSignPhotoRequired": "É necessária uma foto",
   "chaoxingSignLocationRequired": "Esta presença precisa de localização",
-  "chaoxingSignLocationLabel": "Localização",
   "chaoxingSignKindPlain": "Normal",
   "chaoxingSignKindAntiCheat": "Antifraude",
   "chaoxingSignKindPhoto": "Foto",
@@ -6254,6 +6034,23 @@
   "chaoxingSignFaceNeedDevice": "A presença com rosto exige um início de sessão Chaoxing com registo de dispositivo. Usa a versão web ou inicia sessão novamente com essa opção.",
   "chaoxingSignFaceEnrollFailed": "Falha ao registar o rosto: {message}",
   "chaoxingSignLocationUse": "Será usada a tua localização atual",
+  "campusMapPickerTitle": "Escolher uma localização",
+  "campusMapPickerHint": "Toque no mapa para soltar o pino ou arraste-o para ajustar",
+  "campusMapPickerResolving": "Resolvendo o endereço…",
+  "campusMapPickerNoAddress": "Não foi possível resolver o endereço; as coordenadas continuam válidas",
+  "campusMapPickerConfirm": "Usar esta localização",
+  "chaoxingSignLocationSourceTitle": "Origem da localização",
+  "chaoxingSignLocationModeDevice": "Minha localização",
+  "chaoxingSignLocationModePicked": "Escolher no mapa",
+  "chaoxingSignLocationModeActivity": "Local do check-in",
+  "chaoxingSignLocationPickNone": "Nenhum ponto escolhido ainda",
+  "chaoxingSignLocationPicked": "Escolhido: {name}",
+  "chaoxingSignLocationResolveUnreachable": "Não foi possível acessar o geocodificador para resolver {name}; escolha um ponto no mapa",
+  "chaoxingSignLocationRange": "Raio permitido: {metres} m",
+  "chaoxingSignLocationResolving": "Resolvendo o local do check-in…",
+  "chaoxingSignLocationUnspecified": "Este check-in não tem local especificado; use sua localização ou escolha uma no mapa",
+  "chaoxingSignLocationResolveFailed": "Não foi possível resolver as coordenadas de {name}; escolha um ponto no mapa",
+  "chaoxingSignLocationResolved": "Resolvido: {name} · {point}",
   "chaoxingScanTitle": "Ler código de presença",
   "chaoxingScanHint": "Aponta a câmara ao código QR mostrado pelo professor",
   "chaoxingScanPermission": "É necessário acesso à câmara para ler o código",
