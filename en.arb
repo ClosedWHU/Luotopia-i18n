@@ -1,4 +1,255 @@
 {
+  "opacErrorRequest": "Library request failed",
+  "opacErrorSession": "The library session is unavailable. Sign in again.",
+  "opacErrorTimeout": "The library request timed out. Try again later.",
+  "opacErrorNetwork": "Could not connect to the library.",
+  "opacErrorFormat": "The library returned an unexpected page.",
+  "opacErrorAuth": "Library authentication is incomplete. Complete unified authentication and try again later.",
+  "opacErrorRedirect": "The library redirect was blocked. Refresh or complete unified authentication.",
+  "opacErrorStale": "This library link has expired. Refresh the list and try again.",
+  "opacErrorNoRenew": "No renewal action was provided. Nothing was submitted; check the library website.",
+  "opacErrorSingleRenew": "Select exactly one book for a partial renewal.",
+  "opacErrorNoHold": "This copy cannot be reserved.",
+  "opacErrorProfile": "The library did not confirm the profile update. Refresh to verify before retrying.",
+  "opacErrorUnknownResult": "The result could not be confirmed. Refresh or check the library website before submitting again.",
+  "opacErrorNoLoans": "No loan table was found. Refresh and try again.",
+  "opacFilterExactTitle": "Title proper",
+  "opacFilterAllFields": "All fields",
+  "opacFilterAllTitles": "All titles",
+  "opacFilterAuthor": "Author",
+  "opacFilterSubject": "Subject",
+  "opacFilterClassification": "Classification",
+  "opacFilterPublisher": "Publisher",
+  "opacFilterSystemNumber": "System number",
+  "opacFilterBarcode": "Barcode",
+  "opacFilterChineseJapanese": "Chinese and Japanese publications",
+  "opacFilterWesternRussian": "Western and Russian publications",
+  "opacFilterAll": "All",
+  "opacFilterChinese": "Chinese",
+  "opacFilterJapanese": "Japanese",
+  "opacFilterEnglish": "English",
+  "opacFilterFrench": "French",
+  "opacFilterGerman": "German",
+  "opacFilterRussian": "Russian",
+  "opacFilterBook": "Books",
+  "opacFilterPeriodical": "Periodicals",
+  "opacFilterAncient": "Ancient books",
+  "opacFilterAudiovisual": "Audiovisual material",
+  "opacFilterMusic": "Scores",
+  "opacFilterMap": "Maps",
+  "opacFilterElectronic": "Electronic resources",
+  "opacFilterThesis": "Theses",
+  "opacTitle": "Library",
+  "opacSignIn": "Sign in with WHU unified authentication to use the library.",
+  "opacSearch": "Catalog search",
+  "opacMyInfo": "My information",
+  "opacRefreshSearch": "Refresh search results",
+  "opacKeyword": "Keywords",
+  "opacSearchTips": "Search tips",
+  "opacSearchHint": "Enter search terms",
+  "opacSearchAction": "Search",
+  "opacFilters": "Filters",
+  "opacSearching": "Searching the catalog",
+  "opacSearchAgain": "Search again",
+  "opacStartSearch": "Enter keywords to search the catalog",
+  "opacNoResults": "No matching titles found",
+  "opacLoadingNext": "Loading the next page",
+  "opacRetryNext": "Retry next page",
+  "opacAllLoaded": "All results loaded",
+  "opacGotIt": "Got it",
+  "opacLoadingFilters": "Loading search filters",
+  "opacSearchFilters": "Search filters",
+  "opacSearchField": "Search field",
+  "opacDatabase": "Database",
+  "opacLanguage": "Language",
+  "opacMaterialType": "Material type",
+  "opacLocation": "Collection location",
+  "opacAdjacent": "Adjacent words",
+  "opacNo": "No",
+  "opacYes": "Yes",
+  "opacYearFrom": "Publication year from",
+  "opacYearTo": "Publication year to",
+  "opacAny": "Any",
+  "opacResetFilters": "Reset filters",
+  "opacApplyFilters": "Apply filters and search",
+  "opacInvalidYears": "Enter valid four-digit publication years. The start year must not be later than the end year.",
+  "opacRefreshProfile": "Refresh personal information",
+  "opacRecords": "Loan records",
+  "opacCurrent": "Current loans",
+  "opacCurrentDescription": "View borrowed books, due dates, and renewal options",
+  "opacHistory": "Loan history",
+  "opacHistoryDescription": "View past loans and reading statistics",
+  "opacLoadingProfile": "Loading personal information",
+  "opacPersonal": "Personal information",
+  "opacLoadingContact": "Loading contact information",
+  "opacContact": "Contact information",
+  "opacEditProfile": "Edit personal information",
+  "opacResults": "Search results",
+  "opacLoadingDetails": "Loading details",
+  "opacDetails": "Details",
+  "opacLoadingHoldings": "Loading holdings",
+  "opacNoHoldings": "No holdings information available",
+  "opacShelf": "Shelf location",
+  "opacCallNumber": "Call number",
+  "opacDescription": "Description",
+  "opacDueDate": "Due date",
+  "opacRecallDate": "Recall due date",
+  "opacSubmitting": "Submitting",
+  "opacReserve": "Place hold",
+  "opacConfirmReserve": "Confirm hold",
+  "opacReserveMessage": "Place a hold on this copy?",
+  "opacReserveSubmitted": "Hold request submitted",
+  "opacNoCurrent": "No current loans",
+  "opacCheckRenew": "Load loan details and check renewal availability",
+  "opacRenewBook": "Renew this book",
+  "opacRenewing": "Renewing",
+  "opacRenew": "Renew",
+  "opacOverview": "Loan overview",
+  "opacPastLoans": "Past loans",
+  "opacOverdue": "Overdue",
+  "opacDueSoon": "Due soon",
+  "opacRenewable": "Renewable",
+  "opacAverageDays": "Average loan duration",
+  "opacLastBorrow": "Last borrowed",
+  "opacLastReturn": "Last returned",
+  "opacTopLibrary": "Most used library",
+  "opacTopArea": "Most used area",
+  "opacActiveYear": "Most active year",
+  "opacTopAuthor": "Most borrowed author",
+  "opacNoHistory": "No loan history",
+  "opacConfirmRenew": "Confirm renewal",
+  "opacRenewUpdated": "Renewed successfully. Loan information updated.",
+  "opacRenewRefreshFailed": "Renewed successfully, but loan information could not be refreshed. Pull down to refresh; do not renew again.",
+  "opacRefreshLoans": "Refresh loan records",
+  "opacLoadingLoans": "Loading loan records",
+  "opacProfileSaved": "Personal information saved to the library server",
+  "opacSaveUnconfirmed": "Saving could not be confirmed. Go back and refresh to verify. If the session expired, reopen the edit page.",
+  "opacContactHelp": "You can edit your mailing address, recipient name, and contact information. Your reader ID and unified authentication identity will not change.",
+  "opacSaveServer": "Save to server",
+  "opacImprint": "Publication",
+  "opacPhysical": "Physical description",
+  "opacSeries": "Series",
+  "opacGeneralNote": "General notes",
+  "opacBibliographyNote": "Bibliographic notes",
+  "opacSummary": "Summary",
+  "opacReaderId": "Reader ID",
+  "opacValidUntil": "Valid until",
+  "opacLoanCount": "Current loan count",
+  "opacHoldCount": "Hold request count",
+  "opacCashRecords": "Cash transactions",
+  "opacRecipient": "Address (1): recipient name",
+  "opacPhone": "Phone",
+  "opacPostalCode": "Postal code",
+  "opacEmail": "Email",
+  "opacBooks": "{count} books",
+  "@opacBooks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "opacItems": "{count} results",
+  "@opacItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "opacDays": "{count} days",
+  "@opacDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "opacTimes": "{count} times",
+  "@opacTimes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "opacCopy": "Copy {number}",
+  "@opacCopy": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "opacBorrowedOn": "Borrowed {date}",
+  "@opacBorrowedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "opacDueOn": "Due {date}",
+  "@opacDueOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "opacReturnedOn": "Returned {date}",
+  "@opacReturnedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "opacRenewMessage": "Renew “{title}”?",
+  "@opacRenewMessage": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "opacAddress": "Address ({number})",
+  "@opacAddress": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "opacOperationFailed": "{operation} failed: {error}",
+  "@opacOperationFailed": {
+    "placeholders": {
+      "operation": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "opacOverdueNotification": "Library book overdue",
+  "opacDueNotification": "Library book due soon",
+  "opacReminderBody": "{title}\nDue date: {date}",
+  "@opacReminderBody": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "opacSearchTipsBody": "Adjacent words: Enable this filter to search multiple words, such as computer programming, as a phrase.\n\nCase: Search terms are not case-sensitive.\n\nBoolean operators: Combine terms with AND, OR, or NOT, except in title-prefix, classification, and call-number searches.\n\nWildcards: Use ? or * to match part of a term. These do not apply to Chinese terms. For example, g?n matches gun, gown, and similar words.",
+  "logConsoleRangeSelect": "Select range",
+  "logConsoleSelectionHint": "Select two endpoint checkboxes, then tap Select range to include all logs between them. Tap content to expand or collapse.",
+  "logConsoleRangeStartHint": "Range selection is disabled with three or more entries selected. Keep only two endpoints to use it.",
+  "logConsoleRangeEndHint": "Two endpoints selected. Tap Select range to include the entries between them.",
   "settingsAppLockTitle": "Biometric protection",
   "settingsAppLockSubtitle": "Guard scores, water code, campus network and AI with your fingerprint or face",
   "appLockPolicyTitle": "When to re-verify",
@@ -7486,85 +7737,85 @@
   "csEbanIssuer": "Issued by",
   "csEbanRecordedAt": "Recorded on",
   "csEbanRecords": "Details",
-  "xijiTitle": "Xiji Platform",
-  "xijiAccountSettings": "Xiji account credentials",
-  "xijiFacultySection": "WHU School of Computer Science",
-  "xijiCasDefault": "Not configured; use university CAS",
-  "xijiAccountAction": "Account settings",
-  "xijiReminderAction": "Reminder settings",
-  "xijiRefresh": "Refresh",
-  "xijiNoCourses": "No courses. Refresh or check your login.",
-  "xijiNotSynced": "Not synced yet",
-  "xijiCourse": "Course",
-  "xijiCourseInfo": "Course information",
-  "xijiAssignments": "Assignments",
-  "xijiExams": "Exams",
-  "xijiCourseUnavailable": "Course unavailable",
-  "xijiNoDescription": "No course description",
-  "xijiNoTasks": "No tasks",
-  "xijiUnknownTime": "Time unknown",
-  "xijiCompleted": "Completed",
-  "xijiHistorical": "Historical",
-  "xijiExpired": "Closed",
-  "xijiNotStarted": "Not started",
-  "xijiOpen": "Open",
-  "xijiReminderTitle": "Xiji reminders",
-  "xijiReminderHelp": "Reminders use the latest successful sync. New or changed tasks need an online refresh. Sign in again if your session expires.",
-  "xijiAssignmentToggle": "Assignment deadline reminders",
-  "xijiAssignmentLead": "Assignment advance notice",
-  "xijiExamToggle": "Exam start reminders",
-  "xijiExamLead": "Exam advance notice",
-  "xijiOneHour": "1 hour",
-  "xijiSixHours": "6 hours",
-  "xijiOneDay": "1 day",
-  "xijiFifteenMinutes": "15 minutes",
-  "xijiThirtyMinutes": "30 minutes",
-  "xijiCasRestored": "University CAS login restored",
-  "xijiCredentialsSaved": "Account credentials saved",
-  "xijiSaveFailed": "Could not save. Check your account and password, then retry.",
-  "xijiAccountHelp": "Optional: use university CAS by default. A configured platform account may require an image CAPTCHA when signing in again.",
-  "xijiBindAccount": "Link a WHU account before saving platform credentials.",
-  "xijiUsername": "Xiji username",
-  "xijiPassword": "Xiji password",
-  "xijiSaveAccount": "Save credentials",
-  "xijiClearAccount": "Clear credentials and use university CAS",
-  "xijiLoginAction": "Sign in and complete CAPTCHA",
-  "xijiLoginTitle": "Sign in to Xiji",
-  "xijiLoginFailed": "Could not verify the login session. Please retry.",
-  "xijiSessionExpired": "Your session expired. Sign in again.",
-  "xijiSyncFailed": "Sync failed; showing saved data",
-  "xijiNotificationFailed": "Could not update reminders. Check notification permissions and retry.",
-  "xijiAssignmentNotification": "Xiji assignment due soon",
-  "xijiExamNotification": "Xiji exam starts soon",
-  "xijiUnknownExamTime": "Some exam times could not be read. Check the original website.",
-  "xijiOpenWebsite": "Open original website",
-  "xijiRetry": "Retry",
-  "xijiUpdatedAt": "Updated {time}",
-  "@xijiUpdatedAt": {
+  "cgTitle": "Cg Platform",
+  "cgAccountSettings": "Cg account credentials",
+  "cgFacultySection": "WHU School of Computer Science",
+  "cgCasDefault": "Not configured; use university CAS",
+  "cgAccountAction": "Account settings",
+  "cgReminderAction": "Reminder settings",
+  "cgRefresh": "Refresh",
+  "cgNoCourses": "No courses. Refresh or check your login.",
+  "cgNotSynced": "Not synced yet",
+  "cgCourse": "Course",
+  "cgCourseInfo": "Course information",
+  "cgAssignments": "Assignments",
+  "cgExams": "Exams",
+  "cgCourseUnavailable": "Course unavailable",
+  "cgNoDescription": "No course description",
+  "cgNoTasks": "No tasks",
+  "cgUnknownTime": "Time unknown",
+  "cgCompleted": "Completed",
+  "cgHistorical": "Historical",
+  "cgExpired": "Closed",
+  "cgNotStarted": "Not started",
+  "cgOpen": "Open",
+  "cgReminderTitle": "Cg reminders",
+  "cgReminderHelp": "Reminders use the latest successful sync. New or changed tasks need an online refresh. Sign in again if your session expires.",
+  "cgAssignmentToggle": "Assignment deadline reminders",
+  "cgAssignmentLead": "Assignment advance notice",
+  "cgExamToggle": "Exam start reminders",
+  "cgExamLead": "Exam advance notice",
+  "cgOneHour": "1 hour",
+  "cgSixHours": "6 hours",
+  "cgOneDay": "1 day",
+  "cgFifteenMinutes": "15 minutes",
+  "cgThirtyMinutes": "30 minutes",
+  "cgCasRestored": "University CAS login restored",
+  "cgCredentialsSaved": "Account credentials saved",
+  "cgSaveFailed": "Could not save. Check your account and password, then retry.",
+  "cgAccountHelp": "Optional: use university CAS by default. A configured platform account may require an image CAPTCHA when signing in again.",
+  "cgBindAccount": "Link a WHU account before saving platform credentials.",
+  "cgUsername": "Cg username",
+  "cgPassword": "Cg password",
+  "cgSaveAccount": "Save credentials",
+  "cgClearAccount": "Clear credentials and use university CAS",
+  "cgLoginAction": "Sign in and complete CAPTCHA",
+  "cgLoginTitle": "Sign in to Cg",
+  "cgLoginFailed": "Could not verify the login session. Please retry.",
+  "cgSessionExpired": "Your session expired. Sign in again.",
+  "cgSyncFailed": "Sync failed; showing saved data",
+  "cgNotificationFailed": "Could not update reminders. Check notification permissions and retry.",
+  "cgAssignmentNotification": "Cg assignment due soon",
+  "cgExamNotification": "Cg exam starts soon",
+  "cgUnknownExamTime": "Some exam times could not be read. Check the original website.",
+  "cgOpenWebsite": "Open original website",
+  "cgRetry": "Retry",
+  "cgUpdatedAt": "Updated {time}",
+  "@cgUpdatedAt": {
     "placeholders": {
       "time": {
         "type": "String"
       }
     }
   },
-  "xijiStartsAt": "Starts: {time}",
-  "@xijiStartsAt": {
+  "cgStartsAt": "Starts: {time}",
+  "@cgStartsAt": {
     "placeholders": {
       "time": {
         "type": "String"
       }
     }
   },
-  "xijiEndsAt": "Due: {time}",
-  "@xijiEndsAt": {
+  "cgEndsAt": "Due: {time}",
+  "@cgEndsAt": {
     "placeholders": {
       "time": {
         "type": "String"
       }
     }
   },
-  "xijiConfiguredAccount": "Configured account: {account}",
-  "@xijiConfiguredAccount": {
+  "cgConfiguredAccount": "Configured account: {account}",
+  "@cgConfiguredAccount": {
     "placeholders": {
       "account": {
         "type": "String"
@@ -8040,5 +8291,35 @@
   },
   "courseCaseNoticeRestricted": "Your class sharing write access was temporarily restricted",
   "courseCaseNoticeRestrictionLifted": "Your class sharing write restriction was lifted",
-  "courseSpaceEvidenceRetentionHint": "Evidence is private to authorized participants and reviewers. Unsubmitted uploads expire after 30 days. Submitted evidence is retained while review or appeal is pending, and for at least 90 days after the case closes."
+  "courseSpaceEvidenceRetentionHint": "Evidence is private to authorized participants and reviewers. Unsubmitted uploads expire after 30 days. Submitted evidence is retained while review or appeal is pending, and for at least 90 days after the case closes.",
+  "contributionAccountTitle": "Luotopia account required",
+  "contributionAccountHint": "Register or sign in to your Luotopia account before using this feature.",
+  "diningRandomPick": "Random pick",
+  "diningFilterShops": "Filter shops",
+  "diningContribute": "Contribute",
+  "diningAddShop": "Add a shop",
+  "diningAddShopHint": "Help build our shared dining directory. Your shop will appear after review.",
+  "diningShopName": "Shop name",
+  "diningShopAddress": "Address",
+  "diningShopArea": "Area",
+  "diningPickLocation": "Tap the map to mark the shop location",
+  "diningRequiredField": "This field is required",
+  "diningSubmitReview": "Submit for review",
+  "diningSubmissionSuccess": "Submitted for review",
+  "diningAddDish": "Add a dish",
+  "diningRandomRange": "Range",
+  "diningPriceRange": "Price range (CNY)",
+  "diningRatingOverall": "Overall rating",
+  "diningRatingTaste": "Taste rating",
+  "diningRatingValue": "Value rating",
+  "diningRatingAmbience": "Ambience rating",
+  "diningRatingSpeed": "Serving speed rating",
+  "diningRangeMin": "Minimum",
+  "diningRangeMax": "Maximum",
+  "diningRangeInvalid": "Enter a valid range",
+  "diningRangeHint": "Leave blank for no limit. Ratings use a 0–5 scale; shops without a selected rating are excluded.",
+  "diningScopeAll": "All",
+  "diningScopeCampus": "On campus",
+  "diningScopeOffCampus": "Off campus",
+  "diningRatingLoadFailed": "Could not load ratings. Please retry."
 }
