@@ -6031,6 +6031,8 @@
   "chaoxingSignSuccess": "Отметка принята",
   "chaoxingSignAlready": "Вы уже отмечались",
   "chaoxingSignLate": "Отмечено, но срок уже прошёл",
+  "chaoxingSignValidateRequired": "Не удалось пройти слайдовую капчу; повторите попытку или завершите в веб-версии",
+  "chaoxingSignFailedGeneric": "Не удалось отметиться",
   "chaoxingSignFailed": "Не удалось отметиться: {message}",
   "chaoxingSignUnsupported": "Этот тип отметки в приложении не поддерживается. Используйте веб-версию.",
   "chaoxingSignCodeHint": "Введите {count}-значный код",
@@ -6059,6 +6061,8 @@
   "chaoxingSignQrUnreadable": "Не удалось распознать действительный QR-код отметки",
   "chaoxingSignFaceEnrollHint": "При первой отметке регистрируется ваше лицо по фото",
   "chaoxingSignFaceEnrolled": "Лицо зарегистрировано",
+  "chaoxingSignFaceEnrolling": "Регистрация лица…",
+  "chaoxingSignFaceRemove": "Удалить регистрацию",
   "chaoxingSignFaceNeedDevice": "Для отметки с лицом нужен вход в Chaoxing с регистрацией устройства. Используйте веб-версию или войдите снова с этой опцией.",
   "chaoxingSignFaceEnrollFailed": "Не удалось зарегистрировать лицо: {message}",
   "chaoxingSignLocationUse": "Будет использовано ваше текущее местоположение",
@@ -6873,5 +6877,299 @@
   "diningScopeAll": "Все",
   "diningScopeCampus": "В кампусе",
   "diningScopeOffCampus": "Вне кампуса",
-  "diningRatingLoadFailed": "Не удалось загрузить оценки. Повторите попытку."
+  "diningRatingLoadFailed": "Не удалось загрузить оценки. Повторите попытку.",
+  "diningMainTitle": "Что сегодня едим?",
+  "diningMainLocateTooltip": "Моё местоположение",
+  "diningMainLocationUnavailable": "Не удалось получить текущее местоположение. Проверьте разрешения.",
+  "diningMainAdminTooltip": "Управление Dining",
+  "diningMainBuildingFallback": "Корпус",
+  "diningMainSearchHint": "Поиск заведений, районов или блюд",
+  "diningMainClearSearch": "Очистить поиск",
+  "diningMainSelectArea": "Выберите район",
+  "diningMainFindingFood": "Ищем что-нибудь вкусное…",
+  "diningMainSpotsLoadFailedRetry": "Не удалось загрузить заведения. Нажмите, чтобы повторить.",
+  "diningMainNoSpotsInScope": "В этой области нет заведений. Попробуйте другой район.",
+  "diningMainSpotsSummary": "{area} · {count} заведений, нажмите на карту для подробностей",
+  "@diningMainSpotsSummary": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainReloadMap": "Перезагрузить данные карты",
+  "diningMainSelectScope": "Выберите область",
+  "diningMainFloorsLoadFailed": "Не удалось загрузить этажи",
+  "diningMainNoFloors": "Нет информации об этажах",
+  "diningMainFloorCount": "Всего {count} этажей",
+  "@diningMainFloorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainSpotDetailLoadFailed": "Не удалось загрузить сведения о заведении",
+  "diningMainReviewCountParen": "({count} отзывов)",
+  "@diningMainReviewCountParen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainOpenNow": "Открыто",
+  "diningMainClosedNow": "Закрыто",
+  "diningMainViewDetails": "Подробнее",
+  "diningMainNavigate": "Маршрут",
+  "diningMainMenuSection": "Меню",
+  "diningMainMenuLoadFailed": "Не удалось загрузить меню",
+  "diningMainMenuEmpty": "Меню пока нет",
+  "diningMainMarketPrice": "По рыночной цене",
+  "diningMainViewAllDishes": "Смотреть все блюда ({count})",
+  "@diningMainViewAllDishes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainFloorInfoSection": "Информация об этажах",
+  "diningMainNoFloorPlan": "Нет данных внутренней карты",
+  "diningMainReviewsSection": "Отзывы",
+  "diningMainReviewsLoadFailed": "Не удалось загрузить отзывы",
+  "diningMainNoReviews": "Отзывов пока нет",
+  "diningMainReviewsCount": "{count} отзывов",
+  "@diningMainReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainNoNavApps": "Tencent Maps, Amap или Baidu Maps не обнаружены",
+  "diningMainSelectNavApp": "Выберите приложение карт",
+  "diningMainCannotOpenApp": "Не удалось открыть {app}",
+  "@diningMainCannotOpenApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMainWuhanDistricts": "Районы Уханя",
+  "diningMainNoMatchingAreas": "Нет подходящих районов",
+  "diningMainAllOnCampus": "Весь кампус",
+  "diningMainAllOffCampusWuhan": "Всё вне кампуса (Ухань)",
+  "diningMainSearchAreaHint": "Поиск по названию района",
+  "diningMainAreasLoadFailed": "Не удалось загрузить данные районов",
+  "diningMainNoCandidates": "В этой области нет подходящих вариантов. Попробуйте другую.",
+  "diningMainRandomShop": "Случайное заведение",
+  "diningMainRandomDish": "Случайное блюдо",
+  "diningMainReloadCandidates": "Перезагрузить варианты",
+  "diningMainRollAgain": "Ещё раз",
+  "diningMainChoosing": "Выбираем…",
+  "diningMainStartDraw": "Начать жеребьёвку",
+  "diningMainSyncingCandidates": "Синхронизация вариантов…",
+  "diningMainCandidatesLoadFailed": "Не удалось загрузить варианты. Проверьте сеть и повторите.",
+  "diningMainDecided": "🎉 Решено!",
+  "diningMainRollIdleHint": "Выберите область и вкус, затем нажмите кнопку ниже",
+  "diningMainRecommendShops": "Рекомендованные заведения",
+  "diningMainRecommendDishes": "Рекомендованные блюда",
+  "diningMainAnyType": "Любой тип",
+  "diningMainOpenNowOnly": "Только открытые",
+  "diningMainPickForMe": "Выбрать за меня",
+  "diningMainRecommendLoadFailed": "Не удалось загрузить рекомендации",
+  "diningMainNoMatchingDishes": "В этой области нет подходящих блюд",
+  "diningMainNoMatchingShops": "В этой области нет подходящих заведений",
+  "diningMainPickedDish": "Едим «{name}»!",
+  "@diningMainPickedDish": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotDetails": "Сведения о заведении",
+  "diningSpotReviews": "Отзывы",
+  "diningSpotSubmitCorrection": "Отправить исправление",
+  "diningSpotLoadFailed": "Не удалось загрузить сведения о заведении",
+  "diningSpotAlsoKnownAs": "Другие названия: {names}",
+  "@diningSpotAlsoKnownAs": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotChooseMapNavigation": "Выбрать навигатор",
+  "diningSpotIndoorFloors": "Этажи в помещении",
+  "diningSpotNoFloorPlanData": "Нет данных indoor-карты",
+  "diningSpotHoursUnknown": "Часы работы неизвестны",
+  "diningSpotOpenNow": "Открыто",
+  "diningSpotClosedNow": "Сейчас закрыто",
+  "diningSpotCorrectHours": "Исправить часы работы",
+  "diningSpotCorrectScheduleExceptions": "Исправить особые часы работы",
+  "diningSpotRecentScheduleExceptions": "Ближайшие изменения графика",
+  "diningSpotClosedTemporarily": "Временно закрыто",
+  "diningSpotNextDay": "след. день ",
+  "diningSpotMenu": "Меню",
+  "diningSpotMenuLoadFailed": "Не удалось загрузить меню",
+  "diningSpotNoMenu": "Меню пока нет",
+  "diningSpotReviewsLoadFailed": "Не удалось загрузить отзывы",
+  "diningSpotNoReviews": "Отзывов пока нет",
+  "diningSpotReviewCount": "{count} отзывов",
+  "@diningSpotReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningSpotNoReviewText": "Отзыв без текста",
+  "diningSpotHelpful": "Полезно",
+  "diningSpotNotHelpful": "Не полезно",
+  "diningSpotReportReview": "Пожаловаться на отзыв",
+  "diningSpotMarketPrice": "Рыночная цена",
+  "diningSpotAvailableUntil": "Доступно до {date}",
+  "@diningSpotAvailableUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCorrectPriceAndSupply": "Исправить цену и наличие",
+  "diningSpotLike": "Нравится",
+  "diningSpotDislike": "Не нравится",
+  "diningSpotLoginToInteract": "Войдите, чтобы взаимодействовать с блюдами",
+  "diningSpotActionFailedRetry": "Операция не удалась. Повторите позже.",
+  "diningSpotCommentSendFailed": "Не удалось отправить комментарий. Повторите позже.",
+  "diningSpotDeleteFailed": "Не удалось удалить. Повторите позже.",
+  "diningSpotCommentsOfItem": "Комментарии к «{name}»",
+  "@diningSpotCommentsOfItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCommentsLoadFailed": "Не удалось загрузить комментарии",
+  "diningSpotNoCommentsYet": "Комментариев пока нет. Напишите что-нибудь!",
+  "diningSpotCommentMine": "я",
+  "diningSpotCommentHint": "Напишите комментарий…",
+  "diningSpotLoginToComment": "Войдите, чтобы комментировать",
+  "diningSpotNoMapAppsDetected": "Tencent Maps, Amap или Baidu Maps не обнаружены",
+  "diningSpotChooseNavigationMap": "Выберите карту для навигации",
+  "diningSpotCannotOpenMapApp": "Не удалось открыть {app}",
+  "@diningSpotCannotOpenMapApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotReportDetailsOptional": "Дополнительные детали (необязательно)",
+  "diningSpotSubmitting": "Отправка…",
+  "diningSpotSubmitReport": "Отправить жалобу",
+  "diningSpotReviewShop": "Оценить заведение",
+  "diningSpotTaste": "Вкус",
+  "diningSpotValue": "Соотношение цены и качества",
+  "diningSpotAmbience": "Атмосфера",
+  "diningSpotSpeed": "Скорость подачи",
+  "diningSpotReviewContentOptional": "Текст отзыва (необязательно)",
+  "diningSpotPostAnonymously": "Опубликовать анонимно",
+  "diningSpotSubmitReview": "Отправить отзыв",
+  "diningSpotDeleteMyReview": "Удалить мой отзыв",
+  "diningCorrectionSubmitFailed": "Не удалось отправить. Проверьте вход или сеть и повторите.",
+  "diningCorrectionTitle": "Отправить исправление заведения",
+  "diningCorrectionHint": "Укажите проверенные данные. Обновление после одобрения; награда зависит от фактического начисления.",
+  "diningCorrectionNameRequired": "Укажите название",
+  "diningCorrectionAddressRequired": "Укажите адрес",
+  "diningCorrectionSubmitting": "Отправка…",
+  "diningHoursLoadFailed": "Не удалось загрузить часы работы. Повторите попытку.",
+  "diningHoursSubmitFailed": "Не удалось отправить. Проверьте вход или сеть и повторите.",
+  "diningHoursExceptionsTitle": "Изменить временный график",
+  "diningHoursWeeklyTitle": "Изменить часы работы",
+  "diningHoursExceptionsHelp": "Расписание на особые даты переопределяет недельное расписание этого дня. Можно добавить несколько интервалов в одну дату; удаление всех интервалов восстанавливает недельное расписание. Время пекинское; вступает в силу после проверки.",
+  "diningHoursWeeklyHelp": "Заполните полное недельное расписание по пекинскому времени; допускается несколько интервалов в день. Конец раньше начала означает переход через полночь; удаление всех интервалов — часы работы неизвестны. Вступает в силу после проверки.",
+  "diningHoursDateLabel": "Дата ГГГГ-ММ-ДД",
+  "diningHoursInvalidDate": "Введите корректную дату",
+  "diningHoursWeekdaySun": "Вс",
+  "diningHoursWeekdayMon": "Пн",
+  "diningHoursWeekdayTue": "Вт",
+  "diningHoursWeekdayWed": "Ср",
+  "diningHoursWeekdayThu": "Чт",
+  "diningHoursWeekdayFri": "Пт",
+  "diningHoursWeekdaySat": "Сб",
+  "diningHoursDeleteSlot": "Удалить интервал",
+  "diningHoursNoteLabel": "Примечание (необязательно)",
+  "diningHoursClosedAllDay": "Закрыто весь день",
+  "diningHoursStartLabel": "Начало ЧЧ:мм",
+  "diningHoursInvalidTime": "Введите корректное время",
+  "diningHoursEndLabel": "Конец ЧЧ:мм",
+  "diningHoursInvalidDistinctTime": "Введите два разных корректных времени",
+  "diningHoursAddSlot": "Добавить интервал",
+  "diningHoursReload": "Обновить",
+  "diningHoursSubmitting": "Отправка…",
+  "diningFloorPlanShopIdRequired": "Укажите ID магазина на этом этаже",
+  "diningFloorPlanTypeBoundary": "Граница этажа",
+  "diningFloorPlanTypeShopArea": "Зона магазинов",
+  "diningFloorPlanTypeCorridor": "Коридор",
+  "diningFloorPlanTypeWall": "Стена",
+  "diningFloorPlanTypeDoor": "Дверь",
+  "diningFloorPlanTypeEntrance": "Вход",
+  "diningFloorPlanTypeStairs": "Лестница",
+  "diningFloorPlanTypeEscalator": "Эскалатор",
+  "diningFloorPlanTypeElevator": "Лифт",
+  "diningFloorPlanTypeServiceArea": "Сервисная зона",
+  "diningFloorPlanTypeLabel": "Текстовая метка",
+  "diningFloorPlanTypeLandmark": "Ориентир",
+  "diningFloorPlanGeometryPoint": "Точка",
+  "diningFloorPlanGeometryLine": "Полилиния",
+  "diningFloorPlanGeometryPolygon": "Многоугольник",
+  "diningFloorPlanLabelHint": "Метка (необязательно)",
+  "diningFloorPlanSpotIdLabel": "ID магазина на этаже",
+  "diningFloorPlanFinishPoints": "Завершить {count} точек",
+  "@diningFloorPlanFinishPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningFloorPlanFinishDraftFirst": "Завершите текущую фигуру перед сохранением",
+  "diningFloorPlanSaveFailed": "Не удалось сохранить. Проверьте привязку магазина, геометрию или сеть и повторите.",
+  "diningFloorPlanSaving": "Сохранение…",
+  "diningFloorPlanSave": "Сохранить план этажа",
+  "diningFloorPlanHintPoint": "Нажмите на холст, чтобы поставить точку",
+  "diningFloorPlanHintDraw": "Нажимайте на холст, чтобы рисовать по точкам, затем сохраните или нажмите «Завершить», чтобы добавить фигуру",
+  "diningFloorPlanLoadFailed": "Не удалось загрузить план помещения",
+  "diningMenuEndAfterStart": "Время окончания должно быть позже времени начала",
+  "diningMenuCreateTitle": "Добавить блюдо",
+  "diningMenuEditTitle": "Изменить блюдо",
+  "diningMenuHelp": "Укажите блюда, которые реально продаются. Меню обновится после одобрения; награды зависят от фактического начисления.",
+  "diningMenuNameLabel": "Название блюда",
+  "diningMenuNameRequired": "Введите название",
+  "diningMenuPriceLabel": "Цена (юань)",
+  "diningMenuPriceInvalid": "Введите цену, не более двух знаков после запятой",
+  "diningMenuDescriptionLabel": "Описание блюда (необязательно)",
+  "diningMenuAvailableNow": "Сейчас в наличии",
+  "diningMenuSupplyType": "Тип поставки",
+  "diningMenuSupplyPermanent": "Постоянно",
+  "diningMenuSupplyLimited": "Ограниченное время",
+  "diningMenuSupplySeasonal": "Сезонное",
+  "diningMenuSupplySpecial": "Особое предложение",
+  "diningMenuSupplyStart": "Начало поставки (пекинское время)",
+  "diningMenuSupplyEnd": "Окончание поставки (пекинское время)",
+  "diningMenuClearStart": "Очистить время начала",
+  "diningMenuClearEnd": "Очистить время окончания",
+  "diningSearchFailedRetry": "Ошибка поиска. Нажмите, чтобы повторить.",
+  "diningSearchNoResults": "Ничего не найдено. Попробуйте название магазина или блюда либо смените область.",
+  "settingsFeaturesVivoWatchSectionTitle": "Часы vivo",
+  "settingsFeaturesVivoWatchToggleTitle": "Синхронизировать с часами vivo",
+  "settingsFeaturesVivoWatchToggleSubtitle": "Синхронизация расписания и кампусной карты через BlueXLink"
 }

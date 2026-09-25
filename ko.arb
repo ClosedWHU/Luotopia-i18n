@@ -6062,6 +6062,8 @@
   "chaoxingSignSuccess": "출석했습니다",
   "chaoxingSignAlready": "이미 출석했습니다",
   "chaoxingSignLate": "출석했지만 마감 시간이 지났습니다",
+  "chaoxingSignValidateRequired": "슬라이드 인증을 완료하지 못했습니다. 다시 시도하거나 웹 버전에서 진행하세요",
+  "chaoxingSignFailedGeneric": "출석 실패",
   "chaoxingSignFailed": "출석 실패: {message}",
   "chaoxingSignUnsupported": "이 출석 유형은 앱에서 지원하지 않습니다. 웹 버전을 사용하세요.",
   "chaoxingSignCodeHint": "{count}자리 코드를 입력",
@@ -6090,6 +6092,8 @@
   "chaoxingSignQrUnreadable": "유효한 출석 QR 코드를 읽지 못했습니다",
   "chaoxingSignFaceEnrollHint": "첫 출석 시 얼굴 사진을 등록합니다",
   "chaoxingSignFaceEnrolled": "얼굴 등록됨",
+  "chaoxingSignFaceEnrolling": "얼굴 등록 중…",
+  "chaoxingSignFaceRemove": "등록 제거",
   "chaoxingSignFaceNeedDevice": "얼굴 출석은 기기 등록으로 학습통 로그인해야 합니다. 웹 버전을 쓰거나 해당 옵션으로 다시 로그인하세요.",
   "chaoxingSignFaceEnrollFailed": "얼굴 등록 실패: {message}",
   "chaoxingSignLocationUse": "현재 위치를 사용합니다",
@@ -6904,5 +6908,299 @@
   "diningScopeAll": "전체",
   "diningScopeCampus": "교내",
   "diningScopeOffCampus": "교외",
-  "diningRatingLoadFailed": "평점을 불러오지 못했습니다. 다시 시도하세요."
+  "diningRatingLoadFailed": "평점을 불러오지 못했습니다. 다시 시도하세요.",
+  "diningMainTitle": "오늘 뭐 먹지?",
+  "diningMainLocateTooltip": "내 위치",
+  "diningMainLocationUnavailable": "현재 위치를 가져올 수 없습니다. 위치 권한을 확인하세요",
+  "diningMainAdminTooltip": "Dining 관리",
+  "diningMainBuildingFallback": "건물",
+  "diningMainSearchHint": "매장, 구역 또는 메뉴 검색",
+  "diningMainClearSearch": "검색 지우기",
+  "diningMainSelectArea": "구역 선택",
+  "diningMainFindingFood": "맛있는 곳을 찾는 중…",
+  "diningMainSpotsLoadFailedRetry": "매장을 불러오지 못했습니다. 눌러서 다시 시도",
+  "diningMainNoSpotsInScope": "이 범위에 매장이 없습니다. 다른 구역을 시도해 보세요",
+  "diningMainSpotsSummary": "{area} · 매장 {count}곳, 지도를 눌러 상세 보기",
+  "@diningMainSpotsSummary": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainReloadMap": "지도 데이터 다시 불러오기",
+  "diningMainSelectScope": "범위 선택",
+  "diningMainFloorsLoadFailed": "층 정보를 불러오지 못했습니다",
+  "diningMainNoFloors": "층 정보가 없습니다",
+  "diningMainFloorCount": "총 {count}개 층",
+  "@diningMainFloorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainSpotDetailLoadFailed": "매장 상세 정보를 불러오지 못했습니다",
+  "diningMainReviewCountParen": "(리뷰 {count}개)",
+  "@diningMainReviewCountParen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainOpenNow": "영업 중",
+  "diningMainClosedNow": "휴식 중",
+  "diningMainViewDetails": "상세 보기",
+  "diningMainNavigate": "길 안내",
+  "diningMainMenuSection": "메뉴",
+  "diningMainMenuLoadFailed": "메뉴를 불러오지 못했습니다",
+  "diningMainMenuEmpty": "메뉴가 없습니다",
+  "diningMainMarketPrice": "시가",
+  "diningMainViewAllDishes": "메뉴 {count}개 모두 보기",
+  "@diningMainViewAllDishes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainFloorInfoSection": "층 정보",
+  "diningMainNoFloorPlan": "실내 지도 데이터가 없습니다",
+  "diningMainReviewsSection": "리뷰",
+  "diningMainReviewsLoadFailed": "리뷰를 불러오지 못했습니다",
+  "diningMainNoReviews": "아직 리뷰가 없습니다",
+  "diningMainReviewsCount": "리뷰 {count}개",
+  "@diningMainReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainNoNavApps": "텐센트 지도, 가오더 지도, 바이두 지도를 찾을 수 없습니다",
+  "diningMainSelectNavApp": "내비게이션 앱 선택",
+  "diningMainCannotOpenApp": "{app}을(를) 열 수 없습니다",
+  "@diningMainCannotOpenApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMainWuhanDistricts": "우한 행정구",
+  "diningMainNoMatchingAreas": "일치하는 구역이 없습니다",
+  "diningMainAllOnCampus": "교내 전체",
+  "diningMainAllOffCampusWuhan": "우한 교외 전체",
+  "diningMainSearchAreaHint": "구역 이름 검색",
+  "diningMainAreasLoadFailed": "구역 데이터를 불러오지 못했습니다",
+  "diningMainNoCandidates": "이 범위에는 조건에 맞는 후보가 없습니다. 다른 범위를 시도해 보세요",
+  "diningMainRandomShop": "랜덤 매장",
+  "diningMainRandomDish": "랜덤 메뉴",
+  "diningMainReloadCandidates": "후보 다시 불러오기",
+  "diningMainRollAgain": "한 번 더",
+  "diningMainChoosing": "선택 중…",
+  "diningMainStartDraw": "추첨 시작",
+  "diningMainSyncingCandidates": "후보 데이터 동기화 중…",
+  "diningMainCandidatesLoadFailed": "후보를 불러오지 못했습니다. 네트워크 확인 후 다시 시도하세요",
+  "diningMainDecided": "🎉 바로 이걸로 결정!",
+  "diningMainRollIdleHint": "범위와 입맛을 고른 뒤 아래 버튼으로 결정하세요",
+  "diningMainRecommendShops": "추천 매장",
+  "diningMainRecommendDishes": "추천 메뉴",
+  "diningMainAnyType": "모든 유형",
+  "diningMainOpenNowOnly": "영업 중만 보기",
+  "diningMainPickForMe": "대신 골라주기",
+  "diningMainRecommendLoadFailed": "추천을 불러오지 못했습니다",
+  "diningMainNoMatchingDishes": "이 범위에 조건에 맞는 메뉴가 없습니다",
+  "diningMainNoMatchingShops": "이 범위에 조건에 맞는 매장이 없습니다",
+  "diningMainPickedDish": "\"{name}\"(으)로 결정!",
+  "@diningMainPickedDish": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotDetails": "매장 상세",
+  "diningSpotReviews": "평가",
+  "diningSpotSubmitCorrection": "수정 제출",
+  "diningSpotLoadFailed": "매장 정보를 불러오지 못했습니다",
+  "diningSpotAlsoKnownAs": "별칭: {names}",
+  "@diningSpotAlsoKnownAs": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotChooseMapNavigation": "내비게이션 앱 선택",
+  "diningSpotIndoorFloors": "층 안내",
+  "diningSpotNoFloorPlanData": "실내 지도 데이터가 없습니다",
+  "diningSpotHoursUnknown": "영업시간 알 수 없음",
+  "diningSpotOpenNow": "영업 중",
+  "diningSpotClosedNow": "현재 휴식 중",
+  "diningSpotCorrectHours": "영업시간 수정",
+  "diningSpotCorrectScheduleExceptions": "임시 영업 일정 수정",
+  "diningSpotRecentScheduleExceptions": "최근 영업 예외",
+  "diningSpotClosedTemporarily": "임시 휴업",
+  "diningSpotNextDay": "익일 ",
+  "diningSpotMenu": "메뉴",
+  "diningSpotMenuLoadFailed": "메뉴를 불러오지 못했습니다",
+  "diningSpotNoMenu": "메뉴가 없습니다",
+  "diningSpotReviewsLoadFailed": "평가를 불러오지 못했습니다",
+  "diningSpotNoReviews": "아직 평가가 없습니다",
+  "diningSpotReviewCount": "평가 {count}개",
+  "@diningSpotReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningSpotNoReviewText": "텍스트 리뷰 없음",
+  "diningSpotHelpful": "도움이 돼요",
+  "diningSpotNotHelpful": "도움 안 돼요",
+  "diningSpotReportReview": "평가 신고",
+  "diningSpotMarketPrice": "시가",
+  "diningSpotAvailableUntil": "{date}까지 공급",
+  "@diningSpotAvailableUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCorrectPriceAndSupply": "가격·공급 수정",
+  "diningSpotLike": "좋아요",
+  "diningSpotDislike": "싫어요",
+  "diningSpotLoginToInteract": "로그인 후 요리 반응에 참여하세요",
+  "diningSpotActionFailedRetry": "작업 실패. 잠시 후 다시 시도하세요",
+  "diningSpotCommentSendFailed": "댓글을 보내지 못했습니다. 잠시 후 다시 시도하세요",
+  "diningSpotDeleteFailed": "삭제하지 못했습니다. 잠시 후 다시 시도하세요",
+  "diningSpotCommentsOfItem": "\"{name}\" 댓글",
+  "@diningSpotCommentsOfItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCommentsLoadFailed": "댓글을 불러오지 못했습니다",
+  "diningSpotNoCommentsYet": "아직 댓글이 없습니다. 한마디 남겨보세요",
+  "diningSpotCommentMine": "나",
+  "diningSpotCommentHint": "댓글을 작성하세요…",
+  "diningSpotLoginToComment": "로그인 후 댓글을 작성할 수 있어요",
+  "diningSpotNoMapAppsDetected": "텐센트 지도, 가오더 지도, 바이두 지도를 찾을 수 없습니다",
+  "diningSpotChooseNavigationMap": "내비게이션 지도 선택",
+  "diningSpotCannotOpenMapApp": "{app}을(를) 열 수 없습니다",
+  "@diningSpotCannotOpenMapApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotReportDetailsOptional": "추가 설명 (선택)",
+  "diningSpotSubmitting": "제출 중…",
+  "diningSpotSubmitReport": "신고 제출",
+  "diningSpotReviewShop": "매장 평가하기",
+  "diningSpotTaste": "맛",
+  "diningSpotValue": "가성비",
+  "diningSpotAmbience": "분위기",
+  "diningSpotSpeed": "서빙 속도",
+  "diningSpotReviewContentOptional": "리뷰 내용 (선택)",
+  "diningSpotPostAnonymously": "익명으로 게시",
+  "diningSpotSubmitReview": "평가 제출",
+  "diningSpotDeleteMyReview": "내 평가 삭제",
+  "diningCorrectionSubmitFailed": "제출 실패. 로그인 상태나 네트워크를 확인 후 다시 시도하세요",
+  "diningCorrectionTitle": "매장 수정 제출",
+  "diningCorrectionHint": "확인된 매장 정보를 입력하세요. 승인 후 반영되며, 기여 보상은 실제 지급 기준입니다.",
+  "diningCorrectionNameRequired": "이름을 입력하세요",
+  "diningCorrectionAddressRequired": "주소를 입력하세요",
+  "diningCorrectionSubmitting": "제출 중…",
+  "diningHoursLoadFailed": "영업시간을 불러오지 못했습니다. 다시 시도해 주세요.",
+  "diningHoursSubmitFailed": "제출 실패. 로그인 상태나 네트워크를 확인한 뒤 다시 시도해 주세요.",
+  "diningHoursExceptionsTitle": "임시 영업 일정 수정",
+  "diningHoursWeeklyTitle": "영업시간 수정",
+  "diningHoursExceptionsHelp": "특정 날짜의 영업 일정을 입력하면 해당 요일의 주간 일정을 덮어씁니다. 하루에 여러 시간대를 추가할 수 있고, 날짜의 일정을 모두 삭제하면 주간 일정으로 돌아갑니다. 베이징 시간으로 입력하며 심사 통과 후 적용됩니다.",
+  "diningHoursWeeklyHelp": "베이징 시간으로 주간 일정을 모두 입력하세요. 하루에 여러 시간대를 추가할 수 있습니다. 종료 시각이 시작보다 이르면 자정을 넘는 것이며, 전체 시간대를 삭제하면 영업시간 미상으로 처리됩니다. 심사 통과 후 적용됩니다.",
+  "diningHoursDateLabel": "날짜 YYYY-MM-DD",
+  "diningHoursInvalidDate": "유효한 날짜를 입력하세요",
+  "diningHoursWeekdaySun": "일요일",
+  "diningHoursWeekdayMon": "월요일",
+  "diningHoursWeekdayTue": "화요일",
+  "diningHoursWeekdayWed": "수요일",
+  "diningHoursWeekdayThu": "목요일",
+  "diningHoursWeekdayFri": "금요일",
+  "diningHoursWeekdaySat": "토요일",
+  "diningHoursDeleteSlot": "시간대 삭제",
+  "diningHoursNoteLabel": "설명(선택)",
+  "diningHoursClosedAllDay": "종일 휴무",
+  "diningHoursStartLabel": "시작 HH:mm",
+  "diningHoursInvalidTime": "유효한 시간을 입력하세요",
+  "diningHoursEndLabel": "종료 HH:mm",
+  "diningHoursInvalidDistinctTime": "서로 다른 유효한 시간을 입력하세요",
+  "diningHoursAddSlot": "시간대 추가",
+  "diningHoursReload": "다시 불러오기",
+  "diningHoursSubmitting": "제출 중…",
+  "diningFloorPlanShopIdRequired": "이 층의 상점 ID를 입력하세요",
+  "diningFloorPlanTypeBoundary": "층 경계",
+  "diningFloorPlanTypeShopArea": "상점 구역",
+  "diningFloorPlanTypeCorridor": "복도",
+  "diningFloorPlanTypeWall": "벽",
+  "diningFloorPlanTypeDoor": "문",
+  "diningFloorPlanTypeEntrance": "입구",
+  "diningFloorPlanTypeStairs": "계단",
+  "diningFloorPlanTypeEscalator": "에스컬레이터",
+  "diningFloorPlanTypeElevator": "엘리베이터",
+  "diningFloorPlanTypeServiceArea": "서비스 구역",
+  "diningFloorPlanTypeLabel": "텍스트 레이블",
+  "diningFloorPlanTypeLandmark": "랜드마크",
+  "diningFloorPlanGeometryPoint": "점",
+  "diningFloorPlanGeometryLine": "폴리라인",
+  "diningFloorPlanGeometryPolygon": "다각형",
+  "diningFloorPlanLabelHint": "레이블(선택)",
+  "diningFloorPlanSpotIdLabel": "이 층 상점 ID",
+  "diningFloorPlanFinishPoints": "{count}개 점 완성",
+  "@diningFloorPlanFinishPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningFloorPlanFinishDraftFirst": "현재 도형을 완성한 뒤 저장하세요",
+  "diningFloorPlanSaveFailed": "저장에 실패했습니다. 상점 소속, 도형, 네트워크를 확인한 뒤 다시 시도하세요.",
+  "diningFloorPlanSaving": "저장 중…",
+  "diningFloorPlanSave": "평면도 저장",
+  "diningFloorPlanHintPoint": "캔버스를 눌러 점 배치",
+  "diningFloorPlanHintDraw": "캔버스를 눌러 점별로 그리세요. 완료 후 저장하거나 '완성'을 눌러 도형을 추가합니다",
+  "diningFloorPlanLoadFailed": "실내 지도를 불러오지 못했습니다",
+  "diningMenuEndAfterStart": "공급 종료 시각은 시작 시각보다 늦어야 합니다",
+  "diningMenuCreateTitle": "요리 추가",
+  "diningMenuEditTitle": "요리 수정",
+  "diningMenuHelp": "매장에서 실제로 판매하는 요리를 제공하세요. 심사 채택 후 메뉴가 갱신되며, 기여 보상은 실제 지급액을 기준으로 합니다.",
+  "diningMenuNameLabel": "요리 이름",
+  "diningMenuNameRequired": "이름을 입력하세요",
+  "diningMenuPriceLabel": "가격(위안)",
+  "diningMenuPriceInvalid": "가격을 입력하세요. 소수점 둘째 자리까지 가능합니다",
+  "diningMenuDescriptionLabel": "요리 설명(선택)",
+  "diningMenuAvailableNow": "현재 판매",
+  "diningMenuSupplyType": "공급 유형",
+  "diningMenuSupplyPermanent": "상시",
+  "diningMenuSupplyLimited": "기간 한정",
+  "diningMenuSupplySeasonal": "시즌 한정",
+  "diningMenuSupplySpecial": "특별 공급",
+  "diningMenuSupplyStart": "공급 시작(베이징 시간)",
+  "diningMenuSupplyEnd": "공급 종료(베이징 시간)",
+  "diningMenuClearStart": "시작 시각 지우기",
+  "diningMenuClearEnd": "종료 시각 지우기",
+  "diningSearchFailedRetry": "검색 실패. 눌러서 다시 시도하세요.",
+  "diningSearchNoResults": "결과 없음. 상호나 요리명을 시도하거나 범위를 바꿔 보세요.",
+  "settingsFeaturesVivoWatchSectionTitle": "vivo 워치",
+  "settingsFeaturesVivoWatchToggleTitle": "vivo 워치로 동기화",
+  "settingsFeaturesVivoWatchToggleSubtitle": "BlueXLink로 일정과 캠퍼스 카드 동기화"
 }

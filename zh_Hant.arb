@@ -9390,6 +9390,8 @@
   "chaoxingSignSuccess": "簽到成功",
   "chaoxingSignAlready": "已經簽到過了",
   "chaoxingSignLate": "已簽到，但超過了截止時間",
+  "chaoxingSignValidateRequired": "滑塊驗證沒能通過，請重試或改用網頁完成",
+  "chaoxingSignFailedGeneric": "簽到失敗",
   "chaoxingSignFailed": "簽到失敗：{message}",
   "chaoxingSignUnsupported": "這種簽到暫不支援原生完成，請改用網頁版。",
   "chaoxingSignCodeHint": "輸入 {count} 位簽到碼",
@@ -9418,6 +9420,8 @@
   "chaoxingSignQrUnreadable": "未能識別有效的簽到二維碼",
   "chaoxingSignFaceEnrollHint": "首次簽到需拍照登記人臉",
   "chaoxingSignFaceEnrolled": "人臉已登記",
+  "chaoxingSignFaceEnrolling": "正在登記人臉…",
+  "chaoxingSignFaceRemove": "移除登記",
   "chaoxingSignFaceNeedDevice": "人臉簽到需要以「裝置註冊」方式登入學習通。請改用網頁版，或以該選項重新登入。",
   "chaoxingSignFaceEnrollFailed": "人臉登記失敗：{message}",
   "chaoxingSignLocationUse": "將使用你目前的位置",
@@ -10205,5 +10209,299 @@
   "diningScopeAll": "全部",
   "diningScopeCampus": "校內",
   "diningScopeOffCampus": "校外",
-  "diningRatingLoadFailed": "評分載入失敗，請重試"
+  "diningRatingLoadFailed": "評分載入失敗，請重試",
+  "diningMainTitle": "今天吃什麼",
+  "diningMainLocateTooltip": "定位",
+  "diningMainLocationUnavailable": "無法取得目前位置，請檢查定位權限",
+  "diningMainAdminTooltip": "管理 Dining",
+  "diningMainBuildingFallback": "樓棟",
+  "diningMainSearchHint": "搜尋店舖、區域或菜品",
+  "diningMainClearSearch": "清空搜尋",
+  "diningMainSelectArea": "選擇區域",
+  "diningMainFindingFood": "正在尋找好吃的…",
+  "diningMainSpotsLoadFailedRetry": "店舖載入失敗，點擊重試",
+  "diningMainNoSpotsInScope": "目前範圍暫無店舖，試試其他區域",
+  "diningMainSpotsSummary": "{area} · {count} 間店舖，點地圖查看詳情",
+  "@diningMainSpotsSummary": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainReloadMap": "重新載入地圖資料",
+  "diningMainSelectScope": "選擇範圍",
+  "diningMainFloorsLoadFailed": "樓層載入失敗",
+  "diningMainNoFloors": "暫無樓層資訊",
+  "diningMainFloorCount": "共有 {count} 個樓層",
+  "@diningMainFloorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainSpotDetailLoadFailed": "店舖詳情載入失敗",
+  "diningMainReviewCountParen": "({count}條評價)",
+  "@diningMainReviewCountParen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainOpenNow": "營業中",
+  "diningMainClosedNow": "休息中",
+  "diningMainViewDetails": "查看詳情",
+  "diningMainNavigate": "導航",
+  "diningMainMenuSection": "菜單",
+  "diningMainMenuLoadFailed": "菜單載入失敗",
+  "diningMainMenuEmpty": "暫無菜單",
+  "diningMainMarketPrice": "時價",
+  "diningMainViewAllDishes": "查看全部 {count} 道菜式",
+  "@diningMainViewAllDishes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainFloorInfoSection": "樓層資訊",
+  "diningMainNoFloorPlan": "暫無室內地圖資料",
+  "diningMainReviewsSection": "評價",
+  "diningMainReviewsLoadFailed": "評價載入失敗",
+  "diningMainNoReviews": "暫無評價",
+  "diningMainReviewsCount": "{count} 條評價",
+  "@diningMainReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainNoNavApps": "未偵測到騰訊地圖、高德地圖或百度地圖",
+  "diningMainSelectNavApp": "選擇導航地圖",
+  "diningMainCannotOpenApp": "無法開啟{app}",
+  "@diningMainCannotOpenApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMainWuhanDistricts": "武漢行政區",
+  "diningMainNoMatchingAreas": "沒有符合的區域",
+  "diningMainAllOnCampus": "全部校內",
+  "diningMainAllOffCampusWuhan": "全部武漢校外",
+  "diningMainSearchAreaHint": "搜尋區域名稱",
+  "diningMainAreasLoadFailed": "區域資料載入失敗",
+  "diningMainNoCandidates": "該範圍內暫無符合條件的候選，換個範圍試試",
+  "diningMainRandomShop": "隨機店舖",
+  "diningMainRandomDish": "隨機菜式",
+  "diningMainReloadCandidates": "重新載入候選",
+  "diningMainRollAgain": "再來一次",
+  "diningMainChoosing": "正在選擇…",
+  "diningMainStartDraw": "開始抽籤",
+  "diningMainSyncingCandidates": "正在同步候選資料…",
+  "diningMainCandidatesLoadFailed": "候選載入失敗，請檢查網路後重試",
+  "diningMainDecided": "🎉 就決定是它了",
+  "diningMainRollIdleHint": "選好範圍和口味，點下方按鈕幫你決定",
+  "diningMainRecommendShops": "推薦店舖",
+  "diningMainRecommendDishes": "推薦菜式",
+  "diningMainAnyType": "不限類型",
+  "diningMainOpenNowOnly": "僅看營業中",
+  "diningMainPickForMe": "幫我選",
+  "diningMainRecommendLoadFailed": "推薦載入失敗",
+  "diningMainNoMatchingDishes": "該範圍暫無符合條件的菜式",
+  "diningMainNoMatchingShops": "該範圍暫無符合條件的店舖",
+  "diningMainPickedDish": "就吃「{name}」！",
+  "@diningMainPickedDish": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotDetails": "店鋪詳情",
+  "diningSpotReviews": "評價",
+  "diningSpotSubmitCorrection": "提交更正",
+  "diningSpotLoadFailed": "店鋪詳情載入失敗",
+  "diningSpotAlsoKnownAs": "又名：{names}",
+  "@diningSpotAlsoKnownAs": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotChooseMapNavigation": "選擇地圖導航",
+  "diningSpotIndoorFloors": "室內樓層",
+  "diningSpotNoFloorPlanData": "暫無室內地圖資料",
+  "diningSpotHoursUnknown": "營業時間未知",
+  "diningSpotOpenNow": "營業中",
+  "diningSpotClosedNow": "目前休息",
+  "diningSpotCorrectHours": "更正營業時間",
+  "diningSpotCorrectScheduleExceptions": "更正臨時營業安排",
+  "diningSpotRecentScheduleExceptions": "近期營業例外",
+  "diningSpotClosedTemporarily": "暫停營業",
+  "diningSpotNextDay": "次日 ",
+  "diningSpotMenu": "菜單",
+  "diningSpotMenuLoadFailed": "菜單載入失敗",
+  "diningSpotNoMenu": "暫無菜單",
+  "diningSpotReviewsLoadFailed": "評價載入失敗",
+  "diningSpotNoReviews": "暫無評價",
+  "diningSpotReviewCount": "{count} 條評價",
+  "@diningSpotReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningSpotNoReviewText": "使用者未填寫文字評價",
+  "diningSpotHelpful": "有幫助",
+  "diningSpotNotHelpful": "沒幫助",
+  "diningSpotReportReview": "舉報評價",
+  "diningSpotMarketPrice": "時價",
+  "diningSpotAvailableUntil": "供應至 {date}",
+  "@diningSpotAvailableUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCorrectPriceAndSupply": "更正價格與供應",
+  "diningSpotLike": "讚",
+  "diningSpotDislike": "倒讚",
+  "diningSpotLoginToInteract": "請先登入後再參與菜品互動",
+  "diningSpotActionFailedRetry": "操作失敗，請稍後重試",
+  "diningSpotCommentSendFailed": "評論傳送失敗，請稍後重試",
+  "diningSpotDeleteFailed": "刪除失敗，請稍後重試",
+  "diningSpotCommentsOfItem": "「{name}」的評論",
+  "@diningSpotCommentsOfItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCommentsLoadFailed": "評論載入失敗",
+  "diningSpotNoCommentsYet": "還沒有評論，來說兩句吧",
+  "diningSpotCommentMine": "我",
+  "diningSpotCommentHint": "寫下你的評論…",
+  "diningSpotLoginToComment": "登入後才能評論",
+  "diningSpotNoMapAppsDetected": "未偵測到騰訊地圖、高德地圖或百度地圖",
+  "diningSpotChooseNavigationMap": "選擇導航地圖",
+  "diningSpotCannotOpenMapApp": "無法開啟{app}",
+  "@diningSpotCannotOpenMapApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotReportDetailsOptional": "補充說明（可選）",
+  "diningSpotSubmitting": "提交中…",
+  "diningSpotSubmitReport": "提交舉報",
+  "diningSpotReviewShop": "評價店鋪",
+  "diningSpotTaste": "口味",
+  "diningSpotValue": "性價比",
+  "diningSpotAmbience": "環境",
+  "diningSpotSpeed": "出餐速度",
+  "diningSpotReviewContentOptional": "評價內容（可選）",
+  "diningSpotPostAnonymously": "匿名發布",
+  "diningSpotSubmitReview": "提交評價",
+  "diningSpotDeleteMyReview": "刪除我的評價",
+  "diningCorrectionSubmitFailed": "提交失敗，請檢查登入狀態或網路後重試",
+  "diningCorrectionTitle": "提交店鋪更正",
+  "diningCorrectionHint": "請填寫核實後的店鋪資訊。審核採納後更新，貢獻獎勵以實際到帳為準。",
+  "diningCorrectionNameRequired": "請填寫名稱",
+  "diningCorrectionAddressRequired": "請填寫地址",
+  "diningCorrectionSubmitting": "提交中…",
+  "diningHoursLoadFailed": "營業時間載入失敗，請重試",
+  "diningHoursSubmitFailed": "提交失敗，請檢查登入狀態或網路後重試",
+  "diningHoursExceptionsTitle": "更正臨時營業安排",
+  "diningHoursWeeklyTitle": "更正營業時間",
+  "diningHoursExceptionsHelp": "填寫特殊日期的營業安排，將覆蓋當天的每週安排。同一天可新增多個時段；刪除某日期的全部安排後恢復每週安排。按北京時間填寫，審核通過後生效。",
+  "diningHoursWeeklyHelp": "按北京時間填寫完整每週安排，同一天可新增多個時段。結束早於開始表示跨午夜；刪除全部時段表示營業時間未知。審核通過後生效。",
+  "diningHoursDateLabel": "日期 YYYY-MM-DD",
+  "diningHoursInvalidDate": "請輸入有效日期",
+  "diningHoursWeekdaySun": "週日",
+  "diningHoursWeekdayMon": "週一",
+  "diningHoursWeekdayTue": "週二",
+  "diningHoursWeekdayWed": "週三",
+  "diningHoursWeekdayThu": "週四",
+  "diningHoursWeekdayFri": "週五",
+  "diningHoursWeekdaySat": "週六",
+  "diningHoursDeleteSlot": "刪除時段",
+  "diningHoursNoteLabel": "說明（可選）",
+  "diningHoursClosedAllDay": "全天休息",
+  "diningHoursStartLabel": "開始 HH:mm",
+  "diningHoursInvalidTime": "請輸入有效時間",
+  "diningHoursEndLabel": "結束 HH:mm",
+  "diningHoursInvalidDistinctTime": "請輸入不同的有效時間",
+  "diningHoursAddSlot": "新增時段",
+  "diningHoursReload": "重新載入",
+  "diningHoursSubmitting": "提交中…",
+  "diningFloorPlanShopIdRequired": "請填寫本樓層的店鋪 ID",
+  "diningFloorPlanTypeBoundary": "樓層邊界",
+  "diningFloorPlanTypeShopArea": "店鋪區域",
+  "diningFloorPlanTypeCorridor": "走廊",
+  "diningFloorPlanTypeWall": "牆體",
+  "diningFloorPlanTypeDoor": "門",
+  "diningFloorPlanTypeEntrance": "入口",
+  "diningFloorPlanTypeStairs": "樓梯",
+  "diningFloorPlanTypeEscalator": "扶梯",
+  "diningFloorPlanTypeElevator": "電梯",
+  "diningFloorPlanTypeServiceArea": "服務區",
+  "diningFloorPlanTypeLabel": "文字標籤",
+  "diningFloorPlanTypeLandmark": "地標",
+  "diningFloorPlanGeometryPoint": "點",
+  "diningFloorPlanGeometryLine": "折線",
+  "diningFloorPlanGeometryPolygon": "多邊形",
+  "diningFloorPlanLabelHint": "標籤（可選）",
+  "diningFloorPlanSpotIdLabel": "本樓層店鋪 ID",
+  "diningFloorPlanFinishPoints": "完成 {count} 點",
+  "@diningFloorPlanFinishPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningFloorPlanFinishDraftFirst": "請完成當前圖形後保存",
+  "diningFloorPlanSaveFailed": "保存失敗，請檢查店鋪歸屬、圖形或網路後重試",
+  "diningFloorPlanSaving": "保存中…",
+  "diningFloorPlanSave": "保存平面圖",
+  "diningFloorPlanHintPoint": "點擊畫布放置點位",
+  "diningFloorPlanHintDraw": "點擊畫布逐點繪製，完成後保存或點擊「完成」添加圖形",
+  "diningFloorPlanLoadFailed": "室內圖載入失敗",
+  "diningMenuEndAfterStart": "供應結束時間須晚於開始時間",
+  "diningMenuCreateTitle": "補充菜品",
+  "diningMenuEditTitle": "更正菜品",
+  "diningMenuHelp": "提供店鋪實際在售菜品。審核採納後更新菜單，貢獻獎勵以實際入賬為準。",
+  "diningMenuNameLabel": "菜品名稱",
+  "diningMenuNameRequired": "請填寫名稱",
+  "diningMenuPriceLabel": "價格（元）",
+  "diningMenuPriceInvalid": "請輸入價格，最多兩位小數",
+  "diningMenuDescriptionLabel": "菜品說明（可選）",
+  "diningMenuAvailableNow": "當前供應",
+  "diningMenuSupplyType": "供應類型",
+  "diningMenuSupplyPermanent": "常駐",
+  "diningMenuSupplyLimited": "限時",
+  "diningMenuSupplySeasonal": "季節限定",
+  "diningMenuSupplySpecial": "特別供應",
+  "diningMenuSupplyStart": "供應開始（北京時間）",
+  "diningMenuSupplyEnd": "供應結束（北京時間）",
+  "diningMenuClearStart": "清除開始時間",
+  "diningMenuClearEnd": "清除結束時間",
+  "diningSearchFailedRetry": "搜索失敗，點擊重試",
+  "diningSearchNoResults": "沒有找到，試試店名、菜名或切換範圍",
+  "settingsFeaturesVivoWatchSectionTitle": "vivo手錶",
+  "settingsFeaturesVivoWatchToggleTitle": "同步到vivo手錶",
+  "settingsFeaturesVivoWatchToggleSubtitle": "通過 BlueXLink 同步日程和校園卡"
 }

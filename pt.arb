@@ -6003,6 +6003,8 @@
   "chaoxingSignSuccess": "Presença registada",
   "chaoxingSignAlready": "Já tinhas registado a presença",
   "chaoxingSignLate": "Registada, mas fora do prazo",
+  "chaoxingSignValidateRequired": "Não foi possível completar o captcha deslizante; tente novamente ou finalize na versão web",
+  "chaoxingSignFailedGeneric": "Falha no check-in",
   "chaoxingSignFailed": "Falha ao registar: {message}",
   "chaoxingSignUnsupported": "Este tipo de presença não é suportado na app. Usa a versão web.",
   "chaoxingSignCodeHint": "Introduz o código de {count} dígitos",
@@ -6031,6 +6033,8 @@
   "chaoxingSignQrUnreadable": "Não foi possível ler um código QR de presença válido",
   "chaoxingSignFaceEnrollHint": "Na primeira presença é registado o teu rosto com uma foto",
   "chaoxingSignFaceEnrolled": "Rosto registado",
+  "chaoxingSignFaceEnrolling": "Cadastrando seu rosto…",
+  "chaoxingSignFaceRemove": "Remover cadastro",
   "chaoxingSignFaceNeedDevice": "A presença com rosto exige um início de sessão Chaoxing com registo de dispositivo. Usa a versão web ou inicia sessão novamente com essa opção.",
   "chaoxingSignFaceEnrollFailed": "Falha ao registar o rosto: {message}",
   "chaoxingSignLocationUse": "Será usada a tua localização atual",
@@ -6845,5 +6849,299 @@
   "diningScopeAll": "Todos",
   "diningScopeCampus": "No campus",
   "diningScopeOffCampus": "Fora do campus",
-  "diningRatingLoadFailed": "Não foi possível carregar as avaliações. Tente novamente."
+  "diningRatingLoadFailed": "Não foi possível carregar as avaliações. Tente novamente.",
+  "diningMainTitle": "O que comer hoje?",
+  "diningMainLocateTooltip": "Localizar-me",
+  "diningMainLocationUnavailable": "Não foi possível obter a sua localização. Verifique as permissões.",
+  "diningMainAdminTooltip": "Gerir Dining",
+  "diningMainBuildingFallback": "Edifício",
+  "diningMainSearchHint": "Pesquisar lojas, áreas ou pratos",
+  "diningMainClearSearch": "Limpar pesquisa",
+  "diningMainSelectArea": "Selecionar área",
+  "diningMainFindingFood": "Procurando algo gostoso…",
+  "diningMainSpotsLoadFailedRetry": "Falha ao carregar lojas. Toque para tentar novamente.",
+  "diningMainNoSpotsInScope": "Nenhuma loja neste âmbito. Tente outra área.",
+  "diningMainSpotsSummary": "{area} · {count} lojas, toque no mapa para detalhes",
+  "@diningMainSpotsSummary": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainReloadMap": "Recarregar dados do mapa",
+  "diningMainSelectScope": "Selecionar âmbito",
+  "diningMainFloorsLoadFailed": "Falha ao carregar andares",
+  "diningMainNoFloors": "Sem informações de andares",
+  "diningMainFloorCount": "{count} andares no total",
+  "@diningMainFloorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainSpotDetailLoadFailed": "Falha ao carregar detalhes da loja",
+  "diningMainReviewCountParen": "({count} avaliações)",
+  "@diningMainReviewCountParen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainOpenNow": "Aberto",
+  "diningMainClosedNow": "Fechado",
+  "diningMainViewDetails": "Ver detalhes",
+  "diningMainNavigate": "Navegar",
+  "diningMainMenuSection": "Menu",
+  "diningMainMenuLoadFailed": "Falha ao carregar o menu",
+  "diningMainMenuEmpty": "Ainda sem menu",
+  "diningMainMarketPrice": "Preço do dia",
+  "diningMainViewAllDishes": "Ver todos os {count} pratos",
+  "@diningMainViewAllDishes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainFloorInfoSection": "Informações de andares",
+  "diningMainNoFloorPlan": "Sem dados de mapa interno",
+  "diningMainReviewsSection": "Avaliações",
+  "diningMainReviewsLoadFailed": "Falha ao carregar avaliações",
+  "diningMainNoReviews": "Ainda sem avaliações",
+  "diningMainReviewsCount": "{count} avaliações",
+  "@diningMainReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainNoNavApps": "Tencent Maps, Amap ou Baidu Maps não detetados",
+  "diningMainSelectNavApp": "Escolher app de navegação",
+  "diningMainCannotOpenApp": "Não foi possível abrir {app}",
+  "@diningMainCannotOpenApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMainWuhanDistricts": "Distritos de Wuhan",
+  "diningMainNoMatchingAreas": "Nenhuma área correspondente",
+  "diningMainAllOnCampus": "Todo o campus",
+  "diningMainAllOffCampusWuhan": "Tudo fora do campus (Wuhan)",
+  "diningMainSearchAreaHint": "Pesquisar nome da área",
+  "diningMainAreasLoadFailed": "Falha ao carregar dados das áreas",
+  "diningMainNoCandidates": "Nenhum candidato elegível neste âmbito. Tente outro.",
+  "diningMainRandomShop": "Loja aleatória",
+  "diningMainRandomDish": "Prato aleatório",
+  "diningMainReloadCandidates": "Recarregar candidatos",
+  "diningMainRollAgain": "Mais uma vez",
+  "diningMainChoosing": "Escolhendo…",
+  "diningMainStartDraw": "Iniciar sorteio",
+  "diningMainSyncingCandidates": "Sincronizando candidatos…",
+  "diningMainCandidatesLoadFailed": "Falha ao carregar candidatos. Verifique a rede e tente novamente.",
+  "diningMainDecided": "🎉 Está decidido!",
+  "diningMainRollIdleHint": "Escolha âmbito e gosto e toque no botão abaixo para decidir",
+  "diningMainRecommendShops": "Lojas recomendadas",
+  "diningMainRecommendDishes": "Pratos recomendados",
+  "diningMainAnyType": "Qualquer tipo",
+  "diningMainOpenNowOnly": "Somente abertos",
+  "diningMainPickForMe": "Escolher por mim",
+  "diningMainRecommendLoadFailed": "Falha ao carregar recomendações",
+  "diningMainNoMatchingDishes": "Nenhum prato elegível neste âmbito",
+  "diningMainNoMatchingShops": "Nenhuma loja elegível neste âmbito",
+  "diningMainPickedDish": "Vamos de \"{name}\"!",
+  "@diningMainPickedDish": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotDetails": "Detalhes do estabelecimento",
+  "diningSpotReviews": "Avaliações",
+  "diningSpotSubmitCorrection": "Enviar correção",
+  "diningSpotLoadFailed": "Falha ao carregar os detalhes do estabelecimento",
+  "diningSpotAlsoKnownAs": "Também conhecido como: {names}",
+  "@diningSpotAlsoKnownAs": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotChooseMapNavigation": "Escolher navegação por mapa",
+  "diningSpotIndoorFloors": "Pisos internos",
+  "diningSpotNoFloorPlanData": "Sem dados do mapa interno",
+  "diningSpotHoursUnknown": "Horário desconhecido",
+  "diningSpotOpenNow": "Aberto agora",
+  "diningSpotClosedNow": "Fechado no momento",
+  "diningSpotCorrectHours": "Corrigir horário",
+  "diningSpotCorrectScheduleExceptions": "Corrigir horários excepcionais",
+  "diningSpotRecentScheduleExceptions": "Horários excepcionais recentes",
+  "diningSpotClosedTemporarily": "Temporariamente fechado",
+  "diningSpotNextDay": "dia seguinte ",
+  "diningSpotMenu": "Menu",
+  "diningSpotMenuLoadFailed": "Falha ao carregar o menu",
+  "diningSpotNoMenu": "Sem menu por enquanto",
+  "diningSpotReviewsLoadFailed": "Falha ao carregar as avaliações",
+  "diningSpotNoReviews": "Sem avaliações por enquanto",
+  "diningSpotReviewCount": "{count} avaliações",
+  "@diningSpotReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningSpotNoReviewText": "Avaliação sem texto",
+  "diningSpotHelpful": "Útil",
+  "diningSpotNotHelpful": "Não útil",
+  "diningSpotReportReview": "Denunciar avaliação",
+  "diningSpotMarketPrice": "Preço de mercado",
+  "diningSpotAvailableUntil": "Disponível até {date}",
+  "@diningSpotAvailableUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCorrectPriceAndSupply": "Corrigir preço e disponibilidade",
+  "diningSpotLike": "Gosto",
+  "diningSpotDislike": "Não gosto",
+  "diningSpotLoginToInteract": "Entre para interagir com os pratos",
+  "diningSpotActionFailedRetry": "Falha na operação. Tente novamente mais tarde.",
+  "diningSpotCommentSendFailed": "Falha ao enviar o comentário. Tente novamente mais tarde.",
+  "diningSpotDeleteFailed": "Falha ao excluir. Tente novamente mais tarde.",
+  "diningSpotCommentsOfItem": "Comentários de \"{name}\"",
+  "@diningSpotCommentsOfItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCommentsLoadFailed": "Falha ao carregar os comentários",
+  "diningSpotNoCommentsYet": "Ainda sem comentários. Diga algo!",
+  "diningSpotCommentMine": "eu",
+  "diningSpotCommentHint": "Escreva o seu comentário…",
+  "diningSpotLoginToComment": "Entre para comentar",
+  "diningSpotNoMapAppsDetected": "Tencent Maps, Amap ou Baidu Maps não detectados",
+  "diningSpotChooseNavigationMap": "Escolha um mapa de navegação",
+  "diningSpotCannotOpenMapApp": "Não foi possível abrir {app}",
+  "@diningSpotCannotOpenMapApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotReportDetailsOptional": "Detalhes adicionais (opcional)",
+  "diningSpotSubmitting": "Enviando…",
+  "diningSpotSubmitReport": "Enviar denúncia",
+  "diningSpotReviewShop": "Avaliar o estabelecimento",
+  "diningSpotTaste": "Sabor",
+  "diningSpotValue": "Custo-benefício",
+  "diningSpotAmbience": "Ambiente",
+  "diningSpotSpeed": "Rapidez do serviço",
+  "diningSpotReviewContentOptional": "Texto da avaliação (opcional)",
+  "diningSpotPostAnonymously": "Publicar anonimamente",
+  "diningSpotSubmitReview": "Enviar avaliação",
+  "diningSpotDeleteMyReview": "Excluir minha avaliação",
+  "diningCorrectionSubmitFailed": "Falha ao enviar. Verifique o login ou a rede e tente novamente.",
+  "diningCorrectionTitle": "Enviar correção do estabelecimento",
+  "diningCorrectionHint": "Preencha informações verificadas. A atualização ocorre após a aprovação; as recompensas dependem do crédito real.",
+  "diningCorrectionNameRequired": "Informe um nome",
+  "diningCorrectionAddressRequired": "Informe um endereço",
+  "diningCorrectionSubmitting": "Enviando…",
+  "diningHoursLoadFailed": "Falha ao carregar os horários. Tente novamente.",
+  "diningHoursSubmitFailed": "Falha ao enviar. Verifique o login ou a rede e tente novamente.",
+  "diningHoursExceptionsTitle": "Corrigir horários excepcionais",
+  "diningHoursWeeklyTitle": "Corrigir horários",
+  "diningHoursExceptionsHelp": "Os horários de datas especiais substituem o semanal daquele dia. É possível adicionar vários períodos por data; remover todos restaura o semanal. Use o horário de Pequim; entra em vigor após a revisão.",
+  "diningHoursWeeklyHelp": "Preencha o horário semanal completo em horário de Pequim; vários períodos por dia são permitidos. Término antes do início cruza a meia-noite; excluir todos marca o horário como desconhecido. Vigora após a revisão.",
+  "diningHoursDateLabel": "Data AAAA-MM-DD",
+  "diningHoursInvalidDate": "Insira uma data válida",
+  "diningHoursWeekdaySun": "Dom",
+  "diningHoursWeekdayMon": "Seg",
+  "diningHoursWeekdayTue": "Ter",
+  "diningHoursWeekdayWed": "Qua",
+  "diningHoursWeekdayThu": "Qui",
+  "diningHoursWeekdayFri": "Sex",
+  "diningHoursWeekdaySat": "Sáb",
+  "diningHoursDeleteSlot": "Excluir período",
+  "diningHoursNoteLabel": "Nota (opcional)",
+  "diningHoursClosedAllDay": "Fechado o dia todo",
+  "diningHoursStartLabel": "Início HH:mm",
+  "diningHoursInvalidTime": "Insira uma hora válida",
+  "diningHoursEndLabel": "Término HH:mm",
+  "diningHoursInvalidDistinctTime": "Insira duas horas válidas diferentes",
+  "diningHoursAddSlot": "Adicionar período",
+  "diningHoursReload": "Recarregar",
+  "diningHoursSubmitting": "Enviando…",
+  "diningFloorPlanShopIdRequired": "Informe o ID da loja neste piso",
+  "diningFloorPlanTypeBoundary": "Limite do piso",
+  "diningFloorPlanTypeShopArea": "Área de lojas",
+  "diningFloorPlanTypeCorridor": "Corredor",
+  "diningFloorPlanTypeWall": "Parede",
+  "diningFloorPlanTypeDoor": "Porta",
+  "diningFloorPlanTypeEntrance": "Entrada",
+  "diningFloorPlanTypeStairs": "Escadas",
+  "diningFloorPlanTypeEscalator": "Escada rolante",
+  "diningFloorPlanTypeElevator": "Elevador",
+  "diningFloorPlanTypeServiceArea": "Área de serviço",
+  "diningFloorPlanTypeLabel": "Rótulo de texto",
+  "diningFloorPlanTypeLandmark": "Ponto de referência",
+  "diningFloorPlanGeometryPoint": "Ponto",
+  "diningFloorPlanGeometryLine": "Polilinha",
+  "diningFloorPlanGeometryPolygon": "Polígono",
+  "diningFloorPlanLabelHint": "Rótulo (opcional)",
+  "diningFloorPlanSpotIdLabel": "ID da loja neste piso",
+  "diningFloorPlanFinishPoints": "Concluir {count} pontos",
+  "@diningFloorPlanFinishPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningFloorPlanFinishDraftFirst": "Conclua a forma atual antes de salvar",
+  "diningFloorPlanSaveFailed": "Falha ao salvar. Verifique a vinculação da loja, a geometria ou a rede e tente novamente.",
+  "diningFloorPlanSaving": "Salvando…",
+  "diningFloorPlanSave": "Salvar planta",
+  "diningFloorPlanHintPoint": "Toque na tela para colocar um ponto",
+  "diningFloorPlanHintDraw": "Toque na tela para desenhar ponto a ponto; ao concluir, salve ou toque em \"Concluir\" para adicionar a forma",
+  "diningFloorPlanLoadFailed": "Falha ao carregar a planta interna",
+  "diningMenuEndAfterStart": "O fim do fornecimento deve ser após o início",
+  "diningMenuCreateTitle": "Adicionar prato",
+  "diningMenuEditTitle": "Corrigir prato",
+  "diningMenuHelp": "Informe os pratos realmente vendidos. O menu é atualizado após a aprovação; as recompensas dependem do valor efetivamente creditado.",
+  "diningMenuNameLabel": "Nome do prato",
+  "diningMenuNameRequired": "Informe um nome",
+  "diningMenuPriceLabel": "Preço (CNY)",
+  "diningMenuPriceInvalid": "Informe um preço com até duas casas decimais",
+  "diningMenuDescriptionLabel": "Descrição do prato (opcional)",
+  "diningMenuAvailableNow": "Disponível no momento",
+  "diningMenuSupplyType": "Tipo de fornecimento",
+  "diningMenuSupplyPermanent": "Permanente",
+  "diningMenuSupplyLimited": "Tempo limitado",
+  "diningMenuSupplySeasonal": "Sazonal",
+  "diningMenuSupplySpecial": "Fornecimento especial",
+  "diningMenuSupplyStart": "Início do fornecimento (horário de Pequim)",
+  "diningMenuSupplyEnd": "Fim do fornecimento (horário de Pequim)",
+  "diningMenuClearStart": "Limpar hora de início",
+  "diningMenuClearEnd": "Limpar hora de término",
+  "diningSearchFailedRetry": "Falha na busca. Toque para tentar novamente.",
+  "diningSearchNoResults": "Sem resultados. Tente um nome de loja ou prato, ou mude o alcance.",
+  "settingsFeaturesVivoWatchSectionTitle": "Relógio vivo",
+  "settingsFeaturesVivoWatchToggleTitle": "Sincronizar com o relógio vivo",
+  "settingsFeaturesVivoWatchToggleSubtitle": "Sincroniza agenda e cartão universitário via BlueXLink"
 }

@@ -6055,6 +6055,8 @@
   "chaoxingSignSuccess": "出席しました",
   "chaoxingSignAlready": "すでに出席済みです",
   "chaoxingSignLate": "出席しましたが、期限を過ぎています",
+  "chaoxingSignValidateRequired": "スライダー認証を完了できませんでした。もう一度お試しか、ウェブ版で実施してください",
+  "chaoxingSignFailedGeneric": "サインインに失敗しました",
   "chaoxingSignFailed": "出席に失敗しました：{message}",
   "chaoxingSignUnsupported": "この種類の出席はアプリ内では未対応です。ウェブ版を使ってください。",
   "chaoxingSignCodeHint": "{count}桁のコードを入力",
@@ -6083,6 +6085,8 @@
   "chaoxingSignQrUnreadable": "有効な出席QRコードを読み取れませんでした",
   "chaoxingSignFaceEnrollHint": "最初の出席で顔写真を登録します",
   "chaoxingSignFaceEnrolled": "顔を登録済み",
+  "chaoxingSignFaceEnrolling": "顔写真を登録中…",
+  "chaoxingSignFaceRemove": "登録を削除",
   "chaoxingSignFaceNeedDevice": "顔出席にはデバイス登録での学習通ログインが必要です。ウェブ版を使うか、そのオプションで再ログインしてください。",
   "chaoxingSignFaceEnrollFailed": "顔の登録に失敗しました：{message}",
   "chaoxingSignLocationUse": "現在地を使用します",
@@ -6897,5 +6901,299 @@
   "diningScopeAll": "すべて",
   "diningScopeCampus": "学内",
   "diningScopeOffCampus": "学外",
-  "diningRatingLoadFailed": "評価を読み込めませんでした。再試行してください。"
+  "diningRatingLoadFailed": "評価を読み込めませんでした。再試行してください。",
+  "diningMainTitle": "今日は何を食べる？",
+  "diningMainLocateTooltip": "現在地",
+  "diningMainLocationUnavailable": "現在地を取得できません。位置情報の権限を確認してください",
+  "diningMainAdminTooltip": "Dining を管理",
+  "diningMainBuildingFallback": "建物",
+  "diningMainSearchHint": "店舗・エリア・料理を検索",
+  "diningMainClearSearch": "検索をクリア",
+  "diningMainSelectArea": "エリアを選択",
+  "diningMainFindingFood": "おいしいお店を探しています…",
+  "diningMainSpotsLoadFailedRetry": "店舗の読み込みに失敗しました。タップして再試行",
+  "diningMainNoSpotsInScope": "この範囲に店舗がありません。他のエリアを試してください",
+  "diningMainSpotsSummary": "{area} · {count} 店舗、地図をタップして詳細を表示",
+  "@diningMainSpotsSummary": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainReloadMap": "地図データを再読み込み",
+  "diningMainSelectScope": "範囲を選択",
+  "diningMainFloorsLoadFailed": "階数の読み込みに失敗しました",
+  "diningMainNoFloors": "階情報はありません",
+  "diningMainFloorCount": "全 {count} 階",
+  "@diningMainFloorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainSpotDetailLoadFailed": "店舗詳細の読み込みに失敗しました",
+  "diningMainReviewCountParen": "(レビュー {count} 件)",
+  "@diningMainReviewCountParen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainOpenNow": "営業中",
+  "diningMainClosedNow": "休憩中",
+  "diningMainViewDetails": "詳細を表示",
+  "diningMainNavigate": "案内",
+  "diningMainMenuSection": "メニュー",
+  "diningMainMenuLoadFailed": "メニューの読み込みに失敗しました",
+  "diningMainMenuEmpty": "メニューはまだありません",
+  "diningMainMarketPrice": "時価",
+  "diningMainViewAllDishes": "全 {count} 品の料理を表示",
+  "@diningMainViewAllDishes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainFloorInfoSection": "階情報",
+  "diningMainNoFloorPlan": "屋内地図データはありません",
+  "diningMainReviewsSection": "レビュー",
+  "diningMainReviewsLoadFailed": "レビューの読み込みに失敗しました",
+  "diningMainNoReviews": "レビューはまだありません",
+  "diningMainReviewsCount": "レビュー {count} 件",
+  "@diningMainReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainNoNavApps": "Tencent Maps・高徳地図・百度地図が見つかりません",
+  "diningMainSelectNavApp": "ナビアプリを選択",
+  "diningMainCannotOpenApp": "{app} を開けません",
+  "@diningMainCannotOpenApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMainWuhanDistricts": "武漢の行政区",
+  "diningMainNoMatchingAreas": "一致するエリアがありません",
+  "diningMainAllOnCampus": "学内すべて",
+  "diningMainAllOffCampusWuhan": "武漢の学外すべて",
+  "diningMainSearchAreaHint": "エリア名を検索",
+  "diningMainAreasLoadFailed": "エリアデータの読み込みに失敗しました",
+  "diningMainNoCandidates": "この範囲に条件に合う候補がありません。他の範囲をお試しください",
+  "diningMainRandomShop": "ランダムな店舗",
+  "diningMainRandomDish": "ランダムな料理",
+  "diningMainReloadCandidates": "候補を再読み込み",
+  "diningMainRollAgain": "もう一度",
+  "diningMainChoosing": "選択中…",
+  "diningMainStartDraw": "抽選を開始",
+  "diningMainSyncingCandidates": "候補データを同期中…",
+  "diningMainCandidatesLoadFailed": "候補の読み込みに失敗しました。ネットワークを確認して再試行してください",
+  "diningMainDecided": "🎉 これに決定！",
+  "diningMainRollIdleHint": "範囲と好みを選んで、下のボタンで決めましょう",
+  "diningMainRecommendShops": "おすすめ店舗",
+  "diningMainRecommendDishes": "おすすめ料理",
+  "diningMainAnyType": "タイプ不問",
+  "diningMainOpenNowOnly": "営業中のみ",
+  "diningMainPickForMe": "おまかせ",
+  "diningMainRecommendLoadFailed": "おすすめの読み込みに失敗しました",
+  "diningMainNoMatchingDishes": "この範囲に条件に合う料理がありません",
+  "diningMainNoMatchingShops": "この範囲に条件に合う店舗がありません",
+  "diningMainPickedDish": "「{name}」に決定！",
+  "@diningMainPickedDish": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotDetails": "店舗詳細",
+  "diningSpotReviews": "評価",
+  "diningSpotSubmitCorrection": "修正を送信",
+  "diningSpotLoadFailed": "店舗詳細を読み込めません",
+  "diningSpotAlsoKnownAs": "別名：{names}",
+  "@diningSpotAlsoKnownAs": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotChooseMapNavigation": "ナビアプリを選択",
+  "diningSpotIndoorFloors": "フロア案内",
+  "diningSpotNoFloorPlanData": "屋内地図データがありません",
+  "diningSpotHoursUnknown": "営業時間不明",
+  "diningSpotOpenNow": "営業中",
+  "diningSpotClosedNow": "現在は休憩中",
+  "diningSpotCorrectHours": "営業時間を修正",
+  "diningSpotCorrectScheduleExceptions": "臨時営業予定を修正",
+  "diningSpotRecentScheduleExceptions": "近日の営業変更",
+  "diningSpotClosedTemporarily": "一時休業",
+  "diningSpotNextDay": "翌日 ",
+  "diningSpotMenu": "メニュー",
+  "diningSpotMenuLoadFailed": "メニューを読み込めません",
+  "diningSpotNoMenu": "メニューがありません",
+  "diningSpotReviewsLoadFailed": "評価を読み込めません",
+  "diningSpotNoReviews": "評価はまだありません",
+  "diningSpotReviewCount": "{count} 件の評価",
+  "@diningSpotReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningSpotNoReviewText": "本文なし",
+  "diningSpotHelpful": "役に立った",
+  "diningSpotNotHelpful": "役に立たない",
+  "diningSpotReportReview": "評価を報告",
+  "diningSpotMarketPrice": "時価",
+  "diningSpotAvailableUntil": "{date} まで提供",
+  "@diningSpotAvailableUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCorrectPriceAndSupply": "価格と提供状況を修正",
+  "diningSpotLike": "いいね",
+  "diningSpotDislike": "よくない",
+  "diningSpotLoginToInteract": "ログインすると料理にリアクションできます",
+  "diningSpotActionFailedRetry": "操作に失敗しました。後でもう一度お試しください",
+  "diningSpotCommentSendFailed": "コメントを送信できません。後でもう一度お試しください",
+  "diningSpotDeleteFailed": "削除できません。後でもう一度お試しください",
+  "diningSpotCommentsOfItem": "「{name}」のコメント",
+  "@diningSpotCommentsOfItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCommentsLoadFailed": "コメントを読み込めません",
+  "diningSpotNoCommentsYet": "まだコメントはありません。一言どうぞ",
+  "diningSpotCommentMine": "自分",
+  "diningSpotCommentHint": "コメントを書く…",
+  "diningSpotLoginToComment": "コメントするにはログインしてください",
+  "diningSpotNoMapAppsDetected": "Tencent Maps・高徳地図・百度地図が見つかりません",
+  "diningSpotChooseNavigationMap": "ナビアプリを選択",
+  "diningSpotCannotOpenMapApp": "{app} を開けません",
+  "@diningSpotCannotOpenMapApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotReportDetailsOptional": "補足説明（任意）",
+  "diningSpotSubmitting": "送信中…",
+  "diningSpotSubmitReport": "報告を送信",
+  "diningSpotReviewShop": "店舗を評価",
+  "diningSpotTaste": "味",
+  "diningSpotValue": "コスパ",
+  "diningSpotAmbience": "雰囲気",
+  "diningSpotSpeed": "提供速度",
+  "diningSpotReviewContentOptional": "評価の内容（任意）",
+  "diningSpotPostAnonymously": "匿名で投稿",
+  "diningSpotSubmitReview": "評価を送信",
+  "diningSpotDeleteMyReview": "自分の評価を削除",
+  "diningCorrectionSubmitFailed": "送信に失敗しました。ログイン状態とネットワークを確認して再試行してください",
+  "diningCorrectionTitle": "店舗の修正を送信",
+  "diningCorrectionHint": "確認済みの店舗情報を入力してください。承認後に反映され、報酬は実際の付与に基づきます。",
+  "diningCorrectionNameRequired": "名前を入力してください",
+  "diningCorrectionAddressRequired": "住所を入力してください",
+  "diningCorrectionSubmitting": "送信中…",
+  "diningHoursLoadFailed": "営業時間を読み込めませんでした。再試行してください。",
+  "diningHoursSubmitFailed": "送信できませんでした。ログイン状態とネットワークを確認して再試行してください。",
+  "diningHoursExceptionsTitle": "臨時営業予定を修正",
+  "diningHoursWeeklyTitle": "営業時間を修正",
+  "diningHoursExceptionsHelp": "特別な日付の営業予定を入力すると、その日の週間予定が上書きされます。同じ日に複数の時間帯を追加できます。ある日付の予定をすべて削除すると週間予定に戻ります。北京時間で入力し、審査通過後に反映されます。",
+  "diningHoursWeeklyHelp": "北京時間で週間予定をすべて入力してください。同じ曜日に複数の時間帯を追加できます。終了が開始より早い場合は深夜をまたぎます。全時間帯を削除すると営業時間不明となります。審査通過後に反映されます。",
+  "diningHoursDateLabel": "日付 YYYY-MM-DD",
+  "diningHoursInvalidDate": "有効な日付を入力してください",
+  "diningHoursWeekdaySun": "日曜",
+  "diningHoursWeekdayMon": "月曜",
+  "diningHoursWeekdayTue": "火曜",
+  "diningHoursWeekdayWed": "水曜",
+  "diningHoursWeekdayThu": "木曜",
+  "diningHoursWeekdayFri": "金曜",
+  "diningHoursWeekdaySat": "土曜",
+  "diningHoursDeleteSlot": "時間帯を削除",
+  "diningHoursNoteLabel": "説明（任意）",
+  "diningHoursClosedAllDay": "終日休業",
+  "diningHoursStartLabel": "開始 HH:mm",
+  "diningHoursInvalidTime": "有効な時刻を入力してください",
+  "diningHoursEndLabel": "終了 HH:mm",
+  "diningHoursInvalidDistinctTime": "異なる有効な時刻を入力してください",
+  "diningHoursAddSlot": "時間帯を追加",
+  "diningHoursReload": "再読み込み",
+  "diningHoursSubmitting": "送信中…",
+  "diningFloorPlanShopIdRequired": "このフロアの店舗 ID を入力してください",
+  "diningFloorPlanTypeBoundary": "フロア境界",
+  "diningFloorPlanTypeShopArea": "店舗エリア",
+  "diningFloorPlanTypeCorridor": "通路",
+  "diningFloorPlanTypeWall": "壁",
+  "diningFloorPlanTypeDoor": "ドア",
+  "diningFloorPlanTypeEntrance": "入口",
+  "diningFloorPlanTypeStairs": "階段",
+  "diningFloorPlanTypeEscalator": "エスカレーター",
+  "diningFloorPlanTypeElevator": "エレベーター",
+  "diningFloorPlanTypeServiceArea": "サービスエリア",
+  "diningFloorPlanTypeLabel": "テキストラベル",
+  "diningFloorPlanTypeLandmark": "ランドマーク",
+  "diningFloorPlanGeometryPoint": "点",
+  "diningFloorPlanGeometryLine": "ポリライン",
+  "diningFloorPlanGeometryPolygon": "ポリゴン",
+  "diningFloorPlanLabelHint": "ラベル（任意）",
+  "diningFloorPlanSpotIdLabel": "このフロアの店舗 ID",
+  "diningFloorPlanFinishPoints": "{count} 点を完成",
+  "@diningFloorPlanFinishPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningFloorPlanFinishDraftFirst": "現在の図形を完成させてから保存してください",
+  "diningFloorPlanSaveFailed": "保存できませんでした。店舗の割り当て、図形、ネットワークを確認して再試行してください。",
+  "diningFloorPlanSaving": "保存中…",
+  "diningFloorPlanSave": "フロアプランを保存",
+  "diningFloorPlanHintPoint": "キャンバスをタップして点を配置",
+  "diningFloorPlanHintDraw": "キャンバスをタップして点ごとに描画し、完了後に保存するか「完了」をタップして図形を追加します",
+  "diningFloorPlanLoadFailed": "屋内マップを読み込めませんでした",
+  "diningMenuEndAfterStart": "供給終了時間は開始時間より後にしてください",
+  "diningMenuCreateTitle": "料理を追加",
+  "diningMenuEditTitle": "料理を修正",
+  "diningMenuHelp": "店舗で実際に販売中の料理を提供してください。審査採用後にメニューが更新されます。貢献報酬は実際の付与額に基づきます。",
+  "diningMenuNameLabel": "料理名",
+  "diningMenuNameRequired": "名前を入力してください",
+  "diningMenuPriceLabel": "価格（元）",
+  "diningMenuPriceInvalid": "価格を入力してください（小数第2位まで）",
+  "diningMenuDescriptionLabel": "料理の説明（任意）",
+  "diningMenuAvailableNow": "現在提供中",
+  "diningMenuSupplyType": "供給タイプ",
+  "diningMenuSupplyPermanent": "レギュラー",
+  "diningMenuSupplyLimited": "期間限定",
+  "diningMenuSupplySeasonal": "季節限定",
+  "diningMenuSupplySpecial": "特別提供",
+  "diningMenuSupplyStart": "供給開始（北京時間）",
+  "diningMenuSupplyEnd": "供給終了（北京時間）",
+  "diningMenuClearStart": "開始時間をクリア",
+  "diningMenuClearEnd": "終了時間をクリア",
+  "diningSearchFailedRetry": "検索に失敗しました。タップして再試行。",
+  "diningSearchNoResults": "見つかりません。店名や料理名を試すか、範囲を切り替えてください。",
+  "settingsFeaturesVivoWatchSectionTitle": "vivoウォッチ",
+  "settingsFeaturesVivoWatchToggleTitle": "vivoウォッチに同期",
+  "settingsFeaturesVivoWatchToggleSubtitle": "BlueXLink 経由で予定とキャンパスカードを同期"
 }

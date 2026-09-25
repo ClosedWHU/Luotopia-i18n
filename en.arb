@@ -7281,6 +7281,8 @@
   "chaoxingSignSuccess": "Signed in",
   "chaoxingSignAlready": "Already signed in",
   "chaoxingSignLate": "Signed in, but past the deadline",
+  "chaoxingSignValidateRequired": "The slide captcha could not be completed; try again or finish it in the web version",
+  "chaoxingSignFailedGeneric": "Sign-in failed",
   "chaoxingSignFailed": "Sign-in failed: {message}",
   "@chaoxingSignFailed": {
     "placeholders": {
@@ -7323,6 +7325,8 @@
   "chaoxingSignQrUnreadable": "Could not read a valid sign-in QR code",
   "chaoxingSignFaceEnrollHint": "Your first sign-in enrols your face — you'll be asked for a photo",
   "chaoxingSignFaceEnrolled": "Face enrolled",
+  "chaoxingSignFaceEnrolling": "Enrolling your face…",
+  "chaoxingSignFaceRemove": "Remove enrolment",
   "chaoxingSignFaceNeedDevice": "Face sign-in needs a Chaoxing login with device registration. Use the web version, or log in again with that option.",
   "chaoxingSignFaceEnrollFailed": "Face enrolment failed: {message}",
   "@chaoxingSignFaceEnrollFailed": {
@@ -8183,5 +8187,299 @@
   "diningScopeAll": "All",
   "diningScopeCampus": "On campus",
   "diningScopeOffCampus": "Off campus",
-  "diningRatingLoadFailed": "Could not load ratings. Please retry."
+  "diningRatingLoadFailed": "Could not load ratings. Please retry.",
+  "diningMainTitle": "What to eat today",
+  "diningMainLocateTooltip": "Locate me",
+  "diningMainLocationUnavailable": "Can't get your current location. Check location permissions.",
+  "diningMainAdminTooltip": "Manage Dining",
+  "diningMainBuildingFallback": "Building",
+  "diningMainSearchHint": "Search shops, areas or dishes",
+  "diningMainClearSearch": "Clear search",
+  "diningMainSelectArea": "Select area",
+  "diningMainFindingFood": "Finding something tasty…",
+  "diningMainSpotsLoadFailedRetry": "Failed to load shops. Tap to retry.",
+  "diningMainNoSpotsInScope": "No shops in this scope yet. Try another area.",
+  "diningMainSpotsSummary": "{area} · {count} shops, tap the map for details",
+  "@diningMainSpotsSummary": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainReloadMap": "Reload map data",
+  "diningMainSelectScope": "Select scope",
+  "diningMainFloorsLoadFailed": "Failed to load floors",
+  "diningMainNoFloors": "No floor information yet",
+  "diningMainFloorCount": "{count} floors in total",
+  "@diningMainFloorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainSpotDetailLoadFailed": "Failed to load shop details",
+  "diningMainReviewCountParen": "({count} reviews)",
+  "@diningMainReviewCountParen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainOpenNow": "Open now",
+  "diningMainClosedNow": "Closed",
+  "diningMainViewDetails": "View details",
+  "diningMainNavigate": "Navigate",
+  "diningMainMenuSection": "Menu",
+  "diningMainMenuLoadFailed": "Failed to load menu",
+  "diningMainMenuEmpty": "No menu yet",
+  "diningMainMarketPrice": "Market price",
+  "diningMainViewAllDishes": "View all {count} dishes",
+  "@diningMainViewAllDishes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainFloorInfoSection": "Floor information",
+  "diningMainNoFloorPlan": "No indoor map data yet",
+  "diningMainReviewsSection": "Reviews",
+  "diningMainReviewsLoadFailed": "Failed to load reviews",
+  "diningMainNoReviews": "No reviews yet",
+  "diningMainReviewsCount": "{count} reviews",
+  "@diningMainReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainNoNavApps": "No Tencent Maps, Amap or Baidu Maps detected",
+  "diningMainSelectNavApp": "Choose a map app",
+  "diningMainCannotOpenApp": "Can't open {app}",
+  "@diningMainCannotOpenApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMainWuhanDistricts": "Wuhan districts",
+  "diningMainNoMatchingAreas": "No matching areas",
+  "diningMainAllOnCampus": "All on campus",
+  "diningMainAllOffCampusWuhan": "All off campus (Wuhan)",
+  "diningMainSearchAreaHint": "Search area names",
+  "diningMainAreasLoadFailed": "Failed to load area data",
+  "diningMainNoCandidates": "No matching candidates in this scope. Try another one.",
+  "diningMainRandomShop": "Random shop",
+  "diningMainRandomDish": "Random dish",
+  "diningMainReloadCandidates": "Reload candidates",
+  "diningMainRollAgain": "Roll again",
+  "diningMainChoosing": "Choosing…",
+  "diningMainStartDraw": "Start the draw",
+  "diningMainSyncingCandidates": "Syncing candidate data…",
+  "diningMainCandidatesLoadFailed": "Failed to load candidates. Check your network and retry.",
+  "diningMainDecided": "🎉 It's decided",
+  "diningMainRollIdleHint": "Pick a scope and taste, then tap the button below to decide",
+  "diningMainRecommendShops": "Recommended shops",
+  "diningMainRecommendDishes": "Recommended dishes",
+  "diningMainAnyType": "Any type",
+  "diningMainOpenNowOnly": "Open now only",
+  "diningMainPickForMe": "Pick for me",
+  "diningMainRecommendLoadFailed": "Failed to load recommendations",
+  "diningMainNoMatchingDishes": "No matching dishes in this scope",
+  "diningMainNoMatchingShops": "No matching shops in this scope",
+  "diningMainPickedDish": "Let's eat \"{name}\"!",
+  "@diningMainPickedDish": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotDetails": "Shop details",
+  "diningSpotReviews": "Reviews",
+  "diningSpotSubmitCorrection": "Submit correction",
+  "diningSpotLoadFailed": "Could not load shop details",
+  "diningSpotAlsoKnownAs": "Also known as: {names}",
+  "@diningSpotAlsoKnownAs": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotChooseMapNavigation": "Choose map navigation",
+  "diningSpotIndoorFloors": "Indoor floors",
+  "diningSpotNoFloorPlanData": "No indoor map data yet",
+  "diningSpotHoursUnknown": "Hours unknown",
+  "diningSpotOpenNow": "Open now",
+  "diningSpotClosedNow": "Currently closed",
+  "diningSpotCorrectHours": "Correct opening hours",
+  "diningSpotCorrectScheduleExceptions": "Correct special hours",
+  "diningSpotRecentScheduleExceptions": "Recent special hours",
+  "diningSpotClosedTemporarily": "Temporarily closed",
+  "diningSpotNextDay": "next day ",
+  "diningSpotMenu": "Menu",
+  "diningSpotMenuLoadFailed": "Could not load the menu",
+  "diningSpotNoMenu": "No menu yet",
+  "diningSpotReviewsLoadFailed": "Could not load reviews",
+  "diningSpotNoReviews": "No reviews yet",
+  "diningSpotReviewCount": "{count} reviews",
+  "@diningSpotReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningSpotNoReviewText": "No written review provided",
+  "diningSpotHelpful": "Helpful",
+  "diningSpotNotHelpful": "Not helpful",
+  "diningSpotReportReview": "Report review",
+  "diningSpotMarketPrice": "Market price",
+  "diningSpotAvailableUntil": "Available until {date}",
+  "@diningSpotAvailableUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCorrectPriceAndSupply": "Correct price & availability",
+  "diningSpotLike": "Like",
+  "diningSpotDislike": "Dislike",
+  "diningSpotLoginToInteract": "Sign in to interact with dishes",
+  "diningSpotActionFailedRetry": "Action failed. Please try again later.",
+  "diningSpotCommentSendFailed": "Could not send the comment. Please try again later.",
+  "diningSpotDeleteFailed": "Could not delete. Please try again later.",
+  "diningSpotCommentsOfItem": "Comments on \"{name}\"",
+  "@diningSpotCommentsOfItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCommentsLoadFailed": "Could not load comments",
+  "diningSpotNoCommentsYet": "No comments yet. Say something!",
+  "diningSpotCommentMine": "me",
+  "diningSpotCommentHint": "Write your comment…",
+  "diningSpotLoginToComment": "Sign in to comment",
+  "diningSpotNoMapAppsDetected": "No Tencent Maps, Amap or Baidu Maps detected",
+  "diningSpotChooseNavigationMap": "Choose a navigation map",
+  "diningSpotCannotOpenMapApp": "Could not open {app}",
+  "@diningSpotCannotOpenMapApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotReportDetailsOptional": "Additional details (optional)",
+  "diningSpotSubmitting": "Submitting…",
+  "diningSpotSubmitReport": "Submit report",
+  "diningSpotReviewShop": "Review this shop",
+  "diningSpotTaste": "Taste",
+  "diningSpotValue": "Value for money",
+  "diningSpotAmbience": "Ambience",
+  "diningSpotSpeed": "Serving speed",
+  "diningSpotReviewContentOptional": "Review text (optional)",
+  "diningSpotPostAnonymously": "Post anonymously",
+  "diningSpotSubmitReview": "Submit review",
+  "diningSpotDeleteMyReview": "Delete my review",
+  "diningCorrectionSubmitFailed": "Submission failed. Check your sign-in status or network and try again.",
+  "diningCorrectionTitle": "Submit shop correction",
+  "diningCorrectionHint": "Enter verified shop information. Updates apply after approval; contribution rewards depend on actual credit.",
+  "diningCorrectionNameRequired": "Please enter a name",
+  "diningCorrectionAddressRequired": "Please enter an address",
+  "diningCorrectionSubmitting": "Submitting…",
+  "diningHoursLoadFailed": "Could not load opening hours. Please retry.",
+  "diningHoursSubmitFailed": "Submission failed. Check your sign-in or network, then retry.",
+  "diningHoursExceptionsTitle": "Edit special hours",
+  "diningHoursWeeklyTitle": "Edit opening hours",
+  "diningHoursExceptionsHelp": "Special-date hours override the weekly schedule for that day. You can add multiple slots per date; removing all slots for a date restores the weekly schedule. Times are in Beijing time and take effect after review.",
+  "diningHoursWeeklyHelp": "Fill in the full weekly schedule in Beijing time; multiple slots per day are allowed. An end earlier than the start means it crosses midnight; deleting all slots marks the hours as unknown. Takes effect after review.",
+  "diningHoursDateLabel": "Date YYYY-MM-DD",
+  "diningHoursInvalidDate": "Enter a valid date",
+  "diningHoursWeekdaySun": "Sun",
+  "diningHoursWeekdayMon": "Mon",
+  "diningHoursWeekdayTue": "Tue",
+  "diningHoursWeekdayWed": "Wed",
+  "diningHoursWeekdayThu": "Thu",
+  "diningHoursWeekdayFri": "Fri",
+  "diningHoursWeekdaySat": "Sat",
+  "diningHoursDeleteSlot": "Delete slot",
+  "diningHoursNoteLabel": "Note (optional)",
+  "diningHoursClosedAllDay": "Closed all day",
+  "diningHoursStartLabel": "Start HH:mm",
+  "diningHoursInvalidTime": "Enter a valid time",
+  "diningHoursEndLabel": "End HH:mm",
+  "diningHoursInvalidDistinctTime": "Enter two different valid times",
+  "diningHoursAddSlot": "Add slot",
+  "diningHoursReload": "Reload",
+  "diningHoursSubmitting": "Submitting…",
+  "diningFloorPlanShopIdRequired": "Enter the shop ID on this floor",
+  "diningFloorPlanTypeBoundary": "Floor boundary",
+  "diningFloorPlanTypeShopArea": "Shop area",
+  "diningFloorPlanTypeCorridor": "Corridor",
+  "diningFloorPlanTypeWall": "Wall",
+  "diningFloorPlanTypeDoor": "Door",
+  "diningFloorPlanTypeEntrance": "Entrance",
+  "diningFloorPlanTypeStairs": "Stairs",
+  "diningFloorPlanTypeEscalator": "Escalator",
+  "diningFloorPlanTypeElevator": "Elevator",
+  "diningFloorPlanTypeServiceArea": "Service area",
+  "diningFloorPlanTypeLabel": "Text label",
+  "diningFloorPlanTypeLandmark": "Landmark",
+  "diningFloorPlanGeometryPoint": "Point",
+  "diningFloorPlanGeometryLine": "Polyline",
+  "diningFloorPlanGeometryPolygon": "Polygon",
+  "diningFloorPlanLabelHint": "Label (optional)",
+  "diningFloorPlanSpotIdLabel": "Shop ID on this floor",
+  "diningFloorPlanFinishPoints": "Finish {count} points",
+  "@diningFloorPlanFinishPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningFloorPlanFinishDraftFirst": "Finish the current shape before saving",
+  "diningFloorPlanSaveFailed": "Save failed. Check the shop assignment, the geometry or your network, then retry.",
+  "diningFloorPlanSaving": "Saving…",
+  "diningFloorPlanSave": "Save floor plan",
+  "diningFloorPlanHintPoint": "Tap the canvas to place a point",
+  "diningFloorPlanHintDraw": "Tap the canvas to draw point by point, then save or tap \"Finish\" to add the shape",
+  "diningFloorPlanLoadFailed": "Could not load the floor plan",
+  "diningMenuEndAfterStart": "Supply end time must be later than the start time",
+  "diningMenuCreateTitle": "Add a dish",
+  "diningMenuEditTitle": "Edit dish",
+  "diningMenuHelp": "Provide dishes the shop actually sells. The menu updates once your submission is approved; contribution rewards depend on what is actually credited.",
+  "diningMenuNameLabel": "Dish name",
+  "diningMenuNameRequired": "Enter a name",
+  "diningMenuPriceLabel": "Price (CNY)",
+  "diningMenuPriceInvalid": "Enter a price with up to two decimals",
+  "diningMenuDescriptionLabel": "Dish description (optional)",
+  "diningMenuAvailableNow": "Currently available",
+  "diningMenuSupplyType": "Supply type",
+  "diningMenuSupplyPermanent": "Permanent",
+  "diningMenuSupplyLimited": "Limited time",
+  "diningMenuSupplySeasonal": "Seasonal",
+  "diningMenuSupplySpecial": "Special",
+  "diningMenuSupplyStart": "Available from (Beijing time)",
+  "diningMenuSupplyEnd": "Available until (Beijing time)",
+  "diningMenuClearStart": "Clear start time",
+  "diningMenuClearEnd": "Clear end time",
+  "diningSearchFailedRetry": "Search failed. Tap to retry.",
+  "diningSearchNoResults": "No results. Try a shop or dish name, or change the scope.",
+  "settingsFeaturesVivoWatchSectionTitle": "vivo Watch",
+  "settingsFeaturesVivoWatchToggleTitle": "Sync to vivo Watch",
+  "settingsFeaturesVivoWatchToggleSubtitle": "Sync schedules and campus card via BlueXLink"
 }

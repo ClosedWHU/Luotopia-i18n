@@ -6045,6 +6045,8 @@
   "chaoxingSignSuccess": "Đã điểm danh",
   "chaoxingSignAlready": "Bạn đã điểm danh rồi",
   "chaoxingSignLate": "Đã điểm danh, nhưng quá hạn",
+  "chaoxingSignValidateRequired": "Không hoàn tất được mã trượt; hãy thử lại hoặc thực hiện trong bản web",
+  "chaoxingSignFailedGeneric": "Điểm danh thất bại",
   "chaoxingSignFailed": "Điểm danh thất bại: {message}",
   "chaoxingSignUnsupported": "Loại điểm danh này chưa hỗ trợ trong ứng dụng. Hãy dùng bản web.",
   "chaoxingSignCodeHint": "Nhập mã {count} chữ số",
@@ -6073,6 +6075,8 @@
   "chaoxingSignQrUnreadable": "Không đọc được mã QR điểm danh hợp lệ",
   "chaoxingSignFaceEnrollHint": "Lần điểm danh đầu sẽ đăng ký khuôn mặt bằng ảnh",
   "chaoxingSignFaceEnrolled": "Đã đăng ký khuôn mặt",
+  "chaoxingSignFaceEnrolling": "Đang đăng ký khuôn mặt…",
+  "chaoxingSignFaceRemove": "Gỡ đăng ký",
   "chaoxingSignFaceNeedDevice": "Điểm danh khuôn mặt cần đăng nhập Chaoxing có đăng ký thiết bị. Hãy dùng bản web hoặc đăng nhập lại với tùy chọn đó.",
   "chaoxingSignFaceEnrollFailed": "Đăng ký khuôn mặt thất bại: {message}",
   "chaoxingSignLocationUse": "Sẽ dùng vị trí hiện tại của bạn",
@@ -6887,5 +6891,299 @@
   "diningScopeAll": "Tất cả",
   "diningScopeCampus": "Trong trường",
   "diningScopeOffCampus": "Ngoài trường",
-  "diningRatingLoadFailed": "Không tải được đánh giá. Vui lòng thử lại."
+  "diningRatingLoadFailed": "Không tải được đánh giá. Vui lòng thử lại.",
+  "diningMainTitle": "Hôm nay ăn gì?",
+  "diningMainLocateTooltip": "Định vị",
+  "diningMainLocationUnavailable": "Không thể lấy vị trí hiện tại, hãy kiểm tra quyền định vị.",
+  "diningMainAdminTooltip": "Quản lý Dining",
+  "diningMainBuildingFallback": "Tòa nhà",
+  "diningMainSearchHint": "Tìm cửa hàng, khu vực hoặc món ăn",
+  "diningMainClearSearch": "Xóa tìm kiếm",
+  "diningMainSelectArea": "Chọn khu vực",
+  "diningMainFindingFood": "Đang tìm món ngon…",
+  "diningMainSpotsLoadFailedRetry": "Tải cửa hàng thất bại, chạm để thử lại",
+  "diningMainNoSpotsInScope": "Phạm vi này chưa có cửa hàng, thử khu vực khác",
+  "diningMainSpotsSummary": "{area} · {count} cửa hàng, chạm vào bản đồ để xem chi tiết",
+  "@diningMainSpotsSummary": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainReloadMap": "Tải lại dữ liệu bản đồ",
+  "diningMainSelectScope": "Chọn phạm vi",
+  "diningMainFloorsLoadFailed": "Tải tầng thất bại",
+  "diningMainNoFloors": "Chưa có thông tin tầng",
+  "diningMainFloorCount": "Có {count} tầng",
+  "@diningMainFloorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainSpotDetailLoadFailed": "Tải chi tiết cửa hàng thất bại",
+  "diningMainReviewCountParen": "({count} đánh giá)",
+  "@diningMainReviewCountParen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainOpenNow": "Đang mở cửa",
+  "diningMainClosedNow": "Đang nghỉ",
+  "diningMainViewDetails": "Xem chi tiết",
+  "diningMainNavigate": "Chỉ đường",
+  "diningMainMenuSection": "Thực đơn",
+  "diningMainMenuLoadFailed": "Tải thực đơn thất bại",
+  "diningMainMenuEmpty": "Chưa có thực đơn",
+  "diningMainMarketPrice": "Giá thời điểm",
+  "diningMainViewAllDishes": "Xem tất cả {count} món",
+  "@diningMainViewAllDishes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainFloorInfoSection": "Thông tin tầng",
+  "diningMainNoFloorPlan": "Chưa có dữ liệu bản đồ trong nhà",
+  "diningMainReviewsSection": "Đánh giá",
+  "diningMainReviewsLoadFailed": "Tải đánh giá thất bại",
+  "diningMainNoReviews": "Chưa có đánh giá",
+  "diningMainReviewsCount": "{count} đánh giá",
+  "@diningMainReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMainNoNavApps": "Không tìm thấy Tencent Maps, Amap hoặc Baidu Maps",
+  "diningMainSelectNavApp": "Chọn ứng dụng bản đồ",
+  "diningMainCannotOpenApp": "Không thể mở {app}",
+  "@diningMainCannotOpenApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMainWuhanDistricts": "Các quận Vũ Hán",
+  "diningMainNoMatchingAreas": "Không có khu vực phù hợp",
+  "diningMainAllOnCampus": "Toàn bộ trong trường",
+  "diningMainAllOffCampusWuhan": "Toàn bộ ngoài trường (Vũ Hán)",
+  "diningMainSearchAreaHint": "Tìm tên khu vực",
+  "diningMainAreasLoadFailed": "Tải dữ liệu khu vực thất bại",
+  "diningMainNoCandidates": "Phạm vi này không có ứng viên phù hợp, thử phạm vi khác",
+  "diningMainRandomShop": "Cửa hàng ngẫu nhiên",
+  "diningMainRandomDish": "Món ngẫu nhiên",
+  "diningMainReloadCandidates": "Tải lại ứng viên",
+  "diningMainRollAgain": "Thử lại lần nữa",
+  "diningMainChoosing": "Đang chọn…",
+  "diningMainStartDraw": "Bắt đầu bốc thăm",
+  "diningMainSyncingCandidates": "Đang đồng bộ dữ liệu ứng viên…",
+  "diningMainCandidatesLoadFailed": "Tải ứng viên thất bại, kiểm tra mạng rồi thử lại",
+  "diningMainDecided": "🎉 Chính là nó!",
+  "diningMainRollIdleHint": "Chọn phạm vi và khẩu vị, bấm nút bên dưới để quyết định",
+  "diningMainRecommendShops": "Cửa hàng đề xuất",
+  "diningMainRecommendDishes": "Món đề xuất",
+  "diningMainAnyType": "Mọi loại",
+  "diningMainOpenNowOnly": "Chỉ xem đang mở cửa",
+  "diningMainPickForMe": "Chọn giúp tôi",
+  "diningMainRecommendLoadFailed": "Tải đề xuất thất bại",
+  "diningMainNoMatchingDishes": "Phạm vi này không có món phù hợp",
+  "diningMainNoMatchingShops": "Phạm vi này không có cửa hàng phù hợp",
+  "diningMainPickedDish": "Ăn \"{name}\" thôi!",
+  "@diningMainPickedDish": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotDetails": "Chi tiết quán",
+  "diningSpotReviews": "Đánh giá",
+  "diningSpotSubmitCorrection": "Gửi đính chính",
+  "diningSpotLoadFailed": "Không tải được chi tiết quán",
+  "diningSpotAlsoKnownAs": "Còn gọi là: {names}",
+  "@diningSpotAlsoKnownAs": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotChooseMapNavigation": "Chọn bản đồ dẫn đường",
+  "diningSpotIndoorFloors": "Các tầng trong nhà",
+  "diningSpotNoFloorPlanData": "Chưa có dữ liệu bản đồ trong nhà",
+  "diningSpotHoursUnknown": "Không rõ giờ mở cửa",
+  "diningSpotOpenNow": "Đang mở cửa",
+  "diningSpotClosedNow": "Hiện đang nghỉ",
+  "diningSpotCorrectHours": "Đính chính giờ mở cửa",
+  "diningSpotCorrectScheduleExceptions": "Đính chính giờ mở cửa đặc biệt",
+  "diningSpotRecentScheduleExceptions": "Giờ mở cửa đặc biệt gần đây",
+  "diningSpotClosedTemporarily": "Tạm nghỉ",
+  "diningSpotNextDay": "hôm sau ",
+  "diningSpotMenu": "Thực đơn",
+  "diningSpotMenuLoadFailed": "Không tải được thực đơn",
+  "diningSpotNoMenu": "Chưa có thực đơn",
+  "diningSpotReviewsLoadFailed": "Không tải được đánh giá",
+  "diningSpotNoReviews": "Chưa có đánh giá",
+  "diningSpotReviewCount": "{count} đánh giá",
+  "@diningSpotReviewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningSpotNoReviewText": "Người dùng không viết nhận xét",
+  "diningSpotHelpful": "Hữu ích",
+  "diningSpotNotHelpful": "Không hữu ích",
+  "diningSpotReportReview": "Báo cáo đánh giá",
+  "diningSpotMarketPrice": "Giá thời điểm",
+  "diningSpotAvailableUntil": "Có đến {date}",
+  "@diningSpotAvailableUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCorrectPriceAndSupply": "Đính chính giá và nguồn cung",
+  "diningSpotLike": "Thích",
+  "diningSpotDislike": "Không thích",
+  "diningSpotLoginToInteract": "Hãy đăng nhập để tương tác với món ăn",
+  "diningSpotActionFailedRetry": "Thao tác thất bại, vui lòng thử lại sau",
+  "diningSpotCommentSendFailed": "Gửi bình luận thất bại, vui lòng thử lại sau",
+  "diningSpotDeleteFailed": "Xóa thất bại, vui lòng thử lại sau",
+  "diningSpotCommentsOfItem": "Bình luận về \"{name}\"",
+  "@diningSpotCommentsOfItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotCommentsLoadFailed": "Không tải được bình luận",
+  "diningSpotNoCommentsYet": "Chưa có bình luận, nói vài lời nhé",
+  "diningSpotCommentMine": "tôi",
+  "diningSpotCommentHint": "Viết bình luận của bạn…",
+  "diningSpotLoginToComment": "Đăng nhập để bình luận",
+  "diningSpotNoMapAppsDetected": "Không tìm thấy Tencent Maps, Amap hoặc Baidu Maps",
+  "diningSpotChooseNavigationMap": "Chọn bản đồ dẫn đường",
+  "diningSpotCannotOpenMapApp": "Không thể mở {app}",
+  "@diningSpotCannotOpenMapApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "diningSpotReportDetailsOptional": "Mô tả bổ sung (không bắt buộc)",
+  "diningSpotSubmitting": "Đang gửi…",
+  "diningSpotSubmitReport": "Gửi báo cáo",
+  "diningSpotReviewShop": "Đánh giá quán",
+  "diningSpotTaste": "Hương vị",
+  "diningSpotValue": "Đáng giá",
+  "diningSpotAmbience": "Không gian",
+  "diningSpotSpeed": "Tốc độ phục vụ",
+  "diningSpotReviewContentOptional": "Nội dung đánh giá (không bắt buộc)",
+  "diningSpotPostAnonymously": "Đăng ẩn danh",
+  "diningSpotSubmitReview": "Gửi đánh giá",
+  "diningSpotDeleteMyReview": "Xóa đánh giá của tôi",
+  "diningCorrectionSubmitFailed": "Gửi thất bại. Kiểm tra đăng nhập hoặc mạng rồi thử lại.",
+  "diningCorrectionTitle": "Gửi đính chính thông tin quán",
+  "diningCorrectionHint": "Hãy điền thông tin đã xác minh. Cập nhật sau khi được duyệt; phần thưởng đóng góp tính theo thực nhận.",
+  "diningCorrectionNameRequired": "Vui lòng nhập tên",
+  "diningCorrectionAddressRequired": "Vui lòng nhập địa chỉ",
+  "diningCorrectionSubmitting": "Đang gửi…",
+  "diningHoursLoadFailed": "Không tải được giờ mở cửa. Vui lòng thử lại.",
+  "diningHoursSubmitFailed": "Gửi thất bại. Kiểm tra đăng nhập hoặc mạng rồi thử lại.",
+  "diningHoursExceptionsTitle": "Sửa lịch mở cửa đặc biệt",
+  "diningHoursWeeklyTitle": "Sửa giờ mở cửa",
+  "diningHoursExceptionsHelp": "Lịch theo ngày đặc biệt sẽ ghi đè lịch hằng tuần của ngày đó. Có thể thêm nhiều khung giờ trong một ngày; xóa hết sẽ khôi phục lịch hằng tuần. Điền theo giờ Bắc Kinh, có hiệu lực sau khi được duyệt.",
+  "diningHoursWeeklyHelp": "Điền đầy đủ lịch hằng tuần theo giờ Bắc Kinh, mỗi ngày có thể thêm nhiều khung giờ. Kết thúc sớm hơn bắt đầu nghĩa là qua nửa đêm; xóa toàn bộ nghĩa là chưa rõ giờ mở cửa. Có hiệu lực sau khi được duyệt.",
+  "diningHoursDateLabel": "Ngày YYYY-MM-DD",
+  "diningHoursInvalidDate": "Nhập ngày hợp lệ",
+  "diningHoursWeekdaySun": "Chủ nhật",
+  "diningHoursWeekdayMon": "Thứ 2",
+  "diningHoursWeekdayTue": "Thứ 3",
+  "diningHoursWeekdayWed": "Thứ 4",
+  "diningHoursWeekdayThu": "Thứ 5",
+  "diningHoursWeekdayFri": "Thứ 6",
+  "diningHoursWeekdaySat": "Thứ 7",
+  "diningHoursDeleteSlot": "Xóa khung giờ",
+  "diningHoursNoteLabel": "Ghi chú (không bắt buộc)",
+  "diningHoursClosedAllDay": "Nghỉ cả ngày",
+  "diningHoursStartLabel": "Bắt đầu HH:mm",
+  "diningHoursInvalidTime": "Nhập giờ hợp lệ",
+  "diningHoursEndLabel": "Kết thúc HH:mm",
+  "diningHoursInvalidDistinctTime": "Nhập hai giờ hợp lệ khác nhau",
+  "diningHoursAddSlot": "Thêm khung giờ",
+  "diningHoursReload": "Tải lại",
+  "diningHoursSubmitting": "Đang gửi…",
+  "diningFloorPlanShopIdRequired": "Nhập ID cửa hàng của tầng này",
+  "diningFloorPlanTypeBoundary": "Ranh giới tầng",
+  "diningFloorPlanTypeShopArea": "Khu cửa hàng",
+  "diningFloorPlanTypeCorridor": "Hành lang",
+  "diningFloorPlanTypeWall": "Tường",
+  "diningFloorPlanTypeDoor": "Cửa",
+  "diningFloorPlanTypeEntrance": "Lối vào",
+  "diningFloorPlanTypeStairs": "Cầu thang",
+  "diningFloorPlanTypeEscalator": "Thang cuốn",
+  "diningFloorPlanTypeElevator": "Thang máy",
+  "diningFloorPlanTypeServiceArea": "Khu dịch vụ",
+  "diningFloorPlanTypeLabel": "Nhãn chữ",
+  "diningFloorPlanTypeLandmark": "Địa danh",
+  "diningFloorPlanGeometryPoint": "Điểm",
+  "diningFloorPlanGeometryLine": "Đường gấp khúc",
+  "diningFloorPlanGeometryPolygon": "Đa giác",
+  "diningFloorPlanLabelHint": "Nhãn (không bắt buộc)",
+  "diningFloorPlanSpotIdLabel": "ID cửa hàng tầng này",
+  "diningFloorPlanFinishPoints": "Hoàn tất {count} điểm",
+  "@diningFloorPlanFinishPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningFloorPlanFinishDraftFirst": "Hoàn tất hình hiện tại trước khi lưu",
+  "diningFloorPlanSaveFailed": "Lưu thất bại. Kiểm tra cửa hàng, hình vẽ hoặc mạng rồi thử lại.",
+  "diningFloorPlanSaving": "Đang lưu…",
+  "diningFloorPlanSave": "Lưu sơ đồ tầng",
+  "diningFloorPlanHintPoint": "Chạm vào khung vẽ để đặt điểm",
+  "diningFloorPlanHintDraw": "Chạm khung vẽ để vẽ từng điểm, sau đó lưu hoặc chạm \"Hoàn tất\" để thêm hình",
+  "diningFloorPlanLoadFailed": "Không tải được sơ đồ trong nhà",
+  "diningMenuEndAfterStart": "Thời gian kết thúc phải muộn hơn thời gian bắt đầu",
+  "diningMenuCreateTitle": "Thêm món ăn",
+  "diningMenuEditTitle": "Sửa món ăn",
+  "diningMenuHelp": "Cung cấp món đang thực sự được bán. Menu sẽ cập nhật sau khi được duyệt; thưởng đóng góp tùy theo thực nhận.",
+  "diningMenuNameLabel": "Tên món ăn",
+  "diningMenuNameRequired": "Nhập tên món",
+  "diningMenuPriceLabel": "Giá (NDT)",
+  "diningMenuPriceInvalid": "Nhập giá, tối đa hai chữ số thập phân",
+  "diningMenuDescriptionLabel": "Mô tả món ăn (không bắt buộc)",
+  "diningMenuAvailableNow": "Hiện đang bán",
+  "diningMenuSupplyType": "Loại cung ứng",
+  "diningMenuSupplyPermanent": "Thường xuyên",
+  "diningMenuSupplyLimited": "Giới hạn thời gian",
+  "diningMenuSupplySeasonal": "Theo mùa",
+  "diningMenuSupplySpecial": "Cung ứng đặc biệt",
+  "diningMenuSupplyStart": "Bắt đầu cung ứng (giờ Bắc Kinh)",
+  "diningMenuSupplyEnd": "Kết thúc cung ứng (giờ Bắc Kinh)",
+  "diningMenuClearStart": "Xóa giờ bắt đầu",
+  "diningMenuClearEnd": "Xóa giờ kết thúc",
+  "diningSearchFailedRetry": "Tìm kiếm thất bại. Chạm để thử lại.",
+  "diningSearchNoResults": "Không tìm thấy. Thử tên quán, tên món hoặc đổi phạm vi.",
+  "settingsFeaturesVivoWatchSectionTitle": "Đồng hồ vivo",
+  "settingsFeaturesVivoWatchToggleTitle": "Đồng bộ tới đồng hồ vivo",
+  "settingsFeaturesVivoWatchToggleSubtitle": "Đồng bộ lịch và thẻ sinh viên qua BlueXLink"
 }
