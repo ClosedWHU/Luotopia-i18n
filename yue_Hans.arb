@@ -6079,11 +6079,23 @@
   "chaoxingRegisterDeviceHint": "用官方客户端身份登录。新设备要先通过验证。",
   "chaoxingDeviceVerifyTitle": "验证呢部设备",
   "chaoxingDeviceVerifyPrompt": "请依次点击：{chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "唔啱，换一张再试。",
   "chaoxingDeviceVerifySmsTitle": "输入短信验证码",
   "chaoxingDeviceVerifySmsHint": "已发送到 {phone}",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "图片验证码",
   "chaoxingDeviceVerifyPasswordReset": "服务器要求先重设密码先可以注册呢部设备。请喺官方 App 改完再试。",
   "imageSaved": "已保存",
@@ -7133,5 +7145,23 @@
   "diningSearchNoResults": "没有找到，试试店名、菜名或切换范围",
   "settingsFeaturesVivoWatchSectionTitle": "vivo手表",
   "settingsFeaturesVivoWatchToggleTitle": "同步到vivo手表",
-  "settingsFeaturesVivoWatchToggleSubtitle": "通过 BlueXLink 同步日程和校园卡"
+  "settingsFeaturesVivoWatchToggleSubtitle": "通过 BlueXLink 同步日程和校园卡",
+  "aiScrollToBottom": "返到底部",
+  "aiWelcomeTitle": "有咩可以帮到你？",
+  "aiWelcomeSubtitle": "我可以睇课程表同日程、处理校园事务，要你确认嘅操作会先问你。",
+  "aiSuggestionTodayCourses": "今日有咩堂？",
+  "aiSuggestionWeather": "今日出门要带遮吗？",
+  "aiSuggestionDormUtility": "宿舍电费仲有几多？",
+  "aiSuggestionUnreadMail": "帮我睇下有冇新邮件",
+  "aiThoughtForSeconds": "谂咗 {seconds} 秒",
+  "aiUsedToolsCount": "调用咗 {count} 个工具",
+  "aiToolsFailedCount": "{count} 个失败",
+  "aiRunStopped": "已停止",
+  "aiRunIncomplete": "未完成",
+  "aiRunRetried": "连接中断，已自动重试",
+  "aiEditMessage": "编辑",
+  "aiRegenerateFromHere": "由呢度重新生成",
+  "aiBranchPrevious": "上一个版本",
+  "aiBranchNext": "下一个版本",
+  "aiDeleteTurnConfirm": "{count, plural, =0{删除呢条消息？} other{删除呢条消息同之后嘅 {count} 条消息？呢个操作无法撤销。}}"
 }

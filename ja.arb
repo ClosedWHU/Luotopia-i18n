@@ -6141,11 +6141,23 @@
   "chaoxingRegisterDeviceHint": "公式アプリとしてログインします。新しいデバイスは先に認証が必要です。",
   "chaoxingDeviceVerifyTitle": "デバイスを認証",
   "chaoxingDeviceVerifyPrompt": "順番にタップ：{chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "正しくありません。別の画像でやり直してください。",
   "chaoxingDeviceVerifySmsTitle": "SMSコードを入力",
   "chaoxingDeviceVerifySmsHint": "{phone} に送信しました",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "画像のコード",
   "chaoxingDeviceVerifyPasswordReset": "このデバイスを登録するには、先にパスワードの再設定が必要です。公式アプリで変更してからやり直してください。",
   "imageSaved": "保存しました",
@@ -7195,5 +7207,23 @@
   "diningSearchNoResults": "見つかりません。店名や料理名を試すか、範囲を切り替えてください。",
   "settingsFeaturesVivoWatchSectionTitle": "vivoウォッチ",
   "settingsFeaturesVivoWatchToggleTitle": "vivoウォッチに同期",
-  "settingsFeaturesVivoWatchToggleSubtitle": "BlueXLink 経由で予定とキャンパスカードを同期"
+  "settingsFeaturesVivoWatchToggleSubtitle": "BlueXLink 経由で予定とキャンパスカードを同期",
+  "aiScrollToBottom": "最新のメッセージへ",
+  "aiWelcomeTitle": "何をお手伝いしましょうか？",
+  "aiWelcomeSubtitle": "時間割や予定の確認、学内の手続きをお手伝いします。承認が必要な操作は事前に確認します。",
+  "aiSuggestionTodayCourses": "今日の授業は？",
+  "aiSuggestionWeather": "今日は傘が必要？",
+  "aiSuggestionDormUtility": "寮の電気残高はいくら？",
+  "aiSuggestionUnreadMail": "新着メールはある？",
+  "aiThoughtForSeconds": "{seconds}秒考えました",
+  "aiUsedToolsCount": "{count}個のツールを使用",
+  "aiToolsFailedCount": "{count}件失敗",
+  "aiRunStopped": "停止しました",
+  "aiRunIncomplete": "未完了",
+  "aiRunRetried": "接続が切れたため自動的に再試行しました",
+  "aiEditMessage": "編集",
+  "aiRegenerateFromHere": "ここから再生成",
+  "aiBranchPrevious": "前のバージョン",
+  "aiBranchNext": "次のバージョン",
+  "aiDeleteTurnConfirm": "{count, plural, =0{このメッセージを削除しますか？} other{このメッセージと後続の{count}件を削除しますか？元に戻せません。}}"
 }

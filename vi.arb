@@ -6131,11 +6131,23 @@
   "chaoxingRegisterDeviceHint": "Đăng nhập với tư cách ứng dụng chính thức. Thiết bị mới phải xác minh trước.",
   "chaoxingDeviceVerifyTitle": "Xác minh thiết bị này",
   "chaoxingDeviceVerifyPrompt": "Chạm theo thứ tự: {chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "Không đúng. Hãy thử hình mới.",
   "chaoxingDeviceVerifySmsTitle": "Nhập mã SMS",
   "chaoxingDeviceVerifySmsHint": "Đã gửi tới {phone}",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "Mã trong hình",
   "chaoxingDeviceVerifyPasswordReset": "Máy chủ yêu cầu đặt lại mật khẩu trước khi đăng ký thiết bị này. Hãy đổi trong ứng dụng chính thức rồi thử lại.",
   "imageSaved": "Đã lưu",
@@ -7185,5 +7197,23 @@
   "diningSearchNoResults": "Không tìm thấy. Thử tên quán, tên món hoặc đổi phạm vi.",
   "settingsFeaturesVivoWatchSectionTitle": "Đồng hồ vivo",
   "settingsFeaturesVivoWatchToggleTitle": "Đồng bộ tới đồng hồ vivo",
-  "settingsFeaturesVivoWatchToggleSubtitle": "Đồng bộ lịch và thẻ sinh viên qua BlueXLink"
+  "settingsFeaturesVivoWatchToggleSubtitle": "Đồng bộ lịch và thẻ sinh viên qua BlueXLink",
+  "aiScrollToBottom": "Đến tin nhắn mới nhất",
+  "aiWelcomeTitle": "Tôi có thể giúp gì cho bạn?",
+  "aiWelcomeSubtitle": "Tôi có thể xem thời khóa biểu, lịch trình và xử lý việc trong trường. Tôi sẽ hỏi trước khi thực hiện việc cần bạn chấp thuận.",
+  "aiSuggestionTodayCourses": "Hôm nay tôi có những tiết học nào?",
+  "aiSuggestionWeather": "Hôm nay có cần mang ô không?",
+  "aiSuggestionDormUtility": "Ký túc xá còn bao nhiêu tiền điện?",
+  "aiSuggestionUnreadMail": "Kiểm tra giúp tôi có email mới không",
+  "aiThoughtForSeconds": "Đã suy nghĩ {seconds} giây",
+  "aiUsedToolsCount": "Đã dùng {count} công cụ",
+  "aiToolsFailedCount": "{count} lỗi",
+  "aiRunStopped": "Đã dừng",
+  "aiRunIncomplete": "Chưa hoàn tất",
+  "aiRunRetried": "Mất kết nối — đã tự động thử lại",
+  "aiEditMessage": "Chỉnh sửa",
+  "aiRegenerateFromHere": "Tạo lại từ đây",
+  "aiBranchPrevious": "Phiên bản trước",
+  "aiBranchNext": "Phiên bản sau",
+  "aiDeleteTurnConfirm": "{count, plural, =0{Xóa tin nhắn này?} other{Xóa tin nhắn này và {count} tin sau? Không thể hoàn tác.}}"
 }

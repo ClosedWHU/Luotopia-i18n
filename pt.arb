@@ -6089,11 +6089,23 @@
   "chaoxingRegisterDeviceHint": "Entra como a aplicação oficial. Um dispositivo novo tem de ser verificado primeiro.",
   "chaoxingDeviceVerifyTitle": "Verificar este dispositivo",
   "chaoxingDeviceVerifyPrompt": "Toque por ordem: {chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "Incorreto. Tente com a nova imagem.",
   "chaoxingDeviceVerifySmsTitle": "Introduza o código SMS",
   "chaoxingDeviceVerifySmsHint": "Enviado para {phone}",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "Código da imagem",
   "chaoxingDeviceVerifyPasswordReset": "O servidor exige uma redefinição da palavra-passe antes de registar este dispositivo. Altere-a na aplicação oficial e tente novamente.",
   "imageSaved": "Salvo",
@@ -7143,5 +7155,23 @@
   "diningSearchNoResults": "Sem resultados. Tente um nome de loja ou prato, ou mude o alcance.",
   "settingsFeaturesVivoWatchSectionTitle": "Relógio vivo",
   "settingsFeaturesVivoWatchToggleTitle": "Sincronizar com o relógio vivo",
-  "settingsFeaturesVivoWatchToggleSubtitle": "Sincroniza agenda e cartão universitário via BlueXLink"
+  "settingsFeaturesVivoWatchToggleSubtitle": "Sincroniza agenda e cartão universitário via BlueXLink",
+  "aiScrollToBottom": "Ir para as mensagens mais recentes",
+  "aiWelcomeTitle": "Como posso ajudar?",
+  "aiWelcomeSubtitle": "Posso consultar seu horário e agenda e cuidar de tarefas no campus. Pedirei sua aprovação antes de qualquer ação que precise dela.",
+  "aiSuggestionTodayCourses": "Que aulas tenho hoje?",
+  "aiSuggestionWeather": "Preciso de guarda-chuva hoje?",
+  "aiSuggestionDormUtility": "Quanto crédito de eletricidade resta no alojamento?",
+  "aiSuggestionUnreadMail": "Tenho e-mails novos?",
+  "aiThoughtForSeconds": "Pensou por {seconds} s",
+  "aiUsedToolsCount": "Usou {count} ferramentas",
+  "aiToolsFailedCount": "{count} falharam",
+  "aiRunStopped": "Parado",
+  "aiRunIncomplete": "Incompleto",
+  "aiRunRetried": "Conexão perdida — nova tentativa automática",
+  "aiEditMessage": "Editar",
+  "aiRegenerateFromHere": "Regenerar daqui",
+  "aiBranchPrevious": "Versão anterior",
+  "aiBranchNext": "Próxima versão",
+  "aiDeleteTurnConfirm": "{count, plural, =0{Excluir esta mensagem?} other{Excluir esta mensagem e as {count} seguintes? Não é possível desfazer.}}"
 }

@@ -6117,11 +6117,23 @@
   "chaoxingRegisterDeviceHint": "Вход от имени официального приложения. Новое устройство нужно сначала подтвердить.",
   "chaoxingDeviceVerifyTitle": "Подтвердить устройство",
   "chaoxingDeviceVerifyPrompt": "Нажмите по порядку: {chars}",
-  "@chaoxingDeviceVerifyPrompt": {"placeholders": {"chars": {"type": "String"}}},
+  "@chaoxingDeviceVerifyPrompt": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyWrong": "Неверно. Попробуйте новое изображение.",
   "chaoxingDeviceVerifySmsTitle": "Введите код из SMS",
   "chaoxingDeviceVerifySmsHint": "Отправлено на {phone}",
-  "@chaoxingDeviceVerifySmsHint": {"placeholders": {"phone": {"type": "String"}}},
+  "@chaoxingDeviceVerifySmsHint": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingDeviceVerifyImageCode": "Код с картинки",
   "chaoxingDeviceVerifyPasswordReset": "Сервер требует сбросить пароль, прежде чем зарегистрировать это устройство. Измените его в официальном приложении и повторите попытку.",
   "imageSaved": "Сохранено",
@@ -7171,5 +7183,23 @@
   "diningSearchNoResults": "Ничего не найдено. Попробуйте название магазина или блюда либо смените область.",
   "settingsFeaturesVivoWatchSectionTitle": "Часы vivo",
   "settingsFeaturesVivoWatchToggleTitle": "Синхронизировать с часами vivo",
-  "settingsFeaturesVivoWatchToggleSubtitle": "Синхронизация расписания и кампусной карты через BlueXLink"
+  "settingsFeaturesVivoWatchToggleSubtitle": "Синхронизация расписания и кампусной карты через BlueXLink",
+  "aiScrollToBottom": "К последним сообщениям",
+  "aiWelcomeTitle": "Чем я могу помочь?",
+  "aiWelcomeSubtitle": "Я могу проверить расписание и дела, а также помочь с задачами в кампусе. Перед действиями, требующими согласия, я сначала спрошу вас.",
+  "aiSuggestionTodayCourses": "Какие у меня сегодня занятия?",
+  "aiSuggestionWeather": "Нужен ли сегодня зонт?",
+  "aiSuggestionDormUtility": "Сколько осталось средств на электричество в общежитии?",
+  "aiSuggestionUnreadMail": "Есть ли у меня новые письма?",
+  "aiThoughtForSeconds": "Думал {seconds} с",
+  "aiUsedToolsCount": "Использовано инструментов: {count}",
+  "aiToolsFailedCount": "Ошибок: {count}",
+  "aiRunStopped": "Остановлено",
+  "aiRunIncomplete": "Не завершено",
+  "aiRunRetried": "Соединение прервалось — выполнен повторный запрос",
+  "aiEditMessage": "Изменить",
+  "aiRegenerateFromHere": "Перегенерировать отсюда",
+  "aiBranchPrevious": "Предыдущая версия",
+  "aiBranchNext": "Следующая версия",
+  "aiDeleteTurnConfirm": "{count, plural, =0{Удалить это сообщение?} other{Удалить это сообщение и ещё {count} после него? Отменить нельзя.}}"
 }
