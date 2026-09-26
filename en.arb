@@ -4864,6 +4864,34 @@
   "forumReportReason": "Reason",
   "forumReportSubmitted": "Report submitted.",
   "forumReportSubmittedFlavor": "Recorded; awaiting response.",
+  "forumReportCategory": "Category",
+  "forumReportDescription": "Details (optional)",
+  "forumReportDescriptionRequired": "Please describe the issue",
+  "forumReportComment": "Report comment",
+  "forumEditComment": "Edit comment",
+  "forumCommentContent": "Comment",
+  "forumModerationRulesTitle": "Violated rules",
+  "forumReportCatIllegalViolation": "Illegal & safety",
+  "forumReportCatSexual": "Sexual content",
+  "forumReportCatHarassment": "Hate & harassment",
+  "forumReportCatIntegrity": "Misinformation & infringement",
+  "forumReportCatSpam": "Spam",
+  "forumReportCatSelfHarm": "Self-harm",
+  "forumReportCatOther": "Other",
+  "forumReportRuleIllegal": "Illegal content",
+  "forumReportRulePornography": "Pornography",
+  "forumReportRuleScam": "Gambling & scams",
+  "forumReportRuleSpam": "Spam & advertising",
+  "forumReportRuleAbuse": "Personal attacks",
+  "forumReportRuleHate": "Hate & discrimination",
+  "forumReportRuleMisinformation": "Rumors & misinformation",
+  "forumReportRuleViolence": "Violence & gore",
+  "forumReportRuleSelfHarm": "Self-harm",
+  "forumReportRulePrivacy": "Privacy leaks",
+  "forumReportRuleMinorHarm": "Harmful to minors",
+  "forumReportRuleCopyright": "Copyright infringement",
+  "forumReportRuleProvocation": "Provocation & brigading",
+  "forumReportRuleOther": "Other",
   "forumKarma": "Karma",
   "forumKarmaAuthorMeta": "Lv{level} · {karma} Karma",
   "@forumKarmaAuthorMeta": {
@@ -7293,6 +7321,55 @@
   "chaoxingActivityTabSignIn": "Sign-in",
   "chaoxingActivityTabTasks": "Exams & homework",
   "chaoxingActivityTabOther": "Other",
+  "chaoxingActivityTabChapters": "Chapters",
+  "chaoxingChaptersEmpty": "This course has no chapters yet",
+  "chaoxingChaptersLoadFailed": "Failed to load chapters: {message}",
+  "@chaoxingChaptersLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingChapterLocked": "Locked",
+  "chaoxingChapterJobsPending": "{count} tasks unfinished",
+  "@chaoxingChapterJobsPending": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chaoxingChapterRead": "Studied",
+  "chaoxingChapterUnread": "Not started",
+  "chaoxingChapterTimed": "Scheduled",
+  "chaoxingCardsLoadFailed": "Failed to load cards: {message}",
+  "@chaoxingCardsLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingVideoCompleted": "Completed",
+  "chaoxingVideoReportFailed": "Failed to report progress: {message}",
+  "@chaoxingVideoReportFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingVideoSpeed": "Speed",
+  "chaoxingVideoSeekBlocked": "Seeking ahead is disabled for this video",
+  "chaoxingVideoLoadFailed": "Video failed to load: {message}",
+  "@chaoxingVideoLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "chaoxingSignUseWeb": "Use web version",
   "chaoxingSignUseWebSubtitle": "Open this sign-in in a web page instead",
   "chaoxingSignSubmit": "Sign in",
