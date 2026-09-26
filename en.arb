@@ -272,6 +272,9 @@
   "appLockScopeWater": "Water code",
   "appLockScopeSchoolNet": "Campus network",
   "appLockScopeAi": "AI assistant",
+  "appLockNow": "Lock now",
+  "appLockNowHint": "Clears every current unlock; protected features will require verification again.",
+  "appLockNowDone": "Locked",
   "authLoginWithPasskey": "Sign in with Passkey",
   "authPasskeyPasswordlessAvailable": "Passwordless sign-in available",
   "authPasskeyVerificationOnly": "Verification only",
@@ -1199,8 +1202,10 @@
   "settingsFeaturesEntryTitle": "Features",
   "settingsFeaturesEntrySubtitle": "Widgets, home, AI, and weather",
   "settingsGeneral": "General",
-  "settingsGeneralEntrySubtitle": "Language, navigation and cache",
+  "settingsGeneralEntrySubtitle": "Navigation, notifications and cache",
   "settingsGeneralEntryTitle": "General",
+  "settingsPrivacySecurityEntryTitle": "Privacy & security",
+  "settingsPrivacySecurityEntrySubtitle": "Permissions, app lock and device trust",
   "settingsHomeBlockCount": "Block count",
   "settingsHomeBlockDuration": "Block duration",
   "settingsHomeBlockGap": "Gap between blocks",
@@ -2293,6 +2298,8 @@
   "settingsDevKeepScreenAwakeSubtitle": "Prevents sleep only in Debug builds while the app is in the foreground",
   "settingsDevReceivePrereleaseUpdates": "Receive prerelease updates",
   "settingsDevReceivePrereleaseUpdatesSubtitle": "When off, prerelease builds are not offered as updates",
+  "settingsDevSimulateUpdate": "Simulate update",
+  "settingsDevSimulateUpdateSubtitle": "Walks through the update prompt, download and install UI without downloading files or changing any state",
   "settingsDevDisableTitle": "Disable Developer Mode",
   "settingsDevDisableSubtitle": "After disabling, re-enable by tapping version number repeatedly",
   "settingsHomeGridAlpha": "Grid Background Opacity",
@@ -7352,6 +7359,22 @@
   "chaoxingChapterRead": "Studied",
   "chaoxingChapterUnread": "Not started",
   "chaoxingChapterTimed": "Scheduled",
+  "chaoxingChapterSectionCount": "{count} sections",
+  "chaoxingChapterOrdinal": "Chapter {count}",
+  "@chaoxingChapterOrdinal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@chaoxingChapterSectionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingCardsLoadFailed": "Failed to load cards: {message}",
   "@chaoxingCardsLoadFailed": {
     "placeholders": {
@@ -7719,6 +7742,9 @@
   "lepaoUploadBusy": "Generating and uploading…",
   "lepaoUploadDone": "Upload complete",
   "lepaoUploadInvalid": "Enter a valid distance and pace.",
+  "lepaoUploadZoneLabel": "Run zone",
+  "lepaoUploadCardHint": "Usually the same as your student number.",
+  "lepaoUploadRestore": "Restore auto value",
   "csEbanCollegeSection": "WHU School of Computer Science",
   "csEbanAccountTitle": "CS易办 credentials",
   "csEbanAccountHint": "Save your undergraduate CS易办 credentials on this device. Saving does not sign in; opening a query signs in automatically.",
@@ -8634,7 +8660,10 @@
   "settingsFeaturesVivoWatchToggleTitle": "Sync to vivo Watch",
   "settingsFeaturesVivoWatchToggleSubtitle": "Sync schedules and campus card via BlueXLink",
   "settingsWearablesEntryTitle": "Wearable Connection",
-  "settingsWearablesEntrySubtitle": "Connect and manage Huawei Watch and vivo Watch",
+  "settingsWearablesEntrySubtitle": "Connect and manage Huawei, vivo and Xiaomi wearables",
+  "settingsFeaturesXiaomiWatchSectionTitle": "Xiaomi Band",
+  "settingsFeaturesXiaomiWatchToggleTitle": "Sync to Xiaomi Band",
+  "settingsFeaturesXiaomiWatchToggleSubtitle": "Sync schedules, bus and campus card via Mi Fitness",
   "aiScrollToBottom": "Jump to latest",
   "@aiScrollToBottom": {
     "description": "Scroll the AI conversation to its latest message."
@@ -8726,5 +8755,208 @@
         "type": "int"
       }
     }
-  }
+  },
+  "widget_agenda_list_name": "Agenda List",
+  "widget_agenda_list_description": "Today's schedule on the left, tasks and memos on the right",
+  "widget_loading": "Loading…",
+  "widget_course_grid_name": "Today's Classes",
+  "widget_course_grid_description": "Today's classes and the next one",
+  "widget_countdown_name": "Starting Soon",
+  "widget_countdown_description": "Next upcoming item with a countdown",
+  "widget_week_course_name": "This Week",
+  "widget_week_course_description": "Weekly class overview by weekday",
+  "widget_preview_agenda_weekday": "Wednesday",
+  "widget_preview_agenda_week": "Week 3 · Sep 24",
+  "widget_preview_agenda_item1": "Advanced Math Exercise",
+  "widget_preview_agenda_item1_meta": "14:00-15:40 · Bldg 5-201",
+  "widget_preview_agenda_item2": "English Presentation",
+  "widget_preview_agenda_item2_meta": "16:00-17:40 · Lang Bldg 302",
+  "widget_preview_agenda_item3": "Lab Group Meeting",
+  "widget_preview_agenda_item3_meta": "19:00-20:30 · Lab Bldg A103",
+  "widget_preview_agenda_item4": "Submit Lab Report",
+  "widget_preview_agenda_item4_meta": "Due 23:59",
+  "widget_preview_today_title": "Today's Classes",
+  "widget_preview_today_date": "Sep 24",
+  "widget_preview_course1": "Advanced Math B",
+  "widget_preview_course1_meta": "08:00-09:40 · Bldg 5-201",
+  "widget_preview_course2": "College English",
+  "widget_preview_course2_meta": "10:00-11:40 · Lang Bldg 302",
+  "widget_preview_course3": "Data Structures",
+  "widget_preview_course3_meta": "14:00-15:40 · CS Bldg 101",
+  "widget_preview_more_one": "+1 more",
+  "widget_preview_countdown_status": "Starts soon",
+  "widget_preview_countdown_left": "In 25m",
+  "widget_preview_week_title": "This Week",
+  "widget_preview_week_range": "9/22-9/28",
+  "widget_preview_day1": "Mon",
+  "widget_preview_day2": "Tue",
+  "widget_preview_day3": "Wed",
+  "widget_preview_day4": "Thu",
+  "widget_preview_day5": "Fri",
+  "widget_preview_week_c1": "Math",
+  "widget_preview_week_c1_meta": "08:00",
+  "widget_preview_week_c2": "English",
+  "widget_preview_week_c2_meta": "10:00",
+  "widget_preview_week_c3": "PE",
+  "widget_preview_week_c3_meta": "14:00",
+  "widget_preview_week_c4": "Data Struct.",
+  "widget_preview_week_c4_meta": "08:00",
+  "widget_preview_week_c5": "Math",
+  "widget_preview_week_c5_meta": "14:00",
+  "widget_preview_week_c6": "Physics",
+  "widget_preview_week_c6_meta": "10:00",
+  "widget_preview_week_empty": "—",
+  "widget_rt_status_inprogress": "In progress",
+  "widget_rt_status_next": "Next",
+  "widget_rt_status_done": "Done",
+  "widget_rt_course_empty_today": "No classes",
+  "widget_rt_course_empty": "No courses today",
+  "widget_rt_more_count": "+{count} more",
+  "widget_rt_date_md": "{month}/{day}",
+  "widget_rt_week_empty": "No courses",
+  "widget_rt_day_mon": "Mon",
+  "widget_rt_day_tue": "Tue",
+  "widget_rt_day_wed": "Wed",
+  "widget_rt_day_thu": "Thu",
+  "widget_rt_day_fri": "Fri",
+  "widget_rt_day_sat": "Sat",
+  "widget_rt_day_sun": "Sun",
+  "widget_rt_countdown_empty": "Nothing upcoming",
+  "widget_rt_countdown_soon": "Starts soon",
+  "widget_rt_countdown_none": "None",
+  "widget_rt_cd_ending_soon": "Ending soon",
+  "widget_rt_cd_starting_soon": "Starting soon",
+  "widget_rt_cd_ends_min": "Ends in {min}m",
+  "widget_rt_cd_in_min": "In {min}m",
+  "widget_rt_cd_ends_hour": "Ends in {hour}h {min}m",
+  "widget_rt_cd_in_hour": "In {hour}h {min}m",
+  "widget_rt_cd_ends_day": "Ends in {day}d",
+  "widget_rt_cd_in_day": "In {day}d",
+  "widget_rt_all_day": "All day",
+  "widget_rt_type_schedule": "Schedule",
+  "widget_rt_type_memo": "Memo",
+  "widget_rt_type_course": "Course",
+  "widget_rt_type_task": "Task",
+  "widget_rt_untitled": "Untitled",
+  "widget_rt_untitled_course": "Untitled course",
+  "widget_rt_untitled_item": "Untitled item",
+  "widget_rt_updated_at": "Updated {time}",
+  "widget_rt_week_index": "Week {week}",
+  "widget_rt_period_same_month": "Week {week} of {monthName}",
+  "widget_rt_period_cross_month": "Week {week} of {year}",
+  "widget_rt_agenda_today_title": "Today",
+  "widget_rt_agenda_empty_today": "No items today",
+  "widget_rt_agenda_empty": "No items",
+  "widget_rt_agenda_left_empty": "No schedule today",
+  "widget_rt_agenda_right_title": "Tasks & Memos",
+  "widget_rt_sync_off_title": "Sync off",
+  "widget_rt_sync_off_body": "Enable widget sync in settings",
+  "widget_rt_no_data_title": "No data",
+  "widget_rt_no_data_body": "Open the app to sync",
+  "@widget_rt_more_count": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_date_md": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_cd_ends_min": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_cd_in_min": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_cd_ends_hour": {
+    "placeholders": {
+      "hour": {
+        "type": "int"
+      },
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_cd_in_hour": {
+    "placeholders": {
+      "hour": {
+        "type": "int"
+      },
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_cd_ends_day": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_cd_in_day": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_updated_at": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@widget_rt_week_index": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "@widget_rt_period_same_month": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "monthName": {
+        "type": "String"
+      }
+    }
+  },
+  "@widget_rt_period_cross_month": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      },
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "widget_preview_location_t5": "Bldg 5-201",
+  "widget_preview_location_lang": "Lang Bldg 302",
+  "widget_preview_location_cs": "CS Bldg 101",
+  "widget_preview_location_lab": "Lab Bldg A103"
 }
