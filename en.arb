@@ -1,4 +1,29 @@
 {
+  "campusAppMentalHealth": "Mental Health",
+  "mentalHealthStart": "Start",
+  "mentalHealthPrevious": "Previous",
+  "mentalHealthNext": "Next",
+  "mentalHealthSubmit": "Submit",
+  "mentalHealthResultTitle": "Result",
+  "mentalHealthDimensions": "Dimensions",
+  "mentalHealthRetake": "Retake",
+  "mentalHealthDone": "Done",
+  "mentalHealthHistory": "History",
+  "mentalHealthHistoryEmpty": "No assessments yet",
+  "mentalHealthDisclaimerTitle": "Important",
+  "mentalHealthDisclaimerBody": "This result is for self-understanding and screening only and does not replace a professional diagnosis. If you feel unwell, please seek professional help promptly.",
+  "mentalHealthCrisisTitle": "Please note",
+  "mentalHealthSearchHint": "Search scale name or abbreviation",
+  "mentalHealthQuestionCount": "{count} questions",
+  "@mentalHealthQuestionCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mentalHealthSearchEmpty": "No matching scales",
+  "mentalHealthClearHistory": "Clear history",
+  "mentalHealthClearHistoryMessage": "Clear all assessment records? This cannot be undone.",
+  "appLockScopeMentalHealth": "Mental health",
   "opacErrorRequest": "Library request failed",
   "opacErrorSession": "The library session is unavailable. Sign in again.",
   "opacErrorTimeout": "The library request timed out. Try again later.",
@@ -7402,6 +7427,30 @@
       }
     }
   },
+  "chaoxingVideoFullscreen": "Fullscreen",
+  "chaoxingVideoExitFullscreen": "Exit fullscreen",
+  "chaoxingPdfLoadFailed": "PDF failed to load: {message}",
+  "@chaoxingPdfLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chaoxingVideoEpisodes": "Episodes",
+  "chaoxingVideoEpisodeLabel": "Video {index}",
+  "chaoxingQuiz": "Quiz",
+  "chaoxingQuizSubmit": "Submit",
+  "chaoxingQuizCorrect": "Correct",
+  "chaoxingQuizWrong": "Wrong",
+  "chaoxingQuizCorrectAnswer": "Correct answer",
+  "@chaoxingVideoEpisodeLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignUseWeb": "Use web version",
   "chaoxingSignUseWebSubtitle": "Open this sign-in in a web page instead",
   "chaoxingSignSubmit": "Sign in",
@@ -7666,14 +7715,7 @@
   "whuProfileSourceOutcomeFailed": "Failed",
   "whuProfileSourceOutcomeSkipped": "Skipped",
   "whuProfileSourceOutcomeNotAttempted": "Not attempted",
-  "whuProfileSyncUpdatedAt": "Last updated {time}",
-  "@whuProfileSyncUpdatedAt": {
-    "placeholders": {
-      "time": {
-        "type": "String"
-      }
-    }
-  },
+  "whuProfileSyncUpdatedAt": "Last updated",
   "whuProfileSyncResyncAction": "Re-sync",
   "whuProfileSyncFieldPlaceholder": "Syncing",
   "whuProfileSyncPreferredSourceTitle": "Preferred profile source",
@@ -7730,7 +7772,10 @@
   "lepaoStatusDailyQuota": "Daily quota reached",
   "lepaoStatusTimeAbnormal": "Abnormal timing",
   "lepaoStatusCheckpointAbnormal": "Checkpoint error",
-  "lepaoStatusUnknown": "Unknown",
+  "lepaoStatusUnknown": "Invalid",
+  "lepaoReasonTooFast": "Too fast",
+  "lepaoReasonTooSlow": "Too slow",
+  "lepaoReasonInsufficientCheckpoints": "Insufficient checkpoints",
   "lepaoUploadTitle": "Test run upload",
   "lepaoUploadDisabled": "Test run upload is disabled",
   "lepaoUploadDistanceLabel": "Distance (km)",
@@ -7745,6 +7790,13 @@
   "lepaoUploadZoneLabel": "Run zone",
   "lepaoUploadCardHint": "Usually the same as your student number.",
   "lepaoUploadRestore": "Restore auto value",
+  "lepaoUploadGenerate": "Generate",
+  "lepaoUploadGenerating": "Generating…",
+  "lepaoUploadConfirm": "Confirm upload",
+  "lepaoUploadUploading": "Uploading…",
+  "lepaoUploadPreviewTitle": "Preview",
+  "lepaoUploadRegenerate": "Regenerate",
+  "lepaoUploadViewDetail": "View detail",
   "csEbanCollegeSection": "WHU School of Computer Science",
   "csEbanAccountTitle": "CS易办 credentials",
   "csEbanAccountHint": "Save your undergraduate CS易办 credentials on this device. Saving does not sign in; opening a query signs in automatically.",
