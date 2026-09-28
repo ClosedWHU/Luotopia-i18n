@@ -1,0 +1,30 @@
+#!/usr/bin/env sh
+#
+# Guards against "filler" translations in the ARB files: pasting the English
+# source into non-Chinese locales, or pasting Simplified Chinese into
+# Traditional / Cantonese. The allowlist lives in tool/check_i18n.py and
+# mirrors the @@keep-english policy note in each ARB file.
+#
+# To install (once per clone):
+#   git config core.hooksPath .githooks
+set -eu
+
+ROOT="$(git rev-parse --show-toplevel)"
+
+# Windows ships a zero-byte Microsoft Store stub as `python3` that `command -v`
+# happily resolves; executing it exits non-zero without any output, which used
+# to abort every commit silently. Verify the candidate actually runs.
+PY=""
+for candidate in python3 python; do
+  if command -v "$candidate" >/dev/null 2>&1 &&
+    "$candidate" --version >/dev/null 2>&1; then
+    PY="$candidate"
+    break
+  fi
+done
+if [ -z "$PY" ]; then
+  echo "pre-commit: python not found; skipping i18n filler check" >&2
+  exit 0
+fi
+
+exec "$PY" "$ROOT/tool/check_i18n.py" --staged
