@@ -24,6 +24,7 @@ Usage:
     check_i18n.py            # check every locale
     check_i18n.py --staged   # check only keys added/changed in the index
                              # (what the pre-commit hook runs)
+    check_i18n.py --fix      # strip empty "@key": {} blocks from every catalog
 
 Exit code: 0 clean, 1 filler found.
 """
@@ -202,6 +203,35 @@ def check_empty_metadata(locale: str, data: dict) -> list[str]:
     ]
 
 
+_EMPTY_META_RE = re.compile(r'^  "@[^"]+": \{\},$')
+
+
+def fix_empty_metadata() -> int:
+    """Rewrite every catalog without its empty `"@key": {}` blocks.
+
+    One-shot cleanup for a Weblate export that re-injected them (see
+    check_empty_metadata). Only empty blocks are removed -- a block carrying a
+    description or placeholders is left untouched -- and each rewritten file is
+    re-parsed before writing. Writes preserve LF endings, which the ARB
+    .gitattributes mandates.
+    """
+    removed_total = 0
+    for p in ARB_DIR.glob("*.arb"):
+        raw = p.read_text(encoding="utf-8")
+        lines = raw.split("\n")
+        kept = [line for line in lines if not _EMPTY_META_RE.match(line)]
+        n = len(lines) - len(kept)
+        if n == 0:
+            continue
+        text = "\n".join(kept)
+        json.loads(text)  # fail loudly rather than write a broken catalog
+        p.write_bytes(text.encode("utf-8"))
+        removed_total += n
+        print(f"check_i18n: {p.stem}.arb removed {n} empty @-metadata block(s)")
+    print(f"check_i18n: removed {removed_total} empty block(s) in total")
+    return 0
+
+
 def staged_keys() -> dict[str, set[str]]:
     """Map locale -> keys added or changed in the index, from the staged diff."""
     result: dict[str, set[str]] = {}
@@ -234,6 +264,9 @@ def staged_keys() -> dict[str, set[str]]:
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8")
+
+    if "--fix" in sys.argv:
+        return fix_empty_metadata()
 
     template = _values(_load(TEMPLATE))
     simplified = _values(_load(SIMPLIFIED))
