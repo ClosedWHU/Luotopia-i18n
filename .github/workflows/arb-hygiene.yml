@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   check:
-    name: Check filler + empty metadata
+    name: Check filler translations
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

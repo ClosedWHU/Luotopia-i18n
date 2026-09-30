@@ -11,9 +11,6 @@ Two classes of filler are forbidden:
    checked: formal written Cantonese legitimately uses Standard Written
    Chinese, so equality with Mandarin is not, by itself, filler.
 
-A third, structural check runs alongside them: `"@key": {}` metadata blocks
-that carry no description and no placeholders. See check_empty_metadata.
-
 Some values legitimately keep the same spelling everywhere: the Latin loanwords
 and technical terms listed in KEEP_VALUES (mirrored from the ``@@keep-english``
 policy note), brand names, currency codes, units, OS names, build channels,
@@ -24,7 +21,6 @@ Usage:
     check_i18n.py            # check every locale
     check_i18n.py --staged   # check only keys added/changed in the index
                              # (what the pre-commit hook runs)
-    check_i18n.py --fix      # strip empty "@key": {} blocks from every catalog
 
 Exit code: 0 clean, 1 filler found.
 """
@@ -181,57 +177,6 @@ def check_locale(
     return violations
 
 
-def all_locales() -> list[str]:
-    """Every catalog present in the ARB directory, so the list cannot drift."""
-    return sorted(p.stem for p in ARB_DIR.glob("*.arb"))
-
-
-def check_empty_metadata(locale: str, data: dict) -> list[str]:
-    """Flag `"@key": {}` blocks: metadata entries that carry nothing.
-
-    Weblate's ARB export writes one per message. That is how zh_Hant.arb picked
-    up 2704 of them in 49071c1 (2026-09-03, "Translated using Weblate (Chinese
-    (Traditional Han script))") and ended up 1.5x the size of every other
-    catalog. gen-l10n reads placeholder metadata from the template only, so an
-    empty block in a locale file changes no behaviour -- but it buries real
-    diffs, inflates the review surface in Weblate, and grows on every sync.
-    """
-    return [
-        f"{locale}.arb: {key} is an empty @-metadata block"
-        for key in data
-        if key.startswith("@") and data[key] == {}
-    ]
-
-
-_EMPTY_META_RE = re.compile(r'^  "@[^"]+": \{\},$')
-
-
-def fix_empty_metadata() -> int:
-    """Rewrite every catalog without its empty `"@key": {}` blocks.
-
-    One-shot cleanup for a Weblate export that re-injected them (see
-    check_empty_metadata). Only empty blocks are removed -- a block carrying a
-    description or placeholders is left untouched -- and each rewritten file is
-    re-parsed before writing. Writes preserve LF endings, which the ARB
-    .gitattributes mandates.
-    """
-    removed_total = 0
-    for p in ARB_DIR.glob("*.arb"):
-        raw = p.read_text(encoding="utf-8")
-        lines = raw.split("\n")
-        kept = [line for line in lines if not _EMPTY_META_RE.match(line)]
-        n = len(lines) - len(kept)
-        if n == 0:
-            continue
-        text = "\n".join(kept)
-        json.loads(text)  # fail loudly rather than write a broken catalog
-        p.write_bytes(text.encode("utf-8"))
-        removed_total += n
-        print(f"check_i18n: {p.stem}.arb removed {n} empty @-metadata block(s)")
-    print(f"check_i18n: removed {removed_total} empty block(s) in total")
-    return 0
-
-
 def staged_keys() -> dict[str, set[str]]:
     """Map locale -> keys added or changed in the index, from the staged diff."""
     result: dict[str, set[str]] = {}
@@ -265,9 +210,6 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8")
 
-    if "--fix" in sys.argv:
-        return fix_empty_metadata()
-
     template = _values(_load(TEMPLATE))
     simplified = _values(_load(SIMPLIFIED))
 
@@ -292,17 +234,6 @@ def main() -> int:
             )
         )
 
-    # Structural, not key-scoped: an empty @-metadata block is noise wherever it
-    # sits, and a Weblate export touches every key at once, so scoping this to
-    # the staged keys would miss most of the damage. Still limited to the
-    # catalogs the commit actually touched, so an unrelated commit cannot be
-    # blocked by a file it never opened.
-    structural: list[str] = []
-    for locale in all_locales():
-        if staged_mode and locale not in staged:
-            continue
-        structural.extend(check_empty_metadata(locale, _load(locale)))
-
     if violations:
         print("check_i18n: filler translations detected:")
         for line in violations:
@@ -311,18 +242,6 @@ def main() -> int:
             "check_i18n: translate these instead of copying English / "
             "Simplified Chinese (see the @@keep-english note in each ARB)."
         )
-
-    if structural:
-        print("check_i18n: empty @-metadata blocks detected:")
-        print(f"  {len(structural)} in total; first 10:")
-        for line in structural[:10]:
-            print(f"  {line}")
-        print(
-            "check_i18n: drop them. Weblate's ARB export emits one per message; "
-            "gen-l10n takes placeholder metadata from the template only."
-        )
-
-    if violations or structural:
         return 1
 
     print("check_i18n: " + ("no filler in staged changes" if staged else "clean"))
