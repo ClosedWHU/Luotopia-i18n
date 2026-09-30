@@ -1,5 +1,10 @@
 # ARB catalogs are JSON and must remain LF-only in every checkout.
 * text=auto eol=lf
 
-# GitHub linguist: classify .arb as JSON
-*.arb linguist-language=JSON
+# GitHub linguist needs two separate switches here. `.arb` is not in linguist's
+# JSON extension list, so the files have to be classified explicitly; and JSON is
+# `type: data` in languages.yml, which linguist leaves out of the repository
+# language statistics by default -- only `programming` and `markup` count.
+# `detectable` is what puts them back, so the bar reflects that this repo is
+# translation data instead of showing only its two tooling scripts.
+*.arb linguist-language=JSON linguist-detectable=true
