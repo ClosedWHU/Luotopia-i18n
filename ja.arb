@@ -1773,6 +1773,65 @@
   "settingsSecurityCloneSubtitle": "安全なストレージは読み取り時に消去されるため、ログアウトされます。タップして詳細を表示。",
   "settingsSecurityCompromisedTitle": "危険な実行環境を検出しました",
   "settingsSecurityCompromisedSubtitle": "組み込みキーに依存する機能は無効になり、開発者モードは使用できません。ログイン状態は影響を受けません。タップして詳細を表示。",
+  "deviceTrustSummaryClonedTitle": "アプリデータの複製を検出しました",
+  "deviceTrustSummaryClonedSubtitle": "デバイスバインディング検査により、このアプリデータが別のデバイスに複製されたと判定されました。セキュアストレージは読み取り時に消去されるため、サインアウトされます。",
+  "deviceTrustSummaryCompromisedTitle": "セキュリティシグナルを検出しました",
+  "deviceTrustSummaryCleanTitle": "デバイスに問題はありません",
+  "deviceTrustSummaryCleanSubtitle": "セキュリティ上の脅威は検出されませんでした。",
+  "deviceTrustSummaryDetected": "検出項目：{threats}",
+  "@deviceTrustSummaryDetected": {
+    "placeholders": {
+      "threats": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustListSeparator": "、",
+  "deviceTrustDowngradeTitle": "防御機能を縮小しました",
+  "deviceTrustDowngradeSubtitle": "データを保護するため、組み込みキーへのアクセスを遮断しました。これに強く依存する一部機能は使えない場合があります。ログイン状態は影響を受けません。",
+  "deviceTrustSignalsSection": "セキュリティシグナル",
+  "deviceTrustIdentitySection": "デバイス識別情報",
+  "deviceTrustRawSection": "生データの詳細",
+  "deviceTrustStateSecure": "問題なし",
+  "deviceTrustStateCompromised": "検出",
+  "deviceTrustStateUnsupported": "未対応",
+  "deviceTrustStateError": "エラー",
+  "deviceTrustRootTitle": "Root / 脱獄",
+  "deviceTrustRootSubtitle": "脱獄・Root 化されたシステムを検出します（Magisk、KernelSU など）",
+  "deviceTrustBootloaderTitle": "Bootloader のロック解除",
+  "deviceTrustBootloaderSubtitle": "verified-boot の状態を調べます。Root 隠蔽構成（KernelSU + SUSFS + Shamiko）が唯一隠せない項目です。ハードウェアキー証明に焼き込まれているため、上の Root 検査が欺かれてもこちらは検出されます。",
+  "deviceTrustUnsupportedHere": "このプラットフォームに対応する検査はありません",
+  "deviceTrustDebuggerTitle": "デバッガーのアタッチ",
+  "deviceTrustDebuggerSubtitle": "プロセスにデバッガーがアタッチされているか（アンチデバッグ）",
+  "deviceTrustHooksTitle": "フックフレームワーク",
+  "deviceTrustHooksSubtitle": "Frida や Xposed などのフックフレームワークを検出します",
+  "deviceTrustSimulatorTitle": "エミュレーター",
+  "deviceTrustSimulatorSubtitle": "エミュレーターや仮想マシン上で動作していないか",
+  "deviceTrustIntegrityTitle": "アプリの改ざん",
+  "deviceTrustIntegritySubtitle": "パッケージ名や署名が公式ビルドと一致しません",
+  "deviceTrustBindingTitle": "デバイスバインディング / 複製検出",
+  "deviceTrustBindingCompromisedSubtitle": "アプリデータが別のデバイスに複製されたと判定：セキュアストレージは読み取り時に消去され、サインアウトされます",
+  "deviceTrustBindingSecureSubtitle": "アプリデータはこのデバイスに紐付いており、デバイス間の複製は検出されませんでした",
+  "deviceTrustStoreTitle": "非公式ストア",
+  "deviceTrustStoreSubtitle": "未使用：アプリは APK のサイドロードで配布しているため、インストール元検査は正常なインストールをすべて誤検知します",
+  "deviceTrustBuildDefectTitle": "ビルドの不備：難読化されていません",
+  "deviceTrustBuildDefectSubtitle": "このリリースの Dart スナップショットは --obfuscate で処理されておらず、コード識別子を直接復元できます。お使いのデバイスとは無関係です。開発者にご報告ください：{defects}",
+  "@deviceTrustBuildDefectSubtitle": {
+    "placeholders": {
+      "defects": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustDesktopDebuggerWindows": "IsDebuggerPresent でユーザーモードのデバッガーを検出します",
+  "deviceTrustDesktopDebuggerLinux": "/proc/self/status の TracerPid で検出します",
+  "deviceTrustElevationTitle": "昇格権限での実行",
+  "deviceTrustElevationSubtitle": "プロセスが root（Unix）または管理者（Windows）権限で動作していないか",
+  "deviceTrustInstallIdTitle": "インストール ID",
+  "deviceTrustInstallIdEmpty": "未生成",
+  "deviceTrustInstallIdUsageTitle": "この ID の使われ方",
+  "deviceTrustInstallIdUsageSubtitle": "サーバーの「ログイン中のデバイス」一覧、プッシュのデバイス登録、freeRASP の external id はすべて同じ値を使うため、三者のイベントを突き合わせられます。セキュアストレージ（Keystore / Secure Enclave）に保存され、複製検出が命中すると再生成されるので、複製側は元のデバイスの身元を引き継ぎません。",
+  "deviceTrustRawJsonTitle": "JSON 出力",
   "hotUpdateTitle": "ホットアップデート管理",
   "hotUpdateManifestVersion": "マニフェスト v{version}",
   "@hotUpdateManifestVersion": {

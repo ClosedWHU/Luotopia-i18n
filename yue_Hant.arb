@@ -382,6 +382,65 @@
   "settingsSecurityCloneSubtitle": "安全儲存會喺讀取時被清空，帳號會自動登出。點擊查看詳情。",
   "settingsSecurityCompromisedTitle": "檢測到風險運行環境",
   "settingsSecurityCompromisedSubtitle": "依賴內置密鑰嘅功能已經停用，開發者模式用唔到；登入狀態唔受影響。點擊查看詳情。",
+  "deviceTrustSummaryClonedTitle": "檢測到應用數據俾人複製咗",
+  "deviceTrustSummaryClonedSubtitle": "裝置綁定檢查判定應用數據俾人複製咗去第二部裝置。安全儲存會喺讀取嗰陣清空，帳號會自動登出。",
+  "deviceTrustSummaryCompromisedTitle": "檢測到安全訊號",
+  "deviceTrustSummaryCleanTitle": "裝置狀態正常",
+  "deviceTrustSummaryCleanSubtitle": "未檢測到安全威脅。",
+  "deviceTrustSummaryDetected": "檢測到：{threats}",
+  "@deviceTrustSummaryDetected": {
+    "placeholders": {
+      "threats": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustListSeparator": "、",
+  "deviceTrustDowngradeTitle": "防禦已經降級",
+  "deviceTrustDowngradeSubtitle": "為咗保護你嘅數據安全，底層密鑰存取已經被切斷，部分強依賴功能可能用唔到；登入狀態唔受影響。",
+  "deviceTrustSignalsSection": "安全訊號",
+  "deviceTrustIdentitySection": "裝置識別",
+  "deviceTrustRawSection": "原始詳情",
+  "deviceTrustStateSecure": "正常",
+  "deviceTrustStateCompromised": "檢測到",
+  "deviceTrustStateUnsupported": "不支援",
+  "deviceTrustStateError": "錯誤",
+  "deviceTrustRootTitle": "Root / 越獄",
+  "deviceTrustRootSubtitle": "檢測越獄或者 Root（例如 Magisk、KernelSU）",
+  "deviceTrustBootloaderTitle": "Bootloader 已解鎖",
+  "deviceTrustBootloaderSubtitle": "檢測 verified-boot 狀態。呢個係 Root 隱藏方案（KernelSU + SUSFS + Shamiko）唯一藏唔住嘅一項：佢燒喺硬體密鑰證明入面，上面嘅 Root 檢查俾人騙過嗰陣呢條照樣會命中。",
+  "deviceTrustUnsupportedHere": "目前平台暫時冇呢項檢查",
+  "deviceTrustDebuggerTitle": "除錯工具附加",
+  "deviceTrustDebuggerSubtitle": "進程係咪俾人附加咗除錯工具（Anti-Debugging）",
+  "deviceTrustHooksTitle": "注入框架（Hook）",
+  "deviceTrustHooksSubtitle": "檢測 Frida、Xposed 呢類掛鉤框架",
+  "deviceTrustSimulatorTitle": "模擬器",
+  "deviceTrustSimulatorSubtitle": "係咪喺模擬器或者虛擬機上面運行",
+  "deviceTrustIntegrityTitle": "應用俾人改過",
+  "deviceTrustIntegritySubtitle": "應用包名或者簽名同官方唔符",
+  "deviceTrustBindingTitle": "裝置綁定 / 複製檢測",
+  "deviceTrustBindingCompromisedSubtitle": "判定應用數據俾人複製咗去其它裝置：安全儲存會喺讀取嗰陣清空，帳號跟住就會登出",
+  "deviceTrustBindingSecureSubtitle": "應用數據同本機綁定，未檢測到跨裝置複製",
+  "deviceTrustStoreTitle": "非官方商店",
+  "deviceTrustStoreSubtitle": "未啟用：應用本身就係用 APK 側載分發，安裝來源檢查會對每一次正常安裝誤報",
+  "deviceTrustBuildDefectTitle": "建構缺陷：未混淆",
+  "deviceTrustBuildDefectSubtitle": "今次發布嘅 Dart 快照未經 --obfuscate 處理，代碼標識符可以直接還原。呢個同你部機無關，請話畀開發者知：{defects}",
+  "@deviceTrustBuildDefectSubtitle": {
+    "placeholders": {
+      "defects": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustDesktopDebuggerWindows": "透過 IsDebuggerPresent 檢測用戶模式除錯工具",
+  "deviceTrustDesktopDebuggerLinux": "透過 /proc/self/status 嘅 TracerPid 檢測",
+  "deviceTrustElevationTitle": "提權運行",
+  "deviceTrustElevationSubtitle": "進程係咪用 root（Unix）或者管理員（Windows）權限運行",
+  "deviceTrustInstallIdTitle": "安裝 ID",
+  "deviceTrustInstallIdEmpty": "未產生",
+  "deviceTrustInstallIdUsageTitle": "呢份 ID 用喺邊度",
+  "deviceTrustInstallIdUsageSubtitle": "服務端「登入裝置」列表、推送裝置註冊同 freeRASP 後台嘅 external id 用嘅係同一個值，所以三邊嘅事件可以互相對上。佢放喺安全儲存（Keystore / Secure Enclave）入面，複製檢測命中嗰陣會重新產生，複製體唔會繼承原裝置嘅身份。",
+  "deviceTrustRawJsonTitle": "JSON 輸出",
   "campusAppSchoolNetPay": "網費繳費",
   "schoolNetRefresh": "更新校園網狀態",
   "schoolNetLoading": "載入緊校園網套餐…",

@@ -3741,6 +3741,65 @@
   "settingsSecurityCloneSubtitle": "Secure storage is wiped on read, so you will be signed out. Tap for details.",
   "settingsSecurityCompromisedTitle": "Risky runtime environment detected",
   "settingsSecurityCompromisedSubtitle": "Features relying on built-in keys are disabled and Developer mode is blocked; your sign-in is unaffected. Tap for details.",
+  "deviceTrustSummaryClonedTitle": "App data has been cloned",
+  "deviceTrustSummaryClonedSubtitle": "The device-binding check decided this app data was copied to another device. Secure storage is wiped on read, so you will be signed out.",
+  "deviceTrustSummaryCompromisedTitle": "Security signals detected",
+  "deviceTrustSummaryCleanTitle": "Device looks healthy",
+  "deviceTrustSummaryCleanSubtitle": "No security threats detected.",
+  "deviceTrustSummaryDetected": "Detected: {threats}",
+  "@deviceTrustSummaryDetected": {
+    "placeholders": {
+      "threats": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustListSeparator": ", ",
+  "deviceTrustDowngradeTitle": "Defenses downgraded",
+  "deviceTrustDowngradeSubtitle": "To protect your data, access to the built-in keys has been cut, so some features that depend on them may be unavailable. Your sign-in is unaffected.",
+  "deviceTrustSignalsSection": "Security signals",
+  "deviceTrustIdentitySection": "Device identity",
+  "deviceTrustRawSection": "Raw details",
+  "deviceTrustStateSecure": "Clear",
+  "deviceTrustStateCompromised": "Detected",
+  "deviceTrustStateUnsupported": "Unsupported",
+  "deviceTrustStateError": "Error",
+  "deviceTrustRootTitle": "Root / jailbreak",
+  "deviceTrustRootSubtitle": "Detects a jailbroken or rooted system (Magisk, KernelSU and similar)",
+  "deviceTrustBootloaderTitle": "Unlocked bootloader",
+  "deviceTrustBootloaderSubtitle": "Checks the verified-boot state. This is the one signal a root-hiding setup (KernelSU + SUSFS + Shamiko) cannot conceal: it is baked into hardware key attestation, so it still fires when the root check above has been fooled.",
+  "deviceTrustUnsupportedHere": "This platform has no such check",
+  "deviceTrustDebuggerTitle": "Debugger attached",
+  "deviceTrustDebuggerSubtitle": "Whether a debugger is attached to the process (anti-debugging)",
+  "deviceTrustHooksTitle": "Hooking framework",
+  "deviceTrustHooksSubtitle": "Detects hooking frameworks such as Frida and Xposed",
+  "deviceTrustSimulatorTitle": "Emulator",
+  "deviceTrustSimulatorSubtitle": "Whether the app is running in an emulator or a virtual machine",
+  "deviceTrustIntegrityTitle": "App tampered",
+  "deviceTrustIntegritySubtitle": "The package name or signature does not match the official build",
+  "deviceTrustBindingTitle": "Device binding / clone detection",
+  "deviceTrustBindingCompromisedSubtitle": "Decided the app data was copied to another device: secure storage is wiped on read and you are signed out",
+  "deviceTrustBindingSecureSubtitle": "App data is bound to this device; no cross-device copy detected",
+  "deviceTrustStoreTitle": "Unofficial store",
+  "deviceTrustStoreSubtitle": "Not enabled: the app is distributed as a sideloaded APK, so an install-source check would flag every legitimate install",
+  "deviceTrustBuildDefectTitle": "Build defect: not obfuscated",
+  "deviceTrustBuildDefectSubtitle": "The Dart snapshot in this release was not processed with --obfuscate, so code identifiers can be recovered directly. This is not about your device — please report it to the developers: {defects}",
+  "@deviceTrustBuildDefectSubtitle": {
+    "placeholders": {
+      "defects": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustDesktopDebuggerWindows": "Detects user-mode debuggers through IsDebuggerPresent",
+  "deviceTrustDesktopDebuggerLinux": "Detected through TracerPid in /proc/self/status",
+  "deviceTrustElevationTitle": "Running elevated",
+  "deviceTrustElevationSubtitle": "Whether the process runs as root (Unix) or administrator (Windows)",
+  "deviceTrustInstallIdTitle": "Install ID",
+  "deviceTrustInstallIdEmpty": "Not generated",
+  "deviceTrustInstallIdUsageTitle": "Where this ID is used",
+  "deviceTrustInstallIdUsageSubtitle": "The server's signed-in devices list, push device registration and freeRASP's external id all use the same value, so events from the three can be matched up. It lives in secure storage (Keystore / Secure Enclave) and is regenerated when clone detection fires, so a clone does not inherit the original device's identity.",
+  "deviceTrustRawJsonTitle": "JSON output",
   "hotUpdateTitle": "Hot Update Management",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {

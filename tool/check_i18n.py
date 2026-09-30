@@ -11,6 +11,9 @@ Two classes of filler are forbidden:
    checked: formal written Cantonese legitimately uses Standard Written
    Chinese, so equality with Mandarin is not, by itself, filler.
 
+A third, structural check runs alongside them: `"@key": {}` metadata blocks
+that carry no description and no placeholders. See check_empty_metadata.
+
 Some values legitimately keep the same spelling everywhere: the Latin loanwords
 and technical terms listed in KEEP_VALUES (mirrored from the ``@@keep-english``
 policy note), brand names, currency codes, units, OS names, build channels,
@@ -67,7 +70,7 @@ KEEP_VALUES = {
     "VPN", "AI", "IP", "MAC", "ID", "OK", "MCP", "OpenID", "FAQ", "AED",
     "Passkey", "token", "Top P", "AQI", "PM2.5", "PM10", "CO", "NO₂",
     "SO₂", "O₃", "µg/m³", "GPA", "GP", "WHU GPA", "Lv", "SHA-256",
-    "Streamable HTTP", "stts",
+    "Streamable HTTP", "stts", "Root / jailbreak",
     # OS names / build channels / colors
     "Linux", "macOS", "Windows", "Alpha", "Beta", "Stable", "Indigo",
     # Single-word loanwords / admin & dev terms whose English spelling is
@@ -87,7 +90,7 @@ KEEP_VALUES = {
     "https://example.com/wallpaper.jpg",
     "ip-api.com",
     # Placeholder-only format strings, units, times, dates and symbols
-    "{count} sections", "{rating} / 5", "{price} CNY", "{amount} CNY",
+    "{count} sections", "{count} questions", "{rating} / 5", "{price} CNY", "{amount} CNY",
     "{value} CNY", "{lowPrice}-{highPrice} CNY", "~{meters}m",
     "{minutes} min", "{minute} min", "{hour} h", "Sem {s}", "{value}%",
     "{month}/{day}", "{day} - {endDay}", "{start} - {end}",
@@ -177,6 +180,28 @@ def check_locale(
     return violations
 
 
+def all_locales() -> list[str]:
+    """Every catalog present in the ARB directory, so the list cannot drift."""
+    return sorted(p.stem for p in ARB_DIR.glob("*.arb"))
+
+
+def check_empty_metadata(locale: str, data: dict) -> list[str]:
+    """Flag `"@key": {}` blocks: metadata entries that carry nothing.
+
+    Weblate's ARB export writes one per message. That is how zh_Hant.arb picked
+    up 2704 of them in 49071c1 (2026-09-03, "Translated using Weblate (Chinese
+    (Traditional Han script))") and ended up 1.5x the size of every other
+    catalog. gen-l10n reads placeholder metadata from the template only, so an
+    empty block in a locale file changes no behaviour -- but it buries real
+    diffs, inflates the review surface in Weblate, and grows on every sync.
+    """
+    return [
+        f"{locale}.arb: {key} is an empty @-metadata block"
+        for key in data
+        if key.startswith("@") and data[key] == {}
+    ]
+
+
 def staged_keys() -> dict[str, set[str]]:
     """Map locale -> keys added or changed in the index, from the staged diff."""
     result: dict[str, set[str]] = {}
@@ -234,6 +259,17 @@ def main() -> int:
             )
         )
 
+    # Structural, not key-scoped: an empty @-metadata block is noise wherever it
+    # sits, and a Weblate export touches every key at once, so scoping this to
+    # the staged keys would miss most of the damage. Still limited to the
+    # catalogs the commit actually touched, so an unrelated commit cannot be
+    # blocked by a file it never opened.
+    structural: list[str] = []
+    for locale in all_locales():
+        if staged_mode and locale not in staged:
+            continue
+        structural.extend(check_empty_metadata(locale, _load(locale)))
+
     if violations:
         print("check_i18n: filler translations detected:")
         for line in violations:
@@ -242,6 +278,18 @@ def main() -> int:
             "check_i18n: translate these instead of copying English / "
             "Simplified Chinese (see the @@keep-english note in each ARB)."
         )
+
+    if structural:
+        print("check_i18n: empty @-metadata blocks detected:")
+        print(f"  {len(structural)} in total; first 10:")
+        for line in structural[:10]:
+            print(f"  {line}")
+        print(
+            "check_i18n: drop them. Weblate's ARB export emits one per message; "
+            "gen-l10n takes placeholder metadata from the template only."
+        )
+
+    if violations or structural:
         return 1
 
     print("check_i18n: " + ("no filler in staged changes" if staged else "clean"))

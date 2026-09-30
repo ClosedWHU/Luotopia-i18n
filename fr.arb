@@ -1477,6 +1477,65 @@
   "settingsSecurityCloneSubtitle": "Le stockage sécurisé est effacé à la lecture : vous serez déconnecté. Touchez pour plus de détails.",
   "settingsSecurityCompromisedTitle": "Environnement d'exécution à risque détecté",
   "settingsSecurityCompromisedSubtitle": "Les fonctions dépendant des clés intégrées sont désactivées et le mode développeur est bloqué ; votre session n'est pas affectée. Touchez pour plus de détails.",
+  "deviceTrustSummaryClonedTitle": "Les données de l’application ont été clonées",
+  "deviceTrustSummaryClonedSubtitle": "La vérification de liaison à l’appareil a déterminé que ces données ont été copiées vers un autre appareil. Le stockage sécurisé est effacé à la lecture : vous serez déconnecté.",
+  "deviceTrustSummaryCompromisedTitle": "Signaux de sécurité détectés",
+  "deviceTrustSummaryCleanTitle": "L’appareil semble sain",
+  "deviceTrustSummaryCleanSubtitle": "Aucune menace de sécurité détectée.",
+  "deviceTrustSummaryDetected": "Détecté : {threats}",
+  "@deviceTrustSummaryDetected": {
+    "placeholders": {
+      "threats": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustListSeparator": ", ",
+  "deviceTrustDowngradeTitle": "Défenses réduites",
+  "deviceTrustDowngradeSubtitle": "Pour protéger vos données, l’accès aux clés intégrées a été coupé : certaines fonctions qui en dépendent fortement peuvent être indisponibles. Votre session n’est pas affectée.",
+  "deviceTrustSignalsSection": "Signaux de sécurité",
+  "deviceTrustIdentitySection": "Identité de l’appareil",
+  "deviceTrustRawSection": "Détails bruts",
+  "deviceTrustStateSecure": "Conforme",
+  "deviceTrustStateCompromised": "Détecté",
+  "deviceTrustStateUnsupported": "Non pris en charge",
+  "deviceTrustStateError": "Erreur",
+  "deviceTrustRootTitle": "Root / jailbreak",
+  "deviceTrustRootSubtitle": "Détecte un système jailbreaké ou rooté (Magisk, KernelSU et similaires)",
+  "deviceTrustBootloaderTitle": "Bootloader déverrouillé",
+  "deviceTrustBootloaderSubtitle": "Vérifie l’état du verified-boot. C’est le seul signal qu’une dissimulation de root (KernelSU + SUSFS + Shamiko) ne peut pas masquer : il est inscrit dans l’attestation matérielle des clés, donc il se déclenche même quand la vérification root ci-dessus a été trompée.",
+  "deviceTrustUnsupportedHere": "Cette plateforme ne dispose pas de cette vérification",
+  "deviceTrustDebuggerTitle": "Débogueur attaché",
+  "deviceTrustDebuggerSubtitle": "Indique si un débogueur est attaché au processus (anti-débogage)",
+  "deviceTrustHooksTitle": "Framework de hooking",
+  "deviceTrustHooksSubtitle": "Détecte les frameworks de hooking tels que Frida et Xposed",
+  "deviceTrustSimulatorTitle": "Émulateur",
+  "deviceTrustSimulatorSubtitle": "Indique si l’application s’exécute dans un émulateur ou une machine virtuelle",
+  "deviceTrustIntegrityTitle": "Application altérée",
+  "deviceTrustIntegritySubtitle": "Le nom du paquet ou la signature ne correspond pas à la version officielle",
+  "deviceTrustBindingTitle": "Liaison à l’appareil / détection de clonage",
+  "deviceTrustBindingCompromisedSubtitle": "A déterminé que les données ont été copiées vers un autre appareil : le stockage sécurisé est effacé à la lecture et vous êtes déconnecté",
+  "deviceTrustBindingSecureSubtitle": "Les données sont liées à cet appareil ; aucune copie vers un autre appareil n’a été détectée",
+  "deviceTrustStoreTitle": "Magasin non officiel",
+  "deviceTrustStoreSubtitle": "Non activé : l’application est distribuée en APK sideloadé, donc une vérification de la source d’installation signalerait chaque installation légitime",
+  "deviceTrustBuildDefectTitle": "Défaut de compilation : non obfusqué",
+  "deviceTrustBuildDefectSubtitle": "L’instantané Dart de cette version n’a pas été traité avec --obfuscate : les identifiants du code sont donc récupérables directement. Cela ne vient pas de votre appareil — merci de le signaler aux développeurs : {defects}",
+  "@deviceTrustBuildDefectSubtitle": {
+    "placeholders": {
+      "defects": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustDesktopDebuggerWindows": "Détecte les débogueurs en mode utilisateur via IsDebuggerPresent",
+  "deviceTrustDesktopDebuggerLinux": "Détection via TracerPid dans /proc/self/status",
+  "deviceTrustElevationTitle": "Exécution avec des droits élevés",
+  "deviceTrustElevationSubtitle": "Indique si le processus s’exécute en root (Unix) ou administrateur (Windows)",
+  "deviceTrustInstallIdTitle": "ID d’installation",
+  "deviceTrustInstallIdEmpty": "Non généré",
+  "deviceTrustInstallIdUsageTitle": "Où cet ID est utilisé",
+  "deviceTrustInstallIdUsageSubtitle": "La liste des appareils connectés côté serveur, l’enregistrement de l’appareil pour les notifications et l’external id de freeRASP utilisent la même valeur : les événements des trois peuvent donc être rapprochés. Elle est conservée dans le stockage sécurisé (Keystore / Secure Enclave) et régénérée quand la détection de clonage se déclenche, si bien qu’un clone n’hérite pas de l’identité de l’appareil d’origine.",
+  "deviceTrustRawJsonTitle": "Sortie JSON",
   "hotUpdateTitle": "Gestion des mises à jour à chaud",
   "hotUpdateManifestVersion": "Manifeste v{version}",
   "@hotUpdateManifestVersion": {

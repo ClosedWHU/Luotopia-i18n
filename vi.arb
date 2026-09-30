@@ -1594,6 +1594,65 @@
   "settingsSecurityCloneSubtitle": "Bộ nhớ an toàn sẽ bị xóa khi đọc, nên bạn sẽ bị đăng xuất. Nhấn để xem chi tiết.",
   "settingsSecurityCompromisedTitle": "Phát hiện môi trường chạy có rủi ro",
   "settingsSecurityCompromisedSubtitle": "Các tính năng phụ thuộc khóa tích hợp đã bị tắt và chế độ nhà phát triển bị chặn; trạng thái đăng nhập không bị ảnh hưởng. Nhấn để xem chi tiết.",
+  "deviceTrustSummaryClonedTitle": "Dữ liệu ứng dụng đã bị sao chép",
+  "deviceTrustSummaryClonedSubtitle": "Kiểm tra ràng buộc thiết bị xác định dữ liệu ứng dụng này đã bị sao chép sang thiết bị khác. Bộ nhớ an toàn sẽ bị xóa khi đọc, nên bạn sẽ bị đăng xuất.",
+  "deviceTrustSummaryCompromisedTitle": "Đã phát hiện tín hiệu bảo mật",
+  "deviceTrustSummaryCleanTitle": "Thiết bị có vẻ an toàn",
+  "deviceTrustSummaryCleanSubtitle": "Không phát hiện mối đe dọa bảo mật nào.",
+  "deviceTrustSummaryDetected": "Đã phát hiện: {threats}",
+  "@deviceTrustSummaryDetected": {
+    "placeholders": {
+      "threats": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustListSeparator": ", ",
+  "deviceTrustDowngradeTitle": "Phòng thủ đã bị hạ cấp",
+  "deviceTrustDowngradeSubtitle": "Để bảo vệ dữ liệu của bạn, quyền truy cập khóa tích hợp đã bị cắt, nên một số tính năng phụ thuộc chặt vào chúng có thể không dùng được. Trạng thái đăng nhập không bị ảnh hưởng.",
+  "deviceTrustSignalsSection": "Tín hiệu bảo mật",
+  "deviceTrustIdentitySection": "Danh tính thiết bị",
+  "deviceTrustRawSection": "Chi tiết thô",
+  "deviceTrustStateSecure": "Bình thường",
+  "deviceTrustStateCompromised": "Đã phát hiện",
+  "deviceTrustStateUnsupported": "Không hỗ trợ",
+  "deviceTrustStateError": "Lỗi",
+  "deviceTrustRootTitle": "Root / jailbreak",
+  "deviceTrustRootSubtitle": "Phát hiện hệ thống đã jailbreak hoặc root (Magisk, KernelSU và tương tự)",
+  "deviceTrustBootloaderTitle": "Bootloader đã mở khóa",
+  "deviceTrustBootloaderSubtitle": "Kiểm tra trạng thái verified-boot. Đây là tín hiệu duy nhất mà bộ ẩn root (KernelSU + SUSFS + Shamiko) không thể che giấu: nó được ghi trong chứng thực khóa phần cứng, nên vẫn báo ngay cả khi kiểm tra root ở trên đã bị qua mặt.",
+  "deviceTrustUnsupportedHere": "Nền tảng này chưa có kiểm tra này",
+  "deviceTrustDebuggerTitle": "Trình gỡ lỗi đang gắn",
+  "deviceTrustDebuggerSubtitle": "Cho biết có trình gỡ lỗi nào đang gắn vào tiến trình hay không (chống gỡ lỗi)",
+  "deviceTrustHooksTitle": "Framework hook",
+  "deviceTrustHooksSubtitle": "Phát hiện các framework hook như Frida và Xposed",
+  "deviceTrustSimulatorTitle": "Trình giả lập",
+  "deviceTrustSimulatorSubtitle": "Cho biết ứng dụng có đang chạy trong trình giả lập hoặc máy ảo hay không",
+  "deviceTrustIntegrityTitle": "Ứng dụng đã bị chỉnh sửa",
+  "deviceTrustIntegritySubtitle": "Tên gói hoặc chữ ký không khớp với bản phát hành chính thức",
+  "deviceTrustBindingTitle": "Ràng buộc thiết bị / phát hiện sao chép",
+  "deviceTrustBindingCompromisedSubtitle": "Xác định dữ liệu ứng dụng đã bị sao chép sang thiết bị khác: bộ nhớ an toàn bị xóa khi đọc và bạn bị đăng xuất",
+  "deviceTrustBindingSecureSubtitle": "Dữ liệu ứng dụng được ràng buộc với thiết bị này; không phát hiện bản sao chéo thiết bị",
+  "deviceTrustStoreTitle": "Kho ứng dụng không chính thức",
+  "deviceTrustStoreSubtitle": "Chưa bật: ứng dụng được phân phối dưới dạng APK cài ngoài, nên kiểm tra nguồn cài đặt sẽ báo nhầm mọi lần cài hợp lệ",
+  "deviceTrustBuildDefectTitle": "Lỗi bản dựng: chưa làm rối",
+  "deviceTrustBuildDefectSubtitle": "Snapshot Dart của bản phát hành này chưa được xử lý bằng --obfuscate, nên định danh mã có thể khôi phục trực tiếp. Việc này không liên quan đến thiết bị của bạn — hãy báo cho nhà phát triển: {defects}",
+  "@deviceTrustBuildDefectSubtitle": {
+    "placeholders": {
+      "defects": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustDesktopDebuggerWindows": "Phát hiện trình gỡ lỗi chế độ người dùng qua IsDebuggerPresent",
+  "deviceTrustDesktopDebuggerLinux": "Phát hiện qua TracerPid trong /proc/self/status",
+  "deviceTrustElevationTitle": "Chạy với quyền nâng cao",
+  "deviceTrustElevationSubtitle": "Cho biết tiến trình có chạy dưới quyền root (Unix) hoặc quản trị viên (Windows) hay không",
+  "deviceTrustInstallIdTitle": "ID cài đặt",
+  "deviceTrustInstallIdEmpty": "Chưa tạo",
+  "deviceTrustInstallIdUsageTitle": "ID này được dùng ở đâu",
+  "deviceTrustInstallIdUsageSubtitle": "Danh sách 'thiết bị đã đăng nhập' trên máy chủ, đăng ký thiết bị đẩy thông báo và external id của freeRASP đều dùng cùng một giá trị, nên sự kiện từ ba nơi có thể đối chiếu với nhau. Nó nằm trong bộ nhớ an toàn (Keystore / Secure Enclave) và được tạo lại khi phát hiện sao chép kích hoạt, nên bản sao không kế thừa danh tính của thiết bị gốc.",
+  "deviceTrustRawJsonTitle": "Kết xuất JSON",
   "hotUpdateTitle": "Quản lý cập nhật nóng",
   "hotUpdateManifestVersion": "Bản kê khai v{version}",
   "@hotUpdateManifestVersion": {

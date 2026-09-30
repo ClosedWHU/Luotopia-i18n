@@ -868,6 +868,65 @@
   "settingsSecurityCloneSubtitle": "Безопасное хранилище очищается при чтении, поэтому вы выйдете из аккаунта. Нажмите, чтобы посмотреть подробности.",
   "settingsSecurityCompromisedTitle": "Обнаружена рискованная среда выполнения",
   "settingsSecurityCompromisedSubtitle": "Функции, зависящие от встроенных ключей, отключены, режим разработчика недоступен; на вход в аккаунт это не влияет. Нажмите, чтобы посмотреть подробности.",
+  "deviceTrustSummaryClonedTitle": "Обнаружено клонирование данных приложения",
+  "deviceTrustSummaryClonedSubtitle": "Проверка привязки к устройству решила, что данные приложения скопированы на другое устройство. Защищённое хранилище очищается при чтении, поэтому вы выйдете из аккаунта.",
+  "deviceTrustSummaryCompromisedTitle": "Обнаружены признаки угрозы",
+  "deviceTrustSummaryCleanTitle": "Устройство в порядке",
+  "deviceTrustSummaryCleanSubtitle": "Угроз безопасности не обнаружено.",
+  "deviceTrustSummaryDetected": "Обнаружено: {threats}",
+  "@deviceTrustSummaryDetected": {
+    "placeholders": {
+      "threats": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustListSeparator": ", ",
+  "deviceTrustDowngradeTitle": "Защита ограничена",
+  "deviceTrustDowngradeSubtitle": "Чтобы защитить ваши данные, доступ к встроенным ключам перекрыт, поэтому некоторые зависящие от них функции могут быть недоступны. На ваш вход это не влияет.",
+  "deviceTrustSignalsSection": "Индикаторы безопасности",
+  "deviceTrustIdentitySection": "Идентификатор устройства",
+  "deviceTrustRawSection": "Исходные сведения",
+  "deviceTrustStateSecure": "В норме",
+  "deviceTrustStateCompromised": "Обнаружено",
+  "deviceTrustStateUnsupported": "Не поддерживается",
+  "deviceTrustStateError": "Ошибка",
+  "deviceTrustRootTitle": "Root / джейлбрейк",
+  "deviceTrustRootSubtitle": "Обнаруживает джейлбрейк или root (Magisk, KernelSU и подобное)",
+  "deviceTrustBootloaderTitle": "Разблокированный загрузчик",
+  "deviceTrustBootloaderSubtitle": "Проверяет состояние verified-boot. Это единственный признак, который не может скрыть связка KernelSU + SUSFS + Shamiko: он зашит в аппаратную аттестацию ключей, поэтому срабатывает даже тогда, когда проверка root выше уже обманута.",
+  "deviceTrustUnsupportedHere": "На этой платформе такой проверки нет",
+  "deviceTrustDebuggerTitle": "Подключён отладчик",
+  "deviceTrustDebuggerSubtitle": "Подключён ли к процессу отладчик (антиотладка)",
+  "deviceTrustHooksTitle": "Фреймворк перехвата",
+  "deviceTrustHooksSubtitle": "Обнаруживает фреймворки перехвата вроде Frida и Xposed",
+  "deviceTrustSimulatorTitle": "Эмулятор",
+  "deviceTrustSimulatorSubtitle": "Запущено ли приложение в эмуляторе или виртуальной машине",
+  "deviceTrustIntegrityTitle": "Приложение изменено",
+  "deviceTrustIntegritySubtitle": "Имя пакета или подпись не совпадают с официальной сборкой",
+  "deviceTrustBindingTitle": "Привязка к устройству / обнаружение клонирования",
+  "deviceTrustBindingCompromisedSubtitle": "Решено, что данные приложения скопированы на другое устройство: защищённое хранилище очищается при чтении, и вы выходите из аккаунта",
+  "deviceTrustBindingSecureSubtitle": "Данные приложения привязаны к этому устройству; копирование на другое устройство не обнаружено",
+  "deviceTrustStoreTitle": "Неофициальный магазин",
+  "deviceTrustStoreSubtitle": "Не включено: приложение распространяется как APK для боковой установки, поэтому проверка источника установки помечала бы каждую легитимную установку",
+  "deviceTrustBuildDefectTitle": "Дефект сборки: нет обфускации",
+  "deviceTrustBuildDefectSubtitle": "Dart-снимок этого релиза не обрабатывался через --obfuscate, поэтому идентификаторы кода восстанавливаются напрямую. Это не связано с вашим устройством — сообщите разработчикам: {defects}",
+  "@deviceTrustBuildDefectSubtitle": {
+    "placeholders": {
+      "defects": {
+        "type": "String"
+      }
+    }
+  },
+  "deviceTrustDesktopDebuggerWindows": "Обнаруживает пользовательские отладчики через IsDebuggerPresent",
+  "deviceTrustDesktopDebuggerLinux": "Обнаружение через TracerPid в /proc/self/status",
+  "deviceTrustElevationTitle": "Запуск с повышенными правами",
+  "deviceTrustElevationSubtitle": "Запущен ли процесс от root (Unix) или администратора (Windows)",
+  "deviceTrustInstallIdTitle": "ID установки",
+  "deviceTrustInstallIdEmpty": "Не создан",
+  "deviceTrustInstallIdUsageTitle": "Где используется этот ID",
+  "deviceTrustInstallIdUsageSubtitle": "Список «Устройства с выполненным входом» на сервере, регистрация устройства для push-уведомлений и external id в freeRASP используют одно и то же значение, поэтому события из трёх источников можно сопоставить. Он хранится в защищённом хранилище (Keystore / Secure Enclave) и создаётся заново при срабатывании обнаружения клонирования, так что клон не наследует личность исходного устройства.",
+  "deviceTrustRawJsonTitle": "Вывод JSON",
   "friendLinkDialogClose": "Закрыть",
   "friendLinkOpenFailed": "Не удалось открыть ссылку",
   "friendLinkCategoryFeedback": "Обратная связь",
