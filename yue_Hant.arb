@@ -1692,6 +1692,7 @@
   "accountStatus": "帳戶狀態",
   "whuCasLoginRequired": "請先登入武大統一認證。",
   "whuCasServiceAuthFailed": "服務授權失敗，請重新登入武大統一認證。",
+  "whuCasServiceUnauthorized": "呢個帳號冇權訪問呢個系統。",
   "whuCasServiceRequestFailed": "服務授權請求失敗：{error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6616,6 +6617,12 @@
   "cgLoginAction": "登錄並驗證驗證碼",
   "cgLoginTitle": "希冀平臺登錄",
   "cgLoginFailed": "登入會話驗證失敗，請再試",
+  "cgNotEnabledTitle": "希冀平臺同步未開",
+  "cgNotEnabledHelp": "登入之後先會同步課程、作業同考試提醒。未配置平臺帳號時使用學校統一身份認證；喺平臺上冇課程嘅帳號無法開啟。",
+  "cgSignInAction": "登入並開啟",
+  "cgSignInSucceeded": "登入成功，已開啟希冀同步",
+  "cgNoPermission": "呢個帳號喺希冀平臺冇課程，同步保持關閉",
+  "cgEnableSync": "開啟希冀同步同提醒",
   "cgSessionExpired": "登入已失效，請重新登入",
   "cgSyncFailed": "同步失敗，顯示上次數據",
   "cgNotificationFailed": "系統提醒更新失敗，請檢查通知權限後再試",

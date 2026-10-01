@@ -1917,6 +1917,7 @@
   "accountStatus": "Trạng thái tài khoản",
   "whuCasLoginRequired": "Vui lòng đăng nhập CAS WHU trước.",
   "whuCasServiceAuthFailed": "Ủy quyền dịch vụ thất bại. Hãy đăng nhập lại CAS WHU.",
+  "whuCasServiceUnauthorized": "Tài khoản này không được cấp quyền truy cập dịch vụ đó.",
   "whuCasServiceRequestFailed": "Yêu cầu ủy quyền dịch vụ thất bại: {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6667,6 +6668,12 @@
   "cgLoginAction": "Đăng nhập và hoàn thành CAPTCHA",
   "cgLoginTitle": "Đăng nhập vào Cg",
   "cgLoginFailed": "Không thể xác minh phiên đăng nhập. Vui lòng thử lại.",
+  "cgNotEnabledTitle": "Đồng bộ nền tảng Cg đang tắt",
+  "cgNotEnabledHelp": "Đăng nhập để đồng bộ môn học, bài tập và nhắc lịch thi. Ứng dụng dùng CAS của trường đại học trừ khi tài khoản nền tảng đã được cấu hình. Tài khoản không có môn học trên nền tảng sẽ không thể bật.",
+  "cgSignInAction": "Đăng nhập và bật",
+  "cgSignInSucceeded": "Đã đăng nhập; đã bật đồng bộ nền tảng Cg",
+  "cgNoPermission": "Tài khoản này không có môn học nào trên nền tảng Cg nên đồng bộ vẫn tắt",
+  "cgEnableSync": "Bật đồng bộ và nhắc nhở nền tảng Cg",
   "cgSessionExpired": "Phiên của bạn đã hết hạn. Đăng nhập lại.",
   "cgSyncFailed": "Đồng bộ hóa không thành công; hiển thị dữ liệu đã lưu",
   "cgNotificationFailed": "Không thể cập nhật lời nhắc. Kiểm tra quyền thông báo và thử lại.",

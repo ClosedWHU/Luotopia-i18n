@@ -1935,6 +1935,7 @@
   "accountStatus": "계정 상태",
   "whuCasLoginRequired": "먼저 우한대 통합 인증에 로그인하세요.",
   "whuCasServiceAuthFailed": "서비스 권한 부여 실패. 우한대 통합 인증에 다시 로그인하세요.",
+  "whuCasServiceUnauthorized": "이 계정에는 해당 서비스 접근 권한이 없습니다.",
   "whuCasServiceRequestFailed": "서비스 권한 부여 요청 실패: {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6684,6 +6685,12 @@
   "cgLoginAction": "로그인하고 CAPTCHA를 완료하세요.",
   "cgLoginTitle": "希冀에 로그인하세요",
   "cgLoginFailed": "로그인 세션을 확인할 수 없습니다. 다시 시도해 주세요.",
+  "cgNotEnabledTitle": "希冀 플랫폼 동기화가 꺼져 있습니다",
+  "cgNotEnabledHelp": "로그인하면 과목, 과제, 시험 알림을 동기화합니다. 플랫폼 계정을 구성하지 않으면 대학 CAS를 사용합니다. 플랫폼에 과목이 없는 계정은 활성화할 수 없습니다.",
+  "cgSignInAction": "로그인하고 활성화",
+  "cgSignInSucceeded": "로그인했습니다. 希冀 플랫폼 동기화를 활성화했습니다",
+  "cgNoPermission": "이 계정에는 希冀 플랫폼 과목이 없으므로 동기화가 꺼진 상태로 유지됩니다",
+  "cgEnableSync": "希冀 플랫폼 동기화 및 알림 활성화",
   "cgSessionExpired": "세션이 만료되었습니다. 다시 로그인하세요.",
   "cgSyncFailed": "동기화에 실패했습니다. 저장된 데이터 표시",
   "cgNotificationFailed": "알림을 업데이트할 수 없습니다. 알림 권한을 확인하고 다시 시도하세요.",

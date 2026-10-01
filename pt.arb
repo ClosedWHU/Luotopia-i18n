@@ -1800,6 +1800,7 @@
   "accountStatus": "Status da conta",
   "whuCasLoginRequired": "Faça login no CAS WHU primeiro.",
   "whuCasServiceAuthFailed": "Falha na autorização do serviço. Entre de novo no CAS WHU.",
+  "whuCasServiceUnauthorized": "Esta conta não está autorizada para esse serviço.",
   "whuCasServiceRequestFailed": "Falha na solicitação de autorização do serviço: {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6625,6 +6626,12 @@
   "cgLoginAction": "Faça login e preencha CAPTCHA",
   "cgLoginTitle": "Faça login no Cg",
   "cgLoginFailed": "Não foi possível verificar a sessão de login. Por favor, tente novamente.",
+  "cgNotEnabledTitle": "A sincronização da plataforma Cg está desativada",
+  "cgNotEnabledHelp": "Inicie sessão para sincronizar disciplinas, trabalhos e lembretes de provas. O CAS da universidade é usado, a menos que uma conta da plataforma esteja configurada. Contas sem disciplinas na plataforma não podem ser ativadas.",
+  "cgSignInAction": "Entrar e ativar",
+  "cgSignInSucceeded": "Sessão iniciada; sincronização da plataforma Cg ativada",
+  "cgNoPermission": "Esta conta não tem disciplinas na plataforma Cg, então a sincronização permanece desativada",
+  "cgEnableSync": "Ativar a sincronização e os lembretes da plataforma Cg",
   "cgSessionExpired": "Sua sessão expirou. Faça login novamente.",
   "cgSyncFailed": "Falha na sincronização; mostrando dados salvos",
   "cgNotificationFailed": "Não foi possível atualizar os lembretes. Verifique as permissões de notificação e tente novamente.",

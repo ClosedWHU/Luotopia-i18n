@@ -1800,6 +1800,7 @@
   "accountStatus": "État du compte",
   "whuCasLoginRequired": "Connectez-vous d’abord au CAS WHU.",
   "whuCasServiceAuthFailed": "Échec de l’autorisation de service. Reconnectez-vous au CAS WHU.",
+  "whuCasServiceUnauthorized": "Ce compte n'est pas autorisé à accéder à ce service.",
   "whuCasServiceRequestFailed": "Échec de la requête d’autorisation de service : {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6663,6 +6664,12 @@
   "cgLoginAction": "Connectez-vous et complétez CAPTCHA",
   "cgLoginTitle": "Connectez-vous à Cg",
   "cgLoginFailed": "Impossible de vérifier la session de connexion. Veuillez réessayer.",
+  "cgNotEnabledTitle": "La synchronisation de la plateforme Cg est désactivée",
+  "cgNotEnabledHelp": "Connectez-vous pour synchroniser les cours, les devoirs et les rappels d'examens. L'authentification CAS de l'université est utilisée sauf si un compte de plateforme est configuré. Les comptes sans cours sur la plateforme ne peuvent pas être activés.",
+  "cgSignInAction": "Se connecter et activer",
+  "cgSignInSucceeded": "Connecté ; synchronisation de la plateforme Cg activée",
+  "cgNoPermission": "Ce compte n'a aucun cours sur la plateforme Cg ; la synchronisation reste désactivée",
+  "cgEnableSync": "Activer la synchronisation et les rappels de la plateforme Cg",
   "cgSessionExpired": "Votre session a expiré. Connectez-vous à nouveau.",
   "cgSyncFailed": "La synchronisation a échoué ; montrant les données enregistrées",
   "cgNotificationFailed": "Impossible de mettre à jour les rappels. Vérifiez les autorisations de notification et réessayez.",

@@ -2096,6 +2096,7 @@
   "accountStatus": "アカウント状態",
   "whuCasLoginRequired": "先に武大統一認証にログインしてください。",
   "whuCasServiceAuthFailed": "サービス認可に失敗しました。武大統一認証に再ログインしてください。",
+  "whuCasServiceUnauthorized": "このアカウントにはそのサービスへのアクセス権がありません。",
   "whuCasServiceRequestFailed": "サービス認可リクエストに失敗: {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6677,6 +6678,12 @@
   "cgLoginAction": "サインインして CAPTCHA を完了します",
   "cgLoginTitle": "希冀にサインインする",
   "cgLoginFailed": "ログインセッションを確認できませんでした。再試行してください。",
+  "cgNotEnabledTitle": "希冀プラットフォームの同期はオフです",
+  "cgNotEnabledHelp": "サインインすると、コース、課題、試験のリマインダーを同期します。プラットフォーム アカウントを設定していない場合は大学の CAS を使用します。コースがないアカウントは有効にできません。",
+  "cgSignInAction": "サインインして有効にする",
+  "cgSignInSucceeded": "サインインしました。希冀プラットフォームの同期を有効にしました",
+  "cgNoPermission": "このアカウントには希冀プラットフォームのコースがないため、同期はオフのままです",
+  "cgEnableSync": "希冀プラットフォームの同期とリマインダーを有効にする",
   "cgSessionExpired": "セッションの有効期限が切れました。再度サインインします。",
   "cgSyncFailed": "同期に失敗しました。保存されたデータを表示する",
   "cgNotificationFailed": "リマインダーを更新できませんでした。通知権限を確認して再試行してください。",

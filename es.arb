@@ -1800,6 +1800,7 @@
   "accountStatus": "Estado de la cuenta",
   "whuCasLoginRequired": "Inicia sesión primero en el CAS WHU.",
   "whuCasServiceAuthFailed": "Error de autorización del servicio. Vuelve a entrar en el CAS WHU.",
+  "whuCasServiceUnauthorized": "Esta cuenta no está autorizada para ese servicio.",
   "whuCasServiceRequestFailed": "Error en la solicitud de autorización del servicio: {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6663,6 +6664,12 @@
   "cgLoginAction": "Inicia sesión y completa CAPTCHA",
   "cgLoginTitle": "Iniciar sesión en Cg",
   "cgLoginFailed": "No se pudo verificar la sesión de inicio de sesión. Vuelva a intentarlo.",
+  "cgNotEnabledTitle": "La sincronización de la plataforma Cg está desactivada",
+  "cgNotEnabledHelp": "Inicia sesión para sincronizar cursos, tareas y recordatorios de exámenes. Se usa la autenticación CAS de la universidad a menos que se configure una cuenta de la plataforma. Las cuentas sin cursos en la plataforma no se pueden activar.",
+  "cgSignInAction": "Iniciar sesión y activar",
+  "cgSignInSucceeded": "Sesión iniciada; sincronización de la plataforma Cg activada",
+  "cgNoPermission": "Esta cuenta no tiene cursos en la plataforma Cg, así que la sincronización permanece desactivada",
+  "cgEnableSync": "Activar la sincronización y los recordatorios de la plataforma Cg",
   "cgSessionExpired": "Tu sesión expiró. Inicia sesión nuevamente.",
   "cgSyncFailed": "Error de sincronización; mostrando datos guardados",
   "cgNotificationFailed": "No se pudieron actualizar los recordatorios. Verifique los permisos de notificación y vuelva a intentarlo.",

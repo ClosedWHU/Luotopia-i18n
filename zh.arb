@@ -2009,6 +2009,7 @@
   "accountStatus": "账户状态",
   "whuCasLoginRequired": "请先登录武大统一认证。",
   "whuCasServiceAuthFailed": "服务授权失败，请重新登录武大统一认证。",
+  "whuCasServiceUnauthorized": "该账号没有访问此系统的权限。",
   "whuCasServiceRequestFailed": "服务授权请求失败：{error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -6890,6 +6891,12 @@
   "cgLoginAction": "登录并验证验证码",
   "cgLoginTitle": "希冀平台登录",
   "cgLoginFailed": "登录会话验证失败，请重试",
+  "cgNotEnabledTitle": "希冀平台同步未启用",
+  "cgNotEnabledHelp": "登录后才会同步课程、作业与考试提醒。未配置平台账号时使用学校统一身份认证；在平台上没有课程的账号无法启用。",
+  "cgSignInAction": "登录并启用",
+  "cgSignInSucceeded": "登录成功，已启用希冀同步",
+  "cgNoPermission": "该账号在希冀平台没有课程，未启用同步",
+  "cgEnableSync": "启用希冀同步与提醒",
   "cgSessionExpired": "登录已失效，请重新登录",
   "cgSyncFailed": "同步失败，显示上次数据",
   "cgNotificationFailed": "系统提醒更新失败，请检查通知权限后重试",

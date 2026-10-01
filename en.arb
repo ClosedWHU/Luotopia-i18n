@@ -2520,6 +2520,7 @@
   "accountStatus": "Account Status",
   "whuCasLoginRequired": "Please log in to WHU CAS first.",
   "whuCasServiceAuthFailed": "Service authorization failed. Please re-login to WHU CAS.",
+  "whuCasServiceUnauthorized": "This account is not authorized for that service.",
   "whuCasServiceRequestFailed": "Service authorization request failed: {error}",
   "@whuCasServiceRequestFailed": {
     "placeholders": {
@@ -7966,6 +7967,12 @@
   "cgLoginAction": "Sign in and complete CAPTCHA",
   "cgLoginTitle": "Sign in to Cg",
   "cgLoginFailed": "Could not verify the login session. Please retry.",
+  "cgNotEnabledTitle": "Cg sync is off",
+  "cgNotEnabledHelp": "Sign in to sync courses, assignments and exam reminders. University CAS is used unless a platform account is configured. Accounts with no course on the platform cannot be enabled.",
+  "cgSignInAction": "Sign in and enable",
+  "cgSignInSucceeded": "Signed in; Cg sync enabled",
+  "cgNoPermission": "This account has no course on the Cg platform, so sync stays off.",
+  "cgEnableSync": "Enable Cg sync and reminders",
   "cgSessionExpired": "Your session expired. Sign in again.",
   "cgSyncFailed": "Sync failed; showing saved data",
   "cgNotificationFailed": "Could not update reminders. Check notification permissions and retry.",
