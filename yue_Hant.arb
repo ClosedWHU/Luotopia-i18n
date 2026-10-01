@@ -396,6 +396,15 @@
     }
   },
   "deviceTrustListSeparator": "、",
+  "deviceTrustSummaryWarningTitle": "裝置狀態正常，另有提示項",
+  "deviceTrustSummaryWarningSubtitle": "僅作提示，未限制任何功能：{warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "防禦已經降級",
   "deviceTrustDowngradeSubtitle": "為咗保護你嘅數據安全，底層密鑰存取已經被切斷，部分強依賴功能可能用唔到；登入狀態唔受影響。",
   "deviceTrustSignalsSection": "安全訊號",
@@ -405,10 +414,11 @@
   "deviceTrustStateCompromised": "檢測到",
   "deviceTrustStateUnsupported": "不支援",
   "deviceTrustStateError": "錯誤",
+  "deviceTrustStateWarning": "警告",
   "deviceTrustRootTitle": "Root / 越獄",
   "deviceTrustRootSubtitle": "檢測越獄或者 Root（例如 Magisk、KernelSU）",
   "deviceTrustBootloaderTitle": "Bootloader 已解鎖",
-  "deviceTrustBootloaderSubtitle": "檢測 verified-boot 狀態。呢個係 Root 隱藏方案（KernelSU + SUSFS + Shamiko）唯一藏唔住嘅一項：佢燒喺硬體密鑰證明入面，上面嘅 Root 檢查俾人騙過嗰陣呢條照樣會命中。",
+  "deviceTrustBootloaderSubtitle": "驗證開機狀態，取自硬體金鑰認證，是 root 隱藏無法偽造的訊號。僅作提示，不限制任何功能。",
   "deviceTrustUnsupportedHere": "目前平台暫時冇呢項檢查",
   "deviceTrustDebuggerTitle": "除錯工具附加",
   "deviceTrustDebuggerSubtitle": "進程係咪俾人附加咗除錯工具（Anti-Debugging）",

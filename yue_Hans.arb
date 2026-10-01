@@ -396,6 +396,15 @@
     }
   },
   "deviceTrustListSeparator": "、",
+  "deviceTrustSummaryWarningTitle": "设备状态正常，另有提示项",
+  "deviceTrustSummaryWarningSubtitle": "仅为提示，未限制任何功能：{warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "防御降级已触发",
   "deviceTrustDowngradeSubtitle": "为了保护你嘅数据安全，底层密钥访问已被切断，部分强依赖功能可能用唔到；登录状态唔受影响。",
   "deviceTrustSignalsSection": "安全信号",
@@ -405,10 +414,11 @@
   "deviceTrustStateCompromised": "检测到",
   "deviceTrustStateUnsupported": "不支持",
   "deviceTrustStateError": "错误",
+  "deviceTrustStateWarning": "警告",
   "deviceTrustRootTitle": "Root / 越狱",
   "deviceTrustRootSubtitle": "检测越狱或者 Root（例如 Magisk、KernelSU）",
   "deviceTrustBootloaderTitle": "Bootloader 已解锁",
-  "deviceTrustBootloaderSubtitle": "检测 verified-boot 状态。呢个系 Root 隐藏方案（KernelSU + SUSFS + Shamiko）唯一藏唔住嘅一项：佢烧喺硬件密钥证明入面，上面嘅 Root 检查俾人骗过嗰阵呢条照样会命中。",
+  "deviceTrustBootloaderSubtitle": "验证启动状态，取自硬件密钥认证，是 root 隐藏无法伪造的信号。仅作提示，不限制任何功能。",
   "deviceTrustUnsupportedHere": "当前平台暂时冇呢项检查",
   "deviceTrustDebuggerTitle": "调试器附加",
   "deviceTrustDebuggerSubtitle": "进程系咪俾人附加咗调试器（Anti-Debugging）",

@@ -1494,6 +1494,15 @@
     }
   },
   "deviceTrustListSeparator": ", ",
+  "deviceTrustSummaryWarningTitle": "El dispositivo está bien, con avisos",
+  "deviceTrustSummaryWarningSubtitle": "Solo informativo, sin restricciones: {warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "Defensas degradadas",
   "deviceTrustDowngradeSubtitle": "Para proteger tus datos, se cortó el acceso a las claves integradas, así que algunas funciones que dependen de ellas podrían no estar disponibles. Tu sesión no se ve afectada.",
   "deviceTrustSignalsSection": "Señales de seguridad",
@@ -1503,10 +1512,11 @@
   "deviceTrustStateCompromised": "Detectado",
   "deviceTrustStateUnsupported": "No admitido",
   "deviceTrustStateError": "Error",
+  "deviceTrustStateWarning": "Advertencia",
   "deviceTrustRootTitle": "Root / jailbreak",
   "deviceTrustRootSubtitle": "Detecta un sistema con jailbreak o root (Magisk, KernelSU y similares)",
   "deviceTrustBootloaderTitle": "Bootloader desbloqueado",
-  "deviceTrustBootloaderSubtitle": "Comprueba el estado de verified-boot. Es la única señal que un sistema para ocultar root (KernelSU + SUSFS + Shamiko) no puede esconder: está grabada en la atestación de claves por hardware, así que sigue saltando aunque la comprobación de root de arriba haya sido engañada.",
+  "deviceTrustBootloaderSubtitle": "Estado de verified boot leído de la atestación de claves por hardware: la única señal que root-hiding no puede falsear. Solo informativo, sin restricciones.",
   "deviceTrustUnsupportedHere": "Esta plataforma no tiene esta comprobación",
   "deviceTrustDebuggerTitle": "Depurador adjunto",
   "deviceTrustDebuggerSubtitle": "Indica si hay un depurador adjunto al proceso (antidepuración)",

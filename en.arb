@@ -3765,6 +3765,15 @@
     }
   },
   "deviceTrustListSeparator": ", ",
+  "deviceTrustSummaryWarningTitle": "Device looks healthy, with advisories",
+  "deviceTrustSummaryWarningSubtitle": "Advisory only, nothing was restricted: {warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "Defenses downgraded",
   "deviceTrustDowngradeSubtitle": "To protect your data, access to the built-in keys has been cut, so some features that depend on them may be unavailable. Your sign-in is unaffected.",
   "deviceTrustSignalsSection": "Security signals",
@@ -3774,10 +3783,11 @@
   "deviceTrustStateCompromised": "Detected",
   "deviceTrustStateUnsupported": "Unsupported",
   "deviceTrustStateError": "Error",
+  "deviceTrustStateWarning": "Warning",
   "deviceTrustRootTitle": "Root / jailbreak",
   "deviceTrustRootSubtitle": "Detects a jailbroken or rooted system (Magisk, KernelSU and similar)",
   "deviceTrustBootloaderTitle": "Unlocked bootloader",
-  "deviceTrustBootloaderSubtitle": "Checks the verified-boot state. This is the one signal a root-hiding setup (KernelSU + SUSFS + Shamiko) cannot conceal: it is baked into hardware key attestation, so it still fires when the root check above has been fooled.",
+  "deviceTrustBootloaderSubtitle": "Verified-boot state, read from hardware key attestation: the one signal root-hiding cannot fake. Advisory only, nothing is restricted.",
   "deviceTrustUnsupportedHere": "This platform has no such check",
   "deviceTrustDebuggerTitle": "Debugger attached",
   "deviceTrustDebuggerSubtitle": "Whether a debugger is attached to the process (anti-debugging)",

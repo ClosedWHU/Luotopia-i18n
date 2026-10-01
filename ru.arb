@@ -885,6 +885,15 @@
     }
   },
   "deviceTrustListSeparator": ", ",
+  "deviceTrustSummaryWarningTitle": "Устройство в порядке, но есть предупреждения",
+  "deviceTrustSummaryWarningSubtitle": "Только предупреждение, ничего не ограничено: {warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "Защита ограничена",
   "deviceTrustDowngradeSubtitle": "Чтобы защитить ваши данные, доступ к встроенным ключам перекрыт, поэтому некоторые зависящие от них функции могут быть недоступны. На ваш вход это не влияет.",
   "deviceTrustSignalsSection": "Индикаторы безопасности",
@@ -894,10 +903,11 @@
   "deviceTrustStateCompromised": "Обнаружено",
   "deviceTrustStateUnsupported": "Не поддерживается",
   "deviceTrustStateError": "Ошибка",
+  "deviceTrustStateWarning": "Предупреждение",
   "deviceTrustRootTitle": "Root / джейлбрейк",
   "deviceTrustRootSubtitle": "Обнаруживает джейлбрейк или root (Magisk, KernelSU и подобное)",
   "deviceTrustBootloaderTitle": "Разблокированный загрузчик",
-  "deviceTrustBootloaderSubtitle": "Проверяет состояние verified-boot. Это единственный признак, который не может скрыть связка KernelSU + SUSFS + Shamiko: он зашит в аппаратную аттестацию ключей, поэтому срабатывает даже тогда, когда проверка root выше уже обманута.",
+  "deviceTrustBootloaderSubtitle": "Состояние verified boot из аппаратной аттестации ключей — единственный сигнал, который не подделать при скрытии root. Только предупреждение, ничего не ограничено.",
   "deviceTrustUnsupportedHere": "На этой платформе такой проверки нет",
   "deviceTrustDebuggerTitle": "Подключён отладчик",
   "deviceTrustDebuggerSubtitle": "Подключён ли к процессу отладчик (антиотладка)",

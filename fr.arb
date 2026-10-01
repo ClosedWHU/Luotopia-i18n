@@ -1494,6 +1494,15 @@
     }
   },
   "deviceTrustListSeparator": ", ",
+  "deviceTrustSummaryWarningTitle": "L'appareil est sain, avec des avertissements",
+  "deviceTrustSummaryWarningSubtitle": "Uniquement informatif, rien n'a été restreint : {warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "Défenses réduites",
   "deviceTrustDowngradeSubtitle": "Pour protéger vos données, l’accès aux clés intégrées a été coupé : certaines fonctions qui en dépendent fortement peuvent être indisponibles. Votre session n’est pas affectée.",
   "deviceTrustSignalsSection": "Signaux de sécurité",
@@ -1503,10 +1512,11 @@
   "deviceTrustStateCompromised": "Détecté",
   "deviceTrustStateUnsupported": "Non pris en charge",
   "deviceTrustStateError": "Erreur",
+  "deviceTrustStateWarning": "Avertissement",
   "deviceTrustRootTitle": "Root / jailbreak",
   "deviceTrustRootSubtitle": "Détecte un système jailbreaké ou rooté (Magisk, KernelSU et similaires)",
   "deviceTrustBootloaderTitle": "Bootloader déverrouillé",
-  "deviceTrustBootloaderSubtitle": "Vérifie l’état du verified-boot. C’est le seul signal qu’une dissimulation de root (KernelSU + SUSFS + Shamiko) ne peut pas masquer : il est inscrit dans l’attestation matérielle des clés, donc il se déclenche même quand la vérification root ci-dessus a été trompée.",
+  "deviceTrustBootloaderSubtitle": "État du verified boot lu depuis l'attestation matérielle des clés : le seul signal que root-hiding ne peut pas falsifier. Uniquement informatif, rien n'est restreint.",
   "deviceTrustUnsupportedHere": "Cette plateforme ne dispose pas de cette vérification",
   "deviceTrustDebuggerTitle": "Débogueur attaché",
   "deviceTrustDebuggerSubtitle": "Indique si un débogueur est attaché au processus (anti-débogage)",

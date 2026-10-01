@@ -1790,6 +1790,15 @@
     }
   },
   "deviceTrustListSeparator": "、",
+  "deviceTrustSummaryWarningTitle": "デバイスは健全ですが、注意項目があります",
+  "deviceTrustSummaryWarningSubtitle": "参考情報のみで、機能は制限されていません：{warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "防御機能を縮小しました",
   "deviceTrustDowngradeSubtitle": "データを保護するため、組み込みキーへのアクセスを遮断しました。これに強く依存する一部機能は使えない場合があります。ログイン状態は影響を受けません。",
   "deviceTrustSignalsSection": "セキュリティシグナル",
@@ -1799,10 +1808,11 @@
   "deviceTrustStateCompromised": "検出",
   "deviceTrustStateUnsupported": "未対応",
   "deviceTrustStateError": "エラー",
+  "deviceTrustStateWarning": "警告",
   "deviceTrustRootTitle": "Root / 脱獄",
   "deviceTrustRootSubtitle": "脱獄・Root 化されたシステムを検出します（Magisk、KernelSU など）",
   "deviceTrustBootloaderTitle": "Bootloader のロック解除",
-  "deviceTrustBootloaderSubtitle": "verified-boot の状態を調べます。Root 隠蔽構成（KernelSU + SUSFS + Shamiko）が唯一隠せない項目です。ハードウェアキー証明に焼き込まれているため、上の Root 検査が欺かれてもこちらは検出されます。",
+  "deviceTrustBootloaderSubtitle": "ハードウェアキー認証から取得する verified boot 状態。root 隠しが偽造できない唯一の信号です。参考情報のみで、機能は制限しません。",
   "deviceTrustUnsupportedHere": "このプラットフォームに対応する検査はありません",
   "deviceTrustDebuggerTitle": "デバッガーのアタッチ",
   "deviceTrustDebuggerSubtitle": "プロセスにデバッガーがアタッチされているか（アンチデバッグ）",

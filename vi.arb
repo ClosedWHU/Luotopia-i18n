@@ -1611,6 +1611,15 @@
     }
   },
   "deviceTrustListSeparator": ", ",
+  "deviceTrustSummaryWarningTitle": "Thiết bị ổn, nhưng có mục cảnh báo",
+  "deviceTrustSummaryWarningSubtitle": "Chỉ mang tính tham khảo, không giới hạn gì: {warnings}",
+  "@deviceTrustSummaryWarningSubtitle": {
+    "placeholders": {
+      "warnings": {
+        "type": "String"
+      }
+    }
+  },
   "deviceTrustDowngradeTitle": "Phòng thủ đã bị hạ cấp",
   "deviceTrustDowngradeSubtitle": "Để bảo vệ dữ liệu của bạn, quyền truy cập khóa tích hợp đã bị cắt, nên một số tính năng phụ thuộc chặt vào chúng có thể không dùng được. Trạng thái đăng nhập không bị ảnh hưởng.",
   "deviceTrustSignalsSection": "Tín hiệu bảo mật",
@@ -1620,10 +1629,11 @@
   "deviceTrustStateCompromised": "Đã phát hiện",
   "deviceTrustStateUnsupported": "Không hỗ trợ",
   "deviceTrustStateError": "Lỗi",
+  "deviceTrustStateWarning": "Cảnh báo",
   "deviceTrustRootTitle": "Root / jailbreak",
   "deviceTrustRootSubtitle": "Phát hiện hệ thống đã jailbreak hoặc root (Magisk, KernelSU và tương tự)",
   "deviceTrustBootloaderTitle": "Bootloader đã mở khóa",
-  "deviceTrustBootloaderSubtitle": "Kiểm tra trạng thái verified-boot. Đây là tín hiệu duy nhất mà bộ ẩn root (KernelSU + SUSFS + Shamiko) không thể che giấu: nó được ghi trong chứng thực khóa phần cứng, nên vẫn báo ngay cả khi kiểm tra root ở trên đã bị qua mặt.",
+  "deviceTrustBootloaderSubtitle": "Trạng thái verified boot đọc từ chứng thực khóa phần cứng: tín hiệu duy nhất mà root-hiding không thể giả mạo. Chỉ mang tính tham khảo, không giới hạn gì.",
   "deviceTrustUnsupportedHere": "Nền tảng này chưa có kiểm tra này",
   "deviceTrustDebuggerTitle": "Trình gỡ lỗi đang gắn",
   "deviceTrustDebuggerSubtitle": "Cho biết có trình gỡ lỗi nào đang gắn vào tiến trình hay không (chống gỡ lỗi)",
