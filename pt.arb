@@ -1476,6 +1476,84 @@
   "settingsDevHotUpdateSubtitle": "Ver scripts de análise atualizáveis instantaneamente e seu status",
   "settingsDevDeviceTrustTitle": "Confiança do dispositivo",
   "settingsDevDeviceTrustSubtitle": "Inspecionar a integridade do dispositivo e os sinais de segurança",
+  "settingsDevServerHttpOnlySnack": "HTTP só é permitido para localhost ou um endereço da rede local; use HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP só é permitido para localhost ou um endereço da rede local",
+  "settingsDevKeychainFallbackTitle": "Recorrer a armazenamento em texto puro quando o Keychain está indisponível",
+  "settingsDevKeychainFallbackSubtitle": "Somente em builds de depuração. Para ambientes sem Data Protection Keychain utilizável, como o vPhone. Com isso ativo, as credenciais ficam em texto puro no sandbox do aplicativo; não deixe ligado no uso diário em um aparelho real.",
+  "settingsDevRelayTitle": "Relay de borda auto-hospedado",
+  "settingsDevRelaySubtitle": "Informe apenas um endereço que você mesmo implantou e em que confia: o relay trata os cookies de sessão do campus. cas.whu.edu.cn nunca passa pelo relay.",
+  "settingsDevRelayTest": "Testar conexão",
+  "settingsDevRelayUrlLabel": "Endereço do relay",
+  "settingsDevRelayUrlHelper": "Deixe vazio e salve para desligar o relay e voltar à conexão direta",
+  "settingsDevRelaySecretHint": "Pelo menos 32 caracteres",
+  "settingsDevRelaySecretHelper": "A chave que você configurou no relay ao implantá-lo; os dois lados devem coincidir",
+  "settingsDevRelayDisabledSnack": "Relay auto-hospedado desligado; todas as requisições voltam a ser diretas",
+  "settingsDevRelayEnabledSnack": "Relay auto-hospedado ativado: {url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "O endereço do relay deve ser HTTPS (http://localhost ou um endereço da rede local servem para depuração local)",
+  "settingsDevRelaySecretTooShort": "A chave deve ter pelo menos 32 caracteres",
+  "settingsDevRelayIncomplete": "Configuração incompleta",
+  "settingsDevRelayFillBoth": "Preencha primeiro o endereço e a chave",
+  "settingsDevRelayWrongSecret": "Chave não confere: este relay recusou o token que emitimos",
+  "settingsDevRelayNotARelay": "Esse endereço não é um relay do Luotopia",
+  "settingsDevRelayNotARelayDetail": "Esse endereço não é um relay do Luotopia ({detail})",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "É um relay, mas não tem a própria RELAY_HMAC_KEY configurada",
+  "settingsDevRelayUnreachable": "Não foi possível conectar",
+  "settingsDevRelayUnreachableDetail": "Não foi possível conectar ({detail})",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "O relay funciona (o token foi aceito), mas o upstream usado na sondagem não respondeu: HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "O relay recusou a requisição: {detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "Versão do relay {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "{count} hosts na lista de permissões",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "Conexão OK",
+  "settingsDevRelayReportFailed": "Falha na conexão",
   "settingsSecurityCloneTitle": "Os dados do aplicativo podem ter sido clonados",
   "settingsSecurityCloneSubtitle": "O armazenamento seguro é apagado na leitura, então você será desconectado. Toque para ver detalhes.",
   "settingsSecurityCompromisedTitle": "Ambiente de execução de risco detectado",

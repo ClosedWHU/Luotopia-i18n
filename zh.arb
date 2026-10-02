@@ -3191,6 +3191,84 @@
   "settingsDevHotUpdateSubtitle": "查看可热更新的解析脚本及其状态",
   "settingsDevDeviceTrustTitle": "设备认证",
   "settingsDevDeviceTrustSubtitle": "检查设备完整性与安全信号",
+  "settingsDevServerHttpOnlySnack": "HTTP 仅允许 localhost 或局域网地址，请使用 HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP 仅允许 localhost 或局域网地址",
+  "settingsDevKeychainFallbackTitle": "Keychain 不可用时回退到明文存储",
+  "settingsDevKeychainFallbackSubtitle": "仅调试版生效。用于 vPhone 等无可用 Data Protection Keychain 的环境。开启后凭据以明文保存在应用沙盒，勿在真机日常使用。",
+  "settingsDevRelayTitle": "自建边缘中继",
+  "settingsDevRelaySubtitle": "只填你自己部署、自己信任的地址——中继会经手校园会话 Cookie。cas.whu.edu.cn 永不走中继。",
+  "settingsDevRelayTest": "测试连接",
+  "settingsDevRelayUrlLabel": "中继地址",
+  "settingsDevRelayUrlHelper": "留空并保存即关闭中继，恢复直连",
+  "settingsDevRelaySecretHint": "至少 32 个字符",
+  "settingsDevRelaySecretHelper": "部署时给中继配的那个密钥，两边必须一致",
+  "settingsDevRelayDisabledSnack": "自建中继已关闭，所有请求恢复直连",
+  "settingsDevRelayEnabledSnack": "自建中继已启用：{url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "中继地址必须是 HTTPS（本机调试可用 http://localhost 或局域网地址）",
+  "settingsDevRelaySecretTooShort": "密钥至少 32 个字符",
+  "settingsDevRelayIncomplete": "配置不完整",
+  "settingsDevRelayFillBoth": "先填写地址和密钥",
+  "settingsDevRelayWrongSecret": "密钥不匹配：这个中继拒绝了我们签出的令牌",
+  "settingsDevRelayNotARelay": "该地址不是 Luotopia 中继",
+  "settingsDevRelayNotARelayDetail": "该地址不是 Luotopia 中继（{detail}）",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "是中继，但它自己没有配置 RELAY_HMAC_KEY",
+  "settingsDevRelayUnreachable": "连不上",
+  "settingsDevRelayUnreachableDetail": "连不上（{detail}）",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "中继可用（令牌已接受），但探测用的上游没通，HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "中继拒绝了请求：{detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "中继版本 {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "白名单 {count} 个主机",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "连接正常",
+  "settingsDevRelayReportFailed": "连接失败",
   "settingsSecurityCloneTitle": "应用数据疑似被克隆",
   "settingsSecurityCloneSubtitle": "安全存储会在读取时被清空，账号将自动退出登录。点击查看详情。",
   "settingsSecurityCompromisedTitle": "检测到风险运行环境",

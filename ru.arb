@@ -867,6 +867,84 @@
   "settingsFriendLinksEmpty": "Пока нет дружественных ссылок",
   "settingsDevDeviceTrustTitle": "Доверие к устройству",
   "settingsDevDeviceTrustSubtitle": "Проверка целостности устройства и сигналов безопасности",
+  "settingsDevServerHttpOnlySnack": "HTTP разрешён только для localhost или адреса локальной сети; используйте HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP разрешён только для localhost или адреса локальной сети",
+  "settingsDevKeychainFallbackTitle": "Запасной вариант: открытое хранение, если Keychain недоступен",
+  "settingsDevKeychainFallbackSubtitle": "Только для отладочных сборок. Для окружений без доступного Data Protection Keychain, например vPhone. При включении учётные данные хранятся открытым текстом в песочнице приложения; не оставляйте включённым на реальном устройстве в повседневном использовании.",
+  "settingsDevRelayTitle": "Собственный граничный ретранслятор",
+  "settingsDevRelaySubtitle": "Указывайте только тот адрес, который развернули и которому доверяете сами: ретранслятор обрабатывает сессионные cookie кампуса. cas.whu.edu.cn никогда не идёт через ретранслятор.",
+  "settingsDevRelayTest": "Проверить подключение",
+  "settingsDevRelayUrlLabel": "Адрес ретранслятора",
+  "settingsDevRelayUrlHelper": "Оставьте пустым и сохраните, чтобы выключить ретранслятор и вернуться к прямому подключению",
+  "settingsDevRelaySecretHint": "Не менее 32 символов",
+  "settingsDevRelaySecretHelper": "Тот ключ, который вы задали ретранслятору при развёртывании; обе стороны должны совпадать",
+  "settingsDevRelayDisabledSnack": "Собственный ретранслятор выключен; все запросы снова идут напрямую",
+  "settingsDevRelayEnabledSnack": "Собственный ретранслятор включён: {url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "Адрес ретранслятора должен быть HTTPS (для локальной отладки подойдут http://localhost или адрес локальной сети)",
+  "settingsDevRelaySecretTooShort": "Ключ должен быть не короче 32 символов",
+  "settingsDevRelayIncomplete": "Неполная конфигурация",
+  "settingsDevRelayFillBoth": "Сначала укажите адрес и ключ",
+  "settingsDevRelayWrongSecret": "Ключ не совпадает: этот ретранслятор отклонил подписанный нами токен",
+  "settingsDevRelayNotARelay": "Этот адрес не является ретранслятором Luotopia",
+  "settingsDevRelayNotARelayDetail": "Этот адрес не является ретранслятором Luotopia ({detail})",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "Это ретранслятор, но у него не задан собственный RELAY_HMAC_KEY",
+  "settingsDevRelayUnreachable": "Недоступен",
+  "settingsDevRelayUnreachableDetail": "Недоступен ({detail})",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "Ретранслятор работает (токен принят), но вышестоящий сервис для проверки не ответил: HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "Ретранслятор отклонил запрос: {detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "Версия ретранслятора {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "В списке разрешённых {count} хостов",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "Подключение в порядке",
+  "settingsDevRelayReportFailed": "Подключение не удалось",
   "settingsSecurityCloneTitle": "Возможно, данные приложения были клонированы",
   "settingsSecurityCloneSubtitle": "Безопасное хранилище очищается при чтении, поэтому вы выйдете из аккаунта. Нажмите, чтобы посмотреть подробности.",
   "settingsSecurityCompromisedTitle": "Обнаружена рискованная среда выполнения",

@@ -3535,6 +3535,84 @@
   "ebikeBleDebugClear": "지우기",
   "settingsDevDeviceTrustTitle": "기기 신뢰",
   "settingsDevDeviceTrustSubtitle": "기기 무결성 및 보안 신호를 검사합니다",
+  "settingsDevServerHttpOnlySnack": "HTTP는 localhost 또는 LAN 주소만 허용됩니다. HTTPS를 사용하세요",
+  "settingsDevServerHttpOnlyError": "HTTP는 localhost 또는 LAN 주소만 허용됩니다",
+  "settingsDevKeychainFallbackTitle": "Keychain을 쓸 수 없을 때 평문 저장으로 대체",
+  "settingsDevKeychainFallbackSubtitle": "디버그 빌드에서만 동작합니다. vPhone처럼 Data Protection Keychain을 쓸 수 없는 환경용입니다. 켜면 자격 증명이 앱 샌드박스에 평문으로 저장되므로 실기기에서 상시로 켜두지 마세요.",
+  "settingsDevRelayTitle": "자체 호스팅 엣지 릴레이",
+  "settingsDevRelaySubtitle": "본이 배포하고 신뢰하는 주소만 입력하세요. 릴레이는 캠퍼스 세션 쿠키를 다룹니다. cas.whu.edu.cn은 절대 릴레이를 거치지 않습니다.",
+  "settingsDevRelayTest": "연결 테스트",
+  "settingsDevRelayUrlLabel": "릴레이 주소",
+  "settingsDevRelayUrlHelper": "비운 상태로 저장하면 릴레이를 끄고 직접 연결로 돌아갑니다",
+  "settingsDevRelaySecretHint": "최소 32자",
+  "settingsDevRelaySecretHelper": "배포할 때 릴레이에 설정한 그 키입니다. 양쪽이 일치해야 합니다",
+  "settingsDevRelayDisabledSnack": "자체 호스팅 릴레이를 껐습니다. 모든 요청이 다시 직접 연결됩니다",
+  "settingsDevRelayEnabledSnack": "자체 호스팅 릴레이를 켰습니다: {url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "릴레이 주소는 HTTPS여야 합니다(로컬 디버깅은 http://localhost 또는 LAN 주소 가능)",
+  "settingsDevRelaySecretTooShort": "키는 최소 32자여야 합니다",
+  "settingsDevRelayIncomplete": "구성이 완전하지 않습니다",
+  "settingsDevRelayFillBoth": "주소와 키를 먼저 입력하세요",
+  "settingsDevRelayWrongSecret": "키가 일치하지 않습니다. 이 릴레이가 발급한 토큰을 거부했습니다",
+  "settingsDevRelayNotARelay": "해당 주소는 Luotopia 릴레이가 아닙니다",
+  "settingsDevRelayNotARelayDetail": "해당 주소는 Luotopia 릴레이가 아닙니다({detail})",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "릴레이는 맞지만 RELAY_HMAC_KEY가 설정되어 있지 않습니다",
+  "settingsDevRelayUnreachable": "연결할 수 없습니다",
+  "settingsDevRelayUnreachableDetail": "연결할 수 없습니다({detail})",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "릴레이는 정상입니다(토큰이 수락됨). 다만 확인에 사용한 상위에 도달하지 못했습니다. HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "릴레이가 요청을 거부했습니다: {detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "릴레이 버전 {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "허용 목록 호스트 {count}개",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "연결 정상",
+  "settingsDevRelayReportFailed": "연결 실패",
   "settingsSecurityCloneTitle": "앱 데이터가 복제되었을 수 있습니다",
   "settingsSecurityCloneSubtitle": "보안 저장소가 읽기 시 삭제되어 자동으로 로그아웃됩니다. 세부 정보를 보려면 탭하세요.",
   "settingsSecurityCompromisedTitle": "위험한 실행 환경이 감지되었습니다",

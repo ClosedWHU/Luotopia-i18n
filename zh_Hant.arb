@@ -5436,6 +5436,84 @@
   "ebikeBleDebugClear": "清空",
   "settingsDevConfirmDisable": "關閉開發者模式？",
   "settingsDevDeviceTrustSubtitle": "檢查裝置完整性與安全性訊號",
+  "settingsDevServerHttpOnlySnack": "HTTP 僅允許 localhost 或區域網路位址，請使用 HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP 僅允許 localhost 或區域網路位址",
+  "settingsDevKeychainFallbackTitle": "Keychain 不可用時回退到明文儲存",
+  "settingsDevKeychainFallbackSubtitle": "僅偵錯版生效。用於 vPhone 等無可用 Data Protection Keychain 的環境。開啟後憑證以明文儲存在應用沙盒，勿在真機日常使用。",
+  "settingsDevRelayTitle": "自建邊緣中繼",
+  "settingsDevRelaySubtitle": "只填你自己部署、自己信任的位址——中繼會經手校園工作階段 Cookie。cas.whu.edu.cn 永不走中繼。",
+  "settingsDevRelayTest": "測試連線",
+  "settingsDevRelayUrlLabel": "中繼位址",
+  "settingsDevRelayUrlHelper": "留空並儲存即關閉中繼，恢復直連",
+  "settingsDevRelaySecretHint": "至少 32 個字元",
+  "settingsDevRelaySecretHelper": "部署時給中繼設定的那個金鑰，兩邊必須一致",
+  "settingsDevRelayDisabledSnack": "自建中繼已關閉，所有請求恢復直連",
+  "settingsDevRelayEnabledSnack": "自建中繼已啟用：{url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "中繼位址必須是 HTTPS（本機偵錯可用 http://localhost 或區域網路位址）",
+  "settingsDevRelaySecretTooShort": "金鑰至少 32 個字元",
+  "settingsDevRelayIncomplete": "設定不完整",
+  "settingsDevRelayFillBoth": "先填寫位址和金鑰",
+  "settingsDevRelayWrongSecret": "金鑰不符：這個中繼拒絕了我們簽發的令牌",
+  "settingsDevRelayNotARelay": "該位址不是 Luotopia 中繼",
+  "settingsDevRelayNotARelayDetail": "該位址不是 Luotopia 中繼（{detail}）",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "是中繼，但它自己沒有設定 RELAY_HMAC_KEY",
+  "settingsDevRelayUnreachable": "連不上",
+  "settingsDevRelayUnreachableDetail": "連不上（{detail}）",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "中繼可用（令牌已接受），但探測用的上游沒通，HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "中繼拒絕了請求：{detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "中繼版本 {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "白名單 {count} 個主機",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "連線正常",
+  "settingsDevRelayReportFailed": "連線失敗",
   "settingsSecurityCloneTitle": "應用資料疑似被複製",
   "settingsSecurityCloneSubtitle": "安全儲存會在讀取時被清空，帳號將自動登出。點擊查看詳情。",
   "settingsSecurityCompromisedTitle": "偵測到風險執行環境",

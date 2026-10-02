@@ -1772,6 +1772,84 @@
   "settingsDevHotUpdateSubtitle": "ホットアップデート可能なパーサースクリプトとその状態を表示",
   "settingsDevDeviceTrustTitle": "デバイスの信頼性",
   "settingsDevDeviceTrustSubtitle": "デバイスの完全性とセキュリティシグナルを確認",
+  "settingsDevServerHttpOnlySnack": "HTTP は localhost または LAN アドレスのみ許可されます。HTTPS を使ってください",
+  "settingsDevServerHttpOnlyError": "HTTP は localhost または LAN アドレスのみ許可されます",
+  "settingsDevKeychainFallbackTitle": "Keychain が使えないときに平文保存へフォールバック",
+  "settingsDevKeychainFallbackSubtitle": "デバッグビルドのみ有効。vPhone など Data Protection Keychain が使えない環境向けです。オンにすると認証情報はアプリのサンドボックスに平文で保存されるため、実機での常用は避けてください。",
+  "settingsDevRelayTitle": "セルフホストのエッジリレー",
+  "settingsDevRelaySubtitle": "自分でデプロイし、自分で信頼できるアドレスだけを入力してください。リレーはキャンパスのセッション Cookie を扱います。cas.whu.edu.cn は常にリレーを経由しません。",
+  "settingsDevRelayTest": "接続テスト",
+  "settingsDevRelayUrlLabel": "リレーのアドレス",
+  "settingsDevRelayUrlHelper": "空欄のまま保存するとリレーをオフにし、直接接続に戻ります",
+  "settingsDevRelaySecretHint": "32 文字以上",
+  "settingsDevRelaySecretHelper": "デプロイ時にリレーへ設定した鍵。両側が一致している必要があります",
+  "settingsDevRelayDisabledSnack": "セルフホストのリレーをオフにしました。すべてのリクエストは直接接続に戻ります",
+  "settingsDevRelayEnabledSnack": "セルフホストのリレーを有効にしました：{url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "リレーのアドレスは HTTPS である必要があります（ローカルでのデバッグは http://localhost や LAN アドレスで構いません）",
+  "settingsDevRelaySecretTooShort": "鍵は 32 文字以上必要です",
+  "settingsDevRelayIncomplete": "設定が不完全です",
+  "settingsDevRelayFillBoth": "先にアドレスと鍵を入力してください",
+  "settingsDevRelayWrongSecret": "鍵が一致しません。このリレーは発行したトークンを拒否しました",
+  "settingsDevRelayNotARelay": "このアドレスは Luotopia のリレーではありません",
+  "settingsDevRelayNotARelayDetail": "このアドレスは Luotopia のリレーではありません（{detail}）",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "リレーではありますが、RELAY_HMAC_KEY が設定されていません",
+  "settingsDevRelayUnreachable": "接続できません",
+  "settingsDevRelayUnreachableDetail": "接続できません（{detail}）",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "リレーは利用可能です（トークンは受理されました）が、確認に使う上流に到達できませんでした。HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "リレーがリクエストを拒否しました：{detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "リレーのバージョン {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "許可リストのホスト {count} 件",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "接続は正常です",
+  "settingsDevRelayReportFailed": "接続に失敗しました",
   "settingsSecurityCloneTitle": "アプリデータが複製された可能性があります",
   "settingsSecurityCloneSubtitle": "安全なストレージは読み取り時に消去されるため、ログアウトされます。タップして詳細を表示。",
   "settingsSecurityCompromisedTitle": "危険な実行環境を検出しました",

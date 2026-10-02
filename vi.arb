@@ -1593,6 +1593,84 @@
   "settingsDevHotUpdateSubtitle": "Xem các tập lệnh phân tích có thể cập nhật nóng và trạng thái của chúng",
   "settingsDevDeviceTrustTitle": "Tin cậy thiết bị",
   "settingsDevDeviceTrustSubtitle": "Kiểm tra tính toàn vẹn của thiết bị và các tín hiệu bảo mật",
+  "settingsDevServerHttpOnlySnack": "HTTP chỉ được phép với localhost hoặc địa chỉ mạng nội bộ; hãy dùng HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP chỉ được phép với localhost hoặc địa chỉ mạng nội bộ",
+  "settingsDevKeychainFallbackTitle": "Chuyển sang lưu dạng văn bản thuần khi Keychain không khả dụng",
+  "settingsDevKeychainFallbackSubtitle": "Chỉ có tác dụng ở bản debug. Dành cho môi trường không có Data Protection Keychain khả dụng như vPhone. Khi bật, thông tin đăng nhập được lưu dạng văn bản thuần trong sandbox của ứng dụng; đừng để bật khi dùng hằng ngày trên máy thật.",
+  "settingsDevRelayTitle": "Relay biên tự lưu trữ",
+  "settingsDevRelaySubtitle": "Chỉ nhập địa chỉ do chính bạn triển khai và tin tưởng: relay xử lý cookie phiên của trường. cas.whu.edu.cn không bao giờ đi qua relay.",
+  "settingsDevRelayTest": "Kiểm tra kết nối",
+  "settingsDevRelayUrlLabel": "Địa chỉ relay",
+  "settingsDevRelayUrlHelper": "Để trống rồi lưu để tắt relay và quay về kết nối trực tiếp",
+  "settingsDevRelaySecretHint": "Ít nhất 32 ký tự",
+  "settingsDevRelaySecretHelper": "Khóa bạn đã cấu hình cho relay khi triển khai; hai bên phải trùng nhau",
+  "settingsDevRelayDisabledSnack": "Đã tắt relay tự lưu trữ; mọi yêu cầu lại đi trực tiếp",
+  "settingsDevRelayEnabledSnack": "Đã bật relay tự lưu trữ: {url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "Địa chỉ relay phải là HTTPS (khi gỡ lỗi cục bộ có thể dùng http://localhost hoặc địa chỉ mạng nội bộ)",
+  "settingsDevRelaySecretTooShort": "Khóa phải có ít nhất 32 ký tự",
+  "settingsDevRelayIncomplete": "Cấu hình chưa đầy đủ",
+  "settingsDevRelayFillBoth": "Hãy nhập địa chỉ và khóa trước",
+  "settingsDevRelayWrongSecret": "Khóa không khớp: relay này đã từ chối token mà chúng tôi ký",
+  "settingsDevRelayNotARelay": "Địa chỉ đó không phải relay của Luotopia",
+  "settingsDevRelayNotARelayDetail": "Địa chỉ đó không phải relay của Luotopia ({detail})",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "Đúng là relay, nhưng bản thân nó chưa cấu hình RELAY_HMAC_KEY",
+  "settingsDevRelayUnreachable": "Không kết nối được",
+  "settingsDevRelayUnreachableDetail": "Không kết nối được ({detail})",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "Relay dùng được (token đã được chấp nhận), nhưng thượng nguồn dùng để thăm dò không thông: HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "Relay đã từ chối yêu cầu: {detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "Phiên bản relay {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "{count} máy chủ trong danh sách cho phép",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "Kết nối bình thường",
+  "settingsDevRelayReportFailed": "Kết nối thất bại",
   "settingsSecurityCloneTitle": "Dữ liệu ứng dụng có thể đã bị sao chép",
   "settingsSecurityCloneSubtitle": "Bộ nhớ an toàn sẽ bị xóa khi đọc, nên bạn sẽ bị đăng xuất. Nhấn để xem chi tiết.",
   "settingsSecurityCompromisedTitle": "Phát hiện môi trường chạy có rủi ro",

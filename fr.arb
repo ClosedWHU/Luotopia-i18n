@@ -1476,6 +1476,84 @@
   "settingsDevHotUpdateSubtitle": "Voir les scripts d'analyse mis à jour à chaud et leur état",
   "settingsDevDeviceTrustTitle": "Confiance de l’appareil",
   "settingsDevDeviceTrustSubtitle": "Inspecter l’intégrité de l’appareil et les indicateurs de sécurité",
+  "settingsDevServerHttpOnlySnack": "HTTP n'est autorisé que pour localhost ou une adresse du réseau local ; utilisez HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP n'est autorisé que pour localhost ou une adresse du réseau local",
+  "settingsDevKeychainFallbackTitle": "Revenir au stockage en clair quand Keychain est indisponible",
+  "settingsDevKeychainFallbackSubtitle": "Versions de débogage uniquement. Pour les environnements sans Data Protection Keychain utilisable, comme vPhone. Une fois activé, les identifiants sont conservés en clair dans le bac à sable de l'application ; ne laissez pas cette option activée sur un appareil utilisé au quotidien.",
+  "settingsDevRelayTitle": "Relais de périphérie auto-hébergé",
+  "settingsDevRelaySubtitle": "Ne saisissez qu'une adresse que vous avez déployée et en laquelle vous avez confiance : le relais traite les cookies de session du campus. cas.whu.edu.cn ne passe jamais par le relais.",
+  "settingsDevRelayTest": "Tester la connexion",
+  "settingsDevRelayUrlLabel": "Adresse du relais",
+  "settingsDevRelayUrlHelper": "Laissez vide et enregistrez pour désactiver le relais et revenir en connexion directe",
+  "settingsDevRelaySecretHint": "Au moins 32 caractères",
+  "settingsDevRelaySecretHelper": "La clé configurée sur le relais lors de son déploiement ; les deux côtés doivent correspondre",
+  "settingsDevRelayDisabledSnack": "Relais auto-hébergé désactivé ; toutes les requêtes redeviennent directes",
+  "settingsDevRelayEnabledSnack": "Relais auto-hébergé activé : {url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "L'adresse du relais doit être en HTTPS (http://localhost ou une adresse locale suffisent pour le débogage)",
+  "settingsDevRelaySecretTooShort": "La clé doit comporter au moins 32 caractères",
+  "settingsDevRelayIncomplete": "Configuration incomplète",
+  "settingsDevRelayFillBoth": "Commencez par saisir l'adresse et la clé",
+  "settingsDevRelayWrongSecret": "Clé incorrecte : ce relais a rejeté le jeton que nous avons signé",
+  "settingsDevRelayNotARelay": "Cette adresse n'est pas un relais Luotopia",
+  "settingsDevRelayNotARelayDetail": "Cette adresse n'est pas un relais Luotopia ({detail})",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "C'est un relais, mais sa propre RELAY_HMAC_KEY n'est pas configurée",
+  "settingsDevRelayUnreachable": "Injoignable",
+  "settingsDevRelayUnreachableDetail": "Injoignable ({detail})",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "Le relais fonctionne (le jeton a été accepté), mais l'amont utilisé pour le test n'a pas répondu : HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "Le relais a refusé la requête : {detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "Version du relais {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "{count} hôtes autorisés",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "Connexion OK",
+  "settingsDevRelayReportFailed": "Échec de la connexion",
   "settingsSecurityCloneTitle": "Les données de l'application ont peut-être été clonées",
   "settingsSecurityCloneSubtitle": "Le stockage sécurisé est effacé à la lecture : vous serez déconnecté. Touchez pour plus de détails.",
   "settingsSecurityCompromisedTitle": "Environnement d'exécution à risque détecté",

@@ -378,6 +378,84 @@
   "vpnStatusLabel": "目前狀態",
   "settingsDevDeviceTrustTitle": "裝置信任",
   "settingsDevDeviceTrustSubtitle": "檢查裝置完整性同安全訊號",
+  "settingsDevServerHttpOnlySnack": "HTTP 只俾 localhost 或者區域網絡地址，請用 HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP 只俾 localhost 或者區域網絡地址",
+  "settingsDevKeychainFallbackTitle": "Keychain 用唔到時退回明文儲存",
+  "settingsDevKeychainFallbackSubtitle": "只喺除錯版生效。用嚟應付 vPhone 呢類冇 Data Protection Keychain 嘅環境。開啟之後憑據會以明文存喺應用沙盒，真機日常使用唔好開住。",
+  "settingsDevRelayTitle": "自建邊緣中繼",
+  "settingsDevRelaySubtitle": "只填你自己部署、自己信得過嘅地址——中繼會經手校園會話 Cookie。cas.whu.edu.cn 永遠唔行中繼。",
+  "settingsDevRelayTest": "測試連線",
+  "settingsDevRelayUrlLabel": "中繼地址",
+  "settingsDevRelayUrlHelper": "留空再儲存就等於關閉中繼，恢復直連",
+  "settingsDevRelaySecretHint": "至少 32 個字元",
+  "settingsDevRelaySecretHelper": "部署時配畀中繼嘅那條密鑰，兩邊要一致",
+  "settingsDevRelayDisabledSnack": "自建中繼已經關閉，所有請求恢復直連",
+  "settingsDevRelayEnabledSnack": "自建中繼已經啟用：{url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "中繼地址一定要係 HTTPS（本機除錯可以用 http://localhost 或者區域網絡地址）",
+  "settingsDevRelaySecretTooShort": "密鑰至少 32 個字元",
+  "settingsDevRelayIncomplete": "設定唔完整",
+  "settingsDevRelayFillBoth": "先填地址同密鑰",
+  "settingsDevRelayWrongSecret": "密鑰唔匹配：呢個中繼拒咗我哋簽發嘅令牌",
+  "settingsDevRelayNotARelay": "呢個地址唔係 Luotopia 中繼",
+  "settingsDevRelayNotARelayDetail": "呢個地址唔係 Luotopia 中繼（{detail}）",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "係中繼，不過佢自己冇設定 RELAY_HMAC_KEY",
+  "settingsDevRelayUnreachable": "連唔上",
+  "settingsDevRelayUnreachableDetail": "連唔上（{detail}）",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "中繼可用（令牌已接受），不過探測用嘅上游唔通，HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "中繼拒絕咗請求：{detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "中繼版本 {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "白名單 {count} 個主機",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "連線正常",
+  "settingsDevRelayReportFailed": "連線失敗",
   "settingsSecurityCloneTitle": "應用數據懷疑被克隆",
   "settingsSecurityCloneSubtitle": "安全儲存會喺讀取時被清空，帳號會自動登出。點擊查看詳情。",
   "settingsSecurityCompromisedTitle": "檢測到風險運行環境",

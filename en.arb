@@ -3748,6 +3748,84 @@
   "settingsDevHotUpdateSubtitle": "View hot-updatable parser scripts and their status",
   "settingsDevDeviceTrustTitle": "Device Trust",
   "settingsDevDeviceTrustSubtitle": "Inspect device integrity and security signals",
+  "settingsDevServerHttpOnlySnack": "HTTP is only allowed for localhost or a LAN address; use HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP is only allowed for localhost or a LAN address",
+  "settingsDevKeychainFallbackTitle": "Fall back to plaintext storage when Keychain is unavailable",
+  "settingsDevKeychainFallbackSubtitle": "Debug builds only. For environments with no usable Data Protection Keychain, such as vPhone. Credentials are then kept in plaintext inside the app sandbox - do not leave this on for daily use on a real device.",
+  "settingsDevRelayTitle": "Self-hosted edge relay",
+  "settingsDevRelaySubtitle": "Only enter an address you deployed and trust yourself - a relay handles your campus session cookies. cas.whu.edu.cn never goes through the relay.",
+  "settingsDevRelayTest": "Test connection",
+  "settingsDevRelayUrlLabel": "Relay URL",
+  "settingsDevRelayUrlHelper": "Leave empty and save to turn the relay off and go direct",
+  "settingsDevRelaySecretHint": "At least 32 characters",
+  "settingsDevRelaySecretHelper": "The key you set on the relay when deploying it; both sides must match",
+  "settingsDevRelayDisabledSnack": "Self-hosted relay turned off; all requests go direct again",
+  "settingsDevRelayEnabledSnack": "Self-hosted relay enabled: {url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "The relay URL must be HTTPS (http://localhost or a LAN address is fine for local debugging)",
+  "settingsDevRelaySecretTooShort": "The secret must be at least 32 characters",
+  "settingsDevRelayIncomplete": "Incomplete configuration",
+  "settingsDevRelayFillBoth": "Enter the URL and the secret first",
+  "settingsDevRelayWrongSecret": "Secret mismatch: this relay rejected the token we minted",
+  "settingsDevRelayNotARelay": "That address is not a Luotopia relay",
+  "settingsDevRelayNotARelayDetail": "That address is not a Luotopia relay ({detail})",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "It is a relay, but it has no RELAY_HMAC_KEY configured",
+  "settingsDevRelayUnreachable": "Cannot reach it",
+  "settingsDevRelayUnreachableDetail": "Cannot reach it ({detail})",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "The relay works (the token was accepted), but the upstream used for the probe did not respond: HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "The relay refused the request: {detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "Relay version {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "{count} hosts allow-listed",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "Connection OK",
+  "settingsDevRelayReportFailed": "Connection failed",
   "settingsSecurityCloneTitle": "App data may have been cloned",
   "settingsSecurityCloneSubtitle": "Secure storage is wiped on read, so you will be signed out. Tap for details.",
   "settingsSecurityCompromisedTitle": "Risky runtime environment detected",

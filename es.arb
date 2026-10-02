@@ -1476,6 +1476,84 @@
   "settingsDevHotUpdateSubtitle": "Ver scripts de análisis actualizables en caliente y su estado",
   "settingsDevDeviceTrustTitle": "Confianza del dispositivo",
   "settingsDevDeviceTrustSubtitle": "Inspeccionar la integridad del dispositivo y las señales de seguridad",
+  "settingsDevServerHttpOnlySnack": "HTTP solo se permite para localhost o una dirección de la red local; usa HTTPS",
+  "settingsDevServerHttpOnlyError": "HTTP solo se permite para localhost o una dirección de la red local",
+  "settingsDevKeychainFallbackTitle": "Recurrir al almacenamiento en texto plano cuando Keychain no está disponible",
+  "settingsDevKeychainFallbackSubtitle": "Solo en compilaciones de depuración. Pensado para entornos sin Data Protection Keychain utilizable, como vPhone. Al activarlo, las credenciales se guardan en texto plano dentro del sandbox de la aplicación; no lo dejes activado en un dispositivo real de uso diario.",
+  "settingsDevRelayTitle": "Relé de borde autoalojado",
+  "settingsDevRelaySubtitle": "Introduce solo una dirección que tú hayas desplegado y en la que confíes: el relé gestiona las cookies de sesión del campus. cas.whu.edu.cn nunca pasa por el relé.",
+  "settingsDevRelayTest": "Probar conexión",
+  "settingsDevRelayUrlLabel": "Dirección del relé",
+  "settingsDevRelayUrlHelper": "Déjalo vacío y guarda para desactivar el relé y volver a la conexión directa",
+  "settingsDevRelaySecretHint": "Al menos 32 caracteres",
+  "settingsDevRelaySecretHelper": "La clave que configuraste en el relé al desplegarlo; ambos lados deben coincidir",
+  "settingsDevRelayDisabledSnack": "Relé autoalojado desactivado; todas las peticiones vuelven a ser directas",
+  "settingsDevRelayEnabledSnack": "Relé autoalojado activado: {url}",
+  "@settingsDevRelayEnabledSnack": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUrlNotHttps": "La dirección del relé debe ser HTTPS (para depurar en local valen http://localhost o una dirección de la red local)",
+  "settingsDevRelaySecretTooShort": "La clave debe tener al menos 32 caracteres",
+  "settingsDevRelayIncomplete": "Configuración incompleta",
+  "settingsDevRelayFillBoth": "Introduce primero la dirección y la clave",
+  "settingsDevRelayWrongSecret": "La clave no coincide: este relé rechazó el token que firmamos",
+  "settingsDevRelayNotARelay": "Esa dirección no es un relé de Luotopia",
+  "settingsDevRelayNotARelayDetail": "Esa dirección no es un relé de Luotopia ({detail})",
+  "@settingsDevRelayNotARelayDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUnconfigured": "Es un relé, pero no tiene configurada su propia RELAY_HMAC_KEY",
+  "settingsDevRelayUnreachable": "No se puede conectar",
+  "settingsDevRelayUnreachableDetail": "No se puede conectar ({detail})",
+  "@settingsDevRelayUnreachableDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayUpstreamFailed": "El relé funciona (aceptó el token), pero el origen usado para la prueba no respondió: HTTP {status}",
+  "@settingsDevRelayUpstreamFailed": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayRefused": "El relé rechazó la petición: {detail}",
+  "@settingsDevRelayRefused": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportVersion": "Versión del relé {version}",
+  "@settingsDevRelayReportVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDevRelayReportHosts": "{count} hosts en la lista de permitidos",
+  "@settingsDevRelayReportHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDevRelayReportOk": "Conexión correcta",
+  "settingsDevRelayReportFailed": "Conexión fallida",
   "settingsSecurityCloneTitle": "Los datos de la aplicación pueden haber sido clonados",
   "settingsSecurityCloneSubtitle": "El almacenamiento seguro se borra al leerlo, por lo que se cerrará tu sesión. Toca para ver los detalles.",
   "settingsSecurityCompromisedTitle": "Se detectó un entorno de ejecución de riesgo",
