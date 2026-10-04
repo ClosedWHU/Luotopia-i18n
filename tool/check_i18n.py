@@ -87,7 +87,8 @@ KEEP_VALUES = {
     "https://example.com/wallpaper.jpg",
     "ip-api.com",
     # Placeholder-only format strings, units, times, dates and symbols
-    "{count} sections", "{count} questions", "{rating} / 5", "{price} CNY", "{amount} CNY",
+    "{count} sections", "{count} questions", "Quota",
+    "{rating} / 5", "{price} CNY", "{amount} CNY",
     "{value} CNY", "{lowPrice}-{highPrice} CNY", "~{meters}m",
     "{minutes} min", "{minute} min", "{hour} h", "Sem {s}", "{value}%",
     "{month}/{day}", "{day} - {endDay}", "{start} - {end}",
