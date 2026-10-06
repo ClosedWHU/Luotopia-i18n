@@ -1552,6 +1552,7 @@
   "aiClearHistory": "清空历史",
   "aiRename": "重命名",
   "aiDelete": "删除",
+  "aiMessageActionsTitle": "消息操作",
   "aiNoMessages": "没有消息",
   "aiClearConversations": "清空对话历史",
   "aiAccountSwitchTitle": "检测到账号变更",
@@ -6074,6 +6075,18 @@
   "campusMapAttributionTitle": "地图数据",
   "campusMapNearbyPlaces": "此处的多个地点",
   "medicalWorkingHours": "工作时间",
+  "medicalWorkingHoursOverview": "就诊时间一览",
+  "medicalWorkingHoursIntro": "不同院区和科室安排不同，请以现场公告为准。\n未特别注明的科室，默认按法定工作时间开放；节假日不开。",
+  "medicalDepartmentCount": "{count} 个科室",
+  "@medicalDepartmentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "medicalAllDay": "全天",
+
   "medicalInvoicesUnpaid": "未缴费",
   "medicalInvoicesPaid": "已缴费",
   "medicalCancelRegistration": "退号",
