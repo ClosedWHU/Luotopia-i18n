@@ -51,7 +51,7 @@ KEEP_VALUES = {
     "Notifications", "Session", "Mobile", "Architecture", "Documents",
     "Images", "Karma", "Delta", "Regular", "Error", "General", "Actor",
     "Auto", "Satellite", "Patient", "Instructions", "Minute", "Video",
-    "Email", "Sem",
+    "Email", "Sem", "Agenda",
     # App / product / provider brand forms
     "Luotopia", "Shiguang", "Starlink", "Chaoxing", "Zhihui Luojia",
     "Budao Lepao", "Huawei Watch", "MiSans", "Google Noto Sans",
@@ -93,6 +93,7 @@ KEEP_VALUES = {
     "{minutes} min", "{minute} min", "{hour} h", "Sem {s}", "{value}%",
     "{month}/{day}", "{day} - {endDay}", "{start} - {end}",
     "{from} - {to}", "{building} - {room}", "{type} · {venue}",
+    "{page} · {tab}",
     "{condition} · {minTemp}°/{maxTemp}°", "{city} · {source} · {date}",
     "[{covers}] {prompt}", "SHA-256: {checksum}", "GPA: {gpa}",
     "GP {point}", "AQI {value}", "Worker {index}", "Video {index}",

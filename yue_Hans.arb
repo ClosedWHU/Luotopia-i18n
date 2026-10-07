@@ -299,7 +299,7 @@
   "forumPostNewBadge": "新帖",
   "designLanguage": "设计语言",
   "designLanguageExperimentalNote": "实验功能 · 目前仅 Theme Lab 预览生效",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem, Agenda); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "settingsPermissionsTitle": "权限管理",
   "settingsPermissionsSubtitle": "查看和管理系统权限，唔会改变应用内偏好设置。",
   "settingsPermissionsOpenSystemSettings": "开启系统设定",
@@ -1038,6 +1038,10 @@
   "settingsHomeItemColorDepth": "事項方塊嘅顏色深淺",
   "settingsHomeItemAlpha": "事項方塊嘅不透明度",
   "settingsHomeItemBorderAlpha": "色卡边框不透明度",
+  "settingsHomeContent": "显示内容",
+  "settingsHomeCellSize": "格子尺寸",
+  "settingsHomeGridAppearance": "网格外观",
+  "settingsHomeItemAppearance": "事项外观",
   "settingsHomePreview": "預覽",
   "settingsHomeSectionTitle": "主页设定",
   "settingsHomeTimeGridSettings": "时间方格模式设定",
@@ -1559,16 +1563,6 @@
     }
   },
   "settingsAboutDescription": "珞家致力打造一个现代化、美观、功能够劲嘅教务同校园生活中心平台。多谢你用同支持！",
-  "settingsDevModeAlreadyOn": "开发者模式已经开咗：你已经係开发者。",
-  "settingsDevModeActivated": "开发者模式已经开咗：而家可以用开发者设置喇！",
-  "settingsDevModeTapCount": "即将开启开发者模式：再撳 {count} 次开启开发者模式",
-  "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "settingsDevHotUpdate": "热更新管理",
   "settingsDevHotUpdateSubtitle": "查看可热更新嘅分析脚本同佢哋嘅状态",
   "hotUpdateTitle": "热更新管理",
@@ -1627,7 +1621,6 @@
       }
     }
   },
-  "settingsDevModeBlockedCompromised": "而家个环境有安全风险，开发者模式已经停用咗",
   "settingsNotificationsTitle": "通知管理",
   "settingsNotificationsEntrySubtitle": "推送、角标同 Android 通知渠道",
   "settingsCourseRemindersEntryTitle": "课程提醒",
@@ -1711,8 +1704,6 @@
   "settingsDevReceivePrereleaseUpdatesSubtitle": "关闭后，最新嘅预发布版本唔会提示更新",
   "settingsDevSimulateUpdate": "模拟更新",
   "settingsDevSimulateUpdateSubtitle": "行完更新提示、下载同安装嘅界面流程；唔下载文件，都唔更改任何状态",
-  "settingsDevDisableTitle": "关掉开发者模式",
-  "settingsDevDisableSubtitle": "关咗之后要再连续撳版本号先开到",
   "settingsHomeGridAlpha": "网格背景不透明度",
   "settingsHomeGridBorderAlpha": "网格边框不透明度",
   "settingsHomeCropImage": "裁剪图片",
@@ -2347,8 +2338,6 @@
   "campusBusServiceHours": "运营时间: {hours}",
   "whuConfirmLogout": "确认登出",
   "whuLogoutWarning": "登出之后要重新登入先用到武大相关服务。",
-  "settingsDevConfirmDisable": "关掉开发者模式？",
-  "settingsDevDisableWarning": "关咗之后要再连续撳版本号先开得返。",
   "scoreClearCacheTitle": "清走成绩缓存",
   "scoreClearCacheWarning": "所有本机缓存嘅成绩资料都会清走，确定继续？",
   "scoreClearCacheSuccess": "成绩缓存已经清走",
@@ -2500,8 +2489,8 @@
   "sportsAddedToAgenda": "已经加咗入日程",
   "wallpaperCenterTitle": "桌布",
   "wallpaperCenterSubtitle": "为各页面单独设定桌布",
-  "wallpaperSectionPages": "页面桌布",
-  "wallpaperSectionBars": "顶部与底部栏",
+  "wallpaperSourceRow": "桌布",
+  "wallpaperTargetListTab": "{page} · {tab}",
   "wallpaperSourceNone": "无",
   "wallpaperSourceLocal": "本机图片",
   "wallpaperSourceBing": "Bing 每日",
@@ -2981,6 +2970,7 @@
   "messagesMarkAllReadFailed": "全部已读失败",
   "wallpaperDarkOverlayOpacity": "深色模式覆盖层不透明度",
   "wallpaperTranslucentBars": "透明栏",
+  "wallpaperListSharedBarsHint": "下方各标签页共用此设置",
   "wallpaperTransparencyOpaque": "都不透明",
   "wallpaperTransparencyTopBar": "仅顶栏透明",
   "wallpaperTransparencyBottomBar": "仅底栏透明",
@@ -7649,5 +7639,15 @@
   "widget_preview_location_t5": "教五201",
   "widget_preview_location_lang": "外语楼302",
   "widget_preview_location_cs": "计算机楼101",
-  "widget_preview_location_lab": "实验楼A103"
+  "widget_preview_location_lab": "实验楼A103",
+  "listSettingsPage": "页面设定",
+  "settingsListEntryTitle": "日程",
+  "settingsListEntrySubtitle": "列表外观同横线",
+  "settingsListSectionTitle": "日程设定",
+  "settingsListSectionAppearance": "外观",
+  "settingsListItemBackground": "列表项背景",
+  "settingsListItemBorder": "列表项边框",
+  "settingsListRule": "横线",
+  "settingsListPreview": "预览",
+  "settingsListPreviewSampleItem": "示例日程项"
 }

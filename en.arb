@@ -397,7 +397,7 @@
   "forumPostNewBadge": "New post",
   "designLanguage": "Design language",
   "designLanguageExperimentalNote": "Experimental · currently only affects the Theme Lab preview",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem, Agenda); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "aiAssistant": "Assistant",
   "aiInputHint": "Ask me anything about your schedule...",
   "aiTitle": "Title",
@@ -1321,6 +1321,10 @@
   "settingsHomeItemColorDepth": "Item color depth",
   "settingsHomeItemAlpha": "Item opacity",
   "settingsHomeItemBorderAlpha": "Item border opacity",
+  "settingsHomeContent": "What to show",
+  "settingsHomeCellSize": "Cell size",
+  "settingsHomeGridAppearance": "Grid appearance",
+  "settingsHomeItemAppearance": "Item appearance",
   "settingsHomePreview": "Preview",
   "settingsHomeSectionTitle": "Home settings",
   "settingsHomeTimeGridSettings": "Time Grid Settings",
@@ -2312,17 +2316,6 @@
     }
   },
   "settingsAboutDescription": "Luotopia is dedicated to building a modern, beautiful, and powerful campus life hub platform. Thank you for your support!",
-  "settingsDevModeAlreadyOn": "Developer mode is already enabled.",
-  "settingsDevModeActivated": "Developer mode activated! You can now use developer settings.",
-  "settingsDevModeTapCount": "Tap {count} more times to enable developer mode",
-  "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "settingsDevModeBlockedCompromised": "Security risk detected in the current environment. Developer mode is disabled.",
   "settingsNotificationsTitle": "Notifications",
   "settingsNotificationsEntrySubtitle": "Push, badge, and Android channels",
   "settingsCourseRemindersEntryTitle": "Course reminders",
@@ -2406,8 +2399,6 @@
   "settingsDevReceivePrereleaseUpdatesSubtitle": "When off, prerelease builds are not offered as updates",
   "settingsDevSimulateUpdate": "Simulate update",
   "settingsDevSimulateUpdateSubtitle": "Walks through the update prompt, download and install UI without downloading files or changing any state",
-  "settingsDevDisableTitle": "Disable Developer Mode",
-  "settingsDevDisableSubtitle": "After disabling, re-enable by tapping version number repeatedly",
   "settingsHomeGridAlpha": "Grid Background Opacity",
   "settingsHomeGridBorderAlpha": "Grid Border Opacity",
   "settingsHomeCropImage": "Crop Image",
@@ -3215,8 +3206,6 @@
   "campusBusArrivalUseNearestToggle": "Use nearest stop on this line",
   "whuConfirmLogout": "Confirm logout",
   "whuLogoutWarning": "You will need to log in again to use WHU-related services.",
-  "settingsDevConfirmDisable": "Disable developer mode?",
-  "settingsDevDisableWarning": "After disabling, you will need to tap the version number repeatedly to re-enable.",
   "scoreClearCacheTitle": "Clear cached scores",
   "scoreClearCacheWarning": "All locally cached score data will be cleared. Continue?",
   "scoreClearCacheSuccess": "Score cache cleared",
@@ -3380,8 +3369,18 @@
   "sportsOrderFilterHistory": "History",
   "wallpaperCenterTitle": "Wallpaper",
   "wallpaperCenterSubtitle": "Set a wallpaper per page",
-  "wallpaperSectionPages": "Page wallpapers",
-  "wallpaperSectionBars": "Top & bottom bars",
+  "wallpaperSourceRow": "Wallpaper",
+  "wallpaperTargetListTab": "{page} · {tab}",
+  "@wallpaperTargetListTab": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      },
+      "tab": {
+        "type": "String"
+      }
+    }
+  },
   "wallpaperSourceNone": "None",
   "wallpaperSourceLocal": "Local image",
   "wallpaperSourceBing": "Bing daily",
@@ -3390,6 +3389,7 @@
   "wallpaperNoImage": "No image selected",
   "wallpaperDarkOverlayOpacity": "Dark mode overlay opacity",
   "wallpaperTranslucentBars": "Translucent bars",
+  "wallpaperListSharedBarsHint": "The tabs below share this setting",
   "wallpaperTransparencyOpaque": "Opaque bars",
   "wallpaperTransparencyTopBar": "Top bar only",
   "wallpaperTransparencyBottomBar": "Bottom bar only",
@@ -9276,5 +9276,15 @@
   "widget_preview_location_t5": "Bldg 5-201",
   "widget_preview_location_lang": "Lang Bldg 302",
   "widget_preview_location_cs": "CS Bldg 101",
-  "widget_preview_location_lab": "Lab Bldg A103"
+  "widget_preview_location_lab": "Lab Bldg A103",
+  "listSettingsPage": "Page settings",
+  "settingsListEntryTitle": "Agenda",
+  "settingsListEntrySubtitle": "List appearance and ruled lines",
+  "settingsListSectionTitle": "Agenda settings",
+  "settingsListSectionAppearance": "Appearance",
+  "settingsListItemBackground": "Item background",
+  "settingsListItemBorder": "Item border",
+  "settingsListRule": "Ruled lines",
+  "settingsListPreview": "Preview",
+  "settingsListPreviewSampleItem": "Sample agenda item"
 }

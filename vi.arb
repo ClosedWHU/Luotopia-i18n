@@ -298,7 +298,7 @@
   "forumPostNewBadge": "Bài mới",
   "designLanguage": "Ngôn ngữ thiết kế",
   "designLanguageExperimentalNote": "Thử nghiệm · hiện chỉ ảnh hưởng bản xem trước Theme Lab",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem, Agenda); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "settingsPermissionsTitle": "Quản lý quyền",
   "settingsPermissionsSubtitle": "Xem và quản lý quyền hệ thống mà không thay đổi tùy chỉnh trong ứng dụng.",
   "settingsPermissionsOpenSystemSettings": "Mở cài đặt hệ thống",
@@ -1110,6 +1110,10 @@
   "settingsHomeItemColorDepth": "Độ đậm màu của khối lịch",
   "settingsHomeItemAlpha": "Độ mờ của khối lịch",
   "settingsHomeItemBorderAlpha": "Độ mờ viền khối lịch",
+  "settingsHomeContent": "Nội dung hiển thị",
+  "settingsHomeCellSize": "Kích thước ô",
+  "settingsHomeGridAppearance": "Giao diện lưới",
+  "settingsHomeItemAppearance": "Giao diện khối lịch",
   "settingsHomePreview": "Xem trước",
   "settingsHomeSectionTitle": "Cài đặt trang chủ",
   "settingsHomeTimeGridSettings": "Cài đặt chế độ lưới thời gian",
@@ -1631,16 +1635,6 @@
     }
   },
   "settingsAboutDescription": "Luotopia hướng tới trung tâm học vụ & đời sống khuôn viên hiện đại, đẹp và mạnh. Cảm ơn bạn!",
-  "settingsDevModeAlreadyOn": "Chế độ nhà phát triển đã bật.",
-  "settingsDevModeActivated": "Chế độ nhà phát triển đã bật. Bạn có thể dùng cài đặt nhà phát triển.",
-  "settingsDevModeTapCount": "Chạm thêm {count} lần để bật chế độ nhà phát triển",
-  "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "settingsDevHotUpdate": "Quản lý cập nhật nóng",
   "settingsDevHotUpdateSubtitle": "Xem các tập lệnh phân tích có thể cập nhật nóng và trạng thái của chúng",
   "settingsDevDeviceTrustTitle": "Tin cậy thiết bị",
@@ -1852,7 +1846,6 @@
       }
     }
   },
-  "settingsDevModeBlockedCompromised": "Môi trường hiện tại có rủi ro bảo mật. Chế độ nhà phát triển đã bị tắt.",
   "settingsNotificationsTitle": "Thông báo",
   "settingsNotificationsEntrySubtitle": "Push, huy hiệu và kênh Android",
   "settingsCourseRemindersEntryTitle": "Nhắc lịch học",
@@ -1936,8 +1929,6 @@
   "settingsDevReceivePrereleaseUpdatesSubtitle": "Khi tắt, bản prerelease sẽ không được đề xuất cập nhật",
   "settingsDevSimulateUpdate": "Mô phỏng cập nhật",
   "settingsDevSimulateUpdateSubtitle": "Đi qua toàn bộ giao diện cập nhật, tải xuống và cài đặt mà không tải tệp hay thay đổi trạng thái",
-  "settingsDevDisableTitle": "Tắt chế độ nhà phát triển",
-  "settingsDevDisableSubtitle": "Sau khi tắt, chạm liên tục vào số phiên bản để bật lại",
   "settingsHomeGridAlpha": "Độ mờ nền lưới",
   "settingsHomeGridBorderAlpha": "Độ mờ viền lưới",
   "settingsHomeCropImage": "Cắt ảnh",
@@ -2571,8 +2562,6 @@
   "campusBusServiceHours": "Giờ hoạt động: {hours}",
   "whuConfirmLogout": "Xác nhận đăng xuất",
   "whuLogoutWarning": "Sau khi đăng xuất cần đăng nhập lại để dùng dịch vụ WHU.",
-  "settingsDevConfirmDisable": "Tắt chế độ nhà phát triển?",
-  "settingsDevDisableWarning": "Sau khi tắt, cần chạm liên tục số phiên bản để bật lại.",
   "scoreClearCacheTitle": "Xóa cache điểm",
   "scoreClearCacheWarning": "Toàn bộ điểm cache trên máy sẽ bị xóa. Tiếp tục?",
   "scoreClearCacheSuccess": "Đã xóa cache điểm",
@@ -2724,8 +2713,8 @@
   "sportsAddedToAgenda": "Đã thêm vào lịch",
   "wallpaperCenterTitle": "Hình nền",
   "wallpaperCenterSubtitle": "Đặt hình nền cho từng trang",
-  "wallpaperSectionPages": "Hình nền theo trang",
-  "wallpaperSectionBars": "Thanh trên và thanh dưới",
+  "wallpaperSourceRow": "Hình nền",
+  "wallpaperTargetListTab": "{page} · {tab}",
   "wallpaperSourceNone": "Không",
   "wallpaperSourceLocal": "Ảnh máy",
   "wallpaperSourceBing": "Bing hằng ngày",
@@ -3205,6 +3194,7 @@
   "messagesMarkAllReadFailed": "Đánh dấu đã đọc thất bại",
   "wallpaperDarkOverlayOpacity": "Độ mờ lớp phủ tối",
   "wallpaperTranslucentBars": "Thanh trong suốt",
+  "wallpaperListSharedBarsHint": "Các thẻ bên dưới dùng chung thiết lập này",
   "wallpaperTransparencyOpaque": "Cả hai đều đục",
   "wallpaperTransparencyTopBar": "Chỉ thanh trên cùng",
   "wallpaperTransparencyBottomBar": "Chỉ thanh dưới cùng",
@@ -7701,5 +7691,15 @@
   "widget_preview_location_lang": "Nhà ngoại ngữ 302",
   "widget_preview_location_cs": "Nhà CNTT 101",
   "widget_preview_location_lab": "Nhà thí nghiệm A103",
-  "mentalHealthAxisToggle": "Chuyển trục kết quả"
+  "mentalHealthAxisToggle": "Chuyển trục kết quả",
+  "listSettingsPage": "Cài đặt trang",
+  "settingsListEntryTitle": "Lịch trình",
+  "settingsListEntrySubtitle": "Giao diện danh sách và dòng kẻ",
+  "settingsListSectionTitle": "Cài đặt lịch trình",
+  "settingsListSectionAppearance": "Giao diện",
+  "settingsListItemBackground": "Nền mục",
+  "settingsListItemBorder": "Viền mục",
+  "settingsListRule": "Dòng kẻ",
+  "settingsListPreview": "Xem trước",
+  "settingsListPreviewSampleItem": "Mục mẫu"
 }

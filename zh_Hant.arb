@@ -255,7 +255,7 @@
   "authPasskeySecondFactor": "密碼登入後要求二次驗證",
   "authPasskeySecondFactorHint": "使用密碼登入後，可透過電郵驗證碼、驗證器或 Passkey 完成驗證。",
   "authPasskeyPolicyFailed": "無法變更二次驗證設定：{error}",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem, Agenda); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "@@locale": "zh_Hant",
   "emailModeChooserTitle": "選擇信箱使用方式",
   "emailModeChooserSubtitle": "之後可以在信箱功能內隨時切換。",
@@ -1944,13 +1944,6 @@
   "@settingsDefaultCourseReminderValue": {
     "placeholders": {
       "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
         "type": "int"
       }
     }
@@ -5499,7 +5492,6 @@
   "ebikeBleDebugSubtitle": "本次工作階段的掃描、GATT、幀與應答",
   "ebikeBleDebugEmpty": "還沒有藍牙事件。開鎖或響鈴後會記錄軌跡。",
   "ebikeBleDebugClear": "清空",
-  "settingsDevConfirmDisable": "關閉開發者模式？",
   "settingsDevDeviceTrustSubtitle": "檢查裝置完整性與安全性訊號",
   "settingsDevServerHttpOnlySnack": "HTTP 僅允許 localhost 或區域網路位址，請使用 HTTPS",
   "settingsDevServerHttpOnlyError": "HTTP 僅允許 localhost 或區域網路位址",
@@ -5653,18 +5645,12 @@
   "deviceTrustInstallIdUsageSubtitle": "服務端「登入裝置」列表、推送裝置註冊與 freeRASP 後台的 external id 用的是同一個值，因此三邊的事件可以互相對上。它存放在安全儲存（Keystore / Secure Enclave）裡，複製偵測命中時會重新產生，複製體不會繼承原裝置的身份。",
   "deviceTrustRawJsonTitle": "JSON 輸出",
   "settingsDevDeviceTrustTitle": "裝置信任",
-  "settingsDevDisableSubtitle": "關閉後需要重新連續點擊版本號開啓",
-  "settingsDevDisableTitle": "關閉開發者模式",
-  "settingsDevDisableWarning": "關閉後需要重新連續點擊版本號才能再次開啓。",
   "settingsDevHotUpdate": "熱更新管理",
   "settingsDevHotUpdateSubtitle": "查看可熱更新的解析腳本及其狀態",
   "settingsDevKeepScreenAwake": "除錯時保持螢幕常亮",
   "settingsDevKeepScreenAwakeSubtitle": "僅在 Debug 組建且應用位於前景時阻止系統休眠",
   "settingsDevLifecycleDiagnostics": "應用程式生命週期診斷",
   "settingsDevLifecycleDiagnosticsSubtitle": "追蹤熱更新、位置重新整理和生命週期控制流程",
-  "settingsDevModeActivated": "開發者模式已開啓：您現在可以使用開發者設定了！",
-  "settingsDevModeAlreadyOn": "開發者模式已開啓：您已經是開發者了。",
-  "settingsDevModeTapCount": "即將開啓開發者模式：再點擊 {count} 次開啓開發者模式",
   "settingsDevReceivePrereleaseUpdates": "接收測試版更新",
   "settingsDevReceivePrereleaseUpdatesSubtitle": "關閉後，最新的預發布版本不會提示更新",
   "settingsDevSimulateUpdate": "模擬更新",
@@ -5722,6 +5708,10 @@
   "settingsHomeItemColorDepth": "事項方塊顏色深淺",
   "settingsHomeItemAlpha": "事項方塊不透明度",
   "settingsHomeItemBorderAlpha": "色卡邊框不透明度",
+  "settingsHomeContent": "顯示內容",
+  "settingsHomeCellSize": "格子尺寸",
+  "settingsHomeGridAppearance": "網格外觀",
+  "settingsHomeItemAppearance": "事項外觀",
   "settingsHomePreview": "預覽",
   "settingsHomePrimaryGroup": "主分組（正常顯示）",
   "settingsHomeSectionTitle": "主頁設定",
@@ -5758,7 +5748,6 @@
   "settingsNotificationImportanceSilentWarning": "目前為靜默或低重要度，提醒可能無聲音",
   "settingsNotificationImportanceUnknown": "未知",
   "settingsNotificationsEntrySubtitle": "推送、角標與 Android 通知渠道",
-  "settingsDevModeBlockedCompromised": "目前環境存在安全風險，開發者模式已被停用",
   "settingsNotificationsTitle": "通知管理",
   "settingsPercentValue": "{value}%",
   "settingsPrivacyAnalyticsSubtitle": "匿名功能使用資料，用於改進應用體驗",
@@ -6133,11 +6122,12 @@
   "wakeupWeekSuffixEven": "雙",
   "wakeupWeekSuffixOdd": "單",
   "wallpaperCenterSubtitle": "為各頁面單獨設定桌布",
-  "wallpaperSectionPages": "頁面桌布",
-  "wallpaperSectionBars": "頂部與底部列",
+  "wallpaperSourceRow": "桌布",
+  "wallpaperTargetListTab": "{page} · {tab}",
   "wallpaperCenterTitle": "桌布",
   "wallpaperDarkOverlayOpacity": "深色模式覆蓋層不透明度",
   "wallpaperTranslucentBars": "透明列",
+  "wallpaperListSharedBarsHint": "下方各分頁共用此設定",
   "wallpaperTransparencyOpaque": "都不透明",
   "wallpaperTransparencyTopBar": "僅頂部列透明",
   "wallpaperTransparencyBottomBar": "僅底部列透明",
@@ -8315,5 +8305,15 @@
   "widget_preview_location_t5": "教五201",
   "widget_preview_location_lang": "外語樓302",
   "widget_preview_location_cs": "計算機樓101",
-  "widget_preview_location_lab": "實驗樓A103"
+  "widget_preview_location_lab": "實驗樓A103",
+  "listSettingsPage": "頁面設定",
+  "settingsListEntryTitle": "日程",
+  "settingsListEntrySubtitle": "列表外觀與橫線",
+  "settingsListSectionTitle": "日程設定",
+  "settingsListSectionAppearance": "外觀",
+  "settingsListItemBackground": "列表項背景",
+  "settingsListItemBorder": "列表項邊框",
+  "settingsListRule": "橫線",
+  "settingsListPreview": "預覽",
+  "settingsListPreviewSampleItem": "示例日程項"
 }

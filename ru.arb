@@ -298,7 +298,7 @@
   "forumPostNewBadge": "Новая запись",
   "designLanguage": "Язык дизайна",
   "designLanguageExperimentalNote": "Экспериментально · пока влияет только на предпросмотр Theme Lab",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem, Agenda); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "settingsPermissionsTitle": "Управление разрешениями",
   "settingsPermissionsSubtitle": "Просмотрите и управляйте системными разрешениями, не изменяя настройки приложения.",
   "settingsPermissionsOpenSystemSettings": "Открыть настройки системы",
@@ -882,6 +882,10 @@
   "settingsHomeItemColorDepth": "Насыщенность цвета блоков",
   "settingsHomeItemAlpha": "Непрозрачность блоков",
   "settingsHomeItemBorderAlpha": "Непрозрачность границ блоков",
+  "settingsHomeContent": "Что показывать",
+  "settingsHomeCellSize": "Размер ячейки",
+  "settingsHomeGridAppearance": "Вид сетки",
+  "settingsHomeItemAppearance": "Вид блоков",
   "settingsHomePreview": "Предпросмотр",
   "settingsHomeSectionTitle": "Настройки главной страницы",
   "settingsHomeTimeGridSettings": "Настройки режима временной сетки",
@@ -1646,16 +1650,6 @@
     }
   },
   "settingsAboutDescription": "Luotopia — современный, красивый и мощный хаб учёбы и кампусной жизни. Спасибо за поддержку!",
-  "settingsDevModeAlreadyOn": "Режим разработчика уже включён.",
-  "settingsDevModeActivated": "Режим разработчика включён. Доступны настройки разработчика.",
-  "settingsDevModeTapCount": "Ещё {count} нажатий до режима разработчика",
-  "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "settingsDevHotUpdate": "Управление горячим обновлением",
   "settingsDevHotUpdateSubtitle": "Просмотр скриптов парсера с горячим обновлением и их состояния",
   "hotUpdateTitle": "Управление горячим обновлением",
@@ -1714,7 +1708,6 @@
       }
     }
   },
-  "settingsDevModeBlockedCompromised": "В текущем окружении обнаружен риск безопасности. Режим разработчика отключён.",
   "settingsNotificationsTitle": "Уведомления",
   "settingsNotificationsEntrySubtitle": "Пуш, значок и каналы Android",
   "settingsCourseRemindersEntryTitle": "Напоминания о занятиях",
@@ -1792,8 +1785,6 @@
   "settingsDevServerUrlSubtitle": "Переопределяет базовый URL API, напр. http://192.168.1.100:6262",
   "settingsDevUrlLabel": "URL сервера",
   "settingsDevUrlHint": "Оставьте пустым для значения по умолчанию",
-  "settingsDevDisableTitle": "Отключить режим разработчика",
-  "settingsDevDisableSubtitle": "После отключения снова включите, многократно нажимая номер версии",
   "settingsHomeGridAlpha": "Непрозрачность фона сетки",
   "settingsHomeGridBorderAlpha": "Непрозрачность границ сетки",
   "settingsHomeCropImage": "Обрезать изображение",
@@ -2426,8 +2417,6 @@
   "campusBusServiceHours": "Часы работы: {hours}",
   "whuConfirmLogout": "Подтвердить выход",
   "whuLogoutWarning": "После выхода потребуется снова войти для сервисов WHU.",
-  "settingsDevConfirmDisable": "Отключить режим разработчика?",
-  "settingsDevDisableWarning": "После отключения нужно снова многократно нажать номер версии.",
   "scoreClearCacheTitle": "Очистить кэш оценок",
   "scoreClearCacheWarning": "Все локально кэшированные оценки будут удалены. Продолжить?",
   "scoreClearCacheSuccess": "Кэш оценок очищен",
@@ -2579,8 +2568,8 @@
   "sportsAddedToAgenda": "Добавлено в расписание",
   "wallpaperCenterTitle": "Обои",
   "wallpaperCenterSubtitle": "Обои для каждой страницы",
-  "wallpaperSectionPages": "Обои по страницам",
-  "wallpaperSectionBars": "Верхняя и нижняя панели",
+  "wallpaperSourceRow": "Обои",
+  "wallpaperTargetListTab": "{page} · {tab}",
   "wallpaperSourceNone": "Нет",
   "wallpaperSourceLocal": "Локальный файл",
   "wallpaperSourceBing": "Bing дня",
@@ -3060,6 +3049,7 @@
   "messagesMarkAllReadFailed": "Не удалось отметить все как прочитанные",
   "wallpaperDarkOverlayOpacity": "Непрозрачность наложения в темной теме",
   "wallpaperTranslucentBars": "Прозрачные панели",
+  "wallpaperListSharedBarsHint": "Вкладки ниже используют эту настройку",
   "wallpaperTransparencyOpaque": "Обе непрозрачные",
   "wallpaperTransparencyTopBar": "Только верхняя панель",
   "wallpaperTransparencyBottomBar": "Только нижняя панель",
@@ -7687,5 +7677,15 @@
   "widget_preview_location_lang": "Корп. ин. языков 302",
   "widget_preview_location_cs": "Корп. информатики 101",
   "widget_preview_location_lab": "Лаб. корпус A103",
-  "mentalHealthAxisToggle": "Переключить ось результатов"
+  "mentalHealthAxisToggle": "Переключить ось результатов",
+  "listSettingsPage": "Настройки страницы",
+  "settingsListEntryTitle": "Повестка",
+  "settingsListEntrySubtitle": "Внешний вид списка и линии",
+  "settingsListSectionTitle": "Настройки повестки",
+  "settingsListSectionAppearance": "Внешний вид",
+  "settingsListItemBackground": "Фон элемента",
+  "settingsListItemBorder": "Граница элемента",
+  "settingsListRule": "Линии",
+  "settingsListPreview": "Предпросмотр",
+  "settingsListPreviewSampleItem": "Пример элемента"
 }

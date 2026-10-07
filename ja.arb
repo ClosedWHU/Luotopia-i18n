@@ -298,7 +298,7 @@
   "forumPostNewBadge": "新しい投稿",
   "designLanguage": "デザイン言語",
   "designLanguageExperimentalNote": "実験的 · 現在は Theme Lab プレビューにのみ反映",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem, Agenda); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "settingsPermissionsTitle": "権限管理",
   "settingsPermissionsSubtitle": "システム権限を確認・管理します。アプリ内の設定は変更されません。",
   "settingsPermissionsOpenSystemSettings": "システム設定を開く",
@@ -1199,6 +1199,10 @@
   "settingsHomeItemColorDepth": "予定ブロックの色の濃さ",
   "settingsHomeItemAlpha": "予定ブロックの不透明度",
   "settingsHomeItemBorderAlpha": "予定の枠の不透明度",
+  "settingsHomeContent": "表示する内容",
+  "settingsHomeCellSize": "セルサイズ",
+  "settingsHomeGridAppearance": "グリッドの外観",
+  "settingsHomeItemAppearance": "予定ブロックの外観",
   "settingsHomePreview": "プレビュー",
   "settingsHomeSectionTitle": "ホームページの設定",
   "settingsHomeTimeGridSettings": "タイムグリッドモードの設定",
@@ -1810,16 +1814,6 @@
     }
   },
   "settingsAboutDescription": "珞家は、モダンで美しく強力な教務・キャンパス生活ハブを目指しています。ご利用ありがとうございます！",
-  "settingsDevModeAlreadyOn": "開発者モードはすでに有効です。",
-  "settingsDevModeActivated": "開発者モードが有効になりました。開発者設定が使えます。",
-  "settingsDevModeTapCount": "あと {count} 回タップで開発者モード",
-  "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "settingsDevHotUpdate": "ホットアップデート管理",
   "settingsDevHotUpdateSubtitle": "ホットアップデート可能なパーサースクリプトとその状態を表示",
   "settingsDevDeviceTrustTitle": "デバイスの信頼性",
@@ -2031,7 +2025,6 @@
       }
     }
   },
-  "settingsDevModeBlockedCompromised": "現在の環境にセキュリティ上のリスクがあるため、開発者モードは無効化されています",
   "settingsNotificationsTitle": "通知",
   "settingsNotificationsEntrySubtitle": "プッシュ、バッジ、Android チャネル",
   "settingsCourseRemindersEntryTitle": "授業リマインダー",
@@ -2115,8 +2108,6 @@
   "settingsDevReceivePrereleaseUpdatesSubtitle": "オフにすると、プレリリース版は更新として提示されません",
   "settingsDevSimulateUpdate": "更新をシミュレート",
   "settingsDevSimulateUpdateSubtitle": "ファイルのダウンロードや状態の変更なしに、更新プロンプト・ダウンロード・インストールの UI を一通り確認します",
-  "settingsDevDisableTitle": "開発者モードをオフ",
-  "settingsDevDisableSubtitle": "オフにした後は、バージョン番号を連続タップして再有効化",
   "settingsHomeGridAlpha": "グリッド背景の不透明度",
   "settingsHomeGridBorderAlpha": "グリッド枠の不透明度",
   "settingsHomeCropImage": "画像を切り抜き",
@@ -2752,8 +2743,6 @@
   "campusBusServiceHours": "運行時間: {hours}",
   "whuConfirmLogout": "ログアウトを確認",
   "whuLogoutWarning": "ログアウト後、武大関連サービスを使うには再ログインが必要です。",
-  "settingsDevConfirmDisable": "開発者モードをオフにしますか？",
-  "settingsDevDisableWarning": "オフにした後は、バージョン番号を連続タップしないと再び有効にできません。",
   "scoreClearCacheTitle": "成績キャッシュを消去",
   "scoreClearCacheWarning": "端末にキャッシュした成績がすべて消去されます。続行しますか？",
   "scoreClearCacheSuccess": "成績キャッシュを消去しました",
@@ -2905,8 +2894,8 @@
   "sportsAddedToAgenda": "予定に追加しました",
   "wallpaperCenterTitle": "壁紙",
   "wallpaperCenterSubtitle": "ページごとに壁紙を設定",
-  "wallpaperSectionPages": "ページごとの壁紙",
-  "wallpaperSectionBars": "上部と下部のバー",
+  "wallpaperSourceRow": "壁紙",
+  "wallpaperTargetListTab": "{page} · {tab}",
   "wallpaperSourceNone": "なし",
   "wallpaperSourceLocal": "端末の画像",
   "wallpaperSourceBing": "Bing の日替わり",
@@ -3386,6 +3375,7 @@
   "messagesMarkAllReadFailed": "既読に失敗しました",
   "wallpaperDarkOverlayOpacity": "ダークモードのオーバーレイ不透明度",
   "wallpaperTranslucentBars": "透過バー",
+  "wallpaperListSharedBarsHint": "下のタブはこの設定を共有します",
   "wallpaperTransparencyOpaque": "どちらも不透明",
   "wallpaperTransparencyTopBar": "上部バーのみ透過",
   "wallpaperTransparencyBottomBar": "下部バーのみ透過",
@@ -7711,5 +7701,15 @@
   "widget_preview_location_lang": "外国語楼302",
   "widget_preview_location_cs": "情報楼101",
   "widget_preview_location_lab": "実験楼A103",
-  "mentalHealthAxisToggle": "結果軸を切り替え"
+  "mentalHealthAxisToggle": "結果軸を切り替え",
+  "listSettingsPage": "ページ設定",
+  "settingsListEntryTitle": "予定",
+  "settingsListEntrySubtitle": "リストの外観と罫線",
+  "settingsListSectionTitle": "予定設定",
+  "settingsListSectionAppearance": "外観",
+  "settingsListItemBackground": "項目の背景",
+  "settingsListItemBorder": "項目の枠線",
+  "settingsListRule": "罫線",
+  "settingsListPreview": "プレビュー",
+  "settingsListPreviewSampleItem": "サンプル項目"
 }

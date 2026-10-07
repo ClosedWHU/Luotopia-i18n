@@ -298,7 +298,7 @@
   "forumPostNewBadge": "Nova postagem",
   "designLanguage": "Linguagem de design",
   "designLanguageExperimentalNote": "Experimental · por enquanto afeta apenas a pré-visualização do Theme Lab",
-  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
+  "@@keep-english": "Keep English only for immutable identifiers, technical tokens, units, OS names, and admin/dev-only terms. Translate surrounding UI text while preserving placeholders and syntax. Chinese locales (zh, zh_Hant, yue_Hans, yue_Hant) may use official Chinese names for appTitle=珞家, campusAppZhihuiLuojia=智慧珞珈, shiguang=时光/時光, Chinese AI provider names, Chinese campus-network provider names, payment brands, and waterControlCategory*Garden. Keep international brand forms such as Starlink, Moonshot, Zhipu AI, Baidu Qianfan, Alibaba Tongyi Qianwen, Tencent Hunyuan, 01.AI, Baichuan AI, CERNET, Alipay, WeChat Pay, UnionPay, fontFamilyGoogleNotoSans, and immutable technical tokens in non-Chinese locales. Do not treat approved Chinese translations as gaps. Translate everything else. Also not gaps: a value whose spelling is already correct in the target language (Total, Original, Manual, Campus, Audio, Info, Distance, Status, Date, Version, Type, Source, Forum, Messages, Notifications, Session, Mobile, Architecture, Documents, Images, Karma, Delta, Regular, Error, General, Actor, Auto, Satellite, Patient, Instructions, Minute, Video, Email, Sem, Agenda); currency codes such as CNY; the WHU bikeshare fleet nicknames ebikeProviderMango=Little Yellow and ebikeProviderZhiyin=Little Green, which the Chinese locales render as 小黃/小綠 and ja/ko transliterate; and the Latin romanizations of the WHU dormitory garden names waterControlCategoryFengGarden/GuiGarden/MeiGarden, kept by es/fr/pt while ru/vi/ja/ko and the Chinese locales localize them.",
   "settingsPermissionsTitle": "Gerenciamento de permissões",
   "settingsPermissionsSubtitle": "Consulte e gerencie as permissões do sistema sem alterar suas preferências no aplicativo.",
   "settingsPermissionsOpenSystemSettings": "Abrir configurações do sistema",
@@ -884,6 +884,10 @@
   "settingsHomeItemColorDepth": "Intensidade da cor dos blocos",
   "settingsHomeItemAlpha": "Opacidade dos blocos",
   "settingsHomeItemBorderAlpha": "Opacidade da borda dos blocos",
+  "settingsHomeContent": "O que mostrar",
+  "settingsHomeCellSize": "Tamanho da célula",
+  "settingsHomeGridAppearance": "Aparência da grade",
+  "settingsHomeItemAppearance": "Aparência dos blocos",
   "settingsHomePreview": "Pré-visualização",
   "settingsHomeSectionTitle": "Configurações da página inicial",
   "settingsHomeTimeGridSettings": "Configurações do modo de grade de tempo",
@@ -1514,16 +1518,6 @@
     }
   },
   "settingsAboutDescription": "O Luotopia busca um hub acadêmico e de campus moderno, bonito e poderoso. Obrigado pelo apoio!",
-  "settingsDevModeAlreadyOn": "O modo desenvolvedor já está ativado.",
-  "settingsDevModeActivated": "Modo desenvolvedor ativado! Você já pode usar as configurações de desenvolvedor.",
-  "settingsDevModeTapCount": "Mais {count} toques para ativar o modo desenvolvedor",
-  "@settingsDevModeTapCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "settingsDevHotUpdate": "Gerenciamento de atualização instantânea",
   "settingsDevHotUpdateSubtitle": "Ver scripts de análise atualizáveis instantaneamente e seu status",
   "settingsDevDeviceTrustTitle": "Confiança do dispositivo",
@@ -1735,7 +1729,6 @@
       }
     }
   },
-  "settingsDevModeBlockedCompromised": "Foi detectado um risco de segurança no ambiente atual. O modo desenvolvedor está desativado.",
   "settingsNotificationsTitle": "Notificações",
   "settingsNotificationsEntrySubtitle": "Push, crachá e canais Android",
   "settingsCourseRemindersEntryTitle": "Lembretes de aula",
@@ -1819,8 +1812,6 @@
   "settingsDevReceivePrereleaseUpdatesSubtitle": "Quando desativado, builds prerelease não são oferecidos como atualização",
   "settingsDevSimulateUpdate": "Simular atualização",
   "settingsDevSimulateUpdateSubtitle": "Percorre a interface de atualização, download e instalação sem baixar arquivos nem alterar nada",
-  "settingsDevDisableTitle": "Desativar modo desenvolvedor",
-  "settingsDevDisableSubtitle": "Após desativar, toque o número da versão várias vezes para reativar",
   "settingsHomeGridAlpha": "Opacidade do fundo da grade",
   "settingsHomeGridBorderAlpha": "Opacidade da borda da grade",
   "settingsHomeCropImage": "Cortar imagem",
@@ -2467,8 +2458,6 @@
   "campusBusServiceHours": "Horário: {hours}",
   "whuConfirmLogout": "Confirmar saída",
   "whuLogoutWarning": "Após sair, entre de novo para os serviços WHU.",
-  "settingsDevConfirmDisable": "Desativar o modo desenvolvedor?",
-  "settingsDevDisableWarning": "Após desativar, será preciso tocar o número da versão várias vezes para reativar.",
   "scoreClearCacheTitle": "Limpar cache de notas",
   "scoreClearCacheWarning": "Todas as notas em cache local serão apagadas. Continuar?",
   "scoreClearCacheSuccess": "Cache de notas limpo",
@@ -2620,8 +2609,8 @@
   "sportsAddedToAgenda": "Adicionado à agenda",
   "wallpaperCenterTitle": "Papel de parede",
   "wallpaperCenterSubtitle": "Papel de parede por página",
-  "wallpaperSectionPages": "Papéis de parede por página",
-  "wallpaperSectionBars": "Barras superior e inferior",
+  "wallpaperSourceRow": "Papel de parede",
+  "wallpaperTargetListTab": "{page} · {tab}",
   "wallpaperSourceNone": "Nenhum",
   "wallpaperSourceLocal": "Imagem local",
   "wallpaperSourceBing": "Bing diário",
@@ -3101,6 +3090,7 @@
   "messagesMarkAllReadFailed": "Falha ao marcar tudo como lido",
   "wallpaperDarkOverlayOpacity": "Opacidade da sobreposição no modo escuro",
   "wallpaperTranslucentBars": "Barras translúcidas",
+  "wallpaperListSharedBarsHint": "As abas abaixo compartilham esta definição",
   "wallpaperTransparencyOpaque": "Ambas opacas",
   "wallpaperTransparencyTopBar": "Apenas a barra superior",
   "wallpaperTransparencyBottomBar": "Apenas a barra inferior",
@@ -7659,5 +7649,15 @@
   "widget_preview_location_lang": "Prédio de Idiomas 302",
   "widget_preview_location_cs": "Prédio de Computação 101",
   "widget_preview_location_lab": "Prédio de Lab. A103",
-  "mentalHealthAxisToggle": "Alternar eixo de resultados"
+  "mentalHealthAxisToggle": "Alternar eixo de resultados",
+  "listSettingsPage": "Configurações da página",
+  "settingsListEntryTitle": "Agenda",
+  "settingsListEntrySubtitle": "Aparência da lista e linhas",
+  "settingsListSectionTitle": "Configurações da agenda",
+  "settingsListSectionAppearance": "Aparência",
+  "settingsListItemBackground": "Fundo do item",
+  "settingsListItemBorder": "Borda do item",
+  "settingsListRule": "Linhas",
+  "settingsListPreview": "Pré-visualização",
+  "settingsListPreviewSampleItem": "Item de exemplo"
 }
