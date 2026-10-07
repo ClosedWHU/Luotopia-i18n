@@ -1,10 +1,8 @@
 # Luotopia-i18n
 
-本仓库包含 Luotopia 应用的翻译(ARB)文件。
+本仓库包含 Luotopia 应用的翻译（ARB）文件。
 
-它作为 Git 子模块被前端仓库引入,路径为 `lib/core/l10n/arb`。
-
----
+前端仓库以 Git 子模块引入本目录，路径为 `lib/core/l10n/arb`。
 
 ## 翻译状态
 
@@ -13,7 +11,7 @@
 
 ### 各语言
 
-| 语言 / Language | 翻译状态 / Translation Status |
+| 语言 | 翻译状态 |
 | :--- | :--- |
 | **English** | [![English status](https://weblate.milthm.com/widget/closedwhu/luotopia/en/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/en/) |
 | **简体中文** | [![Simplified Chinese status](https://weblate.milthm.com/widget/closedwhu/luotopia/zh_Hans/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/zh_Hans/) |
@@ -25,6 +23,6 @@
 | **Español** | [![Spanish status](https://weblate.milthm.com/widget/closedwhu/luotopia/es/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/es/) |
 | **Português** | [![Portuguese status](https://weblate.milthm.com/widget/closedwhu/luotopia/pt/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/pt/) |
 | **Tiếng Việt** | [![Vietnamese status](https://weblate.milthm.com/widget/closedwhu/luotopia/vi/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/vi/) |
-| **粵語 (繁體)** | [![Cantonese Traditional status](https://weblate.milthm.com/widget/closedwhu/luotopia/yue_Hant/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/yue_Hant/) |
-| **粤语 (简体)** | [![Cantonese Simplified status](https://weblate.milthm.com/widget/closedwhu/luotopia/yue_Hans/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/yue_Hans/) |
+| **粵語（繁體）** | [![Cantonese Traditional status](https://weblate.milthm.com/widget/closedwhu/luotopia/yue_Hant/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/yue_Hant/) |
+| **粤语（简体）** | [![Cantonese Simplified status](https://weblate.milthm.com/widget/closedwhu/luotopia/yue_Hans/svg-badge.svg?native=1)](https://weblate.milthm.com/projects/closedwhu/luotopia/yue_Hans/) |
 
