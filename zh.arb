@@ -113,6 +113,23 @@
       }
     }
   },
+  "mentalHealthLibraryFetchingManifest": "正在获取量表清单…",
+  "mentalHealthLibraryProgress": "正在下载量表 {done}/{total}",
+  "@mentalHealthLibraryProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mentalHealthLibrarySkip": "跳过",
+  "mentalHealthLibrarySkippedHint": "已跳过批量下载，点开量表时会单独下载该量表。",
+  "mentalHealthLibraryNotDownloaded": "未下载",
+  "mentalHealthLibraryDownloadingScale": "正在下载…",
+  "mentalHealthLibraryScaleDownloadFailed": "下载失败，点击重试",
   "appLockScopeMentalHealth": "心理健康",
   "opacErrorRequest": "图书馆请求失败",
   "opacErrorSession": "图书馆会话不可用，请重新登录",
