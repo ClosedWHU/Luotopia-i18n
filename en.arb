@@ -85,6 +85,57 @@
   "mentalHealthClearHistory": "Clear history",
   "mentalHealthClearHistoryMessage": "Clear all assessment records? This cannot be undone.",
   "mentalHealthAxisToggle": "Toggle result axis",
+  "mentalHealthAnswerSheet": "Answer sheet",
+  "mentalHealthBackToQuestions": "Back to questions",
+  "mentalHealthAnsweredLegend": "Answered",
+  "mentalHealthUnansweredLegend": "Unanswered",
+  "mentalHealthCurrentLegend": "Current",
+  "mentalHealthUnansweredHint": "{count} left unanswered — tap a number to jump there",
+  "@mentalHealthUnansweredHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mentalHealthReview": "Review answers",
+  "mentalHealthFilterCategories": "Filter categories",
+  "mentalHealthFilterAll": "All",
+  "mentalHealthDraftFoundTitle": "Unfinished draft found",
+  "mentalHealthDraftSavedLabel": "Saved",
+  "mentalHealthDraftProgressLabel": "Progress",
+  "mentalHealthDraftContinue": "Continue",
+  "mentalHealthDraftRestart": "Restart",
+  "mentalHealthDraftExitTitle": "Exit assessment",
+  "mentalHealthDraftSaveExit": "Save draft & exit",
+  "mentalHealthDraftDiscard": "Discard draft",
+  "mentalHealthNormGenderPrompt": "Norm group",
+  "mentalHealthNormGenderHint": "T scores for this scale are looked up in sex-specific norm tables, so choose the group that applies to you.",
+  "mentalHealthNormGenderMale": "Male",
+  "mentalHealthNormGenderFemale": "Female",
+  "mentalHealthNormGenderRequired": "Choose a norm group to start",
+  "mentalHealthRawScoreLabel": "Raw",
+  "mentalHealthUsTScoreLabel": "US T",
+  "mentalHealthLibraryUnavailable": "The scale library downloads once on first use and then works offline. Check your connection and try again.",
+  "mentalHealthLibraryOffline": "Offline — showing the scales cached on this device",
+  "mentalHealthLibraryStale": "The scale library has not been checked for a while. Pull down to update.",
+  "mentalHealthLibraryPartial": "{count} scales could not be downloaded. Pull down to retry.",
+  "@mentalHealthLibraryPartial": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mentalHealthLibraryRefresh": "Update scale library",
+  "mentalHealthLibrarySyncedAt": "Updated {time}",
+  "@mentalHealthLibrarySyncedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "appLockScopeMentalHealth": "Mental health",
   "opacErrorRequest": "Library request failed",
   "opacErrorSession": "The library session is unavailable. Sign in again.",
@@ -1048,7 +1099,6 @@
   "forum": "Forum",
   "forumTitle": "Luojia Shelter",
   "headerOpenListSettings": "Open list settings",
-  "headerOpenListTabs": "Open list tabs",
   "homeCalendarMainLabelWeek": "Week {week}",
   "homeCalendarMonthDayRange": "{day} - {endDay}",
   "homeCalendarMonthWeek": "Week {week} of {month}",
@@ -1088,7 +1138,6 @@
   "k3Hours": "3 hours",
   "languageLabel": "App language",
   "listCompletedSection": "Completed {count}",
-  "listMenuTitle": "Switch list tab",
   "listSettingsMenuTitle": "List settings",
   "listSettingsMore": "More settings",
   "listSettingsReorder": "Reorder tasks",
@@ -3372,17 +3421,6 @@
   "wallpaperCenterTitle": "Wallpaper",
   "wallpaperCenterSubtitle": "Set a wallpaper per page",
   "wallpaperSourceRow": "Wallpaper",
-  "wallpaperTargetListTab": "{page} · {tab}",
-  "@wallpaperTargetListTab": {
-    "placeholders": {
-      "page": {
-        "type": "String"
-      },
-      "tab": {
-        "type": "String"
-      }
-    }
-  },
   "wallpaperSourceNone": "None",
   "wallpaperSourceLocal": "Local image",
   "wallpaperSourceBing": "Bing daily",
@@ -3391,7 +3429,6 @@
   "wallpaperNoImage": "No image selected",
   "wallpaperDarkOverlayOpacity": "Dark mode overlay opacity",
   "wallpaperTranslucentBars": "Translucent bars",
-  "wallpaperListSharedBarsHint": "The tabs below share this setting",
   "wallpaperTransparencyOpaque": "Opaque bars",
   "wallpaperTransparencyTopBar": "Top bar only",
   "wallpaperTransparencyBottomBar": "Bottom bar only",
@@ -4712,6 +4749,7 @@
   "apiErrorServiceUnavailable": "Service is temporarily unavailable.",
   "apiErrorUpstream": "Upstream service is temporarily unavailable.",
   "apiErrorDuplicateMutation": "Duplicate request detected.",
+  "apiErrorUpgradeRequired": "This app version is no longer supported. Please upgrade.",
   "apiErrorRequestFailed": "Request failed. Please try again.",
   "authRegistrationWhuBindingRequired": "A linked WHU account is required to register",
   "authRegistrationWhuNameMismatch": "The real name on your WHU account does not match this registration",
@@ -4892,6 +4930,7 @@
   },
   "forumAttachmentAdd": "Add attachment",
   "forumImageAdd": "Add image",
+  "forumImageQuality": "Image quality",
   "forumImagePresetDataSaver": "Data saver",
   "forumImagePresetRecommended": "Recommended",
   "forumImagePresetHighQuality": "High quality",
@@ -5270,6 +5309,8 @@
   "forumKarmaLedgerCheckin": "Check-in",
   "forumKarmaLedgerCheckinStreak": "Streak bonus",
   "forumKarmaLedgerRollback": "Content removed (karma adjusted)",
+  "forumKarmaLedgerDiningContribution": "Dining information contribution",
+  "forumKarmaLedgerDiningReversal": "Dining contribution reward reversed",
   "forumKarmaLedgerAdmin": "Admin adjustment",
   "forumKarmaNextLevel": "Next level at {karma}",
   "@forumKarmaNextLevel": {
@@ -5304,6 +5345,8 @@
   "forumLeaderboardJoinNamed": "Join with nickname",
   "forumLeaderboardJoinAnonymous": "Join anonymously",
   "forumLeaderboardLeave": "Leave ranking",
+  "forumLeaderboardLeaveConfirmTitle": "Leave the ranking?",
+  "forumLeaderboardLeaveConfirmMessage": "Your rank is cleared, and you will have to join again to appear on the board.",
   "forumLeaderboardAnonymous": "Appear anonymously",
   "forumLeaderboardAnonymousHint": "Others see a masked name; you still see your own rank.",
   "forumLeaderboardEmpty": "No participants yet.",
@@ -5327,6 +5370,9 @@
   "forumAppeal": "Appeal",
   "forumAppealReason": "Appeal statement",
   "forumAppealSubmitted": "Appeal submitted.",
+  "forumAppealStatusPending": "Pending",
+  "forumAppealStatusAccepted": "Appeal accepted",
+  "forumAppealStatusRejected": "Appeal rejected",
   "forumModeration": "Moderation",
   "forumKarmaEconomySettings": "Karma economy",
   "forumKarmaEconomySaved": "Karma settings saved.",
@@ -5700,6 +5746,14 @@
   "appUpdateDownloadInstall": "Install",
   "appUpdateDownloadInstallFailed": "Could not open the installer. Allow Luotopia to install apps, then try again.",
   "appUpdateDownloadCompactLabel": "Update download progress",
+  "appUpgradeRequiredTitle": "Upgrade required",
+  "appUpgradeRequiredBody": "This version of Luotopia has reached its end of support and can no longer connect. Please upgrade to continue using the app.",
+  "appUpgradeNow": "Upgrade now",
+  "appUpgradeDeprecatedTitle": "This version is being retired",
+  "appUpgradeDeprecatedBody": "Support for this version ends on {sunset}. Please upgrade before then to keep everything working.",
+  "@appUpgradeDeprecatedBody": {
+    "placeholders": { "sunset": { "type": "String" } }
+  },
   "whuLoginMethodTitle": "Choose login method",
   "whuLoginMethodSubtitle": "CAS is the same for all options. Pick a campus system for profile data when one site is unstable.",
   "whuLoginMethodZyfzzdTitle": "Professional Development Platform",
@@ -6443,6 +6497,35 @@
   "forumModerationMovePost": "Move post",
   "forumModerationKeepBoard": "Keep board",
   "forumModerationKarmaReason": "Karma reason",
+  "forumModerationMute24h": "Mute for 24 hours",
+  "forumModerationReason": "Reason",
+  "forumModerationKarmaAdjustmentOptional": "Karma adjustment (optional)",
+  "forumModerationClaim": "Claim",
+  "forumModerationRelease": "Release",
+  "forumModerationEvidenceSource": "Source: {value}",
+  "@forumModerationEvidenceSource": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "forumModerationEvidenceRisk": "Risk: {value}",
+  "@forumModerationEvidenceRisk": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "forumModerationEvidenceReported": "Reported: {value}",
+  "@forumModerationEvidenceReported": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "courseMatchingTargetTimetable": "Target timetable",
   "courseMatchingCreateNewTimetable": "Create a new timetable",
   "courseMatchingCurrentTimeSlotOnly": "Current time slot only",
@@ -9288,5 +9371,49 @@
   "settingsListItemBorder": "Item border",
   "settingsListRule": "Ruled lines",
   "settingsListPreview": "Preview",
-  "settingsListPreviewSampleItem": "Sample agenda item"
+  "settingsListPreviewSampleItem": "Sample agenda item",
+  "listRowMetaToday": "Today",
+  "listRowMetaTomorrow": "Tomorrow",
+  "listSectionThisWeek": "This week",
+  "listSectionLater": "Later",
+  "courseTextbookLabel": "Textbook",
+  "editorCourseTextbookHint": "Textbook (title / author / publisher)",
+  "examImportTitle": "Import Exam Schedule",
+  "examImportSubtitle": "Sync scheduled exams from the undergraduate system into your agenda",
+  "examItemTitle": "{course} Exam",
+  "@examItemTitle": {
+    "placeholders": {
+      "course": {
+        "type": "String"
+      }
+    }
+  },
+  "examSeatLabel": "Seat",
+  "examImportSuccess": "Imported {count} exams",
+  "@examImportSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examImportNone": "No scheduled exams for this term",
+  "examImportFailed": "Exam import failed: {error}",
+  "@examImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "examImportReimportNote": "Re-importing the same term replaces the exams imported before.",
+  "examSourceLabel": "Exams",
+  "examTimetableName": "{term} Exams",
+  "@examTimetableName": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  }
 }
