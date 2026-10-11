@@ -432,6 +432,7 @@
   "vpnModeSystem": "系统级（实验性）",
   "vpnInAppModeDescription": "仅本应用的流量走 VPN，无需额外权限。",
   "vpnSystemModeDescription": "接管系统全部流量。Windows 需以管理员身份运行且放置 wintun.dll；Android/iOS 需授予系统 VPN 权限。",
+  "vpnSystemModeDescriptionProxyOnly": "为遵循系统代理的应用接管系统流量。商店版无法申请管理员权限，因此没有可用的 TUN 网卡。",
   "vpnRoutePolicyLabel": "流量分流",
   "vpnRoutePolicyFollowServer": "跟随服务器下发",
   "vpnRoutePolicyFollowServerDescription": "仅隧道化 VPN 服务器下发的资源列表。",

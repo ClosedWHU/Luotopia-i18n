@@ -609,6 +609,7 @@
   "vpnModeSystem": "System VPN (experimental)",
   "vpnInAppModeDescription": "Only this app's traffic goes through the VPN; no extra permissions needed.",
   "vpnSystemModeDescription": "Routes the whole system through the VPN. Windows needs an elevated app and wintun.dll; Android and iOS ask for the system VPN permission.",
+  "vpnSystemModeDescriptionProxyOnly": "Routes system traffic through the VPN for apps that honor the system proxy. This Store build cannot request administrator rights, so no TUN adapter is available.",
   "vpnRoutePolicyLabel": "Routed hosts",
   "vpnRoutePolicyFollowServer": "Follow server list",
   "vpnRoutePolicyFollowServerDescription": "Tunnel exactly the resources the VPN server publishes.",

@@ -389,6 +389,7 @@
   "vpnModeSystem": "VPN del sistema (experimental)",
   "vpnInAppModeDescription": "Solo el tráfico de esta app pasa por la VPN; no se necesitan permisos adicionales.",
   "vpnSystemModeDescription": "Enruta todo el sistema a través de la VPN. Windows necesita la app elevada y wintun.dll; Android/iOS piden el permiso de VPN del sistema.",
+  "vpnSystemModeDescriptionProxyOnly": "Enruta por la VPN el tráfico de las apps que respetan el proxy del sistema. Esta versión de la Store no puede pedir derechos de administrador, así que no hay adaptador TUN disponible.",
   "vpnRoutePolicyLabel": "Hosts enrutados",
   "vpnRoutePolicyFollowServer": "Seguir la lista del servidor",
   "vpnRoutePolicyFollowServerDescription": "Enruta exactamente por el túnel los recursos publicados por el servidor VPN.",
