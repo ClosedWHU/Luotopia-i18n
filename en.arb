@@ -9742,7 +9742,7 @@
   "sharingTeacherUnavailable": "The teacher identifier is not available for this course.",
   "sharingRefreshEligibility": "Refresh enrollment verification",
   "sharingClassHint": "Current class information. Group and private contact details require verified enrollment.",
-  "sharingCommonHint": "General content for this scope is available to verified campus accounts after review. Keep group and private contact details in the class scope.",
+  "sharingCommonHint": "Information in this scope is visible to users with verified campus identities. All information categories are available.",
   "sharedContentNote": "Course information",
   "sharedContentResource": "Learning resources",
   "sharedResourceAuthor": "Original author",
@@ -10316,5 +10316,36 @@
   "campusNewsFetchFailed": "Some columns could not refresh. Open their pages to extract news. Previous news is retained.",
   "cgSelectCourses": "Select visible courses",
   "cgHiddenCourses": "All courses are hidden. Use the selection button to show courses.",
-  "cgCourseId": "Course ID"
+  "cgCourseId": "Course ID",
+  "campusNewsAll": "All",
+  "campusNewsScope": "Subscription scope",
+  "campusNewsSearchItems": "Search news",
+  "campusNewsDisplaySettings": "News display settings",
+  "campusNewsDisplayRange": "Display range",
+  "campusNewsRecent": "Last N days",
+  "campusNewsDays": "Number of days",
+  "campusNewsInvalidDays": "Enter a number of days greater than 0.",
+  "campusNewsRecentHelp": "Includes today. News without a publication date is only shown when All is selected.",
+  "campusNewsRecentDays": "Last {days} days",
+  "campusNewsNoMatches": "No news matches the current filters.",
+  "@campusNewsRecentDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "campusNewsManageSubscriptions": "Manage subscriptions",
+  "campusNewsNoSubscriptions": "No subscriptions yet. Add websites or columns from Browse sites.",
+  "campusNewsUnread": "Unread",
+  "campusNewsMarkAllRead": "Mark subscribed news as read",
+  "campusNewsReadCache": "Read cached article",
+  "settingsDevSensitiveActionVerification": "Enable sensitive action verification",
+  "settingsDevSensitiveActionVerificationHint": "Verify identity again for sensitive actions. Turning this off skips the extra check on development servers only.",
+  "authSensitiveVerificationUnavailable": "This server does not support skipping sensitive action verification.",
+  "authSensitiveVerificationSkipped": "Additional identity verification is disabled in Developer settings.",
+  "courseClassPermissionsButton": "Manage access",
+  "courseClassAuditButton": "Audit log",
+  "courseClassDisplayName": "Class name",
+  "courseResourcesTitle": "Resource sharing"
 }
