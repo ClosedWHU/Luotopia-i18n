@@ -72,6 +72,9 @@ KEEP_VALUES = {
     "Linux", "macOS", "Windows", "Alpha", "Beta", "Stable", "Indigo",
     # Single-word loanwords / admin & dev terms whose English spelling is
     # correct across the supported languages (kept to avoid false positives).
+    # "Dose" and "Injection" are the correct French/Portuguese spellings too
+    # (Latin medical loanwords), so fr/pt legitimately equal the template.
+    "Dose", "Injection",
     "Auth Epoch", "Logs", "Pause", "Bio", "Spam", "Webmail", "QR code",
     "Check-in", "Local", "Cloud", "Message…", "Menu", "Quiz", "Photo",
     "Volume", "Transport", "Description", "Classification", "Publication",
