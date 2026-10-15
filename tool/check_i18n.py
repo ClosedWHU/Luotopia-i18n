@@ -62,7 +62,7 @@ KEEP_VALUES = {
     "OpenAI Completion", "OpenAI Response", "TinyFish", "Open-Meteo",
     "AccuWeather", "Nominatim", "China Weather Net", "WHU Safe Pay",
     "Little Yellow", "Little Green", "Feng Garden", "Gui Garden",
-    "Mei Garden", "WHU", "Wakeup", "Wakeup CSV", "CS易办", "Ham",
+    "Mei Garden", "WHU", "Wakeup", "Wakeup CSV", "CS易办", "CS Yiban", "Ham",
     # Acronyms / tokens / units
     "VPN", "AI", "IP", "MAC", "ID", "OK", "MCP", "OpenID", "FAQ", "AED",
     "Passkey", "token", "Top P", "AQI", "PM2.5", "PM10", "CO", "NO₂",
