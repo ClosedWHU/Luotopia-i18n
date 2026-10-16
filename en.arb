@@ -9583,5 +9583,123 @@
   "menstrualCycleDisclaimerTitle": "Not medical advice",
   "menstrualCycleDisclaimerBody": "Predictions are estimates based on the dates you record. Do not use them as contraception or to diagnose a health problem — see a clinician for that.",
   "menstrualCycleVisibilityTitle": "Show on the Campus page",
-  "menstrualCycleVisibilityHint": "Shown by default when your university profile is marked female. Change it any time, here or in the Campus layout editor."
+  "menstrualCycleVisibilityHint": "Shown by default when your university profile is marked female. Change it any time, here or in the Campus layout editor.",
+  "editorRepeatInterval": "Interval",
+  "editorRecurrenceIntervalLength": "Interval length",
+  "editorRecurrenceIntervalSummary": "Every {duration}",
+  "@editorRecurrenceIntervalSummary": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "editorRecurrenceWindow": "Daily window",
+  "editorRecurrenceWindowStart": "From",
+  "editorRecurrenceWindowEnd": "To",
+  "editorRecurrenceCycle": "Cyclic schedule",
+  "editorRecurrenceCycleActive": "Active days",
+  "editorRecurrenceCyclePause": "Pause days",
+  "editorRecurrenceCycleStart": "Cycle start",
+  "editorRecurrenceCycleSummary": "{active} days on · {pause} days off",
+  "@editorRecurrenceCycleSummary": {
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "pause": {
+        "type": "int"
+      }
+    }
+  },
+  "editorRecurrenceUntil": "End date",
+  "editorRecurrenceUntilSummary": "Until {date}",
+  "@editorRecurrenceUntilSummary": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "medicationExpiryDate": "Expiration date",
+  "medicationExpiryAlert": "This medication has expired",
+  "medicationAlarmReminder": "Alarm reminder",
+  "medicationAlarmReminderHint": "Full-screen alarm that rings even in silent mode",
+  "medicationFollowUps": "Follow-up doses",
+  "medicationFollowUpAdd": "Add follow-up dose",
+  "medicationFollowUpEntry": "+{delay} · {dose}",
+  "@medicationFollowUpEntry": {
+    "placeholders": {
+      "delay": {
+        "type": "String"
+      },
+      "dose": {
+        "type": "String"
+      }
+    }
+  },
+  "medicationFollowUpBody": "Follow-up dose: {dose}",
+  "@medicationFollowUpBody": {
+    "placeholders": {
+      "dose": {
+        "type": "String"
+      }
+    }
+  },
+  "medicationLogDose": "Log dose now",
+  "medicationDoseLogged": "Dose logged",
+  "medicationRefillTitle": "Refill stock",
+  "medicationRefillPrompt": "Remaining amount after refill",
+  "medicationStockUpdated": "Stock updated",
+  "medicationAdherenceTitle": "Last 30 days",
+  "medicationAdherenceTaken": "Taken",
+  "medicationAdherenceSkipped": "Skipped",
+  "medicationAdherenceMissed": "Missed",
+  "medicationAdherenceRate": "{rate}% taken",
+  "@medicationAdherenceRate": {
+    "placeholders": {
+      "rate": {
+        "type": "int"
+      }
+    }
+  },
+  "medicationImportMedTimer": "Import from medTimer",
+  "medicationImportConfirm": "Import {medicines} medications and {events} history records from medTimer?",
+  "@medicationImportConfirm": {
+    "placeholders": {
+      "medicines": {
+        "type": "int"
+      },
+      "events": {
+        "type": "int"
+      }
+    }
+  },
+  "medicationImportSuccess": "Imported {count} medications",
+  "@medicationImportSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "medicationImportFailed": "Could not read this medTimer backup",
+  "medicationImportEmpty": "No medications found in this file",
+  "medicationExportCsv": "Export history (CSV)",
+  "medicationExportSuccess": "History exported",
+  "medicationExportEmpty": "No medication history to export",
+  "notificationChannelAlarmName": "Medication alarms",
+  "notificationChannelAlarmDescription": "Full-screen alarm reminders for critical medications.",
+  "settingsSnoozeDuration": "Snooze duration",
+  "settingsRepeatReminder": "Repeat reminders",
+  "settingsRepeatReminderHint": "Remind again when no action is taken",
+  "settingsRepeatReminderOff": "Off",
+  "settingsRepeatReminderCount": "{count} times",
+  "@settingsRepeatReminderCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
 }
