@@ -2624,6 +2624,19 @@
   "adminStatusQueueSize": "佇列長度",
   "adminStatusRedisConnected": "Redis 已連接",
   "adminStatusRedisDisconnected": "Redis 未連接",
+  "adminStatusScannerNotConfigured": "掃描器未配置",
+  "adminStatusScannerUnreachable": "掃描器不可達",
+  "adminStatusScannerHealthyCount": "{healthy}/{total} 正常",
+  "@adminStatusScannerHealthyCount": {
+    "placeholders": {
+      "healthy": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "adminStatusScheduledRetries": "計劃重試",
   "adminStatusStartedAt": "啟動時間",
   "adminStatusTasksCancelled": "已取消",

@@ -5534,6 +5534,19 @@
   "adminStatusNoQueues": "暂无队列",
   "adminStatusRedisConnected": "Redis 已连接",
   "adminStatusRedisDisconnected": "Redis 未连接",
+  "adminStatusScannerNotConfigured": "扫描器未配置",
+  "adminStatusScannerUnreachable": "扫描器不可达",
+  "adminStatusScannerHealthyCount": "{healthy}/{total} 正常",
+  "@adminStatusScannerHealthyCount": {
+    "placeholders": {
+      "healthy": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "adminUsersTitle": "用户管理",
   "adminUsersSubtitle": "搜索用户并调整角色",
   "adminUsersSearchHint": "按名称、用户名或邮箱搜索（不区分大小写）",

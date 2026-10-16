@@ -6315,6 +6315,19 @@
   "adminStatusNoQueues": "No queues",
   "adminStatusRedisConnected": "Redis connected",
   "adminStatusRedisDisconnected": "Redis disconnected",
+  "adminStatusScannerNotConfigured": "Scanner not configured",
+  "adminStatusScannerUnreachable": "Scanner unreachable",
+  "adminStatusScannerHealthyCount": "{healthy}/{total} healthy",
+  "@adminStatusScannerHealthyCount": {
+    "placeholders": {
+      "healthy": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "adminUsersTitle": "User management",
   "adminUsersSubtitle": "Search users and change roles",
   "adminUsersSearchHint": "Search by name, username, or email (case-insensitive)",
