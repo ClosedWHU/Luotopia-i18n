@@ -54,7 +54,7 @@ KEEP_VALUES = {
     "Email", "Sem", "Agenda",
     # App / product / provider brand forms
     "Luotopia", "Shiguang", "Starlink", "Chaoxing", "Zhihui Luojia",
-    "Budao Lepao", "Huawei Watch", "MiSans", "Google Noto Sans",
+    "Budao Lepao", "Huawei Watch", "MiSans", "Google Noto Sans", "aTrust VPN",
     "WeChat Pay", "Alipay", "UnionPay", "CERNET", "China Telecom",
     "China Unicom", "China Mobile", "Moonshot (Moonshot AI)",
     "Zhipu AI (GLM)", "Baidu Qianfan", "Alibaba Tongyi Qianwen",

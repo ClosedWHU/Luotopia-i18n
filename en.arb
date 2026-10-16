@@ -10347,5 +10347,221 @@
   "courseClassPermissionsButton": "Manage access",
   "courseClassAuditButton": "Audit log",
   "courseClassDisplayName": "Class name",
-  "courseResourcesTitle": "Resource sharing"
+  "courseResourcesTitle": "Resource sharing",
+  "diningFloorsTitle": "Floors",
+  "diningFloorNamesHelp": "Enter floors in display order, such as B2, Basement, Ground floor, or Mezzanine. Renaming keeps shop links. Floors with shops or floor plans cannot be removed.",
+  "diningFloorName": "Floor name",
+  "diningFloorNameInvalid": "Enter a floor name of 1–80 characters",
+  "diningFloorNameDuplicate": "Floor names must be unique",
+  "diningFloorMoveUp": "Move floor up",
+  "diningFloorRemove": "Remove floor",
+  "diningFloorAdd": "Add floor",
+  "diningPlacementAreaFailed": "Could not load areas",
+  "diningPlacementBuilding": "Building",
+  "diningPlacementStandalone": "Standalone shop",
+  "diningPlacementFloor": "Floor",
+  "diningPlacementFloorUnspecified": "Unspecified floor",
+  "diningPlacementMapHint": "Tap the map to correct the shop location",
+  "diningProfileTitle": "Profile and contributions",
+  "diningModerationTitle": "Moderation and user management",
+  "diningMapPickShop": "Tap the map to mark a shop to recommend",
+  "diningMapShopPicked": "Shop location marked. Confirm to add details.",
+  "diningMapConfirmPoint": "Confirm location",
+  "diningRatingAny": "Any rating",
+  "diningMenuOther": "Other dishes",
+  "diningDishFeedbackTitle": "Reviews and feedback",
+  "diningDishReport": "Report dish information",
+  "diningDishPhotoUpdate": "Update dish with a photo",
+  "diningDishRatingLabel": "Dish rating (0 means unrated)",
+  "diningMenuCategory": "Menu category",
+  "diningMenuCategoryKeep": "Keep current category",
+  "diningMenuCategoryNew": "New category…",
+  "diningMenuCategoryRetry": "Could not load categories. Tap to retry.",
+  "diningMenuAiFailed": "Recognition failed. Check AI settings and try again.",
+  "diningMenuAiModel": "Vision AI model",
+  "diningMenuAiRecognizing": "Recognizing…",
+  "diningMenuAiFill": "Recognize and fill with AI",
+  "diningMenuAiHelp": "Choose a configured vision model. Review the recognized details before submitting, and enter any missing price manually.",
+  "diningDishReportReason": "Report reason and feedback",
+  "diningDishReportRequired": "Enter your feedback",
+  "diningMenuPriceUnit": "Price unit",
+  "diningMenuPriceUnitHelp": "For example: serving, bowl, 100 g, or jin. Enter the price for one unit.",
+  "diningMenuPriceUnitInvalid": "Enter a price unit of 1–32 characters",
+  "diningMenuCategoryName": "New category name",
+  "diningMenuCategoryHint": "For example: Steamed dishes, Bulk dishes, or Staples",
+  "diningMenuCategoryInvalid": "Enter a category name of 1–80 characters",
+  "diningMerchantFloorPlan": "Floor plan",
+  "diningMerchantEditBoundary": "Edit area boundary",
+  "diningMerchantAllFloors": "All floors",
+  "diningMerchantNoFloor": "No floor assigned",
+  "diningMerchantFloorEmpty": "No shops on this floor",
+  "diningMerchantEditFloorPlan": "Edit floor plan",
+  "diningPhotosReadFailed": "Could not read the photo. Check permissions or choose a smaller image.",
+  "diningPhotosRemove": "Remove photo",
+  "diningPhotosProcessing": "Processing photos…",
+  "diningPhotosPick": "Choose photo",
+  "diningProfileNickname": "Nickname",
+  "diningProfileSave": "Save profile",
+  "diningProfileSaved": "Profile saved",
+  "diningProfileSaveFailed": "Could not save. Please try again.",
+  "diningProfileRewards": "View contribution rewards",
+  "diningTagsLabel": "Flavors and tags (comma separated)",
+  "diningTagsHint": "Light,Spicy,Quick service",
+  "diningTasteLight": "Light",
+  "diningTasteSpicy": "Spicy",
+  "diningTasteNumbingSpicy": "Numbing and spicy",
+  "diningTasteSweetSour": "Sweet and sour",
+  "diningTasteSavory": "Savory",
+  "diningRatingAtLeast": "★ {rating} or above",
+  "@diningRatingAtLeast": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "diningMerchantCount": "{count, plural, =1{1 shop} other{{count} shops}}",
+  "@diningMerchantCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningMerchantScopeSummary": "{count} shops · {scope}",
+  "@diningMerchantScopeSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "scope": {
+        "type": "String"
+      }
+    }
+  },
+  "vpnBrandName": "aTrust VPN",
+  "courseBindingDetailTitle": "Course event details",
+  "courseBindingPersonalTitle": "Personal settings",
+  "courseBindingOpenSource": "View original information",
+  "courseBindingCourseUnavailable": "Course information unavailable",
+  "courseBindingCustomizeReminders": "Custom reminders",
+  "courseBindingAdvancedTitle": "Updates and private copy",
+  "masterBrowserQuery": "Search",
+  "masterBrowserGrid": "Week grid",
+  "masterBrowserLookup": "Teachers / rooms",
+  "masterBrowserStats": "Statistics",
+  "masterBrowserSearchHint": "Course / teacher / code / class / textbook",
+  "masterBrowserSearchHelp": "Results update as you type. Separate keywords with spaces to match all.",
+  "masterBrowserFilters": "Filters",
+  "masterBrowserAll": "All",
+  "masterBrowserReset": "Clear filters",
+  "masterBrowserNature": "Course nature",
+  "masterBrowserCategory": "Course category",
+  "masterBrowserType": "Course type",
+  "masterBrowserGrade": "Grade",
+  "masterBrowserTitle": "Teacher title",
+  "masterBrowserTextbook": "Textbook",
+  "masterBrowserPublisher": "Publisher",
+  "masterBrowserRemark": "Remarks",
+  "masterBrowserMajor": "Major code",
+  "masterBrowserTeacherMajor": "Teacher specialty",
+  "masterBrowserAssistants": "Assistant teachers",
+  "masterBrowserWeek": "Week",
+  "masterBrowserSection": "Section",
+  "masterBrowserRoom": "Room",
+  "masterBrowserWithSlots": "Only scheduled classes",
+  "masterBrowserAvailable": "Available places only",
+  "masterBrowserCapacity": "Capacity",
+  "masterBrowserSelected": "Enrolled",
+  "masterBrowserUnknown": "Not provided",
+  "masterBrowserFull": "Full",
+  "masterBrowserRemaining": "Places remaining",
+  "masterBrowserSameSlot": "Day, section, week and location must match the same meeting.",
+  "masterBrowserName": "Course name",
+  "masterBrowserCredits": "Credits",
+  "masterBrowserDescending": "Descending",
+  "masterBrowserAscending": "Ascending",
+  "masterBrowserNoMatches": "No matching classes",
+  "masterBrowserShare": "Copy search link",
+  "masterBrowserLinkCopied": "Search link copied",
+  "masterBrowserPrevious": "Previous",
+  "masterBrowserNext": "Next",
+  "masterBrowserOtherClasses": "Other classes for this course",
+  "masterBrowserOpenCourse": "Reviews and add to timetable",
+  "masterBrowserTeacherLookup": "Find by teacher",
+  "masterBrowserRoomLookup": "Find by room",
+  "masterBrowserHistory": "Course history",
+  "masterBrowserLookupHint": "Choose a teacher or room to see all classes this semester.",
+  "masterBrowserCollapse": "Collapse empty sections",
+  "masterBrowserConflict": "Schedule conflicts",
+  "masterBrowserOverview": "Semester overview",
+  "masterBrowserClasses": "Classes",
+  "masterBrowserCourses": "Courses",
+  "masterBrowserTeachers": "Teachers",
+  "masterBrowserDepartments": "Departments",
+  "masterBrowserRooms": "Rooms",
+  "masterBrowserDensity": "Day × section density",
+  "masterBrowserTapToFilter": "Select a distribution or heatmap cell to browse matching classes.",
+  "masterBrowserLoading": "Loading the complete semester…",
+  "masterBrowserLocalData": "On-device data",
+  "masterBrowserArchiveData": "Web archive",
+  "masterBrowserCloudData": "Cloud data",
+  "masterBrowserEmptySemester": "No course data for this semester",
+  "masterBrowserPick": "Choose",
+  "masterBrowserFilterOption": "Search options",
+  "masterBrowserLoadFailed": "Could not load the semester. Retry or manage offline data.",
+  "masterBrowserUnavailableFields": "This source does not include extended fields such as capacity and textbooks. Web archives include them.",
+  "masterBrowserDataHint": "Archived snapshot. Check the education system for current enrollment and schedules.",
+  "masterBrowserUnschedule": "Unscheduled",
+  "masterBrowserHistoryProgress": "Searching all semesters",
+  "masterBrowserHistoryPartial": "Some semesters could not be loaded. Retry to complete the results.",
+  "masterBrowserHistoryLimit": "Up to 20 classes per semester. Open that semester to browse all results.",
+  "masterBrowserClassCount": "{count, plural, one{{count} class} other{{count} classes}}",
+  "@masterBrowserClassCount": {
+    "description": "Master timetable browser: ClassCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "masterBrowserCreditValue": "{credits} credits",
+  "@masterBrowserCreditValue": {
+    "description": "Master timetable browser: CreditValue",
+    "placeholders": {
+      "credits": {
+        "type": "String"
+      }
+    }
+  },
+  "masterBrowserWeekNumber": "Week {week}",
+  "@masterBrowserWeekNumber": {
+    "description": "Master timetable browser: WeekNumber",
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "masterBrowserSections": "Sections {start}–{end}",
+  "@masterBrowserSections": {
+    "description": "Master timetable browser: Sections",
+    "placeholders": {
+      "start": {
+        "type": "int"
+      },
+      "end": {
+        "type": "int"
+      }
+    }
+  },
+  "masterBrowserPerPageValue": "{count} / page",
+  "@masterBrowserPerPageValue": {
+    "description": "Master timetable browser: PerPageValue",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
 }
