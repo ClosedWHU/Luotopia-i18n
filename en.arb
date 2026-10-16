@@ -6404,6 +6404,28 @@
       }
     }
   },
+  "appPaginationFirst": "First page",
+  "appPaginationLast": "Last page",
+  "appPaginationPrevious": "Previous page",
+  "appPaginationNext": "Next page",
+  "appPaginationJumpTitle": "Go to page",
+  "appPaginationJumpLabel": "Page number",
+  "appPaginationJumpInvalid": "Enter a page from 1 to {pages}",
+  "@appPaginationJumpInvalid": {
+    "placeholders": {
+      "pages": {
+        "type": "int"
+      }
+    }
+  },
+  "appPaginationTotalCount": "{count} items in total",
+  "@appPaginationTotalCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "adminUserDetailAccount": "Account",
   "adminUserDetailDisplayName": "Display name",
   "adminUserDetailRegistered": "Registered",
