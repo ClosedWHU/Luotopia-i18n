@@ -1115,6 +1115,9 @@
   "editorSectionDateRepeat": "Date & repeat",
   "editorSectionTime": "Time",
   "editorSectionDetails": "Details",
+  "editorSectionCourse": "Course info",
+  "editorSectionMedication": "Medication info",
+  "editorSectionLocationNotes": "Location & notes",
   "editorRecurrenceTimes": "Times",
   "editorRecurrenceWeekdays": "Days",
   "editorRecurrenceAddTime": "Add time",
@@ -5899,6 +5902,22 @@
   "@whuNativeLoginUseWebSubtitle": {
     "description": "Subtitle for the 'use web login' overflow menu item."
   },
+  "whuReauthTitle": "Two-step verification",
+  "@whuReauthTitle": {
+    "description": "Heading shown when WHU CAS holds a login at its two-step (MFA) verification page."
+  },
+  "whuReauthSubtitle": "WHU requires an additional verification step before signing in.",
+  "@whuReauthSubtitle": {
+    "description": "Subtitle under the two-step verification heading."
+  },
+  "whuReauthTrustDevice": "Trust this device",
+  "@whuReauthTrustDevice": {
+    "description": "Checkbox to trust the device so WHU skips two-step verification next time."
+  },
+  "whuReauthDialogAction": "Verify now",
+  "@whuReauthDialogAction": {
+    "description": "Confirm button on the two-step-verification prompt dialog."
+  },
   "forumModerationReports": "Reports",
   "forumModerationAppeals": "Appeals",
   "settingsBuildInfoArchitecture": "Architecture",
@@ -10292,6 +10311,7 @@
   "courseEnrollmentBindingRequired": "Link your WHU account to your Luotopia account. Verification and course space creation will start automatically.",
   "courseEnrollmentBind": "Link school account",
   "courseEnrollmentSchoolLogin": "Sign in to your linked school account to verify this term. General course resources remain available.",
+  "courseEnrollmentReauthRequired": "Your linked school account requires two-step verification. Complete it to verify this term. General course resources remain available.",
   "courseEnrollmentAccountMismatch": "The school session does not match your linked account. Switch to the linked school account and retry.",
   "courseEnrollmentGraduateDeferred": "Graduate enrollment verification is not available yet. General course resources remain available.",
   "courseEnrollmentVerify": "Verify this term",
@@ -10491,6 +10511,7 @@
   "courseBindingAdvancedTitle": "Updates and private copy",
   "masterBrowserQuery": "Search",
   "masterBrowserLookup": "Teachers / rooms",
+  "masterBrowserLookupHint": "Choose a teacher or room to see all classes this semester.",
   "masterBrowserStats": "Statistics",
   "masterBrowserSearchHint": "Course / teacher / code / class / textbook",
   "masterBrowserSearchHelp": "Results update as you type. Separate keywords with spaces to match all.",
@@ -10501,6 +10522,7 @@
   "masterBrowserCategory": "Course category",
   "masterBrowserType": "Course type",
   "masterBrowserGrade": "Grade",
+  "masterBrowserGrid": "Week grid",
   "masterBrowserTitle": "Teacher title",
   "masterBrowserTextbook": "Textbook",
   "masterBrowserPublisher": "Publisher",
@@ -10509,6 +10531,15 @@
   "masterBrowserTeacherMajor": "Teacher specialty",
   "masterBrowserAssistants": "Assistant teachers",
   "masterBrowserWeek": "Week",
+  "masterBrowserWeekNumber": "Week {week}",
+  "@masterBrowserWeekNumber": {
+    "description": "Master timetable browser: WeekNumber",
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
   "masterBrowserSection": "Section",
   "masterBrowserRoom": "Room",
   "masterBrowserWithSlots": "Only scheduled classes",
@@ -10543,6 +10574,8 @@
   "masterBrowserLocalData": "On-device data",
   "masterBrowserArchiveData": "Web archive",
   "masterBrowserCloudData": "Cloud data",
+  "masterBrowserCollapse": "Collapse empty sections",
+  "masterBrowserConflict": "Schedule conflicts",
   "masterBrowserEmptySemester": "No course data for this semester",
   "masterBrowserChangeLookup": "Choose another",
   "masterBrowserFilterLookup": "Filter these courses",
@@ -10593,6 +10626,7 @@
       }
     }
   },
+  "masterBrowserPick": "Choose",
   "opacCurrentReservations": "Current holds",
   "opacReservationsDescription": "View hold requests, pickup locations and queue positions",
   "opacRefreshReservations": "Refresh current holds",
