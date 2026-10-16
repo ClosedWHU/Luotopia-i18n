@@ -75,6 +75,8 @@ KEEP_VALUES = {
     # "Dose" and "Injection" are the correct French/Portuguese spellings too
     # (Latin medical loanwords), so fr/pt legitimately equal the template.
     "Dose", "Injection",
+    # Placeholder-only format string, identical in every locale by design.
+    "+{delay} · {dose}",
     "Auth Epoch", "Logs", "Pause", "Bio", "Spam", "Webmail", "QR code",
     "Check-in", "Local", "Cloud", "Message…", "Menu", "Quiz", "Photo",
     "Volume", "Transport", "Description", "Classification", "Publication",
