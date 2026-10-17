@@ -8577,5 +8577,203 @@
   "courseEnrollmentReauthRequired": "連携済みの学校アカウントには2段階認証が必要です。完了すると今学期の確認ができます。一般のコース資料は引き続き利用できます。",
   "adminStatusScannerNotConfigured": "スキャナーが未設定",
   "adminStatusScannerUnreachable": "スキャナーに接続できません",
-  "adminStatusScannerHealthyCount": "{healthy}/{total} 正常"
+  "adminStatusScannerHealthyCount": "{healthy}/{total} 正常",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDirectoryUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "washingAccountConfigured": "洗濯室の認証情報を登録しました",
+  "washingAccountNote": "洗濯室の認証情報は独立して管理されます。有効期限が切れたら新しい Bearer を再登録してください。wxuuid は支払いの引き継ぎにのみ使用され、WeChat ログインは行いません。",
+  "washingAccountTitle": "洗濯室アカウント",
+  "washingAllFacilities": "すべての施設",
+  "washingAllFloors": "すべての階",
+  "washingAllStates": "すべての状態",
+  "washingAlternatePayment": "この注文は運営事業者の別の支払い経路を使用します。元のミニプログラムで完了してください。",
+  "washingAuthError": "認証情報が無効か期限切れです。Bearer トークンを変更してください。",
+  "washingBuilding": "{building}号館",
+  "washingCategoryDorm": "寮",
+  "washingCategoryDormDescription": "地域・建物・階ごとに洗濯機を確認",
+  "washingCategoryLaundry": "洗濯ステーション",
+  "washingCategoryLaundryDescription": "校内の地域ごとに洗濯センターを確認",
+  "washingChangePoint": "拠点を変更",
+  "washingCheckPayment": "支払い状況を確認",
+  "washingCheckoutFailed": "注文を処理できません。認証情報を確認して後で再試行してください。",
+  "washingChooseMode": "洗濯モードを選択",
+  "washingChoosePoint": "洗濯拠点を選択",
+  "washingChoosePointHint": "地域・建物・階を選択して機器の状態を確認してください。",
+  "washingClearCredential": "認証情報を消去",
+  "washingClearOrder": "端末内の注文記録を消去",
+  "washingClearOrderBody": "これは上流の注文を取り消したり返金したりするものではありません。まず運営事業者のミニプログラムで、注文が完了済み・終了済み・または作成されていないことを確認してください。未払いの注文は引き続き支払い可能な場合があります。",
+  "washingClearOrderConfirm": "確認済み、記録を消去",
+  "washingClose": "閉じる",
+  "washingConfirmBody": "機器：{device}\nモード：{mode}\n時間：{minutes} 分\n金額：¥{price}\n支払い後、機器がすぐに起動する場合があります。続行する前に洗濯物を入れ、機器をご確認ください。クーポンや洗剤の追加購入は適用されません。",
+  "washingConfirmOrder": "洗濯注文を確認",
+  "washingCoordinateTitle": "検索位置を選択",
+  "washingCoordinatesInvalid": "有効な緯度（-90～90）と経度（-180～180）を入力してください。",
+  "washingCreateOrder": "注文を作成",
+  "washingCredentialSaved": "洗濯室アカウントを保存しました",
+  "washingCredentialTitle": "洗濯室の認証情報",
+  "washingCurrentOrder": "現在の洗濯注文",
+  "washingDeviceCount": "{count} 台の機器",
+  "washingDeviceFallback": "洗濯機",
+  "washingDirectoryUpdated": "拠点一覧を {time} に更新",
+  "washingEstimatedEnd": "終了予定 {time}",
+  "washingExpiredBody": "認証情報が無効か期限切れです。続行するには有効なトークンを登録してください。",
+  "washingExpiredTitle": "洗濯室の認証情報を更新",
+  "washingFindingStations": "校内の拠点一覧を読み込み中",
+  "washingFloor": "{floor} 階",
+  "washingImport": "認証情報を登録",
+  "washingIntroBody": "洗濯サービスの Bearer トークンを登録すると、校内の拠点一覧と機器の状態を読み込めます。",
+  "washingIntroTitle": "校内の洗濯設備",
+  "washingLatitude": "緯度",
+  "washingLaunchFailed": "支払いページを開けませんでした。WeChat のインストール状況と、運営事業者が外部ミニプログラムのリンクを許可しているかを確認してください。既存の注文は保持されます。",
+  "washingLoadingDevices": "機器の状態を読み込み中",
+  "washingLoadingNearbyMachines": "近くのステーションの機器を読み込み中",
+  "washingLocationError": "位置情報を取得できません。位置情報の権限を有効にしてから更新してください。",
+  "washingLongitude": "経度",
+  "washingMachineAddress": "住所",
+  "washingMachineDetails": "機器の詳細",
+  "washingMachineEnd": "終了予定時刻",
+  "washingMachineLocation": "所在拠点",
+  "washingMachineModel": "機種",
+  "washingMachineNumber": "機器番号",
+  "washingMachineOperator": "所属",
+  "washingMachineTotal": "機器総数",
+  "washingMachineUnavailable": "機器が利用不可、予約済み、またはステーションが営業していません。更新してから再試行してください。",
+  "washingMachines": "機器の状態",
+  "washingMalformedError": "洗濯サービスの応答形式が変更されました。後で再試行してください。",
+  "washingManageAccount": "洗濯室アカウントを管理",
+  "washingManageCredential": "洗濯室の認証情報を管理",
+  "washingManualLocation": "座標を入力",
+  "washingModeDetails": "{minutes} 分 · {status}",
+  "washingModesFailed": "洗濯モードを読み込めません。戻って更新して再試行してください。",
+  "washingModesNote": "モードと価格は参考です。実際には現場の機器と運営事業者にご確認ください。",
+  "washingNearby": "近くのステーション",
+  "washingNetworkError": "ネットワークを利用できません。後で再試行してください。",
+  "washingNoDevices": "条件に一致する機器はありません",
+  "washingNoModes": "モード情報がありません",
+  "washingNoStations": "条件に一致する校内拠点はありません",
+  "washingOpenMachine": "機器を開く",
+  "washingOrderClosed": "失効または終了",
+  "washingOrderPaid": "支払い済み（洗濯サービスが確認済み）",
+  "washingOrderPrice": "注文 ¥{price}",
+  "washingOrderRefunded": "返金済み",
+  "washingOrderStorageError": "復元記録を保存できません。再注文する前に運営事業者のミニプログラムで確認してください。",
+  "washingOrderUncertain": "注文の送信結果が不明です。再送信しないでください。この端末の記録を消去する前に、運営事業者のミニプログラムで注文を確認してください。",
+  "washingOrderUnknown": "支払い状況未確認",
+  "washingOrderUnpaid": "支払い待ち",
+  "washingPayInWeChat": "WeChat ミニプログラムで支払う",
+  "washingPaymentContextError": "認証情報の設定で、このアカウントの元の洗濯 H5 URL または wxuuid を登録してください。Bearer と同じアカウントである必要があります。",
+  "washingPaymentNote": "モードを選択して注文を作成し、WeChat で支払いページを開きます。支払いはミニプログラムが行い、結果は洗濯サービスが確認します。",
+  "washingPaymentPending": "リンクを WeChat に渡しました。WeChat で支払いを完了し、戻って結果を確認してください。これは支払い成功を確定するものではありません。",
+  "washingPriceChanged": "モードの価格または時間が変更されました。更新して再度確認してください。",
+  "washingQuery": "検索",
+  "washingRefresh": "更新",
+  "washingRejectedError": "洗濯サービスはこのリクエストを処理できません。後で再試行してください。",
+  "washingReplace": "認証情報を変更",
+  "washingRestoring": "洗濯室の認証情報を読み込み中",
+  "washingSave": "保存",
+  "washingScan": "洗濯機をスキャン",
+  "washingScanHint": "洗濯機のQRコードにカメラを向けてください",
+  "washingScanInputHint": "機器番号または洗濯機のQRコードリンクを入力",
+  "washingScanInvalid": "有効な洗濯機のQRコードまたは機器番号が見つかりません",
+  "washingScanManual": "手動入力",
+  "washingScanUnsupported": "この端末ではカメラスキャンを利用できません。機器番号またはQRコードリンクを手動で入力してください。",
+  "washingSearch": "近くのステーションを検索",
+  "washingSearchHint": "近くのステーションを検索するか、座標を入力してください。",
+  "washingSearchPoint": "建物・階・拠点を検索",
+  "washingSessionContext": "洗濯 H5 URL または wxuuid（支払いに使用）",
+  "washingSessionContextHelp": "既存の運営事業者の H5 URL を貼り付けてください。照会には Bearer トークンのみ必要です。ここで WeChat ログインは行いません。",
+  "washingStateFault": "故障",
+  "washingStateIdle": "空き",
+  "washingStateOffline": "オフライン",
+  "washingStateRunning": "運転中",
+  "washingStateUnknown": "状態不明",
+  "washingStationDevices": "{station} · 機器",
+  "washingStationFallback": "洗濯ステーション",
+  "washingStorageClearError": "認証情報を消去できません。再試行してください。",
+  "washingStorageReadError": "保存済みの認証情報を読み込めません。再登録してください。",
+  "washingStorageSaveError": "認証情報を保存できません。再試行してください。",
+  "washingTitle": "洗濯室",
+  "washingTokenInvalid": "有効な Bearer トークンを入力してください",
+  "washingTokenKeep": "空欄のままにすると現在の認証情報を保持します",
+  "washingTokenLabel": "Bearer トークン",
+  "washingTokenPaste": "洗濯サービスのトークンを貼り付け",
+  "washingUnknownFloor": "階数不明",
+  "washingUnknownLocation": "位置情報なし",
+  "washingUnlinkAccount": "洗濯室アカウントを削除",
+  "washingUnlinkAccountBody": "この端末に保存された認証情報を削除します。既存の注文は取り消しも返金もされません。",
+  "washingUpdateDirectory": "拠点一覧を更新",
+  "washingUsageHint": "機器の空き状況は到着前に変わる場合があります。注文前に機器を確認し、洗濯物を入れてください。"
 }

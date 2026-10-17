@@ -8584,5 +8584,203 @@
   "courseEnrollmentReauthRequired": "연결된 학교 계정에 2단계 인증이 필요합니다. 완료하면 이번 학기를 확인할 수 있습니다. 일반 강의 자료는 계속 이용할 수 있습니다.",
   "adminStatusScannerNotConfigured": "스캐너가 구성되지 않음",
   "adminStatusScannerUnreachable": "스캐너에 연결할 수 없음",
-  "adminStatusScannerHealthyCount": "{healthy}/{total} 정상"
+  "adminStatusScannerHealthyCount": "{healthy}/{total} 정상",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDirectoryUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "washingAccountConfigured": "세탁 서비스 자격 증명을 가져왔습니다",
+  "washingAccountNote": "세탁 서비스 자격 증명은 별도로 관리됩니다. 만료되면 새 Bearer를 다시 가져오세요. wxuuid는 결제 전환에만 사용되며 WeChat 로그인은 수행되지 않습니다.",
+  "washingAccountTitle": "세탁 서비스 계정",
+  "washingAllFacilities": "전체 시설",
+  "washingAllFloors": "전체 층",
+  "washingAllStates": "전체 상태",
+  "washingAlternatePayment": "이 주문은 운영사의 별도 결제 채널을 사용합니다. 원래 미니프로그램에서 완료하세요.",
+  "washingAuthError": "자격 증명이 유효하지 않거나 만료되었습니다. Bearer token을 교체하세요.",
+  "washingBuilding": "건물 {building}",
+  "washingCategoryDorm": "기숙사 건물",
+  "washingCategoryDormDescription": "지역, 건물, 층별로 기기를 둘러보세요",
+  "washingCategoryLaundry": "세탁 지점",
+  "washingCategoryLaundryDescription": "캠퍼스 지역별로 세탁 센터를 둘러보세요",
+  "washingChangePoint": "지점 변경",
+  "washingCheckPayment": "결제 상태 확인",
+  "washingCheckoutFailed": "주문을 처리할 수 없습니다. 자격 증명을 확인한 후 나중에 다시 시도하세요.",
+  "washingChooseMode": "세탁 모드 선택",
+  "washingChoosePoint": "세탁 지점 선택",
+  "washingChoosePointHint": "지역, 건물, 층을 선택해 기기를 확인하세요.",
+  "washingClearCredential": "자격 증명 지우기",
+  "washingClearOrder": "로컬 주문 기록 지우기",
+  "washingClearOrderBody": "이 작업은 업스트림 주문을 취소하거나 환불하지 않습니다. 먼저 운영사 미니프로그램에서 주문이 완료·종료되었거나 생성되지 않았는지 확인하세요. 미결제 주문은 여전히 결제할 수 있습니다.",
+  "washingClearOrderConfirm": "확인했으며 기록을 지웁니다",
+  "washingClose": "닫기",
+  "washingConfirmBody": "기기: {device}\n모드: {mode}\n시간: {minutes}분\n금액: ¥{price}\n결제 후 기기가 바로 시작될 수 있습니다. 계속하기 전에 세탁물을 넣고 기기를 확인하세요. 쿠폰이나 세제 추가 구매는 적용되지 않습니다.",
+  "washingConfirmOrder": "세탁 주문 확인",
+  "washingCoordinateTitle": "검색 위치 선택",
+  "washingCoordinatesInvalid": "유효한 위도(-90~90)와 경도(-180~180)를 입력하세요.",
+  "washingCreateOrder": "주문 만들기",
+  "washingCredentialSaved": "세탁 서비스 계정을 저장했습니다.",
+  "washingCredentialTitle": "세탁 서비스 자격 증명",
+  "washingCurrentOrder": "현재 세탁 주문",
+  "washingDeviceCount": "기기 {count}대",
+  "washingDeviceFallback": "세탁 기기",
+  "washingDirectoryUpdated": "목록 업데이트: {time}",
+  "washingEstimatedEnd": "예상 종료 {time}",
+  "washingExpiredBody": "자격 증명이 유효하지 않거나 만료되었습니다. 계속하려면 유효한 token을 가져오세요.",
+  "washingExpiredTitle": "세탁 서비스 자격 증명 업데이트",
+  "washingFindingStations": "캠퍼스 목록을 불러오는 중",
+  "washingFloor": "{floor}층",
+  "washingImport": "자격 증명 가져오기",
+  "washingIntroBody": "세탁 서비스 Bearer token을 가져오면 캠퍼스 목록과 기기 상태를 불러올 수 있습니다.",
+  "washingIntroTitle": "캠퍼스 세탁 시설",
+  "washingLatitude": "위도",
+  "washingLaunchFailed": "결제 페이지를 열 수 없습니다. WeChat 설치 여부와 운영사가 외부 미니프로그램 링크를 허용하는지 확인하세요. 기존 주문은 유지됩니다.",
+  "washingLoadingDevices": "기기 상태를 불러오는 중",
+  "washingLoadingNearbyMachines": "주변 지점의 기기를 불러오는 중",
+  "washingLocationError": "위치를 가져올 수 없습니다. 위치 권한을 허용한 후 새로고침하세요.",
+  "washingLongitude": "경도",
+  "washingMachineAddress": "주소",
+  "washingMachineDetails": "기기 상세",
+  "washingMachineEnd": "예상 종료 시간",
+  "washingMachineLocation": "위치",
+  "washingMachineModel": "모델",
+  "washingMachineNumber": "기기 번호",
+  "washingMachineOperator": "소속 기관",
+  "washingMachineTotal": "기기",
+  "washingMachineUnavailable": "기기를 더 이상 사용할 수 없거나 예약되었거나 지점이 닫혔습니다. 새로고침 후 다시 시도하세요.",
+  "washingMachines": "기기 상태",
+  "washingMalformedError": "세탁 서비스 응답 형식이 변경되었습니다. 나중에 다시 시도하세요.",
+  "washingManageAccount": "세탁 서비스 계정 관리",
+  "washingManageCredential": "세탁 서비스 자격 증명 관리",
+  "washingManualLocation": "좌표 입력",
+  "washingModeDetails": "{minutes}분 · {status}",
+  "washingModesFailed": "세탁 모드를 불러올 수 없습니다. 뒤로 돌아가 새로고침 후 다시 시도하세요.",
+  "washingModesNote": "모드와 가격은 참고용입니다. 현장 기기와 운영사 안내를 확인하세요.",
+  "washingNearby": "주변 지점",
+  "washingNetworkError": "네트워크를 사용할 수 없습니다. 나중에 다시 시도하세요.",
+  "washingNoDevices": "조건에 맞는 기기가 없습니다",
+  "washingNoModes": "모드 정보가 없습니다",
+  "washingNoStations": "조건에 맞는 캠퍼스 지점이 없습니다",
+  "washingOpenMachine": "기기 열기",
+  "washingOrderClosed": "만료 또는 종료됨",
+  "washingOrderPaid": "결제됨 (세탁 서비스 확인)",
+  "washingOrderPrice": "주문 ¥{price}",
+  "washingOrderRefunded": "환불됨",
+  "washingOrderStorageError": "복구 기록을 저장할 수 없습니다. 다시 주문하기 전에 운영사 미니프로그램에서 확인하세요.",
+  "washingOrderUncertain": "주문 제출 결과를 알 수 없습니다. 다시 제출하지 마세요. 로컬 기록을 지우기 전에 운영사 미니프로그램에서 주문을 확인하세요.",
+  "washingOrderUnknown": "결제 상태 미확인",
+  "washingOrderUnpaid": "결제 대기",
+  "washingPayInWeChat": "WeChat 미니프로그램에서 결제",
+  "washingPaymentContextError": "자격 증명 설정에서 이 계정의 원래 세탁 H5 주소 또는 wxuuid를 가져오세요. Bearer 계정과 일치해야 합니다.",
+  "washingPaymentNote": "모드를 선택해 주문을 만든 뒤 WeChat에서 결제 페이지를 여세요. 결제는 미니프로그램이 처리하며 결과는 세탁 서비스 조회로 확인됩니다.",
+  "washingPaymentPending": "링크를 WeChat으로 전달했습니다. 그곳에서 결제를 완료한 뒤 돌아와 결과를 확인하세요. 아직 결제 성공이 확인된 것은 아닙니다.",
+  "washingPriceChanged": "모드 가격 또는 시간이 변경되었습니다. 새로고침 후 다시 확인하세요.",
+  "washingQuery": "검색",
+  "washingRefresh": "새로고침",
+  "washingRejectedError": "세탁 서비스가 이 요청을 처리할 수 없습니다. 나중에 다시 시도하세요.",
+  "washingReplace": "자격 증명 교체",
+  "washingRestoring": "세탁 서비스 자격 증명을 불러오는 중",
+  "washingSave": "저장",
+  "washingScan": "세탁 기기 스캔",
+  "washingScanHint": "기기의 QR 코드에 카메라를 맞추세요",
+  "washingScanInputHint": "기기 번호 또는 QR 링크를 입력하세요",
+  "washingScanInvalid": "유효한 세탁 기기 QR 코드나 식별자를 찾지 못했습니다",
+  "washingScanManual": "직접 입력",
+  "washingScanUnsupported": "카메라 스캔을 사용할 수 없습니다. 기기 번호 또는 QR 링크를 직접 입력하세요.",
+  "washingSearch": "주변 지점 찾기",
+  "washingSearchHint": "주변 지점을 검색하거나 좌표를 입력하세요.",
+  "washingSearchPoint": "건물, 층 또는 지점 검색",
+  "washingSessionContext": "세탁 H5 주소 또는 wxuuid (결제용)",
+  "washingSessionContextHelp": "기존 운영사 H5 주소를 붙여넣으세요. 조회에는 Bearer token만 필요합니다. 여기서는 WeChat 로그인이 수행되지 않습니다.",
+  "washingStateFault": "고장",
+  "washingStateIdle": "사용 가능",
+  "washingStateOffline": "오프라인",
+  "washingStateRunning": "사용 중",
+  "washingStateUnknown": "알 수 없는 상태",
+  "washingStationDevices": "{station} · 기기",
+  "washingStationFallback": "세탁 지점",
+  "washingStorageClearError": "자격 증명을 지울 수 없습니다. 다시 시도하세요.",
+  "washingStorageReadError": "저장된 자격 증명을 읽을 수 없습니다. 다시 가져오세요.",
+  "washingStorageSaveError": "자격 증명을 저장할 수 없습니다. 다시 시도하세요.",
+  "washingTitle": "세탁",
+  "washingTokenInvalid": "유효한 Bearer token을 입력하세요",
+  "washingTokenKeep": "비워 두면 현재 자격 증명을 유지합니다",
+  "washingTokenLabel": "Bearer token",
+  "washingTokenPaste": "세탁 서비스 token을 붙여넣으세요",
+  "washingUnknownFloor": "알 수 없는 층",
+  "washingUnknownLocation": "위치 정보 없음",
+  "washingUnlinkAccount": "세탁 서비스 계정 제거",
+  "washingUnlinkAccountBody": "이 기기에 저장된 자격 증명만 제거합니다. 기존 주문은 취소되거나 환불되지 않습니다.",
+  "washingUpdateDirectory": "지점 목록 새로고침",
+  "washingUsageHint": "기기 상태는 도착 전에 달라질 수 있습니다. 주문하기 전에 기기를 확인하고 세탁물을 넣으세요."
 }

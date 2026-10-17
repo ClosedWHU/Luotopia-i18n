@@ -8563,5 +8563,203 @@
   "courseEnrollmentReauthRequired": "Votre compte scolaire lié exige une vérification en deux étapes. Terminez-la pour vérifier ce semestre. Les ressources générales des cours restent disponibles.",
   "adminStatusScannerNotConfigured": "Scanner non configuré",
   "adminStatusScannerUnreachable": "Scanner inaccessible",
-  "adminStatusScannerHealthyCount": "{healthy}/{total} en bon état"
+  "adminStatusScannerHealthyCount": "{healthy}/{total} en bon état",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDirectoryUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "washingAccountConfigured": "Identifiants de blanchisserie importés",
+  "washingAccountNote": "Les identifiants de blanchisserie sont gérés indépendamment. Importez un nouveau Bearer lorsqu'il expire. wxuuid ne sert qu'à la passation de paiement ; aucune connexion WeChat n'est effectuée.",
+  "washingAccountTitle": "Compte de blanchisserie",
+  "washingAllFacilities": "Tous les équipements",
+  "washingAllFloors": "Tous les étages",
+  "washingAllStates": "Tous les états",
+  "washingAlternatePayment": "Cette commande utilise un canal de paiement distinct de l'opérateur. Terminez-la dans le mini-programme d'origine.",
+  "washingAuthError": "Identifiants invalides ou expirés. Remplacez votre jeton Bearer.",
+  "washingBuilding": "Bâtiment {building}",
+  "washingCategoryDorm": "Bâtiments de dortoirs",
+  "washingCategoryDormDescription": "Parcourez les machines par zone, bâtiment et étage",
+  "washingCategoryLaundry": "Laveries",
+  "washingCategoryLaundryDescription": "Parcourez les centres de lavage par zone du campus",
+  "washingChangePoint": "Changer d'emplacement",
+  "washingCheckPayment": "Vérifier l'état du paiement",
+  "washingCheckoutFailed": "Impossible de traiter la commande. Vérifiez vos identifiants et réessayez plus tard.",
+  "washingChooseMode": "Choisir un mode de lavage",
+  "washingChoosePoint": "Choisir un emplacement de lavage",
+  "washingChoosePointHint": "Choisissez une zone, un bâtiment et un étage pour voir les machines.",
+  "washingClearCredential": "Effacer les identifiants",
+  "washingClearOrder": "Effacer l'enregistrement de commande local",
+  "washingClearOrderBody": "Cela n'annule ni ne rembourse une commande en amont. Vérifiez d'abord dans le mini-programme de l'opérateur que la commande est terminée, fermée ou qu'elle n'a jamais été créée. Une commande impayée peut encore être payable.",
+  "washingClearOrderConfirm": "Vérifié, effacer l'enregistrement",
+  "washingClose": "Fermer",
+  "washingConfirmBody": "Machine : {device}\nMode : {mode}\nDurée : {minutes} minutes\nMontant : ¥{price}\nLe paiement peut démarrer la machine immédiatement. Chargez votre linge et vérifiez la machine avant de continuer. Aucun coupon ni additif de lessive n'est appliqué.",
+  "washingConfirmOrder": "Confirmer la commande de lavage",
+  "washingCoordinateTitle": "Choisir l'emplacement de recherche",
+  "washingCoordinatesInvalid": "Saisissez une latitude valide (-90 à 90) et une longitude valide (-180 à 180).",
+  "washingCreateOrder": "Créer une commande",
+  "washingCredentialSaved": "Compte de blanchisserie enregistré.",
+  "washingCredentialTitle": "Identifiants de blanchisserie",
+  "washingCurrentOrder": "Commande de lavage en cours",
+  "washingDeviceCount": "{count} machines",
+  "washingDeviceFallback": "Machine à laver",
+  "washingDirectoryUpdated": "Répertoire mis à jour {time}",
+  "washingEstimatedEnd": "Fin estimée {time}",
+  "washingExpiredBody": "Les identifiants sont invalides ou expirés. Importez un jeton valide pour continuer.",
+  "washingExpiredTitle": "Mettre à jour les identifiants de blanchisserie",
+  "washingFindingStations": "Chargement du répertoire du campus",
+  "washingFloor": "Étage {floor}",
+  "washingImport": "Importer les identifiants",
+  "washingIntroBody": "Importez votre jeton Bearer de blanchisserie pour charger le répertoire du campus et l'état des machines.",
+  "washingIntroTitle": "Équipements de blanchisserie du campus",
+  "washingLatitude": "Latitude",
+  "washingLaunchFailed": "Impossible d'ouvrir la page de paiement. Vérifiez que WeChat est installé et que l'opérateur autorise les liens externes vers le mini-programme. Votre commande existante est conservée.",
+  "washingLoadingDevices": "Chargement de l'état des machines",
+  "washingLoadingNearbyMachines": "Chargement des machines des stations proches",
+  "washingLocationError": "Position indisponible. Activez l'autorisation de localisation, puis actualisez.",
+  "washingLongitude": "Longitude",
+  "washingMachineAddress": "Adresse",
+  "washingMachineDetails": "Détails de la machine",
+  "washingMachineEnd": "Fin estimée",
+  "washingMachineLocation": "Emplacement",
+  "washingMachineModel": "Modèle",
+  "washingMachineNumber": "Numéro de machine",
+  "washingMachineOperator": "Organisation",
+  "washingMachineTotal": "Machines",
+  "washingMachineUnavailable": "La machine n'est plus disponible, est réservée ou la station est fermée. Actualisez avant de réessayer.",
+  "washingMachines": "État des machines",
+  "washingMalformedError": "La réponse du service de blanchisserie a changé. Réessayez plus tard.",
+  "washingManageAccount": "Gérer le compte de blanchisserie",
+  "washingManageCredential": "Gérer les identifiants de blanchisserie",
+  "washingManualLocation": "Saisir les coordonnées",
+  "washingModeDetails": "{minutes} minutes · {status}",
+  "washingModesFailed": "Impossible de charger les modes de lavage. Revenez et actualisez pour réessayer.",
+  "washingModesNote": "Les modes et les prix sont donnés à titre indicatif. Vérifiez auprès de la machine sur place et de l'opérateur.",
+  "washingNearby": "Stations proches",
+  "washingNetworkError": "Réseau indisponible. Réessayez plus tard.",
+  "washingNoDevices": "Aucune machine correspondante",
+  "washingNoModes": "Aucune information de mode disponible",
+  "washingNoStations": "Aucun équipement du campus correspondant",
+  "washingOpenMachine": "Ouvrir la machine",
+  "washingOrderClosed": "Expirée ou fermée",
+  "washingOrderPaid": "Payée (confirmée par le service de blanchisserie)",
+  "washingOrderPrice": "Commande ¥{price}",
+  "washingOrderRefunded": "Remboursée",
+  "washingOrderStorageError": "Impossible d'enregistrer l'enregistrement de récupération. Vérifiez le mini-programme de l'opérateur avant de passer une autre commande.",
+  "washingOrderUncertain": "Le résultat de la soumission de la commande est inconnu. Ne la soumettez pas à nouveau. Vérifiez vos commandes dans le mini-programme de l'opérateur avant d'effacer cet enregistrement local.",
+  "washingOrderUnknown": "État du paiement non confirmé",
+  "washingOrderUnpaid": "En attente de paiement",
+  "washingPayInWeChat": "Payer dans le mini-programme WeChat",
+  "washingPaymentContextError": "Importez l'URL H5 de blanchisserie d'origine de ce compte ou le wxuuid dans les paramètres d'identifiants. Il doit correspondre au compte Bearer.",
+  "washingPaymentNote": "Choisissez un mode pour créer une commande, puis ouvrez sa page de paiement dans WeChat. Le mini-programme gère le paiement ; le service de blanchisserie confirme le résultat.",
+  "washingPaymentPending": "Le lien a été transmis à WeChat. Terminez le paiement là-bas, puis revenez vérifier le résultat. Cela ne confirme pas la réussite du paiement.",
+  "washingPriceChanged": "Le prix ou la durée du mode a changé. Actualisez et confirmez à nouveau.",
+  "washingQuery": "Rechercher",
+  "washingRefresh": "Actualiser",
+  "washingRejectedError": "Le service de blanchisserie ne peut pas traiter cette demande. Réessayez plus tard.",
+  "washingReplace": "Remplacer les identifiants",
+  "washingRestoring": "Chargement des identifiants de blanchisserie",
+  "washingSave": "Enregistrer",
+  "washingScan": "Scanner une machine",
+  "washingScanHint": "Dirigez l'appareil photo vers le code QR de la machine",
+  "washingScanInputHint": "Saisissez le numéro de machine ou le lien QR",
+  "washingScanInvalid": "Aucun code QR de machine à laver ni identifiant valide n'a été trouvé",
+  "washingScanManual": "Saisie manuelle",
+  "washingScanUnsupported": "Le scan par caméra est indisponible. Saisissez le numéro de machine ou le lien QR manuellement.",
+  "washingSearch": "Trouver les stations proches",
+  "washingSearchHint": "Recherchez les stations proches ou saisissez des coordonnées.",
+  "washingSearchPoint": "Rechercher un bâtiment, un étage ou un emplacement",
+  "washingSessionContext": "URL H5 de blanchisserie ou wxuuid (pour le paiement)",
+  "washingSessionContextHelp": "Collez l'URL H5 de votre opérateur existant. Les requêtes ne nécessitent que le jeton Bearer. Aucune connexion WeChat n'est effectuée ici.",
+  "washingStateFault": "Hors service",
+  "washingStateIdle": "Disponible",
+  "washingStateOffline": "Hors ligne",
+  "washingStateRunning": "En cours",
+  "washingStateUnknown": "État inconnu",
+  "washingStationDevices": "{station} · Machines",
+  "washingStationFallback": "Station de blanchisserie",
+  "washingStorageClearError": "Impossible d'effacer les identifiants. Réessayez.",
+  "washingStorageReadError": "Impossible de lire les identifiants enregistrés. Importez-les à nouveau.",
+  "washingStorageSaveError": "Impossible d'enregistrer les identifiants. Réessayez.",
+  "washingTitle": "Blanchisserie",
+  "washingTokenInvalid": "Saisissez un jeton Bearer valide",
+  "washingTokenKeep": "Laissez vide pour conserver les identifiants actuels",
+  "washingTokenLabel": "Bearer token",
+  "washingTokenPaste": "Collez votre jeton de service de blanchisserie",
+  "washingUnknownFloor": "Étage inconnu",
+  "washingUnknownLocation": "Position indisponible",
+  "washingUnlinkAccount": "Supprimer le compte de blanchisserie",
+  "washingUnlinkAccountBody": "Supprimez les identifiants enregistrés sur cet appareil. Les commandes existantes ne seront ni annulées ni remboursées.",
+  "washingUpdateDirectory": "Actualiser le répertoire des emplacements",
+  "washingUsageHint": "La disponibilité des machines peut changer avant votre arrivée. Vérifiez la machine et chargez votre linge avant de commander."
 }

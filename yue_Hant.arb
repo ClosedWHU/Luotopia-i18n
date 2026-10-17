@@ -8508,5 +8508,203 @@
   "courseEnrollmentReauthRequired": "已綁定的學校帳號需要兩步驗證。完成後即可驗證本學期；仍可瀏覽已有的通用課程資料。",
   "adminStatusScannerNotConfigured": "掃描器未配置",
   "adminStatusScannerUnreachable": "掃描器無法存取",
-  "adminStatusScannerHealthyCount": "{healthy}/{total} 正常"
+  "adminStatusScannerHealthyCount": "{healthy}/{total} 正常",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDirectoryUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "washingAccountConfigured": "已錄入洗衣房憑證",
+  "washingAccountNote": "洗衣房憑證獨立管理。失效之後要重新錄入 Bearer；wxuuid 淨係用嚟支付交接，唔會發起微信登錄。",
+  "washingAccountTitle": "洗衣房帳號",
+  "washingAllFacilities": "全部設施",
+  "washingAllFloors": "全部樓層",
+  "washingAllStates": "全部狀態",
+  "washingAlternatePayment": "呢個訂單用緊營運方嘅特殊支付渠道，請喺原本嘅小程序度完成。",
+  "washingAuthError": "憑證無效或者已經過期，請更換 Bearer token",
+  "washingBuilding": "{building}號樓",
+  "washingCategoryDorm": "宿舍樓",
+  "washingCategoryDormDescription": "按地區、樓棟同樓層查看洗衣機",
+  "washingCategoryLaundry": "洗衣房",
+  "washingCategoryLaundryDescription": "按校內地區查看洗烘中心",
+  "washingChangePoint": "更換點位",
+  "washingCheckPayment": "查詢支付結果",
+  "washingCheckoutFailed": "暫時處理唔到訂單，請檢查憑證之後稍後再試。",
+  "washingChooseMode": "揀洗衣模式",
+  "washingChoosePoint": "揀洗衣點位",
+  "washingChoosePointHint": "按地區揀樓棟同樓層，查看機器狀態。",
+  "washingClearCredential": "清除憑證",
+  "washingClearOrder": "清除本地訂單記錄",
+  "washingClearOrderBody": "呢個唔會取消或者退款上游訂單。請先喺營運方小程序度確認訂單已經完成、已經關閉或者確實未創建；未支付嘅訂單仍然可以付款。",
+  "washingClearOrderConfirm": "已核對，清除記錄",
+  "washingClose": "關閉",
+  "washingConfirmBody": "設備：{device}\n模式：{mode}\n時長：{minutes} 分鐘\n金額：¥{price}\n支付之後機器可能即刻啟動，請先放好衣物同核對機器。今次唔用優惠券或者加購洗衣液。",
+  "washingConfirmOrder": "確認洗衣訂單",
+  "washingCoordinateTitle": "揀查詢位置",
+  "washingCoordinatesInvalid": "請輸入有效緯度（-90～90）同經度（-180～180）",
+  "washingCreateOrder": "創建訂單",
+  "washingCredentialSaved": "洗衣房帳號已保存",
+  "washingCredentialTitle": "洗衣服務憑證",
+  "washingCurrentOrder": "當前洗衣訂單",
+  "washingDeviceCount": "{count} 部設備",
+  "washingDeviceFallback": "洗衣設備",
+  "washingDirectoryUpdated": "點位目錄更新於 {time}",
+  "washingEstimatedEnd": "預計結束 {time}",
+  "washingExpiredBody": "當前憑證無效或者已經過期，要重新錄入。",
+  "washingExpiredTitle": "請更新洗衣服務憑證",
+  "washingFindingStations": "正在讀取校內點位目錄",
+  "washingFloor": "{floor} 層",
+  "washingImport": "錄入憑證",
+  "washingIntroBody": "錄入洗衣服務 Bearer token 之後就可以攞到校內點位目錄同機器狀態。",
+  "washingIntroTitle": "查看校內洗衣設施",
+  "washingLatitude": "緯度",
+  "washingLaunchFailed": "開唔到支付頁，請確認已經裝咗微信，而且營運方允許外部連結打開小程序。已有嘅訂單會保留。",
+  "washingLoadingDevices": "正在讀取設備狀態",
+  "washingLoadingNearbyMachines": "正在讀取附近各站點嘅樓層設備",
+  "washingLocationError": "攞唔到位置，請開啟定位權限之後刷新再試。",
+  "washingLongitude": "經度",
+  "washingMachineAddress": "地址",
+  "washingMachineDetails": "洗衣機詳情",
+  "washingMachineEnd": "預計結束時間",
+  "washingMachineLocation": "所在點位",
+  "washingMachineModel": "設備型號",
+  "washingMachineNumber": "設備編號",
+  "washingMachineOperator": "所屬單位",
+  "washingMachineTotal": "機器總數",
+  "washingMachineUnavailable": "機器已經唔可用、已經被人預訂或者站點未營業，請刷新之後再試。",
+  "washingMachines": "機器狀態",
+  "washingMalformedError": "洗衣服務返回嘅數據格式有變，請稍後再試。",
+  "washingManageAccount": "管理洗衣房帳號",
+  "washingManageCredential": "管理洗衣服務憑證",
+  "washingManualLocation": "手動揀位置",
+  "washingModeDetails": "{minutes} 分鐘 · {status}",
+  "washingModesFailed": "讀取唔到洗衣模式，請返去之後刷新再試。",
+  "washingModesNote": "模式同價格淨係俾你查詢，實際使用請以現場設備同營運方為準。",
+  "washingNearby": "附近服務點",
+  "washingNetworkError": "網絡暫時唔可用，請稍後再試。",
+  "washingNoDevices": "冇符合條件嘅設備",
+  "washingNoModes": "暫時冇模式信息",
+  "washingNoStations": "暫時冇符合條件嘅校內點位",
+  "washingOpenMachine": "打開設備",
+  "washingOrderClosed": "已失效或者作廢",
+  "washingOrderPaid": "已支付（洗衣服務已確認）",
+  "washingOrderPrice": "落單 ¥{price}",
+  "washingOrderRefunded": "已退款",
+  "washingOrderStorageError": "訂單恢復記錄保存失敗，請先到營運方小程序核對，再考慮重新落單。",
+  "washingOrderUncertain": "訂單提交結果不明，唔好重複落單。請先喺營運方小程序度核對訂單，再清除本地記錄。",
+  "washingOrderUnknown": "支付狀態未確認",
+  "washingOrderUnpaid": "待支付",
+  "washingPayInWeChat": "前往微信小程序支付",
+  "washingPaymentContextError": "請喺憑證設定度補充呢個帳號原本嘅洗衣 H5 地址或者 wxuuid，一定要同 Bearer 屬於同一個帳號。",
+  "washingPaymentNote": "揀模式創建訂單，再跳轉微信小程序付款。支付由小程序完成，結果以洗衣服務查詢為準。",
+  "washingPaymentPending": "已經將連結交畀微信，請喺微信入面完成支付，再返嚟查詢結果；而家仲未確認支付成功。",
+  "washingPriceChanged": "模式價格或者時長已經變咗，請刷新之後重新確認。",
+  "washingQuery": "查詢",
+  "washingRefresh": "刷新",
+  "washingRejectedError": "洗衣服務暫時處理唔到呢個請求，請稍後再試。",
+  "washingReplace": "更換憑證",
+  "washingRestoring": "正在讀取洗衣服務憑證",
+  "washingSave": "保存",
+  "washingScan": "掃碼洗衣",
+  "washingScanHint": "對準洗衣機上面嘅二維碼",
+  "washingScanInputHint": "輸入設備編號或者洗衣機二維碼連結",
+  "washingScanInvalid": "識別唔到有效嘅洗衣機二維碼或者設備編號",
+  "washingScanManual": "手動輸入",
+  "washingScanUnsupported": "呢部設備暫時唔支援相機掃碼，可以手動輸入設備編號或者二維碼連結。",
+  "washingSearch": "搜尋附近站點",
+  "washingSearchHint": "撳搜尋附近站點，或者輸入位置坐標。",
+  "washingSearchPoint": "搜尋樓棟、樓層或者點位",
+  "washingSessionContext": "洗衣 H5 地址或者 wxuuid（支付需要）",
+  "washingSessionContextHelp": "貼上你現有嘅營運方 H5 地址。查詢淨係需要 Bearer，呢度唔會發起微信登錄。",
+  "washingStateFault": "故障",
+  "washingStateIdle": "空閒",
+  "washingStateOffline": "離線",
+  "washingStateRunning": "運行中",
+  "washingStateUnknown": "狀態未知",
+  "washingStationDevices": "{station} · 設備",
+  "washingStationFallback": "洗衣服務點",
+  "washingStorageClearError": "憑證清除失敗，請再試。",
+  "washingStorageReadError": "讀取唔到已保存嘅憑證，請重新錄入",
+  "washingStorageSaveError": "憑證保存失敗，請再試。",
+  "washingTitle": "洗衣房",
+  "washingTokenInvalid": "請輸入有效嘅 Bearer token",
+  "washingTokenKeep": "留空保留現有憑證",
+  "washingTokenLabel": "Bearer token",
+  "washingTokenPaste": "貼上洗衣服務 token",
+  "washingUnknownFloor": "樓層未知",
+  "washingUnknownLocation": "暫時冇位置信息",
+  "washingUnlinkAccount": "移除洗衣房帳號",
+  "washingUnlinkAccountBody": "淨係移除本機保存嘅洗衣房憑證，唔會取消或者退款已有嘅訂單。",
+  "washingUpdateDirectory": "更新點位目錄",
+  "washingUsageHint": "機器狀態可能隨時變。落單之前請到現場核對設備，同埋先放好衣物。"
 }

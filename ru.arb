@@ -8553,5 +8553,203 @@
   "courseEnrollmentReauthRequired": "Связанная учебная учетная запись требует двухэтапной проверки. Завершите её, чтобы подтвердить этот семестр. Общие материалы курсов остаются доступными.",
   "adminStatusScannerNotConfigured": "Сканер не настроен",
   "adminStatusScannerUnreachable": "Сканер недоступен",
-  "adminStatusScannerHealthyCount": "{healthy}/{total} в норме"
+  "adminStatusScannerHealthyCount": "{healthy}/{total} в норме",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDirectoryUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "washingAccountConfigured": "Учётные данные прачечной импортированы",
+  "washingAccountNote": "Учётные данные прачечной управляются независимо. Импортируйте новый Bearer по истечении срока действия. wxuuid используется только для передачи платежа; вход в WeChat не выполняется.",
+  "washingAccountTitle": "Аккаунт прачечной",
+  "washingAllFacilities": "Все объекты",
+  "washingAllFloors": "Все этажи",
+  "washingAllStates": "Все статусы",
+  "washingAlternatePayment": "Этот заказ использует отдельный платёжный канал оператора. Завершите его в исходном мини-приложении.",
+  "washingAuthError": "Учётные данные недействительны или истекли. Замените токен Bearer.",
+  "washingBuilding": "Корпус {building}",
+  "washingCategoryDorm": "Общежития",
+  "washingCategoryDormDescription": "Просмотр машин по району, корпусу и этажу",
+  "washingCategoryLaundry": "Прачечные",
+  "washingCategoryLaundryDescription": "Просмотр прачечных по району кампуса",
+  "washingChangePoint": "Сменить местоположение",
+  "washingCheckPayment": "Проверить статус оплаты",
+  "washingCheckoutFailed": "Не удалось обработать заказ. Проверьте учётные данные и повторите позже.",
+  "washingChooseMode": "Выберите режим стирки",
+  "washingChoosePoint": "Выберите прачечную",
+  "washingChoosePointHint": "Выберите район, корпус и этаж, чтобы увидеть машины.",
+  "washingClearCredential": "Очистить учётные данные",
+  "washingClearOrder": "Очистить локальную запись заказа",
+  "washingClearOrderBody": "Это не отменяет и не возвращает вышестоящий заказ. Сначала проверьте в мини-приложении оператора, что заказ завершён, закрыт или вообще не был создан. Неоплаченный заказ всё ещё может быть оплачен.",
+  "washingClearOrderConfirm": "Проверено, очистить запись",
+  "washingClose": "Закрыть",
+  "washingConfirmBody": "Устройство: {device}\nРежим: {mode}\nДлительность: {minutes} минут\nСумма: ¥{price}\nОплата может запустить машину немедленно. Загрузите бельё и проверьте машину перед продолжением. Купоны и доплата за средство для стирки не применяются.",
+  "washingConfirmOrder": "Подтвердить заказ стирки",
+  "washingCoordinateTitle": "Выберите место поиска",
+  "washingCoordinatesInvalid": "Введите допустимую широту (от -90 до 90) и долготу (от -180 до 180).",
+  "washingCreateOrder": "Создать заказ",
+  "washingCredentialSaved": "Аккаунт прачечной сохранён.",
+  "washingCredentialTitle": "Учётные данные прачечной",
+  "washingCurrentOrder": "Текущий заказ стирки",
+  "washingDeviceCount": "{count} машин",
+  "washingDeviceFallback": "Стиральная машина",
+  "washingDirectoryUpdated": "Каталог обновлён {time}",
+  "washingEstimatedEnd": "Предполагаемое окончание {time}",
+  "washingExpiredBody": "Учётные данные недействительны или истекли. Импортируйте действительный токен, чтобы продолжить.",
+  "washingExpiredTitle": "Обновите учётные данные прачечной",
+  "washingFindingStations": "Загрузка каталога кампуса",
+  "washingFloor": "Этаж {floor}",
+  "washingImport": "Импорт учётных данных",
+  "washingIntroBody": "Импортируйте токен Bearer сервиса стирки, чтобы загрузить каталог кампуса и статус машин.",
+  "washingIntroTitle": "Прачечные кампуса",
+  "washingLatitude": "Широта",
+  "washingLaunchFailed": "Не удалось открыть страницу оплаты. Проверьте установку WeChat и разрешает ли оператор внешние ссылки на мини-программы. Ваш существующий заказ сохранён.",
+  "washingLoadingDevices": "Загрузка статуса машин",
+  "washingLoadingNearbyMachines": "Загрузка машин в ближайших прачечных",
+  "washingLocationError": "Местоположение недоступно. Включите разрешение на определение местоположения и обновите.",
+  "washingLongitude": "Долгота",
+  "washingMachineAddress": "Адрес",
+  "washingMachineDetails": "Детали машины",
+  "washingMachineEnd": "Предполагаемое окончание",
+  "washingMachineLocation": "Местоположение",
+  "washingMachineModel": "Модель",
+  "washingMachineNumber": "Номер машины",
+  "washingMachineOperator": "Организация",
+  "washingMachineTotal": "Машины",
+  "washingMachineUnavailable": "Машина больше недоступна, забронирована или прачечная закрыта. Обновите перед повторной попыткой.",
+  "washingMachines": "Статус машин",
+  "washingMalformedError": "Ответ сервиса стирки изменился. Повторите позже.",
+  "washingManageAccount": "Управление аккаунтом прачечной",
+  "washingManageCredential": "Управление учётными данными прачечной",
+  "washingManualLocation": "Ввести координаты",
+  "washingModeDetails": "{minutes} минут · {status}",
+  "washingModesFailed": "Не удалось загрузить режимы стирки. Вернитесь и обновите для повторной попытки.",
+  "washingModesNote": "Режимы и цены указаны для справки. Уточняйте на месте у машины и у оператора.",
+  "washingNearby": "Ближайшие прачечные",
+  "washingNetworkError": "Сеть недоступна. Повторите позже.",
+  "washingNoDevices": "Нет подходящих машин",
+  "washingNoModes": "Нет информации о режимах",
+  "washingNoStations": "Нет подходящих объектов кампуса",
+  "washingOpenMachine": "Открыть машину",
+  "washingOrderClosed": "Истёк или закрыт",
+  "washingOrderPaid": "Оплачено (подтверждено сервисом стирки)",
+  "washingOrderPrice": "Заказ ¥{price}",
+  "washingOrderRefunded": "Возвращено",
+  "washingOrderStorageError": "Не удалось сохранить запись восстановления. Проверьте мини-программу оператора перед созданием нового заказа.",
+  "washingOrderUncertain": "Результат отправки заказа неизвестен. Не отправляйте повторно. Проверьте заказы в мини-программе оператора перед очисткой этой локальной записи.",
+  "washingOrderUnknown": "Статус оплаты не подтверждён",
+  "washingOrderUnpaid": "Ожидает оплаты",
+  "washingPayInWeChat": "Оплатить в мини-программе WeChat",
+  "washingPaymentContextError": "Импортируйте исходный H5-адрес прачечной или wxuuid этого аккаунта в настройках учётных данных. Он должен совпадать с аккаунтом Bearer.",
+  "washingPaymentNote": "Выберите режим, чтобы создать заказ, затем откройте страницу оплаты в WeChat. Мини-программа обрабатывает оплату; результат подтверждает сервис стирки.",
+  "washingPaymentPending": "Ссылка передана в WeChat. Завершите оплату там, затем вернитесь и проверьте результат. Это не подтверждает успешность оплаты.",
+  "washingPriceChanged": "Цена или длительность режима изменилась. Обновите и подтвердите ещё раз.",
+  "washingQuery": "Поиск",
+  "washingRefresh": "Обновить",
+  "washingRejectedError": "Сервис стирки не может обработать этот запрос. Повторите позже.",
+  "washingReplace": "Заменить учётные данные",
+  "washingRestoring": "Загрузка учётных данных прачечной",
+  "washingSave": "Сохранить",
+  "washingScan": "Сканировать стиральную машину",
+  "washingScanHint": "Наведите камеру на QR-код машины",
+  "washingScanInputHint": "Введите номер машины или ссылку QR-кода",
+  "washingScanInvalid": "Не найдено действительного QR-кода или идентификатора стиральной машины",
+  "washingScanManual": "Ручной ввод",
+  "washingScanUnsupported": "Сканирование камерой недоступно. Введите номер машины или ссылку QR-кода вручную.",
+  "washingSearch": "Найти ближайшие прачечные",
+  "washingSearchHint": "Найдите ближайшие прачечные или введите координаты.",
+  "washingSearchPoint": "Поиск по корпусу, этажу или местоположению",
+  "washingSessionContext": "H5-адрес прачечной или wxuuid (для оплаты)",
+  "washingSessionContextHelp": "Вставьте ваш существующий H5-адрес оператора. Для запросов нужен только токен Bearer. Вход в WeChat здесь не выполняется.",
+  "washingStateFault": "Неисправна",
+  "washingStateIdle": "Свободна",
+  "washingStateOffline": "Не в сети",
+  "washingStateRunning": "Работает",
+  "washingStateUnknown": "Статус неизвестен",
+  "washingStationDevices": "{station} · Машины",
+  "washingStationFallback": "Прачечная",
+  "washingStorageClearError": "Не удалось очистить учётные данные. Повторите попытку.",
+  "washingStorageReadError": "Не удалось прочитать сохранённые учётные данные. Импортируйте их заново.",
+  "washingStorageSaveError": "Не удалось сохранить учётные данные. Повторите попытку.",
+  "washingTitle": "Прачечная",
+  "washingTokenInvalid": "Введите действительный токен Bearer",
+  "washingTokenKeep": "Оставьте пустым, чтобы сохранить текущие учётные данные",
+  "washingTokenLabel": "Bearer token",
+  "washingTokenPaste": "Вставьте токен сервиса стирки",
+  "washingUnknownFloor": "Этаж неизвестен",
+  "washingUnknownLocation": "Местоположение недоступно",
+  "washingUnlinkAccount": "Удалить аккаунт прачечной",
+  "washingUnlinkAccountBody": "Удалить учётные данные, сохранённые на этом устройстве. Существующие заказы не будут отменены или возвращены.",
+  "washingUpdateDirectory": "Обновить каталог местоположений",
+  "washingUsageHint": "Доступность машины может измениться до вашего прихода. Проверьте машину и загрузите бельё перед заказом."
 }

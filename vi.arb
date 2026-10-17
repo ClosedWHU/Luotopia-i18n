@@ -8567,5 +8567,203 @@
   "courseEnrollmentReauthRequired": "Tài khoản trường học đã liên kết yêu cầu xác minh hai bước. Hoàn tất để xác minh học kỳ này. Tài nguyên khóa học chung vẫn khả dụng.",
   "adminStatusScannerNotConfigured": "Trình quét chưa được cấu hình",
   "adminStatusScannerUnreachable": "Không thể truy cập trình quét",
-  "adminStatusScannerHealthyCount": "{healthy}/{total} bình thường"
+  "adminStatusScannerHealthyCount": "{healthy}/{total} bình thường",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDirectoryUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "washingAccountConfigured": "Đã nhập thông tin xác thực giặt là",
+  "washingAccountNote": "Thông tin xác thực giặt là được quản lý riêng. Nhập Bearer mới khi hết hạn; wxuuid chỉ dùng để chuyển tiếp thanh toán, không đăng nhập WeChat.",
+  "washingAccountTitle": "Tài khoản giặt là",
+  "washingAllFacilities": "Tất cả cơ sở",
+  "washingAllFloors": "Tất cả tầng",
+  "washingAllStates": "Tất cả trạng thái",
+  "washingAlternatePayment": "Đơn hàng này dùng kênh thanh toán riêng của nhà vận hành. Vui lòng hoàn tất trong mini-program gốc.",
+  "washingAuthError": "Thông tin xác thực không hợp lệ hoặc đã hết hạn. Hãy thay Bearer token.",
+  "washingBuilding": "Tòa {building}",
+  "washingCategoryDorm": "Tòa ký túc xá",
+  "washingCategoryDormDescription": "Xem máy giặt theo khu vực, tòa và tầng",
+  "washingCategoryLaundry": "Trạm giặt là",
+  "washingCategoryLaundryDescription": "Xem trung tâm giặt là theo khu vực trong trường",
+  "washingChangePoint": "Đổi vị trí",
+  "washingCheckPayment": "Kiểm tra trạng thái thanh toán",
+  "washingCheckoutFailed": "Không thể xử lý đơn hàng. Hãy kiểm tra thông tin xác thực và thử lại sau.",
+  "washingChooseMode": "Chọn chế độ giặt",
+  "washingChoosePoint": "Chọn vị trí giặt là",
+  "washingChoosePointHint": "Chọn khu vực, tòa và tầng để xem các máy.",
+  "washingClearCredential": "Xóa thông tin xác thực",
+  "washingClearOrder": "Xóa bản ghi đơn hàng cục bộ",
+  "washingClearOrderBody": "Thao tác này không hủy hoặc hoàn tiền đơn hàng phía nhà vận hành. Trước tiên hãy kiểm tra trong mini-program của nhà vận hành rằng đơn hàng đã hoàn tất, đã đóng hoặc chưa từng được tạo. Đơn hàng chưa thanh toán vẫn có thể thanh toán được.",
+  "washingClearOrderConfirm": "Đã kiểm tra, xóa bản ghi",
+  "washingClose": "Đóng",
+  "washingConfirmBody": "Thiết bị: {device}\nChế độ: {mode}\nThời lượng: {minutes} phút\nSố tiền: ¥{price}\nThanh toán có thể khiến máy khởi động ngay. Hãy cho quần áo vào và xác nhận máy trước khi tiếp tục. Không áp dụng phiếu giảm giá hoặc mua thêm nước giặt.",
+  "washingConfirmOrder": "Xác nhận đơn hàng giặt là",
+  "washingCoordinateTitle": "Chọn vị trí tìm kiếm",
+  "washingCoordinatesInvalid": "Nhập vĩ độ hợp lệ (-90 đến 90) và kinh độ (-180 đến 180).",
+  "washingCreateOrder": "Tạo đơn hàng",
+  "washingCredentialSaved": "Đã lưu tài khoản giặt là.",
+  "washingCredentialTitle": "Thông tin xác thực giặt là",
+  "washingCurrentOrder": "Đơn hàng giặt là hiện tại",
+  "washingDeviceCount": "{count} máy",
+  "washingDeviceFallback": "Máy giặt",
+  "washingDirectoryUpdated": "Danh mục cập nhật {time}",
+  "washingEstimatedEnd": "Dự kiến kết thúc {time}",
+  "washingExpiredBody": "Thông tin xác thực không hợp lệ hoặc đã hết hạn. Hãy nhập token hợp lệ để tiếp tục.",
+  "washingExpiredTitle": "Cập nhật thông tin xác thực giặt là",
+  "washingFindingStations": "Đang tải danh mục trong trường",
+  "washingFloor": "Tầng {floor}",
+  "washingImport": "Nhập thông tin xác thực",
+  "washingIntroBody": "Nhập Bearer token của dịch vụ giặt là để tải danh mục trong trường và trạng thái máy.",
+  "washingIntroTitle": "Cơ sở giặt là trong trường",
+  "washingLatitude": "Vĩ độ",
+  "washingLaunchFailed": "Không thể mở trang thanh toán. Hãy kiểm tra cài đặt WeChat và việc nhà vận hành có cho phép liên kết mini-program bên ngoài hay không. Đơn hàng hiện có của bạn được giữ lại.",
+  "washingLoadingDevices": "Đang tải trạng thái máy",
+  "washingLoadingNearbyMachines": "Đang tải máy tại các điểm gần đây",
+  "washingLocationError": "Không lấy được vị trí. Hãy bật quyền vị trí rồi làm mới.",
+  "washingLongitude": "Kinh độ",
+  "washingMachineAddress": "Địa chỉ",
+  "washingMachineDetails": "Chi tiết máy",
+  "washingMachineEnd": "Dự kiến hoàn tất",
+  "washingMachineLocation": "Vị trí",
+  "washingMachineModel": "Mẫu máy",
+  "washingMachineNumber": "Số máy",
+  "washingMachineOperator": "Đơn vị",
+  "washingMachineTotal": "Máy",
+  "washingMachineUnavailable": "Máy không còn khả dụng, đã được đặt trước hoặc điểm dịch vụ đã đóng cửa. Hãy làm mới trước khi thử lại.",
+  "washingMachines": "Trạng thái máy",
+  "washingMalformedError": "Phản hồi của dịch vụ giặt là đã thay đổi. Hãy thử lại sau.",
+  "washingManageAccount": "Quản lý tài khoản giặt là",
+  "washingManageCredential": "Quản lý thông tin xác thực giặt là",
+  "washingManualLocation": "Nhập tọa độ",
+  "washingModeDetails": "{minutes} phút · {status}",
+  "washingModesFailed": "Không thể tải chế độ giặt. Hãy quay lại và làm mới để thử lại.",
+  "washingModesNote": "Chế độ và giá chỉ để tham khảo. Hãy xác nhận với máy tại chỗ và nhà vận hành.",
+  "washingNearby": "Điểm gần đây",
+  "washingNetworkError": "Mạng không khả dụng. Hãy thử lại sau.",
+  "washingNoDevices": "Không có máy phù hợp",
+  "washingNoModes": "Không có thông tin chế độ",
+  "washingNoStations": "Không có cơ sở phù hợp trong trường",
+  "washingOpenMachine": "Mở máy",
+  "washingOrderClosed": "Đã hết hạn hoặc đã đóng",
+  "washingOrderPaid": "Đã thanh toán (đã được dịch vụ giặt là xác nhận)",
+  "washingOrderPrice": "Đặt hàng ¥{price}",
+  "washingOrderRefunded": "Đã hoàn tiền",
+  "washingOrderStorageError": "Không thể lưu bản ghi khôi phục. Hãy kiểm tra mini-program của nhà vận hành trước khi đặt đơn khác.",
+  "washingOrderUncertain": "Kết quả gửi đơn hàng chưa rõ. Đừng gửi lại. Hãy kiểm tra đơn hàng trong mini-program của nhà vận hành trước khi xóa bản ghi cục bộ này.",
+  "washingOrderUnknown": "Trạng thái thanh toán chưa xác nhận",
+  "washingOrderUnpaid": "Chờ thanh toán",
+  "washingPayInWeChat": "Thanh toán trong mini-program WeChat",
+  "washingPaymentContextError": "Hãy nhập H5 URL gốc của dịch vụ giặt là hoặc wxuuid của tài khoản này trong cài đặt thông tin xác thực. Nó phải khớp với tài khoản Bearer.",
+  "washingPaymentNote": "Chọn chế độ để tạo đơn hàng, sau đó mở trang thanh toán trong WeChat. Mini-program xử lý thanh toán; dịch vụ giặt là xác nhận kết quả.",
+  "washingPaymentPending": "Liên kết đã được chuyển cho WeChat. Hãy hoàn tất thanh toán ở đó, rồi quay lại kiểm tra kết quả. Điều này không xác nhận thanh toán thành công.",
+  "washingPriceChanged": "Giá hoặc thời lượng của chế độ đã thay đổi. Hãy làm mới và xác nhận lại.",
+  "washingQuery": "Tìm kiếm",
+  "washingRefresh": "Làm mới",
+  "washingRejectedError": "Dịch vụ giặt là không thể xử lý yêu cầu này. Hãy thử lại sau.",
+  "washingReplace": "Thay thông tin xác thực",
+  "washingRestoring": "Đang tải thông tin xác thực giặt là",
+  "washingSave": "Lưu",
+  "washingScan": "Quét máy giặt",
+  "washingScanHint": "Hướng camera vào mã QR trên máy",
+  "washingScanInputHint": "Nhập số máy hoặc liên kết QR",
+  "washingScanInvalid": "Không tìm thấy mã QR máy giặt hoặc mã định danh hợp lệ",
+  "washingScanManual": "Nhập thủ công",
+  "washingScanUnsupported": "Không thể quét bằng camera. Hãy nhập số máy hoặc liên kết QR theo cách thủ công.",
+  "washingSearch": "Tìm điểm gần đây",
+  "washingSearchHint": "Tìm kiếm điểm gần đây hoặc nhập tọa độ.",
+  "washingSearchPoint": "Tìm kiếm tòa, tầng hoặc vị trí",
+  "washingSessionContext": "H5 URL của dịch vụ giặt là hoặc wxuuid (để thanh toán)",
+  "washingSessionContextHelp": "Dán H5 URL hiện có của nhà vận hành. Việc truy vấn chỉ cần Bearer token. Không thực hiện đăng nhập WeChat tại đây.",
+  "washingStateFault": "Bị lỗi",
+  "washingStateIdle": "Khả dụng",
+  "washingStateOffline": "Ngoại tuyến",
+  "washingStateRunning": "Đang chạy",
+  "washingStateUnknown": "Không rõ trạng thái",
+  "washingStationDevices": "{station} · Máy",
+  "washingStationFallback": "Điểm giặt là",
+  "washingStorageClearError": "Không thể xóa thông tin xác thực. Hãy thử lại.",
+  "washingStorageReadError": "Không thể đọc thông tin xác thực đã lưu. Hãy nhập lại.",
+  "washingStorageSaveError": "Không thể lưu thông tin xác thực. Hãy thử lại.",
+  "washingTitle": "Phòng giặt là",
+  "washingTokenInvalid": "Nhập Bearer token hợp lệ",
+  "washingTokenKeep": "Để trống để giữ thông tin xác thực hiện tại",
+  "washingTokenLabel": "Bearer token",
+  "washingTokenPaste": "Dán token dịch vụ giặt là của bạn",
+  "washingUnknownFloor": "Không rõ tầng",
+  "washingUnknownLocation": "Không có vị trí",
+  "washingUnlinkAccount": "Xóa tài khoản giặt là",
+  "washingUnlinkAccountBody": "Chỉ xóa thông tin xác thực đã lưu trên thiết bị này. Các đơn hàng hiện có sẽ không bị hủy hoặc hoàn tiền.",
+  "washingUpdateDirectory": "Làm mới danh mục vị trí",
+  "washingUsageHint": "Tình trạng khả dụng của máy có thể thay đổi trước khi bạn đến. Hãy kiểm tra máy và cho quần áo vào trước khi đặt hàng."
 }

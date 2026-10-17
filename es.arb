@@ -8563,5 +8563,203 @@
   "courseEnrollmentReauthRequired": "Tu cuenta escolar vinculada requiere verificación en dos pasos. Complétala para verificar este periodo. Los recursos generales de los cursos siguen disponibles.",
   "adminStatusScannerNotConfigured": "Escáner no configurado",
   "adminStatusScannerUnreachable": "Escáner inaccesible",
-  "adminStatusScannerHealthyCount": "{healthy}/{total} en buen estado"
+  "adminStatusScannerHealthyCount": "{healthy}/{total} en buen estado",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDirectoryUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "washingAccountConfigured": "Credenciales de lavandería importadas",
+  "washingAccountNote": "Las credenciales de lavandería se gestionan de forma independiente. Importa un Bearer nuevo cuando caduque. wxuuid solo se usa para la entrega del pago; no se realiza ningún inicio de sesión en WeChat.",
+  "washingAccountTitle": "Cuenta de lavandería",
+  "washingAllFacilities": "Todas las instalaciones",
+  "washingAllFloors": "Todas las plantas",
+  "washingAllStates": "Todos los estados",
+  "washingAlternatePayment": "Este pedido usa un canal de pago independiente del operador. Complétalo en el mini-programa original.",
+  "washingAuthError": "Las credenciales no son válidas o han caducado. Sustituye tu token Bearer.",
+  "washingBuilding": "Edificio {building}",
+  "washingCategoryDorm": "Edificios de residencias",
+  "washingCategoryDormDescription": "Explora las máquinas por zona, edificio y planta",
+  "washingCategoryLaundry": "Estaciones de lavandería",
+  "washingCategoryLaundryDescription": "Explora los centros de lavandería por zona del campus",
+  "washingChangePoint": "Cambiar ubicación",
+  "washingCheckPayment": "Comprobar estado del pago",
+  "washingCheckoutFailed": "No se pudo procesar el pedido. Revisa tus credenciales e inténtalo más tarde.",
+  "washingChooseMode": "Elige un modo de lavado",
+  "washingChoosePoint": "Elige una ubicación de lavandería",
+  "washingChoosePointHint": "Elige una zona, un edificio y una planta para ver las máquinas.",
+  "washingClearCredential": "Borrar credenciales",
+  "washingClearOrder": "Borrar el registro de pedido local",
+  "washingClearOrderBody": "Esto no cancela ni reembolsa un pedido en curso. Comprueba primero en el mini-programa del operador que el pedido está completado, cerrado o nunca se creó. Un pedido sin pagar podría seguir siendo pagable.",
+  "washingClearOrderConfirm": "Revisado, borrar registro",
+  "washingClose": "Cerrar",
+  "washingConfirmBody": "Máquina: {device}\nModo: {mode}\nDuración: {minutes} minutos\nImporte: ¥{price}\nEl pago puede poner en marcha la máquina de inmediato. Coloca tu ropa y confirma la máquina antes de continuar. No se aplica ningún cupón ni añadido de detergente.",
+  "washingConfirmOrder": "Confirmar pedido de lavandería",
+  "washingCoordinateTitle": "Elegir ubicación de búsqueda",
+  "washingCoordinatesInvalid": "Introduce una latitud válida (-90 a 90) y una longitud válida (-180 a 180).",
+  "washingCreateOrder": "Crear pedido",
+  "washingCredentialSaved": "Cuenta de lavandería guardada.",
+  "washingCredentialTitle": "Credenciales de lavandería",
+  "washingCurrentOrder": "Pedido de lavandería actual",
+  "washingDeviceCount": "{count} máquinas",
+  "washingDeviceFallback": "Máquina de lavandería",
+  "washingDirectoryUpdated": "Directorio actualizado {time}",
+  "washingEstimatedEnd": "Fin estimado {time}",
+  "washingExpiredBody": "Las credenciales no son válidas o han caducado. Importa un token válido para continuar.",
+  "washingExpiredTitle": "Actualizar credenciales de lavandería",
+  "washingFindingStations": "Cargando el directorio del campus",
+  "washingFloor": "Planta {floor}",
+  "washingImport": "Importar credenciales",
+  "washingIntroBody": "Importa tu token Bearer del servicio de lavandería para cargar el directorio del campus y el estado de las máquinas.",
+  "washingIntroTitle": "Instalaciones de lavandería del campus",
+  "washingLatitude": "Latitud",
+  "washingLaunchFailed": "No se pudo abrir la página de pago. Comprueba la instalación de WeChat y si el operador permite enlaces externos al mini-programa. Tu pedido existente se conserva.",
+  "washingLoadingDevices": "Cargando estado de las máquinas",
+  "washingLoadingNearbyMachines": "Cargando máquinas de las estaciones cercanas",
+  "washingLocationError": "Ubicación no disponible. Activa el permiso de ubicación y vuelve a cargar.",
+  "washingLongitude": "Longitud",
+  "washingMachineAddress": "Dirección",
+  "washingMachineDetails": "Detalles de la máquina",
+  "washingMachineEnd": "Fin estimado",
+  "washingMachineLocation": "Ubicación",
+  "washingMachineModel": "Modelo",
+  "washingMachineNumber": "Número de máquina",
+  "washingMachineOperator": "Organización",
+  "washingMachineTotal": "Máquinas",
+  "washingMachineUnavailable": "La máquina ya no está disponible, está reservada o la estación está cerrada. Actualiza antes de reintentar.",
+  "washingMachines": "Estado de las máquinas",
+  "washingMalformedError": "La respuesta del servicio de lavandería ha cambiado. Inténtalo más tarde.",
+  "washingManageAccount": "Gestionar cuenta de lavandería",
+  "washingManageCredential": "Gestionar credenciales de lavandería",
+  "washingManualLocation": "Introducir coordenadas",
+  "washingModeDetails": "{minutes} minutos · {status}",
+  "washingModesFailed": "No se pudieron cargar los modos de lavado. Vuelve y actualiza para reintentar.",
+  "washingModesNote": "Los modos y precios son orientativos. Confírmalos en la máquina y con el operador.",
+  "washingNearby": "Estaciones cercanas",
+  "washingNetworkError": "Red no disponible. Inténtalo más tarde.",
+  "washingNoDevices": "No hay máquinas coincidentes",
+  "washingNoModes": "No hay información de modos disponible",
+  "washingNoStations": "No hay instalaciones del campus coincidentes",
+  "washingOpenMachine": "Abrir máquina",
+  "washingOrderClosed": "Caducado o cerrado",
+  "washingOrderPaid": "Pagado (confirmado por el servicio de lavandería)",
+  "washingOrderPrice": "Pedido ¥{price}",
+  "washingOrderRefunded": "Reembolsado",
+  "washingOrderStorageError": "No se pudo guardar el registro de recuperación. Comprueba el mini-programa del operador antes de hacer otro pedido.",
+  "washingOrderUncertain": "Se desconoce el resultado del pedido. No lo envíes de nuevo. Revisa tus pedidos en el mini-programa del operador antes de borrar este registro local.",
+  "washingOrderUnknown": "Estado del pago sin confirmar",
+  "washingOrderUnpaid": "Pendiente de pago",
+  "washingPayInWeChat": "Pagar en el mini-programa de WeChat",
+  "washingPaymentContextError": "Importa la URL H5 de lavandería original de esta cuenta o el wxuuid en los ajustes de credenciales. Debe coincidir con la cuenta del Bearer.",
+  "washingPaymentNote": "Elige un modo para crear un pedido y luego abre su página de pago en WeChat. El mini-programa gestiona el pago; el servicio de lavandería confirma el resultado.",
+  "washingPaymentPending": "El enlace se entregó a WeChat. Completa el pago allí, vuelve y comprueba el resultado. Esto no confirma el éxito del pago.",
+  "washingPriceChanged": "El precio o la duración del modo ha cambiado. Actualiza y confirma de nuevo.",
+  "washingQuery": "Buscar",
+  "washingRefresh": "Actualizar",
+  "washingRejectedError": "El servicio de lavandería no puede procesar esta solicitud. Inténtalo más tarde.",
+  "washingReplace": "Sustituir credenciales",
+  "washingRestoring": "Cargando credenciales de lavandería",
+  "washingSave": "Guardar",
+  "washingScan": "Escanear máquina de lavandería",
+  "washingScanHint": "Apunta la cámara al código QR de la máquina",
+  "washingScanInputHint": "Introduce el número de máquina o el enlace QR",
+  "washingScanInvalid": "No se encontró ningún código QR o identificador de máquina de lavandería válido",
+  "washingScanManual": "Introducción manual",
+  "washingScanUnsupported": "El escaneo con cámara no está disponible. Introduce el número de máquina o el enlace QR manualmente.",
+  "washingSearch": "Buscar estaciones cercanas",
+  "washingSearchHint": "Busca estaciones cercanas o introduce coordenadas.",
+  "washingSearchPoint": "Buscar edificio, planta o ubicación",
+  "washingSessionContext": "URL H5 de lavandería o wxuuid (para el pago)",
+  "washingSessionContextHelp": "Pega tu URL H5 del operador. Las consultas solo necesitan el token Bearer. Aquí no se realiza ningún inicio de sesión en WeChat.",
+  "washingStateFault": "Fuera de servicio",
+  "washingStateIdle": "Disponible",
+  "washingStateOffline": "Sin conexión",
+  "washingStateRunning": "En funcionamiento",
+  "washingStateUnknown": "Estado desconocido",
+  "washingStationDevices": "{station} · Máquinas",
+  "washingStationFallback": "Estación de lavandería",
+  "washingStorageClearError": "No se pudieron borrar las credenciales. Inténtalo de nuevo.",
+  "washingStorageReadError": "No se pudieron leer las credenciales guardadas. Impórtalas de nuevo.",
+  "washingStorageSaveError": "No se pudieron guardar las credenciales. Inténtalo de nuevo.",
+  "washingTitle": "Lavandería",
+  "washingTokenInvalid": "Introduce un token Bearer válido",
+  "washingTokenKeep": "Déjalo en blanco para conservar las credenciales actuales",
+  "washingTokenLabel": "Token Bearer",
+  "washingTokenPaste": "Pega tu token del servicio de lavandería",
+  "washingUnknownFloor": "Planta desconocida",
+  "washingUnknownLocation": "Ubicación no disponible",
+  "washingUnlinkAccount": "Quitar cuenta de lavandería",
+  "washingUnlinkAccountBody": "Elimina las credenciales guardadas en este dispositivo. Los pedidos existentes no se cancelarán ni reembolsarán.",
+  "washingUpdateDirectory": "Actualizar directorio de ubicaciones",
+  "washingUsageHint": "La disponibilidad de las máquinas puede cambiar antes de que llegues. Comprueba la máquina y coloca tu ropa antes de hacer el pedido."
 }

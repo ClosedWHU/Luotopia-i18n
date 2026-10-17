@@ -65,7 +65,7 @@ KEEP_VALUES = {
     "Mei Garden", "WHU", "Wakeup", "Wakeup CSV", "CS易办", "CS Yiban", "Ham",
     # Acronyms / tokens / units
     "VPN", "AI", "IP", "MAC", "ID", "OK", "MCP", "OpenID", "FAQ", "AED",
-    "Passkey", "token", "Top P", "AQI", "PM2.5", "PM10", "CO", "NO₂",
+    "Passkey", "token", "Bearer token", "Top P", "AQI", "PM2.5", "PM10", "CO", "NO₂",
     "SO₂", "O₃", "µg/m³", "GPA", "GP", "WHU GPA", "Lv", "SHA-256",
     "Streamable HTTP", "stts", "Root / jailbreak",
     # OS names / build channels / colors
@@ -74,7 +74,7 @@ KEEP_VALUES = {
     # correct across the supported languages (kept to avoid false positives).
     # "Dose" and "Injection" are the correct French/Portuguese spellings too
     # (Latin medical loanwords), so fr/pt legitimately equal the template.
-    "Dose", "Injection",
+    "Dose", "Injection", "Longitude", "Latitude", "Machines",
     # Placeholder-only format string, identical in every locale by design.
     "+{delay} · {dose}",
     "Auth Epoch", "Logs", "Pause", "Bio", "Spam", "Webmail", "QR code",
@@ -93,6 +93,7 @@ KEEP_VALUES = {
     "ip-api.com",
     # Placeholder-only format strings, units, times, dates and symbols
     "{count} sections", "{count} questions", "Quota",
+    "{count} machines", "{station} · Machines", "{minutes} minutes · {status}",
     "{rating} / 5", "{price} CNY", "{amount} CNY",
     "{value} CNY", "{lowPrice}-{highPrice} CNY", "~{meters}m",
     "{minutes} min", "{minute} min", "{hour} h", "Sem {s}", "{value}%",
