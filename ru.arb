@@ -2665,7 +2665,6 @@
   "wallpaperUrlErrorStatus": "Сервер вернул ошибку",
   "wallpaperUrlErrorNotImage": "Этот URL указывает не на изображение",
   "wallpaperUrlErrorTooLarge": "Изображение слишком большое",
-  "libraryBorrowingPlaceholder": "Выдача книг в разработке…",
   "settingsAiProvider": "Провайдер ИИ",
   "aiProviderBuiltin": "Встроенная модель",
   "settingsAiModels": "Список моделей",
@@ -6821,8 +6820,6 @@
   "lepaoUploadClassIdLabel": "ID класса",
   "lepaoUploadCourseIdLabel": "ID курса",
   "lepaoUploadCardIdLabel": "ID карты",
-  "lepaoUploadAction": "Сгенерировать и загрузить",
-  "lepaoUploadBusy": "Генерация и загрузка…",
   "lepaoUploadDone": "Загрузка завершена",
   "lepaoUploadInvalid": "Введите корректные дистанцию и темп.",
   "lepaoUploadZoneLabel": "Зона бега",
@@ -6872,7 +6869,6 @@
   "csEbanRecords": "Подробности",
   "cgTitle": "Платформа XiJi",
   "cgAccountSettings": "Данные учетной записи Cg",
-  "cgFacultySection": "Факультет компьютерных наук Уханьского университета",
   "cgCasDefault": "Не настроено; используйте университет CAS",
   "cgAccountAction": "Настройки аккаунта",
   "cgReminderAction": "Настройки напоминаний",
@@ -6928,7 +6924,6 @@
   "cgExamNotification": "Экзамен Сиджи скоро начнется",
   "cgUnknownExamTime": "Некоторые времена экзаменов не могли быть прочитаны. Проверьте оригинальный сайт.",
   "cgOpenWebsite": "Открыть оригинальный сайт",
-  "cgRetry": "Повторить попытку",
   "cgUpdatedAt": "Обновлен {time}",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -7297,7 +7292,6 @@
   "diningFilterShops": "Фильтр заведений",
   "diningContribute": "Предложить",
   "diningAddShop": "Добавить заведение",
-  "diningAddShopHint": "Укажите проверенные сведения. Изменения публикуются после отправки; награды зависят от фактического начисления.",
   "diningShopName": "Название заведения",
   "diningShopAddress": "Адрес",
   "diningShopArea": "Район",
@@ -7327,7 +7321,6 @@
   "diningMainAdminTooltip": "Панель управления",
   "diningMainBuildingFallback": "Корпус",
   "diningMainSearchHint": "Поиск заведений, районов или блюд",
-  "diningMainClearSearch": "Очистить поиск",
   "diningMainSelectArea": "Выберите район",
   "diningMainFindingFood": "Ищем что-нибудь вкусное…",
   "diningMainSpotsLoadFailedRetry": "Не удалось загрузить заведения. Нажмите, чтобы повторить.",
@@ -7346,64 +7339,7 @@
   "diningMainReloadMap": "Перезагрузить данные карты",
   "diningMainSelectScope": "Выберите область",
   "diningMainFloorsLoadFailed": "Не удалось загрузить этажи",
-  "diningMainNoFloors": "Нет информации об этажах",
-  "diningMainFloorCount": "Всего {count} этажей",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "Не удалось загрузить сведения о заведении",
-  "diningMainReviewCountParen": "({count} отзывов)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "Открыто",
-  "diningMainClosedNow": "Закрыто",
   "diningMainViewDetails": "Подробнее",
-  "diningMainNavigate": "Маршрут",
-  "diningMainMenuSection": "Меню",
-  "diningMainMenuLoadFailed": "Не удалось загрузить меню",
-  "diningMainMenuEmpty": "Меню пока нет",
-  "diningMainMarketPrice": "По рыночной цене",
-  "diningMainViewAllDishes": "Смотреть все блюда ({count})",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "Информация об этажах",
-  "diningMainNoFloorPlan": "Нет данных внутренней карты",
-  "diningMainReviewsSection": "Отзывы",
-  "diningMainReviewsLoadFailed": "Не удалось загрузить отзывы",
-  "diningMainNoReviews": "Отзывов пока нет",
-  "diningMainReviewsCount": "{count} отзывов",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "Tencent Maps, Amap или Baidu Maps не обнаружены",
-  "diningMainSelectNavApp": "Выберите приложение карт",
-  "diningMainCannotOpenApp": "Не удалось открыть {app}",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "Районы Уханя",
   "diningMainNoMatchingAreas": "Нет подходящих районов",
   "diningMainAllOnCampus": "Весь кампус",
   "diningMainAllOffCampusWuhan": "Всё вне кампуса (Ухань)",
@@ -7953,7 +7889,6 @@
   "sharingMissingIdentity": "Импортируйте расписание из учебной системы, чтобы определить дисциплину.",
   "sharingCatalogPending": "Эта дисциплина ожидает проверки в каталоге.",
   "sharingTeacherUnavailable": "Идентификатор преподавателя для этой дисциплины недоступен.",
-  "sharingRefreshEligibility": "Обновить проверку зачисления",
   "sharingClassHint": "Актуальная информация об учебной группе. Для доступа к чатам и личным контактам нужно подтвердить зачисление.",
   "sharingCommonHint": "Информация этой области доступна пользователям с подтверждённой университетской идентичностью. Доступны все категории.",
   "sharedContentNote": "Информация о дисциплине",
@@ -8000,7 +7935,6 @@
   "sharingGroupsContents": "Управлять материалами группы",
   "sharingGroupsUpdated": "Updated",
   "sharingCoursesTitle": "Course resources",
-  "sharingCoursesHint": "Находите дисциплины и делитесь общими материалами, даже если не изучали их.",
   "courseResourceSourceType": "Формат материала",
   "courseResourceLinkOption": "Внешняя ссылка",
   "courseResourceFileOption": "Загруженный файл",
@@ -8558,7 +8492,6 @@
   "masterBrowserCreditValue": "Кредиты: {credits}",
   "masterBrowserSections": "Периоды {start}–{end}",
   "masterBrowserPerPageValue": "{count} на странице",
-  "masterBrowserPick": "Выбрать",
   "opacCurrentReservations": "Текущие бронирования",
   "opacReservationsDescription": "Бронирования, места получения и место в очереди",
   "opacRefreshReservations": "Обновить бронирования",
@@ -8596,11 +8529,9 @@
   "diningTemporaryHours": "Временно",
   "diningNavigate": "Маршрут",
   "diningMenuBatchAdd": "Добавить списком",
-  "diningMenuBatchHelp": "Создавайте категории и блюда вместе. Существующие категории используются повторно, блюда с одинаковым названием в одной категории пропускаются. Заполните неизвестные цены (0 для рыночной цены).",
   "diningMenuBatchSource": "Текст меню или инструкции",
   "diningMenuBatchSourceHint": "Вставьте меню или опишите категории и блюда…",
   "diningMenuBatchAi": "Упорядочить меню с ИИ",
-  "diningMenuBatchAiHelp": "Используйте фото или текст. ИИ добавляет редактируемые черновики. Проверьте данные и заполните цены перед отправкой.",
   "diningMenuBatchAddCategory": "Добавить категорию",
   "diningMenuBatchEmpty": "Добавьте хотя бы одну категорию или блюдо",
   "diningMenuBatchLimit": "До 30 категорий и 100 блюд за раз",

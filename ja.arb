@@ -2994,7 +2994,6 @@
   "wallpaperUrlErrorStatus": "サーバーがエラーを返しました",
   "wallpaperUrlErrorNotImage": "このURLは画像を指していません",
   "wallpaperUrlErrorTooLarge": "画像が大きすぎます",
-  "libraryBorrowingPlaceholder": "図書貸出機能は開発中です…",
   "settingsAiProvider": "AI プロバイダー",
   "aiProviderBuiltin": "内蔵モデル",
   "settingsAiModels": "モデル一覧",
@@ -6845,8 +6844,6 @@
   "lepaoUploadClassIdLabel": "クラス ID",
   "lepaoUploadCourseIdLabel": "コース ID",
   "lepaoUploadCardIdLabel": "カード ID",
-  "lepaoUploadAction": "生成してアップロード",
-  "lepaoUploadBusy": "生成・アップロード中…",
   "lepaoUploadDone": "アップロード完了",
   "lepaoUploadInvalid": "有効な距離とペースを入力してください。",
   "lepaoUploadZoneLabel": "ランニングゾーン",
@@ -6896,7 +6893,6 @@
   "csEbanRecords": "詳細",
   "cgTitle": "希冀プラットフォーム",
   "cgAccountSettings": "Cg アカウントの認証情報",
-  "cgFacultySection": "武漢大学コンピュータ科学学院",
   "cgCasDefault": "設定されていません。大学CASを使用",
   "cgAccountAction": "アカウント設定",
   "cgReminderAction": "リマインダー設定",
@@ -6952,7 +6948,6 @@
   "cgExamNotification": "もうすぐ習字試験が始まります",
   "cgUnknownExamTime": "一部の試験時間は読み取れませんでした。元のWebサイトを確認してください。",
   "cgOpenWebsite": "オリジナルのウェブサイトを開く",
-  "cgRetry": "再試行",
   "cgUpdatedAt": "{time}を更新しました",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -7321,7 +7316,6 @@
   "diningFilterShops": "店舗を絞り込む",
   "diningContribute": "みんなで投稿",
   "diningAddShop": "店舗を追加",
-  "diningAddShopHint": "確認済みの店舗情報を入力してください。送信後に更新されます。報酬は実際の付与額に従います。",
   "diningShopName": "店舗名",
   "diningShopAddress": "住所",
   "diningShopArea": "エリア",
@@ -7351,7 +7345,6 @@
   "diningMainAdminTooltip": "管理画面",
   "diningMainBuildingFallback": "建物",
   "diningMainSearchHint": "店舗・エリア・料理を検索",
-  "diningMainClearSearch": "検索をクリア",
   "diningMainSelectArea": "エリアを選択",
   "diningMainFindingFood": "おいしいお店を探しています…",
   "diningMainSpotsLoadFailedRetry": "店舗の読み込みに失敗しました。タップして再試行",
@@ -7370,64 +7363,7 @@
   "diningMainReloadMap": "地図データを再読み込み",
   "diningMainSelectScope": "範囲を選択",
   "diningMainFloorsLoadFailed": "階数の読み込みに失敗しました",
-  "diningMainNoFloors": "階情報はありません",
-  "diningMainFloorCount": "全 {count} 階",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "店舗詳細の読み込みに失敗しました",
-  "diningMainReviewCountParen": "(レビュー {count} 件)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "営業中",
-  "diningMainClosedNow": "休憩中",
   "diningMainViewDetails": "詳細を表示",
-  "diningMainNavigate": "案内",
-  "diningMainMenuSection": "メニュー",
-  "diningMainMenuLoadFailed": "メニューの読み込みに失敗しました",
-  "diningMainMenuEmpty": "メニューはまだありません",
-  "diningMainMarketPrice": "時価",
-  "diningMainViewAllDishes": "全 {count} 品の料理を表示",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "階情報",
-  "diningMainNoFloorPlan": "屋内地図データはありません",
-  "diningMainReviewsSection": "レビュー",
-  "diningMainReviewsLoadFailed": "レビューの読み込みに失敗しました",
-  "diningMainNoReviews": "レビューはまだありません",
-  "diningMainReviewsCount": "レビュー {count} 件",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "Tencent Maps・高徳地図・百度地図が見つかりません",
-  "diningMainSelectNavApp": "ナビアプリを選択",
-  "diningMainCannotOpenApp": "{app} を開けません",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "武漢の行政区",
   "diningMainNoMatchingAreas": "一致するエリアがありません",
   "diningMainAllOnCampus": "学内すべて",
   "diningMainAllOffCampusWuhan": "武漢の学外すべて",
@@ -7977,7 +7913,6 @@
   "sharingMissingIdentity": "教務システムから時間割を取り込んで、この科目を識別してください。",
   "sharingCatalogPending": "この科目は科目カタログでの確認待ちです。",
   "sharingTeacherUnavailable": "この科目の教員識別子を取得できません。",
-  "sharingRefreshEligibility": "履修確認を更新",
   "sharingClassHint": "現在のクラス情報です。グループや個人の連絡先を見るには履修確認が必要です。",
   "sharingCommonHint": "この範囲の情報は大学の本人確認を済ませたユーザーに表示されます。すべての情報カテゴリを利用できます。",
   "sharedContentNote": "授業情報",
@@ -8024,7 +7959,6 @@
   "sharingGroupsContents": "グループの資料を管理",
   "sharingGroupsUpdated": "Updated",
   "sharingCoursesTitle": "Course resources",
-  "sharingCoursesHint": "履修していない科目でも、検索して共通資料を共有できます。",
   "courseResourceSourceType": "資料形式",
   "courseResourceLinkOption": "外部リンク",
   "courseResourceFileOption": "アップロードファイル",
@@ -8582,7 +8516,6 @@
   "masterBrowserCreditValue": "{credits} 単位",
   "masterBrowserSections": "{start}～{end}時限",
   "masterBrowserPerPageValue": "1ページ{count}件",
-  "masterBrowserPick": "選択",
   "opacCurrentReservations": "現在の予約",
   "opacReservationsDescription": "予約、受取場所、待ち順を確認",
   "opacRefreshReservations": "現在の予約を更新",
@@ -8620,11 +8553,9 @@
   "diningTemporaryHours": "臨時",
   "diningNavigate": "経路案内",
   "diningMenuBatchAdd": "一括追加",
-  "diningMenuBatchHelp": "分類と料理をまとめて作成します。同名の分類は再利用し、同じ分類の同名料理はスキップします。不明な価格を入力してください（時価は0）。",
   "diningMenuBatchSource": "メニューのテキストまたは作成指示",
   "diningMenuBatchSourceHint": "メニューを貼り付けるか、分類と料理を説明…",
   "diningMenuBatchAi": "AIでメニューを整理",
-  "diningMenuBatchAiHelp": "写真やテキストに対応。AIの結果は編集可能な下書きに追加されます。内容と価格を確認してから送信してください。",
   "diningMenuBatchAddCategory": "分類を追加",
   "diningMenuBatchEmpty": "分類または料理を1つ以上追加してください",
   "diningMenuBatchLimit": "1回につき最大30分類・100品",

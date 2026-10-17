@@ -2813,7 +2813,6 @@
   "wallpaperUrlErrorStatus": "Máy chủ trả về lỗi",
   "wallpaperUrlErrorNotImage": "URL không trỏ tới một ảnh",
   "wallpaperUrlErrorTooLarge": "Ảnh quá lớn",
-  "libraryBorrowingPlaceholder": "Mượn sách đang phát triển…",
   "settingsAiProvider": "Nhà cung cấp AI",
   "aiProviderBuiltin": "Mô hình tích hợp",
   "settingsAiModels": "Danh sách mô hình",
@@ -6835,8 +6834,6 @@
   "lepaoUploadClassIdLabel": "ID lớp",
   "lepaoUploadCourseIdLabel": "ID khóa học",
   "lepaoUploadCardIdLabel": "ID thẻ",
-  "lepaoUploadAction": "Tạo và tải lên",
-  "lepaoUploadBusy": "Đang tạo và tải lên…",
   "lepaoUploadDone": "Đã tải lên xong",
   "lepaoUploadInvalid": "Vui lòng nhập quãng đường và tốc độ hợp lệ.",
   "lepaoUploadZoneLabel": "Khu vực chạy",
@@ -6886,7 +6883,6 @@
   "csEbanRecords": "Chi tiết",
   "cgTitle": "Nền tảng XiJi",
   "cgAccountSettings": "Thông tin tài khoản Cg",
-  "cgFacultySection": "Khoa Khoa học Máy tính, Đại học Vũ Hán",
   "cgCasDefault": "Không được cấu hình; sử dụng trường đại học CAS",
   "cgAccountAction": "Cài đặt tài khoản",
   "cgReminderAction": "Cài đặt lời nhắc",
@@ -6942,7 +6938,6 @@
   "cgExamNotification": "Kỳ thi Cg sắp bắt đầu",
   "cgUnknownExamTime": "Một số thời gian thi không thể đọc được. Kiểm tra trang web gốc.",
   "cgOpenWebsite": "Mở trang web gốc",
-  "cgRetry": "Thử lại",
   "cgUpdatedAt": "Đã cập nhật {time}",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -7311,7 +7306,6 @@
   "diningFilterShops": "Lọc quán",
   "diningContribute": "Cùng đóng góp",
   "diningAddShop": "Thêm quán",
-  "diningAddShopHint": "Nhập thông tin quán đã xác minh. Thay đổi được cập nhật sau khi gửi; thưởng theo số thực nhận.",
   "diningShopName": "Tên quán",
   "diningShopAddress": "Địa chỉ",
   "diningShopArea": "Khu vực",
@@ -7341,7 +7335,6 @@
   "diningMainAdminTooltip": "Trang quản trị",
   "diningMainBuildingFallback": "Tòa nhà",
   "diningMainSearchHint": "Tìm cửa hàng, khu vực hoặc món ăn",
-  "diningMainClearSearch": "Xóa tìm kiếm",
   "diningMainSelectArea": "Chọn khu vực",
   "diningMainFindingFood": "Đang tìm món ngon…",
   "diningMainSpotsLoadFailedRetry": "Tải cửa hàng thất bại, chạm để thử lại",
@@ -7360,64 +7353,7 @@
   "diningMainReloadMap": "Tải lại dữ liệu bản đồ",
   "diningMainSelectScope": "Chọn phạm vi",
   "diningMainFloorsLoadFailed": "Tải tầng thất bại",
-  "diningMainNoFloors": "Chưa có thông tin tầng",
-  "diningMainFloorCount": "Có {count} tầng",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "Tải chi tiết cửa hàng thất bại",
-  "diningMainReviewCountParen": "({count} đánh giá)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "Đang mở cửa",
-  "diningMainClosedNow": "Đang nghỉ",
   "diningMainViewDetails": "Xem chi tiết",
-  "diningMainNavigate": "Chỉ đường",
-  "diningMainMenuSection": "Thực đơn",
-  "diningMainMenuLoadFailed": "Tải thực đơn thất bại",
-  "diningMainMenuEmpty": "Chưa có thực đơn",
-  "diningMainMarketPrice": "Giá thời điểm",
-  "diningMainViewAllDishes": "Xem tất cả {count} món",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "Thông tin tầng",
-  "diningMainNoFloorPlan": "Chưa có dữ liệu bản đồ trong nhà",
-  "diningMainReviewsSection": "Đánh giá",
-  "diningMainReviewsLoadFailed": "Tải đánh giá thất bại",
-  "diningMainNoReviews": "Chưa có đánh giá",
-  "diningMainReviewsCount": "{count} đánh giá",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "Không tìm thấy Tencent Maps, Amap hoặc Baidu Maps",
-  "diningMainSelectNavApp": "Chọn ứng dụng bản đồ",
-  "diningMainCannotOpenApp": "Không thể mở {app}",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "Các quận Vũ Hán",
   "diningMainNoMatchingAreas": "Không có khu vực phù hợp",
   "diningMainAllOnCampus": "Toàn bộ trong trường",
   "diningMainAllOffCampusWuhan": "Toàn bộ ngoài trường (Vũ Hán)",
@@ -7967,7 +7903,6 @@
   "sharingMissingIdentity": "Nhập thời khóa biểu từ hệ thống đào tạo để xác định học phần này.",
   "sharingCatalogPending": "Học phần này đang chờ xác minh trong danh mục.",
   "sharingTeacherUnavailable": "Chưa có mã định danh giảng viên cho học phần này.",
-  "sharingRefreshEligibility": "Cập nhật xác minh đăng ký học",
   "sharingClassHint": "Thông tin lớp học phần hiện tại. Cần xác minh đăng ký học để xem nhóm lớp và thông tin liên hệ riêng tư.",
   "sharingCommonHint": "Thông tin trong phạm vi này hiển thị cho người dùng đã xác minh danh tính trường. Có thể sử dụng mọi danh mục thông tin.",
   "sharedContentNote": "Thông tin học phần",
@@ -8014,7 +7949,6 @@
   "sharingGroupsContents": "Quản lý nội dung nhóm",
   "sharingGroupsUpdated": "Updated",
   "sharingCoursesTitle": "Course resources",
-  "sharingCoursesHint": "Tìm học phần và chia sẻ tài liệu chung ngay cả khi bạn chưa học học phần đó.",
   "courseResourceSourceType": "Định dạng tài liệu",
   "courseResourceLinkOption": "Liên kết bên ngoài",
   "courseResourceFileOption": "Tệp đã tải lên",
@@ -8572,7 +8506,6 @@
   "masterBrowserCreditValue": "{credits} tín chỉ",
   "masterBrowserSections": "Tiết {start}–{end}",
   "masterBrowserPerPageValue": "{count} / trang",
-  "masterBrowserPick": "Chọn",
   "opacCurrentReservations": "Đặt sách hiện tại",
   "opacReservationsDescription": "Xem yêu cầu, nơi nhận và vị trí trong hàng đợi",
   "opacRefreshReservations": "Làm mới yêu cầu đặt sách",
@@ -8610,11 +8543,9 @@
   "diningTemporaryHours": "Tạm thời",
   "diningNavigate": "Chỉ đường",
   "diningMenuBatchAdd": "Thêm hàng loạt",
-  "diningMenuBatchHelp": "Tạo danh mục và món ăn cùng lúc. Dùng lại danh mục có sẵn, bỏ qua món trùng tên trong cùng danh mục. Điền giá chưa biết (0 cho giá thị trường).",
   "diningMenuBatchSource": "Văn bản thực đơn hoặc yêu cầu",
   "diningMenuBatchSourceHint": "Dán thực đơn hoặc mô tả danh mục và món ăn…",
   "diningMenuBatchAi": "Sắp xếp thực đơn bằng AI",
-  "diningMenuBatchAiHelp": "Hỗ trợ ảnh và văn bản. AI chỉ thêm bản nháp có thể sửa bên dưới. Kiểm tra và điền giá trước khi gửi.",
   "diningMenuBatchAddCategory": "Thêm danh mục",
   "diningMenuBatchEmpty": "Thêm ít nhất một danh mục hoặc món ăn",
   "diningMenuBatchLimit": "Tối đa 30 danh mục và 100 món mỗi lần",

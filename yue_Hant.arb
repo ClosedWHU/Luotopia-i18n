@@ -2648,7 +2648,6 @@
   "wallpaperUrlErrorStatus": "伺服器傳回錯誤",
   "wallpaperUrlErrorNotImage": "該連結唔係有效嘅圖片",
   "wallpaperUrlErrorTooLarge": "圖片體積過大",
-  "libraryBorrowingPlaceholder": "圖書借閲功能仲開發緊…",
   "settingsAiProvider": "AI 提供商",
   "aiProviderBuiltin": "內置模型",
   "settingsAiModels": "模型清單",
@@ -6839,8 +6838,6 @@
   "lepaoUploadClassIdLabel": "班級 ID",
   "lepaoUploadCourseIdLabel": "課程 ID",
   "lepaoUploadCardIdLabel": "卡號",
-  "lepaoUploadAction": "生成並上傳",
-  "lepaoUploadBusy": "生成並上傳中…",
   "lepaoUploadDone": "上傳完成",
   "lepaoUploadInvalid": "請輸入有效嘅里程同配速。",
   "lepaoUploadZoneLabel": "跑區",
@@ -6890,7 +6887,6 @@
   "csEbanRecords": "明細記錄",
   "cgTitle": "希冀平臺",
   "cgAccountSettings": "希冀平臺賬號密碼配置",
-  "cgFacultySection": "武漢大學計算機學院相關",
   "cgCasDefault": "未配置，使用學校 CAS",
   "cgAccountAction": "賬號配置",
   "cgReminderAction": "提醒設置",
@@ -6946,7 +6942,6 @@
   "cgExamNotification": "希冀平臺考試即將開始",
   "cgUnknownExamTime": "部分考試時間未能識別，請在原站確認",
   "cgOpenWebsite": "在原站打開",
-  "cgRetry": "重試",
   "cgUpdatedAt": "更新於 {time}",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -7315,7 +7310,6 @@
   "diningFilterShops": "篩選店",
   "diningContribute": "共推薦",
   "diningAddShop": "新增店鋪",
-  "diningAddShopHint": "請填寫核實過嘅店鋪資料，提交後就會更新。獎勵以實際入帳為準。",
   "diningShopName": "店鋪名稱",
   "diningShopAddress": "地址",
   "diningShopArea": "所屬區域",
@@ -7345,7 +7339,6 @@
   "diningMainAdminTooltip": "管理後台",
   "diningMainBuildingFallback": "樓棟",
   "diningMainSearchHint": "搜尋店舖、區域或者菜式",
-  "diningMainClearSearch": "清空搜尋",
   "diningMainSelectArea": "選擇區域",
   "diningMainFindingFood": "正在搵好食嘅嘢…",
   "diningMainSpotsLoadFailedRetry": "店舖load唔到，撳下再試",
@@ -7364,64 +7357,7 @@
   "diningMainReloadMap": "重新載入地圖資料",
   "diningMainSelectScope": "選擇範圍",
   "diningMainFloorsLoadFailed": "樓層載入失敗",
-  "diningMainNoFloors": "暫時冇樓層資訊",
-  "diningMainFloorCount": "一共有 {count} 個樓層",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "店舖詳情載入失敗",
-  "diningMainReviewCountParen": "({count}個評價)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "營業中",
-  "diningMainClosedNow": "休息中",
   "diningMainViewDetails": "睇詳情",
-  "diningMainNavigate": "導航",
-  "diningMainMenuSection": "菜單",
-  "diningMainMenuLoadFailed": "菜單載入失敗",
-  "diningMainMenuEmpty": "暫時冇菜單",
-  "diningMainMarketPrice": "時價",
-  "diningMainViewAllDishes": "睇晒全部 {count} 款菜式",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "樓層資訊",
-  "diningMainNoFloorPlan": "暫時冇室內地圖資料",
-  "diningMainReviewsSection": "評價",
-  "diningMainReviewsLoadFailed": "評價載入失敗",
-  "diningMainNoReviews": "暫時冇評價",
-  "diningMainReviewsCount": "{count} 個評價",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "偵測唔到騰訊地圖、高德地圖或者百度地圖",
-  "diningMainSelectNavApp": "選擇導航地圖",
-  "diningMainCannotOpenApp": "打唔開{app}",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "武漢行政區",
   "diningMainNoMatchingAreas": "冇匹配嘅區域",
   "diningMainAllOnCampus": "全部校內",
   "diningMainAllOffCampusWuhan": "全部武漢校外",
@@ -7908,7 +7844,6 @@
   "sharingMissingIdentity": "請重新從教務導入課表以識別課程。",
   "sharingCatalogPending": "這門課程的共享範圍尚待解析。",
   "sharingTeacherUnavailable": "尚未取得這門課程的教師標識。",
-  "sharingRefreshEligibility": "更新選課資格",
   "sharingClassHint": "本教學班的當期資料。羣聊與私人聯繫資料僅有效認證成員可讀。",
   "sharingCommonHint": "呢個範圍嘅資訊會顯示畀已認證校園身分嘅用戶，支援全部資訊分類。",
   "sharedContentNote": "課程説明",
@@ -7955,7 +7890,6 @@
   "sharingGroupsContents": "管理本組資料",
   "sharingGroupsUpdated": "更新于",
   "sharingCoursesTitle": "课程资料",
-  "sharingCoursesHint": "可主動查找課程並分享通用資料，無需修讀該課程。",
   "courseResourceSourceType": "Resource format",
   "courseResourceLinkOption": "External link",
   "courseResourceFileOption": "Uploaded file",
@@ -8513,7 +8447,6 @@
   "masterBrowserCreditValue": "{credits} 學分",
   "masterBrowserSections": "第 {start}–{end} 節",
   "masterBrowserPerPageValue": "每頁 {count} 條",
-  "masterBrowserPick": "選擇",
   "opacCurrentReservations": "目前預約",
   "opacReservationsDescription": "睇預約紀錄、拎書地點同排隊進度",
   "opacRefreshReservations": "重新整理目前預約",
@@ -8551,11 +8484,9 @@
   "diningTemporaryHours": "臨時",
   "diningNavigate": "導航",
   "diningMenuBatchAdd": "批量新增",
-  "diningMenuBatchHelp": "一次建立多個大類同菜式；同名大類會沿用，同類重名菜式會略過，唔會覆蓋現有餐牌。請補齊未知價錢（時價填0）。",
   "diningMenuBatchSource": "餐牌文字或建立要求",
   "diningMenuBatchSourceHint": "貼上餐牌，或描述需要嘅大類、菜式…",
   "diningMenuBatchAi": "AI整理成份餐牌",
-  "diningMenuBatchAiHelp": "支援餐牌相片同文字。AI結果只會加入下面嘅草稿，核對同補齊價錢後先提交。",
   "diningMenuBatchAddCategory": "新增大類",
   "diningMenuBatchEmpty": "請至少新增一個大類或一道菜",
   "diningMenuBatchLimit": "每次最多30個大類、100道菜式",

@@ -2983,7 +2983,6 @@
   "wallpaperUrlErrorStatus": "服务器返回错误",
   "wallpaperUrlErrorNotImage": "该链接不是有效的图片",
   "wallpaperUrlErrorTooLarge": "图片体积过大",
-  "libraryBorrowingPlaceholder": "图书借阅功能正在开发中…",
   "settingsAiProvider": "AI 提供商",
   "aiProviderBuiltin": "内置模型",
   "settingsAiModels": "模型列表",
@@ -7141,8 +7140,6 @@
   "lepaoUploadClassIdLabel": "班级 ID",
   "lepaoUploadCourseIdLabel": "课程 ID",
   "lepaoUploadCardIdLabel": "卡号",
-  "lepaoUploadAction": "生成并上传",
-  "lepaoUploadBusy": "生成并上传中…",
   "lepaoUploadDone": "上传完成",
   "lepaoUploadInvalid": "请输入有效的里程和配速。",
   "lepaoUploadZoneLabel": "跑区",
@@ -7192,7 +7189,6 @@
   "csEbanRecords": "明细记录",
   "cgTitle": "希冀平台",
   "cgAccountSettings": "希冀平台账号密码配置",
-  "cgFacultySection": "武汉大学计算机学院相关",
   "cgCasDefault": "未配置，使用学校 CAS",
   "cgAccountAction": "账号配置",
   "cgReminderAction": "提醒设置",
@@ -7248,7 +7244,6 @@
   "cgExamNotification": "希冀平台考试即将开始",
   "cgUnknownExamTime": "部分考试时间无法识别，请在原站确认",
   "cgOpenWebsite": "在原站打开",
-  "cgRetry": "重试",
   "cgUpdatedAt": "更新于 {time}",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -7694,7 +7689,6 @@
   "diningFilterShops": "筛选店",
   "diningContribute": "共推荐",
   "diningAddShop": "添加店铺",
-  "diningAddShopHint": "请填写核实后的店铺信息，提交后即更新。贡献奖励以实际到账为准。",
   "diningShopName": "店铺名称",
   "diningShopAddress": "地址",
   "diningShopArea": "所属区域",
@@ -7724,7 +7718,6 @@
   "diningMainAdminTooltip": "管理后台",
   "diningMainBuildingFallback": "楼栋",
   "diningMainSearchHint": "搜索店铺、区域或菜品",
-  "diningMainClearSearch": "清空搜索",
   "diningMainSelectArea": "选择区域",
   "diningMainFindingFood": "正在寻找好吃的…",
   "diningMainSpotsLoadFailedRetry": "店铺加载失败，点击重试",
@@ -7743,64 +7736,7 @@
   "diningMainReloadMap": "重新加载地图数据",
   "diningMainSelectScope": "选择范围",
   "diningMainFloorsLoadFailed": "楼层加载失败",
-  "diningMainNoFloors": "暂无楼层信息",
-  "diningMainFloorCount": "共有 {count} 个楼层",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "店铺详情加载失败",
-  "diningMainReviewCountParen": "({count}条评价)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "营业中",
-  "diningMainClosedNow": "休息中",
   "diningMainViewDetails": "查看详情",
-  "diningMainNavigate": "导航",
-  "diningMainMenuSection": "菜单",
-  "diningMainMenuLoadFailed": "菜单加载失败",
-  "diningMainMenuEmpty": "暂无菜单",
-  "diningMainMarketPrice": "时价",
-  "diningMainViewAllDishes": "查看全部 {count} 道菜品",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "楼层信息",
-  "diningMainNoFloorPlan": "暂无室内地图数据",
-  "diningMainReviewsSection": "评价",
-  "diningMainReviewsLoadFailed": "评价加载失败",
-  "diningMainNoReviews": "暂无评价",
-  "diningMainReviewsCount": "{count} 条评价",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "未检测到腾讯地图、高德地图或百度地图",
-  "diningMainSelectNavApp": "选择导航地图",
-  "diningMainCannotOpenApp": "无法打开{app}",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "武汉行政区",
   "diningMainNoMatchingAreas": "没有匹配的区域",
   "diningMainAllOnCampus": "全部校内",
   "diningMainAllOffCampusWuhan": "全部武汉校外",
@@ -8287,7 +8223,6 @@
   "sharingMissingIdentity": "请重新从教务导入课表以识别课程。",
   "sharingCatalogPending": "这门课程的共享范围尚待解析。",
   "sharingTeacherUnavailable": "尚未取得这门课程的教师标识。",
-  "sharingRefreshEligibility": "更新选课资格",
   "sharingClassHint": "本教学班的当期信息。群聊与私人联系信息仅有效认证成员可读。",
   "sharingCommonHint": "本范围的信息面向已认证校园身份的用户展示，支持全部信息分类。",
   "sharedContentNote": "课程说明",
@@ -8334,7 +8269,6 @@
   "sharingGroupsContents": "管理本组资料",
   "sharingGroupsUpdated": "更新于",
   "sharingCoursesTitle": "学习资料共享",
-  "sharingCoursesHint": "可主动查找课程并分享通用资料，无需修读该课程。",
   "courseResourceSourceType": "资料形式",
   "courseResourceLinkOption": "外部链接",
   "courseResourceFileOption": "上传文件",
@@ -8893,7 +8827,6 @@
   "masterBrowserCreditValue": "{credits} 学分",
   "masterBrowserSections": "第 {start}–{end} 节",
   "masterBrowserPerPageValue": "每页 {count} 条",
-  "masterBrowserPick": "选择",
   "opacCurrentReservations": "当前预约",
   "opacReservationsDescription": "查看预约记录、取书地点和排队进度",
   "opacRefreshReservations": "刷新当前预约",
@@ -8931,11 +8864,9 @@
   "diningTemporaryHours": "临时",
   "diningNavigate": "导航",
   "diningMenuBatchAdd": "批量添加",
-  "diningMenuBatchHelp": "一次建立多个大类和菜品；同名大类自动复用，同类重名菜品跳过，不覆盖已有菜单。未知价格请补齐（时价填0）。",
   "diningMenuBatchSource": "菜单文字或建菜单要求",
   "diningMenuBatchSourceHint": "粘贴菜单，或描述需要的大类、菜品…",
   "diningMenuBatchAi": "AI整理整份菜单",
-  "diningMenuBatchAiHelp": "支持菜单照片和文字。AI结果只加入下方草稿，核对并补齐价格后提交。",
   "diningMenuBatchAddCategory": "添加大类",
   "diningMenuBatchEmpty": "请至少添加一个大类或一道菜",
   "diningMenuBatchLimit": "每次最多30个大类、100道菜品",

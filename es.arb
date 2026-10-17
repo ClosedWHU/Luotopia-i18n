@@ -2710,7 +2710,6 @@
   "wallpaperUrlErrorStatus": "El servidor devolvió un error",
   "wallpaperUrlErrorNotImage": "La URL no apunta a una imagen",
   "wallpaperUrlErrorTooLarge": "La imagen es demasiado grande",
-  "libraryBorrowingPlaceholder": "El préstamo de libros está en desarrollo…",
   "settingsAiProvider": "Proveedor de IA",
   "aiProviderBuiltin": "Modelo integrado",
   "settingsAiModels": "Lista de modelos",
@@ -6831,8 +6830,6 @@
   "lepaoUploadClassIdLabel": "ID de clase",
   "lepaoUploadCourseIdLabel": "ID de curso",
   "lepaoUploadCardIdLabel": "ID de tarjeta",
-  "lepaoUploadAction": "Generar y subir",
-  "lepaoUploadBusy": "Generando y subiendo…",
   "lepaoUploadDone": "Subida completada",
   "lepaoUploadInvalid": "Introduce una distancia y un ritmo válidos.",
   "lepaoUploadZoneLabel": "Zona de carrera",
@@ -6882,7 +6879,6 @@
   "csEbanRecords": "Detalles",
   "cgTitle": "Plataforma XiJi",
   "cgAccountSettings": "Credenciales de la cuenta Cg",
-  "cgFacultySection": "Facultad de Informática de la Universidad de Wuhan",
   "cgCasDefault": "No configurado; utilizar universidad CAS",
   "cgAccountAction": "Configuración de la cuenta",
   "cgReminderAction": "Configuración de recordatorio",
@@ -6938,7 +6934,6 @@
   "cgExamNotification": "El examen Cg comienza pronto",
   "cgUnknownExamTime": "Algunos horarios de exámenes no se pudieron leer. Consulte el sitio web original.",
   "cgOpenWebsite": "Abrir sitio web original",
-  "cgRetry": "Reintentar",
   "cgUpdatedAt": "Actualizado {time}",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -7307,7 +7302,6 @@
   "diningFilterShops": "Filtrar locales",
   "diningContribute": "Contribuir",
   "diningAddShop": "Añadir un local",
-  "diningAddShopHint": "Indica datos verificados del local. Se actualizan al enviarlos; las recompensas dependen de la liquidación real.",
   "diningShopName": "Nombre del local",
   "diningShopAddress": "Dirección",
   "diningShopArea": "Zona",
@@ -7337,7 +7331,6 @@
   "diningMainAdminTooltip": "Panel de administración",
   "diningMainBuildingFallback": "Edificio",
   "diningMainSearchHint": "Busca tiendas, zonas o platos",
-  "diningMainClearSearch": "Borrar búsqueda",
   "diningMainSelectArea": "Seleccionar zona",
   "diningMainFindingFood": "Buscando algo rico…",
   "diningMainSpotsLoadFailedRetry": "Error al cargar tiendas. Toca para reintentar.",
@@ -7356,64 +7349,7 @@
   "diningMainReloadMap": "Recargar datos del mapa",
   "diningMainSelectScope": "Seleccionar ámbito",
   "diningMainFloorsLoadFailed": "Error al cargar las plantas",
-  "diningMainNoFloors": "Sin información de plantas",
-  "diningMainFloorCount": "{count} plantas en total",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "Error al cargar los detalles de la tienda",
-  "diningMainReviewCountParen": "({count} reseñas)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "Abierto",
-  "diningMainClosedNow": "Cerrado",
   "diningMainViewDetails": "Ver detalles",
-  "diningMainNavigate": "Cómo llegar",
-  "diningMainMenuSection": "Menú",
-  "diningMainMenuLoadFailed": "Error al cargar el menú",
-  "diningMainMenuEmpty": "Aún no hay menú",
-  "diningMainMarketPrice": "Precio de mercado",
-  "diningMainViewAllDishes": "Ver los {count} platos",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "Información de plantas",
-  "diningMainNoFloorPlan": "Aún no hay datos del mapa interior",
-  "diningMainReviewsSection": "Reseñas",
-  "diningMainReviewsLoadFailed": "Error al cargar las reseñas",
-  "diningMainNoReviews": "Aún no hay reseñas",
-  "diningMainReviewsCount": "{count} reseñas",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "No se detectaron Tencent Maps, Amap ni Baidu Maps",
-  "diningMainSelectNavApp": "Elige una app de mapas",
-  "diningMainCannotOpenApp": "No se puede abrir {app}",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "Distritos de Wuhan",
   "diningMainNoMatchingAreas": "Sin zonas coincidentes",
   "diningMainAllOnCampus": "Todo el campus",
   "diningMainAllOffCampusWuhan": "Todo fuera del campus (Wuhan)",
@@ -7963,7 +7899,6 @@
   "sharingMissingIdentity": "Importa tu horario del sistema académico para identificar esta asignatura.",
   "sharingCatalogPending": "Esta asignatura está pendiente de verificación en el catálogo.",
   "sharingTeacherUnavailable": "El identificador del docente no está disponible para esta asignatura.",
-  "sharingRefreshEligibility": "Actualizar la verificación de matrícula",
   "sharingClassHint": "Información actual de la clase. Los grupos y los contactos privados requieren una matrícula verificada.",
   "sharingCommonHint": "La información de este ámbito es visible para usuarios con identidad universitaria verificada. Están disponibles todas las categorías.",
   "sharedContentNote": "Información de la asignatura",
@@ -8010,7 +7945,6 @@
   "sharingGroupsContents": "Gestionar el contenido del grupo",
   "sharingGroupsUpdated": "Updated",
   "sharingCoursesTitle": "Course resources",
-  "sharingCoursesHint": "Busca asignaturas y comparte recursos generales aunque no las hayas cursado.",
   "courseResourceSourceType": "Formato del recurso",
   "courseResourceLinkOption": "Enlace externo",
   "courseResourceFileOption": "Archivo subido",
@@ -8568,7 +8502,6 @@
   "masterBrowserCreditValue": "{credits} créditos",
   "masterBrowserSections": "Sesiones {start}–{end}",
   "masterBrowserPerPageValue": "{count} / página",
-  "masterBrowserPick": "Elegir",
   "opacCurrentReservations": "Reservas actuales",
   "opacReservationsDescription": "Ver reservas, lugares de recogida y posición en la cola",
   "opacRefreshReservations": "Actualizar reservas",
@@ -8606,11 +8539,9 @@
   "diningTemporaryHours": "Temporal",
   "diningNavigate": "Cómo llegar",
   "diningMenuBatchAdd": "Añadir en lote",
-  "diningMenuBatchHelp": "Crea categorías y platos juntos. Se reutilizan categorías existentes y se omiten platos repetidos en la misma categoría. Completa los precios desconocidos (0 para precio de mercado).",
   "diningMenuBatchSource": "Texto del menú o instrucciones",
   "diningMenuBatchSourceHint": "Pega un menú o describe categorías y platos…",
   "diningMenuBatchAi": "Organizar menú con IA",
-  "diningMenuBatchAiHelp": "Usa fotos o texto. La IA añade borradores editables. Revisa los datos y completa los precios antes de enviar.",
   "diningMenuBatchAddCategory": "Añadir categoría",
   "diningMenuBatchEmpty": "Añade al menos una categoría o un plato",
   "diningMenuBatchLimit": "Máximo 30 categorías y 100 platos por lote",

@@ -3556,7 +3556,6 @@
   "wallpaperUrlErrorStatus": "The server returned an error",
   "wallpaperUrlErrorNotImage": "That URL doesn't point to an image",
   "wallpaperUrlErrorTooLarge": "That image is too large",
-  "libraryBorrowingPlaceholder": "Library borrowing is under development…",
   "settingsAiProvider": "AI Provider",
   "aiProviderBuiltin": "Built-in model",
   "settingsAiModels": "Model list",
@@ -8302,8 +8301,6 @@
   "lepaoUploadClassIdLabel": "Class ID",
   "lepaoUploadCourseIdLabel": "Course ID",
   "lepaoUploadCardIdLabel": "Card ID",
-  "lepaoUploadAction": "Generate and upload",
-  "lepaoUploadBusy": "Generating and uploading…",
   "lepaoUploadDone": "Upload complete",
   "lepaoUploadInvalid": "Enter a valid distance and pace.",
   "lepaoUploadZoneLabel": "Run zone",
@@ -8353,7 +8350,6 @@
   "csEbanRecords": "Details",
   "cgTitle": "XiJi Platform",
   "cgAccountSettings": "Cg account credentials",
-  "cgFacultySection": "WHU School of Computer Science",
   "cgCasDefault": "Not configured; use university CAS",
   "cgAccountAction": "Account settings",
   "cgReminderAction": "Reminder settings",
@@ -8409,7 +8405,6 @@
   "cgExamNotification": "Cg exam starts soon",
   "cgUnknownExamTime": "Some exam times could not be read. Check the original website.",
   "cgOpenWebsite": "Open original website",
-  "cgRetry": "Retry",
   "cgUpdatedAt": "Updated {time}",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -8864,7 +8859,6 @@
   "diningFilterShops": "Filter shops",
   "diningContribute": "Contribute",
   "diningAddShop": "Add a shop",
-  "diningAddShopHint": "Provide verified shop details. Changes appear after submission; rewards depend on the actual settlement.",
   "diningShopName": "Shop name",
   "diningShopAddress": "Address",
   "diningShopArea": "Area",
@@ -8894,7 +8888,6 @@
   "diningMainAdminTooltip": "Management console",
   "diningMainBuildingFallback": "Building",
   "diningMainSearchHint": "Search shops, areas or dishes",
-  "diningMainClearSearch": "Clear search",
   "diningMainSelectArea": "Select area",
   "diningMainFindingFood": "Finding something tasty…",
   "diningMainSpotsLoadFailedRetry": "Failed to load shops. Tap to retry.",
@@ -8913,64 +8906,7 @@
   "diningMainReloadMap": "Reload map data",
   "diningMainSelectScope": "Select scope",
   "diningMainFloorsLoadFailed": "Failed to load floors",
-  "diningMainNoFloors": "No floor information yet",
-  "diningMainFloorCount": "{count} floors in total",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "Failed to load shop details",
-  "diningMainReviewCountParen": "({count} reviews)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "Open now",
-  "diningMainClosedNow": "Closed",
   "diningMainViewDetails": "View details",
-  "diningMainNavigate": "Navigate",
-  "diningMainMenuSection": "Menu",
-  "diningMainMenuLoadFailed": "Failed to load menu",
-  "diningMainMenuEmpty": "No menu yet",
-  "diningMainMarketPrice": "Market price",
-  "diningMainViewAllDishes": "View all {count} dishes",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "Floor information",
-  "diningMainNoFloorPlan": "No indoor map data yet",
-  "diningMainReviewsSection": "Reviews",
-  "diningMainReviewsLoadFailed": "Failed to load reviews",
-  "diningMainNoReviews": "No reviews yet",
-  "diningMainReviewsCount": "{count} reviews",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "No Tencent Maps, Amap or Baidu Maps detected",
-  "diningMainSelectNavApp": "Choose a map app",
-  "diningMainCannotOpenApp": "Can't open {app}",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "Wuhan districts",
   "diningMainNoMatchingAreas": "No matching areas",
   "diningMainAllOnCampus": "All on campus",
   "diningMainAllOffCampusWuhan": "All off campus (Wuhan)",
@@ -9799,7 +9735,6 @@
   "sharingMissingIdentity": "Import your timetable from the academic system to identify this course.",
   "sharingCatalogPending": "This course is awaiting verification in the course catalog.",
   "sharingTeacherUnavailable": "The teacher identifier is not available for this course.",
-  "sharingRefreshEligibility": "Refresh enrollment verification",
   "sharingClassHint": "Current class information. Group and private contact details require verified enrollment.",
   "sharingCommonHint": "Information in this scope is visible to users with verified campus identities. All information categories are available.",
   "sharedContentNote": "Course information",
@@ -9846,7 +9781,6 @@
   "sharingGroupsContents": "Manage group content",
   "sharingGroupsUpdated": "Updated",
   "sharingCoursesTitle": "Learning resources",
-  "sharingCoursesHint": "Find courses and share general resources without having taken the course.",
   "courseResourceSourceType": "Resource format",
   "courseResourceLinkOption": "External link",
   "courseResourceFileOption": "Uploaded file",
@@ -10627,7 +10561,6 @@
       }
     }
   },
-  "masterBrowserPick": "Choose",
   "opacCurrentReservations": "Current holds",
   "opacReservationsDescription": "View hold requests, pickup locations and queue positions",
   "opacRefreshReservations": "Refresh current holds",
@@ -10665,11 +10598,9 @@
   "diningTemporaryHours": "Temporary",
   "diningNavigate": "Navigate",
   "diningMenuBatchAdd": "Batch add",
-  "diningMenuBatchHelp": "Create categories and dishes together. Existing categories are reused; duplicate dish names in the same category are skipped. Fill in unknown prices (0 for market price).",
   "diningMenuBatchSource": "Menu text or instructions",
   "diningMenuBatchSourceHint": "Paste a menu or describe the categories and dishes…",
   "diningMenuBatchAi": "Organize menu with AI",
-  "diningMenuBatchAiHelp": "Use menu photos or text. AI adds editable drafts below. Check details and fill in prices before submitting.",
   "diningMenuBatchAddCategory": "Add category",
   "diningMenuBatchEmpty": "Add at least one category or dish",
   "diningMenuBatchLimit": "Up to 30 categories and 100 dishes per batch",

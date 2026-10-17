@@ -2755,7 +2755,6 @@
   "wallpaperUrlErrorStatus": "서버가 오류를 반환했습니다",
   "wallpaperUrlErrorNotImage": "해당 URL은 이미지가 아닙니다",
   "wallpaperUrlErrorTooLarge": "이미지가 너무 큽니다",
-  "libraryBorrowingPlaceholder": "도서 대출 기능은 개발 중입니다…",
   "settingsAiProvider": "AI 제공자",
   "aiProviderBuiltin": "내장 모델",
   "settingsAiModels": "모델 목록",
@@ -6852,8 +6851,6 @@
   "lepaoUploadClassIdLabel": "반 ID",
   "lepaoUploadCourseIdLabel": "강좌 ID",
   "lepaoUploadCardIdLabel": "카드 ID",
-  "lepaoUploadAction": "생성 후 업로드",
-  "lepaoUploadBusy": "생성·업로드 중…",
   "lepaoUploadDone": "업로드 완료",
   "lepaoUploadInvalid": "유효한 거리와 페이스를 입력하세요.",
   "lepaoUploadZoneLabel": "러닝 구역",
@@ -6903,7 +6900,6 @@
   "csEbanRecords": "세부정보",
   "cgTitle": "希冀 플랫폼",
   "cgAccountSettings": "Cg 계정 자격 증명",
-  "cgFacultySection": "우한대학교 컴퓨터과학대학",
   "cgCasDefault": "구성되지 않았습니다. 대학 CAS 사용",
   "cgAccountAction": "계정 설정",
   "cgReminderAction": "알림 설정",
@@ -6959,7 +6955,6 @@
   "cgExamNotification": "곧 希冀 시험이 시작됩니다",
   "cgUnknownExamTime": "일부 시험 시간을 읽을 수 없습니다. 원본 홈페이지를 확인해보세요.",
   "cgOpenWebsite": "원본 웹사이트 열기",
-  "cgRetry": "재시도",
   "cgUpdatedAt": "{time}를 업데이트했습니다.",
   "@cgUpdatedAt": {
     "placeholders": {
@@ -7328,7 +7323,6 @@
   "diningFilterShops": "매장 필터",
   "diningContribute": "함께 추천",
   "diningAddShop": "매장 추가",
-  "diningAddShopHint": "확인한 가게 정보를 입력하세요. 제출 후 바로 반영되며 보상은 실제 지급 내역을 따릅니다.",
   "diningShopName": "매장 이름",
   "diningShopAddress": "주소",
   "diningShopArea": "지역",
@@ -7358,7 +7352,6 @@
   "diningMainAdminTooltip": "관리 화면",
   "diningMainBuildingFallback": "건물",
   "diningMainSearchHint": "매장, 구역 또는 메뉴 검색",
-  "diningMainClearSearch": "검색 지우기",
   "diningMainSelectArea": "구역 선택",
   "diningMainFindingFood": "맛있는 곳을 찾는 중…",
   "diningMainSpotsLoadFailedRetry": "매장을 불러오지 못했습니다. 눌러서 다시 시도",
@@ -7377,64 +7370,7 @@
   "diningMainReloadMap": "지도 데이터 다시 불러오기",
   "diningMainSelectScope": "범위 선택",
   "diningMainFloorsLoadFailed": "층 정보를 불러오지 못했습니다",
-  "diningMainNoFloors": "층 정보가 없습니다",
-  "diningMainFloorCount": "총 {count}개 층",
-  "@diningMainFloorCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainSpotDetailLoadFailed": "매장 상세 정보를 불러오지 못했습니다",
-  "diningMainReviewCountParen": "(리뷰 {count}개)",
-  "@diningMainReviewCountParen": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainOpenNow": "영업 중",
-  "diningMainClosedNow": "휴식 중",
   "diningMainViewDetails": "상세 보기",
-  "diningMainNavigate": "길 안내",
-  "diningMainMenuSection": "메뉴",
-  "diningMainMenuLoadFailed": "메뉴를 불러오지 못했습니다",
-  "diningMainMenuEmpty": "메뉴가 없습니다",
-  "diningMainMarketPrice": "시가",
-  "diningMainViewAllDishes": "메뉴 {count}개 모두 보기",
-  "@diningMainViewAllDishes": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainFloorInfoSection": "층 정보",
-  "diningMainNoFloorPlan": "실내 지도 데이터가 없습니다",
-  "diningMainReviewsSection": "리뷰",
-  "diningMainReviewsLoadFailed": "리뷰를 불러오지 못했습니다",
-  "diningMainNoReviews": "아직 리뷰가 없습니다",
-  "diningMainReviewsCount": "리뷰 {count}개",
-  "@diningMainReviewsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "diningMainNoNavApps": "텐센트 지도, 가오더 지도, 바이두 지도를 찾을 수 없습니다",
-  "diningMainSelectNavApp": "내비게이션 앱 선택",
-  "diningMainCannotOpenApp": "{app}을(를) 열 수 없습니다",
-  "@diningMainCannotOpenApp": {
-    "placeholders": {
-      "app": {
-        "type": "String"
-      }
-    }
-  },
-  "diningMainWuhanDistricts": "우한 행정구",
   "diningMainNoMatchingAreas": "일치하는 구역이 없습니다",
   "diningMainAllOnCampus": "교내 전체",
   "diningMainAllOffCampusWuhan": "우한 교외 전체",
@@ -7984,7 +7920,6 @@
   "sharingMissingIdentity": "학사 시스템에서 시간표를 가져와 이 과목을 식별하세요.",
   "sharingCatalogPending": "이 과목은 과목 목록에서 확인을 기다리고 있습니다.",
   "sharingTeacherUnavailable": "이 과목의 교수자 식별자를 사용할 수 없습니다.",
-  "sharingRefreshEligibility": "수강 확인 새로고침",
   "sharingClassHint": "현재 분반 정보입니다. 분반 채팅방 및 개인 연락처는 수강 확인이 필요합니다.",
   "sharingCommonHint": "이 범위의 정보는 학교 인증을 완료한 사용자에게 표시됩니다. 모든 정보 분류를 사용할 수 있습니다.",
   "sharedContentNote": "과목 정보",
@@ -8031,7 +7966,6 @@
   "sharingGroupsContents": "그룹 자료 관리",
   "sharingGroupsUpdated": "Updated",
   "sharingCoursesTitle": "Course resources",
-  "sharingCoursesHint": "수강하지 않은 과목도 검색하여 공통 자료를 공유할 수 있습니다.",
   "courseResourceSourceType": "자료 형식",
   "courseResourceLinkOption": "외부 링크",
   "courseResourceFileOption": "업로드한 파일",
@@ -8589,7 +8523,6 @@
   "masterBrowserCreditValue": "{credits}학점",
   "masterBrowserSections": "{start}–{end}교시",
   "masterBrowserPerPageValue": "페이지당 {count}개",
-  "masterBrowserPick": "선택",
   "opacCurrentReservations": "현재 예약",
   "opacReservationsDescription": "예약, 수령 장소 및 대기 순서 확인",
   "opacRefreshReservations": "현재 예약 새로고침",
@@ -8627,11 +8560,9 @@
   "diningTemporaryHours": "임시",
   "diningNavigate": "길찾기",
   "diningMenuBatchAdd": "일괄 추가",
-  "diningMenuBatchHelp": "분류와 메뉴를 함께 만듭니다. 기존 분류는 재사용하고 같은 분류의 중복 메뉴는 건너뜁니다. 알 수 없는 가격을 입력하세요(시가는 0).",
   "diningMenuBatchSource": "메뉴 텍스트 또는 작성 요청",
   "diningMenuBatchSourceHint": "메뉴를 붙여넣거나 분류와 요리를 설명하세요…",
   "diningMenuBatchAi": "AI로 전체 메뉴 정리",
-  "diningMenuBatchAiHelp": "메뉴 사진과 텍스트를 지원합니다. AI 결과는 수정 가능한 초안에 추가됩니다. 내용과 가격을 확인한 후 제출하세요.",
   "diningMenuBatchAddCategory": "분류 추가",
   "diningMenuBatchEmpty": "분류 또는 메뉴를 하나 이상 추가하세요",
   "diningMenuBatchLimit": "한 번에 최대 30개 분류, 100개 메뉴",
