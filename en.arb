@@ -5905,9 +5905,9 @@
   "@whuReauthTitle": {
     "description": "Heading shown when WHU CAS holds a login at its two-step (MFA) verification page."
   },
-  "whuReauthSubtitle": "WHU requires an additional verification step before signing in.",
+  "whuReauthSubtitle": "Your WHU account requires an additional verification step before signing in.",
   "@whuReauthSubtitle": {
-    "description": "Subtitle under the two-step verification heading."
+    "description": "Subtitle under the two-step verification heading. Must name the WHU account: the prompt can surface app-wide, where a bare 'two-step verification' leaves users guessing which account is meant."
   },
   "whuReauthTrustDevice": "Trust this device",
   "@whuReauthTrustDevice": {
@@ -5916,6 +5916,10 @@
   "whuReauthDialogAction": "Verify now",
   "@whuReauthDialogAction": {
     "description": "Confirm button on the two-step-verification prompt dialog."
+  },
+  "whuReauthTotpAutofill": "Fill in the saved authenticator code",
+  "@whuReauthTotpAutofill": {
+    "description": "Tooltip for the button that fills the two-step verification code from the TOTP secret saved on the WHU account page, after local authentication."
   },
   "forumModerationReports": "Reports",
   "forumModerationAppeals": "Appeals",
@@ -10298,10 +10302,14 @@
   "campusNewsSearch": "Search sites and columns",
   "campusNewsEmpty": "No news yet. Subscribe to sites or columns.",
   "campusNewsWholeSite": "Subscribe to the whole site",
+  "campusNewsSubscribe": "Subscribe",
+  "campusNewsUnsubscribe": "Unsubscribe",
   "campusNewsOpenColumn": "Open column and extract news",
   "campusNewsExtract": "Extract news",
   "campusNewsWebViewHelp": "This column needs a browser or verification. Complete verification on the page, then extract news.",
   "campusNewsVpnHelp": "Cannot read on this network. Enable WHU aTrust VPN and retry.",
+  "campusNewsVpnPromptTitle": "Campus network needed?",
+  "campusNewsVpnPromptMessage": "The page could not be reached. This site may only be available on the campus network. Open aTrust VPN and retry?",
   "campusNewsCopyLink": "Copy link",
   "campusNewsCopied": "Link copied",
   "campusNewsSwitchToReading": "Switch to reading mode",
