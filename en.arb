@@ -10765,5 +10765,55 @@
         "type": "String"
       }
     }
+  },
+  "washingConfirmOrder": "Confirm laundry order",
+  "washingConfirmBody": "Machine: {device}\nMode: {mode}\nDuration: {minutes} minutes\nAmount: ¥{price}\nPayment may start the machine immediately. Load your laundry and confirm the machine before continuing. No coupon or detergent add-on is applied.",
+  "washingCreateOrder": "Create order",
+  "washingCurrentOrder": "Current laundry order",
+  "washingOrderUncertain": "The order submission result is unknown. Do not submit again. Check your orders in the operator mini-program before clearing this local record.",
+  "washingOrderUnpaid": "Awaiting payment",
+  "washingOrderPaid": "Paid (confirmed by laundry service)",
+  "washingOrderRefunded": "Refunded",
+  "washingOrderClosed": "Expired or closed",
+  "washingOrderUnknown": "Payment status unconfirmed",
+  "washingAlternatePayment": "This order uses a separate operator payment channel. Complete it in the original mini-program.",
+  "washingPayInWeChat": "Pay in WeChat mini-program",
+  "washingCheckPayment": "Check payment status",
+  "washingClearOrder": "Clear local order record",
+  "washingClearOrderBody": "This does not cancel or refund an upstream order. First check in the operator mini-program that the order is completed, closed, or was never created. An unpaid order may still be payable.",
+  "washingClearOrderConfirm": "Checked, clear record",
+  "washingPaymentContextError": "Import this account’s original laundry H5 URL or wxuuid in credential settings. It must match the Bearer account.",
+  "washingMachineUnavailable": "The machine is no longer available, is reserved, or the station is closed. Refresh before retrying.",
+  "washingPriceChanged": "The mode price or duration changed. Refresh and confirm again.",
+  "washingCheckoutFailed": "Unable to process the order. Check your credentials and retry later.",
+  "washingOrderStorageError": "Unable to save the recovery record. Check the operator mini-program before placing another order.",
+  "washingLaunchFailed": "Could not open the payment page. Check WeChat installation and whether the operator permits external mini-program links. Your existing order is retained.",
+  "washingPaymentPending": "The link was handed to WeChat. Complete payment there, then return and check the result. This does not confirm payment success.",
+  "washingOrderPrice": "Order ¥{price}",
+  "washingPaymentNote": "Choose a mode to create an order, then open its payment page in WeChat. The mini-program handles payment; the laundry service confirms the result.",
+  "washingSessionContext": "Laundry H5 URL or wxuuid (for payment)",
+  "washingSessionContextHelp": "Paste your existing operator H5 URL. Queries need only the Bearer token. No WeChat login is performed here.",
+  "@washingConfirmBody": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "mode": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingOrderPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
   }
 }
