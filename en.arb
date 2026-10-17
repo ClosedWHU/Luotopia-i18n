@@ -10619,13 +10619,17 @@
   "diningHoursDaysRequired": "Select at least one day",
   "diningHoursDaysHelp": "Select multiple days to apply the same hours",
   "washingTitle": "Laundry",
+  "washingCategoryLaundry": "Laundry stations",
+  "washingCategoryDorm": "Dorm buildings",
+  "washingCategoryLaundryDescription": "Browse nearby laundry stations",
+  "washingCategoryDormDescription": "Browse machines by building and floor",
   "washingManageCredential": "Manage laundry credentials",
   "washingRefresh": "Refresh",
   "washingRestoring": "Loading laundry credentials",
   "washingIntroTitle": "Find nearby laundry rooms",
   "washingIntroBody": "Import your laundry service Bearer token to view stations and machine status.",
   "washingImport": "Import credentials",
-  "washingCredentialSaved": "Credentials saved. Search nearby stations to verify them.",
+  "washingCredentialSaved": "Credentials saved. Loading nearby facilities.",
   "washingExpiredTitle": "Update laundry credentials",
   "washingExpiredBody": "The credentials are invalid or expired. Import a valid token to continue.",
   "washingReplace": "Replace credentials",
@@ -10669,7 +10673,7 @@
   "washingNetworkError": "Network unavailable. Try again later.",
   "washingMalformedError": "The laundry service response has changed. Try again later.",
   "washingRejectedError": "The laundry service cannot process this request. Try again later.",
-  "washingLocationError": "Location unavailable. Enable location permission or enter coordinates.",
+  "washingLocationError": "Location unavailable. Enable location permission, then refresh.",
   "washingDeviceCount": "{count} machines",
   "washingStationDevices": "{station} · Machines",
   "washingFloor": "Floor {floor}",
@@ -10815,5 +10819,7 @@
         "type": "String"
       }
     }
-  }
+  },
+  "washingLoadingNearbyMachines": "Loading machines across nearby stations",
+  "washingUnknownFloor": "Floor unknown"
 }
