@@ -10617,5 +10617,153 @@
   "diningMenuBatchLimit": "Up to 30 categories and 100 dishes per batch",
   "diningMenuBatchDuplicate": "Duplicate dish names in a category; merge or rename them",
   "diningHoursDaysRequired": "Select at least one day",
-  "diningHoursDaysHelp": "Select multiple days to apply the same hours"
+  "diningHoursDaysHelp": "Select multiple days to apply the same hours",
+  "washingTitle": "Laundry",
+  "washingManageCredential": "Manage laundry credentials",
+  "washingRefresh": "Refresh",
+  "washingRestoring": "Loading laundry credentials",
+  "washingIntroTitle": "Find nearby laundry rooms",
+  "washingIntroBody": "Import your laundry service Bearer token to view stations and machine status.",
+  "washingImport": "Import credentials",
+  "washingCredentialSaved": "Credentials saved. Search nearby stations to verify them.",
+  "washingExpiredTitle": "Update laundry credentials",
+  "washingExpiredBody": "The credentials are invalid or expired. Import a valid token to continue.",
+  "washingReplace": "Replace credentials",
+  "washingSearch": "Find nearby stations",
+  "washingManualLocation": "Enter coordinates",
+  "washingClearCredential": "Clear credentials",
+  "washingNearby": "Nearby stations",
+  "washingFindingStations": "Finding stations",
+  "washingSearchHint": "Search nearby stations or enter coordinates.",
+  "washingNoStations": "No laundry stations found at this location.",
+  "washingStationFallback": "Laundry station",
+  "washingAllStates": "All states",
+  "washingAllFloors": "All floors",
+  "washingLoadingDevices": "Loading machine status",
+  "washingNoDevices": "No matching machines",
+  "washingDeviceFallback": "Laundry machine",
+  "washingStateIdle": "Available",
+  "washingStateRunning": "Running",
+  "washingStateFault": "Out of order",
+  "washingStateOffline": "Offline",
+  "washingStateUnknown": "Unknown status",
+  "washingModesFailed": "Unable to load wash modes. Return and refresh to retry.",
+  "washingNoModes": "No mode information available",
+  "washingModesNote": "Modes and prices are for reference. Confirm with the on-site machine and operator.",
+  "washingClose": "Close",
+  "washingCredentialTitle": "Laundry credentials",
+  "washingTokenLabel": "Bearer token",
+  "washingTokenPaste": "Paste your laundry service token",
+  "washingTokenKeep": "Leave blank to keep current credentials",
+  "washingTokenInvalid": "Enter a valid Bearer token",
+  "washingSave": "Save",
+  "washingCoordinateTitle": "Choose search location",
+  "washingLatitude": "Latitude",
+  "washingLongitude": "Longitude",
+  "washingCoordinatesInvalid": "Enter a valid latitude (-90 to 90) and longitude (-180 to 180).",
+  "washingQuery": "Search",
+  "washingStorageReadError": "Unable to read saved credentials. Import them again.",
+  "washingStorageSaveError": "Unable to save credentials. Try again.",
+  "washingStorageClearError": "Unable to clear credentials. Try again.",
+  "washingAuthError": "Credentials are invalid or expired. Replace your Bearer token.",
+  "washingNetworkError": "Network unavailable. Try again later.",
+  "washingMalformedError": "The laundry service response has changed. Try again later.",
+  "washingRejectedError": "The laundry service cannot process this request. Try again later.",
+  "washingLocationError": "Location unavailable. Enable location permission or enter coordinates.",
+  "washingDeviceCount": "{count} machines",
+  "washingStationDevices": "{station} · Machines",
+  "washingFloor": "Floor {floor}",
+  "washingBuilding": "Building {building}",
+  "washingEstimatedEnd": "Estimated end {time}",
+  "washingModeDetails": "{minutes} minutes · {status}",
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingDeviceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@washingStationDevices": {
+    "placeholders": {
+      "station": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingFloor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingBuilding": {
+    "placeholders": {
+      "building": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingEstimatedEnd": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@washingModeDetails": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  }
 }
