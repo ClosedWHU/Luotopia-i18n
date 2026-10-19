@@ -5920,9 +5920,13 @@
   "@whuReauthDialogAction": {
     "description": "Confirm button on the two-step-verification prompt dialog."
   },
-  "whuReauthTotpAutofill": "Fill in the saved authenticator code",
-  "@whuReauthTotpAutofill": {
-    "description": "Tooltip for the button that fills the two-step verification code from the TOTP secret saved on the WHU account page, after local authentication."
+  "whuReauthTotpAutofillAction": "Fill in",
+  "@whuReauthTotpAutofillAction": {
+    "description": "Short label on the button inside the two-step verification code field that fills the code from the TOTP secret saved on this device."
+  },
+  "whuReauthTotpAutofillHint": "Tap Fill in to use the authenticator code saved on this device.",
+  "@whuReauthTotpAutofillHint": {
+    "description": "Helper line under the two-step verification code field, shown only when a TOTP secret is saved on this device."
   },
   "forumModerationReports": "Reports",
   "forumModerationAppeals": "Appeals",
@@ -10136,6 +10140,21 @@
   "courseCloudLocal": "Local",
   "courseCloudRemote": "Cloud",
   "settingsCloudSyncTitle": "Cloud Sync",
+  "courseCloudRemoteOnly": "Cloud only",
+  "courseCloudSelectionDiff": "Add {added} · Remove {removed} · Keep {kept}",
+  "@courseCloudSelectionDiff": {
+    "placeholders": {
+      "added": {
+        "type": "int"
+      },
+      "removed": {
+        "type": "int"
+      },
+      "kept": {
+        "type": "int"
+      }
+    }
+  },
   "@courseCloudGroup": {
     "placeholders": {
       "name": {
@@ -10857,5 +10876,108 @@
   "washingScanManual": "Manual input",
   "washingScanInputHint": "Enter the machine number or QR link",
   "washingOpenMachine": "Open machine",
-  "washingRecommendedPoints": "Recommended for your dorm building"
+  "washingRecommendedPoints": "Recommended for your dorm building",
+  "credentialCenterTitle": "Credential Center",
+  "credentialCenterSubtitle": "End-to-end encrypted by your master password",
+  "credentialCenterIntro": "Entries are sealed on this device with a key derived from your master password; the server cannot read them. If you forget the master password, the cloud copy is unrecoverable.",
+  "credentialCenterMasterPassword": "Master password",
+  "credentialCenterConfirmPassword": "Confirm master password",
+  "credentialCenterPasswordShort": "The master password must be at least 8 characters.",
+  "credentialCenterPasswordMismatch": "The two master passwords do not match.",
+  "credentialCenterPasswordHint": "Password hint (optional, synced in plain text)",
+  "credentialCenterDifferentFromAccount": "Use a master password different from your Luotopia account password.",
+  "credentialCenterBiometric": "Unlock with biometrics",
+  "credentialCenterEnable": "Enable Credential Center",
+  "credentialCenterUnlock": "Unlock",
+  "credentialCenterUnlockBiometric": "Unlock with biometrics",
+  "credentialCenterWrongPassword": "Incorrect master password.",
+  "credentialCenterHintPrefix": "Hint: {hint}",
+  "credentialCenterEntries": "Credentials",
+  "credentialCenterEmpty": "No credential entries yet.",
+  "credentialCenterAdd": "Add credential",
+  "credentialCenterService": "Service name",
+  "credentialCenterUsername": "Username",
+  "credentialCenterPassword": "Password",
+  "credentialCenterTotpSecret": "TOTP secret (optional)",
+  "credentialCenterNotes": "Notes (optional)",
+  "credentialCenterImport": "Import from this device",
+  "credentialCenterImported": "Imported or updated {count} credentials.",
+  "credentialCenterNothingToImport": "This device has no credentials to import.",
+  "credentialCenterSyncNow": "Sync now",
+  "credentialCenterLastSync": "Last sync: {time}",
+  "credentialCenterLock": "Lock",
+  "credentialCenterDisable": "Disable Credential Center",
+  "credentialCenterDisableWarning": "Disabling deletes the cloud copy and the local key material; every entry is lost for good.",
+  "credentialCenterBiometricReason": "Authenticate to access your credentials",
+  "credentialCenterRemoveEntry": "The entry will be removed from the cloud and from this device.",
+  "credentialCenterCopied": "Copied",
+  "appLockScopeCredentialCenter": "Credential Center",
+  "scoreCloudTitle": "Grade cloud backup",
+  "scoreCloudSubtitle": "Sync grade caches and GPA settings across devices",
+  "scoreCloudHint": "Backs up every WHU account's grade cache and GPA settings to this account (spoiler credentials excluded). Restoring overwrites the local grade caches with the cloud copy.",
+  "scoreCloudConsent": "Sync grades for this account",
+  "scoreCloudUpload": "Upload local grades",
+  "scoreCloudRestore": "Restore cloud grades",
+  "scoreCloudRestoreConfirm": "I have reviewed the cloud copy and accept that it overwrites the local grade caches.",
+  "scoreCloudSummary": "{students} student IDs · {items} grades · {size} KiB",
+  "scoreCloudTooLarge": "The grade backup exceeds 512 KiB; clear some cached terms and retry.",
+  "scoreCloudRestored": "Local grade caches updated.",
+"@credentialCenterHintPrefix": {
+    "placeholders": {
+      "hint": {
+        "type": "String"
+      }
+    }
+  },
+  "@credentialCenterImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@credentialCenterLastSync": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@scoreCloudSummary": {
+    "placeholders": {
+      "students": {
+        "type": "int"
+      },
+      "items": {
+        "type": "int"
+      },
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "agendaCloudTitle": "Agenda cloud backup",
+  "agendaCloudSubtitle": "Sync personal agenda across devices (courses ride with the timetable)",
+  "agendaCloudHint": "Backs up this device's personal agenda (course items excluded — they travel with the timetable backup) to this account. Restoring replaces the local personal agenda with the cloud copy.",
+  "agendaCloudConsent": "Sync agenda for this account",
+  "agendaCloudUpload": "Upload local agenda",
+  "agendaCloudRestore": "Restore cloud agenda",
+  "agendaCloudRestoreConfirm": "I have reviewed the cloud copy and accept that it replaces the local personal agenda.",
+  "agendaCloudSummary": "{count} items · {size} KiB",
+  "agendaCloudTooLarge": "The agenda backup exceeds 512 KiB; remove some items and retry.",
+  "agendaCloudRestored": "Local personal agenda updated.",
+  "credentialCenterChangePassword": "Change master password",
+  "credentialCenterNewPassword": "New master password",
+  "credentialCenterConfirmNewPassword": "Confirm new master password",
+  "credentialCenterPasswordChanged": "Master password updated.",
+"@agendaCloudSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "int"
+      }
+    }
+  }
 }
