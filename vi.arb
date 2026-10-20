@@ -1155,6 +1155,12 @@
   "settingsHapticHigh": "Cao",
   "settingsFeaturesEntryTitle": "Tính năng",
   "settingsFeaturesEntrySubtitle": "Widget, trang chủ, AI và thời tiết",
+  "settingsSpeechEntryTitle": "Giọng nói",
+  "settingsSpeechEntrySubtitle": "Giọng đọc, công cụ và nhận dạng",
+  "settingsSpeechNavigationSection": "Dẫn đường trên bản đồ khuôn viên",
+  "settingsSpeechNavigationMuted": "Mặc định tắt tiếng",
+  "settingsSpeechNavigationMutedHint": "Bắt đầu dẫn đường không có thông báo thoại; bạn có thể bật lại bất cứ lúc nào.",
+  "settingsSpeechNavigationCueLead": "Khoảng cách báo trước khi rẽ (m)",
   "settingsGeneral": "Chung",
   "settingsGeneralEntrySubtitle": "Điều hướng, thông báo và bộ nhớ đệm",
   "settingsGeneralEntryTitle": "Chung",
@@ -5805,7 +5811,7 @@
   "aiSpeechRate": "Tốc độ",
   "aiSpeechPitch": "Cao độ",
   "aiSpeechVolume": "Âm lượng",
-  "aiSpeechPreviewText": "Xin chào. Đây là giọng nói AI bạn đã chọn.",
+  "aiSpeechPreviewText": "Xin chào. Đây là giọng nói bạn đã chọn.",
   "aiSpeechPreview": "Nghe thử giọng nói hiện tại",
   "aiMcpImportFailed": "Không thể nhập cấu hình máy chủ MCP",
   "whuTotpSectionTitle": "Mã xác thực",
@@ -6522,6 +6528,60 @@
   "campusMapPickerResolving": "Đang tra cứu địa chỉ…",
   "campusMapPickerNoAddress": "Không tra được địa chỉ; tọa độ vẫn dùng được",
   "campusMapPickerConfirm": "Dùng vị trí này",
+  "campusMapRoutePlan": "Chỉ đường",
+  "campusMapRoutePlanning": "Đang tìm đường…",
+  "campusMapRoutePlanFailed": "Không thể tìm đường. Vui lòng thử lại sau.",
+  "campusMapRouteOriginFallback": "Không có vị trí hiện tại — lộ trình bắt đầu từ trung tâm khuôn viên.",
+  "campusMapProfileWalking": "Đi bộ",
+  "campusMapProfileBicycle": "Đạp xe",
+  "campusMapProfileDriving": "Lái xe",
+  "campusMapRouteSteps": "Các bước lộ trình",
+  "campusMapStartNavigation": "Bắt đầu dẫn đường",
+  "campusMapSimulateNavigation": "Mô phỏng",
+  "campusMapStopNavigation": "Kết thúc",
+  "campusMapNavigationMute": "Tắt tiếng",
+  "campusMapNavigationUnmute": "Bật tiếng",
+  "campusMapNavigationAwaitingFix": "Đang chờ vị trí…",
+  "campusMapNavigationArrived": "Đã đến nơi",
+  "campusMapRouteClose": "Đóng lộ trình",
+  "campusMapNavigationRemaining": "Còn {distance} · {duration}",
+  "@campusMapNavigationRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "campusMapDurationMinutes": "{minutes} phút",
+  "@campusMapDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHours": "{hours} giờ",
+  "@campusMapDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHoursMinutes": "{hours} giờ {minutes} phút",
+  "@campusMapDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignLocationSourceTitle": "Nguồn vị trí",
   "chaoxingSignLocationModeDevice": "Vị trí của tôi",
   "chaoxingSignLocationModePicked": "Chọn trên bản đồ",

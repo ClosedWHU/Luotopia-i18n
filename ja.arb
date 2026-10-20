@@ -1244,6 +1244,12 @@
   "settingsHapticHigh": "強",
   "settingsFeaturesEntryTitle": "機能設定",
   "settingsFeaturesEntrySubtitle": "ウィジェット、ホーム、AI、天気",
+  "settingsSpeechEntryTitle": "音声",
+  "settingsSpeechEntrySubtitle": "声・読み上げエンジン・音声認識",
+  "settingsSpeechNavigationSection": "キャンパスマップのナビ",
+  "settingsSpeechNavigationMuted": "既定でミュート",
+  "settingsSpeechNavigationMutedHint": "音声案内なしでナビを始めます。案内はいつでもオンにできます。",
+  "settingsSpeechNavigationCueLead": "曲がる前の案内距離（m）",
   "settingsGeneral": "一般",
   "settingsGeneralEntrySubtitle": "ナビゲーション、通知、キャッシュ",
   "settingsGeneralEntryTitle": "一般",
@@ -5905,7 +5911,7 @@
   "aiSpeechRate": "速度",
   "aiSpeechPitch": "ピッチ",
   "aiSpeechVolume": "音量",
-  "aiSpeechPreviewText": "こんにちは。選択した AI 音声です。",
+  "aiSpeechPreviewText": "こんにちは。選択した音声です。",
   "aiSpeechPreview": "現在の音声を試聴",
   "aiMcpImportFailed": "MCP サーバー設定をインポートできませんでした",
   "campusAppCampusMap": "キャンパスマップ",
@@ -6532,6 +6538,60 @@
   "campusMapPickerResolving": "住所を解決中…",
   "campusMapPickerNoAddress": "住所を解決できませんでした。座標はそのまま使えます",
   "campusMapPickerConfirm": "この場所を使う",
+  "campusMapRoutePlan": "経路",
+  "campusMapRoutePlanning": "経路を検索中…",
+  "campusMapRoutePlanFailed": "経路を計算できませんでした。後でもう一度お試しください。",
+  "campusMapRouteOriginFallback": "現在地を取得できないため、キャンパス中心を出発点にしました。",
+  "campusMapProfileWalking": "徒歩",
+  "campusMapProfileBicycle": "自転車",
+  "campusMapProfileDriving": "車",
+  "campusMapRouteSteps": "経路の詳細",
+  "campusMapStartNavigation": "ナビを開始",
+  "campusMapSimulateNavigation": "シミュレーション",
+  "campusMapStopNavigation": "ナビを終了",
+  "campusMapNavigationMute": "ミュート",
+  "campusMapNavigationUnmute": "ミュート解除",
+  "campusMapNavigationAwaitingFix": "位置情報を取得中…",
+  "campusMapNavigationArrived": "目的地付近に到着しました",
+  "campusMapRouteClose": "経路を閉じる",
+  "campusMapNavigationRemaining": "残り {distance} · {duration}",
+  "@campusMapNavigationRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "campusMapDurationMinutes": "{minutes}分",
+  "@campusMapDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHours": "{hours}時間",
+  "@campusMapDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHoursMinutes": "{hours}時間{minutes}分",
+  "@campusMapDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignLocationSourceTitle": "位置情報の取得元",
   "chaoxingSignLocationModeDevice": "現在地",
   "chaoxingSignLocationModePicked": "地図で選択",

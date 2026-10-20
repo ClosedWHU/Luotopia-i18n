@@ -3111,7 +3111,7 @@
   "aiSpeechEngine": "語音引擎",
   "aiSpeechPitch": "音高",
   "aiSpeechPreview": "預覽目前語音",
-  "aiSpeechPreviewText": "你好，這是你選擇的 AI 語音。",
+  "aiSpeechPreviewText": "你好，這是你選擇的語音。",
   "aiSpeechRate": "語速",
   "aiSpeechRecognitionService": "語音辨識服務",
   "aiSpeechSpeechToText": "speech_to_text (system)",
@@ -5862,6 +5862,12 @@
   "settingsDeveloperSubtitle": "伺服器位址與測試選項",
   "settingsDeveloperTitle": "開發者設定",
   "settingsFeaturesEntrySubtitle": "小組件、主頁、AI 與天氣",
+  "settingsSpeechEntryTitle": "語音",
+  "settingsSpeechEntrySubtitle": "音色、朗讀引擎與語音辨識",
+  "settingsSpeechNavigationSection": "校園地圖導航",
+  "settingsSpeechNavigationMuted": "預設靜音",
+  "settingsSpeechNavigationMutedHint": "開始導航時不播報，導航中仍可隨時開啟",
+  "settingsSpeechNavigationCueLead": "路口播報提前量（公尺）",
   "settingsFeaturesEntryTitle": "功能設定",
   "settingsFriendLinksEmpty": "暫無友情連結",
   "settingsFriendLinksSubtitle": "合作夥伴、社群與相關專案",
@@ -7239,6 +7245,60 @@
   "campusMapPickerResolving": "正在解析地址…",
   "campusMapPickerNoAddress": "沒能解析出地址，座標仍然有效",
   "campusMapPickerConfirm": "使用此位置",
+  "campusMapRoutePlan": "路線",
+  "campusMapRoutePlanning": "正在規劃路線…",
+  "campusMapRoutePlanFailed": "無法規劃路線，請稍後再試",
+  "campusMapRouteOriginFallback": "未取得目前位置，已改用校園中心作為起點",
+  "campusMapProfileWalking": "步行",
+  "campusMapProfileBicycle": "騎行",
+  "campusMapProfileDriving": "駕車",
+  "campusMapRouteSteps": "路線詳情",
+  "campusMapStartNavigation": "開始導航",
+  "campusMapSimulateNavigation": "模擬導航",
+  "campusMapStopNavigation": "結束導航",
+  "campusMapNavigationMute": "靜音",
+  "campusMapNavigationUnmute": "取消靜音",
+  "campusMapNavigationAwaitingFix": "正在取得定位…",
+  "campusMapNavigationArrived": "已抵達目的地附近",
+  "campusMapRouteClose": "關閉路線",
+  "campusMapNavigationRemaining": "剩餘 {distance} · {duration}",
+  "@campusMapNavigationRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "campusMapDurationMinutes": "{minutes} 分鐘",
+  "@campusMapDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHours": "{hours} 小時",
+  "@campusMapDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHoursMinutes": "{hours} 小時 {minutes} 分鐘",
+  "@campusMapDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignLocationSourceTitle": "位置來源",
   "chaoxingSignLocationModeDevice": "我的位置",
   "chaoxingSignLocationModePicked": "地圖選點",

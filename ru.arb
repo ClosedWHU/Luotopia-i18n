@@ -924,6 +924,12 @@
   "settingsHapticHigh": "Высокая",
   "settingsFeaturesEntryTitle": "Функции",
   "settingsFeaturesEntrySubtitle": "Виджеты, главная, ИИ и погода",
+  "settingsSpeechEntryTitle": "Речь",
+  "settingsSpeechEntrySubtitle": "Голос, движок озвучивания и распознавание",
+  "settingsSpeechNavigationSection": "Навигация по карте кампуса",
+  "settingsSpeechNavigationMuted": "По умолчанию без звука",
+  "settingsSpeechNavigationMutedHint": "Навигация начинается без голосовых подсказок; включить их можно в любой момент.",
+  "settingsSpeechNavigationCueLead": "Запас до озвучивания манёвра (м)",
   "settingsGeneral": "Основные",
   "settingsGeneralEntrySubtitle": "Навигация, уведомления и кэш",
   "settingsGeneralEntryTitle": "Основное",
@@ -5881,7 +5887,7 @@
   "aiSpeechRate": "Скорость",
   "aiSpeechPitch": "Высота тона",
   "aiSpeechVolume": "Громкость",
-  "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос ИИ.",
+  "aiSpeechPreviewText": "Здравствуйте. Это выбранный голос.",
   "aiSpeechPreview": "Прослушать текущий голос",
   "aiMcpImportFailed": "Не удалось импортировать конфигурацию MCP-сервера",
   "campusAppCampusMap": "Карта кампуса",
@@ -6508,6 +6514,60 @@
   "campusMapPickerResolving": "Определяем адрес…",
   "campusMapPickerNoAddress": "Адрес не определён; координаты остаются в силе",
   "campusMapPickerConfirm": "Использовать это место",
+  "campusMapRoutePlan": "Маршрут",
+  "campusMapRoutePlanning": "Построение маршрута…",
+  "campusMapRoutePlanFailed": "Не удалось построить маршрут. Повторите попытку позже.",
+  "campusMapRouteOriginFallback": "Местоположение недоступно — маршрут построен от центра кампуса.",
+  "campusMapProfileWalking": "Пешком",
+  "campusMapProfileBicycle": "На велосипеде",
+  "campusMapProfileDriving": "На машине",
+  "campusMapRouteSteps": "Шаги маршрута",
+  "campusMapStartNavigation": "Начать навигацию",
+  "campusMapSimulateNavigation": "Симуляция",
+  "campusMapStopNavigation": "Завершить",
+  "campusMapNavigationMute": "Без звука",
+  "campusMapNavigationUnmute": "Включить звук",
+  "campusMapNavigationAwaitingFix": "Ожидание координат…",
+  "campusMapNavigationArrived": "Вы прибыли",
+  "campusMapRouteClose": "Закрыть маршрут",
+  "campusMapNavigationRemaining": "Осталось {distance} · {duration}",
+  "@campusMapNavigationRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "campusMapDurationMinutes": "{minutes} мин",
+  "@campusMapDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHours": "{hours} ч",
+  "@campusMapDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHoursMinutes": "{hours} ч {minutes} мин",
+  "@campusMapDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignLocationSourceTitle": "Источник местоположения",
   "chaoxingSignLocationModeDevice": "Моё местоположение",
   "chaoxingSignLocationModePicked": "Выбрать на карте",

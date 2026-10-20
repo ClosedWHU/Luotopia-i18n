@@ -377,7 +377,7 @@
   "aiSpeechRate": "语速",
   "aiSpeechPitch": "音调",
   "aiSpeechVolume": "音量",
-  "aiSpeechPreviewText": "你好，这是当前选择的 AI 音色。",
+  "aiSpeechPreviewText": "你好，这是当前选择的音色。",
   "aiSpeechPreview": "试听当前音色",
   "aiMcpImportFailed": "无法导入 MCP 服务器配置",
   "settingsAiCapabilityImageGeneration": "图像生成",
@@ -1056,6 +1056,12 @@
   "settingsHapticHigh": "高",
   "settingsFeaturesEntryTitle": "功能设置",
   "settingsFeaturesEntrySubtitle": "小组件、主页、AI 与天气",
+  "settingsSpeechEntryTitle": "语音",
+  "settingsSpeechEntrySubtitle": "音色、朗读引擎与语音识别",
+  "settingsSpeechNavigationSection": "校园地图导航",
+  "settingsSpeechNavigationMuted": "默认静音",
+  "settingsSpeechNavigationMutedHint": "开始导航时不播报，导航中仍可随时打开",
+  "settingsSpeechNavigationCueLead": "路口播报提前量（米）",
   "settingsGeneral": "通用",
   "settingsGeneralEntrySubtitle": "导航栏、通知与缓存",
   "settingsGeneralEntryTitle": "通用设置",
@@ -6946,6 +6952,60 @@
   "campusMapPickerResolving": "正在解析地址…",
   "campusMapPickerNoAddress": "没能解析出地址，坐标仍然有效",
   "campusMapPickerConfirm": "使用此位置",
+  "campusMapRoutePlan": "路径",
+  "campusMapRoutePlanning": "正在规划路径…",
+  "campusMapRoutePlanFailed": "路径规划失败，请稍后重试",
+  "campusMapRouteOriginFallback": "未获取到当前位置，已改用校园中心作为起点",
+  "campusMapProfileWalking": "步行",
+  "campusMapProfileBicycle": "骑行",
+  "campusMapProfileDriving": "驾车",
+  "campusMapRouteSteps": "路线详情",
+  "campusMapStartNavigation": "开始导航",
+  "campusMapSimulateNavigation": "模拟导航",
+  "campusMapStopNavigation": "结束导航",
+  "campusMapNavigationMute": "静音",
+  "campusMapNavigationUnmute": "取消静音",
+  "campusMapNavigationAwaitingFix": "正在获取定位…",
+  "campusMapNavigationArrived": "已到达目的地附近",
+  "campusMapRouteClose": "关闭路线",
+  "campusMapNavigationRemaining": "剩余 {distance} · {duration}",
+  "@campusMapNavigationRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "campusMapDurationMinutes": "{minutes} 分钟",
+  "@campusMapDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHours": "{hours} 小时",
+  "@campusMapDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHoursMinutes": "{hours} 小时 {minutes} 分钟",
+  "@campusMapDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignLocationSourceTitle": "位置来源",
   "chaoxingSignLocationModeDevice": "我的位置",
   "chaoxingSignLocationModePicked": "地图选点",

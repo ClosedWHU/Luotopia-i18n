@@ -926,6 +926,12 @@
   "settingsHapticHigh": "Alta",
   "settingsFeaturesEntryTitle": "Funciones",
   "settingsFeaturesEntrySubtitle": "Widgets, inicio, IA y clima",
+  "settingsSpeechEntryTitle": "Voz",
+  "settingsSpeechEntrySubtitle": "Voz, motor de lectura y reconocimiento",
+  "settingsSpeechNavigationSection": "Navegación del mapa del campus",
+  "settingsSpeechNavigationMuted": "Silenciado por defecto",
+  "settingsSpeechNavigationMutedHint": "Empieza a navegar sin indicaciones de voz; puedes activarlas cuando quieras.",
+  "settingsSpeechNavigationCueLead": "Antelación del aviso de giro (m)",
   "settingsGeneral": "General",
   "settingsGeneralEntrySubtitle": "Navegación, notificaciones y caché",
   "settingsGeneralEntryTitle": "General",
@@ -5891,7 +5897,7 @@
   "aiSpeechRate": "Velocidad",
   "aiSpeechPitch": "Tono",
   "aiSpeechVolume": "Volumen",
-  "aiSpeechPreviewText": "Hola. Esta es la voz de IA seleccionada.",
+  "aiSpeechPreviewText": "Hola. Esta es la voz seleccionada.",
   "aiSpeechPreview": "Previsualizar la voz actual",
   "aiMcpImportFailed": "No se ha podido importar la configuración del servidor MCP",
   "campusAppCampusMap": "Mapa del campus",
@@ -6518,6 +6524,60 @@
   "campusMapPickerResolving": "Resolviendo la dirección…",
   "campusMapPickerNoAddress": "No se pudo resolver la dirección; las coordenadas siguen siendo válidas",
   "campusMapPickerConfirm": "Usar esta ubicación",
+  "campusMapRoutePlan": "Cómo llegar",
+  "campusMapRoutePlanning": "Calculando la ruta…",
+  "campusMapRoutePlanFailed": "No se pudo calcular la ruta. Inténtalo de nuevo más tarde.",
+  "campusMapRouteOriginFallback": "Sin ubicación disponible: la ruta empieza en el centro del campus.",
+  "campusMapProfileWalking": "A pie",
+  "campusMapProfileBicycle": "En bici",
+  "campusMapProfileDriving": "En coche",
+  "campusMapRouteSteps": "Pasos de la ruta",
+  "campusMapStartNavigation": "Empezar a navegar",
+  "campusMapSimulateNavigation": "Simular",
+  "campusMapStopNavigation": "Terminar",
+  "campusMapNavigationMute": "Silenciar",
+  "campusMapNavigationUnmute": "Activar sonido",
+  "campusMapNavigationAwaitingFix": "Esperando la ubicación…",
+  "campusMapNavigationArrived": "Has llegado",
+  "campusMapRouteClose": "Cerrar ruta",
+  "campusMapNavigationRemaining": "Quedan {distance} · {duration}",
+  "@campusMapNavigationRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "campusMapDurationMinutes": "{minutes} minutos",
+  "@campusMapDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHours": "{hours} horas",
+  "@campusMapDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHoursMinutes": "{hours} horas {minutes} minutos",
+  "@campusMapDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignLocationSourceTitle": "Origen de la ubicación",
   "chaoxingSignLocationModeDevice": "Mi ubicación",
   "chaoxingSignLocationModePicked": "Elegir en el mapa",

@@ -513,7 +513,7 @@
   "aiSpeechRate": "Rate",
   "aiSpeechPitch": "Pitch",
   "aiSpeechVolume": "Volume",
-  "aiSpeechPreviewText": "Hello. This is your selected AI voice.",
+  "aiSpeechPreviewText": "Hello. This is your selected voice.",
   "aiSpeechPreview": "Preview current voice",
   "aiMcpImportFailed": "Unable to import MCP server configuration",
   "settingsAiCapabilityImageGeneration": "Image generation",
@@ -1447,6 +1447,12 @@
   "settingsHapticHigh": "High",
   "settingsFeaturesEntryTitle": "Features",
   "settingsFeaturesEntrySubtitle": "Widgets, home, AI, and weather",
+  "settingsSpeechEntryTitle": "Speech",
+  "settingsSpeechEntrySubtitle": "Voice, speech engine and recognition",
+  "settingsSpeechNavigationSection": "Campus map navigation",
+  "settingsSpeechNavigationMuted": "Muted by default",
+  "settingsSpeechNavigationMutedHint": "Start navigation without voice cues; you can unmute at any time.",
+  "settingsSpeechNavigationCueLead": "Turn cue lead distance (m)",
   "settingsGeneral": "General",
   "settingsGeneralEntrySubtitle": "Navigation, notifications and cache",
   "settingsGeneralEntryTitle": "General",
@@ -8047,6 +8053,60 @@
   "campusMapPickerResolving": "Resolving address…",
   "campusMapPickerNoAddress": "No address resolved — the coordinates still apply",
   "campusMapPickerConfirm": "Use this location",
+  "campusMapRoutePlan": "Directions",
+  "campusMapRoutePlanning": "Planning the route…",
+  "campusMapRoutePlanFailed": "Could not plan a route. Try again later.",
+  "campusMapRouteOriginFallback": "No location available — routed from the campus centre instead.",
+  "campusMapProfileWalking": "Walk",
+  "campusMapProfileBicycle": "Cycle",
+  "campusMapProfileDriving": "Drive",
+  "campusMapRouteSteps": "Route steps",
+  "campusMapStartNavigation": "Start navigation",
+  "campusMapSimulateNavigation": "Simulate",
+  "campusMapStopNavigation": "End navigation",
+  "campusMapNavigationMute": "Mute",
+  "campusMapNavigationUnmute": "Unmute",
+  "campusMapNavigationAwaitingFix": "Waiting for a location fix…",
+  "campusMapNavigationArrived": "You have arrived",
+  "campusMapRouteClose": "Close route",
+  "campusMapNavigationRemaining": "{distance} · {duration} left",
+  "@campusMapNavigationRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "campusMapDurationMinutes": "{minutes} min",
+  "@campusMapDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHours": "{hours} h",
+  "@campusMapDurationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "campusMapDurationHoursMinutes": "{hours} h {minutes} min",
+  "@campusMapDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "chaoxingSignLocationSourceTitle": "Location source",
   "chaoxingSignLocationModeDevice": "My location",
   "chaoxingSignLocationModePicked": "Pick on map",
