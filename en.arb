@@ -11064,5 +11064,27 @@
           "type": "String"
         }
     }
+  },
+  "cardTransactionsTitle": "Transactions",
+  "cardTransactionsHint": "View spending, top-ups and other transactions for the selected dates.",
+  "cardTransactionsEmpty": "No transactions in this date range.",
+  "cardTransactionsLoadFailed": "Unable to load transactions. Please try again.",
+  "cardTransactionsNetworkError": "Connection failed. Check your network and retry.",
+  "cardTransactionsQueryRejected": "The query was rejected. Try another date range.",
+  "cardTransactionsInvalidData": "The transaction data could not be read. Please try again.",
+  "cardTransactionsIncomplete": "Some records may be missing. Try a shorter date range.",
+  "cardTransactionsCount": "{count} transactions",
+  "cardTransactionsBalance": "Balance",
+  "cardTransactionsDate": "Transaction time",
+  "cardTransactionsActualTime": "Actual transaction time",
+  "cardTransactionsPayAmount": "Payment amount",
+  "cardTransactionsDiscount": "Discount",
+  "cardTransactionsRemark": "Remark",
+  "@cardTransactionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   }
 }
