@@ -11082,5 +11082,84 @@
         "type": "int"
       }
     }
-  }
+  },
+  "systemCalendarTitle": "System calendar sync",
+  "systemCalendarDescription": "Each selected timetable has its own calendar. Home visibility does not affect syncing.",
+  "systemCalendarMaster": "Automatic sync",
+  "systemCalendarConsentTitle": "Enable calendar sync",
+  "systemCalendarConsentBody": "Create one calendar per selected timetable. Course events follow Luotopia; calendar and timetable names sync both ways. Manual changes to managed events may be overwritten. Only managed events are maintained; other events are not uploaded or changed. Use one authoritative device. Previously imported ICS events may appear twice. iCloud propagation is handled by Apple.",
+  "systemCalendarContinue": "Continue",
+  "systemCalendarCreateTarget": "Create a calendar in this account",
+  "systemCalendarExistingTarget": "Use an existing writable calendar",
+  "systemCalendarExistingConsent": "Bind this calendar? It will be renamed to the timetable name and will sync names both ways. Existing events remain unchanged. Each calendar can only bind to one timetable.",
+  "systemCalendarSelectTarget": "Choose calendar account or target",
+  "systemCalendarKeep": "Keep events",
+  "systemCalendarClean": "Remove managed events",
+  "systemCalendarStopBody": "Stop syncing “{name}”? Choose whether to keep its {count} managed events. Other events and the calendar itself will remain.",
+  "@systemCalendarStopBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "systemCalendarCount": "{count} managed events",
+  "@systemCalendarCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "systemCalendarLastSync": "Last synced: {time}",
+  "@systemCalendarLastSync": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "systemCalendarNever": "Not synced yet",
+  "systemCalendarPaused": "Paused",
+  "systemCalendarReady": "Synced",
+  "systemCalendarWorking": "Syncing…",
+  "systemCalendarSyncNow": "Sync now",
+  "systemCalendarRepair": "Repair sync",
+  "systemCalendarRepairBody": "Confirm that the local timetable is complete. Repair may recreate managed lessons whose identities cannot be matched, and remove obsolete managed events. Other events remain unchanged.",
+  "systemCalendarDeleteBody": "This will remove {count} obsolete managed events from this timetable’s calendar. Continue?",
+  "@systemCalendarDeleteBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "systemCalendarPermission": "Full calendar access is required. Allow access in system settings, then retry.",
+  "systemCalendarTargetMissing": "The target calendar or account is unavailable. Choose its existing calendar to repair the binding.",
+  "systemCalendarIdentityError": "Some lessons cannot be matched safely. Confirm the current timetable, then repair sync.",
+  "systemCalendarIncompleteError": "The timetable is unreadable or a previous update was interrupted. Check the local timetable before repairing sync.",
+  "systemCalendarOwnershipError": "This binding belongs to another device, or event ownership cannot be verified. Sync has stopped to protect existing events.",
+  "systemCalendarGenericError": "Calendar sync failed. Saved courses are unaffected; retry or repair sync.",
+  "systemCalendarTargetBusy": "This calendar is already bound to another timetable.",
+  "systemCalendarNoTargets": "No writable calendar or account is available. Add a calendar account in system settings, then retry.",
+  "systemCalendarReminder": "Course reminders",
+  "systemCalendarReminderNone": "No reminders",
+  "systemCalendarReminderMinutes": "{minutes} minutes before",
+  "@systemCalendarReminderMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "systemCalendarBusy": "Show courses as busy when supported",
+  "systemCalendarRepairTarget": "Choose existing calendar to repair",
+  "systemCalendarRemoved": "Timetable removed; events retained. You can remove managed events here.",
+  "systemCalendarNotEnabled": "Not enabled",
+  "systemCalendarUnsupported": "Available on iPhone and iPad",
+  "systemCalendarSourceBusy": "Wait for the timetable update to finish.",
+  "systemCalendarUnboundedCourse": "This timetable contains a recurring course without an end date. Set an end date or expand its teaching weeks before syncing."
 }
