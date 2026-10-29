@@ -11175,5 +11175,38 @@
   "alarmSavedFallback": "Saved. Alarm access is unavailable; ordinary notification settings apply.",
   "alarmSavedDisabled": "Saved. Reminders are disabled in notification settings.",
   "alarmSavedNoUpcoming": "Saved. No upcoming alarm falls within the next 14 days.",
-  "alarmSavedFailed": "Saved, but alarms could not be confirmed. Check your reminder settings and try again."
+  "alarmSavedFailed": "Saved, but alarms could not be confirmed. Check your reminder settings and try again.",
+  "campusSectionPinned": "Favorites",
+  "campusSectionAcademic": "Courses & Academics",
+  "campusSectionStudy": "Study & Resources",
+  "campusSectionPayments": "Card & Payments",
+  "campusSectionLife": "Campus Life",
+  "campusSectionNetwork": "Network & News",
+  "campusSectionUngrouped": "Ungrouped",
+  "campusSectionHidden": "Hidden",
+  "campusSectionAdd": "New section",
+  "campusSectionDefaultName": "New section",
+  "campusSectionLayoutHint": "Drag apps between sections to rearrange",
+  "campusSectionDropHere": "Drop apps here",
+  "campusSectionReleaseToCreate": "Release to create a section",
+  "campusSwitchToSections": "Use sections layout",
+  "campusSwitchToGrid": "Use grid layout",
+  "campusSwitchToSectionsTitle": "Switch to sections?",
+  "campusSwitchToSectionsContent": "Your folders become sections, and the remaining apps are filed under default sections. You can switch back any time.",
+  "campusRenameSection": "Rename section",
+  "campusDeleteSectionTitle": "Delete this section?",
+  "campusDeleteSectionContent": "Its apps move to Ungrouped. Nothing is hidden or lost.",
+  "campusSectionEditTitle": "Edit sections",
+  "campusSectionDropPosition": "Place in “{section}” at position {position}",
+  "@campusSectionDropPosition": {
+    "description": "Destination and one-based position of the app being dragged.",
+    "placeholders": {
+      "section": {
+        "type": "String"
+      },
+      "position": {
+        "type": "int"
+      }
+    }
+  }
 }
