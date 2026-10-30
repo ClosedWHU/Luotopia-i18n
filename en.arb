@@ -11199,5 +11199,30 @@
         "type": "int"
       }
     }
-  }
+  },
+  "locationSetFixedLocation": "Set fixed location",
+  "campusBusDegradeSettings": "Fallback settings",
+  "campusBusDegradedCaption": "Fallback view: vehicles by line",
+  "campusBusAtStop": "At {stop}",
+  "@campusBusAtStop": {
+    "placeholders": {
+      "stop": {
+        "type": "String"
+      }
+    }
+  },
+  "campusBusPastStop": "Past {stop}",
+  "@campusBusPastStop": {
+    "placeholders": {
+      "stop": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsBusCardSectionTitle": "Campus bus card",
+  "settingsBusCardDegradeMode": "Fallback display",
+  "settingsBusCardDegradeSubtitle": "Auto: list each line's vehicles when location is off or you are away from campus",
+  "busDegradeModeNever": "Never",
+  "busDegradeModeAuto": "Auto",
+  "busDegradeModeAlways": "Always"
 }
