@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "Santé mentale",
   "campusFolderComputing": "Informatique",
-  "campusComputingGroupSettingHint": "Outils de l'école d'informatique. Ils apparaissent d'eux-mêmes dès la connexion avec un profil de cette école.",
   "campusFolderHealth": "Santé",
   "campusAppVoteTicket": "Réservation de billets",
   "voteTicketEmpty": "Aucune activité de billets",
@@ -170,7 +169,6 @@
   "opacSubmitting": "Envoi en cours",
   "opacReserve": "Réserver",
   "opacConfirmReserve": "Confirmer la réservation",
-  "opacReserveMessage": "Réserver cet exemplaire ?",
   "opacReserveSubmitted": "Demande de réservation envoyée",
   "opacNoCurrent": "Aucun prêt en cours",
   "opacCheckRenew": "Charger le prêt et vérifier la prolongation",
@@ -194,7 +192,6 @@
   "opacRenewUpdated": "Prolongation effectuée. Informations du prêt actualisées.",
   "opacRenewRefreshFailed": "Prolongation effectuée, mais actualisation impossible. Faites glisser vers le bas pour actualiser ; ne prolongez pas à nouveau.",
   "opacRefreshLoans": "Actualiser les prêts",
-  "opacLoadingLoans": "Chargement des prêts",
   "opacProfileSaved": "Informations enregistrées sur le serveur de la bibliothèque",
   "opacSaveUnconfirmed": "Enregistrement non confirmé. Revenez et actualisez pour vérifier. Si la session a expiré, rouvrez la page de modification.",
   "opacContactHelp": "Vous pouvez modifier l’adresse postale, le destinataire et les coordonnées. Le numéro de lecteur et l’identité d’authentification restent inchangés.",
@@ -524,7 +521,6 @@
   "commonRegister": "S’inscrire",
   "commonRegistrationTime": "Date d’inscription",
   "commonUsername": "Nom d’utilisateur",
-  "courseGridSettings": "Paramètres de la grille",
   "gradesReviewsTitle": "Notes et avis",
   "courseImport": "Importation de cours",
   "courseImportSemester": "Semestre",
@@ -677,7 +673,6 @@
   "medicationLowStockThreshold": "Alerte si inférieur ou égal",
   "medicationLowStockAlert": "Stock bas — à racheter",
   "medicationRefill": "Racheter",
-  "medicationTaken": "Pris",
   "medicationFormPill": "Pilule",
   "medicationFormCapsule": "Gélule",
   "medicationFormTablet": "Comprimé",
@@ -691,12 +686,10 @@
   "editorSectionRepeat": "Répéter",
   "editorSectionDateRepeat": "Date et répétition",
   "editorSectionTime": "Heure",
-  "editorSectionDetails": "Détails",
   "editorSectionCourse": "Informations du cours",
   "editorSectionMedication": "Informations sur le médicament",
   "editorSectionLocationNotes": "Lieu et notes",
   "editorRecurrenceTimes": "Heures",
-  "editorRecurrenceWeekdays": "Jours",
   "editorRecurrenceAddTime": "Ajouter une heure",
   "editorRecurrenceMonthDays": "Jours du mois",
   "editorRecurrenceMonthDayPolicy": "Si le mois n'a pas ce jour",
@@ -704,7 +697,6 @@
   "editorRecurrenceClampLastDay": "Dernier jour du mois",
   "editorMomentToggle": "Instant (sans durée)",
   "editorReminderCustom": "Personnalisé",
-  "editorReminderAdd": "Ajouter un rappel",
   "editorSubmitInvalid": "Veuillez d'abord corriger les champs en surbrillance.",
   "editorSubmitSuccess": "L'élément a été enregistré.",
   "editorTeacher": "Enseignant",
@@ -926,6 +918,8 @@
   "settingsHapticMedium": "Moyen",
   "settingsHapticHigh": "Élevé",
   "settingsFeaturesEntryTitle": "Fonctionnalités",
+  "settingsPagesSectionTitle": "Paramètres des pages",
+  "settingsFeaturesSectionTitle": "Fonctionnalités",
   "settingsFeaturesEntrySubtitle": "Widgets, accueil, IA et météo",
   "settingsSpeechEntryTitle": "Voix",
   "settingsSpeechEntrySubtitle": "Voix, moteur de lecture et reconnaissance",
@@ -1494,17 +1488,6 @@
   "aiConversations": "Conversations",
   "aiNewChat": "Nouveau",
   "aiServiceError": "Erreur du service IA",
-  "aiUntitledItem": "Élément sans titre",
-  "aiMemo": "Mémo",
-  "aiDraftReady": "Brouillon prêt : {title}",
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "aiOpenDraftPage": "Ouvrir le brouillon",
   "aiSend": "Envoyer",
   "aiClearHistory": "Effacer l’historique",
   "aiRename": "Renommer",
@@ -1914,7 +1897,6 @@
     }
   },
   "retry": "Réessayer",
-  "campusFeatureInDevelopment": "Fonctionnalité en cours de développement",
   "libraryVenueList": "Lieux",
   "libraryMyReservations": "Mes réservations",
   "libraryNoVenues": "Aucun lieu disponible",
@@ -1929,7 +1911,6 @@
   "libraryClickForDetails": "Appuyez pour voir étages et places",
   "globalTimetableTitle": "Emploi du temps global",
   "globalTimetableCourseMatching": "Correspondance des cours",
-  "globalTimetableContribute": "Contribuer à l’emploi du temps",
   "globalTimetableLocalImport": "Importer sur cet appareil",
   "globalTimetableLocalImportMessage": "Téléchargez et enregistrez l’année {year}-{nextYear}, semestre {term}, directement depuis le système de scolarité de WHU sur cet appareil. Les données et votre session de connexion au système de scolarité ne seront pas envoyées à Luotopia. Les données locales seront utilisées en priorité pour les recherches et les filtres.",
   "globalTimetableLocalImportStart": "Télécharger et enregistrer",
@@ -1938,7 +1919,6 @@
   "globalTimetableLocalUnsupported": "L’importation locale de l’emploi du temps n’est pas disponible sur cette plateforme.",
   "globalTimetableSourceLocal": "Local",
   "globalTimetableSourceCloud": "Cloud",
-  "globalTimetableSourceCloudUnavailable": "Aucune donnée cloud pour cette période",
   "globalTimetableContributionTitle": "Contribuer à l’emploi du temps de toute l’université",
   "globalTimetableContributionMessage": "Autorisez Luotopia à l’aide d’un ticket WHU CAS à usage unique. Le processus serveur importera {year}-{nextYear}, semestre {term}, directement depuis le système de scolarité de WHU en arrière-plan. Votre identité WHU doit correspondre à celle associée à votre compte Luotopia.",
   "globalTimetableContributionStart": "Autoriser et démarrer",
@@ -1946,7 +1926,6 @@
   "globalTimetableContributionLoginWhu": "Connectez-vous à WHU CAS avant de contribuer.",
   "globalTimetableContributionUnsupported": "La contribution à l’emploi du temps n’est pas disponible sur cette plateforme.",
   "globalTimetableResults": "Résultats : {count}",
-  "globalTimetableCachedData": "Données en cache",
   "globalTimetableTerm": "Semestre {term}",
   "globalTimetableImportStatus": "Importation : {phase}",
   "globalTimetablePhaseAuthorizing": "Autorisation en cours",
@@ -2243,8 +2222,6 @@
   "sportsAuthNoJwt": "Échec d’autorisation : JWT manquant dans la réponse.",
   "sportsAuthFailed": "Échec de l’autorisation du système sportif.",
   "scoreImportDescription": "Après import, les notes sont en cache local pour consultation et GPA.",
-  "scoreImportCaptchaFailed": "Échec de l’analyse du code de vérification",
-  "scoreImportCancelled": "Vérification annulée",
   "scoreImportImportingUndergraduate": "Connexion au système licence et import des notes…",
   "scoreImportImportingCredential": "Téléchargement et analyse locale du justificatif de confiance…",
   "scoreImportSuccessWithCount": "{success} : {count} notes en cache local.",
@@ -2297,7 +2274,6 @@
       }
     }
   },
-  "scoreCaptchaAutoVerifying": "Vérification automatique…",
   "captchaAutoVerifying": "Vérification automatique…",
   "seatReservationAlreadySynced": "Cette réservation est déjà dans l’agenda.",
   "seatReservationAddedToAgenda": "Réservation de place ajoutée à l’agenda.",
@@ -2357,14 +2333,6 @@
   "aiHeaderConfigRequired": "Veuillez d’abord configurer l’IA dans les paramètres.",
   "aiHeaderServiceUnavailable": "Service IA indisponible. Vérifiez la configuration ou le réseau.",
   "aiHeaderRetryLater": "Service IA temporairement indisponible. Réessayez plus tard.",
-  "aiHeaderDraftCreated": "Élément créé via le brouillon : {title}",
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "themeColorLuotopiaBlue": "Bleu Luojia",
   "themeColorMaterialRed": "Rouge Material",
   "themeColorMaterialPink": "Rose Material",
@@ -3029,7 +2997,6 @@
   "onboardingFinishBenefitsTitle": "Avec un compte WHU, vous pouvez",
   "onboardingFinishBenefitTimetable": "Importer et synchroniser votre emploi du temps",
   "onboardingFinishBenefitScores": "Consulter notes et situation académique",
-  "onboardingFinishBenefitCampus": "Utiliser les services campus (carte, réservations…)",
   "onboardingFinishBenefitReservation": "Trouver les salles libres et réserver une place de travail ou un équipement sportif",
   "onboardingFinishBenefitCard": "Recharger la carte du campus, payer par code et régler les factures",
   "onboardingFinishBenefitServices": "Position des navettes en direct, prêts de la bibliothèque et services de santé du campus",
@@ -3164,7 +3131,6 @@
   "messagesFilterAll": "Toutes les sources",
   "messagesEmpty": "Aucun message",
   "messagesEmptySubtitle": "Les messages des services du campus apparaitront ici",
-  "messagesLoading": "Chargement des messages…",
   "messagesErrorRetry": "Reessayer",
   "messagesMarkAllRead": "Tout marquer lu",
   "messagesMarkAllReadSuccess": "Tous les messages marqués comme lus",
@@ -3962,7 +3928,6 @@
   "forumSave": "Enregistrer",
   "forumEdit": "Modifier",
   "forumReport": "Signaler",
-  "forumReportReason": "Motif",
   "forumReportSubmitted": "Signalement envoyé.",
   "forumReportSubmittedFlavor": "Enregistré ; en attente de réponse.",
   "forumReportCategory": "Catégorie",
@@ -3971,7 +3936,6 @@
   "forumReportComment": "Signaler le commentaire",
   "forumEditComment": "Modifier le commentaire",
   "forumCommentContent": "Commentaire",
-  "forumModerationRulesTitle": "Règles enfreintes",
   "forumReportCatIllegalViolation": "Illégal et sécurité",
   "forumReportCatSexual": "Contenu sexuel",
   "forumReportCatHarassment": "Haine et harcèlement",
@@ -4058,7 +4022,6 @@
   },
   "forumKarmaInsufficient": "Karma insuffisant",
   "forumKarmaBudgetExhausted": "Quota quotidien épuisé",
-  "forumCheckinTodo": "Pointer",
   "forumCheckinTitle": "Pointage quotidien",
   "forumCheckinFixed": "Voie régulière (+{amount})",
   "@forumCheckinFixed": {
@@ -4254,14 +4217,6 @@
   "detailStatusOverdue": "En retard",
   "detailStatusUpcoming": "À venir",
   "detailStatusInactive": "Finalisation non suivie",
-  "detailConflictWithItems": "Chevauche {items}. Vous pouvez quand même enregistrer.",
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
-      }
-    }
-  },
   "editorCompletionMode": "Finalisation",
   "editorCompletionModeManual": "Finalisation manuelle",
   "editorCompletionModeAutomatic": "Terminer à l’heure de fin",
@@ -4578,9 +4533,6 @@
   "majorInfoEmploymentNoData": "Aucune donnée",
   "forumSearch": "Rechercher",
   "forumMoreActions": "Plus d’actions",
-  "forumMenuSectionContent": "Mon contenu",
-  "forumMenuSectionCommunity": "Communauté",
-  "forumMenuSectionManage": "Gestion",
   "forumSearchQuery": "Rechercher des publications",
   "forumSearchBoard": "Section",
   "forumSearchTag": "Étiquette",
@@ -5111,9 +5063,6 @@
   "adminSystemQueuesDescription": "Tampons de réessai et d'échec en lecture seule.",
   "adminForumSettingsImageUploadLimit": "Limite d'envoi d'images (Mio)",
   "adminForumSettingsAttachmentUploadLimit": "Limite d'envoi de pièces jointes (Mio)",
-  "adminPaginationPrevious": "Page précédente",
-  "adminPaginationNext": "Page suivante",
-  "adminPaginationPageInfo": "Page {page} sur {pages} · {total} éléments",
   "appPaginationFirst": "Première page",
   "appPaginationLast": "Dernière page",
   "appPaginationPrevious": "Page précédente",
@@ -5294,15 +5243,6 @@
   "aiLiveAnsweringDescription": "Génération de la réponse en temps réel",
   "aiLiveProcessing": "Traitement en cours",
   "aiLiveProcessingDescription": "Préparation de l’étape suivante",
-  "aiToolTraceMoreTools": "{visibleTools} et {count} outils au total",
-  "aiToolTraceSucceeded": "{count} réussis",
-  "aiToolTraceFailed": "{count} échoués",
-  "aiToolTraceCancelled": "{count} incomplets",
-  "aiToolTraceSummary": "Appels d’outils : {tools} · {statuses}",
-  "aiToolTraceDetails": "Détails des appels d’outils",
-  "aiToolTraceStatusSucceeded": "Réussi",
-  "aiToolTraceStatusFailed": "Échoué",
-  "aiToolTraceStatusCancelled": "Incomplet",
   "busArrivalStatusArrived": "Arrivé",
   "busArrivalStatusNoInfo": "Pas d'info d'arrivée",
   "busArrivalStatusStopsAway": "{busNum} · à {stopsAway} arrêts",
@@ -5338,10 +5278,7 @@
       }
     }
   },
-  "courseMatchingAdvancedFilters": "Filtres avancés",
   "courseMatchingDayOfWeek": "Jour de la semaine",
-  "courseMatchingFromSection": "De la période",
-  "courseMatchingToSection": "À la période",
   "courseMatchingCourseType": "Type de cours",
   "courseMatchingMinCredits": "Crédits minimum",
   "courseMatchingMaxCredits": "Crédits maximum",
@@ -5382,27 +5319,12 @@
   },
   "courseMatchingConflictFreeOnly": "Sans conflit uniquement",
   "courseMatchingAdd": "Ajouter",
-  "courseMatchingApply": "Appliquer",
-  "courseMatchingReset": "Réinitialiser",
-  "courseMatchingActiveFilters": "{count} actifs",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "Tous",
   "courseMatchingCampus": "Campus",
   "courseMatchingBuilding": "Bâtiment",
   "courseMatchingDepartment": "Département",
   "courseMatchingTeacher": "Enseignant",
-  "courseMatchingSectionRangeError": "La section de début ne doit pas dépasser la section de fin.",
-  "courseMatchingCreditRangeError": "Le crédit minimum ne doit pas dépasser le crédit maximum.",
-  "globalTimetableHistory": "Historique des cours",
   "globalTimetableHistoryHint": "Recherche dans tous les semestres publiés, du plus récent au plus ancien.",
   "globalTimetableHistoryEmpty": "Aucune offre ne correspond à cette requête.",
-  "globalTimetableHistoryUnavailable": "Le serveur ne prend pas encore en charge l’historique des cours.",
   "globalTimetableDownloads": "Données hors ligne",
   "globalTimetableDownloadsSummary": "{count} semestres · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -5434,8 +5356,6 @@
   "globalTimetableSourceAuto": "Auto",
   "globalTimetableLocalMissing": "Ce semestre n’est pas encore disponible hors ligne.",
   "globalTimetableNoSlot": "Sans créneau",
-  "globalTimetableSearchHint": "Cours, enseignant ou code",
-  "globalTimetableEmpty": "Aucun cours trouvé pour cette période.",
   "globalTimetableDetailTitle": "Détails du cours",
   "globalTimetableDetailSlots": "Créneaux de cours",
   "globalTimetableDetailInfo": "Informations du cours",
@@ -5702,7 +5622,6 @@
   "whuMessagesRequestFailed": "Échec de la demande",
   "whuLibraryResultUnknown": "Résultat inconnu de l’opération de la bibliothèque. Veuillez actualiser l’état avant de décider s’il faut réessayer.",
   "sportsAuthFailedCasRequired": "Échec de l’autorisation du système d’installations sportives. Veuillez vous reconnecter via WHU CAS.",
-  "waterControlAccountExchangeFailed": "Échec de l’échange de compte d’eau.",
   "aiImageGeneration": "Générer une image",
   "aiImageGenerationHint": "Décrivez l’image que vous souhaitez créer",
   "aiImageGenerationEmpty": "Vos images générées apparaîtront ici.",
@@ -5883,7 +5802,6 @@
   "aiSpeechEngine": "Moteur vocal",
   "aiSpeechEdge": "Voix en ligne Edge",
   "aiSpeechSttsVoice": "Voix système stts",
-  "aiSpeechVoiceLoadFailed": "Impossible de charger les voix en ligne ; la voix actuelle sera utilisée.",
   "aiSpeechVoice": "Voix",
   "aiSpeechRate": "Vitesse",
   "aiSpeechPitch": "Tonalité",
@@ -6025,7 +5943,6 @@
   "coremailFolderNameRequired": "Saisissez un nom de dossier.",
   "coremailCreate": "Créer",
   "coremailSwitchFolder": "Changer de dossier",
-  "coremailLoadingMailbox": "Chargement de la messagerie…",
   "coremailConnectionFailed": "Échec de la connexion à la messagerie : {error}",
   "@coremailConnectionFailed": {
     "placeholders": {
@@ -6131,8 +6048,6 @@
     }
   },
   "coremailSwitchAccountAction": "Changer de compte",
-  "coremailRequiresWhuAccount": "Lie d'abord un compte WHU pour enregistrer les identifiants de la boîte mail sur cet appareil.",
-  "vpnRequiresWhuAccount": "Lie d'abord un compte WHU pour enregistrer les identifiants du VPN sur cet appareil.",
   "credentialSaveUnavailable": "Impossible d'enregistrer ces identifiants pour le moment. Réessayez dans un instant.",
   "coremailAutoSignInFailed": "Échec de la connexion automatique. Vérifiez votre mot de passe ou reconnectez-vous.",
   "coremailEnterAccountAndPassword": "Saisissez le compte e-mail complet et le mot de passe.",
@@ -6787,7 +6702,6 @@
   "courseReportDecision": "Décision",
   "courseReportReview": "Examiner le signalement",
   "courseReportMine": "Mes signalements",
-  "courseReportSelectCategory": "Sélectionner une catégorie",
   "courseTrustReviews": "Révisions de confiance du cours",
   "courseTrustReviewEmpty": "Aucune révision en attente de révision de confiance",
   "courseTrustReviewHint": "Une adhésion à la classe ou une autorisation d’assistant a changé. Vérifiez les informations acceptées et confirmez-les à nouveau avant une nouvelle synchronisation automatique.",
@@ -6799,11 +6713,6 @@
   "courseAuditTarget": "Cible",
   "courseAuditRequest": "ID de demande",
   "courseClassActive": "Classe d’enseignement active",
-  "courseClassArchived": "Classe d’enseignement archivée · les informations historiques sont en lecture seule",
-  "courseClassArchive": "Archiver la classe d’enseignement",
-  "courseClassArchiveHint": "Archiver cette classe ? Les nouvelles contributions et invitations s’arrêtent et les prochains événements du calendrier sont suspendus. Les enregistrements historiques restent lisibles pour les membres éligibles.",
-  "courseClassRestore": "Restaurer la classe d’enseignement",
-  "courseClassRestoreHint": "Restaurer cette classe avec la date de fin future sélectionnée ? Les anciennes attributions de rôles et la vérification d’étudiant expirée ne sont pas renouvelées automatiquement.",
   "courseProjectionFailureTitle": "Échecs de synchronisation du calendrier du cours",
   "courseProjectionFailureHint": "Ces tâches ont échoué huit fois. Après une nouvelle tentative, vérifiez la tâche et les calendriers concernés.",
   "courseProjectionFailureEmpty": "Aucun échec de synchronisation du calendrier",
@@ -6986,7 +6895,6 @@
   "cgNotificationFailed": "Impossible de mettre à jour les rappels. Vérifiez les autorisations de notification et réessayez.",
   "cgAssignmentNotification": "Mission Cg à venir bientôt",
   "cgExamNotification": "L'examen Cg commence bientôt",
-  "cgUnknownExamTime": "Certaines heures d'examens n'étaient pas lisibles. Vérifiez le site Web d'origine.",
   "cgOpenWebsite": "Ouvrir le site Web d'origine",
   "cgUpdatedAt": "{time} mis à jour",
   "@cgUpdatedAt": {
@@ -7183,7 +7091,6 @@
   "courseSpaceEvidence": "Preuve de vérification",
   "courseSpaceNoEvidence": "Aucune preuve retenue.",
   "courseCaseNotices": "Résultats de l'évaluation du cours",
-  "courseCaseNoticesEmpty": "Aucun résultat d'évaluation pour l'instant.",
   "courseNoticeInbox": "Mises à jour et décisions du cours",
   "courseNoticeInboxEmpty": "Aucune mise à jour des cours pour l'instant.",
   "courseEventNoticeChanged": "Une date ou une date limite de cours modifiée",
@@ -7223,40 +7130,9 @@
   "courseForumLinksRemove": "Supprimer le lien",
   "courseForumLinksRetry": "Réessayez de charger les discussions liées",
   "courseClassroomTitle": "Salle de classe",
-  "courseClassroomClass": "Ce groupe de cours",
-  "courseClassroomHead": "La même offre de cours",
-  "courseClassroomHeadUnavailable": "Cette classe n'a pas encore d'offre de cours enregistrée.",
   "courseClassroomCompose": "Publier dans cette classe",
-  "courseClassroomComposeHead": "Publier sur cette offre de cours",
-  "courseClassroomHeadPost": "Discussion sur l’offre de cours",
-  "courseClassroomArchivedHead": "Offre d'enseignement archivée : les discussions historiques sont en lecture seule.",
   "courseDiscussionReadOnly": "Cette discussion sur le cours est archivée et en lecture seule.",
   "courseClassroomEmpty": "Aucune discussion à laquelle vous pouvez accéder dans ce cadre.",
-  "courseClassroomScopeHint": "Les publications de classe suivent leurs autorisations de classe source ; Les discussions sur l'offre de cours sont destinées aux étudiants vérifiés dans cette offre.",
-  "courseClassroomSource": "Classe source : {id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "Source du message : {id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "Publier sur l'offre de cours : {id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "Gérer l'accès aux cours",
   "courseAccessRevokeMember": "Révoquer l'adhésion",
   "courseAccessRevokeRole": "Révoquer le rôle",
@@ -7265,16 +7141,8 @@
   "courseRolloutTitle": "Ouvrir ce groupes de cours",
   "courseRolloutHint": "Seules les classes ouvertes apparaissent aux étudiants et génèrent des invitations à des cours. La fermeture d'un cours supprime les informations sur le cours et les discussions des vues des étudiants.",
   "courseRolloutConfirm": "Donnez la raison pour laquelle vous avez modifié le statut de déploiement de cette classe. Le changement prend effet immédiatement.",
-  "courseClassRegister": "Enregistrer un groupe de cours",
-  "courseClassSchool": "Identifiant de l'école",
-  "courseClassYear": "Année académique",
-  "courseClassSemester": "Semestre",
   "courseClassKey": "Identifiant officiel de la groupe de cours",
-  "courseClassEndDate": "Date de fin du semestre",
-  "courseClassRegisterHint": "Utilisez les identifiants officiels des classes et des catalogues de cours. La date de fin utilise l'heure Asia/Shanghai. L'inscription ne vérifie pas les étudiants et ne lie pas une offre.",
   "courseInvitationTitle": "Invitation après les cours",
-  "courseInvitationHint": "Ce cours est terminé. Partagez des devoirs, des exigences d'évaluation ou des annonces, ou vérifiez les informations existantes.",
-  "courseInvitationShare": "Partager pour ce cours",
   "courseInvitationSkip": "Rien à ajouter",
   "courseSessionManage": "Séances de cours",
   "courseSessionRegister": "Enregistrer une séance",
@@ -7288,10 +7156,7 @@
   "courseSessionReason": "Raison de l'inscription ou du changement",
   "courseSessionTimeInvalid": "Entrez les heures valides ; la fin doit suivre le début et la durée ne doit pas dépasser 12 heures",
   "courseSessionReloadRequired": "Un autre administrateur a peut-être modifié cette séance. Actualisez avant de modifier à nouveau.",
-  "courseInvitationReview": "Examiner les informations existantes",
-  "courseInvitationSessionInformation": "Informations pour cette classe",
   "courseInvitationSetting": "Invitations après les cours",
-  "courseInvitationSettingHint": "S'applique à toutes les classes vérifiées ; désactiver pour masquer les cartes d'invitation",
   "courseMasterReview": "Consultez la source officielle des horaires",
   "courseMasterUnsupported": "Cette école n'a pas de source d'horaire officielle côté serveur. Continuez à enregistrer les séances manuellement.",
   "courseMasterUnmappedTerm": "Le semestre de ce groupe ne correspond à aucun code semestriel officiel (3/12/16) ; les séances ne peuvent pas être associées automatiquement.",
@@ -7325,11 +7190,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "Invitations après les cours pour ce cours",
-  "courseInvitationClassSettingHint": "Affecte uniquement cette groupe de cours",
-  "courseInvitationClassGlobalOff": "Les invitations à l’échelle du compte sont désactivées ; ce paramètre prend effet lorsqu'ils sont allumés",
   "courseInvitationPushSetting": "Push sur appareil pour les invitations aux cours",
-  "courseInvitationPushHint": "Nécessite le consentement push du cours et les notifications du système ; au maximum deux par jour",
   "courseInvitationPushSystemOff": "Les notifications de l'appareil sont désactivées ; leur permettre de recevoir des push",
   "courseInvitationQuietStart": "Les heures calmes commencent",
   "courseInvitationQuietEnd": "Fin des heures calmes",
@@ -7448,14 +7309,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "Choisir l'application de navigation",
-  "diningSpotIndoorFloors": "Niveaux intérieurs",
   "diningSpotNoFloorPlanData": "Aucune donnée de plan intérieur",
   "diningSpotHoursUnknown": "Horaires inconnus",
   "diningSpotOpenNow": "Ouvert actuellement",
   "diningSpotClosedNow": "Actuellement fermé",
-  "diningSpotCorrectHours": "Corriger les horaires",
-  "diningSpotCorrectScheduleExceptions": "Corriger les horaires exceptionnels",
   "diningSpotRecentScheduleExceptions": "Horaires exceptionnels récents",
   "diningSpotClosedTemporarily": "Fermé temporairement",
   "diningSpotNextDay": "lendemain ",
@@ -7558,7 +7415,6 @@
   "diningHoursAddSlot": "Ajouter un créneau",
   "diningHoursReload": "Recharger",
   "diningHoursSubmitting": "Envoi en cours…",
-  "diningFloorPlanShopIdRequired": "Saisissez l'ID de la boutique à cet étage",
   "diningFloorPlanTypeBoundary": "Contour de l'étage",
   "diningFloorPlanTypeShopArea": "Zone de boutiques",
   "diningFloorPlanTypeCorridor": "Couloir",
@@ -7571,11 +7427,7 @@
   "diningFloorPlanTypeServiceArea": "Zone de service",
   "diningFloorPlanTypeLabel": "Étiquette de texte",
   "diningFloorPlanTypeLandmark": "Point de repère",
-  "diningFloorPlanGeometryPoint": "Point",
-  "diningFloorPlanGeometryLine": "Polyligne",
-  "diningFloorPlanGeometryPolygon": "Polygone",
   "diningFloorPlanLabelHint": "Étiquette (facultatif)",
-  "diningFloorPlanSpotIdLabel": "ID de la boutique à cet étage",
   "diningFloorPlanFinishPoints": "Terminer {count} points",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -7584,17 +7436,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "Terminez la forme actuelle avant d'enregistrer",
   "diningFloorPlanSaveFailed": "Échec de l'enregistrement. Vérifiez l'affectation de la boutique, la géométrie ou le réseau, puis réessayez.",
   "diningFloorPlanSaving": "Enregistrement…",
-  "diningFloorPlanSave": "Enregistrer le plan",
   "diningFloorPlanHintPoint": "Touchez la toile pour placer un point",
   "diningFloorPlanHintDraw": "Touchez pour ajouter des sommets et glissez-les pour ajuster. Confirmer ajoute la forme ; Enregistrer valide aussi la forme en cours.",
   "diningFloorPlanLoadFailed": "Échec du chargement du plan intérieur",
   "diningMenuEndAfterStart": "La fin de disponibilité doit suivre le début",
   "diningMenuCreateTitle": "Ajouter un plat",
   "diningMenuEditTitle": "Corriger le plat",
-  "diningMenuHelp": "Indiquez les plats actuellement proposés. Le menu est mis à jour après envoi ; les récompenses dépendent du règlement effectif.",
   "diningMenuNameLabel": "Nom du plat",
   "diningMenuNameRequired": "Saisissez un nom",
   "diningMenuPriceLabel": "Prix (CNY)",
@@ -7610,7 +7459,6 @@
   "diningMenuSupplyEnd": "Fin de disponibilité (heure de Pékin)",
   "diningMenuClearStart": "Effacer l'heure de début",
   "diningMenuClearEnd": "Effacer l'heure de fin",
-  "diningSearchFailedRetry": "Échec de la recherche. Touchez pour réessayer.",
   "diningSearchNoResults": "Aucun résultat. Essayez un nom de boutique ou de plat, ou changez de périmètre.",
   "settingsFeaturesVivoWatchSectionTitle": "Montre vivo",
   "settingsFeaturesVivoWatchToggleTitle": "Synchroniser vers la montre vivo",
@@ -7891,14 +7739,10 @@
   "menstrualCycleDeleteAllDone": "Tous les enregistrements supprimés",
   "menstrualCycleDisclaimerTitle": "Ceci n'est pas un avis médical",
   "menstrualCycleDisclaimerBody": "Les prédictions sont des estimations fondées sur les dates saisies. Ne les utilisez pas comme contraception ni pour diagnostiquer un problème de santé : consultez un professionnel.",
-  "menstrualCycleVisibilityTitle": "Afficher sur la page Campus",
-  "menstrualCycleVisibilityHint": "Affiché par défaut lorsque votre profil universitaire indique le sexe féminin. Modifiable à tout moment, ici ou dans l'éditeur du campus.",
   "editorRepeatInterval": "Intervalle",
   "editorRecurrenceIntervalLength": "Durée de l'intervalle",
   "editorRecurrenceIntervalSummary": "Toutes les {duration}",
   "editorRecurrenceWindow": "Plage quotidienne",
-  "editorRecurrenceWindowStart": "De",
-  "editorRecurrenceWindowEnd": "À",
   "editorRecurrenceCycle": "Prise cyclique",
   "editorRecurrenceCycleActive": "Jours de prise",
   "editorRecurrenceCyclePause": "Jours de pause",
@@ -7938,11 +7782,9 @@
   "settingsRepeatReminder": "Répéter les rappels",
   "settingsRepeatReminderHint": "Rappeler à nouveau sans action",
   "settingsRepeatReminderOff": "Désactivé",
-  "settingsRepeatReminderCount": "{count} fois",
   "menstrualCycleSaveFailed": "Impossible d'enregistrer la saisie",
   "courseNoticeLoginRequired": "Connectez-vous pour consulter les notifications des cours.",
   "courseEnrollmentPending": "Emploi du temps importé. L’accès au partage du cours attend une vérification.",
-  "courseCombinedTab": "Notes et avis",
   "courseSharingTab": "Informations partagées",
   "sharingClassScope": "Même classe",
   "sharingTeacherScope": "Même enseignant",
@@ -8020,7 +7862,6 @@
   "courseResourceSaved": "Fichier enregistré",
   "courseResourceSaveCancelled": "Enregistrement annulé. Le fichier transféré reste décompté du quota.",
   "courseResourceDownloadHint": "Le quota est décompté au début du téléchargement. L’annulation de l’enregistrement ou un transfert partiel ne restitue pas le quota quotidien.",
-  "courseResourceSessionUsed": "Cette session de téléchargement a déjà été utilisée. Un nouveau téléchargement sera décompté du quota.",
   "courseResourceIntegrityError": "Échec de la vérification du fichier ; rien n’a été enregistré. Un nouveau téléchargement sera décompté du quota.",
   "courseResourceRefresh": "Actualiser l’état du fichier",
   "courseResourcePolicyTitle": "Quota de téléchargement des ressources de cours",
@@ -8163,18 +8004,9 @@
   "resourceCategoryReferences": "Références",
   "resourceCategoryOther": "Autre",
   "resourceAllCategories": "Toutes les catégories",
-  "resourceMetadataFilters": "Filtres par manuel et chapitre",
   "resourceSearchHint": "Rechercher par titre, auteur, manuel ou chapitre",
-  "resourceSearchCount": "{count} ressources publiées",
   "resourcePreviousPage": "Page précédente",
   "resourceNextPage": "Page suivante",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "Marquer comme lu",
   "sharingReadConfirmed": "Lu",
   "sharingUnreadCount": "{count} non lus",
@@ -8429,7 +8261,6 @@
   "diningPlacementFloorUnspecified": "Étage non précisé",
   "diningPlacementMapHint": "Touchez la carte pour corriger la position du commerce",
   "diningProfileTitle": "Profil et contributions",
-  "diningModerationTitle": "Modération et gestion des utilisateurs",
   "diningMapPickShop": "Touchez la carte pour situer un commerce à recommander",
   "diningMapShopPicked": "Position du commerce indiquée. Confirmez pour ajouter les détails.",
   "diningMapConfirmPoint": "Confirmer la position",
@@ -8447,7 +8278,6 @@
   "diningMenuAiModel": "Modèle d’IA visuelle",
   "diningMenuAiRecognizing": "Reconnaissance en cours…",
   "diningMenuAiFill": "Reconnaître et remplir avec l’IA",
-  "diningMenuAiHelp": "Choisissez un modèle visuel configuré. Vérifiez les informations reconnues avant l’envoi et saisissez manuellement tout prix manquant.",
   "diningDishReportReason": "Motif du signalement et retour",
   "diningDishReportRequired": "Saisissez votre retour",
   "diningMenuPriceUnit": "Unité de prix",
@@ -8472,7 +8302,6 @@
   "diningProfileSaveFailed": "Échec de l’enregistrement. Réessayez.",
   "diningProfileRewards": "Voir les récompenses de contribution",
   "diningTagsLabel": "Saveurs et étiquettes (séparées par des virgules)",
-  "diningTagsHint": "Léger,Épicé,Service rapide",
   "diningTasteLight": "Léger",
   "diningTasteSpicy": "Épicé",
   "diningTasteNumbingSpicy": "Piquant et engourdissant",
@@ -8490,7 +8319,6 @@
   "courseBindingAdvancedTitle": "Mises à jour et copie personnelle",
   "masterBrowserQuery": "Recherche",
   "masterBrowserLookup": "Enseignants / salles",
-  "masterBrowserLookupHint": "Choisissez un enseignant ou une salle pour voir tous les groupes du semestre.",
   "masterBrowserStats": "Statistiques",
   "masterBrowserSearchHint": "Cours / enseignant / code / groupe / manuel",
   "masterBrowserSearchHelp": "Les résultats se mettent à jour pendant la saisie. Séparez les mots-clés par des espaces pour tous les rechercher.",
@@ -8501,7 +8329,6 @@
   "masterBrowserCategory": "Catégorie",
   "masterBrowserType": "Type",
   "masterBrowserGrade": "Promotion",
-  "masterBrowserGrid": "Emploi du temps",
   "masterBrowserTitle": "Grade de l’enseignant",
   "masterBrowserTextbook": "Manuel",
   "masterBrowserPublisher": "Éditeur",
@@ -8510,7 +8337,6 @@
   "masterBrowserTeacherMajor": "Spécialité de l’enseignant",
   "masterBrowserAssistants": "Assistants",
   "masterBrowserWeek": "Semaine",
-  "masterBrowserWeekNumber": "Semaine {week}",
   "masterBrowserSection": "Créneau",
   "masterBrowserRoom": "Salle",
   "masterBrowserWithSlots": "Cours avec horaires uniquement",
@@ -8545,8 +8371,6 @@
   "masterBrowserLocalData": "Données locales",
   "masterBrowserArchiveData": "Archives web",
   "masterBrowserCloudData": "Données du serveur",
-  "masterBrowserCollapse": "Masquer les créneaux vides",
-  "masterBrowserConflict": "Conflits d’horaires",
   "masterBrowserEmptySemester": "Aucune donnée pour ce semestre",
   "masterBrowserChangeLookup": "Choisir un autre",
   "masterBrowserFilterLookup": "Filtrer ces cours",
@@ -8565,7 +8389,6 @@
   "opacCurrentReservations": "Réservations en cours",
   "opacReservationsDescription": "Consulter les réservations, les lieux de retrait et le rang",
   "opacRefreshReservations": "Actualiser les réservations",
-  "opacLoadingReservations": "Chargement des réservations",
   "opacNoReservations": "Aucune réservation en cours",
   "opacPickupLocation": "Lieu de retrait",
   "opacReservationFrom": "Valable du",
@@ -8625,23 +8448,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -8697,33 +8506,24 @@
   "washingAccountNote": "Les identifiants de blanchisserie sont gérés indépendamment. Importez un nouveau Bearer lorsqu'il expire. wxuuid ne sert qu'à la passation de paiement ; aucune connexion WeChat n'est effectuée.",
   "washingAccountTitle": "Compte de blanchisserie",
   "washingAllFacilities": "Tous les équipements",
-  "washingAllFloors": "Tous les étages",
   "washingAllStates": "Tous les états",
   "washingAlternatePayment": "Cette commande utilise un canal de paiement distinct de l'opérateur. Terminez-la dans le mini-programme d'origine.",
   "washingAuthError": "Identifiants invalides ou expirés. Remplacez votre jeton Bearer.",
-  "washingBuilding": "Bâtiment {building}",
   "washingCategoryDorm": "Espaces de lavage",
-  "washingCategoryDormDescription": "Parcourez les machines par zone, bâtiment et étage",
   "washingCategoryLaundry": "Laveries",
-  "washingCategoryLaundryDescription": "Parcourez les centres de lavage par zone du campus",
   "washingChangePoint": "Changer d'emplacement",
   "washingCheckPayment": "Vérifier l'état du paiement",
   "washingCheckoutFailed": "Impossible de traiter la commande. Vérifiez vos identifiants et réessayez plus tard.",
   "washingChooseMode": "Choisir un mode de lavage",
   "washingChoosePoint": "Choisir un emplacement de lavage",
   "washingChoosePointHint": "Choisissez une zone, un bâtiment et un étage pour voir les machines.",
-  "washingClearCredential": "Effacer les identifiants",
   "washingClearOrder": "Effacer l'enregistrement de commande local",
   "washingClearOrderBody": "Cela n'annule ni ne rembourse une commande en amont. Vérifiez d'abord dans le mini-programme de l'opérateur que la commande est terminée, fermée ou qu'elle n'a jamais été créée. Une commande impayée peut encore être payable.",
   "washingClearOrderConfirm": "Vérifié, effacer l'enregistrement",
-  "washingClose": "Fermer",
   "washingConfirmBody": "Machine : {device}\nMode : {mode}\nDurée : {minutes} minutes\nMontant : ¥{price}\nLe paiement peut démarrer la machine immédiatement. Chargez votre linge et vérifiez la machine avant de continuer. Aucun coupon ni additif de lessive n'est appliqué.",
   "washingConfirmOrder": "Confirmer la commande de lavage",
-  "washingCoordinateTitle": "Choisir l'emplacement de recherche",
-  "washingCoordinatesInvalid": "Saisissez une latitude valide (-90 à 90) et une longitude valide (-180 à 180).",
   "washingCreateOrder": "Créer une commande",
   "washingCredentialSaved": "Compte de blanchisserie enregistré.",
-  "washingCredentialTitle": "Identifiants de blanchisserie",
   "washingCurrentOrder": "Commande de lavage en cours",
   "washingDeviceCount": "{count} machines",
   "washingDeviceFallback": "Machine à laver",
@@ -8736,12 +8536,9 @@
   "washingImport": "Importer les identifiants",
   "washingIntroBody": "Importez votre jeton Bearer de blanchisserie pour charger le répertoire du campus et l'état des machines.",
   "washingIntroTitle": "Équipements de blanchisserie du campus",
-  "washingLatitude": "Latitude",
   "washingLaunchFailed": "Impossible d'ouvrir la page de paiement. Vérifiez que WeChat est installé et que l'opérateur autorise les liens externes vers le mini-programme. Votre commande existante est conservée.",
   "washingLoadingDevices": "Chargement de l'état des machines",
-  "washingLoadingNearbyMachines": "Chargement des machines des stations proches",
   "washingLocationError": "Position indisponible. Activez l'autorisation de localisation, puis actualisez.",
-  "washingLongitude": "Longitude",
   "washingMachineAddress": "Adresse",
   "washingMachineDetails": "Détails de la machine",
   "washingMachineEnd": "Fin estimée",
@@ -8754,12 +8551,9 @@
   "washingMachines": "État des machines",
   "washingMalformedError": "La réponse du service de blanchisserie a changé. Réessayez plus tard.",
   "washingManageAccount": "Gérer le compte de blanchisserie",
-  "washingManageCredential": "Gérer les identifiants de blanchisserie",
-  "washingManualLocation": "Saisir les coordonnées",
   "washingModeDetails": "{minutes} minutes · {status}",
   "washingModesFailed": "Impossible de charger les modes de lavage. Revenez et actualisez pour réessayer.",
   "washingModesNote": "Les modes et les prix sont donnés à titre indicatif. Vérifiez auprès de la machine sur place et de l'opérateur.",
-  "washingNearby": "Stations proches",
   "washingNetworkError": "Réseau indisponible. Réessayez plus tard.",
   "washingNoDevices": "Aucune machine correspondante",
   "washingNoModes": "Aucune information de mode disponible",
@@ -8778,8 +8572,6 @@
   "washingPaymentNote": "Choisissez un mode pour créer une commande, puis ouvrez sa page de paiement dans WeChat. Le mini-programme gère le paiement ; le service de blanchisserie confirme le résultat.",
   "washingPaymentPending": "Le lien a été transmis à WeChat. Terminez le paiement là-bas, puis revenez vérifier le résultat. Cela ne confirme pas la réussite du paiement.",
   "washingPriceChanged": "Le prix ou la durée du mode a changé. Actualisez et confirmez à nouveau.",
-  "washingQuery": "Rechercher",
-  "washingRefresh": "Actualiser",
   "washingRejectedError": "Le service de blanchisserie ne peut pas traiter cette demande. Réessayez plus tard.",
   "washingReplace": "Remplacer les identifiants",
   "washingRestoring": "Chargement des identifiants de blanchisserie",
@@ -8790,8 +8582,6 @@
   "washingScanInvalid": "Aucun code QR de machine à laver ni identifiant valide n'a été trouvé",
   "washingScanManual": "Saisie manuelle",
   "washingScanUnsupported": "Le scan par caméra est indisponible. Saisissez le numéro de machine ou le lien QR manuellement.",
-  "washingSearch": "Trouver les stations proches",
-  "washingSearchHint": "Recherchez les stations proches ou saisissez des coordonnées.",
   "washingSearchPoint": "Rechercher un bâtiment, un étage ou un emplacement",
   "washingSessionContext": "URL H5 de blanchisserie ou wxuuid (pour le paiement)",
   "washingSessionContextHelp": "Collez l'URL H5 de votre opérateur existant. Les requêtes ne nécessitent que le jeton Bearer. Aucune connexion WeChat n'est effectuée ici.",
@@ -8800,7 +8590,6 @@
   "washingStateOffline": "Hors ligne",
   "washingStateRunning": "En cours",
   "washingStateUnknown": "État inconnu",
-  "washingStationDevices": "{station} · Machines",
   "washingStationFallback": "Station de blanchisserie",
   "washingStorageClearError": "Impossible d'effacer les identifiants. Réessayez.",
   "washingStorageReadError": "Impossible de lire les identifiants enregistrés. Importez-les à nouveau.",
@@ -8976,7 +8765,6 @@
   "campusSectionHide": "Masquer la section",   "campusSectionShow": "Afficher la section",
   "campusSectionAdd": "Nouvelle section",
   "campusSectionDefaultName": "Nouvelle section",
-  "campusSectionLayoutHint": "Faites glisser les apps entre les sections pour les réorganiser",
   "campusSectionDropHere": "Déposez des apps ici",
   "campusSectionReleaseToCreate": "Relâchez pour créer une section",
   "campusRenameSection": "Renommer la section",
@@ -8986,10 +8774,10 @@
   "campusSectionDropPosition": "Placer dans « {section} » en position {position}",
   "locationSetFixedLocation": "Définir un lieu fixe",
   "campusBusDegradeSettings": "Réglages de l'affichage dégradé",
-  "campusBusDegradedCaption": "Affichage dégradé : véhicules par ligne",
   "campusBusAtStop": "À {stop}",
   "campusBusPastStop": "A passé {stop}",
   "settingsBusCardSectionTitle": "Carte du bus du campus",
+  "settingsBusCardEntrySubtitle": "Carte d'aperçu et affichage dégradé",
   "settingsBusCardDegradeMode": "Affichage dégradé",
   "settingsBusCardDegradeSubtitle": "Auto : affiche les véhicules de chaque ligne sans localisation ou hors du campus",
   "busDegradeModeNever": "Jamais",

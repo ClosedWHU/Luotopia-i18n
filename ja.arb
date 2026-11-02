@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "メンタルヘルス",
   "campusFolderComputing": "情報系",
-  "campusComputingGroupSettingHint": "計算機学院向けの機能です。計算機学院のプロフィールでサインインすると自動で表示されます。",
   "campusFolderHealth": "健康",
   "campusAppVoteTicket": "チケット予約",
   "voteTicketEmpty": "チケットイベントはありません",
@@ -170,7 +169,6 @@
   "opacSubmitting": "送信中",
   "opacReserve": "予約",
   "opacConfirmReserve": "予約の確認",
-  "opacReserveMessage": "この資料を予約しますか？",
   "opacReserveSubmitted": "予約申請を送信しました",
   "opacNoCurrent": "貸出中の図書はありません",
   "opacCheckRenew": "貸出詳細を読み込み延長の可否を確認",
@@ -194,7 +192,6 @@
   "opacRenewUpdated": "延長が完了し、貸出情報を更新しました。",
   "opacRenewRefreshFailed": "延長は完了しましたが、情報を更新できませんでした。下に引いて更新してください。再度延長しないでください。",
   "opacRefreshLoans": "貸出記録を更新",
-  "opacLoadingLoans": "貸出記録を読み込み中",
   "opacProfileSaved": "個人情報を図書館サーバーに保存しました",
   "opacSaveUnconfirmed": "保存を確認できませんでした。戻って更新し確認してください。セッションが切れた場合は編集画面を開き直してください。",
   "opacContactHelp": "郵送先住所・宛名・連絡先を編集できます。利用者番号と統一認証の本人情報は変更されません。",
@@ -524,7 +521,6 @@
   "commonRegister": "登録",
   "commonRegistrationTime": "登録日時",
   "commonUsername": "ユーザー名",
-  "courseGridSettings": "コースグリッド設定",
   "gradesReviewsTitle": "成績と評価",
   "courseImport": "コースインポート",
   "courseImportSemester": "学期",
@@ -677,7 +673,6 @@
   "medicationLowStockThreshold": "残少アラート",
   "medicationLowStockAlert": "残りが少なくなりました",
   "medicationRefill": "補充",
-  "medicationTaken": "服用済み",
   "medicationFormPill": "錠剤",
   "medicationFormCapsule": "カプセル",
   "medicationFormTablet": "タブレット",
@@ -691,12 +686,10 @@
   "editorSectionRepeat": "リピート",
   "editorSectionDateRepeat": "日付と繰り返し",
   "editorSectionTime": "時間",
-  "editorSectionDetails": "詳細",
   "editorSectionCourse": "コース情報",
   "editorSectionMedication": "薬の情報",
   "editorSectionLocationNotes": "場所とメモ",
   "editorRecurrenceTimes": "時刻",
-  "editorRecurrenceWeekdays": "曜日",
   "editorRecurrenceAddTime": "時刻を追加",
   "editorRecurrenceMonthDays": "毎月",
   "editorRecurrenceMonthDayPolicy": "該当日がない月",
@@ -704,7 +697,6 @@
   "editorRecurrenceClampLastDay": "月の最終日",
   "editorMomentToggle": "時刻指定（長さなし）",
   "editorReminderCustom": "カスタム",
-  "editorReminderAdd": "リマインダーを追加",
   "editorSubmitInvalid": "まず強調表示されたフィールドを修正してください。",
   "editorSubmitSuccess": "アイテムは保存されました。",
   "editorTeacher": "教員",
@@ -759,7 +751,6 @@
   "forumSave": "保存",
   "forumEdit": "編集",
   "forumReport": "報告",
-  "forumReportReason": "理由",
   "forumReportSubmitted": "報告を送信しました。",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
@@ -1240,6 +1231,8 @@
   "settingsHapticMedium": "中",
   "settingsHapticHigh": "強",
   "settingsFeaturesEntryTitle": "機能設定",
+  "settingsPagesSectionTitle": "ページ設定",
+  "settingsFeaturesSectionTitle": "機能",
   "settingsFeaturesEntrySubtitle": "ウィジェット、ホーム、AI、天気",
   "settingsSpeechEntryTitle": "音声",
   "settingsSpeechEntrySubtitle": "声・読み上げエンジン・音声認識",
@@ -1808,17 +1801,6 @@
   "aiConversations": "会話一覧",
   "aiNewChat": "新規",
   "aiServiceError": "AI サービスエラー",
-  "aiUntitledItem": "無題の項目",
-  "aiMemo": "メモ",
-  "aiDraftReady": "下書きの準備完了：{title}",
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "aiOpenDraftPage": "下書きページを開く",
   "aiSend": "送信",
   "aiClearHistory": "履歴消去",
   "aiRename": "名前を変更",
@@ -2209,7 +2191,6 @@
     }
   },
   "retry": "再試行",
-  "campusFeatureInDevelopment": "開発中の機能です",
   "libraryVenueList": "施設一覧",
   "libraryMyReservations": "自分の予約",
   "libraryNoVenues": "利用可能な館がありません",
@@ -2224,7 +2205,6 @@
   "libraryClickForDetails": "タップして階と座席の詳細を表示",
   "globalTimetableTitle": "全学時間割",
   "globalTimetableCourseMatching": "授業の照合",
-  "globalTimetableContribute": "時間割を提供",
   "globalTimetableLocalImport": "このデバイスにインポート",
   "globalTimetableLocalImportMessage": "WHUの教務システムから{year}-{nextYear}年度・第{term}学期の時間割をこのデバイスに直接ダウンロードして保存します。データおよび教務システムのセッションが珞家にアップロードされることはありません。検索や絞り込みでは、クラウドデータよりローカルデータが優先して使用されます。",
   "globalTimetableLocalImportStart": "ダウンロードして保存",
@@ -2233,7 +2213,6 @@
   "globalTimetableLocalUnsupported": "このプラットフォームでは、時間割のローカルインポートを利用できません。",
   "globalTimetableSourceLocal": "ローカル",
   "globalTimetableSourceCloud": "クラウド",
-  "globalTimetableSourceCloudUnavailable": "この期間のクラウドデータはありません",
   "globalTimetableContributionTitle": "大学全体の時間割を提供",
   "globalTimetableContributionMessage": "一度限りの WHU CAS チケットを使用して珞家を認証します。サーバーワーカーがバックグラウンドで WHU の教務システムから {year}-{nextYear} 年度の第 {term} 学期のデータを直接インポートします。WHU での本人情報は、珞家アカウントに紐付けられているものと一致している必要があります。",
   "globalTimetableContributionStart": "認証して開始",
@@ -2241,7 +2220,6 @@
   "globalTimetableContributionLoginWhu": "提供する前に WHU CAS にログインしてください。",
   "globalTimetableContributionUnsupported": "このプラットフォームでは時間割を提供できません。",
   "globalTimetableResults": "{count} 件",
-  "globalTimetableCachedData": "キャッシュ済みデータ",
   "globalTimetableTerm": "第 {term} 学期",
   "globalTimetableImportStatus": "インポート：{phase}",
   "globalTimetablePhaseAuthorizing": "認証中",
@@ -2538,8 +2516,6 @@
   "sportsAuthNoJwt": "認可失敗: 応答に JWT がありません。",
   "sportsAuthFailed": "スポーツ施設システムの認可に失敗しました。",
   "scoreImportDescription": "インポート後は端末にキャッシュされ、すぐに閲覧や GPA 計算に使えます。",
-  "scoreImportCaptchaFailed": "認証コードの解析に失敗",
-  "scoreImportCancelled": "認証をキャンセルしました",
   "scoreImportImportingUndergraduate": "学部教務にログインして成績をインポート中…",
   "scoreImportImportingCredential": "信頼できる資格情報をダウンロードし、ローカルで成績を解析中…",
   "scoreImportSuccessWithCount": "{success}: {count} 件を端末にキャッシュ。",
@@ -2592,7 +2568,6 @@
       }
     }
   },
-  "scoreCaptchaAutoVerifying": "自動検証中…",
   "captchaAutoVerifying": "自動検証中…",
   "seatReservationAlreadySynced": "この予約はすでに予定にあります。",
   "seatReservationAddedToAgenda": "座席予約を予定に追加しました。",
@@ -2637,14 +2612,6 @@
   "aiHeaderConfigRequired": "先に設定で AI を構成してください。",
   "aiHeaderServiceUnavailable": "AI サービスが利用できません。設定またはネットワークを確認してください。",
   "aiHeaderRetryLater": "AI サービスが一時的に利用できません。しばらくしてから再試行してください。",
-  "aiHeaderDraftCreated": "下書きページから作成しました：{title}",
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "themeColorLuotopiaBlue": "珞珈ブルー",
   "themeColorMaterialRed": "マテリアルレッド",
   "themeColorMaterialPink": "マテリアルピンク",
@@ -3309,7 +3276,6 @@
   "onboardingFinishBenefitsTitle": "ログイン後にできること",
   "onboardingFinishBenefitTimetable": "時間割のインポートと同期",
   "onboardingFinishBenefitScores": "成績と履修状況の確認",
-  "onboardingFinishBenefitCampus": "Eカードや予約などのキャンパスサービス",
   "onboardingFinishBenefitReservation": "空き教室を検索し、自習席やスポーツ施設を予約",
   "onboardingFinishBenefitCard": "キャンパスカードのチャージ、コード払い、水道光熱費の支払い",
   "onboardingFinishBenefitServices": "スクールバスの現在地、図書館の貸出、保健診療所のサービス",
@@ -3444,7 +3410,6 @@
   "messagesFilterAll": "すべての送信元",
   "messagesEmpty": "メッセージはありません",
   "messagesEmptySubtitle": "キャンパスサービスからのメッセージがここに表示されます",
-  "messagesLoading": "メッセージを読み込んでいます…",
   "messagesErrorRetry": "再試行",
   "messagesMarkAllRead": "すべて既読",
   "messagesMarkAllReadSuccess": "すべて既読にしました",
@@ -4308,14 +4273,6 @@
   "detailStatusOverdue": "期限切れ",
   "detailStatusUpcoming": "予定",
   "detailStatusInactive": "完了を追跡しない",
-  "detailConflictWithItems": "{items} と時間が重複しています。保存は可能です。",
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
-      }
-    }
-  },
   "editorCompletionMode": "完了方法",
   "editorCompletionModeManual": "手動で完了",
   "editorCompletionModeAutomatic": "終了時刻に完了",
@@ -4407,9 +4364,6 @@
   "majorInfoEmploymentNoData": "データなし",
   "forumSearch": "検索",
   "forumMoreActions": "その他の操作",
-  "forumMenuSectionContent": "マイコンテンツ",
-  "forumMenuSectionCommunity": "コミュニティ",
-  "forumMenuSectionManage": "管理",
   "forumSearchQuery": "投稿を検索",
   "forumSearchBoard": "掲示板",
   "forumSearchTag": "タグ",
@@ -4939,9 +4893,6 @@
   "adminSystemQueuesDescription": "読み取り専用のリトライ／失敗バッファキュー。",
   "adminForumSettingsImageUploadLimit": "画像アップロード上限（MiB）",
   "adminForumSettingsAttachmentUploadLimit": "添付ファイル上限（MiB）",
-  "adminPaginationPrevious": "前のページ",
-  "adminPaginationNext": "次のページ",
-  "adminPaginationPageInfo": "{page}/{pages} ページ · 全 {total} 件",
   "appPaginationFirst": "最初のページ",
   "appPaginationLast": "最後のページ",
   "appPaginationPrevious": "前のページ",
@@ -5168,15 +5119,6 @@
   "aiLiveAnsweringDescription": "回答をリアルタイムで生成しています",
   "aiLiveProcessing": "処理中",
   "aiLiveProcessingDescription": "次のステップを準備しています",
-  "aiToolTraceMoreTools": "{visibleTools} など全 {count} 個のツール",
-  "aiToolTraceSucceeded": "成功 {count} 件",
-  "aiToolTraceFailed": "失敗 {count} 件",
-  "aiToolTraceCancelled": "未完了 {count} 件",
-  "aiToolTraceSummary": "ツール呼び出し：{tools} · {statuses}",
-  "aiToolTraceDetails": "ツール呼び出しの詳細",
-  "aiToolTraceStatusSucceeded": "成功",
-  "aiToolTraceStatusFailed": "失敗",
-  "aiToolTraceStatusCancelled": "未完了",
   "forumAdminLogActionApprove": "投稿を承認",
   "forumAdminLogActionBan": "BAN",
   "forumAdminLogActionDelete": "投稿を削除",
@@ -5194,7 +5136,6 @@
   "forumCheckinRandom": "運試し",
   "forumCheckinSuccess": "+{amount} カルマ（連続 {streak} 日）",
   "forumCheckinTitle": "デイリーチェックイン",
-  "forumCheckinTodo": "チェックイン",
   "forumKarma": "カルマ",
   "forumKarmaAdminAdjust": "カルマを調整",
   "forumKarmaAdminDelta": "増減",
@@ -5259,7 +5200,6 @@
   "forumReportComment": "コメントを報告",
   "forumEditComment": "コメントを編集",
   "forumCommentContent": "コメント",
-  "forumModerationRulesTitle": "違反したルール",
   "forumReportCatIllegalViolation": "違法・安全",
   "forumReportCatSexual": "性的コンテンツ",
   "forumReportCatHarassment": "ヘイト・嫌がらせ",
@@ -5338,10 +5278,7 @@
       }
     }
   },
-  "courseMatchingAdvancedFilters": "詳細フィルター",
   "courseMatchingDayOfWeek": "曜日",
-  "courseMatchingFromSection": "開始コマ",
-  "courseMatchingToSection": "終了コマ",
   "courseMatchingCourseType": "コースタイプ",
   "courseMatchingMinCredits": "最小単位数",
   "courseMatchingMaxCredits": "最大単位数",
@@ -5382,27 +5319,12 @@
   },
   "courseMatchingConflictFreeOnly": "競合なしのみ",
   "courseMatchingAdd": "追加",
-  "courseMatchingApply": "適用",
-  "courseMatchingReset": "リセット",
-  "courseMatchingActiveFilters": "{count} 件有効",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "すべて",
   "courseMatchingCampus": "キャンパス",
   "courseMatchingBuilding": "建物",
   "courseMatchingDepartment": "開講学部",
   "courseMatchingTeacher": "教員",
-  "courseMatchingSectionRangeError": "開始時限が終了時限を超えてはいけません。",
-  "courseMatchingCreditRangeError": "最小単位数が最大単位数を超えてはいけません。",
-  "globalTimetableHistory": "開講履歴",
   "globalTimetableHistoryHint": "公開済みの全学期から新しい順に検索します。",
   "globalTimetableHistoryEmpty": "該当する開講はありません。",
-  "globalTimetableHistoryUnavailable": "サーバーはまだ開講履歴に対応していません。",
   "globalTimetableDownloads": "オフラインデータ",
   "globalTimetableDownloadsSummary": "{count} 学期分 · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -5434,8 +5356,6 @@
   "globalTimetableSourceAuto": "自動",
   "globalTimetableLocalMissing": "この学期のオフラインデータはまだありません。",
   "globalTimetableNoSlot": "時間帯なし",
-  "globalTimetableSearchHint": "科目名 / 教員 / コード",
-  "globalTimetableEmpty": "この学期に該当する科目はありません。",
   "globalTimetableDetailTitle": "科目詳細",
   "globalTimetableDetailSlots": "授業時間帯",
   "globalTimetableDetailInfo": "科目情報",
@@ -5702,7 +5622,6 @@
   "whuMessagesRequestFailed": "リクエストに失敗しました",
   "whuLibraryResultUnknown": "図書館の操作結果が不明です。再試行するかどうかを判断する前に、状態を更新してください。",
   "sportsAuthFailedCasRequired": "運動施設システムの認証に失敗しました。WHU CAS 経由で再度ログインしてください。",
-  "waterControlAccountExchangeFailed": "水道アカウントの交換に失敗しました。",
   "aiImageGeneration": "画像を生成",
   "aiImageGenerationHint": "作成したい画像を説明してください",
   "aiImageGenerationEmpty": "生成した画像がここに表示されます。",
@@ -5897,7 +5816,6 @@
   "aiSpeechEngine": "音声エンジン",
   "aiSpeechEdge": "Edge オンライン音声",
   "aiSpeechSttsVoice": "stts システム音声",
-  "aiSpeechVoiceLoadFailed": "オンライン音声を読み込めません。現在の音声を使用します。",
   "aiSpeechVoice": "音声",
   "aiSpeechRate": "速度",
   "aiSpeechPitch": "ピッチ",
@@ -6039,7 +5957,6 @@
   "coremailFolderNameRequired": "フォルダ名を入力してください。",
   "coremailCreate": "作成",
   "coremailSwitchFolder": "フォルダを切り替え",
-  "coremailLoadingMailbox": "メールを読み込み中…",
   "coremailConnectionFailed": "メール接続に失敗しました：{error}",
   "@coremailConnectionFailed": {
     "placeholders": {
@@ -6145,8 +6062,6 @@
     }
   },
   "coremailSwitchAccountAction": "アカウントを切り替える",
-  "coremailRequiresWhuAccount": "この端末にメールの認証情報を保存するには、先に武大アカウントを連携してください。",
-  "vpnRequiresWhuAccount": "この端末に VPN の認証情報を保存するには、先に武大アカウントを連携してください。",
   "credentialSaveUnavailable": "現在認証情報を保存できません。しばらくしてからもう一度お試しください。",
   "coremailAutoSignInFailed": "自動サインインに失敗しました。パスワードを確認するか、再度サインインしてください。",
   "coremailEnterAccountAndPassword": "メールアカウントとパスワードをすべて入力してください。",
@@ -6801,7 +6716,6 @@
   "courseReportDecision": "決定",
   "courseReportReview": "報告を確認",
   "courseReportMine": "自分の報告",
-  "courseReportSelectCategory": "カテゴリを選択",
   "courseTrustReviews": "コースの信頼レビュー",
   "courseTrustReviewEmpty": "信頼レビュー待ちの改訂はありません",
   "courseTrustReviewHint": "クラスのメンバーシップまたはアシスタント権限が変更されました。新たに自動同期する前に、承認済みの情報を確認して再度検証してください。",
@@ -6813,11 +6727,6 @@
   "courseAuditTarget": "対象",
   "courseAuditRequest": "リクエストID",
   "courseClassActive": "授業クラスは有効です",
-  "courseClassArchived": "授業クラスはアーカイブ済み · 履歴情報は読み取り専用です",
-  "courseClassArchive": "授業クラスをアーカイブ",
-  "courseClassArchiveHint": "この授業クラスをアーカイブしますか？新規の投稿と招待は停止し、以降のカレンダーイベントも一時停止します。履歴レコードは対象メンバーが引き続き閲覧できます。",
-  "courseClassRestore": "授業クラスを復元",
-  "courseClassRestoreHint": "選択した将来の終了日でこのクラスを復元しますか？以前のロール付与や期限切れの学生認証は自動的には更新されません。",
   "courseProjectionFailureTitle": "コースカレンダーの同期エラー",
   "courseProjectionFailureHint": "これらのジョブは8回失敗しました。再試行後、ジョブと影響を受けるカレンダーを確認してください。",
   "courseProjectionFailureEmpty": "カレンダー同期のエラーはありません",
@@ -7000,7 +6909,6 @@
   "cgNotificationFailed": "リマインダーを更新できませんでした。通知権限を確認して再試行してください。",
   "cgAssignmentNotification": "希冀の任務がもうすぐ期限切れ",
   "cgExamNotification": "もうすぐ習字試験が始まります",
-  "cgUnknownExamTime": "一部の試験時間は読み取れませんでした。元のWebサイトを確認してください。",
   "cgOpenWebsite": "オリジナルのウェブサイトを開く",
   "cgUpdatedAt": "{time}を更新しました",
   "@cgUpdatedAt": {
@@ -7197,7 +7105,6 @@
   "courseSpaceEvidence": "検証証拠",
   "courseSpaceNoEvidence": "証拠は残されていない。",
   "courseCaseNotices": "コースレビュー結果",
-  "courseCaseNoticesEmpty": "レビュー結果はまだありません。",
   "courseNoticeInbox": "コースの更新と決定",
   "courseNoticeInboxEmpty": "まだコースの更新はありません。",
   "courseEventNoticeChanged": "コースの日付または締め切りが変更された場合",
@@ -7237,40 +7144,9 @@
   "courseForumLinksRemove": "リンクを削除する",
   "courseForumLinksRetry": "リンクされたディスカッションの読み込みを再試行します",
   "courseClassroomTitle": "教室",
-  "courseClassroomClass": "この授業クラス",
-  "courseClassroomHead": "同じ開講科目",
-  "courseClassroomHeadUnavailable": "この授業クラスには開講科目がまだ関連付けられていません。",
   "courseClassroomCompose": "このクラスに投稿する",
-  "courseClassroomComposeHead": "この開講科目に投稿する",
-  "courseClassroomHeadPost": "開講科目に関するディスカッション",
-  "courseClassroomArchivedHead": "アーカイブされた開講科目: 歴史的な議論は読み取り専用です。",
   "courseDiscussionReadOnly": "このコースのディスカッションはアーカイブされ、読み取り専用です。",
   "courseClassroomEmpty": "このスコープではアクセスできるディスカッションはありません。",
-  "courseClassroomScopeHint": "クラスの投稿は、ソースクラスの権限に従います。開講科目に関するディスカッションは、この開講科目の認証済みの学生を対象としています。",
-  "courseClassroomSource": "ソースクラス: {id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "投稿ソース: {id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "開講科目への投稿: {id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "クラスへのアクセスを管理する",
   "courseAccessRevokeMember": "メンバーシップを取り消す",
   "courseAccessRevokeRole": "役割を取り消す",
@@ -7279,16 +7155,8 @@
   "courseRolloutTitle": "この授業クラスを開く",
   "courseRolloutHint": "オープンクラスのみが学生に表示され、コースへの招待状が生成されます。クラスを終了すると、そのコース情報とディスカッションが学生のビューから削除されます。",
   "courseRolloutConfirm": "このクラスのロールアウト ステータスを変更する理由を入力してください。変更はすぐに有効になります。",
-  "courseClassRegister": "授業クラスを登録",
-  "courseClassSchool": "学校識別子",
-  "courseClassYear": "学年",
-  "courseClassSemester": "学期",
   "courseClassKey": "公式の授業クラス識別子",
-  "courseClassEndDate": "学期の終了日",
-  "courseClassRegisterHint": "公式のクラスおよび科目カタログ識別子を使用します。終了日には Asia/Shanghai 時間が使用されます。登録では、学生の認証や開講科目へのリンクは行われません。",
   "courseInvitationTitle": "授業後のお誘い",
-  "courseInvitationHint": "このクラスは終了しました。課題、評価要件、お知らせを共有したり、既存の情報を確認したりできます。",
-  "courseInvitationShare": "このクラスで共有する",
   "courseInvitationSkip": "追加するものはありません",
   "courseSessionManage": "授業回の管理",
   "courseSessionRegister": "授業回を登録",
@@ -7302,10 +7170,7 @@
   "courseSessionReason": "登録または変更の理由",
   "courseSessionTimeInvalid": "有効な時間を入力してください。終了は開始の後に行われ、継続時間は 12 時間を超えてはなりません",
   "courseSessionReloadRequired": "他の管理者がこの授業回を変更した可能性があります。再度編集する前に更新してください。",
-  "courseInvitationReview": "既存の情報を確認する",
-  "courseInvitationSessionInformation": "このクラスに関する情報",
   "courseInvitationSetting": "授業後の招待状",
-  "courseInvitationSettingHint": "すべての検証済みクラスに適用されます。招待カードを非表示にするにはオフにします",
   "courseMasterReview": "公式時刻表ソースを確認する",
   "courseMasterUnsupported": "この学校にはサーバー側の公式時間割ソースがありません。授業回を手動で登録し続けます。",
   "courseMasterUnmappedTerm": "この授業の学期は、公式の学期コード (3/12/16) にマッピングされていません。授業回を自動的にリンクすることはできません。",
@@ -7339,11 +7204,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "このクラスへの授業後の招待状",
-  "courseInvitationClassSettingHint": "この授業クラスのみに影響します",
-  "courseInvitationClassGlobalOff": "アカウント全体の招待はオフになっています。この設定は、オンの場合に有効になります。",
   "courseInvitationPushSetting": "クラスへの招待のためのデバイスプッシュ",
-  "courseInvitationPushHint": "コースのプッシュ同意とシステム通知が必要です。 1日あたり多くても2つまで",
   "courseInvitationPushSystemOff": "デバイス通知はオフになっています。プッシュを受信できるようにする",
   "courseInvitationQuietStart": "静かな時間が始まります",
   "courseInvitationQuietEnd": "静かな時間が終わる",
@@ -7462,14 +7323,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "ナビアプリを選択",
-  "diningSpotIndoorFloors": "フロア案内",
   "diningSpotNoFloorPlanData": "屋内地図データがありません",
   "diningSpotHoursUnknown": "営業時間不明",
   "diningSpotOpenNow": "営業中",
   "diningSpotClosedNow": "現在は休憩中",
-  "diningSpotCorrectHours": "営業時間を修正",
-  "diningSpotCorrectScheduleExceptions": "臨時営業予定を修正",
   "diningSpotRecentScheduleExceptions": "近日の営業変更",
   "diningSpotClosedTemporarily": "一時休業",
   "diningSpotNextDay": "翌日 ",
@@ -7572,7 +7429,6 @@
   "diningHoursAddSlot": "時間帯を追加",
   "diningHoursReload": "再読み込み",
   "diningHoursSubmitting": "送信中…",
-  "diningFloorPlanShopIdRequired": "このフロアの店舗 ID を入力してください",
   "diningFloorPlanTypeBoundary": "フロア境界",
   "diningFloorPlanTypeShopArea": "店舗エリア",
   "diningFloorPlanTypeCorridor": "通路",
@@ -7585,11 +7441,7 @@
   "diningFloorPlanTypeServiceArea": "サービスエリア",
   "diningFloorPlanTypeLabel": "テキストラベル",
   "diningFloorPlanTypeLandmark": "ランドマーク",
-  "diningFloorPlanGeometryPoint": "点",
-  "diningFloorPlanGeometryLine": "ポリライン",
-  "diningFloorPlanGeometryPolygon": "ポリゴン",
   "diningFloorPlanLabelHint": "ラベル（任意）",
-  "diningFloorPlanSpotIdLabel": "このフロアの店舗 ID",
   "diningFloorPlanFinishPoints": "{count} 点を完成",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -7598,17 +7450,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "現在の図形を完成させてから保存してください",
   "diningFloorPlanSaveFailed": "保存できませんでした。店舗の割り当て、図形、ネットワークを確認して再試行してください。",
   "diningFloorPlanSaving": "保存中…",
-  "diningFloorPlanSave": "フロアプランを保存",
   "diningFloorPlanHintPoint": "キャンバスをタップして点を配置",
   "diningFloorPlanHintDraw": "タップして頂点を追加し、ドラッグして調整します。「確認」で図形を追加し、「保存」でも現在の図形を確定できます。",
   "diningFloorPlanLoadFailed": "屋内マップを読み込めませんでした",
   "diningMenuEndAfterStart": "供給終了時間は開始時間より後にしてください",
   "diningMenuCreateTitle": "料理を追加",
   "diningMenuEditTitle": "料理を修正",
-  "diningMenuHelp": "現在販売している料理を入力してください。送信後にメニューが更新されます。報酬は実際の付与額に従います。",
   "diningMenuNameLabel": "料理名",
   "diningMenuNameRequired": "名前を入力してください",
   "diningMenuPriceLabel": "価格（元）",
@@ -7624,7 +7473,6 @@
   "diningMenuSupplyEnd": "供給終了（北京時間）",
   "diningMenuClearStart": "開始時間をクリア",
   "diningMenuClearEnd": "終了時間をクリア",
-  "diningSearchFailedRetry": "検索に失敗しました。タップして再試行。",
   "diningSearchNoResults": "見つかりません。店名や料理名を試すか、範囲を切り替えてください。",
   "settingsFeaturesVivoWatchSectionTitle": "vivoウォッチ",
   "settingsFeaturesVivoWatchToggleTitle": "vivoウォッチに同期",
@@ -7905,14 +7753,10 @@
   "menstrualCycleDeleteAllDone": "すべての記録を削除しました",
   "menstrualCycleDisclaimerTitle": "医療アドバイスではありません",
   "menstrualCycleDisclaimerBody": "予測は記録された日付からの推定にすぎません。避妊や病気の診断には使用しないでください。その場合は医師にご相談ください。",
-  "menstrualCycleVisibilityTitle": "キャンパスページに表示",
-  "menstrualCycleVisibilityHint": "大学のプロフィールの性別が女性の場合、既定で表示されます。ここでもキャンパスページの編集でもいつでも変更できます。",
   "editorRepeatInterval": "間隔",
   "editorRecurrenceIntervalLength": "間隔の長さ",
   "editorRecurrenceIntervalSummary": "{duration}ごと",
   "editorRecurrenceWindow": "1日の時間帯",
-  "editorRecurrenceWindowStart": "開始",
-  "editorRecurrenceWindowEnd": "終了",
   "editorRecurrenceCycle": "周期的スケジュール",
   "editorRecurrenceCycleActive": "服用日数",
   "editorRecurrenceCyclePause": "休薬日数",
@@ -7952,11 +7796,9 @@
   "settingsRepeatReminder": "リマインダーの繰り返し",
   "settingsRepeatReminderHint": "操作がない場合に再通知します",
   "settingsRepeatReminderOff": "オフ",
-  "settingsRepeatReminderCount": "{count} 回",
   "menstrualCycleSaveFailed": "記録を保存できませんでした",
   "courseNoticeLoginRequired": "ログインして授業の通知を確認してください。",
   "courseEnrollmentPending": "時間割をインポートしました。授業情報の共有資格は確認待ちです。",
-  "courseCombinedTab": "成績・レビュー",
   "courseSharingTab": "共有情報",
   "sharingClassScope": "同じクラス",
   "sharingTeacherScope": "同じ教員",
@@ -8034,7 +7876,6 @@
   "courseResourceSaved": "ファイルを保存しました",
   "courseResourceSaveCancelled": "保存をキャンセルしました。転送済みファイルは利用枠に計上されます。",
   "courseResourceDownloadHint": "ダウンロード開始時に利用枠を消費します。保存のキャンセルや途中までの転送でも利用枠は戻りません。",
-  "courseResourceSessionUsed": "このダウンロードセッションは使用済みです。再ダウンロードには利用枠を消費します。",
   "courseResourceIntegrityError": "ファイルの検証に失敗し、保存されませんでした。再ダウンロードには利用枠を消費します。",
   "courseResourceRefresh": "ファイルの状態を更新",
   "courseResourcePolicyTitle": "授業資料のダウンロード利用枠",
@@ -8177,18 +8018,9 @@
   "resourceCategoryReferences": "参考文献",
   "resourceCategoryOther": "その他",
   "resourceAllCategories": "すべてのカテゴリ",
-  "resourceMetadataFilters": "教科書・章で絞り込み",
   "resourceSearchHint": "タイトル、著者、教科書、章で検索",
-  "resourceSearchCount": "公開資料：{count}件",
   "resourcePreviousPage": "前のページ",
   "resourceNextPage": "次のページ",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "既読にする",
   "sharingReadConfirmed": "既読",
   "sharingUnreadCount": "未読 {count} 件",
@@ -8443,7 +8275,6 @@
   "diningPlacementFloorUnspecified": "フロア未指定",
   "diningPlacementMapHint": "地図をタップして店舗の位置を修正してください",
   "diningProfileTitle": "プロフィールと貢献",
-  "diningModerationTitle": "審査とユーザー管理",
   "diningMapPickShop": "地図をタップして、おすすめする店舗の位置を指定してください",
   "diningMapShopPicked": "店舗の位置を指定しました。確定して詳細を入力してください。",
   "diningMapConfirmPoint": "位置を確定",
@@ -8461,7 +8292,6 @@
   "diningMenuAiModel": "画像対応AIモデル",
   "diningMenuAiRecognizing": "認識中…",
   "diningMenuAiFill": "AIで認識して入力",
-  "diningMenuAiHelp": "設定済みの画像対応モデルを選択してください。提出前に認識結果を確認し、不足する価格は手入力してください。",
   "diningDishReportReason": "通報理由とフィードバック",
   "diningDishReportRequired": "フィードバックを入力してください",
   "diningMenuPriceUnit": "価格の単位",
@@ -8486,7 +8316,6 @@
   "diningProfileSaveFailed": "保存できませんでした。再試行してください。",
   "diningProfileRewards": "貢献への報酬を見る",
   "diningTagsLabel": "味・タグ（コンマ区切り）",
-  "diningTagsHint": "あっさり,辛い,提供が早い",
   "diningTasteLight": "あっさり",
   "diningTasteSpicy": "辛い",
   "diningTasteNumbingSpicy": "しびれる辛さ",
@@ -8504,7 +8333,6 @@
   "courseBindingAdvancedTitle": "更新と個人用コピー",
   "masterBrowserQuery": "検索",
   "masterBrowserLookup": "教員 / 教室",
-  "masterBrowserLookupHint": "教員または教室を選ぶと、今学期のすべてのクラスを表示します。",
   "masterBrowserStats": "統計",
   "masterBrowserSearchHint": "科目名 / 教員 / 科目コード / クラス / 教科書",
   "masterBrowserSearchHelp": "入力すると絞り込まれます。空白で区切ると、すべてのキーワードに一致する授業を検索します。",
@@ -8515,7 +8343,6 @@
   "masterBrowserCategory": "科目区分",
   "masterBrowserType": "科目種別",
   "masterBrowserGrade": "入学年度",
-  "masterBrowserGrid": "週間時間割",
   "masterBrowserTitle": "教員の職位",
   "masterBrowserTextbook": "教科書",
   "masterBrowserPublisher": "出版社",
@@ -8524,7 +8351,6 @@
   "masterBrowserTeacherMajor": "教員の専門",
   "masterBrowserAssistants": "補助教員",
   "masterBrowserWeek": "週",
-  "masterBrowserWeekNumber": "第{week}週",
   "masterBrowserSection": "時限",
   "masterBrowserRoom": "教室",
   "masterBrowserWithSlots": "時間割のある授業のみ",
@@ -8559,8 +8385,6 @@
   "masterBrowserLocalData": "端末内データ",
   "masterBrowserArchiveData": "ウェブアーカイブ",
   "masterBrowserCloudData": "クラウドデータ",
-  "masterBrowserCollapse": "空き時限を非表示",
-  "masterBrowserConflict": "時間の重複",
   "masterBrowserEmptySemester": "この学期のデータはありません",
   "masterBrowserChangeLookup": "選び直す",
   "masterBrowserFilterLookup": "この授業を絞り込む",
@@ -8579,7 +8403,6 @@
   "opacCurrentReservations": "現在の予約",
   "opacReservationsDescription": "予約、受取場所、待ち順を確認",
   "opacRefreshReservations": "現在の予約を更新",
-  "opacLoadingReservations": "予約を読み込み中",
   "opacNoReservations": "現在の予約はありません",
   "opacPickupLocation": "受取場所",
   "opacReservationFrom": "有効期間の開始",
@@ -8639,23 +8462,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -8711,33 +8520,24 @@
   "washingAccountNote": "洗濯室の認証情報は独立して管理されます。有効期限が切れたら新しい Bearer を再登録してください。wxuuid は支払いの引き継ぎにのみ使用され、WeChat ログインは行いません。",
   "washingAccountTitle": "洗濯室アカウント",
   "washingAllFacilities": "すべての施設",
-  "washingAllFloors": "すべての階",
   "washingAllStates": "すべての状態",
   "washingAlternatePayment": "この注文は運営事業者の別の支払い経路を使用します。元のミニプログラムで完了してください。",
   "washingAuthError": "認証情報が無効か期限切れです。Bearer トークンを変更してください。",
-  "washingBuilding": "{building}号館",
   "washingCategoryDorm": "洗濯スペース",
-  "washingCategoryDormDescription": "地域・建物・階ごとに洗濯機を確認",
   "washingCategoryLaundry": "洗濯ステーション",
-  "washingCategoryLaundryDescription": "校内の地域ごとに洗濯センターを確認",
   "washingChangePoint": "拠点を変更",
   "washingCheckPayment": "支払い状況を確認",
   "washingCheckoutFailed": "注文を処理できません。認証情報を確認して後で再試行してください。",
   "washingChooseMode": "洗濯モードを選択",
   "washingChoosePoint": "洗濯拠点を選択",
   "washingChoosePointHint": "地域・建物・階を選択して機器の状態を確認してください。",
-  "washingClearCredential": "認証情報を消去",
   "washingClearOrder": "端末内の注文記録を消去",
   "washingClearOrderBody": "これは上流の注文を取り消したり返金したりするものではありません。まず運営事業者のミニプログラムで、注文が完了済み・終了済み・または作成されていないことを確認してください。未払いの注文は引き続き支払い可能な場合があります。",
   "washingClearOrderConfirm": "確認済み、記録を消去",
-  "washingClose": "閉じる",
   "washingConfirmBody": "機器：{device}\nモード：{mode}\n時間：{minutes} 分\n金額：¥{price}\n支払い後、機器がすぐに起動する場合があります。続行する前に洗濯物を入れ、機器をご確認ください。クーポンや洗剤の追加購入は適用されません。",
   "washingConfirmOrder": "洗濯注文を確認",
-  "washingCoordinateTitle": "検索位置を選択",
-  "washingCoordinatesInvalid": "有効な緯度（-90～90）と経度（-180～180）を入力してください。",
   "washingCreateOrder": "注文を作成",
   "washingCredentialSaved": "洗濯室アカウントを保存しました",
-  "washingCredentialTitle": "洗濯室の認証情報",
   "washingCurrentOrder": "現在の洗濯注文",
   "washingDeviceCount": "{count} 台の機器",
   "washingDeviceFallback": "洗濯機",
@@ -8750,12 +8550,9 @@
   "washingImport": "認証情報を登録",
   "washingIntroBody": "洗濯サービスの Bearer トークンを登録すると、校内の拠点一覧と機器の状態を読み込めます。",
   "washingIntroTitle": "校内の洗濯設備",
-  "washingLatitude": "緯度",
   "washingLaunchFailed": "支払いページを開けませんでした。WeChat のインストール状況と、運営事業者が外部ミニプログラムのリンクを許可しているかを確認してください。既存の注文は保持されます。",
   "washingLoadingDevices": "機器の状態を読み込み中",
-  "washingLoadingNearbyMachines": "近くのステーションの機器を読み込み中",
   "washingLocationError": "位置情報を取得できません。位置情報の権限を有効にしてから更新してください。",
-  "washingLongitude": "経度",
   "washingMachineAddress": "住所",
   "washingMachineDetails": "機器の詳細",
   "washingMachineEnd": "終了予定時刻",
@@ -8768,12 +8565,9 @@
   "washingMachines": "機器の状態",
   "washingMalformedError": "洗濯サービスの応答形式が変更されました。後で再試行してください。",
   "washingManageAccount": "洗濯室アカウントを管理",
-  "washingManageCredential": "洗濯室の認証情報を管理",
-  "washingManualLocation": "座標を入力",
   "washingModeDetails": "{minutes} 分 · {status}",
   "washingModesFailed": "洗濯モードを読み込めません。戻って更新して再試行してください。",
   "washingModesNote": "モードと価格は参考です。実際には現場の機器と運営事業者にご確認ください。",
-  "washingNearby": "近くのステーション",
   "washingNetworkError": "ネットワークを利用できません。後で再試行してください。",
   "washingNoDevices": "条件に一致する機器はありません",
   "washingNoModes": "モード情報がありません",
@@ -8792,8 +8586,6 @@
   "washingPaymentNote": "モードを選択して注文を作成し、WeChat で支払いページを開きます。支払いはミニプログラムが行い、結果は洗濯サービスが確認します。",
   "washingPaymentPending": "リンクを WeChat に渡しました。WeChat で支払いを完了し、戻って結果を確認してください。これは支払い成功を確定するものではありません。",
   "washingPriceChanged": "モードの価格または時間が変更されました。更新して再度確認してください。",
-  "washingQuery": "検索",
-  "washingRefresh": "更新",
   "washingRejectedError": "洗濯サービスはこのリクエストを処理できません。後で再試行してください。",
   "washingReplace": "認証情報を変更",
   "washingRestoring": "洗濯室の認証情報を読み込み中",
@@ -8804,8 +8596,6 @@
   "washingScanInvalid": "有効な洗濯機のQRコードまたは機器番号が見つかりません",
   "washingScanManual": "手動入力",
   "washingScanUnsupported": "この端末ではカメラスキャンを利用できません。機器番号またはQRコードリンクを手動で入力してください。",
-  "washingSearch": "近くのステーションを検索",
-  "washingSearchHint": "近くのステーションを検索するか、座標を入力してください。",
   "washingSearchPoint": "建物・階・拠点を検索",
   "washingSessionContext": "洗濯 H5 URL または wxuuid（支払いに使用）",
   "washingSessionContextHelp": "既存の運営事業者の H5 URL を貼り付けてください。照会には Bearer トークンのみ必要です。ここで WeChat ログインは行いません。",
@@ -8814,7 +8604,6 @@
   "washingStateOffline": "オフライン",
   "washingStateRunning": "運転中",
   "washingStateUnknown": "状態不明",
-  "washingStationDevices": "{station} · 機器",
   "washingStationFallback": "洗濯ステーション",
   "washingStorageClearError": "認証情報を消去できません。再試行してください。",
   "washingStorageReadError": "保存済みの認証情報を読み込めません。再登録してください。",
@@ -8990,7 +8779,6 @@
   "campusSectionHide": "セクションを非表示にする",   "campusSectionShow": "セクションを表示する",
   "campusSectionAdd": "グループを追加",
   "campusSectionDefaultName": "新しいグループ",
-  "campusSectionLayoutHint": "アプリをドラッグしてグループ間を移動できます",
   "campusSectionDropHere": "ここにアプリをドロップ",
   "campusSectionReleaseToCreate": "離して新しいグループを作成",
   "campusRenameSection": "グループ名を変更",
@@ -9000,10 +8788,10 @@
   "campusSectionDropPosition": "「{section}」の {position} 番目に移動",
   "locationSetFixedLocation": "固定の場所を設定",
   "campusBusDegradeSettings": "フォールバック設定",
-  "campusBusDegradedCaption": "フォールバック表示：路線ごとの運行車両",
   "campusBusAtStop": "{stop} に停車中",
   "campusBusPastStop": "{stop} を通過",
   "settingsBusCardSectionTitle": "学内バスカード",
+  "settingsBusCardEntrySubtitle": "プレビューカードとフォールバック表示",
   "settingsBusCardDegradeMode": "フォールバック表示",
   "settingsBusCardDegradeSubtitle": "自動：位置情報オフまたは学外の場合、路線ごとに車両を表示",
   "busDegradeModeNever": "しない",

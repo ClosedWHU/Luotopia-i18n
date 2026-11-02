@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "心理健康",
   "campusFolderComputing": "計院相關",
-  "campusComputingGroupSettingHint": "計院專用。用計算機學院的帳號登入後會自動顯示。",
   "campusFolderHealth": "健康",
   "campusAppVoteTicket": "預約搶票",
   "voteTicketEmpty": "暫無搶票活動",
@@ -233,7 +232,6 @@
   "opacSubmitting": "提交中",
   "opacReserve": "預約",
   "opacConfirmReserve": "確認預約",
-  "opacReserveMessage": "確定要預約這冊館藏嗎？",
   "opacReserveSubmitted": "預約請求已提交",
   "opacNoCurrent": "暫無在借圖書",
   "opacCheckRenew": "讀取借閱詳情並檢查續借入口",
@@ -257,7 +255,6 @@
   "opacRenewUpdated": "續借成功，借閱資訊已更新",
   "opacRenewRefreshFailed": "續借成功，但借閱資訊重新整理失敗，請下拉重新整理；不要重複續借",
   "opacRefreshLoans": "重新整理借閱記錄",
-  "opacLoadingLoans": "正在讀取借閱記錄",
   "opacProfileSaved": "個人資訊已儲存至圖書館伺服器",
   "opacSaveUnconfirmed": "未確認儲存成功，請返回重新整理核實。若工作階段已過期，請重新開啟編輯頁。",
   "opacContactHelp": "可修改郵寄地址、收件人姓名及聯絡方式；不會修改讀者證號和統一認證身分。",
@@ -409,65 +406,10 @@
       }
     }
   },
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "@aiMessageCount": {
     "placeholders": {
       "count": {
         "type": "int"
-      }
-    }
-  },
-  "@aiToolTraceCancelled": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@aiToolTraceFailed": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@aiToolTraceMoreTools": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "visibleTools": {
-        "type": "String"
-      }
-    }
-  },
-  "@aiToolTraceSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@aiToolTraceSummary": {
-    "placeholders": {
-      "statuses": {
-        "type": "String"
-      },
-      "tools": {
-        "type": "String"
       }
     }
   },
@@ -802,8 +744,6 @@
     }
   },
   "coremailSwitchAccountAction": "更換帳號",
-  "coremailRequiresWhuAccount": "需要先繫結武大帳號，才能在本機儲存信箱憑證。",
-  "vpnRequiresWhuAccount": "需要先繫結武大帳號，才能在本機儲存 VPN 憑證。",
   "credentialSaveUnavailable": "暫時無法儲存憑證，請稍後再試。",
   "@courseDetailTitle": {
     "placeholders": {
@@ -989,13 +929,6 @@
     "placeholders": {
       "count": {
         "type": "int"
-      }
-    }
-  },
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
       }
     }
   },
@@ -2699,9 +2632,6 @@
   "adminSystemQueuesDescription": "唯讀的重試與失敗緩衝佇列。",
   "adminForumSettingsImageUploadLimit": "圖片上傳上限（MiB）",
   "adminForumSettingsAttachmentUploadLimit": "附件上傳上限（MiB）",
-  "adminPaginationPrevious": "上一頁",
-  "adminPaginationNext": "下一頁",
-  "adminPaginationPageInfo": "第 {page}/{pages} 頁 · 共 {total} 條",
   "adminUsersSearchHint": "依名稱或電子郵件搜尋",
   "adminUsersFilter": "進階篩選",
   "adminUsersFilterApply": "套用",
@@ -2961,7 +2891,6 @@
   "aiMessageActionsTitle": "訊息操作",
   "aiDeleteSessionConfirm": "刪除此工作階段？",
   "aiDownload": "下載",
-  "aiDraftReady": "草稿已生成：{title}",
   "aiEditingMessage": "正在編輯訊息...",
   "aiExport": "匯出",
   "aiForkFromHere": "從此處分叉",
@@ -2970,7 +2899,6 @@
   "aiFormatOpenaiCompletion": "OpenAI Completion",
   "aiFormatOpenaiResponse": "OpenAI Response",
   "aiHeaderConfigRequired": "請先在設定中完成 AI 配置。",
-  "aiHeaderDraftCreated": "已通過草稿頁創建事項：{title}",
   "aiHeaderRetryLater": "AI 服務暫不可用，請稍後重試。",
   "aiHeaderServiceUnavailable": "AI 服務暫不可用，請先修復配置或網路。",
   "aiImageGeneration": "生成圖片",
@@ -3062,11 +2990,9 @@
   "aiMcpImport": "匯入",
   "aiMcpImportFailed": "無法匯入 MCP 伺服器設定",
   "aiMcpImportJson": "從 JSON 匯入",
-  "aiMemo": "備忘",
   "aiMessageCount": "{count}條訊息",
   "aiNewChat": "新對話",
   "aiNoMessages": "沒有訊息",
-  "aiOpenDraftPage": "打開草稿二級頁",
   "aiPaymentChannelAlipay": "支付寶",
   "aiPaymentChannelExitNotice": "選擇渠道後請在收銀台內完成付款。未付款就返回會按未付款處理，這筆訂單不會再次提示。無論付與不付，返回後與學校系統確認結果最長需要約一分鐘。暫時不想付可以直接從這裡返回，對話中的卡片會保留。",
   "aiPaymentChannelTitle": "選擇付款渠道",
@@ -3120,7 +3046,6 @@
   "aiSpeechSttsVoice": "stts 系統語音",
   "aiSpeechTitle": "AI 語音",
   "aiSpeechVoice": "語音",
-  "aiSpeechVoiceLoadFailed": "無法載入線上語音，將使用目前的語音。",
   "aiSpeechVolume": "音量",
   "aiSpeechWhisper": "Whisper 離線轉錄",
   "aiSpeechWhisperModel": "Whisper 模型",
@@ -3134,20 +3059,10 @@
   "aiToolStatusFailed": "工具失敗",
   "aiToolStatusRunning": "執行中",
   "aiToolStatusWaiting": "等待確認",
-  "aiToolTraceCancelled": "{count} 未完成",
-  "aiToolTraceDetails": "工具呼叫詳情",
-  "aiToolTraceFailed": "{count} 失敗",
-  "aiToolTraceMoreTools": "{visibleTools} 等 {count} 個工具",
-  "aiToolTraceStatusCancelled": "未完成",
-  "aiToolTraceStatusFailed": "失敗",
-  "aiToolTraceStatusSucceeded": "成功",
-  "aiToolTraceSucceeded": "{count} 成功",
-  "aiToolTraceSummary": "工具呼叫：{tools} · {statuses}",
   "aiToolUnknown": "未知工具",
   "aiTranslate": "翻譯",
   "aiTranslateTo": "翻譯成",
   "aiUnpin": "取消釘選",
-  "aiUntitledItem": "未命名事項",
   "aiVoiceInput": "語音輸入",
   "aiVoiceConnecting": "正在連線…",
   "aiVoiceTranscribing": "正在轉寫…",
@@ -3632,7 +3547,6 @@
   "campusFacultyMedicine": "醫學部",
   "ebikeSupplementTitle": "電動車補錄",
   "ebikeSupplementNotice": "只有通過電動車考試但是沒有獲得資格才能提交補錄申請",
-  "campusFeatureInDevelopment": "功能正在開發中",
   "campusLayoutColumns": "每列 {count} 個",
   "campusLocationFormatted": "{faculty} {building} {floor}樓 {room}教室\n({raw})",
   "campusMapAddFavorite": "收藏地點",
@@ -3770,7 +3684,6 @@
   "coremailHeadlessSsoFailed": "自動 SSO 未成功（可能需要瀏覽器手動完成）。",
   "coremailLoadFailed": "載入失敗",
   "coremailLoading": "正在載入…",
-  "coremailLoadingMailbox": "正在載入信箱…",
   "coremailMailboxEnabled": "信箱已啟用",
   "coremailMailboxTitle": "信箱",
   "coremailMarkUnread": "標記為未讀",
@@ -3873,7 +3786,6 @@
   "courseGradeStatsSortMedianDesc": "中位數（高→低）",
   "courseGradeStatsTeacherNoMatches": "沒有相符的教師",
   "courseGradeStatsNoData": "該課程暫無給分資料",
-  "courseGridSettings": "課程方格模式設定",
   "courseImport": "課程表匯入",
   "courseImportAcademicYearLabel": "{year}-{next} 學年",
   "courseImportModifiedRecordMessage": "已修改的課程記錄：{time}\n請選擇如何處理此記錄。",
@@ -3897,13 +3809,11 @@
   "courseImportRunningProgress": "正在匯入課程 {done}/{total}",
   "courseImportKeepAppOpen": "請勿關閉應用程式",
   "courseImportUnnamedCourse": "未命名課程",
-  "courseMatchingAdvancedFilters": "進階篩選",
   "courseMatchingConflictsCount": "{count} 處時間衝突",
   "courseMatchingCourseType": "課程類型",
   "courseMatchingCreateNewTimetable": "創建新課表",
   "courseMatchingCurrentTimeSlotOnly": "僅匹配當前時段",
   "courseMatchingDayOfWeek": "星期",
-  "courseMatchingFromSection": "起始節次",
   "courseMatchingMaxCredits": "最大學分",
   "courseMatchingAddSessions": "新增 {count} 堂課",
   "@courseMatchingAddSessions": {
@@ -3942,27 +3852,12 @@
   },
   "courseMatchingConflictFreeOnly": "僅顯示無衝突",
   "courseMatchingAdd": "新增",
-  "courseMatchingApply": "套用",
-  "courseMatchingReset": "重設",
-  "courseMatchingActiveFilters": "已啟用 {count} 項",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "全部",
   "courseMatchingCampus": "校區",
   "courseMatchingBuilding": "教學樓",
   "courseMatchingDepartment": "開課學院",
   "courseMatchingTeacher": "教師",
-  "courseMatchingSectionRangeError": "起始節次不能大於結束節次。",
-  "courseMatchingCreditRangeError": "最小學分不能大於最大學分。",
-  "globalTimetableHistory": "課程歷史",
   "globalTimetableHistoryHint": "在全部已發布學期中檢索，由新到舊。",
   "globalTimetableHistoryEmpty": "沒有符合的開課紀錄。",
-  "globalTimetableHistoryUnavailable": "目前伺服器端暫不支援課程歷史。",
   "globalTimetableDownloads": "離線資料",
   "globalTimetableDownloadsSummary": "已下載 {count} 個學期 · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -3996,8 +3891,6 @@
   "globalTimetableSourceLocal": "本機資料",
   "globalTimetableLocalMissing": "本機尚未下載該學期資料。",
   "globalTimetableNoSlot": "無時段",
-  "globalTimetableSearchHint": "課名 / 教師 / 課程號",
-  "globalTimetableEmpty": "該學期沒有符合的課程。",
   "globalTimetableDetailTitle": "課程詳情",
   "globalTimetableDetailSlots": "上課時段",
   "globalTimetableDetailInfo": "課程資訊",
@@ -4019,7 +3912,6 @@
   "courseMatchingMinCredits": "最小學分",
   "courseMatchingNoConflicts": "無時間衝突",
   "courseMatchingTargetTimetable": "目標課表",
-  "courseMatchingToSection": "結束節次",
   "courseReviewsAnonymousStudent": "匿名學生 · {semester}",
   "courseReviewsContent": "評價",
   "courseReviewsDelete": "刪除評價",
@@ -4138,7 +4030,6 @@
   "debuggerTitle": "網路偵錯器",
   "delete": "刪除",
   "deleteTimetable": "刪除課程表",
-  "detailConflictWithItems": "與 {items} 時間重疊。仍可儲存。",
   "detailDeadlineLabel": "截止時間",
   "detailDelete": "刪除事項",
   "detailDeleteConfirmMessage": "刪除後無法復原。",
@@ -4282,7 +4173,6 @@
   "medicationLowStockThreshold": "低庫存提醒閾值",
   "medicationLowStockAlert": "庫存不足，請及時補充",
   "medicationRefill": "補貨",
-  "medicationTaken": "已服用",
   "medicationFormPill": "藥丸",
   "medicationFormCapsule": "膠囊",
   "medicationFormTablet": "片劑",
@@ -4296,12 +4186,10 @@
   "editorSectionRepeat": "重複",
   "editorSectionDateRepeat": "日期與重複",
   "editorSectionTime": "時間",
-  "editorSectionDetails": "詳情",
   "editorSectionCourse": "課程資訊",
   "editorSectionMedication": "藥物資訊",
   "editorSectionLocationNotes": "地點與備註",
   "editorRecurrenceTimes": "時間",
-  "editorRecurrenceWeekdays": "星期",
   "editorRecurrenceAddTime": "新增時間",
   "editorRecurrenceMonthDays": "每月日期",
   "editorRecurrenceMonthDayPolicy": "當月沒有該日時",
@@ -4309,7 +4197,6 @@
   "editorRecurrenceClampLastDay": "順延到當月最後一天",
   "editorMomentToggle": "時刻（無時長）",
   "editorReminderCustom": "自訂",
-  "editorReminderAdd": "新增提醒",
   "editorSubmitInvalid": "請先修正高亮欄位。",
   "editorSubmitSuccess": "事項已儲存。",
   "editorTeacher": "教師",
@@ -4430,7 +4317,6 @@
   "forumCheckinRandom": "試運",
   "forumCheckinSuccess": "+{amount} 業力（連續 {streak} 天）",
   "forumCheckinTitle": "每日簽到",
-  "forumCheckinTodo": "待簽到",
   "forumCommentDeleted": "此留言已刪除",
   "forumCreatePost": "建立貼文",
   "forumDecisionReason": "處理說明",
@@ -4548,9 +4434,6 @@
   "forumModerationUnclaimed": "未領取",
   "forumModerationUserReports": "用戶檢舉",
   "forumMoreActions": "更多操作",
-  "forumMenuSectionContent": "我的內容",
-  "forumMenuSectionCommunity": "互動",
-  "forumMenuSectionManage": "管理",
   "forumMyKarma": "我的業力",
   "forumMyPosts": "我的貼文",
   "forumNoActiveBoards": "目前沒有可用的活躍版面。請重試或聯絡管理員。",
@@ -4748,7 +4631,6 @@
   "forumReplyPost": "回覆貼文",
   "forumReplyTo": "回覆 @{name}",
   "forumReport": "檢舉",
-  "forumReportReason": "因由",
   "forumReportSubmitted": "已提交檢舉。",
   "forumReportSubmittedFlavor": "已呈報因果，靜待迴響。",
   "forumReportCategory": "類別",
@@ -4757,7 +4639,6 @@
   "forumReportComment": "檢舉留言",
   "forumEditComment": "編輯留言",
   "forumCommentContent": "留言內容",
-  "forumModerationRulesTitle": "違反規則",
   "forumReportCatIllegalViolation": "違法違規",
   "forumReportCatSexual": "色情低俗",
   "forumReportCatHarassment": "仇恨與攻擊",
@@ -4807,8 +4688,6 @@
   "friendLinkCategoryPartnerApp": "合作與致謝",
   "friendLinkDialogClose": "關閉",
   "friendLinkOpenFailed": "無法開啟連結",
-  "globalTimetableCachedData": "快取資料",
-  "globalTimetableContribute": "貢獻課表",
   "globalTimetableContributionLoginLuotopia": "請先登入珞家，再貢獻課表。",
   "globalTimetableContributionLoginWhu": "請先登入 WHU CAS，再貢獻課表。",
   "globalTimetableContributionMessage": "使用一次性 WHU CAS 票據授權珞家。伺服器工作程序將在背景直接從武大教務系統匯入 {year}-{nextYear} 學年第 {term} 學期的資料。你的 WHU 身分必須與珞家帳號所綁定的身分一致。",
@@ -4834,7 +4713,6 @@
   "globalTimetablePhaseRetrying": "等待重試",
   "globalTimetablePhaseRewarding": "正在發放貢獻獎勵",
   "globalTimetableResults": "{count} 筆結果",
-  "globalTimetableSourceCloudUnavailable": "此期間沒有雲端資料",
   "globalTimetableTerm": "第 {term} 學期",
   "globalTimetableTitle": "全校課表",
   "gradesReviewsEmptyDescription": "進入課程詳情後可查看給分分佈與課程評價。",
@@ -5261,7 +5139,6 @@
   "messagesFilter": "篩選",
   "messagesFilterAll": "所有來源",
   "messagesFilterSource": "來源",
-  "messagesLoading": "正在載入訊息…",
   "messagesMarkAllRead": "全部已讀",
   "messagesMarkAllReadFailed": "全部已讀失敗",
   "messagesMarkAllReadSuccess": "已全部標記為已讀",
@@ -5330,7 +5207,6 @@
   "onboardingChooseLanguage": "首先選擇語言",
   "onboardingContinue": "繼續",
   "onboardingEnterApp": "進入珞家",
-  "onboardingFinishBenefitCampus": "使用校園卡、預約等校園服務",
   "onboardingFinishBenefitReservation": "查詢空教室，預約自習座位與體育場館",
   "onboardingFinishBenefitCard": "校園卡增值、掃碼付款與水電繳費",
   "onboardingFinishBenefitServices": "校車即時位置、圖書館借閱與校醫院服務",
@@ -5473,14 +5349,11 @@
   "schoolNetSuspendedDescription": "目前帳號暫時無法認證上網",
   "schoolNetSuspendedRule": "恢復後即可重新認證上網，暫停期間的套餐天數會自動順延。",
   "schoolNetSuspendedSince": "暫停時間",
-  "scoreCaptchaAutoVerifying": "自動驗證中...",
   "captchaAutoVerifying": "自動驗證中...",
   "scoreClearCacheHint": "清除本地緩存的成績數據",
   "scoreClearCacheSuccess": "成績緩存已清空",
   "scoreClearCacheTitle": "清空成績緩存",
   "scoreClearCacheWarning": "所有本地緩存的成績數據將被清除，確定繼續嗎？",
-  "scoreImportCancelled": "已取消驗證",
-  "scoreImportCaptchaFailed": "驗證碼解析失敗",
   "scoreImportCredentialSubtitle": "下載並在本機解析官方主修中文成績單",
   "scoreImportCredentialTitle": "從可信電子憑證匯入",
   "scoreImportDescription": "導入後會寫入本機緩存，後續可以直接查看並用於成績計算。",
@@ -5863,6 +5736,8 @@
   "settingsSpeechNavigationMutedHint": "開始導航時不播報，導航中仍可隨時開啟",
   "settingsSpeechNavigationCueLead": "路口播報提前量（公尺）",
   "settingsFeaturesEntryTitle": "功能設定",
+  "settingsPagesSectionTitle": "頁面設定",
+  "settingsFeaturesSectionTitle": "功能",
   "settingsFriendLinksEmpty": "暫無友情連結",
   "settingsFriendLinksSubtitle": "合作夥伴、社群與相關專案",
   "settingsFriendLinksTitle": "友情連結",
@@ -6344,7 +6219,6 @@
   "wallpaperTargetForum": "論壇",
   "wallpaperTargetHome": "課程表",
   "wallpaperTargetSettings": "設定",
-  "waterControlAccountExchangeFailed": "水帳戶交換失敗。",
   "waterControlAccountFallback": "校園卡帳戶",
   "waterControlActiveBadge": "有效",
   "waterControlActiveCode": "目前的取水碼",
@@ -7603,7 +7477,6 @@
   "cgNotificationFailed": "系統提醒更新失敗，請檢查通知權限后重試",
   "cgAssignmentNotification": "希冀平台作業即將截止",
   "cgExamNotification": "希冀平台考試即將開始",
-  "cgUnknownExamTime": "部分考試時間无法識別，請在原站確認",
   "cgOpenWebsite": "在原站開啟",
   "cgUpdatedAt": "更新於 {time}",
   "@cgUpdatedAt": {
@@ -7657,7 +7530,6 @@
   "courseReportDecision": "Decision",
   "courseReportReview": "Review report",
   "courseReportMine": "My reports",
-  "courseReportSelectCategory": "Select a category",
   "courseTrustReviews": "Course trust reviews",
   "courseTrustReviewEmpty": "No revisions awaiting trust review",
   "courseTrustReviewHint": "A class membership or assistant authorization changed. Check the accepted information and verify it again before new automatic syncing.",
@@ -7669,11 +7541,6 @@
   "courseAuditTarget": "Target",
   "courseAuditRequest": "Request ID",
   "courseClassActive": "Teaching class active",
-  "courseClassArchived": "Teaching class archived · historical information is read only",
-  "courseClassArchive": "Archive teaching class",
-  "courseClassArchiveHint": "Archive this teaching class? New contributions and invitations stop, and following calendar events pause. Historical records remain readable to eligible members.",
-  "courseClassRestore": "Restore teaching class",
-  "courseClassRestoreHint": "Restore this class with the selected future end date? Old role grants and expired student verification are not renewed automatically.",
   "courseProjectionFailureTitle": "Course calendar sync failures",
   "courseProjectionFailureHint": "These jobs failed eight times. After retrying, check the job and affected calendars.",
   "courseProjectionFailureEmpty": "No calendar sync failures",
@@ -7877,7 +7744,6 @@
   "courseSpaceEvidence": "認證證據",
   "courseSpaceNoEvidence": "沒有可查看的證據。",
   "courseCaseNotices": "課程審核結果",
-  "courseCaseNoticesEmpty": "暫無審核結果。",
   "courseNoticeInbox": "課程動態與審核結果",
   "courseNoticeInboxEmpty": "暫無課程動態。",
   "courseEventNoticeChanged": "你關注的課程時間節點有變更",
@@ -7917,40 +7783,9 @@
   "courseForumLinksRemove": "解除關聯",
   "courseForumLinksRetry": "重試加載關聯討論",
   "courseClassroomTitle": "課堂",
-  "courseClassroomClass": "本教學班",
-  "courseClassroomHead": "同一課頭",
-  "courseClassroomHeadUnavailable": "本教學班尚未關聯課頭。",
   "courseClassroomCompose": "在本教學班發帖",
-  "courseClassroomComposeHead": "在同一課頭髮帖",
-  "courseClassroomHeadPost": "課頭討論",
-  "courseClassroomArchivedHead": "此課頭已歸檔，歷史討論僅供閱讀。",
   "courseDiscussionReadOnly": "此課程討論已歸檔，僅供閱讀。",
   "courseClassroomEmpty": "此範圍暫無可訪問的討論。",
-  "courseClassroomScopeHint": "教學班帖子按來源班級授權；課頭討論僅對當前課頭的已認證同學開放。",
-  "courseClassroomSource": "來源教學班：{id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "發帖來源：{id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "發帖課頭：{id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "管理教學班權限",
   "courseAccessRevokeMember": "撤銷成員資格",
   "courseAccessRevokeRole": "撤銷角色權限",
@@ -7959,16 +7794,8 @@
   "courseRolloutTitle": "開放此教學班",
   "courseRolloutHint": "僅開放的教學班會出現在同學目錄並生成課後邀請。關閉後，同學不再看到該班的課程信息和討論。",
   "courseRolloutConfirm": "請填寫調整教學班開放狀態的理由，提交後立即生效。",
-  "courseClassRegister": "登記教學班",
-  "courseClassSchool": "學校標識",
-  "courseClassYear": "學年",
-  "courseClassSemester": "學期",
   "courseClassKey": "教務教學班標識",
-  "courseClassEndDate": "學期結束日期",
-  "courseClassRegisterHint": "請填寫教務教學班和課程目錄標識。結束日期按北京時間計算。登記不會認證學生，也不會自動關聯課頭。",
   "courseInvitationTitle": "課後共享邀請",
-  "courseInvitationHint": "這節課結束了。歡迎分享作業、考核要求或課堂通知；已有內容也可打開核對。",
-  "courseInvitationShare": "分享本節課",
   "courseInvitationSkip": "暫無可補充",
   "courseSessionManage": "課次管理",
   "courseSessionRegister": "登記課次",
@@ -7982,10 +7809,7 @@
   "courseSessionReason": "登記或變更理由",
   "courseSessionTimeInvalid": "請輸入有效時間，結束須晚於開始且課次不超過 12 小時",
   "courseSessionReloadRequired": "課次可能已由其他管理員調整。請刷新後再操作。",
-  "courseInvitationReview": "核對已有信息",
-  "courseInvitationSessionInformation": "本節課的信息",
   "courseInvitationSetting": "接收課後共享邀請",
-  "courseInvitationSettingHint": "適用於所有已認證教學班；關閉後不顯示新的邀請卡",
   "courseMasterReview": "核對教務總課表來源",
   "courseMasterUnsupported": "該學校尚未接入服務端教務總課表，請繼續人工登記課次。",
   "courseMasterUnmappedTerm": "本教學班學期尚未映射到教務編碼（3／12／16），不能自動關聯課次。",
@@ -8019,11 +7843,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "接收本教學班課後邀請",
-  "courseInvitationClassSettingHint": "只調整本教學班，不影響其他課程",
-  "courseInvitationClassGlobalOff": "賬號總開關已關閉；開啓總開關後此設置纔會生效",
   "courseInvitationPushSetting": "設備課後邀請推送",
-  "courseInvitationPushHint": "需同意課程推送並允許系統通知；每天最多兩次",
   "courseInvitationPushSystemOff": "設備通知總開關已關閉；開啓後才能收到推送",
   "courseInvitationQuietStart": "靜默開始時間",
   "courseInvitationQuietEnd": "靜默結束時間",
@@ -8142,14 +7962,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "選擇地圖導航",
-  "diningSpotIndoorFloors": "室內樓層",
   "diningSpotNoFloorPlanData": "暫無室內地圖資料",
   "diningSpotHoursUnknown": "營業時間未知",
   "diningSpotOpenNow": "營業中",
   "diningSpotClosedNow": "目前休息",
-  "diningSpotCorrectHours": "更正營業時間",
-  "diningSpotCorrectScheduleExceptions": "更正臨時營業安排",
   "diningSpotRecentScheduleExceptions": "近期營業例外",
   "diningSpotClosedTemporarily": "暫停營業",
   "diningSpotNextDay": "次日 ",
@@ -8252,7 +8068,6 @@
   "diningHoursAddSlot": "新增時段",
   "diningHoursReload": "重新載入",
   "diningHoursSubmitting": "提交中…",
-  "diningFloorPlanShopIdRequired": "請填寫本樓層的店鋪 ID",
   "diningFloorPlanTypeBoundary": "樓層邊界",
   "diningFloorPlanTypeShopArea": "店鋪區域",
   "diningFloorPlanTypeCorridor": "走廊",
@@ -8265,11 +8080,7 @@
   "diningFloorPlanTypeServiceArea": "服務區",
   "diningFloorPlanTypeLabel": "文字標籤",
   "diningFloorPlanTypeLandmark": "地標",
-  "diningFloorPlanGeometryPoint": "點",
-  "diningFloorPlanGeometryLine": "折線",
-  "diningFloorPlanGeometryPolygon": "多邊形",
   "diningFloorPlanLabelHint": "標籤（可選）",
-  "diningFloorPlanSpotIdLabel": "本樓層店鋪 ID",
   "diningFloorPlanFinishPoints": "完成 {count} 點",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -8278,17 +8089,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "請完成當前圖形後保存",
   "diningFloorPlanSaveFailed": "保存失敗，請檢查店鋪歸屬、圖形或網路後重試",
   "diningFloorPlanSaving": "保存中…",
-  "diningFloorPlanSave": "保存平面圖",
   "diningFloorPlanHintPoint": "點擊畫布放置點位",
   "diningFloorPlanHintDraw": "點擊畫布逐點繪製，拖動頂點調整；點擊「確認」新增圖形，或直接儲存。",
   "diningFloorPlanLoadFailed": "室內圖載入失敗",
   "diningMenuEndAfterStart": "供應結束時間須晚於開始時間",
   "diningMenuCreateTitle": "補充菜品",
   "diningMenuEditTitle": "更正菜品",
-  "diningMenuHelp": "提供店鋪實際在售菜品，提交後即更新菜單。貢獻獎勵以實際入帳為準。",
   "diningMenuNameLabel": "菜品名稱",
   "diningMenuNameRequired": "請填寫名稱",
   "diningMenuPriceLabel": "價格（元）",
@@ -8304,7 +8112,6 @@
   "diningMenuSupplyEnd": "供應結束（北京時間）",
   "diningMenuClearStart": "清除開始時間",
   "diningMenuClearEnd": "清除結束時間",
-  "diningSearchFailedRetry": "搜索失敗，點擊重試",
   "diningSearchNoResults": "沒有找到，試試店名、菜名或切換範圍",
   "settingsFeaturesVivoWatchSectionTitle": "vivo手錶",
   "settingsFeaturesVivoWatchToggleTitle": "同步到vivo手錶",
@@ -8522,14 +8329,10 @@
   "menstrualCycleDeleteAllDone": "已刪除全部記錄",
   "menstrualCycleDisclaimerTitle": "非醫療建議",
   "menstrualCycleDisclaimerBody": "預測僅根據你記錄的日期估算得出。請勿將其用作避孕手段或用於診斷疾病，相關需求請諮詢醫生。",
-  "menstrualCycleVisibilityTitle": "在校園頁顯示",
-  "menstrualCycleVisibilityHint": "當你的校園資料性別為女時預設顯示。你可以隨時在此處或校園頁的版面編輯器中修改。",
   "editorRepeatInterval": "間隔",
   "editorRecurrenceIntervalLength": "間隔時長",
   "editorRecurrenceIntervalSummary": "每 {duration}",
   "editorRecurrenceWindow": "每日時間窗",
-  "editorRecurrenceWindowStart": "從",
-  "editorRecurrenceWindowEnd": "至",
   "editorRecurrenceCycle": "週期服藥",
   "editorRecurrenceCycleActive": "服藥天數",
   "editorRecurrenceCyclePause": "停藥天數",
@@ -8569,11 +8372,9 @@
   "settingsRepeatReminder": "重複提醒",
   "settingsRepeatReminderHint": "未處理時再次提醒",
   "settingsRepeatReminderOff": "關",
-  "settingsRepeatReminderCount": "{count} 次",
   "menstrualCycleSaveFailed": "記錄儲存失敗,請重試",
   "courseNoticeLoginRequired": "登入後查看課程通知。",
   "courseEnrollmentPending": "課表已匯入，課程共享資格待更新。",
-  "courseCombinedTab": "給分與評價",
   "courseSharingTab": "信息共享",
   "sharingClassScope": "同班号",
   "sharingTeacherScope": "同教师",
@@ -8651,7 +8452,6 @@
   "courseResourceSaved": "文件已保存",
   "courseResourceSaveCancelled": "儲存已取消；本次已下載檔案仍計入額度。",
   "courseResourceDownloadHint": "下載開始時計入額度；儲存取消或部分傳輸不退還每日額度。",
-  "courseResourceSessionUsed": "此下載會話已使用；再次下載將重新計入額度。",
   "courseResourceIntegrityError": "檔案校驗失敗，未儲存。重新下載將重新計入額度。",
   "courseResourceRefresh": "刷新文件状态",
   "courseResourcePolicyTitle": "課程資料下載額度",
@@ -8794,18 +8594,9 @@
   "resourceCategoryReferences": "參考資料",
   "resourceCategoryOther": "其他",
   "resourceAllCategories": "全部分類",
-  "resourceMetadataFilters": "教材與章節篩選",
   "resourceSearchHint": "搜尋標題、作者、教材或章節",
-  "resourceSearchCount": "{count} 份已發布資料",
   "resourcePreviousPage": "上一頁",
   "resourceNextPage": "下一頁",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "標為已讀",
   "sharingReadConfirmed": "已讀",
   "sharingUnreadCount": "{count} 則未讀",
@@ -9060,7 +8851,6 @@
   "diningPlacementFloorUnspecified": "未指定樓層",
   "diningPlacementMapHint": "點選地圖修正店鋪位置",
   "diningProfileTitle": "個人資料與貢獻",
-  "diningModerationTitle": "審核與使用者管理",
   "diningMapPickShop": "點選地圖，標記你想推薦的店鋪",
   "diningMapShopPicked": "已標記店鋪位置，確認後補充資訊",
   "diningMapConfirmPoint": "確認位置",
@@ -9078,7 +8868,6 @@
   "diningMenuAiModel": "影像辨識 AI 模型",
   "diningMenuAiRecognizing": "正在辨識…",
   "diningMenuAiFill": "AI 辨識並填入",
-  "diningMenuAiHelp": "選擇已設定的影像辨識模型。辨識後可修改內容再提交；未辨識出價格時請手動填寫。",
   "diningDishReportReason": "檢舉原因與回饋",
   "diningDishReportRequired": "請填寫回饋",
   "diningMenuPriceUnit": "計價單位",
@@ -9103,7 +8892,6 @@
   "diningProfileSaveFailed": "儲存失敗，請重試",
   "diningProfileRewards": "檢視貢獻獎勵明細",
   "diningTagsLabel": "口味與標籤（逗號分隔）",
-  "diningTagsHint": "清淡,香辣,出餐快",
   "diningTasteLight": "清淡",
   "diningTasteSpicy": "香辣",
   "diningTasteNumbingSpicy": "麻辣",
@@ -9122,8 +8910,6 @@
   "masterBrowserLoadFailed": "載入失敗，請重試或管理離線數據",
   "masterBrowserRooms": "教室",
   "masterBrowserCloudData": "雲端數據",
-  "masterBrowserCollapse": "折疊空節次",
-  "masterBrowserConflict": "時間衝突",
   "masterBrowserHistory": "課程歷史",
   "masterBrowserLoading": "正在載入完整學期…",
   "masterBrowserLocalData": "本地數據",
@@ -9143,14 +8929,12 @@
   "masterBrowserTeacherMajor": "教師專業",
   "masterBrowserHistoryProgress": "正在檢索全部學期",
   "masterBrowserWeek": "周次",
-  "masterBrowserWeekNumber": "第 {week} 週",
   "masterBrowserNature": "課程性質",
   "masterBrowserType": "課程類型",
   "masterBrowserMajor": "專業代碼",
   "masterBrowserName": "課程名稱",
   "masterBrowserAscending": "升序",
   "masterBrowserLookup": "教師 / 教室",
-  "masterBrowserLookupHint": "選擇教師或教室，查看本學期全部教學班",
   "masterBrowserFilterOption": "搜索選項",
   "masterBrowserOpenCourse": "課程評價與導入課表",
   "masterBrowserAssistants": "助教",
@@ -9167,7 +8951,6 @@
   "masterBrowserNext": "下一門",
   "masterBrowserFilters": "篩選",
   "masterBrowserGrade": "年級",
-  "masterBrowserGrid": "周課表",
   "masterBrowserNoMatches": "沒有符合條件的教學班",
   "masterBrowserPrevious": "上一門",
   "masterBrowserOtherClasses": "同課程的其他教學班",
@@ -9196,7 +8979,6 @@
   "opacCurrentReservations": "目前預約",
   "opacReservationsDescription": "查看預約紀錄、取書地點和排隊進度",
   "opacRefreshReservations": "重新整理目前預約",
-  "opacLoadingReservations": "正在載入目前預約",
   "opacNoReservations": "目前沒有預約",
   "opacPickupLocation": "取書地點",
   "opacReservationFrom": "有效期開始",
@@ -9249,10 +9031,6 @@
   "washingTitle": "洗衣房",
   "washingCategoryLaundry": "洗衣房",
   "washingCategoryDorm": "洗衣處",
-  "washingCategoryLaundryDescription": "按校內地區查看洗烘中心",
-  "washingCategoryDormDescription": "按地區、樓棟和樓層查看洗衣機",
-  "washingManageCredential": "管理洗衣服務憑證",
-  "washingRefresh": "重新整理",
   "washingRestoring": "正在讀取洗衣服務憑證",
   "washingIntroTitle": "查看校內洗衣設施",
   "washingIntroBody": "輸入洗衣服務 Bearer token 後取得校內點位目錄和機器狀態。",
@@ -9261,16 +9039,10 @@
   "washingExpiredTitle": "請更新洗衣服務憑證",
   "washingExpiredBody": "目前憑證無效或已過期，需要重新輸入。",
   "washingReplace": "更換憑證",
-  "washingSearch": "搜尋附近站點",
-  "washingManualLocation": "手動選擇位置",
-  "washingClearCredential": "清除憑證",
-  "washingNearby": "附近服務點",
   "washingFindingStations": "正在讀取校內點位目錄",
-  "washingSearchHint": "點選搜尋附近站點，或輸入位置座標。",
   "washingNoStations": "暫無符合條件的校內點位",
   "washingStationFallback": "洗衣服務點",
   "washingAllStates": "全部狀態",
-  "washingAllFloors": "全部樓層",
   "washingLoadingDevices": "正在讀取設備狀態",
   "washingNoDevices": "沒有符合條件的設備",
   "washingDeviceFallback": "洗衣設備",
@@ -9282,18 +9054,11 @@
   "washingModesFailed": "無法讀取洗衣模式，請返回後重新整理重試。",
   "washingNoModes": "暫無模式資訊",
   "washingModesNote": "模式與價格僅供查詢，實際使用請以現場設備和營運方為準。",
-  "washingClose": "關閉",
-  "washingCredentialTitle": "洗衣服務憑證",
   "washingTokenLabel": "Bearer token",
   "washingTokenPaste": "貼上洗衣服務 token",
   "washingTokenKeep": "留空保留現有憑證",
   "washingTokenInvalid": "請輸入有效的 Bearer token",
   "washingSave": "儲存",
-  "washingCoordinateTitle": "選擇查詢位置",
-  "washingLatitude": "緯度",
-  "washingLongitude": "經度",
-  "washingCoordinatesInvalid": "請輸入有效緯度（-90～90）和經度（-180～180）",
-  "washingQuery": "查詢",
   "washingStorageReadError": "無法讀取已儲存的憑證，請重新輸入",
   "washingStorageSaveError": "憑證儲存失敗，請重試",
   "washingStorageClearError": "憑證清除失敗，請重試",
@@ -9303,9 +9068,7 @@
   "washingRejectedError": "洗衣服務暫時無法處理此請求，請稍後重試",
   "washingLocationError": "無法取得位置，請開啟定位權限後重新整理",
   "washingDeviceCount": "{count} 台設備",
-  "washingStationDevices": "{station} · 設備",
   "washingFloor": "{floor} 層",
-  "washingBuilding": "{building}號樓",
   "washingEstimatedEnd": "預計結束 {time}",
   "washingModeDetails": "{minutes} 分鐘 · {status}",
   "washingConfirmOrder": "確認洗衣訂單",
@@ -9335,7 +9098,6 @@
   "washingPaymentNote": "選擇模式建立訂單，再跳轉微信小程式付款。付款由小程式完成，結果以洗衣服務查詢為準。",
   "washingSessionContext": "洗衣 H5 網址或 wxuuid（付款需要）",
   "washingSessionContextHelp": "貼上你現有的營運方 H5 網址。查詢僅需 Bearer，此處不會發起微信登入。",
-  "washingLoadingNearbyMachines": "正在讀取附近各站點的樓層設備",
   "washingUnknownFloor": "樓層未知",
   "washingChoosePoint": "選擇洗衣點位",
   "washingChoosePointHint": "按地區選擇樓棟和樓層，查看機器狀態。",
@@ -9529,7 +9291,6 @@
   "campusSectionHide": "隱藏分區",   "campusSectionShow": "顯示分區",
   "campusSectionAdd": "新增分組",
   "campusSectionDefaultName": "新分組",
-  "campusSectionLayoutHint": "拖曳應用程式可調整分組與順序",
   "campusSectionDropHere": "把應用程式拖到這裡",
   "campusSectionReleaseToCreate": "放開以新增分組",
   "campusRenameSection": "重新命名分組",
@@ -9539,10 +9300,10 @@
   "campusSectionDropPosition": "放到「{section}」第 {position} 位",
   "locationSetFixedLocation": "設定固定位置",
   "campusBusDegradeSettings": "降級設定",
-  "campusBusDegradedCaption": "降級顯示：依路線列出在線車輛",
   "campusBusAtStop": "在 {stop}",
   "campusBusPastStop": "已過 {stop}",
   "settingsBusCardSectionTitle": "校巴卡片",
+  "settingsBusCardEntrySubtitle": "預覽卡片與降級顯示",
   "settingsBusCardDegradeMode": "降級顯示",
   "settingsBusCardDegradeSubtitle": "自動：無定位或離開校園時，依路線直接顯示在線車輛",
   "busDegradeModeNever": "不降級",

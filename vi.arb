@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "Sức khỏe tâm thần",
   "campusFolderComputing": "Khoa Máy tính",
-  "campusComputingGroupSettingHint": "Công cụ dành cho Khoa Máy tính. Chúng tự hiện khi bạn đăng nhập bằng hồ sơ của khoa này.",
   "campusFolderHealth": "Sức khỏe",
   "campusAppVoteTicket": "Đặt vé",
   "voteTicketEmpty": "Chưa có hoạt động đặt vé",
@@ -170,7 +169,6 @@
   "opacSubmitting": "Đang gửi",
   "opacReserve": "Đặt trước",
   "opacConfirmReserve": "Xác nhận đặt trước",
-  "opacReserveMessage": "Đặt trước bản sách này?",
   "opacReserveSubmitted": "Đã gửi yêu cầu đặt trước",
   "opacNoCurrent": "Không có sách đang mượn",
   "opacCheckRenew": "Tải chi tiết và kiểm tra khả năng gia hạn",
@@ -194,7 +192,6 @@
   "opacRenewUpdated": "Gia hạn thành công. Đã cập nhật thông tin mượn.",
   "opacRenewRefreshFailed": "Gia hạn thành công nhưng không thể làm mới thông tin. Kéo xuống để làm mới; không gia hạn lại.",
   "opacRefreshLoans": "Làm mới hồ sơ mượn",
-  "opacLoadingLoans": "Đang tải hồ sơ mượn",
   "opacProfileSaved": "Đã lưu thông tin cá nhân lên máy chủ thư viện",
   "opacSaveUnconfirmed": "Chưa xác nhận được việc lưu. Quay lại và làm mới để kiểm tra. Nếu phiên hết hạn, mở lại trang chỉnh sửa.",
   "opacContactHelp": "Có thể sửa địa chỉ bưu điện, tên người nhận và thông tin liên hệ. Số thẻ bạn đọc và danh tính xác thực không thay đổi.",
@@ -524,7 +521,6 @@
   "commonRegister": "Đăng ký",
   "commonRegistrationTime": "Thời gian đăng ký",
   "commonUsername": "Tên người dùng",
-  "courseGridSettings": "Cài đặt lưới",
   "gradesReviewsTitle": "Điểm và đánh giá",
   "courseImport": "Nhập khóa học",
   "courseImportSemester": "Học kỳ",
@@ -677,7 +673,6 @@
   "medicationLowStockThreshold": "Cảnh báo khi còn",
   "medicationLowStockAlert": "Sắp hết — hãy mua thêm",
   "medicationRefill": "Mua thêm",
-  "medicationTaken": "Đã uống",
   "medicationFormPill": "Viên",
   "medicationFormCapsule": "Nang",
   "medicationFormTablet": "Viên nén",
@@ -691,12 +686,10 @@
   "editorSectionRepeat": "Lặp lại",
   "editorSectionDateRepeat": "Ngày và lặp lại",
   "editorSectionTime": "Thời gian",
-  "editorSectionDetails": "Chi tiết",
   "editorSectionCourse": "Thông tin khóa học",
   "editorSectionMedication": "Thông tin thuốc",
   "editorSectionLocationNotes": "Địa điểm và ghi chú",
   "editorRecurrenceTimes": "Thời điểm",
-  "editorRecurrenceWeekdays": "Ngày",
   "editorRecurrenceAddTime": "Thêm giờ",
   "editorRecurrenceMonthDays": "Ngày trong tháng",
   "editorRecurrenceMonthDayPolicy": "Nếu tháng không có ngày đó",
@@ -704,7 +697,6 @@
   "editorRecurrenceClampLastDay": "Ngày cuối tháng",
   "editorMomentToggle": "Thời điểm (không kéo dài)",
   "editorReminderCustom": "Tùy chỉnh",
-  "editorReminderAdd": "Thêm nhắc nhở",
   "editorSubmitInvalid": "Vui lòng sửa các trường được đánh dấu trước.",
   "editorSubmitSuccess": "Mục đã được lưu.",
   "editorTeacher": "Giảng viên",
@@ -1151,6 +1143,8 @@
   "settingsHapticMedium": "Trung bình",
   "settingsHapticHigh": "Cao",
   "settingsFeaturesEntryTitle": "Tính năng",
+  "settingsPagesSectionTitle": "Cài đặt trang",
+  "settingsFeaturesSectionTitle": "Tính năng",
   "settingsFeaturesEntrySubtitle": "Widget, trang chủ, AI và thời tiết",
   "settingsSpeechEntryTitle": "Giọng nói",
   "settingsSpeechEntrySubtitle": "Giọng đọc, công cụ và nhận dạng",
@@ -1629,17 +1623,6 @@
   "aiConversations": "Danh sách hội thoại",
   "aiNewChat": "Mới",
   "aiServiceError": "Lỗi dịch vụ AI",
-  "aiUntitledItem": "Mục chưa đặt tên",
-  "aiMemo": "Ghi chú",
-  "aiDraftReady": "Bản nháp sẵn sàng: {title}",
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "aiOpenDraftPage": "Mở trang nháp",
   "aiSend": "Gửi",
   "aiClearHistory": "Xóa lịch sử",
   "aiRename": "Đổi tên",
@@ -2030,7 +2013,6 @@
     }
   },
   "retry": "Thử lại",
-  "campusFeatureInDevelopment": "Tính năng đang phát triển",
   "libraryVenueList": "Danh sách địa điểm",
   "libraryMyReservations": "Đặt chỗ của tôi",
   "libraryNoVenues": "Không có địa điểm mở",
@@ -2045,7 +2027,6 @@
   "libraryClickForDetails": "Chạm để xem tầng và ghế",
   "globalTimetableTitle": "TKB toàn trường",
   "globalTimetableCourseMatching": "Đối chiếu học phần",
-  "globalTimetableContribute": "Đóng góp thời khóa biểu",
   "globalTimetableLocalImport": "Nhập vào thiết bị này",
   "globalTimetableLocalImportMessage": "Tải xuống và lưu năm học {year}-{nextYear}, học kỳ {term}, trực tiếp từ hệ thống đào tạo của WHU vào thiết bị này. Dữ liệu và phiên đăng nhập hệ thống đào tạo của bạn sẽ không được tải lên Luotopia. Dữ liệu cục bộ sẽ được ưu tiên hơn dữ liệu đám mây khi tìm kiếm và lọc.",
   "globalTimetableLocalImportStart": "Tải xuống và lưu",
@@ -2054,7 +2035,6 @@
   "globalTimetableLocalUnsupported": "Nền tảng này không hỗ trợ nhập thời khóa biểu cục bộ.",
   "globalTimetableSourceLocal": "Cục bộ",
   "globalTimetableSourceCloud": "Đám mây",
-  "globalTimetableSourceCloudUnavailable": "Không có dữ liệu đám mây cho giai đoạn này",
   "globalTimetableContributionTitle": "Đóng góp vào thời khóa biểu toàn trường",
   "globalTimetableContributionMessage": "Ủy quyền cho Luotopia bằng vé WHU CAS dùng một lần. Tiến trình máy chủ sẽ nhập dữ liệu {year}-{nextYear}, học kỳ {term}, trực tiếp từ hệ thống đào tạo của WHU ở chế độ nền. Danh tính WHU của bạn phải khớp với danh tính được liên kết với tài khoản Luotopia.",
   "globalTimetableContributionStart": "Ủy quyền và bắt đầu",
@@ -2062,7 +2042,6 @@
   "globalTimetableContributionLoginWhu": "Hãy đăng nhập WHU CAS trước khi đóng góp.",
   "globalTimetableContributionUnsupported": "Tính năng đóng góp thời khóa biểu không khả dụng trên nền tảng này.",
   "globalTimetableResults": "{count} kết quả",
-  "globalTimetableCachedData": "Dữ liệu đã lưu vào bộ nhớ đệm",
   "globalTimetableTerm": "Học kỳ {term}",
   "globalTimetableImportStatus": "Nhập dữ liệu: {phase}",
   "globalTimetablePhaseAuthorizing": "Đang ủy quyền",
@@ -2359,8 +2338,6 @@
   "sportsAuthNoJwt": "Ủy quyền thất bại: phản hồi thiếu JWT.",
   "sportsAuthFailed": "Ủy quyền hệ thống sân thể thao thất bại.",
   "scoreImportDescription": "Sau khi nhập, điểm được cache trên máy để xem và tính GPA ngay.",
-  "scoreImportCaptchaFailed": "Phân tích mã xác minh thất bại",
-  "scoreImportCancelled": "Đã hủy xác minh",
   "scoreImportImportingUndergraduate": "Đang đăng nhập học vụ đại học và nhập điểm…",
   "scoreImportImportingCredential": "Đang tải xuống chứng chỉ đáng tin cậy và phân tích điểm trên máy…",
   "scoreImportSuccessWithCount": "{success}: {count} điểm đã cache trên máy.",
@@ -2413,7 +2390,6 @@
       }
     }
   },
-  "scoreCaptchaAutoVerifying": "Đang tự xác minh…",
   "captchaAutoVerifying": "Đang tự xác minh…",
   "seatReservationAlreadySynced": "Đặt chỗ này đã có trong lịch.",
   "seatReservationAddedToAgenda": "Đã thêm đặt ghế vào lịch.",
@@ -2456,14 +2432,6 @@
   "aiHeaderConfigRequired": "Vui lòng cấu hình AI trong Cài đặt trước.",
   "aiHeaderServiceUnavailable": "Dịch vụ AI không khả dụng. Hãy kiểm tra cấu hình hoặc mạng.",
   "aiHeaderRetryLater": "Dịch vụ AI tạm thời không khả dụng. Vui lòng thử lại sau.",
-  "aiHeaderDraftCreated": "Đã tạo qua trang nháp: {title}",
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "themeColorLuotopiaBlue": "Xanh Luojia",
   "themeColorMaterialRed": "Đỏ Material",
   "themeColorMaterialPink": "Hồng Material",
@@ -3128,7 +3096,6 @@
   "onboardingFinishBenefitsTitle": "Sau khi đăng nhập WHU bạn có thể",
   "onboardingFinishBenefitTimetable": "Nhập và đồng bộ thời khóa biểu",
   "onboardingFinishBenefitScores": "Xem điểm và tình trạng học tập",
-  "onboardingFinishBenefitCampus": "Dùng dịch vụ khuôn viên như thẻ E-card, đặt chỗ",
   "onboardingFinishBenefitReservation": "Tra cứu phòng học trống, đặt chỗ tự học và sân thể thao",
   "onboardingFinishBenefitCard": "Nạp tiền thẻ khuôn viên, thanh toán bằng mã và đóng tiền điện nước",
   "onboardingFinishBenefitServices": "Vị trí xe buýt theo thời gian thực, mượn sách thư viện và dịch vụ y tế học đường",
@@ -3263,7 +3230,6 @@
   "messagesFilterAll": "Tất cả nguồn",
   "messagesEmpty": "Không có tin nhắn",
   "messagesEmptySubtitle": "Tin nhắn từ các dịch vụ trong trường sẽ hiển thị ở đây",
-  "messagesLoading": "Đang tải tin nhắn…",
   "messagesErrorRetry": "Thu lai",
   "messagesMarkAllRead": "Đánh dấu đã đọc hết",
   "messagesMarkAllReadSuccess": "Đã đánh dấu tất cả là đã đọc",
@@ -4038,7 +4004,6 @@
   "forumSave": "Lưu",
   "forumEdit": "Chỉnh sửa",
   "forumReport": "Báo cáo",
-  "forumReportReason": "Lý do",
   "forumReportSubmitted": "Đã gửi báo cáo.",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
@@ -4216,14 +4181,6 @@
   "detailStatusOverdue": "Quá hạn",
   "detailStatusUpcoming": "Sắp tới",
   "detailStatusInactive": "Không theo dõi hoàn thành",
-  "detailConflictWithItems": "Trùng thời gian với {items}. Bạn vẫn có thể lưu.",
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
-      }
-    }
-  },
   "editorCompletionMode": "Hoàn thành",
   "editorCompletionModeManual": "Hoàn thành thủ công",
   "editorCompletionModeAutomatic": "Hoàn thành vào giờ kết thúc",
@@ -4315,9 +4272,6 @@
   "majorInfoEmploymentNoData": "Không có dữ liệu",
   "forumSearch": "Tìm kiếm",
   "forumMoreActions": "Thêm thao tác",
-  "forumMenuSectionContent": "Nội dung của tôi",
-  "forumMenuSectionCommunity": "Cộng đồng",
-  "forumMenuSectionManage": "Quản lý",
   "forumSearchQuery": "Tìm bài viết",
   "forumSearchBoard": "Chuyên mục",
   "forumSearchTag": "Thẻ",
@@ -4847,9 +4801,6 @@
   "adminSystemQueuesDescription": "Bộ đệm thử lại và lỗi chỉ đọc.",
   "adminForumSettingsImageUploadLimit": "Giới hạn tải ảnh lên (MiB)",
   "adminForumSettingsAttachmentUploadLimit": "Giới hạn tải tệp đính kèm (MiB)",
-  "adminPaginationPrevious": "Trang trước",
-  "adminPaginationNext": "Trang sau",
-  "adminPaginationPageInfo": "Trang {page}/{pages} · {total} mục",
   "appPaginationFirst": "Trang đầu",
   "appPaginationLast": "Trang cuối",
   "appPaginationPrevious": "Trang trước",
@@ -5068,15 +5019,6 @@
   "aiLiveAnsweringDescription": "Đang tạo câu trả lời theo thời gian thực",
   "aiLiveProcessing": "Đang xử lý",
   "aiLiveProcessingDescription": "Đang chuẩn bị bước tiếp theo",
-  "aiToolTraceMoreTools": "{visibleTools} và tổng cộng {count} công cụ",
-  "aiToolTraceSucceeded": "{count} thành công",
-  "aiToolTraceFailed": "{count} thất bại",
-  "aiToolTraceCancelled": "{count} chưa hoàn tất",
-  "aiToolTraceSummary": "Lệnh gọi công cụ: {tools} · {statuses}",
-  "aiToolTraceDetails": "Chi tiết lệnh gọi công cụ",
-  "aiToolTraceStatusSucceeded": "Thành công",
-  "aiToolTraceStatusFailed": "Thất bại",
-  "aiToolTraceStatusCancelled": "Chưa hoàn tất",
   "forumAdminLogActionApprove": "Duyệt bài viết",
   "forumAdminLogActionBan": "Cấm",
   "forumAdminLogActionDelete": "Xoá bài viết",
@@ -5094,7 +5036,6 @@
   "forumCheckinRandom": "Thử vận may",
   "forumCheckinSuccess": "+{amount} Nghiệp (chuỗi {streak})",
   "forumCheckinTitle": "Điểm danh hằng ngày",
-  "forumCheckinTodo": "Điểm danh",
   "forumKarma": "Nghiệp",
   "forumKarmaAdminAdjust": "Điều chỉnh Nghiệp",
   "forumKarmaAdminDelta": "Biến thiên",
@@ -5159,7 +5100,6 @@
   "forumReportComment": "Báo cáo bình luận",
   "forumEditComment": "Sửa bình luận",
   "forumCommentContent": "Bình luận",
-  "forumModerationRulesTitle": "Quy tắc bị vi phạm",
   "forumReportCatIllegalViolation": "Bất hợp pháp & an toàn",
   "forumReportCatSexual": "Nội dung khiêu dâm",
   "forumReportCatHarassment": "Thù ghét & quấy rối",
@@ -5238,10 +5178,7 @@
       }
     }
   },
-  "courseMatchingAdvancedFilters": "Bộ lọc nâng cao",
   "courseMatchingDayOfWeek": "Thứ trong tuần",
-  "courseMatchingFromSection": "Từ tiết",
-  "courseMatchingToSection": "Đến tiết",
   "courseMatchingCourseType": "Loại môn học",
   "courseMatchingMinCredits": "Tín chỉ tối thiểu",
   "courseMatchingMaxCredits": "Tín chỉ tối đa",
@@ -5282,27 +5219,12 @@
   },
   "courseMatchingConflictFreeOnly": "Chỉ không trùng lịch",
   "courseMatchingAdd": "Thêm",
-  "courseMatchingApply": "Áp dụng",
-  "courseMatchingReset": "Đặt lại",
-  "courseMatchingActiveFilters": "{count} đang bật",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "Tất cả",
   "courseMatchingCampus": "Cơ sở",
   "courseMatchingBuilding": "Tòa nhà",
   "courseMatchingDepartment": "Khoa phụ trách",
   "courseMatchingTeacher": "Giảng viên",
-  "courseMatchingSectionRangeError": "Tiết bắt đầu không được lớn hơn tiết kết thúc.",
-  "courseMatchingCreditRangeError": "Tín chỉ tối thiểu không được lớn hơn tối đa.",
-  "globalTimetableHistory": "Lịch sử môn học",
   "globalTimetableHistoryHint": "Tìm trong tất cả học kỳ đã phát hành, mới trước.",
   "globalTimetableHistoryEmpty": "Không có lớp nào khớp truy vấn.",
-  "globalTimetableHistoryUnavailable": "Máy chủ chưa hỗ trợ lịch sử môn học.",
   "globalTimetableDownloads": "Dữ liệu ngoại tuyến",
   "globalTimetableDownloadsSummary": "{count} học kỳ · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -5334,8 +5256,6 @@
   "globalTimetableSourceAuto": "Tự động",
   "globalTimetableLocalMissing": "Học kỳ này chưa có dữ liệu ngoại tuyến.",
   "globalTimetableNoSlot": "Chưa xếp tiết",
-  "globalTimetableSearchHint": "Tên môn / giảng viên / mã môn",
-  "globalTimetableEmpty": "Không tìm thấy môn nào cho học kỳ này.",
   "globalTimetableDetailTitle": "Chi tiết môn học",
   "globalTimetableDetailSlots": "Thời khóa biểu",
   "globalTimetableDetailInfo": "Thông tin môn học",
@@ -5602,7 +5522,6 @@
   "whuMessagesRequestFailed": "Yêu cầu thất bại",
   "whuLibraryResultUnknown": "Kết quả thao tác thư viện không xác định. Vui lòng làm mới trạng thái trước khi quyết định có thử lại hay không.",
   "sportsAuthFailedCasRequired": "Xác thực hệ thống thể thao thất bại. Vui lòng đăng nhập lại qua WHU CAS.",
-  "waterControlAccountExchangeFailed": "Trao đổi tài khoản nước thất bại.",
   "aiImageGeneration": "Tạo hình ảnh",
   "aiImageGenerationHint": "Mô tả hình ảnh bạn muốn tạo",
   "aiImageGenerationEmpty": "Hình ảnh bạn tạo sẽ xuất hiện tại đây.",
@@ -5797,7 +5716,6 @@
   "aiSpeechEngine": "Công cụ giọng nói",
   "aiSpeechEdge": "Giọng nói trực tuyến Edge",
   "aiSpeechSttsVoice": "Giọng nói hệ thống stts",
-  "aiSpeechVoiceLoadFailed": "Không thể tải giọng nói trực tuyến; sẽ dùng giọng nói hiện tại.",
   "aiSpeechVoice": "Giọng nói",
   "aiSpeechRate": "Tốc độ",
   "aiSpeechPitch": "Cao độ",
@@ -6029,7 +5947,6 @@
   "coremailFolderNameRequired": "Vui lòng nhập tên thư mục.",
   "coremailCreate": "Tạo",
   "coremailSwitchFolder": "Chuyển thư mục",
-  "coremailLoadingMailbox": "Đang tải hộp thư…",
   "coremailConnectionFailed": "Kết nối hộp thư thất bại: {error}",
   "@coremailConnectionFailed": {
     "placeholders": {
@@ -6135,8 +6052,6 @@
     }
   },
   "coremailSwitchAccountAction": "Đổi tài khoản",
-  "coremailRequiresWhuAccount": "Hãy liên kết tài khoản WHU trước để lưu thông tin hộp thư trên thiết bị này.",
-  "vpnRequiresWhuAccount": "Hãy liên kết tài khoản WHU trước để lưu thông tin VPN trên thiết bị này.",
   "credentialSaveUnavailable": "Hiện chưa thể lưu thông tin đăng nhập. Vui lòng thử lại sau ít phút.",
   "coremailAutoSignInFailed": "Đăng nhập tự động thất bại. Vui lòng kiểm tra mật khẩu hoặc đăng nhập lại.",
   "coremailEnterAccountAndPassword": "Vui lòng nhập đầy đủ tài khoản email và mật khẩu.",
@@ -6791,7 +6706,6 @@
   "courseReportDecision": "Quyết định",
   "courseReportReview": "Xem xét báo cáo",
   "courseReportMine": "Báo cáo của tôi",
-  "courseReportSelectCategory": "Chọn danh mục",
   "courseTrustReviews": "Đánh giá tin cậy của khóa học",
   "courseTrustReviewEmpty": "Không có bản sửa đổi nào đang chờ đánh giá tin cậy",
   "courseTrustReviewHint": "Tư cách thành viên lớp hoặc quyền trợ giảng đã thay đổi. Kiểm tra thông tin đã chấp nhận và xác minh lại trước khi tự động đồng bộ mới.",
@@ -6803,11 +6717,6 @@
   "courseAuditTarget": "Mục tiêu",
   "courseAuditRequest": "ID yêu cầu",
   "courseClassActive": "Lớp giảng dạy đang hoạt động",
-  "courseClassArchived": "Lớp giảng dạy đã lưu trữ · thông tin lịch sử chỉ đọc",
-  "courseClassArchive": "Lưu trữ lớp giảng dạy",
-  "courseClassArchiveHint": "Lưu trữ lớp này? Các đóng góp và lời mời mới sẽ dừng, và các sự kiện lịch tiếp theo sẽ tạm dừng. Các bản ghi lịch sử vẫn đọc được đối với thành viên đủ điều kiện.",
-  "courseClassRestore": "Khôi phục lớp giảng dạy",
-  "courseClassRestoreHint": "Khôi phục lớp này với ngày kết thúc tương lai đã chọn? Các cấp quyền cũ và xác minh sinh viên đã hết hạn không được tự động gia hạn.",
   "courseProjectionFailureTitle": "Lỗi đồng bộ lịch khóa học",
   "courseProjectionFailureHint": "Các tác vụ này đã thất bại tám lần. Sau khi thử lại, hãy kiểm tra tác vụ và các lịch bị ảnh hưởng.",
   "courseProjectionFailureEmpty": "Không có lỗi đồng bộ lịch",
@@ -6990,7 +6899,6 @@
   "cgNotificationFailed": "Không thể cập nhật lời nhắc. Kiểm tra quyền thông báo và thử lại.",
   "cgAssignmentNotification": "Nhiệm vụ của Cg sắp đến hạn",
   "cgExamNotification": "Kỳ thi Cg sắp bắt đầu",
-  "cgUnknownExamTime": "Một số thời gian thi không thể đọc được. Kiểm tra trang web gốc.",
   "cgOpenWebsite": "Mở trang web gốc",
   "cgUpdatedAt": "Đã cập nhật {time}",
   "@cgUpdatedAt": {
@@ -7187,7 +7095,6 @@
   "courseSpaceEvidence": "Bằng chứng xác minh",
   "courseSpaceNoEvidence": "Không có bằng chứng được giữ lại.",
   "courseCaseNotices": "Kết quả đánh giá khóa học",
-  "courseCaseNoticesEmpty": "Chưa có kết quả đánh giá.",
   "courseNoticeInbox": "Cập nhật khóa học và quyết định",
   "courseNoticeInboxEmpty": "Chưa có cập nhật khóa học nào",
   "courseEventNoticeChanged": "Ngày khóa học hoặc thời hạn đã thay đổi",
@@ -7227,40 +7134,9 @@
   "courseForumLinksRemove": "Xóa liên kết",
   "courseForumLinksRetry": "Thử tải lại các cuộc thảo luận được liên kết",
   "courseClassroomTitle": "lớp học",
-  "courseClassroomClass": "Lớp học phần này",
-  "courseClassroomHead": "Cùng nhóm giảng dạy",
-  "courseClassroomHeadUnavailable": "Lớp này chưa liên kết với nhóm giảng dạy nào.",
   "courseClassroomCompose": "Đăng lên lớp này",
-  "courseClassroomComposeHead": "Đăng bài trong nhóm giảng dạy này",
-  "courseClassroomHeadPost": "Thảo luận chung của nhóm giảng dạy",
-  "courseClassroomArchivedHead": "Dịch vụ giảng dạy được lưu trữ: các cuộc thảo luận lịch sử ở chế độ chỉ đọc.",
   "courseDiscussionReadOnly": "Cuộc thảo luận khóa học này được lưu trữ và chỉ đọc.",
   "courseClassroomEmpty": "Không có cuộc thảo luận nào bạn có thể truy cập trong phạm vi này.",
-  "courseClassroomScopeHint": "Các bài đăng của lớp tuân theo các quyền của lớp nguồn của chúng; các cuộc thảo luận về việc nhóm giảng dạy dành cho những sinh viên đã được xác minh trong đợt cung cấp này.",
-  "courseClassroomSource": "Lớp nguồn: {id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "Nguồn bài viết: {id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "Đăng bài giảng dạy: {id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "Quản lý quyền truy cập lớp học",
   "courseAccessRevokeMember": "Thu hồi tư cách thành viên",
   "courseAccessRevokeRole": "Thu hồi vai trò",
@@ -7269,16 +7145,8 @@
   "courseRolloutTitle": "Mở lớp học phần này",
   "courseRolloutHint": "Chỉ các lớp học mở mới xuất hiện với sinh viên và tạo ra lời mời tham gia khóa học. Việc đóng lớp học sẽ xóa thông tin khóa học và thảo luận khỏi chế độ xem của sinh viên.",
   "courseRolloutConfirm": "Đưa ra lý do thay đổi trạng thái triển khai của lớp này. Sự thay đổi có hiệu lực ngay lập tức.",
-  "courseClassRegister": "Đăng ký lớp học phần",
-  "courseClassSchool": "Mã định danh trường học",
-  "courseClassYear": "Năm học",
-  "courseClassSemester": "Học kỳ",
   "courseClassKey": "Mã nhận dạng lớp học phần chính thức",
-  "courseClassEndDate": "Ngày kết thúc học kỳ",
-  "courseClassRegisterHint": "Sử dụng số nhận dạng danh mục khóa học và lớp học chính thức. Ngày kết thúc sử dụng thời gian Asia/Shanghai. Việc đăng ký không xác minh sinh viên hoặc liên kết một dịch vụ.",
   "courseInvitationTitle": "Thư mời sau giờ học",
-  "courseInvitationHint": "Lớp học này đã kết thúc. Chia sẻ bài tập, yêu cầu đánh giá hoặc thông báo hoặc kiểm tra thông tin hiện có.",
-  "courseInvitationShare": "Chia sẻ cho lớp học này",
   "courseInvitationSkip": "Không có gì để thêm",
   "courseSessionManage": "Quản lý buổi học",
   "courseSessionRegister": "Đăng ký buổi học",
@@ -7292,10 +7160,7 @@
   "courseSessionReason": "Lý do đăng ký hoặc thay đổi",
   "courseSessionTimeInvalid": "Nhập thời gian hợp lệ; kết thúc phải theo sau bắt đầu và thời lượng không quá 12 giờ",
   "courseSessionReloadRequired": "Một quản trị viên khác có thể đã thay đổi buổi học này. Làm mới trước khi chỉnh sửa lại.",
-  "courseInvitationReview": "Xem lại thông tin hiện có",
-  "courseInvitationSessionInformation": "Thông tin lớp học này",
   "courseInvitationSetting": "Lời mời sau giờ học",
-  "courseInvitationSettingHint": "Áp dụng cho tất cả các lớp đã được xác minh; tắt để ẩn thiệp mời",
   "courseMasterReview": "Xem lại nguồn thời gian biểu chính thức",
   "courseMasterUnsupported": "Trường này không có nguồn thời khóa biểu chính thức phía máy chủ. Tiếp tục đăng ký các buổi học theo cách thủ công.",
   "courseMasterUnmappedTerm": "Học kỳ lớp này không được ánh xạ tới mã học kỳ chính thức (3/12/16); các buổi học không thể được liên kết tự động.",
@@ -7329,11 +7194,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "Lời mời sau giờ học cho lớp học này",
-  "courseInvitationClassSettingHint": "Chỉ ảnh hưởng đến lớp học phần này",
-  "courseInvitationClassGlobalOff": "Lời mời trên toàn tài khoản đã tắt; cài đặt này có hiệu lực khi chúng được bật",
   "courseInvitationPushSetting": "Đẩy thiết bị cho lời mời tham gia lớp học",
-  "courseInvitationPushHint": "Yêu cầu sự đồng ý đẩy khóa học và thông báo hệ thống; nhiều nhất là hai mỗi ngày",
   "courseInvitationPushSystemOff": "Thông báo thiết bị bị tắt; cho phép họ nhận được sự thúc đẩy",
   "courseInvitationQuietStart": "Giờ yên tĩnh bắt đầu",
   "courseInvitationQuietEnd": "Giờ yên tĩnh kết thúc",
@@ -7452,14 +7313,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "Chọn bản đồ dẫn đường",
-  "diningSpotIndoorFloors": "Các tầng trong nhà",
   "diningSpotNoFloorPlanData": "Chưa có dữ liệu bản đồ trong nhà",
   "diningSpotHoursUnknown": "Không rõ giờ mở cửa",
   "diningSpotOpenNow": "Đang mở cửa",
   "diningSpotClosedNow": "Hiện đang nghỉ",
-  "diningSpotCorrectHours": "Đính chính giờ mở cửa",
-  "diningSpotCorrectScheduleExceptions": "Đính chính giờ mở cửa đặc biệt",
   "diningSpotRecentScheduleExceptions": "Giờ mở cửa đặc biệt gần đây",
   "diningSpotClosedTemporarily": "Tạm nghỉ",
   "diningSpotNextDay": "hôm sau ",
@@ -7562,7 +7419,6 @@
   "diningHoursAddSlot": "Thêm khung giờ",
   "diningHoursReload": "Tải lại",
   "diningHoursSubmitting": "Đang gửi…",
-  "diningFloorPlanShopIdRequired": "Nhập ID cửa hàng của tầng này",
   "diningFloorPlanTypeBoundary": "Ranh giới tầng",
   "diningFloorPlanTypeShopArea": "Khu cửa hàng",
   "diningFloorPlanTypeCorridor": "Hành lang",
@@ -7575,11 +7431,7 @@
   "diningFloorPlanTypeServiceArea": "Khu dịch vụ",
   "diningFloorPlanTypeLabel": "Nhãn chữ",
   "diningFloorPlanTypeLandmark": "Địa danh",
-  "diningFloorPlanGeometryPoint": "Điểm",
-  "diningFloorPlanGeometryLine": "Đường gấp khúc",
-  "diningFloorPlanGeometryPolygon": "Đa giác",
   "diningFloorPlanLabelHint": "Nhãn (không bắt buộc)",
-  "diningFloorPlanSpotIdLabel": "ID cửa hàng tầng này",
   "diningFloorPlanFinishPoints": "Hoàn tất {count} điểm",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -7588,17 +7440,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "Hoàn tất hình hiện tại trước khi lưu",
   "diningFloorPlanSaveFailed": "Lưu thất bại. Kiểm tra cửa hàng, hình vẽ hoặc mạng rồi thử lại.",
   "diningFloorPlanSaving": "Đang lưu…",
-  "diningFloorPlanSave": "Lưu sơ đồ tầng",
   "diningFloorPlanHintPoint": "Chạm vào khung vẽ để đặt điểm",
   "diningFloorPlanHintDraw": "Chạm để thêm đỉnh và kéo để điều chỉnh. Xác nhận thêm hình; Lưu cũng hoàn tất hình hiện tại.",
   "diningFloorPlanLoadFailed": "Không tải được sơ đồ trong nhà",
   "diningMenuEndAfterStart": "Thời gian kết thúc phải muộn hơn thời gian bắt đầu",
   "diningMenuCreateTitle": "Thêm món ăn",
   "diningMenuEditTitle": "Sửa món ăn",
-  "diningMenuHelp": "Nhập món đang được bán. Thực đơn được cập nhật sau khi gửi; thưởng theo số thực nhận.",
   "diningMenuNameLabel": "Tên món ăn",
   "diningMenuNameRequired": "Nhập tên món",
   "diningMenuPriceLabel": "Giá (NDT)",
@@ -7614,7 +7463,6 @@
   "diningMenuSupplyEnd": "Kết thúc cung ứng (giờ Bắc Kinh)",
   "diningMenuClearStart": "Xóa giờ bắt đầu",
   "diningMenuClearEnd": "Xóa giờ kết thúc",
-  "diningSearchFailedRetry": "Tìm kiếm thất bại. Chạm để thử lại.",
   "diningSearchNoResults": "Không tìm thấy. Thử tên quán, tên món hoặc đổi phạm vi.",
   "settingsFeaturesVivoWatchSectionTitle": "Đồng hồ vivo",
   "settingsFeaturesVivoWatchToggleTitle": "Đồng bộ tới đồng hồ vivo",
@@ -7895,14 +7743,10 @@
   "menstrualCycleDeleteAllDone": "Đã xoá toàn bộ",
   "menstrualCycleDisclaimerTitle": "Không phải lời khuyên y khoa",
   "menstrualCycleDisclaimerBody": "Các dự đoán chỉ là ước tính dựa trên ngày bạn ghi lại. Đừng dùng để tránh thai hay chẩn đoán bệnh — hãy gặp bác sĩ.",
-  "menstrualCycleVisibilityTitle": "Hiện trên trang Khuôn viên",
-  "menstrualCycleVisibilityHint": "Hiện theo mặc định khi hồ sơ đại học của bạn ghi là nữ. Bạn có thể đổi bất cứ lúc nào, ở đây hoặc trong trình sửa bố cục.",
   "editorRepeatInterval": "Cách quãng",
   "editorRecurrenceIntervalLength": "Độ dài cách quãng",
   "editorRecurrenceIntervalSummary": "Mỗi {duration}",
   "editorRecurrenceWindow": "Khung giờ hằng ngày",
-  "editorRecurrenceWindowStart": "Từ",
-  "editorRecurrenceWindowEnd": "Đến",
   "editorRecurrenceCycle": "Lịch theo chu kỳ",
   "editorRecurrenceCycleActive": "Số ngày dùng",
   "editorRecurrenceCyclePause": "Số ngày nghỉ",
@@ -7942,11 +7786,9 @@
   "settingsRepeatReminder": "Lặp lại nhắc nhở",
   "settingsRepeatReminderHint": "Nhắc lại khi chưa thao tác",
   "settingsRepeatReminderOff": "Tắt",
-  "settingsRepeatReminderCount": "{count} lần",
   "menstrualCycleSaveFailed": "Không lưu được bản ghi",
   "courseNoticeLoginRequired": "Đăng nhập để xem thông báo khóa học.",
   "courseEnrollmentPending": "Đã nhập thời khóa biểu. Quyền chia sẻ thông tin môn học đang chờ xác minh.",
-  "courseCombinedTab": "Điểm và đánh giá",
   "courseSharingTab": "Thông tin chia sẻ",
   "sharingClassScope": "Cùng lớp học phần",
   "sharingTeacherScope": "Cùng giảng viên",
@@ -8024,7 +7866,6 @@
   "courseResourceSaved": "Đã lưu tệp",
   "courseResourceSaveCancelled": "Đã hủy lưu. Tệp đã truyền vẫn được tính vào hạn mức.",
   "courseResourceDownloadHint": "Hạn mức bị trừ khi bắt đầu tải xuống. Hủy lưu hoặc truyền chưa hoàn tất không hoàn lại hạn mức hằng ngày.",
-  "courseResourceSessionUsed": "Phiên tải xuống này đã được sử dụng. Tải lại sẽ tiêu hao hạn mức.",
   "courseResourceIntegrityError": "Xác minh tệp thất bại; không có gì được lưu. Tải lại sẽ tiêu hao hạn mức.",
   "courseResourceRefresh": "Cập nhật trạng thái tệp",
   "courseResourcePolicyTitle": "Hạn mức tải tài liệu học phần",
@@ -8167,18 +8008,9 @@
   "resourceCategoryReferences": "Tài liệu tham khảo",
   "resourceCategoryOther": "Khác",
   "resourceAllCategories": "Tất cả danh mục",
-  "resourceMetadataFilters": "Bộ lọc giáo trình và chương",
   "resourceSearchHint": "Tìm theo tiêu đề, tác giả, giáo trình hoặc chương",
-  "resourceSearchCount": "{count} tài liệu đã đăng",
   "resourcePreviousPage": "Trang trước",
   "resourceNextPage": "Trang sau",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "Đánh dấu đã đọc",
   "sharingReadConfirmed": "Đã đọc",
   "sharingUnreadCount": "{count} chưa đọc",
@@ -8433,7 +8265,6 @@
   "diningPlacementFloorUnspecified": "Chưa chỉ định tầng",
   "diningPlacementMapHint": "Chạm bản đồ để chỉnh vị trí cửa hàng",
   "diningProfileTitle": "Hồ sơ và đóng góp",
-  "diningModerationTitle": "Duyệt nội dung và quản lý người dùng",
   "diningMapPickShop": "Chạm bản đồ để đánh dấu cửa hàng muốn đề xuất",
   "diningMapShopPicked": "Đã đánh dấu vị trí cửa hàng. Xác nhận để thêm chi tiết.",
   "diningMapConfirmPoint": "Xác nhận vị trí",
@@ -8451,7 +8282,6 @@
   "diningMenuAiModel": "Mô hình AI thị giác",
   "diningMenuAiRecognizing": "Đang nhận dạng…",
   "diningMenuAiFill": "Nhận dạng và điền bằng AI",
-  "diningMenuAiHelp": "Chọn mô hình thị giác đã cấu hình. Kiểm tra dữ liệu nhận dạng trước khi gửi và nhập thủ công mọi giá còn thiếu.",
   "diningDishReportReason": "Lý do báo cáo và phản hồi",
   "diningDishReportRequired": "Nhập phản hồi của bạn",
   "diningMenuPriceUnit": "Đơn vị tính giá",
@@ -8476,7 +8306,6 @@
   "diningProfileSaveFailed": "Không thể lưu. Vui lòng thử lại.",
   "diningProfileRewards": "Xem thưởng đóng góp",
   "diningTagsLabel": "Hương vị và thẻ (ngăn cách bằng dấu phẩy)",
-  "diningTagsHint": "Thanh đạm,Cay,Phục vụ nhanh",
   "diningTasteLight": "Thanh đạm",
   "diningTasteSpicy": "Cay",
   "diningTasteNumbingSpicy": "Cay tê",
@@ -8494,7 +8323,6 @@
   "courseBindingAdvancedTitle": "Cập nhật và bản sao cá nhân",
   "masterBrowserQuery": "Tìm kiếm",
   "masterBrowserLookup": "Giảng viên / phòng học",
-  "masterBrowserLookupHint": "Chọn giảng viên hoặc phòng học để xem tất cả lớp trong học kỳ này.",
   "masterBrowserStats": "Thống kê",
   "masterBrowserSearchHint": "Môn học / giảng viên / mã môn / lớp / giáo trình",
   "masterBrowserSearchHelp": "Kết quả cập nhật khi nhập. Dùng dấu cách để tìm đồng thời tất cả từ khóa.",
@@ -8505,7 +8333,6 @@
   "masterBrowserCategory": "Nhóm môn học",
   "masterBrowserType": "Loại môn học",
   "masterBrowserGrade": "Khóa tuyển sinh",
-  "masterBrowserGrid": "Thời khóa biểu tuần",
   "masterBrowserTitle": "Chức danh giảng viên",
   "masterBrowserTextbook": "Giáo trình",
   "masterBrowserPublisher": "Nhà xuất bản",
@@ -8514,7 +8341,6 @@
   "masterBrowserTeacherMajor": "Chuyên môn giảng viên",
   "masterBrowserAssistants": "Trợ giảng",
   "masterBrowserWeek": "Tuần",
-  "masterBrowserWeekNumber": "Tuần {week}",
   "masterBrowserSection": "Tiết",
   "masterBrowserRoom": "Phòng học",
   "masterBrowserWithSlots": "Chỉ lớp đã có lịch",
@@ -8549,8 +8375,6 @@
   "masterBrowserLocalData": "Dữ liệu trên thiết bị",
   "masterBrowserArchiveData": "Kho lưu trữ web",
   "masterBrowserCloudData": "Dữ liệu đám mây",
-  "masterBrowserCollapse": "Ẩn tiết trống",
-  "masterBrowserConflict": "Trùng lịch",
   "masterBrowserEmptySemester": "Chưa có dữ liệu cho học kỳ này",
   "masterBrowserChangeLookup": "Chọn lại",
   "masterBrowserFilterLookup": "Lọc các môn này",
@@ -8569,7 +8393,6 @@
   "opacCurrentReservations": "Đặt sách hiện tại",
   "opacReservationsDescription": "Xem yêu cầu, nơi nhận và vị trí trong hàng đợi",
   "opacRefreshReservations": "Làm mới yêu cầu đặt sách",
-  "opacLoadingReservations": "Đang tải yêu cầu đặt sách",
   "opacNoReservations": "Không có yêu cầu đặt sách",
   "opacPickupLocation": "Nơi nhận sách",
   "opacReservationFrom": "Có hiệu lực từ",
@@ -8629,23 +8452,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -8701,33 +8510,24 @@
   "washingAccountNote": "Thông tin xác thực giặt là được quản lý riêng. Nhập Bearer mới khi hết hạn; wxuuid chỉ dùng để chuyển tiếp thanh toán, không đăng nhập WeChat.",
   "washingAccountTitle": "Tài khoản giặt là",
   "washingAllFacilities": "Tất cả cơ sở",
-  "washingAllFloors": "Tất cả tầng",
   "washingAllStates": "Tất cả trạng thái",
   "washingAlternatePayment": "Đơn hàng này dùng kênh thanh toán riêng của nhà vận hành. Vui lòng hoàn tất trong mini-program gốc.",
   "washingAuthError": "Thông tin xác thực không hợp lệ hoặc đã hết hạn. Hãy thay Bearer token.",
-  "washingBuilding": "Tòa {building}",
   "washingCategoryDorm": "Khu giặt đồ",
-  "washingCategoryDormDescription": "Xem máy giặt theo khu vực, tòa và tầng",
   "washingCategoryLaundry": "Trạm giặt là",
-  "washingCategoryLaundryDescription": "Xem trung tâm giặt là theo khu vực trong trường",
   "washingChangePoint": "Đổi vị trí",
   "washingCheckPayment": "Kiểm tra trạng thái thanh toán",
   "washingCheckoutFailed": "Không thể xử lý đơn hàng. Hãy kiểm tra thông tin xác thực và thử lại sau.",
   "washingChooseMode": "Chọn chế độ giặt",
   "washingChoosePoint": "Chọn vị trí giặt là",
   "washingChoosePointHint": "Chọn khu vực, tòa và tầng để xem các máy.",
-  "washingClearCredential": "Xóa thông tin xác thực",
   "washingClearOrder": "Xóa bản ghi đơn hàng cục bộ",
   "washingClearOrderBody": "Thao tác này không hủy hoặc hoàn tiền đơn hàng phía nhà vận hành. Trước tiên hãy kiểm tra trong mini-program của nhà vận hành rằng đơn hàng đã hoàn tất, đã đóng hoặc chưa từng được tạo. Đơn hàng chưa thanh toán vẫn có thể thanh toán được.",
   "washingClearOrderConfirm": "Đã kiểm tra, xóa bản ghi",
-  "washingClose": "Đóng",
   "washingConfirmBody": "Thiết bị: {device}\nChế độ: {mode}\nThời lượng: {minutes} phút\nSố tiền: ¥{price}\nThanh toán có thể khiến máy khởi động ngay. Hãy cho quần áo vào và xác nhận máy trước khi tiếp tục. Không áp dụng phiếu giảm giá hoặc mua thêm nước giặt.",
   "washingConfirmOrder": "Xác nhận đơn hàng giặt là",
-  "washingCoordinateTitle": "Chọn vị trí tìm kiếm",
-  "washingCoordinatesInvalid": "Nhập vĩ độ hợp lệ (-90 đến 90) và kinh độ (-180 đến 180).",
   "washingCreateOrder": "Tạo đơn hàng",
   "washingCredentialSaved": "Đã lưu tài khoản giặt là.",
-  "washingCredentialTitle": "Thông tin xác thực giặt là",
   "washingCurrentOrder": "Đơn hàng giặt là hiện tại",
   "washingDeviceCount": "{count} máy",
   "washingDeviceFallback": "Máy giặt",
@@ -8740,12 +8540,9 @@
   "washingImport": "Nhập thông tin xác thực",
   "washingIntroBody": "Nhập Bearer token của dịch vụ giặt là để tải danh mục trong trường và trạng thái máy.",
   "washingIntroTitle": "Cơ sở giặt là trong trường",
-  "washingLatitude": "Vĩ độ",
   "washingLaunchFailed": "Không thể mở trang thanh toán. Hãy kiểm tra cài đặt WeChat và việc nhà vận hành có cho phép liên kết mini-program bên ngoài hay không. Đơn hàng hiện có của bạn được giữ lại.",
   "washingLoadingDevices": "Đang tải trạng thái máy",
-  "washingLoadingNearbyMachines": "Đang tải máy tại các điểm gần đây",
   "washingLocationError": "Không lấy được vị trí. Hãy bật quyền vị trí rồi làm mới.",
-  "washingLongitude": "Kinh độ",
   "washingMachineAddress": "Địa chỉ",
   "washingMachineDetails": "Chi tiết máy",
   "washingMachineEnd": "Dự kiến hoàn tất",
@@ -8758,12 +8555,9 @@
   "washingMachines": "Trạng thái máy",
   "washingMalformedError": "Phản hồi của dịch vụ giặt là đã thay đổi. Hãy thử lại sau.",
   "washingManageAccount": "Quản lý tài khoản giặt là",
-  "washingManageCredential": "Quản lý thông tin xác thực giặt là",
-  "washingManualLocation": "Nhập tọa độ",
   "washingModeDetails": "{minutes} phút · {status}",
   "washingModesFailed": "Không thể tải chế độ giặt. Hãy quay lại và làm mới để thử lại.",
   "washingModesNote": "Chế độ và giá chỉ để tham khảo. Hãy xác nhận với máy tại chỗ và nhà vận hành.",
-  "washingNearby": "Điểm gần đây",
   "washingNetworkError": "Mạng không khả dụng. Hãy thử lại sau.",
   "washingNoDevices": "Không có máy phù hợp",
   "washingNoModes": "Không có thông tin chế độ",
@@ -8782,8 +8576,6 @@
   "washingPaymentNote": "Chọn chế độ để tạo đơn hàng, sau đó mở trang thanh toán trong WeChat. Mini-program xử lý thanh toán; dịch vụ giặt là xác nhận kết quả.",
   "washingPaymentPending": "Liên kết đã được chuyển cho WeChat. Hãy hoàn tất thanh toán ở đó, rồi quay lại kiểm tra kết quả. Điều này không xác nhận thanh toán thành công.",
   "washingPriceChanged": "Giá hoặc thời lượng của chế độ đã thay đổi. Hãy làm mới và xác nhận lại.",
-  "washingQuery": "Tìm kiếm",
-  "washingRefresh": "Làm mới",
   "washingRejectedError": "Dịch vụ giặt là không thể xử lý yêu cầu này. Hãy thử lại sau.",
   "washingReplace": "Thay thông tin xác thực",
   "washingRestoring": "Đang tải thông tin xác thực giặt là",
@@ -8794,8 +8586,6 @@
   "washingScanInvalid": "Không tìm thấy mã QR máy giặt hoặc mã định danh hợp lệ",
   "washingScanManual": "Nhập thủ công",
   "washingScanUnsupported": "Không thể quét bằng camera. Hãy nhập số máy hoặc liên kết QR theo cách thủ công.",
-  "washingSearch": "Tìm điểm gần đây",
-  "washingSearchHint": "Tìm kiếm điểm gần đây hoặc nhập tọa độ.",
   "washingSearchPoint": "Tìm kiếm tòa, tầng hoặc vị trí",
   "washingSessionContext": "H5 URL của dịch vụ giặt là hoặc wxuuid (để thanh toán)",
   "washingSessionContextHelp": "Dán H5 URL hiện có của nhà vận hành. Việc truy vấn chỉ cần Bearer token. Không thực hiện đăng nhập WeChat tại đây.",
@@ -8804,7 +8594,6 @@
   "washingStateOffline": "Ngoại tuyến",
   "washingStateRunning": "Đang chạy",
   "washingStateUnknown": "Không rõ trạng thái",
-  "washingStationDevices": "{station} · Máy",
   "washingStationFallback": "Điểm giặt là",
   "washingStorageClearError": "Không thể xóa thông tin xác thực. Hãy thử lại.",
   "washingStorageReadError": "Không thể đọc thông tin xác thực đã lưu. Hãy nhập lại.",
@@ -8980,7 +8769,6 @@
   "campusSectionHide": "Ẩn nhóm",   "campusSectionShow": "Hiện nhóm",
   "campusSectionAdd": "Thêm nhóm",
   "campusSectionDefaultName": "Nhóm mới",
-  "campusSectionLayoutHint": "Kéo ứng dụng giữa các nhóm để sắp xếp",
   "campusSectionDropHere": "Thả ứng dụng vào đây",
   "campusSectionReleaseToCreate": "Thả để tạo nhóm mới",
   "campusRenameSection": "Đổi tên nhóm",
@@ -8990,10 +8778,10 @@
   "campusSectionDropPosition": "Đặt vào “{section}” ở vị trí {position}",
   "locationSetFixedLocation": "Đặt vị trí cố định",
   "campusBusDegradeSettings": "Cài đặt chế độ dự phòng",
-  "campusBusDegradedCaption": "Chế độ dự phòng: xe theo từng tuyến",
   "campusBusAtStop": "Tại {stop}",
   "campusBusPastStop": "Đã qua {stop}",
   "settingsBusCardSectionTitle": "Thẻ xe buýt khuôn viên",
+  "settingsBusCardEntrySubtitle": "Thẻ xem trước & hiển thị dự phòng",
   "settingsBusCardDegradeMode": "Hiển thị dự phòng",
   "settingsBusCardDegradeSubtitle": "Tự động: hiển thị xe của từng tuyến khi tắt vị trí hoặc ở ngoài khuôn viên",
   "busDegradeModeNever": "Không",

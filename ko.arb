@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "정신 건강",
   "campusFolderComputing": "컴퓨터학부",
-  "campusComputingGroupSettingHint": "컴퓨터학부 전용입니다. 컴퓨터학부 프로필로 로그인하면 자동으로 표시됩니다.",
   "campusFolderHealth": "건강",
   "campusAppVoteTicket": "티켓 예약",
   "voteTicketEmpty": "티켓 이벤트가 없습니다",
@@ -170,7 +169,6 @@
   "opacSubmitting": "제출 중",
   "opacReserve": "예약",
   "opacConfirmReserve": "예약 확인",
-  "opacReserveMessage": "이 자료를 예약하시겠습니까?",
   "opacReserveSubmitted": "예약 신청을 제출했습니다",
   "opacNoCurrent": "현재 대출 중인 도서가 없습니다",
   "opacCheckRenew": "대출 상세 정보 및 연장 가능 여부 확인",
@@ -194,7 +192,6 @@
   "opacRenewUpdated": "연장되었으며 대출 정보를 업데이트했습니다.",
   "opacRenewRefreshFailed": "연장은 완료했지만 정보를 새로고침하지 못했습니다. 아래로 당겨 새로고침하세요. 다시 연장하지 마세요.",
   "opacRefreshLoans": "대출 기록 새로고침",
-  "opacLoadingLoans": "대출 기록 불러오는 중",
   "opacProfileSaved": "개인 정보를 도서관 서버에 저장했습니다",
   "opacSaveUnconfirmed": "저장 여부를 확인하지 못했습니다. 돌아가서 새로고침하여 확인하세요. 세션이 만료되었다면 편집 화면을 다시 여세요.",
   "opacContactHelp": "우편 주소, 수신인 이름 및 연락처를 수정할 수 있습니다. 이용자 번호와 통합 인증 신원은 변경되지 않습니다.",
@@ -524,7 +521,6 @@
   "commonRegister": "가입",
   "commonRegistrationTime": "가입 시각",
   "commonUsername": "사용자 이름",
-  "courseGridSettings": "과목 그리드 설정",
   "gradesReviewsTitle": "성적과 평가",
   "courseImport": "과목 가져오기",
   "courseImportSemester": "학기",
@@ -677,7 +673,6 @@
   "medicationLowStockThreshold": "부족 알림 기준",
   "medicationLowStockAlert": "부족합니다 — 보충하세요",
   "medicationRefill": "보충",
-  "medicationTaken": "복용함",
   "medicationFormPill": "알약",
   "medicationFormCapsule": "캡슐",
   "medicationFormTablet": "정제",
@@ -691,12 +686,10 @@
   "editorSectionRepeat": "반복",
   "editorSectionDateRepeat": "날짜 및 반복",
   "editorSectionTime": "시간",
-  "editorSectionDetails": "세부 정보",
   "editorSectionCourse": "강의 정보",
   "editorSectionMedication": "약 정보",
   "editorSectionLocationNotes": "위치 및 메모",
   "editorRecurrenceTimes": "시간",
-  "editorRecurrenceWeekdays": "요일",
   "editorRecurrenceAddTime": "시간 추가",
   "editorRecurrenceMonthDays": "매월 날짜",
   "editorRecurrenceMonthDayPolicy": "해당 날짜가 없는 달",
@@ -704,7 +697,6 @@
   "editorRecurrenceClampLastDay": "월 말일로",
   "editorMomentToggle": "시각 (지속 시간 없음)",
   "editorReminderCustom": "사용자 지정",
-  "editorReminderAdd": "알림 추가",
   "editorSubmitInvalid": "먼저 강조표시된 필드를 수정하세요.",
   "editorSubmitSuccess": "항목이 저장되었습니다.",
   "editorTeacher": "교수",
@@ -1154,6 +1146,8 @@
   "settingsHapticMedium": "보통",
   "settingsHapticHigh": "높음",
   "settingsFeaturesEntryTitle": "기능 설정",
+  "settingsPagesSectionTitle": "페이지 설정",
+  "settingsFeaturesSectionTitle": "기능",
   "settingsFeaturesEntrySubtitle": "위젯, 홈, AI, 날씨",
   "settingsSpeechEntryTitle": "음성",
   "settingsSpeechEntrySubtitle": "음성, 읽기 엔진 및 인식",
@@ -1722,17 +1716,6 @@
   "aiConversations": "대화 목록",
   "aiNewChat": "새 채팅",
   "aiServiceError": "AI 서비스 오류",
-  "aiUntitledItem": "제목 없는 항목",
-  "aiMemo": "메모",
-  "aiDraftReady": "초안 준비됨: {title}",
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "aiOpenDraftPage": "초안 페이지 열기",
   "aiSend": "보내기",
   "aiClearHistory": "기록 삭제",
   "aiRename": "이름 바꾸기",
@@ -1970,7 +1953,6 @@
     }
   },
   "retry": "재시도",
-  "campusFeatureInDevelopment": "개발 중인 기능입니다",
   "libraryVenueList": "시설 목록",
   "libraryMyReservations": "내 예약",
   "libraryNoVenues": "이용 가능한 관 없음",
@@ -1985,7 +1967,6 @@
   "libraryClickForDetails": "탭하여 층·좌석 상세 보기",
   "globalTimetableTitle": "전체 시간표",
   "globalTimetableCourseMatching": "과목 매칭",
-  "globalTimetableContribute": "시간표 기여",
   "globalTimetableLocalImport": "이 기기로 가져오기",
   "globalTimetableLocalImportMessage": "WHU 학사 시스템에서 {year}-{nextYear}학년도 {term}학기 시간표를 이 기기에 직접 다운로드하여 저장합니다. 데이터와 학사 시스템 세션은 뤄자에 업로드되지 않습니다. 검색 및 필터링 시 클라우드 데이터보다 로컬 데이터를 우선 사용합니다.",
   "globalTimetableLocalImportStart": "다운로드 및 저장",
@@ -1994,7 +1975,6 @@
   "globalTimetableLocalUnsupported": "이 플랫폼에서는 시간표 로컬 가져오기를 사용할 수 없습니다.",
   "globalTimetableSourceLocal": "로컬",
   "globalTimetableSourceCloud": "클라우드",
-  "globalTimetableSourceCloudUnavailable": "이 기간의 클라우드 데이터가 없습니다",
   "globalTimetableContributionTitle": "대학 전체 시간표에 기여",
   "globalTimetableContributionMessage": "일회용 WHU CAS 티켓으로 뤄자를 인증합니다. 서버 워커가 백그라운드에서 WHU 학사 시스템으로부터 {year}-{nextYear}학년도 {term}학기 데이터를 직접 가져옵니다. WHU 신원 정보는 뤄자 계정에 연결된 정보와 일치해야 합니다.",
   "globalTimetableContributionStart": "인증하고 시작",
@@ -2002,7 +1982,6 @@
   "globalTimetableContributionLoginWhu": "기여하기 전에 WHU CAS에 로그인해 주세요.",
   "globalTimetableContributionUnsupported": "이 플랫폼에서는 시간표 기여를 이용할 수 없습니다.",
   "globalTimetableResults": "결과 {count}개",
-  "globalTimetableCachedData": "캐시된 데이터",
   "globalTimetableTerm": "{term}학기",
   "globalTimetableImportStatus": "가져오기: {phase}",
   "globalTimetablePhaseAuthorizing": "인증 중",
@@ -2299,8 +2278,6 @@
   "sportsAuthNoJwt": "권한 부여 실패: 응답에 JWT 없음.",
   "sportsAuthFailed": "운동 시설 시스템 권한 부여 실패.",
   "scoreImportDescription": "가져오면 기기에 캐시되어 바로 조회·GPA 계산에 쓸 수 있습니다.",
-  "scoreImportCaptchaFailed": "인증코드 해석 실패",
-  "scoreImportCancelled": "인증을 취소했습니다",
   "scoreImportImportingUndergraduate": "학부 교무에 로그인해 성적을 가져오는 중…",
   "scoreImportImportingCredential": "신뢰할 수 있는 자격 증명을 다운로드하여 로컬에서 성적을 파싱하는 중…",
   "scoreImportSuccessWithCount": "{success}: {count}건을 기기에 캐시했습니다.",
@@ -2353,7 +2330,6 @@
       }
     }
   },
-  "scoreCaptchaAutoVerifying": "자동 검증 중…",
   "captchaAutoVerifying": "자동 검증 중…",
   "seatReservationAlreadySynced": "이 예약은 이미 일정에 있습니다.",
   "seatReservationAddedToAgenda": "좌석 예약을 일정에 추가했습니다.",
@@ -2398,14 +2374,6 @@
   "aiHeaderConfigRequired": "먼저 설정에서 AI를 구성하세요.",
   "aiHeaderServiceUnavailable": "AI 서비스를 사용할 수 없습니다. 설정 또는 네트워크를 확인하세요.",
   "aiHeaderRetryLater": "AI 서비스를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도하세요.",
-  "aiHeaderDraftCreated": "초안 페이지에서 생성됨: {title}",
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "themeColorLuotopiaBlue": "珞珈 블루",
   "themeColorMaterialRed": "머티리얼 레드",
   "themeColorMaterialPink": "머티리얼 핑크",
@@ -3077,7 +3045,6 @@
   "onboardingFinishBenefitsTitle": "로그인 후 이용 가능",
   "onboardingFinishBenefitTimetable": "시간표 가져오기 및 동기화",
   "onboardingFinishBenefitScores": "성적 및 학업 현황 확인",
-  "onboardingFinishBenefitCampus": "E카드·예약 등 캠퍼스 서비스",
   "onboardingFinishBenefitReservation": "빈 강의실을 찾고 열람실 좌석과 체육 시설을 예약",
   "onboardingFinishBenefitCard": "캠퍼스 카드 충전, 코드 결제, 공과금 납부",
   "onboardingFinishBenefitServices": "통학버스 실시간 위치, 도서관 대출, 교내 병원 서비스",
@@ -3212,7 +3179,6 @@
   "messagesFilterAll": "모든 출처",
   "messagesEmpty": "메시지가 없습니다",
   "messagesEmptySubtitle": "캠퍼스 서비스의 메시지가 여기에 표시됩니다",
-  "messagesLoading": "메시지를 불러오는 중…",
   "messagesErrorRetry": "다시 시도",
   "messagesMarkAllRead": "모두 읽음",
   "messagesMarkAllReadSuccess": "모두 읽음으로 표시했습니다",
@@ -4140,7 +4106,6 @@
   "forumSave": "저장",
   "forumEdit": "수정",
   "forumReport": "신고",
-  "forumReportReason": "사유",
   "forumReportSubmitted": "신고가 접수되었습니다.",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
@@ -4315,14 +4280,6 @@
   "detailStatusOverdue": "기한 지남",
   "detailStatusUpcoming": "예정됨",
   "detailStatusInactive": "완료 상태 추적 안 함",
-  "detailConflictWithItems": "{items}와(과) 시간이 겹칩니다. 계속 저장할 수 있습니다.",
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
-      }
-    }
-  },
   "editorCompletionMode": "완료 방식",
   "editorCompletionModeManual": "수동 완료",
   "editorCompletionModeAutomatic": "종료 시간에 완료",
@@ -4414,9 +4371,6 @@
   "majorInfoEmploymentNoData": "데이터 없음",
   "forumSearch": "검색",
   "forumMoreActions": "작업 더보기",
-  "forumMenuSectionContent": "내 콘텐츠",
-  "forumMenuSectionCommunity": "커뮤니티",
-  "forumMenuSectionManage": "관리",
   "forumSearchQuery": "게시물 검색",
   "forumSearchBoard": "게시판",
   "forumSearchTag": "태그",
@@ -4946,9 +4900,6 @@
   "adminSystemQueuesDescription": "읽기 전용 재시도 및 실패 버퍼 큐.",
   "adminForumSettingsImageUploadLimit": "이미지 업로드 제한(MiB)",
   "adminForumSettingsAttachmentUploadLimit": "첨부파일 업로드 제한(MiB)",
-  "adminPaginationPrevious": "이전 페이지",
-  "adminPaginationNext": "다음 페이지",
-  "adminPaginationPageInfo": "{page}/{pages}페이지 · 총 {total}개",
   "appPaginationFirst": "첫 페이지",
   "appPaginationLast": "마지막 페이지",
   "appPaginationPrevious": "이전 페이지",
@@ -5175,15 +5126,6 @@
   "aiLiveAnsweringDescription": "답변을 실시간으로 생성하는 중입니다",
   "aiLiveProcessing": "처리 중",
   "aiLiveProcessingDescription": "다음 단계를 준비하는 중입니다",
-  "aiToolTraceMoreTools": "{visibleTools} 외 총 {count}개 도구",
-  "aiToolTraceSucceeded": "성공 {count}건",
-  "aiToolTraceFailed": "실패 {count}건",
-  "aiToolTraceCancelled": "미완료 {count}건",
-  "aiToolTraceSummary": "도구 호출: {tools} · {statuses}",
-  "aiToolTraceDetails": "도구 호출 세부 정보",
-  "aiToolTraceStatusSucceeded": "성공",
-  "aiToolTraceStatusFailed": "실패",
-  "aiToolTraceStatusCancelled": "미완료",
   "forumAdminLogActionApprove": "게시글 승인",
   "forumAdminLogActionBan": "차단",
   "forumAdminLogActionDelete": "게시글 삭제",
@@ -5201,7 +5143,6 @@
   "forumCheckinRandom": "운 시험",
   "forumCheckinSuccess": "+{amount} 카르마 (연속 {streak}일)",
   "forumCheckinTitle": "데일리 체크인",
-  "forumCheckinTodo": "체크인",
   "forumKarma": "카르마",
   "forumKarmaAdminAdjust": "카르마 조정",
   "forumKarmaAdminDelta": "증감",
@@ -5266,7 +5207,6 @@
   "forumReportComment": "댓글 신고",
   "forumEditComment": "댓글 수정",
   "forumCommentContent": "댓글",
-  "forumModerationRulesTitle": "위반한 규칙",
   "forumReportCatIllegalViolation": "불법·안전",
   "forumReportCatSexual": "음란물",
   "forumReportCatHarassment": "혐오·괴롭힘",
@@ -5345,10 +5285,7 @@
       }
     }
   },
-  "courseMatchingAdvancedFilters": "고급 필터",
   "courseMatchingDayOfWeek": "요일",
-  "courseMatchingFromSection": "시작 교시",
-  "courseMatchingToSection": "종료 교시",
   "courseMatchingCourseType": "강의 유형",
   "courseMatchingMinCredits": "최소 학점",
   "courseMatchingMaxCredits": "최대 학점",
@@ -5389,27 +5326,12 @@
   },
   "courseMatchingConflictFreeOnly": "충돌 없는 항목만",
   "courseMatchingAdd": "추가",
-  "courseMatchingApply": "적용",
-  "courseMatchingReset": "초기화",
-  "courseMatchingActiveFilters": "{count}개 활성",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "전체",
   "courseMatchingCampus": "캠퍼스",
   "courseMatchingBuilding": "건물",
   "courseMatchingDepartment": "개설 학과",
   "courseMatchingTeacher": "교수자",
-  "courseMatchingSectionRangeError": "시작 교시는 끝 교시보다 클 수 없습니다.",
-  "courseMatchingCreditRangeError": "최소 학점은 최대 학점보다 클 수 없습니다.",
-  "globalTimetableHistory": "개설 이력",
   "globalTimetableHistoryHint": "게시된 모든 학기에서 최신순으로 검색합니다.",
   "globalTimetableHistoryEmpty": "일치하는 개설 기록이 없습니다.",
-  "globalTimetableHistoryUnavailable": "서버가 아직 과목 이력을 지원하지 않습니다.",
   "globalTimetableDownloads": "오프라인 데이터",
   "globalTimetableDownloadsSummary": "{count}개 학기 · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -5441,8 +5363,6 @@
   "globalTimetableSourceAuto": "자동",
   "globalTimetableLocalMissing": "이 학기의 오프라인 데이터가 아직 없습니다.",
   "globalTimetableNoSlot": "시간 미정",
-  "globalTimetableSearchHint": "과목명 / 교수자 / 과목코드",
-  "globalTimetableEmpty": "이 학기에 일치하는 과목이 없습니다.",
   "globalTimetableDetailTitle": "과목 상세",
   "globalTimetableDetailSlots": "수업 시간",
   "globalTimetableDetailInfo": "과목 정보",
@@ -5709,7 +5629,6 @@
   "whuMessagesRequestFailed": "요청 실패",
   "whuLibraryResultUnknown": "도서관 작업 결과를 알 수 없어요. 다시 시도할지 결정하기 전에 상태를 새로고침해 주세요.",
   "sportsAuthFailedCasRequired": "체육 시설 시스템 인증에 실패했어요. WHU CAS로 다시 로그인해 주세요.",
-  "waterControlAccountExchangeFailed": "수도 계정 교환에 실패했어요.",
   "aiImageGeneration": "이미지 생성",
   "aiImageGenerationHint": "만들고 싶은 이미지를 설명하세요",
   "aiImageGenerationEmpty": "생성한 이미지가 여기에 표시됩니다.",
@@ -5904,7 +5823,6 @@
   "aiSpeechEngine": "음성 엔진",
   "aiSpeechEdge": "Edge 온라인 음성",
   "aiSpeechSttsVoice": "stts 시스템 음성",
-  "aiSpeechVoiceLoadFailed": "온라인 음성을 불러올 수 없어 현재 음성을 사용합니다.",
   "aiSpeechVoice": "음성",
   "aiSpeechRate": "속도",
   "aiSpeechPitch": "음높이",
@@ -6046,7 +5964,6 @@
   "coremailFolderNameRequired": "폴더 이름을 입력하세요.",
   "coremailCreate": "만들기",
   "coremailSwitchFolder": "폴더 전환",
-  "coremailLoadingMailbox": "메일함 불러오는 중…",
   "coremailConnectionFailed": "메일 연결 실패: {error}",
   "@coremailConnectionFailed": {
     "placeholders": {
@@ -6152,8 +6069,6 @@
     }
   },
   "coremailSwitchAccountAction": "계정 전환",
-  "coremailRequiresWhuAccount": "이 기기에 메일 자격 증명을 저장하려면 먼저 우한대 계정을 연동하세요.",
-  "vpnRequiresWhuAccount": "이 기기에 VPN 자격 증명을 저장하려면 먼저 우한대 계정을 연동하세요.",
   "credentialSaveUnavailable": "지금 자격 증명을 저장할 수 없습니다. 잠시 후 다시 시도해 주세요.",
   "coremailAutoSignInFailed": "자동 로그인에 실패했습니다. 비밀번호를 확인하거나 다시 로그인하세요.",
   "coremailEnterAccountAndPassword": "전체 메일 계정과 비밀번호를 입력하세요.",
@@ -6808,7 +6723,6 @@
   "courseReportDecision": "결정",
   "courseReportReview": "신고 검토",
   "courseReportMine": "내 신고",
-  "courseReportSelectCategory": "분류 선택",
   "courseTrustReviews": "강의 신뢰 검토",
   "courseTrustReviewEmpty": "신뢰 검토 대기 중인 수정본이 없습니다",
   "courseTrustReviewHint": "클래스 멤버십 또는 조교 권한이 변경되었습니다. 새 자동 동기화 전에 승인된 정보를 확인하고 다시 검증하세요.",
@@ -6820,11 +6734,6 @@
   "courseAuditTarget": "대상",
   "courseAuditRequest": "요청 ID",
   "courseClassActive": "수업 클래스 활성",
-  "courseClassArchived": "수업 클래스 보관됨 · 기록 정보는 읽기 전용입니다",
-  "courseClassArchive": "수업 클래스 보관",
-  "courseClassArchiveHint": "이 수업 클래스를 보관할까요? 새 기여와 초대가 중단되고 이후 캘린더 일정이 일시 중지됩니다. 기록은 자격이 있는 회원이 계속 읽을 수 있습니다.",
-  "courseClassRestore": "수업 클래스 복원",
-  "courseClassRestoreHint": "선택한 향후 종료일로 이 클래스를 복원할까요? 기존 역할 부여와 만료된 학생 인증은 자동으로 갱신되지 않습니다.",
   "courseProjectionFailureTitle": "강의 캘린더 동기화 실패",
   "courseProjectionFailureHint": "이 작업은 8번 실패했습니다. 재시도 후 작업과 영향받은 캘린더를 확인하세요.",
   "courseProjectionFailureEmpty": "캘린더 동기화 실패가 없습니다",
@@ -7007,7 +6916,6 @@
   "cgNotificationFailed": "알림을 업데이트할 수 없습니다. 알림 권한을 확인하고 다시 시도하세요.",
   "cgAssignmentNotification": "Cg 임무가 곧 마감됩니다",
   "cgExamNotification": "곧 希冀 시험이 시작됩니다",
-  "cgUnknownExamTime": "일부 시험 시간을 읽을 수 없습니다. 원본 홈페이지를 확인해보세요.",
   "cgOpenWebsite": "원본 웹사이트 열기",
   "cgUpdatedAt": "{time}를 업데이트했습니다.",
   "@cgUpdatedAt": {
@@ -7204,7 +7112,6 @@
   "courseSpaceEvidence": "검증 증거",
   "courseSpaceNoEvidence": "보유된 증거가 없습니다.",
   "courseCaseNotices": "과정 검토 결과",
-  "courseCaseNoticesEmpty": "아직 리뷰 결과가 없습니다.",
   "courseNoticeInbox": "코스 업데이트 및 결정",
   "courseNoticeInboxEmpty": "아직 강좌 업데이트가 없습니다.",
   "courseEventNoticeChanged": "강좌 날짜 또는 마감일이 변경됨",
@@ -7244,40 +7151,9 @@
   "courseForumLinksRemove": "링크 삭제",
   "courseForumLinksRetry": "연결된 토론을 다시 로드해 보세요.",
   "courseClassroomTitle": "교실",
-  "courseClassroomClass": "이 수업 분반",
-  "courseClassroomHead": "동일 개설 강좌",
-  "courseClassroomHeadUnavailable": "이 분반에는 아직 개설 강좌가 연결되지 않았습니다.",
   "courseClassroomCompose": "이 수업에 게시",
-  "courseClassroomComposeHead": "이 개설 강좌에 게시",
-  "courseClassroomHeadPost": "개설 강좌 토론",
-  "courseClassroomArchivedHead": "보관된 개설 강좌: 역사적 토론은 읽기 전용입니다.",
   "courseDiscussionReadOnly": "이 강좌 토론은 보관되어 있으며 읽기 전용입니다.",
   "courseClassroomEmpty": "이 범위에서는 액세스할 수 있는 토론이 없습니다.",
-  "courseClassroomScopeHint": "수업 게시물은 소스 수업 권한을 따릅니다. 교육 개설과목 토론은 이 개설과목에서 검증된 학생을 위한 것입니다.",
-  "courseClassroomSource": "소스 분반: {id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "게시물 출처: {id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "개설 강좌에 게시: {id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "수업 액세스 관리",
   "courseAccessRevokeMember": "회원 자격 철회",
   "courseAccessRevokeRole": "역할 권한 철회",
@@ -7286,16 +7162,8 @@
   "courseRolloutTitle": "이 강의실을 열어보세요",
   "courseRolloutHint": "공개 수업만 학생에게 표시되고 강좌 초대가 생성됩니다. 수업을 종료하면 학생 보기에서 해당 강좌 정보와 토론이 제거됩니다.",
   "courseRolloutConfirm": "이 분반의 출시 상태를 변경하는 이유를 알려주세요. 변경 사항은 즉시 적용됩니다.",
-  "courseClassRegister": "수업 분반 등록",
-  "courseClassSchool": "학교 식별자",
-  "courseClassYear": "학년도",
-  "courseClassSemester": "학기",
   "courseClassKey": "공식 수업 분반 식별자",
-  "courseClassEndDate": "학기 종료일",
-  "courseClassRegisterHint": "공식 수업 및 강좌 카탈로그 식별자를 사용하세요. 종료 날짜는 Asia/Shanghai 시간을 사용합니다. 등록은 학생을 확인하거나 개설과목을 연결하지 않습니다.",
   "courseInvitationTitle": "방과후 초대",
-  "courseInvitationHint": "본 수업은 종료되었습니다. 과제, 평가 요구 사항 또는 공지사항을 공유하거나 기존 정보를 확인하세요.",
-  "courseInvitationShare": "이 수업에 공유",
   "courseInvitationSkip": "추가할 내용 없음",
   "courseSessionManage": "수업 회차 관리",
   "courseSessionRegister": "수업 회차 등록",
@@ -7309,10 +7177,7 @@
   "courseSessionReason": "등록 또는 변경 사유",
   "courseSessionTimeInvalid": "유효한 시간을 입력하세요. 종료는 시작 다음에 이어져야 하며 지속 시간은 12시간을 초과할 수 없습니다.",
   "courseSessionReloadRequired": "다른 관리자가 이 항목을 변경했을 수 있습니다. 다시 편집하기 전에 새로고침하세요.",
-  "courseInvitationReview": "기존 정보 검토",
-  "courseInvitationSessionInformation": "이 수업에 대한 정보",
   "courseInvitationSetting": "방과후 초대",
-  "courseInvitationSettingHint": "검증된 모든 수업에 적용됩니다. 초대 카드를 숨기려면 끄세요",
   "courseMasterReview": "공식 시간표 소스 검토",
   "courseMasterUnsupported": "이 학교에는 서버측 공식 시간표 소스가 없습니다. 계속해서 수업 회차을 수동으로 등록하세요.",
   "courseMasterUnmappedTerm": "이 수업 기간은 공식 학기 코드(3/12/16)에 매핑되지 않습니다. 수업 회차은 자동으로 링크될 수 없습니다.",
@@ -7346,11 +7211,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "이 수업에 대한 수업 후 초대",
-  "courseInvitationClassSettingHint": "이 수업 분반에만 영향을 미칩니다.",
-  "courseInvitationClassGlobalOff": "계정 전체 초대가 꺼져 있습니다. 이 설정은 켜져 있을 때 적용됩니다.",
   "courseInvitationPushSetting": "수업 초대를 위한 기기 푸시",
-  "courseInvitationPushHint": "코스 푸시 동의 및 시스템 알림이 필요합니다. 하루 최대 2개",
   "courseInvitationPushSystemOff": "장치 알림이 꺼져 있습니다. 푸시를 받을 수 있게 해주세요",
   "courseInvitationQuietStart": "조용한 시간이 시작됩니다",
   "courseInvitationQuietEnd": "조용한 시간 종료",
@@ -7469,14 +7330,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "내비게이션 앱 선택",
-  "diningSpotIndoorFloors": "층 안내",
   "diningSpotNoFloorPlanData": "실내 지도 데이터가 없습니다",
   "diningSpotHoursUnknown": "영업시간 알 수 없음",
   "diningSpotOpenNow": "영업 중",
   "diningSpotClosedNow": "현재 휴식 중",
-  "diningSpotCorrectHours": "영업시간 수정",
-  "diningSpotCorrectScheduleExceptions": "임시 영업 일정 수정",
   "diningSpotRecentScheduleExceptions": "최근 영업 예외",
   "diningSpotClosedTemporarily": "임시 휴업",
   "diningSpotNextDay": "익일 ",
@@ -7579,7 +7436,6 @@
   "diningHoursAddSlot": "시간대 추가",
   "diningHoursReload": "다시 불러오기",
   "diningHoursSubmitting": "제출 중…",
-  "diningFloorPlanShopIdRequired": "이 층의 상점 ID를 입력하세요",
   "diningFloorPlanTypeBoundary": "층 경계",
   "diningFloorPlanTypeShopArea": "상점 구역",
   "diningFloorPlanTypeCorridor": "복도",
@@ -7592,11 +7448,7 @@
   "diningFloorPlanTypeServiceArea": "서비스 구역",
   "diningFloorPlanTypeLabel": "텍스트 레이블",
   "diningFloorPlanTypeLandmark": "랜드마크",
-  "diningFloorPlanGeometryPoint": "점",
-  "diningFloorPlanGeometryLine": "폴리라인",
-  "diningFloorPlanGeometryPolygon": "다각형",
   "diningFloorPlanLabelHint": "레이블(선택)",
-  "diningFloorPlanSpotIdLabel": "이 층 상점 ID",
   "diningFloorPlanFinishPoints": "{count}개 점 완성",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -7605,17 +7457,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "현재 도형을 완성한 뒤 저장하세요",
   "diningFloorPlanSaveFailed": "저장에 실패했습니다. 상점 소속, 도형, 네트워크를 확인한 뒤 다시 시도하세요.",
   "diningFloorPlanSaving": "저장 중…",
-  "diningFloorPlanSave": "평면도 저장",
   "diningFloorPlanHintPoint": "캔버스를 눌러 점 배치",
   "diningFloorPlanHintDraw": "탭하여 꼭짓점을 추가하고 드래그하여 조정하세요. 확인으로 도형을 추가하거나 저장하여 현재 도형까지 저장하세요.",
   "diningFloorPlanLoadFailed": "실내 지도를 불러오지 못했습니다",
   "diningMenuEndAfterStart": "공급 종료 시각은 시작 시각보다 늦어야 합니다",
   "diningMenuCreateTitle": "요리 추가",
   "diningMenuEditTitle": "요리 수정",
-  "diningMenuHelp": "현재 판매하는 메뉴를 입력하세요. 제출 후 바로 반영되며 보상은 실제 지급 내역을 따릅니다.",
   "diningMenuNameLabel": "요리 이름",
   "diningMenuNameRequired": "이름을 입력하세요",
   "diningMenuPriceLabel": "가격(위안)",
@@ -7631,7 +7480,6 @@
   "diningMenuSupplyEnd": "공급 종료(베이징 시간)",
   "diningMenuClearStart": "시작 시각 지우기",
   "diningMenuClearEnd": "종료 시각 지우기",
-  "diningSearchFailedRetry": "검색 실패. 눌러서 다시 시도하세요.",
   "diningSearchNoResults": "결과 없음. 상호나 요리명을 시도하거나 범위를 바꿔 보세요.",
   "settingsFeaturesVivoWatchSectionTitle": "vivo 워치",
   "settingsFeaturesVivoWatchToggleTitle": "vivo 워치로 동기화",
@@ -7912,14 +7760,10 @@
   "menstrualCycleDeleteAllDone": "모든 기록을 삭제했습니다",
   "menstrualCycleDisclaimerTitle": "의학적 조언이 아님",
   "menstrualCycleDisclaimerBody": "예측은 기록한 날짜로 추정한 값입니다. 피임이나 질환 진단에 사용하지 마시고, 해당 사항은 의사와 상담하세요.",
-  "menstrualCycleVisibilityTitle": "캠퍼스 페이지에 표시",
-  "menstrualCycleVisibilityHint": "대학 프로필의 성별이 여성이면 기본적으로 표시됩니다. 여기나 캠퍼스 레이아웃 편집기에서 언제든 바꿀 수 있습니다.",
   "editorRepeatInterval": "간격",
   "editorRecurrenceIntervalLength": "간격 길이",
   "editorRecurrenceIntervalSummary": "{duration}마다",
   "editorRecurrenceWindow": "일간 시간 창",
-  "editorRecurrenceWindowStart": "시작",
-  "editorRecurrenceWindowEnd": "종료",
   "editorRecurrenceCycle": "주기식 일정",
   "editorRecurrenceCycleActive": "복용 일수",
   "editorRecurrenceCyclePause": "중단 일수",
@@ -7959,11 +7803,9 @@
   "settingsRepeatReminder": "알림 반복",
   "settingsRepeatReminderHint": "조치가 없으면 다시 알림",
   "settingsRepeatReminderOff": "끄기",
-  "settingsRepeatReminderCount": "{count}회",
   "menstrualCycleSaveFailed": "기록을 저장하지 못했습니다",
   "courseNoticeLoginRequired": "강좌 알림을 보려면 로그인하세요.",
   "courseEnrollmentPending": "시간표를 가져왔습니다. 강의 정보 공유 자격 확인이 필요합니다.",
-  "courseCombinedTab": "성적 및 리뷰",
   "courseSharingTab": "공유 정보",
   "sharingClassScope": "같은 분반",
   "sharingTeacherScope": "같은 교수자",
@@ -8041,7 +7883,6 @@
   "courseResourceSaved": "파일이 저장되었습니다",
   "courseResourceSaveCancelled": "저장을 취소했습니다. 전송된 파일은 한도에서 차감됩니다.",
   "courseResourceDownloadHint": "다운로드를 시작하면 한도가 차감됩니다. 저장을 취소하거나 일부만 전송해도 일일 한도는 복원되지 않습니다.",
-  "courseResourceSessionUsed": "이미 사용된 다운로드 세션입니다. 다시 다운로드하면 한도가 차감됩니다.",
   "courseResourceIntegrityError": "파일 검증에 실패하여 저장하지 않았습니다. 다시 다운로드하면 한도가 차감됩니다.",
   "courseResourceRefresh": "파일 상태 새로고침",
   "courseResourcePolicyTitle": "과목 자료 다운로드 한도",
@@ -8184,18 +8025,9 @@
   "resourceCategoryReferences": "참고 문헌",
   "resourceCategoryOther": "기타",
   "resourceAllCategories": "모든 카테고리",
-  "resourceMetadataFilters": "교재 및 장 필터",
   "resourceSearchHint": "제목, 저자, 교재 또는 장으로 검색",
-  "resourceSearchCount": "게시된 자료 {count}개",
   "resourcePreviousPage": "이전 페이지",
   "resourceNextPage": "다음 페이지",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "읽음으로 표시",
   "sharingReadConfirmed": "읽음",
   "sharingUnreadCount": "읽지 않은 업데이트 {count}개",
@@ -8450,7 +8282,6 @@
   "diningPlacementFloorUnspecified": "층 미지정",
   "diningPlacementMapHint": "지도를 눌러 매장 위치를 수정하세요",
   "diningProfileTitle": "프로필 및 기여",
-  "diningModerationTitle": "심사 및 사용자 관리",
   "diningMapPickShop": "지도를 눌러 추천할 매장의 위치를 표시하세요",
   "diningMapShopPicked": "매장 위치를 표시했습니다. 확인 후 세부 정보를 입력하세요.",
   "diningMapConfirmPoint": "위치 확인",
@@ -8468,7 +8299,6 @@
   "diningMenuAiModel": "이미지 인식 AI 모델",
   "diningMenuAiRecognizing": "인식 중…",
   "diningMenuAiFill": "AI로 인식하여 입력",
-  "diningMenuAiHelp": "설정된 이미지 인식 모델을 선택하세요. 제출 전에 인식 결과를 검토하고 누락된 가격은 직접 입력하세요.",
   "diningDishReportReason": "신고 사유 및 의견",
   "diningDishReportRequired": "의견을 입력하세요",
   "diningMenuPriceUnit": "가격 단위",
@@ -8493,7 +8323,6 @@
   "diningProfileSaveFailed": "저장하지 못했습니다. 다시 시도하세요.",
   "diningProfileRewards": "기여 보상 보기",
   "diningTagsLabel": "맛 및 태그(쉼표로 구분)",
-  "diningTagsHint": "담백함,매운맛,빠른 제공",
   "diningTasteLight": "담백함",
   "diningTasteSpicy": "매운맛",
   "diningTasteNumbingSpicy": "얼얼하고 매운맛",
@@ -8511,7 +8340,6 @@
   "courseBindingAdvancedTitle": "업데이트 및 개인 사본",
   "masterBrowserQuery": "검색",
   "masterBrowserLookup": "교원 / 강의실",
-  "masterBrowserLookupHint": "교원 또는 강의실을 선택하면 이번 학기의 모든 분반을 볼 수 있습니다.",
   "masterBrowserStats": "통계",
   "masterBrowserSearchHint": "강좌 / 교원 / 코드 / 분반 / 교재",
   "masterBrowserSearchHelp": "입력하는 동안 결과가 갱신됩니다. 공백으로 구분하면 모든 검색어를 포함하는 결과를 찾습니다.",
@@ -8522,7 +8350,6 @@
   "masterBrowserCategory": "강좌 분류",
   "masterBrowserType": "강좌 유형",
   "masterBrowserGrade": "입학 연도",
-  "masterBrowserGrid": "주간 시간표",
   "masterBrowserTitle": "교원 직급",
   "masterBrowserTextbook": "교재",
   "masterBrowserPublisher": "출판사",
@@ -8531,7 +8358,6 @@
   "masterBrowserTeacherMajor": "교원 전공",
   "masterBrowserAssistants": "조교",
   "masterBrowserWeek": "주차",
-  "masterBrowserWeekNumber": "{week}주차",
   "masterBrowserSection": "교시",
   "masterBrowserRoom": "강의실",
   "masterBrowserWithSlots": "시간이 정해진 강좌만",
@@ -8566,8 +8392,6 @@
   "masterBrowserLocalData": "기기 내 데이터",
   "masterBrowserArchiveData": "웹 아카이브",
   "masterBrowserCloudData": "클라우드 데이터",
-  "masterBrowserCollapse": "빈 교시 숨기기",
-  "masterBrowserConflict": "시간 중복",
   "masterBrowserEmptySemester": "이 학기의 강좌 데이터가 없습니다",
   "masterBrowserChangeLookup": "다시 선택",
   "masterBrowserFilterLookup": "이 강좌 필터링",
@@ -8586,7 +8410,6 @@
   "opacCurrentReservations": "현재 예약",
   "opacReservationsDescription": "예약, 수령 장소 및 대기 순서 확인",
   "opacRefreshReservations": "현재 예약 새로고침",
-  "opacLoadingReservations": "예약 불러오는 중",
   "opacNoReservations": "현재 예약이 없습니다",
   "opacPickupLocation": "수령 장소",
   "opacReservationFrom": "유효 기간 시작",
@@ -8646,23 +8469,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -8718,33 +8527,24 @@
   "washingAccountNote": "세탁 서비스 자격 증명은 별도로 관리됩니다. 만료되면 새 Bearer를 다시 가져오세요. wxuuid는 결제 전환에만 사용되며 WeChat 로그인은 수행되지 않습니다.",
   "washingAccountTitle": "세탁 서비스 계정",
   "washingAllFacilities": "전체 시설",
-  "washingAllFloors": "전체 층",
   "washingAllStates": "전체 상태",
   "washingAlternatePayment": "이 주문은 운영사의 별도 결제 채널을 사용합니다. 원래 미니프로그램에서 완료하세요.",
   "washingAuthError": "자격 증명이 유효하지 않거나 만료되었습니다. Bearer token을 교체하세요.",
-  "washingBuilding": "건물 {building}",
   "washingCategoryDorm": "세탁 공간",
-  "washingCategoryDormDescription": "지역, 건물, 층별로 기기를 둘러보세요",
   "washingCategoryLaundry": "세탁 지점",
-  "washingCategoryLaundryDescription": "캠퍼스 지역별로 세탁 센터를 둘러보세요",
   "washingChangePoint": "지점 변경",
   "washingCheckPayment": "결제 상태 확인",
   "washingCheckoutFailed": "주문을 처리할 수 없습니다. 자격 증명을 확인한 후 나중에 다시 시도하세요.",
   "washingChooseMode": "세탁 모드 선택",
   "washingChoosePoint": "세탁 지점 선택",
   "washingChoosePointHint": "지역, 건물, 층을 선택해 기기를 확인하세요.",
-  "washingClearCredential": "자격 증명 지우기",
   "washingClearOrder": "로컬 주문 기록 지우기",
   "washingClearOrderBody": "이 작업은 업스트림 주문을 취소하거나 환불하지 않습니다. 먼저 운영사 미니프로그램에서 주문이 완료·종료되었거나 생성되지 않았는지 확인하세요. 미결제 주문은 여전히 결제할 수 있습니다.",
   "washingClearOrderConfirm": "확인했으며 기록을 지웁니다",
-  "washingClose": "닫기",
   "washingConfirmBody": "기기: {device}\n모드: {mode}\n시간: {minutes}분\n금액: ¥{price}\n결제 후 기기가 바로 시작될 수 있습니다. 계속하기 전에 세탁물을 넣고 기기를 확인하세요. 쿠폰이나 세제 추가 구매는 적용되지 않습니다.",
   "washingConfirmOrder": "세탁 주문 확인",
-  "washingCoordinateTitle": "검색 위치 선택",
-  "washingCoordinatesInvalid": "유효한 위도(-90~90)와 경도(-180~180)를 입력하세요.",
   "washingCreateOrder": "주문 만들기",
   "washingCredentialSaved": "세탁 서비스 계정을 저장했습니다.",
-  "washingCredentialTitle": "세탁 서비스 자격 증명",
   "washingCurrentOrder": "현재 세탁 주문",
   "washingDeviceCount": "기기 {count}대",
   "washingDeviceFallback": "세탁 기기",
@@ -8757,12 +8557,9 @@
   "washingImport": "자격 증명 가져오기",
   "washingIntroBody": "세탁 서비스 Bearer token을 가져오면 캠퍼스 목록과 기기 상태를 불러올 수 있습니다.",
   "washingIntroTitle": "캠퍼스 세탁 시설",
-  "washingLatitude": "위도",
   "washingLaunchFailed": "결제 페이지를 열 수 없습니다. WeChat 설치 여부와 운영사가 외부 미니프로그램 링크를 허용하는지 확인하세요. 기존 주문은 유지됩니다.",
   "washingLoadingDevices": "기기 상태를 불러오는 중",
-  "washingLoadingNearbyMachines": "주변 지점의 기기를 불러오는 중",
   "washingLocationError": "위치를 가져올 수 없습니다. 위치 권한을 허용한 후 새로고침하세요.",
-  "washingLongitude": "경도",
   "washingMachineAddress": "주소",
   "washingMachineDetails": "기기 상세",
   "washingMachineEnd": "예상 종료 시간",
@@ -8775,12 +8572,9 @@
   "washingMachines": "기기 상태",
   "washingMalformedError": "세탁 서비스 응답 형식이 변경되었습니다. 나중에 다시 시도하세요.",
   "washingManageAccount": "세탁 서비스 계정 관리",
-  "washingManageCredential": "세탁 서비스 자격 증명 관리",
-  "washingManualLocation": "좌표 입력",
   "washingModeDetails": "{minutes}분 · {status}",
   "washingModesFailed": "세탁 모드를 불러올 수 없습니다. 뒤로 돌아가 새로고침 후 다시 시도하세요.",
   "washingModesNote": "모드와 가격은 참고용입니다. 현장 기기와 운영사 안내를 확인하세요.",
-  "washingNearby": "주변 지점",
   "washingNetworkError": "네트워크를 사용할 수 없습니다. 나중에 다시 시도하세요.",
   "washingNoDevices": "조건에 맞는 기기가 없습니다",
   "washingNoModes": "모드 정보가 없습니다",
@@ -8799,8 +8593,6 @@
   "washingPaymentNote": "모드를 선택해 주문을 만든 뒤 WeChat에서 결제 페이지를 여세요. 결제는 미니프로그램이 처리하며 결과는 세탁 서비스 조회로 확인됩니다.",
   "washingPaymentPending": "링크를 WeChat으로 전달했습니다. 그곳에서 결제를 완료한 뒤 돌아와 결과를 확인하세요. 아직 결제 성공이 확인된 것은 아닙니다.",
   "washingPriceChanged": "모드 가격 또는 시간이 변경되었습니다. 새로고침 후 다시 확인하세요.",
-  "washingQuery": "검색",
-  "washingRefresh": "새로고침",
   "washingRejectedError": "세탁 서비스가 이 요청을 처리할 수 없습니다. 나중에 다시 시도하세요.",
   "washingReplace": "자격 증명 교체",
   "washingRestoring": "세탁 서비스 자격 증명을 불러오는 중",
@@ -8811,8 +8603,6 @@
   "washingScanInvalid": "유효한 세탁 기기 QR 코드나 식별자를 찾지 못했습니다",
   "washingScanManual": "직접 입력",
   "washingScanUnsupported": "카메라 스캔을 사용할 수 없습니다. 기기 번호 또는 QR 링크를 직접 입력하세요.",
-  "washingSearch": "주변 지점 찾기",
-  "washingSearchHint": "주변 지점을 검색하거나 좌표를 입력하세요.",
   "washingSearchPoint": "건물, 층 또는 지점 검색",
   "washingSessionContext": "세탁 H5 주소 또는 wxuuid (결제용)",
   "washingSessionContextHelp": "기존 운영사 H5 주소를 붙여넣으세요. 조회에는 Bearer token만 필요합니다. 여기서는 WeChat 로그인이 수행되지 않습니다.",
@@ -8821,7 +8611,6 @@
   "washingStateOffline": "오프라인",
   "washingStateRunning": "사용 중",
   "washingStateUnknown": "알 수 없는 상태",
-  "washingStationDevices": "{station} · 기기",
   "washingStationFallback": "세탁 지점",
   "washingStorageClearError": "자격 증명을 지울 수 없습니다. 다시 시도하세요.",
   "washingStorageReadError": "저장된 자격 증명을 읽을 수 없습니다. 다시 가져오세요.",
@@ -8997,7 +8786,6 @@
   "campusSectionHide": "섹션 숨기기",   "campusSectionShow": "섹션 표시하기",
   "campusSectionAdd": "그룹 추가",
   "campusSectionDefaultName": "새 그룹",
-  "campusSectionLayoutHint": "앱을 끌어 그룹 간에 이동하세요",
   "campusSectionDropHere": "여기로 앱을 끌어다 놓으세요",
   "campusSectionReleaseToCreate": "놓으면 그룹이 만들어져요",
   "campusRenameSection": "그룹 이름 변경",
@@ -9007,10 +8795,10 @@
   "campusSectionDropPosition": "“{section}”의 {position}번째로 이동",
   "locationSetFixedLocation": "고정 위치 설정",
   "campusBusDegradeSettings": "폴백 설정",
-  "campusBusDegradedCaption": "폴백 보기: 노선별 운행 차량",
   "campusBusAtStop": "{stop} 정차 중",
   "campusBusPastStop": "{stop} 지남",
   "settingsBusCardSectionTitle": "캠퍼스 버스 카드",
+  "settingsBusCardEntrySubtitle": "미리보기 카드 및 폴백 표시",
   "settingsBusCardDegradeMode": "폴백 표시",
   "settingsBusCardDegradeSubtitle": "자동: 위치를 끄거나 교외에 있으면 노선별 차량을 표시",
   "busDegradeModeNever": "사용 안 함",

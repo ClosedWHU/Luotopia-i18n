@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "Психическое здоровье",
   "campusFolderComputing": "ИТ-факультет",
-  "campusComputingGroupSettingHint": "Инструменты компьютерного факультета. Появляются сами после входа с профилем этого факультета.",
   "campusFolderHealth": "Здоровье",
   "campusAppVoteTicket": "Бронирование билетов",
   "voteTicketEmpty": "Пока нет мероприятий",
@@ -170,7 +169,6 @@
   "opacSubmitting": "Отправка",
   "opacReserve": "Забронировать",
   "opacConfirmReserve": "Подтвердить бронирование",
-  "opacReserveMessage": "Забронировать этот экземпляр?",
   "opacReserveSubmitted": "Запрос на бронирование отправлен",
   "opacNoCurrent": "Нет книг на руках",
   "opacCheckRenew": "Загрузить выдачу и проверить возможность продления",
@@ -194,7 +192,6 @@
   "opacRenewUpdated": "Срок продлён. Данные о выдаче обновлены.",
   "opacRenewRefreshFailed": "Срок продлён, но данные не обновились. Потяните вниз для обновления; не продлевайте повторно.",
   "opacRefreshLoans": "Обновить записи о выдаче",
-  "opacLoadingLoans": "Загрузка записей о выдаче",
   "opacProfileSaved": "Личные данные сохранены на сервере библиотеки",
   "opacSaveUnconfirmed": "Сохранение не подтверждено. Вернитесь и обновите данные для проверки. Если сеанс истёк, откройте редактирование заново.",
   "opacContactHelp": "Можно изменить почтовый адрес, имя получателя и контакты. Номер читателя и данные единой авторизации не изменятся.",
@@ -524,7 +521,6 @@
   "commonRegister": "Регистрация",
   "commonRegistrationTime": "Время регистрации",
   "commonUsername": "Имя пользователя",
-  "courseGridSettings": "Настройки сетки курсов",
   "gradesReviewsTitle": "Оценки и отзывы",
   "courseImport": "Импорт курсов",
   "courseImportSemester": "Семестр",
@@ -677,7 +673,6 @@
   "medicationLowStockThreshold": "Оповещение при",
   "medicationLowStockAlert": "Заканчивается — пополните",
   "medicationRefill": "Пополнить",
-  "medicationTaken": "Принято",
   "medicationFormPill": "Таблетка",
   "medicationFormCapsule": "Капсула",
   "medicationFormTablet": "Таблетка",
@@ -691,12 +686,10 @@
   "editorSectionRepeat": "Повторить",
   "editorSectionDateRepeat": "Дата и повтор",
   "editorSectionTime": "Время",
-  "editorSectionDetails": "Детали",
   "editorSectionCourse": "Информация о курсе",
   "editorSectionMedication": "Информация о лекарстве",
   "editorSectionLocationNotes": "Место и заметки",
   "editorRecurrenceTimes": "Время",
-  "editorRecurrenceWeekdays": "Дни",
   "editorRecurrenceAddTime": "Добавить время",
   "editorRecurrenceMonthDays": "Дни месяца",
   "editorRecurrenceMonthDayPolicy": "Если в месяце нет такого дня",
@@ -704,7 +697,6 @@
   "editorRecurrenceClampLastDay": "Последний день месяца",
   "editorMomentToggle": "Момент (без длительности)",
   "editorReminderCustom": "Свой",
-  "editorReminderAdd": "Добавить напоминание",
   "editorSubmitInvalid": "Сначала исправьте выделенные поля.",
   "editorSubmitSuccess": "Товар сохранен.",
   "editorTeacher": "Преподаватель",
@@ -924,6 +916,8 @@
   "settingsHapticMedium": "Средняя",
   "settingsHapticHigh": "Высокая",
   "settingsFeaturesEntryTitle": "Функции",
+  "settingsPagesSectionTitle": "Настройки страниц",
+  "settingsFeaturesSectionTitle": "Функции",
   "settingsFeaturesEntrySubtitle": "Виджеты, главная, ИИ и погода",
   "settingsSpeechEntryTitle": "Речь",
   "settingsSpeechEntrySubtitle": "Голос, движок озвучивания и распознавание",
@@ -1645,17 +1639,6 @@
   "aiConversations": "Список бесед",
   "aiNewChat": "Новый",
   "aiServiceError": "Ошибка сервиса ИИ",
-  "aiUntitledItem": "Без названия",
-  "aiMemo": "Заметка",
-  "aiDraftReady": "Черновик готов: {title}",
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "aiOpenDraftPage": "Открыть черновик",
   "aiSend": "Отправить",
   "aiClearHistory": "Очистить историю",
   "aiRename": "Переименовать",
@@ -1885,7 +1868,6 @@
     }
   },
   "retry": "Повтор",
-  "campusFeatureInDevelopment": "Функция в разработке",
   "libraryVenueList": "Список площадок",
   "libraryMyReservations": "Мои брони",
   "libraryNoVenues": "Нет доступных площадок",
@@ -1900,7 +1882,6 @@
   "libraryClickForDetails": "Нажмите, чтобы увидеть этажи и места",
   "globalTimetableTitle": "Общее расписание",
   "globalTimetableCourseMatching": "Сопоставление курсов",
-  "globalTimetableContribute": "Внести вклад в расписание",
   "globalTimetableLocalImport": "Импортировать на это устройство",
   "globalTimetableLocalImportMessage": "Скачайте расписание на {year}-{nextYear} учебный год, семестр {term}, непосредственно из учебной системы WHU и сохраните его на этом устройстве. Данные и ваша сессия в учебной системе не будут отправлены в Luotopia. При поиске и фильтрации локальные данные будут использоваться в первую очередь.",
   "globalTimetableLocalImportStart": "Скачать и сохранить",
@@ -1909,7 +1890,6 @@
   "globalTimetableLocalUnsupported": "Локальный импорт расписания недоступен на этой платформе.",
   "globalTimetableSourceLocal": "Локально",
   "globalTimetableSourceCloud": "Облако",
-  "globalTimetableSourceCloudUnavailable": "Для этого периода нет данных в облаке",
   "globalTimetableContributionTitle": "Внести вклад в общеуниверситетское расписание",
   "globalTimetableContributionMessage": "Авторизуйте Luotopia с помощью одноразового билета WHU CAS. Серверный процесс в фоновом режиме импортирует данные за {year}-{nextYear}, семестр {term}, непосредственно из учебной системы WHU. Ваша учетная запись WHU должна совпадать с учетной записью, привязанной к вашему аккаунту Luotopia.",
   "globalTimetableContributionStart": "Авторизоваться и начать",
@@ -1917,7 +1897,6 @@
   "globalTimetableContributionLoginWhu": "Войдите в WHU CAS, прежде чем вносить вклад.",
   "globalTimetableContributionUnsupported": "На этой платформе нельзя внести вклад в расписание.",
   "globalTimetableResults": "Результаты: {count}",
-  "globalTimetableCachedData": "Кэшированные данные",
   "globalTimetableTerm": "Семестр {term}",
   "globalTimetableImportStatus": "Импорт: {phase}",
   "globalTimetablePhaseAuthorizing": "Авторизация",
@@ -2214,8 +2193,6 @@
   "sportsAuthNoJwt": "Авторизация не удалась: в ответе нет JWT.",
   "sportsAuthFailed": "Не удалось авторизовать систему спортплощадок.",
   "scoreImportDescription": "После импорта оценки кэшируются локально для просмотра и расчёта GPA.",
-  "scoreImportCaptchaFailed": "Не удалось разобрать код проверки",
-  "scoreImportCancelled": "Проверка отменена",
   "scoreImportImportingUndergraduate": "Вход в бакалавриат и импорт оценок…",
   "scoreImportSuccessWithCount": "{success}: {count} оценок сохранено локально.",
   "@scoreImportSuccessWithCount": {
@@ -2267,7 +2244,6 @@
       }
     }
   },
-  "scoreCaptchaAutoVerifying": "Автопроверка…",
   "captchaAutoVerifying": "Автопроверка…",
   "seatReservationAlreadySynced": "Эта бронь уже в расписании.",
   "seatReservationAddedToAgenda": "Бронь места добавлена в расписание.",
@@ -2310,14 +2286,6 @@
   "aiHeaderConfigRequired": "Сначала настройте ИИ в параметрах.",
   "aiHeaderServiceUnavailable": "Сервис ИИ недоступен. Проверьте настройки или сеть.",
   "aiHeaderRetryLater": "Сервис ИИ временно недоступен. Повторите позже.",
-  "aiHeaderDraftCreated": "Создано через черновик: {title}",
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "themeColorLuotopiaBlue": "Синий Луоцзя",
   "themeColorMaterialRed": "Красный Material",
   "themeColorMaterialPink": "Розовый Material",
@@ -2982,7 +2950,6 @@
   "onboardingFinishBenefitsTitle": "После входа доступно",
   "onboardingFinishBenefitTimetable": "Импорт и синхронизация расписания",
   "onboardingFinishBenefitScores": "Просмотр оценок и академического статуса",
-  "onboardingFinishBenefitCampus": "Кампусные сервисы: карта, бронирование и др.",
   "onboardingFinishBenefitReservation": "Находить свободные аудитории и бронировать места для занятий или спортивные площадки",
   "onboardingFinishBenefitCard": "Пополнять кампусную карту, оплачивать по коду и вносить коммунальные платежи",
   "onboardingFinishBenefitServices": "Положение автобусов в реальном времени, библиотечный абонемент и услуги студенческой поликлиники",
@@ -3117,7 +3084,6 @@
   "messagesFilterAll": "Все источники",
   "messagesEmpty": "Нет сообщений",
   "messagesEmptySubtitle": "Здесь будут отображаться сообщения от сервисов кампуса",
-  "messagesLoading": "Загрузка сообщений…",
   "messagesErrorRetry": "Повторить",
   "messagesMarkAllRead": "Прочитать все",
   "messagesMarkAllReadSuccess": "Все сообщения отмечены прочитанными",
@@ -3892,7 +3858,6 @@
   "forumSave": "Сохранить",
   "forumEdit": "Редактировать",
   "forumReport": "Пожаловаться",
-  "forumReportReason": "Причина",
   "forumReportSubmitted": "Жалоба отправлена.",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
@@ -4051,14 +4016,6 @@
   "detailStatusOverdue": "Просрочено",
   "detailStatusUpcoming": "Предстоящее",
   "detailStatusInactive": "Завершение не отслеживается",
-  "detailConflictWithItems": "Пересекается с {items}. Вы всё равно можете сохранить.",
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
-      }
-    }
-  },
   "editorCompletionMode": "Завершение",
   "editorCompletionModeManual": "Завершать вручную",
   "editorCompletionModeAutomatic": "Завершить в конце",
@@ -4405,9 +4362,6 @@
   "majorInfoEmploymentNoData": "Нет данных",
   "forumSearch": "Поиск",
   "forumMoreActions": "Ещё действия",
-  "forumMenuSectionContent": "Мой контент",
-  "forumMenuSectionCommunity": "Сообщество",
-  "forumMenuSectionManage": "Управление",
   "forumSearchQuery": "Искать публикации",
   "forumSearchBoard": "Раздел",
   "forumSearchTag": "Тег",
@@ -4937,9 +4891,6 @@
   "adminSystemQueuesDescription": "Буферы повторов и ошибок только для чтения.",
   "adminForumSettingsImageUploadLimit": "Лимит загрузки изображений (МиБ)",
   "adminForumSettingsAttachmentUploadLimit": "Лимит загрузки вложений (МиБ)",
-  "adminPaginationPrevious": "Предыдущая страница",
-  "adminPaginationNext": "Следующая страница",
-  "adminPaginationPageInfo": "Страница {page} из {pages} · всего {total}",
   "appPaginationFirst": "Первая страница",
   "appPaginationLast": "Последняя страница",
   "appPaginationPrevious": "Предыдущая страница",
@@ -5158,15 +5109,6 @@
   "aiLiveAnsweringDescription": "Ответ формируется в реальном времени",
   "aiLiveProcessing": "Обработка",
   "aiLiveProcessingDescription": "Подготовка следующего шага",
-  "aiToolTraceMoreTools": "{visibleTools} и всего {count} инструментов",
-  "aiToolTraceSucceeded": "Успешно: {count}",
-  "aiToolTraceFailed": "С ошибкой: {count}",
-  "aiToolTraceCancelled": "Не завершено: {count}",
-  "aiToolTraceSummary": "Вызовы инструментов: {tools} · {statuses}",
-  "aiToolTraceDetails": "Сведения о вызовах инструментов",
-  "aiToolTraceStatusSucceeded": "Успешно",
-  "aiToolTraceStatusFailed": "Ошибка",
-  "aiToolTraceStatusCancelled": "Не завершено",
   "forumAdminLogActionApprove": "Одобрить пост",
   "forumAdminLogActionBan": "Бан",
   "forumAdminLogActionDelete": "Удалить пост",
@@ -5184,7 +5126,6 @@
   "forumCheckinRandom": "Испытать удачу",
   "forumCheckinSuccess": "+{amount} Кармы (серия {streak})",
   "forumCheckinTitle": "Ежедневная отметка",
-  "forumCheckinTodo": "Отметиться",
   "forumKarma": "Карма",
   "forumKarmaAdminAdjust": "Изменить Карму",
   "forumKarmaAdminDelta": "Дельта",
@@ -5249,7 +5190,6 @@
   "forumReportComment": "Пожаловаться на комментарий",
   "forumEditComment": "Редактировать комментарий",
   "forumCommentContent": "Комментарий",
-  "forumModerationRulesTitle": "Нарушенные правила",
   "forumReportCatIllegalViolation": "Незаконное и опасное",
   "forumReportCatSexual": "Сексуальный контент",
   "forumReportCatHarassment": "Ненависть и травля",
@@ -5328,10 +5268,7 @@
       }
     }
   },
-  "courseMatchingAdvancedFilters": "Расширенные фильтры",
   "courseMatchingDayOfWeek": "День недели",
-  "courseMatchingFromSection": "С занятия",
-  "courseMatchingToSection": "По занятие",
   "courseMatchingCourseType": "Тип курса",
   "courseMatchingMinCredits": "Мин. кредиты",
   "courseMatchingMaxCredits": "Макс. кредиты",
@@ -5372,27 +5309,12 @@
   },
   "courseMatchingConflictFreeOnly": "Только без конфликтов",
   "courseMatchingAdd": "Добавить",
-  "courseMatchingApply": "Применить",
-  "courseMatchingReset": "Сбросить",
-  "courseMatchingActiveFilters": "активно: {count}",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "Все",
   "courseMatchingCampus": "Кампус",
   "courseMatchingBuilding": "Корпус",
   "courseMatchingDepartment": "Факультет",
   "courseMatchingTeacher": "Преподаватель",
-  "courseMatchingSectionRangeError": "Начальная пара не может быть позже конечной.",
-  "courseMatchingCreditRangeError": "Минимальный кредит не может превышать максимальный.",
-  "globalTimetableHistory": "История курсов",
   "globalTimetableHistoryHint": "Поиск по всем опубликованным семестрам, сначала новые.",
   "globalTimetableHistoryEmpty": "Нет подходящих записей.",
-  "globalTimetableHistoryUnavailable": "Сервер пока не поддерживает историю курсов.",
   "globalTimetableDownloads": "Офлайн-данные",
   "globalTimetableDownloadsSummary": "Семестров: {count} · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -5424,8 +5346,6 @@
   "globalTimetableSourceAuto": "Авто",
   "globalTimetableLocalMissing": "Этот семестр ещё не загружен для офлайн-доступа.",
   "globalTimetableNoSlot": "Без расписания",
-  "globalTimetableSearchHint": "Курс, преподаватель или код",
-  "globalTimetableEmpty": "Курсы за этот семестр не найдены.",
   "globalTimetableDetailTitle": "О курсе",
   "globalTimetableDetailSlots": "Время занятий",
   "globalTimetableDetailInfo": "Информация о курсе",
@@ -5692,7 +5612,6 @@
   "whuMessagesRequestFailed": "Ошибка запроса",
   "whuLibraryResultUnknown": "Результат операции библиотеки неизвестен. Обновите статус, прежде чем решать, стоит ли повторять попытку.",
   "sportsAuthFailedCasRequired": "Авторизация в системе спортивных площадок не удалась. Повторно войдите через WHU CAS.",
-  "waterControlAccountExchangeFailed": "Не удалось выполнить обмен учётной записи воды.",
   "aiImageGeneration": "Создать изображение",
   "aiImageGenerationHint": "Опишите изображение, которое хотите создать",
   "aiImageGenerationEmpty": "Созданные изображения появятся здесь.",
@@ -5873,7 +5792,6 @@
   "aiSpeechEngine": "Движок речи",
   "aiSpeechEdge": "Онлайн-голос Edge",
   "aiSpeechSttsVoice": "Системный голос stts",
-  "aiSpeechVoiceLoadFailed": "Не удалось загрузить онлайн-голоса; используется текущий голос.",
   "aiSpeechVoice": "Голос",
   "aiSpeechRate": "Скорость",
   "aiSpeechPitch": "Высота тона",
@@ -6015,7 +5933,6 @@
   "coremailFolderNameRequired": "Введите имя папки.",
   "coremailCreate": "Создать",
   "coremailSwitchFolder": "Сменить папку",
-  "coremailLoadingMailbox": "Загрузка почты…",
   "coremailConnectionFailed": "Ошибка подключения к почте: {error}",
   "@coremailConnectionFailed": {
     "placeholders": {
@@ -6121,8 +6038,6 @@
     }
   },
   "coremailSwitchAccountAction": "Сменить аккаунт",
-  "coremailRequiresWhuAccount": "Сначала привяжите аккаунт WHU, чтобы сохранить учётные данные почты на этом устройстве.",
-  "vpnRequiresWhuAccount": "Сначала привяжите аккаунт WHU, чтобы сохранить учётные данные VPN на этом устройстве.",
   "credentialSaveUnavailable": "Сейчас не удалось сохранить учётные данные. Повторите попытку через минуту.",
   "coremailAutoSignInFailed": "Не удалось войти автоматически. Проверьте пароль или войдите снова.",
   "coremailEnterAccountAndPassword": "Введите полный почтовый аккаунт и пароль.",
@@ -6777,7 +6692,6 @@
   "courseReportDecision": "Решение",
   "courseReportReview": "Рассмотреть жалобу",
   "courseReportMine": "Мои жалобы",
-  "courseReportSelectCategory": "Выберите категорию",
   "courseTrustReviews": "Проверки доверия курса",
   "courseTrustReviewEmpty": "Нет правок, ожидающих проверки доверия",
   "courseTrustReviewHint": "Изменилось членство в классе или авторизация ассистента. Проверьте принятую информацию и подтвердите её снова перед новой автоматической синхронизацией.",
@@ -6789,11 +6703,6 @@
   "courseAuditTarget": "Цель",
   "courseAuditRequest": "ID запроса",
   "courseClassActive": "Учебный класс активен",
-  "courseClassArchived": "Учебный класс архивирован · историческая информация доступна только для чтения",
-  "courseClassArchive": "Архивировать учебный класс",
-  "courseClassArchiveHint": "Архивировать этот класс? Новые материалы и приглашения прекратятся, а предстоящие события календаря будут приостановлены. Исторические записи останутся доступны для чтения соответствующим участникам.",
-  "courseClassRestore": "Восстановить учебный класс",
-  "courseClassRestoreHint": "Восстановить этот класс с выбранной будущей датой окончания? Старые назначения ролей и просроченная верификация студентов не продлеваются автоматически.",
   "courseProjectionFailureTitle": "Ошибки синхронизации календаря курса",
   "courseProjectionFailureHint": "Эти задания провалились восемь раз. После повторной попытки проверьте задание и затронутые календари.",
   "courseProjectionFailureEmpty": "Нет ошибок синхронизации календаря",
@@ -6976,7 +6885,6 @@
   "cgNotificationFailed": "Не удалось обновить напоминания. Проверьте разрешения на уведомления и повторите попытку.",
   "cgAssignmentNotification": "Скоро будет назначено задание Сиджи",
   "cgExamNotification": "Экзамен Сиджи скоро начнется",
-  "cgUnknownExamTime": "Некоторые времена экзаменов не могли быть прочитаны. Проверьте оригинальный сайт.",
   "cgOpenWebsite": "Открыть оригинальный сайт",
   "cgUpdatedAt": "Обновлен {time}",
   "@cgUpdatedAt": {
@@ -7173,7 +7081,6 @@
   "courseSpaceEvidence": "Доказательства проверки",
   "courseSpaceNoEvidence": "Никаких сохранившихся доказательств.",
   "courseCaseNotices": "Результаты обзора курса",
-  "courseCaseNoticesEmpty": "Результатов проверки пока нет.",
   "courseNoticeInbox": "Обновления курса и решения",
   "courseNoticeInboxEmpty": "Обновлений курса пока нет.",
   "courseEventNoticeChanged": "Дата курса или крайний срок изменены",
@@ -7213,40 +7120,9 @@
   "courseForumLinksRemove": "Удалить ссылку",
   "courseForumLinksRetry": "Повторить загрузку связанных обсуждений.",
   "courseClassroomTitle": "класс",
-  "courseClassroomClass": "Эта учебная группа",
-  "courseClassroomHead": "Тот же поток курса",
-  "courseClassroomHeadUnavailable": "Для этого класса еще нет зарегистрированных предложений по обучению.",
   "courseClassroomCompose": "Опубликовать в этом классе",
-  "courseClassroomComposeHead": "Опубликовать это предложение по обучению",
-  "courseClassroomHeadPost": "Обсуждение обучающего предложения",
-  "courseClassroomArchivedHead": "Архивное поток курса: исторические дискуссии доступны только для чтения.",
   "courseDiscussionReadOnly": "Это обсуждение курса заархивировано и доступно только для чтения.",
   "courseClassroomEmpty": "В этой области нет обсуждений, к которым вы можете получить доступ.",
-  "courseClassroomScopeHint": "Сообщения классов соответствуют разрешениям исходного класса; Обсуждения предложений по обучению предназначены для проверенных учащихся в этом предложении.",
-  "courseClassroomSource": "Исходный класс: {id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "Источник сообщения: {id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "Сообщение для предложения по обучению: {id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "Управление доступом к классам",
   "courseAccessRevokeMember": "Отменить членство",
   "courseAccessRevokeRole": "Отозвать роль",
@@ -7255,16 +7131,8 @@
   "courseRolloutTitle": "Открыть этот учебная группа",
   "courseRolloutHint": "Студентам отображаются только открытые классы, и им генерируются приглашения на курсы. При закрытии класса информация о курсе и обсуждения удаляются из представлений учащихся.",
   "courseRolloutConfirm": "Укажите причину изменения статуса внедрения этого класса. Изменение вступает в силу немедленно.",
-  "courseClassRegister": "Зарегистрировать учебную группу",
-  "courseClassSchool": "Идентификатор школы",
-  "courseClassYear": "Учебный год",
-  "courseClassSemester": "семестр",
   "courseClassKey": "Официальный идентификатор учебной группы",
-  "courseClassEndDate": "Дата окончания семестра",
-  "courseClassRegisterHint": "Используйте официальные идентификаторы каталогов классов и курсов. В качестве даты окончания используется время Asia/Shanghai. Регистрация не проверяет студентов и не связывает предложение.",
   "courseInvitationTitle": "Приглашение после занятий",
-  "courseInvitationHint": "Этот урок закончился. Поделитесь заданиями, требованиями к оцениванию или объявлениями или проверьте существующую информацию.",
-  "courseInvitationShare": "Поделиться для этого курса",
   "courseInvitationSkip": "Нечего добавить",
   "courseSessionManage": "Учебные занятия",
   "courseSessionRegister": "Зарегистрировать занятие",
@@ -7278,10 +7146,7 @@
   "courseSessionReason": "Причина регистрации или изменения",
   "courseSessionTimeInvalid": "Введите допустимое время; конец должен следовать за началом, а продолжительность не должна превышать 12 часов.",
   "courseSessionReloadRequired": "Другой администратор мог изменить это явление. Обновите перед повторным редактированием.",
-  "courseInvitationReview": "Просмотрите существующую информацию",
-  "courseInvitationSessionInformation": "Информация для этого класса",
   "courseInvitationSetting": "Приглашения после занятий",
-  "courseInvitationSettingHint": "Применяется ко всем проверенным классам; выключите, чтобы скрыть пригласительные билеты",
   "courseMasterReview": "Просмотрите официальный источник расписания",
   "courseMasterUnsupported": "У этой школы нет официального источника расписания на стороне сервера. Продолжайте регистрировать события вручную.",
   "courseMasterUnmappedTerm": "Семестр этой группы не сопоставлен с официальным кодом семестра (3/12/16); занятия нельзя привязать автоматически.",
@@ -7315,11 +7180,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "Приглашения после занятий для этого курса",
-  "courseInvitationClassSettingHint": "Влияет только на этот учебная группа",
-  "courseInvitationClassGlobalOff": "Приглашения для всего аккаунта отключены; эта настройка вступает в силу, когда они включены",
   "courseInvitationPushSetting": "Устройство push для приглашений на занятия",
-  "courseInvitationPushHint": "Требуется принудительное согласие на курс и системные уведомления; максимум два в день",
   "courseInvitationPushSystemOff": "Уведомления устройства отключены; позволить им получать push-уведомления",
   "courseInvitationQuietStart": "Начинаются тихие часы",
   "courseInvitationQuietEnd": "Тихие часы заканчиваются",
@@ -7438,14 +7299,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "Выбрать навигатор",
-  "diningSpotIndoorFloors": "Этажи в помещении",
   "diningSpotNoFloorPlanData": "Нет данных indoor-карты",
   "diningSpotHoursUnknown": "Часы работы неизвестны",
   "diningSpotOpenNow": "Открыто",
   "diningSpotClosedNow": "Сейчас закрыто",
-  "diningSpotCorrectHours": "Исправить часы работы",
-  "diningSpotCorrectScheduleExceptions": "Исправить особые часы работы",
   "diningSpotRecentScheduleExceptions": "Ближайшие изменения графика",
   "diningSpotClosedTemporarily": "Временно закрыто",
   "diningSpotNextDay": "след. день ",
@@ -7548,7 +7405,6 @@
   "diningHoursAddSlot": "Добавить интервал",
   "diningHoursReload": "Обновить",
   "diningHoursSubmitting": "Отправка…",
-  "diningFloorPlanShopIdRequired": "Укажите ID магазина на этом этаже",
   "diningFloorPlanTypeBoundary": "Граница этажа",
   "diningFloorPlanTypeShopArea": "Зона магазинов",
   "diningFloorPlanTypeCorridor": "Коридор",
@@ -7561,11 +7417,7 @@
   "diningFloorPlanTypeServiceArea": "Сервисная зона",
   "diningFloorPlanTypeLabel": "Текстовая метка",
   "diningFloorPlanTypeLandmark": "Ориентир",
-  "diningFloorPlanGeometryPoint": "Точка",
-  "diningFloorPlanGeometryLine": "Полилиния",
-  "diningFloorPlanGeometryPolygon": "Многоугольник",
   "diningFloorPlanLabelHint": "Метка (необязательно)",
-  "diningFloorPlanSpotIdLabel": "ID магазина на этаже",
   "diningFloorPlanFinishPoints": "Завершить {count} точек",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -7574,17 +7426,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "Завершите текущую фигуру перед сохранением",
   "diningFloorPlanSaveFailed": "Не удалось сохранить. Проверьте привязку магазина, геометрию или сеть и повторите.",
   "diningFloorPlanSaving": "Сохранение…",
-  "diningFloorPlanSave": "Сохранить план этажа",
   "diningFloorPlanHintPoint": "Нажмите на холст, чтобы поставить точку",
   "diningFloorPlanHintDraw": "Нажимайте для добавления вершин и перетаскивайте их. Подтверждение добавляет объект; сохранение также завершает текущий объект.",
   "diningFloorPlanLoadFailed": "Не удалось загрузить план помещения",
   "diningMenuEndAfterStart": "Время окончания должно быть позже времени начала",
   "diningMenuCreateTitle": "Добавить блюдо",
   "diningMenuEditTitle": "Изменить блюдо",
-  "diningMenuHelp": "Укажите блюда, которые сейчас продаются. Меню обновляется после отправки; награды зависят от фактического начисления.",
   "diningMenuNameLabel": "Название блюда",
   "diningMenuNameRequired": "Введите название",
   "diningMenuPriceLabel": "Цена (юань)",
@@ -7600,7 +7449,6 @@
   "diningMenuSupplyEnd": "Окончание поставки (пекинское время)",
   "diningMenuClearStart": "Очистить время начала",
   "diningMenuClearEnd": "Очистить время окончания",
-  "diningSearchFailedRetry": "Ошибка поиска. Нажмите, чтобы повторить.",
   "diningSearchNoResults": "Ничего не найдено. Попробуйте название магазина или блюда либо смените область.",
   "settingsFeaturesVivoWatchSectionTitle": "Часы vivo",
   "settingsFeaturesVivoWatchToggleTitle": "Синхронизировать с часами vivo",
@@ -7881,14 +7729,10 @@
   "menstrualCycleDeleteAllDone": "Все записи удалены",
   "menstrualCycleDisclaimerTitle": "Не является медицинской рекомендацией",
   "menstrualCycleDisclaimerBody": "Прогнозы — это оценки на основе отмеченных вами дат. Не используйте их как средство контрацепции и для постановки диагноза — для этого обратитесь к врачу.",
-  "menstrualCycleVisibilityTitle": "Показывать на странице кампуса",
-  "menstrualCycleVisibilityHint": "Отображается по умолчанию, если в университетском профиле указан женский пол. Изменить можно здесь или в редакторе страницы кампуса.",
   "editorRepeatInterval": "Интервал",
   "editorRecurrenceIntervalLength": "Длительность интервала",
   "editorRecurrenceIntervalSummary": "Каждые {duration}",
   "editorRecurrenceWindow": "Дневное окно",
-  "editorRecurrenceWindowStart": "С",
-  "editorRecurrenceWindowEnd": "До",
   "editorRecurrenceCycle": "Циклический приём",
   "editorRecurrenceCycleActive": "Дни приёма",
   "editorRecurrenceCyclePause": "Дни перерыва",
@@ -7928,11 +7772,9 @@
   "settingsRepeatReminder": "Повтор напоминаний",
   "settingsRepeatReminderHint": "Напомнить снова, если нет действия",
   "settingsRepeatReminderOff": "Выкл",
-  "settingsRepeatReminderCount": "Повторов: {count}",
   "menstrualCycleSaveFailed": "Не удалось сохранить запись",
   "courseNoticeLoginRequired": "Войдите, чтобы просмотреть уведомления о курсах.",
   "courseEnrollmentPending": "Расписание импортировано. Доступ к обмену информацией курса ожидает проверки.",
-  "courseCombinedTab": "Оценки и отзывы",
   "courseSharingTab": "Общая информация",
   "sharingClassScope": "Та же учебная группа",
   "sharingTeacherScope": "Тот же преподаватель",
@@ -8010,7 +7852,6 @@
   "courseResourceSaved": "Файл сохранён",
   "courseResourceSaveCancelled": "Сохранение отменено. Переданный файл всё равно учитывается в лимите.",
   "courseResourceDownloadHint": "Лимит расходуется при запуске скачивания. Отмена сохранения или неполная передача не восстанавливают суточный лимит.",
-  "courseResourceSessionUsed": "Этот сеанс скачивания уже использован. Новое скачивание расходует лимит.",
   "courseResourceIntegrityError": "Проверка файла не удалась; ничего не сохранено. Новое скачивание расходует лимит.",
   "courseResourceRefresh": "Обновить состояние файла",
   "courseResourcePolicyTitle": "Лимит скачивания учебных материалов",
@@ -8153,18 +7994,9 @@
   "resourceCategoryReferences": "Литература",
   "resourceCategoryOther": "Другое",
   "resourceAllCategories": "Все категории",
-  "resourceMetadataFilters": "Фильтры по учебнику и главе",
   "resourceSearchHint": "Поиск по заголовку, автору, учебнику или главе",
-  "resourceSearchCount": "Опубликовано материалов: {count}",
   "resourcePreviousPage": "Предыдущая страница",
   "resourceNextPage": "Следующая страница",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "Отметить прочитанным",
   "sharingReadConfirmed": "Прочитано",
   "sharingUnreadCount": "Непрочитанных: {count}",
@@ -8419,7 +8251,6 @@
   "diningPlacementFloorUnspecified": "Этаж не указан",
   "diningPlacementMapHint": "Нажмите на карту, чтобы уточнить расположение заведения",
   "diningProfileTitle": "Профиль и вклад",
-  "diningModerationTitle": "Модерация и управление пользователями",
   "diningMapPickShop": "Нажмите на карту, чтобы отметить рекомендуемое заведение",
   "diningMapShopPicked": "Расположение отмечено. Подтвердите, чтобы добавить сведения.",
   "diningMapConfirmPoint": "Подтвердить расположение",
@@ -8437,7 +8268,6 @@
   "diningMenuAiModel": "Модель ИИ с распознаванием изображений",
   "diningMenuAiRecognizing": "Распознавание…",
   "diningMenuAiFill": "Распознать и заполнить с помощью ИИ",
-  "diningMenuAiHelp": "Выберите настроенную модель с поддержкой изображений. Проверьте распознанные сведения перед отправкой и вручную введите отсутствующие цены.",
   "diningDishReportReason": "Причина жалобы и замечания",
   "diningDishReportRequired": "Введите замечания",
   "diningMenuPriceUnit": "Единица цены",
@@ -8462,7 +8292,6 @@
   "diningProfileSaveFailed": "Не удалось сохранить. Повторите попытку.",
   "diningProfileRewards": "Посмотреть награды за вклад",
   "diningTagsLabel": "Вкусы и теги (через запятую)",
-  "diningTagsHint": "Нежный вкус,Острое,Быстрое обслуживание",
   "diningTasteLight": "Нежный вкус",
   "diningTasteSpicy": "Острое",
   "diningTasteNumbingSpicy": "Острое с онемением",
@@ -8480,7 +8309,6 @@
   "courseBindingAdvancedTitle": "Обновления и личная копия",
   "masterBrowserQuery": "Поиск",
   "masterBrowserLookup": "Преподаватели / аудитории",
-  "masterBrowserLookupHint": "Выберите преподавателя или аудиторию, чтобы увидеть все группы за семестр.",
   "masterBrowserStats": "Статистика",
   "masterBrowserSearchHint": "Курс / преподаватель / код / группа / учебник",
   "masterBrowserSearchHelp": "Результаты обновляются при вводе. Разделяйте слова пробелами, чтобы найти все сразу.",
@@ -8491,7 +8319,6 @@
   "masterBrowserCategory": "Категория",
   "masterBrowserType": "Тип",
   "masterBrowserGrade": "Год поступления",
-  "masterBrowserGrid": "Расписание на неделю",
   "masterBrowserTitle": "Должность преподавателя",
   "masterBrowserTextbook": "Учебник",
   "masterBrowserPublisher": "Издательство",
@@ -8500,7 +8327,6 @@
   "masterBrowserTeacherMajor": "Специальность преподавателя",
   "masterBrowserAssistants": "Ассистенты",
   "masterBrowserWeek": "Неделя",
-  "masterBrowserWeekNumber": "Неделя {week}",
   "masterBrowserSection": "Период",
   "masterBrowserRoom": "Аудитория",
   "masterBrowserWithSlots": "Только занятия с расписанием",
@@ -8535,8 +8361,6 @@
   "masterBrowserLocalData": "Данные на устройстве",
   "masterBrowserArchiveData": "Веб-архив",
   "masterBrowserCloudData": "Облачные данные",
-  "masterBrowserCollapse": "Скрыть пустые периоды",
-  "masterBrowserConflict": "Конфликты расписания",
   "masterBrowserEmptySemester": "Нет данных за этот семестр",
   "masterBrowserChangeLookup": "Выбрать заново",
   "masterBrowserFilterLookup": "Фильтровать эти курсы",
@@ -8555,7 +8379,6 @@
   "opacCurrentReservations": "Текущие бронирования",
   "opacReservationsDescription": "Бронирования, места получения и место в очереди",
   "opacRefreshReservations": "Обновить бронирования",
-  "opacLoadingReservations": "Загрузка бронирований",
   "opacNoReservations": "Нет текущих бронирований",
   "opacPickupLocation": "Место получения",
   "opacReservationFrom": "Действует с",
@@ -8615,23 +8438,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -8687,33 +8496,24 @@
   "washingAccountNote": "Учётные данные прачечной управляются независимо. Импортируйте новый Bearer по истечении срока действия. wxuuid используется только для передачи платежа; вход в WeChat не выполняется.",
   "washingAccountTitle": "Аккаунт прачечной",
   "washingAllFacilities": "Все объекты",
-  "washingAllFloors": "Все этажи",
   "washingAllStates": "Все статусы",
   "washingAlternatePayment": "Этот заказ использует отдельный платёжный канал оператора. Завершите его в исходном мини-приложении.",
   "washingAuthError": "Учётные данные недействительны или истекли. Замените токен Bearer.",
-  "washingBuilding": "Корпус {building}",
   "washingCategoryDorm": "Зоны стирки",
-  "washingCategoryDormDescription": "Просмотр машин по району, корпусу и этажу",
   "washingCategoryLaundry": "Прачечные",
-  "washingCategoryLaundryDescription": "Просмотр прачечных по району кампуса",
   "washingChangePoint": "Сменить местоположение",
   "washingCheckPayment": "Проверить статус оплаты",
   "washingCheckoutFailed": "Не удалось обработать заказ. Проверьте учётные данные и повторите позже.",
   "washingChooseMode": "Выберите режим стирки",
   "washingChoosePoint": "Выберите прачечную",
   "washingChoosePointHint": "Выберите район, корпус и этаж, чтобы увидеть машины.",
-  "washingClearCredential": "Очистить учётные данные",
   "washingClearOrder": "Очистить локальную запись заказа",
   "washingClearOrderBody": "Это не отменяет и не возвращает вышестоящий заказ. Сначала проверьте в мини-приложении оператора, что заказ завершён, закрыт или вообще не был создан. Неоплаченный заказ всё ещё может быть оплачен.",
   "washingClearOrderConfirm": "Проверено, очистить запись",
-  "washingClose": "Закрыть",
   "washingConfirmBody": "Устройство: {device}\nРежим: {mode}\nДлительность: {minutes} минут\nСумма: ¥{price}\nОплата может запустить машину немедленно. Загрузите бельё и проверьте машину перед продолжением. Купоны и доплата за средство для стирки не применяются.",
   "washingConfirmOrder": "Подтвердить заказ стирки",
-  "washingCoordinateTitle": "Выберите место поиска",
-  "washingCoordinatesInvalid": "Введите допустимую широту (от -90 до 90) и долготу (от -180 до 180).",
   "washingCreateOrder": "Создать заказ",
   "washingCredentialSaved": "Аккаунт прачечной сохранён.",
-  "washingCredentialTitle": "Учётные данные прачечной",
   "washingCurrentOrder": "Текущий заказ стирки",
   "washingDeviceCount": "{count} машин",
   "washingDeviceFallback": "Стиральная машина",
@@ -8726,12 +8526,9 @@
   "washingImport": "Импорт учётных данных",
   "washingIntroBody": "Импортируйте токен Bearer сервиса стирки, чтобы загрузить каталог кампуса и статус машин.",
   "washingIntroTitle": "Прачечные кампуса",
-  "washingLatitude": "Широта",
   "washingLaunchFailed": "Не удалось открыть страницу оплаты. Проверьте установку WeChat и разрешает ли оператор внешние ссылки на мини-программы. Ваш существующий заказ сохранён.",
   "washingLoadingDevices": "Загрузка статуса машин",
-  "washingLoadingNearbyMachines": "Загрузка машин в ближайших прачечных",
   "washingLocationError": "Местоположение недоступно. Включите разрешение на определение местоположения и обновите.",
-  "washingLongitude": "Долгота",
   "washingMachineAddress": "Адрес",
   "washingMachineDetails": "Детали машины",
   "washingMachineEnd": "Предполагаемое окончание",
@@ -8744,12 +8541,9 @@
   "washingMachines": "Статус машин",
   "washingMalformedError": "Ответ сервиса стирки изменился. Повторите позже.",
   "washingManageAccount": "Управление аккаунтом прачечной",
-  "washingManageCredential": "Управление учётными данными прачечной",
-  "washingManualLocation": "Ввести координаты",
   "washingModeDetails": "{minutes} минут · {status}",
   "washingModesFailed": "Не удалось загрузить режимы стирки. Вернитесь и обновите для повторной попытки.",
   "washingModesNote": "Режимы и цены указаны для справки. Уточняйте на месте у машины и у оператора.",
-  "washingNearby": "Ближайшие прачечные",
   "washingNetworkError": "Сеть недоступна. Повторите позже.",
   "washingNoDevices": "Нет подходящих машин",
   "washingNoModes": "Нет информации о режимах",
@@ -8768,8 +8562,6 @@
   "washingPaymentNote": "Выберите режим, чтобы создать заказ, затем откройте страницу оплаты в WeChat. Мини-программа обрабатывает оплату; результат подтверждает сервис стирки.",
   "washingPaymentPending": "Ссылка передана в WeChat. Завершите оплату там, затем вернитесь и проверьте результат. Это не подтверждает успешность оплаты.",
   "washingPriceChanged": "Цена или длительность режима изменилась. Обновите и подтвердите ещё раз.",
-  "washingQuery": "Поиск",
-  "washingRefresh": "Обновить",
   "washingRejectedError": "Сервис стирки не может обработать этот запрос. Повторите позже.",
   "washingReplace": "Заменить учётные данные",
   "washingRestoring": "Загрузка учётных данных прачечной",
@@ -8780,8 +8572,6 @@
   "washingScanInvalid": "Не найдено действительного QR-кода или идентификатора стиральной машины",
   "washingScanManual": "Ручной ввод",
   "washingScanUnsupported": "Сканирование камерой недоступно. Введите номер машины или ссылку QR-кода вручную.",
-  "washingSearch": "Найти ближайшие прачечные",
-  "washingSearchHint": "Найдите ближайшие прачечные или введите координаты.",
   "washingSearchPoint": "Поиск по корпусу, этажу или местоположению",
   "washingSessionContext": "H5-адрес прачечной или wxuuid (для оплаты)",
   "washingSessionContextHelp": "Вставьте ваш существующий H5-адрес оператора. Для запросов нужен только токен Bearer. Вход в WeChat здесь не выполняется.",
@@ -8790,7 +8580,6 @@
   "washingStateOffline": "Не в сети",
   "washingStateRunning": "Работает",
   "washingStateUnknown": "Статус неизвестен",
-  "washingStationDevices": "{station} · Машины",
   "washingStationFallback": "Прачечная",
   "washingStorageClearError": "Не удалось очистить учётные данные. Повторите попытку.",
   "washingStorageReadError": "Не удалось прочитать сохранённые учётные данные. Импортируйте их заново.",
@@ -8966,7 +8755,6 @@
   "campusSectionHide": "Скрыть раздел",   "campusSectionShow": "Показать раздел",
   "campusSectionAdd": "Новая группа",
   "campusSectionDefaultName": "Новая группа",
-  "campusSectionLayoutHint": "Перетаскивайте приложения между группами",
   "campusSectionDropHere": "Перетащите приложения сюда",
   "campusSectionReleaseToCreate": "Отпустите, чтобы создать группу",
   "campusRenameSection": "Переименовать группу",
@@ -8976,10 +8764,10 @@
   "campusSectionDropPosition": "Поместить в «{section}» на позицию {position}",
   "locationSetFixedLocation": "Указать постоянное место",
   "campusBusDegradeSettings": "Настройки резервного вида",
-  "campusBusDegradedCaption": "Резервный вид: автобусы по маршрутам",
   "campusBusAtStop": "На остановке {stop}",
   "campusBusPastStop": "Миновал {stop}",
   "settingsBusCardSectionTitle": "Карточка кампусного автобуса",
+  "settingsBusCardEntrySubtitle": "Карточка превью и резервный вид",
   "settingsBusCardDegradeMode": "Резервный вид",
   "settingsBusCardDegradeSubtitle": "Авто: показывать автобусы всех маршрутов без геолокации или вне кампуса",
   "busDegradeModeNever": "Никогда",

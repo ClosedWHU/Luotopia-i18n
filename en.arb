@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "Mental Health",
   "campusFolderComputing": "CS School",
-  "campusComputingGroupSettingHint": "Computer School tools. They appear on their own once you sign in with a Computer School profile.",
   "campusFolderHealth": "Health",
   "campusAppVoteTicket": "Ticket Grab",
   "voteTicketEmpty": "No ticket activities yet",
@@ -271,7 +270,6 @@
   "opacSubmitting": "Submitting",
   "opacReserve": "Place hold",
   "opacConfirmReserve": "Confirm hold",
-  "opacReserveMessage": "Place a hold on this copy?",
   "opacReserveSubmitted": "Hold request submitted",
   "opacNoCurrent": "No current loans",
   "opacCheckRenew": "Load loan details and check renewal availability",
@@ -295,7 +293,6 @@
   "opacRenewUpdated": "Renewed successfully. Loan information updated.",
   "opacRenewRefreshFailed": "Renewed successfully, but loan information could not be refreshed. Pull down to refresh; do not renew again.",
   "opacRefreshLoans": "Refresh loan records",
-  "opacLoadingLoans": "Loading loan records",
   "opacProfileSaved": "Personal information saved to the library server",
   "opacSaveUnconfirmed": "Saving could not be confirmed. Go back and refresh to verify. If the session expired, reopen the edit page.",
   "opacContactHelp": "You can edit your mailing address, recipient name, and contact information. Your reader ID and unified authentication identity will not change.",
@@ -509,7 +506,6 @@
   "aiSpeechEngine": "Speech engine",
   "aiSpeechEdge": "Edge online voice",
   "aiSpeechSttsVoice": "stts system voice",
-  "aiSpeechVoiceLoadFailed": "Unable to load online voices; using the current voice.",
   "aiSpeechVoice": "Voice",
   "aiSpeechRate": "Rate",
   "aiSpeechPitch": "Pitch",
@@ -790,7 +786,6 @@
   "messagesFilterAll": "All Sources",
   "messagesEmpty": "No messages",
   "messagesEmptySubtitle": "Messages from campus services will appear here",
-  "messagesLoading": "Loading messages…",
   "messagesErrorRetry": "Retry",
   "messagesMarkAllRead": "Mark all read",
   "messagesMarkAllReadSuccess": "All messages marked as read",
@@ -871,7 +866,6 @@
   "commonRegister": "Register",
   "commonRegistrationTime": "Registration time",
   "commonUsername": "Username",
-  "courseGridSettings": "Course Grid Settings",
   "gradesReviewsTitle": "Grades & Reviews",
   "courseImport": "Course Import",
   "courseImportSemester": "Semester",
@@ -941,14 +935,6 @@
   "detailStatusOverdue": "Overdue",
   "detailStatusUpcoming": "Upcoming",
   "detailStatusInactive": "Completion not tracked",
-  "detailConflictWithItems": "Overlaps with {items}. You can still save.",
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
-      }
-    }
-  },
   "detailMissing": "This item could not be found. It may have been deleted.",
   "detailTitle": "Item Detail",
   "done": "Done",
@@ -1098,7 +1084,6 @@
   "medicationLowStockThreshold": "Low-stock alert at",
   "medicationLowStockAlert": "Running low — time to refill",
   "medicationRefill": "Refill",
-  "medicationTaken": "Taken",
   "medicationFormPill": "Pill",
   "medicationFormCapsule": "Capsule",
   "medicationFormTablet": "Tablet",
@@ -1112,12 +1097,10 @@
   "editorSectionRepeat": "Repeat",
   "editorSectionDateRepeat": "Date & repeat",
   "editorSectionTime": "Time",
-  "editorSectionDetails": "Details",
   "editorSectionCourse": "Course info",
   "editorSectionMedication": "Medication info",
   "editorSectionLocationNotes": "Location & notes",
   "editorRecurrenceTimes": "Times",
-  "editorRecurrenceWeekdays": "Days",
   "editorRecurrenceAddTime": "Add time",
   "editorRecurrenceMonthDays": "Days of month",
   "editorRecurrenceMonthDayPolicy": "If the month has no such day",
@@ -1125,7 +1108,6 @@
   "editorRecurrenceClampLastDay": "Use last day of month",
   "editorMomentToggle": "Moment (no duration)",
   "editorReminderCustom": "Custom",
-  "editorReminderAdd": "Add reminder",
   "editorSubmitInvalid": "Please fix the highlighted fields first.",
   "editorSubmitSuccess": "Item saved.",
   "editorTeacher": "Teacher",
@@ -1444,6 +1426,8 @@
   "settingsHapticMedium": "Medium",
   "settingsHapticHigh": "High",
   "settingsFeaturesEntryTitle": "Features",
+  "settingsPagesSectionTitle": "Page settings",
+  "settingsFeaturesSectionTitle": "Features",
   "settingsFeaturesEntrySubtitle": "Widgets, home, AI, and weather",
   "settingsSpeechEntryTitle": "Speech",
   "settingsSpeechEntrySubtitle": "Voice, speech engine and recognition",
@@ -2116,17 +2100,6 @@
   "aiMcpImportJson": "Import JSON",
   "aiMcpImport": "Import",
   "aiServiceError": "AI service error",
-  "aiUntitledItem": "Untitled item",
-  "aiMemo": "Memo",
-  "aiDraftReady": "Draft ready: {title}",
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "aiOpenDraftPage": "Open Draft Page",
   "aiSend": "Send",
   "aiStop": "Stop",
   "aiClearHistory": "Clear history",
@@ -2582,7 +2555,6 @@
     }
   },
   "retry": "Retry",
-  "campusFeatureInDevelopment": "Feature under development",
   "libraryVenueList": "Venues",
   "libraryMyReservations": "My Reservations",
   "libraryNoVenues": "No venues available",
@@ -2597,7 +2569,6 @@
   "libraryClickForDetails": "Tap to view floor and seat details",
   "globalTimetableTitle": "Global Timetable",
   "globalTimetableCourseMatching": "Course matching",
-  "globalTimetableContribute": "Contribute timetable",
   "globalTimetableLocalImport": "Import to this device",
   "globalTimetableLocalImportMessage": "Download and save {year}-{nextYear}, term {term}, directly from the WHU education system on this device. The data and your education session will not be uploaded to Luotopia. Local data will be used before cloud data for search and filtering.",
   "@globalTimetableLocalImportMessage": {
@@ -2626,7 +2597,6 @@
   "globalTimetableLocalUnsupported": "Local timetable import is not available on this platform.",
   "globalTimetableSourceLocal": "Local",
   "globalTimetableSourceCloud": "Cloud",
-  "globalTimetableSourceCloudUnavailable": "No cloud data for this period",
   "globalTimetableContributionTitle": "Contribute the university-wide timetable",
   "globalTimetableContributionMessage": "Authorize Luotopia with a one-time WHU CAS ticket. The server worker will import {year}-{nextYear}, term {term}, directly from the WHU education system in the background. Your WHU identity must match the one bound to your Luotopia account.",
   "@globalTimetableContributionMessage": {
@@ -2654,7 +2624,6 @@
       }
     }
   },
-  "globalTimetableCachedData": "Cached data",
   "globalTimetableTerm": "Term {term}",
   "@globalTimetableTerm": {
     "placeholders": {
@@ -3003,8 +2972,6 @@
   "sportsAuthNoJwt": "Sports venue system authorization failed: JWT missing in response.",
   "sportsAuthFailed": "Sports venue system authorization failed.",
   "scoreImportDescription": "After import, scores are cached locally for instant viewing and GPA calculation.",
-  "scoreImportCaptchaFailed": "Failed to parse verification code",
-  "scoreImportCancelled": "Verification cancelled",
   "scoreImportImportingUndergraduate": "Logging into the undergraduate academic system and importing scores…",
   "scoreImportImportingCredential": "Downloading and parsing the trusted credential locally…",
   "scoreImportSuccessWithCount": "{success}: {count} scores cached locally.",
@@ -3088,7 +3055,6 @@
       }
     }
   },
-  "scoreCaptchaAutoVerifying": "Auto-verifying...",
   "captchaAutoVerifying": "Auto-verifying...",
   "seatReservationAlreadySynced": "This reservation is already in your agenda.",
   "seatReservationAddedToAgenda": "Seat reservation added to your agenda.",
@@ -3148,14 +3114,6 @@
   "aiHeaderConfigRequired": "Please complete AI configuration in settings first.",
   "aiHeaderServiceUnavailable": "AI service temporarily unavailable. Please fix configuration or network.",
   "aiHeaderRetryLater": "AI service temporarily unavailable. Please try again later.",
-  "aiHeaderDraftCreated": "Item created via draft page: {title}",
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "themeColorLuotopiaBlue": "Luotopia Blue",
   "@themeColorLuotopiaBlue": {
     "description": "WHU's traditional Luojia Blue color name. 珞珈 is the correct proper noun here and must not be changed to the product brand 珞家."
@@ -3897,7 +3855,6 @@
   "onboardingFinishBenefitsTitle": "With WHU login you can",
   "onboardingFinishBenefitTimetable": "Import and sync your course timetable",
   "onboardingFinishBenefitScores": "View grades and academic status",
-  "onboardingFinishBenefitCampus": "Use campus services like E-card and reservations",
   "onboardingFinishBenefitReservation": "Find free classrooms and book study seats or sports venues",
   "onboardingFinishBenefitCard": "Top up your campus card, pay by code and settle utility bills",
   "onboardingFinishBenefitServices": "Live bus locations, library loans and campus clinic services",
@@ -5016,9 +4973,6 @@
   "forumCreatePost": "Create post",
   "forumSearch": "Search posts",
   "forumMoreActions": "More forum actions",
-  "forumMenuSectionContent": "My content",
-  "forumMenuSectionCommunity": "Community",
-  "forumMenuSectionManage": "Management",
   "forumSearchQuery": "Search posts",
   "forumSearchBoard": "Board",
   "forumSearchTag": "Tag",
@@ -5290,7 +5244,6 @@
   "forumSave": "Save",
   "forumEdit": "Edit",
   "forumReport": "Report",
-  "forumReportReason": "Reason",
   "forumReportSubmitted": "Report submitted.",
   "forumReportSubmittedFlavor": "Recorded; awaiting response.",
   "forumReportCategory": "Category",
@@ -5299,7 +5252,6 @@
   "forumReportComment": "Report comment",
   "forumEditComment": "Edit comment",
   "forumCommentContent": "Comment",
-  "forumModerationRulesTitle": "Violated rules",
   "forumReportCatIllegalViolation": "Illegal & safety",
   "forumReportCatSexual": "Sexual content",
   "forumReportCatHarassment": "Hate & harassment",
@@ -5386,7 +5338,6 @@
   },
   "forumKarmaInsufficient": "Insufficient Karma",
   "forumKarmaBudgetExhausted": "Daily allotment exhausted",
-  "forumCheckinTodo": "Check in",
   "forumCheckinTitle": "Daily check-in",
   "forumCheckinFixed": "Steady path (+{amount})",
   "@forumCheckinFixed": {
@@ -6427,22 +6378,6 @@
   "adminSystemQueuesDescription": "Read-only retry and failure buffers.",
   "adminForumSettingsImageUploadLimit": "Image upload limit (MiB)",
   "adminForumSettingsAttachmentUploadLimit": "Attachment upload limit (MiB)",
-  "adminPaginationPrevious": "Previous page",
-  "adminPaginationNext": "Next page",
-  "adminPaginationPageInfo": "Page {page} of {pages} · {total} items",
-  "@adminPaginationPageInfo": {
-    "placeholders": {
-      "page": {
-        "type": "int"
-      },
-      "pages": {
-        "type": "int"
-      },
-      "total": {
-        "type": "int"
-      }
-    }
-  },
   "appPaginationFirst": "First page",
   "appPaginationLast": "Last page",
   "appPaginationPrevious": "Previous page",
@@ -6617,56 +6552,6 @@
   "aiLiveAnsweringDescription": "Generating the answer in real time",
   "aiLiveProcessing": "Processing",
   "aiLiveProcessingDescription": "Preparing the next step",
-  "aiToolTraceMoreTools": "{visibleTools} and {count} tools total",
-  "@aiToolTraceMoreTools": {
-    "placeholders": {
-      "visibleTools": {
-        "type": "String"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "aiToolTraceSucceeded": "{count} succeeded",
-  "@aiToolTraceSucceeded": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "aiToolTraceFailed": "{count} failed",
-  "@aiToolTraceFailed": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "aiToolTraceCancelled": "{count} incomplete",
-  "@aiToolTraceCancelled": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "aiToolTraceSummary": "Tool calls: {tools} · {statuses}",
-  "@aiToolTraceSummary": {
-    "placeholders": {
-      "tools": {
-        "type": "String"
-      },
-      "statuses": {
-        "type": "String"
-      }
-    }
-  },
-  "aiToolTraceDetails": "Tool call details",
-  "aiToolTraceStatusSucceeded": "Succeeded",
-  "aiToolTraceStatusFailed": "Failed",
-  "aiToolTraceStatusCancelled": "Incomplete",
   "forumModerationModeratePost": "Moderate post",
   "forumModerationPostIdLabel": "Post ID",
   "forumModerationPostIdRequired": "Post ID is required",
@@ -6720,10 +6605,7 @@
       }
     }
   },
-  "courseMatchingAdvancedFilters": "Advanced filters",
   "courseMatchingDayOfWeek": "Day of week",
-  "courseMatchingFromSection": "From section",
-  "courseMatchingToSection": "To section",
   "courseMatchingCourseType": "Course type",
   "courseMatchingMinCredits": "Minimum credits",
   "courseMatchingMaxCredits": "Maximum credits",
@@ -6764,27 +6646,12 @@
   },
   "courseMatchingConflictFreeOnly": "Conflict-free only",
   "courseMatchingAdd": "Add",
-  "courseMatchingApply": "Apply",
-  "courseMatchingReset": "Reset",
-  "courseMatchingActiveFilters": "{count} active",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "All",
   "courseMatchingCampus": "Campus",
   "courseMatchingBuilding": "Building",
   "courseMatchingDepartment": "Department",
   "courseMatchingTeacher": "Teacher",
-  "courseMatchingSectionRangeError": "Start section must not exceed end section.",
-  "courseMatchingCreditRangeError": "Minimum credits must not exceed maximum credits.",
-  "globalTimetableHistory": "Course history",
   "globalTimetableHistoryHint": "Search every published semester, newest first.",
   "globalTimetableHistoryEmpty": "No offerings matched this query.",
-  "globalTimetableHistoryUnavailable": "The server does not support course history yet.",
   "globalTimetableDownloads": "Offline data",
   "globalTimetableDownloadsSummary": "{count} semesters · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -6816,8 +6683,6 @@
   "globalTimetableSourceAuto": "Auto",
   "globalTimetableLocalMissing": "This semester is not available offline yet.",
   "globalTimetableNoSlot": "No fixed slot",
-  "globalTimetableSearchHint": "Course, teacher or code",
-  "globalTimetableEmpty": "No courses found for this period.",
   "globalTimetableDetailTitle": "Course details",
   "globalTimetableDetailSlots": "Class sessions",
   "globalTimetableDetailInfo": "Course info",
@@ -7156,7 +7021,6 @@
   "whuMessagesRequestFailed": "Request failed",
   "whuLibraryResultUnknown": "Library operation result unknown. Please refresh status before deciding whether to retry.",
   "sportsAuthFailedCasRequired": "Sports venue system authorization failed. Please log in again via WHU CAS.",
-  "waterControlAccountExchangeFailed": "Water account exchange failed.",
   "settingsAiWorkspaceExportTitle": "Export Agent data",
   "settingsAiWorkspaceExportSubtitle": "Bundle your notes, drafts, and config into a JSON file to share or save. The bundle skips chat sessions, Tool Result bytes, and untrusted web content.",
   "settingsAiWorkspaceExportConfirmTitle": "Export Agent data?",
@@ -7323,7 +7187,6 @@
   "coremailFolderNameRequired": "Enter a folder name.",
   "coremailCreate": "Create",
   "coremailSwitchFolder": "Switch folder",
-  "coremailLoadingMailbox": "Loading mailbox…",
   "coremailConnectionFailed": "Mailbox connection failed: {error}",
   "@coremailConnectionFailed": {
     "placeholders": {
@@ -7436,8 +7299,6 @@
     }
   },
   "coremailSwitchAccountAction": "Switch account",
-  "coremailRequiresWhuAccount": "Bind a WHU account first to save mailbox credentials on this device.",
-  "vpnRequiresWhuAccount": "Bind a WHU account first to save VPN credentials on this device.",
   "credentialSaveUnavailable": "Can't save these credentials right now. Try again in a moment.",
   "coremailAutoSignInFailed": "Automatic sign-in failed. Check your password or sign in again.",
   "coremailEnterAccountAndPassword": "Enter your full email account and password.",
@@ -8465,7 +8326,6 @@
   "cgNotificationFailed": "Could not update reminders. Check notification permissions and retry.",
   "cgAssignmentNotification": "Cg assignment due soon",
   "cgExamNotification": "Cg exam starts soon",
-  "cgUnknownExamTime": "Some exam times could not be read. Check the original website.",
   "cgOpenWebsite": "Open original website",
   "cgUpdatedAt": "Updated {time}",
   "@cgUpdatedAt": {
@@ -8671,7 +8531,6 @@
   "courseSpaceEvidence": "Verification evidence",
   "courseSpaceNoEvidence": "No retained evidence.",
   "courseCaseNotices": "Course review results",
-  "courseCaseNoticesEmpty": "No review results yet.",
   "courseNoticeInbox": "Course updates and decisions",
   "courseNoticeInboxEmpty": "No course updates yet.",
   "courseEventNoticeChanged": "A course date or deadline changed",
@@ -8711,40 +8570,9 @@
   "courseForumLinksRemove": "Remove link",
   "courseForumLinksRetry": "Retry loading linked discussions",
   "courseClassroomTitle": "Classroom",
-  "courseClassroomClass": "This teaching class",
-  "courseClassroomHead": "Same teaching offering",
-  "courseClassroomHeadUnavailable": "This class has no registered teaching offering yet.",
   "courseClassroomCompose": "Post to this class",
-  "courseClassroomComposeHead": "Post to this teaching offering",
-  "courseClassroomHeadPost": "Teaching offering discussion",
-  "courseClassroomArchivedHead": "Archived teaching offering: historical discussions are read-only.",
   "courseDiscussionReadOnly": "This course discussion is archived and read-only.",
   "courseClassroomEmpty": "No discussions you can access in this scope.",
-  "courseClassroomScopeHint": "Class posts follow their source class permissions; teaching offering discussions are for verified students in this offering.",
-  "courseClassroomSource": "Source class: {id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "Post source: {id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "Post to teaching offering: {id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "Manage class access",
   "courseAccessRevokeMember": "Revoke membership",
   "courseAccessRevokeRole": "Revoke role",
@@ -8753,16 +8581,8 @@
   "courseRolloutTitle": "Open this teaching class",
   "courseRolloutHint": "Only open classes appear to students and generate course invitations. Closing a class removes its course information and discussion from student views.",
   "courseRolloutConfirm": "Give a reason for changing this class's rollout status. The change takes effect immediately.",
-  "courseClassRegister": "Register teaching class",
-  "courseClassSchool": "School identifier",
-  "courseClassYear": "Academic year",
-  "courseClassSemester": "Semester",
   "courseClassKey": "Official teaching-class identifier",
-  "courseClassEndDate": "Term end date",
-  "courseClassRegisterHint": "Use official class and course catalog identifiers. The end date uses Asia/Shanghai time. Registration does not verify students or link an offering.",
   "courseInvitationTitle": "After-class invitation",
-  "courseInvitationHint": "This class has ended. Share assignments, assessment requirements or announcements, or check existing information.",
-  "courseInvitationShare": "Share for this class",
   "courseInvitationSkip": "Nothing to add",
   "courseSessionManage": "Class occurrences",
   "courseSessionRegister": "Register occurrence",
@@ -8776,10 +8596,7 @@
   "courseSessionReason": "Reason for registration or change",
   "courseSessionTimeInvalid": "Enter valid times; end must follow start and duration must not exceed 12 hours",
   "courseSessionReloadRequired": "Another administrator may have changed this occurrence. Refresh before editing again.",
-  "courseInvitationReview": "Review existing information",
-  "courseInvitationSessionInformation": "Information for this class",
   "courseInvitationSetting": "After-class invitations",
-  "courseInvitationSettingHint": "Applies to all verified classes; turn off to hide invitation cards",
   "courseMasterReview": "Review official timetable source",
   "courseMasterUnsupported": "This school has no server-side official timetable source. Continue registering occurrences manually.",
   "courseMasterUnmappedTerm": "This class term is not mapped to an official semester code (3/12/16); occurrences cannot be linked automatically.",
@@ -8813,11 +8630,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "After-class invitations for this class",
-  "courseInvitationClassSettingHint": "Only affects this teaching class",
-  "courseInvitationClassGlobalOff": "Account-wide invitations are off; this setting takes effect when they are on",
   "courseInvitationPushSetting": "Device push for class invitations",
-  "courseInvitationPushHint": "Requires course push consent and system notifications; at most two per day",
   "courseInvitationPushSystemOff": "Device notifications are off; enable them to receive push",
   "courseInvitationQuietStart": "Quiet hours start",
   "courseInvitationQuietEnd": "Quiet hours end",
@@ -8857,7 +8670,6 @@
   "courseReportDecision": "Decision",
   "courseReportReview": "Review report",
   "courseReportMine": "My reports",
-  "courseReportSelectCategory": "Select a category",
   "courseTrustReviews": "Course trust reviews",
   "courseTrustReviewEmpty": "No revisions awaiting trust review",
   "courseTrustReviewHint": "A class membership or assistant authorization changed. Check the accepted information and verify it again before new automatic syncing.",
@@ -8869,11 +8681,6 @@
   "courseAuditTarget": "Target",
   "courseAuditRequest": "Request ID",
   "courseClassActive": "Teaching class active",
-  "courseClassArchived": "Teaching class archived · historical information is read only",
-  "courseClassArchive": "Archive teaching class",
-  "courseClassArchiveHint": "Archive this teaching class? New contributions and invitations stop, and following calendar events pause. Historical records remain readable to eligible members.",
-  "courseClassRestore": "Restore teaching class",
-  "courseClassRestoreHint": "Restore this class with the selected future end date? Old role grants and expired student verification are not renewed automatically.",
   "courseProjectionFailureTitle": "Course calendar sync failures",
   "courseProjectionFailureHint": "These jobs failed eight times. After retrying, check the job and affected calendars.",
   "courseProjectionFailureEmpty": "No calendar sync failures",
@@ -9013,14 +8820,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "Choose map navigation",
-  "diningSpotIndoorFloors": "Indoor floors",
   "diningSpotNoFloorPlanData": "No indoor map data yet",
   "diningSpotHoursUnknown": "Hours unknown",
   "diningSpotOpenNow": "Open now",
   "diningSpotClosedNow": "Currently closed",
-  "diningSpotCorrectHours": "Correct opening hours",
-  "diningSpotCorrectScheduleExceptions": "Correct special hours",
   "diningSpotRecentScheduleExceptions": "Recent special hours",
   "diningSpotClosedTemporarily": "Temporarily closed",
   "diningSpotNextDay": "next day ",
@@ -9123,7 +8926,6 @@
   "diningHoursAddSlot": "Add slot",
   "diningHoursReload": "Reload",
   "diningHoursSubmitting": "Submitting…",
-  "diningFloorPlanShopIdRequired": "Enter the shop ID on this floor",
   "diningFloorPlanTypeBoundary": "Floor boundary",
   "diningFloorPlanTypeShopArea": "Shop area",
   "diningFloorPlanTypeCorridor": "Corridor",
@@ -9136,11 +8938,7 @@
   "diningFloorPlanTypeServiceArea": "Service area",
   "diningFloorPlanTypeLabel": "Text label",
   "diningFloorPlanTypeLandmark": "Landmark",
-  "diningFloorPlanGeometryPoint": "Point",
-  "diningFloorPlanGeometryLine": "Polyline",
-  "diningFloorPlanGeometryPolygon": "Polygon",
   "diningFloorPlanLabelHint": "Label (optional)",
-  "diningFloorPlanSpotIdLabel": "Shop ID on this floor",
   "diningFloorPlanFinishPoints": "Finish {count} points",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -9149,17 +8947,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "Finish the current shape before saving",
   "diningFloorPlanSaveFailed": "Save failed. Check the shop assignment, the geometry or your network, then retry.",
   "diningFloorPlanSaving": "Saving…",
-  "diningFloorPlanSave": "Save floor plan",
   "diningFloorPlanHintPoint": "Tap the canvas to place a point",
   "diningFloorPlanHintDraw": "Tap to add vertices and drag them to adjust. Confirm adds the feature; Save also commits the current feature.",
   "diningFloorPlanLoadFailed": "Could not load the floor plan",
   "diningMenuEndAfterStart": "Supply end time must be later than the start time",
   "diningMenuCreateTitle": "Add a dish",
   "diningMenuEditTitle": "Edit dish",
-  "diningMenuHelp": "Provide dishes currently sold by the shop. The menu updates after submission; rewards depend on the actual settlement.",
   "diningMenuNameLabel": "Dish name",
   "diningMenuNameRequired": "Enter a name",
   "diningMenuPriceLabel": "Price (CNY)",
@@ -9175,7 +8970,6 @@
   "diningMenuSupplyEnd": "Available until (Beijing time)",
   "diningMenuClearStart": "Clear start time",
   "diningMenuClearEnd": "Clear end time",
-  "diningSearchFailedRetry": "Search failed. Tap to retry.",
   "diningSearchNoResults": "No results. Try a shop or dish name, or change the scope.",
   "settingsFeaturesVivoWatchSectionTitle": "vivo Watch",
   "settingsFeaturesVivoWatchToggleTitle": "Sync to vivo Watch",
@@ -9663,8 +9457,6 @@
   "menstrualCycleDeleteAllDone": "All records deleted",
   "menstrualCycleDisclaimerTitle": "Not medical advice",
   "menstrualCycleDisclaimerBody": "Predictions are estimates based on the dates you record. Do not use them as contraception or to diagnose a health problem — see a clinician for that.",
-  "menstrualCycleVisibilityTitle": "Show on the Campus page",
-  "menstrualCycleVisibilityHint": "Shown by default when your university profile is marked female. Change it any time, here or in the Campus layout editor.",
   "editorRepeatInterval": "Interval",
   "editorRecurrenceIntervalLength": "Interval length",
   "editorRecurrenceIntervalSummary": "Every {duration}",
@@ -9676,8 +9468,6 @@
     }
   },
   "editorRecurrenceWindow": "Daily window",
-  "editorRecurrenceWindowStart": "From",
-  "editorRecurrenceWindowEnd": "To",
   "editorRecurrenceCycle": "Cyclic schedule",
   "editorRecurrenceCycleActive": "Active days",
   "editorRecurrenceCyclePause": "Pause days",
@@ -9775,18 +9565,9 @@
   "settingsRepeatReminder": "Repeat reminders",
   "settingsRepeatReminderHint": "Remind again when no action is taken",
   "settingsRepeatReminderOff": "Off",
-  "settingsRepeatReminderCount": "{count} times",
-  "@settingsRepeatReminderCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "menstrualCycleSaveFailed": "Could not save the record",
   "courseNoticeLoginRequired": "Sign in to view course notifications.",
   "courseEnrollmentPending": "Timetable imported. Course sharing eligibility is awaiting verification.",
-  "courseCombinedTab": "Grading & reviews",
   "courseSharingTab": "Shared information",
   "sharingClassScope": "Same class",
   "sharingTeacherScope": "Same teacher",
@@ -9864,7 +9645,6 @@
   "courseResourceSaved": "File saved",
   "courseResourceSaveCancelled": "Save cancelled. The transferred file still counts toward your allowance.",
   "courseResourceDownloadHint": "Allowance is charged when downloading starts. Cancelling save or a partial transfer does not refund daily allowance.",
-  "courseResourceSessionUsed": "This download session was used. A new download counts toward your allowance.",
   "courseResourceIntegrityError": "File verification failed; nothing was saved. A new download counts toward your allowance.",
   "courseResourceRefresh": "Refresh file status",
   "courseResourcePolicyTitle": "Course resource download allowance",
@@ -10007,18 +9787,9 @@
   "resourceCategoryReferences": "References",
   "resourceCategoryOther": "Other",
   "resourceAllCategories": "All categories",
-  "resourceMetadataFilters": "Textbook and chapter filters",
   "resourceSearchHint": "Search title, author, textbook or chapter",
-  "resourceSearchCount": "{count} published resources",
   "resourcePreviousPage": "Previous page",
   "resourceNextPage": "Next page",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "Mark as read",
   "sharingReadConfirmed": "Read",
   "sharingUnreadCount": "{count} unread",
@@ -10442,7 +10213,6 @@
   "diningPlacementFloorUnspecified": "Unspecified floor",
   "diningPlacementMapHint": "Tap the map to correct the shop location",
   "diningProfileTitle": "Profile and contributions",
-  "diningModerationTitle": "Moderation and user management",
   "diningMapPickShop": "Tap the map to mark a shop to recommend",
   "diningMapShopPicked": "Shop location marked. Confirm to add details.",
   "diningMapConfirmPoint": "Confirm location",
@@ -10460,7 +10230,6 @@
   "diningMenuAiModel": "Vision AI model",
   "diningMenuAiRecognizing": "Recognizing…",
   "diningMenuAiFill": "Recognize and fill with AI",
-  "diningMenuAiHelp": "Choose a configured vision model. Review the recognized details before submitting, and enter any missing price manually.",
   "diningDishReportReason": "Report reason and feedback",
   "diningDishReportRequired": "Enter your feedback",
   "diningMenuPriceUnit": "Price unit",
@@ -10485,7 +10254,6 @@
   "diningProfileSaveFailed": "Could not save. Please try again.",
   "diningProfileRewards": "View contribution rewards",
   "diningTagsLabel": "Flavors and tags (comma separated)",
-  "diningTagsHint": "Light,Spicy,Quick service",
   "diningTasteLight": "Light",
   "diningTasteSpicy": "Spicy",
   "diningTasteNumbingSpicy": "Numbing and spicy",
@@ -10527,7 +10295,6 @@
   "courseBindingAdvancedTitle": "Updates and private copy",
   "masterBrowserQuery": "Search",
   "masterBrowserLookup": "Teachers / rooms",
-  "masterBrowserLookupHint": "Choose a teacher or room to see all classes this semester.",
   "masterBrowserStats": "Statistics",
   "masterBrowserSearchHint": "Course / teacher / code / class / textbook",
   "masterBrowserSearchHelp": "Results update as you type. Separate keywords with spaces to match all.",
@@ -10538,7 +10305,6 @@
   "masterBrowserCategory": "Course category",
   "masterBrowserType": "Course type",
   "masterBrowserGrade": "Grade",
-  "masterBrowserGrid": "Week grid",
   "masterBrowserTitle": "Teacher title",
   "masterBrowserTextbook": "Textbook",
   "masterBrowserPublisher": "Publisher",
@@ -10547,15 +10313,6 @@
   "masterBrowserTeacherMajor": "Teacher specialty",
   "masterBrowserAssistants": "Assistant teachers",
   "masterBrowserWeek": "Week",
-  "masterBrowserWeekNumber": "Week {week}",
-  "@masterBrowserWeekNumber": {
-    "description": "Master timetable browser: WeekNumber",
-    "placeholders": {
-      "week": {
-        "type": "int"
-      }
-    }
-  },
   "masterBrowserSection": "Section",
   "masterBrowserRoom": "Room",
   "masterBrowserWithSlots": "Only scheduled classes",
@@ -10590,8 +10347,6 @@
   "masterBrowserLocalData": "On-device data",
   "masterBrowserArchiveData": "Web archive",
   "masterBrowserCloudData": "Cloud data",
-  "masterBrowserCollapse": "Collapse empty sections",
-  "masterBrowserConflict": "Schedule conflicts",
   "masterBrowserEmptySemester": "No course data for this semester",
   "masterBrowserChangeLookup": "Choose another",
   "masterBrowserFilterLookup": "Filter these courses",
@@ -10645,7 +10400,6 @@
   "opacCurrentReservations": "Current holds",
   "opacReservationsDescription": "View hold requests, pickup locations and queue positions",
   "opacRefreshReservations": "Refresh current holds",
-  "opacLoadingReservations": "Loading current holds",
   "opacNoReservations": "No current holds",
   "opacPickupLocation": "Pickup location",
   "opacReservationFrom": "Valid from",
@@ -10691,10 +10445,6 @@
   "washingTitle": "Laundry",
   "washingCategoryLaundry": "Laundry stations",
   "washingCategoryDorm": "Laundry areas",
-  "washingCategoryLaundryDescription": "Browse laundry centers by campus area",
-  "washingCategoryDormDescription": "Browse machines by area, building and floor",
-  "washingManageCredential": "Manage laundry credentials",
-  "washingRefresh": "Refresh",
   "washingRestoring": "Loading laundry credentials",
   "washingIntroTitle": "Campus laundry facilities",
   "washingIntroBody": "Import your washing-service Bearer token to load the campus directory and machine status.",
@@ -10703,16 +10453,10 @@
   "washingExpiredTitle": "Update laundry credentials",
   "washingExpiredBody": "The credentials are invalid or expired. Import a valid token to continue.",
   "washingReplace": "Replace credentials",
-  "washingSearch": "Find nearby stations",
-  "washingManualLocation": "Enter coordinates",
-  "washingClearCredential": "Clear credentials",
-  "washingNearby": "Nearby stations",
   "washingFindingStations": "Loading the campus directory",
-  "washingSearchHint": "Search nearby stations or enter coordinates.",
   "washingNoStations": "No matching campus facilities",
   "washingStationFallback": "Laundry station",
   "washingAllStates": "All states",
-  "washingAllFloors": "All floors",
   "washingLoadingDevices": "Loading machine status",
   "washingNoDevices": "No matching machines",
   "washingDeviceFallback": "Laundry machine",
@@ -10724,18 +10468,11 @@
   "washingModesFailed": "Unable to load wash modes. Return and refresh to retry.",
   "washingNoModes": "No mode information available",
   "washingModesNote": "Modes and prices are for reference. Confirm with the on-site machine and operator.",
-  "washingClose": "Close",
-  "washingCredentialTitle": "Laundry credentials",
   "washingTokenLabel": "Bearer token",
   "washingTokenPaste": "Paste your laundry service token",
   "washingTokenKeep": "Leave blank to keep current credentials",
   "washingTokenInvalid": "Enter a valid Bearer token",
   "washingSave": "Save",
-  "washingCoordinateTitle": "Choose search location",
-  "washingLatitude": "Latitude",
-  "washingLongitude": "Longitude",
-  "washingCoordinatesInvalid": "Enter a valid latitude (-90 to 90) and longitude (-180 to 180).",
-  "washingQuery": "Search",
   "washingStorageReadError": "Unable to read saved credentials. Import them again.",
   "washingStorageSaveError": "Unable to save credentials. Try again.",
   "washingStorageClearError": "Unable to clear credentials. Try again.",
@@ -10745,9 +10482,7 @@
   "washingRejectedError": "The laundry service cannot process this request. Try again later.",
   "washingLocationError": "Location unavailable. Enable location permission, then refresh.",
   "washingDeviceCount": "{count} machines",
-  "washingStationDevices": "{station} · Machines",
   "washingFloor": "Floor {floor}",
-  "washingBuilding": "Building {building}",
   "washingEstimatedEnd": "Estimated end {time}",
   "washingModeDetails": "{minutes} minutes · {status}",
   "@washingDeviceCount": {
@@ -10757,23 +10492,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -10802,23 +10523,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -10890,7 +10597,6 @@
       }
     }
   },
-  "washingLoadingNearbyMachines": "Loading machines across nearby stations",
   "washingUnknownFloor": "Floor unknown",
   "washingChoosePoint": "Choose a laundry location",
   "washingChoosePointHint": "Choose an area, building and floor to see the machines.",
@@ -11181,7 +10887,6 @@
   "campusSectionHide": "Hide section",   "campusSectionShow": "Show section",
   "campusSectionAdd": "New section",
   "campusSectionDefaultName": "New section",
-  "campusSectionLayoutHint": "Drag apps between sections to rearrange",
   "campusSectionDropHere": "Drop apps here",
   "campusSectionReleaseToCreate": "Release to create a section",
   "campusRenameSection": "Rename section",
@@ -11202,7 +10907,6 @@
   },
   "locationSetFixedLocation": "Set fixed location",
   "campusBusDegradeSettings": "Fallback settings",
-  "campusBusDegradedCaption": "Fallback view: vehicles by line",
   "campusBusAtStop": "At {stop}",
   "@campusBusAtStop": {
     "placeholders": {
@@ -11220,6 +10924,7 @@
     }
   },
   "settingsBusCardSectionTitle": "Campus bus card",
+  "settingsBusCardEntrySubtitle": "Preview card & fallback display",
   "settingsBusCardDegradeMode": "Fallback display",
   "settingsBusCardDegradeSubtitle": "Auto: list each line's vehicles when location is off or you are away from campus",
   "busDegradeModeNever": "Never",

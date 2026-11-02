@@ -1,7 +1,6 @@
 {
   "campusAppMentalHealth": "心理健康",
   "campusFolderComputing": "计院相关",
-  "campusComputingGroupSettingHint": "计院专用。用计算机学院嘅账号登入之后会自动显示。",
   "campusFolderHealth": "健康",
   "campusAppVoteTicket": "预约抢飞",
   "voteTicketEmpty": "暂无抢飞活动",
@@ -233,7 +232,6 @@
   "opacSubmitting": "提交中",
   "opacReserve": "预约",
   "opacConfirmReserve": "确认预约",
-  "opacReserveMessage": "确定要预约呢本馆藏？",
   "opacReserveSubmitted": "预约请求已提交",
   "opacNoCurrent": "暂时冇在借图书",
   "opacCheckRenew": "读取借阅详情并检查续借入口",
@@ -257,7 +255,6 @@
   "opacRenewUpdated": "续借成功，借阅资讯已更新",
   "opacRenewRefreshFailed": "续借成功，但借阅资料更新唔到，请向下拉刷新；唔好重复续借。",
   "opacRefreshLoans": "重新整理借阅记录",
-  "opacLoadingLoans": "正在读取借阅记录",
   "opacProfileSaved": "个人资讯已储存至图书馆伺服器",
   "opacSaveUnconfirmed": "未能确认储存成功，请返回刷新核实。如果会话过期，请重新打开编辑页。",
   "opacContactHelp": "可以改邮寄地址、收件人姓名同联络方式；唔会改读者证号同统一认证身份。",
@@ -740,7 +737,6 @@
   "commonRegister": "注册",
   "commonRegistrationTime": "注册时间",
   "commonUsername": "使用者名称",
-  "courseGridSettings": "科目方格模式设置",
   "gradesReviewsTitle": "给分同评价",
   "courseImport": "科目表汇入",
   "courseImportSemester": "学期",
@@ -893,7 +889,6 @@
   "medicationLowStockThreshold": "低库存提醒阈值",
   "medicationLowStockAlert": "库存不足，记得补货",
   "medicationRefill": "补货",
-  "medicationTaken": "已服",
   "medicationFormPill": "药丸",
   "medicationFormCapsule": "胶囊",
   "medicationFormTablet": "片剂",
@@ -907,12 +902,10 @@
   "editorSectionRepeat": "重复",
   "editorSectionDateRepeat": "日期同重复",
   "editorSectionTime": "时间",
-  "editorSectionDetails": "详情",
   "editorSectionCourse": "课程信息",
   "editorSectionMedication": "药物信息",
   "editorSectionLocationNotes": "地点同备注",
   "editorRecurrenceTimes": "时间",
-  "editorRecurrenceWeekdays": "星期",
   "editorRecurrenceAddTime": "加时间",
   "editorRecurrenceMonthDays": "每月日期",
   "editorRecurrenceMonthDayPolicy": "当月无呢日时",
@@ -920,7 +913,6 @@
   "editorRecurrenceClampLastDay": "顺延到当月最后一日",
   "editorMomentToggle": "时刻（无时长）",
   "editorReminderCustom": "自定义",
-  "editorReminderAdd": "加提醒",
   "editorSubmitInvalid": "请先修正高亮栏位。",
   "editorSubmitSuccess": "事项已储存。",
   "editorTeacher": "讲师",
@@ -1142,6 +1134,8 @@
   "settingsHapticMedium": "中",
   "settingsHapticHigh": "高",
   "settingsFeaturesEntryTitle": "功能设定",
+  "settingsPagesSectionTitle": "页面设定",
+  "settingsFeaturesSectionTitle": "功能",
   "settingsFeaturesEntrySubtitle": "小组件、主页、AI 同天气",
   "settingsSpeechEntryTitle": "语音",
   "settingsSpeechEntrySubtitle": "音色、朗读引擎同语音识别",
@@ -1620,17 +1614,6 @@
   "aiConversations": "倾偈列表",
   "aiNewChat": "新倾偈",
   "aiServiceError": "AI 服务异常",
-  "aiUntitledItem": "未命名事项",
-  "aiMemo": "备忘",
-  "aiDraftReady": "草稿已产生：{title}",
-  "@aiDraftReady": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
-  "aiOpenDraftPage": "打开草稿页面",
   "aiSend": "传送",
   "aiClearHistory": "清走纪录",
   "aiRename": "改名",
@@ -1868,7 +1851,6 @@
     }
   },
   "retry": "再试",
-  "campusFeatureInDevelopment": "功能仲开发紧",
   "libraryVenueList": "场馆清单",
   "libraryMyReservations": "我嘅预约",
   "libraryNoVenues": "暂时冇开放场馆",
@@ -1883,7 +1865,6 @@
   "libraryClickForDetails": "撳睇各楼层同座位详情",
   "globalTimetableTitle": "全校时间表",
   "globalTimetableCourseMatching": "课程配对",
-  "globalTimetableContribute": "贡献时间表",
   "globalTimetableLocalImport": "汇入去呢部设备",
   "globalTimetableLocalImportMessage": "直接由 WHU 教务系统下载 {year}-{nextYear} 学年第 {term} 学期嘅时间表，并保存喺呢部设备。资料同你嘅教务系统工作阶段都唔会上载去珞家。搜寻同筛选时会优先使用本机资料，而唔系云端资料。",
   "globalTimetableLocalImportStart": "下载并储存",
@@ -1892,7 +1873,6 @@
   "globalTimetableLocalUnsupported": "呢个平台唔支援汇入本机时间表。",
   "globalTimetableSourceLocal": "本机",
   "globalTimetableSourceCloud": "云端",
-  "globalTimetableSourceCloudUnavailable": "呢段期间冇云端资料",
   "globalTimetableContributionTitle": "贡献全校时间表",
   "globalTimetableContributionMessage": "使用一次性 WHU CAS 票证授权珞家。服务器后台工作程序会直接从武大教务系统导入 {year}-{nextYear} 学年、第 {term} 学期嘅数据。你嘅武大身份必须同珞家账户绑定嘅身份一致。",
   "globalTimetableContributionStart": "授权并开始",
@@ -1900,7 +1880,6 @@
   "globalTimetableContributionLoginWhu": "贡献前请先登入 WHU CAS。",
   "globalTimetableContributionUnsupported": "呢个平台唔支持贡献时间表。",
   "globalTimetableResults": "{count} 个结果",
-  "globalTimetableCachedData": "快取资料",
   "globalTimetableTerm": "第 {term} 学期",
   "globalTimetableImportStatus": "汇入：{phase}",
   "globalTimetablePhaseAuthorizing": "授权紧",
@@ -2197,8 +2176,6 @@
   "sportsAuthNoJwt": "运动场馆系统授权失败：响应中缺少 JWT。",
   "sportsAuthFailed": "运动场馆系统授权失败。",
   "scoreImportDescription": "汇入之后会写入本机缓存，之后可以直接睇同用嚟计成绩。",
-  "scoreImportCaptchaFailed": "验证码解析失败",
-  "scoreImportCancelled": "已经取消验证",
   "scoreImportImportingUndergraduate": "登入紧本科生教务系统同汇入成绩…",
   "scoreImportImportingCredential": "获取紧可信电子凭证同喺本机解析成绩…",
   "scoreImportSuccessWithCount": "{success}：{count}条成绩已快取到本机。",
@@ -2251,7 +2228,6 @@
       }
     }
   },
-  "scoreCaptchaAutoVerifying": "自动验证紧...",
   "captchaAutoVerifying": "自动验证紧...",
   "seatReservationAlreadySynced": "呢条预约已经喺日程度。",
   "seatReservationAddedToAgenda": "座位预约已经加咗入日程。",
@@ -2295,14 +2271,6 @@
   "aiHeaderConfigRequired": "请先喺设置度完成 AI 配置。",
   "aiHeaderServiceUnavailable": "AI 服务暂时唔得，请先搞掂配置或者网络。",
   "aiHeaderRetryLater": "AI 服务暂时唔得，请迟啲再试。",
-  "aiHeaderDraftCreated": "已通过草稿页创建事项：{title}",
-  "@aiHeaderDraftCreated": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    }
-  },
   "themeColorLuotopiaBlue": "珞珈蓝",
   "themeColorMaterialRed": "质感红",
   "themeColorMaterialPink": "质感粉",
@@ -2967,7 +2935,6 @@
   "onboardingFinishBenefitsTitle": "登入之后可以用",
   "onboardingFinishBenefitTimetable": "汇入同同步课表",
   "onboardingFinishBenefitScores": "睇成绩同学业情况",
-  "onboardingFinishBenefitCampus": "用校园卡、预约等校园服务",
   "onboardingFinishBenefitReservation": "查空教室，预约自习座位同体育场馆",
   "onboardingFinishBenefitCard": "校园卡充值、扫码付款同水电缴费",
   "onboardingFinishBenefitServices": "校车实时位置、图书馆借阅同校医院服务",
@@ -3102,7 +3069,6 @@
   "messagesFilterAll": "所有来源",
   "messagesEmpty": "暂无讯息",
   "messagesEmptySubtitle": "校园服务的消息将显示在此处",
-  "messagesLoading": "正在加载消息…",
   "messagesErrorRetry": "重试",
   "messagesMarkAllRead": "全部已读",
   "messagesMarkAllReadSuccess": "已全部标记为已读",
@@ -3870,7 +3836,6 @@
   "forumSave": "收藏",
   "forumEdit": "编辑",
   "forumReport": "举报",
-  "forumReportReason": "举报原因",
   "forumReportSubmitted": "举报已提交。",
   "@forumKarmaAuthorMeta": {
     "placeholders": {
@@ -4047,14 +4012,6 @@
   "detailStatusOverdue": "已逾期",
   "detailStatusUpcoming": "即将开始",
   "detailStatusInactive": "唔追踪完成状态",
-  "detailConflictWithItems": "同 {items} 时间重叠。你仍然可以保存。",
-  "@detailConflictWithItems": {
-    "placeholders": {
-      "items": {
-        "type": "String"
-      }
-    }
-  },
   "editorCompletionMode": "完成方式",
   "editorCompletionModeManual": "手动完成",
   "editorCompletionModeAutomatic": "喺结束时间完成",
@@ -4371,9 +4328,6 @@
   "majorInfoEmploymentNoData": "冇资料",
   "forumSearch": "搜寻",
   "forumMoreActions": "更多操作",
-  "forumMenuSectionContent": "我嘅内容",
-  "forumMenuSectionCommunity": "互动",
-  "forumMenuSectionManage": "管理",
   "forumSearchQuery": "搜索帖子",
   "forumSearchBoard": "版面",
   "forumSearchTag": "标签",
@@ -4866,9 +4820,6 @@
   "adminSystemQueuesDescription": "只读嘅重试同失败缓冲队列。",
   "adminForumSettingsImageUploadLimit": "图片上传上限（MiB）",
   "adminForumSettingsAttachmentUploadLimit": "附件上传上限（MiB）",
-  "adminPaginationPrevious": "上一页",
-  "adminPaginationNext": "下一页",
-  "adminPaginationPageInfo": "第 {page}/{pages} 页 · 共 {total} 条",
   "appPaginationFirst": "第一页",
   "appPaginationLast": "最后一页",
   "appPaginationPrevious": "上一页",
@@ -5086,15 +5037,6 @@
   "aiLiveAnsweringDescription": "即时生成紧答案",
   "aiLiveProcessing": "处理紧",
   "aiLiveProcessingDescription": "准备紧下一步",
-  "aiToolTraceMoreTools": "{visibleTools} 等 {count} 个工具",
-  "aiToolTraceSucceeded": "{count} 成功",
-  "aiToolTraceFailed": "{count} 失败",
-  "aiToolTraceCancelled": "{count} 未完成",
-  "aiToolTraceSummary": "工具呼叫：{tools} · {statuses}",
-  "aiToolTraceDetails": "工具呼叫详情",
-  "aiToolTraceStatusSucceeded": "成功",
-  "aiToolTraceStatusFailed": "失败",
-  "aiToolTraceStatusCancelled": "未完成",
   "forumAdminLogActionApprove": "通过帖",
   "forumAdminLogActionBan": "封锁",
   "forumAdminLogActionDelete": "删除帖",
@@ -5112,7 +5054,6 @@
   "forumCheckinRandom": "博一铺",
   "forumCheckinSuccess": "+{amount} 业果（连续 {streak} 日）",
   "forumCheckinTitle": "每日签到",
-  "forumCheckinTodo": "签到",
   "forumKarma": "业果",
   "forumKarmaAdminAdjust": "调整业果",
   "forumKarmaAdminDelta": "增减",
@@ -5177,7 +5118,6 @@
   "forumReportComment": "舉報留言",
   "forumEditComment": "編輯留言",
   "forumCommentContent": "留言內容",
-  "forumModerationRulesTitle": "違反規則",
   "forumReportCatIllegalViolation": "違法違規",
   "forumReportCatSexual": "色情低俗",
   "forumReportCatHarassment": "仇恨同攻擊",
@@ -5256,10 +5196,7 @@
       }
     }
   },
-  "courseMatchingAdvancedFilters": "高级筛选",
   "courseMatchingDayOfWeek": "星期",
-  "courseMatchingFromSection": "起始节次",
-  "courseMatchingToSection": "结束节次",
   "courseMatchingCourseType": "课程类型",
   "courseMatchingMinCredits": "最小学分",
   "courseMatchingMaxCredits": "最大学分",
@@ -5300,27 +5237,12 @@
   },
   "courseMatchingConflictFreeOnly": "仅显示无冲突",
   "courseMatchingAdd": "添加",
-  "courseMatchingApply": "套用",
-  "courseMatchingReset": "重设",
-  "courseMatchingActiveFilters": "已启用 {count} 项",
-  "@courseMatchingActiveFilters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "courseMatchingAllDays": "全部",
   "courseMatchingCampus": "校区",
   "courseMatchingBuilding": "教学楼",
   "courseMatchingDepartment": "开课学院",
   "courseMatchingTeacher": "教师",
-  "courseMatchingSectionRangeError": "起始节次唔可以大过结束节次。",
-  "courseMatchingCreditRangeError": "最小学分唔可以大过最大学分。",
-  "globalTimetableHistory": "课程历史",
   "globalTimetableHistoryHint": "喺全部已发布学期中检索，由新到旧。",
   "globalTimetableHistoryEmpty": "没有匹配嘅开课记录。",
-  "globalTimetableHistoryUnavailable": "当前服务端暂唔支持课程历史。",
   "globalTimetableDownloads": "离线资料",
   "globalTimetableDownloadsSummary": "已下载 {count} 个学期 · {size}",
   "@globalTimetableDownloadsSummary": {
@@ -5352,8 +5274,6 @@
   "globalTimetableSourceAuto": "自动",
   "globalTimetableLocalMissing": "本地未下载该学期数据。",
   "globalTimetableNoSlot": "无时段",
-  "globalTimetableSearchHint": "课名 / 教师 / 课程号",
-  "globalTimetableEmpty": "该学期没有匹配嘅课程。",
   "globalTimetableDetailTitle": "课程详情",
   "globalTimetableDetailSlots": "上课时段",
   "globalTimetableDetailInfo": "课程资讯",
@@ -5620,7 +5540,6 @@
   "whuMessagesRequestFailed": "请求失败",
   "whuLibraryResultUnknown": "图书馆操作结果未知，请重新整理状态之后再决定系咪要重试",
   "sportsAuthFailedCasRequired": "运动场馆系统授权失败，请重新登入武大统一认证。",
-  "waterControlAccountExchangeFailed": "水帐户交换失败。",
   "aiImageGeneration": "生成图片",
   "aiImageGenerationHint": "描述你想生成嘅图片",
   "aiImageGenerationEmpty": "你生成嘅图片会喺呢度显示。",
@@ -5640,7 +5559,6 @@
   "aiSpeechEngine": "语音引擎",
   "aiSpeechEdge": "Edge 在线语音",
   "aiSpeechSttsVoice": "stts 系统语音",
-  "aiSpeechVoiceLoadFailed": "加载唔到在线语音，会使用当前语音。",
   "aiSpeechVoice": "语音",
   "aiSpeechRate": "速度",
   "aiSpeechPitch": "音调",
@@ -6033,7 +5951,6 @@
   "coremailFolderNameRequired": "请输入文件夹名。",
   "coremailCreate": "建立",
   "coremailSwitchFolder": "切换资料夹",
-  "coremailLoadingMailbox": "加载邮箱紧…",
   "coremailConnectionFailed": "邮箱连接失败：{error}",
   "@coremailConnectionFailed": {
     "placeholders": {
@@ -6139,8 +6056,6 @@
     }
   },
   "coremailSwitchAccountAction": "更换帐号",
-  "coremailRequiresWhuAccount": "要先绑定武大账号，先可以喺呢部机保存邮箱凭据。",
-  "vpnRequiresWhuAccount": "要先绑定武大账号，先可以喺呢部机保存 VPN 凭据。",
   "credentialSaveUnavailable": "暂时保存唔到凭据，请一阵再试。",
   "coremailAutoSignInFailed": "自动登入失败，请检查密码或者重新登入。",
   "coremailEnterAccountAndPassword": "请输入完整邮箱账号同密码。",
@@ -6795,7 +6710,6 @@
   "courseReportDecision": "Decision",
   "courseReportReview": "Review report",
   "courseReportMine": "My reports",
-  "courseReportSelectCategory": "Select a category",
   "courseTrustReviews": "Course trust reviews",
   "courseTrustReviewEmpty": "No revisions awaiting trust review",
   "courseTrustReviewHint": "A class membership or assistant authorization changed. Check the accepted information and verify it again before new automatic syncing.",
@@ -6807,11 +6721,6 @@
   "courseAuditTarget": "Target",
   "courseAuditRequest": "Request ID",
   "courseClassActive": "Teaching class active",
-  "courseClassArchived": "Teaching class archived · historical information is read only",
-  "courseClassArchive": "Archive teaching class",
-  "courseClassArchiveHint": "Archive this teaching class? New contributions and invitations stop, and following calendar events pause. Historical records remain readable to eligible members.",
-  "courseClassRestore": "Restore teaching class",
-  "courseClassRestoreHint": "Restore this class with the selected future end date? Old role grants and expired student verification are not renewed automatically.",
   "courseProjectionFailureTitle": "Course calendar sync failures",
   "courseProjectionFailureHint": "These jobs failed eight times. After retrying, check the job and affected calendars.",
   "courseProjectionFailureEmpty": "No calendar sync failures",
@@ -6994,7 +6903,6 @@
   "cgNotificationFailed": "系统提醒更新失败，请检查通知权限后再试",
   "cgAssignmentNotification": "希冀平台作业即将截止",
   "cgExamNotification": "希冀平台考试即将开始",
-  "cgUnknownExamTime": "部分考试时间未能识别，请在原站确认",
   "cgOpenWebsite": "在原站打开",
   "cgUpdatedAt": "更新于 {time}",
   "@cgUpdatedAt": {
@@ -7191,7 +7099,6 @@
   "courseSpaceEvidence": "认证证据",
   "courseSpaceNoEvidence": "冇可供查看嘅证据。",
   "courseCaseNotices": "课程审核结果",
-  "courseCaseNoticesEmpty": "暂时未有审核结果。",
   "courseNoticeInbox": "课程动态与审核结果",
   "courseNoticeInboxEmpty": "暂时未有课程动态。",
   "courseEventNoticeChanged": "你关注嘅课程时间节点有变更",
@@ -7231,40 +7138,9 @@
   "courseForumLinksRemove": "解除关联",
   "courseForumLinksRetry": "重试加载关联讨论",
   "courseClassroomTitle": "课堂",
-  "courseClassroomClass": "本教学班",
-  "courseClassroomHead": "同一课头",
-  "courseClassroomHeadUnavailable": "本教学班未关联课头。",
   "courseClassroomCompose": "在本教学班发帖",
-  "courseClassroomComposeHead": "在同一课头发帖",
-  "courseClassroomHeadPost": "课头讨论",
-  "courseClassroomArchivedHead": "呢个课头已归档，历史讨论仅供阅读。",
   "courseDiscussionReadOnly": "呢个课程讨论已归档，仅供阅读。",
   "courseClassroomEmpty": "此范围暂时未有可访问的讨论。",
-  "courseClassroomScopeHint": "教学班帖子按来源班级授权；课头讨论仅对当前课头的已认证同学开放。",
-  "courseClassroomSource": "来源教学班：{id}",
-  "@courseClassroomSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeSource": "发帖来源：{id}",
-  "@courseClassroomComposeSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
-  "courseClassroomComposeHeadSource": "发帖课头：{id}",
-  "@courseClassroomComposeHeadSource": {
-    "placeholders": {
-      "id": {
-        "type": "String"
-      }
-    }
-  },
   "courseAccessManage": "管理教学班权限",
   "courseAccessRevokeMember": "撤销成员资格",
   "courseAccessRevokeRole": "撤销角色权限",
@@ -7273,16 +7149,8 @@
   "courseRolloutTitle": "开放呢个教学班",
   "courseRolloutHint": "仅开放的教学班会出现在同学目录并生成课后邀请。关闭后，同学唔再看到该班的课程信息和讨论。",
   "courseRolloutConfirm": "请填写调整教学班开放状态嘅理由，提交后即时生效。",
-  "courseClassRegister": "登记教学班",
-  "courseClassSchool": "学校标识",
-  "courseClassYear": "学年",
-  "courseClassSemester": "学期",
   "courseClassKey": "教务教学班标识",
-  "courseClassEndDate": "学期结束日期",
-  "courseClassRegisterHint": "请填写教务教学班和课程目录标识。结束日期按北京时间计算。登记唔会认证学生，也唔会自动关联课头。",
   "courseInvitationTitle": "课后共享邀请",
-  "courseInvitationHint": "呢节课完咗。欢迎分享作业、考核要求或课堂通知；已有内容都可以开嚟核对。",
-  "courseInvitationShare": "分享本节课",
   "courseInvitationSkip": "暂时冇嘢补充",
   "courseSessionManage": "课次管理",
   "courseSessionRegister": "登记课次",
@@ -7296,10 +7164,7 @@
   "courseSessionReason": "登记或变更理由",
   "courseSessionTimeInvalid": "请输入有效时间，结束须晚于开始且课次唔超过 12 小时",
   "courseSessionReloadRequired": "课次可能已由其他管理员调整。请刷新后再操作。",
-  "courseInvitationReview": "核对已有信息",
-  "courseInvitationSessionInformation": "本节课的信息",
   "courseInvitationSetting": "接收课后共享邀请",
-  "courseInvitationSettingHint": "适用于所有已认证教学班；关闭后不显示新嘅邀请卡",
   "courseMasterReview": "核对教务总课表来源",
   "courseMasterUnsupported": "该学校未接入服务端教务总课表，请继续人工登记课次。",
   "courseMasterUnmappedTerm": "本教学班学期未映射到教务编码（3／12／16），唔可以自动关联课次。",
@@ -7333,11 +7198,7 @@
       }
     }
   },
-  "courseInvitationClassSetting": "接收本教学班课后邀请",
-  "courseInvitationClassSettingHint": "只调整本教学班，唔影响其他课程",
-  "courseInvitationClassGlobalOff": "账号总开关已关闭；开启总开关后此设置才会生效",
   "courseInvitationPushSetting": "设备课后邀请推送",
-  "courseInvitationPushHint": "需同意课程推送并允许系统通知；每天最多两次",
   "courseInvitationPushSystemOff": "设备通知总开关已关闭；开启后才能收到推送",
   "courseInvitationQuietStart": "静默开始时间",
   "courseInvitationQuietEnd": "静默结束时间",
@@ -7456,14 +7317,10 @@
       }
     }
   },
-  "diningSpotChooseMapNavigation": "选择地图导航",
-  "diningSpotIndoorFloors": "室内楼层",
   "diningSpotNoFloorPlanData": "暂无室内地图资料",
   "diningSpotHoursUnknown": "营业时间未知",
   "diningSpotOpenNow": "营业中",
   "diningSpotClosedNow": "而家休息",
-  "diningSpotCorrectHours": "更正营业时间",
-  "diningSpotCorrectScheduleExceptions": "更正临时营业安排",
   "diningSpotRecentScheduleExceptions": "近期营业例外",
   "diningSpotClosedTemporarily": "暂停营业",
   "diningSpotNextDay": "次日 ",
@@ -7566,7 +7423,6 @@
   "diningHoursAddSlot": "加时段",
   "diningHoursReload": "重新载入",
   "diningHoursSubmitting": "提交中…",
-  "diningFloorPlanShopIdRequired": "请填写呢层嘅店铺 ID",
   "diningFloorPlanTypeBoundary": "楼层边界",
   "diningFloorPlanTypeShopArea": "店铺区域",
   "diningFloorPlanTypeCorridor": "走廊",
@@ -7579,11 +7435,7 @@
   "diningFloorPlanTypeServiceArea": "服务区",
   "diningFloorPlanTypeLabel": "文字标签",
   "diningFloorPlanTypeLandmark": "地标",
-  "diningFloorPlanGeometryPoint": "点",
-  "diningFloorPlanGeometryLine": "折线",
-  "diningFloorPlanGeometryPolygon": "多边形",
   "diningFloorPlanLabelHint": "标签（可选）",
-  "diningFloorPlanSpotIdLabel": "本楼层店铺 ID",
   "diningFloorPlanFinishPoints": "完成 {count} 点",
   "@diningFloorPlanFinishPoints": {
     "placeholders": {
@@ -7592,17 +7444,14 @@
       }
     }
   },
-  "diningFloorPlanFinishDraftFirst": "请完成当前图形后保存",
   "diningFloorPlanSaveFailed": "保存失败，请检查店铺归属、图形或者网络之后再试",
   "diningFloorPlanSaving": "保存中…",
-  "diningFloorPlanSave": "保存平面图",
   "diningFloorPlanHintPoint": "揿画布放置点位",
   "diningFloorPlanHintDraw": "点击画布逐点绘制，拖动顶点调整；点击“确认”添加图形，或直接保存。",
   "diningFloorPlanLoadFailed": "室内图载入失败",
   "diningMenuEndAfterStart": "供应结束时间要迟过开始时间",
   "diningMenuCreateTitle": "补充菜品",
   "diningMenuEditTitle": "更正菜品",
-  "diningMenuHelp": "提供店铺实际卖紧嘅菜品，提交后就会更新菜单。奖励以实际到账为准。",
   "diningMenuNameLabel": "菜品名称",
   "diningMenuNameRequired": "请填写名称",
   "diningMenuPriceLabel": "价格（元）",
@@ -7618,7 +7467,6 @@
   "diningMenuSupplyEnd": "供应结束（北京时间）",
   "diningMenuClearStart": "清除开始时间",
   "diningMenuClearEnd": "清除结束时间",
-  "diningSearchFailedRetry": "搜索失败，揿嚟重试",
   "diningSearchNoResults": "揾唔到，试下店名、菜名或者切换范围",
   "settingsFeaturesVivoWatchSectionTitle": "vivo手表",
   "settingsFeaturesVivoWatchToggleTitle": "同步到vivo手表",
@@ -7836,14 +7684,10 @@
   "menstrualCycleDeleteAllDone": "已刪除全部記錄",
   "menstrualCycleDisclaimerTitle": "非醫療建議",
   "menstrualCycleDisclaimerBody": "預測僅根據你記錄的日期估算得出。請勿將其用作避孕手段或用於診斷疾病，相關需求請諮詢醫生。",
-  "menstrualCycleVisibilityTitle": "喺校園頁顯示",
-  "menstrualCycleVisibilityHint": "當你的校園資料性別為女時預設顯示。你可以隨時喺呢度或者校園頁嘅版面編輯器度改。",
   "editorRepeatInterval": "间隔",
   "editorRecurrenceIntervalLength": "间隔时长",
   "editorRecurrenceIntervalSummary": "每 {duration}",
   "editorRecurrenceWindow": "每日时间窗",
-  "editorRecurrenceWindowStart": "从",
-  "editorRecurrenceWindowEnd": "至",
   "editorRecurrenceCycle": "周期服药",
   "editorRecurrenceCycleActive": "服药天数",
   "editorRecurrenceCyclePause": "停药天数",
@@ -7883,11 +7727,9 @@
   "settingsRepeatReminder": "重复提醒",
   "settingsRepeatReminderHint": "未处理嗰阵再提醒",
   "settingsRepeatReminderOff": "关",
-  "settingsRepeatReminderCount": "{count} 次",
   "menstrualCycleSaveFailed": "记录保存失败,请再试",
   "courseNoticeLoginRequired": "登入后睇课程通知。",
   "courseEnrollmentPending": "课表已导入，课程共享资格等候更新。",
-  "courseCombinedTab": "给分与评价",
   "courseSharingTab": "信息共享",
   "sharingClassScope": "同班号",
   "sharingTeacherScope": "同教师",
@@ -7965,7 +7807,6 @@
   "courseResourceSaved": "File saved",
   "courseResourceSaveCancelled": "Save cancelled. The transferred file still counts toward your allowance.",
   "courseResourceDownloadHint": "Allowance is charged when downloading starts. Cancelling save or a partial transfer does not refund daily allowance.",
-  "courseResourceSessionUsed": "This download session was used. A new download counts toward your allowance.",
   "courseResourceIntegrityError": "File verification failed; nothing was saved. A new download counts toward your allowance.",
   "courseResourceRefresh": "Refresh file status",
   "courseResourcePolicyTitle": "Course resource download allowance",
@@ -8108,18 +7949,9 @@
   "resourceCategoryReferences": "参考资料",
   "resourceCategoryOther": "其他",
   "resourceAllCategories": "全部分类",
-  "resourceMetadataFilters": "教材与章节筛选",
   "resourceSearchHint": "搜索标题、作者、教材或章节",
-  "resourceSearchCount": "{count} 份已发布资料",
   "resourcePreviousPage": "上一页",
   "resourceNextPage": "下一页",
-  "@resourceSearchCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "sharingMarkRead": "标记为已读",
   "sharingReadConfirmed": "已读",
   "sharingUnreadCount": "{count} 项未读",
@@ -8374,7 +8206,6 @@
   "diningPlacementFloorUnspecified": "未指定楼层",
   "diningPlacementMapHint": "揿地图修正店舖位置",
   "diningProfileTitle": "个人资料同贡献",
-  "diningModerationTitle": "审核同用户管理",
   "diningMapPickShop": "揿地图，标记你想推荐嘅店舖",
   "diningMapShopPicked": "已标记店舖位置，确认之后再补充资料",
   "diningMapConfirmPoint": "确认位置",
@@ -8392,7 +8223,6 @@
   "diningMenuAiModel": "识图 AI 模型",
   "diningMenuAiRecognizing": "辨识紧…",
   "diningMenuAiFill": "用 AI 辨识并填入",
-  "diningMenuAiHelp": "拣选已设定好嘅识图模型。辨识后可以修改内容再提交；认唔到价钱嘅话，请手动填写。",
   "diningDishReportReason": "举报原因同意见",
   "diningDishReportRequired": "请填写意见",
   "diningMenuPriceUnit": "计价单位",
@@ -8417,7 +8247,6 @@
   "diningProfileSaveFailed": "储存失败，请再试",
   "diningProfileRewards": "睇贡献奖励明细",
   "diningTagsLabel": "口味同标签（用逗号分隔）",
-  "diningTagsHint": "清淡,香辣,出餐快",
   "diningTasteLight": "清淡",
   "diningTasteSpicy": "香辣",
   "diningTasteNumbingSpicy": "麻辣",
@@ -8435,7 +8264,6 @@
   "courseBindingAdvancedTitle": "同步与个人副本",
   "masterBrowserQuery": "查询",
   "masterBrowserLookup": "老师 / 课室",
-  "masterBrowserLookupHint": "拣老师或者课室，就睇到今个学期全部教学班",
   "masterBrowserStats": "统计",
   "masterBrowserSearchHint": "科目 / 老师 / 课程编号 / 教学班 / 教材",
   "masterBrowserSearchHelp": "输入就会筛选；用空格分开可以同时搜多个关键词",
@@ -8446,7 +8274,6 @@
   "masterBrowserCategory": "课程类别",
   "masterBrowserType": "课程类型",
   "masterBrowserGrade": "年级",
-  "masterBrowserGrid": "每周课表",
   "masterBrowserTitle": "老师职称",
   "masterBrowserTextbook": "教材",
   "masterBrowserPublisher": "出版社",
@@ -8455,7 +8282,6 @@
   "masterBrowserTeacherMajor": "老师专业",
   "masterBrowserAssistants": "助教",
   "masterBrowserWeek": "周次",
-  "masterBrowserWeekNumber": "第 {week} 周",
   "masterBrowserSection": "节数",
   "masterBrowserRoom": "课室",
   "masterBrowserWithSlots": "只睇有上课时段嘅课程",
@@ -8490,8 +8316,6 @@
   "masterBrowserLocalData": "本机资料",
   "masterBrowserArchiveData": "网页归档",
   "masterBrowserCloudData": "云端资料",
-  "masterBrowserCollapse": "收埋空节数",
-  "masterBrowserConflict": "时间撞期",
   "masterBrowserEmptySemester": "呢个学期暂时冇课程资料",
   "masterBrowserChangeLookup": "重新选择",
   "masterBrowserFilterLookup": "筛选呢啲课程",
@@ -8510,7 +8334,6 @@
   "opacCurrentReservations": "当前预约",
   "opacReservationsDescription": "睇预约记录、拎书地点同排队进度",
   "opacRefreshReservations": "刷新当前预约",
-  "opacLoadingReservations": "载入紧当前预约",
   "opacNoReservations": "暂时冇预约",
   "opacPickupLocation": "拎书地点",
   "opacReservationFrom": "有效期开始",
@@ -8570,23 +8393,9 @@
       }
     }
   },
-  "@washingStationDevices": {
-    "placeholders": {
-      "station": {
-        "type": "String"
-      }
-    }
-  },
   "@washingFloor": {
     "placeholders": {
       "floor": {
-        "type": "String"
-      }
-    }
-  },
-  "@washingBuilding": {
-    "placeholders": {
-      "building": {
         "type": "String"
       }
     }
@@ -8642,33 +8451,24 @@
   "washingAccountNote": "洗衣房凭证独立管理。失效之后要重新录入 Bearer；wxuuid 净系用于支付交接，唔会发起微信登录。",
   "washingAccountTitle": "洗衣房帐号",
   "washingAllFacilities": "全部设施",
-  "washingAllFloors": "全部楼层",
   "washingAllStates": "全部状态",
   "washingAlternatePayment": "呢个订单用运营方嘅特殊支付渠道，请喺原小程序度完成。",
   "washingAuthError": "凭证无效或者已经过期，请更换 Bearer token",
-  "washingBuilding": "{building}号楼",
   "washingCategoryDorm": "洗衣处",
-  "washingCategoryDormDescription": "按地区、楼栋同楼层查看洗衣机",
   "washingCategoryLaundry": "洗衣房",
-  "washingCategoryLaundryDescription": "按校内地区查看洗烘中心",
   "washingChangePoint": "更换点位",
   "washingCheckPayment": "查询支付结果",
   "washingCheckoutFailed": "暂时处理唔到订单，请检查凭证之后迟啲再试。",
   "washingChooseMode": "拣洗衣模式",
   "washingChoosePoint": "拣洗衣点位",
   "washingChoosePointHint": "按地区拣楼栋同楼层，查看机器状态。",
-  "washingClearCredential": "清除凭证",
   "washingClearOrder": "清除本地订单记录",
   "washingClearOrderBody": "呢个唔会取消或者退款上游订单。请先喺运营方小程序度确认订单已经完成、已经关闭或者确实未创建；未支付订单仲可能可以付款。",
   "washingClearOrderConfirm": "已核对，清除记录",
-  "washingClose": "关闭",
   "washingConfirmBody": "设备：{device}\n模式：{mode}\n时长：{minutes} 分钟\n金额：¥{price}\n支付之后机器可能即刻启动，请先放好衣物同核对机器。今次唔用优惠券或者加购洗衣液。",
   "washingConfirmOrder": "确认洗衣订单",
-  "washingCoordinateTitle": "拣查询位置",
-  "washingCoordinatesInvalid": "请输入有效纬度（-90～90）同经度（-180～180）",
   "washingCreateOrder": "建立订单",
   "washingCredentialSaved": "洗衣房帐号已保存",
-  "washingCredentialTitle": "洗衣服务凭证",
   "washingCurrentOrder": "当前洗衣订单",
   "washingDeviceCount": "{count} 台设备",
   "washingDeviceFallback": "洗衣设备",
@@ -8681,12 +8481,9 @@
   "washingImport": "录入凭证",
   "washingIntroBody": "录入洗衣服务 Bearer token 之后取得校内点位目录同机器状态。",
   "washingIntroTitle": "查看校内洗衣设施",
-  "washingLatitude": "纬度",
   "washingLaunchFailed": "开唔到支付页，请确认已经安装微信而且运营方允许外部链接打开小程序。已有订单会保留。",
   "washingLoadingDevices": "正在读取设备状态",
-  "washingLoadingNearbyMachines": "正在读取附近各站点嘅楼层设备",
   "washingLocationError": "攞唔到位置，请开启定位权限之后刷新再试。",
-  "washingLongitude": "经度",
   "washingMachineAddress": "地址",
   "washingMachineDetails": "洗衣机详情",
   "washingMachineEnd": "预计结束时间",
@@ -8699,12 +8496,9 @@
   "washingMachines": "机器状态",
   "washingMalformedError": "洗衣服务返回嘅数据格式变咗，请迟啲再试。",
   "washingManageAccount": "管理洗衣房帐号",
-  "washingManageCredential": "管理洗衣服务凭证",
-  "washingManualLocation": "手动选择位置",
   "washingModeDetails": "{minutes} 分钟 · {status}",
   "washingModesFailed": "读取唔到洗衣模式，请返回之后刷新再试。",
   "washingModesNote": "模式同价格净系供查询，实际使用请以现场设备同运营方为准。",
-  "washingNearby": "附近服务点",
   "washingNetworkError": "网络暂时用唔到，请迟啲再试。",
   "washingNoDevices": "冇符合条件嘅设备",
   "washingNoModes": "暂时冇模式信息",
@@ -8723,8 +8517,6 @@
   "washingPaymentNote": "拣模式建立订单，再跳转微信小程序付款。支付由小程序完成，结果以洗衣服务查询为准。",
   "washingPaymentPending": "已将链接交畀微信，请喺微信入面完成支付，再返回查询结果；当前仲未确认支付成功。",
   "washingPriceChanged": "模式价格或者时长变咗，请刷新之后重新确认。",
-  "washingQuery": "查询",
-  "washingRefresh": "刷新",
   "washingRejectedError": "洗衣服务暂时处理唔到呢个请求，请迟啲再试。",
   "washingReplace": "更换凭证",
   "washingRestoring": "正在读取洗衣服务凭证",
@@ -8735,8 +8527,6 @@
   "washingScanInvalid": "识别唔到有效嘅洗衣机二维码或者设备编号",
   "washingScanManual": "手动输入",
   "washingScanUnsupported": "呢个设备暂时唔支持相机扫码，可以手动输入设备编号或者二维码链接。",
-  "washingSearch": "搜索附近站点",
-  "washingSearchHint": "撳搜索附近站点，或者输入位置坐标。",
   "washingSearchPoint": "搜索楼栋、楼层或者点位",
   "washingSessionContext": "洗衣 H5 地址或者 wxuuid（支付需要）",
   "washingSessionContextHelp": "粘贴你现有嘅运营方 H5 地址。查询净系需要 Bearer，呢度唔会发起微信登录。",
@@ -8745,7 +8535,6 @@
   "washingStateOffline": "离线",
   "washingStateRunning": "运行中",
   "washingStateUnknown": "状态未知",
-  "washingStationDevices": "{station} · 设备",
   "washingStationFallback": "洗衣服务点",
   "washingStorageClearError": "凭证清除失败，请再试。",
   "washingStorageReadError": "读取唔到已保存嘅凭证，请重新录入",
@@ -8921,7 +8710,6 @@
   "campusSectionHide": "隐藏分区",   "campusSectionShow": "显示分区",
   "campusSectionAdd": "新建分组",
   "campusSectionDefaultName": "新分组",
-  "campusSectionLayoutHint": "拖动 App 就可以调整分组同顺序",
   "campusSectionDropHere": "将 App 拖到呢度",
   "campusSectionReleaseToCreate": "放手就新建分组",
   "campusRenameSection": "重命名分组",
@@ -8931,10 +8719,10 @@
   "campusSectionDropPosition": "放到「{section}」第 {position} 位",
   "locationSetFixedLocation": "设置固定位置",
   "campusBusDegradeSettings": "降级设置",
-  "campusBusDegradedCaption": "降级显示：按线路列出在线车辆",
   "campusBusAtStop": "喺 {stop}",
   "campusBusPastStop": "已过 {stop}",
   "settingsBusCardSectionTitle": "校巴卡片",
+  "settingsBusCardEntrySubtitle": "预览卡片同降级显示",
   "settingsBusCardDegradeMode": "降级显示",
   "settingsBusCardDegradeSubtitle": "自动：无定位或者离开校园时，按线路直接显示在线车辆",
   "busDegradeModeNever": "不降级",
