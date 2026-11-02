@@ -103,8 +103,8 @@ KEEP_VALUES = {
     "{condition} · {minTemp}°/{maxTemp}°", "{city} · {source} · {date}",
     "[{covers}] {prompt}", "SHA-256: {checksum}", "GPA: {gpa}",
     "GP {point}", "AQI {value}", "Worker {index}", "Video {index}",
-    "Lv{level} · {title}", "Lv{level} · {karma} Karma", "{failed}: {error}",
-    "{month} {year}", "{year}", "{weekday}", "Total {value}",
+    "Lv{level} · {title}", "Lv{level} · {karma} Karma", "Lv{level}",
+    "{failed}: {error}", "{month} {year}", "{year}", "{weekday}", "Total {value}",
     "{count} messages", "08:00", "10:00", "14:00", "9/22-9/28",
     "15 min", "30 min", "15 minutes", "30 minutes", "~", "–", ", ",
 }
