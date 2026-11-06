@@ -53,7 +53,7 @@ KEEP_VALUES = {
     "Auto", "Satellite", "Patient", "Instructions", "Minute", "Video",
     "Email", "Sem", "Agenda",
     # App / product / provider brand forms
-    "Luotopia", "Shiguang", "Starlink", "Chaoxing", "Zhihui Luojia",
+    "Luotopia", "Neo School", "Shiguang", "Starlink", "Chaoxing", "Zhihui Luojia",
     "Budao Lepao", "Huawei Watch", "MiSans", "Google Noto Sans", "aTrust VPN",
     "WeChat Pay", "Alipay", "UnionPay", "CERNET", "China Telecom",
     "China Unicom", "China Mobile", "Moonshot (Moonshot AI)",
