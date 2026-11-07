@@ -1734,6 +1734,37 @@
   "deviceTrustInstallIdUsageSubtitle": "A lista de dispositivos conectados no servidor, o registro do dispositivo para push e o external id do freeRASP usam o mesmo valor, então os eventos dos três podem ser relacionados. Ele fica no armazenamento seguro (Keystore / Secure Enclave) e é regenerado quando a detecção de clonagem dispara, de modo que um clone não herda a identidade do aparelho original.",
   "deviceTrustRawJsonTitle": "Saída JSON",
   "hotUpdateTitle": "Gerenciamento de atualização instantânea",
+  "hotUpdateManifestSectionTitle": "Manifesto de atualização",
+  "hotUpdateParsersSectionTitle": "Analisadores",
+  "hotUpdateDataSectionTitle": "Fontes de dados",
+  "hotUpdateScaleSectionTitle": "Biblioteca de escalas",
+  "hotUpdateAssetCurrent": "Em cache v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "Não está em cache",
+  "hotUpdateAssetRemote": "Remoto v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256: {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} escalas · manifesto v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "Ainda não sincronizada",
   "hotUpdateManifestVersion": "Manifesto v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6728,6 +6759,11 @@
   "lepaoNetworkError": "Não foi possível conectar ao Budao Lepao. Tente mais tarde.",
   "lepaoAuthFailed": "Login expirado. Digite suas credenciais novamente.",
   "lepaoHistoryEmpty": "Sem registros de corrida",
+  "lepaoRunCount": "Corridas",
+  "lepaoTermRequirement": "Meta do semestre",
+  "lepaoTermCompleted": "Concluído",
+  "lepaoTermRemaining": "Restante",
+  "lepaoTermDistanceUnavailable": "Nenhuma meta de distância do semestre foi retornada.",
   "lepaoRecordDetailTitle": "Detalhes da corrida",
   "lepaoDistance": "Distância",
   "lepaoDuration": "Duração",

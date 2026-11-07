@@ -3497,6 +3497,37 @@
   "deviceTrustInstallIdUsageSubtitle": "服务端「登录设备」列表、推送设备注册与 freeRASP 后台的 external id 用的是同一个值，因此三边的事件可以互相对上。它存放在安全存储（Keystore / Secure Enclave）里，克隆检测命中时会重新生成，克隆体不会继承原设备的身份。",
   "deviceTrustRawJsonTitle": "JSON 输出",
   "hotUpdateTitle": "热更新管理",
+  "hotUpdateManifestSectionTitle": "更新清单",
+  "hotUpdateParsersSectionTitle": "解析器",
+  "hotUpdateDataSectionTitle": "数据源",
+  "hotUpdateScaleSectionTitle": "量表库",
+  "hotUpdateAssetCurrent": "本地缓存 v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "尚未缓存",
+  "hotUpdateAssetRemote": "远端 v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256：{checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} 个量表 · 清单 v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "尚未同步",
   "hotUpdateManifestVersion": "清单版本 v{version}",
   "hotUpdateUpdatedAt": "更新时间：{time}",
   "hotUpdateNeverUpdated": "从未更新（使用内置解析器）",
@@ -7091,6 +7122,11 @@
   "lepaoNetworkError": "暂时无法连接步道乐跑，请稍后重试。",
   "lepaoAuthFailed": "登录信息失效，请重新登记凭据。",
   "lepaoHistoryEmpty": "暂无跑步记录",
+  "lepaoRunCount": "次数",
+  "lepaoTermRequirement": "学期要求",
+  "lepaoTermCompleted": "已完成",
+  "lepaoTermRemaining": "还需要",
+  "lepaoTermDistanceUnavailable": "乐跑未返回学期目标里程。",
   "lepaoRecordDetailTitle": "跑步详情",
   "lepaoDistance": "里程",
   "lepaoDuration": "时长",

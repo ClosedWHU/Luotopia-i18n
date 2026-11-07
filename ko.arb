@@ -1790,6 +1790,37 @@
   "settingsDevHotUpdate": "핫 업데이트 관리",
   "settingsDevHotUpdateSubtitle": "핫 업데이트 가능한 파서 스크립트와 상태 보기",
   "hotUpdateTitle": "핫 업데이트 관리",
+  "hotUpdateManifestSectionTitle": "업데이트 매니페스트",
+  "hotUpdateParsersSectionTitle": "파서",
+  "hotUpdateDataSectionTitle": "데이터 소스",
+  "hotUpdateScaleSectionTitle": "척도 라이브러리",
+  "hotUpdateAssetCurrent": "캐시됨 v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "캐시되지 않음",
+  "hotUpdateAssetRemote": "원격 v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256: {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "척도 {count}개 · 매니페스트 v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "아직 동기화되지 않음",
   "hotUpdateManifestVersion": "매니페스트 v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6794,6 +6825,11 @@
   "lepaoNetworkError": "보도러파오에 연결할 수 없습니다. 나중에 다시 시도하세요.",
   "lepaoAuthFailed": "로그인 정보가 만료되었습니다. 자격 증명을 다시 입력하세요.",
   "lepaoHistoryEmpty": "달리기 기록 없음",
+  "lepaoRunCount": "횟수",
+  "lepaoTermRequirement": "학기 목표",
+  "lepaoTermCompleted": "완료",
+  "lepaoTermRemaining": "남은 목표",
+  "lepaoTermDistanceUnavailable": "학기 목표 거리가 반환되지 않았습니다.",
   "lepaoRecordDetailTitle": "달리기 상세",
   "lepaoDistance": "거리",
   "lepaoDuration": "시간",

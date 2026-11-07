@@ -4074,6 +4074,37 @@
   "deviceTrustInstallIdUsageSubtitle": "The server's signed-in devices list, push device registration and freeRASP's external id all use the same value, so events from the three can be matched up. It lives in secure storage (Keystore / Secure Enclave) and is regenerated when clone detection fires, so a clone does not inherit the original device's identity.",
   "deviceTrustRawJsonTitle": "JSON output",
   "hotUpdateTitle": "Hot Update Management",
+  "hotUpdateManifestSectionTitle": "Update manifest",
+  "hotUpdateParsersSectionTitle": "Parsers",
+  "hotUpdateDataSectionTitle": "Data sources",
+  "hotUpdateScaleSectionTitle": "Scale library",
+  "hotUpdateAssetCurrent": "Cached v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "Not cached",
+  "hotUpdateAssetRemote": "Remote v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256: {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} scales · manifest v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "Not synced yet",
   "hotUpdateManifestVersion": "Manifest v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -8204,6 +8235,11 @@
   "lepaoNetworkError": "Could not reach Budao Lepao. Please try again later.",
   "lepaoAuthFailed": "Login expired. Please re-enter your credentials.",
   "lepaoHistoryEmpty": "No run records",
+  "lepaoRunCount": "Runs",
+  "lepaoTermRequirement": "Term target",
+  "lepaoTermCompleted": "Completed",
+  "lepaoTermRemaining": "Remaining",
+  "lepaoTermDistanceUnavailable": "No term distance target was returned by Budao Lepao.",
   "lepaoRecordDetailTitle": "Run details",
   "lepaoDistance": "Distance",
   "lepaoDuration": "Duration",

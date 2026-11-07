@@ -2029,6 +2029,37 @@
   "deviceTrustInstallIdUsageSubtitle": "サーバーの「ログイン中のデバイス」一覧、プッシュのデバイス登録、freeRASP の external id はすべて同じ値を使うため、三者のイベントを突き合わせられます。セキュアストレージ（Keystore / Secure Enclave）に保存され、複製検出が命中すると再生成されるので、複製側は元のデバイスの身元を引き継ぎません。",
   "deviceTrustRawJsonTitle": "JSON 出力",
   "hotUpdateTitle": "ホットアップデート管理",
+  "hotUpdateManifestSectionTitle": "更新マニフェスト",
+  "hotUpdateParsersSectionTitle": "パーサー",
+  "hotUpdateDataSectionTitle": "データソース",
+  "hotUpdateScaleSectionTitle": "尺度ライブラリ",
+  "hotUpdateAssetCurrent": "キャッシュ済み v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "未キャッシュ",
+  "hotUpdateAssetRemote": "リモート v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256: {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} 件の尺度 · マニフェスト v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "未同期",
   "hotUpdateManifestVersion": "マニフェスト v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6787,6 +6818,11 @@
   "lepaoNetworkError": "歩道楽跑に接続できません。しばらくしてからお試しください。",
   "lepaoAuthFailed": "ログイン情報の有効期限が切れました。資格情報を再登録してください。",
   "lepaoHistoryEmpty": "ランニング記録がありません",
+  "lepaoRunCount": "回数",
+  "lepaoTermRequirement": "学期の目標",
+  "lepaoTermCompleted": "達成済み",
+  "lepaoTermRemaining": "残り",
+  "lepaoTermDistanceUnavailable": "学期の目標距離は返されませんでした。",
   "lepaoRecordDetailTitle": "ランニング詳細",
   "lepaoDistance": "距離",
   "lepaoDuration": "時間",

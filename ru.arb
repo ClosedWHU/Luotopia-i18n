@@ -1713,6 +1713,37 @@
   "settingsDevHotUpdate": "Управление горячим обновлением",
   "settingsDevHotUpdateSubtitle": "Просмотр скриптов парсера с горячим обновлением и их состояния",
   "hotUpdateTitle": "Управление горячим обновлением",
+  "hotUpdateManifestSectionTitle": "Манифест обновления",
+  "hotUpdateParsersSectionTitle": "Парсеры",
+  "hotUpdateDataSectionTitle": "Источники данных",
+  "hotUpdateScaleSectionTitle": "Библиотека шкал",
+  "hotUpdateAssetCurrent": "В кэше v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "Не кэшировано",
+  "hotUpdateAssetRemote": "Удалённая v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256: {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} шкал · манифест v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "Ещё не синхронизировано",
   "hotUpdateManifestVersion": "Манифест v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6763,6 +6794,11 @@
   "lepaoNetworkError": "Не удалось подключиться к Budao Lepao. Повторите позже.",
   "lepaoAuthFailed": "Вход истёк. Введите учётные данные заново.",
   "lepaoHistoryEmpty": "Нет записей о пробежках",
+  "lepaoRunCount": "Пробежки",
+  "lepaoTermRequirement": "Цель на семестр",
+  "lepaoTermCompleted": "Выполнено",
+  "lepaoTermRemaining": "Осталось",
+  "lepaoTermDistanceUnavailable": "Целевая дистанция на семестр не получена.",
   "lepaoRecordDetailTitle": "Детали пробежки",
   "lepaoDistance": "Дистанция",
   "lepaoDuration": "Время",

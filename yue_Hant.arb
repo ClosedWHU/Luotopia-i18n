@@ -1688,6 +1688,37 @@
   "settingsDevHotUpdate": "熱更新管理",
   "settingsDevHotUpdateSubtitle": "查看可熱更新嘅分析腳本同佢哋嘅狀態",
   "hotUpdateTitle": "熱更新管理",
+  "hotUpdateManifestSectionTitle": "更新清單",
+  "hotUpdateParsersSectionTitle": "解析器",
+  "hotUpdateDataSectionTitle": "資料來源",
+  "hotUpdateScaleSectionTitle": "量表庫",
+  "hotUpdateAssetCurrent": "本機快取 v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "尚未快取",
+  "hotUpdateAssetRemote": "遠端 v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256：{checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} 個量表 · 清單 v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "尚未同步",
   "hotUpdateManifestVersion": "清單版本 v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6781,6 +6812,11 @@
   "lepaoNetworkError": "暫時冇法連接步道樂跑，請遲啲再試。",
   "lepaoAuthFailed": "登入資訊失效，請重新登記憑據。",
   "lepaoHistoryEmpty": "暫時冇跑步記錄",
+  "lepaoRunCount": "次數",
+  "lepaoTermRequirement": "學期要求",
+  "lepaoTermCompleted": "已完成",
+  "lepaoTermRemaining": "仲需要",
+  "lepaoTermDistanceUnavailable": "樂跑冇返回學期目標里程。",
   "lepaoRecordDetailTitle": "跑步詳情",
   "lepaoDistance": "里程",
   "lepaoDuration": "時長",

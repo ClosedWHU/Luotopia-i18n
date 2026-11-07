@@ -1734,6 +1734,37 @@
   "deviceTrustInstallIdUsageSubtitle": "La lista de dispositivos con sesión iniciada del servidor, el registro del dispositivo para notificaciones y el external id de freeRASP usan el mismo valor, así que los eventos de los tres se pueden relacionar. Se guarda en el almacenamiento seguro (Keystore / Secure Enclave) y se regenera cuando salta la detección de clonado, por lo que un clon no hereda la identidad del dispositivo original.",
   "deviceTrustRawJsonTitle": "Salida JSON",
   "hotUpdateTitle": "Gestión de actualización en caliente",
+  "hotUpdateManifestSectionTitle": "Manifiesto de actualización",
+  "hotUpdateParsersSectionTitle": "Analizadores",
+  "hotUpdateDataSectionTitle": "Fuentes de datos",
+  "hotUpdateScaleSectionTitle": "Biblioteca de escalas",
+  "hotUpdateAssetCurrent": "En caché v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "No está en caché",
+  "hotUpdateAssetRemote": "Remoto v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256: {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} escalas · manifiesto v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "Aún no sincronizada",
   "hotUpdateManifestVersion": "Manifiesto v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6773,6 +6804,11 @@
   "lepaoNetworkError": "No se pudo conectar con Budao Lepao. Inténtalo más tarde.",
   "lepaoAuthFailed": "Sesión expirada. Vuelve a introducir tus credenciales.",
   "lepaoHistoryEmpty": "Sin registros de carrera",
+  "lepaoRunCount": "Carreras",
+  "lepaoTermRequirement": "Meta del semestre",
+  "lepaoTermCompleted": "Completado",
+  "lepaoTermRemaining": "Pendiente",
+  "lepaoTermDistanceUnavailable": "No se recibió una meta de distancia para el semestre.",
   "lepaoRecordDetailTitle": "Detalles de la carrera",
   "lepaoDistance": "Distancia",
   "lepaoDuration": "Duración",

@@ -1734,6 +1734,37 @@
   "deviceTrustInstallIdUsageSubtitle": "La liste des appareils connectés côté serveur, l’enregistrement de l’appareil pour les notifications et l’external id de freeRASP utilisent la même valeur : les événements des trois peuvent donc être rapprochés. Elle est conservée dans le stockage sécurisé (Keystore / Secure Enclave) et régénérée quand la détection de clonage se déclenche, si bien qu’un clone n’hérite pas de l’identité de l’appareil d’origine.",
   "deviceTrustRawJsonTitle": "Sortie JSON",
   "hotUpdateTitle": "Gestion des mises à jour à chaud",
+  "hotUpdateManifestSectionTitle": "Manifeste de mise à jour",
+  "hotUpdateParsersSectionTitle": "Analyseurs",
+  "hotUpdateDataSectionTitle": "Sources de données",
+  "hotUpdateScaleSectionTitle": "Bibliothèque d’échelles",
+  "hotUpdateAssetCurrent": "En cache v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "Non mis en cache",
+  "hotUpdateAssetRemote": "Distant v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256 : {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} échelles · manifeste v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "Pas encore synchronisée",
   "hotUpdateManifestVersion": "Manifeste v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6773,6 +6804,11 @@
   "lepaoNetworkError": "Connexion à Budao Lepao impossible. Réessayez plus tard.",
   "lepaoAuthFailed": "Session expirée. Saisissez à nouveau vos identifiants.",
   "lepaoHistoryEmpty": "Aucun enregistrement de course",
+  "lepaoRunCount": "Courses",
+  "lepaoTermRequirement": "Objectif du semestre",
+  "lepaoTermCompleted": "Réalisé",
+  "lepaoTermRemaining": "Restant",
+  "lepaoTermDistanceUnavailable": "Aucun objectif de distance semestriel n’a été renvoyé.",
   "lepaoRecordDetailTitle": "Détails de la course",
   "lepaoDistance": "Distance",
   "lepaoDuration": "Durée",

@@ -1850,6 +1850,37 @@
   "deviceTrustInstallIdUsageSubtitle": "Danh sách 'thiết bị đã đăng nhập' trên máy chủ, đăng ký thiết bị đẩy thông báo và external id của freeRASP đều dùng cùng một giá trị, nên sự kiện từ ba nơi có thể đối chiếu với nhau. Nó nằm trong bộ nhớ an toàn (Keystore / Secure Enclave) và được tạo lại khi phát hiện sao chép kích hoạt, nên bản sao không kế thừa danh tính của thiết bị gốc.",
   "deviceTrustRawJsonTitle": "Kết xuất JSON",
   "hotUpdateTitle": "Quản lý cập nhật nóng",
+  "hotUpdateManifestSectionTitle": "Tệp kê khai cập nhật",
+  "hotUpdateParsersSectionTitle": "Bộ phân tích",
+  "hotUpdateDataSectionTitle": "Nguồn dữ liệu",
+  "hotUpdateScaleSectionTitle": "Thư viện thang đo",
+  "hotUpdateAssetCurrent": "Đã lưu đệm v{version}",
+  "@hotUpdateAssetCurrent": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetMissing": "Chưa lưu đệm",
+  "hotUpdateAssetRemote": "Từ xa v{version}",
+  "@hotUpdateAssetRemote": {
+    "placeholders": {
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateAssetChecksum": "SHA-256: {checksum}",
+  "@hotUpdateAssetChecksum": {
+    "placeholders": {
+      "checksum": { "type": "String" }
+    }
+  },
+  "hotUpdateScaleSummary": "{count} thang đo · bản kê khai v{version}",
+  "@hotUpdateScaleSummary": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "version": { "type": "int" }
+    }
+  },
+  "hotUpdateScaleNotSynced": "Chưa đồng bộ",
   "hotUpdateManifestVersion": "Bản kê khai v{version}",
   "@hotUpdateManifestVersion": {
     "placeholders": {
@@ -6777,6 +6808,11 @@
   "lepaoNetworkError": "Không thể kết nối Budao Lepao. Vui lòng thử lại sau.",
   "lepaoAuthFailed": "Phiên đăng nhập đã hết hạn. Vui lòng nhập lại thông tin.",
   "lepaoHistoryEmpty": "Chưa có bản ghi chạy bộ",
+  "lepaoRunCount": "Số lần",
+  "lepaoTermRequirement": "Mục tiêu học kỳ",
+  "lepaoTermCompleted": "Đã hoàn thành",
+  "lepaoTermRemaining": "Còn lại",
+  "lepaoTermDistanceUnavailable": "Không nhận được mục tiêu quãng đường của học kỳ.",
   "lepaoRecordDetailTitle": "Chi tiết chạy bộ",
   "lepaoDistance": "Quãng đường",
   "lepaoDuration": "Thời gian",
