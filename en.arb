@@ -8527,7 +8527,7 @@
   "diningRefreshSubmissions": "Refresh contributions",
   "diningKarmaLedger": "View forum Karma history",
   "diningSubmissionLoadRetry": "Could not load contributions. Tap to retry.",
-  "diningNoSubmissions": "No contributions yet",
+  "diningNoSubmissions": "No submissions yet",
   "diningCancelSubmission": "Cancel contribution",
   "diningReviewNote": "Review note: {note}",
   "diningContributionKind": "{kind, select, create_spot {Add venue} update_spot {Correct venue} create_building {Add building} update_building {Correct building} create_floor {Add floor} update_floor {Correct floor} create_menu_group {Add menu group} update_menu_group {Correct menu group} create_menu_item {Add dish} update_menu_item {Correct dish} create_menu_batch {Batch add} business_hours {Business hours} schedule_exceptions {Schedule exception} floor_plan {Indoor map} other {Contribution}}",
@@ -10416,7 +10416,7 @@
   "diningProfileSaved": "Profile saved",
   "diningProfileSaveFailed": "Could not save. Please try again.",
   "diningProfileRewards": "View contribution rewards",
-  "diningTagsLabel": "Flavors and tags (comma separated)",
+  "diningTagsLabel": "Flavors and tags",
   "diningTasteLight": "Light",
   "diningTasteSpicy": "Spicy",
   "diningTasteNumbingSpicy": "Numbing and spicy",
@@ -11122,5 +11122,215 @@
   "neoSchoolNotSubmitted": "Not submitted",
   "neoSchoolTitle": "Neo School",
   "neoSchoolLectureTitle": "Lecture",
-  "neoSchoolHomeworkTitle": "HomeWork (HW)"
+  "neoSchoolHomeworkTitle": "HomeWork (HW)",
+  "diningRequestTimeout": "The request timed out. Please check your network and try again.",
+  "diningConnectionFailed": "Unable to connect to the service. Please check your network and try again.",
+  "diningRequestCancelled": "The request was cancelled.",
+  "diningBuildingInfoLoadFailed": "Could not load building details",
+  "diningPlaceBuildingHelp": "Tap the map to place a building, or tap a building to edit it",
+  "diningDrawAreaHelp": "Draw an area boundary, name it and choose on or off campus",
+  "diningAllAreas": "All areas",
+  "diningPlaceBuilding": "Place building",
+  "diningDrawArea": "Draw new area",
+  "diningEditArea": "Edit selected area",
+  "diningBuildingsLoadFailed": "Could not load buildings",
+  "diningFloorsLoadFailed": "Could not load floors. Please retry.",
+  "diningBuildingInfo": "Building details",
+  "diningAreaInfo": "Area details",
+  "diningScopeLabel": "On / off campus",
+  "diningParentArea": "Parent area (optional)",
+  "diningAreaRequired": "Select an area",
+  "diningStandaloneArea": "Independent area",
+  "diningNoCustomAreas": "No custom areas in this scope. Draw an area first.",
+  "diningAggregateArea": "Group shops in this area",
+  "diningAggregateAreaHelp": "Show one area entry on the map when it contains multiple shops",
+  "diningDrawBuildingBoundary": "Draw building / canteen boundary",
+  "diningEditBoundary": "Edit boundary again",
+  "diningBoundaryDrawn": "Boundary drawn; shops will share one map entry",
+  "diningAreaLocationUnknown": "Cannot determine the area at this location. Check the boundary and refresh areas.",
+  "diningReportFailed": "Could not process the report. Check permissions, report status and connection.",
+  "diningReportTitle": "Handle review report",
+  "diningReportedReview": "Reported review",
+  "diningOriginalUnavailable": "Original text unavailable",
+  "diningHideReviewHelp": "Hidden reviews are not displayed or included in shop ratings.",
+  "diningResolveReport": "Verified; keep review visible",
+  "diningHideAndResolve": "Hide review and resolve",
+  "diningDrawBoundary": "Draw area boundary",
+  "diningBoundaryRetained": "Existing boundary retained; you can redraw it",
+  "diningPolicyLoadFailed": "Could not load reward rules",
+  "diningSubmissionModerationFailed": "Could not review submission. Check permissions, submission status and connection.",
+  "diningApproveSubmission": "Approve submission",
+  "diningRejectSubmission": "Reject submission",
+  "diningReloadRules": "Reload rules",
+  "diningNoContributionReward": "Current rules grant no reward for this contribution",
+  "diningRewardNotice": "Only accepted submissions that change published data earn rewards. The server determines the final amount.",
+  "diningReviewNoteOptional": "Review note (optional)",
+  "diningReject": "Reject",
+  "diningTagsLoadFailed": "Could not load tags. Please retry.",
+  "diningTagValidation": "Enter 1–24 characters without commas, semicolons or line breaks",
+  "diningTagExists": "This tag already exists",
+  "diningTagLimit": "Up to 64 tags allowed",
+  "diningTagsSaved": "Shop tags saved",
+  "diningTagSaveFailed": "Could not save. Check permissions and connection.",
+  "diningTagsTitle": "Shop tags",
+  "diningTagsHelp": "These tags are shared by shop creation, editing and filtering. Removed tags cannot be selected again; existing shops can remove them when edited.",
+  "diningTagName": "Tag name",
+  "diningAddTag": "Add tag",
+  "diningSyncFailed": "Sync failed. Check API key permissions and connection.",
+  "diningSyncTitle": "Sync Tencent districts",
+  "diningSyncHelp": "Update Wuhan district names and centers while keeping manual boundaries, display settings, enabled states and existing campuses. Verify missing districts before disabling them.",
+  "diningTencentKey": "Tencent Location Service API key",
+  "diningKeyRequired": "Enter an API key",
+  "diningSync": "Sync",
+  "diningPolicyLoadRetry": "Could not load reward rules. Please retry.",
+  "diningPolicySaved": "Reward rules saved",
+  "diningPolicySaveFailed": "Could not save. Check admin permissions and connection.",
+  "diningRewardValueValidation": "Enter an integer from 0 to 10000",
+  "diningRewardsTitle": "Dining contribution rewards",
+  "diningRewardsHelp": "Rewards are issued when contributions change published data, with no daily limit. Set a reward to 0 to disable it. Duplicate content earns no extra reward. Credits appear in the forum Karma ledger.",
+  "diningAdminTitle": "Dining administration",
+  "diningRewardRules": "Reward rules",
+  "diningAreaCreate": "Create areas",
+  "diningBuildingEdit": "Edit buildings",
+  "diningSubmissionsReports": "Submissions and reports",
+  "diningReviewModeration": "Review moderation",
+  "diningPermissionLoadFailed": "Could not load moderation permissions",
+  "diningModeratorRequired": "Dining moderator access required",
+  "diningShopMaintenance": "Shop maintenance",
+  "diningMenuMaintenance": "Edit dishes · Recognize photos",
+  "diningSpecialHours": "Holiday and special hours",
+  "diningEditShopInfo": "Edit shop details",
+  "diningPauseShop": "Stop recommending this shop",
+  "diningPauseRecommendation": "Stop recommending",
+  "diningActionFailed": "Action failed. Please retry.",
+  "diningSubmissionsLoadFailed": "Could not load submissions",
+  "diningSubmissionRecords": "Submissions and review history",
+  "diningSubmission": "Dining submission",
+  "diningReviewApprove": "Review and approve",
+  "diningReviewReject": "Review and reject",
+  "diningRevokeContributionReward": "Revoke contribution reward",
+  "diningPendingReports": "Pending reports",
+  "diningNoPendingReports": "No pending reports",
+  "diningShowReview": "Show review",
+  "diningHideReview": "Hide review",
+  "diningSearchUsers": "Search existing users",
+  "diningSearchUsersHint": "Username, display name or user ID",
+  "diningUsersLoadFailed": "Could not load users",
+  "diningNoMembers": "No community members yet. Search existing accounts to manage them.",
+  "diningNoMatchingUsers": "No matching accounts",
+  "diningSystemAdminRole": "System administrator · All community permissions",
+  "diningRegularUser": "Regular user",
+  "diningMemberAccess": "Community user access",
+  "diningUserId": "User ID",
+  "diningModeratorRole": "Dining moderator",
+  "diningBanContributions": "Block submissions and reviews",
+  "diningSaveFailed": "Could not save",
+  "diningMemberSaveFailed": "Could not save. Check the user ID and ban reason.",
+  "diningRewardAwaiting": "Reward: awaiting review",
+  "diningRewardIneligible": "Reward: not eligible",
+  "diningRewardDisabled": "Reward: disabled",
+  "diningRevokeHelp": "Credited rewards will be reversed by their original amount. Correct published data separately; review and forum ledger records are retained.",
+  "diningRevokeReason": "Revocation reason (required)",
+  "diningRevokeReward": "Revoke reward",
+  "diningRevokeFailed": "Could not revoke",
+  "diningRevokeRetry": "Could not revoke. Check permissions and connection.",
+  "diningReviewFailed": "Could not moderate",
+  "diningReviewRetry": "Could not moderate. Check permissions and connection.",
+  "diningDishReview": "Dish review",
+  "diningShopReview": "Shop review",
+  "diningUnknownDay": "Unknown day",
+  "diningBuildingShops": "Shops in building",
+  "diningTypeRestaurant": "Restaurants",
+  "diningTypeCanteen": "Canteen",
+  "diningTypeCafe": "Coffee shop",
+  "diningTypeSnack": "Snacks",
+  "diningAiEmptySource": "Provide menu text or photos first",
+  "diningAiNoDraft": "AI returned no menu draft",
+  "diningAiChoosePhoto": "Take or choose a photo first",
+  "diningAiNoResult": "AI returned no recognition result",
+  "diningAiInvalidFormat": "AI returned an invalid format",
+  "diningAiInvalidFields": "AI category or price unit is invalid",
+  "diningBoundaryPointCount": "Tap to draw at least 3 vertices ({count})",
+  "@diningBoundaryPointCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diningRewardUnlimited": "Reward: {points} Karma; no daily limit",
+  "@diningRewardUnlimited": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "diningRewardLimited": "Reward: {points} Karma; daily limit: {cap} Karma",
+  "@diningRewardLimited": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      },
+      "cap": {
+        "type": "int"
+      }
+    }
+  },
+  "diningRuleVersion": "Rule version: {version}",
+  "@diningRuleVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "diningPauseShopTitle": "Stop recommending {name}",
+  "@diningPauseShopTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "diningBannedReason": "Banned · {reason}",
+  "@diningBannedReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "diningRewardPendingAmount": "Reward pending: {amount} Karma",
+  "@diningRewardPendingAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "diningRewardCreditedAmount": "Reward credited: {amount} Karma",
+  "@diningRewardCreditedAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "diningRewardPending": "Reward pending",
+  "diningRewardCredited": "Reward credited",
+  "diningRewardUnknown": "Reward status unavailable",
+  "diningModerationState": "{status, select, visible {Visible} hidden {Hidden} pending {Pending} resolved {Resolved} dismissed {Dismissed} other {Unknown status}}",
+  "@diningModerationState": {
+  "placeholders": {
+    "status": {
+      "type": "String"
+    }
+  }
+},
+  "diningName": "Name",
+  "diningMapTencent": "Tencent Maps",
+  "diningMapAmap": "Amap",
+  "diningMapBaidu": "Baidu Maps",
+  "diningUnitPortion": "serving"
 }
