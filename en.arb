@@ -10643,14 +10643,14 @@
   "washingNoModes": "No mode information available",
   "washingModesNote": "Modes and prices are for reference. Confirm with the on-site machine and operator.",
   "washingTokenLabel": "Bearer token",
-  "washingTokenPaste": "Paste your laundry service token",
-  "washingTokenKeep": "Leave blank to keep current credentials",
-  "washingTokenInvalid": "Enter a valid Bearer token",
+  "washingTokenPaste": "Optional: paste your laundry service token",
+  "washingTokenKeep": "Leave blank to use the H5 URL or keep current credentials",
+  "washingTokenInvalid": "Enter a valid laundry H5 URL, wxuuid, or Bearer token",
   "washingSave": "Save",
   "washingStorageReadError": "Unable to read saved credentials. Import them again.",
   "washingStorageSaveError": "Unable to save credentials. Try again.",
   "washingStorageClearError": "Unable to clear credentials. Try again.",
-  "washingAuthError": "Credentials are invalid or expired. Replace your Bearer token.",
+  "washingAuthError": "Your laundry session has expired. Import valid credentials again.",
   "washingNetworkError": "Network unavailable. Try again later.",
   "washingMalformedError": "The laundry service response has changed. Try again later.",
   "washingRejectedError": "The laundry service cannot process this request. Try again later.",
@@ -10746,8 +10746,8 @@
   "washingPaymentPending": "The link was handed to WeChat. Complete payment there, then return and check the result. This does not confirm payment success.",
   "washingOrderPrice": "Order ¥{price}",
   "washingPaymentNote": "Choose a mode to create an order, then open its payment page in WeChat. The mini-program handles payment; the laundry service confirms the result.",
-  "washingSessionContext": "Laundry H5 URL or wxuuid (for payment)",
-  "washingSessionContextHelp": "Paste your existing operator H5 URL. Queries need only the Bearer token. No WeChat login is performed here.",
+  "washingSessionContext": "Laundry H5 URL or wxuuid",
+  "washingSessionContextHelp": "Paste your existing operator H5 URL to retrieve credentials automatically. A Bearer token alone can also be used for queries.",
   "@washingConfirmBody": {
     "placeholders": {
       "device": {
@@ -10785,7 +10785,7 @@
   "@washingDirectoryUpdated": {"placeholders": {"time": {"type": "String"}}},
   "washingAccountTitle": "Laundry account",
   "washingAccountConfigured": "Laundry credentials imported",
-  "washingAccountNote": "Laundry credentials are managed independently. Import a new Bearer when it expires. wxuuid is used only for payment handoff; no WeChat login is performed.",
+  "washingAccountNote": "Laundry accounts are managed independently. The app attempts renewal while in the foreground; import again if the session expires. No WeChat login is performed here.",
   "washingUnlinkAccount": "Remove laundry account",
   "washingUnlinkAccountBody": "Remove the credentials saved on this device. Existing orders will not be cancelled or refunded.",
   "washingManageAccount": "Manage laundry account",
@@ -11343,5 +11343,6 @@
   "diningMapTencent": "Tencent Maps",
   "diningMapAmap": "Amap",
   "diningMapBaidu": "Baidu Maps",
-  "diningUnitPortion": "serving"
+  "diningUnitPortion": "serving",
+  "washingImportPendingOrder": "Check and resolve the current laundry order before changing the account session."
 }
