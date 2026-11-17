@@ -11344,5 +11344,91 @@
   "diningMapAmap": "Amap",
   "diningMapBaidu": "Baidu Maps",
   "diningUnitPortion": "serving",
-  "washingImportPendingOrder": "Check and resolve the current laundry order before changing the account session."
+  "washingImportPendingOrder": "Check and resolve the current laundry order before changing the account session.",
+  "captureTitle": "Import from WeChat",
+  "captureDebugTitle": "Local capture diagnostics",
+  "captureIntro": "Temporarily use a local VPN to read only the selected service’s traffic. Nothing is uploaded. Install and fully trust this device’s certificate before capturing.",
+  "captureUnsupported": "Local capture is available only on supported iOS builds.",
+  "captureCertificateTitle": "Device certificate",
+  "captureCertificatePrepare": "Prepare certificate",
+  "captureCertificateInstall": "Start certificate installation",
+  "captureCertificateDownload": "Download certificate in Safari",
+  "captureCertificateGuide": "Download the profile, install it in Settings → General → VPN & Device Management, then enable full trust in Settings → General → About → Certificate Trust Settings. Stop the installation service before capturing.",
+  "captureCertificateReset": "Replace device certificate",
+  "captureCertificateResetBody": "The new certificate must be installed and trusted again. Remove the old profile in Settings. Your linked accounts are kept.",
+  "captureCertificateExpiry": "Valid until {date}",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "Select service",
+  "captureFixture": "Controlled HTTPS probe",
+  "captureStart": "Start capture",
+  "captureStop": "Stop and discard candidate",
+  "captureProbe": "Test HTTPS through local proxy",
+  "captureProbeWorking": "HTTPS probe succeeded. Test each real service separately.",
+  "captureProbeFailed": "HTTPS probe failed. Check certificate trust and capture status.",
+  "captureStatus": "State: {phase} · connections: {connections} · decrypted: {decrypted} · matches: {matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "After starting, switch to WeChat and reopen the laundry mini-program until its account page loads. Return here to verify the captured session.",
+  "captureZhiyinGuide": "After starting, switch to the Little Green mini-program and complete login or token refresh. Merely opening a page may not return a refresh token. Using both clients can affect their shared session.",
+  "captureFixtureGuide": "Start capture, then run the HTTPS probe. The synthetic result never changes your linked accounts.",
+  "captureValidate": "Verify captured account",
+  "captureConfirm": "Confirm import",
+  "captureConfirmBody": "Import account {account}? This replaces the current account for this service. Pending laundry orders must be resolved through the existing account flow.",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "Discard candidate",
+  "captureCompleted": "Completed",
+  "captureAccount": "Verified account: {account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "Unable to complete: {code}. Existing accounts have been kept.",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "Disconnect the campus VPN before starting local capture.",
+  "captureTrustNote": "Stopping capture does not remove the trusted certificate. Remove its profile in Settings when no longer needed.",
+  "captureRefresh": "Refresh status",
+  "captureRemaining": "Remaining: {seconds}s",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "Native capture licenses"
 }

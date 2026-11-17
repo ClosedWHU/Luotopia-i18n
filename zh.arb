@@ -9374,5 +9374,91 @@
   "diningMapAmap": "高德地图",
   "diningMapBaidu": "百度地图",
   "diningUnitPortion": "份",
-  "washingImportPendingOrder": "请先核对并处理当前洗衣订单，再更换账号会话。"
+  "washingImportPendingOrder": "请先核对并处理当前洗衣订单，再更换账号会话。",
+  "captureTitle": "从微信导入登录状态",
+  "captureDebugTitle": "本地抓包调试",
+  "captureIntro": "短时启用本地 VPN，仅解析所选服务的流量，不上传数据。首次使用需安装并完整信任本机证书。",
+  "captureUnsupported": "本地抓包仅适用于包含此功能的 iOS 构建。",
+  "captureCertificateTitle": "本机证书",
+  "captureCertificatePrepare": "准备证书",
+  "captureCertificateInstall": "开启证书安装服务",
+  "captureCertificateDownload": "在 Safari 下载证书",
+  "captureCertificateGuide": "下载后，前往“设置 → 通用 → VPN 与设备管理”安装描述文件，再到“设置 → 通用 → 关于本机 → 证书信任设置”开启完整信任。开始抓包前结束安装服务。",
+  "captureCertificateReset": "重新生成本机证书",
+  "captureCertificateResetBody": "新证书需要重新安装并信任。请在系统设置中移除旧描述文件。已绑定的账号会保留。",
+  "captureCertificateExpiry": "有效期至 {date}",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "选择服务",
+  "captureFixture": "受控 HTTPS 探测",
+  "captureStart": "开始抓包",
+  "captureStop": "停止并丢弃候选",
+  "captureProbe": "验证本地代理 HTTPS 链路",
+  "captureProbeWorking": "HTTPS 探测成功；真实服务仍需分别验证。",
+  "captureProbeFailed": "HTTPS 探测失败，请检查证书信任和抓包状态。",
+  "captureStatus": "状态：{phase} · 目标连接：{connections} · 已解密：{decrypted} · 已命中：{matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "开始后切到微信，重新打开洗衣小程序并等待账号页面加载，再返回此处验证捕获到的会话。",
+  "captureZhiyinGuide": "开始后切到知音小程序，完成登录或令牌刷新。仅打开页面可能无法获得续期凭据。两端共用会话可能互相影响登录状态。",
+  "captureFixtureGuide": "开始抓包后运行 HTTPS 探测。虚构测试结果不会修改已绑定账号。",
+  "captureValidate": "验证候选账号",
+  "captureConfirm": "确认导入",
+  "captureConfirmBody": "导入账号 {account}？这将替换此服务当前的账号。若有待处理洗衣订单，请先在原账号流程中处理。",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "丢弃候选",
+  "captureCompleted": "已完成",
+  "captureAccount": "已验证账号：{account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "无法完成：{code}。原有账号已保留。",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "请先断开校园 VPN，再开启本地抓包。",
+  "captureTrustNote": "停止抓包不会移除已信任的证书。不再需要时，请在系统设置中移除对应描述文件。",
+  "captureRefresh": "刷新状态",
+  "captureRemaining": "剩余：{seconds} 秒",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "原生抓包组件许可"
 }
