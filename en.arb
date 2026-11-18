@@ -11391,9 +11391,9 @@
   "captureWashingGuide": "After starting, switch to WeChat and reopen the laundry mini-program until its account page loads. Return here to verify the captured session.",
   "captureZhiyinGuide": "After starting, switch to the Little Green mini-program and complete login or token refresh. Merely opening a page may not return a refresh token. Using both clients can affect their shared session.",
   "captureFixtureGuide": "Start capture, then run the HTTPS probe. The synthetic result never changes your linked accounts.",
-  "captureValidate": "Verify captured account",
+  "captureValidate": "Verify account",
   "captureConfirm": "Confirm import",
-  "captureConfirmBody": "Import account {account}? This replaces the current account for this service. Pending laundry orders must be resolved through the existing account flow.",
+  "captureConfirmBody": "Import account {account}? This replaces the laundry account currently linked to Luotopia. Finish any pending laundry orders before importing.",
   "@captureConfirmBody": {
     "placeholders": {
       "account": {
@@ -11433,5 +11433,16 @@
   "captureLicenses": "Native capture licenses",
   "captureAccessOnly": "An access token was found. Complete login or token refresh in the mini-program to obtain renewal credentials.",
   "captureCertificateRenewSoon": "This device certificate expires within 30 days. Replace it before it expires.",
-  "captureCertificateExpired": "This device certificate has expired. Generate, install and trust a replacement before capturing."
+  "captureCertificateExpired": "This device certificate has expired. Generate, install and trust a replacement before capturing.",
+  "captureLaundryIntro": "Use your WeChat laundry mini-program account in Luotopia. A local VPN runs briefly during import. Capture records are never uploaded to Luotopia servers.",
+  "captureLaundryStart": "Start import",
+  "captureLaundryWaiting": "Waiting for Laundry in WeChat",
+  "captureLaundryCandidate": "Laundry session found",
+  "captureLaundryReview": "Review laundry account",
+  "captureLaundryTimeout": "No session was found. Start again and reopen the Laundry mini-program in WeChat.",
+  "captureLaundryExpired": "This import has expired. Start again to get a new session.",
+  "captureLaundryFailed": "Laundry import couldn’t finish. Try again. Your existing account is still linked.",
+  "captureCertificateSetup": "Set up device certificate",
+  "captureCertificateSetupHint": "Install and trust before first use",
+  "captureCertificateFinish": "End certificate setup"
 }

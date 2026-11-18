@@ -9421,9 +9421,9 @@
   "captureWashingGuide": "开始后切到微信，重新打开洗衣小程序并等待账号页面加载，再返回此处验证捕获到的会话。",
   "captureZhiyinGuide": "开始后切到知音小程序，完成登录或令牌刷新。仅打开页面可能无法获得续期凭据。两端共用会话可能互相影响登录状态。",
   "captureFixtureGuide": "开始抓包后运行 HTTPS 探测。虚构测试结果不会修改已绑定账号。",
-  "captureValidate": "验证候选账号",
+  "captureValidate": "验证账号",
   "captureConfirm": "确认导入",
-  "captureConfirmBody": "导入账号 {account}？这将替换此服务当前的账号。若有待处理洗衣订单，请先在原账号流程中处理。",
+  "captureConfirmBody": "导入账号 {account}？这会替换珞珈当前绑定的洗衣房账号。若有待处理的洗衣订单，请先处理后再导入。",
   "@captureConfirmBody": {
     "placeholders": {
       "account": {
@@ -9463,5 +9463,16 @@
   "captureLicenses": "原生抓包组件许可",
   "captureAccessOnly": "已找到访问令牌，尚未获得续期凭据。请在小程序中完成登录或令牌刷新。",
   "captureCertificateRenewSoon": "本机证书将在 30 天内到期，请及时重新生成并安装。",
-  "captureCertificateExpired": "本机证书已到期，请重新生成、安装并信任新证书后再抓包。"
+  "captureCertificateExpired": "本机证书已到期，请重新生成、安装并信任新证书后再抓包。",
+  "captureLaundryIntro": "用你在微信洗衣房小程序里的账号登录珞珈洗衣房。导入时会短暂启用本地 VPN，抓包记录不会上传至珞珈服务器。",
+  "captureLaundryStart": "开始导入",
+  "captureLaundryWaiting": "等待微信洗衣房",
+  "captureLaundryCandidate": "已找到洗衣房会话",
+  "captureLaundryReview": "核对洗衣房账号",
+  "captureLaundryTimeout": "本次未找到会话。请重新开始，再从微信打开洗衣房小程序。",
+  "captureLaundryExpired": "这次导入已过期，请重新开始。",
+  "captureLaundryFailed": "暂时无法完成洗衣房导入，请重试。原有账号已保留。",
+  "captureCertificateSetup": "设置本机证书",
+  "captureCertificateSetupHint": "首次使用时安装并信任",
+  "captureCertificateFinish": "结束证书安装"
 }
