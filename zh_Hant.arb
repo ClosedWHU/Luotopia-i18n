@@ -9683,5 +9683,105 @@
   "fitnessPass": "及格",
   "fitnessFail": "不及格",
   "fitnessClear": "清空表單",
-  "fitnessClearConfirm": "刪除本裝置全部體測輸入及已儲存的選擇？此操作無法復原，性別將還原為 WHU 資料的預設值。"
+  "fitnessClearConfirm": "刪除本裝置全部體測輸入及已儲存的選擇？此操作無法復原，性別將還原為 WHU 資料的預設值。",
+  "captureTitle": "從微信匯入",
+  "captureDebugTitle": "本機抓包診斷",
+  "captureIntro": "暫時啟用本機 VPN，只讀取所選服務的流量。抓包資料不會上傳至珞珈伺服器。開始抓包前，請安裝並完整信任此裝置的憑證。",
+  "captureUnsupported": "本機抓包僅適用於支援此功能的 iOS 版本。",
+  "captureCertificateTitle": "裝置憑證",
+  "captureCertificatePrepare": "準備憑證",
+  "captureCertificateInstall": "開始安裝憑證",
+  "captureCertificateDownload": "在 Safari 下載憑證",
+  "captureCertificateGuide": "下載描述檔後，前往「設定 → 一般 → VPN 與裝置管理」安裝，再到「設定 → 一般 → 關於本機 → 憑證信任設定」開啟完整信任。開始抓包前請停止安裝服務。",
+  "captureCertificateReset": "更換裝置憑證",
+  "captureCertificateResetBody": "新憑證需要重新安裝並信任。請在「設定」中移除舊描述檔。已連結的帳戶會保留。",
+  "captureCertificateExpiry": "有效期至 {date}",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "選擇服務",
+  "captureFixture": "受控 HTTPS 探測",
+  "captureStart": "開始抓包",
+  "captureStop": "停止並捨棄候選",
+  "captureProbe": "透過本機代理測試 HTTPS",
+  "captureProbeWorking": "HTTPS 探測成功；真實服務仍需分別測試。",
+  "captureProbeFailed": "HTTPS 探測失敗，請檢查憑證信任和抓包狀態。",
+  "captureStatus": "狀態：{phase} · 連線：{connections} · 已解密：{decrypted} · 已命中：{matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "開始後切換到微信，重新開啟洗衣小程式並等待帳戶頁面載入，再返回此處驗證抓到的工作階段。",
+  "captureZhiyinGuide": "開始後切換到知音小程式，完成登入或權杖更新。只開啟頁面可能無法取得更新權杖。使用兩個用戶端可能互相影響共用工作階段。",
+  "captureFixtureGuide": "開始抓包後執行 HTTPS 探測。虛構測試結果不會修改已連結的帳戶。",
+  "captureValidate": "驗證帳戶",
+  "captureConfirm": "確認匯入",
+  "captureConfirmBody": "要匯入帳戶 {account} 嗎？這會取代目前連結到珞珈的洗衣房帳戶。匯入前請先處理所有待處理的洗衣訂單。",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "捨棄候選",
+  "captureCompleted": "已完成",
+  "captureAccount": "已驗證帳戶：{account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "無法完成：{code}。現有帳戶已保留。",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "開始本機抓包前，請先中斷校園 VPN。",
+  "captureTrustNote": "停止抓包不會移除已信任的憑證。不再需要時，請在「設定」中移除其描述檔。",
+  "captureRefresh": "重新整理狀態",
+  "captureRemaining": "剩餘：{seconds} 秒",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "原生抓包元件授權",
+  "captureAccessOnly": "找到存取權杖。請在小程式中完成登入或權杖更新，以取得續期憑證。",
+  "captureCertificateRenewSoon": "此裝置的憑證將在 30 天內到期，請在到期前更換。",
+  "captureCertificateExpired": "此裝置的憑證已到期，請先產生、安裝並信任新憑證，再開始抓包。",
+  "captureLaundryIntro": "在珞珈使用微信洗衣房小程式的帳戶。匯入期間會短暫執行本機 VPN，抓包記錄絕不會上傳至珞珈伺服器。",
+  "captureLaundryStart": "開始匯入",
+  "captureLaundryWaiting": "正在等待微信中的 Laundry",
+  "captureLaundryCandidate": "已找到 Laundry 工作階段",
+  "captureLaundryReview": "檢查洗衣房帳戶",
+  "captureLaundryTimeout": "找不到工作階段。請重新開始，並在微信中重新開啟 Laundry 小程式。",
+  "captureLaundryExpired": "此次匯入已過期，請重新開始以取得新的工作階段。",
+  "captureLaundryFailed": "無法完成 Laundry 匯入，請重試。現有帳戶仍保持連結。",
+  "captureCertificateSetup": "設定裝置憑證",
+  "captureCertificateSetupHint": "首次使用前安裝並信任",
+  "captureCertificateFinish": "結束憑證設定"
 }

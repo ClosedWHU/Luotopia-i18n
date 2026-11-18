@@ -9161,5 +9161,105 @@
   "fitnessPass": "Đạt",
   "fitnessFail": "Không đạt",
   "fitnessClear": "Xóa biểu mẫu",
-  "fitnessClearConfirm": "Xóa toàn bộ số đo và lựa chọn đã lưu trên thiết bị này? Không thể hoàn tác. Giới tính sẽ trở về mặc định trong hồ sơ WHU."
+  "fitnessClearConfirm": "Xóa toàn bộ số đo và lựa chọn đã lưu trên thiết bị này? Không thể hoàn tác. Giới tính sẽ trở về mặc định trong hồ sơ WHU.",
+  "captureTitle": "Nhập từ WeChat",
+  "captureDebugTitle": "Chẩn đoán bắt gói cục bộ",
+  "captureIntro": "Tạm thời dùng VPN cục bộ để chỉ đọc lưu lượng của dịch vụ đã chọn. Lưu lượng bắt được không được tải lên Luotopia. Hãy cài đặt và hoàn toàn tin cậy chứng chỉ của thiết bị này trước khi bắt gói.",
+  "captureUnsupported": "Tính năng bắt gói cục bộ chỉ có trên các bản dựng iOS được hỗ trợ.",
+  "captureCertificateTitle": "Chứng chỉ thiết bị",
+  "captureCertificatePrepare": "Chuẩn bị chứng chỉ",
+  "captureCertificateInstall": "Bắt đầu cài đặt chứng chỉ",
+  "captureCertificateDownload": "Tải chứng chỉ trong Safari",
+  "captureCertificateGuide": "Tải cấu hình, cài đặt tại Cài đặt → Cài đặt chung → VPN & Quản lý thiết bị, rồi bật tin cậy đầy đủ tại Cài đặt → Cài đặt chung → Giới thiệu → Cài đặt tin cậy chứng chỉ. Dừng dịch vụ cài đặt trước khi bắt gói.",
+  "captureCertificateReset": "Thay chứng chỉ thiết bị",
+  "captureCertificateResetBody": "Chứng chỉ mới phải được cài đặt và tin cậy lại. Xóa cấu hình cũ trong Cài đặt. Các tài khoản đã liên kết vẫn được giữ.",
+  "captureCertificateExpiry": "Có hiệu lực đến {date}",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "Chọn dịch vụ",
+  "captureFixture": "Kiểm tra HTTPS có kiểm soát",
+  "captureStart": "Bắt đầu bắt gói",
+  "captureStop": "Dừng và bỏ ứng viên",
+  "captureProbe": "Kiểm tra HTTPS qua proxy cục bộ",
+  "captureProbeWorking": "Kiểm tra HTTPS thành công. Hãy kiểm tra từng dịch vụ thật riêng biệt.",
+  "captureProbeFailed": "Kiểm tra HTTPS thất bại. Hãy kiểm tra trạng thái tin cậy của chứng chỉ và bắt gói.",
+  "captureStatus": "Trạng thái: {phase} · kết nối: {connections} · đã giải mã: {decrypted} · kết quả khớp: {matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "Sau khi bắt đầu, chuyển sang WeChat và mở lại mini program giặt là cho đến khi trang tài khoản tải xong. Quay lại đây để xác minh phiên đã bắt được.",
+  "captureZhiyinGuide": "Sau khi bắt đầu, chuyển sang mini program Little Green và hoàn tất đăng nhập hoặc làm mới token. Chỉ mở một trang có thể không trả về token làm mới. Dùng cả hai ứng dụng có thể ảnh hưởng đến phiên dùng chung.",
+  "captureFixtureGuide": "Bắt đầu bắt gói rồi chạy kiểm tra HTTPS. Kết quả mô phỏng không bao giờ thay đổi tài khoản đã liên kết.",
+  "captureValidate": "Xác minh tài khoản",
+  "captureConfirm": "Xác nhận nhập",
+  "captureConfirmBody": "Nhập tài khoản {account}? Tài khoản giặt là hiện liên kết với Luotopia sẽ được thay thế. Hãy hoàn tất các đơn giặt là đang chờ trước khi nhập.",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "Bỏ ứng viên",
+  "captureCompleted": "Đã hoàn tất",
+  "captureAccount": "Tài khoản đã xác minh: {account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "Không thể hoàn tất: {code}. Các tài khoản hiện có vẫn được giữ.",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "Hãy ngắt VPN trường trước khi bắt đầu bắt gói cục bộ.",
+  "captureTrustNote": "Dừng bắt gói không xóa chứng chỉ đã tin cậy. Khi không còn cần, hãy xóa cấu hình trong Cài đặt.",
+  "captureRefresh": "Làm mới trạng thái",
+  "captureRemaining": "Còn lại: {seconds} giây",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "Giấy phép bắt gói gốc",
+  "captureAccessOnly": "Đã tìm thấy access token. Hãy hoàn tất đăng nhập hoặc làm mới token trong mini program để nhận thông tin xác thực gia hạn.",
+  "captureCertificateRenewSoon": "Chứng chỉ thiết bị sẽ hết hạn trong vòng 30 ngày. Hãy thay trước khi hết hạn.",
+  "captureCertificateExpired": "Chứng chỉ thiết bị đã hết hạn. Hãy tạo, cài đặt và tin cậy chứng chỉ mới trước khi bắt gói.",
+  "captureLaundryIntro": "Dùng tài khoản mini program giặt là WeChat của bạn trong Luotopia. VPN cục bộ sẽ chạy trong thời gian ngắn khi nhập. Nhật ký bắt gói không bao giờ được tải lên máy chủ Luotopia.",
+  "captureLaundryStart": "Bắt đầu nhập",
+  "captureLaundryWaiting": "Đang chờ Laundry trong WeChat",
+  "captureLaundryCandidate": "Đã tìm thấy phiên Laundry",
+  "captureLaundryReview": "Xem lại tài khoản giặt là",
+  "captureLaundryTimeout": "Không tìm thấy phiên. Hãy bắt đầu lại và mở lại mini program Laundry trong WeChat.",
+  "captureLaundryExpired": "Lần nhập này đã hết hạn. Hãy bắt đầu lại để nhận phiên mới.",
+  "captureLaundryFailed": "Không thể hoàn tất nhập Laundry. Hãy thử lại. Tài khoản hiện tại vẫn được liên kết.",
+  "captureCertificateSetup": "Thiết lập chứng chỉ thiết bị",
+  "captureCertificateSetupHint": "Cài đặt và tin cậy trước lần dùng đầu tiên",
+  "captureCertificateFinish": "Kết thúc thiết lập chứng chỉ"
 }

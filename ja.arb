@@ -9171,5 +9171,105 @@
   "fitnessPass": "合格",
   "fitnessFail": "不合格",
   "fitnessClear": "入力を消去",
-  "fitnessClearConfirm": "この端末の測定値と保存済みの選択をすべて削除しますか？元に戻せません。性別はWHUプロフィールの初期値に戻ります。"
+  "fitnessClearConfirm": "この端末の測定値と保存済みの選択をすべて削除しますか？元に戻せません。性別はWHUプロフィールの初期値に戻ります。",
+  "captureTitle": "WeChatからインポート",
+  "captureDebugTitle": "ローカルキャプチャ診断",
+  "captureIntro": "一時的にローカルVPNを使い、選択したサービスの通信だけを読み取ります。キャプチャした通信はLuotopiaにアップロードされません。キャプチャの前に、このデバイスの証明書をインストールして完全に信頼してください。",
+  "captureUnsupported": "ローカルキャプチャは対応するiOSビルドでのみ利用できます。",
+  "captureCertificateTitle": "デバイス証明書",
+  "captureCertificatePrepare": "証明書を準備",
+  "captureCertificateInstall": "証明書のインストールを開始",
+  "captureCertificateDownload": "Safariで証明書をダウンロード",
+  "captureCertificateGuide": "プロファイルをダウンロードし、「設定 → 一般 → VPNとデバイス管理」でインストールしてください。その後「設定 → 一般 → 情報 → 証明書信頼設定」で完全な信頼を有効にします。キャプチャの前にインストールサービスを停止してください。",
+  "captureCertificateReset": "デバイス証明書を置き換え",
+  "captureCertificateResetBody": "新しい証明書は再度インストールして信頼する必要があります。「設定」で古いプロファイルを削除してください。リンク済みのアカウントは保持されます。",
+  "captureCertificateExpiry": "{date}まで有効",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "サービスを選択",
+  "captureFixture": "制御HTTPSプローブ",
+  "captureStart": "キャプチャを開始",
+  "captureStop": "停止して候補を破棄",
+  "captureProbe": "ローカルプロキシ経由でHTTPSをテスト",
+  "captureProbeWorking": "HTTPSプローブに成功しました。実際の各サービスは個別にテストしてください。",
+  "captureProbeFailed": "HTTPSプローブに失敗しました。証明書の信頼とキャプチャ状態を確認してください。",
+  "captureStatus": "状態：{phase} · 接続：{connections} · 復号済み：{decrypted} · 一致：{matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "開始後にWeChatへ切り替え、アカウントページが表示されるまで洗濯ミニプログラムを開き直してください。ここに戻ってキャプチャしたセッションを確認します。",
+  "captureZhiyinGuide": "開始後にLittle Greenミニプログラムへ切り替え、ログインまたはトークン更新を完了してください。ページを開くだけでは更新トークンが返らない場合があります。両方のクライアントを使うと共有セッションに影響することがあります。",
+  "captureFixtureGuide": "キャプチャを開始してからHTTPSプローブを実行します。この合成結果がリンク済みアカウントを変更することはありません。",
+  "captureValidate": "アカウントを確認",
+  "captureConfirm": "インポートを確認",
+  "captureConfirmBody": "アカウント{account}をインポートしますか？現在Luotopiaにリンクされている洗濯アカウントが置き換わります。保留中の洗濯注文があれば、インポート前に完了してください。",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "候補を破棄",
+  "captureCompleted": "完了",
+  "captureAccount": "確認済みアカウント：{account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "完了できませんでした：{code}。既存のアカウントは保持されています。",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "ローカルキャプチャを開始する前にキャンパスVPNを切断してください。",
+  "captureTrustNote": "キャプチャを停止しても信頼済み証明書は削除されません。不要になったら「設定」でプロファイルを削除してください。",
+  "captureRefresh": "状態を更新",
+  "captureRemaining": "残り：{seconds}秒",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "ネイティブキャプチャのライセンス",
+  "captureAccessOnly": "アクセスTokenが見つかりました。更新用認証情報を取得するには、ミニプログラムでログインまたはToken更新を完了してください。",
+  "captureCertificateRenewSoon": "このデバイスの証明書は30日以内に期限切れになります。期限前に置き換えてください。",
+  "captureCertificateExpired": "このデバイスの証明書は期限切れです。キャプチャの前に新しい証明書を生成、インストールし、信頼してください。",
+  "captureLaundryIntro": "WeChatの洗濯ミニプログラムのアカウントをLuotopiaで使用します。インポート中は短時間ローカルVPNが動作します。キャプチャ記録がLuotopiaのサーバーにアップロードされることはありません。",
+  "captureLaundryStart": "インポートを開始",
+  "captureLaundryWaiting": "WeChatのLaundryを待機中",
+  "captureLaundryCandidate": "Laundryセッションが見つかりました",
+  "captureLaundryReview": "洗濯アカウントを確認",
+  "captureLaundryTimeout": "セッションが見つかりませんでした。もう一度開始し、WeChatでLaundryミニプログラムを開き直してください。",
+  "captureLaundryExpired": "このインポートは期限切れです。新しいセッションを取得するため、もう一度開始してください。",
+  "captureLaundryFailed": "Laundryのインポートを完了できませんでした。もう一度お試しください。既存のアカウントはリンクされたままです。",
+  "captureCertificateSetup": "デバイス証明書を設定",
+  "captureCertificateSetupHint": "初回使用前にインストールして信頼",
+  "captureCertificateFinish": "証明書の設定を終了"
 }

@@ -9147,5 +9147,105 @@
   "fitnessPass": "Зачёт",
   "fitnessFail": "Незачёт",
   "fitnessClear": "Очистить форму",
-  "fitnessClearConfirm": "Удалить все показатели и сохранённые настройки на этом устройстве? Отменить нельзя. Пол вернётся к значению из профиля WHU."
+  "fitnessClearConfirm": "Удалить все показатели и сохранённые настройки на этом устройстве? Отменить нельзя. Пол вернётся к значению из профиля WHU.",
+  "captureTitle": "Импорт из WeChat",
+  "captureDebugTitle": "Диагностика локального захвата",
+  "captureIntro": "Временно используйте локальный VPN, чтобы читать трафик только выбранного сервиса. Перехваченный трафик не отправляется в Luotopia. Перед захватом установите сертификат этого устройства и полностью доверьте ему.",
+  "captureUnsupported": "Локальный захват доступен только в поддерживаемых сборках iOS.",
+  "captureCertificateTitle": "Сертификат устройства",
+  "captureCertificatePrepare": "Подготовить сертификат",
+  "captureCertificateInstall": "Начать установку сертификата",
+  "captureCertificateDownload": "Скачать сертификат в Safari",
+  "captureCertificateGuide": "Скачайте профиль, установите его в Настройки → Основные → VPN и управление устройством, затем включите полное доверие в Настройки → Основные → Об этом устройстве → Доверие сертификатам. Перед захватом остановите службу установки.",
+  "captureCertificateReset": "Заменить сертификат устройства",
+  "captureCertificateResetBody": "Новый сертификат нужно установить и снова сделать доверенным. Удалите старый профиль в Настройках. Связанные аккаунты сохранятся.",
+  "captureCertificateExpiry": "Действует до {date}",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "Выбрать сервис",
+  "captureFixture": "Контролируемая HTTPS-проверка",
+  "captureStart": "Начать захват",
+  "captureStop": "Остановить и удалить кандидат",
+  "captureProbe": "Проверить HTTPS через локальный прокси",
+  "captureProbeWorking": "HTTPS-проверка прошла успешно. Проверьте каждый реальный сервис отдельно.",
+  "captureProbeFailed": "HTTPS-проверка не удалась. Проверьте доверие к сертификату и состояние захвата.",
+  "captureStatus": "Состояние: {phase} · подключений: {connections} · расшифровано: {decrypted} · совпадений: {matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "После запуска переключитесь в WeChat и снова откройте мини-программу прачечной, пока не загрузится страница аккаунта. Вернитесь сюда, чтобы проверить захваченную сессию.",
+  "captureZhiyinGuide": "После запуска переключитесь в мини-программу Little Green и завершите вход или обновление токена. Простого открытия страницы может быть недостаточно для получения токена обновления. Использование обоих клиентов может повлиять на их общую сессию.",
+  "captureFixtureGuide": "Начните захват, затем запустите HTTPS-проверку. Синтетический результат не изменяет связанные аккаунты.",
+  "captureValidate": "Проверить аккаунт",
+  "captureConfirm": "Подтвердить импорт",
+  "captureConfirmBody": "Импортировать аккаунт {account}? Он заменит аккаунт прачечной, связанный с Luotopia. Перед импортом завершите все незакрытые заказы прачечной.",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "Удалить кандидата",
+  "captureCompleted": "Завершено",
+  "captureAccount": "Проверенный аккаунт: {account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "Не удалось завершить: {code}. Существующие аккаунты сохранены.",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "Отключите кампусный VPN перед запуском локального захвата.",
+  "captureTrustNote": "Остановка захвата не удаляет доверенный сертификат. Когда он больше не нужен, удалите его профиль в Настройках.",
+  "captureRefresh": "Обновить состояние",
+  "captureRemaining": "Осталось: {seconds} с",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "Лицензии нативного захвата",
+  "captureAccessOnly": "Найден токен доступа. Завершите вход или обновление токена в мини-программе, чтобы получить учётные данные для продления.",
+  "captureCertificateRenewSoon": "Срок действия сертификата устройства истекает в течение 30 дней. Замените его заранее.",
+  "captureCertificateExpired": "Срок действия сертификата устройства истёк. Перед захватом создайте, установите и подтвердите новый сертификат.",
+  "captureLaundryIntro": "Используйте в Luotopia аккаунт мини-программы прачечной WeChat. Во время импорта локальный VPN будет работать недолго. Записи захвата никогда не отправляются на серверы Luotopia.",
+  "captureLaundryStart": "Начать импорт",
+  "captureLaundryWaiting": "Ожидание Laundry в WeChat",
+  "captureLaundryCandidate": "Сессия Laundry найдена",
+  "captureLaundryReview": "Проверить аккаунт прачечной",
+  "captureLaundryTimeout": "Сессия не найдена. Начните заново и снова откройте мини-программу Laundry в WeChat.",
+  "captureLaundryExpired": "Срок действия этого импорта истёк. Начните заново, чтобы получить новую сессию.",
+  "captureLaundryFailed": "Не удалось завершить импорт Laundry. Попробуйте ещё раз. Существующий аккаунт по-прежнему связан.",
+  "captureCertificateSetup": "Настроить сертификат устройства",
+  "captureCertificateSetupHint": "Установите и подтвердите перед первым использованием",
+  "captureCertificateFinish": "Завершить настройку сертификата"
 }

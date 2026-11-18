@@ -9157,5 +9157,105 @@
   "fitnessPass": "Réussi",
   "fitnessFail": "Échoué",
   "fitnessClear": "Vider le formulaire",
-  "fitnessClearConfirm": "Supprimer toutes les mesures et options enregistrées sur cet appareil ? Cette action est irréversible. Le sexe reviendra à la valeur du profil WHU."
+  "fitnessClearConfirm": "Supprimer toutes les mesures et options enregistrées sur cet appareil ? Cette action est irréversible. Le sexe reviendra à la valeur du profil WHU.",
+  "captureTitle": "Importer depuis WeChat",
+  "captureDebugTitle": "Diagnostic de capture locale",
+  "captureIntro": "Utilisez temporairement un VPN local pour lire uniquement le trafic du service sélectionné. Le trafic capturé n’est pas envoyé à Luotopia. Installez le certificat de cet appareil et accordez-lui une confiance totale avant la capture.",
+  "captureUnsupported": "La capture locale est disponible uniquement dans les versions iOS compatibles.",
+  "captureCertificateTitle": "Certificat de l’appareil",
+  "captureCertificatePrepare": "Préparer le certificat",
+  "captureCertificateInstall": "Démarrer l’installation du certificat",
+  "captureCertificateDownload": "Télécharger le certificat dans Safari",
+  "captureCertificateGuide": "Téléchargez le profil, installez-le dans Réglages → Général → VPN et gestion de l’appareil, puis activez la confiance totale dans Réglages → Général → Informations → Réglages de confiance des certificats. Arrêtez le service d’installation avant la capture.",
+  "captureCertificateReset": "Remplacer le certificat de l’appareil",
+  "captureCertificateResetBody": "Le nouveau certificat devra être installé et approuvé à nouveau. Supprimez l’ancien profil dans Réglages. Vos comptes liés sont conservés.",
+  "captureCertificateExpiry": "Valide jusqu’au {date}",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "Sélectionner un service",
+  "captureFixture": "Sonde HTTPS contrôlée",
+  "captureStart": "Démarrer la capture",
+  "captureStop": "Arrêter et supprimer le candidat",
+  "captureProbe": "Tester HTTPS via le proxy local",
+  "captureProbeWorking": "La sonde HTTPS a réussi. Testez chaque service réel séparément.",
+  "captureProbeFailed": "La sonde HTTPS a échoué. Vérifiez la confiance du certificat et l’état de la capture.",
+  "captureStatus": "État : {phase} · connexions : {connections} · déchiffrées : {decrypted} · correspondances : {matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "Après le démarrage, passez à WeChat et rouvrez le mini-programme de laverie jusqu’à ce que sa page de compte soit chargée. Revenez ici pour vérifier la session capturée.",
+  "captureZhiyinGuide": "Après le démarrage, passez au mini-programme Little Green et terminez la connexion ou le renouvellement du token. Ouvrir une page seul peut ne pas renvoyer de token de renouvellement. L’utilisation des deux clients peut modifier leur session partagée.",
+  "captureFixtureGuide": "Démarrez la capture, puis exécutez la sonde HTTPS. Le résultat synthétique ne modifie jamais vos comptes liés.",
+  "captureValidate": "Vérifier le compte",
+  "captureConfirm": "Confirmer l’importation",
+  "captureConfirmBody": "Importer le compte {account} ? Il remplacera le compte de laverie actuellement lié à Luotopia. Terminez toute commande de laverie en attente avant l’importation.",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "Supprimer le candidat",
+  "captureCompleted": "Terminé",
+  "captureAccount": "Compte vérifié : {account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "Impossible de terminer : {code}. Les comptes existants ont été conservés.",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "Déconnectez le VPN du campus avant de démarrer la capture locale.",
+  "captureTrustNote": "L’arrêt de la capture ne supprime pas le certificat approuvé. Supprimez son profil dans Réglages lorsque vous n’en avez plus besoin.",
+  "captureRefresh": "Actualiser l’état",
+  "captureRemaining": "Restant : {seconds} s",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "Licences de capture native",
+  "captureAccessOnly": "Un token d’accès a été trouvé. Terminez la connexion ou le renouvellement du token dans le mini-programme pour obtenir les identifiants de renouvellement.",
+  "captureCertificateRenewSoon": "Le certificat de cet appareil expire dans moins de 30 jours. Remplacez-le avant son expiration.",
+  "captureCertificateExpired": "Le certificat de cet appareil a expiré. Générez, installez et approuvez un remplacement avant de capturer.",
+  "captureLaundryIntro": "Utilisez dans Luotopia le compte du mini-programme de laverie WeChat. Un VPN local fonctionne brièvement pendant l’importation. Les enregistrements de capture ne sont jamais envoyés aux serveurs Luotopia.",
+  "captureLaundryStart": "Démarrer l’importation",
+  "captureLaundryWaiting": "En attente de Laundry dans WeChat",
+  "captureLaundryCandidate": "Session Laundry trouvée",
+  "captureLaundryReview": "Vérifier le compte de laverie",
+  "captureLaundryTimeout": "Aucune session trouvée. Recommencez et rouvrez le mini-programme Laundry dans WeChat.",
+  "captureLaundryExpired": "Cette importation a expiré. Recommencez pour obtenir une nouvelle session.",
+  "captureLaundryFailed": "L’importation de Laundry n’a pas pu aboutir. Réessayez. Votre compte existant reste lié.",
+  "captureCertificateSetup": "Configurer le certificat de l’appareil",
+  "captureCertificateSetupHint": "Installez-le et approuvez-le avant la première utilisation",
+  "captureCertificateFinish": "Terminer la configuration du certificat"
 }

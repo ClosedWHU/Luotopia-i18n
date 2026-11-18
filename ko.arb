@@ -9178,5 +9178,105 @@
   "fitnessPass": "합격",
   "fitnessFail": "불합격",
   "fitnessClear": "입력 지우기",
-  "fitnessClearConfirm": "이 기기의 측정값과 저장된 선택을 모두 삭제할까요? 되돌릴 수 없습니다. 성별은 WHU 프로필 기본값으로 돌아갑니다."
+  "fitnessClearConfirm": "이 기기의 측정값과 저장된 선택을 모두 삭제할까요? 되돌릴 수 없습니다. 성별은 WHU 프로필 기본값으로 돌아갑니다.",
+  "captureTitle": "WeChat에서 가져오기",
+  "captureDebugTitle": "로컬 캡처 진단",
+  "captureIntro": "잠시 로컬 VPN을 사용해 선택한 서비스의 트래픽만 읽습니다. 캡처한 트래픽은 Luotopia에 업로드되지 않습니다. 캡처하기 전에 이 기기의 인증서를 설치하고 완전히 신뢰하세요.",
+  "captureUnsupported": "로컬 캡처는 지원되는 iOS 빌드에서만 사용할 수 있습니다.",
+  "captureCertificateTitle": "기기 인증서",
+  "captureCertificatePrepare": "인증서 준비",
+  "captureCertificateInstall": "인증서 설치 시작",
+  "captureCertificateDownload": "Safari에서 인증서 다운로드",
+  "captureCertificateGuide": "프로파일을 다운로드해 설정 → 일반 → VPN 및 기기 관리에서 설치한 다음, 설정 → 일반 → 정보 → 인증서 신뢰 설정에서 완전한 신뢰를 켜세요. 캡처하기 전에 설치 서비스를 중지하세요.",
+  "captureCertificateReset": "기기 인증서 교체",
+  "captureCertificateResetBody": "새 인증서는 다시 설치하고 신뢰해야 합니다. 설정에서 이전 프로파일을 삭제하세요. 연결된 계정은 유지됩니다.",
+  "captureCertificateExpiry": "{date}까지 유효",
+  "@captureCertificateExpiry": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "captureServiceTitle": "서비스 선택",
+  "captureFixture": "제어된 HTTPS probe",
+  "captureStart": "캡처 시작",
+  "captureStop": "중지하고 후보 삭제",
+  "captureProbe": "로컬 proxy를 통한 HTTPS 테스트",
+  "captureProbeWorking": "HTTPS probe가 성공했습니다. 실제 서비스는 각각 따로 테스트하세요.",
+  "captureProbeFailed": "HTTPS probe에 실패했습니다. 인증서 신뢰와 캡처 상태를 확인하세요.",
+  "captureStatus": "상태: {phase} · 연결: {connections} · 복호화: {decrypted} · 일치: {matches}",
+  "@captureStatus": {
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "connections": {
+        "type": "int"
+      },
+      "decrypted": {
+        "type": "int"
+      },
+      "matches": {
+        "type": "int"
+      }
+    }
+  },
+  "captureWashingGuide": "시작한 뒤 WeChat으로 전환하고 세탁 미니 프로그램의 계정 페이지가 열릴 때까지 다시 여세요. 여기로 돌아와 캡처된 세션을 확인합니다.",
+  "captureZhiyinGuide": "시작한 뒤 Little Green 미니 프로그램으로 전환해 로그인 또는 token 갱신을 완료하세요. 페이지만 여는 것으로는 갱신 token이 반환되지 않을 수 있습니다. 두 클라이언트를 함께 사용하면 공유 세션에 영향을 줄 수 있습니다.",
+  "captureFixtureGuide": "캡처를 시작한 뒤 HTTPS probe를 실행하세요. 이 테스트 결과는 연결된 계정을 변경하지 않습니다.",
+  "captureValidate": "계정 확인",
+  "captureConfirm": "가져오기 확인",
+  "captureConfirmBody": "{account} 계정을 가져올까요? 현재 Luotopia에 연결된 세탁 계정이 이 계정으로 바뀝니다. 가져오기 전에 대기 중인 세탁 주문을 처리하세요.",
+  "@captureConfirmBody": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureDiscard": "후보 삭제",
+  "captureCompleted": "완료",
+  "captureAccount": "확인된 계정: {account}",
+  "@captureAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "captureError": "완료할 수 없습니다: {code}. 기존 계정은 유지되었습니다.",
+  "@captureError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "captureVpnConflict": "로컬 캡처를 시작하기 전에 캠퍼스 VPN 연결을 끊으세요.",
+  "captureTrustNote": "캡처를 중지해도 신뢰한 인증서는 삭제되지 않습니다. 더 이상 필요하지 않으면 설정에서 프로파일을 제거하세요.",
+  "captureRefresh": "상태 새로 고침",
+  "captureRemaining": "남은 시간: {seconds}초",
+  "@captureRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "captureLicenses": "네이티브 캡처 라이선스",
+  "captureAccessOnly": "액세스 token을 찾았습니다. 갱신 자격 증명을 얻으려면 미니 프로그램에서 로그인 또는 token 갱신을 완료하세요.",
+  "captureCertificateRenewSoon": "이 기기의 인증서는 30일 이내에 만료됩니다. 만료 전에 교체하세요.",
+  "captureCertificateExpired": "이 기기의 인증서가 만료되었습니다. 캡처하기 전에 새 인증서를 생성하고 설치한 뒤 신뢰하세요.",
+  "captureLaundryIntro": "WeChat 세탁 미니 프로그램 계정을 Luotopia에서 사용합니다. 가져오는 동안 잠시 로컬 VPN이 실행됩니다. 캡처 기록은 Luotopia 서버에 업로드되지 않습니다.",
+  "captureLaundryStart": "가져오기 시작",
+  "captureLaundryWaiting": "WeChat에서 Laundry 대기 중",
+  "captureLaundryCandidate": "Laundry 세션을 찾았습니다",
+  "captureLaundryReview": "세탁 계정 검토",
+  "captureLaundryTimeout": "세션을 찾지 못했습니다. 다시 시작하고 WeChat에서 Laundry 미니 프로그램을 다시 여세요.",
+  "captureLaundryExpired": "이 가져오기는 만료되었습니다. 새 세션을 얻으려면 다시 시작하세요.",
+  "captureLaundryFailed": "Laundry 가져오기를 완료하지 못했습니다. 다시 시도하세요. 기존 계정은 계속 연결되어 있습니다.",
+  "captureCertificateSetup": "기기 인증서 설정",
+  "captureCertificateSetupHint": "처음 사용하기 전에 설치하고 신뢰",
+  "captureCertificateFinish": "인증서 설정 종료"
 }
