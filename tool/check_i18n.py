@@ -51,7 +51,7 @@ KEEP_VALUES = {
     "Notifications", "Session", "Mobile", "Architecture", "Documents",
     "Images", "Karma", "Delta", "Regular", "Error", "General", "Actor",
     "Auto", "Satellite", "Patient", "Instructions", "Minute", "Video",
-    "Email", "Sem", "Agenda",
+    "Email", "Sem", "Agenda", "min",
     # App / product / provider brand forms
     "Luotopia", "Neo School", "Shiguang", "Starlink", "Chaoxing", "Zhihui Luojia",
     "Budao Lepao", "Huawei Watch", "MiSans", "Google Noto Sans", "aTrust VPN",

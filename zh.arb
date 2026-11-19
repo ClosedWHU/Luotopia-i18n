@@ -9405,6 +9405,15 @@
   "fitnessRun800": "800 米跑（分.秒）",
   "fitnessRun1000": "1000 米跑（分.秒）",
   "fitnessTimeHint": "4.15 表示 4 分 15 秒，不是十进制分钟；也可输入 4:15。",
+  "fitnessTimeValue": "{minutes}分{seconds}秒",
+  "@fitnessTimeValue": {
+    "placeholders": {
+      "minutes": {"type": "int"},
+      "seconds": {"type": "int"}
+    }
+  },
+  "fitnessMinuteUnit": "分",
+  "fitnessSecondUnit": "秒",
   "fitnessInvalid": "请输入有效成绩，秒数须小于 60。",
   "fitnessIncomplete": "请选择性别并填写全部项目，以计算总成绩。",
   "fitnessReference": "按照武大公开计算器：七项加权分取整后，加上最高 20 分附加分。结果仅供参考，以官方成绩为准。",

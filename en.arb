@@ -11375,6 +11375,15 @@
   "fitnessRun800": "800 m run (min.sec)",
   "fitnessRun1000": "1000 m run (min.sec)",
   "fitnessTimeHint": "4.15 means 4 minutes 15 seconds, not decimal minutes. You may also enter 4:15.",
+  "fitnessTimeValue": "{minutes} min {seconds} sec",
+  "@fitnessTimeValue": {
+    "placeholders": {
+      "minutes": {"type": "int"},
+      "seconds": {"type": "int"}
+    }
+  },
+  "fitnessMinuteUnit": "min",
+  "fitnessSecondUnit": "sec",
   "fitnessInvalid": "Enter a valid measurement; seconds must be below 60.",
   "fitnessIncomplete": "Choose a sex and complete all measurements for a total.",
   "fitnessReference": "Matches WHU's public calculator: seven weighted scores, rounded to an integer, plus up to 20 bonus points. For reference only; official results prevail.",
