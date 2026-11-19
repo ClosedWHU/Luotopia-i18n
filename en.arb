@@ -1485,6 +1485,24 @@
     }
   },
   "settingsAbout": "About",
+  "settingsAboutContributors": "Contributors",
+  "settingsContributorsTitle": "Contributors",
+  "settingsContributorsSubtitle": "Ranked by source lines retained in the current version, with removed lines credited separately to their original author and remover.",
+  "settingsContributorsHumans": "Contributors",
+  "settingsContributorsBots": "Automation",
+  "settingsContributorsCommits": "{count} commits",
+  "@settingsContributorsCommits": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "settingsContributorsError": "The contributor list is temporarily unavailable.",
+  "settingsContributorsEmpty": "No records yet.",
+  "settingsContributorsAdded": "Retained code",
+  "settingsContributorsLines": "{count} SLOC",
+  "@settingsContributorsLines": {"placeholders": {"count": {"type": "String"}}},
+  "settingsContributorsCanceledAdded": "Added then removed",
+  "settingsContributorsCanceledDeleted": "Removed code",
   "settingsAboutDevTeam": "Development Team",
   "settingsAppIcon": "App Icon",
   "settingsAppIconDefault": "Default",
@@ -6469,7 +6487,7 @@
   },
   "adminUsersTitle": "User management",
   "adminUsersSubtitle": "Search users and change roles",
-  "adminUsersSearchHint": "Search by name, username, or email (case-insensitive)",
+  "adminUsersSearchHint": "Search ID, student ID, name, username, nickname or email",
   "adminUsersFilter": "Advanced filters",
   "adminUsersFilterApply": "Apply",
   "adminUsersCollegeFilter": "College (contains)",
@@ -11372,8 +11390,8 @@
   "fitnessJump": "Standing long jump (cm)",
   "fitnessSitUps": "Sit-ups in 1 minute (reps)",
   "fitnessPullUps": "Pull-ups (reps)",
-  "fitnessRun800": "800 m run (min.sec)",
-  "fitnessRun1000": "1000 m run (min.sec)",
+  "fitnessRun800": "800 m run",
+  "fitnessRun1000": "1000 m run",
   "fitnessTimeHint": "4.15 means 4 minutes 15 seconds, not decimal minutes. You may also enter 4:15.",
   "fitnessTimeValue": "{minutes} min {seconds} sec",
   "@fitnessTimeValue": {
