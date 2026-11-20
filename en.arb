@@ -3701,26 +3701,6 @@
   "waterControlRefresh": "Refresh",
   "waterControlLoading": "Connecting to water control…",
   "waterControlRequestSuccess": "Water access code is ready",
-  "waterControlCancelTitle": "Deactivate this code?",
-  "waterControlCancelMessage": "The active code for {dormitory} will stop working immediately.",
-  "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
-      }
-    }
-  },
-  "waterControlCancelConfirm": "Deactivate",
-  "waterControlRequestConfirmTitle": "Request a water code?",
-  "waterControlRequestConfirmMessage": "A code will be issued for {dormitory}. Water is billed by usage while the valve is open.",
-  "@waterControlRequestConfirmMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
-      }
-    }
-  },
-  "waterControlRequestConfirm": "Request code",
   "waterControlCancelSuccess": "Water access code deactivated",
   "waterControlCopied": "Code copied",
   "waterControlSessionExpired": "Your WHU session expired. Please log in again under Account.",
@@ -10912,9 +10892,6 @@
   "widget_water_expired": "Code expired or cache needs verification",
   "widget_water_expires": "Estimated expiry: {time}",
   "widget_water_cancelling": "Cancelling…",
-  "widget_water_confirm_cancel": "Confirm cancellation",
-  "widget_water_keep": "Keep",
-  "widget_water_confirm_hint": "Cancel this water code?",
   "@widget_water_expires": {
     "placeholders": {
         "time": {

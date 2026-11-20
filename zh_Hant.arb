@@ -2336,13 +2336,6 @@
       }
     }
   },
-  "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
-      }
-    }
-  },
   "@waterControlCategoryInformation": {
     "description": "Water-control category for the official Wuhan University 信息学部 campus. In zh_Hant and yue_Hant use the official character-level Traditional form 信息學部. Do not rewrite it as 資訊學部."
   },
@@ -6384,20 +6377,7 @@
   "waterControlActiveBadge": "有效",
   "waterControlActiveCode": "目前的取水碼",
   "waterControlCancelCode": "停用取水碼",
-  "waterControlCancelConfirm": "確認停用",
-  "waterControlRequestConfirmTitle": "申請取水碼？",
-  "waterControlRequestConfirmMessage": "將為 {dormitory} 產生取水碼，出水期間依用量計費。",
-  "@waterControlRequestConfirmMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
-      }
-    }
-  },
-  "waterControlRequestConfirm": "確認申請",
-  "waterControlCancelMessage": "{dormitory} 目前的取水碼將立即失效。",
   "waterControlCancelSuccess": "取水碼已停用",
-  "waterControlCancelTitle": "停用此取水碼？",
   "waterControlCancelling": "正在停用…",
   "waterControlCategoryEngineering": "工學部",
   "waterControlCategoryFengGarden": "楓園",
@@ -9380,9 +9360,6 @@
   "widget_water_expired": "取水碼已過期或快取待核驗",
   "widget_water_expires": "預計到期：{time}",
   "widget_water_cancelling": "取消中…",
-  "widget_water_confirm_cancel": "確認取消",
-  "widget_water_keep": "保留",
-  "widget_water_confirm_hint": "確定取消此取水碼？",
   "cardTransactionsTitle": "帳單流水",
   "cardTransactionsHint": "按所選日期查看消費、儲值與其他交易。",
   "cardTransactionsEmpty": "此日期區間暫無流水",

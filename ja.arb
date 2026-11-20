@@ -3167,26 +3167,6 @@
   "waterControlRefresh": "更新",
   "waterControlLoading": "給水サービスに接続中…",
   "waterControlRequestSuccess": "給水コードを発行しました",
-  "waterControlCancelTitle": "このコードを無効にしますか？",
-  "waterControlCancelMessage": "{dormitory}の有効なコードはすぐに使えなくなります。",
-  "@waterControlCancelMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
-      }
-    }
-  },
-  "waterControlCancelConfirm": "無効にする",
-  "waterControlRequestConfirmTitle": "給水コードを申請しますか？",
-  "waterControlRequestConfirmMessage": "{dormitory} の給水コードを発行します。給水中は使用量に応じて課金されます。",
-  "@waterControlRequestConfirmMessage": {
-    "placeholders": {
-      "dormitory": {
-        "type": "String"
-      }
-    }
-  },
-  "waterControlRequestConfirm": "コードを申請",
   "waterControlCancelSuccess": "給水コードを無効にしました",
   "waterControlCopied": "コードをコピーしました",
   "waterControlSessionExpired": "WHUのセッションの有効期限が切れました。「アカウント」から再度ログインしてください。",
@@ -8868,9 +8848,6 @@
   "widget_water_expired": "コードの有効期限切れ、またはキャッシュの確認が必要",
   "widget_water_expires": "有効期限（推定）：{time}",
   "widget_water_cancelling": "無効化中…",
-  "widget_water_confirm_cancel": "無効化を確認",
-  "widget_water_keep": "保持",
-  "widget_water_confirm_hint": "この給水コードを無効化しますか？",
   "cardTransactionsTitle": "取引履歴",
   "cardTransactionsHint": "選択した期間の支出、チャージ、その他の取引を確認できます。",
   "cardTransactionsEmpty": "この期間の取引はありません",
