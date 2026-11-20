@@ -11514,5 +11514,99 @@
   "courseImportShareCodeFailed": "Check the share code and your connection, then try again.",
   "medicalSendCodeFailed": "Could not send the verification code.",
   "medicalBindFailed": "Could not bind this card.",
-  "voteTicketRequestFailed": "The ticket request failed. Try again later."
+  "voteTicketRequestFailed": "The ticket request failed. Try again later.",
+  "campusMapManeuverOnRoad": "{action} onto {road}",
+  "campusMapManeuverAhead": "In {meters} metres, {instruction}",
+  "campusMapNavigationStartedCue": "Starting navigation. {instruction}",
+  "campusMapManeuver": "{maneuver, select, left {Turn left} right {Turn right} sharpLeft {Turn sharply left} sharpRight {Turn sharply right} slightLeft {Bear left} slightRight {Bear right} uTurn {Make a U-turn} roundabout {Enter the roundabout} exitRoundabout {Exit the roundabout} straight {Continue straight} other {Follow the route}}",
+  "@campusMapManeuverOnRoad": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "road": {
+        "type": "String"
+      }
+    }
+  },
+  "@campusMapManeuverAhead": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      },
+      "instruction": {
+        "type": "String"
+      }
+    }
+  },
+  "@campusMapNavigationStartedCue": {
+    "placeholders": {
+      "instruction": {
+        "type": "String"
+      }
+    }
+  },
+  "@campusMapManeuver": {
+    "placeholders": {
+      "maneuver": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalClinicDepartment": "{department, select, internalMedicine {Internal medicine} surgery {Surgery} gynecology {Gynecology} ophthalmology {Ophthalmology} dentistry {Dentistry} ent {Ear, nose and throat} dermatology {Dermatology} rehabilitation {Traditional Chinese medicine and rehabilitation} specialist {Specialist clinic} luojia {Luojia Clinic} psychiatry {Psychiatry} ultrasound {Ultrasound imaging} ecg {Electrocardiography} lab {Laboratory} radiology {Radiology} generalMedicine {General medicine} herbalPreparation {Herbal decoction service} ultrasoundRoom {Ultrasound room} publicHealth {Public health} mentalHealth {Mental health clinic} officeHours {Opening hours} rehabilitationClinic {Traditional Chinese medicine and rehabilitation} other {Opening hours}}",
+  "@medicalClinicDepartment": {
+    "placeholders": {
+      "department": {
+        "type": "String"
+      }
+    }
+  },
+  "medicalClinicSummerHours": "{hours} (summer hours)",
+  "medicalClinicWinterHours": "{hours} (winter hours)",
+  "medicalClinicAroundTheClock": "Open 24 hours",
+  "medicalClinicHolidayHours": "Public holidays: {hours}",
+  "medicalClinicWeekdays": "Weekdays",
+  "medicalClinicPsychiatryDays": "Monday and Friday mornings; Tuesday to Thursday all day",
+  "medicalClinicHolidayHeading": "Public holidays",
+  "medicalClinicWeekendHours": "Saturday and Sunday: {hours}",
+  "medicalClinicHolidaysSeparate": "Public holiday hours announced separately",
+  "medicalClinicWeekendAndHolidayHours": "Weekends and public holidays: {hours}",
+  "medicalClinicClosedThursday": "Closed Thursday. Other days:",
+  "medicalClinicFridayAfternoon": "Friday afternoons only",
+  "medicalClinicAfternoon": "Afternoons only",
+  "@medicalClinicSummerHours": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "@medicalClinicWinterHours": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "@medicalClinicHolidayHours": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "@medicalClinicWeekendHours": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "@medicalClinicWeekendAndHolidayHours": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  }
 }
