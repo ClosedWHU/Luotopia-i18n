@@ -11479,5 +11479,40 @@
   "captureLaundryFailed": "Laundry import couldn’t finish. Try again. Your existing account is still linked.",
   "captureCertificateSetup": "Set up device certificate",
   "captureCertificateSetupHint": "Install and trust before first use",
-  "captureCertificateFinish": "End certificate setup"
+  "captureCertificateFinish": "End certificate setup",
+  "schoolNetVerifyMissingCredentials": "Enter your account and password.",
+  "schoolNetVerifyAlreadyOnline": "You’re already online. To authenticate on campus Wi-Fi, turn off mobile data or choose to stay connected to campus Wi-Fi, then try again.",
+  "schoolNetVerifyPortalNotFound": "Campus network portal not found. Connect to campus Wi-Fi and try again.",
+  "schoolNetVerifyMissingParameters": "Could not obtain this device’s authentication parameters. Use the web portal to sign in.",
+  "schoolNetVerifyUnavailable": "Campus network authentication is temporarily unavailable. Try again later.",
+  "schoolNetVerifyRejected": "Authentication was rejected. Check your account, password and service plan.",
+  "schoolNetVerifyTimedOut": "Campus network authentication timed out. Try again later.",
+  "schoolNetVerifyNotYetOnline": "The request was submitted, but this device is still offline. Try again later.",
+  "schoolNetVerifyNetworkError": "Could not reach the authentication service. Check your campus Wi-Fi connection.",
+  "aiAttachmentSizeLimit": "The attachment exceeds the 50 MB limit.",
+  "aiAttachmentFilenameMissing": "The attachment has no filename.",
+  "aiImagePromptMissing": "Enter an image description.",
+  "aiImageUnsupported": "This model or provider does not support image generation.",
+  "aiImageInvalidCount": "Choose between 1 and 4 images.",
+  "aiImageDownloadFailed": "Could not download the generated image.",
+  "aiImageReferenceUnsupported": "This provider does not support image editing. Remove the reference image and try again.",
+  "aiImageServerError": "The image service returned HTTP {statusCode}.",
+  "aiImageInvalidResponse": "The image service returned an invalid response.",
+  "aiImageNoResult": "The service returned no images to display.",
+  "medicalInvoicesAwaitingPayment": "Awaiting payment",
+  "medicalReportReady": "Ready",
+  "desktopTrayQuit": "Quit",
+  "@aiImageServerError": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "desktopTrayOpenApp": "Open Luotopia",
+  "courseImportInvalidTimetable": "Check that the file contains a valid timetable and try again.",
+  "courseImportShareCodeFailed": "Check the share code and your connection, then try again.",
+  "medicalSendCodeFailed": "Could not send the verification code.",
+  "medicalBindFailed": "Could not bind this card.",
+  "voteTicketRequestFailed": "The ticket request failed. Try again later."
 }
