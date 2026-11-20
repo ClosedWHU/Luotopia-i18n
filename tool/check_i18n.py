@@ -3,8 +3,8 @@
 
 Two classes of filler are forbidden:
 
-1. English filler — a non-Chinese locale (ja/ko/es/fr/vi/pt/ru) whose value is
-   a verbatim copy of the English template (en.arb).
+1. English filler — a translated locale whose value is a verbatim copy of the
+   English template (en.arb).
 2. Simplified-Chinese filler — a Traditional locale (zh_Hant / yue_Hant) whose
    value is a verbatim copy of the Simplified reference (zh.arb) and contains
    simplified-only glyphs. yue_Hans (Cantonese in simplified script) is not
@@ -37,8 +37,11 @@ ARB_DIR = Path(__file__).resolve().parent.parent
 
 TEMPLATE = "en"
 SIMPLIFIED = "zh"
-NON_CHINESE_LOCALES = ["ja", "ko", "es", "fr", "vi", "pt", "ru"]
-CHINESE_LOCALES = ["zh_Hant", "yue_Hant"]
+TRANSLATED_LOCALES = [
+    "es", "fr", "ja", "ko", "pt", "ru", "vi", "zh", "zh_Hant", "yue_Hans",
+    "yue_Hant",
+]
+TRADITIONAL_LOCALES = {"zh_Hant", "yue_Hant"}
 
 # Values whose English spelling is correct in every locale. Mirrors the
 # ``@@keep-english`` note: Latin loanwords / technical terms, brand names,
@@ -49,7 +52,7 @@ KEEP_VALUES = {
     "Total", "Original", "Manual", "Campus", "Audio", "Info", "Distance",
     "Status", "Date", "Version", "Type", "Source", "Forum", "Messages",
     "Notifications", "Session", "Mobile", "Architecture", "Documents",
-    "Images", "Karma", "Delta", "Regular", "Error", "General", "Actor",
+    "Images", "Karma", "Delta", "Regular", "Error", "General",
     "Auto", "Satellite", "Patient", "Instructions", "Minute", "Video",
     "Email", "Sem", "Agenda", "min",
     # App / product / provider brand forms
@@ -80,7 +83,7 @@ KEEP_VALUES = {
     "Auth Epoch", "Logs", "Pause", "Bio", "Spam", "Webmail", "QR code",
     "Check-in", "Local", "Cloud", "Message…", "Menu", "Quiz", "Photo",
     "Volume", "Transport", "Description", "Classification", "Publication",
-    "Discussion", "Administration", "Target", "Reason", "Updated", "Job",
+    "Discussion", "Administration", "Target", "Reason", "Job",
     "Inactive", "Active", "Correct", "Point", "Escalator", "Permanent",
     "Maximum", "Minimum", "Points", "Cadence", "Distance (km)", "Microphone",
     "Photos", "Assistant", "Conversations", "Important", "No", "—",
@@ -154,7 +157,7 @@ def check_locale(
     violations: list[str] = []
     scope = keys if keys is not None else set(locale_values)
 
-    if locale in CHINESE_LOCALES:
+    if locale in TRADITIONAL_LOCALES:
         for key in scope:
             if key not in locale_values or key not in simplified:
                 continue
@@ -172,8 +175,6 @@ def check_locale(
                 f"{locale}.arb: {key} copies Simplified Chinese "
                 f"({simplified[key]!r})"
             )
-        return violations
-
     for key in scope:
         if key not in locale_values or key not in template:
             continue
@@ -228,7 +229,7 @@ def main() -> int:
         return 0
 
     violations: list[str] = []
-    for locale in NON_CHINESE_LOCALES + CHINESE_LOCALES:
+    for locale in TRANSLATED_LOCALES:
         keys = staged.get(locale) if staged else None
         if staged and keys is None:
             continue
