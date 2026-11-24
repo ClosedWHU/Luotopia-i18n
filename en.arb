@@ -11355,10 +11355,16 @@
   "fitnessMinuteUnit": "min",
   "fitnessSecondUnit": "sec",
   "fitnessInvalid": "Enter a valid measurement; seconds must be below 60.",
-  "fitnessIncomplete": "Choose a sex and complete all measurements for a total.",
+  "fitnessIncomplete": "Choose a sex and complete all required measurements for a total.",
+  "fitnessOptional": "Optional; left blank, this contributes 0 points.",
+  "fitnessRequired": "Enter {field}.",
+  "@fitnessRequired": {
+    "placeholders": {
+      "field": {"type": "String"}
+    }
+  },
   "fitnessReference": "Matches WHU's public calculator: seven weighted scores, rounded to an integer, plus up to 20 bonus points. For reference only; official results prevail.",
-  "fitnessExcellent": "Excellent",
-  "fitnessGood": "Good",
+  "fitnessConditionalPass": "Pass, below the fitness standard",
   "fitnessPass": "Pass",
   "fitnessFail": "Fail",
   "fitnessClear": "Clear form",
